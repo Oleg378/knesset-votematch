@@ -71,20 +71,21 @@ def ask_one(q, n, total):
         if a is not None: return a
         say("Enter 2, 1, 0, -1, -2 or ?.")
 
-def flow(ctx, ans, shown, n_clarify, fctx):
-    """Core statements, then up to n_clarify clarifying ones (None = until the pool ends). shown: statements already shown, in
-    order (answered or skipped). Back («<») removes the last shown statement and its answer; the next one is then recomputed."""
-    say("\nAnswer each statement: 2 — strongly agree, 1 — somewhat agree, 0 — neutral, -1 — somewhat disagree,\n"
-        "-2 — strongly disagree, ? — don't know. Enter — skip, < — back, q — finish answering.")
+def flow(ctx, ans, shown, until, fctx):
+    """Core statements, then clarifying ones: until="rule" — until quiz_flow.should_stop (fixed number or stopping rule, FLOW),
+    until=None — until the pool ends («answer more»). shown: statements already shown, in order (answered or skipped).
+    Back («<») removes the last shown statement and its answer; the next one is then recomputed."""
+    say("\nAnswer each statement: 2 — strongly agree, 1 — agree, 0 — neutral, -1 — disagree, -2 — strongly disagree,\n"
+        "? — don't know. Enter — skip, < — back, q — finish answering.")
     core = fctx["core"]
-    start = sum(1 for q in shown if q not in core)
+    fixed = qf.FLOW["stop_gap"] is None
+    total = len(core) + qf.FLOW["clarify"] if until == "rule" and fixed else None
     while True:
         rest = [q for q in core if q not in shown and q not in ans]
-        n_cl = sum(1 for q in shown if q not in core) - start
-        if rest: nq, total = rest[0], len(core) + (n_clarify or 0)
-        elif n_clarify is not None and n_cl >= n_clarify: return
+        if rest: nq = rest[0]
+        elif until == "rule" and qf.should_stop(ans, len(shown), qf.FLOW): return
         else:
-            nq = qf.next_clarify(ans, set(shown) | set(ans), ctx=fctx["ctx"]); total = len(core) + n_clarify if n_clarify else None
+            nq = qf.next_clarify(ans, set(shown) | set(ans), ctx=fctx["ctx"])
             if nq is None: say("\nNo more questions."); return
         a = ask_one(ctx["title"][nq], len(shown) + 1, total)
         if a == "<":
@@ -190,7 +191,7 @@ def main():
     if args.all: regular(ctx, ans)
     else:
         c = qf._ctx(); fctx = {"ctx": c, "core": qf.core(ctx=c)}; shown = []
-        flow(ctx, ans, shown, qf.FLOW["clarify"], fctx)
+        flow(ctx, ans, shown, "rule", fctx)
     if not any(v != "dk" for v in ans.values()): say("No answers — nothing to compute."); return
     exchange(ctx, ans, mult, done)
     path = None

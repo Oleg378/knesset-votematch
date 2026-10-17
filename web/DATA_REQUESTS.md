@@ -28,4 +28,5 @@ The customer approved a new flow: not every statement, but N core statements (sa
 chosen one at a time from the answers so far, then up to T trade-offs; «answer more» continues clarifying questions.
 Reference: `pipeline/quiz_flow.py` (`FLOW`, `core()`, `next_clarify()`), terminal UX in `pipeline/quiz_cli.py`.
 v2 will carry `flow` (the numbers) and the core order; the clarifying choice must be ported to TS and is covered by golden
-cases. Numbers must not be hard-coded on the web (now 5 + 5 + 5, may become e.g. 8 + 4 + 2).
+cases. Numbers must not be hard-coded on the web (now 8 + 7 + up to 5 trade-offs, decided 2026-10-18; may change). An optional
+stopping rule (`should_stop`: stop_gap / min_questions / max_questions) exists but is off.

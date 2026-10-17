@@ -3,13 +3,13 @@
 The quiz no longer asks every statement. It asks
   1. CORE      — the same N statements for everyone, chosen from the data: the ones that separate the evaluated lists most,
                  from different topics (not near-duplicates of each other) and at most half on the government axis;
-  2. CLARIFY   — N statements chosen one at a time after each answer: the one on which the lists closest to the user so far
-                 differ most;
+  2. CLARIFY   — statements chosen one at a time after each answer: the one on which the lists closest to the user so far
+                 differ most; a fixed number, or until the leader is ahead of the second list by stop_gap (should_stop);
   3. TRADE     — up to N trade-off questions (quiz_match.tradeoffs, unchanged).
 After that the user may answer more (MORE: clarifying questions continue until the pool is exhausted).
 Matching itself is unchanged (quiz_match.match): closeness is computed over whatever was answered.
 
-All parameters are in FLOW; e.g. 8 + 4 + 2 is FLOW = {**FLOW, "core": 8, "clarify": 4, "trade": 2}. The export carries FLOW,
+All parameters are in FLOW (now 8 + 7 + up to 5 trade-offs); e.g. 5 + 10 + 2 is FLOW = {**FLOW, "core": 5, "clarify": 10, "trade": 2}. The export carries FLOW,
 so the web reads the same numbers.
 
 Definitions (lists = evaluated lists, status ok; p = list position on the statement's direction after shrinkage, quiz_match):
@@ -28,13 +28,19 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import quiz_match as qm
 
 FLOW = {
-    "core": 5,            # [У] 2026-10-18: 5 + 5 + 5
-    "clarify": 5,
+    "core": 8,            # [У] 2026-10-18: 8 core + 7 clarifying (local/research/scripts/flow_core_clar.py: clarifying questions add
+    "clarify": 7,         # most after a core of 5–9; 15 questions ≈ 0.81 own list 1st / 0.94 top 3 at 10 % inconsistent answers)
     "trade": 5,           # at most; asked only if it can change the top 5 (quiz_match.tradeoffs)
     "core_r_max": 0.8,    # [А] core statements must not repeat each other's list order
     "core_gov_share": 0.5,   # [У] 2026-10-18: at most half of the core on the government axis (5 -> 2, 6 -> 3)
     "gov_r": 0.8,         # as quiz_select.GOV_R
     "clarify_top": 4,     # [А] lists compared when choosing the next clarifying question
+    # stopping rule (2026-10-18, values pending the simulation local/research/scripts/flow_stop.py): with stop_gap set, clarifying
+    # questions go on until the leader's closeness exceeds the second list's by stop_gap (after at least min_questions), or
+    # max_questions are asked; with stop_gap None the fixed number «clarify» is used.
+    "stop_gap": None,
+    "min_questions": 10,
+    "max_questions": 30,
 }
 
 def _ctx(k=qm.K):
@@ -73,6 +79,15 @@ def core(flow=FLOW, ctx=None):
             continue
         out.append(q); dirs.add(d); ngov += on_gov
     return out
+
+def should_stop(answers, n_asked, flow=FLOW, mult=None):
+    """True when no more clarifying questions are needed. n_asked: core + clarifying statements shown so far."""
+    if flow["stop_gap"] is None: return n_asked >= flow["core"] + flow["clarify"]
+    if n_asked >= flow["max_questions"]: return True
+    if n_asked < flow["min_questions"]: return False
+    rows = [r for r in qm.match(answers, mult=mult) if r["closeness"] is not None and r["closeness"] == r["closeness"]
+            and r["coverage"] >= qm.MIN_COVERAGE]
+    return len(rows) > 1 and rows[0]["closeness"] - rows[1]["closeness"] >= flow["stop_gap"]
 
 def next_clarify(answers, asked, flow=FLOW, mult=None, ctx=None):
     """The next clarifying statement, or None when the pool is exhausted. asked: statements already shown (answered or skipped)."""
