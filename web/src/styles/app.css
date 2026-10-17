@@ -16,6 +16,9 @@ body {
   font-family: var(--font-family);
   font-size: var(--font-size-md);
   line-height: var(--line-height-body);
+  /* As Figma renders: without it macOS browsers draw strokes ~6–13 % heavier than the mockup. No effect on iOS. */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1,
@@ -39,12 +42,41 @@ button {
   max-width: var(--column-max);
   margin: 0 auto;
   min-height: 100dvh;
-  /* Safe areas (notch, home indicator) with viewport-fit=cover */
-  padding: calc(var(--space-4) + env(safe-area-inset-top)) calc(var(--gutter) + env(safe-area-inset-right))
-    calc(var(--space-7) + env(safe-area-inset-bottom)) calc(var(--gutter) + env(safe-area-inset-left));
+  /* Figma frames: status bar (62) on top, «Home Indicator» (34) at the bottom — these are the safe areas
+     (viewport-fit=cover). In a browser its toolbars cover them and the insets are 0, so nothing is added twice.
+     Top: safe area + 8 (Figma «Layout & Spacing», customer 2026-10-17). Bottom: the bottom bars add their own 16. */
+  padding: calc(env(safe-area-inset-top) + var(--space-2)) calc(var(--gutter) + env(safe-area-inset-right))
+    env(safe-area-inset-bottom) calc(var(--gutter) + env(safe-area-inset-left));
   display: flex;
   flex-direction: column;
   gap: var(--space-4);
+}
+
+/* Card mode (width ≥ 600 and height ≥ 480 — Material 3 «medium» width and up, not «compact» height): the mobile column
+   is a white card on the brand tint, so the window is not empty around it (customer 2026-10-17, variant C). Below
+   either point — phones, phones in landscape, strong zoom — the plain phone layout. */
+@media (min-width: 600px) and (min-height: 480px) {
+  body {
+    background: linear-gradient(var(--color-accent-soft), var(--color-accent-soft)), var(--color-bg); /* Brand / Tint 10% */
+  }
+
+  /* The card keeps the phone proportions: the Figma screen height, never stretched to a tall window (it is centred).
+     Lower windows first lose margin (32 → 16, --desktop-gap), then the space above the buttons (158 → 64); when even
+     that does not fit, the page scrolls and the bottom buttons stick with a fade. */
+  #root {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .app {
+    min-height: min(var(--desktop-card-height), calc(100dvh - 2 * var(--desktop-gap)));
+    margin-block: var(--desktop-gap);
+    background: var(--color-bg);
+    border-radius: var(--radius-desktop);
+    box-shadow: var(--shadow-desktop);
+  }
 }
 
 .screen {
@@ -84,7 +116,7 @@ button {
 .title-xl {
   font-family: var(--font-family-display);
   font-size: var(--font-size-2xl);
-  line-height: var(--line-height-heading);
+  line-height: var(--line-height-title-lg);
   font-weight: var(--font-weight-regular);
   color: var(--color-text-strong);
 }
@@ -92,7 +124,7 @@ button {
 .title-lg {
   font-family: var(--font-family-display);
   font-size: var(--font-size-xl);
-  line-height: var(--line-height-heading);
+  line-height: var(--line-height-title-md);
   font-weight: var(--font-weight-regular);
   color: var(--color-text-strong);
 }
@@ -100,13 +132,14 @@ button {
 .title-md {
   font-family: var(--font-family-display);
   font-size: var(--font-size-lg);
-  line-height: var(--line-height-tight);
+  line-height: var(--line-height-question);
   font-weight: var(--font-weight-regular);
   color: var(--color-text-strong);
 }
 
 .eyebrow {
   font-size: var(--font-size-eyebrow);
+  line-height: var(--line-height-eyebrow);
   font-weight: var(--font-weight-bold);
   letter-spacing: var(--letter-spacing-eyebrow);
   text-transform: uppercase;
@@ -140,7 +173,7 @@ button {
 .statement-text {
   font-family: var(--font-family-display);
   font-size: var(--font-size-lg);
-  line-height: var(--line-height-tight);
+  line-height: var(--line-height-question);
   font-weight: var(--font-weight-regular);
   color: var(--color-text-strong);
 }
@@ -156,7 +189,7 @@ button {
   border-radius: var(--radius-full);
   border: 0;
   font-size: var(--font-size-md);
-  line-height: var(--line-height-tight);
+  line-height: var(--line-height-button);
   font-weight: var(--font-weight-bold);
   cursor: pointer;
   text-align: center;
@@ -165,6 +198,7 @@ button {
 .btn-primary {
   background: var(--color-accent);
   color: var(--color-accent-text);
+  letter-spacing: var(--letter-spacing-action);
 }
 
 .btn-primary:disabled {
@@ -217,7 +251,7 @@ button {
   text-align: center;
   cursor: pointer;
   font-size: var(--font-size-md);
-  line-height: var(--line-height-tight);
+  line-height: var(--line-height-button);
   font-weight: var(--font-weight-bold);
 }
 
@@ -246,7 +280,8 @@ button {
   align-items: center;
   gap: var(--space-3);
   min-height: var(--tap-min);
-  margin-inline-start: calc(-1 * var(--space-2));
+  /* Figma: the 24 px icon lines up with the text column, its 44 px tap area hangs out to the left. */
+  margin-inline-start: calc((24px - var(--tap-min)) / 2);
 }
 
 .icon-btn {
@@ -300,14 +335,20 @@ button {
   gap: var(--space-1);
 }
 
-/* Panel: the tinted block behind a question and its answers */
+/* Panel: the tinted block behind a question and its answers. Figma: no gap between its blocks — the spacing comes from
+   the blocks themselves (statement padding 8 8 24, «or» padding, 44 px skip link). */
 .panel {
   background: var(--color-accent-soft);
   border-radius: var(--radius-lg);
   padding: var(--space-20) var(--panel-pad-x);
   display: flex;
   flex-direction: column;
-  gap: var(--space-2);
+  gap: 0;
+}
+
+/* Question screen: 32 between the top row and the card (customer 2026-10-17; the mockup has 37) = screen gap 16 + 16 */
+.question {
+  padding-top: var(--space-4);
 }
 
 button.card {
@@ -556,16 +597,31 @@ a {
   outline: none;
 }
 
-/* Bottom bar (Figma «Frame 2»): Round Button + Action «Next» */
+/* Bottom bar (Figma «Frame 2»): Round Button + Action «Next», 16 px above the home indicator. The screen's bottom safe
+   area moves inside the bar (negative margin), so a stuck bar still clears the home indicator. */
 .bottom-bar {
   position: sticky;
   bottom: 0;
   margin-top: auto;
+  margin-bottom: calc(-1 * env(safe-area-inset-bottom));
   display: flex;
   gap: var(--space-3);
   align-items: flex-end;
-  padding: var(--space-3) 0 calc(var(--space-3) + env(safe-area-inset-bottom));
+  padding: var(--space-3) 0 calc(var(--space-4) + env(safe-area-inset-bottom));
   background: var(--color-bg);
+}
+
+/* Bottom buttons that stick over scrolling content: the content fades out instead of being cut by a hard edge. Over
+   empty space (when everything fits) the fade is white on white and invisible. */
+.bottom-bar::before,
+.start .sticky-actions::before {
+  content: '';
+  position: absolute;
+  inset-inline: 0;
+  bottom: 100%;
+  height: var(--cta-fade);
+  background: linear-gradient(to bottom, transparent, var(--color-bg));
+  pointer-events: none;
 }
 
 .round-btn {
@@ -592,6 +648,11 @@ a {
   color: var(--color-text-faint);
   font-size: var(--font-size-xs);
   line-height: var(--line-height-caption);
+}
+
+/* Clarifying question: «or» between card B and «=» — 12 above and below (Figma) = card gap 8 + 4 */
+.stack > .or-divider {
+  padding-block: var(--space-1);
 }
 
 .or-divider::before,
@@ -678,8 +739,26 @@ a {
 }
 
 /* Start (Figma «Home») */
+/* Figma gaps: header → hero 28, hero → tagline 28, tagline → chips 20, chips → steps 28 (screen gap 16 + margins). */
 .start {
-  padding-top: var(--space-5);
+  padding-top: var(--space-3);
+}
+
+/* Home actions: on a tall screen the spacer pins them to the bottom (16 above the safe area, general Figma rule); when the
+   content does not fit they stick to the bottom of the screen with a fade, like .bottom-bar (customer 2026-10-17,
+   «версия Б»). The screen's bottom safe area moves inside the group, as in .bottom-bar. */
+.start .sticky-actions {
+  position: sticky;
+  bottom: 0;
+  background: var(--color-bg);
+  padding-top: var(--space-3);
+  padding-bottom: calc(var(--space-4) + env(safe-area-inset-bottom));
+  margin-bottom: calc(-1 * env(safe-area-inset-bottom));
+}
+
+/* At least --cta-min-gap between the steps and the buttons: screen gap 16 + this margin + the group's padding 12 */
+.start .steps {
+  margin-bottom: calc(var(--cta-min-gap) - var(--space-4) - var(--space-3));
 }
 
 .hero {
@@ -693,10 +772,12 @@ a {
   min-width: 0;
 }
 
+/* 150 px as in Figma; on phones narrower than ~390 px it shrinks so the title keeps two lines (customer 2026-10-17) */
 .hero-graphic {
   flex: none;
-  width: var(--hero-size);
-  height: var(--hero-size);
+  width: min(var(--hero-size), calc(100% - var(--hero-title-min) - var(--space-1)));
+  height: auto;
+  aspect-ratio: 1;
 }
 
 .tagline {
@@ -711,6 +792,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2);
+  margin-top: var(--space-1);
 }
 
 .chip {
@@ -773,16 +855,17 @@ a {
   width: min(var(--menu-width), 85vw);
   display: flex;
   flex-direction: column;
-  padding: calc(var(--space-4) + env(safe-area-inset-top)) var(--space-5)
-    calc(var(--space-5) + env(safe-area-inset-bottom));
+  /* Same top as the screen (.app), so the close button sits exactly where the burger is */
+  padding: calc(env(safe-area-inset-top) + var(--space-2)) var(--space-5) calc(var(--space-4) + env(safe-area-inset-bottom));
   background: var(--color-surface);
   border-start-end-radius: var(--radius-lg);
   border-end-end-radius: var(--radius-lg);
   overflow-y: auto;
 }
 
+/* Same point as the burger: 24 px icon on the text column, the 44 px tap area hangs out to the left */
 .menu .icon-btn {
-  margin-inline-start: calc(-1 * var(--space-2));
+  margin-inline-start: calc((24px - var(--tap-min)) / 2);
 }
 
 .menu-title {
@@ -796,7 +879,7 @@ a {
   border: 0;
   height: var(--border-width);
   margin: var(--space-4) 0;
-  background: var(--color-accent-soft);
+  background: var(--color-accent-soft); /* 10 % as in the Menu frame (customer 2026-10-17; the color sheet says 20 %) */
 }
 
 .menu-items {
@@ -815,7 +898,7 @@ a {
   text-align: start;
   cursor: pointer;
   font-size: var(--font-size-md);
-  line-height: var(--line-height-tight);
+  line-height: var(--line-height-button);
   font-weight: var(--font-weight-medium);
   color: var(--color-text-strong);
 }
@@ -823,4 +906,15 @@ a {
 .menu-item:disabled {
   cursor: default;
   opacity: 0.4;
+}
+
+/* Card mode (see .app above): the menu opens inside the card, not from the window edge; the dim covers the whole window */
+@media (min-width: 600px) and (min-height: 480px) {
+  .menu {
+    /* matches a centred card of --desktop-card-height; a taller card is scrolled, and the menu fills the window */
+    inset-block: max(var(--desktop-gap), calc((100dvh - var(--desktop-card-height)) / 2));
+    inset-inline-start: calc(50% - var(--column-max) / 2);
+    border-start-start-radius: var(--radius-desktop);
+    border-end-start-radius: var(--radius-desktop);
+  }
 }

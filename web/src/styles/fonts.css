@@ -1,0 +1,12 @@
+/*
+ * Fraunces as a variable font: optical size follows the font size, as in Figma («opsz авто»).
+ * Bundled, no third-party requests (DECISIONS.md B.1). The file is a subset made by scripts/subset-fraunces.mjs:
+ * opsz axis kept; WONK 1, SOFT 0, wght 400 pinned — every Fraunces style in Figma «Colors & Typography»; Latin UI only.
+ */
+@font-face {
+  font-family: 'Fraunces Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('../assets/fonts/fraunces-opsz.woff2') format('woff2-variations');
+}

@@ -5,7 +5,7 @@ import { S } from './strings';
 import '@fontsource/plus-jakarta-sans/latin-400.css';
 import '@fontsource/plus-jakarta-sans/latin-500.css';
 import '@fontsource/plus-jakarta-sans/latin-600.css';
-import '@fontsource/fraunces/latin-400.css';
+import './styles/fonts.css';
 import './styles/tokens.css';
 import './styles/app.css';
 

@@ -11,7 +11,7 @@ export function QuestionScreen({ data, state, dispatch }: ScreenProps & { i: num
   const st = data.statements[state.screen.i]!;
   const current = state.answers[st.q];
   return (
-    <section className="screen">
+    <section className="screen question">
       {state.notice === 'noAnswers' && <Note>{S.question.noAnswers}</Note>}
       <div className="panel">
         <h2 className="statement-text statement">{st.statement_en}</h2>

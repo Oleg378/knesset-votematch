@@ -14,10 +14,10 @@
   --color-text-muted: #595e6b; /* text/secondary */
   --color-text-faint: #8a8f9c; /* text/tertiary */
   --color-icon: #111111; /* icon/primary */
-  --color-border: rgba(0, 56, 184, 0.2); /* «Or divider» line */
+  --color-border: rgba(0, 56, 184, 0.2); /* Brand / Line 20%: «or» dividers */
   --color-accent: #0038b8; /* brand/primary */
   --color-accent-text: #ffffff; /* text/on-primary */
-  --color-accent-soft: rgba(0, 56, 184, 0.1); /* panels, chips, progress track, letter badge */
+  --color-accent-soft: rgba(0, 56, 184, 0.1); /* Brand / Tint 10%: panels, chips, progress track, letter badge, menu line */
   --color-accent-disabled: #b3c3ec; /* brand/disabled */
   --color-positive: #0038b8; /* not in Figma: closeness bar > 0 uses brand */
   --color-negative: #595e6b; /* not in Figma: closeness bar < 0 uses text/secondary (text/tertiary is under 3:1 on the track) */
@@ -29,24 +29,30 @@
   /* type */
   --font-family: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans Hebrew', 'Arial Hebrew',
     Arial, sans-serif;
-  --font-family-display: 'Fraunces', Georgia, 'Times New Roman', 'Noto Serif Hebrew', 'Noto Sans Hebrew', 'Arial Hebrew',
+  --font-family-display: 'Fraunces Variable', Georgia, 'Times New Roman', 'Noto Serif Hebrew', 'Noto Sans Hebrew', 'Arial Hebrew',
     serif;
+  /* Figma «Colors & Typography» (node 20:133). Line heights are exact Figma px / font size. */
   --font-size-xs: 0.8125rem; /* 13 — Caption 13/18, Chip 13/20 */
   --font-size-sm: 0.9375rem; /* 15 — Label/Strong, Label/Medium 15/20, Body/Default 15/21, Counter 15/22 */
-  --font-size-md: 1.0625rem; /* 17 — Body/Large 17/24, Button 17/22 */
-  --font-size-lg: 1.25rem; /* 20 — statement and trade-off question (Fraunces) 20/22 */
-  --font-size-xl: 1.75rem; /* 28 — menu title (Fraunces) 28/34 */
-  --font-size-2xl: 2.25rem; /* 36 — hero title (Fraunces) 36/42 */
+  --font-size-md: 1.0625rem; /* 17 — Body/Large 17/24; Action, Button, Menu item 17/22 */
+  --font-size-lg: 1.25rem; /* 20 — Question (Fraunces) 20/22 */
+  --font-size-xl: 1.75rem; /* 28 — Title/Medium (Fraunces) 28/34 */
+  --font-size-2xl: 2.25rem; /* 36 — Title/Large (Fraunces) 36/42 */
   --font-size-eyebrow: 0.75rem; /* 12 — Eyebrow 12/16 */
-  --line-height-tight: 1.1; /* 20/22 (Leading/Body) */
-  --line-height-heading: 1.17; /* 36/42, 28/34 */
-  --line-height-label: 1.33; /* 15/20 */
-  --line-height-body: 1.41; /* 17/24 */
-  --line-height-body-sm: 1.4; /* 15/21 Body/Default */
-  --line-height-caption: 1.38; /* 13/18 Caption */
-  --line-height-chip: 1.54; /* 13/20 Chip */
-  --line-height-counter: 1.47; /* 15/22 Counter */
-  --letter-spacing-eyebrow: 0.06em; /* Eyebrow: 0.72px at 12px */
+  --line-height-title-lg: calc(42 / 36); /* Title/Large */
+  --line-height-title-md: calc(34 / 28); /* Title/Medium */
+  --line-height-question: calc(22 / 20); /* Question */
+  --line-height-button: calc(22 / 17); /* Action, Button, Menu item */
+  --line-height-body: calc(24 / 17); /* Body/Large */
+  --line-height-label: calc(20 / 15); /* Label/Strong, Label/Medium */
+  --line-height-body-sm: calc(21 / 15); /* Body/Default */
+  --line-height-counter: calc(22 / 15); /* Counter */
+  --line-height-chip: calc(20 / 13); /* Chip */
+  --line-height-caption: calc(18 / 13); /* Caption */
+  --line-height-eyebrow: calc(16 / 12); /* Eyebrow */
+  --letter-spacing-eyebrow: 0.06em; /* Eyebrow: 6 % · 0.72px */
+  --letter-spacing-action: -0.43px; /* Action (primary button): −2.5 %; every other style: 0 */
+  /* Fraunces axes WONK 1 · SOFT 0 for every Fraunces style are baked into the font file (fonts.css). */
   --font-weight-regular: 400;
   --font-weight-medium: 500;
   --font-weight-bold: 600; /* SemiBold */
@@ -84,6 +90,17 @@
   --chip-pad-y: 6px;
   --step-size: 32px; /* «How it works» number */
   --hero-size: 150px;
+  --hero-title-min: 184px; /* «vote match» in Title/Large is 182.3 px: the hero title always fits in two lines */
   --menu-width: 320px;
   --menu-item-height: 52px;
+
+  /* Breakpoints (Material 3 window size classes; customer 2026-10-17, «версия Б», see CLAUDE.md «Breakpoints»):
+     width < 600 or height < 480 — phone layout; otherwise the column is a card on the brand tint (variant C).
+     Between the points everything changes smoothly: margins, then the space above the buttons. */
+  --desktop-gap: clamp(16px, calc((100dvh - var(--desktop-card-height)) / 2), 32px); /* card margin: 32 → 16 */
+  --radius-desktop: 32px; /* card corners */
+  --shadow-desktop: 0 12px 48px rgba(0, 56, 184, 0.12);
+  --desktop-card-height: 812px; /* Figma screen without the status bar (874 − 62): the card keeps the phone proportions */
+  --cta-min-gap: 64px; /* Home: at least this much between the steps and the buttons (max 158 = Figma) */
+  --cta-fade: 32px; /* soft white fade above bottom buttons that stick because the content does not fit */
 }
