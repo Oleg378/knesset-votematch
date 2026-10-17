@@ -29,7 +29,8 @@ def num(x):
 def build_data(ctx):
     st, pos, cov = ctx["st"], ctx["pos"], ctx["cov"]
     quiz_d = list(dict.fromkeys(r["d"] for r in st))
-    plan = json.load(open(os.path.join(ROOT, "jef/directions/split/plan.json")))["new"]
+    plan = {**json.load(open(os.path.join(ROOT, "jef/directions/split/plan.json")))["new"],
+            **json.load(open(os.path.join(ROOT, "jef/directions/split/plan2.json")))["new"]}
     final = {d["key"]: d for d in json.load(open(os.path.join(ROOT, "jef/directions/merge3/directions_final.json")))}
     def ddesc(d):
         x = plan.get(d) or final[d]
@@ -116,7 +117,7 @@ def golden(ctx):
         cases.append(case(ctx, f"random {i}", ans, mult))
     cases += [case(ctx, "no answers", {}), case(ctx, "all don't know", {q: "dk" for q in qs}),
               case(ctx, "all neutral", {q: 0 for q in qs}), case(ctx, "one answer", {qs[0]: 2}),
-              case(ctx, "rare topic only", {"67": -2, "66": 1})]
+              case(ctx, "rare topic only", {"71": -2, "66": 1})]
     return {"version": VERSION, "tolerance": 1e-9, "cases": cases}
 
 def main():

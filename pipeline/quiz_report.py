@@ -24,27 +24,9 @@ EPS = 1e-9
 ANS = {2: "strongly agree", 1: "agree", 0: "neutral", -1: "disagree", -2: "strongly disagree"}   # [У] 2026-10-18: the same words as the UI buttons
 
 def labels():
-    lab = {}
-    for f in sorted(glob.glob(f"{LAB}/batch_*.jsonl")):
-        for l in open(f):
-            x = json.loads(l)
-            lab[x["bill_id"]] = {"main": [dict(m) for m in x["main"]], "sec": [dict(m) for m in x["secondary"]]}
-    for l in open(f"{LAB}/split_choice.jsonl"):
-        r = json.loads(l)
-        if r["bill_id"] not in lab or not r["assigned"]: continue
-        k = "main" if r["role"] == "main" else "sec"
-        lab[r["bill_id"]][k] = [t for t in lab[r["bill_id"]][k] if t["n"] != r["parent"]]
-        have = {t["n"] for t in lab[r["bill_id"]]["main"] + lab[r["bill_id"]]["sec"]}
-        for a in r["assigned"]:
-            if a["n"] not in have: lab[r["bill_id"]][k].append({"n": a["n"], "sign": a["sign"]})
-    for b, v in json.load(open(f"{LAB}/overrides.json")).get("labels", {}).items():   # point corrections of resonant laws
-        if b in lab: lab[b] = {"main": v["main"], "sec": v["secondary"]}
-    tech = set()
-    for v in json.load(open(f"{LAB}/overrides.json"))["technical"].values(): tech |= set(v["bill_ids"])
-    drop = L.irrelevant()   # SU 27.3, 2026-10-17: bills not about the issue of the direction's quiz statements (as in positions.py)
-    for b, v in lab.items():
-        for k in ("main", "sec"): v[k] = [t for t in v[k] if (b, str(t["n"])) not in drop]
-    return {b: v for b, v in lab.items() if b not in tech}
+    """The production labels (pipeline/labels.py: both split stages, point overrides, technical bills out, relevance filter as
+    configured there) in the shape used here: bill id (str) -> {"main": [...], "sec": [...]}."""
+    return {str(b): {"main": [dict(t) for t in m], "sec": [dict(t) for t in s_]} for b, (m, s_) in L.load()["bill_lab"].items()}
 
 def tradeoff_text(A, aa, B, ab):
     """A trade-off question on the original quiz statements: the side that answers A as the user did and B the opposite way."""
@@ -83,7 +65,8 @@ def context():
                 if m["sign"] in SGN: by_d[m["n"]].append((b, SGN[m["sign"]], role))
     nv = {(r["letters"], r["d"]): int(r["sum_nV"]) for r in csv.DictReader(open(os.path.join(qm.POS, "list_topic_positions.csv")))}
     dir_en = {d["key"]: d["name_en"] for d in json.load(open(os.path.join(ROOT, "jef/directions/merge3/directions_final.json")))}
-    dir_en.update({k: v["name_en"] for k, v in json.load(open(os.path.join(ROOT, "jef/directions/split/plan.json")))["new"].items()})
+    for p in ("plan.json", "plan2.json"):
+        dir_en.update({k: v["name_en"] for k, v in json.load(open(os.path.join(ROOT, "jef/directions/split", p)))["new"].items()})
     return dict(st=st, pos=pos, cov=cov, info=info, init=init, cand=cand, by_d=by_d, nv=nv, dir_en=dir_en,
                 title={r["q"]: r for r in st})
 
@@ -122,7 +105,7 @@ def explain(ctx, L, q, a, p, contrib, mult=None):
     """[У] 2026-10-17: one explained statement in plain words — the statement as shown in the quiz, the user's answer, the
     list's side (by sign; «close to the average MK» when |p| < CLOSE, п. 6), the basis (the list's ex-MKs' bills split by
     direction and their votes) and one caveat: the side comes from votes when the list's own bills give nothing or the other
-    side (п. 7); otherwise, when the bill counts look opposite to the verdict, positions are relative to the average MK."""
+    side (п. 7). [У] 2026-10-18: the caveat «positions are relative to the average MK» is gone — authorship is no longer centered."""
     ev = evidence(ctx, L, q, a / 2 * q["key_s"], contrib)
     n_same = sum(1 for e in ev if e[6]); n_opp = len(ev) - n_same
     nvotes = ctx["nv"].get((L, q["d"]), 0)
@@ -140,12 +123,6 @@ def explain(ctx, L, q, a, p, contrib, mult=None):
     if close: pass
     elif by_votes:
         lines.append("The list's side comes from how its former MKs voted on private bills, not from the bills they sponsored.")
-    elif ev and contrib > 0 and n_opp > n_same:
-        lines.append("The list has more bills of its own the other way, but other MKs sponsored such bills even more often: "
-                     "positions are measured relative to the average MK.")
-    elif ev and contrib < 0 and n_same > n_opp:
-        lines.append("The list has more bills of its own your way, but other MKs sponsored such bills even more often: "
-                     "positions are measured relative to the average MK.")
     return lines, ev
 
 def main(f):
@@ -179,7 +156,7 @@ def main(f):
     out += ["", f"**No record in the Knesset ({len(ne)}):** " + "; ".join(ne) + ".", "",
             "How to read the breakdown below:",
             "- “your answer” — your position on the statement;",
-            "- “the list is for / against the statement” — whether its former MKs pushed that side more or less than the average MK;",
+            "- “the list is for / against the statement” — which side its former MKs pushed with the bills they sponsored and, with less weight, their votes;",
             "- “✓ / ✗” next to a bill — whether it moves things the same way as your answer or the opposite way.", ""]
     shown = [r for r in ranking if r["closeness"] is not None and r["coverage"] >= qm.MIN_COVERAGE][:TOP]
     for place_, r in enumerate(shown, 1):

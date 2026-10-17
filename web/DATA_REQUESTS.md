@@ -30,3 +30,9 @@ Reference: `pipeline/quiz_flow.py` (`FLOW`, `core()`, `next_clarify()`), termina
 v2 will carry `flow` (the numbers) and the core order; the clarifying choice must be ported to TS and is covered by golden
 cases. Numbers must not be hard-coded on the web (now 8 + 7 + up to 5 trade-offs, decided 2026-10-18; may change). An optional
 stopping rule (`should_stop`: stop_gap / min_questions / max_questions) exists but is off.
+
+## 5. Everything that changes in v2, and the format of list details (data side → web, 2026-10-18) [read before v2]
+`export/V2_HANDOFF.md`: 89 statements, the new position formula (A not centered, K = 0), the question order with its exact
+clarifying rule and numbers from `flow`, answer words, the removed caveat, the one wording still pending («close to the average
+MK»), and the list-details format field by field (header, items, lines, evidence, bills of one statement). v2 is not generated
+yet; v1 stays the contract until then.
