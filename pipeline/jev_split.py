@@ -8,6 +8,11 @@ Per bill × split direction d (same input as the mass labeling: Hebrew title + f
   (main or secondary); its sign follows the current scheme (side < 0.7 «−», > 1.3 «+», else increase/decrease questions);
   if no candidate is assigned, the bill stays in d (leftover).
 
+Stage 2 (--stage2, 2026-10-18 [У]): directions split by the statement audit (jef/directions/split/plan2.json). The bills are taken
+from the effective labels (pipeline/labels.py after stage 1 and the overrides); one choice question per bill × direction, as in
+--choice; every sub-direction keeps the parent's orientation, so the bill keeps the parent's sign (no sign questions).
+-> jef/directions/labels/split2_choice.jsonl.
+
 Usage: python3 pipeline/jev_split.py [N]            -> jef/directions/labels/split_relabel.jsonl (resumable; N = first N pairs only)
        python3 pipeline/jev_split.py --choice [N]   -> split_choice.jsonl: variant (a), approved 2026-10-16. The bill already
          belongs to the parent direction, so one choice question picks which candidate describes it best (plus «none of these»);
@@ -104,14 +109,48 @@ async def one_choice(client, p, cand):
     return {"bill_id": p["bill_id"], "parent": p["parent"], "role": p["role"], "parent_sign": p["parent_sign"],
             "assigned": assigned, "choice": {k: round(v, 3) for k, v in pr.items()}, "tokens": tok}
 
+async def one_stage2(client, p, cand):
+    st, _ = jl.state(p)
+    crit = {f"D{k}": f"{d['name']} («+»: {d['plus']} «−»: {d['minus']})" for k, d in cand.items()}
+    crit["Dnone"] = "None of these: the bill is about something else"
+    a, tok = await j.ask(client, st, {"pick": Choice(instructions="This Israeli bill was classified under a broad topic. Which of these "
+                                       "narrower quantities does the bill itself change? Choose the one that best describes what the bill does.",
+                                       criteria=crit)})
+    pr = {k[1:]: v for k, v in a["pick"].probabilities.items()}
+    order = sorted(pr, key=lambda k: -pr[k])
+    pick = [] if order[0] == "none" else order[:1] + [k for k in order[1:2] if k != "none" and pr[k] >= 0.5 * pr[order[0]]]
+    assigned = [{"n": k, "sign": p["parent_sign"], "role": p["role"], "p_choice": round(pr[k], 3)} for k in pick]
+    return {"bill_id": p["bill_id"], "parent": p["parent"], "role": p["role"], "parent_sign": p["parent_sign"],
+            "assigned": assigned, "choice": {k: round(v, 3) for k, v in pr.items()}, "tokens": tok}
+
+def pairs_stage2(plan):
+    import labels
+    con = duckdb.connect(os.path.join(ROOT, "knesset.duckdb"), read_only=True)
+    info = {str(b): (n, t) for b, n, t in con.sql("select bill_id, name, bill_type from bills").fetchall()}
+    res = []
+    for b, (main, sec) in labels.load(relevance=False, stage2=False)["bill_lab"].items():
+        for role, ms in (("main", main), ("secondary", sec)):
+            for m in ms:
+                if str(m["n"]) in plan["parents"] and m.get("sign") in ("+", "−", "-"):
+                    n, t = info[str(b)]
+                    res.append({"bill_id": str(b), "name": n, "bill_type": t, "parent": str(m["n"]), "role": role, "parent_sign": m["sign"]})
+    return res
+
 async def main(limit):
     load_env()
+    if STAGE2:
+        plan = json.load(open(os.path.join(SPLIT, "plan2.json")))
+        cands = {par: {k: {"n": k, "name": plan["new"][k]["name_en"], "plus": plan["new"][k]["plus_en"], "minus": plan["new"][k]["minus_en"]}
+                       for k in subs} for par, subs in plan["parents"].items()}
+        return await label(pairs_stage2(plan)[:limit], cands, one_stage2)
     plan = json.load(open(os.path.join(SPLIT, "plan.json")))
     dirs = {str(d["n"]): d for d in j.directions_final()}
     cands = candidates(plan, dirs)
     if CHOICE:
         for l in open(OUT_A): r = json.loads(l); PRIOR[(r["bill_id"], r["parent"])] = r
-    todo = pairs(cands)[:limit]
+    return await label(pairs(cands)[:limit], cands, one_choice if CHOICE else one)
+
+async def label(todo, cands, fn):
     done = {(json.loads(l)["bill_id"], json.loads(l)["parent"]) for l in open(OUT)} if os.path.exists(OUT) else set()
     todo = [p for p in todo if (p["bill_id"], p["parent"]) not in done]
     print(f"{len(todo)} pairs to label", file=sys.stderr, flush=True)
@@ -123,7 +162,7 @@ async def main(limit):
                 if stop.is_set(): return
                 async with sem:
                     if stop.is_set(): return
-                    try: rec = await (one_choice if CHOICE else one)(client, p, cands[p["parent"]])
+                    try: rec = await fn(client, p, cands[p["parent"]])
                     except Exception as e:
                         async with lock:
                             stats["err"] += 1; print(f"error {p['bill_id']}: {e}"[:200], file=sys.stderr, flush=True)
@@ -138,9 +177,12 @@ async def main(limit):
     print(json.dumps({"labeled": stats["n"], "errors": stats["err"], "usd": round(stats["tok"] * USD_PER_INPUT_TOKEN, 4), "stopped": stop.is_set()}))
 
 OUT_A = OUT
-CHOICE = False
+CHOICE = STAGE2 = False
 if __name__ == "__main__":
     args = sys.argv[1:]
+    if args and args[0] == "--stage2":
+        STAGE2, OUT, args = True, OUT.replace("split_relabel", "split2_choice"), args[1:]
+        STOP_USD = 0.30   # [У] 2026-10-18: estimate ≈ $0.22 for 1,328 pairs
     if args and args[0] == "--choice":
         CHOICE, OUT, args = True, OUT.replace("split_relabel", "split_choice"), args[1:]
     asyncio.run(main(int(args[0]) if args else None))

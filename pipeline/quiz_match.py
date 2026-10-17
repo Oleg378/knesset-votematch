@@ -23,7 +23,8 @@ Q = os.path.join(ROOT, "jef/quiz")
 POS = os.path.join(ROOT, "jef/positions")
 MIN_COVERAGE = 0.5   # [А]
 MAX_TRADE, TRADE_TOP, TRADE_W = 5, 5, 2.0   # [У] 2026-10-16: trade-off questions (Wahl-O-Mat / StemWijzer convention: ×2)
-K = 2.0   # chosen by --calibrate (2026-10-17): min share of first places at random answers with persona top-3 >= 0.97
+K = 0.0   # [У] 2026-10-18: no shrinkage — persona recovery (local/research/scripts/k_persona.py) and the cross-Knesset weight test both
+          # are best at 0; the random-answer «first places» criterion is dropped (it measures list clusters, not K)
 
 def load():
     st = [r for r in csv.DictReader(open(os.path.join(Q, "statements_v4.csv"))) if r["status"] == "ok"]

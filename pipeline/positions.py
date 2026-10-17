@@ -113,7 +113,9 @@ nA_total = bi.groupby('mk_id').bill_id.nunique()  # all initiated non-technical 
 arows = [(b, d, s) for b, lab in bill_lab.items() for d, s in signed_topics(lab).items()]
 ab = pd.DataFrame(arows, columns=['bill_id', 'd', 's'])
 A = bi.merge(ab, on='bill_id').groupby(['mk_id', 'knesset', 'd']).s.agg(['mean', 'size']).reset_index().rename(columns={'mean': 'A', 'size': 'nA'})
-A['A'] = A.A - A.groupby(['knesset', 'd']).A.transform('mean')   # center per Knesset × direction
+# [У] 2026-10-17: A is NOT centered (variant Б). Centering over the authors zeroed A wherever the bills of a direction go one way
+# (every author +1 − mean +1 = 0; 32 of 199 directions); centering over all MKs would read «did not sponsor» as «against».
+# Not sponsoring = no authorship signal (0); the side then comes from votes. local/research/a_centering/.
 
 # ======================= V: private-bill votes, residual on government share =======================
 share = rv[~rv.trans].groupby(['mk_id', 'knesset']).gov_side.mean().rename('gov_share')
@@ -289,7 +291,7 @@ readme = f"""# Позиции депутатов и списков 2026
 - **Слой тем [У, 27.2–27.3].** На депутата × направление, оба созыва вместе.
   - **A — авторство.** Законопроекты, где депутат инициатор (`is_initiator`), все инициаторы с равным весом. Каждый законопроект даёт свои темы (главные и побочные наравне) со знаком ±1. Темы без знака пропускаются. Технические законопроекты (`overrides.json`, SU 23c) исключены. Метки бюджетных пакетов на A не влияют. A = средний знак, nA = число законопроектов.
   - **V — голоса по частным законопроектам.** «За» = +1, «против» = −1; вклад = знак темы × голос. Берётся остаток после регрессии на долю голосов депутата, поданных, когда его фракция была на стороне правительства (внутри созыва × направления). nV = число голосов.
-  - A и V центрируются по созыву × направлению, затем созывы объединяются с весом n.
+  - A не центрируется (вариант Б, SU 27.3, 2026-10-17): знак законопроектов как есть, не вносил — 0 (нет сигнала). V — остаток, его среднее по созыву × направлению равно 0. Созывы объединяются с весом n.
   - **P = 1·A + 0,25·V; нет компоненты — 0** (как при подборе весов; SU 27.3, 2026-10-17). P_A и P_V — вклады авторства и голосов. Законопроекты, не относящиеся к утверждениям направления, не учитываются (`pipeline/labels.py`, Jev-проверка относимости). Голоса по правительственным законопроектам (и статьям пакетов) и голоса против лагеря — вес 0. Сжатия нет: оно применяется только при ранжировании (27.3).
 - **Правительство [У, 27.3].** Фракция с ≥1 министром или замминистром на дату (`data/person_to_position_24_25.json`; должности {sorted(MIN_IDS)} и {sorted(DEP_IDS)}).
   - Человек → фракция по `faction_membership` на дату. Если он не депутат (норвежский закон), берётся его ближайшее членство в том же созыве [А]. Из-за этого министры, сложившие мандат, относятся к фракции до раскола (например, Дерех Эрец).

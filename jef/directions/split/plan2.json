@@ -1,0 +1,195 @@
+{
+ "note": "Stage 2 (2026-10-18, [У]): split by the statement audit (local/research/statement_audit/AUDIT.md). Applied after stage 1 (plan.json) and the point overrides. Every sub-direction keeps its parent's orientation, so a bill keeps its parent sign; Jev only chooses the sub-direction (pipeline/jev_split.py --stage2).",
+ "parents": {
+  "269": [
+   "269a",
+   "269b"
+  ],
+  "92": [
+   "92a",
+   "92b",
+   "92c"
+  ],
+  "255": [
+   "255a",
+   "255b",
+   "255c"
+  ],
+  "151": [
+   "151a",
+   "151b",
+   "151c",
+   "151d"
+  ],
+  "356": [
+   "356a",
+   "356b"
+  ],
+  "169": [
+   "169a",
+   "169b"
+  ],
+  "90": [
+   "90a",
+   "90b"
+  ],
+  "130": [
+   "130a",
+   "130b"
+  ],
+  "101b": [
+   "101b1",
+   "101b2"
+  ],
+  "66": [
+   "66a",
+   "66b"
+  ]
+ },
+ "new": {
+  "269a": {
+   "name_ru": "доступ к абортам",
+   "name_en": "Access to abortion",
+   "plus_en": "Makes abortion easier to obtain (e.g. without a termination committee, wider grounds, funding).",
+   "minus_en": "Makes abortion harder to obtain."
+  },
+  "269b": {
+   "name_ru": "доступ к вспомогательной репродукции",
+   "name_en": "Access to assisted reproduction",
+   "plus_en": "Widens access to surrogacy, egg or sperm donation, IVF, fertility preservation or posthumous sperm use, or to more groups of people.",
+   "minus_en": "Narrows such access."
+  },
+  "92a": {
+   "name_ru": "смертная казнь за терроризм",
+   "name_en": "Death penalty for terrorism",
+   "plus_en": "Limits or abolishes the death penalty for terrorists.",
+   "minus_en": "Introduces or eases the death penalty for terrorists."
+  },
+  "92b": {
+   "name_ru": "права и условия заключённых по безопасности",
+   "name_en": "Rights and conditions of security prisoners",
+   "plus_en": "Gives prisoners jailed for terrorism or security offences more rights or milder conditions (visits, phone, studies, early release).",
+   "minus_en": "Gives them fewer rights or harsher conditions."
+  },
+  "92c": {
+   "name_ru": "права и условия обычных заключённых и задержанных",
+   "name_en": "Rights and conditions of ordinary prisoners and detainees",
+   "plus_en": "Gives criminal prisoners and detainees more rights or milder conditions (rehabilitation, health care, limits on shackling, living space).",
+   "minus_en": "Gives them fewer rights or harsher conditions."
+  },
+  "255a": {
+   "name_ru": "финансирование школ без базовых предметов",
+   "name_en": "Funding of schools that do not teach the core curriculum",
+   "plus_en": "Gives schools that do not teach core subjects (math, English) more state funding or fewer conditions.",
+   "minus_en": "Cuts their funding or makes it conditional on teaching core subjects."
+  },
+  "255b": {
+   "name_ru": "финансирование школ, учащих против государства",
+   "name_en": "Funding of schools whose teaching is hostile to the state",
+   "plus_en": "Keeps or increases funding of schools regardless of content such as incitement or calls to refuse military service.",
+   "minus_en": "Cuts funding of schools that teach such content."
+  },
+  "255c": {
+   "name_ru": "финансирование школ, дискриминирующих при приёме",
+   "name_en": "Funding of schools that discriminate in admission",
+   "plus_en": "Keeps or increases funding of schools regardless of how they admit students.",
+   "minus_en": "Cuts funding of schools that reject students by ethnic origin or similar grounds."
+  },
+  "151a": {
+   "name_ru": "полномочия религиозных судов",
+   "name_en": "Powers of religious courts",
+   "plus_en": "Gives rabbinical or other religious courts more powers (e.g. arbitration in civil and money disputes).",
+   "minus_en": "Gives them fewer powers."
+  },
+  "151b": {
+   "name_ru": "еврейские религиозные правила в государственных учреждениях",
+   "name_en": "Jewish religious rules in public institutions",
+   "plus_en": "Makes hospitals, army bases, state bodies or public places follow more Jewish religious rules (kashrut, no leavened bread on Passover, Shabbat).",
+   "minus_en": "Makes them follow fewer such rules."
+  },
+  "151c": {
+   "name_ru": "раздельность мужчин и женщин в публичных местах",
+   "name_en": "Gender separation in public settings",
+   "plus_en": "Allows or expands separation of men and women in state and municipal services, events, studies or transport.",
+   "minus_en": "Restricts or bans such separation."
+  },
+  "151d": {
+   "name_ru": "ортодоксальное определение еврейства",
+   "name_en": "Orthodox definition of Jewish status",
+   "plus_en": "Gives Orthodox religious law more control over who is registered or recognised as Jewish (registry, conversion).",
+   "minus_en": "Gives it less control; non-Orthodox conversion or civil criteria count more."
+  },
+  "356a": {
+   "name_ru": "общественный транспорт в шаббат",
+   "name_en": "Public transport on Shabbat",
+   "plus_en": "Allows or expands public transport on Shabbat and holidays.",
+   "minus_en": "Restricts it."
+  },
+  "356b": {
+   "name_ru": "расходы на общественный транспорт",
+   "name_en": "Public spending on public transport",
+   "plus_en": "Gives more money or benefits to public transport (fare discounts, free travel, more lines and services).",
+   "minus_en": "Gives less."
+  },
+  "169a": {
+   "name_ru": "государственная поддержка поселений",
+   "name_en": "State support for settlements",
+   "plus_en": "Increases state funding, planning, regularisation, services or security for settlements in Judea and Samaria.",
+   "minus_en": "Reduces them."
+  },
+  "169b": {
+   "name_ru": "суверенитет в Иудее и Самарии",
+   "name_en": "Israeli sovereignty in Judea and Samaria",
+   "plus_en": "Applies Israeli law or sovereignty to Judea and Samaria or parts of it.",
+   "minus_en": "Prevents or conditions it (e.g. referendum)."
+  },
+  "90a": {
+   "name_ru": "процессуальные права подозреваемых и обвиняемых",
+   "name_en": "Procedural rights of suspects and defendants",
+   "plus_en": "Gives suspects and defendants more safeguards in arrest, questioning, trial and appeal (lawyer, recording, disclosure).",
+   "minus_en": "Gives them fewer safeguards."
+  },
+  "90b": {
+   "name_ru": "строгость наказаний за терроризм",
+   "name_en": "Leniency of punishment for terror offences",
+   "plus_en": "Makes punishment of terror offenders milder or keeps more rights for them.",
+   "minus_en": "Makes punishment harsher (death penalty, loss of citizenship or residency, longer sentences)."
+  },
+  "130a": {
+   "name_ru": "льготы гражданам в войну и чрезвычайное положение",
+   "name_en": "Relief for citizens in wartime and emergencies",
+   "plus_en": "Gives or extends relief tied to war or emergency: tax breaks, grants, payment delays for reservists, evacuees and businesses.",
+   "minus_en": "Gives less or shortens it."
+  },
+  "130b": {
+   "name_ru": "чрезвычайные правовые меры",
+   "name_en": "Emergency legal measures",
+   "plus_en": "Extends emergency legal powers or makes them last longer.",
+   "minus_en": "Shortens or limits them."
+  },
+  "101b1": {
+   "name_ru": "опека родителей, обвиняемых в насилии",
+   "name_en": "Guardianship of parents accused of violence",
+   "plus_en": "Keeps or eases guardianship and custody of parents charged with or convicted of violence in the family.",
+   "minus_en": "Lets the state remove or restrict their guardianship."
+  },
+  "101b2": {
+   "name_ru": "доступ родителей к наблюдению за детьми",
+   "name_en": "Parents' monitoring of children in care",
+   "plus_en": "Gives parents more access to monitoring of their children (e.g. daycare camera footage).",
+   "minus_en": "Gives less."
+  },
+  "66a": {
+   "name_ru": "судебный контроль над законами и правительством",
+   "name_en": "Judicial review of laws and government",
+   "plus_en": "Courts review and can strike down more laws and government decisions.",
+   "minus_en": "Courts review less; the Knesset can override or shield laws from review."
+  },
+  "66b": {
+   "name_ru": "свобода судей в назначении наказаний",
+   "name_en": "Judges' discretion in sentencing",
+   "plus_en": "Gives judges more discretion in sentencing.",
+   "minus_en": "Fixes minimum or mandatory punishments, limiting judges' discretion."
+  }
+ }
+}

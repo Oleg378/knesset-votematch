@@ -21,7 +21,7 @@ LINK = "https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/LawBill.aspx
 TOP, PER = 10, 5   # [У] 2026-10-17: топ-10 списков, у каждого «почему подходит» и «почему не подходит»
 CLOSE = 0.1   # [О] п. 6: |p| below this — «close to the average MK»; test: local/research/scripts/threshold_stability.py
 EPS = 1e-9
-ANS = {2: "strongly agree", 1: "somewhat agree", 0: "neutral", -1: "somewhat disagree", -2: "strongly disagree"}   # [У] 2026-10-17: product language is English
+ANS = {2: "strongly agree", 1: "agree", 0: "neutral", -1: "disagree", -2: "strongly disagree"}   # [У] 2026-10-18: the same words as the UI buttons
 
 def labels():
     lab = {}

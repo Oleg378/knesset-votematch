@@ -20,7 +20,7 @@ def irrelevant():
     if REL_T is None or not os.path.exists(REL_FILE): return set()
     return {(r['bill_id'], r['d']) for r in map(json.loads, open(REL_FILE)) if r['p'] < REL_T}
 
-def load(relevance=True):
+def load(relevance=True, stage2=True):
     technical = set()
     for v in json.load(open(f'{LAB}/overrides.json'))['technical'].values():
         technical |= set(v['bill_ids'])
@@ -49,6 +49,22 @@ def load(relevance=True):
     # local/jef/h9_check/landmark/fix/, applied from overrides.json «labels»)
     for b, v in json.load(open(f'{LAB}/overrides.json')).get('labels', {}).items():
         if int(b) in bill_lab: bill_lab[int(b)] = (v['main'], v['secondary'])
+    # stage 2 (2026-10-18 [У]): directions split by the statement audit (jef/directions/split/plan2.json, labels/split2_choice.jsonl),
+    # applied after stage 1 and the overrides in the same way; sub-directions keep the parent's sign.
+    plan2 = json.load(open(f'{ROOT}/jef/directions/split/plan2.json'))
+    if stage2 and os.path.exists(f'{LAB}/split2_choice.jsonl'):
+        for l in open(f'{LAB}/split2_choice.jsonl'):
+            r = json.loads(l)
+            b = int(r['bill_id'])
+            if b not in bill_lab or not r['assigned']: continue
+            main, sec = [list(x) for x in bill_lab[b]]
+            lst = main if r['role'] == 'main' else sec
+            lst[:] = [t for t in lst if str(t['n']) != r['parent']]
+            have = {str(t['n']) for t in main + sec}
+            for a in r['assigned']:
+                if a['n'] not in have: lst.append({'n': a['n'], 'sign': a['sign']}); have.add(a['n'])
+            bill_lab[b] = (main, sec)
+    split_plan = {**split_plan, 'new': {**split_plan['new'], **plan2['new']}, 'parents': {**split_plan['parents'], **plan2['parents']}}
     if relevance:
         drop = irrelevant()
         for b, (main, sec) in list(bill_lab.items()):
