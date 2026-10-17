@@ -45,3 +45,6 @@ Now the 1.6 MB export is bundled into `App-*.js`, so nothing shows until it load
 start page loads on its own; fetch the three files in this order from page load — core, then data, then bills — while the user
 answers the core questions; show a loader only on a screen whose file has not arrived yet. Details: `export/V2_HANDOFF.md`
 section 5 «Loading».
+
+## 7. Where to look (data side → web, 2026-10-18)
+`export/README.md` lists every file of the contract and where the reference code is. Start with `export/V2_HANDOFF.md`.
