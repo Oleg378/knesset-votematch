@@ -19,7 +19,8 @@ ROOT, LAB = qm.ROOT, os.path.join(qm.ROOT, "jef/directions/labels")
 SGN = {"+": 1, "−": -1, "-": -1}
 LINK = "https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/LawBill.aspx?t=lawsuggestionssearch&lawitemid={}"
 TOP, PER = 10, 5   # [У] 2026-10-17: топ-10 списков, у каждого «почему подходит» и «почему не подходит»
-CLOSE = 0.1   # [О] п. 6: |p| below this — «has no clear position»; test: local/research/scripts/threshold_stability.py
+CLOSE = 0.2   # [У] 2026-10-18, п. 6: |p| below this — «has no clear position»: below 0.2 the side agrees between K24 and K25 in
+              # 33–58 % of pairs (a coin), from 0.2 in 73–85 % (local/research/scripts/threshold_stability.py)
 EPS = 1e-9
 ANS = {2: "strongly agree", 1: "agree", 0: "neutral", -1: "disagree", -2: "strongly disagree"}   # [У] 2026-10-18: the same words as the UI buttons
 

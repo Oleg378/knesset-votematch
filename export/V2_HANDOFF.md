@@ -16,7 +16,7 @@ flow in the terminal. Decisions are in `docs/SHARED_UNDERSTANDING.md` (Russian).
 | Trade-offs | up to MAX_TRADE | unchanged algorithm; the limit comes from `flow.trade` |
 | Answer words in explanations | «somewhat agree / somewhat disagree» | **«agree / disagree»** (same as the buttons); «strongly …» unchanged |
 | Explanation caveat | «… positions are measured relative to the average MK» | **removed** (no longer true) |
-| |p| < CLOSE | «close to the average MK on this statement» | **«has no clear position on this statement»** (customer, 2026-10-18); the CLOSE value itself is being measured |
+| |p| < CLOSE | «close to the average MK on this statement» | **«has no clear position on this statement»** (customer, 2026-10-18); CLOSE = 0.2 (measured: below it the side is a coin flip between the two Knessets) |
 
 Nothing changes in: cosine closeness, weights 1/n per direction (a/b pairs), coverage threshold 0.5 and the «Not ranked» block,
 the two notes, what is not shown (no coalition/opposition, no number of MKs).
