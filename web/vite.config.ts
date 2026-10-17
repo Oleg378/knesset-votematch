@@ -9,7 +9,8 @@ const exportDir = fileURLToPath(new URL('../export', import.meta.url));
 export default defineConfig({
   plugins: [react()],
   resolve: { alias: { '@export': exportDir } },
-  server: { fs: { allow: ['.', exportDir] } },
+  // Dev only: lets an ngrok tunnel reach the dev server (preview on a phone).
+  server: { fs: { allow: ['.', exportDir] }, allowedHosts: ['.ngrok-free.app', '.ngrok-free.dev', '.ngrok.app'] },
   json: { stringify: true },
   build: { chunkSizeWarningLimit: 2500 },
   // Engine/reducer tests run in node; screen tests (*.test.tsx) opt into jsdom with a file comment.
