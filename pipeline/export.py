@@ -1,8 +1,10 @@
 """Export for the web quiz: the only link between pipeline/ and web/ (CLAUDE.md «Data contract»).
 
-Writes to export/:
-  quiz_data.v2.json         everything the browser needs: statements, lists with positions, bills, sponsors;
-  quiz_data.v2.schema.json  JSON Schema of it (validated here before writing);
+Writes to export/ (v2: three files loaded in order, see export/V2_HANDOFF.md «Loading»):
+  quiz_core.v2.json         the core statements and the flow numbers — enough to start answering;
+  quiz_data.v2.json         everything for matching: params, all statements, directions, lists with positions;
+  quiz_bills.v2.json        what only the list details need: bills, sponsors, bills by direction;
+  quiz_data.v2.schema.json  JSON Schema of the three merged (validated here before writing);
   golden.v2.json            golden test cases: answers (+ trade-off weights) -> what pipeline/quiz_match.py and
                             pipeline/quiz_report.py compute. The TypeScript port must reproduce them (web/ Vitest).
 The version in the file name goes up when the formula or the structure changes (never change v1 silently).
@@ -17,10 +19,11 @@ import jsonschema
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import quiz_match as qm
 import quiz_report as qr
+import quiz_flow as qf
 
 ROOT = qm.ROOT
 OUT = os.path.join(ROOT, "export")
-VERSION = 2   # v2 (2026-10-17): P = A + 0.25 V, relevance filter, P_bills, CLOSE (SU 27.3)
+VERSION = 2   # v2 (2026-10-18): P = A + 0.25 V with A not centered, K = 0, P_bills, CLOSE, question order (export/V2_HANDOFF.md)
 
 def num(x):
     """JSON has no NaN: a closeness that cannot be computed is null."""
@@ -29,7 +32,8 @@ def num(x):
 def build_data(ctx):
     st, pos, cov = ctx["st"], ctx["pos"], ctx["cov"]
     quiz_d = list(dict.fromkeys(r["d"] for r in st))
-    plan = json.load(open(os.path.join(ROOT, "jef/directions/split/plan.json")))["new"]
+    plan = {**json.load(open(os.path.join(ROOT, "jef/directions/split/plan.json")))["new"],
+            **{k: v for p in ("plan2.json", "plan3.json") for k, v in json.load(open(os.path.join(ROOT, "jef/directions/split", p)))["new"].items()}}
     final = {d["key"]: d for d in json.load(open(os.path.join(ROOT, "jef/directions/merge3/directions_final.json")))}
     def ddesc(d):
         x = plan.get(d) or final[d]
@@ -52,15 +56,17 @@ def build_data(ctx):
     bills = {}
     for b in sorted(bill_ids, key=int):
         name, k = ctx["info"][b]
-        bills[b] = {"name_he": name, "knesset": k, "url": qr.LINK.format(b),
-                    "summary_en": None,   # open question: one-line English summary per bill (see web/SPEC.md «Open»)
+        bills[b] = {"name_he": name, "knesset": k,   # v2: url and summary_en dropped (DATA_REQUESTS #2); link = params.BILL_URL
                     "sponsors": sorted(m for m in ctx["init"][b] if m in cand_list)}
     return {
         "version": VERSION,
         "generated": datetime.date.today().isoformat(),
         "source_commit": subprocess.run(["git", "rev-parse", "--short", "HEAD"], cwd=ROOT, capture_output=True, text=True).stdout.strip(),
         "params": {"K": qm.K, "MIN_COVERAGE": qm.MIN_COVERAGE, "MAX_TRADE": qm.MAX_TRADE, "TRADE_TOP": qm.TRADE_TOP,
-                   "TRADE_W": qm.TRADE_W, "TRADE_CANDIDATES": 3, "VOTE_WEIGHT": 0.25, "CLOSE": qr.CLOSE},
+                   "TRADE_W": qm.TRADE_W, "TRADE_CANDIDATES": 3, "VOTE_WEIGHT": 0.25, "CLOSE": qr.CLOSE,
+                   "BILL_URL": qr.LINK.replace("{}", "{id}")},
+        "flow": dict(qf.FLOW),
+        "core": qf.core(),
         "statements": [{"q": r["q"], "title_en": r["title_en"], "statement_en": r["statement_en"], "key": r["key_s"],
                         "d": r["d"], "w": r["w"]} for r in st],
         "directions": {d: ddesc(d) for d in quiz_d},
@@ -93,6 +99,20 @@ def case(ctx, name, answers, mult=None, exclude=(), skip_lists=()):
         out["details"].append({"id": L, "items": items})
     return out
 
+def flow_case(ctx, name, full):
+    """Question order for a user whose answers to every statement would be `full`: core, then each clarifying statement chosen
+    from the answers given so far (quiz_flow.next_clarify), the trade-off pairs at the end, and the ranking."""
+    fctx = qf._ctx(); asked = qf.core(ctx=fctx); ans = {q: full[q] for q in asked if q in full}; steps = []
+    while not qf.should_stop(ans, len(asked)):
+        q = qf.next_clarify(ans, set(asked), ctx=fctx)
+        if q is None: break
+        asked.append(q)
+        if q in full: ans[q] = full[q]
+        steps.append(q)
+    out = case(ctx, name, ans)
+    out["flow"] = {"core": asked[:len(asked) - len(steps)], "clarifying": steps}
+    return out
+
 def full_answers(qs):
     """A synthetic full answer set (no real person's answers in the contract) with at least two trade-off pairs."""
     for seed in range(20261019, 20262019):
@@ -116,7 +136,10 @@ def golden(ctx):
         cases.append(case(ctx, f"random {i}", ans, mult))
     cases += [case(ctx, "no answers", {}), case(ctx, "all don't know", {q: "dk" for q in qs}),
               case(ctx, "all neutral", {q: 0 for q in qs}), case(ctx, "one answer", {qs[0]: 2}),
-              case(ctx, "rare topic only", {"67": -2, "66": 1})]
+              case(ctx, "rare topic only", {"71": -2, "66": 1})]
+    for i in range(6):   # question order: synthetic users answering every statement at random (no real person's answers)
+        rnd2 = random.Random(20261018 + i)
+        cases.append(flow_case(ctx, f"flow {i}", {q: rnd2.choice([-2, -1, 1, 2, "dk"]) for q in qs}))
     return {"version": VERSION, "tolerance": 1e-9, "cases": cases}
 
 def main():
@@ -125,12 +148,19 @@ def main():
     schema = json.load(open(os.path.join(OUT, f"quiz_data.v{VERSION}.schema.json")))
     jsonschema.validate(data, schema)
     os.makedirs(OUT, exist_ok=True)
-    json.dump(data, open(os.path.join(OUT, f"quiz_data.v{VERSION}.json"), "w"), ensure_ascii=False, separators=(",", ":"))
+    # [У] 2026-10-18: three files loaded in order, so the start page and the first questions never wait for the bills
+    head = {k: data[k] for k in ("version", "generated", "source_commit")}
+    parts = {"core": {**head, "flow": data["flow"], "core": data["core"],
+                      "statements": [s for s in data["statements"] if s["q"] in data["core"]]},
+             "data": {**head, **{k: data[k] for k in ("params", "flow", "core", "statements", "directions", "lists")}},
+             "bills": {**head, **{k: data[k] for k in ("mks", "by_direction", "bills")}}}
+    for name, part in parts.items():
+        json.dump(part, open(os.path.join(OUT, f"quiz_{name}.v{VERSION}.json"), "w"), ensure_ascii=False, separators=(",", ":"))
     g = golden(ctx)
     json.dump(g, open(os.path.join(OUT, f"golden.v{VERSION}.json"), "w"), ensure_ascii=False, indent=1)
-    sz = os.path.getsize(os.path.join(OUT, f"quiz_data.v{VERSION}.json"))
-    print(f"quiz_data.v{VERSION}.json: {len(data['statements'])} statements, {len(data['lists'])} lists, {len(data['bills'])} bills, "
-          f"{sz / 1e6:.1f} MB; golden.v{VERSION}.json: {len(g['cases'])} cases")
+    sz = {n: os.path.getsize(os.path.join(OUT, f"quiz_{n}.v{VERSION}.json")) / 1e3 for n in parts}
+    print(f"{len(data['statements'])} statements, {len(data['lists'])} lists, {len(data['bills'])} bills; files (KB): "
+          + ", ".join(f"quiz_{n}.v{VERSION}.json {v:.0f}" for n, v in sz.items()) + f"; golden.v{VERSION}.json: {len(g['cases'])} cases")
 
 if __name__ == "__main__":
     main()

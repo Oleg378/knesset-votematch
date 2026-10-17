@@ -1,0 +1,181 @@
+{
+ "note": "Stage 3 (2026-10-18, [У]): split by the audit of the new statements q72-q103 (local/research/statement_audit_new/). Same method as stage 2: applied after stage 2, parts keep the parent's orientation and sign, Jev only chooses the part.",
+ "parents": {
+  "209": [
+   "209a",
+   "209b"
+  ],
+  "301": [
+   "301a",
+   "301b"
+  ],
+  "186": [
+   "186a",
+   "186b"
+  ],
+  "250": [
+   "250a",
+   "250b"
+  ],
+  "103b": [
+   "103b1",
+   "103b2"
+  ],
+  "12": [
+   "12a",
+   "12b",
+   "12c"
+  ],
+  "100": [
+   "100a",
+   "100b",
+   "100c"
+  ],
+  "271": [
+   "271a",
+   "271b"
+  ],
+  "253": [
+   "253a",
+   "253b"
+  ],
+  "124": [
+   "124a",
+   "124b"
+  ]
+ },
+ "new": {
+  "209a": {
+   "name_ru": "законные ограничения рабочего времени",
+   "name_en": "Legal limits on working time",
+   "plus_en": "Lengthens or allows longer working time (longer week, longer shifts).",
+   "minus_en": "Shortens working time by law (shorter week, caps on shifts, e.g. for medical interns)."
+  },
+  "209b": {
+   "name_ru": "гибкая работа для родителей",
+   "name_en": "Flexible work for parents",
+   "plus_en": "Lets parents work more, part-time or flexibly (e.g. part-time work while on maternity pay, flexible arrangements).",
+   "minus_en": "Restricts such flexible or part-time work for parents."
+  },
+  "301a": {
+   "name_ru": "господдержка благотворительности",
+   "name_en": "State support for charities",
+   "plus_en": "Increases state funding of charities and non-profits or tax incentives for donations.",
+   "minus_en": "Decreases them."
+  },
+  "301b": {
+   "name_ru": "иностранное государственное финансирование НКО",
+   "name_en": "Foreign-government funding of non-profits",
+   "plus_en": "Leaves donations from foreign governments to non-profits untaxed and unrestricted.",
+   "minus_en": "Taxes, restricts or penalises donations from foreign governments to non-profits."
+  },
+  "186a": {
+   "name_ru": "изучение Торы как альтернатива службе",
+   "name_en": "Torah study as an alternative to military service",
+   "plus_en": "Recognises full-time Torah study as service or as grounds for exemption.",
+   "minus_en": "Removes such recognition."
+  },
+  "186b": {
+   "name_ru": "гражданская служба и отказ по убеждениям",
+   "name_en": "Civilian service and conscientious objection",
+   "plus_en": "Widens civilian or national service and exemption on grounds of conscience as alternatives to the army.",
+   "minus_en": "Narrows them."
+  },
+  "250a": {
+   "name_ru": "лицензии на оружие для граждан",
+   "name_en": "Civilian gun licensing",
+   "plus_en": "Makes gun licences harder to get or keep.",
+   "minus_en": "Makes gun licences easier to get (e.g. for former combat soldiers)."
+  },
+  "250b": {
+   "name_ru": "наказания за нелегальное оружие",
+   "name_en": "Penalties for illegal weapons",
+   "plus_en": "Toughens penalties and enforcement against illegal weapons and arms trading.",
+   "minus_en": "Softens them."
+  },
+  "103b1": {
+   "name_ru": "иммунитет солдат и полиции за действия на службе",
+   "name_en": "Immunity of soldiers and police for operational actions",
+   "plus_en": "Grants or widens immunity of soldiers or police for actions during operations, or requires special approval to investigate them.",
+   "minus_en": "Narrows such immunity."
+  },
+  "103b2": {
+   "name_ru": "полномочия силовиков в отношении граждан",
+   "name_en": "Powers of security agencies over civilians",
+   "plus_en": "Gives police, prison and security services wider powers over civilians (searches, access to personal data, secret information).",
+   "minus_en": "Narrows such powers."
+  },
+  "12a": {
+   "name_ru": "запрет конверсионной терапии для несовершеннолетних",
+   "name_en": "Ban on conversion therapy for minors",
+   "plus_en": "Bans or restricts therapy aimed at changing a minor's sexual orientation.",
+   "minus_en": "Lifts such restrictions."
+  },
+  "12b": {
+   "name_ru": "услуги больничных касс пациентам",
+   "name_en": "Patients' entitlements from health funds",
+   "plus_en": "Health funds and providers owe patients more services and rights (treatment times, refunds, coverage).",
+   "minus_en": "They owe fewer."
+  },
+  "12c": {
+   "name_ru": "еда в больницах в Песах",
+   "name_en": "Food in hospitals during Passover",
+   "plus_en": "Lets patients and visitors bring any food into hospitals during Passover.",
+   "minus_en": "Restricts bringing leavened food into hospitals during Passover."
+  },
+  "100a": {
+   "name_ru": "камеры в учреждениях для детей и уязвимых",
+   "name_en": "Cameras to protect children and vulnerable people in care",
+   "plus_en": "Requires or extends cameras in daycare centres, kindergartens, special education or care institutions, or access to their footage.",
+   "minus_en": "Reduces such requirements."
+  },
+  "100b": {
+   "name_ru": "съёмка применения силы полицией",
+   "name_en": "Filming police use of force",
+   "plus_en": "Requires police to film the use of water cannons and other crowd-control means.",
+   "minus_en": "Removes such requirements."
+  },
+  "100c": {
+   "name_ru": "трансляции заседаний судов и органов",
+   "name_en": "Broadcasting court hearings and public meetings",
+   "plus_en": "Requires filming or broadcasting of court hearings, council meetings or other public proceedings.",
+   "minus_en": "Removes such requirements."
+  },
+  "271a": {
+   "name_ru": "каннабис",
+   "name_en": "Cannabis",
+   "plus_en": "Keeps or adds restrictions on cannabis.",
+   "minus_en": "Legalises or decriminalises cannabis for personal or medical use."
+  },
+  "271b": {
+   "name_ru": "продажа алкоголя",
+   "name_en": "Alcohol sales",
+   "plus_en": "Keeps or adds restrictions on selling alcohol.",
+   "minus_en": "Allows wider sale of alcohol (e.g. wine in large stores)."
+  },
+  "253a": {
+   "name_ru": "объём бесплатного государственного образования",
+   "name_en": "Scope of free public education",
+   "plus_en": "Expands free public educational services, from early childhood to after-school programmes and higher education.",
+   "minus_en": "Reduces them."
+  },
+  "253b": {
+   "name_ru": "харедимное направление в государственном образовании",
+   "name_en": "Haredi stream in state education",
+   "plus_en": "Creates or expands a Haredi stream within state education.",
+   "minus_en": "Prevents or reduces it."
+  },
+  "124a": {
+   "name_ru": "ограничение сроков премьер-министра",
+   "name_en": "Prime minister term limits",
+   "plus_en": "Lets a prime minister serve longer or removes limits.",
+   "minus_en": "Limits how long a person may serve as prime minister."
+  },
+  "124b": {
+   "name_ru": "сроки полномочий судей Верховного суда",
+   "name_en": "Term of Supreme Court justices",
+   "plus_en": "Lets justices serve longer (until retirement age).",
+   "minus_en": "Fixes a maximum number of years for justices."
+  }
+ }
+}

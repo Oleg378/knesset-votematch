@@ -1,6 +1,10 @@
-"""Terminal quiz (no UI yet): start -> regular questions -> trade-off questions -> leaderboard -> list details -> leaderboard.
+"""Terminal quiz (no UI yet): start -> core questions -> clarifying questions -> trade-off questions -> leaderboard
+(-> more questions) -> list details -> leaderboard.
 
 Same computation as pipeline/quiz_match.py and pipeline/quiz_report.py (docs/QUIZ_MATCHING.md):
+  - question order [У] 2026-10-18 (pipeline/quiz_flow.py, parameters in quiz_flow.FLOW): the core statements (the same for
+    everyone), then clarifying ones chosen one at a time from the answers so far, then trade-offs; «m» on the results screen
+    asks more clarifying questions; --all asks every statement in file order (the old flow);
   - regular questions: the quiz statements in English (jef/quiz/statements_v4.csv, title_en / statement_en), answers
     2 / 1 / 0 / -1 / -2 / ? (don't know); [У] 2026-10-17: the product language is English, bill names stay in Hebrew;
   - trade-off questions [У 2026-10-16]: up to 5, asked one at a time, each only if it can change the top 5; the chosen statement
@@ -11,13 +15,15 @@ Same computation as pipeline/quiz_match.py and pipeline/quiz_report.py (docs/QUI
     of the list's ex-MKs on its direction, split into «same way as your answer» and «the opposite way».
 The session (answers, trade-offs, weights) is saved to jef/quiz/sessions/<time>.json.
 
-Usage: python3 pipeline/quiz_cli.py                                   full flow
+Usage: python3 pipeline/quiz_cli.py                                   core + clarifying + trade-offs
+       python3 pipeline/quiz_cli.py --all                             every statement (old flow)
        python3 pipeline/quiz_cli.py --answers local/jef/quiz/pilot_answers_filled.csv   prefill regular answers (pilot sheet or session json)
 """
 import argparse, datetime, json, os, re, sys, textwrap
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import quiz_match as qm
 import quiz_report as qr
+import quiz_flow as qf
 
 W = 100
 SHOW = 5   # statements per section in list details before «a» (all)
@@ -39,7 +45,7 @@ def parse_answer(s):
 
 def regular(ctx, ans):
     st = ctx["st"]
-    say("\nAnswer each statement: 2 — strongly agree, 1 — somewhat agree, 0 — neutral, -1 — somewhat disagree,\n"
+    say("\nAnswer each statement: 2 — strongly agree, 1 — agree, 0 — neutral, -1 — disagree,\n"
         "-2 — strongly disagree, ? — don't know. Enter — skip, < — back, q — finish answering.")
     i = 0
     while i < len(st):
@@ -56,13 +62,46 @@ def regular(ctx, ans):
         ans[q["q"]] = a; i += 1
     return ans
 
+def ask_one(q, n, total):
+    say(f"\n[{n}{'/' + str(total) if total else ''}] {q['title_en']}\n{q['statement_en']}")
+    while True:
+        s = ask("Your answer: ")
+        if s == "<" or s.lower() in ("q", "й") or s == "": return s.lower()
+        a = parse_answer(s)
+        if a is not None: return a
+        say("Enter 2, 1, 0, -1, -2 or ?.")
+
+def flow(ctx, ans, shown, until, fctx):
+    """Core statements, then clarifying ones: until="rule" — until quiz_flow.should_stop (fixed number or stopping rule, FLOW),
+    until=None — until the pool ends («answer more»). shown: statements already shown, in order (answered or skipped).
+    Back («<») removes the last shown statement and its answer; the next one is then recomputed."""
+    say("\nAnswer each statement: 2 — strongly agree, 1 — agree, 0 — neutral, -1 — disagree, -2 — strongly disagree,\n"
+        "? — don't know. Enter — skip, < — back, q — finish answering.")
+    core = fctx["core"]
+    fixed = qf.FLOW["stop_gap"] is None
+    total = len(core) + qf.FLOW["clarify"] if until == "rule" and fixed else None
+    while True:
+        rest = [q for q in core if q not in shown and q not in ans]
+        if rest: nq = rest[0]
+        elif until == "rule" and qf.should_stop(ans, len(shown), qf.FLOW): return
+        else:
+            nq = qf.next_clarify(ans, set(shown) | set(ans), ctx=fctx["ctx"])
+            if nq is None: say("\nNo more questions."); return
+        a = ask_one(ctx["title"][nq], len(shown) + 1, total)
+        if a == "<":
+            if shown: ans.pop(shown.pop(), None)
+            continue
+        if a in ("q", "й"): return
+        shown.append(nq)
+        if a != "": ans[nq] = a
+
 def exchange(ctx, ans, mult, done):
     """Trade-off questions one at a time; done = [(qa, qb, list, choice)]."""
     used = {x for d in done for x in d[:2]}
     lists = {d[2] for d in done}
-    if len(done) >= qm.MAX_TRADE: return
+    if len(done) >= qf.FLOW["trade"]: return
     first = True
-    while len(done) < qm.MAX_TRADE:
+    while len(done) < qf.FLOW["trade"]:
         pairs = qm.tradeoffs(ans, mult, exclude=used, skip_lists=lists)
         if not pairs: break
         qa, qb, L = pairs[0]
@@ -88,7 +127,7 @@ def leaderboard(ctx, ans, mult):
     low = [r for r in ranking if r["closeness"] is not None and r not in ranked]
     none = [r for r in ranking if r["closeness"] is None]
     say("\n" + "=" * W + "\nRESULT: all lists by closeness to your answers (from −1 to +1)\n"
-        f"Based on {sum(1 for v in ans.values() if v != 'dk')} of {len(ctx['st'])} answers"
+        f"Based on {sum(1 for v in ans.values() if v != 'dk')} answers ({len(ctx['st'])} statements in the quiz)"
         f"{', including trade-offs' if mult else ''}.\n")
     print(f"{'#':>3}  {'List':60} {'Closeness':>9}  Note")
     rows = ranked + low
@@ -141,13 +180,18 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--answers", help="pilot sheet (.csv) or a saved session (.json) to prefill answers")
     ap.add_argument("--no-save", action="store_true", help="do not save the session (test runs)")
+    ap.add_argument("--all", action="store_true", help="ask every statement in file order (the old flow)")
     args = ap.parse_args()
     ctx = qr.context()
     ans, mult, done = load_answers(args.answers) if args.answers else ({}, {}, [])
     say("Knesset election quiz, 27.10.2026.\nThe lists' positions come only from what their candidates who are former MKs did "
         "in the Knesset in 2021–2026: which bills they sponsored and how they voted. New faces on the lists are not visible.")
     if ask("\nEnter — start, q — quit: ").lower() in ("q", "й"): return
-    regular(ctx, ans)
+    fctx = None
+    if args.all: regular(ctx, ans)
+    else:
+        c = qf._ctx(); fctx = {"ctx": c, "core": qf.core(ctx=c)}; shown = []
+        flow(ctx, ans, shown, "rule", fctx)
     if not any(v != "dk" for v in ans.values()): say("No answers — nothing to compute."); return
     exchange(ctx, ans, mult, done)
     path = None
@@ -158,8 +202,12 @@ def main():
     while True:
         rows = leaderboard(ctx, ans, mult)
         if path: say(f"\nAnswers saved: {os.path.relpath(path, qm.ROOT)}")
-        s = ask("List number — details, q — quit: ").lower()
+        s = ask("List number — details" + (", m — answer more questions" if fctx else "") + ", q — quit: ").lower()
         if s in ("q", "й"): return
+        if s in ("m", "ь") and fctx:
+            flow(ctx, ans, shown, None, fctx)
+            if path: json.dump({"answers": ans, "tradeoffs": done, "mult": mult}, open(path, "w"), ensure_ascii=False, indent=1)
+            continue
         if s.isdigit() and 1 <= int(s) <= len(rows): details(ctx, rows[int(s) - 1], ans, mult)
 
 if __name__ == "__main__":

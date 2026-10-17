@@ -2,10 +2,11 @@
 
 Over evaluated lists (status ok) whose position on the direction rests on >= 3 ex-MKs:
   coverage   — at least 8 such lists;
-  spread     — population SD of their positions P >= 0.3;
+  spread     — population SD of their positions P >= 0.25 ([У] 2026-10-17, new formula P = A + 0.25 V; before: 0.3 on the old scale);
   volume     — sum of sum_nA over them >= 30 (MK × bill authorship pairs, not distinct bills);
-  gov axis   — |r| between P and the list's share of votes with the government in K25; [У] 2026-10-16: >= 0.8 is not a drop
-               but a cap of 5 such directions in the quiz, the ones with the larger volume first.
+  gov axis   — |r| between P and the list's share of votes with the government in K25 >= 0.8: shown, not a drop and no cap
+               ([У] 2026-10-18; the cap of 5 from 2026-10-16 is lifted: with the core → clarifying flow the balance is kept in the
+               core instead, quiz_flow.FLOW core_gov_share).
   remainder  — [У] 2026-10-17: what is left of a split direction (bills that fit none of its sub-directions) gets no statement
                even if it passes: mostly secondary topics, largely covered by other statements, the rest unrelated laws.
 
@@ -17,7 +18,7 @@ import numpy as np
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 POS = os.path.join(ROOT, "jef/positions")
-MIN_LISTS, MIN_SD, MIN_NA, GOV_R, GOV_CAP = 8, 0.3, 30, 0.8, 5
+MIN_LISTS, MIN_SD, MIN_NA, GOV_R = 8, 0.25, 30, 0.8
 
 def criteria():
     cov = {r["letters"]: r for r in csv.DictReader(open(os.path.join(POS, "list_coverage.csv")))}
@@ -41,13 +42,14 @@ if __name__ == "__main__":
     quiz = {r["d"]: r["q"] for r in csv.DictReader(open(os.path.join(ROOT, "jef/quiz/statements_v4.csv"))) if r["status"] == "ok"}
     ds = sys.argv[1:] or sorted(set(quiz) | {d for d, x in C.items() if x["base"]}, key=lambda d: (d not in quiz, d))
     plan = json.load(open(os.path.join(ROOT, "jef/directions/split/plan.json")))
-    remainder = set(plan["parents"]) - set(plan["keep"])
+    import labels   # later split stages (2026-10-18): their parents are remainders too
+    remainder = (set(plan["parents"]) - set(plan["keep"])) | {d for p in labels.later_plans() for d in p["parents"]}
     gov = sorted([x for x in C.values() if x["gov"]], key=lambda x: -x["nA"])
-    print(f"gov-axis directions passing the other criteria: {[(x['d'], x['nA']) for x in gov]} (cap {GOV_CAP}: {[x['d'] for x in gov[:GOV_CAP]]})")
+    print(f"gov-axis directions passing the other criteria (no cap): {[(x['d'], x['nA']) for x in gov]}")
     print(f"{'d':6} {'q':>3} {'lists':>5} {'SD':>5} {'nA':>5} {'r_gov':>6}  verdict  direction")
     for d in ds:
         x = C.get(d)
         if not x: print(f"{d:6} {quiz.get(d, ''):>3}  no lists with >= 3 ex-MKs"); continue
-        v = ("pass" if not x["gov"] else ("pass (gov cap)" if x in gov[:GOV_CAP] else "over gov cap")) if x["base"] else "FAIL"
+        v = ("pass (gov axis)" if x["gov"] else "pass") if x["base"] else "FAIL"
         if d in remainder and x["base"]: v = "remainder"
         print(f"{d:6} {quiz.get(d, ''):>3} {x['lists']:>5} {x['sd']:>5.2f} {x['nA']:>5} {x['r']:>6.2f}  {v:8} {x['name']}")

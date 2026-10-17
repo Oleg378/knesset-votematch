@@ -1,7 +1,7 @@
 # Data: knesset.duckdb and data/ are not in git (rebuilt by pipeline/fetch_* and pipeline/build/build.py, Israeli IP needed).
 .PHONY: data positions export test web-dev web-build
 
-data: positions export          ## positions -> export/quiz_data.v1.json + golden.v1.json
+data: positions export          ## positions -> export/quiz_{core,data,bills}.v2.json + golden.v2.json
 
 positions:
 	python3 pipeline/positions.py

@@ -20,7 +20,13 @@ def irrelevant():
     if REL_T is None or not os.path.exists(REL_FILE): return set()
     return {(r['bill_id'], r['d']) for r in map(json.loads, open(REL_FILE)) if r['p'] < REL_T}
 
-def load(relevance=True):
+LATER = [(2, 'plan2.json', 'split2_choice.jsonl'), (3, 'plan3.json', 'split3_choice.jsonl')]   # later split stages, in order
+
+def later_plans():
+    """Plans of the later split stages (2: audit of the statements, 3: audit of the new statements), in order."""
+    return [json.load(open(f'{ROOT}/jef/directions/split/{p}')) for _, p, _ in LATER]
+
+def load(relevance=True, stages=99):
     technical = set()
     for v in json.load(open(f'{LAB}/overrides.json'))['technical'].values():
         technical |= set(v['bill_ids'])
@@ -49,6 +55,24 @@ def load(relevance=True):
     # local/jef/h9_check/landmark/fix/, applied from overrides.json «labels»)
     for b, v in json.load(open(f'{LAB}/overrides.json')).get('labels', {}).items():
         if int(b) in bill_lab: bill_lab[int(b)] = (v['main'], v['secondary'])
+    # later stages (2026-10-18 [У]): directions split by the audits of the statements (jef/directions/split/plan2.json, plan3.json;
+    # labels/split2_choice.jsonl, split3_choice.jsonl), applied after stage 1 and the overrides, in order; parts keep the parent's
+    # sign. stages=N applies stages up to N (jev_split.py takes the bills of stage N from the labels after stage N-1).
+    for k, p, out in LATER:
+        plan_k = json.load(open(f'{ROOT}/jef/directions/split/{p}'))
+        split_plan = {**split_plan, 'new': {**split_plan['new'], **plan_k['new']}, 'parents': {**split_plan['parents'], **plan_k['parents']}}
+        if k > stages or not os.path.exists(f'{LAB}/{out}'): continue
+        for l in open(f'{LAB}/{out}'):
+            r = json.loads(l)
+            b = int(r['bill_id'])
+            if b not in bill_lab or not r['assigned']: continue
+            main, sec = [list(x) for x in bill_lab[b]]
+            lst = main if r['role'] == 'main' else sec
+            lst[:] = [t for t in lst if str(t['n']) != r['parent']]
+            have = {str(t['n']) for t in main + sec}
+            for a in r['assigned']:
+                if a['n'] not in have: lst.append({'n': a['n'], 'sign': a['sign']}); have.add(a['n'])
+            bill_lab[b] = (main, sec)
     if relevance:
         drop = irrelevant()
         for b, (main, sec) in list(bill_lab.items()):
