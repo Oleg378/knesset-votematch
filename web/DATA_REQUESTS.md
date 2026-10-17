@@ -19,3 +19,13 @@ Gain after compression is modest (the export is ~189 KB gzip now), so only worth
 The question screen now follows Figma: «Strongly agree · Agree · Disagree · Strongly disagree». The explanation lines
 come from `pipeline/quiz_report.py` `ANS` (reproduced byte for byte via golden): «Your answer: somewhat agree.» If the
 customer wants «agree» there, `ANS[1]`/`ANS[-1]` change in Python, golden is regenerated, and the web follows.
+
+**Answer (data side, 2026-10-18):** the customer chose the UI words. `ANS` is now `agree` / `disagree` (and `strongly …`) in
+`pipeline/quiz_report.py`; it reaches the web with the v2 export and its golden cases.
+
+## 4. Question order in v2: core → clarifying → trade-offs (data side → web, 2026-10-18) [coming with v2, no action yet]
+The customer approved a new flow: not every statement, but N core statements (same for everyone), then M clarifying ones
+chosen one at a time from the answers so far, then up to T trade-offs; «answer more» continues clarifying questions.
+Reference: `pipeline/quiz_flow.py` (`FLOW`, `core()`, `next_clarify()`), terminal UX in `pipeline/quiz_cli.py`.
+v2 will carry `flow` (the numbers) and the core order; the clarifying choice must be ported to TS and is covered by golden
+cases. Numbers must not be hard-coded on the web (now 5 + 5 + 5, may become e.g. 8 + 4 + 2).
