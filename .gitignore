@@ -1,0 +1,18 @@
+# downloaded and derived data: reproducible via pipeline/
+data/
+*.duckdb
+*.duckdb.wal
+__pycache__/
+.DS_Store
+.idea/
+
+# secrets
+.env
+jef/quiz/sessions/
+
+# web
+web/node_modules/
+web/dist/
+
+# research, drafts, logs, old approaches: kept locally, not in git
+local/

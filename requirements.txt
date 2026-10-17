@@ -1,0 +1,7 @@
+# pipeline/ dependencies, pinned (Python 3.10). Install: pip install -r requirements.txt
+duckdb==1.5.6
+numpy==1.23.5
+pandas==1.5.3
+jsonschema==4.21.1
+typesafe-sdk==0.7.4   # Jev labeling only (key in .env)
+pymupdf==1.28.2  # bill texts from PDF booklets only

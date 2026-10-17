@@ -1,0 +1,31 @@
+# Web front end: install, typecheck, test (incl. golden cases: TS port == Python reference), build, dist check.
+# No deploy step yet: Cloudflare Pages is connected later by the customer (web/SPEC.md «Hosting»).
+name: web
+
+on:
+  push:
+    paths: ['web/**', 'export/**', '.github/workflows/web.yml']
+  pull_request:
+    paths: ['web/**', 'export/**', '.github/workflows/web.yml']
+
+permissions:
+  contents: read
+
+jobs:
+  web:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test -- --run
+      - run: npm run build
+      - run: npm run check:dist   # gzip size budget; no external hosts in the built code

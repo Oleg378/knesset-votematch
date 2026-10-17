@@ -1,0 +1,373 @@
+{
+ "transfers": {
+  "233a": [
+   "166"
+  ],
+  "233b": [
+   "242"
+  ],
+  "298a": [
+   "24"
+  ],
+  "298b": [
+   "171"
+  ],
+  "298c": [
+   "158"
+  ],
+  "296b": [
+   "144",
+   "248"
+  ],
+  "188a": [
+   "167"
+  ],
+  "188b": [
+   "141"
+  ],
+  "359a": [
+   "185"
+  ],
+  "359b": [
+   "36"
+  ],
+  "359c": [
+   "134"
+  ],
+  "361b": [
+   "171"
+  ],
+  "361c": [
+   "143"
+  ],
+  "361d": [
+   "24"
+  ],
+  "370a": [
+   "169"
+  ],
+  "101a": [
+   "278"
+  ],
+  "101c": [
+   "204"
+  ],
+  "161b": [
+   "154"
+  ],
+  "161c": [
+   "154"
+  ],
+  "76c": [
+   "154"
+  ],
+  "231a": [
+   "227"
+  ],
+  "277h": [
+   "187"
+  ]
+ },
+ "new": {
+  "233c": {
+   "name_ru": "государственное владение спорной собственностью",
+   "name_en": "State possession of contested property",
+   "plus_en": "The state takes or keeps possession of property claimed by absentees, displaced communities, churches, UN agencies, or occupants of state land (e.g. absentee property, abandoned property, UNRWA premises, eviction from public land).",
+   "minus_en": "Returns contested property to former owners or residents, or limits the state's power to seize or hold it (e.g. return of Ikrit/Biram residents, return of absentee property to citizens)."
+  },
+  "185a": {
+   "name_ru": "призыв учащихся ешив",
+   "name_en": "Military service of yeshiva students",
+   "plus_en": "Increases the conscription of yeshiva and Haredi men (enlistment quotas, sanctions, 'service for all', limiting Torah-study deferrals).",
+   "minus_en": "Expands or entrenches exemptions or deferrals for Torah study or religious reasons."
+  },
+  "185b": {
+   "name_ru": "объём общей воинской и резервной повинности",
+   "name_en": "Length and breadth of general conscription and reserve duty",
+   "plus_en": "Lengthens compulsory or reserve service, raises the exemption age, or extends conscription to more groups of the general population (e.g. new immigrants).",
+   "minus_en": "Shortens compulsory or reserve service, abolishes conscription, or adds individual exemptions (conscience, gender)."
+  },
+  "296a": {
+   "name_ru": "обязательства по международному праву прав человека и мирным соглашениям",
+   "name_en": "Commitment to international human-rights law and peace agreements",
+   "plus_en": "Adopts or reinforces international human-rights, refugee or humanitarian-law treaties, international courts, or signed diplomatic agreements and UN bodies.",
+   "minus_en": "Withdraws from or overrides such treaties, agreements or UN bodies (e.g. cancelling the Oslo Accords, revoking UNRWA immunities, rejecting WHO regulations)."
+  },
+  "53a": {
+   "name_ru": "отстранение депутатов за поддержку врага и нелояльность",
+   "name_en": "Removal of MKs for support of enemies or disloyalty",
+   "plus_en": "Makes it easier to suspend, expel, disqualify or cut pay of MKs for supporting terrorism or enemy states, refusing the oath, or security offenses.",
+   "minus_en": "Repeals or narrows such grounds for expulsion or disqualification (e.g. repeal of section 7A, cancelling MK expulsion procedure)."
+  },
+  "53b": {
+   "name_ru": "санкции против выборных лиц за коррупцию и уголовные дела",
+   "name_en": "Sanctions on elected officials for corruption and criminal cases",
+   "plus_en": "Strengthens sanctions on MKs or officials who are indicted or convicted (moral turpitude, longer disqualification, suspension upon indictment, limits on immunity, ethics committee powers).",
+   "minus_en": "Weakens such sanctions or expands immunity."
+  },
+  "53c": {
+   "name_ru": "контроль партии над депутатами (расколы и предвыборные обещания)",
+   "name_en": "Party control over MKs (splits and election promises)",
+   "plus_en": "Penalizes MKs who leave their faction or break election promises (harder splits, loss of seat).",
+   "minus_en": "Makes it easier for MKs to leave or split from their faction without penalty."
+  },
+  "76a": {
+   "name_ru": "мощности гражданских судов",
+   "name_en": "Capacity of the civil court system",
+   "plus_en": "Adds judges, specialized departments, courts or procedures to speed up and expand civil and criminal court handling.",
+   "minus_en": "Reduces judges, departments or court capacity."
+  },
+  "76b": {
+   "name_ru": "структура высших судов (размер ВС, конституционный суд)",
+   "name_en": "Structure of the top courts",
+   "plus_en": "Expands the Supreme Court or creates new top-level courts (constitutional court, special court) that change the balance of judicial power.",
+   "minus_en": "Reduces the number of top-court judges or abolishes such courts."
+  },
+  "188c": {
+   "name_ru": "прикомандирование срочников к полиции и ШАБАС",
+   "name_en": "Posting of conscripts to police and prison service",
+   "plus_en": "Allows or extends posting of soldiers in compulsory service to the police, border police or prison service.",
+   "minus_en": "Ends or limits such postings (e.g. no female soldiers in prisons)."
+  },
+  "91a": {
+   "name_ru": "профессиональные и терапевтические привилегии",
+   "name_en": "Professional and therapeutic privilege",
+   "plus_en": "Protects communications with therapists, criminologists, medical staff, accountants or tax advisors, or victims' personal records, from use as evidence.",
+   "minus_en": "Removes such protections."
+  },
+  "91b": {
+   "name_ru": "привилегии в политико-медийной сфере",
+   "name_en": "Privilege in the political and media sphere",
+   "plus_en": "Shields journalists' sources, or communications of spokespersons, media advisors and political trust appointees, from compelled testimony.",
+   "minus_en": "Removes or narrows such privileges."
+  },
+  "116a": {
+   "name_ru": "избирательный порог и порог регистрации партий",
+   "name_en": "Electoral and party-registration thresholds",
+   "plus_en": "Lowers or abolishes the electoral threshold (national or local) or the requirements for registering a party.",
+   "minus_en": "Raises the electoral threshold or the requirements for registering a party."
+  },
+  "116b": {
+   "name_ru": "основания для отстранения списков и кандидатов от выборов",
+   "name_en": "Grounds for barring lists and candidates from elections",
+   "plus_en": "Narrows the grounds or raises the bar for disqualifying lists/candidates or denying parties public funding (e.g. repeal of Basic Law: Knesset s.7A, higher majority required).",
+   "minus_en": "Adds grounds for disqualifying lists/candidates or denying funding (support for terror, boycott of Israel, glorifying murderers of Jews), or eases disqualification."
+  },
+  "161a": {
+   "name_ru": "автономия религиозных учебных заведений",
+   "name_en": "Autonomy of religious educational institutions",
+   "plus_en": "Lets religious (esp. Haredi) schools and higher-education tracks set curriculum, admissions and gender separation without state conditions on funding.",
+   "minus_en": "Conditions funding on core curriculum, non-discriminatory admissions, or not inciting against military service."
+  },
+  "361a": {
+   "name_ru": "ограничения экспорта оружия по правозащитным основаниям",
+   "name_en": "Human-rights restrictions on arms exports",
+   "plus_en": "Restricts defense exports to forces or states that commit serious human-rights violations; adds transparency/oversight.",
+   "minus_en": "Removes such restrictions."
+  },
+  "231b": {
+   "name_ru": "ограничения планирования и изъятия земли",
+   "name_en": "Limits on planning control and land expropriation",
+   "plus_en": "Restricts expropriation, betterment levies, real-estate taxes and planning/building enforcement over private land.",
+   "minus_en": "Expands planning control, expropriation or levies on land and buildings."
+  },
+  "231c": {
+   "name_ru": "земельные и имущественные права арабских граждан",
+   "name_en": "Land and property claims of Arab citizens",
+   "plus_en": "Restores or protects land and property of Arab citizens (Ikrit and Biram, absentee property, Bedouin, unlicensed Arab construction).",
+   "minus_en": "Weakens such claims or expands state control of that land."
+  },
+  "231d": {
+   "name_ru": "земельные права евреев в Иудее и Самарии",
+   "name_en": "Jewish land rights in Judea and Samaria",
+   "plus_en": "Expands rights of Israelis/Jews to buy, hold or reclaim land in Judea and Samaria (repeal of Jordanian purchase ban, pre-1948 land restoration).",
+   "minus_en": "Restricts such purchase or reclamation."
+  },
+  "101b": {
+   "name_ru": "власть родителей над ребёнком",
+   "name_en": "Parental authority over children",
+   "plus_en": "Gives parents more control over their child's medical care, education, documents and monitoring, or eases custody/guardianship rules for parents.",
+   "minus_en": "Gives minors more autonomy (e.g. medical consent from 15) or lets the state remove or restrict parental guardianship (e.g. violent parents)."
+  },
+  "231e": {
+   "name_ru": "конфискация имущества преступников и террористов",
+   "name_en": "Confiscation of property of criminals and terrorists",
+   "plus_en": "Expands the state's power to confiscate or forfeit property, money or assets of criminals, criminal organizations or terrorists, or of their supporters.",
+   "minus_en": "Narrows or limits such confiscation or forfeiture powers, or adds protections for owners and third parties."
+  },
+  "277a": {
+   "name_ru": "лишение пособий и прав как санкция",
+   "name_en": "Denial of benefits and rights as a sanction",
+   "plus_en": "Denies or revokes benefits, allowances, licenses or other state rights from people as a sanction: those involved in terror and their families, illegal residents or infiltrators, boycott supporters, convicted officials.",
+   "minus_en": "Restores such benefits or rights, or limits the state's power to deny them as a sanction."
+  },
+  "277b": {
+   "name_ru": "пособия по инвалидности, уходу и болезни",
+   "name_en": "Eligibility for disability, nursing-care and sickness benefits",
+   "plus_en": "More people qualify for disability, nursing-care, sickness or rehabilitation benefits, or conditions are relaxed (e.g. means test removed).",
+   "minus_en": "Fewer people qualify or conditions become stricter."
+  },
+  "277c": {
+   "name_ru": "пособия при беременности, на детей и родителям",
+   "name_en": "Eligibility for pregnancy, child and parent benefits",
+   "plus_en": "More people qualify for pregnancy, maternity, child, single-parent, alimony, daycare or foster-care benefits, or conditions are relaxed.",
+   "minus_en": "Fewer people qualify or conditions become stricter (e.g. child allowances limited, daycare subsidy conditioned)."
+  },
+  "277d": {
+   "name_ru": "пособия по безработице и для молодых работников",
+   "name_en": "Eligibility for unemployment benefits and support for young workers",
+   "plus_en": "More people qualify for unemployment or employment-support benefits (e.g. interns, young people, workers past retirement age), or conditions are relaxed.",
+   "minus_en": "Fewer people qualify or conditions become stricter."
+  },
+  "277e": {
+   "name_ru": "пособия пожилым и пережившим Катастрофу",
+   "name_en": "Eligibility for old-age benefits and benefits for Holocaust survivors",
+   "plus_en": "More senior citizens or Holocaust survivors qualify for pensions, allowances or exemptions, or conditions are relaxed (e.g. means test removed, eligibility age lowered).",
+   "minus_en": "Fewer qualify or conditions become stricter."
+  },
+  "277f": {
+   "name_ru": "пособия семьям погибших, вдовам и сиротам",
+   "name_en": "Eligibility for survivors' and bereaved families' benefits",
+   "plus_en": "More widows, widowers, orphans or bereaved families qualify for survivors' or bereavement benefits, or conditions are relaxed (e.g. widow who remarried keeps the benefit).",
+   "minus_en": "Fewer qualify or conditions become stricter (e.g. family recognition revoked)."
+  },
+  "277g": {
+   "name_ru": "льготы студентам и учащимся",
+   "name_en": "Eligibility for student and pupil benefits",
+   "plus_en": "More students or pupils qualify for grants, scholarships, meals, transport or other study-related benefits, or conditions are relaxed.",
+   "minus_en": "Fewer qualify or conditions become stricter."
+  },
+  "103a": {
+   "name_ru": "иммунитет избранных лиц от уголовного преследования",
+   "name_en": "Immunity of elected officials from criminal proceedings",
+   "plus_en": "Grants or widens immunity of Knesset members, ministers, the prime minister or heads of local authorities, or bars, delays or requires approval for criminal investigation, arrest or indictment of them while in office.",
+   "minus_en": "Narrows such immunity or makes it easier to investigate, arrest or indict them while in office."
+  },
+  "103b": {
+   "name_ru": "иммунитет солдат и силовиков за действия на службе",
+   "name_en": "Immunity of soldiers and security forces for operational actions",
+   "plus_en": "Grants or widens immunity of soldiers, police or other security personnel from criminal or civil liability for actions during operations or duty, or requires special approval to investigate them.",
+   "minus_en": "Narrows such immunity or makes it easier to investigate or sue them."
+  },
+  "103c": {
+   "name_ru": "защита израильтян от международных судов",
+   "name_en": "Protection of Israelis from international courts and institutions",
+   "plus_en": "Protects Israeli officials, soldiers or citizens from the International Criminal Court or other international institutions: bans cooperation, penalizes assistance, shields them from proceedings.",
+   "minus_en": "Allows or requires cooperation with such international courts and institutions."
+  },
+  "114a": {
+   "name_ru": "финансирование за выдвижение женщин",
+   "name_en": "Public funding incentives for women candidates",
+   "plus_en": "Gives parties or lists extra public election funding for running women candidates (for the Knesset, local councils or heads of local authorities), or increases such incentives.",
+   "minus_en": "Removes or reduces such incentives."
+  },
+  "114b": {
+   "name_ru": "лишение партий финансирования за поведение",
+   "name_en": "Denial of public funding to parties for their conduct",
+   "plus_en": "Denies or cuts public funding to parties or lists for their conduct or positions, e.g. calling for a boycott of Israel.",
+   "minus_en": "Restores such funding or limits the grounds to deny it."
+  }
+ },
+ "technical": [
+  "370",
+  "236",
+  "107"
+ ],
+ "keep": [
+  "352"
+ ],
+ "parents": {
+  "233": [
+   "233a",
+   "233b",
+   "233c"
+  ],
+  "298": [
+   "298a",
+   "298b",
+   "298c"
+  ],
+  "185": [
+   "185a",
+   "185b"
+  ],
+  "296": [
+   "296b",
+   "296a"
+  ],
+  "53": [
+   "53a",
+   "53b",
+   "53c"
+  ],
+  "76": [
+   "76c",
+   "76a",
+   "76b"
+  ],
+  "188": [
+   "188a",
+   "188b",
+   "188c"
+  ],
+  "91": [
+   "91a",
+   "91b"
+  ],
+  "116": [
+   "116a",
+   "116b"
+  ],
+  "370": [
+   "370a"
+  ],
+  "359": [
+   "359a",
+   "359b",
+   "359c"
+  ],
+  "161": [
+   "161b",
+   "161c",
+   "161a"
+  ],
+  "361": [
+   "361b",
+   "361c",
+   "361d",
+   "361a"
+  ],
+  "231": [
+   "231a",
+   "231b",
+   "231c",
+   "231d",
+   "231e"
+  ],
+  "101": [
+   "101a",
+   "101c",
+   "101b"
+  ],
+  "352": [],
+  "277": [
+   "277a",
+   "277b",
+   "277c",
+   "277d",
+   "277e",
+   "277f",
+   "277g",
+   "277h"
+  ],
+  "103": [
+   "103a",
+   "103b",
+   "103c"
+  ],
+  "114": [
+   "114a",
+   "114b"
+  ]
+ }
+}

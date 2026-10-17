@@ -1,0 +1,89 @@
+/*
+ * Design tokens — the ONLY place for colors, type scale, spacing and radii.
+ * Source: Figma «CSS» (https://www.figma.com/design/TTgHWki3flpBiQ6U9XQF7I/CSS), variables and text styles,
+ * imported 2026-10-17. Figma names are given in comments. Tokens marked «not in Figma» are placeholders.
+ */
+:root {
+  /* color */
+  --color-bg: #ffffff; /* surface/default */
+  --color-surface: #ffffff; /* surface/default */
+  --color-surface-subtle: #f5f7fc; /* surface/subtle */
+  --color-surface-pressed: #f5f7fc; /* surface/subtle */
+  --color-text: #121212; /* text/primary */
+  --color-text-strong: #000000; /* Labels/Primary (Fraunces headings) */
+  --color-text-muted: #595e6b; /* text/secondary */
+  --color-text-faint: #8a8f9c; /* text/tertiary */
+  --color-icon: #111111; /* icon/primary */
+  --color-border: rgba(0, 56, 184, 0.2); /* «Or divider» line */
+  --color-accent: #0038b8; /* brand/primary */
+  --color-accent-text: #ffffff; /* text/on-primary */
+  --color-accent-soft: rgba(0, 56, 184, 0.1); /* panels, chips, progress track, letter badge */
+  --color-accent-disabled: #b3c3ec; /* brand/disabled */
+  --color-positive: #0038b8; /* not in Figma: closeness bar > 0 uses brand */
+  --color-negative: #595e6b; /* not in Figma: closeness bar < 0 uses text/secondary (text/tertiary is under 3:1 on the track) */
+  --color-note-bg: rgba(0, 56, 184, 0.1); /* not in Figma: styled as Chip */
+  --color-note-text: #0038b8; /* not in Figma: styled as Chip */
+  --color-focus: #0038b8;
+  --color-dim: rgba(0, 0, 0, 0.4); /* Menu «Dim» */
+
+  /* type */
+  --font-family: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans Hebrew', 'Arial Hebrew',
+    Arial, sans-serif;
+  --font-family-display: 'Fraunces', Georgia, 'Times New Roman', 'Noto Serif Hebrew', 'Noto Sans Hebrew', 'Arial Hebrew',
+    serif;
+  --font-size-xs: 0.8125rem; /* 13 — Caption 13/18, Chip 13/20 */
+  --font-size-sm: 0.9375rem; /* 15 — Label/Strong, Label/Medium 15/20, Body/Default 15/21, Counter 15/22 */
+  --font-size-md: 1.0625rem; /* 17 — Body/Large 17/24, Button 17/22 */
+  --font-size-lg: 1.25rem; /* 20 — statement and trade-off question (Fraunces) 20/22 */
+  --font-size-xl: 1.75rem; /* 28 — menu title (Fraunces) 28/34 */
+  --font-size-2xl: 2.25rem; /* 36 — hero title (Fraunces) 36/42 */
+  --font-size-eyebrow: 0.75rem; /* 12 — Eyebrow 12/16 */
+  --line-height-tight: 1.1; /* 20/22 (Leading/Body) */
+  --line-height-heading: 1.17; /* 36/42, 28/34 */
+  --line-height-label: 1.33; /* 15/20 */
+  --line-height-body: 1.41; /* 17/24 */
+  --line-height-body-sm: 1.4; /* 15/21 Body/Default */
+  --line-height-caption: 1.38; /* 13/18 Caption */
+  --line-height-chip: 1.54; /* 13/20 Chip */
+  --line-height-counter: 1.47; /* 15/22 Counter */
+  --letter-spacing-eyebrow: 0.06em; /* Eyebrow: 0.72px at 12px */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 600; /* SemiBold */
+
+  /* space (space/4 … space/24) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px; /* not in Figma */
+  --space-7: 48px; /* not in Figma */
+  --space-20: 20px; /* space/20 */
+
+  /* shape */
+  --radius-sm: 14px; /* radius/sm — badges */
+  --radius-md: 16px; /* radius/md — chips */
+  --radius-lg: 24px; /* radius/lg — panels */
+  --radius-pill: 28px; /* radius/pill — answer cards */
+  --radius-full: 100px; /* radius/full — buttons */
+  --border-width: 1px;
+  --border-width-strong: 2px; /* selected answer card */
+  --focus-ring: 2px;
+
+  /* layout */
+  --column-max: 480px;
+  --gutter: 24px; /* screen side padding in Figma */
+  --tap-min: 44px; /* header icon, skip link */
+  --button-height: 56px; /* Button, Action, Round Button */
+  --badge-size: 28px;
+  --bar-height: 6px; /* progress Track */
+  --counter-width: 41px; /* «1/10» */
+  --panel-pad-x: 14px; /* «Questions» panel */
+  --choice-pad-y: 14px; /* Answer card */
+  --chip-pad-y: 6px;
+  --step-size: 32px; /* «How it works» number */
+  --hero-size: 150px;
+  --menu-width: 320px;
+  --menu-item-height: 52px;
+}

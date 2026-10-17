@@ -1,0 +1,86 @@
+import { useState } from 'react';
+import { Accordion } from '../components/Accordion';
+import { Button } from '../components/Button';
+import { ExternalLink } from '../components/ExternalLink';
+import { HebrewTitle } from '../components/HebrewTitle';
+import type { BillRef, QuizData, Statement } from '../engine/types';
+import { S } from '../strings';
+import type { ScreenProps } from './types';
+
+const PAGE = 20;
+const M = S.methodology;
+
+function MethodBill({ data, ref_: [id, sign, role], names }: { data: QuizData; ref_: BillRef;
+  names: Map<string, string> }) {
+  const b = data.bills[id]!;
+  const order = new Map(data.lists.map((l, i) => [l.id, i]));
+  // Sponsoring lists: sponsors -> mks[].list, in the order of data.lists.
+  const lists = [...new Set(b.sponsors.map((m) => data.mks[m]?.list).filter((x): x is string => !!x))]
+    .sort((x, y) => (order.get(x) ?? 0) - (order.get(y) ?? 0));
+  return (
+    <li className="bill">
+      <HebrewTitle text={b.name_he} className="bill-title" />
+      <span className="small muted">{M.billMeta(b.knesset, role, sign > 0)}</span>
+      <span className="small">
+        {lists.length ? M.sponsoringLists(lists.map((l) => names.get(l) ?? l).join('; ')) : M.noSponsors}
+      </span>
+      <ExternalLink href={b.url}>{S.bills.link}</ExternalLink>
+    </li>
+  );
+}
+
+function StatementBody({ data, st, names }: { data: QuizData; st: Statement; names: Map<string, string> }) {
+  const [n, setN] = useState(PAGE);
+  const dir = data.directions[st.d];
+  const bills = data.by_direction[st.d] ?? [];
+  return (
+    <>
+      <p>{`“${st.statement_en}”`}</p>
+      {dir && (
+        <div className="stack small">
+          <span className="title-sm">{M.direction(dir.name_en)}</span>
+          <span>{M.plus(dir.plus_en)}</span>
+          <span>{M.minus(dir.minus_en)}</span>
+          <span className="muted">{M.agreeMeans(st.key > 0)}</span>
+        </div>
+      )}
+      <span className="title-sm">{M.billsCount(bills.length)}</span>
+      <ul className="plain-list">
+        {bills.slice(0, n).map((r) => (
+          <MethodBill key={r[0]} data={data} ref_={r} names={names} />
+        ))}
+      </ul>
+      {bills.length > n && (
+        <Button variant="link" onClick={() => setN(n + PAGE)}>
+          {M.showMore(bills.length - n)}
+        </Button>
+      )}
+    </>
+  );
+}
+
+export function MethodologyScreen({ data, dispatch }: ScreenProps) {
+  const names = new Map(data.lists.map((l) => [l.id, l.name_en]));
+  return (
+    <section className="screen">
+      <Button variant="link" onClick={() => dispatch({ type: 'BACK' })}>
+        {M.back}
+      </Button>
+      <h1 className="title-lg">{M.heading}</h1>
+      <div className="stack-lg">
+        {M.paragraphs.map((p, i) => (
+          <p key={i}>{p}</p>
+        ))}
+      </div>
+      <h2 className="title-md">{M.statementsHeading(data.statements.length)}</h2>
+      <div className="stack">
+        {data.statements.map((st) => (
+          <Accordion key={st.q} title={st.title_en}>
+            {() => <StatementBody data={data} st={st} names={names} />}
+          </Accordion>
+        ))}
+      </div>
+      <p className="xsmall muted">{M.dataVersion(data.generated, data.source_commit)}</p>
+    </section>
+  );
+}

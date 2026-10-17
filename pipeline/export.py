@@ -1,0 +1,136 @@
+"""Export for the web quiz: the only link between pipeline/ and web/ (CLAUDE.md «Data contract»).
+
+Writes to export/:
+  quiz_data.v2.json         everything the browser needs: statements, lists with positions, bills, sponsors;
+  quiz_data.v2.schema.json  JSON Schema of it (validated here before writing);
+  golden.v2.json            golden test cases: answers (+ trade-off weights) -> what pipeline/quiz_match.py and
+                            pipeline/quiz_report.py compute. The TypeScript port must reproduce them (web/ Vitest).
+The version in the file name goes up when the formula or the structure changes (never change v1 silently).
+
+Nothing is computed here that the quiz scripts do not already compute: the positions come from pipeline/positions.py
+(jef/positions/), the statements and their English text from jef/quiz/statements_v4.csv, the labels as in quiz_report.py.
+
+Usage: python3 pipeline/export.py        (or: make data)
+"""
+import collections, csv, datetime, json, math, os, random, subprocess, sys
+import jsonschema
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import quiz_match as qm
+import quiz_report as qr
+
+ROOT = qm.ROOT
+OUT = os.path.join(ROOT, "export")
+VERSION = 2   # v2 (2026-10-17): P = A + 0.25 V, relevance filter, P_bills, CLOSE (SU 27.3)
+
+def num(x):
+    """JSON has no NaN: a closeness that cannot be computed is null."""
+    return None if x is None or (isinstance(x, float) and math.isnan(x)) else x
+
+def build_data(ctx):
+    st, pos, cov = ctx["st"], ctx["pos"], ctx["cov"]
+    quiz_d = list(dict.fromkeys(r["d"] for r in st))
+    plan = json.load(open(os.path.join(ROOT, "jef/directions/split/plan.json")))["new"]
+    final = {d["key"]: d for d in json.load(open(os.path.join(ROOT, "jef/directions/merge3/directions_final.json")))}
+    def ddesc(d):
+        x = plan.get(d) or final[d]
+        return {"name_en": x["name_en"], "plus_en": x["plus_en"], "minus_en": x["minus_en"]}
+    nv = ctx["nv"]
+    lists = []
+    for L, c in cov.items():   # order of jef/positions/list_coverage.csv: the tie order of the ranking
+        P = {}
+        for d in quiz_d:
+            x = pos.get(L, {}).get(d)
+            if x: P[d] = {"P": x[0], "P_bills": x[3], "e": x[1], "n_mk": x[2], "n_votes": nv.get((L, d), 0)}
+        lists.append({"id": L, "name_en": c["list_name"], "status": c["status"], "ex_mks": int(c["ex_mks"]), "positions": P})
+    cand_list, mks = {}, {}
+    for L, ms in ctx["cand"].items():
+        for m, (p, name) in ms.items():
+            cand_list[m] = L
+            mks[m] = {"name_en": name, "list": L, "list_position": p}
+    by_direction = {d: [[b, s, role] for b, s, role in ctx["by_d"].get(d, [])] for d in quiz_d}
+    bill_ids = {b for v in by_direction.values() for b, _, _ in v}
+    bills = {}
+    for b in sorted(bill_ids, key=int):
+        name, k = ctx["info"][b]
+        bills[b] = {"name_he": name, "knesset": k, "url": qr.LINK.format(b),
+                    "summary_en": None,   # open question: one-line English summary per bill (see web/SPEC.md «Open»)
+                    "sponsors": sorted(m for m in ctx["init"][b] if m in cand_list)}
+    return {
+        "version": VERSION,
+        "generated": datetime.date.today().isoformat(),
+        "source_commit": subprocess.run(["git", "rev-parse", "--short", "HEAD"], cwd=ROOT, capture_output=True, text=True).stdout.strip(),
+        "params": {"K": qm.K, "MIN_COVERAGE": qm.MIN_COVERAGE, "MAX_TRADE": qm.MAX_TRADE, "TRADE_TOP": qm.TRADE_TOP,
+                   "TRADE_W": qm.TRADE_W, "TRADE_CANDIDATES": 3, "VOTE_WEIGHT": 0.25, "CLOSE": qr.CLOSE},
+        "statements": [{"q": r["q"], "title_en": r["title_en"], "statement_en": r["statement_en"], "key": r["key_s"],
+                        "d": r["d"], "w": r["w"]} for r in st],
+        "directions": {d: ddesc(d) for d in quiz_d},
+        "lists": lists,
+        "mks": dict(sorted(mks.items(), key=lambda x: int(x[0]))),
+        "by_direction": by_direction,
+        "bills": bills,
+    }
+
+# ---------------- golden test cases ----------------
+
+def case(ctx, name, answers, mult=None, exclude=(), skip_lists=()):
+    mult = mult or {}
+    rows = qm.match(answers, mult=mult)
+    ranking = [{"id": r["letters"], "closeness": num(r["closeness"]), "coverage": r["coverage"], "note": r["note"],
+                "ranked": r["closeness"] is not None and r["closeness"] == r["closeness"] and r["coverage"] >= qm.MIN_COVERAGE}
+               for r in rows]
+    out = {"name": name, "answers": answers, "mult": mult, "ranking": ranking,
+           "tradeoffs": {"exclude": list(exclude), "skip_lists": list(skip_lists),
+                         "pairs": [list(t) for t in qm.tradeoffs(answers, mult, exclude=exclude, skip_lists=skip_lists)]},
+           "details": []}
+    for r in [x for x in ranking if x["ranked"]][:2] + [x for x in ranking if not x["ranked"] and x["closeness"] is not None][:1]:
+        L = r["id"]
+        items = []
+        for c, q, a, u, p in qr.contributions(ctx, L, answers, mult):
+            lines, ev = qr.explain(ctx, L, q, a, p, c, mult)
+            items.append({"q": q["q"], "contribution": c, "p": p, "lines": lines,
+                          "evidence": [{"bill": b, "sign": s, "role": role, "same": same, "authors": [[p_, nm] for p_, nm in sorted(authors)]}
+                                       for _, _, b, s, role, authors, same in ev]})
+        out["details"].append({"id": L, "items": items})
+    return out
+
+def full_answers(qs):
+    """A synthetic full answer set (no real person's answers in the contract) with at least two trade-off pairs."""
+    for seed in range(20261019, 20262019):
+        rnd = random.Random(seed)
+        ans = {q: rnd.choice([-2, -1, 0, 1, 2, "dk"]) for q in qs}
+        if len(qm.tradeoffs(ans)) >= 2: return ans
+    raise RuntimeError("no synthetic answer set with two trade-off pairs")
+
+def golden(ctx):
+    st = ctx["st"]
+    qs = [r["q"] for r in st]
+    full = full_answers(qs)
+    t = qm.tradeoffs(full)
+    cases = [case(ctx, "full", full), case(ctx, "full + trade-offs", full, {t[0][0]: qm.TRADE_W, t[1][1]: qm.TRADE_W})]
+    cases.append(case(ctx, "full, adaptive step 2", full, {t[0][0]: qm.TRADE_W}, exclude=t[0][:2], skip_lists=[t[0][2]]))
+    rnd = random.Random(20261017)
+    for i in range(20):
+        n = rnd.choice([3, 10, 30, len(qs)])
+        ans = {q: rnd.choice([-2, -1, 0, 1, 2, "dk"]) for q in rnd.sample(qs, n)}
+        mult = {q: qm.TRADE_W for q in rnd.sample(list(ans), min(2, len(ans)))} if i % 3 == 0 else {}
+        cases.append(case(ctx, f"random {i}", ans, mult))
+    cases += [case(ctx, "no answers", {}), case(ctx, "all don't know", {q: "dk" for q in qs}),
+              case(ctx, "all neutral", {q: 0 for q in qs}), case(ctx, "one answer", {qs[0]: 2}),
+              case(ctx, "rare topic only", {"67": -2, "66": 1})]
+    return {"version": VERSION, "tolerance": 1e-9, "cases": cases}
+
+def main():
+    ctx = qr.context()
+    data = build_data(ctx)
+    schema = json.load(open(os.path.join(OUT, f"quiz_data.v{VERSION}.schema.json")))
+    jsonschema.validate(data, schema)
+    os.makedirs(OUT, exist_ok=True)
+    json.dump(data, open(os.path.join(OUT, f"quiz_data.v{VERSION}.json"), "w"), ensure_ascii=False, separators=(",", ":"))
+    g = golden(ctx)
+    json.dump(g, open(os.path.join(OUT, f"golden.v{VERSION}.json"), "w"), ensure_ascii=False, indent=1)
+    sz = os.path.getsize(os.path.join(OUT, f"quiz_data.v{VERSION}.json"))
+    print(f"quiz_data.v{VERSION}.json: {len(data['statements'])} statements, {len(data['lists'])} lists, {len(data['bills'])} bills, "
+          f"{sz / 1e6:.1f} MB; golden.v{VERSION}.json: {len(g['cases'])} cases")
+
+if __name__ == "__main__":
+    main()
