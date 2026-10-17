@@ -104,7 +104,7 @@ def plural(n, word):
 
 def explain(ctx, L, q, a, p, contrib, mult=None):
     """[У] 2026-10-17: one explained statement in plain words — the statement as shown in the quiz, the user's answer, the
-    list's side (by sign; «close to the average MK» when |p| < CLOSE, п. 6), the basis (the list's ex-MKs' bills split by
+    list's side (by sign; «has no clear position» when |p| < CLOSE, п. 6), the basis (the list's ex-MKs' bills split by
     direction and their votes) and one caveat: the side comes from votes when the list's own bills give nothing or the other
     side (п. 7). [У] 2026-10-18: the caveat «positions are relative to the average MK» is gone — authorship is no longer centered."""
     ev = evidence(ctx, L, q, a / 2 * q["key_s"], contrib)

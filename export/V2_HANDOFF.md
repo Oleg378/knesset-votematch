@@ -1,7 +1,8 @@
 # v2 for the web: what changes and how results are explained
 
-Data side → web, 2026-10-18. The v2 export is **generated**: `quiz_data.v2.json` (with `flow` and `core`), its schema,
-`golden.v2.json` (34 cases, 6 of them «flow N» with `flow.core` and `flow.clarifying`). v1 files are left as they were. Python stays the reference: `pipeline/quiz_match.py` (closeness, trade-offs),
+Data side → web, 2026-10-18. The v2 export is **generated** as three files (section 5 «Loading»): `quiz_core.v2.json`,
+`quiz_data.v2.json`, `quiz_bills.v2.json`; one schema for their merge (`quiz_data.v2.schema.json`); `golden.v2.json` (34 cases,
+6 of them «flow N» with `flow.core` and `flow.clarifying`) — tests only, never shipped. v1 files are left as they were. Python stays the reference: `pipeline/quiz_match.py` (closeness, trade-offs),
 `pipeline/quiz_flow.py` (order of questions), `pipeline/quiz_report.py` (explanations); `pipeline/quiz_cli.py` runs the whole
 flow in the terminal. Decisions are in `docs/SHARED_UNDERSTANDING.md` (Russian).
 
@@ -9,6 +10,7 @@ flow in the terminal. Decisions are in `docs/SHARED_UNDERSTANDING.md` (Russian).
 
 | Area | v1 | v2 |
 |---|---|---|
+| Files | one `quiz_data.v1.json` (1.6 MB), bundled | three files fetched in order (section 5); bills lose `url` (built from `params.BILL_URL`) and `summary_en` |
 | Statements | 65 | 83 (`q` ids stable, gaps allowed; removed ones are gone, new ones up to q104). Texts and titles changed for many |
 | List position P | (A + 0.25 V) / weights, A centered | P = A + 0.25 V; A (sponsored bills) is **not centered**: a list that sponsored bills one way is on that side; no bills = no authorship signal |
 | Shrinkage | p = P · e / (e + K), K = 2 | **K = 0: p = P**. Keep the formula generic and read K from `params` |
@@ -60,12 +62,13 @@ Per list, everything comes from `quiz_report.contributions()` and `explain()`; g
   5. optional: `The list's side comes from how its former MKs voted on private bills, not from the bills they sponsored.`
      (when the list's own bills give nothing or point the other way).
 - `evidence` — the bills behind the item, already in display order (bills that explain the verdict first, then by the best
-  list position of their sponsors). Each: `bill` (id → `bills[id]`: Hebrew name `name_he`, `knesset`, `url`), `sign`
+  list position of their sponsors). Each: `bill` (id → `bills[id]`: Hebrew name `name_he`, `knesset`; link =
+  `params.BILL_URL` with `{id}` replaced), `sign`
   (+1 raises / −1 lowers the direction), `role` (main / secondary topic), `same` (true = same way as the user's answer, ✓;
   false = the opposite way, ✗), `authors` — [list position, English name] of the list's ex-MKs who sponsored it.
 
 **Bills of one statement** (tap on an item): two groups, «Your way (N)» (`same` true) and «The other way (N)»; each line:
-✓/✗ · Hebrew bill name linking to `url` · `Knesset N` · `main / secondary topic` · `raises / lowers “<direction name_en>”` ·
+✓/✗ · Hebrew bill name linking to `params.BILL_URL` · `Knesset N` · `main / secondary topic` · `raises / lowers “<direction name_en>”` ·
 `sponsored by: <name> (#<position> on the list)` (first two by list position). Bill names are never translated.
 
 ## 4. Golden v2
@@ -73,3 +76,24 @@ Per list, everything comes from `quiz_report.contributions()` and `explain()`; g
 Same structure as v1 plus 6 flow cases («flow 0» … «flow 5»): a synthetic user's answers to every statement; `flow.core` and
 `flow.clarifying` are the statements asked, in order; `answers` holds only the answers given to them, and `ranking`,
 `tradeoffs`, `details` are computed on those. The TS port must match to 1e-9.
+
+## 5. Loading (customer, 2026-10-18)
+
+Goal: the start page never waits for data, and a loader almost never appears.
+
+| File | Size (gzip) | Contents | Needed by |
+|---|---|---|---|
+| `quiz_core.v2.json` | ~2 KB (1 KB) | `flow`, `core`, the core statements | the first `flow.core` questions |
+| `quiz_data.v2.json` | ~120 KB (27 KB) | `params`, all statements, `directions`, `lists` with positions | clarifying questions, trade-offs, Results |
+| `quiz_bills.v2.json` | ~1.2 MB (180 KB) | `mks`, `by_direction`, `bills` | List details and «Bills of one statement» only |
+
+- The data is **not bundled** into the JS: the app shell (start page, styles, fonts) loads alone; the three files are fetched
+  as static files from the site itself (CSP `connect-src 'self'` already allows it).
+- Fetch order: start `quiz_core` immediately on page load (before the user presses Start), then `quiz_data` as soon as
+  `quiz_core` has arrived, then `quiz_bills` as soon as `quiz_data` has arrived. The user is answering the core questions
+  meanwhile, so the next file is normally ready before it is needed.
+- A loader is shown only if the user reaches a screen whose file has not arrived yet (e.g. the first clarifying question
+  before `quiz_data`, List details before `quiz_bills`), and only for that screen.
+- All three files carry the same `version`, `generated` and `source_commit`; if they differ (a deploy mid-session), reload.
+- Caching: give the files content-hashed names at build time (or short cache + revalidation); never `immutable` under a
+  fixed name.

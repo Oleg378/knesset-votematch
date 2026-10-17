@@ -1,8 +1,10 @@
 """Export for the web quiz: the only link between pipeline/ and web/ (CLAUDE.md «Data contract»).
 
-Writes to export/:
-  quiz_data.v2.json         everything the browser needs: statements, lists with positions, bills, sponsors;
-  quiz_data.v2.schema.json  JSON Schema of it (validated here before writing);
+Writes to export/ (v2: three files loaded in order, see export/V2_HANDOFF.md «Loading»):
+  quiz_core.v2.json         the core statements and the flow numbers — enough to start answering;
+  quiz_data.v2.json         everything for matching: params, all statements, directions, lists with positions;
+  quiz_bills.v2.json        what only the list details need: bills, sponsors, bills by direction;
+  quiz_data.v2.schema.json  JSON Schema of the three merged (validated here before writing);
   golden.v2.json            golden test cases: answers (+ trade-off weights) -> what pipeline/quiz_match.py and
                             pipeline/quiz_report.py compute. The TypeScript port must reproduce them (web/ Vitest).
 The version in the file name goes up when the formula or the structure changes (never change v1 silently).
@@ -54,15 +56,15 @@ def build_data(ctx):
     bills = {}
     for b in sorted(bill_ids, key=int):
         name, k = ctx["info"][b]
-        bills[b] = {"name_he": name, "knesset": k, "url": qr.LINK.format(b),
-                    "summary_en": None,   # open question: one-line English summary per bill (see web/SPEC.md «Open»)
+        bills[b] = {"name_he": name, "knesset": k,   # v2: url and summary_en dropped (DATA_REQUESTS #2); link = params.BILL_URL
                     "sponsors": sorted(m for m in ctx["init"][b] if m in cand_list)}
     return {
         "version": VERSION,
         "generated": datetime.date.today().isoformat(),
         "source_commit": subprocess.run(["git", "rev-parse", "--short", "HEAD"], cwd=ROOT, capture_output=True, text=True).stdout.strip(),
         "params": {"K": qm.K, "MIN_COVERAGE": qm.MIN_COVERAGE, "MAX_TRADE": qm.MAX_TRADE, "TRADE_TOP": qm.TRADE_TOP,
-                   "TRADE_W": qm.TRADE_W, "TRADE_CANDIDATES": 3, "VOTE_WEIGHT": 0.25, "CLOSE": qr.CLOSE},
+                   "TRADE_W": qm.TRADE_W, "TRADE_CANDIDATES": 3, "VOTE_WEIGHT": 0.25, "CLOSE": qr.CLOSE,
+                   "BILL_URL": qr.LINK.replace("{}", "{id}")},
         "flow": dict(qf.FLOW),
         "core": qf.core(),
         "statements": [{"q": r["q"], "title_en": r["title_en"], "statement_en": r["statement_en"], "key": r["key_s"],
@@ -146,12 +148,19 @@ def main():
     schema = json.load(open(os.path.join(OUT, f"quiz_data.v{VERSION}.schema.json")))
     jsonschema.validate(data, schema)
     os.makedirs(OUT, exist_ok=True)
-    json.dump(data, open(os.path.join(OUT, f"quiz_data.v{VERSION}.json"), "w"), ensure_ascii=False, separators=(",", ":"))
+    # [У] 2026-10-18: three files loaded in order, so the start page and the first questions never wait for the bills
+    head = {k: data[k] for k in ("version", "generated", "source_commit")}
+    parts = {"core": {**head, "flow": data["flow"], "core": data["core"],
+                      "statements": [s for s in data["statements"] if s["q"] in data["core"]]},
+             "data": {**head, **{k: data[k] for k in ("params", "flow", "core", "statements", "directions", "lists")}},
+             "bills": {**head, **{k: data[k] for k in ("mks", "by_direction", "bills")}}}
+    for name, part in parts.items():
+        json.dump(part, open(os.path.join(OUT, f"quiz_{name}.v{VERSION}.json"), "w"), ensure_ascii=False, separators=(",", ":"))
     g = golden(ctx)
     json.dump(g, open(os.path.join(OUT, f"golden.v{VERSION}.json"), "w"), ensure_ascii=False, indent=1)
-    sz = os.path.getsize(os.path.join(OUT, f"quiz_data.v{VERSION}.json"))
-    print(f"quiz_data.v{VERSION}.json: {len(data['statements'])} statements, {len(data['lists'])} lists, {len(data['bills'])} bills, "
-          f"{sz / 1e6:.1f} MB; golden.v{VERSION}.json: {len(g['cases'])} cases")
+    sz = {n: os.path.getsize(os.path.join(OUT, f"quiz_{n}.v{VERSION}.json")) / 1e3 for n in parts}
+    print(f"{len(data['statements'])} statements, {len(data['lists'])} lists, {len(data['bills'])} bills; files (KB): "
+          + ", ".join(f"quiz_{n}.v{VERSION}.json {v:.0f}" for n, v in sz.items()) + f"; golden.v{VERSION}.json: {len(g['cases'])} cases")
 
 if __name__ == "__main__":
     main()

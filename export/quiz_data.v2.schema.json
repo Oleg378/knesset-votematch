@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "quiz_data.v2.schema.json",
   "title": "Knesset 2026 quiz data, version 2",
-  "description": "Produced by pipeline/export.py. The only input of web/. Formulas: docs/QUIZ_MATCHING.md; changes and the list-details format: export/V2_HANDOFF.md. v2 (2026-10-18): P = A + 0.25 V with A not centered, K = 0, P_bills, CLOSE, question order (flow, core).",
+  "description": "Produced by pipeline/export.py. The only input of web/. Formulas: docs/QUIZ_MATCHING.md; changes and the list-details format: export/V2_HANDOFF.md. v2 (2026-10-18): P = A + 0.25 V with A not centered, K = 0, P_bills, CLOSE, question order (flow, core). Written as three files loaded in order (V2_HANDOFF.md «Loading»): quiz_core.v2.json (version, generated, source_commit, flow, core, statements of the core), quiz_data.v2.json (version, generated, source_commit, params, flow, core, statements, directions, lists), quiz_bills.v2.json (version, generated, source_commit, mks, by_direction, bills). This schema describes their merge.",
   "type": "object",
   "required": [
     "version",
@@ -67,7 +67,8 @@
         "TRADE_W",
         "TRADE_CANDIDATES",
         "VOTE_WEIGHT",
-        "CLOSE"
+        "CLOSE",
+        "BILL_URL"
       ],
       "properties": {
         "K": {
@@ -101,6 +102,10 @@
         "CLOSE": {
           "type": "number",
           "description": "|p| below this: the list «has no clear position» on the statement (no for/against)."
+        },
+        "BILL_URL": {
+          "type": "string",
+          "description": "Link to a bill on the Knesset site: replace {id} with the bill id."
         }
       }
     },
@@ -313,8 +318,6 @@
         "required": [
           "name_he",
           "knesset",
-          "url",
-          "summary_en",
           "sponsors"
         ],
         "properties": {
@@ -324,16 +327,6 @@
           },
           "knesset": {
             "type": "integer"
-          },
-          "url": {
-            "type": "string"
-          },
-          "summary_en": {
-            "type": [
-              "string",
-              "null"
-            ],
-            "description": "One-line English summary; null until decided."
           },
           "sponsors": {
             "type": "array",

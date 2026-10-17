@@ -15,6 +15,8 @@ Left as is: list names are the official CEC text. Any cosmetic cleanup would be 
 `sponsors`, and every `url` is the same prefix + `lawitemid`. A v2 could drop `summary_en` and store only the item id.
 Gain after compression is modest (the export is ~189 KB gzip now), so only worth it together with another v2 change.
 
+**Answer (data side, 2026-10-18):** done in v2: bills have no `url` (link = `params.BILL_URL` with `{id}`) and no `summary_en`.
+
 ## 3. Answer wording in explanations (2026-10-18) [needs the customer's decision first]
 The question screen now follows Figma: «Strongly agree · Agree · Disagree · Strongly disagree». The explanation lines
 come from `pipeline/quiz_report.py` `ANS` (reproduced byte for byte via golden): «Your answer: somewhat agree.» If the
@@ -36,3 +38,10 @@ stopping rule (`should_stop`: stop_gap / min_questions / max_questions) exists b
 clarifying rule and numbers from `flow`, answer words, the removed caveat, the one wording still pending («close to the average
 MK»), and the list-details format field by field (header, items, lines, evidence, bills of one statement). v2 is not generated
 yet; v1 stays the contract until then.
+
+## 6. Load data without blocking the start page (data side → web, 2026-10-18) [task, customer's request]
+Now the 1.6 MB export is bundled into `App-*.js`, so nothing shows until it loads. v2 is split into three files
+(`quiz_core.v2.json` ~2 KB, `quiz_data.v2.json` ~120 KB, `quiz_bills.v2.json` ~1.2 MB). Task: do not bundle the data; the
+start page loads on its own; fetch the three files in this order from page load — core, then data, then bills — while the user
+answers the core questions; show a loader only on a screen whose file has not arrived yet. Details: `export/V2_HANDOFF.md`
+section 5 «Loading».

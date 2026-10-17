@@ -45,7 +45,7 @@ def parse_answer(s):
 
 def regular(ctx, ans):
     st = ctx["st"]
-    say("\nAnswer each statement: 2 — strongly agree, 1 — somewhat agree, 0 — neutral, -1 — somewhat disagree,\n"
+    say("\nAnswer each statement: 2 — strongly agree, 1 — agree, 0 — neutral, -1 — disagree,\n"
         "-2 — strongly disagree, ? — don't know. Enter — skip, < — back, q — finish answering.")
     i = 0
     while i < len(st):
