@@ -93,98 +93,98 @@
    "ranking": [
     {
      "id": "עם",
-     "closeness": 0.03645967238476102,
+     "closeness": 0.03545462927059775,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "י",
-     "closeness": 0.028272870698939984,
+     "closeness": 0.027641568063553276,
      "coverage": 0.9420289855072463,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.018651946974573713,
+     "closeness": 0.0200722735603907,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.03490306812015944,
+     "closeness": -0.03387597175447177,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.03946135956155649,
+     "closeness": -0.041415645622710794,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.1002678104835971,
+     "closeness": -0.10112018239119268,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.11145308420496475,
+     "closeness": -0.1139636680937379,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.12078142961174225,
+     "closeness": -0.11921362628239025,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.1398962156987189,
+     "closeness": -0.14030208312521075,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.14736696870425733,
+     "closeness": -0.14988484481446654,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.15473098952939573,
+     "closeness": -0.15286696538414937,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.16189329496104934,
+     "closeness": -0.15891178084468316,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.16974141107949278,
+     "closeness": -0.16971788839106783,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ני",
-     "closeness": -0.1917446478173232,
+     "closeness": -0.1906806106081424,
      "coverage": 0.8985507246376812,
      "note": "few former MKs: 1",
      "ranked": true
@@ -2152,12 +2152,12 @@
       },
       {
        "q": "96",
-       "contribution": -0.2735,
-       "p": 0.2735,
+       "contribution": -0.2971,
+       "p": 0.2971,
        "lines": [
         "“The army, police and intelligence services should face more external oversight, including a state commission of inquiry into October 7, even if this exposes political and military leaders to criticism.”",
         "Your answer: strongly disagree. The list is for this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 189 votes on private bills on this topic."
+        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 121 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -4274,42 +4274,6 @@
        ]
       },
       {
-       "q": "96",
-       "contribution": -0.9013,
-       "p": 0.9013,
-       "lines": [
-        "“The army, police and intelligence services should face more external oversight, including a state commission of inquiry into October 7, even if this exposes political and military leaders to criticism.”",
-        "Your answer: strongly disagree. The list is for this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 17 votes on private bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2159205",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Sharren Miriam Haskel"
-          ]
-         ]
-        },
-        {
-         "bill": "2205431",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Sharren Miriam Haskel"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "90",
        "contribution": -0.9153,
        "p": 0.9153,
@@ -4359,6 +4323,42 @@
          "bill": "2156882",
          "sign": 1,
          "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           1,
+           "Sharren Miriam Haskel"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "96",
+       "contribution": -0.9224,
+       "p": 0.9224,
+       "lines": [
+        "“The army, police and intelligence services should face more external oversight, including a state commission of inquiry into October 7, even if this exposes political and military leaders to criticism.”",
+        "Your answer: strongly disagree. The list is for this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 15 votes on private bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2159205",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           1,
+           "Sharren Miriam Haskel"
+          ]
+         ]
+        },
+        {
+         "bill": "2205431",
+         "sign": 1,
+         "role": "main",
          "same": false,
          "authors": [
           [
@@ -4760,98 +4760,98 @@
    "ranking": [
     {
      "id": "עם",
-     "closeness": 0.08919381668691165,
+     "closeness": 0.08823148821955486,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.02785862401080254,
+     "closeness": 0.029233639819012606,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "י",
-     "closeness": -0.0036215474955353555,
+     "closeness": -0.004206118611689644,
      "coverage": 0.9436619718309859,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.023611076180000592,
+     "closeness": -0.025539131055023194,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.029008944256029547,
+     "closeness": -0.028030658811794187,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.09236181768275814,
+     "closeness": -0.09483186384107911,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.10294503143468092,
+     "closeness": -0.10335819167527953,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.10895913010985603,
+     "closeness": -0.10744751193591104,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.12652149128934861,
+     "closeness": -0.12729490933286486,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.13642235560538887,
+     "closeness": -0.13460131934721845,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.14054918225329396,
+     "closeness": -0.14298470688888118,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.16109315983174402,
+     "closeness": -0.15823460979581055,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.16763523284152315,
+     "closeness": -0.16761243576467602,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ני",
-     "closeness": -0.18776618221775743,
+     "closeness": -0.18673835617469328,
      "coverage": 0.9014084507042254,
      "note": "few former MKs: 1",
      "ranked": true
@@ -6821,12 +6821,12 @@
       },
       {
        "q": "96",
-       "contribution": -0.2735,
-       "p": 0.2735,
+       "contribution": -0.2971,
+       "p": 0.2971,
        "lines": [
         "“The army, police and intelligence services should face more external oversight, including a state commission of inquiry into October 7, even if this exposes political and military leaders to criticism.”",
         "Your answer: strongly disagree. The list is for this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 189 votes on private bills on this topic."
+        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 121 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -12206,12 +12206,12 @@
       },
       {
        "q": "96",
-       "contribution": -1.0724,
-       "p": 1.0724,
+       "contribution": -1.028,
+       "p": 1.028,
        "lines": [
         "“The army, police and intelligence services should face more external oversight, including a state commission of inquiry into October 7, even if this exposes political and military leaders to criticism.”",
         "Your answer: strongly disagree. The list is for this statement.",
-        "Basis: 20 bills sponsored by the list's former MKs — 0 your way, 20 the other way; 131 votes on private bills on this topic."
+        "Basis: 20 bills sponsored by the list's former MKs — 0 your way, 20 the other way; 110 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -12662,98 +12662,98 @@
    "ranking": [
     {
      "id": "עם",
-     "closeness": 0.07576440333706781,
+     "closeness": 0.07478900851488134,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "י",
-     "closeness": 0.027809349613592996,
+     "closeness": 0.02718839690290452,
      "coverage": 0.9428571428571428,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.004440533700004121,
+     "closeness": 0.005813391037355351,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.007166254333964563,
+     "closeness": -0.006157725799091612,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.03250467978638058,
+     "closeness": -0.034443352618826535,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.08704982659342682,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "דרך",
-     "closeness": -0.09874851336745319,
+     "closeness": -0.08958040450385796,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.0993298366443912,
+     "closeness": -0.09778907409364865,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "דרך",
+     "closeness": -0.09958796980222802,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.11759631130624308,
+     "closeness": -0.11800774179095896,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.1299088256910796,
+     "closeness": -0.1324169866554932,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.13574036991197108,
+     "closeness": -0.1338881259659046,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.14356564708007627,
+     "closeness": -0.14062454262737742,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.1590158749070546,
+     "closeness": -0.15899289290126548,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ני",
-     "closeness": -0.18663480542785668,
+     "closeness": -0.18558869881317647,
      "coverage": 0.9,
      "note": "few former MKs: 1",
      "ranked": true
@@ -14722,12 +14722,12 @@
       },
       {
        "q": "96",
-       "contribution": -0.2735,
-       "p": 0.2735,
+       "contribution": -0.2971,
+       "p": 0.2971,
        "lines": [
         "“The army, police and intelligence services should face more external oversight, including a state commission of inquiry into October 7, even if this exposes political and military leaders to criticism.”",
         "Your answer: strongly disagree. The list is for this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 189 votes on private bills on this topic."
+        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 121 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -16845,42 +16845,6 @@
        ]
       },
       {
-       "q": "96",
-       "contribution": -0.9013,
-       "p": 0.9013,
-       "lines": [
-        "“The army, police and intelligence services should face more external oversight, including a state commission of inquiry into October 7, even if this exposes political and military leaders to criticism.”",
-        "Your answer: strongly disagree. The list is for this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 17 votes on private bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2159205",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Sharren Miriam Haskel"
-          ]
-         ]
-        },
-        {
-         "bill": "2205431",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Sharren Miriam Haskel"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "90",
        "contribution": -0.9153,
        "p": 0.9153,
@@ -16930,6 +16894,42 @@
          "bill": "2156882",
          "sign": 1,
          "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           1,
+           "Sharren Miriam Haskel"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "96",
+       "contribution": -0.9224,
+       "p": 0.9224,
+       "lines": [
+        "“The army, police and intelligence services should face more external oversight, including a state commission of inquiry into October 7, even if this exposes political and military leaders to criticism.”",
+        "Your answer: strongly disagree. The list is for this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 15 votes on private bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2159205",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           1,
+           "Sharren Miriam Haskel"
+          ]
+         ]
+        },
+        {
+         "bill": "2205431",
+         "sign": 1,
+         "role": "main",
          "same": false,
          "authors": [
           [
@@ -22934,63 +22934,63 @@
    "ranking": [
     {
      "id": "י",
-     "closeness": 0.1705711517632074,
+     "closeness": 0.17072513287303387,
      "coverage": 0.9642857142857143,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.16987287125238992,
+     "closeness": 0.1694817001942434,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.1681741986058543,
+     "closeness": 0.16799572219657233,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.1524583808512077,
+     "closeness": 0.15287499520381537,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.15244657249503893,
+     "closeness": 0.15169803715609056,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.13891823125167121,
+     "closeness": 0.13889244690908575,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ני",
-     "closeness": 0.10694433408684655,
+     "closeness": 0.10667099987422651,
      "coverage": 0.8214285714285714,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.07721918929271201,
+     "closeness": 0.07758849127491378,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.07516604684600857,
+     "closeness": 0.07508795103655991,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -23004,35 +23004,35 @@
     },
     {
      "id": "ודם",
-     "closeness": -0.05528926023496227,
+     "closeness": -0.05582260463583219,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.07839808220709231,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "אמת",
-     "closeness": -0.12399959091661826,
+     "closeness": -0.07848387496131634,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.12428482488088508,
+     "closeness": -0.1236471920686085,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "אמת",
+     "closeness": -0.12390197139878666,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.3527953490038853,
+     "closeness": -0.3529165196341467,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -23296,12 +23296,12 @@
       },
       {
        "q": "62",
-       "contribution": 1.0064,
-       "p": -1.0064,
+       "contribution": 1.0097,
+       "p": -1.0097,
        "lines": [
         "“Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.”",
         "Your answer: strongly disagree. The list is against this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 50 votes on private bills on this topic."
+        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 52 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -26190,12 +26190,12 @@
       },
       {
        "q": "62",
-       "contribution": -0.0829,
-       "p": 0.0829,
+       "contribution": -0.0885,
+       "p": 0.0885,
        "lines": [
         "“Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.”",
         "Your answer: strongly disagree. The list is has no clear position on this statement.",
-        "Basis: 4 bills sponsored by the list's former MKs — 2 your way, 2 the other way; 305 votes on private bills on this topic."
+        "Basis: 4 bills sponsored by the list's former MKs — 2 your way, 2 the other way; 317 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -29687,91 +29687,91 @@
    "ranking": [
     {
      "id": "דרך",
-     "closeness": 0.268670616546007,
+     "closeness": 0.2678242470874186,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.23512101717516473,
+     "closeness": 0.2328907505329946,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.20608038770458303,
+     "closeness": 0.20692121591430004,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "י",
-     "closeness": 0.1991380029921688,
+     "closeness": 0.198657028631999,
      "coverage": 0.9411764705882353,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.19533818750177123,
+     "closeness": 0.19595567016767304,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": 0.17191334110453688,
+     "closeness": 0.17137364111229728,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.13990341681155877,
+     "closeness": 0.13954997283858186,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.12633294625443656,
+     "closeness": 0.12499066913188456,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.08294488875629526,
+     "closeness": 0.08420951065906973,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.029665165723300035,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "ג",
-     "closeness": -0.04580706738328471,
+     "closeness": 0.029710838925508222,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.04772571844407133,
+     "closeness": -0.046217024157539276,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "ג",
+     "closeness": -0.04715362473643109,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.09741825385528824,
+     "closeness": -0.09677106033937082,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -29785,7 +29785,7 @@
     },
     {
      "id": "ני",
-     "closeness": -0.2056289968738834,
+     "closeness": -0.20500945360423461,
      "coverage": 0.8529411764705882,
      "note": "few former MKs: 1",
      "ranked": true
@@ -31255,12 +31255,12 @@
       },
       {
        "q": "62",
-       "contribution": -0.0356,
-       "p": -0.0712,
+       "contribution": -0.03525,
+       "p": -0.0705,
        "lines": [
         "“Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.”",
         "Your answer: agree. The list is has no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 162 votes on private bills."
+        "Basis: no bills of their own on this topic, only 191 votes on private bills."
        ],
        "evidence": []
       },
@@ -31486,12 +31486,12 @@
       },
       {
        "q": "96",
-       "contribution": -0.3885,
-       "p": 0.777,
+       "contribution": -0.39695,
+       "p": 0.7939,
        "lines": [
         "“The army, police and intelligence services should face more external oversight, including a state commission of inquiry into October 7, even if this exposes political and military leaders to criticism.”",
         "Your answer: disagree. The list is for this statement.",
-        "Basis: 8 bills sponsored by the list's former MKs — 0 your way, 8 the other way; 88 votes on private bills on this topic."
+        "Basis: 8 bills sponsored by the list's former MKs — 0 your way, 8 the other way; 59 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -33319,12 +33319,12 @@
       },
       {
        "q": "62",
-       "contribution": -0.14205,
-       "p": -0.2841,
+       "contribution": -0.14445,
+       "p": -0.2889,
        "lines": [
         "“Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.”",
         "Your answer: agree. The list is against this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 174 votes on private bills on this topic."
+        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 215 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -33718,12 +33718,12 @@
       },
       {
        "q": "96",
-       "contribution": -0.3758,
-       "p": 0.7516,
+       "contribution": -0.40814999999999996,
+       "p": 0.8162999999999999,
        "lines": [
         "“The army, police and intelligence services should face more external oversight, including a state commission of inquiry into October 7, even if this exposes political and military leaders to criticism.”",
         "Your answer: disagree. The list is for this statement.",
-        "Basis: 5 bills sponsored by the list's former MKs — 0 your way, 5 the other way; 104 votes on private bills on this topic."
+        "Basis: 5 bills sponsored by the list's former MKs — 0 your way, 5 the other way; 63 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -34112,7 +34112,7 @@
    "ranking": [
     {
      "id": "ג",
-     "closeness": 0.33267982533063745,
+     "closeness": 0.3345706554889777,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -34126,91 +34126,91 @@
     },
     {
      "id": "ני",
-     "closeness": 0.2702419536537964,
+     "closeness": 0.2692591511313204,
      "coverage": 0.8714285714285714,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.25761519414553785,
+     "closeness": 0.25609907169683915,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.19386921071700006,
+     "closeness": 0.1938818566451625,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": 0.17205030615565498,
+     "closeness": 0.17296210194262365,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.1364694840703882,
+     "closeness": 0.1335734025138498,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.1022069033373703,
+     "closeness": 0.10067708261497359,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.09137922205672691,
+     "closeness": 0.09039334440001166,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.06952059991574112,
+     "closeness": 0.07185365584548953,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "י",
-     "closeness": 0.060697234170550056,
+     "closeness": 0.0612203047327396,
      "coverage": 0.9571428571428572,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.018996591651263425,
+     "closeness": 0.019929486156459397,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.006177828270485129,
+     "closeness": 0.006655207962760914,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.004539115808980492,
+     "closeness": -0.0027089853153835614,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.20914795345840362,
+     "closeness": -0.21014416841326283,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -35097,77 +35097,13 @@
        ]
       },
       {
-       "q": "2",
-       "contribution": 0.5611,
-       "p": 0.5611,
-       "lines": [
-        "“Israel should apply its sovereignty to parts of Judea and Samaria (the West Bank), even if this harms relations with Israel's allies.”",
-        "Your answer: strongly agree. The list is for this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 49 votes on private bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2163745",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           3,
-           "Yitzhak Pindrus"
-          ],
-          [
-           4,
-           "Meir Porush"
-          ],
-          [
-           116,
-           "Uri Maklev"
-          ],
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        },
-        {
-         "bill": "2157994",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Yitzhak Pindrus"
-          ]
-         ]
-        },
-        {
-         "bill": "2241438",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           4,
-           "Meir Porush"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "96",
-       "contribution": 0.5283,
-       "p": 0.5283,
+       "contribution": 0.5882,
+       "p": 0.5882,
        "lines": [
         "“The army, police and intelligence services should face more external oversight, including a state commission of inquiry into October 7, even if this exposes political and military leaders to criticism.”",
         "Your answer: strongly agree. The list is for this statement.",
-        "Basis: 8 bills sponsored by the list's former MKs — 7 your way, 1 the other way; 143 votes on private bills on this topic."
+        "Basis: 8 bills sponsored by the list's former MKs — 7 your way, 1 the other way; 134 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -35287,6 +35223,70 @@
           [
            3,
            "Yitzhak Pindrus"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "2",
+       "contribution": 0.5611,
+       "p": 0.5611,
+       "lines": [
+        "“Israel should apply its sovereignty to parts of Judea and Samaria (the West Bank), even if this harms relations with Israel's allies.”",
+        "Your answer: strongly agree. The list is for this statement.",
+        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 49 votes on private bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2163745",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           3,
+           "Yitzhak Pindrus"
+          ],
+          [
+           4,
+           "Meir Porush"
+          ],
+          [
+           116,
+           "Uri Maklev"
+          ],
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        },
+        {
+         "bill": "2157994",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Yitzhak Pindrus"
+          ]
+         ]
+        },
+        {
+         "bill": "2241438",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           4,
+           "Meir Porush"
           ]
          ]
         }
@@ -37229,12 +37229,12 @@
       },
       {
        "q": "62",
-       "contribution": 0.15845,
-       "p": 0.3169,
+       "contribution": 0.1565,
+       "p": 0.313,
        "lines": [
         "“Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.”",
         "Your answer: agree. The list is for this statement.",
-        "Basis: 5 bills sponsored by the list's former MKs — 4 your way, 1 the other way; 312 votes on private bills on this topic."
+        "Basis: 5 bills sponsored by the list's former MKs — 4 your way, 1 the other way; 321 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -41248,63 +41248,63 @@
    "ranking": [
     {
      "id": "רק",
-     "closeness": 0.3310435367281593,
+     "closeness": 0.33081602659515835,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.2693701739003797,
+     "closeness": 0.26939092808721826,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.2664457184818438,
+     "closeness": 0.26652112512973636,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.21912561769603334,
+     "closeness": 0.21912863135340918,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.2179792207431407,
+     "closeness": 0.21806368582679464,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.16491326949813678,
+     "closeness": 0.1648409510081045,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.15834515746866037,
+     "closeness": 0.15831490289604438,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.1454149949812811,
+     "closeness": 0.1454447550772231,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.12256102436899025,
+     "closeness": 0.12245952821473254,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -41318,35 +41318,35 @@
     },
     {
      "id": "ב",
-     "closeness": 0.0956641398955607,
+     "closeness": 0.09567964042119939,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": 0.015216291016355254,
+     "closeness": 0.015248122929395513,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "י",
-     "closeness": -0.034183646969413756,
+     "closeness": -0.03422825878277119,
      "coverage": 0.9402985074626866,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "ני",
-     "closeness": -0.06372542692528638,
+     "closeness": -0.06366298041406007,
      "coverage": 0.8656716417910447,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.13236885039105611,
+     "closeness": -0.1322580760864953,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -47881,12 +47881,12 @@
       },
       {
        "q": "62",
-       "contribution": -0.36755,
-       "p": -0.7351,
+       "contribution": -0.3711,
+       "p": -0.7422,
        "lines": [
         "“Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.”",
         "Your answer: agree. The list is against this statement.",
-        "Basis: 5 bills sponsored by the list's former MKs — 0 your way, 5 the other way; 777 votes on private bills on this topic."
+        "Basis: 5 bills sponsored by the list's former MKs — 0 your way, 5 the other way; 969 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -51404,12 +51404,12 @@
       },
       {
        "q": "62",
-       "contribution": -0.0356,
-       "p": -0.0712,
+       "contribution": -0.03525,
+       "p": -0.0705,
        "lines": [
         "“Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.”",
         "Your answer: agree. The list is has no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 162 votes on private bills."
+        "Basis: no bills of their own on this topic, only 191 votes on private bills."
        ],
        "evidence": []
       },
@@ -52117,98 +52117,98 @@
    "ranking": [
     {
      "id": "עם",
-     "closeness": 0.13986098684040918,
+     "closeness": 0.13972686857943234,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.10598758170177824,
+     "closeness": 0.10544400316390765,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "י",
-     "closeness": 0.029104403260103884,
+     "closeness": 0.029299450837689964,
      "coverage": 1.0,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.2027133209448174,
+     "closeness": -0.20278326232627414,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.24743380839192422,
+     "closeness": -0.24732821849524636,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ני",
-     "closeness": -0.25966107068457095,
+     "closeness": -0.25988919980327047,
      "coverage": 0.8928571428571429,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.308398691444717,
+     "closeness": -0.3080460023306625,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.30860501894422265,
+     "closeness": -0.3089723605339706,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.312702730665987,
+     "closeness": -0.31234446609781163,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.315239628203168,
+     "closeness": -0.31458785999070166,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.3275739806990747,
+     "closeness": -0.32764341507988815,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.35541667264629484,
+     "closeness": -0.3558708485795965,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.3770404399737674,
+     "closeness": -0.37705483658801164,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.3869666609066383,
+     "closeness": -0.3870962818689095,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -53065,12 +53065,12 @@
       },
       {
        "q": "62",
-       "contribution": 0.199,
-       "p": -0.199,
+       "contribution": 0.1975,
+       "p": -0.1975,
        "lines": [
         "“Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.”",
         "Your answer: strongly disagree. The list is has no clear position on this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 234 votes on private bills on this topic."
+        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 302 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -54521,12 +54521,12 @@
       },
       {
        "q": "62",
-       "contribution": 0.2586,
-       "p": -0.2586,
+       "contribution": 0.2502,
+       "p": -0.2502,
        "lines": [
         "“Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.”",
         "Your answer: strongly disagree. The list is against this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 207 votes on private bills on this topic."
+        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 228 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -65665,63 +65665,63 @@
    "ranking": [
     {
      "id": "מחל",
-     "closeness": 0.15133853920278145,
+     "closeness": 0.1513849611509531,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.15095112776710856,
+     "closeness": 0.15100252998523345,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.13363641131509732,
+     "closeness": 0.1332554962955029,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "י",
-     "closeness": 0.11638701015078527,
+     "closeness": 0.11632182331762672,
      "coverage": 0.9402985074626866,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.1058581948378591,
+     "closeness": 0.1058600138266971,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.09133873910241462,
+     "closeness": 0.09145616711510846,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ני",
-     "closeness": 0.08537046833915936,
+     "closeness": 0.08539189043015182,
      "coverage": 0.8656716417910447,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.06109081590086197,
+     "closeness": 0.06119217310227795,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.036710055872266764,
+     "closeness": 0.036625406263816294,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -65735,35 +65735,35 @@
     },
     {
      "id": "רק",
-     "closeness": -0.016840036938594514,
+     "closeness": -0.016802962109624592,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.02335045321435712,
+     "closeness": -0.023381877018756846,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.09613076384090545,
+     "closeness": -0.09598983273242648,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.1276431086397387,
+     "closeness": -0.12759662604739752,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.18086137068599153,
+     "closeness": -0.18075428907988308,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -96815,91 +96815,91 @@
    "ranking": [
     {
      "id": "רק",
-     "closeness": 0.18581375898749,
+     "closeness": 0.18643519373940956,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.18071233706837425,
+     "closeness": 0.1794250624514652,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.1700091503748655,
+     "closeness": 0.16996260068722055,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "י",
-     "closeness": 0.16726535318102978,
+     "closeness": 0.16749771635794092,
      "coverage": 0.9571428571428572,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.14903802638464836,
+     "closeness": 0.14993420870480412,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.14770359551332712,
+     "closeness": 0.14792295694420296,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.10937709578835177,
+     "closeness": 0.11046315429176286,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.08362803563981283,
+     "closeness": 0.08293005297862263,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ני",
-     "closeness": 0.0823752103285087,
+     "closeness": 0.08181706531102866,
      "coverage": 0.8714285714285714,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.07635748240786476,
+     "closeness": 0.07539811981490487,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.014213084309434696,
+     "closeness": 0.01365963455290732,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.016389848695993116,
+     "closeness": -0.01613002686140996,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.020522139931413563,
+     "closeness": -0.02007699829754166,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -96913,7 +96913,7 @@
     },
     {
      "id": "ודם",
-     "closeness": -0.08207206883146212,
+     "closeness": -0.08289362551829407,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -101404,6 +101404,274 @@
        ]
       },
       {
+       "q": "96",
+       "contribution": 0.4131000000000001,
+       "p": 0.8262000000000002,
+       "lines": [
+        "“The army, police and intelligence services should face more external oversight, including a state commission of inquiry into October 7, even if this exposes political and military leaders to criticism.”",
+        "Your answer: agree. The list is for this statement.",
+        "Basis: 15 bills sponsored by the list's former MKs — 15 your way, 0 the other way; 315 votes on private bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2218567",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Yair Lapid"
+          ],
+          [
+           4,
+           "Merav Ben-Ari"
+          ],
+          [
+           9,
+           "Meirav Cohen"
+          ],
+          [
+           12,
+           "Ram Ben-Barak"
+          ],
+          [
+           14,
+           "Naor Shiri"
+          ],
+          [
+           16,
+           "Vladimir Beliak"
+          ],
+          [
+           18,
+           "Yorai Lahav-Hertzanu"
+          ],
+          [
+           20,
+           "Yasmin Fridman"
+          ],
+          [
+           24,
+           "Moshe Tur-Paz"
+          ],
+          [
+           27,
+           "Simon Davidson"
+          ],
+          [
+           29,
+           "Shelly Tal Meron"
+          ],
+          [
+           33,
+           "Matti Tzarfati Harkavi"
+          ]
+         ]
+        },
+        {
+         "bill": "2238129",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           4,
+           "Merav Ben-Ari"
+          ]
+         ]
+        },
+        {
+         "bill": "2167095",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           4,
+           "Merav Ben-Ari"
+          ],
+          [
+           12,
+           "Ram Ben-Barak"
+          ],
+          [
+           16,
+           "Vladimir Beliak"
+          ],
+          [
+           18,
+           "Yorai Lahav-Hertzanu"
+          ]
+         ]
+        },
+        {
+         "bill": "2219199",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           4,
+           "Merav Ben-Ari"
+          ]
+         ]
+        },
+        {
+         "bill": "2196934",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           4,
+           "Merav Ben-Ari"
+          ]
+         ]
+        },
+        {
+         "bill": "2229800",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           4,
+           "Merav Ben-Ari"
+          ]
+         ]
+        },
+        {
+         "bill": "2235692",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           4,
+           "Merav Ben-Ari"
+          ]
+         ]
+        },
+        {
+         "bill": "2209538",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           4,
+           "Merav Ben-Ari"
+          ]
+         ]
+        },
+        {
+         "bill": "2196997",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           4,
+           "Merav Ben-Ari"
+          ]
+         ]
+        },
+        {
+         "bill": "2169463",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           12,
+           "Ram Ben-Barak"
+          ]
+         ]
+        },
+        {
+         "bill": "2239100",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           14,
+           "Naor Shiri"
+          ]
+         ]
+        },
+        {
+         "bill": "2220510",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           14,
+           "Naor Shiri"
+          ],
+          [
+           16,
+           "Vladimir Beliak"
+          ],
+          [
+           27,
+           "Simon Davidson"
+          ],
+          [
+           29,
+           "Shelly Tal Meron"
+          ],
+          [
+           33,
+           "Matti Tzarfati Harkavi"
+          ]
+         ]
+        },
+        {
+         "bill": "2227308",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           16,
+           "Vladimir Beliak"
+          ],
+          [
+           24,
+           "Moshe Tur-Paz"
+          ]
+         ]
+        },
+        {
+         "bill": "2168171",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           18,
+           "Yorai Lahav-Hertzanu"
+          ]
+         ]
+        },
+        {
+         "bill": "2241082",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           36,
+           "Adi Azuz"
+          ]
+         ]
+        }
+       ]
+      },
+      {
        "q": "45",
        "contribution": 0.405,
        "p": 0.81,
@@ -101700,274 +101968,6 @@
        ]
       },
       {
-       "q": "96",
-       "contribution": 0.38755,
-       "p": 0.7751,
-       "lines": [
-        "“The army, police and intelligence services should face more external oversight, including a state commission of inquiry into October 7, even if this exposes political and military leaders to criticism.”",
-        "Your answer: agree. The list is for this statement.",
-        "Basis: 15 bills sponsored by the list's former MKs — 15 your way, 0 the other way; 507 votes on private bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2218567",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Yair Lapid"
-          ],
-          [
-           4,
-           "Merav Ben-Ari"
-          ],
-          [
-           9,
-           "Meirav Cohen"
-          ],
-          [
-           12,
-           "Ram Ben-Barak"
-          ],
-          [
-           14,
-           "Naor Shiri"
-          ],
-          [
-           16,
-           "Vladimir Beliak"
-          ],
-          [
-           18,
-           "Yorai Lahav-Hertzanu"
-          ],
-          [
-           20,
-           "Yasmin Fridman"
-          ],
-          [
-           24,
-           "Moshe Tur-Paz"
-          ],
-          [
-           27,
-           "Simon Davidson"
-          ],
-          [
-           29,
-           "Shelly Tal Meron"
-          ],
-          [
-           33,
-           "Matti Tzarfati Harkavi"
-          ]
-         ]
-        },
-        {
-         "bill": "2238129",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           4,
-           "Merav Ben-Ari"
-          ]
-         ]
-        },
-        {
-         "bill": "2167095",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           4,
-           "Merav Ben-Ari"
-          ],
-          [
-           12,
-           "Ram Ben-Barak"
-          ],
-          [
-           16,
-           "Vladimir Beliak"
-          ],
-          [
-           18,
-           "Yorai Lahav-Hertzanu"
-          ]
-         ]
-        },
-        {
-         "bill": "2219199",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           4,
-           "Merav Ben-Ari"
-          ]
-         ]
-        },
-        {
-         "bill": "2196934",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           4,
-           "Merav Ben-Ari"
-          ]
-         ]
-        },
-        {
-         "bill": "2229800",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           4,
-           "Merav Ben-Ari"
-          ]
-         ]
-        },
-        {
-         "bill": "2235692",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           4,
-           "Merav Ben-Ari"
-          ]
-         ]
-        },
-        {
-         "bill": "2209538",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           4,
-           "Merav Ben-Ari"
-          ]
-         ]
-        },
-        {
-         "bill": "2196997",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           4,
-           "Merav Ben-Ari"
-          ]
-         ]
-        },
-        {
-         "bill": "2169463",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           12,
-           "Ram Ben-Barak"
-          ]
-         ]
-        },
-        {
-         "bill": "2239100",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           14,
-           "Naor Shiri"
-          ]
-         ]
-        },
-        {
-         "bill": "2220510",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           14,
-           "Naor Shiri"
-          ],
-          [
-           16,
-           "Vladimir Beliak"
-          ],
-          [
-           27,
-           "Simon Davidson"
-          ],
-          [
-           29,
-           "Shelly Tal Meron"
-          ],
-          [
-           33,
-           "Matti Tzarfati Harkavi"
-          ]
-         ]
-        },
-        {
-         "bill": "2227308",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           16,
-           "Vladimir Beliak"
-          ],
-          [
-           24,
-           "Moshe Tur-Paz"
-          ]
-         ]
-        },
-        {
-         "bill": "2168171",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           18,
-           "Yorai Lahav-Hertzanu"
-          ]
-         ]
-        },
-        {
-         "bill": "2241082",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           36,
-           "Adi Azuz"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "36",
        "contribution": 0.373,
        "p": 0.746,
@@ -102049,12 +102049,12 @@
       },
       {
        "q": "62",
-       "contribution": 0.36755,
-       "p": -0.7351,
+       "contribution": 0.3711,
+       "p": -0.7422,
        "lines": [
         "“Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.”",
         "Your answer: disagree. The list is against this statement.",
-        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 777 votes on private bills on this topic."
+        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 969 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -113226,13 +113226,97 @@
        ]
       },
       {
+       "q": "70",
+       "contribution": 0.1038,
+       "p": 0.2076,
+       "lines": [
+        "“Public institutions such as hospitals and army bases should follow Jewish religious rules, like no leavened bread on Passover, even if non-observant people are restricted.”",
+        "Your answer: agree. The list is for this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 38 votes on private bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2190977",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Itamar Ben Gvir"
+          ]
+         ]
+        },
+        {
+         "bill": "2165737",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Itamar Ben Gvir"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "98",
+       "contribution": 0.10075,
+       "p": 0.2015,
+       "lines": [
+        "“Tax enforcement should be tightened, for example by limiting cash payments and collecting VAT at source in construction, even if businesses face more paperwork.”",
+        "Your answer: agree. The list is for this statement.",
+        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 8 votes on private bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2160106",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Itamar Ben Gvir"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "82",
+       "contribution": 0.10069999999999998,
+       "p": -0.20139999999999997,
+       "lines": [
+        "“Higher education should be made more accessible — more colleges in the periphery and easier admission rules — even if academic standards may fall.”",
+        "Your answer: disagree. The list is against this statement.",
+        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 6 votes on private bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2203194",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           6,
+           "Yitzhak Kroizer"
+          ]
+         ]
+        }
+       ]
+      },
+      {
        "q": "96",
-       "contribution": 0.13585,
-       "p": 0.2717,
+       "contribution": 0.099,
+       "p": 0.198,
        "lines": [
         "“The army, police and intelligence services should face more external oversight, including a state commission of inquiry into October 7, even if this exposes political and military leaders to criticism.”",
-        "Your answer: agree. The list is for this statement.",
-        "Basis: 19 bills sponsored by the list's former MKs — 13 your way, 6 the other way; 164 votes on private bills on this topic."
+        "Your answer: agree. The list is has no clear position on this statement.",
+        "Basis: 19 bills sponsored by the list's former MKs — 13 your way, 6 the other way; 82 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -113484,90 +113568,6 @@
          "sign": -1,
          "role": "secondary",
          "same": false,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "70",
-       "contribution": 0.1038,
-       "p": 0.2076,
-       "lines": [
-        "“Public institutions such as hospitals and army bases should follow Jewish religious rules, like no leavened bread on Passover, even if non-observant people are restricted.”",
-        "Your answer: agree. The list is for this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 38 votes on private bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2190977",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Itamar Ben Gvir"
-          ]
-         ]
-        },
-        {
-         "bill": "2165737",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Itamar Ben Gvir"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "98",
-       "contribution": 0.10075,
-       "p": 0.2015,
-       "lines": [
-        "“Tax enforcement should be tightened, for example by limiting cash payments and collecting VAT at source in construction, even if businesses face more paperwork.”",
-        "Your answer: agree. The list is for this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 8 votes on private bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2160106",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Itamar Ben Gvir"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "82",
-       "contribution": 0.10069999999999998,
-       "p": -0.20139999999999997,
-       "lines": [
-        "“Higher education should be made more accessible — more colleges in the periphery and easier admission rules — even if academic standards may fall.”",
-        "Your answer: disagree. The list is against this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 6 votes on private bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2203194",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
          "authors": [
           [
            6,
@@ -114759,12 +114759,12 @@
       },
       {
        "q": "62",
-       "contribution": -0.24195,
-       "p": 0.4839,
+       "contribution": -0.2424,
+       "p": 0.4848,
        "lines": [
         "“Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.”",
         "Your answer: disagree. The list is for this statement.",
-        "Basis: 16 bills sponsored by the list's former MKs — 3 your way, 13 the other way; 312 votes on private bills on this topic."
+        "Basis: 16 bills sponsored by the list's former MKs — 3 your way, 13 the other way; 394 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -119265,42 +119265,42 @@
    "ranking": [
     {
      "id": "ט",
-     "closeness": 0.9112247178197398,
+     "closeness": 0.9108415309164729,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.8433631122451845,
+     "closeness": 0.8428603501019563,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.8378023995464653,
+     "closeness": 0.8377180961772026,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.8004060605726461,
+     "closeness": 0.8034856443655695,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.7271042256229125,
+     "closeness": 0.7263640034638832,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.7214956016278495,
+     "closeness": 0.7210983313880542,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -119314,56 +119314,56 @@
     },
     {
      "id": "אמת",
-     "closeness": 0.5990572023046954,
+     "closeness": 0.598631566900309,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.5965970923166509,
+     "closeness": 0.5915259827382551,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": 0.542425245876998,
+     "closeness": 0.5431127884936474,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.4870821348629604,
+     "closeness": 0.4875192606669802,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.41896964890997,
+     "closeness": 0.4148948571636396,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.07119086876459443,
+     "closeness": 0.07280791657639468,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ני",
-     "closeness": 0.010287047636574353,
+     "closeness": 0.01398680352833867,
      "coverage": 0.6,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "י",
-     "closeness": -0.48118493049873723,
+     "closeness": -0.4815072361576902,
      "coverage": 0.6,
      "note": "few former MKs: 1",
      "ranked": true
@@ -119624,12 +119624,12 @@
       },
       {
        "q": "62",
-       "contribution": 0.4184,
-       "p": 0.4184,
+       "contribution": 0.4206,
+       "p": 0.4206,
        "lines": [
         "“Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.”",
         "Your answer: strongly agree. The list is for this statement.",
-        "Basis: 18 bills sponsored by the list's former MKs — 11 your way, 7 the other way; 289 votes on private bills on this topic."
+        "Basis: 18 bills sponsored by the list's former MKs — 11 your way, 7 the other way; 358 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -120094,12 +120094,12 @@
       },
       {
        "q": "62",
-       "contribution": 0.6202,
-       "p": 0.6202,
+       "contribution": 0.6276,
+       "p": 0.6276,
        "lines": [
         "“Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.”",
         "Your answer: strongly agree. The list is for this statement.",
-        "Basis: 9 bills sponsored by the list's former MKs — 5 your way, 4 the other way; 539 votes on private bills on this topic."
+        "Basis: 9 bills sponsored by the list's former MKs — 5 your way, 4 the other way; 639 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -120315,98 +120315,98 @@
    "ranking": [
     {
      "id": "ט",
-     "closeness": 0.5226563402878144,
+     "closeness": 0.52221871019536,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.508125627568241,
+     "closeness": 0.5074301106055604,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.20963953586334277,
+     "closeness": 0.2094507013914412,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.13514597721148341,
+     "closeness": 0.13584469140402336,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ני",
-     "closeness": 0.10516502660201973,
+     "closeness": 0.10431987695767782,
      "coverage": 0.8,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.07441520772042895,
+     "closeness": 0.07457591338213507,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.01206990533972766,
+     "closeness": 0.012027841864354044,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.039381982658952305,
+     "closeness": -0.03861374760670709,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.1850464296549054,
+     "closeness": -0.1853342470244519,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.22419647651368307,
+     "closeness": -0.22515367017729218,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "י",
-     "closeness": -0.23758342998878884,
+     "closeness": -0.2369531621832333,
      "coverage": 1.0,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.2703015631530557,
+     "closeness": -0.26951833759175947,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.28005672324020486,
+     "closeness": -0.2812311701771483,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.2832483846647536,
+     "closeness": -0.2833997015086774,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -121115,12 +121115,12 @@
       },
       {
        "q": "62",
-       "contribution": -0.2092,
-       "p": 0.4184,
+       "contribution": -0.2103,
+       "p": 0.4206,
        "lines": [
         "“Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.”",
         "Your answer: disagree. The list is for this statement.",
-        "Basis: 18 bills sponsored by the list's former MKs — 7 your way, 11 the other way; 289 votes on private bills on this topic."
+        "Basis: 18 bills sponsored by the list's former MKs — 7 your way, 11 the other way; 358 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -122344,12 +122344,12 @@
       },
       {
        "q": "62",
-       "contribution": -0.04145,
-       "p": 0.0829,
+       "contribution": -0.04425,
+       "p": 0.0885,
        "lines": [
         "“Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.”",
         "Your answer: disagree. The list is has no clear position on this statement.",
-        "Basis: 4 bills sponsored by the list's former MKs — 2 your way, 2 the other way; 305 votes on private bills on this topic."
+        "Basis: 4 bills sponsored by the list's former MKs — 2 your way, 2 the other way; 317 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -122689,7 +122689,7 @@
    "ranking": [
     {
      "id": "ני",
-     "closeness": 0.15899543238860975,
+     "closeness": 0.15964574213625812,
      "coverage": 0.8484848484848485,
      "note": "few former MKs: 1",
      "ranked": true
@@ -122703,91 +122703,91 @@
     },
     {
      "id": "עם",
-     "closeness": 0.043080382071359,
+     "closeness": 0.042571267552983426,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "י",
-     "closeness": 0.023969449425165375,
+     "closeness": 0.02365412505403886,
      "coverage": 0.9393939393939394,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.011093302699056416,
+     "closeness": 0.011756193348532031,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.015073809852925337,
+     "closeness": -0.014049148249004415,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.019503911237383303,
+     "closeness": -0.019016880997125934,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.05422433216774683,
+     "closeness": -0.05421459078570309,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.06994161549815137,
+     "closeness": -0.07014000486515971,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.07454819283260797,
+     "closeness": -0.07570184584170755,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.08323993890103464,
+     "closeness": -0.08243301140484059,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.08565679759343467,
+     "closeness": -0.08415612910025784,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.09873485074568482,
+     "closeness": -0.09950275407770799,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.10865156690553726,
+     "closeness": -0.10897041530271244,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.19109817630386003,
+     "closeness": -0.1918487418311791,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -123600,46 +123600,13 @@
        "evidence": []
       },
       {
-       "q": "90",
-       "contribution": -0.11295,
-       "p": -0.2259,
-       "lines": [
-        "“Municipalities should get more powers, for example to run public transport on Shabbat, set up local guard units and approve building plans, even if rules differ from town to town.”",
-        "Your answer: agree. The list is against this statement.",
-        "Basis: no bills of their own on this topic, only 5 votes on private bills."
-       ],
-       "evidence": []
-      },
-      {
-       "q": "56",
-       "contribution": -0.12475,
-       "p": 0.2495,
-       "lines": [
-        "“Emergency measures introduced during a war should be lifted as soon as it ends, even if the threat has not fully disappeared.”",
-        "Your answer: agree. The list is against this statement.",
-        "Basis: no bills of their own on this topic, only 1 vote on private bills."
-       ],
-       "evidence": []
-      },
-      {
-       "q": "3",
-       "contribution": -0.1266,
-       "p": -0.1266,
-       "lines": [
-        "“Israel should cut all economic ties with hostile states, territories and organizations, including trade and aid agencies, even if civilians there are harmed.”",
-        "Your answer: strongly disagree. The list is has no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 7 votes on private bills."
-       ],
-       "evidence": []
-      },
-      {
        "q": "96",
-       "contribution": -0.1309,
-       "p": 0.2618,
+       "contribution": -0.1116,
+       "p": 0.2232,
        "lines": [
         "“The army, police and intelligence services should face more external oversight, including a state commission of inquiry into October 7, even if this exposes political and military leaders to criticism.”",
         "Your answer: disagree. The list is for this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 1 your way, 2 the other way; 9 votes on private bills on this topic."
+        "Basis: 3 bills sponsored by the list's former MKs — 1 your way, 2 the other way; 8 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -123679,6 +123646,39 @@
          ]
         }
        ]
+      },
+      {
+       "q": "90",
+       "contribution": -0.11295,
+       "p": -0.2259,
+       "lines": [
+        "“Municipalities should get more powers, for example to run public transport on Shabbat, set up local guard units and approve building plans, even if rules differ from town to town.”",
+        "Your answer: agree. The list is against this statement.",
+        "Basis: no bills of their own on this topic, only 5 votes on private bills."
+       ],
+       "evidence": []
+      },
+      {
+       "q": "56",
+       "contribution": -0.12475,
+       "p": 0.2495,
+       "lines": [
+        "“Emergency measures introduced during a war should be lifted as soon as it ends, even if the threat has not fully disappeared.”",
+        "Your answer: agree. The list is against this statement.",
+        "Basis: no bills of their own on this topic, only 1 vote on private bills."
+       ],
+       "evidence": []
+      },
+      {
+       "q": "3",
+       "contribution": -0.1266,
+       "p": -0.1266,
+       "lines": [
+        "“Israel should cut all economic ties with hostile states, territories and organizations, including trade and aid agencies, even if civilians there are harmed.”",
+        "Your answer: strongly disagree. The list is has no clear position on this statement.",
+        "Basis: no bills of their own on this topic, only 7 votes on private bills."
+       ],
+       "evidence": []
       },
       {
        "q": "77",
@@ -124712,91 +124712,91 @@
    "ranking": [
     {
      "id": "ב",
-     "closeness": 0.17817997703967872,
+     "closeness": 0.18103218721467498,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.17150742866879518,
+     "closeness": 0.17290143084319512,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.14977314855863436,
+     "closeness": 0.14806529163592616,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "י",
-     "closeness": 0.1472095879923024,
+     "closeness": 0.14670215168884154,
      "coverage": 0.9577464788732394,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.13735572503102286,
+     "closeness": 0.1368948217173709,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.13088937146803054,
+     "closeness": 0.12823800826864104,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.09561660161456799,
+     "closeness": 0.09728782536051384,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.0867216940710501,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "ג",
-     "closeness": 0.07375634152570759,
+     "closeness": 0.08667530369250087,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.07316375228741945,
+     "closeness": 0.07385344903872502,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "ג",
+     "closeness": 0.07137571844619024,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.057576603914175094,
+     "closeness": 0.0565863901745388,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ני",
-     "closeness": 0.0367884790909807,
+     "closeness": 0.037671715736022966,
      "coverage": 0.8732394366197183,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.043651942280404935,
+     "closeness": -0.044549879691435264,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -124810,7 +124810,7 @@
     },
     {
      "id": "ודם",
-     "closeness": -0.06439559931935522,
+     "closeness": -0.06356286102916027,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -128328,101 +128328,13 @@
        ]
       },
       {
-       "q": "70",
-       "contribution": -0.2076,
-       "p": 0.2076,
-       "lines": [
-        "“Public institutions such as hospitals and army bases should follow Jewish religious rules, like no leavened bread on Passover, even if non-observant people are restricted.”",
-        "Your answer: strongly disagree. The list is for this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 38 votes on private bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2190977",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Itamar Ben Gvir"
-          ]
-         ]
-        },
-        {
-         "bill": "2165737",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Itamar Ben Gvir"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "66",
-       "contribution": -0.21795,
-       "p": 0.4359,
-       "lines": [
-        "“Child, pregnancy and parental benefits should come with stricter conditions, even if some children and parents lose assistance.”",
-        "Your answer: agree. The list is against this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 10 votes on private bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2229279",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Limor Son Har-Melech"
-          ],
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "71",
-       "contribution": -0.2652,
-       "p": 0.2652,
-       "lines": [
-        "“In wartime, the state should give reservists, evacuees and businesses extra relief, such as tax breaks and payment delays, even if the deficit grows.”",
-        "Your answer: strongly disagree. The list is for this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 21 votes on private bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2208245",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "96",
-       "contribution": -0.2717,
-       "p": 0.2717,
+       "contribution": -0.198,
+       "p": 0.198,
        "lines": [
         "“The army, police and intelligence services should face more external oversight, including a state commission of inquiry into October 7, even if this exposes political and military leaders to criticism.”",
-        "Your answer: strongly disagree. The list is for this statement.",
-        "Basis: 19 bills sponsored by the list's former MKs — 6 your way, 13 the other way; 164 votes on private bills on this topic."
+        "Your answer: strongly disagree. The list is has no clear position on this statement.",
+        "Basis: 19 bills sponsored by the list's former MKs — 6 your way, 13 the other way; 82 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -128674,6 +128586,94 @@
          "sign": -1,
          "role": "secondary",
          "same": true,
+         "authors": [
+          [
+           6,
+           "Yitzhak Kroizer"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "70",
+       "contribution": -0.2076,
+       "p": 0.2076,
+       "lines": [
+        "“Public institutions such as hospitals and army bases should follow Jewish religious rules, like no leavened bread on Passover, even if non-observant people are restricted.”",
+        "Your answer: strongly disagree. The list is for this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 38 votes on private bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2190977",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           1,
+           "Itamar Ben Gvir"
+          ]
+         ]
+        },
+        {
+         "bill": "2165737",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           1,
+           "Itamar Ben Gvir"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "66",
+       "contribution": -0.21795,
+       "p": 0.4359,
+       "lines": [
+        "“Child, pregnancy and parental benefits should come with stricter conditions, even if some children and parents lose assistance.”",
+        "Your answer: agree. The list is against this statement.",
+        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 10 votes on private bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2229279",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           5,
+           "Limor Son Har-Melech"
+          ],
+          [
+           6,
+           "Yitzhak Kroizer"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "71",
+       "contribution": -0.2652,
+       "p": 0.2652,
+       "lines": [
+        "“In wartime, the state should give reservists, evacuees and businesses extra relief, such as tax breaks and payment delays, even if the deficit grows.”",
+        "Your answer: strongly disagree. The list is for this statement.",
+        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 21 votes on private bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2208245",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
          "authors": [
           [
            6,
@@ -129005,12 +129005,12 @@
       },
       {
        "q": "62",
-       "contribution": -0.4839,
-       "p": 0.4839,
+       "contribution": -0.4848,
+       "p": 0.4848,
        "lines": [
         "“Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.”",
         "Your answer: strongly disagree. The list is for this statement.",
-        "Basis: 16 bills sponsored by the list's former MKs — 3 your way, 13 the other way; 312 votes on private bills on this topic."
+        "Basis: 16 bills sponsored by the list's former MKs — 3 your way, 13 the other way; 394 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -139775,6 +139775,722 @@
        ]
       },
       {
+       "q": "96",
+       "contribution": -0.1036,
+       "p": 0.1036,
+       "lines": [
+        "“The army, police and intelligence services should face more external oversight, including a state commission of inquiry into October 7, even if this exposes political and military leaders to criticism.”",
+        "Your answer: strongly disagree. The list is has no clear position on this statement.",
+        "Basis: 45 bills sponsored by the list's former MKs — 11 your way, 34 the other way; 454 votes on private bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2160204",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           2,
+           "Eli Cohen"
+          ],
+          [
+           3,
+           "Amir Ohana"
+          ],
+          [
+           8,
+           "Ofir Katz"
+          ],
+          [
+           20,
+           "Hava Eti Atia"
+          ],
+          [
+           24,
+           "Nir Barkat"
+          ],
+          [
+           40,
+           "May Golan"
+          ]
+         ]
+        },
+        {
+         "bill": "2170055",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           2,
+           "Eli Cohen"
+          ],
+          [
+           3,
+           "Amir Ohana"
+          ],
+          [
+           10,
+           "Yoav Kisch"
+          ],
+          [
+           19,
+           "David Amsalem"
+          ],
+          [
+           20,
+           "Hava Eti Atia"
+          ],
+          [
+           48,
+           "Avi Dichter"
+          ]
+         ]
+        },
+        {
+         "bill": "2159331",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           3,
+           "Amir Ohana"
+          ],
+          [
+           8,
+           "Ofir Katz"
+          ],
+          [
+           19,
+           "David Amsalem"
+          ],
+          [
+           20,
+           "Hava Eti Atia"
+          ]
+         ]
+        },
+        {
+         "bill": "2159205",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           3,
+           "Amir Ohana"
+          ],
+          [
+           23,
+           "Shlomo Karhi"
+          ],
+          [
+           48,
+           "Avi Dichter"
+          ]
+         ]
+        },
+        {
+         "bill": "2159123",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           4,
+           "Yariv Levin"
+          ]
+         ]
+        },
+        {
+         "bill": "2190758",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           10,
+           "Yoav Kisch"
+          ]
+         ]
+        },
+        {
+         "bill": "2170016",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           10,
+           "Yoav Kisch"
+          ]
+         ]
+        },
+        {
+         "bill": "2202670",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           19,
+           "David Amsalem"
+          ]
+         ]
+        },
+        {
+         "bill": "2202658",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           19,
+           "David Amsalem"
+          ]
+         ]
+        },
+        {
+         "bill": "2164152",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           19,
+           "David Amsalem"
+          ]
+         ]
+        },
+        {
+         "bill": "2166687",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           19,
+           "David Amsalem"
+          ]
+         ]
+        },
+        {
+         "bill": "2190524",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           19,
+           "David Amsalem"
+          ]
+         ]
+        },
+        {
+         "bill": "2164151",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           19,
+           "David Amsalem"
+          ]
+         ]
+        },
+        {
+         "bill": "2202665",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           19,
+           "David Amsalem"
+          ]
+         ]
+        },
+        {
+         "bill": "2192354",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           19,
+           "David Amsalem"
+          ]
+         ]
+        },
+        {
+         "bill": "2202672",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           19,
+           "David Amsalem"
+          ]
+         ]
+        },
+        {
+         "bill": "2167645",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           20,
+           "Hava Eti Atia"
+          ],
+          [
+           23,
+           "Shlomo Karhi"
+          ]
+         ]
+        },
+        {
+         "bill": "2221692",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           20,
+           "Hava Eti Atia"
+          ],
+          [
+           33,
+           "Amit Halevi"
+          ],
+          [
+           35,
+           "Avichai Avraham Boaron"
+          ],
+          [
+           38,
+           "Hanoch Dov Milwidsky"
+          ],
+          [
+           65,
+           "Osher Shekalim"
+          ]
+         ]
+        },
+        {
+         "bill": "2225586",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           20,
+           "Hava Eti Atia"
+          ],
+          [
+           33,
+           "Amit Halevi"
+          ],
+          [
+           35,
+           "Avichai Avraham Boaron"
+          ],
+          [
+           47,
+           "Ariel Kallner"
+          ],
+          [
+           49,
+           "Sasson Sassi Guetta"
+          ],
+          [
+           65,
+           "Osher Shekalim"
+          ]
+         ]
+        },
+        {
+         "bill": "2167560",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           23,
+           "Shlomo Karhi"
+          ],
+          [
+           40,
+           "May Golan"
+          ]
+         ]
+        },
+        {
+         "bill": "2156492",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           23,
+           "Shlomo Karhi"
+          ]
+         ]
+        },
+        {
+         "bill": "2156531",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           23,
+           "Shlomo Karhi"
+          ]
+         ]
+        },
+        {
+         "bill": "2196818",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           23,
+           "Shlomo Karhi"
+          ]
+         ]
+        },
+        {
+         "bill": "2167662",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           23,
+           "Shlomo Karhi"
+          ]
+         ]
+        },
+        {
+         "bill": "2159687",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           23,
+           "Shlomo Karhi"
+          ]
+         ]
+        },
+        {
+         "bill": "2170041",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           23,
+           "Shlomo Karhi"
+          ]
+         ]
+        },
+        {
+         "bill": "2170053",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           23,
+           "Shlomo Karhi"
+          ]
+         ]
+        },
+        {
+         "bill": "2240778",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           33,
+           "Amit Halevi"
+          ]
+         ]
+        },
+        {
+         "bill": "2197077",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           33,
+           "Amit Halevi"
+          ]
+         ]
+        },
+        {
+         "bill": "2236212",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           35,
+           "Avichai Avraham Boaron"
+          ]
+         ]
+        },
+        {
+         "bill": "2235427",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           35,
+           "Avichai Avraham Boaron"
+          ]
+         ]
+        },
+        {
+         "bill": "2196893",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           38,
+           "Hanoch Dov Milwidsky"
+          ]
+         ]
+        },
+        {
+         "bill": "2200576",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           47,
+           "Ariel Kallner"
+          ]
+         ]
+        },
+        {
+         "bill": "2237628",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           47,
+           "Ariel Kallner"
+          ]
+         ]
+        },
+        {
+         "bill": "2162587",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Eli Cohen"
+          ],
+          [
+           4,
+           "Yariv Levin"
+          ],
+          [
+           10,
+           "Yoav Kisch"
+          ],
+          [
+           40,
+           "May Golan"
+          ]
+         ]
+        },
+        {
+         "bill": "2196915",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Ofir Katz"
+          ]
+         ]
+        },
+        {
+         "bill": "2190692",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Ofir Katz"
+          ]
+         ]
+        },
+        {
+         "bill": "2230356",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Ofir Katz"
+          ],
+          [
+           17,
+           "Moshe Saada"
+          ],
+          [
+           21,
+           "Boaz Bismuth"
+          ],
+          [
+           33,
+           "Amit Halevi"
+          ],
+          [
+           35,
+           "Avichai Avraham Boaron"
+          ],
+          [
+           47,
+           "Ariel Kallner"
+          ]
+         ]
+        },
+        {
+         "bill": "2201387",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           13,
+           "Almog Cohen"
+          ]
+         ]
+        },
+        {
+         "bill": "2229582",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           20,
+           "Hava Eti Atia"
+          ],
+          [
+           21,
+           "Boaz Bismuth"
+          ],
+          [
+           33,
+           "Amit Halevi"
+          ],
+          [
+           35,
+           "Avichai Avraham Boaron"
+          ],
+          [
+           38,
+           "Hanoch Dov Milwidsky"
+          ],
+          [
+           50,
+           "Shalom Danino"
+          ],
+          [
+           65,
+           "Osher Shekalim"
+          ],
+          [
+           76,
+           "Afif Abed"
+          ]
+         ]
+        },
+        {
+         "bill": "2219753",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           33,
+           "Amit Halevi"
+          ]
+         ]
+        },
+        {
+         "bill": "2228549",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           35,
+           "Avichai Avraham Boaron"
+          ]
+         ]
+        },
+        {
+         "bill": "2197949",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           38,
+           "Hanoch Dov Milwidsky"
+          ]
+         ]
+        },
+        {
+         "bill": "2196953",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           40,
+           "May Golan"
+          ]
+         ]
+        },
+        {
+         "bill": "2236541",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           65,
+           "Osher Shekalim"
+          ]
+         ]
+        }
+       ]
+      },
+      {
        "q": "33",
        "contribution": -0.1059,
        "p": 0.2118,
@@ -140429,734 +141145,6 @@
           [
            40,
            "May Golan"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "96",
-       "contribution": -0.1366,
-       "p": 0.1366,
-       "lines": [
-        "“The army, police and intelligence services should face more external oversight, including a state commission of inquiry into October 7, even if this exposes political and military leaders to criticism.”",
-        "Your answer: strongly disagree. The list is has no clear position on this statement.",
-        "Basis: 46 bills sponsored by the list's former MKs — 11 your way, 35 the other way; 703 votes on private bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2160204",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Eli Cohen"
-          ],
-          [
-           3,
-           "Amir Ohana"
-          ],
-          [
-           8,
-           "Ofir Katz"
-          ],
-          [
-           20,
-           "Hava Eti Atia"
-          ],
-          [
-           24,
-           "Nir Barkat"
-          ],
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2170055",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Eli Cohen"
-          ],
-          [
-           3,
-           "Amir Ohana"
-          ],
-          [
-           10,
-           "Yoav Kisch"
-          ],
-          [
-           19,
-           "David Amsalem"
-          ],
-          [
-           20,
-           "Hava Eti Atia"
-          ],
-          [
-           48,
-           "Avi Dichter"
-          ]
-         ]
-        },
-        {
-         "bill": "2159331",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           3,
-           "Amir Ohana"
-          ],
-          [
-           8,
-           "Ofir Katz"
-          ],
-          [
-           19,
-           "David Amsalem"
-          ],
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
-         "bill": "2159205",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           3,
-           "Amir Ohana"
-          ],
-          [
-           23,
-           "Shlomo Karhi"
-          ],
-          [
-           48,
-           "Avi Dichter"
-          ]
-         ]
-        },
-        {
-         "bill": "2159123",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           4,
-           "Yariv Levin"
-          ]
-         ]
-        },
-        {
-         "bill": "2190758",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           10,
-           "Yoav Kisch"
-          ]
-         ]
-        },
-        {
-         "bill": "2170016",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           10,
-           "Yoav Kisch"
-          ]
-         ]
-        },
-        {
-         "bill": "2197937",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           17,
-           "Moshe Saada"
-          ]
-         ]
-        },
-        {
-         "bill": "2202670",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           19,
-           "David Amsalem"
-          ]
-         ]
-        },
-        {
-         "bill": "2202658",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           19,
-           "David Amsalem"
-          ]
-         ]
-        },
-        {
-         "bill": "2164152",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           19,
-           "David Amsalem"
-          ]
-         ]
-        },
-        {
-         "bill": "2166687",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           19,
-           "David Amsalem"
-          ]
-         ]
-        },
-        {
-         "bill": "2190524",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           19,
-           "David Amsalem"
-          ]
-         ]
-        },
-        {
-         "bill": "2164151",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           19,
-           "David Amsalem"
-          ]
-         ]
-        },
-        {
-         "bill": "2202665",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           19,
-           "David Amsalem"
-          ]
-         ]
-        },
-        {
-         "bill": "2192354",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           19,
-           "David Amsalem"
-          ]
-         ]
-        },
-        {
-         "bill": "2202672",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           19,
-           "David Amsalem"
-          ]
-         ]
-        },
-        {
-         "bill": "2167645",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ],
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2221692",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ],
-          [
-           33,
-           "Amit Halevi"
-          ],
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ],
-          [
-           38,
-           "Hanoch Dov Milwidsky"
-          ],
-          [
-           65,
-           "Osher Shekalim"
-          ]
-         ]
-        },
-        {
-         "bill": "2225586",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ],
-          [
-           33,
-           "Amit Halevi"
-          ],
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ],
-          [
-           47,
-           "Ariel Kallner"
-          ],
-          [
-           49,
-           "Sasson Sassi Guetta"
-          ],
-          [
-           65,
-           "Osher Shekalim"
-          ]
-         ]
-        },
-        {
-         "bill": "2167560",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           23,
-           "Shlomo Karhi"
-          ],
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2156492",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2156531",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2196818",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2167662",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2159687",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2170041",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2170053",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2240778",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           33,
-           "Amit Halevi"
-          ]
-         ]
-        },
-        {
-         "bill": "2197077",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           33,
-           "Amit Halevi"
-          ]
-         ]
-        },
-        {
-         "bill": "2236212",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ]
-         ]
-        },
-        {
-         "bill": "2235427",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ]
-         ]
-        },
-        {
-         "bill": "2196893",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           38,
-           "Hanoch Dov Milwidsky"
-          ]
-         ]
-        },
-        {
-         "bill": "2200576",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           47,
-           "Ariel Kallner"
-          ]
-         ]
-        },
-        {
-         "bill": "2237628",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           47,
-           "Ariel Kallner"
-          ]
-         ]
-        },
-        {
-         "bill": "2162587",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Eli Cohen"
-          ],
-          [
-           4,
-           "Yariv Levin"
-          ],
-          [
-           10,
-           "Yoav Kisch"
-          ],
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2196915",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Ofir Katz"
-          ]
-         ]
-        },
-        {
-         "bill": "2190692",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Ofir Katz"
-          ]
-         ]
-        },
-        {
-         "bill": "2230356",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Ofir Katz"
-          ],
-          [
-           17,
-           "Moshe Saada"
-          ],
-          [
-           21,
-           "Boaz Bismuth"
-          ],
-          [
-           33,
-           "Amit Halevi"
-          ],
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ],
-          [
-           47,
-           "Ariel Kallner"
-          ]
-         ]
-        },
-        {
-         "bill": "2201387",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           13,
-           "Almog Cohen"
-          ]
-         ]
-        },
-        {
-         "bill": "2229582",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ],
-          [
-           21,
-           "Boaz Bismuth"
-          ],
-          [
-           33,
-           "Amit Halevi"
-          ],
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ],
-          [
-           38,
-           "Hanoch Dov Milwidsky"
-          ],
-          [
-           50,
-           "Shalom Danino"
-          ],
-          [
-           65,
-           "Osher Shekalim"
-          ],
-          [
-           76,
-           "Afif Abed"
-          ]
-         ]
-        },
-        {
-         "bill": "2219753",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           33,
-           "Amit Halevi"
-          ]
-         ]
-        },
-        {
-         "bill": "2228549",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ]
-         ]
-        },
-        {
-         "bill": "2197949",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           38,
-           "Hanoch Dov Milwidsky"
-          ]
-         ]
-        },
-        {
-         "bill": "2196953",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2236541",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           65,
-           "Osher Shekalim"
           ]
          ]
         }
@@ -143248,12 +143236,12 @@
       },
       {
        "q": "62",
-       "contribution": -0.4357,
-       "p": 0.4357,
+       "contribution": -0.4359,
+       "p": 0.4359,
        "lines": [
         "“Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.”",
         "Your answer: strongly disagree. The list is for this statement.",
-        "Basis: 58 bills sponsored by the list's former MKs — 12 your way, 46 the other way; 1257 votes on private bills on this topic."
+        "Basis: 59 bills sponsored by the list's former MKs — 12 your way, 47 the other way; 1506 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -143477,6 +143465,18 @@
           [
            12,
            "Makhlouf Miki Zohar"
+          ]
+         ]
+        },
+        {
+         "bill": "2197937",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           17,
+           "Moshe Saada"
           ]
          ]
         },
@@ -151983,14 +151983,14 @@
    "ranking": [
     {
      "id": "עם",
-     "closeness": 0.42377222149624366,
+     "closeness": 0.4239863885700817,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.336133606249447,
+     "closeness": 0.33669441989321663,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -152004,84 +152004,84 @@
     },
     {
      "id": "ג",
-     "closeness": 0.03592096432754499,
+     "closeness": 0.03543799814799558,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.01851049513365846,
+     "closeness": -0.018340258755278078,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.029512844108204317,
+     "closeness": -0.029437023559708463,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.0768962133929204,
+     "closeness": -0.07699281664094697,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.09656944357671003,
+     "closeness": -0.09654923915273171,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "י",
-     "closeness": -0.1412168647380494,
+     "closeness": -0.14139489272338845,
      "coverage": 1.0,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "ני",
-     "closeness": -0.15367603601478516,
+     "closeness": -0.15339292355216938,
      "coverage": 0.9166666666666666,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.15988051280378618,
+     "closeness": -0.15915081362908196,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.20652436374680438,
+     "closeness": -0.20614439761703307,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.20733374282224507,
+     "closeness": -0.20723429350474468,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.2404608794477542,
+     "closeness": -0.2408315713538014,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.3285284765849782,
+     "closeness": -0.32879913109699654,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -152906,12 +152906,12 @@
       },
       {
        "q": "62",
-       "contribution": -0.0995,
-       "p": -0.199,
+       "contribution": -0.09875,
+       "p": -0.1975,
        "lines": [
         "“Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.”",
         "Your answer: agree. The list is has no clear position on this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 234 votes on private bills on this topic."
+        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 302 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -153677,12 +153677,12 @@
       },
       {
        "q": "62",
-       "contribution": -0.1293,
-       "p": -0.2586,
+       "contribution": -0.1251,
+       "p": -0.2502,
        "lines": [
         "“Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.”",
         "Your answer: agree. The list is against this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 207 votes on private bills on this topic."
+        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 228 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -156533,35 +156533,35 @@
    "ranking": [
     {
      "id": "דרך",
-     "closeness": 0.5768579292843505,
+     "closeness": 0.576781545724586,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.44648906200839183,
+     "closeness": 0.4468876068869639,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "י",
-     "closeness": 0.4126255760159525,
+     "closeness": 0.41268431409636236,
      "coverage": 1.0,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.385923685896074,
+     "closeness": 0.38619616956625474,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.30621508634922506,
+     "closeness": 0.30626213787842577,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -156575,63 +156575,63 @@
     },
     {
      "id": "ל",
-     "closeness": 0.11180835247455506,
+     "closeness": 0.11124469354002388,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.08109688737172092,
+     "closeness": 0.08084585683537679,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.07866803510715673,
+     "closeness": 0.07795495842538677,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.06967738895799391,
+     "closeness": 0.06965013265747189,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.04823699972686344,
+     "closeness": 0.04884492889025346,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.08617470940325685,
+     "closeness": -0.08628104917162188,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.10510789993035026,
+     "closeness": -0.10569764271685826,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.10887862126072057,
+     "closeness": -0.10905813829429001,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ני",
-     "closeness": -0.4932767168179251,
+     "closeness": -0.4934579106117577,
      "coverage": 0.9,
      "note": "few former MKs: 1",
      "ranked": true
@@ -157254,12 +157254,12 @@
       },
       {
        "q": "62",
-       "contribution": 0.0356,
-       "p": -0.0712,
+       "contribution": 0.03525,
+       "p": -0.0705,
        "lines": [
         "“Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.”",
         "Your answer: disagree. The list is has no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 162 votes on private bills."
+        "Basis: no bills of their own on this topic, only 191 votes on private bills."
        ],
        "evidence": []
       },
@@ -157908,12 +157908,12 @@
       },
       {
        "q": "62",
-       "contribution": 0.14205,
-       "p": -0.2841,
+       "contribution": 0.14445,
+       "p": -0.2889,
        "lines": [
         "“Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.”",
         "Your answer: disagree. The list is against this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 174 votes on private bills on this topic."
+        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 215 votes on private bills on this topic."
        ],
        "evidence": [
         {
@@ -159101,7 +159101,7 @@
    "ranking": [
     {
      "id": "ג",
-     "closeness": 0.320672541805203,
+     "closeness": 0.3203378921994599,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -159115,91 +159115,91 @@
     },
     {
      "id": "ני",
-     "closeness": 0.3089768935124822,
+     "closeness": 0.3091621294183643,
      "coverage": 0.9166666666666666,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.20999343193111275,
+     "closeness": 0.21047414650973656,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "י",
-     "closeness": 0.17639780694886928,
+     "closeness": 0.17611897258235357,
      "coverage": 1.0,
      "note": "few former MKs: 1",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.13999618503614455,
+     "closeness": 0.1400140579473763,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.09910460446635343,
+     "closeness": 0.09974418371242576,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.05956731196105554,
+     "closeness": 0.060058415618313855,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.013336994715523907,
+     "closeness": 0.013511714253252332,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.0014032669679759358,
+     "closeness": -0.0013116076787297907,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.03727804266273451,
+     "closeness": -0.03713035020700849,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.07392053784548618,
+     "closeness": -0.07384076152102277,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.2500510505107285,
+     "closeness": -0.2504561559041358,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.49828746041877264,
+     "closeness": -0.4982953207002504,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.5255106204256839,
+     "closeness": -0.5255739652596353,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -159939,12 +159939,12 @@
       },
       {
        "q": "62",
-       "contribution": 0.15845,
-       "p": 0.3169,
+       "contribution": 0.1565,
+       "p": 0.313,
        "lines": [
         "“Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.”",
         "Your answer: agree. The list is for this statement.",
-        "Basis: 5 bills sponsored by the list's former MKs — 4 your way, 1 the other way; 312 votes on private bills on this topic."
+        "Basis: 5 bills sponsored by the list's former MKs — 4 your way, 1 the other way; 321 votes on private bills on this topic."
        ],
        "evidence": [
         {
