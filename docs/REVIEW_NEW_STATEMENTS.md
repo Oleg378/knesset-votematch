@@ -1,16 +1,10 @@
-# Ревью новых утверждений q72–q103 (для заказчика)
+# Ревью новых утверждений (для заказчика)
 
-_2026-10-18. 32 утверждения добавлены в квиз (`jef/quiz/statements_v4.csv`, статус ok) без вашего чтения — по решению «прокидывай в аппрув, глазами прочитать потом». Их надо прочитать: смысл, ключ (+ — согласие = больше того, что меряет направление), пометки. Отметьте [x] прочитанные; правки — в чат._
-
-Как они получены: направления, которые проходят отбор (SD ≥ 0,25, ≥ 8 списков, ≥ 30 авторств), но не имели утверждения; текст написан по самым весомым законопроектам направления (`local/research/new_statements/input.md`). 38 направлений пропущены — корзины, дубли, поглощённые (`local/research/new_statements/drafts.md`).
+_2026-10-18. Утверждения q72–q104 в квизе (`jef/quiz/statements_v4.csv`) до вашего чтения. Прошли аудит Opus тем же методом, что 65 прежних (`local/research/statement_audit_new/audit.csv`): 21 оставлено, q77 переписан, q82 и q88 поправлены (одна мысль), 10 направлений раздроблены через Jev — 7 утверждений сняты (части не прошли отбор или дубли), q89, q101, q103 переписаны на прошедшие части, q104 — новое. Прочитайте оставшиеся: смысл, ключ (+ — согласие = больше того, что меряет направление), пометки ⚠; отметьте [x]._
 
 - [ ] **q72 · Land purchase in Judea and Samaria** (направление 231d «земельные права евреев в Иудее и Самарии», ключ +)
   - EN: Israelis, including Jews, should be allowed to buy land in Judea and Samaria (the West Bank) freely, even if this deepens Israel's hold on the territory.
   - RU: Израильтяне, в том числе евреи, должны иметь право свободно покупать землю в Иудее и Самарии (на Западном берегу), даже если это усилит контроль Израиля над территорией.
-- [ ] **q73 · Alternatives to military service** (направление 186 «доступность альтернатив военной службе», ключ +)
-  - EN: Torah study, civilian service or conscientious objection should count as legitimate alternatives to military service, even if fewer people serve in the army.
-  - RU: Изучение Торы, гражданская служба или отказ по убеждениям должны признаваться законной альтернативой военной службе, даже если в армии будет служить меньше людей.
-  - ⚠ главный вес — Основной закон «Изучение Торы»; близко к q7
 - [ ] **q74 · Equality in the Basic Laws** (направление 291 «конституционная защита прав человека», ключ +)
   - EN: The right to equality should be written into Israel's Basic Laws, including the Nation-State Law, even if this gives the courts more grounds to strike down laws.
   - RU: Право на равенство должно быть закреплено в Основных законах Израиля, включая Закон о национальном государстве, даже если у судов появится больше оснований отменять законы.
@@ -19,20 +13,13 @@ _2026-10-18. 32 утверждения добавлены в квиз (`jef/quiz
   - EN: Party lists and public bodies should be required to include a fair share of women, even if parties lose some freedom to choose their candidates.
   - RU: Партийные списки и государственные органы должны быть обязаны включать справедливую долю женщин, даже если партии потеряют часть свободы в выборе кандидатов.
   - ⚠ поглощает 114a и 112
-- [ ] **q76 · Shorter working week** (направление 209 «продолжительность рабочего времени», ключ −)
-  - EN: The working week should be shortened by law, for example to four and a half days, even if the economy produces less.
-  - RU: Рабочую неделю нужно сократить законом, например до четырёх с половиной дней, даже если экономика будет производить меньше.
-  - ⚠ шум разметки: два самых тяжёлых законопроекта не о рабочем времени
 - [ ] **q77 · Unemployment benefits** (направление 277d «пособия по безработице и для молодых работников», ключ +)
-  - EN: Unemployment benefits should be extended to the self-employed, medical interns and people in vocational training, even if National Insurance spends more.
-  - RU: Пособия по безработице нужно распространить на самозанятых, врачей-интернов и людей на профессиональном обучении, даже если Битуах Леуми будет тратить больше.
+  - EN: Unemployment benefits should cover more people, such as the self-employed, medical interns, young workers and people in job training, even if National Insurance spends more.
+  - RU: Пособия по безработице должны получать больше людей, например самозанятые, врачи-интерны, молодые работники и люди на профессиональном обучении, даже если Битуах Леуми будет тратить больше.
 - [ ] **q78 · Support for students** (направление 277g «льготы студентам и учащимся», ключ +)
   - EN: Students and pupils should get more state support, such as study grants, free school meals and tuition aid, even if this costs the budget more.
   - RU: Студенты и школьники должны получать больше господдержки — стипендии, бесплатное школьное питание, помощь с оплатой учёбы, — даже если это обойдётся бюджету дороже.
   - ⚠ частично пересекается с q9 (льготы резервистам-студентам)
-- [ ] **q79 · Gun licensing** (направление 250 «государственный контроль над оборотом оружия», ключ +)
-  - EN: Gun licensing should be stricter and illegal weapons fought harder, even if fewer citizens can carry a gun for self-defense.
-  - RU: Выдача лицензий на оружие должна быть строже, а борьба с нелегальным оружием — жёстче, даже если меньше граждан смогут носить оружие для самозащиты.
 - [ ] **q80 · Challenging the authorities** (направление 69 «возможность оспорить решения властей», ключ +)
   - EN: Citizens should have more ways to challenge government and police decisions in court and through appeals, even if the authorities find it harder to act quickly.
   - RU: У граждан должно быть больше способов оспорить решения правительства и полиции в суде и в апелляции, даже если властям станет труднее действовать быстро.
@@ -42,40 +29,30 @@ _2026-10-18. 32 утверждения добавлены в квиз (`jef/quiz
   - RU: Учителя, преподаватели и госслужащие, выражающие поддержку терроризму, должны увольняться даже без уголовного приговора.
   - ⚠ поглощает 134 и 344 (тот же главный закон)
 - [ ] **q82 · Access to higher education** (направление 254 «доступ к высшему образованию», ключ +)
-  - EN: The state should open more universities and colleges, including in the north and in Arab towns, and ease admission rules such as the psychometric exam, even if academic standards may fall.
-  - RU: Государство должно открыть больше университетов и колледжей, в том числе на севере и в арабских городах, и упростить приём, например отменить психометрический экзамен, даже если академический уровень может снизиться.
+  - EN: Higher education should be made more accessible — more colleges in the periphery and easier admission rules — even if academic standards may fall.
+  - RU: Высшее образование должно стать доступнее — больше колледжей на периферии и проще правила приёма, — даже если академический уровень может снизиться.
   - ⚠ шум: законопроект об условиях заключённых
 - [ ] **q83 · Withholding Palestinian Authority funds** (направление 170 «финансовые ресурсы Палестинской администрации», ключ −)
   - EN: Israel should withhold tax money it collects for the Palestinian Authority to offset payments to terrorists and their families, even if the Authority's finances collapse.
   - RU: Израиль должен удерживать налоговые деньги, которые он собирает для Палестинской администрации, в счёт её выплат террористам и их семьям, даже если финансы администрации рухнут.
   - ⚠ ось правительства −0.96
-- [ ] **q84 · Support for charities** (направление 301 «государственная поддержка гражданских организаций и благотворительности», ключ +)
-  - EN: The state should give more funding and tax breaks to charities and non-profits, such as organizations for disabled veterans and food donations, even if it collects less tax.
-  - RU: Государство должно давать больше финансирования и налоговых льгот благотворительным и некоммерческим организациям, например организациям инвалидов ЦАХАЛа и пищевым банкам, даже если соберёт меньше налогов.
-  - ⚠ близко к q21 (r −0.89, есть общий законопроект)
 - [ ] **q85 · Survivors' benefits** (направление 277f «пособия семьям погибших, вдовам и сиротам», ключ +)
   - EN: Widows, widowers, orphans and bereaved families should get more benefits, for example equal survivors' pensions for widowers, even if this costs the budget more.
   - RU: Вдовы, вдовцы, сироты и семьи погибших должны получать больше льгот, например равную пенсию по потере кормильца для вдовцов, даже если это обойдётся бюджету дороже.
 - [ ] **q86 · Support for farmers** (направление 28 «государственная поддержка сельского хозяйства», ключ +)
   - EN: The state should give farmers more support, such as cheaper water and investment grants, even if taxpayers and consumers pay more.
   - RU: Государство должно больше поддерживать фермеров, например дешёвой водой и инвестиционными грантами, даже если налогоплательщики и потребители заплатят больше.
-- [ ] **q87 · Immunity for soldiers** (направление 103b «иммунитет солдат и силовиков за действия на службе», ключ +)
-  - EN: Soldiers and police should have immunity from prosecution for actions during operations, even if some abuses go unpunished.
-  - RU: Солдаты и полицейские должны быть защищены от уголовного преследования за действия во время операций, даже если некоторые злоупотребления останутся безнаказанными.
 - [ ] **q88 · Access to voting** (направление 117 «доступность голосования и избирательные права», ключ +)
-  - EN: Voting should be made easier — for aircrews, students and citizens serving abroad — and never conditioned on military or national service, even if elections cost more to run.
-  - RU: Голосовать должно быть проще — для экипажей самолётов, студентов и граждан, служащих за границей, — а право голоса никогда не должно зависеть от военной или национальной службы, даже если выборы обойдутся дороже.
+  - EN: Every citizen should be able to vote easily wherever they serve or study, regardless of whether they did military or national service, even if elections cost more to run.
+  - RU: Каждый гражданин должен иметь возможность легко проголосовать, где бы он ни служил или учился, независимо от того, проходил ли он военную или национальную службу, даже если выборы обойдутся дороже.
   - ⚠ смешанное: условие службы для голосования — один крупный законопроект
-- [ ] **q89 · Patients' rights** (направление 12 «права пациентов», ключ +)
-  - EN: Patients should get more legal rights, such as treatment within a set time and a ban on conversion therapy for minors, even if health providers bear higher costs.
-  - RU: У пациентов должно быть больше законных прав, например лечение в установленный срок и запрет конверсионной терапии для несовершеннолетних, даже если медучреждения понесут большие расходы.
+- [ ] **q89 · Health fund services** (направление 12b «услуги больничных касс пациентам», ключ +)
+  - EN: Health funds should owe patients more services and rights, such as treatment within a set time and ambulance refunds, even if health insurance costs rise.
+  - RU: Больничные кассы должны предоставлять пациентам больше услуг и прав, например лечение в установленный срок и возмещение за скорую, даже если медицинская страховка подорожает.
   - ⚠ смешанное: внутри законопроекты о хамеце в больницах
 - [ ] **q90 · Powers of municipalities** (направление 106 «полномочия и автономия местного самоуправления», ключ +)
   - EN: Municipalities should get more powers, for example to run public transport on Shabbat, set up local guard units and approve building plans, even if rules differ from town to town.
   - RU: Муниципалитеты должны получить больше полномочий, например запускать общественный транспорт в шаббат, создавать местную охрану и утверждать планы застройки, даже если правила в разных городах будут различаться.
-- [ ] **q91 · Cameras in institutions** (направление 100 «надзор и камеры в учреждениях», ключ +)
-  - EN: Cameras should be installed in daycare centers and special education and used to record police crowd-control actions, even if this intrudes on staff privacy.
-  - RU: В детских садах и спецобразовании должны стоять камеры, а действия полиции при разгоне толпы должны записываться, даже если это вторгается в частную жизнь персонала.
 - [ ] **q92 · Disability and sickness benefits** (направление 277b «пособия по инвалидности, уходу и болезни», ключ +)
   - EN: More people should qualify for disability, nursing-care and sick-leave benefits, for example homemakers and the self-employed, even if National Insurance spends more.
   - RU: Право на пособия по инвалидности, уходу и больничным должно быть у большего числа людей, например у домохозяек и самозанятых, даже если Битуах Леуми будет тратить больше.
@@ -93,9 +70,6 @@ _2026-10-18. 32 утверждения добавлены в квиз (`jef/quiz
   - EN: The army, police and intelligence services should face more external oversight, including a state commission of inquiry into October 7, even if this exposes political and military leaders to criticism.
   - RU: Армия, полиция и спецслужбы должны быть под большим внешним надзором, включая государственную комиссию по расследованию событий 7 октября, даже если это подставит под критику политиков и военных руководителей.
   - ⚠ самый тяжёлый законопроект (пакуда о полиции, поправка 45) размечен как «больше надзора» — сомнительно
-- [ ] **q97 · Cannabis** (направление 271 «ограничения на оборот и употребление психоактивных веществ», ключ −)
-  - EN: Cannabis should be legal for personal use, even if drug use may increase.
-  - RU: Каннабис должен быть легален для личного употребления, даже если употребление наркотиков может вырасти.
 - [ ] **q98 · Tax enforcement** (направление 38 «налоговый контроль и полномочия налоговых органов», ключ +)
   - EN: Tax enforcement should be tightened, for example by limiting cash payments and collecting VAT at source in construction, even if businesses face more paperwork.
   - RU: Налоговый контроль нужно ужесточить, например ограничить расчёты наличными и взимать НДС у источника в строительстве, даже если у бизнеса станет больше бумажной работы.
@@ -105,12 +79,29 @@ _2026-10-18. 32 утверждения добавлены в квиз (`jef/quiz
 - [ ] **q100 · Pensions for seniors and survivors** (направление 277e «пособия пожилым и пережившим Катастрофу», ключ +)
   - EN: Old-age pensions and allowances for Holocaust survivors should be raised and means tests removed, even if this costs the budget more.
   - RU: Пенсии по старости и пособия пережившим Катастрофу нужно повысить, а проверку доходов отменить, даже если это обойдётся бюджету дороже.
-- [ ] **q101 · Public education** (направление 253 «объём государственного образования», ключ +)
-  - EN: The state should expand free public education, from early childhood to after-school programs and learning-disability diagnosis, even if this requires more spending.
-  - RU: Государство должно расширить бесплатное государственное образование — от раннего детства до внешкольных программ и диагностики трудностей в обучении, — даже если это потребует больших расходов.
+- [ ] **q101 · Free public education** (направление 253a «объём бесплатного государственного образования», ключ +)
+  - EN: The state should provide more free education, from early childhood and after-school programs to university, even if this requires more public spending.
+  - RU: Государство должно давать больше бесплатного образования — от раннего детства и внешкольных программ до университета, — даже если это потребует больших государственных расходов.
 - [ ] **q102 · Animal protection** (направление 143 «защита животных», ключ +)
   - EN: Animal protection laws should be tightened, for example by banning trawling, poisons and animals in entertainment, even if farmers, fishers and businesses bear costs.
   - RU: Законы о защите животных нужно ужесточить, например запретить донный траловый лов, яды и использование животных в развлечениях, даже если расходы лягут на фермеров, рыбаков и бизнес.
-- [ ] **q103 · Term limits** (направление 124 «срок пребывания в должности», ключ −)
-  - EN: The prime minister should be limited to two consecutive terms and Supreme Court justices to a fixed term, even if voters lose the option to re-elect a popular leader.
-  - RU: Премьер-министр должен быть ограничен двумя сроками подряд, а судьи Верховного суда — фиксированным сроком, даже если избиратели потеряют возможность переизбрать популярного лидера.
+- [ ] **q103 · Prime minister term limits** (направление 124a «ограничение сроков премьер-министра», ключ −)
+  - EN: A prime minister should be limited to two consecutive terms, even if voters lose the option to re-elect a popular leader.
+  - RU: Премьер-министр должен быть ограничен двумя сроками подряд, даже если избиратели потеряют возможность переизбрать популярного лидера.
+- [ ] **q104 · Term of Supreme Court justices** (направление 124b «сроки полномочий судей Верховного суда», ключ −)
+  - EN: Supreme Court justices should serve a fixed number of years rather than until retirement age, even if experienced judges must leave earlier.
+  - RU: Судьи Верховного суда должны служить фиксированное число лет, а не до пенсионного возраста, даже если опытным судьям придётся уйти раньше.
+
+## Снятые после аудита
+
+- q73 Alternatives to military service: 186 раздроблено: изучение Торы (= q7) и гражданская служба — обе части узкие
+- q76 Shorter working week: 209 раздроблено: ограничения рабочего времени (7 списков) и гибкая работа для родителей — не проходят
+- q79 Gun licensing: 250 раздроблено: лицензии и наказания за нелегальное оружие — обе не проходят
+- q84 Support for charities: 301 раздроблено: поддержка НКО (SD 0,21) и иностранное финансирование — обе не проходят
+- q87 Immunity for soldiers: 103b раздроблено: иммунитет и полномочия силовиков — обе узкие
+- q91 Cameras in institutions: 100 раздроблено: камеры в садах, съёмка полиции, трансляции — все узкие
+- q97 Cannabis: 271 раздроблено: каннабис (SD 0,14) и алкоголь — обе не проходят
+
+## Открыто
+
+- Направление 80 (q96, надзор за силовиками): 22 % веса — закон 2026 г. о выводе отдела расследований полиции (Махаш) из-под юрсоветника; разметка «больше внешнего надзора» спорна. Оставить или поправить точечно?

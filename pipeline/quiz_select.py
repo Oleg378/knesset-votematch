@@ -42,8 +42,8 @@ if __name__ == "__main__":
     quiz = {r["d"]: r["q"] for r in csv.DictReader(open(os.path.join(ROOT, "jef/quiz/statements_v4.csv"))) if r["status"] == "ok"}
     ds = sys.argv[1:] or sorted(set(quiz) | {d for d, x in C.items() if x["base"]}, key=lambda d: (d not in quiz, d))
     plan = json.load(open(os.path.join(ROOT, "jef/directions/split/plan.json")))
-    plan2 = json.load(open(os.path.join(ROOT, "jef/directions/split/plan2.json")))   # stage 2, 2026-10-18
-    remainder = (set(plan["parents"]) - set(plan["keep"])) | set(plan2["parents"])
+    import labels   # later split stages (2026-10-18): their parents are remainders too
+    remainder = (set(plan["parents"]) - set(plan["keep"])) | {d for p in labels.later_plans() for d in p["parents"]}
     gov = sorted([x for x in C.values() if x["gov"]], key=lambda x: -x["nA"])
     print(f"gov-axis directions passing the other criteria (no cap): {[(x['d'], x['nA']) for x in gov]}")
     print(f"{'d':6} {'q':>3} {'lists':>5} {'SD':>5} {'nA':>5} {'r_gov':>6}  verdict  direction")

@@ -31,7 +31,7 @@ def build_data(ctx):
     st, pos, cov = ctx["st"], ctx["pos"], ctx["cov"]
     quiz_d = list(dict.fromkeys(r["d"] for r in st))
     plan = {**json.load(open(os.path.join(ROOT, "jef/directions/split/plan.json")))["new"],
-            **json.load(open(os.path.join(ROOT, "jef/directions/split/plan2.json")))["new"]}
+            **{k: v for p in ("plan2.json", "plan3.json") for k, v in json.load(open(os.path.join(ROOT, "jef/directions/split", p)))["new"].items()}}
     final = {d["key"]: d for d in json.load(open(os.path.join(ROOT, "jef/directions/merge3/directions_final.json")))}
     def ddesc(d):
         x = plan.get(d) or final[d]

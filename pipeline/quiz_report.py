@@ -66,7 +66,7 @@ def context():
                 if m["sign"] in SGN: by_d[m["n"]].append((b, SGN[m["sign"]], role))
     nv = {(r["letters"], r["d"]): int(r["sum_nV"]) for r in csv.DictReader(open(os.path.join(qm.POS, "list_topic_positions.csv")))}
     dir_en = {d["key"]: d["name_en"] for d in json.load(open(os.path.join(ROOT, "jef/directions/merge3/directions_final.json")))}
-    for p in ("plan.json", "plan2.json"):
+    for p in ("plan.json", "plan2.json", "plan3.json"):
         dir_en.update({k: v["name_en"] for k, v in json.load(open(os.path.join(ROOT, "jef/directions/split", p)))["new"].items()})
     return dict(st=st, pos=pos, cov=cov, info=info, init=init, cand=cand, by_d=by_d, nv=nv, dir_en=dir_en,
                 title={r["q"]: r for r in st})
