@@ -1,7 +1,7 @@
 # v2 for the web: what changes and how results are explained
 
-Data side → web, 2026-10-18. The v2 export (`quiz_data.v2.json`, schema, `golden.v2.json`) is **not generated yet**; this
-note says what it will carry so the web can plan. Python stays the reference: `pipeline/quiz_match.py` (closeness, trade-offs),
+Data side → web, 2026-10-18. The v2 export is **generated**: `quiz_data.v2.json` (with `flow` and `core`), its schema,
+`golden.v2.json` (34 cases, 6 of them «flow N» with `flow.core` and `flow.clarifying`). v1 files are left as they were. Python stays the reference: `pipeline/quiz_match.py` (closeness, trade-offs),
 `pipeline/quiz_flow.py` (order of questions), `pipeline/quiz_report.py` (explanations); `pipeline/quiz_cli.py` runs the whole
 flow in the terminal. Decisions are in `docs/SHARED_UNDERSTANDING.md` (Russian).
 
@@ -16,7 +16,7 @@ flow in the terminal. Decisions are in `docs/SHARED_UNDERSTANDING.md` (Russian).
 | Trade-offs | up to MAX_TRADE | unchanged algorithm; the limit comes from `flow.trade` |
 | Answer words in explanations | «somewhat agree / somewhat disagree» | **«agree / disagree»** (same as the buttons); «strongly …» unchanged |
 | Explanation caveat | «… positions are measured relative to the average MK» | **removed** (no longer true) |
-| «close to the average MK» (|p| < CLOSE) | shown | wording **pending a customer decision** (with A not centered, 0 means «no clear position», not «average») |
+| |p| < CLOSE | «close to the average MK on this statement» | **«has no clear position on this statement»** (customer, 2026-10-18); the CLOSE value itself is being measured |
 
 Nothing changes in: cosine closeness, weights 1/n per direction (a/b pairs), coverage threshold 0.5 and the «Not ranked» block,
 the two notes, what is not shown (no coalition/opposition, no number of MKs).
@@ -52,8 +52,8 @@ Per list, everything comes from `quiz_report.contributions()` and `explain()`; g
   then «Show all».
 - `lines` — shown exactly as given, in order:
   1. the statement in quotes;
-  2. `Your answer: <agree / strongly agree / …>. The list is <for this statement | against this statement | close to the average MK on this statement>.`
-     (the third variant when |p| < CLOSE; its wording may change, see section 1);
+  2. `Your answer: <agree / strongly agree / …>. The list is <for this statement | against this statement | has no clear position on this statement>.`
+     (the third variant when |p| < CLOSE);
   3. basis: `Basis: N bills sponsored by the list's former MKs — X your way, Y the other way; M votes on private bills on this topic.`
      or `Basis: no bills of their own on this topic, only M votes on private bills.`;
   4. optional: `Weight ×2: you chose this topic in a trade-off question.`;
@@ -70,5 +70,6 @@ Per list, everything comes from `quiz_report.contributions()` and `explain()`; g
 
 ## 4. Golden v2
 
-Same structure as v1 plus flow cases: for a given answer set — the core order, the clarifying sequence step by step, the stop
-point and the trade-off pairs. The TS port must match to 1e-9. Until v2 is generated, v1 stays the contract.
+Same structure as v1 plus 6 flow cases («flow 0» … «flow 5»): a synthetic user's answers to every statement; `flow.core` and
+`flow.clarifying` are the statements asked, in order; `answers` holds only the answers given to them, and `ranking`,
+`tradeoffs`, `details` are computed on those. The TS port must match to 1e-9.

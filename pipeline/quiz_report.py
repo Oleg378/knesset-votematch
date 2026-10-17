@@ -19,7 +19,7 @@ ROOT, LAB = qm.ROOT, os.path.join(qm.ROOT, "jef/directions/labels")
 SGN = {"+": 1, "−": -1, "-": -1}
 LINK = "https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/LawBill.aspx?t=lawsuggestionssearch&lawitemid={}"
 TOP, PER = 10, 5   # [У] 2026-10-17: топ-10 списков, у каждого «почему подходит» и «почему не подходит»
-CLOSE = 0.1   # [О] п. 6: |p| below this — «close to the average MK»; test: local/research/scripts/threshold_stability.py
+CLOSE = 0.1   # [О] п. 6: |p| below this — «has no clear position»; test: local/research/scripts/threshold_stability.py
 EPS = 1e-9
 ANS = {2: "strongly agree", 1: "agree", 0: "neutral", -1: "disagree", -2: "strongly disagree"}   # [У] 2026-10-18: the same words as the UI buttons
 
@@ -110,7 +110,7 @@ def explain(ctx, L, q, a, p, contrib, mult=None):
     n_same = sum(1 for e in ev if e[6]); n_opp = len(ev) - n_same
     nvotes = ctx["nv"].get((L, q["d"]), 0)
     close = abs(p) < CLOSE
-    side = ("close to the average MK on this statement" if close else
+    side = ("has no clear position on this statement" if close else   # [У] 2026-10-18 (was «close to the average MK»)
             "for this statement" if p * q["key_s"] > 0 else "against this statement")
     lines = [f"“{q['statement_en']}”",
              f"Your answer: {ANS[a]}. The list is {side}.",
