@@ -2044,11 +2044,50 @@
     "sign": "−",
     "role": "secondary",
     "reason": "Integrity Basic Law restricts indicted leaders from serving; removes protection."
+   },
+   {
+    "bill_id": "2205673",
+    "d": "185a",
+    "sign": "+",
+    "role": "main",
+    "source": "external label audit (blind) + independent second check, 2026-10-18",
+    "reason": "Mandatory national-civic service for all non-IDF youth, including Haredim; 'service for all'"
+   },
+   {
+    "bill_id": "2158206",
+    "d": "63",
+    "sign": "−",
+    "role": "main",
+    "source": "external label audit (blind) + independent second check, 2026-10-18",
+    "reason": "Strips prosecution powers from Attorney General, creating separate independent Prosecutor General"
+   },
+   {
+    "bill_id": "2158383",
+    "d": "66b2",
+    "sign": "−",
+    "role": "main",
+    "source": "external label audit (blind) + independent second check, 2026-10-18",
+    "reason": "Reinstates permanent minimum sentence for throwing stones at vehicles"
    }
   ]
  },
- "_doc_flip": "Sign corrections (Р8): applied only where two independent checks agree. None so far (2026-10-18: 3 proposed, the second check kept the current sign).",
+ "_doc_flip": "Sign corrections where two independent checks agree (2026-10-18): Р8 proposed 3, none confirmed; the external label audit found 2, both confirmed.",
  "flip": {
-  "items": []
+  "items": [
+   {
+    "bill_id": "2157698",
+    "d": "277c",
+    "sign": "+",
+    "source": "external label audit (blind) + independent second check, 2026-10-18",
+    "reason": "Single mothers receiving state alimony payments become eligible for public housing"
+   },
+   {
+    "bill_id": "2196380",
+    "d": "17",
+    "sign": "+",
+    "source": "external label audit (blind) + independent second check, 2026-10-18",
+    "reason": "Prohibits sports clubs from conditioning minor athletes' transfers on payment or quarantine"
+   }
+  ]
  }
 }

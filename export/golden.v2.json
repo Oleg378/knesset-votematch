@@ -87,84 +87,84 @@
    "ranking": [
     {
      "id": "ל",
-     "closeness": 0.10066276208139668,
+     "closeness": 0.10088915989792309,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.06131724877849084,
+     "closeness": 0.07012990281675517,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.04295263518326517,
+     "closeness": 0.043918413547004875,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "רק",
+     "closeness": 0.014594437963148594,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.0158779580477645,
+     "closeness": 0.010834014488853173,
      "coverage": 0.9848484848484849,
      "note": "",
      "ranked": true
     },
     {
-     "id": "רק",
-     "closeness": 0.013563341237924586,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
      "id": "כן",
-     "closeness": -0.036782827274328515,
+     "closeness": -0.03541621797113972,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.03715242504339356,
+     "closeness": -0.03722118649811198,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.04906843067172547,
+     "closeness": -0.04788664006815726,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.06108646510791912,
+     "closeness": -0.06578277941125296,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.08522333965541844,
+     "closeness": -0.085303467886531,
      "coverage": 0.9848484848484849,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.10137232709160311,
+     "closeness": -0.09877091899625179,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.11045859912495944,
+     "closeness": -0.10737715612289382,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -178,21 +178,21 @@
     },
     {
      "id": "בי",
-     "closeness": -0.05512852310218182,
+     "closeness": -0.05512822953442479,
      "coverage": 0.6818181818181818,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": -0.0774640963735596,
+     "closeness": -0.07771025430380663,
      "coverage": 0.8939393939393939,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": -0.0423587805996166,
+     "closeness": -0.03334484979400627,
      "coverage": 0.9393939393939394,
      "note": "few former MKs: 1",
      "ranked": false
@@ -372,14 +372,14 @@
       "אמת"
      ],
      [
-      "4",
-      "64",
-      "ודם"
-     ],
-     [
       "71",
       "62",
       "רק"
+     ],
+     [
+      "4",
+      "64",
+      "ודם"
      ]
     ]
    },
@@ -748,15 +748,43 @@
       },
       {
        "q": "7",
-       "contribution": 0.9035,
-       "p": 0.9035,
+       "contribution": 0.9118,
+       "p": 0.9118,
        "lines": [
         "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 25 votes on private bills and 41 votes on the other camp's bills on this topic.",
+        "Basis: 4 bills sponsored by the list's former MKs — 4 your way, 0 the other way; 31 votes on private bills and 42 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
+        {
+         "bill": "2205673",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
         {
          "bill": "2198947",
          "sign": 1,
@@ -8101,6 +8129,17 @@
        ]
       },
       {
+       "q": "7",
+       "contribution": 0.227,
+       "p": 0.227,
+       "lines": [
+        "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
+        "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: no bills of their own on this topic, only 13 votes on private bills and 18 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
+      },
+      {
        "q": "6",
        "contribution": 0.21175,
        "p": 0.4235,
@@ -8299,17 +8338,6 @@
          ]
         }
        ]
-      },
-      {
-       "q": "7",
-       "contribution": 0.0594,
-       "p": 0.0594,
-       "lines": [
-        "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
-        "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 10 votes on private bills and 16 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
       },
       {
        "q": "20",
@@ -9553,84 +9581,84 @@
    "ranking": [
     {
      "id": "ל",
-     "closeness": 0.10483330519987379,
+     "closeness": 0.10504470140182896,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.02297378631940679,
+     "closeness": 0.02390192568216362,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
-     "id": "ודם",
-     "closeness": 0.0047479246994799,
-     "coverage": 0.9852941176470589,
-     "note": "",
-     "ranked": true
-    },
-    {
      "id": "דרך",
-     "closeness": 0.004043954236954729,
+     "closeness": 0.0122746759457488,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.0018932074554334159,
+     "closeness": 0.002868666832026304,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
+     "id": "ודם",
+     "closeness": -5.6210957855503965e-05,
+     "coverage": 0.9852941176470589,
+     "note": "",
+     "ranked": true
+    },
+    {
      "id": "ב",
-     "closeness": -0.04206740034099201,
+     "closeness": -0.042132270253599856,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.052843752017439155,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "עם",
-     "closeness": -0.060427153404628293,
+     "closeness": -0.05157819907712578,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.06080509457539248,
+     "closeness": -0.05970963165177934,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "עם",
+     "closeness": -0.06496168286370431,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.09076217822105916,
+     "closeness": -0.09083805078028692,
      "coverage": 0.9852941176470589,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.10448258298226754,
+     "closeness": -0.10202022500494695,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.10930048341864297,
+     "closeness": -0.10634015924017211,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -9644,21 +9672,21 @@
     },
     {
      "id": "בי",
-     "closeness": -0.1124462751259728,
+     "closeness": -0.11244572334860448,
      "coverage": 0.6764705882352942,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": -0.09683227740635111,
+     "closeness": -0.09706192619979925,
      "coverage": 0.8970588235294118,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": -0.05668688213999295,
+     "closeness": -0.04803622336347732,
      "coverage": 0.9411764705882353,
      "note": "few former MKs: 1",
      "ranked": false
@@ -9833,11 +9861,6 @@
       "אמת"
      ],
      [
-      "4",
-      "64",
-      "ודם"
-     ],
-     [
       "75",
       "15",
       "דרך"
@@ -9846,6 +9869,11 @@
       "71",
       "62",
       "רק"
+     ],
+     [
+      "4",
+      "64",
+      "ודם"
      ]
     ]
    },
@@ -10215,15 +10243,43 @@
       },
       {
        "q": "7",
-       "contribution": 0.9035,
-       "p": 0.9035,
+       "contribution": 0.9118,
+       "p": 0.9118,
        "lines": [
         "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 25 votes on private bills and 41 votes on the other camp's bills on this topic.",
+        "Basis: 4 bills sponsored by the list's former MKs — 4 your way, 0 the other way; 31 votes on private bills and 42 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
+        {
+         "bill": "2205673",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
         {
          "bill": "2198947",
          "sign": 1,
@@ -19260,12 +19316,12 @@
       },
       {
        "q": "7",
-       "contribution": 0.033,
-       "p": 0.033,
+       "contribution": 0.0586,
+       "p": 0.0586,
        "lines": [
         "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
         "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 15 votes on private bills and 24 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 16 votes on private bills and 24 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -23458,84 +23514,84 @@
    "ranking": [
     {
      "id": "ל",
-     "closeness": 0.13333815587895276,
+     "closeness": 0.1335471900546029,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.0623562883411284,
+     "closeness": 0.07102839409708779,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.04662846923671692,
+     "closeness": 0.04757914391750152,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.03851362991775596,
+     "closeness": 0.03950289672263824,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.008438628301256088,
+     "closeness": -0.007112570379181411,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "ב",
+     "closeness": -0.013767175054422452,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.011716398277855316,
+     "closeness": -0.016605372114082168,
      "coverage": 0.9850746268656716,
      "note": "",
      "ranked": true
     },
     {
-     "id": "ב",
-     "closeness": -0.013698507225714624,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
      "id": "מחל",
-     "closeness": -0.02102007369571569,
+     "closeness": -0.019856636806290403,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.0638319924402244,
+     "closeness": -0.06391126131942122,
      "coverage": 0.9850746268656716,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.07236828725693754,
+     "closeness": -0.07697722971773087,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.08100283707619403,
+     "closeness": -0.07837301896539568,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.09429843030137917,
+     "closeness": -0.09122579292545838,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -23549,21 +23605,21 @@
     },
     {
      "id": "בי",
-     "closeness": -0.05512852310218182,
+     "closeness": -0.05512822953442479,
      "coverage": 0.6716417910447762,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": -0.07336130358554536,
+     "closeness": -0.07360445050000326,
      "coverage": 0.8955223880597015,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": -0.032972173895015715,
+     "closeness": -0.02411595736263606,
      "coverage": 0.9402985074626866,
      "note": "few former MKs: 1",
      "ranked": false
@@ -24120,15 +24176,43 @@
       },
       {
        "q": "7",
-       "contribution": 0.9035,
-       "p": 0.9035,
+       "contribution": 0.9118,
+       "p": 0.9118,
        "lines": [
         "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 25 votes on private bills and 41 votes on the other camp's bills on this topic.",
+        "Basis: 4 bills sponsored by the list's former MKs — 4 your way, 0 the other way; 31 votes on private bills and 42 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
+        {
+         "bill": "2205673",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
         {
          "bill": "2198947",
          "sign": 1,
@@ -31473,6 +31557,17 @@
        ]
       },
       {
+       "q": "7",
+       "contribution": 0.227,
+       "p": 0.227,
+       "lines": [
+        "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
+        "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: no bills of their own on this topic, only 13 votes on private bills and 18 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
+      },
+      {
        "q": "6",
        "contribution": 0.21175,
        "p": 0.4235,
@@ -31683,17 +31778,6 @@
          ]
         }
        ]
-      },
-      {
-       "q": "7",
-       "contribution": 0.0594,
-       "p": 0.0594,
-       "lines": [
-        "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
-        "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 10 votes on private bills and 16 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
       },
       {
        "q": "20",
@@ -34752,84 +34836,84 @@
    "ranking": [
     {
      "id": "ב",
-     "closeness": 0.12325462086285793,
+     "closeness": 0.12313126719187477,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.03117534923871632,
+     "closeness": 0.03101231279827475,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.019040485489850364,
+     "closeness": -0.018859445109678834,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.04749941184191529,
+     "closeness": -0.047750680978348885,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.04825137722036836,
+     "closeness": -0.04838005635769349,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.09016779353911342,
+     "closeness": -0.09029322220997778,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.24520416259112712,
+     "closeness": -0.24573035684457414,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.2624678898858307,
+     "closeness": -0.26166214846819075,
      "coverage": 0.9642857142857143,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.27800665210227093,
+     "closeness": -0.27860134613213566,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.4349059544193111,
+     "closeness": -0.4356469819343066,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.5436036363116155,
+     "closeness": -0.5422510314695113,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.5484382243370097,
+     "closeness": -0.5475456230479715,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -34843,21 +34927,21 @@
     },
     {
      "id": "בי",
-     "closeness": -0.13524086438586452,
+     "closeness": -0.1355866804541148,
      "coverage": 0.7142857142857143,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": 0.2632212975738709,
+     "closeness": 0.2630592583759253,
      "coverage": 0.8928571428571429,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": -0.04348107329524876,
+     "closeness": -0.043852665270355314,
      "coverage": 0.9642857142857143,
      "note": "few former MKs: 1",
      "ranked": false
@@ -36600,8 +36684,8 @@
       },
       {
        "q": "69",
-       "contribution": -0.6401,
-       "p": -0.6401,
+       "contribution": -0.6414,
+       "p": -0.6414,
        "lines": [
         "“The law should set minimum sentences for serious crimes, such as weapons offenses, even if judges cannot give lighter sentences in exceptional cases.”",
         "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
@@ -38619,8 +38703,8 @@
       },
       {
        "q": "69",
-       "contribution": -0.386,
-       "p": -0.386,
+       "contribution": -0.3882,
+       "p": -0.3882,
        "lines": [
         "“The law should set minimum sentences for serious crimes, such as weapons offenses, even if judges cannot give lighter sentences in exceptional cases.”",
         "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
@@ -44979,84 +45063,84 @@
    "ranking": [
     {
      "id": "ב",
-     "closeness": 0.1601092226925018,
+     "closeness": 0.1599794550940253,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.14535630999639335,
+     "closeness": 0.1492451505032551,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.10510837824876043,
+     "closeness": 0.1070649143256189,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.10099757792403673,
+     "closeness": 0.10431212113394325,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.08315331669504224,
+     "closeness": 0.08330661868845243,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.0753487409398745,
+     "closeness": 0.07519213293896504,
      "coverage": 0.984375,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.0687370500193343,
+     "closeness": 0.07001214164008475,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "דרך",
+     "closeness": 0.023892595641036983,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.022790821556736864,
+     "closeness": 0.018256894177525664,
      "coverage": 0.984375,
      "note": "",
      "ranked": true
     },
     {
-     "id": "דרך",
-     "closeness": 0.015348573834943846,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
      "id": "אמת",
-     "closeness": 0.007429912964248132,
+     "closeness": 0.008101409468086521,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.03410198405851856,
+     "closeness": -0.032994950811862184,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.061111328071023784,
+     "closeness": -0.06526605751420053,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -45070,21 +45154,21 @@
     },
     {
      "id": "בי",
-     "closeness": 0.19733638240888715,
+     "closeness": 0.19715182485428373,
      "coverage": 0.703125,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": -0.021005116157175263,
+     "closeness": -0.02134630278630407,
      "coverage": 0.890625,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": -0.08466368569270898,
+     "closeness": -0.0755637402524331,
      "coverage": 0.953125,
      "note": "few former MKs: 1",
      "ranked": false
@@ -49192,12 +49276,12 @@
       },
       {
        "q": "7",
-       "contribution": -0.2174,
-       "p": -0.2174,
+       "contribution": -0.2191,
+       "p": -0.2191,
        "lines": [
         "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
         "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 28 votes on private bills and 6 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 32 votes on private bills and 10 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -50623,8 +50707,8 @@
       },
       {
        "q": "69",
-       "contribution": -0.6401,
-       "p": -0.6401,
+       "contribution": -0.6414,
+       "p": -0.6414,
        "lines": [
         "“The law should set minimum sentences for serious crimes, such as weapons offenses, even if judges cannot give lighter sentences in exceptional cases.”",
         "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
@@ -54689,8 +54773,8 @@
       },
       {
        "q": "69",
-       "contribution": 0.0219,
-       "p": 0.0219,
+       "contribution": 0.0193,
+       "p": 0.0193,
        "lines": [
         "“The law should set minimum sentences for serious crimes, such as weapons offenses, even if judges cannot give lighter sentences in exceptional cases.”",
         "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
@@ -56036,12 +56120,12 @@
       },
       {
        "q": "7",
-       "contribution": -0.6961,
-       "p": -0.6961,
+       "contribution": -0.6209,
+       "p": -0.6209,
        "lines": [
         "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
         "Your answer: strongly agree. The record of the list's former MKs points against this statement.",
-        "Basis: 4 bills sponsored by the list's former MKs — 0 your way, 4 the other way; 32 votes on private bills and 9 votes on the other camp's bills on this topic."
+        "Basis: 4 bills sponsored by the list's former MKs — 0 your way, 4 the other way; 37 votes on private bills and 14 votes on the other camp's bills on this topic."
        ],
        "evidence": [
         {
@@ -61669,84 +61753,84 @@
    "ranking": [
     {
      "id": "אמת",
-     "closeness": 0.2684941790417861,
+     "closeness": 0.26844722982471414,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.2332788435315467,
+     "closeness": 0.23230870347833882,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.16408616297479753,
+     "closeness": 0.16400755222069557,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.11824034427387656,
+     "closeness": 0.11813234115020796,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.10887145504126561,
+     "closeness": 0.10864593092987541,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": 0.07810389652333091,
+     "closeness": 0.07804317313796813,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.06261140128155056,
+     "closeness": 0.06258644696022474,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.29143309363067793,
+     "closeness": -0.29142803284133173,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.29734012468327375,
+     "closeness": -0.29763381447030257,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.3157843194857109,
+     "closeness": -0.31951219696549765,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.3217164338423916,
+     "closeness": -0.32647123677823414,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.41166445997243295,
+     "closeness": -0.41163956937031676,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -61767,14 +61851,14 @@
     },
     {
      "id": "ני",
-     "closeness": -0.26562111025360696,
+     "closeness": -0.26530860004864687,
      "coverage": 0.88,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.1855900966693654,
+     "closeness": 0.18529543894044725,
      "coverage": 1.0,
      "note": "few former MKs: 1",
      "ranked": false
@@ -69248,84 +69332,84 @@
    "ranking": [
     {
      "id": "כן",
-     "closeness": 0.19250646130323845,
+     "closeness": 0.191062084674197,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.173458214651359,
+     "closeness": 0.17122227980718183,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.14664489264318786,
+     "closeness": 0.13652024858899575,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.12028851780793141,
+     "closeness": 0.11921896008074151,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.10117928295420689,
+     "closeness": 0.10060567692324902,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.09740611509428965,
+     "closeness": 0.09710205263412827,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.0899551053672149,
+     "closeness": 0.08891106560473182,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.07504813430991614,
+     "closeness": 0.0750867386211987,
      "coverage": 0.9848484848484849,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.061034347381014126,
+     "closeness": 0.06598874798986075,
      "coverage": 0.9848484848484849,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": 0.04642219129053009,
+     "closeness": 0.05125714476795062,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.04482934775957623,
+     "closeness": 0.041569865778949125,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.036146072216680605,
+     "closeness": -0.036100688684614995,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -69339,21 +69423,21 @@
     },
     {
      "id": "בי",
-     "closeness": 0.23227231098782886,
+     "closeness": 0.23217502752345934,
      "coverage": 0.6363636363636364,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": 0.07508950018187657,
+     "closeness": 0.0753038852474053,
      "coverage": 0.8636363636363636,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.09947969189671783,
+     "closeness": 0.0906059307128862,
      "coverage": 0.9393939393939394,
      "note": "few former MKs: 1",
      "ranked": false
@@ -70670,8 +70754,8 @@
       },
       {
        "q": "69",
-       "contribution": 0.1032,
-       "p": 0.2064,
+       "contribution": 0.1006,
+       "p": 0.2012,
        "lines": [
         "“The law should set minimum sentences for serious crimes, such as weapons offenses, even if judges cannot give lighter sentences in exceptional cases.”",
         "Your answer: disagree. The record of the list's former MKs shows no clear position on this statement.",
@@ -70818,17 +70902,6 @@
        "evidence": []
       },
       {
-       "q": "7",
-       "contribution": -0.0757,
-       "p": 0.0757,
-       "lines": [
-        "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
-        "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 13 votes on private bills and 24 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
-      },
-      {
        "q": "47",
        "contribution": -0.0835,
        "p": -0.167,
@@ -70896,6 +70969,17 @@
         "“People convicted of terrorism should lose state benefits, such as allowances and prison privileges, even if this also cuts their families' income.”",
         "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
         "Basis: no bills of their own on this topic, only 33 votes on private bills and 22 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
+      },
+      {
+       "q": "7",
+       "contribution": -0.1081,
+       "p": 0.1081,
+       "lines": [
+        "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
+        "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: no bills of their own on this topic, only 14 votes on private bills and 25 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -71315,12 +71399,12 @@
      "items": [
       {
        "q": "7",
-       "contribution": 1.2431,
-       "p": -1.2431,
+       "contribution": 1.1616,
+       "p": -1.1616,
        "lines": [
         "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
         "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 53 votes on private bills and 104 votes on the other camp's bills on this topic."
+        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 60 votes on private bills and 111 votes on the other camp's bills on this topic."
        ],
        "evidence": [
         {
@@ -75241,12 +75325,12 @@
       },
       {
        "q": "69",
-       "contribution": -0.0196,
-       "p": -0.0392,
+       "contribution": -0.0204,
+       "p": -0.0408,
        "lines": [
         "“The law should set minimum sentences for serious crimes, such as weapons offenses, even if judges cannot give lighter sentences in exceptional cases.”",
         "Your answer: disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: 4 bills sponsored by the list's former MKs — 0 your way, 4 the other way; 35 votes on private bills and 10 votes on the other camp's bills on this topic."
+        "Basis: 4 bills sponsored by the list's former MKs — 0 your way, 4 the other way; 38 votes on private bills and 10 votes on the other camp's bills on this topic."
        ],
        "evidence": [
         {
@@ -78030,84 +78114,84 @@
    "ranking": [
     {
      "id": "מחל",
-     "closeness": 0.12172995410154151,
+     "closeness": 0.12227845810510149,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.0788848763103963,
+     "closeness": 0.07932936702311995,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.0629604236993694,
+     "closeness": 0.06371166835454245,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.04352224232645812,
+     "closeness": 0.043458247119006414,
      "coverage": 0.9861111111111112,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.02952868682137524,
+     "closeness": 0.030802643639187898,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": 0.019142610906169418,
+     "closeness": 0.017388435608148047,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.013810148597200353,
+     "closeness": 0.013878668074047808,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.007489598821340794,
+     "closeness": 0.008841222738513753,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.0004906907383092986,
+     "closeness": 0.004116389490509478,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.04206307641337455,
+     "closeness": -0.042109287163118216,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.10776138425156544,
+     "closeness": -0.10957351020978418,
      "coverage": 0.9861111111111112,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.13476621844179212,
+     "closeness": -0.13450885132677995,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -78121,21 +78205,21 @@
     },
     {
      "id": "בי",
-     "closeness": -0.09420696686467364,
+     "closeness": -0.09428137512394064,
      "coverage": 0.6805555555555556,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": 0.007565653053154044,
+     "closeness": 0.007424795963150411,
      "coverage": 0.8888888888888888,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": -0.07933269839685343,
+     "closeness": -0.0756903115252603,
      "coverage": 0.9444444444444444,
      "note": "few former MKs: 1",
      "ranked": false
@@ -88918,6 +89002,17 @@
        ]
       },
       {
+       "q": "7",
+       "contribution": -0.10815,
+       "p": -0.2163,
+       "lines": [
+        "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
+        "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: no bills of their own on this topic, only 122 votes on private bills and 65 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
+      },
+      {
        "q": "94",
        "contribution": -0.11085,
        "p": -0.2217,
@@ -89549,17 +89644,6 @@
        ]
       },
       {
-       "q": "7",
-       "contribution": -0.11985,
-       "p": -0.2397,
-       "lines": [
-        "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
-        "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 104 votes on private bills and 47 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
-      },
-      {
        "q": "37",
        "contribution": -0.12015,
        "p": 0.2403,
@@ -90009,12 +90093,12 @@
       },
       {
        "q": "69",
-       "contribution": -0.15595,
-       "p": -0.3119,
+       "contribution": -0.15505,
+       "p": -0.3101,
        "lines": [
         "“The law should set minimum sentences for serious crimes, such as weapons offenses, even if judges cannot give lighter sentences in exceptional cases.”",
         "Your answer: disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 33 bills sponsored by the list's former MKs — 0 your way, 33 the other way; 75 votes on private bills and 25 votes on the other camp's bills on this topic.",
+        "Basis: 34 bills sponsored by the list's former MKs — 0 your way, 34 the other way; 81 votes on private bills and 26 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -90082,6 +90166,18 @@
          "bill": "2197201",
          "sign": -1,
          "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           8,
+           "Ofir Katz"
+          ]
+         ]
+        },
+        {
+         "bill": "2158383",
+         "sign": -1,
+         "role": "main",
          "same": false,
          "authors": [
           [
@@ -96057,8 +96153,8 @@
       },
       {
        "q": "69",
-       "contribution": 0.1032,
-       "p": 0.2064,
+       "contribution": 0.1006,
+       "p": 0.2012,
        "lines": [
         "“The law should set minimum sentences for serious crimes, such as weapons offenses, even if judges cannot give lighter sentences in exceptional cases.”",
         "Your answer: disagree. The record of the list's former MKs shows no clear position on this statement.",
@@ -96151,6 +96247,17 @@
        ]
       },
       {
+       "q": "7",
+       "contribution": 0.05405,
+       "p": 0.1081,
+       "lines": [
+        "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
+        "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: no bills of their own on this topic, only 14 votes on private bills and 25 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
+      },
+      {
        "q": "16",
        "contribution": 0.047,
        "p": 0.094,
@@ -96217,17 +96324,6 @@
         "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
         "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
         "Basis: no bills of their own on this topic, only 10 votes on private bills and 3 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
-      },
-      {
-       "q": "7",
-       "contribution": 0.03785,
-       "p": 0.0757,
-       "lines": [
-        "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
-        "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 13 votes on private bills and 24 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -99428,84 +99524,84 @@
    "ranking": [
     {
      "id": "מחל",
-     "closeness": 0.5800510537945294,
+     "closeness": 0.5806644888057949,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.48770120978271575,
+     "closeness": 0.48730530074325923,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.4030713239980226,
+     "closeness": 0.40244520631357567,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.3818885134243745,
+     "closeness": 0.38079995534307765,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.3684113405789233,
+     "closeness": 0.3647984388935118,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": 0.14154082002756677,
+     "closeness": 0.14578071199315443,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.006500295582987973,
+     "closeness": -0.006906395121954158,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.029042869398951603,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "ב",
-     "closeness": -0.03924786755869103,
+     "closeness": -0.03092021779730918,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.04088021253541734,
+     "closeness": -0.03776642367578553,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "ב",
+     "closeness": -0.0395309072690651,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.0621069056434854,
+     "closeness": -0.05484850003822707,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.31848842194164634,
+     "closeness": -0.32157335835767625,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -99519,21 +99615,21 @@
     },
     {
      "id": "בי",
-     "closeness": 0.037974995802158254,
+     "closeness": 0.035981026536601186,
      "coverage": 0.5,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": 0.4864251800106396,
+     "closeness": 0.48570497584127387,
      "coverage": 0.875,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.3258553707516608,
+     "closeness": 0.3243461936853842,
      "coverage": 0.875,
      "note": "few former MKs: 1",
      "ranked": false
@@ -101594,12 +101690,12 @@
       },
       {
        "q": "69",
-       "contribution": -0.3119,
-       "p": -0.3119,
+       "contribution": -0.3101,
+       "p": -0.3101,
        "lines": [
         "“The law should set minimum sentences for serious crimes, such as weapons offenses, even if judges cannot give lighter sentences in exceptional cases.”",
         "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 33 bills sponsored by the list's former MKs — 0 your way, 33 the other way; 75 votes on private bills and 25 votes on the other camp's bills on this topic.",
+        "Basis: 34 bills sponsored by the list's former MKs — 0 your way, 34 the other way; 81 votes on private bills and 26 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -101667,6 +101763,18 @@
          "bill": "2197201",
          "sign": -1,
          "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           8,
+           "Ofir Katz"
+          ]
+         ]
+        },
+        {
+         "bill": "2158383",
+         "sign": -1,
+         "role": "main",
          "same": false,
          "authors": [
           [
@@ -102523,12 +102631,12 @@
       },
       {
        "q": "69",
-       "contribution": -0.0392,
-       "p": -0.0392,
+       "contribution": -0.0408,
+       "p": -0.0408,
        "lines": [
         "“The law should set minimum sentences for serious crimes, such as weapons offenses, even if judges cannot give lighter sentences in exceptional cases.”",
         "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: 4 bills sponsored by the list's former MKs — 0 your way, 4 the other way; 35 votes on private bills and 10 votes on the other camp's bills on this topic."
+        "Basis: 4 bills sponsored by the list's former MKs — 0 your way, 4 the other way; 38 votes on private bills and 10 votes on the other camp's bills on this topic."
        ],
        "evidence": [
         {
@@ -102834,8 +102942,8 @@
       },
       {
        "q": "69",
-       "contribution": -0.0262,
-       "p": -0.0262,
+       "contribution": -0.0301,
+       "p": -0.0301,
        "lines": [
         "“The law should set minimum sentences for serious crimes, such as weapons offenses, even if judges cannot give lighter sentences in exceptional cases.”",
         "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
@@ -110803,84 +110911,84 @@
    "ranking": [
     {
      "id": "ל",
-     "closeness": 0.20309517102456795,
+     "closeness": 0.20326652009484275,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.16267541246097858,
+     "closeness": 0.17155542931619142,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.1368555597713606,
+     "closeness": 0.13677638776367373,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.1266768745194896,
+     "closeness": 0.12660458833623878,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.07751696656168856,
+     "closeness": 0.07882948451396574,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.04709994845905035,
+     "closeness": 0.048035730891210035,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.04258818833417554,
+     "closeness": 0.0377710163428107,
      "coverage": 0.9838709677419355,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.032200095038558536,
+     "closeness": 0.033304153656306845,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.008580942909259278,
+     "closeness": 0.012081908702764113,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.023382870802292337,
+     "closeness": -0.027851417913197788,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.032010076910429446,
+     "closeness": -0.03109466697807161,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.06361612984547296,
+     "closeness": -0.06099931120834836,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -110894,21 +111002,21 @@
     },
     {
      "id": "בי",
-     "closeness": 0.031057287601433305,
+     "closeness": 0.0310569960981171,
      "coverage": 0.6290322580645161,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": -0.05423148913463432,
+     "closeness": -0.05447204245821284,
      "coverage": 0.8709677419354839,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.25492398359231716,
+     "closeness": 0.26300284183933287,
      "coverage": 0.9516129032258065,
      "note": "few former MKs: 1",
      "ranked": false
@@ -111712,15 +111820,43 @@
       },
       {
        "q": "7",
-       "contribution": 0.9035,
-       "p": 0.9035,
+       "contribution": 0.9118,
+       "p": 0.9118,
        "lines": [
         "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 25 votes on private bills and 41 votes on the other camp's bills on this topic.",
+        "Basis: 4 bills sponsored by the list's former MKs — 4 your way, 0 the other way; 31 votes on private bills and 42 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
+        {
+         "bill": "2205673",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
         {
          "bill": "2198947",
          "sign": 1,
@@ -120171,6 +120307,17 @@
        "evidence": []
       },
       {
+       "q": "7",
+       "contribution": 0.227,
+       "p": 0.227,
+       "lines": [
+        "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
+        "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: no bills of their own on this topic, only 13 votes on private bills and 18 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
+      },
+      {
        "q": "40",
        "contribution": 0.2129,
        "p": 0.4258,
@@ -120440,17 +120587,6 @@
          ]
         }
        ]
-      },
-      {
-       "q": "7",
-       "contribution": 0.0594,
-       "p": 0.0594,
-       "lines": [
-        "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
-        "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 10 votes on private bills and 16 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
       },
       {
        "q": "52",
@@ -121073,84 +121209,84 @@
    "ranking": [
     {
      "id": "ט",
-     "closeness": 0.11474749201790864,
+     "closeness": 0.1147828681757605,
      "coverage": 0.9859154929577465,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.08778863269315296,
+     "closeness": 0.08676806038546614,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.0850714920904647,
+     "closeness": 0.08510194757680833,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.05901083934902621,
+     "closeness": 0.05851066893498568,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.03672495245164949,
+     "closeness": 0.035270974996689596,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.019171651064658707,
+     "closeness": -0.019761023414665117,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.02878394311861722,
+     "closeness": -0.029212336925778872,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.049118293885161216,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "דרך",
-     "closeness": -0.06217408452861947,
+     "closeness": -0.0492218699923179,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.06269135762568573,
+     "closeness": -0.060472242065081415,
      "coverage": 0.9859154929577465,
      "note": "",
      "ranked": true
     },
     {
+     "id": "דרך",
+     "closeness": -0.0662296187900343,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
      "id": "אמת",
-     "closeness": -0.07104672799457715,
+     "closeness": -0.07147740995870136,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.13654694892938518,
+     "closeness": -0.13441076004708888,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -121171,14 +121307,14 @@
     },
     {
      "id": "ני",
-     "closeness": 0.01929113387964846,
+     "closeness": 0.019414220987888895,
      "coverage": 0.8873239436619719,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": -0.10899543805586182,
+     "closeness": -0.11303326731708156,
      "coverage": 0.9577464788732394,
      "note": "few former MKs: 1",
      "ranked": false
@@ -123338,7 +123474,7 @@
        "lines": [
         "“Ministers should be allowed to act against the opinion of the government's Attorney General, even if their decisions undergo less legal review.”",
         "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 11 bills sponsored by the list's former MKs — 10 your way, 1 the other way; 148 votes on private bills and 0 votes on the other camp's bills on this topic.",
+        "Basis: 12 bills sponsored by the list's former MKs — 11 your way, 1 the other way; 148 votes on private bills and 0 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -123423,6 +123559,18 @@
           [
            12,
            "Ohad Tal"
+          ]
+         ]
+        },
+        {
+         "bill": "2158206",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           4,
+           "Simcha Rothman"
           ]
          ]
         },
@@ -124929,12 +125077,12 @@
       },
       {
        "q": "7",
-       "contribution": 0.0378,
-       "p": -0.0756,
+       "contribution": 0.03895,
+       "p": -0.0779,
        "lines": [
         "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
         "Your answer: disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 25 votes on private bills and 12 votes on the other camp's bills on this topic."
+        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 30 votes on private bills and 17 votes on the other camp's bills on this topic."
        ],
        "evidence": [
         {
@@ -129804,82 +129952,6 @@
        ]
       },
       {
-       "q": "7",
-       "contribution": 0.62155,
-       "p": -1.2431,
-       "lines": [
-        "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
-        "Your answer: disagree. The record of the list's former MKs points against this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 53 votes on private bills and 104 votes on the other camp's bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2243800",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Aryeh Makhlouf Deri"
-          ],
-          [
-           2,
-           "Yinon Azoulay"
-          ],
-          [
-           3,
-           "Michael Malchieli"
-          ],
-          [
-           4,
-           "Yoav Ben-Tzur"
-          ],
-          [
-           5,
-           "Haim Biton"
-          ],
-          [
-           7,
-           "Moshe Abutbul"
-          ],
-          [
-           8,
-           "Uriel Buso"
-          ],
-          [
-           9,
-           "Yosef Taieb"
-          ],
-          [
-           10,
-           "Yonatan Mishraki"
-          ],
-          [
-           12,
-           "Erez Malul"
-          ],
-          [
-           119,
-           "Yaakov Margi"
-          ]
-         ]
-        },
-        {
-         "bill": "2197067",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           9,
-           "Yosef Taieb"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "49",
        "contribution": 0.5934,
        "p": 0.5934,
@@ -130182,6 +130254,82 @@
           [
            10,
            "Yonatan Mishraki"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "7",
+       "contribution": 0.5808,
+       "p": -1.1616,
+       "lines": [
+        "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
+        "Your answer: disagree. The record of the list's former MKs points against this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 60 votes on private bills and 111 votes on the other camp's bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2243800",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Aryeh Makhlouf Deri"
+          ],
+          [
+           2,
+           "Yinon Azoulay"
+          ],
+          [
+           3,
+           "Michael Malchieli"
+          ],
+          [
+           4,
+           "Yoav Ben-Tzur"
+          ],
+          [
+           5,
+           "Haim Biton"
+          ],
+          [
+           7,
+           "Moshe Abutbul"
+          ],
+          [
+           8,
+           "Uriel Buso"
+          ],
+          [
+           9,
+           "Yosef Taieb"
+          ],
+          [
+           10,
+           "Yonatan Mishraki"
+          ],
+          [
+           12,
+           "Erez Malul"
+          ],
+          [
+           119,
+           "Yaakov Margi"
+          ]
+         ]
+        },
+        {
+         "bill": "2197067",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           9,
+           "Yosef Taieb"
           ]
          ]
         }
@@ -139090,84 +139238,84 @@
    "ranking": [
     {
      "id": "עם",
-     "closeness": 0.2768664814024155,
+     "closeness": 0.2771927062566607,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.19811534298895447,
+     "closeness": 0.1983191845276548,
      "coverage": 0.9863013698630136,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.18423449459807725,
+     "closeness": 0.18395245295218984,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.12515274367547072,
+     "closeness": 0.12457746270377049,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.10335263180163207,
+     "closeness": 0.10327719937710146,
      "coverage": 0.9863013698630136,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.10162156584840054,
+     "closeness": 0.1019773059996027,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.07955844952675463,
+     "closeness": 0.07969825109991688,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.04599174229662832,
+     "closeness": 0.046832132232021956,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.0005864797506585599,
+     "closeness": 0.00039463875672881313,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.012192526008079931,
+     "closeness": -0.012113497497811659,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.027461140167825405,
+     "closeness": -0.02751764019222193,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.06077100575373377,
+     "closeness": -0.06081677168264941,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -139181,21 +139329,21 @@
     },
     {
      "id": "בי",
-     "closeness": 0.16397492527950913,
+     "closeness": 0.16379698211614827,
      "coverage": 0.6575342465753424,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": 0.12801616216594205,
+     "closeness": 0.12790093565973537,
      "coverage": 0.8767123287671232,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": -0.09199057969716064,
+     "closeness": -0.09211459986167861,
      "coverage": 0.9452054794520548,
      "note": "few former MKs: 1",
      "ranked": false
@@ -141759,24 +141907,13 @@
        "evidence": []
       },
       {
-       "q": "86",
-       "contribution": 0.125,
-       "p": 0.25,
-       "lines": [
-        "“The state should give farmers more support, such as cheaper water and investment grants, even if taxpayers and consumers pay more.”",
-        "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 5 votes on private bills and 9 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
-      },
-      {
        "q": "69",
-       "contribution": 0.1142,
-       "p": 0.1142,
+       "contribution": 0.1254,
+       "p": 0.1254,
        "lines": [
         "“The law should set minimum sentences for serious crimes, such as weapons offenses, even if judges cannot give lighter sentences in exceptional cases.”",
         "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 33 votes on private bills and 11 votes on the other camp's bills on this topic."
+        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 36 votes on private bills and 14 votes on the other camp's bills on this topic."
        ],
        "evidence": [
         {
@@ -141792,6 +141929,17 @@
          ]
         }
        ]
+      },
+      {
+       "q": "86",
+       "contribution": 0.125,
+       "p": 0.25,
+       "lines": [
+        "“The state should give farmers more support, such as cheaper water and investment grants, even if taxpayers and consumers pay more.”",
+        "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: no bills of their own on this topic, only 5 votes on private bills and 9 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
       },
       {
        "q": "33",
@@ -143675,12 +143823,12 @@
       },
       {
        "q": "69",
-       "contribution": 0.644,
-       "p": 0.644,
+       "contribution": 0.6563,
+       "p": 0.6563,
        "lines": [
         "“The law should set minimum sentences for serious crimes, such as weapons offenses, even if judges cannot give lighter sentences in exceptional cases.”",
         "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 33 votes on private bills and 7 votes on the other camp's bills on this topic."
+        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 36 votes on private bills and 7 votes on the other camp's bills on this topic."
        ],
        "evidence": [
         {
@@ -147837,7 +147985,7 @@
        "lines": [
         "“Child, pregnancy and parental benefits should come with stricter conditions, even if some children and parents lose assistance.”",
         "Your answer: strongly agree. The record of the list's former MKs points against this statement.",
-        "Basis: 8 bills sponsored by the list's former MKs — 0 your way, 8 the other way; 12 votes on private bills and 0 votes on the other camp's bills on this topic."
+        "Basis: 9 bills sponsored by the list's former MKs — 0 your way, 9 the other way; 12 votes on private bills and 0 votes on the other camp's bills on this topic."
        ],
        "evidence": [
         {
@@ -147981,6 +148129,22 @@
           [
            5,
            "Ofer Cassif"
+          ]
+         ]
+        },
+        {
+         "bill": "2157698",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           5,
+           "Ofer Cassif"
+          ],
+          [
+           109,
+           "Aida Touma-Sliman"
           ]
          ]
         }
@@ -149990,10 +150154,10 @@
     "81": 2,
     "37": "dk",
     "2": 1,
-    "16": "dk",
-    "23": -2,
     "64": -2,
     "38": -2,
+    "23": -2,
+    "16": "dk",
     "48": -1,
     "55": 1
    },
@@ -150001,84 +150165,84 @@
    "ranking": [
     {
      "id": "ב",
-     "closeness": 0.5008202197377137,
+     "closeness": 0.5010589249008723,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.4360205322284489,
+     "closeness": 0.43637961345299325,
      "coverage": 0.9090909090909091,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.3634640424820177,
+     "closeness": 0.35768041447837245,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.22238602259764007,
+     "closeness": 0.20980414009696097,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.2023520956079682,
+     "closeness": 0.19642362139870678,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.04855468349194537,
+     "closeness": 0.0426270146404234,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.05070665700261713,
+     "closeness": -0.02931480413098176,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.20016918615506682,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "כן",
-     "closeness": -0.2718840190714068,
+     "closeness": -0.20107716139751272,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.28835693423969266,
+     "closeness": -0.2650099596113186,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "כן",
+     "closeness": -0.27740605514585503,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.5279872137508351,
+     "closeness": -0.5291918661964172,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.5850981130981296,
+     "closeness": -0.6181685130954555,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -150099,14 +150263,14 @@
     },
     {
      "id": "ני",
-     "closeness": 0.7422166608469584,
+     "closeness": 0.742347647899843,
      "coverage": 0.9090909090909091,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.20069644184472657,
+     "closeness": 0.15871511704448715,
      "coverage": 0.9090909090909091,
      "note": "few former MKs: 1",
      "ranked": false
@@ -150604,12 +150768,12 @@
       },
       {
        "q": "7",
-       "contribution": 0.2174,
-       "p": -0.2174,
+       "contribution": 0.2191,
+       "p": -0.2191,
        "lines": [
         "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
         "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 28 votes on private bills and 6 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 32 votes on private bills and 10 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -152393,12 +152557,12 @@
       },
       {
        "q": "7",
-       "contribution": 0.0756,
-       "p": -0.0756,
+       "contribution": 0.0779,
+       "p": -0.0779,
        "lines": [
         "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
         "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 25 votes on private bills and 12 votes on the other camp's bills on this topic."
+        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 30 votes on private bills and 17 votes on the other camp's bills on this topic."
        ],
        "evidence": [
         {
@@ -153174,10 +153338,10 @@
     ],
     "clarifying": [
      "2",
-     "16",
-     "23",
      "64",
      "38",
+     "23",
+     "16",
      "48",
      "55"
     ]
@@ -153206,84 +153370,84 @@
    "ranking": [
     {
      "id": "ל",
-     "closeness": 0.24093389731409318,
+     "closeness": 0.2412837831621425,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.1746182346600337,
+     "closeness": 0.16516737790181024,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.13983061090828236,
+     "closeness": 0.13961542514817,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.06529379441352456,
+     "closeness": -0.05613617377327824,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.07924257677432006,
+     "closeness": -0.07324863146792919,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.08748039286040504,
+     "closeness": -0.1023390876095013,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.11288724886511534,
+     "closeness": -0.11308319717912917,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.12965933978877725,
+     "closeness": -0.12711568740512597,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.19704620060478203,
+     "closeness": -0.19318411847643627,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.3570478610531726,
+     "closeness": -0.3523536407044817,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.48293496250695617,
+     "closeness": -0.45476029987502053,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.5052823036661009,
+     "closeness": -0.5002210203063236,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -153304,14 +153468,14 @@
     },
     {
      "id": "ני",
-     "closeness": -0.01958044816968889,
+     "closeness": -0.020292092145418557,
      "coverage": 1.0,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.1826867783332763,
+     "closeness": 0.20582842871076892,
      "coverage": 1.0,
      "note": "few former MKs: 1",
      "ranked": false
@@ -154293,15 +154457,43 @@
       },
       {
        "q": "7",
-       "contribution": 0.45175,
-       "p": 0.9035,
+       "contribution": 0.4559,
+       "p": 0.9118,
        "lines": [
         "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
         "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 25 votes on private bills and 41 votes on the other camp's bills on this topic.",
+        "Basis: 4 bills sponsored by the list's former MKs — 4 your way, 0 the other way; 31 votes on private bills and 42 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
+        {
+         "bill": "2205673",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
         {
          "bill": "2198947",
          "sign": 1,
@@ -156918,12 +157110,12 @@
       },
       {
        "q": "7",
-       "contribution": -0.00255,
-       "p": -0.0051,
+       "contribution": -0.0901,
+       "p": -0.1802,
        "lines": [
         "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
         "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 11 votes on private bills and 27 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 16 votes on private bills and 27 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -157545,84 +157737,84 @@
    "ranking": [
     {
      "id": "ג",
-     "closeness": 0.4043995860881163,
+     "closeness": 0.396697380277517,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.19703466683979054,
+     "closeness": 0.18914935591619267,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.1563845476051401,
+     "closeness": 0.1526398980572312,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.1039173750669856,
+     "closeness": 0.10418041134422153,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.04366035157137788,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "כן",
-     "closeness": -0.0574274738838365,
+     "closeness": 0.05954634164056708,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.07190947331748933,
+     "closeness": -0.05345110821952317,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "כן",
+     "closeness": -0.0625683916530907,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.0841915992262642,
+     "closeness": -0.11262867747609341,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.18087423833825073,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "רק",
-     "closeness": -0.2129022547875584,
+     "closeness": -0.1805825827977938,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.21333431698733116,
+     "closeness": -0.2141087364338101,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "רק",
+     "closeness": -0.21537239664615396,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.3131526833227617,
+     "closeness": -0.31751260394492137,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -157643,14 +157835,14 @@
     },
     {
      "id": "ני",
-     "closeness": 0.3684820251286322,
+     "closeness": 0.3691659306017412,
      "coverage": 0.8461538461538461,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.2823054562273397,
+     "closeness": 0.24515984393535611,
      "coverage": 1.0,
      "note": "few former MKs: 1",
      "ranked": false
@@ -157815,12 +158007,12 @@
     "skip_lists": [],
     "pairs": [
      [
-      "7",
+      "14",
       "1",
       "ג"
      ],
      [
-      "14",
+      "7",
       "9",
       "שס"
      ],
@@ -157841,13 +158033,49 @@
      "id": "ג",
      "items": [
       {
+       "q": "14",
+       "contribution": 0.672,
+       "p": 0.672,
+       "lines": [
+        "“Israel should reduce the number of foreign workers, even if construction, agriculture and elderly care become more expensive.”",
+        "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 1 vote on private bills and 0 votes on the other camp's bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2243540",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Yaakov Tesler"
+          ]
+         ]
+        },
+        {
+         "bill": "2206795",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        }
+       ]
+      },
+      {
        "q": "7",
-       "contribution": 0.6961,
-       "p": -0.6961,
+       "contribution": 0.6209,
+       "p": -0.6209,
        "lines": [
         "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
         "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
-        "Basis: 4 bills sponsored by the list's former MKs — 4 your way, 0 the other way; 32 votes on private bills and 9 votes on the other camp's bills on this topic."
+        "Basis: 4 bills sponsored by the list's former MKs — 4 your way, 0 the other way; 37 votes on private bills and 14 votes on the other camp's bills on this topic."
        ],
        "evidence": [
         {
@@ -157916,42 +158144,6 @@
            3,
            "Yitzhak Pindrus"
           ],
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "14",
-       "contribution": 0.672,
-       "p": 0.672,
-       "lines": [
-        "“Israel should reduce the number of foreign workers, even if construction, agriculture and elderly care become more expensive.”",
-        "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 1 vote on private bills and 0 votes on the other camp's bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2243540",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Yaakov Tesler"
-          ]
-         ]
-        },
-        {
-         "bill": "2206795",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
           [
            118,
            "Moshe Gafni"
@@ -158709,12 +158901,12 @@
      "items": [
       {
        "q": "7",
-       "contribution": 1.2431,
-       "p": -1.2431,
+       "contribution": 1.1616,
+       "p": -1.1616,
        "lines": [
         "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
         "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 53 votes on private bills and 104 votes on the other camp's bills on this topic."
+        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 60 votes on private bills and 111 votes on the other camp's bills on this topic."
        ],
        "evidence": [
         {
@@ -160015,84 +160207,84 @@
    "ranking": [
     {
      "id": "מחל",
-     "closeness": 0.3806679318928636,
+     "closeness": 0.3839976508629774,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.32254349906810115,
+     "closeness": 0.33821277126508226,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.26740303625920114,
+     "closeness": 0.2788594757482843,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.2275847183003527,
+     "closeness": 0.22741842852289834,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.19653552866369883,
+     "closeness": 0.21109267243605642,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.04926326317989262,
+     "closeness": 0.052245774276956466,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.04467069350788301,
+     "closeness": 0.04652015141809918,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.09218449880590371,
+     "closeness": -0.10270702026674233,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.10848867975970247,
+     "closeness": -0.10862157621743462,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.24411901632180957,
+     "closeness": -0.24339424721918665,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.31726312040316196,
+     "closeness": -0.3282322911011322,
      "coverage": 0.9230769230769231,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.35007002391064046,
+     "closeness": -0.34808220168489473,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -160113,14 +160305,14 @@
     },
     {
      "id": "ני",
-     "closeness": 0.040713558880163474,
+     "closeness": 0.040117619277345154,
      "coverage": 0.9230769230769231,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.30100704848341714,
+     "closeness": 0.31960222975775227,
      "coverage": 1.0,
      "note": "few former MKs: 1",
      "ranked": false
@@ -164189,12 +164381,12 @@
       },
       {
        "q": "7",
-       "contribution": -0.11985,
-       "p": -0.2397,
+       "contribution": -0.10815,
+       "p": -0.2163,
        "lines": [
         "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
         "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 104 votes on private bills and 47 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 122 votes on private bills and 65 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -166026,12 +166218,12 @@
       },
       {
        "q": "7",
-       "contribution": -0.34805,
-       "p": -0.6961,
+       "contribution": -0.31045,
+       "p": -0.6209,
        "lines": [
         "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
         "Your answer: agree. The record of the list's former MKs points against this statement.",
-        "Basis: 4 bills sponsored by the list's former MKs — 0 your way, 4 the other way; 32 votes on private bills and 9 votes on the other camp's bills on this topic."
+        "Basis: 4 bills sponsored by the list's former MKs — 0 your way, 4 the other way; 37 votes on private bills and 14 votes on the other camp's bills on this topic."
        ],
        "evidence": [
         {
@@ -166186,84 +166378,84 @@
    "ranking": [
     {
      "id": "עם",
-     "closeness": 0.4576062741562372,
+     "closeness": 0.47138666062376977,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.3977583807876424,
+     "closeness": 0.407972030401977,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.031473134253235016,
+     "closeness": 0.021540512624429065,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.011902414838725306,
+     "closeness": 0.007828738652586738,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.03282421872669834,
+     "closeness": -0.03492402175024121,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.0765374307877817,
+     "closeness": -0.07932657205317462,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.08661608198038231,
+     "closeness": -0.0962251154264801,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.10618562713676508,
+     "closeness": -0.12193948163108939,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.2971591825024145,
+     "closeness": -0.3006658957241801,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.4085091227795618,
+     "closeness": -0.40828582129675034,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.5274368109853206,
+     "closeness": -0.5275556083267255,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.6371434305154896,
+     "closeness": -0.636851933422204,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -166284,14 +166476,14 @@
     },
     {
      "id": "ני",
-     "closeness": -0.27406749481741016,
+     "closeness": -0.27285240235824587,
      "coverage": 0.9166666666666666,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": -0.2866653790161993,
+     "closeness": -0.3100052852742545,
      "coverage": 1.0,
      "note": "few former MKs: 1",
      "ranked": false
@@ -166466,18 +166658,18 @@
       "ודם"
      ],
      [
-      "7",
+      "14",
       "1",
       "ג"
      ],
      [
-      "14",
+      "4",
       "81",
       "אמת"
      ],
      [
       "49",
-      "4",
+      "7",
       "רק"
      ]
     ]
@@ -167161,12 +167353,12 @@
       },
       {
        "q": "7",
-       "contribution": -0.0107,
-       "p": 0.0214,
+       "contribution": 0.0482,
+       "p": -0.0964,
        "lines": [
         "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
         "Your answer: disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 14 votes on private bills and 23 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 17 votes on private bills and 23 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -167947,12 +168139,12 @@
       },
       {
        "q": "7",
-       "contribution": 0.00255,
-       "p": -0.0051,
+       "contribution": 0.0901,
+       "p": -0.1802,
        "lines": [
         "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
         "Your answer: disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 11 votes on private bills and 27 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 16 votes on private bills and 27 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
