@@ -67,3 +67,8 @@ Results and list details: show closeness with one decimal (`+0.8`, not `+0.83`).
 (from the unrounded values); equal rounded values next to each other are expected and fine. Reason: the data and the analysis do not
 support more precision (limitations — `export/V2_HANDOFF.md` §6, «Limitations»). The intro line may say «about as close» for equal
 values; no other change.
+
+## 12. How the list's former MKs voted (data side → web, 2026-10-19) [task]
+New in `quiz_bills.v2.json`: `votes[list][direction]` = `[bill, sign, camp, for, against]` — the votes behind the list's position on
+that statement. Format and suggested display (a third group «How its former MKs voted» under «Bills of one statement»):
+`export/V2_HANDOFF.md` §3. Display only, no formula, not in golden.
