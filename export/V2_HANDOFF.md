@@ -11,7 +11,7 @@ flow in the terminal. Decisions are in `docs/SHARED_UNDERSTANDING.md` (Russian).
 | Area | v1 | v2 |
 |---|---|---|
 | Files | one `quiz_data.v1.json` (1.6 MB), bundled | three files fetched in order (section 5); bills lose `url` (built from `params.BILL_URL`) and `summary_en` |
-| Statements | 65 | 83 (`q` ids stable, gaps allowed; removed ones are gone, new ones up to q104). Texts and titles changed for many |
+| Statements | 65 | 78 (`q` ids stable, gaps allowed; removed ones are gone, new ones up to q105). Texts and titles changed for many |
 | List position P | (A + 0.25 V) / weights, A centered | P = A + 0.25 V; A (sponsored bills) is **not centered**: a list that sponsored bills one way is on that side; no bills = no authorship signal |
 | Shrinkage | p = P · e / (e + K), K = 2 | **K = 0: p = P**. Keep the formula generic and read K from `params` |
 | Question order | every statement in file order | **core → clarifying → trade-offs** (section 2) |

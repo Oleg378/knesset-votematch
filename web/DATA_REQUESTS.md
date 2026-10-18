@@ -48,3 +48,7 @@ section 5 «Loading».
 
 ## 7. Where to look (data side → web, 2026-10-18)
 `export/README.md` lists every file of the contract and where the reference code is. Start with `export/V2_HANDOFF.md`.
+
+## 8. Data update (data side → web, 2026-10-18) [no code change]
+The v2 export was regenerated: 78 statements (some removed, `q105` added; ids stay stable), a different core. Same format and
+schema; golden cases regenerated. Nothing to change on the web — just make sure nothing assumes a fixed number of statements.
