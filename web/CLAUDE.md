@@ -139,7 +139,12 @@ Home, Question, Clarifying question, Menu). All values in px.
 
 ### 04 · Menu
 - Dim: full screen, black 40 %. Tap on it closes the menu.
-- Panel: width 320, height 100 %, at the left edge. Vertical flex, padding 62 24 34 24 (top and bottom = safe area).
+- Web (customer 2026-10-18): the drawer and the dim live in a frame over the visible part of `.app` — the screen on a
+  phone, the card in card mode (the card behaves as the phone: the drawer slides from its edge, clipped by its corners;
+  the page around stays undimmed, a click there closes). Slides in 300 ms (`--menu-in`), out 200 ms (Menu.tsx, Web
+  Animations); none with reduced motion. The page does not scroll while it is open. Close = burger point always,
+  also on a scrolled long screen.
+- Panel: width 320 (max 85 % of the frame), height 100 %, at the left edge. Vertical flex, padding 62 24 34 24 (top and bottom = safe area).
 - Close 44×44 at the same point as the burger.
 - Head: padding-top 16, eyebrow → 8 → title (28/34).
 - Divider: 1px line, Brand / Tint 10%, 16 above and below.
@@ -260,7 +265,7 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
   padding-top 8, 44 px skip link). In the clarifying card «or» gets `padding-block: 4px` inside the 8 px card stack → 12 / 12.
 - **Menu line** under «Vote Match»: Tint 10 % (`--color-accent-soft`), as in the Menu frame.
 - **Card mode (see «Breakpoints»):** page background Brand / Tint 10 %, the 480 px column is a white card (radius 32,
-  soft shadow, margins 16–32); the menu opens inside the card. The card's top is
+  soft shadow, margins 16–32); the menu opens inside the card (see «04 · Menu»). The card's top is
   `max(gap, (100dvh − 812) / 2)` on every screen (not flex-centred: a long screen would start higher and the header jump);
   `overflow: clip` keeps the pinned header's corners inside the radius (never `hidden` — it breaks sticky). No Figma frame — customer chose this variant (C) from
   three rendered options. Never scale the card down to fit (rejected: it defeats browser zoom). Recipes and saved

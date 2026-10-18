@@ -912,17 +912,27 @@ a {
   z-index: 10;
 }
 
+/* Over the visible part of .app (Menu.tsx sets the box): the whole screen on a phone, the card in card mode — the drawer
+   slides from its edge and is clipped by its corners, and the page around the card stays undimmed. */
+.menu-frame {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
 .menu-dim {
   position: absolute;
   inset: 0;
   background: var(--color-dim);
+  animation: menu-dim-in var(--menu-in);
 }
 
 .menu {
   position: absolute;
   inset-block: 0;
   inset-inline-start: 0;
-  width: min(var(--menu-width), 85vw);
+  width: min(var(--menu-width), 85%);
+  animation: menu-slide-in var(--menu-in);
   display: flex;
   flex-direction: column;
   /* Same top as the screen (.app), so the close button sits exactly where the burger is */
@@ -978,13 +988,22 @@ a {
   opacity: 0.4;
 }
 
-/* Card mode (see .app above): the menu opens inside the card, not from the window edge; the dim covers the whole window */
-@media (min-width: 600px) and (min-height: 480px) {
-  .menu {
-    /* matches a centred card of --desktop-card-height; a taller card is scrolled, and the menu fills the window */
-    inset-block: max(var(--desktop-gap), calc((100dvh - var(--desktop-card-height)) / 2));
-    inset-inline-start: calc(50% - var(--column-max) / 2);
-    border-start-start-radius: var(--radius-desktop);
-    border-end-start-radius: var(--radius-desktop);
+/* Opening; closing is animated from Menu.tsx (it has to unmount after it). Material 3 drawer motion. */
+@keyframes menu-slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes menu-dim-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .menu,
+  .menu-dim {
+    animation: none;
   }
 }

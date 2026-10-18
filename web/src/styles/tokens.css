@@ -103,5 +103,6 @@
   --desktop-card-height: 812px; /* Figma screen without the status bar (874 − 62): the card keeps the phone proportions */
   --cta-min-gap: 64px; /* Home: at least this much between the steps and the buttons (max 158 = Figma) */
   --cta-fade: 32px; /* soft white fade above bottom buttons that stick because the content does not fit */
+  --menu-in: 300ms cubic-bezier(0.2, 0, 0, 1); /* menu opening (Material 3 «emphasized»); closing: 200 ms, Menu.tsx */
   --header-fade: 16px; /* fade under the pinned header: the smallest gap below it, so at rest it covers nothing */
 }
