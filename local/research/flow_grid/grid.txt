@@ -1,0 +1,46 @@
+Target (all 89 statements answered): own list 1st 0.90, in top 3 0.99; 30 personas per list
+
+own list 1st (top 3), by core × clarifying; total questions = core + clarifying
+core\clar           0          2          4          6          8         10         15         20         30
+        3  0.21(0.49) 0.39(0.56) 0.40(0.61) 0.45(0.63) 0.49(0.69) 0.51(0.72) 0.58(0.82) 0.64(0.87) 0.74(0.92)
+        5  0.32(0.61) 0.43(0.62) 0.43(0.63) 0.47(0.68) 0.52(0.74) 0.54(0.77) 0.60(0.84) 0.67(0.88) 0.74(0.92)
+        8  0.40(0.65) 0.43(0.66) 0.48(0.72) 0.53(0.76) 0.55(0.79) 0.57(0.81) 0.64(0.85) 0.71(0.90) 0.78(0.92)
+       10  0.44(0.67) 0.47(0.70) 0.53(0.75) 0.57(0.77) 0.57(0.79) 0.59(0.82) 0.66(0.86) 0.72(0.90) 0.78(0.93)
+       12  0.43(0.68) 0.47(0.74) 0.54(0.79) 0.56(0.82) 0.59(0.83) 0.63(0.84) 0.69(0.88) 0.72(0.91) 0.76(0.93)
+       15  0.50(0.72) 0.55(0.79) 0.60(0.83) 0.62(0.84) 0.64(0.86) 0.64(0.87) 0.72(0.92) 0.74(0.93) 0.79(0.94)
+       20  0.57(0.81) 0.58(0.84) 0.64(0.87) 0.66(0.87) 0.71(0.89) 0.72(0.91) 0.76(0.93) 0.78(0.94) 0.81(0.95)
+
+best split for a given total number of questions:
+    3 questions: 3 core + 0 clarifying -> 0.21
+    5 questions: 3 core + 2 clarifying -> 0.39
+    7 questions: 5 core + 2 clarifying -> 0.43
+    8 questions: 8 core + 0 clarifying -> 0.40
+    9 questions: 3 core + 6 clarifying -> 0.45
+   10 questions: 10 core + 0 clarifying -> 0.44
+   11 questions: 3 core + 8 clarifying -> 0.49
+   12 questions: 8 core + 4 clarifying -> 0.48
+   13 questions: 5 core + 8 clarifying -> 0.52
+   14 questions: 8 core + 6 clarifying -> 0.53
+   15 questions: 5 core + 10 clarifying -> 0.54
+   16 questions: 10 core + 6 clarifying -> 0.57
+   17 questions: 15 core + 2 clarifying -> 0.55
+   18 questions: 3 core + 15 clarifying -> 0.58
+   19 questions: 15 core + 4 clarifying -> 0.60
+   20 questions: 5 core + 15 clarifying -> 0.60
+   21 questions: 15 core + 6 clarifying -> 0.62
+   22 questions: 12 core + 10 clarifying -> 0.63
+   23 questions: 3 core + 20 clarifying -> 0.64
+   24 questions: 20 core + 4 clarifying -> 0.64
+   25 questions: 5 core + 20 clarifying -> 0.67
+   26 questions: 20 core + 6 clarifying -> 0.66
+   27 questions: 12 core + 15 clarifying -> 0.69
+   28 questions: 8 core + 20 clarifying -> 0.71
+   30 questions: 10 core + 20 clarifying -> 0.72
+   32 questions: 12 core + 20 clarifying -> 0.72
+   33 questions: 3 core + 30 clarifying -> 0.74
+   35 questions: 20 core + 15 clarifying -> 0.76
+   38 questions: 8 core + 30 clarifying -> 0.78
+   40 questions: 20 core + 20 clarifying -> 0.78
+   42 questions: 12 core + 30 clarifying -> 0.76
+   45 questions: 15 core + 30 clarifying -> 0.79
+   50 questions: 20 core + 30 clarifying -> 0.81

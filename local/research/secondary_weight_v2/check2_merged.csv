@@ -1,0 +1,277 @@
+id,q,d,bill,kind,role,sign,verdict,reason
+I1,40,204,2161206,proposed_resubmission,secondary,1,borderline,General constitutional right to equality; covers LGBT only implicitly
+I2,24,71,2197599,proposed,secondary,-1,not_about,Minimum sentences for stone throwing; not political power over courts
+I3,96,80,2199930,proposed_resubmission,secondary,1,not_about,Gender equality in IDF service; not external oversight
+I4,51,31,2156061,proposed,secondary,-1,borderline,Grandchild clause limits who qualifies as oleh; eligibility rather than benefits
+I5,96,80,2197489,control,main,1,about,Makes police investigations department more external and independent
+I6,41,265,2227410,control,secondary,1,about,Lets minors from 15 buy medicines without parents
+I7,80,69,2196100,proposed_resubmission,secondary,1,borderline,Tax collection via court process; mainly debtor protection
+I8,5,164,2228431,control,secondary,1,about,State heritage law for one community (Chabad)
+I9,57,137,2212827,control,secondary,1,about,Closing Al Jazeera broadcasts; direct content ban power
+I10,98,38,2243096,proposed,secondary,1,not_about,Extortion fighting via tax checks; organized crime not business tax compliance
+I11,64,58,2198419,proposed,secondary,1,not_about,Limits High Court remedies; not indicted PM question
+I12,96,80,2197257,proposed,secondary,1,not_about,Release of seized property; suspects' rights not security oversight
+I13,53,283,2164344,proposed_resubmission,secondary,1,borderline,State nursing insurance; public provision but private-actor sign unclear
+I14,48,340,2199143,proposed_resubmission,secondary,-1,not_about,Abortion law; abortion committees not appointment vetting
+I15,40,204,2156835,control,main,-1,about,Keeps father/mother in forms against parent 1/2
+I16,70,151b,2190977,control,secondary,1,about,Passover chametz rules on IDF bases
+I17,53,283,2202820,control,main,1,borderline,"Volunteers inspect daycares; child protection mainly, some outsourcing"
+I18,41,265,2193584,control,secondary,1,about,Lowers party membership age to 16
+I19,55,146,2160035,control,main,-1,borderline,Publishing names of judges complained against; transparency vs privacy
+I20,48,340,2157204,proposed_resubmission,secondary,-1,not_about,Abortion law; abortion committees not appointment vetting
+I21,54,277a,2192110,proposed_resubmission,secondary,1,not_about,Party funding for boycott calls; not terrorists or their families
+I22,42,25,2199458,control,secondary,1,borderline,Abolishes notary minimum fee; competition but not imports or entry
+I23,53,283,2196011,proposed_resubmission,secondary,1,not_about,Civil marriage and divorce; not privatization of services
+I24,42,25,2197998,proposed,secondary,1,about,Lets more agents sell compulsory motor insurance; more competition
+I25,95,226,2198251,control,secondary,-1,about,Relief for electricity debtors facing cut-offs
+I26,96,80,2198606,control,main,1,about,Improves handling of police violence complaints
+I27,23,215,2198404,proposed,secondary,1,about,Bans contractor employment in public bodies; public worker status
+I28,80,69,2190775,proposed,secondary,1,not_about,Constitutional environmental right; not appeals against authorities
+I29,46,75,2198900,proposed_resubmission,secondary,1,not_about,Finance Committee approval of tax-benefit institutions; not opposition powers
+I30,94,108,2234093,proposed,secondary,1,not_about,Sovereignty over Joseph's Tomb; not municipal revenue
+I31,54,277a,2198589,proposed_resubmission,secondary,1,not_about,Party funding for boycott calls; not terrorists or their families
+I32,53,283,2238532,proposed,secondary,1,borderline,State nursing insurance; public provision but private-actor sign unclear
+I33,56,130b,2220457,proposed,secondary,1,not_about,Civilian reserve duty for national service graduates; not lifting war measures
+I34,94,108,2206673,control,secondary,-1,about,Property tax discount for people with disabilities
+I35,55,146,2189939,proposed,secondary,1,not_about,Bans job discrimination by economic status; not data protection
+I36,89,12b,2231899,proposed,secondary,-1,not_about,Denies care to terrorists; not health fund entitlements for patients
+I37,37,241,2163745,proposed,secondary,1,not_about,Expanding Jerusalem's status and boundaries; not housing supply
+I38,78,277g,2156988,proposed,secondary,-1,not_about,Funding sanction on COVID-noncompliant institutions; not student benefits
+I39,54,277a,2162072,control,secondary,1,about,Tightens security prisoners' conditions and privileges
+I40,98,38,2160106,control,secondary,1,about,Limits cash payments in apartment purchases
+I41,5,164,2210354,control,secondary,1,borderline,"New state heritage center, but national rather than for one community"
+I42,27,141,2236458,proposed,secondary,1,not_about,Turning KKL into government company; not public broadcasters
+I43,54,277a,2193213,control,secondary,1,about,Denies funded quality-of-life health services to security prisoners
+I44,52,352,2197351,proposed_resubmission,secondary,1,borderline,Removes regulated notary fee floor; price regulation rather than contract terms
+I45,40,204,2205139,proposed,secondary,1,borderline,General constitutional right to equality; covers LGBT only implicitly
+I46,3,171,2197941,proposed,secondary,1,borderline,"Allows car repair in PA areas; ties with territories, theft-prevention origin"
+I47,51,31,2158128,proposed,secondary,-1,borderline,Grandchild clause limits who qualifies as oleh; eligibility rather than benefits
+I48,80,69,2165968,control,secondary,1,borderline,"Foreign workers' stay for court proceedings; access to courts, not mainly vs authorities"
+I49,48,340,2166157,proposed,secondary,-1,borderline,Knesset elects Supreme Court president; political appointment vs committee
+I50,53,283,2165912,proposed,main,1,not_about,WZO settlement division land allocation; settlement question not privatization
+I51,52,352,2199458,proposed,secondary,1,borderline,Removes regulated notary fee floor; price regulation rather than contract terms
+I52,50,230,2158539,proposed,secondary,1,not_about,Regularizing West Bank settlement sites; not lending rules
+I53,42,25,2166077,proposed,secondary,1,about,Lets more agents sell compulsory motor insurance; more competition
+I54,52,352,2204203,proposed_resubmission,secondary,-1,borderline,Bans housing discrimination; limits contract freedom but discrimination question
+I55,24,71,2200302,proposed_resubmission,secondary,-1,not_about,Minimum sentences for stone throwing; not political power over courts
+I56,51,31,2196875,proposed_resubmission,secondary,-1,borderline,Grandchild clause limits who qualifies as oleh; eligibility rather than benefits
+I57,48,340,2198415,proposed,secondary,-1,borderline,Knesset elects Supreme Court president; political appointment vs committee
+I58,12,181,2167103,proposed,secondary,1,not_about,Work-hour recording at construction sites; general labor law
+I59,40,204,2199226,proposed_resubmission,secondary,1,borderline,General housing anti-discrimination; covers LGBT only implicitly
+I60,53,283,2157790,control,secondary,-1,about,Ends outsourced contractor employment in public services
+I61,40,204,2159346,proposed,secondary,1,borderline,General constitutional right to equality; covers LGBT only implicitly
+I62,24,71,2216177,proposed,secondary,1,not_about,Chief Rabbinate structure; not civil courts' independence
+I63,96,80,2168171,control,secondary,1,about,Suspends police officers over violence complaints
+I64,98,38,2166034,proposed,secondary,-1,borderline,Tax debt collection via courts; debtor protection more than evasion
+I65,27,141,2224078,control,main,-1,about,Privatizes Army Radio
+I66,64,58,2216392,proposed,secondary,-1,not_about,Caps number of ministers; not indicted PM
+I67,50,230,2162970,proposed_resubmission,secondary,1,not_about,Tax incentives for high-tech; not lending rules
+I68,42,25,2198324,proposed,secondary,1,about,Lets more agents sell compulsory motor insurance; more competition
+I69,98,38,2162836,proposed_resubmission,secondary,1,not_about,Recognizing poker as sport; not tax enforcement
+I70,40,204,2156069,proposed_resubmission,secondary,1,borderline,General constitutional right to equality; covers LGBT only implicitly
+I71,54,277a,2202840,proposed,secondary,1,not_about,Defunding schools with PA curriculum; schools not terror convicts or families
+I72,9,187,2157218,proposed_resubmission,secondary,-1,not_about,Housewife social insurance rules; not service-linked benefits
+I73,55,146,2196100,proposed_resubmission,secondary,1,not_about,Tax debt collection procedure; not personal data protection
+I74,12,181,2214301,control,secondary,-1,about,Restricts infiltrators' transfer of money abroad; fewer rights
+I75,94,108,2199456,proposed,secondary,-1,borderline,"Lower parking fines for prompt payment; relief for drivers, not group discounts"
+I76,23,215,2157574,proposed_resubmission,secondary,1,about,Bans contractor employment in public bodies; public worker status
+I77,5,164,2192252,proposed_resubmission,secondary,-1,not_about,Repealing Nation-State Law; not community heritage centers
+I78,40,204,2200332,proposed,secondary,1,borderline,General housing anti-discrimination; covers LGBT only implicitly
+I79,5,164,2159158,proposed,secondary,-1,not_about,Repealing Nation-State Law; not community heritage centers
+I80,53,283,2206726,proposed,secondary,1,not_about,Civil marriage and divorce; not privatization of services
+I81,95,226,2166074,proposed,secondary,-1,borderline,Limits standing-order charges to consumers; consumer billing more than debt collection
+I82,57,137,2197580,proposed,secondary,1,not_about,Restricts security prisoners' TV channels; prison conditions not content bans
+I83,95,226,2213836,proposed,secondary,-1,borderline,Mortgage deferral for reservists; debtor relief but framed as reservist aid
+I84,102,143,2223639,proposed,secondary,1,not_about,Maritime zones jurisdiction law; not animal protection
+I85,46,75,2197487,control,secondary,1,about,Fewer MKs needed to convene Knesset in recess; helps opposition
+I86,89,12b,2229715,proposed,secondary,-1,not_about,Denies care to terrorists; not health fund entitlements for patients
+I87,57,137,2229575,control,main,-1,about,Abolishes film censorship
+I88,9,187,2166427,proposed,secondary,-1,not_about,Housewife social insurance rules; not service-linked benefits
+I89,55,146,2166593,control,secondary,1,borderline,"Excludes illegally obtained evidence; constrains police, not data protection per se"
+I90,52,352,2163621,proposed,secondary,-1,not_about,Custody and violent parent; child protection not contract freedom
+I91,54,277a,2196789,proposed,secondary,1,not_about,Defunding institutions inciting against service; not terror convicts
+I92,64,58,2206652,proposed_resubmission,secondary,1,not_about,Limits High Court remedies; not indicted PM question
+I93,48,340,2156648,control,secondary,1,about,Search committee for police commissioner appointment
+I94,51,31,2199544,proposed,secondary,-1,borderline,Grandchild clause limits who qualifies as oleh; eligibility rather than benefits
+I95,89,12b,2158924,control,secondary,1,about,Health funds must transfer medical file on switching
+I96,52,352,2163310,proposed_resubmission,secondary,-1,not_about,Custody and violent parent; child protection not contract freedom
+I97,37,241,2219403,proposed_resubmission,secondary,1,not_about,Metro infrastructure law; not housing construction volume
+I98,53,283,2201417,proposed_resubmission,main,1,not_about,WZO settlement division land allocation; settlement question not privatization
+I99,54,277a,2217178,proposed_resubmission,secondary,1,not_about,Party funding for boycott calls; not terrorists or their families
+I100,50,230,2198942,proposed,secondary,1,not_about,Tax incentives for high-tech; not lending rules
+I101,80,69,2166034,proposed_resubmission,secondary,1,borderline,Tax collection via court process; mainly debtor protection
+I102,51,31,2241731,proposed,secondary,1,borderline,Senior citizens' allowance; benefits elderly olim only indirectly
+I103,42,25,2162956,proposed_resubmission,secondary,1,about,Lets more agents sell compulsory motor insurance; more competition
+I104,90,106,2210440,proposed_resubmission,secondary,1,not_about,Property tax discount for disabled; not municipal powers
+I105,52,352,2162908,control,secondary,-1,about,Limits non-compete clauses in employment contracts
+I106,54,277a,2228138,proposed,secondary,1,not_about,Entry and family unification restrictions; not terror convicts' benefits
+I107,54,277a,2216020,proposed,secondary,1,not_about,Party funding for boycott calls; not terrorists or their families
+I108,14,180,2214301,proposed,main,-1,borderline,Deters infiltrators via money-transfer ban; not legal foreign worker numbers
+I109,40,204,2166585,proposed,secondary,1,borderline,General constitutional right to equality; covers LGBT only implicitly
+I110,80,69,2205865,proposed,secondary,1,borderline,Ends municipal administrative collection; debtor protection more than appeals
+I111,9,187,2200168,proposed_resubmission,secondary,-1,not_about,Housewife social insurance rules; not service-linked benefits
+I112,64,58,2231729,proposed_resubmission,secondary,-1,not_about,Caps number of ministers; not indicted PM
+I113,85,277f,2199257,control,secondary,1,about,Equal survivors' rights for widowers
+I114,55,146,2196911,proposed_resubmission,secondary,1,not_about,Bans job discrimination by economic status; not data protection
+I115,64,58,2166166,control,secondary,1,about,Bars criminal investigation of sitting PM
+I116,41,265,2162295,proposed,secondary,1,borderline,Lets teens work on rest day; labor rules not parental consent
+I117,9,187,2201850,proposed,secondary,-1,not_about,Housewife social insurance rules; not service-linked benefits
+I118,12,181,2165968,control,main,1,about,Foreign workers' right to stay for court proceedings
+I119,50,230,2198687,proposed_resubmission,secondary,1,not_about,Tax credit points for discharged soldiers; not lending
+I120,102,143,2164446,control,secondary,1,about,Bans trawler fishing
+I121,40,204,2169247,proposed,secondary,1,borderline,Non-discrimination in citizenship for spouses; LGBT only implicitly
+I122,54,277a,2211439,control,secondary,1,about,Denies state-funded legal aid to security offence suspects
+I123,98,38,2196100,proposed_resubmission,secondary,-1,borderline,Tax debt collection via courts; debtor protection more than evasion
+I124,51,31,2160218,proposed,secondary,1,not_about,Conversion by local rabbis; religious status not olim benefits
+I125,55,146,2199409,proposed,secondary,1,not_about,Tax debt collection procedure; not personal data protection
+I126,80,69,2216972,proposed_resubmission,secondary,1,not_about,Constitutional environmental right; not appeals against authorities
+I127,40,204,2197659,proposed_resubmission,secondary,1,borderline,General housing anti-discrimination; covers LGBT only implicitly
+I128,51,31,2234990,proposed_resubmission,secondary,-1,borderline,Grandchild clause limits who qualifies as oleh; eligibility rather than benefits
+I129,52,352,2166058,proposed,secondary,-1,borderline,Bans housing discrimination; limits contract freedom but discrimination question
+I130,24,71,2166157,control,secondary,-1,about,Knesset elects Supreme Court president
+I131,5,164,2234600,control,main,1,about,State council for Iranian Jewry heritage
+I132,80,69,2199350,proposed_resubmission,secondary,1,borderline,Tax collection via court process; mainly debtor protection
+I133,40,204,2196342,proposed_resubmission,secondary,1,borderline,General constitutional right to equality; covers LGBT only implicitly
+I134,24,71,2207077,proposed_resubmission,secondary,-1,not_about,Minimum sentences for stone throwing; not political power over courts
+I135,24,71,2198415,control,secondary,-1,about,Knesset elects Supreme Court president
+I136,96,80,2214310,proposed,secondary,-1,borderline,"Protects bases from intruders, some immunity; crime focus not oversight"
+I137,64,58,2200701,control,secondary,1,borderline,"Limits review of minister appointments; officials' fitness, not indicted PM directly"
+I138,24,71,2161528,proposed,secondary,-1,not_about,Genetic tests in rabbinical courts; not politicians over civil courts
+I139,53,283,2213921,proposed_resubmission,secondary,1,borderline,State nursing insurance; public provision but private-actor sign unclear
+I140,48,340,2159306,control,secondary,1,about,Search committee for police commissioner appointment
+I141,5,164,2211131,proposed,secondary,-1,borderline,"Closes ministries for war budget; may cut heritage funding, mainly government size"
+I142,41,265,2197561,proposed_resubmission,secondary,-1,not_about,Sexual exploitation of minors by public figures; abuse not parental consent
+I143,94,108,2161954,proposed,secondary,1,not_about,Reducing fireworks use; not municipal revenue
+I144,45,178,2217201,proposed,secondary,1,borderline,Ends UNRWA activity; aid agency ties more than terror-financing measures
+I145,41,265,2225659,control,main,1,about,Passports for 16-year-olds without parents present
+I146,45,178,2169827,control,secondary,1,borderline,Family unification ban for security; broad restriction but mainly immigration
+I147,90,106,2200709,proposed,secondary,1,borderline,"Abolishes religious councils, shifts services to municipalities; religion-state focus"
+I148,98,38,2204132,proposed_resubmission,secondary,-1,borderline,Limits tax seizure orders; debtor protection more than evasion
+I149,41,265,2230227,proposed,secondary,-1,not_about,Sex offences against minors; protection not decision autonomy
+I150,54,277a,2202132,proposed_resubmission,secondary,1,not_about,Party funding for boycott calls; not terrorists or their families
+I151,102,143,2156285,proposed_resubmission,secondary,1,not_about,Bans police horses against protesters; about protesters not animal welfare
+I152,53,283,2156158,proposed_resubmission,secondary,1,not_about,Civil marriage and divorce; not privatization of services
+I153,64,58,2231728,proposed_resubmission,secondary,-1,not_about,Caps number of ministers; not indicted PM
+I154,3,171,2239060,control,main,-1,about,Declares Qatar an enemy state
+I155,89,12b,2159096,control,secondary,1,about,Ambulance refunds for mental health patients
+I156,51,31,2225464,control,secondary,1,about,Lower social insurance for employers hiring olim
+I157,96,80,2218567,control,secondary,1,about,State commission of inquiry into October 7
+I158,90,106,2206673,proposed,secondary,1,not_about,Property tax discount for disabled; not municipal powers
+I159,40,204,2166058,proposed,secondary,1,borderline,General housing anti-discrimination; covers LGBT only implicitly
+I160,5,164,2168492,proposed,secondary,-1,not_about,Repealing KKL's special status; not community heritage centers
+I161,78,277g,2220907,control,secondary,1,about,Extends study grant fund eligibility to soldiers
+I162,95,226,2197338,proposed_resubmission,secondary,-1,borderline,Limits standing-order charges to consumers; consumer billing more than debt collection
+I163,41,265,2226596,proposed,secondary,-1,not_about,Sexual exploitation of minors by public figures; abuse not parental consent
+I164,35,356b,2229754,control,main,1,about,Night bus line availability
+I165,37,241,2198097,proposed,secondary,1,not_about,Herders' residence on grazing land; not housing supply
+I166,9,187,2198412,control,secondary,-1,borderline,Unemployment benefits from 18.5; loosens service timing link indirectly
+I167,5,164,2198155,proposed,secondary,-1,not_about,Repealing Nation-State Law; not community heritage centers
+I168,70,151b,2165737,proposed,secondary,1,borderline,"Shabbat water pumps in buildings; accommodation, not restricting public institutions"
+I169,48,340,2158641,proposed,secondary,-1,not_about,Abortion law; abortion committees not appointment vetting
+I170,52,352,2197865,proposed_resubmission,secondary,-1,not_about,Custody and violent parent; child protection not contract freedom
+I171,14,180,2206795,control,secondary,1,about,Reduced fee for hiring foreign nursing workers
+I172,12,181,2196908,proposed_resubmission,secondary,-1,borderline,Basic Law on immigration; admission policy more than social rights
+I173,38,275,2198432,control,secondary,1,borderline,Tax exemption on retirees' lump-sum withdrawal; not early withdrawal
+I174,96,80,2201387,proposed_resubmission,secondary,-1,borderline,"Protects bases from intruders, some immunity; crime focus not oversight"
+I175,14,180,2204297,proposed_resubmission,main,-1,borderline,Deters infiltrators via money-transfer ban; not legal foreign worker numbers
+I176,53,283,2198331,control,secondary,-1,about,Ends outsourced contractor employment
+I177,40,204,2204203,proposed_resubmission,secondary,1,borderline,General housing anti-discrimination; covers LGBT only implicitly
+I178,23,215,2197980,control,main,-1,borderline,"Changes car-linked pay supplements; transport policy, minor pay effect"
+I179,9,187,2198184,control,main,-1,borderline,Social insurance for pupils over 18; service link unclear
+I180,48,340,2224733,proposed,main,-1,borderline,"Seniority default for Supreme Court president; judicial, not ministerial appointments"
+I181,12,181,2169574,proposed_resubmission,secondary,-1,borderline,Basic Law on immigration; admission policy more than social rights
+I182,52,352,2193012,control,secondary,-1,about,Mandatory protective terms for new apartment buyers
+I183,55,146,2230303,proposed,secondary,-1,borderline,Mandatory disclosure of military service; service recognition more than privacy
+I184,42,25,2202257,control,main,1,about,Lets non-contracted pharmacies compete for prescriptions
+I185,48,340,2243263,control,main,1,about,Advisory committee vetting senior appointments
+I186,40,204,2197887,proposed,secondary,1,borderline,General constitutional right to equality; covers LGBT only implicitly
+I187,16,269b,2197495,control,secondary,1,about,Funds egg freezing for egg donors
+I188,51,31,2189595,proposed_resubmission,secondary,-1,borderline,Grandchild clause limits who qualifies as oleh; eligibility rather than benefits
+I189,96,80,2157789,proposed_resubmission,secondary,1,not_about,Release of seized property; suspects' rights not security oversight
+I190,80,69,2197257,control,secondary,1,about,Courts must consider releasing property seized by police
+I191,94,108,2206391,control,secondary,-1,about,Caps parking prices in local authorities
+I192,5,164,2165425,control,main,1,about,State heritage center for Tunisian and Djerba Jewry
+I193,42,25,2190976,proposed_resubmission,secondary,1,about,Lets more agents sell compulsory motor insurance; more competition
+I194,56,130b,2230356,proposed,secondary,1,not_about,Pre-indictment review for soldiers in combat; not wartime emergency powers
+I195,98,38,2199409,proposed,secondary,-1,borderline,Tax debt collection via courts; debtor protection more than evasion
+I196,102,143,2165440,control,main,1,about,Recognizes animals as sentient beings in law
+I197,38,275,2191341,proposed_resubmission,secondary,-1,not_about,Denies rights to terror participants; not pension withdrawal freedom
+I198,85,277f,2244563,proposed,secondary,-1,borderline,"Denies polygamy-based benefits; polygamy enforcement, may cut survivors' benefits"
+I199,24,71,2196072,proposed_resubmission,secondary,-1,not_about,Minimum sentences for stone throwing; not political power over courts
+I200,12,181,2226921,control,secondary,-1,about,Denies driving licenses to infiltrators
+I201,24,71,2204871,proposed_resubmission,secondary,-1,not_about,Minimum sentences for stone throwing; not political power over courts
+I202,98,38,2167480,proposed_resubmission,secondary,-1,borderline,Limits tax seizure orders; debtor protection more than evasion
+I203,5,164,2196279,proposed,secondary,-1,not_about,Repealing KKL's special status; not community heritage centers
+I204,90,106,2200707,control,main,1,about,Lets municipalities run public transport on Shabbat
+I205,96,80,2156530,proposed,secondary,1,not_about,Gender equality in IDF service; not external oversight
+I206,94,108,2190299,proposed_resubmission,secondary,-1,borderline,"Lower parking fines for prompt payment; relief for drivers, not group discounts"
+I207,37,241,2200326,control,secondary,-1,about,Applies coastal protection to old plans; less building on open coast
+I208,12,181,2159382,proposed,secondary,-1,borderline,Basic Law on immigration; admission policy more than social rights
+I209,5,164,2158716,proposed_resubmission,secondary,-1,not_about,Repealing Nation-State Law; not community heritage centers
+I210,9,187,2166200,proposed_resubmission,secondary,-1,not_about,Housewife social insurance rules; not service-linked benefits
+I211,98,38,2196574,proposed,secondary,1,not_about,Recognizing poker as sport; not tax enforcement
+I212,52,352,2165506,control,secondary,1,about,Changes consumer cancellation rights in tourism contracts
+I213,9,187,2198460,proposed_resubmission,secondary,-1,not_about,Housewife social insurance rules; not service-linked benefits
+I214,80,69,2199409,proposed,secondary,1,borderline,Tax collection via court process; mainly debtor protection
+I215,42,25,2196383,proposed_resubmission,secondary,1,about,Lets more agents sell compulsory motor insurance; more competition
+I216,95,226,2197788,control,secondary,-1,about,Bans electricity cut-offs for debtors
+I217,95,226,2199839,proposed_resubmission,secondary,-1,borderline,Limits standing-order charges to consumers; consumer billing more than debt collection
+I218,5,164,2215361,control,secondary,1,about,State authority for Russian-speaking Jewish culture
+I219,96,80,2229582,proposed,secondary,-1,borderline,Prison Service as security authority under privacy law; powers more than oversight
+I220,12,181,2228927,proposed,secondary,-1,not_about,"Bans Palestinian work permits; worker numbers, not foreign workers' rights"
+I221,70,151b,2197694,proposed_resubmission,secondary,1,borderline,"Shabbat water pumps in buildings; accommodation, not restricting public institutions"
+I222,23,215,2160966,proposed_resubmission,secondary,1,about,Bans contractor employment in public bodies; public worker status
+I223,94,108,2166401,control,secondary,-1,about,Betterment levy exemption for assisted housing; less municipal revenue
+I224,50,230,2191360,proposed,secondary,1,borderline,Eases mortgage refinancing paperwork; not lending standards
+I225,46,75,2159484,proposed,secondary,1,not_about,Finance Committee approval of tax-benefit institutions; not opposition powers
+I226,37,241,2164437,control,secondary,-1,about,Applies coastal protection to old plans; less building on open coast
+I227,55,146,2166034,proposed_resubmission,secondary,1,not_about,Tax debt collection procedure; not personal data protection
+I228,54,277a,2159478,control,secondary,1,about,Freezes allowances paid to terrorists and their families
+I229,24,71,2195993,proposed_resubmission,secondary,-1,not_about,Genetic tests in rabbinical courts; not politicians over civil courts
+I230,5,164,2156912,proposed_resubmission,secondary,-1,not_about,Repealing Nation-State Law; not community heritage centers
+I231,37,241,2197167,proposed_resubmission,secondary,1,not_about,Expanding Jerusalem's status and boundaries; not housing supply
+I232,53,283,2198023,proposed_resubmission,secondary,1,borderline,State nursing insurance; public provision but private-actor sign unclear
+I233,98,38,2197045,proposed_resubmission,secondary,1,not_about,Recognizing poker as sport; not tax enforcement
+I234,40,204,2199223,proposed_resubmission,secondary,1,borderline,General housing anti-discrimination; covers LGBT only implicitly
+I235,37,241,2197669,control,secondary,-1,about,Applies coastal protection to old plans; less building on open coast
+I236,98,38,2202698,proposed,secondary,-1,borderline,Limits tax seizure orders; debtor protection more than evasion
+I237,51,31,2215363,control,main,1,about,More municipalities must have olim absorption committees
+I238,16,269b,2218867,proposed,secondary,1,not_about,Benefits for adult orphans of fallen soldiers; not fertility
+I239,64,58,2158962,proposed_resubmission,secondary,-1,not_about,Caps number of ministers; not indicted PM
+I240,50,230,2205551,proposed,secondary,1,not_about,Tax credit points for discharged soldiers; not lending
+I241,102,143,2198431,proposed,secondary,1,not_about,Bans police horses against protesters; about protesters not animal welfare
+I242,52,352,2190731,proposed_resubmission,secondary,1,borderline,Removes regulated notary fee floor; price regulation rather than contract terms
+I243,94,108,2199001,proposed_resubmission,secondary,-1,borderline,"Lower parking fines for prompt payment; relief for drivers, not group discounts"
+I244,50,230,2230317,control,secondary,1,borderline,"Non-bank financing guarantees for developers; credit access, not borrower rules"
+I245,37,241,2198902,proposed,secondary,1,not_about,Metro infrastructure law; not housing construction volume
+I246,50,230,2166124,proposed,secondary,1,not_about,Tax incentives for high-tech; not lending rules
+I247,90,106,2212765,control,secondary,-1,about,Nationalizes local security coordinators; less municipal control of guards
+I248,56,130b,2197485,proposed,secondary,-1,borderline,"Repeals family unification temporary law; long-term security order, not wartime"
+I249,95,226,2197071,control,secondary,-1,about,Bans cutting water supply over debts
+I250,94,108,2197427,proposed_resubmission,main,1,not_about,Reducing fireworks use; not municipal revenue
+I251,51,31,2203631,proposed_resubmission,secondary,-1,borderline,Grandchild clause limits who qualifies as oleh; eligibility rather than benefits
+I252,94,108,2197290,proposed_resubmission,secondary,-1,borderline,"Lower parking fines for prompt payment; relief for drivers, not group discounts"
+I253,50,230,2238654,proposed,secondary,1,borderline,Licenses foreign financial service providers; competition more than lending rules
+I254,5,164,2197146,proposed_resubmission,secondary,-1,not_about,Repealing Nation-State Law; not community heritage centers
+I255,51,31,2156101,proposed_resubmission,secondary,-1,borderline,Grandchild clause limits who qualifies as oleh; eligibility rather than benefits
+I256,14,180,2209904,proposed_resubmission,main,-1,borderline,Deters infiltrators via money-transfer ban; not legal foreign worker numbers
+I257,55,146,2196922,proposed_resubmission,secondary,1,not_about,Tax debt collection procedure; not personal data protection
+I258,80,69,2196922,proposed_resubmission,secondary,1,borderline,Tax collection via court process; mainly debtor protection
+I259,42,25,2202785,control,main,-1,borderline,"Exempts Education Ministry from tenders; procurement, not imports or entry"
+I260,24,71,2160035,control,secondary,-1,not_about,Publishing names of judges complained against; not politicians' power over courts
+I261,96,80,2207140,proposed_resubmission,secondary,-1,borderline,"Protects bases from intruders, some immunity; crime focus not oversight"
+I262,35,356b,2239066,proposed,secondary,1,not_about,Kiryat Shmona development package; not public transport spending
+I263,95,226,2205266,proposed,secondary,1,not_about,Collecting military court compensation from terrorists; not ordinary debtors
+I264,50,230,2235367,control,secondary,1,borderline,"Delays attachment marks on credit rating; debtor protection, indirect credit access"
+I265,55,146,2231303,control,main,-1,about,Mandatory publication of released security prisoners' names and photos
+I266,41,265,2192417,proposed_resubmission,secondary,-1,not_about,Sexual exploitation of minors by public figures; abuse not parental consent
+I267,12,181,2210157,proposed_resubmission,secondary,-1,borderline,Basic Law on immigration; admission policy more than social rights
+I268,37,241,2190589,proposed_resubmission,secondary,1,not_about,Expanding Jerusalem's status and boundaries; not housing supply
+I269,24,71,2169594,proposed_resubmission,secondary,-1,not_about,Minimum sentences for stone throwing; not political power over courts
+I270,80,69,2200701,control,secondary,-1,about,Limits judicial review of minister appointments
+I271,96,80,2238565,proposed_resubmission,secondary,1,not_about,Gender equality in IDF service; not external oversight
+I272,55,146,2199350,proposed_resubmission,secondary,1,not_about,Tax debt collection procedure; not personal data protection
+I273,51,31,2192402,control,secondary,1,about,Exempts olim from social insurance on early pensions
+I274,24,71,2200287,proposed_resubmission,secondary,-1,not_about,Minimum sentences for stone throwing; not political power over courts
+I275,57,137,2191454,proposed,secondary,1,not_about,Restricts security prisoners' TV channels; prison conditions not content bans
+I276,38,275,2158413,proposed,secondary,-1,not_about,Denies rights to terror participants; not pension withdrawal freedom

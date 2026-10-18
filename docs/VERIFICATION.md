@@ -1,6 +1,6 @@
 # Протокол проверок
 
-_Создан 2026-10-11. Описывает, что, когда, как и кем проверяется. Сами решения и их обоснования лежат в [SHARED_UNDERSTANDING.md](archive/decision_registry_2026-10-12.md), результаты экспериментов — в [jef-task.md](jef-task.md)._
+_Создан 2026-10-11. Описывает, что, когда, как и кем проверяется. Сами решения и их обоснования лежат в [SHARED_UNDERSTANDING.md](SHARED_UNDERSTANDING.md) (ранний реестр — [local/docs/archive/](../local/docs/archive/)), результаты экспериментов — в [local/docs/jef-task.md](../local/docs/jef-task.md)._
 
 ## Уровни проверки
 

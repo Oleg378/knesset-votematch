@@ -11,14 +11,15 @@ flow in the terminal. Decisions are in `docs/SHARED_UNDERSTANDING.md` (Russian).
 | Area | v1 | v2 |
 |---|---|---|
 | Files | one `quiz_data.v1.json` (1.6 MB), bundled | three files fetched in order (section 5); bills lose `url` (built from `params.BILL_URL`) and `summary_en` |
-| Statements | 65 | 83 (`q` ids stable, gaps allowed; removed ones are gone, new ones up to q104). Texts and titles changed for many |
-| List position P | (A + 0.25 V) / weights, A centered | P = A + 0.25 V; A (sponsored bills) is **not centered**: a list that sponsored bills one way is on that side; no bills = no authorship signal |
+| Statements | 65 | 76 (`q` ids stable, gaps allowed; removed ones are gone, new ones up to q105). Texts and titles changed for many |
+| List position P | (A + 0.25 V) / weights, A centered | P = A + 0.25 V + 0.25 O; A (sponsored bills) is **not centered**; O = votes against the other camp's bills (2026-10-18). Comes ready in `lists[].positions` — the web only reads P |
+| Ranking | coverage ≥ MIN_COVERAGE | also `ex_mks ≥ params.MIN_EX_MKS` (2): a list with one former MK goes to «Not ranked» with its note (2026-10-18) |
 | Shrinkage | p = P · e / (e + K), K = 2 | **K = 0: p = P**. Keep the formula generic and read K from `params` |
 | Question order | every statement in file order | **core → clarifying → trade-offs** (section 2) |
 | Trade-offs | up to MAX_TRADE | unchanged algorithm; the limit comes from `flow.trade` |
 | Answer words in explanations | «somewhat agree / somewhat disagree» | **«agree / disagree»** (same as the buttons); «strongly …» unchanged |
 | Explanation caveat | «… positions are measured relative to the average MK» | **removed** (no longer true) |
-| |p| < CLOSE | «close to the average MK on this statement» | **«has no clear position on this statement»** (customer, 2026-10-18); CLOSE = 0.2 (measured: below it the side is a coin flip between the two Knessets) |
+| |p| < CLOSE | «close to the average MK on this statement» | **«has no clear position on this statement»** (customer, 2026-10-18); a position is clear when |p| ≥ `params.CLOSE` (0.2) and it rests on ≥ 2 former MKs and ≥ 2 distinct bills (2026-10-18, after the second external audit) |
 
 Nothing changes in: cosine closeness, weights 1/n per direction (a/b pairs), coverage threshold 0.5 and the «Not ranked» block,
 the two notes, what is not shown (no coalition/opposition, no number of MKs).
@@ -54,13 +55,15 @@ Per list, everything comes from `quiz_report.contributions()` and `explain()`; g
   then «Show all».
 - `lines` — shown exactly as given, in order:
   1. the statement in quotes;
-  2. `Your answer: <agree / strongly agree / …>. The list is <for this statement | against this statement | has no clear position on this statement>.`
-     (the third variant when |p| < CLOSE);
-  3. basis: `Basis: N bills sponsored by the list's former MKs — X your way, Y the other way; M votes on private bills on this topic.`
-     or `Basis: no bills of their own on this topic, only M votes on private bills.`;
+  2. `Your answer: <agree / strongly agree / …>. The record of the list's former MKs <points toward this statement | points against this statement | shows no clear position on this statement>.`
+     (the third variant when the position is not clear: |p| < `params.CLOSE` (0.2), or fewer than `params.MIN_CLEAR_MKS` former MKs, or fewer than `params.MIN_CLEAR_BILLS` distinct bills (`n_names`); wording changed 2026-10-18);
+  3. basis: `Basis: N bills sponsored by the list's former MKs — X your way, Y the other way; M votes on private bills and K votes on the other camp's bills on this topic.`
+     or `Basis: no bills of their own on this topic, only M votes on private bills and K votes on the other camp's bills on this topic.`
+     (M = `n_votes`, K = `n_other` of the list's position);
   4. optional: `Weight ×2: you chose this topic in a trade-off question.`;
-  5. optional: `The list's side comes from how its former MKs voted on private bills, not from the bills they sponsored.`
-     (when the list's own bills give nothing or point the other way).
+  5. optional: `The list's side comes from how its former MKs voted, not from the bills they sponsored.`
+     (when the list's own bills give nothing or point the other way);
+  6. when line 2 says «points toward»: `This shows what their bills and votes pushed for, not whether they accept the price named in the statement.`
 - `evidence` — the bills behind the item, already in display order (bills that explain the verdict first, then by the best
   list position of their sponsors). Each: `bill` (id → `bills[id]`: Hebrew name `name_he`, `knesset`; link =
   `params.BILL_URL` with `{id}` replaced), `sign`
@@ -97,3 +100,58 @@ Goal: the start page never waits for data, and a loader almost never appears.
 - All three files carry the same `version`, `generated` and `source_commit`; if they differ (a deploy mid-session), reload.
 - Caching: give the files content-hashed names at build time (or short cache + revalidation); never `immutable` under a
   fixed name.
+
+## 6. Methodology page texts (customer, 2026-10-18)
+
+Texts for the methodology / FAQ page, English as shown. Numbers come from the export where noted; the rest is fixed text.
+
+**How topics are chosen.** A topic gets a statement only if the parties' former MKs actually differ on it in the Knesset record:
+at least 8 evaluated lists with 3 or more former MKs on the topic, a spread of their positions of at least 0.25, and at least 5
+distinct bills (a re-submitted bill counts once) sponsored by them. These thresholds were fixed in advance and are the same for every topic. Topics where all lists
+did the same, or where too few bills exist, are left out — even when they are important.
+
+**Important topics that are not in the quiz, and why.**
+- *The lists' records hardly differ (nearly everyone pushed the same way):* animal protection; credit and mortgages; state power to
+  ban harmful content; public broadcasting (Kan, Galei Tzahal); tax enforcement; cannabis; state support for long-term savings;
+  support for charities.
+- *Too few bills by the candidates to place the lists:* abortion; who is registered as a Jew; rights of the parliamentary
+  opposition; gun licensing; immunity for soldiers; the death penalty for terrorists; immigration rights of grandchildren of Jews
+  (Law of Return); laws tied to a state of emergency; a shorter working week; the Yemenite children affair; adoption rules.
+- *Covered by another statement:* immunity of elected officials (in «A prime minister under indictment»); civil marriage and divorce
+  (in «Civil marriage» and «Divorce»); conditions on funding religious schools (in «Funding schools without the core curriculum»);
+  alternatives to military service (in «Drafting yeshiva students»); international law and UNRWA (in «Foreign states and
+  international organizations in Israel»).
+
+**Where a list's position comes from.** Only from what its candidates who were MKs in the 24th–25th Knesset did: the bills they
+sponsored, their votes on private bills, and their votes on the other camp's bills. Promises and speeches are not used. Positions
+that coincide with the coalition line are read mostly from the votes on the other camp's bills.
+
+**Leaders with few bills of their own.** Ministers and prime ministers rarely sponsor bills, so a list's position rests mostly on
+its other former MKs and on votes.
+
+**Candidates who moved to another list.** A former MK's record counts for the list they run with in 2026: it is the same person and
+their own votes.
+
+**Lists with one former MK** are shown but not ranked: one person's record is too thin to call a list the closest.
+
+**The answer scale.** Closeness compares directions, not intensity: if you answer «strongly agree» to everything, the result is the
+same as «agree» to everything; the strength of an answer matters when your answers are mixed.
+
+**«No clear position».** A list is marked so when its position is weaker than 0.2 (`params.CLOSE`) — below that, the side of the
+same list did not hold between the two Knessets in most cases — or when it rests on a single former MK or a single bill.
+
+**Limitations — what this quiz can and cannot tell you.** The quiz is an orientation, not a precise measurement. We state openly
+where the data and the analysis are noisy:
+- *Only the Knesset record of former MKs* (24th–25th Knesset) is used. New candidates, platforms and statements are not seen. 12 of
+  38 lists can be evaluated; 4 lists with a single former MK are shown but not ranked; 22 lists have no record.
+- *Bloc discipline.* About 98 % of votes follow the voter's bloc. A party's opposition to the other camp's laws is read from its votes
+  against them — partly party discipline, not only conviction.
+- *Leaders and ministers sponsor few bills,* so a list's position rests mostly on its other former MKs and on votes.
+- *Topic labels were made by a language model.* Independent model checks found main topics right in about 93 % and secondary topics
+  in about 80 % of cases; individual mistakes remain. Labels were corrected only where two independent checks agreed.
+- *Checks so far were done by models, not by people.* Agreement figures measure consistency, not accuracy for real voters. A human
+  check is planned.
+- *Closeness is approximate.* Lists with close values cannot be told apart reliably, so values are shown rounded and should be read
+  as «about as close». «No clear position» means the record is weak or rests on a single former MK or a single bill.
+- *The price in a statement* («even if …») is not measured: the record shows what a list's bills and votes pushed for, not whether
+  it accepts that price.

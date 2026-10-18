@@ -1,0 +1,24 @@
+
+=== variant base
+  anti judicial reform  : Yashar! With Eizenkot for  > Ra’am, the United Arab Lis > Kahol Lavan (Blue and Whit > HaDemocratim, headed by Ya > The Joint Arab List
+  pro judicial reform   : Shas – Hit’ahdut haSefarad > Noam L’Yisrael for the Chi > Otzma Yehudit, headed by I > Yahadut HaTorah v’ha’Shabb > Likud , headed by Binyamin
+  agree to all          : Yisrael Beiteinu, headed b > Tzomet Beit Yisrael > Likud , headed by Binyamin > Zionut Datit, headed by Be > Be’Yahad, headed by Naftal
+  disagree to all       : The Joint Arab List > HaDemocratim, headed by Ya > Noam L’Yisrael for the Chi > Ra’am, the United Arab Lis > Yisrael Techila, headed by
+  random answers, first place (equal share 0.062): Noam L’Yisrael for the Chi 0.119, Tzomet Beit Yisrael 0.111, The Joint Arab List 0.109, Yisrael Techila, headed by 0.087, Yisrael Beiteinu, headed b 0.085
+  persona recovery (all statements): 1st 0.83, top-3 0.98
+
+=== variant A
+  anti judicial reform  : Yashar! With Eizenkot for  > Yisrael Beiteinu, headed b > HaDemocratim, headed by Ya > Ra’am, the United Arab Lis > Kahol Lavan (Blue and Whit
+  pro judicial reform   : Zionut Datit, headed by Be > Shas – Hit’ahdut haSefarad > Noam L’Yisrael for the Chi > Otzma Yehudit, headed by I > Yahadut HaTorah v’ha’Shabb
+  agree to all          : Tzomet Beit Yisrael > Yisrael Beiteinu, headed b > Likud , headed by Binyamin > Zionut Datit, headed by Be > Yashar! With Eizenkot for 
+  disagree to all       : The Joint Arab List > HaDemocratim, headed by Ya > Noam L’Yisrael for the Chi > Ra’am, the United Arab Lis > Yisrael Techila, headed by
+  random answers, first place (equal share 0.062): Tzomet Beit Yisrael 0.147, Noam L’Yisrael for the Chi 0.109, Yashar! With Eizenkot for  0.105, The Joint Arab List 0.091, HaDemocratim, headed by Ya 0.082
+  persona recovery (all statements): 1st 0.66, top-3 0.94
+
+=== variant B
+  anti judicial reform  : Yashar! With Eizenkot for  > Yisrael Beiteinu, headed b > HaDemocratim, headed by Ya > Ra’am, the United Arab Lis > Kahol Lavan (Blue and Whit
+  pro judicial reform   : Zionut Datit, headed by Be > Shas – Hit’ahdut haSefarad > Noam L’Yisrael for the Chi > Otzma Yehudit, headed by I > Yahadut HaTorah v’ha’Shabb
+  agree to all          : Yisrael Beiteinu, headed b > Likud , headed by Binyamin > Zionut Datit, headed by Be > Yashar! With Eizenkot for  > Yahadut HaTorah v’ha’Shabb
+  disagree to all       : The Joint Arab List > HaDemocratim, headed by Ya > Noam L’Yisrael for the Chi > Ra’am, the United Arab Lis > Yisrael Techila, headed by
+  random answers, first place (equal share 0.062): Noam L’Yisrael for the Chi 0.123, Yashar! With Eizenkot for  0.113, The Joint Arab List 0.105, HaDemocratim, headed by Ya 0.088, Yisrael Techila, headed by 0.084
+  persona recovery (all statements): 1st 0.71, top-3 0.96

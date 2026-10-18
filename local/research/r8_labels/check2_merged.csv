@@ -1,0 +1,21 @@
+q,d,bill,group,sign,role,id,verdict,sign_j,reason,kind,cid,v2,s2,r2
+9,187,2213789,labeled,+,secondary,R48,not_about,,War subsistence pay for self-employed; not service-linked,remove,C1,not_about,,War-time subsistence pay for self-employed; nothing tied to military service.
+10,179,2196865,labeled,−,main,R50,about,+,Residence license for those stripped of status,flip,C2,borderline,−,"Replaces revoked status with weaker visit license; terror revocation, not general foreigner admission."
+81,195,2168171,labeled,+,main,R154,about,+,Suspension of police officer upon violence complaint,control,C3,borderline,+,"Eases suspending police officers over violence complaints; disciplinary control, not terror-support speech."
+49,90a,2158183,labeled,−,secondary,R123,about,−,Detention until end of proceedings for illegal weapons,control,C4,about,−,Mandatory detention until trial for illegal weapons reduces arrest safeguards for defendants.
+81,195,2201421,labeled,+,main,R56,about,+,Bans terror-supporting teachers in state education,control,C5,about,+,"Bars teachers from supporting terror, enabling their dismissal; exactly the statement's question."
+10,179,2227745,labeled,−,secondary,R47,not_about,,ICC cooperation limits; unrelated,remove,C6,not_about,,Limits cooperation with ICC; unrelated to foreigners' entry or residence.
+10,179,2216282,labeled,−,main,R108,about,−,Tightens ban on illegal stay,control,C7,about,−,Toughens measures against illegal stay of West Bank and Gaza residents.
+14,180,2202835,labeled,+,secondary,R103,about,+,Reduces foreign worker fee for hotels,control,C8,about,+,"Cuts foreign-worker fee for hotels, making hiring foreign workers cheaper."
+49,90a,2206413,labeled,+,secondary,R8,about,+,Caps police investigation length before indictment,control,C9,about,+,"Caps police investigation length, adding protection for suspects."
+49,90a,2156068,labeled,+,main,R12,about,+,Lets courts exclude illegally obtained evidence,control,C10,about,+,"Lets courts exclude illegally obtained evidence, strengthening defendants' safeguards."
+9,187,2198184,labeled,−,main,R89,about,+,Removes NI disadvantage for those who serve,flip,C11,about,−,"Removes service-based distinction in insurance exemption, decoupling benefit from service."
+9,187,2211287,labeled,+,secondary,R145,not_about,,Compensation for ZAKA volunteers; not military or national service,remove,C12,not_about,,"Compensation for ZAKA civilian volunteers, not military or national service."
+64,58a,2157851,candidate,,,R59,about,−,Integrity rules barring indicted leaders from office,add,C13,about,−,Integrity Basic Law restricts indicted leaders from serving; removes protection.
+49,90a,2202644,candidate,,,R144,about,−,Harsher detention rules for minors in terror cases,add,C14,borderline,−,"Harsher regime for terror-convicted minors, partly loosening juvenile arrest protections."
+9,187,2223329,labeled,+,secondary,R22,not_about,,Burial honors for firefighters; not service-linked benefits,remove,C15,not_about,,"Retroactive military burial for firefighters; commemoration, not service-linked benefits."
+64,58a,2222049,labeled,−,secondary,R136,about,−,Ends PM or minister term on indictment,control,C16,about,−,Ends PM or minister tenure upon indictment.
+9,187,2167074,labeled,−,main,R72,about,+,Removes NI disadvantage for those who serve,flip,C17,about,−,"Removes service-based distinction in insurance exemption, decoupling benefit from service."
+20,159,2166216,labeled,+,main,R11,about,+,Measures to prevent aginut; eases ending marriages,control,C18,about,+,"Prevents marital chaining (agunah), making divorce easier to obtain."
+20,159,2157787,labeled,+,main,R116,about,+,Expropriates rights of persistent get refusers,control,C19,about,+,"Strips rights from persistent get refusers, pressuring them and easing divorce."
+14,180,2200906,labeled,+,main,R52,not_about,,Dispersal of infiltrators; does not change foreign worker inflow,remove,C20,not_about,,Disperses infiltrators geographically; does not change foreign-worker inflow.

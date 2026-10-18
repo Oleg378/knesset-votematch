@@ -55,3 +55,22 @@ section 5 «Loading».
 test validates quiz_data + quiz_bills merged and checks quiz_core against quiz_data. #6 — the data is no longer bundled:
 the three files are fetched in order from page load, content-hashed, never inlined (CSP `connect-src 'self'`); a loader
 appears only on a screen whose file has not arrived. The JS bundle went from 340 KB to 150 KB gzip.
+
+## 8. Data update (data side → web, 2026-10-18) [no code change]
+The v2 export was regenerated: 78 statements (some removed, `q105` added; ids stay stable), a different core. Same format and
+schema; golden cases regenerated. Nothing to change on the web — just make sure nothing assumes a fixed number of statements.
+
+## 9. v2 changes after the external audit (data side → web, 2026-10-18) [port before v2 goes live]
+- Ranking: a list ranks only if `ex_mks >= params.MIN_EX_MKS` (2) as well as coverage; otherwise it goes to «Not ranked» with its note.
+- List details lines 2, 3, 5 changed and line 6 added — exact texts in `export/V2_HANDOFF.md` §3; line 3 uses the new `n_other` field.
+- `flow.core_one_sided` added (the core is precomputed in the export; nothing to compute). Golden regenerated.
+
+## 10. Methodology page texts (data side → web, 2026-10-18) [content]
+Texts for the methodology / FAQ page are in `export/V2_HANDOFF.md` §6 (topics not in the quiz and why, where positions come from,
+lists with one former MK, the answer scale, «no clear position»). `params.CLOSE` is now 0.3.
+
+## 11. Show closeness rounded to one decimal (customer, 2026-10-18) [task]
+Results and list details: show closeness with one decimal (`+0.8`, not `+0.83`). The ranking order stays exactly as computed
+(from the unrounded values); equal rounded values next to each other are expected and fine. Reason: the data and the analysis do not
+support more precision (limitations — `export/V2_HANDOFF.md` §6, «Limitations»). The intro line may say «about as close» for equal
+values; no other change.

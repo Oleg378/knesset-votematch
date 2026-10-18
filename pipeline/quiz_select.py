@@ -3,7 +3,9 @@
 Over evaluated lists (status ok) whose position on the direction rests on >= 3 ex-MKs:
   coverage   — at least 8 such lists;
   spread     — population SD of their positions P >= 0.25 ([У] 2026-10-17, new formula P = A + 0.25 V; before: 0.3 on the old scale);
-  volume     — sum of sum_nA over them >= 30 (MK × bill authorship pairs, not distinct bills);
+  volume     — distinct bills sponsored by the ex-MKs of those lists, counted by NAME without the year (a bill re-submitted in the
+               next Knesset counts once) >= MIN_NAMES ([У] 2026-10-18 after external audit №2 С2: 5; before — distinct bill ids >= 10,
+               MK × bill pairs >= 30, then 25).
   gov axis   — |r| between P and the list's share of votes with the government in K25 >= 0.8: shown, not a drop and no cap
                ([У] 2026-10-18; the cap of 5 from 2026-10-16 is lifted: with the core → clarifying flow the balance is kept in the
                core instead, quiz_flow.FLOW core_gov_share).
@@ -18,7 +20,26 @@ import numpy as np
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 POS = os.path.join(ROOT, "jef/positions")
-MIN_LISTS, MIN_SD, MIN_NA, GOV_R = 8, 0.25, 30, 0.8
+MIN_LISTS, MIN_SD, MIN_NAMES, GOV_R = 8, 0.25, 5, 0.8   # [У] 2026-10-18: volume by distinct names, 5 (customer: 10 by names is too coarse)
+
+def _bills_by_list_direction():
+    """(list, direction) -> set of distinct bill NAMES (without the year) sponsored (initiator) by the list's ex-MKs, Knessets 24–25."""
+    import duckdb, pandas as pd
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import labels
+    bl = labels.load()["bill_lab"]
+    con = duckdb.connect(os.path.join(ROOT, "knesset.duckdb"), read_only=True)
+    import re
+    base = lambda n: re.sub(r",?\s*(ה?תש[\"״׳'\w\-]*\s*-?\s*\d{4})\s*$", "", str(n or "")).strip()
+    bn = {b: base(n) for b, n in con.execute("select bill_id, name from bills").fetchall()}
+    bi = con.execute("select i.bill_id, i.mk_id from bill_initiators i join bills b using(bill_id) where i.is_initiator and b.knesset in (24,25)").df()
+    cand = pd.read_csv(os.path.join(ROOT, "manual/candidate_mk_26.csv")); cand = cand[cand.match.isin(["exact", "manual"])]
+    mk2l = dict(zip(cand.mk_id.astype(int), cand.letters))
+    out = collections.defaultdict(set)
+    for b, m in zip(bi.bill_id, bi.mk_id):
+        l = mk2l.get(int(m)); lab = bl.get(int(b))
+        if l is None or lab is None: continue
+        for d in labels.signed_topics(lab): out[(l, d)].add(bn.get(int(b)))
+    return out
 
 def criteria():
     cov = {r["letters"]: r for r in csv.DictReader(open(os.path.join(POS, "list_coverage.csv")))}
@@ -27,13 +48,13 @@ def criteria():
     by = collections.defaultdict(list)
     for r in csv.DictReader(open(os.path.join(POS, "list_topic_positions.csv"))):
         if r["letters"] in ok and int(r["n_mk"]) >= 3: by[(r["d"], r["direction"])].append(r)
-    out = {}
+    out = {}; BL = _bills_by_list_direction()
     for (d, name), xs in by.items():
-        P = [float(x["P"]) for x in xs]; nA = sum(int(x["sum_nA"]) for x in xs)
+        P = [float(x["P"]) for x in xs]; nA = len(set().union(*(BL.get((x["letters"], d), set()) for x in xs)))
         g = [G[(x["letters"], "25")] for x in xs]
         c = float(np.corrcoef(P, g)[0, 1]) if np.std(P) > 0 else float("nan")
         sd = st.pstdev(P) if len(P) > 1 else 0.0
-        base = len(xs) >= MIN_LISTS and sd >= MIN_SD and nA >= MIN_NA
+        base = len(xs) >= MIN_LISTS and sd >= MIN_SD and nA >= MIN_NAMES
         out[d] = dict(d=d, name=name, lists=len(xs), sd=sd, nA=nA, r=c, base=base, gov=base and abs(c) >= GOV_R)
     return out
 
@@ -46,7 +67,7 @@ if __name__ == "__main__":
     remainder = (set(plan["parents"]) - set(plan["keep"])) | {d for p in labels.later_plans() for d in p["parents"]}
     gov = sorted([x for x in C.values() if x["gov"]], key=lambda x: -x["nA"])
     print(f"gov-axis directions passing the other criteria (no cap): {[(x['d'], x['nA']) for x in gov]}")
-    print(f"{'d':6} {'q':>3} {'lists':>5} {'SD':>5} {'nA':>5} {'r_gov':>6}  verdict  direction")
+    print(f"{'d':6} {'q':>3} {'lists':>5} {'SD':>5} {'bills':>5} {'r_gov':>6}  verdict  direction")
     for d in ds:
         x = C.get(d)
         if not x: print(f"{d:6} {quiz.get(d, ''):>3}  no lists with >= 3 ex-MKs"); continue

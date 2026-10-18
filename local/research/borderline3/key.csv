@@ -1,0 +1,134 @@
+wave,q,d,bill_id,role,first_check,second_check,reason_second,id
+wave 1,94,108,2199456,secondary,not about,borderline,"Lower parking fines for prompt payment; relief for drivers, not group discounts",T1
+wave 1,96,80,2207140,secondary,not about,borderline,"Protects bases from intruders, some immunity; crime focus not oversight",T2
+wave 1,40,204,2204203,secondary,not about,borderline,General housing anti-discrimination; covers LGBT only implicitly,T3
+wave 1,3,171,2197941,secondary,not about,borderline,"Allows car repair in PA areas; ties with territories, theft-prevention origin",T4
+wave 2,24,71,2160035,secondary,not about,borderline,Publishing names of judges complained against; transparency more than political control.,T5
+wave 2,80,69,2199409,secondary,not about,borderline,Debtor protection in tax collection; only indirectly about challenging authority decisions.,T6
+wave 1,40,204,2161206,secondary,not about,borderline,General constitutional right to equality; covers LGBT only implicitly,T7
+wave 1,98,38,2199409,secondary,not about,borderline,Tax debt collection via courts; debtor protection more than evasion,T8
+wave 1,48,340,2198415,secondary,not about,borderline,Knesset elects Supreme Court president; political appointment vs committee,T9
+wave 2,51,31,2158128,secondary,not about,borderline,Law of Return grandchild clause; eligibility for aliyah rather than olim benefits.,T10
+wave 1,80,69,2196100,secondary,not about,borderline,Tax collection via court process; mainly debtor protection,T11
+wave 1,14,180,2209904,main,not about,borderline,Deters infiltrators via money-transfer ban; not legal foreign worker numbers,T12
+wave 2,52,352,2166058,secondary,not about,borderline,Housing anti-discrimination; contract limit but an equality question.,T13
+wave 2,12,181,2197411,secondary,not about,borderline,Bars illegal migrants' entry; same population but admission not social rights.,T14
+wave 2,51,31,2234990,secondary,not about,borderline,Law of Return grandchild clause; eligibility for aliyah rather than olim benefits.,T15
+wave 1,51,31,2241731,secondary,not about,borderline,Senior citizens' allowance; benefits elderly olim only indirectly,T16
+wave 1,40,204,2169247,secondary,not about,borderline,Non-discrimination in citizenship for spouses; LGBT only implicitly,T17
+wave 1,42,25,2190976,secondary,not about,about,Lets more agents sell compulsory motor insurance; more competition,T18
+wave 2,51,31,2196875,secondary,not about,borderline,Law of Return grandchild clause; eligibility for aliyah rather than olim benefits.,T19
+wave 1,98,38,2167480,secondary,not about,borderline,Limits tax seizure orders; debtor protection more than evasion,T20
+wave 1,53,283,2238532,secondary,not about,borderline,State nursing insurance; public provision but private-actor sign unclear,T21
+wave 1,42,25,2162956,secondary,not about,about,Lets more agents sell compulsory motor insurance; more competition,T22
+wave 2,51,31,2189595,secondary,not about,borderline,Law of Return grandchild clause; eligibility for aliyah rather than olim benefits.,T23
+wave 1,98,38,2202698,secondary,not about,borderline,Limits tax seizure orders; debtor protection more than evasion,T24
+wave 1,96,80,2214310,secondary,not about,borderline,"Protects bases from intruders, some immunity; crime focus not oversight",T25
+wave 1,56,130b,2197485,secondary,not about,borderline,"Repeals family unification temporary law; long-term security order, not wartime",T26
+wave 2,12,181,2234650,secondary,not about,borderline,Bars illegal migrants' entry; same population but admission not social rights.,T27
+wave 2,12,181,2169574,secondary,not about,borderline,Immigration and status Basic Law; same population but admission not social rights.,T28
+wave 1,12,181,2159382,secondary,not about,borderline,Basic Law on immigration; admission policy more than social rights,T29
+wave 3,98,38,2199409,secondary,not about,borderline,Moves collection to Execution Law; debtor rights issue rather than tax evasion,T30
+wave 1,95,226,2197338,secondary,not about,borderline,Limits standing-order charges to consumers; consumer billing more than debt collection,T31
+wave 1,51,31,2196875,secondary,not about,borderline,Grandchild clause limits who qualifies as oleh; eligibility rather than benefits,T32
+wave 1,96,80,2229582,secondary,not about,borderline,Prison Service as security authority under privacy law; powers more than oversight,T33
+wave 1,80,69,2199409,secondary,not about,borderline,Tax collection via court process; mainly debtor protection,T34
+wave 1,40,204,2156069,secondary,not about,borderline,General constitutional right to equality; covers LGBT only implicitly,T35
+wave 1,95,226,2213836,secondary,not about,borderline,Mortgage deferral for reservists; debtor relief but framed as reservist aid,T36
+wave 1,12,181,2169574,secondary,not about,borderline,Basic Law on immigration; admission policy more than social rights,T37
+wave 3,98,38,2167480,secondary,not about,borderline,Curbs administrative liens under Collection Ordinance; debtor protection more than tax evasion,T38
+wave 1,80,69,2166034,secondary,not about,borderline,Tax collection via court process; mainly debtor protection,T39
+wave 1,40,204,2197887,secondary,not about,borderline,General constitutional right to equality; covers LGBT only implicitly,T40
+wave 1,98,38,2196100,secondary,not about,borderline,Tax debt collection via courts; debtor protection more than evasion,T41
+wave 2,12,181,2159382,secondary,not about,borderline,Immigration and status Basic Law; same population but admission not social rights.,T42
+wave 1,96,80,2201387,secondary,not about,borderline,"Protects bases from intruders, some immunity; crime focus not oversight",T43
+wave 1,52,352,2166058,secondary,not about,borderline,Bans housing discrimination; limits contract freedom but discrimination question,T44
+wave 2,51,31,2156061,secondary,not about,borderline,Law of Return grandchild clause; eligibility for aliyah rather than olim benefits.,T45
+wave 1,12,181,2196908,secondary,not about,borderline,Basic Law on immigration; admission policy more than social rights,T46
+wave 2,80,69,2196922,secondary,not about,borderline,Debtor protection in tax collection; only indirectly about challenging authority decisions.,T47
+wave 2,24,71,2197104,secondary,not about,borderline,Publishing names of judges complained against; transparency more than political control.,T48
+wave 1,42,25,2198324,secondary,not about,about,Lets more agents sell compulsory motor insurance; more competition,T49
+wave 1,85,277f,2244563,secondary,not about,borderline,"Denies polygamy-based benefits; polygamy enforcement, may cut survivors' benefits",T50
+wave 1,53,283,2198023,secondary,not about,borderline,State nursing insurance; public provision but private-actor sign unclear,T51
+wave 2,52,352,2199458,secondary,not about,borderline,Removes notary minimum fee; price deregulation not protective contract terms.,T52
+wave 2,51,31,2199544,secondary,not about,borderline,Law of Return grandchild clause; eligibility for aliyah rather than olim benefits.,T53
+wave 1,48,340,2166157,secondary,not about,borderline,Knesset elects Supreme Court president; political appointment vs committee,T54
+wave 1,40,204,2196342,secondary,not about,borderline,General constitutional right to equality; covers LGBT only implicitly,T55
+wave 1,14,180,2214301,main,not about,borderline,Deters infiltrators via money-transfer ban; not legal foreign worker numbers,T56
+wave 2,12,181,2157408,secondary,not about,borderline,Bars illegal migrants' entry; same population but admission not social rights.,T57
+wave 3,98,38,2204132,secondary,not about,borderline,Curbs administrative liens under Collection Ordinance; debtor protection more than tax evasion,T58
+wave 2,12,181,2196908,secondary,not about,borderline,Immigration and status Basic Law; same population but admission not social rights.,T59
+wave 1,94,108,2199001,secondary,not about,borderline,"Lower parking fines for prompt payment; relief for drivers, not group discounts",T60
+wave 1,12,181,2210157,secondary,not about,borderline,Basic Law on immigration; admission policy more than social rights,T61
+wave 2,60,231e,2157264,secondary,not about,borderline,Denies terrorists' pension entitlements; forfeiture-like but a benefits sanction.,T62
+wave 2,80,69,2196100,secondary,not about,borderline,Debtor protection in tax collection; only indirectly about challenging authority decisions.,T63
+wave 1,90,106,2200709,secondary,not about,borderline,"Abolishes religious councils, shifts services to municipalities; religion-state focus",T64
+wave 1,98,38,2204132,secondary,not about,borderline,Limits tax seizure orders; debtor protection more than evasion,T65
+wave 2,45,178,2214465,secondary,not about,borderline,UNRWA ban; framed as counter-terror but about an international organization.,T66
+wave 2,52,352,2190946,secondary,not about,borderline,Price cap on English courses; price regulation rather than contract terms.,T67
+wave 1,40,204,2159346,secondary,not about,borderline,General constitutional right to equality; covers LGBT only implicitly,T68
+wave 2,90,106,2200709,secondary,not about,borderline,Abolishes religious councils; religious services question with some municipal role.,T69
+wave 2,60,231e,2235662,secondary,not about,borderline,Seizing UNRWA premises; international organization rather than criminal or terror property.,T70
+wave 3,98,38,2166034,secondary,not about,borderline,Moves collection to Execution Law; debtor rights issue rather than tax evasion,T71
+wave 1,51,31,2234990,secondary,not about,borderline,Grandchild clause limits who qualifies as oleh; eligibility rather than benefits,T72
+wave 1,95,226,2166074,secondary,not about,borderline,Limits standing-order charges to consumers; consumer billing more than debt collection,T73
+wave 1,98,38,2166034,secondary,not about,borderline,Tax debt collection via courts; debtor protection more than evasion,T74
+wave 2,5,164,2210354,secondary,not about,borderline,National WWII Jewish fighter center; heritage center but not a community's.,T75
+wave 1,50,230,2191360,secondary,not about,borderline,Eases mortgage refinancing paperwork; not lending standards,T76
+wave 1,95,226,2199839,secondary,not about,borderline,Limits standing-order charges to consumers; consumer billing more than debt collection,T77
+wave 1,40,204,2205139,secondary,not about,borderline,General constitutional right to equality; covers LGBT only implicitly,T78
+wave 1,53,283,2164344,secondary,not about,borderline,State nursing insurance; public provision but private-actor sign unclear,T79
+wave 2,52,352,2190731,secondary,not about,borderline,Removes notary minimum fee; price deregulation not protective contract terms.,T80
+wave 1,51,31,2189595,secondary,not about,borderline,Grandchild clause limits who qualifies as oleh; eligibility rather than benefits,T81
+wave 1,70,151b,2165737,secondary,not about,borderline,"Shabbat water pumps in buildings; accommodation, not restricting public institutions",T82
+wave 2,60,231e,2201038,secondary,not about,borderline,Denies terrorists' pension entitlements; forfeiture-like but a benefits sanction.,T83
+wave 1,14,180,2204297,main,not about,borderline,Deters infiltrators via money-transfer ban; not legal foreign worker numbers,T84
+wave 1,23,215,2198404,secondary,not about,about,Bans contractor employment in public bodies; public worker status,T85
+wave 2,51,31,2203631,secondary,not about,borderline,Law of Return grandchild clause; eligibility for aliyah rather than olim benefits.,T86
+wave 1,80,69,2199350,secondary,not about,borderline,Tax collection via court process; mainly debtor protection,T87
+wave 2,80,69,2199350,secondary,not about,borderline,Debtor protection in tax collection; only indirectly about challenging authority decisions.,T88
+wave 2,74,291,2190775,main,not about,borderline,Constitutional environmental right; rights in Basic Laws but not equality.,T89
+wave 1,48,340,2224733,main,not about,borderline,"Seniority default for Supreme Court president; judicial, not ministerial appointments",T90
+wave 1,52,352,2197351,secondary,not about,borderline,Removes regulated notary fee floor; price regulation rather than contract terms,T91
+wave 1,52,352,2204203,secondary,not about,borderline,Bans housing discrimination; limits contract freedom but discrimination question,T92
+wave 1,5,164,2211131,secondary,not about,borderline,"Closes ministries for war budget; may cut heritage funding, mainly government size",T93
+wave 2,12,181,2210157,secondary,not about,borderline,Immigration and status Basic Law; same population but admission not social rights.,T94
+wave 1,55,146,2230303,secondary,not about,borderline,Mandatory disclosure of military service; service recognition more than privacy,T95
+wave 1,51,31,2158128,secondary,not about,borderline,Grandchild clause limits who qualifies as oleh; eligibility rather than benefits,T96
+wave 2,12,181,2197103,secondary,not about,borderline,Bars illegal migrants' entry; same population but admission not social rights.,T97
+wave 2,24,71,2233290,secondary,not about,about,Knesset committee may stay trials of ministers; politicians over judicial process.,T98
+wave 1,51,31,2199544,secondary,not about,borderline,Grandchild clause limits who qualifies as oleh; eligibility rather than benefits,T99
+wave 1,23,215,2157574,secondary,not about,about,Bans contractor employment in public bodies; public worker status,T100
+wave 2,80,69,2205865,secondary,not about,borderline,Abolishes municipal administrative collection; debtor protection more than appeal rights.,T101
+wave 1,51,31,2203631,secondary,not about,borderline,Grandchild clause limits who qualifies as oleh; eligibility rather than benefits,T102
+wave 1,94,108,2190299,secondary,not about,borderline,"Lower parking fines for prompt payment; relief for drivers, not group discounts",T103
+wave 1,53,283,2213921,secondary,not about,borderline,State nursing insurance; public provision but private-actor sign unclear,T104
+wave 1,70,151b,2197694,secondary,not about,borderline,"Shabbat water pumps in buildings; accommodation, not restricting public institutions",T105
+wave 1,42,25,2196383,secondary,not about,about,Lets more agents sell compulsory motor insurance; more competition,T106
+wave 1,40,204,2199226,secondary,not about,borderline,General housing anti-discrimination; covers LGBT only implicitly,T107
+wave 2,80,69,2166034,secondary,not about,borderline,Debtor protection in tax collection; only indirectly about challenging authority decisions.,T108
+wave 3,98,38,2196100,secondary,not about,borderline,Moves collection to Execution Law; debtor rights issue rather than tax evasion,T109
+wave 3,98,38,2202698,secondary,not about,borderline,Curbs administrative liens under Collection Ordinance; debtor protection more than tax evasion,T110
+wave 1,80,69,2196922,secondary,not about,borderline,Tax collection via court process; mainly debtor protection,T111
+wave 2,12,181,2156351,secondary,not about,borderline,Bars illegal migrants' entry; same population but admission not social rights.,T112
+wave 1,40,204,2197659,secondary,not about,borderline,General housing anti-discrimination; covers LGBT only implicitly,T113
+wave 1,40,204,2199223,secondary,not about,borderline,General housing anti-discrimination; covers LGBT only implicitly,T114
+wave 1,51,31,2156061,secondary,not about,borderline,Grandchild clause limits who qualifies as oleh; eligibility rather than benefits,T115
+wave 1,52,352,2199458,secondary,not about,borderline,Removes regulated notary fee floor; price regulation rather than contract terms,T116
+wave 1,41,265,2162295,secondary,not about,borderline,Lets teens work on rest day; labor rules not parental consent,T117
+wave 1,42,25,2197998,secondary,not about,about,Lets more agents sell compulsory motor insurance; more competition,T118
+wave 2,52,352,2197351,secondary,not about,borderline,Removes notary minimum fee; price deregulation not protective contract terms.,T119
+wave 1,45,178,2217201,secondary,not about,borderline,Ends UNRWA activity; aid agency ties more than terror-financing measures,T120
+wave 1,40,204,2166585,secondary,not about,borderline,General constitutional right to equality; covers LGBT only implicitly,T121
+wave 1,40,204,2166058,secondary,not about,borderline,General housing anti-discrimination; covers LGBT only implicitly,T122
+wave 2,74,291,2216972,main,not about,borderline,Constitutional environmental right; rights in Basic Laws but not equality.,T123
+wave 2,52,352,2204203,secondary,not about,borderline,Housing anti-discrimination; contract limit but an equality question.,T124
+wave 1,40,204,2200332,secondary,not about,borderline,General housing anti-discrimination; covers LGBT only implicitly,T125
+wave 1,51,31,2156101,secondary,not about,borderline,Grandchild clause limits who qualifies as oleh; eligibility rather than benefits,T126
+wave 1,23,215,2160966,secondary,not about,about,Bans contractor employment in public bodies; public worker status,T127
+wave 1,80,69,2205865,secondary,not about,borderline,Ends municipal administrative collection; debtor protection more than appeals,T128
+wave 1,52,352,2190731,secondary,not about,borderline,Removes regulated notary fee floor; price regulation rather than contract terms,T129
+wave 1,42,25,2166077,secondary,not about,about,Lets more agents sell compulsory motor insurance; more competition,T130
+wave 1,50,230,2238654,secondary,not about,borderline,Licenses foreign financial service providers; competition more than lending rules,T131
+wave 2,51,31,2156101,secondary,not about,borderline,Law of Return grandchild clause; eligibility for aliyah rather than olim benefits.,T132
+wave 1,94,108,2197290,secondary,not about,borderline,"Lower parking fines for prompt payment; relief for drivers, not group discounts",T133

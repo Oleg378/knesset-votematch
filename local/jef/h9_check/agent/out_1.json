@@ -1,0 +1,274 @@
+{"bills":[
+{"bill_id":"2169566","technical":false,
+ "my_directions":[{"n":"180","sign":"+","role":"primary"},{"n":"179","sign":"+","role":"primary"},{"n":"130","sign":"+","role":"secondary"},{"n":"55","sign":"+","role":"secondary"},{"n":"206","sign":"+","role":"secondary"},{"n":"181","sign":"+","role":"tertiary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"179","in":"main","verdict":"correct","role":"primary","note":"продление пребывания сверх максимального срока"},
+  {"n":"180","in":"main","verdict":"correct","role":"primary","note":"ответ на нехватку иностранных сиделок"},
+  {"n":"181","in":"secondary","verdict":"correct","role":"tertiary","note":"косвенно: работник сохраняет легальный статус; прав как таковых не добавляет"},
+  {"n":"130","in":"secondary","verdict":"correct","role":"secondary","note":"действует только при объявленном коронавирусном ЧС"},
+  {"n":"298","in":"secondary","verdict":"not_applicable","role":null,"note":"речь не о поставщиках вне израильского регулирования"},
+  {"n":"55","in":"secondary","verdict":"correct","role":"secondary","note":"министр может продлевать, даже если условия закона не выполнены"},
+  {"n":"88","in":"secondary","verdict":"not_applicable","role":null,"note":"полномочие у министра, а не у регулятора"}],
+ "missed":[{"n":"206","sign":"+","role":"secondary"}]},
+
+{"bill_id":"2209534","technical":false,
+ "my_directions":[{"n":"77","sign":"−","role":"primary"},{"n":"149","sign":"+","role":"secondary"},{"n":"162","sign":"+","role":"tertiary"},{"n":"134","sign":"+","role":"tertiary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"77","in":"main","verdict":"correct","role":"primary","note":"распоряжения полиции ограничены 3 часами (с продлением до 6)"},
+  {"n":"149","in":"secondary","verdict":"correct","role":"secondary","note":"свобода передвижения, напр. при удалении с мест"}],
+ "missed":[]},
+
+{"bill_id":"2169558","technical":false,
+ "my_directions":[{"n":"99","sign":"+","role":"primary"},{"n":"81","sign":"−","role":"secondary"},{"n":"206","sign":"+","role":"secondary"},{"n":"146","sign":"−","role":"secondary"},{"n":"64","sign":"+","role":"secondary"},{"n":"100","sign":"+","role":"secondary"},{"n":"97","sign":"+","role":"secondary"},{"n":"101","sign":"+","role":"secondary"},{"n":"268","sign":"+","role":"tertiary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"99","in":"main","verdict":"correct","role":"primary","note":"цель — выявлять насилие над детьми"},
+  {"n":"81","in":"main","verdict":"correct","role":"secondary","note":"декриминализация прослушки опекуном — механизм, а не цель"},
+  {"n":"101","in":"secondary","verdict":"correct","role":"secondary","note":""},
+  {"n":"97","in":"secondary","verdict":"correct","role":"secondary","note":""},
+  {"n":"268","in":"secondary","verdict":"correct","role":"tertiary","note":"ответственные за беспомощных"},
+  {"n":"314","in":"secondary","verdict":"not_applicable","role":null,"note":"направление про судьбу пропавших/погибших родственников"},
+  {"n":"146","in":"secondary","verdict":"correct","role":"secondary","note":"разрешена скрытая запись персонала"}],
+ "missed":[{"n":"206","sign":"+","role":"secondary"},{"n":"64","sign":"+","role":"secondary"},{"n":"100","sign":"+","role":"secondary"}]},
+
+{"bill_id":"2215104","technical":false,
+ "my_directions":[{"n":"110","sign":"+","role":"primary"},{"n":"122","sign":"+","role":"tertiary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"110","in":"main","verdict":"correct","role":"primary","note":"депутаты/министры не могут баллотироваться в местные органы без отставки"},
+  {"n":"119","in":"secondary","verdict":"borderline","role":null,"note":"ограничивается выдвижение, а не агитация; агитация — лишь мотив"},
+  {"n":"122","in":"secondary","verdict":"correct","role":"tertiary","note":"мотив — неравные условия кандидатов"},
+  {"n":"251","in":"secondary","verdict":"not_applicable","role":null,"note":"это не профессия и не лицензирование"}],
+ "missed":[]},
+
+{"bill_id":"2208245","technical":false,
+ "my_directions":[{"n":"4","sign":"+","role":"primary"},{"n":"35","sign":"+","role":"secondary"},{"n":"1","sign":"+","role":"secondary"},{"n":"130","sign":"+","role":"tertiary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"4","in":"main","verdict":"correct","role":"primary","note":"компенсация эвакуированным"},
+  {"n":"1","in":"secondary","verdict":"correct","role":"secondary","note":"пересекается с 4"},
+  {"n":"35","in":"secondary","verdict":"correct","role":"secondary","note":"новые выплаты из компенсационного фонда"},
+  {"n":"95","in":"secondary","verdict":"borderline","role":null,"note":"законная компенсация из фонда налога на имущество, а не деликтная ответственность государства"},
+  {"n":"130","in":"secondary","verdict":"correct","role":"tertiary","note":"право возникает при объявлении особого положения в тылу"},
+  {"n":"375","in":"secondary","verdict":"borderline","role":null,"note":"сумм в законе нет; это право на выплату, а не фиксированная бюджетная статья"}],
+ "missed":[]},
+
+{"bill_id":"2216726","technical":false,
+ "my_directions":[{"n":"81","sign":"−","role":"primary"},{"n":"197","sign":"+","role":"tertiary"},{"n":"227","sign":"+","role":"tertiary"},{"n":"377","sign":"+","role":"tertiary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"81","in":"main","verdict":"correct","role":"primary","note":"отменяется лишение свободы взамен штрафа"},
+  {"n":"149","in":"secondary","verdict":"borderline","role":null,"note":"формально про свободу, но речь об уголовном наказании, которое направление исключает"},
+  {"n":"227","in":"secondary","verdict":"correct","role":"tertiary","note":"по аналогии с отменой ареста за гражданский долг; это должники по штрафам"},
+  {"n":"197","in":"secondary","verdict":"correct","role":"tertiary","note":"мотив — равенство бедных и богатых"}],
+ "missed":[]},
+
+{"bill_id":"2160307","technical":false,
+ "my_directions":[{"n":"256","sign":"+","role":"primary"},{"n":"196","sign":"+","role":"secondary"},{"n":"253","sign":"+","role":"tertiary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"256","in":"main","verdict":"correct","role":"primary","note":"обязательный арабский с 3-го класса"}],
+ "missed":[{"n":"196","sign":"+","role":"secondary"}]},
+
+{"bill_id":"2209390","technical":false,
+ "my_directions":[{"n":"97","sign":"+","role":"primary"},{"n":"99","sign":"+","role":"primary"},{"n":"256","sign":"+","role":"secondary"},{"n":"345","sign":"+","role":"secondary"},{"n":"264","sign":"+","role":"secondary"},{"n":"279","sign":"+","role":"tertiary"},{"n":"55","sign":"+","role":"tertiary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"97","in":"main","verdict":"correct","role":"primary","note":"предотвращение бойкота/травли"},
+  {"n":"99","in":"secondary","verdict":"correct","role":"primary","note":""},
+  {"n":"256","in":"secondary","verdict":"correct","role":"secondary","note":"часы в учебной программе, ответственный в каждой школе"},
+  {"n":"279","in":"secondary","verdict":"correct","role":"tertiary","note":"окружные инспекторы; школьный ответственный — скорее функция"},
+  {"n":"55","in":"secondary","verdict":"correct","role":"tertiary","note":"министр определяет программы подготовки"},
+  {"n":"345","in":"secondary","verdict":"correct","role":"secondary","note":"новые задачи Минпроса"}],
+ "missed":[{"n":"264","sign":"+","role":"secondary"}]},
+
+{"bill_id":"2198141","technical":false,
+ "my_directions":[{"n":"8","sign":"−","role":"primary"},{"n":"227","sign":"+","role":"primary"},{"n":"226","sign":"−","role":"secondary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"8","in":"main","verdict":"correct","role":"primary","note":"пеня замораживается на дни забастовки"},
+  {"n":"227","in":"secondary","verdict":"correct","role":"primary","note":""},
+  {"n":"20","in":"secondary","verdict":"not_applicable","role":null,"note":"должники в исполнительном производстве, а не потребители"},
+  {"n":"226","in":"secondary","verdict":"correct","role":"secondary","note":"взыскатель теряет проценты"},
+  {"n":"96","in":"secondary","verdict":"not_applicable","role":null,"note":"должники — не правонарушители"}],
+ "missed":[]},
+
+{"bill_id":"2242180","technical":false,
+ "my_directions":[{"n":"8","sign":"+","role":"primary"},{"n":"81","sign":"+","role":"secondary"},{"n":"149","sign":"−","role":"secondary"}],
+ "main_verdict":"partly",
+ "verdicts":[
+  {"n":"359","in":"main","verdict":"borderline","role":null,"note":"запрет на парковку — правило поведения, а не обязанность перед государством (отчётность и т.п.)"},
+  {"n":"81","in":"main","verdict":"correct","role":"secondary","note":"новое транспортное правонарушение"},
+  {"n":"8","in":"secondary","verdict":"correct","role":"primary","note":"штраф 500 ₪ — суть закона"},
+  {"n":"96","in":"secondary","verdict":"borderline","role":null,"note":"штраф уже учтён в 8; конфискации или возмещения нет"},
+  {"n":"149","in":"secondary","verdict":"correct","role":"secondary","note":"ограничение, где можно парковаться"}],
+ "missed":[]},
+
+{"bill_id":"2190604","technical":false,
+ "my_directions":[{"n":"45","sign":"+","role":"primary"},{"n":"359","sign":"+","role":"secondary"},{"n":"48","sign":"+","role":"secondary"},{"n":"17","sign":"+","role":"tertiary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"45","in":"main","verdict":"correct","role":"primary","note":"комиссии могут вызывать частных лиц"},
+  {"n":"359","in":"secondary","verdict":"correct","role":"secondary","note":"обязанность являться по вызову"},
+  {"n":"46","in":"secondary","verdict":"not_applicable","role":null,"note":"адресаты — частные лица, а не назначенные профессионалы"},
+  {"n":"349","in":"secondary","verdict":"not_applicable","role":null,"note":"обязанность явиться, а не юридическая ответственность организаций"}],
+ "missed":[{"n":"48","sign":"+","role":"secondary"}]},
+
+{"bill_id":"2209218","technical":false,
+ "my_directions":[{"n":"251","sign":"+","role":"primary"},{"n":"99","sign":"+","role":"primary"},{"n":"15","sign":"+","role":"secondary"},{"n":"97","sign":"+","role":"tertiary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"251","in":"main","verdict":"correct","role":"primary","note":"подготовка — условие получения лицензии"},
+  {"n":"99","in":"secondary","verdict":"correct","role":"primary","note":""},
+  {"n":"15","in":"secondary","verdict":"correct","role":"secondary","note":"касается медработников, но также соцработников и педагогов"},
+  {"n":"97","in":"secondary","verdict":"correct","role":"tertiary","note":""},
+  {"n":"17","in":"secondary","verdict":"borderline","role":null,"note":"требование к лицензированию специалистов, а не к бизнесу; уже покрыто 251"},
+  {"n":"247","in":"secondary","verdict":"not_applicable","role":null,"note":"не мера общественной безопасности"}],
+ "missed":[]},
+
+{"bill_id":"2198257","technical":false,
+ "my_directions":[{"n":"40","sign":"−","role":"primary"},{"n":"1","sign":"+","role":"secondary"},{"n":"41","sign":"+","role":"secondary"},{"n":"345","sign":"+","role":"secondary"},{"n":"377","sign":"+","role":"secondary"},{"n":"359","sign":"−","role":"tertiary"},{"n":"30","sign":"+","role":"tertiary"},{"n":"35","sign":"+","role":"tertiary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"40","in":"main","verdict":"correct","role":"primary","note":"пособие выплачивается автоматически, без заявления"},
+  {"n":"345","in":"secondary","verdict":"correct","role":"secondary","note":"выплату передают Битуах леуми"},
+  {"n":"41","in":"secondary","verdict":"correct","role":"secondary","note":""},
+  {"n":"1","in":"secondary","verdict":"correct","role":"secondary","note":"круг получателей формально тот же, но фактическое получение растёт"},
+  {"n":"359","in":"secondary","verdict":"correct","role":"tertiary","note":"дублирует 40"},
+  {"n":"280","in":"secondary","verdict":"not_applicable","role":null,"note":"функция переходит от одного ведомства к другому, а не объединяется"}],
+ "missed":[{"n":"377","sign":"+","role":"secondary"}]},
+
+{"bill_id":"2200387","technical":false,
+ "my_directions":[{"n":"3","sign":"+","role":"primary"},{"n":"9","sign":"−","role":"secondary"},{"n":"187","sign":"+","role":"secondary"},{"n":"1","sign":"+","role":"tertiary"},{"n":"55","sign":"+","role":"tertiary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"3","in":"main","verdict":"correct","role":"primary","note":"освобождение резервистов от платы за проезд по шоссе 6"},
+  {"n":"1","in":"secondary","verdict":"correct","role":"tertiary","note":"льгота; дублирует 3"},
+  {"n":"36","in":"secondary","verdict":"borderline","role":null,"note":"плата за проезд — сбор концессионеру, а не налог; точнее 9"},
+  {"n":"187","in":"secondary","verdict":"correct","role":"secondary","note":""},
+  {"n":"9","in":"secondary","verdict":"correct","role":"secondary","note":""},
+  {"n":"55","in":"secondary","verdict":"correct","role":"tertiary","note":"министр транспорта издаёт подзаконные акты для исполнения"}],
+ "missed":[]},
+
+{"bill_id":"2203967","technical":false,
+ "my_directions":[{"n":"132","sign":"+","role":"primary"},{"n":"8","sign":"−","role":"secondary"},{"n":"227","sign":"+","role":"secondary"},{"n":"20","sign":"+","role":"tertiary"},{"n":"69","sign":"+","role":"tertiary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"132","in":"main","verdict":"correct","role":"primary","note":"презумпция вручения — не менее 45 дней"},
+  {"n":"227","in":"secondary","verdict":"correct","role":"secondary","note":""},
+  {"n":"20","in":"secondary","verdict":"correct","role":"tertiary","note":"касается счетов за коммунальные услуги; в основном это платежи государству"}],
+ "missed":[{"n":"8","sign":"−","role":"secondary"}]},
+
+{"bill_id":"2215358","technical":false,
+ "my_directions":[{"n":"179","sign":"−","role":"primary"},{"n":"279","sign":"+","role":"primary"},{"n":"345","sign":"+","role":"secondary"},{"n":"35","sign":"+","role":"tertiary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"279","in":"main","verdict":"correct","role":"primary","note":"новый национальный орган; при этом пропущена содержательная цель"}],
+ "missed":[{"n":"179","sign":"−","role":"primary"},{"n":"345","sign":"+","role":"secondary"}]},
+
+{"bill_id":"2197288","technical":false,
+ "my_directions":[{"n":"20","sign":"+","role":"primary"},{"n":"356","sign":"+","role":"tertiary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"20","in":"main","verdict":"correct","role":"primary","note":"пассажир-заявитель получает ≥30% компенсации"}],
+ "missed":[]},
+
+{"bill_id":"2207231","technical":false,
+ "my_directions":[{"n":"3","sign":"+","role":"primary"},{"n":"132","sign":"+","role":"secondary"},{"n":"227","sign":"+","role":"secondary"},{"n":"226","sign":"−","role":"secondary"},{"n":"187","sign":"+","role":"secondary"},{"n":"55","sign":"−","role":"tertiary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"3","in":"main","verdict":"correct","role":"primary","note":"автоматическая отсрочка сроков для резервистов"},
+  {"n":"227","in":"secondary","verdict":"correct","role":"secondary","note":""},
+  {"n":"40","in":"secondary","verdict":"borderline","role":null,"note":"отменяется объявление министра, а не бумаги самого человека"},
+  {"n":"187","in":"secondary","verdict":"correct","role":"secondary","note":""},
+  {"n":"1","in":"secondary","verdict":"borderline","role":null,"note":"отсрочка, а не льгота или выплата; закон прямо говорит, что бюджетной нагрузки нет"},
+  {"n":"226","in":"secondary","verdict":"correct","role":"secondary","note":"кредиторы ждут дольше"}],
+ "missed":[{"n":"132","sign":"+","role":"secondary"}]},
+
+{"bill_id":"2156276","technical":false,
+ "my_directions":[{"n":"226","sign":"−","role":"primary"},{"n":"227","sign":"+","role":"primary"},{"n":"20","sign":"+","role":"secondary"},{"n":"69","sign":"+","role":"secondary"},{"n":"358","sign":"−","role":"tertiary"},{"n":"106","sign":"−","role":"tertiary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"226","in":"main","verdict":"correct","role":"primary","note":"отмена административного взыскания у водоканалов"},
+  {"n":"227","in":"secondary","verdict":"correct","role":"primary","note":""},
+  {"n":"20","in":"secondary","verdict":"correct","role":"secondary","note":""},
+  {"n":"358","in":"secondary","verdict":"correct","role":"tertiary","note":"водоканалы — муниципальные корпорации"},
+  {"n":"90","in":"secondary","verdict":"not_applicable","role":null,"note":"не уголовный процесс"},
+  {"n":"106","in":"secondary","verdict":"correct","role":"tertiary","note":"косвенно: корпорации принадлежат муниципалитетам"}],
+ "missed":[{"n":"69","sign":"+","role":"secondary"}]},
+
+{"bill_id":"2161876","technical":false,
+ "my_directions":[{"n":"254","sign":"+","role":"primary"},{"n":"197","sign":"+","role":"primary"},{"n":"256","sign":"+","role":"secondary"},{"n":"264","sign":"+","role":"secondary"},{"n":"149","sign":"+","role":"tertiary"}],
+ "main_verdict":"wrong",
+ "verdicts":[
+  {"n":"277","in":"main","verdict":"not_applicable","role":null,"note":"приём в вуз — не социальная выплата"},
+  {"n":"251","in":"main","verdict":"borderline","role":null,"note":"приём на учёбу, а не лицензирование профессии; косвенно облегчает путь к профессиям"},
+  {"n":"197","in":"secondary","verdict":"correct","role":"primary","note":"запрет возрастного ценза; особо затрагивает арабский сектор"},
+  {"n":"149","in":"secondary","verdict":"correct","role":"tertiary","note":""},
+  {"n":"264","in":"secondary","verdict":"correct","role":"secondary","note":"права абитуриентов по отношению к вузу"}],
+ "missed":[{"n":"254","sign":"+","role":"primary"},{"n":"256","sign":"+","role":"secondary"}]},
+
+{"bill_id":"2156891","technical":false,
+ "my_directions":[{"n":"167","sign":"−","role":"primary"},{"n":"166","sign":"+","role":"secondary"},{"n":"55","sign":"+","role":"secondary"},{"n":"188","sign":"−","role":"secondary"},{"n":"279","sign":"−","role":"secondary"},{"n":"169","sign":"+","role":"tertiary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"167","in":"main","verdict":"correct","role":"primary","note":"упразднение Гражданской администрации"},
+  {"n":"55","in":"secondary","verdict":"correct","role":"secondary","note":"полномочия переходят к министерствам"},
+  {"n":"188","in":"secondary","verdict":"correct","role":"secondary","note":""},
+  {"n":"279","in":"secondary","verdict":"correct","role":"secondary","note":"орган упраздняется"},
+  {"n":"345","in":"secondary","verdict":"borderline","role":null,"note":"задачи и отнимаются у одного органа, и передаются другим; знак неоднозначен"},
+  {"n":"346","in":"secondary","verdict":"not_applicable","role":null,"note":"передача от военного органа к гражданским министерствам, а не на более высокий уровень"}],
+ "missed":[{"n":"166","sign":"+","role":"secondary"}]},
+
+{"bill_id":"2232218","technical":false,
+ "my_directions":[{"n":"214","sign":"+","role":"primary"},{"n":"55","sign":"+","role":"tertiary"},{"n":"44","sign":"+","role":"tertiary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"214","in":"main","verdict":"correct","role":"primary","note":"вознаграждение членам совета за участие в заседаниях"},
+  {"n":"1","in":"secondary","verdict":"not_applicable","role":null,"note":"вознаграждение выборным лицам — не социальная льгота"},
+  {"n":"55","in":"secondary","verdict":"correct","role":"tertiary","note":"министр внутренних дел определяет суммы (с одобрения Кнессета)"}],
+ "missed":[]},
+
+{"bill_id":"2160937","technical":false,
+ "my_directions":[{"n":"17","sign":"−","role":"primary"},{"n":"11","sign":"+","role":"primary"},{"n":"271","sign":"−","role":"secondary"},{"n":"358","sign":"+","role":"secondary"},{"n":"20","sign":"+","role":"tertiary"},{"n":"12","sign":"+","role":"tertiary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"17","in":"main","verdict":"correct","role":"primary","note":"снятие регуляторных барьеров"},
+  {"n":"11","in":"main","verdict":"correct","role":"primary","note":"цена и доступность лечения"},
+  {"n":"358","in":"secondary","verdict":"correct","role":"secondary","note":""},
+  {"n":"20","in":"secondary","verdict":"correct","role":"tertiary","note":"пациенты-покупатели"}],
+ "missed":[{"n":"271","sign":"−","role":"secondary"}]},
+
+{"bill_id":"2214143","technical":false,
+ "my_directions":[{"n":"240","sign":"−","role":"primary"},{"n":"241","sign":"+","role":"primary"},{"n":"17","sign":"−","role":"secondary"},{"n":"358","sign":"+","role":"tertiary"},{"n":"132","sign":"+","role":"tertiary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"241","in":"main","verdict":"correct","role":"primary","note":"заявленная цель — больше начатых строек"},
+  {"n":"17","in":"main","verdict":"correct","role":"secondary","note":"есть специфическое направление 240"},
+  {"n":"358","in":"secondary","verdict":"correct","role":"tertiary","note":""}],
+ "missed":[{"n":"240","sign":"−","role":"primary"}]},
+
+{"bill_id":"2156807","technical":false,
+ "my_directions":[{"n":"144","sign":"+","role":"primary"},{"n":"27","sign":"−","role":"secondary"},{"n":"288","sign":"+","role":"secondary"},{"n":"345","sign":"+","role":"tertiary"},{"n":"289","sign":"+","role":"tertiary"}],
+ "main_verdict":"correct",
+ "verdicts":[
+  {"n":"144","in":"main","verdict":"correct","role":"primary","note":"экологический критерий для господдержки; Минэкологии получает влияние"},
+  {"n":"288","in":"secondary","verdict":"correct","role":"secondary","note":"обязательное место для представителя Минэкологии"},
+  {"n":"17","in":"secondary","verdict":"borderline","role":null,"note":"это условие получения субсидии, а не обязанность для бизнеса"},
+  {"n":"345","in":"secondary","verdict":"correct","role":"tertiary","note":""},
+  {"n":"277","in":"secondary","verdict":"borderline","role":null,"note":"по смыслу 277 — про соцвыплаты; здесь сужение поддержки бизнеса, это 27 −"},
+  {"n":"247","in":"secondary","verdict":"not_applicable","role":null,"note":"не требования безопасности"}],
+ "missed":[{"n":"27","sign":"−","role":"secondary"}]}
+],
+"summary":{
+ "sign_reliability":"Высокая. Среди применимых строк нет ни одной с неверным знаком: 0 wrong_sign из 113 вердиктов. Знак сомнителен только у 345 в 2156891 (задачи одновременно отнимаются у одного органа и передаются другим).",
+ "typical_errors":[
+  "Главное направление верно в 23 из 25 законопроектов, частично — в 1 (2242180: 359 вместо 8+), неверно — в 1 (2161876: 277 «целевой характер льгот» применено к приёму в вузы).",
+  "Лишние secondary — чаще всего применение по поверхностному сходству слов: 314 (судьба родственников) для прослушки, 251 (профессиональные барьеры) для выдвижения кандидатов, 90 (права подсудимых) для гражданского взыскания, 96/20 для должников, 1 (соцльготы) для отсрочек и вознаграждения выборным лицам, 36 (налоги) для дорожного сбора, 277 для бизнес-субсидий.",
+  "Шаблонные процедурные добавки (55, 345, 279, 359), даже когда министр лишь издаёт подзаконные акты; обычно это tertiary, а не secondary.",
+  "Пропуски: классификатор выбирает общее направление вместо более точного (17 вместо 240 в строительстве, 279 без 179 для органа по выдворению мигрантов, 3 без 132 для продления сроков резервистам) и пропускает очевидные побочные эффекты (196, 264, 271, 166, 27, 8−, 377).",
+  "Роли завышены: tertiary-эффекты часто идут как secondary; механизм иногда ставится в main рядом с целью (81− в 2169558)."],
+ "bias":"Политического или знакового перекоса не видно: знаки + и − ставятся по смыслу в обе стороны (77−, 167−, 226−, 81±). Есть перекос в сторону процедурных и административных направлений (55, 345, 279, 359) и в сторону полноты: классификатор добавляет 5–6 secondary, где существенны 2–3. Из 113 строк labels 84 (74%) — correct, 15 — not_applicable, 14 — borderline, 0 — wrong_sign; кроме того, 19 пропусков (primary/secondary) в 15 законопроектах, из них 3 primary."}
+}

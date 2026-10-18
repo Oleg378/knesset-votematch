@@ -1,0 +1,160 @@
+id,verdict,sign_j,reason
+R1,not_about,,Citizenship and family-unification law; nothing on divorce
+R2,about,−,Bars indicted MK from forming a government
+R3,about,+,Expropriating kiddushin money frees agunot from refusing husbands
+R4,about,+,Lets courts exclude illegally obtained evidence
+R5,about,+,Extends stay of foreign caregivers on humanitarian grounds
+R6,about,+,Caps length of police investigation of suspects
+R7,about,−,Expands enforcement powers against illegal weapons at suspects' expense
+R8,about,+,Caps police investigation length before indictment
+R9,not_about,,Administrative response deadlines; not criminal procedure
+R10,about,−,Basic Law entrenching Torah study as alternative to service
+R11,about,+,Measures to prevent aginut; eases ending marriages
+R12,about,+,Lets courts exclude illegally obtained evidence
+R13,not_about,,Cannabis decriminalization is substantive law; not procedural safeguards
+R14,not_about,,Shelter construction grant unrelated to service
+R15,about,+,Eases spouse residence permits under citizenship temporary order
+R16,not_about,,Voter address update; unrelated to divorce
+R17,borderline,−,Narrows Law of Return for non-Jewish grandchildren; immigration not foreigners admission
+R18,not_about,,Minor privacy in psychiatric care; unrelated
+R19,about,+,Faster detention reports help detainees obtain alternatives to arrest
+R20,not_about,,Hospital parking fees; unrelated
+R21,about,+,Limits duration of rabbinical divorce proceedings
+R22,not_about,,Burial honors for firefighters; not service-linked benefits
+R23,not_about,,Transit discount for disabled people; unrelated to service
+R24,not_about,,Government company director qualifications; unrelated
+R25,not_about,,Pregnancy benefit; unrelated to service
+R26,about,+,Reduces fees for employing foreign workers in nursing homes
+R27,borderline,+,Eases dismissal of senior officials by new government; political not terror
+R28,not_about,,Sick leave rules; unrelated to foreign workers
+R29,borderline,−,Unemployment benefit at 18.5 aids non-serving youth; weakens service link
+R30,about,+,Integrating yeshiva students into military service
+R31,about,+,Bans employing teachers who identify with terrorism
+R32,borderline,+,Conditions cabinet membership on military service; office not benefits
+R33,not_about,,Sigd holiday observance; unrelated
+R34,not_about,,Adoption eligibility; unrelated to foreigners' entry
+R35,not_about,,Regulates behavior analysts profession; unrelated
+R36,not_about,,Water discounts for synagogues; unrelated
+R37,about,−,Basic Law entrenching Torah study as alternative to service
+R38,not_about,,Expands incitement offense; substantive not procedural rights
+R39,not_about,,Cooling-off before judicial appointment; unrelated
+R40,about,−,Bars residence of terror operatives and relatives
+R41,not_about,,Prostitution nuisance offense; unrelated to foreigners
+R42,about,+,Daycare priority for reservists' children
+R43,about,+,Bans investigating or indicting sitting PM
+R44,about,+,Dismissal of academic staff for supporting terrorism
+R45,about,−,Indicted person ineligible to serve as PM
+R46,not_about,,Minimum wage raise; not foreign worker inflow
+R47,not_about,,ICC cooperation limits; unrelated
+R48,not_about,,War subsistence pay for self-employed; not service-linked
+R49,about,+,Codifies exclusion of illegally obtained evidence
+R50,about,+,Residence license for those stripped of status
+R51,borderline,−,Revokes citizenship/residency of paid terrorists; status not entry
+R52,not_about,,Dispersal of infiltrators; does not change foreign worker inflow
+R53,about,+,Cuts social rights costs of foreign workers; cheaper hiring
+R54,about,−,Basic Law entrenching Torah study as alternative to service
+R55,not_about,,School funding for core curriculum; not conscription
+R56,about,+,Bans terror-supporting teachers in state education
+R57,not_about,,Shabbat public transport; unrelated
+R58,borderline,+,Eases bringing replacement foreign caregivers; workers not general admission
+R59,about,−,Integrity rules barring indicted leaders from office
+R60,about,+,Grants criminal immunity to MKs serving as ministers
+R61,not_about,,Electoral system reform; unrelated
+R62,not_about,,Local election candidacy limits; not PM or ministers
+R63,borderline,−,Cracks down on illegal stay; mainly Palestinians not foreign workers
+R64,about,+,Bans employing terror supporters in schools
+R65,not_about,,Court fee exemption; unrelated
+R66,about,+,Disciplinary proceedings for city rabbis
+R67,about,−,Denies visas and residence to hostile actors
+R68,not_about,,Security coordinators regulation; unrelated
+R69,about,+,Sanctions on get refusers push divorce
+R70,about,+,Exclusion of illegally obtained evidence
+R71,not_about,,Anti-discrimination exemption for religious belief; unrelated
+R72,about,+,Removes NI disadvantage for those who serve
+R73,not_about,,Tombstone grant; unrelated
+R74,about,−,PM or minister must leave office on indictment
+R75,about,−,Indicted MK cannot form government
+R76,about,−,Bars infiltrators sending money abroad to deter labor migration
+R77,not_about,,Civil union for those barred from marriage; not conscription
+R78,not_about,,Arms export restrictions; unrelated
+R79,about,+,Civil divorce for couples married abroad
+R80,about,+,Sanctions on get refusers push divorce
+R81,about,+,Phases out levy on employing foreign workers
+R82,about,−,Restricts municipal employment of Palestinian workers
+R83,about,+,Civil service hiring preference for combat soldiers
+R84,not_about,,Party financing; unrelated
+R85,about,+,Civil marriage and divorce option
+R86,borderline,+,"Fewer trial hearings slow prosecution; benefit to defendant, not safeguard"
+R87,not_about,,Land rights of old synagogues; unrelated
+R88,about,−,Regulates status of Torah learners alongside Torah-study basic law
+R89,about,+,Removes NI disadvantage for those who serve
+R90,not_about,,CBD drug classification; unrelated
+R91,not_about,,Minors' medical consent; unrelated
+R92,not_about,,Security coordinators regulation; unrelated
+R93,not_about,,Caregiver sick leave; unrelated to service
+R94,not_about,,Minimum penalty for stone throwing; unrelated
+R95,not_about,,Cooling-off for politicians becoming judges; unrelated
+R96,about,−,Overrides rulings on family unification and infiltrators
+R97,borderline,+,Yeshiva student integration framework; effect on draft disputed
+R98,about,+,Fast divorce ruling in severe violence cases
+R99,not_about,,Health insurance for students abroad; unrelated
+R100,not_about,,Family court for same-sex couples; unrelated
+R101,not_about,,Driving licenses for infiltrators; not service linkage
+R102,about,−,Ends PM or minister term on indictment
+R103,about,+,Reduces foreign worker fee for hotels
+R104,not_about,,Income support calculation; unrelated
+R105,not_about,,Abortion law; unrelated
+R106,about,+,Limits duration of rabbinical divorce proceedings
+R107,about,+,Bans terror support by state education teachers
+R108,about,−,Tightens ban on illegal stay
+R109,not_about,,MK conduct in courtrooms; not PM prosecution
+R110,about,−,Bars family unification with Palestinian spouses
+R111,not_about,,UNRWA immunities; unrelated
+R112,about,+,Suspension of police officer upon violence complaint
+R113,not_about,,Teaching assistant qualifications; unrelated
+R114,not_about,,Cannabis market regulation; unrelated
+R115,about,+,Cancels levy on foreign geriatric caregivers
+R116,about,+,Expropriates rights of persistent get refusers
+R117,not_about,,MK salary waiver; unrelated
+R118,about,+,Civil marriage and divorce option
+R119,about,−,Basic Law entrenching Torah study as alternative to service
+R120,not_about,,Property tax on arms factories; unrelated
+R121,about,+,Bans criminal investigation of sitting PM
+R122,about,+,Dismissal and suspension of teachers facing criminal proceedings
+R123,about,−,Detention until end of proceedings for illegal weapons
+R124,not_about,,Protection racket economic enforcement; not suspects' procedural rights
+R125,about,+,Reduces foreign worker fee for hotels
+R126,not_about,,Athletes' rights; unrelated
+R127,not_about,,Special prosecutor appointment; unrelated to foreigners
+R128,about,+,Extends foreign caregivers' licenses
+R129,about,+,Equal burden amendment increasing yeshiva conscription
+R130,about,+,Enables Haredi enlistment with quotas and religious accommodation
+R131,about,+,Daycare admission and funding for reservists' children
+R132,about,−,Bans work permits for Palestinian Authority residents
+R133,about,−,Basic Law to block illegal migrants
+R134,not_about,,Revokes benefits of former security officials; unrelated to divorce
+R135,about,−,Ends PM or minister term on indictment
+R136,about,−,Ends PM or minister term on indictment
+R137,about,+,Universal military service including yeshiva students
+R138,borderline,+,Post-Ressler draft framework; direction of effect disputed
+R139,about,+,Support for reservists in casualty handling
+R140,not_about,,Planning enforcement on vehicles; unrelated
+R141,about,+,Pay for conscripts rewards service
+R142,not_about,,Civil burial; unrelated
+R143,borderline,+,Property tax discount for IDF orphans; family not own service
+R144,about,−,Harsher detention rules for minors in terror cases
+R145,not_about,,Compensation for ZAKA volunteers; not military or national service
+R146,about,+,Reduces fees for foreign workers in nursing homes
+R147,not_about,,Workplace sexual harm benefit; unrelated
+R148,about,+,Dismissal of employees with terrorist relatives
+R149,not_about,,Mobility benefits for amputees; unrelated
+R150,about,−,Basic Law entrenching Torah study as alternative to service
+R151,about,+,Caps police and prosecution investigation time
+R152,about,+,Extends suspension and dismissal of teachers to protect minors
+R153,not_about,,Service conditions outside IDF; not dismissal
+R154,about,+,Suspension of police officer upon violence complaint
+R155,not_about,,Agricultural water tariffs; unrelated
+R156,not_about,,Chief Rabbinate electoral body; unrelated
+R157,about,+,Mutual respect agreement prevents get refusal
+R158,about,+,Adapted interrogation for people with mental illness
+R159,about,+,Bans criminal investigation of sitting PM

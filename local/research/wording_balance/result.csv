@@ -1,0 +1,79 @@
+q,camp,price_type,strength,loaded_words,double,proposed_fix
+q1,left_liberal,procedural,1,,no,"Judges and lawyers should hold the majority on the committee that selects judges, even if elected officials have little say over who becomes a judge."
+q2,right_religious,procedural,2,,no,
+q3,right_religious,harm_to_people,3,all (absolute),no,
+q4,right_religious,rights_or_freedoms,2,,no,
+q5,left_liberal,harm_to_people,1,,no,
+q6,right_religious,rights_or_freedoms,3,,no,
+q7,left_liberal,rights_or_freedoms,1,like everyone else,no,"Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study."
+q8,neither,budget_or_economic,1,,no,
+q9,neither,budget_or_economic,1,,no,
+q10,right_religious,harm_to_people,3,,no,
+q12,right_religious,harm_to_people,2,fewer rights (loss framing),yes,"Israel should make it harder for foreign workers and asylum seekers to stay, work or receive benefits, even if their living conditions worsen."
+q13,right_religious,procedural,2,,no,
+q14,neither,budget_or_economic,2,,no,
+q15,neither,budget_or_economic,2,,no,
+q16,left_liberal,rights_or_freedoms,1,,no,
+q18,right_religious,procedural,1,,no,
+q19,left_liberal,budget_or_economic,2,,no,
+q20,left_liberal,rights_or_freedoms,2,,no,
+q21,right_religious,budget_or_economic,1,,no,"The state should tighten control over non-profits funded by foreign governments, for example by taxing such donations, even if this limits independent civil-society groups."
+q22,left_liberal,procedural,1,,no,
+q23,neither,none,0,"to reduce government spending (purpose, no price)",no,"Public sector wages and job protections should be cut to reduce government spending, even if experienced employees leave public service."
+q24,right_religious,procedural,2,Politicians; gain more power,no,"Elected officials should have more say over the courts, for example in appointing judges or overriding rulings, even if the courts become less independent."
+q25,right_religious,rights_or_freedoms,2,,no,
+q33,right_religious,procedural,1,secular courts,no,"Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts."
+q35,neither,budget_or_economic,2,,no,
+q36,left_liberal,harm_to_people,2,,no,
+q37,neither,budget_or_economic,2,,no,
+q38,neither,budget_or_economic,2,,no,
+q39,left_liberal,harm_to_people,2,,no,
+q40,left_liberal,rights_or_freedoms,1,,no,"The state should expand legal protections and equal rights for LGBT people, even if religious citizens and businesses must sometimes act against their beliefs."
+q41,right_religious,rights_or_freedoms,2,,no,
+q42,neither,budget_or_economic,2,,no,
+q45,right_religious,rights_or_freedoms,2,,no,
+q47,right_religious,rights_or_freedoms,2,,no,
+q48,left_liberal,procedural,1,politicians',no,"Appointments to senior state posts should be vetted by an independent committee, even if it can block candidates chosen by elected ministers."
+q49,right_religious,harm_to_people,3,fewer legal protections + more innocent people wrongly accused (double loss framing),no,"Suspects and defendants should have fewer legal protections during arrest, questioning and trial, even if the risk of convicting innocent people grows."
+q51,neither,budget_or_economic,2,,no,
+q52,neither,rights_or_freedoms,1,,no,
+q53,neither,budget_or_economic,2,,no,
+q54,right_religious,harm_to_people,3,did nothing wrong,yes,"People convicted of terrorism should lose state benefits, such as allowances and prison privileges, even if this also cuts their families' income."
+q55,neither,procedural,2,,no,
+q59,neither,rights_or_freedoms,2,,no,
+q60,right_religious,harm_to_people,2,,no,
+q61,right_religious,procedural,2,,no,
+q62,right_religious,procedural,2,,no,
+q63,right_religious,rights_or_freedoms,2,,no,
+q64,left_liberal,procedural,2,like any citizen,no,"Prosecutors should be able to investigate and try a sitting prime minister or minister, even if this removes an elected leader before any verdict."
+q66,neither,harm_to_people,2,,no,
+q68,left_liberal,budget_or_economic,1,,no,
+q69,right_religious,procedural,1,stone-throwing (example tied to one group),no,"The law should set minimum sentences for serious crimes, such as weapons offenses, even if judges cannot give lighter sentences in exceptional cases."
+q70,right_religious,rights_or_freedoms,2,,no,
+q71,neither,budget_or_economic,2,,no,
+q72,right_religious,none,0,freely; price (deeper hold) is a goal for supporters,no,"Israelis, including Jews, should be allowed to buy land in Judea and Samaria (the West Bank), even if this makes a future territorial agreement harder."
+q74,left_liberal,procedural,2,,no,"The right to equality should be written into the Basic Laws, including the Nation-State Law, even if this weakens laws favoring the state's Jewish character."
+q75,left_liberal,rights_or_freedoms,1,fair share,no,"Party lists and public bodies should be required to include a minimum share of women, even if parties must drop candidates their members chose."
+q77,neither,budget_or_economic,1,,no,
+q78,neither,budget_or_economic,1,,no,
+q80,left_liberal,procedural,1,,no,"Citizens should have more ways to challenge government and police decisions, in court and by appeal, even if courts more often block them."
+q81,right_religious,rights_or_freedoms,2,,no,
+q82,neither,budget_or_economic,1,,no,
+q83,right_religious,budget_or_economic,3,payments to terrorists (justification clause),no,"Israel should withhold Palestinian Authority tax revenues equal to its payments to people jailed for terrorism and their families, even if the Authority collapses financially."
+q85,neither,budget_or_economic,1,,no,
+q86,neither,budget_or_economic,2,,no,
+q88,neither,budget_or_economic,1,Every citizen ... easily (near-consensus),no,"Voting should be made easier for people away from home, such as soldiers and students, even if polling becomes harder to supervise."
+q89,neither,budget_or_economic,2,,no,
+q90,neither,procedural,1,,yes,"Municipalities should get more powers to set local rules, for example on transport, security and building, even if rules differ between towns."
+q92,neither,budget_or_economic,1,,no,
+q93,neither,budget_or_economic,2,,no,
+q94,neither,budget_or_economic,1,,no,
+q95,neither,budget_or_economic,1,,no,
+q96,left_liberal,procedural,1,exposes leaders to criticism (reads as a benefit),yes,"Security services should face more external oversight, such as a state commission of inquiry into October 7, even if the government cannot choose its members."
+q98,neither,budget_or_economic,1,,no,
+q99,neither,rights_or_freedoms,2,,no,
+q100,neither,budget_or_economic,1,,yes,
+q101,neither,budget_or_economic,2,,no,
+q103,left_liberal,rights_or_freedoms,2,,no,
+q104,neither,procedural,1,,no,
+q105,left_liberal,procedural,1,,no,"The prime minister should have less power to act alone, such as replacing senior officials, even if elected governments struggle to carry out their policies."

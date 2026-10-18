@@ -1,0 +1,344 @@
+# Directions (topics)
+
+Each direction is a quantity a bill can raise (+) or lower (−).
+
+- 1: Social benefits, allowances and concessions | +: Increases benefits, allowances, concessions or state compensation, or widens the circle of eligible recipients. | −: Reduces benefits, allowances, concessions or state compensation, or narrows eligibility.
+- 2: Scope of state social and welfare services | +: Expands state social services and support programs for people and families in need (care, rehabilitation, counseling, case management, assistance programs), beyond cash payments alone. | −: Reduces such services and programs.
+- 3: Benefits for soldiers, reservists and veterans | +: Gives more benefits, payments and preferences to those who served and their families. | −: Gives fewer benefits, payments and preferences to those who served and their families.
+- 4: Aid to victims of war, terrorism, disasters and emergencies | +: Gives more rights, payments, compensation or deferrals to people and businesses harmed by war, terrorism, disasters or a declared emergency (including evacuees), and to their families. | −: Gives less such aid or narrower coverage.
+- 8: Monetary sanctions: fines, penalties and surcharges | +: Adds or raises fines, penalty interest and surcharges. | −: Reduces or waives fines, penalty interest and surcharges.
+- 9: Fees for public services | +: Raises fees and tariffs citizens pay for public services. | −: Lowers such fees or makes the services free.
+- 10: Consumer costs of containers and packaging | +: Consumers pay more for containers and packaging (e.g. deposits, levies). | −: Consumers pay less for containers and packaging.
+- 11: Access to and public funding of health care | +: Widens coverage, lowers patient costs or adds choice, and increases state funding, obligations or financial regulation in health care. | −: Narrows coverage, raises patient costs, or reduces state funding, obligations or financial regulation in health care.
+- 12: Patients' rights | +: Gives patients more rights vis-à-vis health providers. | −: Gives patients fewer rights vis-à-vis health providers.
+- 15: Obligations of medical institutions and staff | +: Imposes more mandatory requirements on medical institutions and health workers. | −: Imposes fewer mandatory requirements on them.
+- 16: Scope of practice of medical professions | +: Allows nurses, paramedics, pharmacists or other non-physician medical staff to perform more medical tasks. | −: Restricts the medical tasks such staff may perform.
+- 17: Regulatory burden on businesses and private organizations | +: Adds obligations, prohibitions, licensing, oversight or approval requirements, or mandatory procedures for market actors. | −: Deregulates or simplifies: fewer prohibitions on activities, fewer approvals, more freedom of choice for market actors.
+- 18: Regulation of the financial sector | +: Imposes more obligations and supervision on banks and insurers. | −: Imposes fewer obligations and less supervision on banks and insurers.
+- 19: Business obligations toward consumers | +: Companies have more obligations toward customers. | −: Companies have fewer obligations toward customers.
+- 20: Consumer rights and protection | +: Gives consumers more rights, information or benefits. | −: Gives consumers fewer rights, information or benefits.
+- 21: State control of prices and tariffs | +: Increases state control over prices, tariffs and markups. | −: Frees prices, tariffs and markups from state control.
+- 22: Protection of tenants and residents | +: Strengthens the rights of tenants and of residents facing eviction. | −: Weakens the rights of tenants and of residents facing eviction.
+- 24: Import restrictions and protection of local production | +: Adds import restrictions or preferences for local products. | −: Opens the market more to imports.
+- 25: Market and public procurement competition | +: Increases competition, lowers entry barriers, limits concentration and market power, or makes public procurement more open. | −: Reduces competition, eases limits on concentration, or adds exemptions from competitive procurement.
+- 27: State support for industries and businesses | +: Gives more subsidies, tax benefits, grants or targeted support to industries, businesses or regions. | −: Gives less such support.
+- 28: State support for agriculture | +: Gives farmers more benefits and grants. | −: Gives farmers fewer benefits and grants.
+- 29: State support for renewable energy | +: Adds incentives for renewable energy or raises its required share. | −: Reduces incentives for renewable energy or its required share.
+- 30: State support for employment and vocational training | +: Adds incentives and support for employment and vocational training. | −: Reduces such incentives and support.
+- 31: Support for aliyah and immigrants | +: Gives more benefits and incentives for aliyah and to olim. | −: Gives fewer benefits and incentives for aliyah and to olim.
+- 32: State support for sport and culture | +: Allocates more funds to sport and culture. | −: Allocates fewer funds to sport and culture.
+- 33: State support for peripheral regions | +: Directs more resources, benefits and investment to the periphery. | −: Directs fewer resources, benefits and investment to the periphery.
+- 34: Reliability of basic utilities and communications | +: Makes access to electricity, water and communications more reliable. | −: Makes such access less reliable.
+- 35: Government expenditure | +: The bill itself requires or authorizes substantial new state spending. | −: The bill itself cuts state spending.
+- 36: Tax and mandatory payment burden | +: Raises taxes, levies or contributions, or cuts exemptions and deductions, increasing state revenue. | −: Lowers taxes, levies or contributions, or adds exemptions and deductions, reducing state revenue.
+- 37: Deficit and spending ceilings (fiscal rules) | +: Tightens general limits on the state deficit or total spending. | −: Loosens general limits on the state deficit or total spending. A single expenditure does not count.
+- 38: Tax enforcement and tax authority powers | +: Adds mechanisms against tax evasion or functions of the tax authorities. | −: Removes such mechanisms or functions.
+- 39: Restrictions on cash transactions | +: Adds restrictions on cash payments. | −: Eases restrictions on cash payments.
+- 40: Paperwork required from individuals | +: Individuals must file more forms, documents or applications, or go through more steps, to get something from the state. | −: Individuals need fewer forms, documents or steps; things happen automatically.
+- 41: Accessibility, speed and digitization of public services | +: Makes public services more accessible, faster or available through more digital channels. | −: Makes public services less accessible, slower or less digital.
+- 43: Transparency of government and political activity | +: Requires more disclosure and reporting by government and political actors, or lifts confidentiality of financial regulators and state-secret protections. | −: Reduces disclosure, or adds confidentiality for financial regulators and state-secret protections.
+- 44: Knesset oversight of the executive | +: Gives the Knesset more tools to oversee the executive, or sets norms in primary legislation rather than ministry regulations. | −: Gives the Knesset fewer oversight tools, or leaves more to ministry regulation.
+- 45: Powers and self-governance of the Knesset and MKs | +: Gives the Knesset and MKs more powers, makes participation and voting easier, or lets the Knesset organize its own work more freely. | −: Reduces such powers, participation options or self-governance.
+- 46: Powers of elected bodies over appointed professionals | +: Elected bodies (Knesset, government, local councils) get more say over decisions previously made by appointed professionals. | −: Appointed professionals get more say relative to elected bodies.
+- 47: Parties' ability to replace Knesset members | +: Widens parties' ability to replace their MKs. | −: Narrows parties' ability to replace their MKs.
+- 48: Powers of the Knesset Speaker | +: The Speaker decides more matters alone. | −: The Speaker decides fewer matters alone.
+- 49: Secrecy of Knesset votes | +: More Knesset votes are secret. | −: Fewer Knesset votes are secret.
+- 50: Separation of powers | +: Separates the legislature and the executive more. | −: Separates the legislature and the executive less.
+- 51: Procedural requirements for private member bills | +: Adds procedural requirements for MKs' bills. | −: Removes procedural requirements for MKs' bills.
+- 53: Disciplinary control over Knesset members | +: Adds or strengthens sanctions against MKs. | −: Removes or weakens sanctions against MKs.
+- 55: Legal powers of ministers and the cabinet | +: Gives ministers or the cabinet new legal authority: to decide, permit, appoint, issue regulations or act without other approvals. | −: Takes such legal authority away from ministers or the cabinet, or makes it subject to more approvals.
+- 58: Powers of the Prime Minister | +: The Prime Minister has more freedom of action. | −: The Prime Minister has less freedom of action.
+- 60: Political control over state bodies and appointments | +: Ministers and the cabinet control more; appointing bodies are freer; oversight bodies, regulators, legal advisers and prosecutors depend more on politicians. | −: State bodies, legal advisers and prosecutors become more independent; appointments are bound by criteria.
+- 63: Powers and weight of the Attorney General | +: The Attorney General gets more powers or their opinions become more binding. | −: The Attorney General gets fewer powers or their opinions become less binding.
+- 64: Prosecutorial powers and ease of criminal prosecution | +: Gives prosecutors more procedural tools or makes it easier to investigate and prove offenses. | −: Gives prosecutors fewer tools or makes investigation and proof harder.
+- 66: Powers of the courts | +: Courts decide more, have more discretion, review the executive and the Knesset more, and Knesset laws are less protected from judicial invalidation. | −: Courts decide less, are bound by minimums and rigid frameworks, review less, and Knesset laws are more protected.
+- 69: Ability to challenge government decisions | +: Makes it easier to go to court or appeal and complain against authorities. | −: Makes it harder to challenge authorities.
+- 71: Autonomy of the judiciary | +: The judiciary and its leadership are more self-governing. | −: The judiciary is subject to more external influence.
+- 72: Political influence on judicial appointments | +: Politicians have more influence on appointing judges; the Bar and sitting judges have less. | −: Politicians have less influence; the Bar and sitting judges have more.
+- 75: Rights of the parliamentary opposition | +: Guarantees the opposition more seats and powers. | −: Guarantees the opposition fewer seats and powers.
+- 77: Powers and resources of security and law enforcement | +: Broadens powers to detain, search, surveil and use force, adds resources or discretion for security forces. | −: Narrows such powers, resources or discretion.
+- 80: Accountability and oversight of security forces | +: Adds external oversight and accountability for security forces. | −: Reduces oversight and accountability.
+- 81: Scope and severity of criminal liability | +: Criminalizes more conduct or makes punishments harsher, with less use of non-custodial sentences. | −: Decriminalizes or makes punishments milder, with wider use of non-custodial sentences.
+- 85: Criminal bans on incitement and hate | +: Covers more groups and acts under incitement and hate prohibitions. | −: Covers fewer groups and acts.
+- 88: Powers of regulatory and supervisory agencies | +: Gives regulators more powers, discretion and out-of-court administrative sanctions. | −: Gives regulators fewer powers; their decisions are more tightly set by law.
+- 89: Accountability of elected officials | +: Imposes more consequences on elected officials who violate rules. | −: Imposes fewer consequences.
+- 90: Procedural rights of suspects and defendants | +: Gives suspects and defendants more safeguards. | −: Gives them fewer safeguards.
+- 91: Testimonial privileges | +: Adds protected categories of privileged communication. | −: Removes protected categories.
+- 92: Rights and conditions of prisoners | +: Gives prisoners more rights or milder conditions. | −: Gives prisoners fewer rights or harsher conditions.
+- 93: International access to detention facilities | +: Allows more international access to places of detention. | −: Allows less such access.
+- 94: Rights and support for crime victims | +: Gives crime victims more rights, assistance or compensation. | −: Gives them fewer rights, assistance or compensation.
+- 95: State liability to pay damages | +: Makes it easier to sue the state or public institutions for damages, or widens what they must compensate (tort liability). | −: Narrows the state's or public institutions' liability to pay damages.
+- 96: Financial liability of offenders | +: Offenders answer more with their property. | −: Offenders answer less with their property.
+- 97: Protection from and prevention of violence | +: Adds protection from violence, bullying and harassment, or more prevention measures. | −: Reduces such protection or prevention.
+- 98: Coercive measures against persons under protective orders | +: Imposes more measures and obligations on persons subject to protective orders. | −: Imposes fewer such measures.
+- 99: Protection of children (under 18) | +: Adds mechanisms protecting minors under 18 from abuse, neglect or harm. | −: Removes protection mechanisms for minors.
+- 100: Surveillance and cameras in institutions | +: Adds monitoring and cameras in institutions. | −: Reduces monitoring and cameras.
+- 101: Parental rights | +: Gives parents more rights. | −: Gives parents fewer rights.
+- 103: Protection of officials from prosecution | +: Expands immunity of elected and senior officials, criminal-law protection of civil servants, or protection from international prosecution. | −: Narrows such immunity and protection.
+- 105: State security protection for elected officials | +: Extends state security details to more officials or for longer. | −: Reduces state security protection.
+- 106: Powers and autonomy of local government | +: Gives municipalities more powers and freedom. | −: Gives municipalities fewer powers and less freedom.
+- 107: Central control over local government | +: The central government gets more control and powers over local authorities. | −: The central government gets less control over local authorities.
+- 108: Financial resources of local authorities | +: Local authorities get more revenue. | −: Local authorities get less revenue.
+- 109: Redistribution of funds among local authorities | +: More funds are redistributed between local authorities. | −: Fewer funds are redistributed.
+- 110: Restrictions on holding elected and senior office | +: Adds restrictions on running for or holding senior office, or lengthens cooling-off periods after public service. | −: Eases such restrictions or shortens cooling-off periods.
+- 112: Autonomy of political parties | +: Parties are freer to run their affairs. | −: Parties face more requirements.
+- 113: Concentration of power within parties | +: Party leaders get more power. | −: Party leaders get less power.
+- 114: Public funding of parties and campaigns | +: Gives more public money to parties and campaigns or lowers the eligibility threshold. | −: Gives less money or raises the threshold.
+- 115: Regulation of party financing | +: Adds restrictions on party financing. | −: Eases restrictions on party financing.
+- 116: Ease of party participation in elections | +: Makes it easier for parties to run in elections. | −: Makes it harder for parties to run.
+- 117: Voting access and franchise | +: Makes voting easier or extends the right to vote to more people. | −: Makes voting harder or restricts who may vote.
+- 119: Restrictions on election campaigning | +: Adds restrictions on campaigning. | −: Eases restrictions on campaigning.
+- 120: Powers of election authorities | +: Gives election committees more powers, including over other state bodies and their staff. | −: Gives election committees fewer powers; other state bodies are more autonomous from them.
+- 122: Protection of the electoral process | +: Adds safeguards for the electoral process. | −: Reduces safeguards for the electoral process.
+- 123: Length of the Knesset's term | +: Lengthens the Knesset's term or extends terms without elections, postponing elections. | −: Shortens the term, e.g. by dissolution, or shortens extensions.
+- 124: Length of a person's term in public office | +: Lets a person hold a public office (judge, official, mayor) longer, or removes term limits. | −: Shortens how long a person may hold a public office, or adds term limits.
+- 127: Majority threshold for judicial appointments | +: Raises the majority required for appointments in the judiciary. | −: Lowers the required majority.
+- 128: Permitted models of government formation | +: Allows more models of forming a government. | −: Allows fewer models.
+- 129: Barriers to early Knesset dissolution | +: Makes early dissolution of the Knesset harder. | −: Makes early dissolution easier.
+- 12a: Ban on conversion therapy for minors | +: Bans or restricts therapy aimed at changing a minor's sexual orientation. | −: Lifts such restrictions.
+- 12b: Patients' entitlements from health funds | +: Health funds and providers owe patients more services and rights (treatment times, refunds, coverage). | −: They owe fewer.
+- 12c: Food in hospitals during Passover | +: Lets patients and visitors bring any food into hospitals during Passover. | −: Restricts bringing leavened food into hospitals during Passover.
+- 130: Reliance on state of emergency | +: Extends emergency measures or makes more legislation depend on a declared state of emergency. | −: Shortens emergency measures or reduces legislation's dependence on a state of emergency.
+- 132: Length of statutory procedural deadlines | +: Lengthens statutory deadlines for procedures. | −: Shortens statutory deadlines.
+- 133: Limitation periods for citizens' claims | +: Lengthens limitation periods for claims. | −: Shortens limitation periods.
+- 134: Freedom of expression and protest | +: Permits more speech, assembly and protest. | −: Prohibits more speech or restricts assembly and protest.
+- 136: Legal protection of reputation | +: Strengthens protection against defamation and sanctions for speech. | −: Weakens protection against defamation.
+- 137: State powers to restrict media and online content | +: Gives the state more powers to restrict media and internet content. | −: Gives the state fewer such powers.
+- 138: Independence of public broadcasting from government | +: Makes public broadcasting more independent of the government. | −: Makes public broadcasting more dependent on the government.
+- 139: Public funding of media | +: Gives media more public funding. | −: Gives media less public funding.
+- 140: Broadcasting opportunities of private media | +: Gives private media more broadcasting opportunities and more secure licenses. | −: Gives private media fewer opportunities or less secure licenses.
+- 141: State ownership in the economy and media | +: Increases state ownership. | −: Privatizes state holdings.
+- 142: Public access to media content | +: Makes more media content freely available to the public. | −: Makes less media content freely available.
+- 143: Animal protection | +: Strengthens protection of animals. | −: Weakens protection of animals.
+- 144: Scope of environmental regulation | +: Adds environmental requirements and nature protection, or gives environmental authorities more influence. | −: Reduces environmental requirements or the influence of environmental authorities.
+- 146: Privacy and personal data protection | +: Protects privacy and personal data better. | −: Protects privacy and personal data less.
+- 147: Government collection and sharing of data | +: Lets state bodies collect, access and share more data, including with foreign states. | −: Restricts state collection, access and sharing of data.
+- 149: Personal liberty of individuals | +: Gives individuals more freedom from state restrictions on their personal life: private conduct, personal choices, identity (e.g. name), movement and travel. | −: Adds state restrictions on individuals' personal life, choices, identity or movement. Ordinary criminal penalties for harming others do not count.
+- 151: Role of religious norms in state and public life | +: Religious law and norms govern more of the state and public sphere, including gender-segregated spaces. | −: Religious norms govern less; more secular alternatives and fewer segregated spaces.
+- 154: Powers of religious institutions and courts | +: Gives religious institutions more powers and monopoly, extends Rabbinate and state control over religious bodies, or widens religious courts' jurisdiction. | −: Reduces these powers, control or jurisdiction.
+- 156: Availability of recognized conversion | +: Creates more routes to recognized conversion (giyur). | −: Narrows routes to recognized conversion.
+- 158: Availability of civil personal-status options | +: Adds non-religious options for marriage and personal status. | −: Removes non-religious options.
+- 159: Access to divorce | +: Makes divorce easier to obtain. | −: Makes divorce harder to obtain.
+- 160: State intervention in family life | +: The state intervenes more in marriage, custody, parenting or relations between family members. | −: The state intervenes less in family life.
+- 161: Autonomy of religious institutions | +: Religious institutions decide more for themselves. | −: Religious institutions face more outside intervention.
+- 162: Freedom of religion and worship | +: Widens freedom of religion and religious practice. | −: Narrows freedom of religion and religious practice.
+- 163: State support for religious institutions and practice | +: Gives more state support to religious institutions and practices. | −: Gives less state support.
+- 164: State support for Jewish identity and the Diaspora | +: Gives more state support to Jewish identity programs and Diaspora ties. | −: Gives less such support.
+- 165: Legal entrenchment of the state's Jewish character | +: Entrenches the Jewish character of the state more strongly. | −: Entrenches it more weakly.
+- 166: Territory under Israeli sovereignty and law | +: Applies Israeli sovereignty or law to more territory. | −: Applies Israeli sovereignty or law to less territory.
+- 167: Military administration of the territories | +: Gives the military administration and the Defense Minister a larger role and more discretion in Judea and Samaria. | −: Reduces their role and discretion.
+- 169: Support for and presence of settlements in Judea and Samaria | +: Increases support for and presence of settlements. | −: Reduces support for and presence of settlements.
+- 170: Financial resources of the Palestinian Authority | +: The Palestinian Authority receives more funds. | −: The Palestinian Authority receives fewer funds (e.g. offsets, withholding).
+- 171: Economic ties with hostile entities | +: Permits more economic and other ties with hostile entities and states, or designates fewer of them as hostile. | −: Restricts economic and other ties with hostile entities and states, or designates more of them as hostile (e.g. declaring a state an enemy state).
+- 173: Activity of foreign states and international organizations inside Israel | +: Allows foreign states or international organizations more physical presence or operations on Israeli territory. | −: Restricts their presence or operations inside Israel.
+- 175: Immunity of foreign states | +: Widens immunity of foreign states from Israeli courts. | −: Narrows such immunity.
+- 177: Cooperation with international courts | +: Increases cooperation with international courts. | −: Reduces cooperation with international courts.
+- 178: Counter-terrorism and terror-financing measures | +: Adds measures and sanctions against terrorism and its financing. | −: Reduces such measures and sanctions.
+- 179: Admission of foreigners for entry and residence | +: Makes it easier for foreigners to enter and stay. | −: Makes it harder for foreigners to enter and stay.
+- 180: Inflow of foreign workers | +: Allows more foreign workers or makes hiring them easier and cheaper. | −: Allows fewer foreign workers or makes hiring them harder.
+- 181: Rights of foreign workers | +: Gives foreign workers more rights. | −: Gives foreign workers fewer rights.
+- 182: Foreigners' entitlement to social assistance | +: Gives foreigners more entitlement to social assistance. | −: Gives foreigners less entitlement.
+- 183: Access to citizenship and aliyah | +: Makes citizenship and aliyah easier to obtain. | −: Makes them harder to obtain.
+- 184: Powers to revoke citizenship and status | +: Makes it easier to revoke citizenship or residency status. | −: Makes revocation harder.
+- 185: Scope of compulsory military service | +: More people serve, or serve longer. | −: Fewer people serve, or serve shorter.
+- 186: Availability of alternatives to military service | +: Widens alternatives to military service (e.g. civilian/national service). | −: Narrows such alternatives.
+- 187: Linkage of rights and benefits to service | +: Ties rights and benefits more strongly to military or national service. | −: Ties them more weakly.
+- 188: Use of the military in civilian functions | +: The military performs more civilian functions. | −: The military performs fewer civilian functions.
+- 189: Autonomy of the military from politicians and legislators | +: The IDF command has more discretion vis-à-vis the political echelon and the Knesset. | −: The IDF command is subject to more political direction and statutory prescription.
+- 191: Military chain-of-command authority | +: Strengthens the authority of IDF commanders over subordinates. | −: Weakens the authority of IDF commanders over subordinates.
+- 192: Military border security measures | +: Adds military measures to secure the border. | −: Reduces such measures.
+- 193: Permissible price of prisoner-release deals | +: The state may give more in deals to free captives. | −: The state may give less in such deals.
+- 195: Disciplinary control over public sector employees | +: Makes it easier to suspend or dismiss public employees. | −: Makes it harder.
+- 196: Recognition and rights of national minorities | +: Gives national minorities more recognition and protection. | −: Gives them less recognition and protection.
+- 197: Protection against discrimination | +: Adds anti-discrimination prohibitions and protections, or broadens rights and priority for vulnerable groups. | −: Reduces such protections, rights or priority.
+- 200: Quotas and preferences for underrepresented groups | +: Adds quotas and preferences. | −: Reduces quotas and preferences.
+- 201: Representation of women in public bodies | +: Increases women's representation in public bodies. | −: Decreases women's representation.
+- 202: Gender equality and women's rights | +: Reduces differences in how the law treats women and men, or adds rights specifically for women. | −: Increases legal differences between women and men to women's disadvantage, or removes women-specific rights. Gender-neutral rules do not count.
+- 204: LGBT rights and recognition of non-traditional families | +: Gives LGBT people more rights and protection, or recognizes non-traditional families more. | −: Gives fewer rights or less recognition.
+- 206: Rights of people with disabilities and the elderly | +: Gives people with disabilities and the elderly more rights, accessibility and assistance. | −: Gives them fewer.
+- 208: Employee rights and protection | +: Gives employees more rights, leave, payments or protection from dismissal. | −: Gives employees fewer.
+- 209: Working hours | +: People work more hours. | −: People work fewer hours.
+- 211: Employer obligations and costs | +: Imposes more obligations, restrictions or costs on employers, including less flexibility in scheduling work. | −: Gives employers more freedom and scheduling flexibility, with fewer obligations or costs.
+- 214: Pay and perks of elected and former officials | +: Raises pay of elected officials or benefits of former officials. | −: Lowers them.
+- 215: Pay and status of public sector employees | +: Raises pay and status of public employees. | −: Lowers them.
+- 216: Restrictions on child labor | +: Tightens restrictions on work by minors. | −: Eases restrictions on work by minors.
+- 217: Workers' freedom to choose a union | +: Makes it easier to choose or switch union. | −: Makes it harder.
+- 218: Strength of unions and collective agreements | +: Gives unions and representative organizations more coverage, autonomy, powers, resources or influence, or widens coverage of collective agreements. | −: Restricts unions or narrows collective-agreement coverage.
+- 222: Employee representation in management | +: Gives employees more representation in management. | −: Gives employees less representation.
+- 223: State obligations to contractor employees | +: The state has more obligations toward workers of its contractors. | −: The state has fewer such obligations.
+- 225: Protection of minority shareholders | +: Strengthens protection of minority shareholders. | −: Weakens it.
+- 226: Creditors' powers | +: Gives creditors more debt-collection tools, stronger insolvency rights or more and longer-held information about borrowers. | −: Gives creditors fewer such tools, rights or information.
+- 227: Protection of debtors | +: Strengthens protection of debtors. | −: Weakens protection of debtors.
+- 230: Availability of credit | +: Makes credit easier to obtain. | −: Makes credit harder to obtain.
+- 231: Protection of property and freedom to dispose of it | +: Strengthens property rights and freedom to dispose of property, or limits state powers of expropriation. | −: Weakens property rights or expands expropriation powers.
+- 233: State control over land and real estate | +: Increases state control over land or state and municipal ownership of real estate. | −: Decreases such control or ownership.
+- 235: Rights of individual owners in shared property | +: Gives individual co-owners more rights in commonly owned property. | −: Gives them fewer rights.
+- 236: Obligations of land and building owners | +: Imposes more obligations on owners of land, apartments or buildings. | −: Imposes fewer obligations on owners of land, apartments or buildings.
+- 238: Inheritance rights | +: Changes inheritance law so that heirs receive more, or more people inherit. | −: Heirs receive less under inheritance law, or fewer people inherit.
+- 239: Forfeiture of proceeds of crime | +: Widens forfeiture of proceeds of crime. | −: Narrows forfeiture.
+- 240: Strictness of planning and building requirements | +: Tightens planning and building requirements and enforcement, or adds obligations on developers and owners. | −: Makes building simpler and faster, with fewer requirements.
+- 241: Housing supply and construction volume | +: Increases housing supply and construction. | −: Decreases housing supply and construction.
+- 242: State intervention and assistance in housing | +: Increases state housing assistance or intervention in the housing market. | −: Reduces it.
+- 244: Centralization of land-use and building planning | +: Moves more land-use, zoning or building-plan approval authority to national or central planning bodies (away from local and district planning committees). | −: Moves land-use, zoning or building-plan approval authority from national or central bodies to local or district planning committees.
+- 245: Planning authorities' power to change land use | +: Gives planning authorities more power to change land designation. | −: Gives them less such power.
+- 246: Building of national infrastructure | +: Speeds up or expands building of roads, rail, energy, water or communication infrastructure. | −: Slows down or restricts building of such infrastructure.
+- 247: Safety regulation and civil protection | +: Adds safety requirements and measures to protect the public. | −: Reduces them.
+- 248: Public health regulation | +: Tightens health-motivated restrictions or increases state pressure on citizens in health matters. | −: Eases such restrictions or pressure.
+- 250: State control over firearms | +: Tightens control over firearms. | −: Loosens control over firearms.
+- 251: Occupational regulation and entry barriers | +: Licenses more professions or tightens requirements for entering professions and positions. | −: Licenses fewer professions or eases entry.
+- 253: Scope of public education | +: Expands public educational services and funding, or enrolls more pupils in the state system. | −: Reduces them.
+- 254: Access to higher education | +: Adds institutions or places in higher education. | −: Reduces them.
+- 255: Funding of non-state education | +: Gives non-state schools more funding. | −: Gives them less funding.
+- 256: State control over education | +: Adds mandatory curriculum requirements, oversight of the system and of academic institutions, or obligations on schools; limits university autonomy. | −: Reduces such requirements and oversight; universities are freer.
+- 260: Autonomy of state-funded organizations | +: State-funded organizations are more autonomous. | −: State-funded organizations are less autonomous.
+- 262: Strictness of school discipline | +: Adds disciplinary sanctions in schools. | −: Reduces them.
+- 264: Rights of school and university students | +: Gives pupils or students more rights toward their school or university. | −: Gives pupils or students fewer rights toward their institution.
+- 265: Decision-making autonomy of minors | +: Minors can decide more for themselves. | −: Minors can decide less for themselves.
+- 266: Guardians' authority in medical decisions | +: Guardians have more say in medical decisions. | −: Guardians have less say.
+- 267: Court role in guardianship and medical decisions | +: More such decisions require court approval. | −: Fewer such decisions require court approval.
+- 268: Rights of relatives of incapacitated and dependent persons | +: Gives such relatives more rights. | −: Gives them fewer rights.
+- 269: Reproductive autonomy and access to fertility technologies | +: Widens reproductive choices and access to reproductive technologies. | −: Narrows them.
+- 270: Explicit consent requirement for posthumous use | +: Tightens explicit-consent requirements for posthumous use (e.g. organs, gametes). | −: Relaxes them.
+- 271: Restrictions on psychoactive substances | +: Adds restrictions on trade and use of psychoactive substances. | −: Liberalizes them.
+- 273: Legality of gambling | +: Permits more gambling. | −: Permits less gambling.
+- 274: Retirement age | +: Raises the retirement age. | −: Lowers the retirement age.
+- 275: Freedom to access pension savings | +: Gives more possibilities to withdraw pension savings. | −: Gives fewer such possibilities.
+- 276: State support for pension savings | +: Increases state support for pension savings. | −: Decreases it.
+- 277: Targeting and eligibility limits on benefits | +: Adds limits on who receives benefits or makes benefits more means-tested. | −: Removes limits or makes benefits more universal.
+- 278: Support for families with children | +: Increases support for families with children. | −: Decreases it.
+- 279: Size of the government apparatus | +: Adds government bodies and positions. | −: Removes government bodies and positions.
+- 280: Merging authority into one agency or office holder | +: Moves powers held by several agencies or a collegial body into a single agency or a single office holder. | −: Splits powers of one agency or office holder among several bodies or a collegial body.
+- 283: Private actors in public functions | +: Private actors and intermediaries perform more public functions and social services. | −: Private actors perform fewer.
+- 285: Rights of commercial intermediaries | +: Gives brokers, agents, platforms or other intermediaries more access or rights in a market. | −: Gives intermediaries less access or fewer rights.
+- 287: Rights of suppliers dealing with the state | +: Gives suppliers faster payment and more guarantees. | −: Gives them fewer.
+- 288: Composition and quorum requirements for collegial bodies | +: Adds requirements on who must sit on a collegial body (mandatory seats, member qualifications, categories of members) or how many must be present for it to act (quorum). | −: Relaxes such composition or quorum requirements.
+- 289: Size of collegial bodies | +: Increases the number of members of collegial bodies. | −: Reduces the number of members of collegial bodies.
+- 290: Representation of groups and the public in state bodies | +: Gives groups and the public more seats in state bodies. | −: Gives them fewer seats.
+- 291: Constitutional protection of human rights | +: Enshrines more rights in Basic Laws. | −: Enshrines fewer.
+- 292: Entrenchment and supremacy of Basic Laws | +: Makes Basic Laws harder to amend or gives them more precedence. | −: Makes them easier to amend or gives them less precedence.
+- 295: External oversight and investigation of government bodies | +: Allows more external oversight and investigation of authorities. | −: Allows less.
+- 296: Adoption of international treaties and standards | +: The bill explicitly adopts or implements a specific international treaty, convention or standard. Mentioning other countries' practice does not count. | −: The bill departs from or withdraws from a specific international treaty or standard.
+- 297: Autonomy of private dispute resolution | +: Gives arbitrators more powers. | −: Gives arbitrators fewer powers.
+- 298: Access to providers outside Israeli regulation | +: Allows use of providers outside Israeli regulation. | −: Prohibits or restricts such use.
+- 299: Intellectual property protection | +: Broadens intellectual property rights. | −: Narrows them.
+- 300: State control over NGOs and associations | +: Adds oversight and disclosure requirements for NGOs and associations (including cults). | −: Reduces them.
+- 301: State support for civil society and charity | +: Increases state funding for civil-society organizations or incentives for donations. | −: Decreases them.
+- 303: State control over KKL-JNF | +: Increases state control over KKL-JNF and reduces its resources and autonomy. | −: Reduces state control; KKL-JNF has more resources and autonomy.
+- 306: State aid to victims of cults | +: Gives cult victims more state assistance. | −: Gives them less.
+- 307: Commemoration and national symbols | +: Adds state commemoration measures or national symbols in public life. | −: Reduces them.
+- 309: Right to family life and adoption | +: Removes obstacles to family life and widens possibilities to form a family by adoption. | −: Adds obstacles and narrows such possibilities.
+- 311: Access to legal aid and justice | +: Makes legal aid and justice easier to obtain. | −: Makes them harder to obtain.
+- 312: Service duties of agencies toward the public | +: Obliges state agencies to inform, answer, meet deadlines or keep service standards toward members of the public. | −: Removes or relaxes such service duties toward the public.
+- 313: State cybersecurity powers | +: Gives the state more cybersecurity powers. | −: Gives it fewer.
+- 314: Families' right to learn the fate of relatives | +: Widens families' rights to find out what happened to relatives. | −: Narrows them.
+- 317: Priority for a named population group | +: Gives a named group (e.g. reservists, Haredim, Arab citizens, residents of a region) precedence over others in queues, admissions, tenders or allocations. | −: Removes such precedence for a named group.
+- 31a: Benefits for new immigrants | +: Gives more benefits, assistance or incentives to olim and for aliyah. | −: Gives fewer such benefits.
+- 31b: Eligibility under the Law of Return | +: Widens or keeps who may immigrate under the Law of Return (e.g. grandchildren and family members of Jews). | −: Narrows who may immigrate (e.g. repeals the grandchild clause).
+- 322: Requirements for judicial candidates | +: Tightens requirements for candidates for judgeships. | −: Relaxes them.
+- 332: State control over government companies | +: The state as owner decides more in government companies. | −: Government companies are more independent.
+- 333: Commercial freedom of government companies | +: Widens the range of commercial activities government companies may engage in. | −: Narrows it.
+- 339: Separation of inspectors from certifying bodies | +: Requires stricter separation between the inspector and the certifying body. | −: Allows more exceptions to that separation.
+- 340: Powers of appointment vetting committees | +: Gives appointment vetting committees a larger role. | −: Gives them a smaller role.
+- 341: Competitive allocation of licenses | +: More licenses are allocated through tenders. | −: More licenses are allocated without a tender.
+- 342: Powers of the President of the State | +: Gives the President more powers. | −: Gives the President fewer powers.
+- 343: Statutory regulation of state honors | +: Sets more of the rules for state honors in law. | −: Leaves more to administrative discretion.
+- 344: Duties and discipline of individual civil servants | +: Imposes more personal duties, ethics rules or disciplinary accountability on individual civil servants. | −: Imposes fewer such personal duties or less accountability.
+- 345: New tasks assigned to a specific agency | +: The bill assigns a new task or responsibility to a named state agency. | −: The bill removes a task or responsibility from a named state agency.
+- 346: Level of decision-making in the executive | +: Decisions move to a higher level of the executive. | −: Decisions move to lower levels.
+- 349: Legal liability of organizations and officers | +: Extends legal liability to more organizations and officers. | −: Extends it to fewer.
+- 352: Freedom of contract | +: Gives more weight to the text of the contract. | −: Gives courts more room to intervene in contracts.
+- 353: Mandatory protective terms in private contracts | +: Adds mandatory terms protecting the weaker side in contracts between private parties (consumers, tenants, insured persons, borrowers). | −: Removes such mandatory terms; the stronger side has more contractual freedom.
+- 354: Status and independence of quasi-judicial bodies | +: Raises the status and independence of tribunals and quasi-judicial bodies. | −: Lowers them.
+- 355: Weight of long-term and future-generation interests | +: Requires decisions to account for long-term effects on future generations (sustainability, long-term planning). | −: Removes such long-term considerations.
+- 356: Support for public transport | +: Gives more benefits for public transport. | −: Gives fewer.
+- 358: Business profits and rights | +: Gives businesses more rights and income. | −: Gives them fewer rights and less income.
+- 359: Citizens' obligations to the state | +: Imposes more obligations on citizens, including duties to report to authorities. | −: Imposes fewer.
+- 361: Restrictions on foreign trade, incl. arms exports | +: Adds restrictions on foreign trade such as arms exports. | −: Eases them.
+- 364: Electiveness of institutions | +: Bodies are elected. | −: Bodies are appointed.
+- 365: Monitoring of employees | +: Allows more monitoring and control of employees. | −: Allows less.
+- 366: Autonomy of social service providers | +: Social service providers are freer from external supervision. | −: They are subject to more supervision.
+- 370: Public services across several sectors | +: Expands public services in several sectors at once (e.g. a general package of health, transport and utility services). For a single sector, the specific direction applies instead. | −: Reduces public services across several sectors at once.
+- 375: Share of the budget fixed by law | +: Leaves the government more freedom to allocate the budget; fewer amounts fixed by law. | −: Fixes more spending amounts in law, binding the government's budget.
+- 377: Redistribution toward low-income groups and poor areas | +: Shifts resources specifically toward low-income people or poor localities (means-tested or socio-economic criteria). | −: Shifts resources away from them, or removes socio-economic targeting.
+- 53a: Removal of MKs for support of enemies or disloyalty | +: Makes it easier to suspend, expel, disqualify or cut pay of MKs for supporting terrorism or enemy states, refusing the oath, or security offenses. | −: Repeals or narrows such grounds for expulsion or disqualification (e.g. repeal of section 7A, cancelling MK expulsion procedure).
+- 53b: Sanctions on elected officials for corruption and criminal cases | +: Strengthens sanctions on MKs or officials who are indicted or convicted (moral turpitude, longer disqualification, suspension upon indictment, limits on immunity, ethics committee powers). | −: Weakens such sanctions or expands immunity.
+- 53c: Party control over MKs (splits and election promises) | +: Penalizes MKs who leave their faction or break election promises (harder splits, loss of seat). | −: Makes it easier for MKs to leave or split from their faction without penalty.
+- 58a: Prime minister under criminal proceedings | +: Lets a prime minister or minister under investigation or indictment stay in office or shields them (immunity, limits on investigating them). | −: Requires leaving office on indictment or removes such protection.
+- 58b: Checks on the prime minister's power | +: Gives the prime minister more freedom to act alone (appoint or dismiss senior officials and ministers, refuse a state inquiry, decide without referendum or approval). | −: Limits that freedom or adds checks on it.
+- 66a: Judicial review of laws and government | +: Courts review and can strike down more laws and government decisions. | −: Courts review less; the Knesset can override or shield laws from review.
+- 66b: Judges' discretion in sentencing | +: Gives judges more discretion in sentencing. | −: Fixes minimum or mandatory punishments, limiting judges' discretion.
+- 76a: Capacity of the civil court system | +: Adds judges, specialized departments, courts or procedures to speed up and expand civil and criminal court handling. | −: Reduces judges, departments or court capacity.
+- 76b: Structure of the top courts | +: Expands the Supreme Court or creates new top-level courts (constitutional court, special court) that change the balance of judicial power. | −: Reduces the number of top-court judges or abolishes such courts.
+- 90a: Procedural rights of suspects and defendants | +: Gives suspects and defendants more safeguards in arrest, questioning, trial and appeal (lawyer, recording, disclosure). | −: Gives them fewer safeguards.
+- 90b: Leniency of punishment for terror offences | +: Makes punishment of terror offenders milder or keeps more rights for them. | −: Makes punishment harsher (death penalty, loss of citizenship or residency, longer sentences).
+- 91a: Professional and therapeutic privilege | +: Protects communications with therapists, criminologists, medical staff, accountants or tax advisors, or victims' personal records, from use as evidence. | −: Removes such protections.
+- 91b: Privilege in the political and media sphere | +: Shields journalists' sources, or communications of spokespersons, media advisors and political trust appointees, from compelled testimony. | −: Removes or narrows such privileges.
+- 92a: Death penalty for terrorism | +: Limits or abolishes the death penalty for terrorists. | −: Introduces or eases the death penalty for terrorists.
+- 92b: Rights and conditions of security prisoners | +: Gives prisoners jailed for terrorism or security offences more rights or milder conditions (visits, phone, studies, early release). | −: Gives them fewer rights or harsher conditions.
+- 92c: Rights and conditions of ordinary prisoners and detainees | +: Gives criminal prisoners and detainees more rights or milder conditions (rehabilitation, health care, limits on shackling, living space). | −: Gives them fewer rights or harsher conditions.
+- 100a: Cameras to protect children and vulnerable people in care | +: Requires or extends cameras in daycare centres, kindergartens, special education or care institutions, or access to their footage. | −: Reduces such requirements.
+- 100b: Filming police use of force | +: Requires police to film the use of water cannons and other crowd-control means. | −: Removes such requirements.
+- 100c: Broadcasting court hearings and public meetings | +: Requires filming or broadcasting of court hearings, council meetings or other public proceedings. | −: Removes such requirements.
+- 101b: Parental authority over children | +: Gives parents more control over their child's medical care, education, documents and monitoring, or eases custody/guardianship rules for parents. | −: Gives minors more autonomy (e.g. medical consent from 15) or lets the state remove or restrict parental guardianship (e.g. violent parents).
+- 103a: Immunity of elected officials from criminal proceedings | +: Grants or widens immunity of Knesset members, ministers, the prime minister or heads of local authorities, or bars, delays or requires approval for criminal investigation, arrest or indictment of them while in office. | −: Narrows such immunity or makes it easier to investigate, arrest or indict them while in office.
+- 103b: Immunity of soldiers and security forces for operational actions | +: Grants or widens immunity of soldiers, police or other security personnel from criminal or civil liability for actions during operations or duty, or requires special approval to investigate them. | −: Narrows such immunity or makes it easier to investigate or sue them.
+- 103c: Protection of Israelis from international courts and institutions | +: Protects Israeli officials, soldiers or citizens from the International Criminal Court or other international institutions: bans cooperation, penalizes assistance, shields them from proceedings. | −: Allows or requires cooperation with such international courts and institutions.
+- 114a: Public funding incentives for women candidates | +: Gives parties or lists extra public election funding for running women candidates (for the Knesset, local councils or heads of local authorities), or increases such incentives. | −: Removes or reduces such incentives.
+- 114b: Denial of public funding to parties for their conduct | +: Denies or cuts public funding to parties or lists for their conduct or positions, e.g. calling for a boycott of Israel. | −: Restores such funding or limits the grounds to deny it.
+- 116a: Electoral and party-registration thresholds | +: Lowers or abolishes the electoral threshold (national or local) or the requirements for registering a party. | −: Raises the electoral threshold or the requirements for registering a party.
+- 116b: Grounds for barring lists and candidates from elections | +: Narrows the grounds or raises the bar for disqualifying lists/candidates or denying parties public funding (e.g. repeal of Basic Law: Knesset s.7A, higher majority required). | −: Adds grounds for disqualifying lists/candidates or denying funding (support for terror, boycott of Israel, glorifying murderers of Jews), or eases disqualification.
+- 124a: Prime minister term limits | +: Lets a prime minister serve longer or removes limits. | −: Limits how long a person may serve as prime minister.
+- 124b: Term of Supreme Court justices | +: Lets justices serve longer (until retirement age). | −: Fixes a maximum number of years for justices.
+- 130a: Relief for citizens in wartime and emergencies | +: Gives or extends relief tied to war or emergency: tax breaks, grants, payment delays for reservists, evacuees and businesses. | −: Gives less or shortens it.
+- 151a: Powers of religious courts | +: Gives rabbinical or other religious courts more powers (e.g. arbitration in civil and money disputes). | −: Gives them fewer powers.
+- 151b: Jewish religious rules in public institutions | +: Makes hospitals, army bases, state bodies or public places follow more Jewish religious rules (kashrut, no leavened bread on Passover, Shabbat). | −: Makes them follow fewer such rules.
+- 151c: Gender separation in public settings | +: Allows or expands separation of men and women in state and municipal services, events, studies or transport. | −: Restricts or bans such separation.
+- 151d: Orthodox definition of Jewish status | +: Gives Orthodox religious law more control over who is registered or recognised as Jewish (registry, conversion). | −: Gives it less control; non-Orthodox conversion or civil criteria count more.
+- 161a: Autonomy of religious educational institutions | +: Lets religious (esp. Haredi) schools and higher-education tracks set curriculum, admissions and gender separation without state conditions on funding. | −: Conditions funding on core curriculum, non-discriminatory admissions, or not inciting against military service.
+- 169a: State support for settlements | +: Increases state funding, planning, regularisation, services or security for settlements in Judea and Samaria. | −: Reduces them.
+- 169b: Israeli sovereignty in Judea and Samaria | +: Applies Israeli law or sovereignty to Judea and Samaria or parts of it. | −: Prevents or conditions it (e.g. referendum).
+- 185a: Military service of yeshiva students | +: Increases the conscription of yeshiva and Haredi men (enlistment quotas, sanctions, 'service for all', limiting Torah-study deferrals). | −: Expands or entrenches exemptions or deferrals for Torah study or religious reasons.
+- 185b: Length and breadth of general conscription and reserve duty | +: Lengthens compulsory or reserve service, raises the exemption age, or extends conscription to more groups of the general population (e.g. new immigrants). | −: Shortens compulsory or reserve service, abolishes conscription, or adds individual exemptions (conscience, gender).
+- 186a: Torah study as an alternative to military service | +: Recognises full-time Torah study as service or as grounds for exemption. | −: Removes such recognition.
+- 186b: Civilian service and conscientious objection | +: Widens civilian or national service and exemption on grounds of conscience as alternatives to the army. | −: Narrows them.
+- 188c: Posting of conscripts to police and prison service | +: Allows or extends posting of soldiers in compulsory service to the police, border police or prison service. | −: Ends or limits such postings (e.g. no female soldiers in prisons).
+- 209a: Legal limits on working time | +: Lengthens or allows longer working time (longer week, longer shifts). | −: Shortens working time by law (shorter week, caps on shifts, e.g. for medical interns).
+- 209b: Flexible work for parents | +: Lets parents work more, part-time or flexibly (e.g. part-time work while on maternity pay, flexible arrangements). | −: Restricts such flexible or part-time work for parents.
+- 231b: Limits on planning control and land expropriation | +: Restricts expropriation, betterment levies, real-estate taxes and planning/building enforcement over private land. | −: Expands planning control, expropriation or levies on land and buildings.
+- 231c: Land and property claims of Arab citizens | +: Restores or protects land and property of Arab citizens (Ikrit and Biram, absentee property, Bedouin, unlicensed Arab construction). | −: Weakens such claims or expands state control of that land.
+- 231d: Jewish land rights in Judea and Samaria | +: Expands rights of Israelis/Jews to buy, hold or reclaim land in Judea and Samaria (repeal of Jordanian purchase ban, pre-1948 land restoration). | −: Restricts such purchase or reclamation.
+- 231e: Confiscation of property of criminals and terrorists | +: Expands the state's power to confiscate or forfeit property, money or assets of criminals, criminal organizations or terrorists, or of their supporters. | −: Narrows or limits such confiscation or forfeiture powers, or adds protections for owners and third parties.
+- 233c: State possession of contested property | +: The state takes or keeps possession of property claimed by absentees, displaced communities, churches, UN agencies, or occupants of state land (e.g. absentee property, abandoned property, UNRWA premises, eviction from public land). | −: Returns contested property to former owners or residents, or limits the state's power to seize or hold it (e.g. return of Ikrit/Biram residents, return of absentee property to citizens).
+- 250a: Civilian gun licensing | +: Makes gun licences harder to get or keep. | −: Makes gun licences easier to get (e.g. for former combat soldiers).
+- 250b: Penalties for illegal weapons | +: Toughens penalties and enforcement against illegal weapons and arms trading. | −: Softens them.
+- 253a: Scope of free public education | +: Expands free public educational services, from early childhood to after-school programmes and higher education. | −: Reduces them.
+- 253b: Haredi stream in state education | +: Creates or expands a Haredi stream within state education. | −: Prevents or reduces it.
+- 255a: Funding of schools that do not teach the core curriculum | +: Gives schools that do not teach core subjects (math, English) more state funding or fewer conditions. | −: Cuts their funding or makes it conditional on teaching core subjects.
+- 255b: Funding of schools whose teaching is hostile to the state | +: Keeps or increases funding of schools regardless of content such as incitement or calls to refuse military service. | −: Cuts funding of schools that teach such content.
+- 255c: Funding of schools that discriminate in admission | +: Keeps or increases funding of schools regardless of how they admit students. | −: Cuts funding of schools that reject students by ethnic origin or similar grounds.
+- 269a: Access to abortion | +: Makes abortion easier to obtain (e.g. without a termination committee, wider grounds, funding). | −: Makes abortion harder to obtain.
+- 269b: Access to assisted reproduction | +: Widens access to surrogacy, egg or sperm donation, IVF, fertility preservation or posthumous sperm use, or to more groups of people. | −: Narrows such access.
+- 271a: Cannabis | +: Keeps or adds restrictions on cannabis. | −: Legalises or decriminalises cannabis for personal or medical use.
+- 271b: Alcohol sales | +: Keeps or adds restrictions on selling alcohol. | −: Allows wider sale of alcohol (e.g. wine in large stores).
+- 277a: Denial of benefits and rights as a sanction | +: Denies or revokes benefits, allowances, licenses or other state rights from people as a sanction: those involved in terror and their families, illegal residents or infiltrators, boycott supporters, convicted officials. | −: Restores such benefits or rights, or limits the state's power to deny them as a sanction.
+- 277b: Eligibility for disability, nursing-care and sickness benefits | +: More people qualify for disability, nursing-care, sickness or rehabilitation benefits, or conditions are relaxed (e.g. means test removed). | −: Fewer people qualify or conditions become stricter.
+- 277c: Eligibility for pregnancy, child and parent benefits | +: More people qualify for pregnancy, maternity, child, single-parent, alimony, daycare or foster-care benefits, or conditions are relaxed. | −: Fewer people qualify or conditions become stricter (e.g. child allowances limited, daycare subsidy conditioned).
+- 277d: Eligibility for unemployment benefits and support for young workers | +: More people qualify for unemployment or employment-support benefits (e.g. interns, young people, workers past retirement age), or conditions are relaxed. | −: Fewer people qualify or conditions become stricter.
+- 277e: Eligibility for old-age benefits and benefits for Holocaust survivors | +: More senior citizens or Holocaust survivors qualify for pensions, allowances or exemptions, or conditions are relaxed (e.g. means test removed, eligibility age lowered). | −: Fewer qualify or conditions become stricter.
+- 277f: Eligibility for survivors' and bereaved families' benefits | +: More widows, widowers, orphans or bereaved families qualify for survivors' or bereavement benefits, or conditions are relaxed (e.g. widow who remarried keeps the benefit). | −: Fewer qualify or conditions become stricter (e.g. family recognition revoked).
+- 277g: Eligibility for student and pupil benefits | +: More students or pupils qualify for grants, scholarships, meals, transport or other study-related benefits, or conditions are relaxed. | −: Fewer qualify or conditions become stricter.
+- 296a: Commitment to international human-rights law and peace agreements | +: Adopts or reinforces international human-rights, refugee or humanitarian-law treaties, international courts, or signed diplomatic agreements and UN bodies. | −: Withdraws from or overrides such treaties, agreements or UN bodies (e.g. cancelling the Oslo Accords, revoking UNRWA immunities, rejecting WHO regulations).
+- 301a: State support for charities | +: Increases state funding of charities and non-profits or tax incentives for donations. | −: Decreases them.
+- 301b: Foreign-government funding of non-profits | +: Leaves donations from foreign governments to non-profits untaxed and unrestricted. | −: Taxes, restricts or penalises donations from foreign governments to non-profits.
+- 356a: Public transport on Shabbat | +: Allows or expands public transport on Shabbat and holidays. | −: Restricts it.
+- 356b: Public spending on public transport | +: Gives more money or benefits to public transport (fare discounts, free travel, more lines and services). | −: Gives less.
+- 361a: Human-rights restrictions on arms exports | +: Restricts defense exports to forces or states that commit serious human-rights violations; adds transparency/oversight. | −: Removes such restrictions.
+- 66b1: Death penalty for terrorists | +: Leaves the sentence for terrorist murder to the judges. | −: Makes the death penalty for terrorist murderers mandatory or easier to impose.
+- 66b2: Minimum sentences | +: Gives judges more discretion in sentencing. | −: Fixes minimum or mandatory punishments for crimes (other than the death penalty), limiting judges' discretion.
+- 101b1: Guardianship of parents accused of violence | +: Keeps or eases guardianship and custody of parents charged with or convicted of violence in the family. | −: Lets the state remove or restrict their guardianship.
+- 101b2: Parents' monitoring of children in care | +: Gives parents more access to monitoring of their children (e.g. daycare camera footage). | −: Gives less.
+- 103b1: Immunity of soldiers and police for operational actions | +: Grants or widens immunity of soldiers or police for actions during operations, or requires special approval to investigate them. | −: Narrows such immunity.
+- 103b2: Powers of security agencies over civilians | +: Gives police, prison and security services wider powers over civilians (searches, access to personal data, secret information). | −: Narrows such powers.
+- 130b1: Bounced-cheque relief during emergencies | +: Suspends or eases sanctions for bounced cheques during a declared emergency such as a pandemic or war. | −: Normal bounced-cheque sanctions apply even during a declared emergency.
+- 130b2: Laws and powers tied to a state of emergency | +: Adds or prolongs special powers and temporary laws that rely on a declared state of emergency or war. | −: Ends such powers and temporary laws when the crisis ends, or detaches them from the state of emergency.
+- new357: Ability to challenge election results in court | +: Widens grounds, eases and extends filing of petitions to annul elections, or broadens court powers to do so. | −: Narrows grounds, shortens deadlines or raises barriers to such petitions.

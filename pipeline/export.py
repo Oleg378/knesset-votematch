@@ -29,11 +29,19 @@ def num(x):
     """JSON has no NaN: a closeness that cannot be computed is null."""
     return None if x is None or (isinstance(x, float) and math.isnan(x)) else x
 
+def source_commit():
+    """HEAD, with «+dirty» if the inputs differ from it (external audit 2026-10-18, minor 4): uncommitted changes in the code
+    (pipeline/), the data (jef/ except the generated jef/positions/) or manual/ mean the export does not come from that commit."""
+    git = lambda *a: subprocess.run(["git", *a], cwd=ROOT, capture_output=True, text=True).stdout
+    dirty = [l[3:] for l in git("status", "--porcelain").splitlines() if l[3:].startswith(("pipeline/", "jef/", "manual/")) and not l[3:].startswith("jef/positions/")]
+    if dirty: print(f"warning: export built from a working tree with uncommitted inputs: {dirty[:5]}", file=sys.stderr)
+    return git("rev-parse", "--short", "HEAD").strip() + ("+dirty" if dirty else "")
+
 def build_data(ctx):
     st, pos, cov = ctx["st"], ctx["pos"], ctx["cov"]
     quiz_d = list(dict.fromkeys(r["d"] for r in st))
     plan = {**json.load(open(os.path.join(ROOT, "jef/directions/split/plan.json")))["new"],
-            **{k: v for p in ("plan2.json", "plan3.json") for k, v in json.load(open(os.path.join(ROOT, "jef/directions/split", p)))["new"].items()}}
+            **{k: v for p in qr.L.later_plans() for k, v in p["new"].items()}}   # all later split stages (labels.LATER)
     final = {d["key"]: d for d in json.load(open(os.path.join(ROOT, "jef/directions/merge3/directions_final.json")))}
     def ddesc(d):
         x = plan.get(d) or final[d]
@@ -44,7 +52,7 @@ def build_data(ctx):
         P = {}
         for d in quiz_d:
             x = pos.get(L, {}).get(d)
-            if x: P[d] = {"P": x[0], "P_bills": x[3], "e": x[1], "n_mk": x[2], "n_votes": nv.get((L, d), 0)}
+            if x: P[d] = {"P": x[0], "P_bills": x[3], "e": x[1], "n_mk": x[2], "n_votes": nv.get((L, d), 0), "n_other": ctx["no"].get((L, d), 0), "n_names": x[4]}
         lists.append({"id": L, "name_en": c["list_name"], "status": c["status"], "ex_mks": int(c["ex_mks"]), "positions": P})
     cand_list, mks = {}, {}
     for L, ms in ctx["cand"].items():
@@ -61,9 +69,9 @@ def build_data(ctx):
     return {
         "version": VERSION,
         "generated": datetime.date.today().isoformat(),
-        "source_commit": subprocess.run(["git", "rev-parse", "--short", "HEAD"], cwd=ROOT, capture_output=True, text=True).stdout.strip(),
-        "params": {"K": qm.K, "MIN_COVERAGE": qm.MIN_COVERAGE, "MAX_TRADE": qm.MAX_TRADE, "TRADE_TOP": qm.TRADE_TOP,
-                   "TRADE_W": qm.TRADE_W, "TRADE_CANDIDATES": 3, "VOTE_WEIGHT": 0.25, "CLOSE": qr.CLOSE,
+        "source_commit": source_commit(),
+        "params": {"K": qm.K, "MIN_COVERAGE": qm.MIN_COVERAGE, "MIN_EX_MKS": qm.MIN_EX_MKS, "MAX_TRADE": qm.MAX_TRADE, "TRADE_TOP": qm.TRADE_TOP,
+                   "TRADE_W": qm.TRADE_W, "TRADE_CANDIDATES": 3, "VOTE_WEIGHT": 0.25, "CLOSE": qr.CLOSE, "MIN_CLEAR_MKS": qr.MIN_CLEAR_MKS, "MIN_CLEAR_BILLS": qr.MIN_CLEAR_BILLS,
                    "BILL_URL": qr.LINK.replace("{}", "{id}")},
         "flow": dict(qf.FLOW),
         "core": qf.core(),
@@ -82,7 +90,7 @@ def case(ctx, name, answers, mult=None, exclude=(), skip_lists=()):
     mult = mult or {}
     rows = qm.match(answers, mult=mult)
     ranking = [{"id": r["letters"], "closeness": num(r["closeness"]), "coverage": r["coverage"], "note": r["note"],
-                "ranked": r["closeness"] is not None and r["closeness"] == r["closeness"] and r["coverage"] >= qm.MIN_COVERAGE}
+                "ranked": r["ranked"]}
                for r in rows]
     out = {"name": name, "answers": answers, "mult": mult, "ranking": ranking,
            "tradeoffs": {"exclude": list(exclude), "skip_lists": list(skip_lists),

@@ -24,7 +24,7 @@ what its candidates who are former MKs did in Knessets 24–25: bills they spons
 | `export/` | **The data contract** (in git): v2 = `quiz_core / quiz_data / quiz_bills.v2.json`, one schema, `golden.v2.json`, `V2_HANDOFF.md`; v1 kept until the web moves |
 | `jef/` | Production data: directions and labels (`jef/directions/`), positions (`jef/positions/`), statements (`jef/quiz/`) |
 | `manual/` | Tables kept by hand: CEC lists and candidates, candidate ↔ MK matching, English MK names |
-| `local/research/` | Experiments and old approaches (positions tests, early Jef runs, eval scripts). **Not production**: do not import from it |
+| `local/` | Research behind the decisions: experiments, checks, early approaches (`local/README.md`). Published selectively (scripts, texts, small result tables; no people's answers) — `local/` stays ignored, add new files with `git add -f`. **Not production**: do not import from it |
 | `docs/` | Methodology, decisions, audits (Russian — the working language) |
 | `data/`, `knesset.duckdb` | Raw downloads and the database. Not in git |
 

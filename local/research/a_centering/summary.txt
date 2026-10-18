@@ -1,0 +1,102 @@
+production (authors only)    eligible 199; median SD 0.178; SD of the authorship part = 0: 32; pass SD>=0.25: 70, >=0.3: 59
+all MKs                      eligible 199; median SD 0.299; SD of the authorship part = 0: 0; pass SD>=0.25: 137, >=0.3: 98
+not centered                 eligible 199; median SD 0.304; SD of the authorship part = 0: 0; pass SD>=0.25: 139, >=0.3: 100
+
+quiz statements (status ok): SD production -> all MKs; pass at 0.25
+  q 1 72    0.39 -> 0.54  + -> +  Selecting judges
+  q 2 166   0.62 -> 0.65  + -> +  Sovereignty in Judea and Samaria
+  q 3 171   0.55 -> 0.60  + -> +  Trade with hostile countries
+  q 4 165   0.56 -> 0.52  + -> +  Jewish character of the state
+  q 5 164   0.57 -> 0.52  + -> +  Community heritage centers
+  q 6 184   0.15 -> 0.37  . -> +  Revoking citizenship for terrorism
+  q 7 185a  0.57 -> 0.55  + -> +  Drafting yeshiva students
+  q 8 185b  0.39 -> 0.49  + -> +  Compulsory service for everyone
+  q 9 187   0.58 -> 0.62  + -> +  Benefits for those who served
+  q10 179   0.61 -> 0.66  + -> +  Entry of foreigners
+  q11 276   0.18 -> 0.24  . -> .  State support for long-term savings
+  q12 181   0.34 -> 0.41  + -> +  Rights of foreign workers and asylum seekers
+  q13 173   0.15 -> 0.39  . -> +  Foreign states and international organizations in Israel
+  q14 180   0.52 -> 0.51  + -> +  Foreign workers: quotas
+  q15 3     0.15 -> 0.44  . -> +  Payments to reservists and veterans
+  q16 269   0.24 -> 0.38  . -> +  Surrogacy and egg donation
+  q17 269   0.24 -> 0.38  . -> +  Abortion
+  q18 92    0.57 -> 0.57  + -> +  Prison conditions for terrorism convicts
+  q19 255   0.46 -> 0.48  + -> +  Funding schools without the core curriculum
+  q20 159   0.12 -> 0.43  . -> +  Divorce
+  q21 300   0.11 -> 0.34  . -> +  Foreign government funding of non-profits
+  q22 158   0.17 -> 0.48  . -> +  Civil marriage
+  q23 215   0.39 -> 0.39  + -> +  Public sector wages
+  q24 71    0.20 -> 0.37  . -> +  Politicians' influence over the courts
+  q25 151   0.54 -> 0.55  + -> +  Separate spaces for men and women
+  q26 151   0.54 -> 0.55  + -> +  Who is registered as a Jew
+  q27 141   0.31 -> 0.36  + -> +  Public broadcasting: Kan and Galei Tzahal
+  q28 314   0.11 -> 0.27  . -> +  The Yemenite children affair
+  q29 235   0.34 -> 0.34  + -> +  Residents' rights in apartment buildings
+  q30 142   0.46 -> 0.45  + -> +  Sports on free channels
+  q31 142   0.46 -> 0.45  + -> +  Broadcasting Supreme Court hearings
+  q33 154   0.38 -> 0.37  + -> +  Rabbinical courts in civil disputes
+  q35 356   0.10 -> 0.39  . -> +  Public transport on Shabbat
+  q36 169   0.47 -> 0.55  + -> +  Settlements
+  q37 241   0.41 -> 0.47  + -> +  Housing construction
+  q38 275   0.30 -> 0.45  + -> +  Early withdrawal of long-term savings
+  q39 136   0.41 -> 0.38  + -> +  Defamation laws
+  q40 204   0.25 -> 0.45  + -> +  LGBT rights
+  q41 265   0.35 -> 0.39  + -> +  Autonomy of minors
+  q42 25    0.42 -> 0.43  + -> +  Imports and competition
+  q43 309   0.64 -> 0.65  + -> +  Adoption: same-religion requirement
+  q44 309   0.64 -> 0.65  + -> +  Adoption: single people and same-sex couples
+  q45 178   0.12 -> 0.42  . -> +  Counter-terrorism measures
+  q46 75    0.12 -> 0.29  . -> +  Opposition rights
+  q47 77    0.40 -> 0.40  + -> +  Police powers
+  q48 340   0.39 -> 0.41  + -> +  Vetting senior appointments
+  q49 90    0.37 -> 0.45  + -> +  Rights of suspects
+  q50 230   0.10 -> 0.25  . -> .  Credit and mortgages
+  q51 31    0.25 -> 0.34  . -> +  Help for new immigrants
+  q52 352   0.28 -> 0.31  + -> +  Protecting the weaker party to a contract
+  q53 283   0.34 -> 0.28  + -> +  Privatization of public services
+  q54 277a  0.12 -> 0.39  . -> +  Denying benefits for terrorism
+  q55 146   0.35 -> 0.37  + -> +  Protection of personal data
+  q56 130   0.39 -> 0.43  + -> +  State of emergency
+  q57 137   0.29 -> 0.26  + -> +  Banning harmful content
+  q58 161a  0.46 -> 0.52  + -> +  Conditions on funding religious schools
+  q59 101b  0.35 -> 0.39  + -> +  Medical care for teenagers without parental consent
+  q60 231e  0.47 -> 0.49  + -> +  Confiscation of property without conviction
+  q61 63    0.43 -> 0.45  + -> +  Weight of the Attorney General
+  q62 60    0.45 -> 0.44  + -> +  Ministers' control over senior officials
+  q63 66    0.57 -> 0.57  + -> +  Overriding court rulings
+  q64 58    0.48 -> 0.48  + -> +  A prime minister under indictment
+  q65 183   0.66 -> 0.66  + -> +  Immigration rights for grandchildren of Jews
+  q66 277c  0.42 -> 0.41  + -> +  Conditions on child benefits
+pass: production 47, all MKs 62 (of 64); not centered 63
+
+q13 (173), all MKs:
+                                                                                             P    P_A    P_V
+list_name                                                                                                   
+Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin            -0.563 -0.539 -0.024
+Yisrael Beiteinu, headed by Avigdor Liberman                                            -0.547 -0.453 -0.094
+Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL -0.474 -0.459 -0.014
+Likud , headed by Binyamin Netanyahu for Prime Minister                                 -0.445 -0.404 -0.041
+Otzma Yehudit, headed by Itamar Ben Gvir                                                -0.375 -0.367 -0.008
+Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah  -0.076 -0.084  0.008
+Kahol Lavan (Blue and White), headed by Beni Gantz                                      -0.049  0.043 -0.092
+Be’Yahad, headed by Naftali Bennett                                                      0.131  0.223 -0.092
+Yashar! With Eizenkot for Prime Minister, Uniting Israel                                 0.173  0.296 -0.123
+HaDemocratim, headed by Yair Golan                                                       0.326  0.287  0.039
+The Joint Arab List                                                                      0.449  0.093  0.355
+Ra’am, the United Arab List                                                              0.615  0.293  0.322
+
+q13 (173), not centered:
+                                                                                             P    P_A    P_V
+list_name                                                                                                   
+Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin            -0.858 -0.833 -0.024
+Yisrael Beiteinu, headed by Avigdor Liberman                                            -0.844 -0.750 -0.094
+Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL -0.764 -0.750 -0.014
+Likud , headed by Binyamin Netanyahu for Prime Minister                                 -0.738 -0.697 -0.041
+Otzma Yehudit, headed by Itamar Ben Gvir                                                -0.674 -0.667 -0.008
+Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah  -0.367 -0.375  0.008
+Kahol Lavan (Blue and White), headed by Beni Gantz                                      -0.342 -0.250 -0.092
+Be’Yahad, headed by Naftali Bennett                                                     -0.164 -0.071 -0.092
+Yashar! With Eizenkot for Prime Minister, Uniting Israel                                -0.123  0.000 -0.123
+HaDemocratim, headed by Yair Golan                                                       0.039  0.000  0.039
+The Joint Arab List                                                                      0.155 -0.200  0.355
+Ra’am, the United Arab List                                                              0.322  0.000  0.322

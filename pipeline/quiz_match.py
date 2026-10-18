@@ -3,14 +3,14 @@
 Answer scale: 2 полностью согласен, 1 скорее согласен, 0 нейтрально, -1 скорее не согласен, -2 полностью не согласен,
 "dk" не знаю (skipped). User value on a statement u = answer/2 × key (key «+» = +1, «−» = −1).
 List value p = the list's position P on the statement's direction (jef/positions/list_topic_positions.csv), shrunk toward 0:
-p = P × e/(e + K), e = sum_nA + 0.25·sum_nV (the evidence behind P, same weights as the position).
+p = P × e/(e + K), e = sum_nA + 0.25·(sum_nV + sum_nO) (the evidence behind P, same weights as the position); K = 0: p = P.
 Weight w = 1, or 1/2 for each statement of an a/b pair on the same direction.
 Closeness = cosine over statements the user answered and the list has a position on:
   Σ w·u·p / sqrt(Σ w·u²) / sqrt(Σ w·p²); with the share of answered weight covered by the list.
 Output: lists sorted by closeness; evaluated lists (status ok / warning) with the number of ex-MKs behind the position;
 lists without ex-MKs are listed as «нет данных о работе в Кнессете».
 
-Usage: python3 pipeline/quiz_match.py jef/quiz/pilot_answers.csv   filled pilot sheet: № (1–60), Тема, Утверждение, Ответ
+Usage: python3 pipeline/quiz_match.py jef/quiz/pilot_answers.csv   filled pilot sheet: № (statement q), Тема, Утверждение, Ответ
                                                                    (2 / 1 / 0 / -1 / -2 / нз; empty = не отвечено)
        python3 pipeline/quiz_match.py answers.json                  {"<№>": 2 | 1 | 0 | -1 | -2 | "dk"}
        python3 pipeline/quiz_match.py --calibrate         choose K on synthetic users (jef/quiz/match_calibration.txt)
@@ -22,6 +22,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 Q = os.path.join(ROOT, "jef/quiz")
 POS = os.path.join(ROOT, "jef/positions")
 MIN_COVERAGE = 0.5   # [А]
+MIN_EX_MKS = 2       # [У] 2026-10-18 (Р3, external audit С3): a list resting on one former MK is shown, but not ranked
 MAX_TRADE, TRADE_TOP, TRADE_W = 5, 5, 2.0   # [У] 2026-10-16: trade-off questions (Wahl-O-Mat / StemWijzer convention: ×2)
 K = 0.0   # [У] 2026-10-18: no shrinkage — persona recovery (local/research/scripts/k_persona.py) and the cross-Knesset weight test both
           # are best at 0; the random-answer «first places» criterion is dropped (it measures list clusters, not K)
@@ -34,8 +35,8 @@ def load():
         r["w"] = 1 / per_d[r["d"]]
     pos = collections.defaultdict(dict)
     for r in csv.DictReader(open(os.path.join(POS, "list_topic_positions.csv"))):
-        e = float(r["sum_nA"]) + 0.25 * float(r["sum_nV"])
-        pos[r["letters"]][r["d"]] = (float(r["P"]), e, int(r["n_mk"]), float(r["P_A"]))   # P_A: the part from own bills
+        e = float(r["sum_nA"]) + 0.25 * (float(r["sum_nV"]) + float(r.get("sum_nO") or 0))   # O: votes on the other camp's bills (2026-10-18)
+        pos[r["letters"]][r["d"]] = (float(r["P"]), e, int(r["n_mk"]), float(r["P_A"]), int(r.get("n_names") or 0))   # P_A: own bills; n_names: distinct bills
     cov = {r["letters"]: r for r in csv.DictReader(open(os.path.join(POS, "list_coverage.csv")))}
     return st, pos, cov
 
@@ -43,7 +44,7 @@ def list_vec(st, pos, letters, k):
     v = {}
     for r in st:
         x = pos.get(letters, {}).get(r["d"])
-        if x: v[r["q"]] = x[0] * x[1] / (x[1] + k)
+        if x: v[r["q"]] = x[0] if k == 0 else x[0] * x[1] / (x[1] + k)
     return v
 
 def score(st, answers, lv, mult=None):
@@ -71,13 +72,18 @@ def match(answers, k=K, mult=None):
     for r in rows:   # [А] a list whose positions cover less than half of the answered weight is not ranked with the others
         if r["closeness"] is not None and r["coverage"] < MIN_COVERAGE:
             r["note"] = (r["note"] + "; " if r["note"] else "") + f"position known for only {r['coverage']:.0%} of your answers"
-    ranked = lambda r: r["closeness"] is not None and r["closeness"] == r["closeness"] and r["coverage"] >= MIN_COVERAGE
-    rows.sort(key=lambda r: (not ranked(r), r["closeness"] is None, -(r["closeness"] if ranked(r) else 0)))
+    for r in rows: r["ranked"] = is_ranked(r)
+    rows.sort(key=lambda r: (not r["ranked"], r["closeness"] is None, -(r["closeness"] if r["ranked"] else 0)))
     return rows
 
+def is_ranked(r):
+    """One rule for every place that ranks lists: a closeness exists, the list's positions cover >= MIN_COVERAGE of the answers,
+    and the list has >= MIN_EX_MKS former MKs."""
+    return (r["closeness"] is not None and r["closeness"] == r["closeness"] and r["coverage"] >= MIN_COVERAGE
+            and r["ex_mks"] >= MIN_EX_MKS)
+
 def ranked_top(answers, n, mult=None):
-    return [r["letters"] for r in match(answers, mult=mult)
-            if r["closeness"] is not None and r["closeness"] == r["closeness"] and r["coverage"] >= MIN_COVERAGE][:n]
+    return [r["letters"] for r in match(answers, mult=mult) if r["ranked"]][:n]
 
 def tradeoffs(answers, mult=None, exclude=(), skip_lists=()):
     """[У] 2026-10-16. Trade-off questions: at most MAX_TRADE, each only if it can change the top TRADE_TOP.

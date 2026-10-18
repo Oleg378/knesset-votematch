@@ -1,0 +1,125 @@
+1. Scale. All directions with >= 8 ok lists (>= 3 ex-MKs each).
+variant            dirs median SD 0.3 as ×median 0.3 as percentile
+v1 old formula      237     0.246          0.300             0.296
+new, no filter      237     0.178          0.217             0.224
+A votes-only 0.2    232     0.177          0.215             0.220
+V both 0.1          233     0.167          0.203             0.210
+B both 0.2          231     0.151          0.184             0.195
+(0.3 on the old scale = 1.22 × median = percentile 62% of all directions)
+
+2. Spread above chance (ex-MKs shuffled between lists; pass = SD above the 95th percentile of shuffles). Quiz directions.
+variant            median chance95  SD>=0.3  SD>=0.2 SD>=0.15  SD>=0.1  >chance   (statements; directions in brackets)
+v1 old formula               0.288  65 (61)  65 (61)  65 (61)  65 (61)  65 (61)
+new, no filter               0.267  45 (42)  52 (48)  56 (52)  65 (61)  64 (60)
+A votes-only 0.2             0.287  42 (39)  46 (43)  51 (48)  56 (53)  55 (52)
+V both 0.1                   0.240  31 (30)  41 (39)  45 (43)  57 (53)  53 (50)
+B both 0.2                   0.212  24 (24)  29 (28)  35 (34)  45 (43)  41 (39)
+
+3. What is kept. Per statement: passes SD >= 0.2 / above chance, by variant (+ pass, . fail).
+    new, no filt | A votes-only |   V both 0.1 |   B both 0.2   statement
+     0.2  chance |  0.2  chance |  0.2  chance |  0.2  chance
+       +       + |    +       + |    +       + |    .       +   q1 Selecting judges
+       +       + |    +       + |    +       + |    +       +   q2 Sovereignty in Judea and Samaria
+       +       + |    +       + |    +       + |    +       +   q3 Trade with hostile countries
+       +       + |    +       + |    +       + |    +       +   q4 Jewish character of the state
+       +       + |    +       + |    +       . |    +       .   q5 Community heritage centers
+       .       + |    .       + |    .       + |    .       +   q6 Revoking citizenship for terrorism
+       +       + |    +       + |    +       + |    +       +   q7 Drafting yeshiva students
+       +       + |    +       + |    +       + |    .       .   q8 Professional army instead of the draft
+       +       + |    +       + |    +       + |    +       +   q9 Benefits for those who served
+       +       + |    +       + |    +       + |    +       +   q10 Entry of foreigners
+       .       + |    .       . |    .       + |    .       .   q11 Tax breaks for pension savings
+       +       + |    +       + |    +       + |    +       +   q12 Rights of foreign workers
+       .       + |    .       + |    .       + |    .       +   q13 Foreign states and international organizations in Israel
+       +       + |    +       + |    +       + |    +       +   q14 Foreign workers: quotas
+       .       + |    .       + |    .       + |    .       +   q15 Payments to reservists and veterans
+       +       + |    .       . |    +       + |    .       .   q16 Surrogacy and egg donation
+       +       + |    .       . |    +       + |    .       .   q17 Abortion
+       +       + |    +       + |    +       + |    .       +   q18 Prison conditions for terrorism convicts
+       +       + |    +       + |    +       + |    +       +   q19 Funding schools without the core curriculum
+       .       + |    .       + |    .       + |    .       +   q20 Divorce
+       .       + |    .       . |    .       + |    .       .   q21 Reporting by non-profits
+       .       + |    .       + |    .       + |    .       +   q22 Civil marriage
+       +       + |    +       + |    +       + |    +       +   q23 Public sector wages
+       +       + |    .       + |    +       + |    +       +   q24 Politicians' influence over the courts
+       +       + |    +       + |    +       + |    +       +   q25 Separate spaces for men and women
+       +       + |    +       + |    +       + |    +       +   q26 Who is registered as a Jew
+       +       + |    +       + |    .       . |    .       .   q27 Public broadcasting: Kan and Galei Tzahal
+       .       + |    .       . |    .       . |    .       .   q28 The Yemenite children affair
+       +       + |    +       + |    .       . |    .       .   q29 Residents' rights in apartment buildings
+       +       + |    +       + |    .       . |    .       .   q30 Sports on free channels
+       +       + |    +       + |    .       . |    .       .   q31 Broadcasting Supreme Court hearings
+       +       + |    +       + |    +       + |    +       +   q33 Rabbinical courts in civil disputes
+       .       + |    .       + |    .       + |    .       .   q35 Public transport on Shabbat
+       +       + |    +       + |    +       + |    +       +   q36 Settlements
+       +       + |    +       + |    +       + |    +       +   q37 Housing construction
+       +       + |    +       . |    +       + |    .       .   q38 Early withdrawal of pension savings
+       +       + |    +       + |    +       + |    +       +   q39 Defamation laws
+       +       + |    +       + |    +       + |    +       +   q40 Same-sex families
+       +       + |    .       . |    .       . |    .       .   q41 Autonomy of minors
+       +       + |    +       + |    +       + |    +       +   q42 Imports and competition
+       +       + |    +       + |    .       + |    .       +   q43 Adoption: same-religion requirement
+       +       + |    +       + |    .       + |    .       +   q44 Adoption: single people and same-sex couples
+       .       + |    .       + |    .       + |    .       +   q45 Counter-terrorism measures
+       .       . |    .       + |    .       . |    .       .   q46 Opposition rights in the Knesset
+       +       + |    +       + |    +       + |    +       +   q47 Police powers
+       +       + |    +       + |    +       + |    +       +   q48 Vetting senior appointments
+       +       + |    +       + |    +       + |    .       .   q49 Rights of suspects
+       .       + |    .       + |    .       + |    .       +   q50 Credit and mortgages
+       +       + |    +       + |    +       + |    .       .   q51 Help for new immigrants
+       +       + |    +       + |    +       + |    +       +   q52 Protecting the weaker party to a contract
+       +       + |    +       . |    +       + |    .       .   q53 Workers hired through contractors
+       .       + |    .       + |    .       + |    .       +   q54 Denying benefits for terrorism
+       +       + |    +       + |    +       + |    .       .   q55 Publishing details of victims
+       +       + |    +       + |    +       + |    +       +   q56 State of emergency
+       +       + |    +       + |    .       . |    .       .   q57 Shutting down foreign media
+       +       + |    +       + |    .       . |    .       .   q58 Admission to religious schools
+       +       + |    .       . |    .       . |    .       .   q59 Medical care for teenagers without parental consent
+       +       + |    +       + |    +       + |    +       +   q60 Confiscation of property without conviction
+       +       + |    +       + |    +       + |    +       +   q61 Weight of the Attorney General
+       +       + |    +       + |    +       + |    .       +   q62 Ministry legal advisers
+       +       + |    +       + |    +       + |    +       +   q63 Overriding court rulings
+       +       + |    +       + |    +       + |    +       +   q64 A prime minister under indictment
+       +       + |    +       + |    +       + |    .       .   q65 Immigration rights for grandchildren of Jews
+       +       + |    .       . |    .       . |    .       .   q66 Conditions on child benefits
+       +       + |    +       + |    +       + |    +       +   q67 International law and signed agreements
+
+   Per list: statements with a position (>= 1 ex-MK) among the kept ones; share < 50 % = not ranked even if all are answered.
+
+   rule SD>=0.2:
+   list                                         new, no filter A votes-only 0.2       V both 0.1       B both 0.2
+   Likud , headed by Binyamin Netanyahu for P       52/52 100%       46/46 100%       41/41 100%       29/29 100%
+   Be’Yahad, headed by Naftali Bennett              52/52 100%       46/46 100%       41/41 100%       29/29 100%
+   Shas – Hit’ahdut haSefaradim Shomrei Torah       52/52 100%       46/46 100%       41/41 100%       29/29 100%
+   HaDemocratim, headed by Yair Golan               52/52 100%       46/46 100%       41/41 100%       29/29 100%
+   Yahadut HaTorah v’ha’Shabbat (United Torah       52/52 100%       46/46 100%       41/41 100%       29/29 100%
+   Yisrael Beiteinu, headed by Avigdor Liberm       52/52 100%       46/46 100%       41/41 100%       29/29 100%
+   Zionut Datit, headed by Bezelel Smotrich,        52/52 100%       46/46 100%       41/41 100%       29/29 100%
+   Ra’am, the United Arab List                      52/52 100%       46/46 100%       41/41 100%       29/29 100%
+   Otzma Yehudit, headed by Itamar Ben Gvir         52/52 100%       46/46 100%       41/41 100%       29/29 100%
+   The Joint Arab List                              52/52 100%       46/46 100%        40/41 98%        28/29 97%
+   Kahol Lavan (Blue and White), headed by Be       52/52 100%       46/46 100%       41/41 100%        28/29 97%
+   Yashar! With Eizenkot for Prime Minister,        52/52 100%        45/46 98%       41/41 100%       29/29 100%
+   HaMiluimnikim v’haCalcalit, headed by Yoaz          1/52 2%          1/46 2%          1/41 2%          0/29 0%
+   Tzomet Beit Yisrael                               39/52 75%        28/46 61%        27/41 66%        16/29 55%
+   Noam L’Yisrael for the Children’s Future,         47/52 90%        43/46 93%        37/41 90%        27/29 93%
+   Yisrael Techila, headed by Sharren Haskel         51/52 98%        44/46 96%       41/41 100%       29/29 100%
+
+   rule chance:
+   list                                         new, no filter A votes-only 0.2       V both 0.1       B both 0.2
+   Likud , headed by Binyamin Netanyahu for P       64/64 100%       55/55 100%       53/53 100%       41/41 100%
+   Be’Yahad, headed by Naftali Bennett              64/64 100%       55/55 100%       53/53 100%       41/41 100%
+   Shas – Hit’ahdut haSefaradim Shomrei Torah       64/64 100%       55/55 100%       53/53 100%       41/41 100%
+   HaDemocratim, headed by Yair Golan               64/64 100%       55/55 100%       53/53 100%       41/41 100%
+   Yahadut HaTorah v’ha’Shabbat (United Torah       64/64 100%       55/55 100%       53/53 100%       41/41 100%
+   Yisrael Beiteinu, headed by Avigdor Liberm       64/64 100%       55/55 100%       53/53 100%       41/41 100%
+   Zionut Datit, headed by Bezelel Smotrich,        64/64 100%       55/55 100%       53/53 100%       41/41 100%
+   Ra’am, the United Arab List                      64/64 100%       55/55 100%       53/53 100%       41/41 100%
+   Otzma Yehudit, headed by Itamar Ben Gvir         64/64 100%       55/55 100%       53/53 100%       41/41 100%
+   The Joint Arab List                              64/64 100%       55/55 100%        51/53 96%        39/41 95%
+   Kahol Lavan (Blue and White), headed by Be       64/64 100%       55/55 100%       53/53 100%        40/41 98%
+   Yashar! With Eizenkot for Prime Minister,        64/64 100%       55/55 100%       53/53 100%       41/41 100%
+   HaMiluimnikim v’haCalcalit, headed by Yoaz          2/64 3%          2/55 4%          2/53 4%          0/41 0%
+   Tzomet Beit Yisrael                               49/64 77%        35/55 64%        35/53 66%        25/41 61%
+   Noam L’Yisrael for the Children’s Future,         59/64 92%        53/55 96%        49/53 92%        39/41 95%
+   Yisrael Techila, headed by Sharren Haskel         62/64 97%        53/55 96%        52/53 98%        40/41 98%

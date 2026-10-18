@@ -1,6 +1,6 @@
 # Ревью новых утверждений (для заказчика)
 
-_2026-10-18. Утверждения q72–q104 в квизе (`jef/quiz/statements_v4.csv`) до вашего чтения. Прошли аудит Opus тем же методом, что 65 прежних (`local/research/statement_audit_new/audit.csv`): 21 оставлено, q77 переписан, q82 и q88 поправлены (одна мысль), 10 направлений раздроблены через Jev — 7 утверждений сняты (части не прошли отбор или дубли), q89, q101, q103 переписаны на прошедшие части, q104 — новое. Прочитайте оставшиеся: смысл, ключ (+ — согласие = больше того, что меряет направление), пометки ⚠; отметьте [x]._
+_2026-10-18 (обновлено вечером: снятие неподходящих меток, стандартный аудит, порог объёма 25). Утверждения q72–q105 в квизе (`jef/quiz/statements_v4.csv`) до вашего чтения. Прошли аудит Opus тем же методом, что 65 прежних (`local/research/statement_audit_new/audit.csv`): 21 оставлено, q77 переписан, q82 и q88 поправлены (одна мысль), 10 направлений раздроблены через Jev — 7 утверждений сняты (части не прошли отбор или дубли), q89, q101, q103 переписаны на прошедшие части, q104 — новое. Прочитайте оставшиеся: смысл, ключ (+ — согласие = больше того, что меряет направление), пометки ⚠; отметьте [x]._
 
 - [ ] **q72 · Land purchase in Judea and Samaria** (направление 231d «земельные права евреев в Иудее и Самарии», ключ +)
   - EN: Israelis, including Jews, should be allowed to buy land in Judea and Samaria (the West Bank) freely, even if this deepens Israel's hold on the territory.
@@ -20,10 +20,12 @@ _2026-10-18. Утверждения q72–q104 в квизе (`jef/quiz/statemen
   - EN: Students and pupils should get more state support, such as study grants, free school meals and tuition aid, even if this costs the budget more.
   - RU: Студенты и школьники должны получать больше господдержки — стипендии, бесплатное школьное питание, помощь с оплатой учёбы, — даже если это обойдётся бюджету дороже.
   - ⚠ частично пересекается с q9 (льготы резервистам-студентам)
+  - 🔄 2026-10-18: из темы сняты неподходящие законопроекты (две проверки); текст аудит оставил
 - [ ] **q80 · Challenging the authorities** (направление 69 «возможность оспорить решения властей», ключ +)
   - EN: Citizens should have more ways to challenge government and police decisions in court and through appeals, even if the authorities find it harder to act quickly.
   - RU: У граждан должно быть больше способов оспорить решения правительства и полиции в суде и в апелляции, даже если властям станет труднее действовать быстро.
   - ⚠ смешанное: Основные законы о правительстве и полиция
+  - 🔄 2026-10-18: из темы сняты неподходящие законопроекты (две проверки); текст аудит оставил
 - [ ] **q81 · Dismissing employees who support terror** (направление 195 «дисциплинарный контроль над работниками госсектора», ключ +)
   - EN: Teachers, lecturers and public employees who express support for terrorism should be dismissed, even without a criminal conviction.
   - RU: Учителя, преподаватели и госслужащие, выражающие поддержку терроризму, должны увольняться даже без уголовного приговора.
@@ -43,16 +45,19 @@ _2026-10-18. Утверждения q72–q104 в квизе (`jef/quiz/statemen
   - EN: The state should give farmers more support, such as cheaper water and investment grants, even if taxpayers and consumers pay more.
   - RU: Государство должно больше поддерживать фермеров, например дешёвой водой и инвестиционными грантами, даже если налогоплательщики и потребители заплатят больше.
 - [ ] **q88 · Access to voting** (направление 117 «доступность голосования и избирательные права», ключ +)
-  - EN: Every citizen should be able to vote easily wherever they serve or study, regardless of whether they did military or national service, even if elections cost more to run.
-  - RU: Каждый гражданин должен иметь возможность легко проголосовать, где бы он ни служил или учился, независимо от того, проходил ли он военную или национальную службу, даже если выборы обойдутся дороже.
+  - EN: Every citizen should be able to vote easily — including soldiers, students and those who did not serve — even if elections cost more to run.
+  - RU: Каждый гражданин должен иметь возможность легко проголосовать — включая солдат, студентов и тех, кто не служил, даже если выборы обойдутся дороже.
   - ⚠ смешанное: условие службы для голосования — один крупный законопроект
+  - 🔄 2026-10-18: текст переписан стандартным аудитом после снятия неподходящих меток, принят
 - [ ] **q89 · Health fund services** (направление 12b «услуги больничных касс пациентам», ключ +)
   - EN: Health funds should owe patients more services and rights, such as treatment within a set time and ambulance refunds, even if health insurance costs rise.
   - RU: Больничные кассы должны предоставлять пациентам больше услуг и прав, например лечение в установленный срок и возмещение за скорую, даже если медицинская страховка подорожает.
   - ⚠ смешанное: внутри законопроекты о хамеце в больницах
+  - 🔄 2026-10-18: из темы сняты неподходящие законопроекты (две проверки); текст аудит оставил
 - [ ] **q90 · Powers of municipalities** (направление 106 «полномочия и автономия местного самоуправления», ключ +)
   - EN: Municipalities should get more powers, for example to run public transport on Shabbat, set up local guard units and approve building plans, even if rules differ from town to town.
   - RU: Муниципалитеты должны получить больше полномочий, например запускать общественный транспорт в шаббат, создавать местную охрану и утверждать планы застройки, даже если правила в разных городах будут различаться.
+  - 🔄 2026-10-18: из темы сняты неподходящие законопроекты (две проверки); текст аудит оставил
 - [ ] **q92 · Disability and sickness benefits** (направление 277b «пособия по инвалидности, уходу и болезни», ключ +)
   - EN: More people should qualify for disability, nursing-care and sick-leave benefits, for example homemakers and the self-employed, even if National Insurance spends more.
   - RU: Право на пособия по инвалидности, уходу и больничным должно быть у большего числа людей, например у домохозяек и самозанятых, даже если Битуах Леуми будет тратить больше.
@@ -63,16 +68,20 @@ _2026-10-18. Утверждения q72–q104 в квизе (`jef/quiz/statemen
 - [ ] **q94 · Local tax discounts** (направление 108 «финансовые ресурсы местных властей», ключ −)
   - EN: Reservists, people with disabilities and other residents should get bigger discounts on municipal property tax and parking, even if local councils have less money.
   - RU: Резервисты, люди с инвалидностью и другие жители должны получать большие скидки на арнону и парковку, даже если у местных советов будет меньше денег.
+  - 🔄 2026-10-18: из темы сняты неподходящие законопроекты (две проверки); текст аудит оставил
 - [ ] **q95 · Protection of debtors** (направление 226 «возможности кредиторов», ключ −)
   - EN: Debtors should be better protected — for example no electricity cut-offs for unpaid bills and no travel bans over small debts — even if creditors find it harder to collect.
   - RU: Должники должны быть лучше защищены — например, нельзя отключать электричество за неуплату и запрещать выезд из страны из-за небольших долгов, — даже если кредиторам станет труднее взыскивать долги.
+  - 🔄 2026-10-18: из темы сняты неподходящие законопроекты (две проверки); текст аудит оставил
 - [ ] **q96 · Oversight of security forces** (направление 80 «подотчётность и внешний надзор над силовыми структурами», ключ +)
   - EN: The army, police and intelligence services should face more external oversight, including a state commission of inquiry into October 7, even if this exposes political and military leaders to criticism.
   - RU: Армия, полиция и спецслужбы должны быть под большим внешним надзором, включая государственную комиссию по расследованию событий 7 октября, даже если это подставит под критику политиков и военных руководителей.
   - ⚠ самый тяжёлый законопроект (пакуда о полиции, поправка 45) размечен как «больше надзора» — сомнительно
+  - 🔄 2026-10-18: из темы сняты неподходящие законопроекты (две проверки); текст аудит оставил
 - [ ] **q98 · Tax enforcement** (направление 38 «налоговый контроль и полномочия налоговых органов», ключ +)
   - EN: Tax enforcement should be tightened, for example by limiting cash payments and collecting VAT at source in construction, even if businesses face more paperwork.
   - RU: Налоговый контроль нужно ужесточить, например ограничить расчёты наличными и взимать НДС у источника в строительстве, даже если у бизнеса станет больше бумажной работы.
+  - 🔄 2026-10-18: из темы сняты неподходящие законопроекты (две проверки); текст аудит оставил
 - [ ] **q99 · Monitoring of violent partners** (направление 98 «принудительные меры в отношении лиц под защитным приказом», ключ +)
   - EN: People under a protective order for domestic violence should be electronically monitored, even before any conviction.
   - RU: Людей, против которых выдан защитный приказ из-за насилия в семье, нужно отслеживать электронными браслетами ещё до приговора.
@@ -82,15 +91,16 @@ _2026-10-18. Утверждения q72–q104 в квизе (`jef/quiz/statemen
 - [ ] **q101 · Free public education** (направление 253a «объём бесплатного государственного образования», ключ +)
   - EN: The state should provide more free education, from early childhood and after-school programs to university, even if this requires more public spending.
   - RU: Государство должно давать больше бесплатного образования — от раннего детства и внешкольных программ до университета, — даже если это потребует больших государственных расходов.
-- [ ] **q102 · Animal protection** (направление 143 «защита животных», ключ +)
-  - EN: Animal protection laws should be tightened, for example by banning trawling, poisons and animals in entertainment, even if farmers, fishers and businesses bear costs.
-  - RU: Законы о защите животных нужно ужесточить, например запретить донный траловый лов, яды и использование животных в развлечениях, даже если расходы лягут на фермеров, рыбаков и бизнес.
 - [ ] **q103 · Prime minister term limits** (направление 124a «ограничение сроков премьер-министра», ключ −)
   - EN: A prime minister should be limited to two consecutive terms, even if voters lose the option to re-elect a popular leader.
   - RU: Премьер-министр должен быть ограничен двумя сроками подряд, даже если избиратели потеряют возможность переизбрать популярного лидера.
 - [ ] **q104 · Term of Supreme Court justices** (направление 124b «сроки полномочий судей Верховного суда», ключ −)
   - EN: Supreme Court justices should serve a fixed number of years rather than until retirement age, even if experienced judges must leave earlier.
   - RU: Судьи Верховного суда должны служить фиксированное число лет, а не до пенсионного возраста, даже если опытным судьям придётся уйти раньше.
+- [ ] **q105 · Checks on the prime minister's power** (направление 58b «единоличные полномочия главы правительства», ключ −)
+  - EN: The prime minister should have less freedom to act alone, for example to replace senior officials or refuse a state inquiry, even if governing slows.
+  - RU: Глава правительства должен иметь меньше свободы действовать единолично, например заменять высших чиновников или отказываться от государственной комиссии расследования, даже если управление замедлится.
+  - 🆕 2026-10-18: новое — часть 58b после дробления (полномочия главы правительства), текст стандартного аудита, принят
 
 ## Снятые после аудита
 
@@ -101,6 +111,8 @@ _2026-10-18. Утверждения q72–q104 в квизе (`jef/quiz/statemen
 - q87 Immunity for soldiers: 103b раздроблено: иммунитет и полномочия силовиков — обе узкие
 - q91 Cameras in institutions: 100 раздроблено: камеры в садах, съёмка полиции, трансляции — все узкие
 - q97 Cannabis: 271 раздроблено: каннабис (SD 0,14) и алкоголь — обе не проходят
+- q102 Animal protection: после снятия неподходящих законопроектов (конная полиция, морские зоны) разброс 0,22 < 0,25
+- q106 Immunity of elected officials: дубль «A prime minister under indictment» (общие главные законопроекты); формулировку выбрал независимый агент
 
 ## Решено
 

@@ -1,0 +1,80 @@
+{"bill_id": "2198959", "d": "277c", "voted": true, "p": 0.09, "has_notes": true, "tokens": 1058, "expected": "yes"}
+{"bill_id": "2158413", "d": "277a", "voted": true, "p": 0.66, "has_notes": true, "tokens": 2311, "expected": "yes"}
+{"bill_id": "2158413", "d": "276", "voted": true, "p": 0.1, "has_notes": true, "tokens": 2320, "expected": "no"}
+{"bill_id": "2159538", "d": "314", "voted": true, "p": 0.03, "has_notes": true, "tokens": 1510, "expected": "no"}
+{"bill_id": "2197029", "d": "314", "voted": true, "p": 0.04, "has_notes": true, "tokens": 2039, "expected": "no"}
+{"bill_id": "2219182", "d": "314", "voted": true, "p": 0.65, "has_notes": true, "tokens": 2900, "expected": "yes"}
+{"bill_id": "2158413", "d": "275", "voted": true, "p": 0.1, "has_notes": true, "tokens": 2309, "expected": "no"}
+{"bill_id": "2196011", "d": "159", "voted": true, "p": 0.72, "has_notes": true, "tokens": 2054, "expected": "yes"}
+{"bill_id": "2191362", "d": "235", "voted": true, "p": 0.35, "has_notes": true, "tokens": 1287}
+{"bill_id": "2214518", "d": "296a", "voted": true, "p": 0.33, "has_notes": true, "tokens": 1961}
+{"bill_id": "2198761", "d": "169", "voted": true, "p": 0.75, "has_notes": true, "tokens": 1648}
+{"bill_id": "2207137", "d": "173", "voted": true, "p": 0.7, "has_notes": true, "tokens": 2151}
+{"bill_id": "2234082", "d": "90", "voted": true, "p": 0.1, "has_notes": true, "tokens": 2431}
+{"bill_id": "2227682", "d": "146", "voted": true, "p": 0.05, "has_notes": true, "tokens": 2294}
+{"bill_id": "2156993", "d": "66", "voted": true, "p": 0.07, "has_notes": true, "tokens": 2052}
+{"bill_id": "2198191", "d": "60", "voted": true, "p": 0.08, "has_notes": true, "tokens": 878}
+{"bill_id": "2198443", "d": "178", "voted": true, "p": 0.41, "has_notes": true, "tokens": 1566}
+{"bill_id": "2233344", "d": "277c", "voted": true, "p": 0.05, "has_notes": true, "tokens": 1420}
+{"bill_id": "2164000", "d": "241", "voted": true, "p": 0.32, "has_notes": true, "tokens": 2875}
+{"bill_id": "2198852", "d": "3", "voted": true, "p": 0.09, "has_notes": true, "tokens": 941}
+{"bill_id": "2213476", "d": "3", "voted": true, "p": 0.13, "has_notes": true, "tokens": 1678}
+{"bill_id": "2197756", "d": "269", "voted": true, "p": 0.11, "has_notes": true, "tokens": 2782}
+{"bill_id": "2202840", "d": "277a", "voted": true, "p": 0.1, "has_notes": true, "tokens": 1175}
+{"bill_id": "2223239", "d": "178", "voted": true, "p": 0.38, "has_notes": true, "tokens": 2738}
+{"bill_id": "2229752", "d": "63", "voted": true, "p": 0.34, "has_notes": true, "tokens": 2885}
+{"bill_id": "2214419", "d": "90", "voted": true, "p": 0.11, "has_notes": true, "tokens": 2712}
+{"bill_id": "2156362", "d": "166", "voted": true, "p": 0.96, "has_notes": true, "tokens": 2780}
+{"bill_id": "2163489", "d": "3", "voted": true, "p": 0.39, "has_notes": true, "tokens": 1388}
+{"bill_id": "2196772", "d": "31", "voted": true, "p": 0.33, "has_notes": true, "tokens": 1896}
+{"bill_id": "2217182", "d": "241", "voted": true, "p": 0.79, "has_notes": true, "tokens": 2112}
+{"bill_id": "2198443", "d": "92", "voted": true, "p": 0.31, "has_notes": true, "tokens": 1573}
+{"bill_id": "2156088", "d": "169", "voted": true, "p": 0.79, "has_notes": true, "tokens": 2065}
+{"bill_id": "2220847", "d": "3", "voted": true, "p": 0.12, "has_notes": true, "tokens": 1135}
+{"bill_id": "2236314", "d": "187", "voted": true, "p": 0.15, "has_notes": true, "tokens": 1623}
+{"bill_id": "2215060", "d": "178", "voted": true, "p": 0.63, "has_notes": true, "tokens": 2847}
+{"bill_id": "2220430", "d": "178", "voted": true, "p": 0.24, "has_notes": true, "tokens": 1848}
+{"bill_id": "2213836", "d": "130", "voted": true, "p": 0.24, "has_notes": true, "tokens": 1543}
+{"bill_id": "2198638", "d": "66", "voted": false, "p": 0.07, "has_notes": true, "tokens": 1803}
+{"bill_id": "2157247", "d": "71", "voted": false, "p": 0.62, "has_notes": true, "tokens": 1599}
+{"bill_id": "2242922", "d": "142", "voted": true, "p": 0.07, "has_notes": true, "tokens": 1051}
+{"bill_id": "2210530", "d": "178", "voted": false, "p": 0.36, "has_notes": true, "tokens": 791}
+{"bill_id": "2169574", "d": "181", "voted": false, "p": 0.28, "has_notes": true, "tokens": 2772}
+{"bill_id": "2222145", "d": "187", "voted": false, "p": 0.48, "has_notes": true, "tokens": 1716}
+{"bill_id": "2159467", "d": "241", "voted": false, "p": 0.3, "has_notes": true, "tokens": 2293}
+{"bill_id": "2190946", "d": "352", "voted": false, "p": 0.77, "has_notes": true, "tokens": 1372}
+{"bill_id": "2216177", "d": "71", "voted": false, "p": 0.31, "has_notes": true, "tokens": 2438}
+{"bill_id": "2157067", "d": "300", "voted": false, "p": 0.47, "has_notes": true, "tokens": 1531}
+{"bill_id": "2196858", "d": "169", "voted": false, "p": 0.7, "has_notes": true, "tokens": 2767}
+{"bill_id": "2225412", "d": "90", "voted": true, "p": 0.07, "has_notes": true, "tokens": 1730}
+{"bill_id": "2221109", "d": "90", "voted": false, "p": 0.08, "has_notes": true, "tokens": 1906}
+{"bill_id": "2167490", "d": "241", "voted": false, "p": 0.18, "has_notes": true, "tokens": 1781}
+{"bill_id": "2196176", "d": "158", "voted": false, "p": 0.84, "has_notes": true, "tokens": 1254}
+{"bill_id": "2217011", "d": "356", "voted": false, "p": 0.05, "has_notes": true, "tokens": 2134}
+{"bill_id": "2230175", "d": "187", "voted": true, "p": 0.35, "has_notes": true, "tokens": 1519}
+{"bill_id": "2156881", "d": "130", "voted": false, "p": 0.25, "has_notes": true, "tokens": 1357}
+{"bill_id": "2159301", "d": "204", "voted": false, "p": 0.3, "has_notes": true, "tokens": 2140}
+{"bill_id": "2233112", "d": "77", "voted": true, "p": 0.17, "has_notes": true, "tokens": 1323}
+{"bill_id": "2160021", "d": "66", "voted": false, "p": 0.08, "has_notes": true, "tokens": 2831}
+{"bill_id": "2195656", "d": "154", "voted": false, "p": 0.07, "has_notes": true, "tokens": 2466}
+{"bill_id": "2157504", "d": "275", "voted": false, "p": 0.21, "has_notes": true, "tokens": 1746}
+{"bill_id": "2226762", "d": "187", "voted": false, "p": 0.38, "has_notes": true, "tokens": 1972}
+{"bill_id": "2191031", "d": "309", "voted": false, "p": 0.07, "has_notes": true, "tokens": 1356}
+{"bill_id": "2228790", "d": "169", "voted": false, "p": 0.19, "has_notes": true, "tokens": 2820}
+{"bill_id": "2190378", "d": "77", "voted": false, "p": 0.14, "has_notes": true, "tokens": 1177}
+{"bill_id": "2222508", "d": "169", "voted": false, "p": 0.8, "has_notes": true, "tokens": 2077}
+{"bill_id": "2215997", "d": "92", "voted": false, "p": 0.1, "has_notes": true, "tokens": 2894}
+{"bill_id": "2157230", "d": "277c", "voted": false, "p": 0.24, "has_notes": true, "tokens": 2861}
+{"bill_id": "2158530", "d": "92", "voted": true, "p": 0.32, "has_notes": true, "tokens": 1504}
+{"bill_id": "2239100", "d": "90", "voted": true, "p": 0.1, "has_notes": true, "tokens": 1564}
+{"bill_id": "2240148", "d": "187", "voted": false, "p": 0.62, "has_notes": true, "tokens": 2965}
+{"bill_id": "2214188", "d": "187", "voted": false, "p": 0.15, "has_notes": true, "tokens": 1749}
+{"bill_id": "2157572", "d": "181", "voted": false, "p": 0.52, "has_notes": true, "tokens": 1577}
+{"bill_id": "1042178", "d": "25", "voted": false, "p": 0.66, "has_notes": true, "tokens": 2925}
+{"bill_id": "2223612", "d": "178", "voted": false, "p": 0.55, "has_notes": true, "tokens": 2104}
+{"bill_id": "2159017", "d": "277c", "voted": false, "p": 0.08, "has_notes": true, "tokens": 1281}
+{"bill_id": "2240516", "d": "241", "voted": false, "p": 0.47, "has_notes": false, "tokens": 554}
+{"bill_id": "2165975", "d": "241", "voted": false, "p": 0.4, "has_notes": true, "tokens": 2085}
+{"bill_id": "2158074", "d": "352", "voted": false, "p": 0.23, "has_notes": true, "tokens": 1601}
+{"bill_id": "2231072", "d": "178", "voted": false, "p": 0.41, "has_notes": true, "tokens": 1332}
+{"bill_id": "2226030", "d": "179", "voted": false, "p": 0.46, "has_notes": true, "tokens": 898}

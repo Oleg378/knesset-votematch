@@ -1,0 +1,41 @@
+id,list,q,p,band,quiz_side,n_bills,n_voted,side,confidence,reason,match
+G1,ט,94,-0.555,strong,agree,6,12,agree,medium,"Sponsored arnona discounts for disabled children, reservists, lone soldiers and cheaper parking; K25 coalition votes against similar bills read as coalition line.",True
+G2,שס,45,0.896,strong,agree,19,54,agree,high,"Sponsored revoking citizenship of paid terrorists, freezing PA terror funds, denying benefits; voted for death penalty for terrorists, deporting families, UNRWA ban.",True
+G3,מחל,92,0.553,strong,agree,22,3,agree,high,"Sponsored many expansions: disability pension for homemakers, removing nursing-care income test, sick pay from day one, mobility allowance; voted for self-employed injury pay.",True
+G4,עם,95,-0.747,strong,agree,19,21,agree,high,"Sponsored bans on electricity cut-offs, ending travel bans for small debts, limiting seizures of cars and elderly property; K24 coalition votes against excepted.",True
+G5,עם,92,0.526,strong,agree,9,2,agree,high,"Sponsored disability pension for homemakers, injury pay for self-employed, broader sick leave for family illness, extended cancer-patient eligibility.",True
+G6,כן,51,0.683,strong,agree,2,3,agree,medium,Two sponsored bills help olim: adequate representation in civil service and reduced National Insurance for employers hiring immigrants.,True
+G7,שס,38,0.875,strong,agree,10,2,agree,medium,"Sponsored easier/early withdrawals: child savings without parental signature, tax-free study fund withdrawal in war, for evacuees, broader pension capitalization.",True
+G8,ודם,23,1.0,strong,disagree,1,0,disagree,low,"Only bill bans contractor employment in public bodies, protecting public-sector workers; no votes.",True
+G9,רק,96,0.824,strong,agree,15,35,agree,high,"Sponsored state commission of inquiry into October 7 (12 MKs), police violence bills, water-cannon documentation; voted for multiple Oct 7 commission bills.",True
+G10,רק,22,0.792,strong,agree,4,2,agree,high,Sponsored civil marriage and civil union bills (10 and 9 MKs) and voted for them.,True
+G11,כן,38,1.0,strong,agree,1,0,agree,low,Single sponsored bill allows study-fund withdrawal to buy a first apartment; no votes.,True
+G12,כן,49,0.584,strong,disagree,4,14,disagree,medium,"Sponsored Basic Law: Rights in Criminal Proceedings, lawyer presence in interrogating minors, adapted interrogation for mentally ill - all expanding protections.",True
+G13,ודם,80,1.051,strong,agree,19,35,agree,high,"Sponsored court review of seized property, access to courts in entry law, prisoner appeal as of right, water-cannon documentation; voted against limiting judicial review.",True
+G14,ל,86,0.833,strong,agree,1,1,agree,medium,Sponsored (5 MKs) expanding capital investment benefits for agriculture to match industry.,True
+G15,ב,12,-0.506,strong,agree,3,9,agree,medium,Sponsored exempting employers of foreign caregivers from pension duty; voted for Basic Law: Immigration and limiting infiltrators' money transfers.,True
+G16,ב,10,-0.722,strong,agree,12,18,agree,high,"Sponsored illegal-stay bill, deporting Eritrean infiltrators, banning PA work permits, citizenship and entry temporary law; voted for all such bills.",True
+G17,ג,64,0.27,medium,disagree,1,1,disagree,medium,Sponsored and voted for restoring criminal immunity for MKs serving as ministers.,True
+G18,אמת,37,-0.248,medium,disagree,7,8,disagree,medium,"Sponsored coastal-environment protection reviewing approved plans; voted against new city, public housing stock and housing supply bills.",True
+G19,אמת,95,-0.44,medium,agree,23,22,agree,high,"Sponsored bans on electricity cut-offs, limiting bank seizures and lawyer fees, ending driving-licence restrictions; K24 coalition votes against are coalition line.",True
+G20,ג,94,-0.492,medium,agree,12,12,agree,medium,"Sponsored arnona discounts for disabled child and disabled, parking fine reductions and parking price caps; K25 votes against read as coalition line.",True
+G21,ג,80,0.4,medium,agree,21,33,agree,medium,"Sponsored appeal committees for public institutions, right to argue before benefit denial, NI appeals, fare appeals; Basic Law: Government bills cut other way.",True
+G22,ג,63,-0.252,medium,agree,9,16,agree,high,Sponsored override clause for Basic Law: Human Dignity (several versions); voted for override and Basic Law: Government amendments limiting review.,True
+G23,אמת,49,0.444,medium,disagree,17,17,disagree,high,"Sponsored lawyer presence in interrogation, limiting state appeals, compensation for arrest, Basic Law: Criminal Proceedings Rights, anti false detention.",True
+G24,דרך,105,-0.31,medium,agree,3,4,agree,high,Sponsored mandatory state inquiry for certain events; voted against Basic Law: Government 13 and against removing senior officials with new government.,True
+G25,אמת,54,0.278,medium,agree,3,10,disagree,low,"Sponsored bills are about draft evasion, not terrorism; voted against denying medical care to terrorists and ICRC ban, K24 votes against benefit denial.",False
+G26,דרך,8,0.356,medium,agree,2,5,agree,high,Sponsored Israeli Service bill and civilian reserve service; voted for multiple 'compulsory service for all' bills.,True
+G27,דרך,40,0.363,medium,agree,1,16,agree,high,"Sponsored equality amendment to Basic Law; voted for conversion-therapy bans, housing non-discrimination, sexual orientation discrimination definition, adoption eligibility.",True
+G28,דרך,10,-0.373,medium,agree,1,11,agree,medium,"Sponsored illegal-stay bill tightening citizenship/entry; voted for Entry Law amendment 41, against Return Law family rights; against Basic Law: Immigration.",True
+G29,ט,62,0.421,medium,agree,18,25,agree,high,"Sponsored ministers appointing ministry legal advisers, splitting AG role, AG law; voted for police ordinance amendments and senior appointment bills.",True
+G30,ט,47,0.213,medium,agree,10,40,agree,medium,"Sponsored broader arrest grounds, pre-indictment seizure, police instruction powers; voted for anti-crime-organization law; journalist-protection bill points other way.",True
+G31,מחל,19,0.02,weak,unclear,0,3,disagree,medium,No sponsored bills; voted overwhelmingly against core-curriculum expansion and core-studies voucher bills.,False
+G32,מחל,96,0.103,weak,unclear,45,33,disagree,medium,Voted against all Oct 7 state commission bills; sponsored alternative 'national' commission and immunity for soldiers in operations.,False
+G33,מחל,71,0.144,weak,unclear,4,5,agree,medium,"Sponsored safety net for self-employed in emergencies, extended dismissal protection for reservists, NI amendment for reservists; votes against opposition bills as coalition.",False
+G34,ל,52,0.151,weak,unclear,6,5,agree,low,"Sponsored consumer protections (cancelling tourism deals, banning online fees) but also personal contracts for kindergarten staff and exempting foreign farmworkers from collective agreements.",False
+G35,ל,25,-0.017,weak,unclear,0,2,disagree,medium,No sponsored bills; voted against separate bathing hours bill and against student rights amendment 12.,False
+G36,ל,16,-0.001,weak,unclear,0,5,agree,medium,No sponsored bills; voted for fertility preservation right and posthumous sperm use bills.,False
+G37,רק,18,0.048,weak,unclear,0,6,disagree,low,"No sponsored bills; voted against ICRC-ban and security-prisoner conditions bills, minor votes for denying terrorists medical care.",False
+G38,ודם,71,0.194,weak,unclear,7,3,agree,high,"Sponsored tax payment deferral in emergencies, tax-free study fund withdrawal, rental extension, bounced-cheque relief, student aid in emergencies.",False
+G39,ודם,72,-0.099,weak,unclear,0,3,disagree,medium,No sponsored bills; voted against both bills abolishing discrimination in Judea and Samaria land purchase.,False
+G40,שס,19,-0.096,weak,unclear,0,3,disagree,medium,No sponsored bills; voted against core-curriculum expansion and core-studies voucher bills.,False

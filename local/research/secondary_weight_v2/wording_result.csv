@@ -1,0 +1,303 @@
+id,item,verdict,detail
+P1-q5,statement,misfit_bills,2211131 2210354
+P1-q9,statement,misfit_bills,2170082
+P1-q12,statement,rewrite;misfit_bills,"Foreign workers' and asylum seekers' rights | Foreign workers and asylum seekers should have fewer rights than Israelis, such as pensions, driving licences or full access to the courts, even if this worsens their working and living conditions. | misfit: 2159382"
+P1-q16,statement,rewrite,"Access to fertility treatments | The state should widen access to fertility treatments such as surrogacy, egg donation and egg freezing, and fund more of them, even if this costs public money or goes against religious law."
+P1-q24,statement,misfit_bills,2160035 2233290
+P1-q35,statement,ok,
+P1-q37,statement,ok,
+P1-q38,statement,rewrite,"Access to long-term savings | People should be freer to take out their pension, provident and study-fund savings as a lump sum, early or tax-free, even if they are left with less income in old age."
+P1-q41,statement,misfit_bills,2157099
+P1-q48,statement,rewrite;misfit_bills,"Independent committees for senior appointments | Top appointments, such as the Supreme Court president or the police commissioner, should be decided by independent professional committees, even if ministers and the Knesset have less say. | misfit: 2224733"
+P1-q51,statement,misfit_bills,2156061 2158128 2199544 2241731
+P1-q52,statement,misfit_bills,2199458 2166058 2190946
+P1-q53,statement,misfit_bills,2156982
+P1-q54,statement,misfit_bills,2226921 2227498
+P1-q55,statement,ok,
+P1-q64,statement,rewrite;misfit_bills,"Criminal cases against government leaders | A prime minister or minister facing a criminal case should get no special protection, such as immunity or a ban on investigating them, and should leave office once indicted, even if no court has convicted them. | misfit: 2210721 2158705"
+P1-q78,statement,ok,
+P1-q80,statement,misfit_bills,2205865 2199409
+P1-q89,statement,ok,
+P1-q90,statement,misfit_bills,2200709
+P1-q94,statement,misfit_bills,2225119
+P1-q95,statement,ok,
+P1-q96,statement,ok,
+P2-1,2156400,borderline,constitutional court basic law: who reviews laws plus how its judges are picked
+P2-1,2159024,about,
+P2-1,2159877,about,
+P2-1,side,supported,voted against more political control of Supreme Court appointments
+P2-2,2159024,about,
+P2-2,2159877,about,
+P2-2,2156400,borderline,constitutional court basic law
+P2-2,side,supported,
+P2-3,2200570,borderline,heritage authority in J&S extends Israeli agency there = creeping annexation
+P2-3,2163382,about,
+P2-3,2165950,about,
+P2-3,2156362,about,
+P2-3,2156405,about,
+P2-3,side,supported,
+P2-4,2203397,about,
+P2-4,2198938,about,
+P2-4,2231986,about,
+P2-4,2220999,about,against recognising a Palestinian state
+P2-4,side,supported,voted for Jordan Valley / Maale Adumim sovereignty = parts of J&S
+P2-5,2157408,borderline,illegal-immigration ban; Jewish-majority rationale but substance is immigration
+P2-5,2159382,borderline,immigration basic law; same
+P2-5,2210157,borderline,immigration basic law; same
+P2-5,2196908,borderline,immigration basic law; same
+P2-5,2198155,about,against repealing the nation-state law
+P2-5,side,supported,nation-state vote plus own bills; immigration bills add most of the push
+P2-6,2159382,borderline,immigration basic law
+P2-6,2198155,about,for repealing the nation-state law
+P2-6,2224619,borderline,official use of term Judea and Samaria: national-historical naming
+P2-6,2157408,borderline,immigration basic law
+P2-6,2196908,borderline,immigration basic law
+P2-6,side,supported,
+P2-7,2198716,about,national authority for Moroccan-Jewish culture = community heritage body
+P2-7,side,supported,single vote only; thin
+P2-8,2196942,about,
+P2-8,2199287,about,
+P2-8,2197572,about,
+P2-8,2198982,about,
+P2-8,2197196,about,
+P2-8,side,supported,
+P2-9,2164153,about,duty to call up all (incl. exempt groups) for service
+P2-9,2156464,about,against abolishing conscription
+P2-9,side,supported,weak (+0.20)
+P2-10,2200888,about,
+P2-10,2205673,about,
+P2-10,2164153,about,
+P2-10,2216397,about,
+P2-10,side,supported,
+P2-11,2196921,about,use of unclaimed deposit money of foreign workers and infiltrators
+P2-11,2159382,not_about,"admission/immigration policy, not rights of those already here"
+P2-11,2157408,not_about,admission/immigration policy
+P2-11,2167562,borderline,"visa extension for foreign caregivers: residence, touches working conditions"
+P2-11,2196908,not_about,admission/immigration policy
+P2-11,side,unclear,only 2196921 is about; most push comes from immigration basic laws
+P2-12,2214465,about,
+P2-12,2198188,about,
+P2-12,2161700,about,
+P2-12,2161202,borderline,"tax on foreign-state donations to NGOs: foreign influence via funding, not presence"
+P2-12,2201428,borderline,Jerusalem basic law; foreign-state role only indirect
+P2-12,side,supported,UNRWA votes carry it
+P2-13,2215082,about,tender priority for reservists' businesses
+P2-13,2198650,about,
+P2-13,2198323,about,
+P2-13,2218723,about,
+P2-13,2195688,about,
+P2-13,side,supported,
+P2-14,2166125,about,right to fertility preservation (egg freezing)
+P2-14,side,supported,single vote
+P2-15,2197756,about,posthumous sperm use
+P2-15,side,unclear,single bill regulating posthumous use; whether it widens or narrows access depends on its consent rule
+P2-16,2196011,borderline,"mainly civil marriage; divorce part is civil route, not divorce against a spouse's will"
+P2-16,side,unclear,"vote reflects religious personal-status stance, not ease of contested divorce"
+P2-17,2224634,about,
+P2-17,2201102,about,
+P2-17,side,supported,
+P2-18,2201102,about,
+P2-18,2161202,about,
+P2-18,2224634,about,
+P2-18,side,supported,
+P2-19,2224634,about,
+P2-19,2201102,about,
+P2-19,2161202,about,
+P2-19,side,supported,
+P2-20,2196011,about,
+P2-20,2196991,about,
+P2-20,side,supported,
+P2-21,2196011,about,
+P2-21,side,supported,
+P2-22,2196154,about,override clause
+P2-22,2159024,about,
+P2-22,2159877,about,
+P2-22,2156372,about,override for Basic Law: Human Dignity
+P2-22,2196924,borderline,Knesset committee approval of court procedure rules
+P2-22,side,supported,own bills agree too
+P2-23,2196154,about,
+P2-23,2159024,about,
+P2-23,2159877,about,
+P2-23,2156400,borderline,constitutional court basic law
+P2-23,2156570,about,override clause
+P2-23,side,supported,
+P2-24,2169211,about,fare discount for people with disabilities on public transport
+P2-24,side,supported,single vote; thin
+P2-25,2232339,about,
+P2-25,2156088,about,
+P2-25,2229315,about,
+P2-25,2158539,about,
+P2-25,2165450,about,electricity for young settlements
+P2-25,side,supported,
+P2-26,2156088,about,
+P2-26,2232339,about,
+P2-26,2156889,about,
+P2-26,2158539,about,
+P2-26,2229315,about,
+P2-26,side,supported,
+P2-27,2159014,about,public housing stock
+P2-27,2159159,about,new town
+P2-27,2207143,borderline,"homes on grazing land: planning leniency, little supply effect"
+P2-27,2227961,borderline,mostly local-government structure; housing supply in title
+P2-27,2220902,borderline,homes on grazing land
+P2-27,side,supported,votes against two supply bills plus own coastal bills; may reflect coalition voting
+P2-28,2201038,not_about,denial of pension money for terror activity = sanction
+P2-28,side,not_supported,only bill is a terror sanction
+P2-29,2200794,borderline,raises deposit cap of investment provident funds (liquid savings); access only indirect
+P2-29,side,unclear,
+P2-30,2196342,borderline,general right to equality; LGBT only implied
+P2-30,2199914,about,conversion therapy ban
+P2-30,2197664,about,adoption eligibility (same-sex couples)
+P2-30,2200332,borderline,housing discrimination in general
+P2-30,2200316,about,discrimination on sexual orientation/gender identity
+P2-30,side,supported,
+P2-31,2199298,borderline,"death penalty = punishment, not prevention/financing measures"
+P2-31,2214465,not_about,UNRWA
+P2-31,2197840,about,deporting terrorists' families
+P2-31,2196942,about,revoking status of paid terrorists
+P2-31,2213961,borderline,penalties for illegal residents framed as security
+P2-31,side,supported,
+P2-32,2241731,not_about,general old-age allowance (unless it targets olim)
+P2-32,2203631,not_about,"Law of Return grandchild clause = eligibility, not benefits"
+P2-32,2156101,not_about,Law of Return grandchild clause
+P2-32,2197203,about,passport for olim
+P2-32,side,not_supported,side rests on Law of Return and old-age allowance; only a small passport push is about
+P2-33,2156101,not_about,Law of Return grandchild clause
+P2-33,2202866,borderline,double NI payment on foreign income; olim implied
+P2-33,2200336,about,recognising EU professional licences for olim
+P2-33,2196835,borderline,double NI payment on foreign income
+P2-33,2241731,not_about,general old-age allowance
+P2-33,side,unclear,only 2200336 clearly about
+P2-34,2221002,about,prison service may use outside manpower
+P2-34,2170082,not_about,municipal guard
+P2-34,2234065,borderline,"online ride-sharing: market competition, private transport"
+P2-34,2229858,borderline,online ride-sharing
+P2-34,2235850,borderline,online ride-sharing
+P2-34,side,supported,prison-staff vote plus own anti-contracting bills
+P2-35,2158413,about,
+P2-35,2156467,about,
+P2-35,2211439,about,no state-funded lawyer for security suspects
+P2-35,2211922,about,no Red Cross visits = prison privileges
+P2-35,2213768,about,
+P2-35,side,supported,
+P2-36,2213768,about,
+P2-36,2211922,about,
+P2-36,2197166,about,
+P2-36,2218862,borderline,"allowances to Gaza residents, not terror convicts"
+P2-36,2211439,about,
+P2-36,side,supported,
+P2-37,2205557,about,
+P2-37,side,supported,single law plus own bills
+P2-38,2207023,borderline,broad anti-crime-organisation powers; confiscation only part
+P2-38,2201437,borderline,"forfeiting PA funds, not criminals' property"
+P2-38,2235662,not_about,UNRWA utilities and real-estate seizure
+P2-38,2201038,not_about,pension denial as terror sanction
+P2-38,2167084,about,forfeiting proceeds of agricultural crime
+P2-38,side,unclear,only one small push is clearly about
+P2-39,2157701,borderline,"criminal immunity for ministers: related, not indictment-in-office"
+P2-39,2200701,borderline,court review of minister appointments
+P2-39,2201424,about,limits declaring PM incapacitated
+P2-39,2225126,not_about,PM press conferences
+P2-39,2198919,not_about,terrorists' bodies
+P2-39,side,supported,with own bills; votes thin
+P2-40,2199298,borderline,"death penalty: severity, mandatory sentence limits discretion only partly"
+P2-40,2169951,about,
+P2-40,2169594,about,
+P2-40,2158530,borderline,death penalty
+P2-40,2205932,borderline,harsher maximum for firearm use
+P2-40,side,supported,
+P2-41,2199298,borderline,death penalty
+P2-41,2200302,about,
+P2-41,2216827,not_about,sex offender return restrictions
+P2-41,2200663,borderline,death penalty
+P2-41,2198443,borderline,death penalty
+P2-41,side,supported,stone-throwing minimum vote supports; most push is death penalty
+P2-42,2224229,borderline,access to J&S land registry
+P2-42,2205720,about,repeal Jordanian ban on land sales
+P2-42,side,supported,
+P2-43,2196659,about,
+P2-43,2199044,about,
+P2-43,2195990,about,
+P2-43,2196342,about,
+P2-43,2198951,about,
+P2-43,side,supported,
+P2-44,2230390,about,
+P2-44,side,supported,single vote
+P2-45,2230039,about,voting conditioned on service
+P2-45,2222646,borderline,local election timing in wartime
+P2-45,2215192,about,declaration of loyalty as voting/candidacy condition
+P2-45,2222870,borderline,local election timing in wartime
+P2-45,2226673,about,voting conditioned on service
+P2-45,side,supported,
+P2-46,2170082,about,local guard units (named in statement)
+P2-46,2218124,borderline,number of deputy mayors
+P2-46,2217182,not_about,national planning for rural settlement in Galilee/Negev
+P2-46,2225649,borderline,land-authority revenue to municipalities
+P2-46,2233165,not_about,rebuilding war-damaged buildings
+P2-46,side,supported,guard vote plus own bills
+P2-47,2159024,borderline,mainly appointment method; term limit is a side clause
+P2-47,2159877,borderline,same
+P2-47,side,unclear,"vote likely against political appointment, not against term limits"
+P2-48,2159024,borderline,mainly appointment method
+P2-48,2159877,borderline,same
+P2-48,2165206,about,term tied to PM's term
+P2-48,2160619,about,term limit for justices
+P2-48,side,supported,weak; term-limit votes are small
+P3-1,2224733,borderline,Supreme Court president by seniority when committee deadlocks; not committee votes
+P3-2,2166157,borderline,"Knesset elects Supreme Court president; appointment of president, not committee"
+P3-3,2159877,about,changes Supreme Court judge selection toward elected officials
+P3-4,2220999,about,recognising Palestinian state on 1967 lines = opposite of sovereignty
+P3-5,2163745,about,Greater Jerusalem: applies Israeli law to settlements around Jerusalem
+P3-6,2198155,about,repeal of Nation-State Law
+P3-7,2159158,about,repeal of Nation-State Law
+P3-8,2211734,about,Declaration-based basic law; sign uncertain if it balances Jewish and equal
+P3-9,2156708,about,revoking status of paid terrorists
+P3-10,2196942,about,revoking status of paid terrorists
+P3-11,2243800,about,Basic Law: Torah study entrenches exemption
+P3-12,2198947,about,yeshiva students' integration in service after Ressler ruling
+P3-13,2197310,about,conscientious-objection exemption
+P3-14,2159044,about,conscientious-objection exemption
+P3-15,2203151,about,Israeli service for all
+P3-16,2228138,about,illegal stay/residence incl. family unification
+P3-17,2160325,about,bans foreign diplomatic missions in Jerusalem
+P3-18,2217201,about,UNRWA ban
+P3-19,2190645,about,equal funding for unofficial schools
+P3-20,2164170,about,full funding for recognised unofficial schools; notes stress core studies: sign wrong if funding is tied to core
+P3-21,2197973,about,same bill as 2164170; sign wrong if funding is tied to core
+P3-22,2201197,about,core-studies obligation
+P3-23,2156228,about,core-studies obligation
+P3-24,2196043,about,core-studies obligation
+P3-25,2165267,about,foreign-funded NGOs law
+P3-26,2201102,about,transparency for foreign-state-supported organisations
+P3-27,2156420,about,civil marriage and divorce
+P3-28,2206726,about,civil marriage and divorce
+P3-29,2200375,about,separate bathing hours at nature sites
+P3-30,2159485,about,separate bathing hours at nature sites
+P3-31,2159625,about,separate study tracks in higher education
+P3-32,2156088,about,regularising settlements in J&S
+P3-33,2212244,not_about,"Gaza-envelope (Tkuma) towns inside Israel, not J&S settlements"
+P3-34,2197837,about,limits defamation damages for public figures
+P3-35,2157494,about,limits defamation damages for public figures
+P3-36,2166586,about,adds weight-shaming to defamation
+P3-37,2197466,about,adds weight-shaming to defamation
+P3-38,2205557,about,limits guardianship of parent convicted of killing the other parent
+P3-39,2200887,about,removes natural guardianship of accused/convicted violent parents
+P3-40,2205806,about,removes natural guardianship of accused/convicted violent parents
+P3-41,2159586,borderline,orderly transfer of power procedure; Attorney General role incidental
+P3-42,2159711,about,ministers appoint ministry legal advisers
+P3-43,2200701,borderline,shields minister appointments from review; not re-enacting struck-down laws
+P3-44,2190775,not_about,"environmental right in a Basic Law, not equality"
+P3-45,2201421,about,dismissing teachers who support terror
+P3-46,2212936,about,dismissing teachers who support terror
+P3-47,2166193,about,new Arab university = more places
+P3-48,2190865,about,forfeiting PA funds offset for terror payments
+P3-49,2214421,about,ban on transfers to a terror-supporting authority
+P3-50,2193584,not_about,"party membership age, not voting in elections"
+P3-51,2216421,about,voting arrangements for civil-service volunteers
+P3-52,2213071,borderline,moving local election date (religious calendar); access only indirect
+P3-53,2203626,about,voting abroad for national-service volunteers
+P3-54,2203886,about,electronic monitoring under protective order
+P3-55,2086395,borderline,"court-ordered treatment for violent persons, not monitoring"
+P3-56,2224149,about,PM term limit
+P3-57,2237706,about,PM term limit
+P3-58,2165206,about,justices' term capped at PM term length

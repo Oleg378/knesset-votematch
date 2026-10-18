@@ -1,0 +1,3395 @@
+[
+ {
+  "law": "judicial_selection",
+  "bill_id": "2156499",
+  "knesset": 24,
+  "title": "הצעת חוק-יסוד: השפיטה (תיקון - הרכב הוועדה לבחירת שופטים)",
+  "notes_file": "data/bill_texts/2156499.json",
+  "main": [
+   {
+    "n": "288",
+    "sign": "+",
+    "p_choice": 0.92
+   }
+  ],
+  "secondary": [
+   {
+    "n": "289",
+    "sign": "+",
+    "applies": 0.8
+   }
+  ]
+ },
+ {
+  "law": "judicial_selection",
+  "bill_id": "2156628",
+  "knesset": 24,
+  "title": "הצעת חוק-יסוד: השפיטה (תיקון - הרכב הוועדה לבחירת שופטים ושימוע טרם בחירת שופטי בית המשפט העליון)",
+  "notes_file": "data/bill_texts/2156628.json",
+  "main": [
+   {
+    "n": "72",
+    "sign": "+",
+    "p_choice": 0.86
+   }
+  ],
+  "secondary": [
+   {
+    "n": "46",
+    "sign": "+",
+    "applies": 0.92
+   },
+   {
+    "n": "45",
+    "sign": "+",
+    "applies": 0.89
+   },
+   {
+    "n": "71",
+    "sign": "−",
+    "applies": 0.86
+   },
+   {
+    "n": "340",
+    "sign": "−",
+    "applies": 0.75
+   },
+   {
+    "n": "60",
+    "sign": "+",
+    "applies": 0.72
+   }
+  ]
+ },
+ {
+  "law": "judicial_selection",
+  "bill_id": "2196184",
+  "knesset": 25,
+  "title": "הצעת חוק-יסוד: השפיטה (תיקון - הרכב הוועדה לבחירת שופטים)",
+  "notes_file": "data/bill_texts/2196184.json",
+  "main": [
+   {
+    "n": "288",
+    "sign": "+",
+    "p_choice": 0.87
+   }
+  ],
+  "secondary": [
+   {
+    "n": "289",
+    "sign": "+",
+    "applies": 0.78
+   }
+  ]
+ },
+ {
+  "law": "judicial_selection",
+  "bill_id": "2198010",
+  "knesset": 25,
+  "title": "הצעת חוק-יסוד: השפיטה (תיקון - שינוי הרכב הוועדה לבחירת שופטים)",
+  "notes_file": "data/bill_texts/2198010.json",
+  "main": [
+   {
+    "n": "288",
+    "sign": "+",
+    "p_choice": 0.43
+   },
+   {
+    "n": "72",
+    "sign": "+",
+    "p_choice": 0.25
+   }
+  ],
+  "secondary": [
+   {
+    "n": "346",
+    "sign": "+",
+    "applies": 0.83
+   },
+   {
+    "n": "60",
+    "sign": "+",
+    "applies": 0.82
+   },
+   {
+    "n": "46",
+    "sign": "+",
+    "applies": 0.79
+   },
+   {
+    "n": "55",
+    "sign": "+",
+    "applies": 0.79
+   },
+   {
+    "n": "364",
+    "sign": "−",
+    "applies": 0.79
+   }
+  ]
+ },
+ {
+  "law": "judicial_selection",
+  "bill_id": "2201200",
+  "knesset": 25,
+  "title": "חוק-יסוד: השפיטה (תיקון מס' 4)",
+  "notes_file": "data/bill_texts/2201200.json",
+  "main": [
+   {
+    "n": "72",
+    "sign": "+",
+    "p_choice": 0.82
+   }
+  ],
+  "secondary": [
+   {
+    "n": "46",
+    "sign": "+",
+    "applies": 0.92
+   },
+   {
+    "n": "60",
+    "sign": "+",
+    "applies": 0.9
+   },
+   {
+    "n": "71",
+    "sign": "−",
+    "applies": 0.89
+   },
+   {
+    "n": "66",
+    "sign": "−",
+    "applies": 0.86
+   },
+   {
+    "n": "288",
+    "sign": "−",
+    "applies": 0.84
+   }
+  ]
+ },
+ {
+  "law": "judicial_selection",
+  "bill_id": "2201660",
+  "knesset": 25,
+  "title": "הצעת חוק-יסוד: השפיטה (תיקון מס' 4) (ביקורת שיפוטית בעניין תוקפו של חוק)",
+  "notes_file": "data/bill_texts/2201660.json",
+  "main": [
+   {
+    "n": "66",
+    "sign": "+",
+    "p_choice": 0.97
+   }
+  ],
+  "secondary": [
+   {
+    "n": "345",
+    "sign": "+",
+    "applies": 0.84
+   },
+   {
+    "n": "288",
+    "sign": "+",
+    "applies": 0.83
+   }
+  ]
+ },
+ {
+  "law": "incapacity",
+  "bill_id": "2201424",
+  "knesset": 25,
+  "title": "חוק־יסוד: הממשלה (תיקון מס' 12)",
+  "notes_file": "data/bill_texts/2201424.json",
+  "main": [
+   {
+    "n": "66",
+    "sign": "−",
+    "p_choice": 0.33
+   },
+   {
+    "n": "58",
+    "sign": "+",
+    "p_choice": 0.3
+   }
+  ],
+  "secondary": [
+   {
+    "n": "69",
+    "sign": "−",
+    "applies": 0.8
+   },
+   {
+    "n": "122",
+    "sign": "+",
+    "applies": 0.78
+   }
+  ]
+ },
+ {
+  "law": "deri",
+  "bill_id": "2159953",
+  "knesset": 24,
+  "title": "הצעת חוק-יסוד: הממשלה (תיקון מס' 11) (שר נוסף במשרד)",
+  "notes_file": "data/bill_texts/2159953.json",
+  "main": [
+   {
+    "n": "279",
+    "sign": "+",
+    "p_choice": 0.59
+   }
+  ],
+  "secondary": [
+   {
+    "n": "289",
+    "sign": "+",
+    "applies": 0.81
+   },
+   {
+    "n": "55",
+    "sign": "+",
+    "applies": 0.71
+   }
+  ]
+ },
+ {
+  "law": "deri",
+  "bill_id": "2165126",
+  "knesset": 24,
+  "title": "הצעת חוק-יסוד: הממשלה (תיקון מס' 11)",
+  "notes_file": "data/bill_texts/2165126.json",
+  "main": [
+   {
+    "n": "124",
+    "sign": "−",
+    "p_choice": 1.0
+   }
+  ],
+  "secondary": [
+   {
+    "n": "110",
+    "sign": "+",
+    "applies": 0.94
+   }
+  ]
+ },
+ {
+  "law": "deri",
+  "bill_id": "2198130",
+  "knesset": 25,
+  "title": "חוק-יסוד: הממשלה (תיקון מס' 11)",
+  "notes_file": "data/bill_texts/2198130.json",
+  "main": [
+   {
+    "n": "279",
+    "sign": "+",
+    "p_choice": 0.54
+   },
+   {
+    "n": "55",
+    "sign": "+",
+    "p_choice": 0.37
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "draft_2026",
+  "bill_id": "2163422",
+  "knesset": 24,
+  "title": "הצעת חוק שירות ביטחון (תיקון מס' 25) (שילוב תלמידי ישיבות), התשפ\"ב-2021",
+  "notes_file": "data/bill_texts/2163422.json",
+  "main": [
+   {
+    "n": "185a",
+    "sign": "+"
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "draft_2026",
+  "bill_id": "2168881",
+  "knesset": 25,
+  "title": "חוק שירות ביטחון (תיקון מס' 28 - הוראת שעה), התשפ\"ו-2026",
+  "notes_file": "data/bill_texts/2168881.json",
+  "main": [
+   {
+    "n": "185a",
+    "sign": "+"
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "draft_2026",
+  "bill_id": "2198947",
+  "knesset": 25,
+  "title": "הצעת חוק שירות ביטחון (תיקון - שילוב תלמידי ישיבות), התשפ\"ג-2023",
+  "notes_file": "data/bill_texts/2198947.json",
+  "main": [
+   {
+    "n": "185a",
+    "sign": "+"
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "draft_2026",
+  "bill_id": "2199470",
+  "knesset": 25,
+  "title": "הצעת חוק שירות ביטחון (תיקון - שילוב תלמידי ישיבות), התשפ\"ג-2023",
+  "notes_file": "data/bill_texts/2199470.json",
+  "main": [
+   {
+    "n": "185a",
+    "sign": "+"
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "draft_2026",
+  "bill_id": "2220910",
+  "knesset": 25,
+  "title": "חוק שירות ביטחון (תיקון מס' 29 - הוראת שעה), התשפ\"ו-2026",
+  "notes_file": "data/bill_texts/2220910.json",
+  "main": [
+   {
+    "n": "185b",
+    "sign": "+"
+   }
+  ],
+  "secondary": [
+   {
+    "n": "149",
+    "sign": "−",
+    "applies": 0.76
+   },
+   {
+    "n": "55",
+    "sign": "+",
+    "applies": 0.72
+   },
+   {
+    "n": "185",
+    "sign": "+"
+   }
+  ]
+ },
+ {
+  "law": "draft_2026",
+  "bill_id": "2235093",
+  "knesset": 25,
+  "title": "הצעת חוק שירות ביטחון (תיקון - מתווה בן-גוריון לדחייה ופטור משירות מטעמי לימודי דת), התשפ\"ו-2025",
+  "notes_file": "data/bill_texts/2235093.json",
+  "main": [
+   {
+    "n": "185a",
+    "sign": "+"
+   }
+  ],
+  "secondary": [
+   {
+    "n": "185",
+    "sign": "+"
+   }
+  ]
+ },
+ {
+  "law": "citizenship",
+  "bill_id": "2156597",
+  "knesset": 24,
+  "title": "הצעת חוק האזרחות והכניסה לישראל (הוראת שעה) (תיקון - היתר לגבי בני זוג), התשפ\"א-2021",
+  "notes_file": "data/bill_texts/2156597.json",
+  "main": [
+   {
+    "n": "179",
+    "sign": "+",
+    "p_choice": 0.42
+   },
+   {
+    "n": "183",
+    "sign": "+",
+    "p_choice": 0.32
+   }
+  ],
+  "secondary": [
+   {
+    "n": "309",
+    "sign": "+",
+    "applies": 0.76
+   },
+   {
+    "n": "149",
+    "sign": "+",
+    "applies": 0.74
+   },
+   {
+    "n": "197",
+    "sign": "+",
+    "applies": 0.74
+   }
+  ]
+ },
+ {
+  "law": "citizenship",
+  "bill_id": "2157016",
+  "knesset": 24,
+  "title": "הצעת חוק האזרחות והכניסה לישראל (הוראת שעה) (תיקון - איסור הארכת החוק באמצעות צו ושינוי קריטריונים), התשפ\"א-2021",
+  "notes_file": "data/bill_texts/2157016.json",
+  "main": [
+   {
+    "n": "55",
+    "sign": "−",
+    "p_choice": 0.32
+   },
+   {
+    "n": "44",
+    "sign": "+",
+    "p_choice": 0.22
+   }
+  ],
+  "secondary": [
+   {
+    "n": "50",
+    "sign": "+",
+    "applies": 0.84
+   },
+   {
+    "n": "45",
+    "sign": "+",
+    "applies": 0.83
+   },
+   {
+    "n": "179",
+    "sign": "+",
+    "applies": 0.79
+   },
+   {
+    "n": "183",
+    "sign": "+",
+    "applies": 0.73
+   }
+  ]
+ },
+ {
+  "law": "citizenship",
+  "bill_id": "2157093",
+  "knesset": 24,
+  "title": "הצעת חוק האזרחות והכניסה לישראל (הוראת שעה) (תיקון - ביטול החוק), התשפ\"א-2021",
+  "notes_file": "data/bill_texts/2157093.json",
+  "main": [
+   {
+    "n": "309",
+    "sign": "+",
+    "p_choice": 0.4
+   },
+   {
+    "n": "183",
+    "sign": "+",
+    "p_choice": 0.35
+   }
+  ],
+  "secondary": [
+   {
+    "n": "149",
+    "sign": "+",
+    "applies": 0.84
+   },
+   {
+    "n": "196",
+    "sign": "+",
+    "applies": 0.83
+   },
+   {
+    "n": "197",
+    "sign": "+",
+    "applies": 0.83
+   },
+   {
+    "n": "160",
+    "sign": "−",
+    "applies": 0.8
+   },
+   {
+    "n": "130",
+    "sign": "−",
+    "applies": 0.71
+   }
+  ]
+ },
+ {
+  "law": "citizenship",
+  "bill_id": "2158665",
+  "knesset": 24,
+  "title": "הצעת חוק האזרחות והכניסה לישראל (הוראת שעה) (תיקון - ביטול החוק), התשפ\"א-2021",
+  "notes_file": "data/bill_texts/2158665.json",
+  "main": [
+   {
+    "n": "309",
+    "sign": "+",
+    "p_choice": 0.4
+   },
+   {
+    "n": "179",
+    "sign": "+",
+    "p_choice": 0.23
+   }
+  ],
+  "secondary": [
+   {
+    "n": "149",
+    "sign": "+",
+    "applies": 0.84
+   },
+   {
+    "n": "197",
+    "sign": "+",
+    "applies": 0.82
+   },
+   {
+    "n": "130",
+    "sign": "−",
+    "applies": 0.8
+   },
+   {
+    "n": "196",
+    "sign": "+",
+    "applies": 0.8
+   },
+   {
+    "n": "160",
+    "sign": "−",
+    "applies": 0.78
+   }
+  ]
+ },
+ {
+  "law": "citizenship",
+  "bill_id": "2160030",
+  "knesset": 24,
+  "title": "הצעת חוק האזרחות והכניסה לישראל (הוראת שעה), התשפ\"א-2021",
+  "notes_file": "data/bill_texts/2160030.json",
+  "main": [
+   {
+    "n": "183",
+    "sign": "−",
+    "p_choice": 0.5
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "citizenship",
+  "bill_id": "2162396",
+  "knesset": 24,
+  "title": "הצעת חוק האזרחות והכניסה לישראל (הוראת שעה), התשפ\"ב-2021",
+  "notes_file": "data/bill_texts/2162396.json",
+  "main": [
+   {
+    "n": "183",
+    "sign": "−",
+    "p_choice": 0.78
+   }
+  ],
+  "secondary": [
+   {
+    "n": "44",
+    "sign": "+",
+    "applies": 0.89
+   },
+   {
+    "n": "43",
+    "sign": "+",
+    "applies": 0.88
+   },
+   {
+    "n": "46",
+    "sign": "+",
+    "applies": 0.78
+   },
+   {
+    "n": "179",
+    "sign": "−",
+    "applies": 0.76
+   },
+   {
+    "n": "149",
+    "sign": "−",
+    "applies": 0.72
+   }
+  ]
+ },
+ {
+  "law": "citizenship",
+  "bill_id": "2167826",
+  "knesset": 24,
+  "title": "הצעת חוק האזרחות והכניסה לישראל (הוראת שעה), התשפ\"ב-2022",
+  "notes_file": "data/bill_texts/2167826.json",
+  "main": [
+   {
+    "n": "183",
+    "sign": "−",
+    "p_choice": 0.55
+   },
+   {
+    "n": "179",
+    "sign": "−",
+    "p_choice": 0.4
+   }
+  ],
+  "secondary": [
+   {
+    "n": "43",
+    "sign": "+",
+    "applies": 0.82
+   },
+   {
+    "n": "44",
+    "sign": "+",
+    "applies": 0.82
+   },
+   {
+    "n": "149",
+    "sign": "−",
+    "applies": 0.78
+   },
+   {
+    "n": "160",
+    "sign": "+",
+    "applies": 0.77
+   },
+   {
+    "n": "309",
+    "sign": "−",
+    "applies": 0.76
+   }
+  ]
+ },
+ {
+  "law": "citizenship",
+  "bill_id": "2169827",
+  "knesset": 24,
+  "title": "חוק האזרחות והכניסה לישראל (הוראת שעה), התשפ\"ב-2022",
+  "notes_file": "data/bill_texts/2169827.json",
+  "main": [
+   {
+    "n": "179",
+    "sign": "−",
+    "p_choice": 0.61
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "citizenship",
+  "bill_id": "2191021",
+  "knesset": 24,
+  "title": "הצעת חוק האזרחות והכניסה לישראל (הוראת שעה) (תיקון - ביטול החוק), התשפ\"ב-2022",
+  "notes_file": "data/bill_texts/2191021.json",
+  "main": [
+   {
+    "n": "309",
+    "sign": "+",
+    "p_choice": 0.68
+   }
+  ],
+  "secondary": [
+   {
+    "n": "149",
+    "sign": "+",
+    "applies": 0.84
+   },
+   {
+    "n": "197",
+    "sign": "+",
+    "applies": 0.77
+   },
+   {
+    "n": "183",
+    "sign": "+",
+    "applies": 0.75
+   },
+   {
+    "n": "196",
+    "sign": "+",
+    "applies": 0.75
+   },
+   {
+    "n": "179",
+    "sign": "+",
+    "applies": 0.73
+   }
+  ]
+ },
+ {
+  "law": "citizenship",
+  "bill_id": "2191022",
+  "knesset": 24,
+  "title": "הצעת חוק האזרחות והכניסה לישראל (הוראת שעה) (תיקון - ביטול החוק), התשפ\"ב-2022",
+  "notes_file": "data/bill_texts/2191022.json",
+  "main": [
+   {
+    "n": "183",
+    "sign": "+",
+    "p_choice": 0.33
+   },
+   {
+    "n": "317",
+    "sign": "−",
+    "p_choice": 0.3
+   }
+  ],
+  "secondary": [
+   {
+    "n": "197",
+    "sign": "+",
+    "applies": 0.81
+   },
+   {
+    "n": "196",
+    "sign": "+",
+    "applies": 0.8
+   },
+   {
+    "n": "149",
+    "sign": "+",
+    "applies": 0.78
+   },
+   {
+    "n": "309",
+    "sign": "+",
+    "applies": 0.76
+   },
+   {
+    "n": "130",
+    "sign": "−",
+    "applies": 0.75
+   }
+  ]
+ },
+ {
+  "law": "citizenship",
+  "bill_id": "2191031",
+  "knesset": 24,
+  "title": "הצעת חוק האזרחות והכניסה לישראל (הוראת שעה) (תיקון - ביטול החוק), התשפ\"ב-2022",
+  "notes_file": "data/bill_texts/2191031.json",
+  "main": [
+   {
+    "n": "309",
+    "sign": "+",
+    "p_choice": 0.58
+   }
+  ],
+  "secondary": [
+   {
+    "n": "149",
+    "sign": "+",
+    "applies": 0.85
+   },
+   {
+    "n": "183",
+    "sign": "+",
+    "applies": 0.8
+   },
+   {
+    "n": "179",
+    "sign": "+",
+    "applies": 0.78
+   },
+   {
+    "n": "196",
+    "sign": "+",
+    "applies": 0.77
+   },
+   {
+    "n": "160",
+    "sign": "−",
+    "applies": 0.75
+   }
+  ]
+ },
+ {
+  "law": "citizenship",
+  "bill_id": "2196334",
+  "knesset": 25,
+  "title": "הצעת חוק האזרחות והכניסה לישראל (הוראת שעה) (תיקון - ביטול החוק), התשפ\"ג-2022",
+  "notes_file": "data/bill_texts/2196334.json",
+  "main": [
+   {
+    "n": "317",
+    "sign": "−",
+    "p_choice": 0.38
+   },
+   {
+    "n": "179",
+    "sign": "+",
+    "p_choice": 0.21
+   }
+  ],
+  "secondary": [
+   {
+    "n": "197",
+    "sign": "+",
+    "applies": 0.84
+   },
+   {
+    "n": "196",
+    "sign": "+",
+    "applies": 0.82
+   },
+   {
+    "n": "149",
+    "sign": "+",
+    "applies": 0.8
+   },
+   {
+    "n": "309",
+    "sign": "+",
+    "applies": 0.78
+   },
+   {
+    "n": "130",
+    "sign": "−",
+    "applies": 0.74
+   }
+  ]
+ },
+ {
+  "law": "citizenship",
+  "bill_id": "2196940",
+  "knesset": 25,
+  "title": "הצעת חוק האזרחות והכניסה לישראל (הוראת שעה) (תיקון - היתר לגבי בני זוג), התשפ\"ג-2022",
+  "notes_file": "data/bill_texts/2196940.json",
+  "main": [
+   {
+    "n": "179",
+    "sign": "+",
+    "p_choice": 0.56
+   }
+  ],
+  "secondary": [
+   {
+    "n": "183",
+    "sign": "+",
+    "applies": 0.76
+   },
+   {
+    "n": "309",
+    "sign": "+",
+    "applies": 0.75
+   },
+   {
+    "n": "149",
+    "sign": "+",
+    "applies": 0.74
+   },
+   {
+    "n": "197",
+    "sign": "+",
+    "applies": 0.7
+   }
+  ]
+ },
+ {
+  "law": "citizenship",
+  "bill_id": "2197387",
+  "knesset": 25,
+  "title": "הצעת חוק האזרחות והכניסה לישראל (הוראת שעה) (תיקון - ביטול החוק), התשפ\"ג-2023",
+  "notes_file": "data/bill_texts/2197387.json",
+  "main": [
+   {
+    "n": "309",
+    "sign": "+",
+    "p_choice": 0.61
+   }
+  ],
+  "secondary": [
+   {
+    "n": "149",
+    "sign": "+",
+    "applies": 0.82
+   },
+   {
+    "n": "183",
+    "sign": "+",
+    "applies": 0.76
+   },
+   {
+    "n": "196",
+    "sign": "+",
+    "applies": 0.76
+   },
+   {
+    "n": "160",
+    "sign": "−",
+    "applies": 0.75
+   },
+   {
+    "n": "197",
+    "sign": "+",
+    "applies": 0.75
+   }
+  ]
+ },
+ {
+  "law": "citizenship",
+  "bill_id": "2197485",
+  "knesset": 25,
+  "title": "הצעת חוק האזרחות והכניסה לישראל (הוראת שעה) (תיקון - ביטול החוק), התשפ\"ג-2022",
+  "notes_file": "data/bill_texts/2197485.json",
+  "main": [
+   {
+    "n": "309",
+    "sign": "+",
+    "p_choice": 0.69
+   }
+  ],
+  "secondary": [
+   {
+    "n": "149",
+    "sign": "+",
+    "applies": 0.86
+   },
+   {
+    "n": "130",
+    "sign": "−",
+    "applies": 0.81
+   },
+   {
+    "n": "197",
+    "sign": "+",
+    "applies": 0.81
+   },
+   {
+    "n": "196",
+    "sign": "+",
+    "applies": 0.8
+   },
+   {
+    "n": "160",
+    "sign": "−",
+    "applies": 0.79
+   }
+  ]
+ },
+ {
+  "law": "citizenship",
+  "bill_id": "2198682",
+  "knesset": 25,
+  "title": "הצעת חוק האזרחות והכניסה לישראל (הוראת שעה) (תיקון - היתר לגבי בני זוג), התשפ\"ג-2023",
+  "notes_file": "data/bill_texts/2198682.json",
+  "main": [
+   {
+    "n": "179",
+    "sign": "+",
+    "p_choice": 0.45
+   },
+   {
+    "n": "309",
+    "sign": "+",
+    "p_choice": 0.31
+   }
+  ],
+  "secondary": [
+   {
+    "n": "149",
+    "sign": "+",
+    "applies": 0.78
+   },
+   {
+    "n": "197",
+    "sign": "+",
+    "applies": 0.73
+   },
+   {
+    "n": "183",
+    "sign": "+",
+    "applies": 0.71
+   },
+   {
+    "n": "202",
+    "sign": "+",
+    "applies": 0.71
+   },
+   {
+    "n": "277",
+    "sign": "−",
+    "applies": 0.7
+   }
+  ]
+ },
+ {
+  "law": "citizenship",
+  "bill_id": "2198920",
+  "knesset": 25,
+  "title": "הצעת חוק האזרחות והכניסה לישראל (הוראת שעה) (תיקון - מניעת ריבוי נישואין), התשפ\"ג-2023",
+  "notes_file": "data/bill_texts/2198920.json",
+  "main": [
+   {
+    "n": "179",
+    "sign": "−",
+    "p_choice": 0.5
+   }
+  ],
+  "secondary": [
+   {
+    "n": "160",
+    "sign": "+",
+    "applies": 0.81
+   },
+   {
+    "n": "309",
+    "sign": "−",
+    "applies": 0.81
+   },
+   {
+    "n": "149",
+    "sign": "−",
+    "applies": 0.77
+   },
+   {
+    "n": "277",
+    "sign": "+",
+    "applies": 0.77
+   }
+  ]
+ },
+ {
+  "law": "citizenship",
+  "bill_id": "2223703",
+  "knesset": 25,
+  "title": "הצעת חוק האזרחות והכניסה לישראל (הוראת שעה) (תיקון - הפיכת הוראת השעה להוראת קבע), התשפ\"ה-2024",
+  "notes_file": "data/bill_texts/2223703.json",
+  "main": [
+   {
+    "n": "183",
+    "sign": "−",
+    "p_choice": 0.5
+   },
+   {
+    "n": "130",
+    "sign": null,
+    "p_choice": 0.33
+   }
+  ],
+  "secondary": [
+   {
+    "n": "149",
+    "sign": "−",
+    "applies": 0.75
+   },
+   {
+    "n": "309",
+    "sign": "−",
+    "applies": 0.7
+   }
+  ]
+ },
+ {
+  "law": "citizenship",
+  "bill_id": "2229959",
+  "knesset": 25,
+  "title": "הצעת חוק האזרחות והכניסה לישראל (הוראת שעה) (תיקון - גילאים ומצב לחימה), התשפ״ה-2025",
+  "notes_file": "data/bill_texts/2229959.json",
+  "main": [
+   {
+    "n": "183",
+    "sign": "−",
+    "p_choice": 0.55
+   },
+   {
+    "n": "179",
+    "sign": "−",
+    "p_choice": 0.41
+   }
+  ],
+  "secondary": [
+   {
+    "n": "277",
+    "sign": "+",
+    "applies": 0.8
+   },
+   {
+    "n": "309",
+    "sign": "−",
+    "applies": 0.79
+   },
+   {
+    "n": "149",
+    "sign": "−",
+    "applies": 0.78
+   }
+  ]
+ },
+ {
+  "law": "citizenship",
+  "bill_id": "2234472",
+  "knesset": 25,
+  "title": "הצעת חוק האזרחות והכניסה לישראל (הוראת שעה) (תיקון - מתן תושבות לדרוזים מסוריה הדרומית), התשפ\"ו-2025",
+  "notes_file": "data/bill_texts/2234472.json",
+  "main": [
+   {
+    "n": "183",
+    "sign": "+",
+    "p_choice": 0.76
+   }
+  ],
+  "secondary": [
+   {
+    "n": "179",
+    "sign": "+",
+    "applies": 0.9
+   },
+   {
+    "n": "317",
+    "sign": "+",
+    "applies": 0.85
+   },
+   {
+    "n": "149",
+    "sign": "+",
+    "applies": 0.72
+   },
+   {
+    "n": "196",
+    "sign": "+",
+    "applies": 0.72
+   },
+   {
+    "n": "197",
+    "sign": "+",
+    "applies": 0.71
+   }
+  ]
+ },
+ {
+  "law": "citizenship",
+  "bill_id": "2235026",
+  "knesset": 25,
+  "title": "הצעת חוק האזרחות והכניסה לישראל (הוראת שעה) (תיקון - איסור שהייה וישיבה של פעילי טרור וקרוביהם), התשפ\"ו-2025",
+  "notes_file": "data/bill_texts/2235026.json",
+  "main": [
+   {
+    "n": "179",
+    "sign": "−",
+    "p_choice": 0.75
+   }
+  ],
+  "secondary": [
+   {
+    "n": "277",
+    "sign": "+",
+    "applies": 0.9
+   },
+   {
+    "n": "160",
+    "sign": "+",
+    "applies": 0.86
+   },
+   {
+    "n": "178",
+    "sign": "+",
+    "applies": 0.85
+   },
+   {
+    "n": "309",
+    "sign": "−",
+    "applies": 0.85
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.79
+   }
+  ]
+ },
+ {
+  "law": "al_jazeera",
+  "bill_id": "2215077",
+  "knesset": 25,
+  "title": "חוק מניעת פגיעת גוף שידורים זר בביטחון המדינה (הוראת שעה – חרבות ברזל), התשפ\"ד-2024",
+  "notes_file": "data/bill_texts/2215077.json",
+  "main": [
+   {
+    "n": "137",
+    "sign": "+",
+    "p_choice": 0.65
+   }
+  ],
+  "secondary": [
+   {
+    "n": "130",
+    "sign": "+",
+    "applies": 0.85
+   },
+   {
+    "n": "134",
+    "sign": "−",
+    "applies": 0.77
+   },
+   {
+    "n": "142",
+    "sign": "−",
+    "applies": 0.72
+   },
+   {
+    "n": "88",
+    "sign": "+",
+    "applies": 0.7
+   }
+  ]
+ },
+ {
+  "law": "al_jazeera",
+  "bill_id": "2218271",
+  "knesset": 25,
+  "title": "הצעת חוק מניעת פגיעת גוף שידורים זר בביטחון המדינה (הוראת שעה - חרבות ברזל) (תיקון - אכיפה והארכת הוראת השעה), התשפ\"ד-2024",
+  "notes_file": "data/bill_texts/2218271.json",
+  "main": [
+   {
+    "n": "137",
+    "sign": "+",
+    "p_choice": 0.85
+   }
+  ],
+  "secondary": [
+   {
+    "n": "81",
+    "sign": "+",
+    "applies": 0.91
+   },
+   {
+    "n": "142",
+    "sign": "−",
+    "applies": 0.86
+   },
+   {
+    "n": "130",
+    "sign": "+",
+    "applies": 0.85
+   },
+   {
+    "n": "134",
+    "sign": "−",
+    "applies": 0.8
+   },
+   {
+    "n": "349",
+    "sign": "+",
+    "applies": 0.77
+   }
+  ]
+ },
+ {
+  "law": "al_jazeera",
+  "bill_id": "2218391",
+  "knesset": 25,
+  "title": "חוק מניעת פגיעת גוף שידורים זר בביטחון המדינה (הוראת שעה), התשפ\"ו–2025",
+  "notes_file": "data/bill_texts/2218391.json",
+  "main": [
+   {
+    "n": "137",
+    "sign": "+",
+    "p_choice": 0.81
+   }
+  ],
+  "secondary": [
+   {
+    "n": "142",
+    "sign": "−",
+    "applies": 0.72
+   },
+   {
+    "n": "134",
+    "sign": "−",
+    "applies": 0.71
+   },
+   {
+    "n": "313",
+    "sign": "+",
+    "applies": 0.7
+   }
+  ]
+ },
+ {
+  "law": "al_jazeera",
+  "bill_id": "2218879",
+  "knesset": 25,
+  "title": "הצעת חוק מניעת פגיעת גוף שידורים זר בביטחון המדינה (הוראת שעה - חרבות ברזל) (תיקון - הארכת תוקף), התשפ\"ד-2024",
+  "notes_file": "data/bill_texts/2218879.json",
+  "main": [
+   {
+    "n": "137",
+    "sign": "+",
+    "p_choice": 0.47
+   },
+   {
+    "n": "130",
+    "sign": "+",
+    "p_choice": 0.39
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "al_jazeera",
+  "bill_id": "2219753",
+  "knesset": 25,
+  "title": "הצעת חוק מניעת פגיעת גוף שידורים זר בביטחון המדינה (הוראת שעה - חרבות ברזל) (תיקון - מניעת שידורים), התשפ\"ד-2024",
+  "notes_file": "data/bill_texts/2219753.json",
+  "main": [
+   {
+    "n": "137",
+    "sign": "+",
+    "p_choice": 0.97
+   }
+  ],
+  "secondary": [
+   {
+    "n": "55",
+    "sign": "+",
+    "applies": 0.94
+   },
+   {
+    "n": "69",
+    "sign": "−",
+    "applies": 0.85
+   },
+   {
+    "n": "88",
+    "sign": "+",
+    "applies": 0.85
+   },
+   {
+    "n": "134",
+    "sign": "−",
+    "applies": 0.84
+   },
+   {
+    "n": "80",
+    "sign": "−",
+    "applies": 0.81
+   }
+  ]
+ },
+ {
+  "law": "al_jazeera",
+  "bill_id": "2220380",
+  "knesset": 25,
+  "title": "חוק מניעת פגיעת גוף שידורים זר בביטחון המדינה (הוראת שעה – חרבות ברזל) (תיקון), התשפ\"ד–2024",
+  "notes_file": "data/bill_texts/2220380.json",
+  "main": [
+   {
+    "n": "137",
+    "sign": "+",
+    "p_choice": 0.88
+   }
+  ],
+  "secondary": [
+   {
+    "n": "142",
+    "sign": "−",
+    "applies": 0.85
+   },
+   {
+    "n": "134",
+    "sign": "−",
+    "applies": 0.76
+   },
+   {
+    "n": "55",
+    "sign": "+",
+    "applies": 0.74
+   },
+   {
+    "n": "88",
+    "sign": "+",
+    "applies": 0.72
+   },
+   {
+    "n": "17",
+    "sign": "+",
+    "applies": 0.71
+   }
+  ]
+ },
+ {
+  "law": "al_jazeera",
+  "bill_id": "2223554",
+  "knesset": 25,
+  "title": "חוק מניעת פגיעת גוף שידורים זר בביטחון המדינה (הוראת שעה – חרבות ברזל) (תיקון מס' 2), התשפ\"ה-2024",
+  "notes_file": "data/bill_texts/2223554.json",
+  "main": [
+   {
+    "n": "137",
+    "sign": "+",
+    "p_choice": 0.53
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "al_jazeera",
+  "bill_id": "2228882",
+  "knesset": 25,
+  "title": "הצעת חוק מניעת פגיעת גוף שידורים זר בביטחון המדינה (הוראת שעה - חרבות ברזל) (תיקון - ביטול החוק), התשפ\"ה-2025",
+  "notes_file": "data/bill_texts/2228882.json",
+  "main": [
+   {
+    "n": "137",
+    "sign": "−",
+    "p_choice": 0.87
+   }
+  ],
+  "secondary": [
+   {
+    "n": "134",
+    "sign": "+",
+    "applies": 0.9
+   },
+   {
+    "n": "142",
+    "sign": "+",
+    "applies": 0.88
+   },
+   {
+    "n": "298",
+    "sign": "+",
+    "applies": 0.87
+   },
+   {
+    "n": "17",
+    "sign": "−",
+    "applies": 0.82
+   },
+   {
+    "n": "55",
+    "sign": "−",
+    "applies": 0.82
+   }
+  ]
+ },
+ {
+  "law": "al_jazeera",
+  "bill_id": "2231611",
+  "knesset": 25,
+  "title": "חוק מניעת פגיעת גוף שידורים זר בביטחון המדינה (הוראה שעה - חרבות ברזל) (תיקון מס' 3), התשפ\"ה-2025",
+  "notes_file": "data/bill_texts/2231611.json",
+  "main": [
+   {
+    "n": "137",
+    "sign": "+",
+    "p_choice": 0.67
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "deport_families",
+  "bill_id": "2156196",
+  "knesset": 24,
+  "title": "הצעת חוק גירוש משפחות מחבלים, התשפ\"א-2021",
+  "notes_file": "data/bill_texts/2156196.json",
+  "main": [
+   {
+    "n": "178",
+    "sign": "+",
+    "p_choice": 0.28
+   },
+   {
+    "n": "149",
+    "sign": "−",
+    "p_choice": 0.21
+   }
+  ],
+  "secondary": [
+   {
+    "n": "160",
+    "sign": "+",
+    "applies": 0.82
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.77
+   },
+   {
+    "n": "77",
+    "sign": "+",
+    "applies": 0.72
+   }
+  ]
+ },
+ {
+  "law": "deport_families",
+  "bill_id": "2156307",
+  "knesset": 24,
+  "title": "הצעת חוק גירוש משפחות מחבלים, התשפ\"א-2021",
+  "notes_file": "data/bill_texts/2156307.json",
+  "main": [
+   {
+    "n": "149",
+    "sign": "−",
+    "p_choice": 0.23
+   },
+   {
+    "n": "178",
+    "sign": "+",
+    "p_choice": 0.22
+   }
+  ],
+  "secondary": [
+   {
+    "n": "160",
+    "sign": "+",
+    "applies": 0.82
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.76
+   },
+   {
+    "n": "77",
+    "sign": "+",
+    "applies": 0.73
+   }
+  ]
+ },
+ {
+  "law": "deport_families",
+  "bill_id": "2159472",
+  "knesset": 24,
+  "title": "הצעת חוק גירוש משפחות מחבלים, התשפ\"א-2021",
+  "notes_file": "data/bill_texts/2159472.json",
+  "main": [
+   {
+    "n": "178",
+    "sign": "+",
+    "p_choice": 0.29
+   },
+   {
+    "n": "149",
+    "sign": "−",
+    "p_choice": 0.2
+   }
+  ],
+  "secondary": [
+   {
+    "n": "160",
+    "sign": "+",
+    "applies": 0.82
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.77
+   },
+   {
+    "n": "77",
+    "sign": "+",
+    "applies": 0.74
+   }
+  ]
+ },
+ {
+  "law": "deport_families",
+  "bill_id": "2159755",
+  "knesset": 24,
+  "title": "הצעת חוק גירוש משפחות מחבלים, התשפ\"א-2021",
+  "notes_file": "data/bill_texts/2159755.json",
+  "main": [
+   {
+    "n": "178",
+    "sign": "+",
+    "p_choice": 0.28
+   },
+   {
+    "n": "77",
+    "sign": "+",
+    "p_choice": 0.21
+   }
+  ],
+  "secondary": [
+   {
+    "n": "149",
+    "sign": "−",
+    "applies": 0.84
+   },
+   {
+    "n": "160",
+    "sign": "+",
+    "applies": 0.83
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.77
+   }
+  ]
+ },
+ {
+  "law": "deport_families",
+  "bill_id": "2161059",
+  "knesset": 24,
+  "title": "הצעת חוק גירוש משפחות מחבלים, התשפ\"א-2021",
+  "notes_file": "data/bill_texts/2161059.json",
+  "main": [
+   {
+    "n": "149",
+    "sign": "−",
+    "p_choice": 0.29
+   },
+   {
+    "n": "178",
+    "sign": "+",
+    "p_choice": 0.25
+   }
+  ],
+  "secondary": [
+   {
+    "n": "160",
+    "sign": "+",
+    "applies": 0.83
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.78
+   },
+   {
+    "n": "77",
+    "sign": "+",
+    "applies": 0.74
+   }
+  ]
+ },
+ {
+  "law": "deport_families",
+  "bill_id": "2197406",
+  "knesset": 25,
+  "title": "הצעת חוק גירוש משפחות מחבלים, התשפ\"ג-2022",
+  "notes_file": "data/bill_texts/2197406.json",
+  "main": [
+   {
+    "n": "178",
+    "sign": "+",
+    "p_choice": 0.35
+   },
+   {
+    "n": "77",
+    "sign": "+",
+    "p_choice": 0.23
+   }
+  ],
+  "secondary": [
+   {
+    "n": "149",
+    "sign": "−",
+    "applies": 0.84
+   },
+   {
+    "n": "160",
+    "sign": "+",
+    "applies": 0.82
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.77
+   }
+  ]
+ },
+ {
+  "law": "deport_families",
+  "bill_id": "2197840",
+  "knesset": 25,
+  "title": "חוק גירוש משפחות מחבלים, התשפ\"ה–2024",
+  "notes_file": "data/bill_texts/2197840.json",
+  "main": [
+   {
+    "n": "178",
+    "sign": "+",
+    "p_choice": 0.26
+   },
+   {
+    "n": "149",
+    "sign": "−",
+    "p_choice": 0.2
+   }
+  ],
+  "secondary": [
+   {
+    "n": "160",
+    "sign": "+",
+    "applies": 0.84
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.76
+   },
+   {
+    "n": "77",
+    "sign": "+",
+    "applies": 0.74
+   }
+  ]
+ },
+ {
+  "law": "deport_families",
+  "bill_id": "2197893",
+  "knesset": 25,
+  "title": "הצעת חוק גירוש משפחות מחבלים, התשפ\"ג-2023",
+  "notes_file": "data/bill_texts/2197893.json",
+  "main": [
+   {
+    "n": "178",
+    "sign": "+",
+    "p_choice": 0.28
+   },
+   {
+    "n": "77",
+    "sign": "+",
+    "p_choice": 0.24
+   }
+  ],
+  "secondary": [
+   {
+    "n": "149",
+    "sign": "−",
+    "applies": 0.85
+   },
+   {
+    "n": "160",
+    "sign": "+",
+    "applies": 0.83
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.75
+   }
+  ]
+ },
+ {
+  "law": "deport_families",
+  "bill_id": "2198970",
+  "knesset": 25,
+  "title": "הצעת חוק גירוש משפחות מחבלים, התשפ\"ג-2023",
+  "notes_file": "data/bill_texts/2198970.json",
+  "main": [
+   {
+    "n": "178",
+    "sign": "+",
+    "p_choice": 0.45
+   }
+  ],
+  "secondary": [
+   {
+    "n": "149",
+    "sign": "−",
+    "applies": 0.85
+   },
+   {
+    "n": "160",
+    "sign": "+",
+    "applies": 0.8
+   },
+   {
+    "n": "77",
+    "sign": "+",
+    "applies": 0.75
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.74
+   }
+  ]
+ },
+ {
+  "law": "deport_families",
+  "bill_id": "2212130",
+  "knesset": 25,
+  "title": "הצעת חוק גירוש משפחות מחבלים, התשפ\"ד-2023",
+  "notes_file": "data/bill_texts/2212130.json",
+  "main": [
+   {
+    "n": "178",
+    "sign": "+",
+    "p_choice": 0.35
+   },
+   {
+    "n": "77",
+    "sign": "+",
+    "p_choice": 0.21
+   }
+  ],
+  "secondary": [
+   {
+    "n": "149",
+    "sign": "−",
+    "applies": 0.85
+   },
+   {
+    "n": "160",
+    "sign": "+",
+    "applies": 0.82
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.77
+   }
+  ]
+ },
+ {
+  "law": "deport_families",
+  "bill_id": "2223497",
+  "knesset": 25,
+  "title": "הצעת חוק גירוש משפחות מחבלים (תיקון - הרחבת והבניית שיקול הדעת), התשפ\"ה-2024",
+  "notes_file": "data/bill_texts/2223497.json",
+  "main": [
+   {
+    "n": "184",
+    "sign": "+",
+    "p_choice": 0.83
+   }
+  ],
+  "secondary": [
+   {
+    "n": "178",
+    "sign": "+",
+    "applies": 0.81
+   },
+   {
+    "n": "55",
+    "sign": "−",
+    "applies": 0.79
+   },
+   {
+    "n": "149",
+    "sign": "−",
+    "applies": 0.79
+   },
+   {
+    "n": "66",
+    "sign": "+",
+    "applies": 0.76
+   },
+   {
+    "n": "90",
+    "sign": "+",
+    "applies": 0.74
+   }
+  ]
+ },
+ {
+  "law": "death_penalty",
+  "bill_id": "2156348",
+  "knesset": 24,
+  "title": "הצעת חוק העונשין (תיקון - גזר דין עונש מוות למורשע ברצח בנסיבות טרור), התשפ\"א-2021",
+  "notes_file": "data/bill_texts/2156348.json",
+  "main": [
+   {
+    "n": "81",
+    "sign": "+",
+    "p_choice": 0.9
+   }
+  ],
+  "secondary": [
+   {
+    "n": "178",
+    "sign": "+",
+    "applies": 0.79
+   },
+   {
+    "n": "92",
+    "sign": "−",
+    "applies": 0.73
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.71
+   }
+  ]
+ },
+ {
+  "law": "death_penalty",
+  "bill_id": "2156604",
+  "knesset": 24,
+  "title": "הצעת חוק העונשין (תיקון - גזר דין עונש מוות למורשע ברצח בנסיבות טרור), התשפ\"א-2021",
+  "notes_file": "data/bill_texts/2156604.json",
+  "main": [
+   {
+    "n": "81",
+    "sign": "+",
+    "p_choice": 0.91
+   }
+  ],
+  "secondary": [
+   {
+    "n": "178",
+    "sign": "+",
+    "applies": 0.81
+   },
+   {
+    "n": "92",
+    "sign": "−",
+    "applies": 0.74
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.71
+   }
+  ]
+ },
+ {
+  "law": "death_penalty",
+  "bill_id": "2158530",
+  "knesset": 24,
+  "title": "הצעת חוק העונשין (תיקון - חוק עונש מוות למחבלים), התשפ\"ב-2021",
+  "notes_file": "data/bill_texts/2158530.json",
+  "main": [
+   {
+    "n": "81",
+    "sign": "+",
+    "p_choice": 0.83
+   }
+  ],
+  "secondary": [
+   {
+    "n": "92",
+    "sign": "−",
+    "applies": 0.86
+   },
+   {
+    "n": "178",
+    "sign": "+",
+    "applies": 0.83
+   },
+   {
+    "n": "66",
+    "sign": "−",
+    "applies": 0.79
+   },
+   {
+    "n": "90",
+    "sign": "−",
+    "applies": 0.79
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.7
+   }
+  ]
+ },
+ {
+  "law": "death_penalty",
+  "bill_id": "2159324",
+  "knesset": 24,
+  "title": "הצעת חוק העונשין (תיקון - גזר דין עונש מוות למורשע ברצח בנסיבות טרור), התשפ\"א-2021",
+  "notes_file": "data/bill_texts/2159324.json",
+  "main": [
+   {
+    "n": "81",
+    "sign": "+",
+    "p_choice": 0.93
+   }
+  ],
+  "secondary": [
+   {
+    "n": "178",
+    "sign": "+",
+    "applies": 0.79
+   },
+   {
+    "n": "92",
+    "sign": "−",
+    "applies": 0.78
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.72
+   }
+  ]
+ },
+ {
+  "law": "death_penalty",
+  "bill_id": "2162774",
+  "knesset": 24,
+  "title": "הצעת חוק העונשין (תיקון - גזר דין עונש מוות למורשע ברצח בנסיבות טרור), התשפ\"ב-2021",
+  "notes_file": "data/bill_texts/2162774.json",
+  "main": [
+   {
+    "n": "81",
+    "sign": "+",
+    "p_choice": 0.9
+   }
+  ],
+  "secondary": [
+   {
+    "n": "178",
+    "sign": "+",
+    "applies": 0.81
+   },
+   {
+    "n": "92",
+    "sign": "−",
+    "applies": 0.76
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.73
+   }
+  ]
+ },
+ {
+  "law": "death_penalty",
+  "bill_id": "2166134",
+  "knesset": 24,
+  "title": "הצעת חוק העונשין (תיקון - גזר דין עונש מוות למורשע ברצח בנסיבות טרור), התשפ\"ב-2021",
+  "notes_file": "data/bill_texts/2166134.json",
+  "main": [
+   {
+    "n": "81",
+    "sign": "+",
+    "p_choice": 0.93
+   }
+  ],
+  "secondary": [
+   {
+    "n": "178",
+    "sign": "+",
+    "applies": 0.82
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.74
+   },
+   {
+    "n": "92",
+    "sign": "−",
+    "applies": 0.73
+   }
+  ]
+ },
+ {
+  "law": "death_penalty",
+  "bill_id": "2196809",
+  "knesset": 25,
+  "title": "הצעת חוק העונשין (תיקון - גזר דין עונש מוות למורשע ברצח בנסיבות טרור), התשפ\"ג-2022",
+  "notes_file": "data/bill_texts/2196809.json",
+  "main": [
+   {
+    "n": "81",
+    "sign": "+",
+    "p_choice": 0.92
+   }
+  ],
+  "secondary": [
+   {
+    "n": "178",
+    "sign": "+",
+    "applies": 0.8
+   },
+   {
+    "n": "92",
+    "sign": "−",
+    "applies": 0.74
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.73
+   }
+  ]
+ },
+ {
+  "law": "death_penalty",
+  "bill_id": "2196873",
+  "knesset": 25,
+  "title": "הצעת חוק העונשין (תיקון - עונש מוות למחבלים), התשפ\"ג-2023",
+  "notes_file": "data/bill_texts/2196873.json",
+  "main": [
+   {
+    "n": "81",
+    "sign": "+",
+    "p_choice": 0.91
+   }
+  ],
+  "secondary": [
+   {
+    "n": "92",
+    "sign": "−",
+    "applies": 0.85
+   },
+   {
+    "n": "178",
+    "sign": "+",
+    "applies": 0.83
+   },
+   {
+    "n": "66",
+    "sign": "−",
+    "applies": 0.82
+   },
+   {
+    "n": "90",
+    "sign": "−",
+    "applies": 0.79
+   }
+  ]
+ },
+ {
+  "law": "death_penalty",
+  "bill_id": "2197423",
+  "knesset": 25,
+  "title": "הצעת חוק העונשין (תיקון - גזר דין עונש מוות למורשע ברצח בנסיבות טרור), התשפ\"ג-2022",
+  "notes_file": "data/bill_texts/2197423.json",
+  "main": [
+   {
+    "n": "81",
+    "sign": "+",
+    "p_choice": 0.9
+   }
+  ],
+  "secondary": [
+   {
+    "n": "178",
+    "sign": "+",
+    "applies": 0.81
+   },
+   {
+    "n": "92",
+    "sign": "−",
+    "applies": 0.77
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.72
+   }
+  ]
+ },
+ {
+  "law": "death_penalty",
+  "bill_id": "2198443",
+  "knesset": 25,
+  "title": "הצעת חוק העונשין (תיקון - עונש מוות למחבלים), התשפ\"ג-2023",
+  "notes_file": "data/bill_texts/2198443.json",
+  "main": [
+   {
+    "n": "81",
+    "sign": "+",
+    "p_choice": 0.89
+   }
+  ],
+  "secondary": [
+   {
+    "n": "92",
+    "sign": "−",
+    "applies": 0.84
+   },
+   {
+    "n": "178",
+    "sign": "+",
+    "applies": 0.84
+   },
+   {
+    "n": "66",
+    "sign": "−",
+    "applies": 0.82
+   },
+   {
+    "n": "90",
+    "sign": "−",
+    "applies": 0.79
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.7
+   }
+  ]
+ },
+ {
+  "law": "death_penalty",
+  "bill_id": "2199298",
+  "knesset": 25,
+  "title": "חוק עונש מוות למחבלים, התשפ\"ו-2026",
+  "notes_file": "data/bill_texts/2199298.json",
+  "main": [
+   {
+    "n": "81",
+    "sign": "+",
+    "p_choice": 0.88
+   }
+  ],
+  "secondary": [
+   {
+    "n": "92",
+    "sign": "−",
+    "applies": 0.85
+   },
+   {
+    "n": "178",
+    "sign": "+",
+    "applies": 0.85
+   },
+   {
+    "n": "66",
+    "sign": "−",
+    "applies": 0.81
+   },
+   {
+    "n": "90",
+    "sign": "−",
+    "applies": 0.81
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.71
+   }
+  ]
+ },
+ {
+  "law": "death_penalty",
+  "bill_id": "2200663",
+  "knesset": 25,
+  "title": "הצעת חוק העונשין (תיקון מס' 160) (עונש מוות למחבלים), התשפ\"ו-2025",
+  "notes_file": "data/bill_texts/2200663.json",
+  "main": [
+   {
+    "n": "81",
+    "sign": "+",
+    "p_choice": 0.87
+   }
+  ],
+  "secondary": [
+   {
+    "n": "92",
+    "sign": "−",
+    "applies": 0.86
+   },
+   {
+    "n": "178",
+    "sign": "+",
+    "applies": 0.82
+   },
+   {
+    "n": "66",
+    "sign": "−",
+    "applies": 0.79
+   },
+   {
+    "n": "90",
+    "sign": "−",
+    "applies": 0.79
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.7
+   }
+  ]
+ },
+ {
+  "law": "death_penalty",
+  "bill_id": "2214514",
+  "knesset": 25,
+  "title": "הצעת חוק העונשין (תיקון - עונש מוות על-תנאי למי שהורשע במעשה טרור של רצח בנסיבות מחמירות), התשפ\"ד-2024",
+  "notes_file": "data/bill_texts/2214514.json",
+  "main": [
+   {
+    "n": "81",
+    "sign": "+",
+    "p_choice": 0.8
+   }
+  ],
+  "secondary": [
+   {
+    "n": "178",
+    "sign": "+",
+    "applies": 0.85
+   },
+   {
+    "n": "92",
+    "sign": "−",
+    "applies": 0.8
+   },
+   {
+    "n": "97",
+    "sign": "+",
+    "applies": 0.74
+   }
+  ]
+ },
+ {
+  "law": "disengagement",
+  "bill_id": "2156175",
+  "knesset": 24,
+  "title": "הצעת חוק יישום תכנית ההתנתקות (תיקון - ביטול סעיפי הפינוי ושינוי שם החוק), התשפ\"א-2021",
+  "notes_file": "data/bill_texts/2156175.json",
+  "main": [
+   {
+    "n": "149",
+    "sign": "+",
+    "p_choice": 0.6
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "disengagement",
+  "bill_id": "2169081",
+  "knesset": 24,
+  "title": "הצעת חוק יישום תוכנית ההתנתקות (תיקון - ביטול סעיפי הפינוי ושינוי שם החוק), התשפ\"ב-2022",
+  "notes_file": "data/bill_texts/2169081.json",
+  "main": [
+   {
+    "n": "149",
+    "sign": "+",
+    "p_choice": 0.59
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "disengagement",
+  "bill_id": "2169101",
+  "knesset": 24,
+  "title": "הצעת חוק יישום תכנית ההתנתקות (תיקון - ביטול סעיפי הפינוי ושינוי שם החוק), תשפ\"ב-2022",
+  "notes_file": "data/bill_texts/2169101.json",
+  "main": [
+   {
+    "n": "149",
+    "sign": "+",
+    "p_choice": 0.48
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "disengagement",
+  "bill_id": "2170035",
+  "knesset": 24,
+  "title": "הצעת חוק יישום תוכנית ההתנתקות (תיקון - ביטול סעיפי הפינוי ושינוי שם החוק), התשפ\"ב-2022",
+  "notes_file": "data/bill_texts/2170035.json",
+  "main": [
+   {
+    "n": "169",
+    "sign": "+",
+    "p_choice": 0.41
+   },
+   {
+    "n": "149",
+    "sign": "+",
+    "p_choice": 0.36
+   }
+  ],
+  "secondary": [
+   {
+    "n": "81",
+    "sign": "−",
+    "applies": 0.7
+   }
+  ]
+ },
+ {
+  "law": "disengagement",
+  "bill_id": "2193045",
+  "knesset": 24,
+  "title": "הצעת חוק יישום תוכנית ההתנתקות (תיקון - ביטול סעיפי הפינוי ושינוי שם החוק), התשפ\"ב-2022",
+  "notes_file": "data/bill_texts/2193045.json",
+  "main": [
+   {
+    "n": "169",
+    "sign": "+",
+    "p_choice": 0.5
+   },
+   {
+    "n": "149",
+    "sign": "+",
+    "p_choice": 0.31
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "disengagement",
+  "bill_id": "2195706",
+  "knesset": 25,
+  "title": "חוק יישום תוכנית ההתנתקות (תיקון מס' 7), התשפ\"ג-2023",
+  "notes_file": "data/bill_texts/2195706.json",
+  "main": [
+   {
+    "n": "149",
+    "sign": "+",
+    "p_choice": 0.36
+   },
+   {
+    "n": "169",
+    "sign": null,
+    "p_choice": 0.3
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "disengagement",
+  "bill_id": "2196047",
+  "knesset": 25,
+  "title": "הצעת חוק יישום תכנית ההתנתקות (תיקון - ביטול סעיפי הפינוי ושינוי שם החוק), התשפ\"ג-2022",
+  "notes_file": "data/bill_texts/2196047.json",
+  "main": [
+   {
+    "n": "149",
+    "sign": "+",
+    "p_choice": 0.46
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "disengagement",
+  "bill_id": "2196787",
+  "knesset": 25,
+  "title": "הצעת חוק יישום תכנית ההתנתקות (תיקון - ביטול סעיפי הפינוי ושינוי שם החוק), התשפ\"ג-2022",
+  "notes_file": "data/bill_texts/2196787.json",
+  "main": [
+   {
+    "n": "169",
+    "sign": "+",
+    "p_choice": 0.55
+   },
+   {
+    "n": "149",
+    "sign": "+",
+    "p_choice": 0.32
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "disengagement",
+  "bill_id": "2197053",
+  "knesset": 25,
+  "title": "הצעת חוק יישום תכנית ההתנתקות (תיקון - ביטול סעיפי הפינוי ושינוי שם החוק), התשפ\"ג-2022",
+  "notes_file": "data/bill_texts/2197053.json",
+  "main": [
+   {
+    "n": "169",
+    "sign": "+",
+    "p_choice": 0.56
+   }
+  ],
+  "secondary": [
+   {
+    "n": "149",
+    "sign": "+",
+    "applies": 0.84
+   }
+  ]
+ },
+ {
+  "law": "disengagement",
+  "bill_id": "2198084",
+  "knesset": 25,
+  "title": "הצעת חוק יישום תוכנית ההתנתקות (תיקון - ביטול סעיפי הפינוי ושינוי שם החוק), התשפ\"ג-2023",
+  "notes_file": "data/bill_texts/2198084.json",
+  "main": [
+   {
+    "n": "149",
+    "sign": "+",
+    "p_choice": 0.4
+   },
+   {
+    "n": "169",
+    "sign": "+",
+    "p_choice": 0.25
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "disengagement",
+  "bill_id": "2198761",
+  "knesset": 25,
+  "title": "הצעת חוק יישום תוכנית ההתנתקות (תיקון - ביטול סעיפי הפינוי), התשפ\"ג-2023",
+  "notes_file": "data/bill_texts/2198761.json",
+  "main": [
+   {
+    "n": "169",
+    "sign": "+",
+    "p_choice": 0.89
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "disengagement",
+  "bill_id": "2211075",
+  "knesset": 25,
+  "title": "הצעת חוק ההתנתקות והפיצויים לנפגעיה (תיקון - נוכחות וחופש תנועה לישראלים בחבל עזה), התשפ\"ד-2023",
+  "notes_file": "data/bill_texts/2211075.json",
+  "main": [
+   {
+    "n": "149",
+    "sign": "+",
+    "p_choice": 0.97
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "disengagement",
+  "bill_id": "2218871",
+  "knesset": 25,
+  "title": "הצעת חוק ההתנתקות והפיצויים לנפגעיה (תיקון - נוכחות וחופש תנועה לישראלים בחבל עזה), התשפ\"ה-2024",
+  "notes_file": "data/bill_texts/2218871.json",
+  "main": [
+   {
+    "n": "149",
+    "sign": "+",
+    "p_choice": 0.98
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "disengagement",
+  "bill_id": "2224473",
+  "knesset": 25,
+  "title": "הצעת חוק ההתנתקות והפיצויים לנפגעיה (תיקון - נוכחות וחופש תנועה לישראלים בחבל עזה), התשפ\"ה-2024",
+  "notes_file": "data/bill_texts/2224473.json",
+  "main": [
+   {
+    "n": "149",
+    "sign": "+",
+    "p_choice": 0.98
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "disengagement",
+  "bill_id": "2242653",
+  "knesset": 25,
+  "title": "הצעת חוק ההתנתקות והפיצויים לנפגעיה (תיקון - נוכחות וחופש תנועה לישראלים בחבל עזה), התשפ\"ו-2026",
+  "notes_file": "data/bill_texts/2242653.json",
+  "main": [
+   {
+    "n": "149",
+    "sign": "+",
+    "p_choice": 0.98
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "disengagement",
+  "bill_id": "2242907",
+  "knesset": 25,
+  "title": "הצעת חוק ההתנתקות והפיצויים לנפגעיה (תיקון - נוכחות וחופש תנועה לישראלים בחבל עזה), התשפ\"ו-2026",
+  "notes_file": "data/bill_texts/2242907.json",
+  "main": [
+   {
+    "n": "149",
+    "sign": "+",
+    "p_choice": 0.96
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "hametz",
+  "bill_id": "2156432",
+  "knesset": 24,
+  "title": "הצעת חוק חג המצות (איסורי חמץ) (תיקון - איסור מכירת חמץ גם שלא בפומבי), התשפ\"א-2021",
+  "notes_file": "data/bill_texts/2156432.json",
+  "main": [
+   {
+    "n": "17",
+    "sign": "+",
+    "p_choice": 0.59
+   }
+  ],
+  "secondary": [
+   {
+    "n": "151",
+    "sign": "+",
+    "applies": 0.86
+   },
+   {
+    "n": "81",
+    "sign": "+",
+    "applies": 0.81
+   },
+   {
+    "n": "358",
+    "sign": "−",
+    "applies": 0.81
+   },
+   {
+    "n": "149",
+    "sign": "−",
+    "applies": 0.73
+   }
+  ]
+ },
+ {
+  "law": "hametz",
+  "bill_id": "2156478",
+  "knesset": 24,
+  "title": "הצעת חוק חג המצות (איסורי חמץ) (תיקון - איסור הצגת חמץ בפסח בבתי חולים), התשפ\"א-2021",
+  "notes_file": "data/bill_texts/2156478.json",
+  "main": [
+   {
+    "n": "15",
+    "sign": null,
+    "p_choice": 0.3
+   },
+   {
+    "n": "260",
+    "sign": "+",
+    "p_choice": 0.29
+   }
+  ],
+  "secondary": [
+   {
+    "n": "55",
+    "sign": "+",
+    "applies": 0.8
+   },
+   {
+    "n": "151",
+    "sign": "+",
+    "applies": 0.78
+   }
+  ]
+ },
+ {
+  "law": "hametz",
+  "bill_id": "2157361",
+  "knesset": 24,
+  "title": "הצעת חוק חג המצות (איסורי חמץ) (תיקון - ביטול החוק), התשפ\"א-2021",
+  "notes_file": "data/bill_texts/2157361.json",
+  "main": [
+   {
+    "n": "162",
+    "sign": "+",
+    "p_choice": 0.54
+   }
+  ],
+  "secondary": [
+   {
+    "n": "149",
+    "sign": "+",
+    "applies": 0.92
+   },
+   {
+    "n": "17",
+    "sign": "−",
+    "applies": 0.91
+   },
+   {
+    "n": "81",
+    "sign": "−",
+    "applies": 0.89
+   },
+   {
+    "n": "151",
+    "sign": "−",
+    "applies": 0.87
+   },
+   {
+    "n": "359",
+    "sign": "−",
+    "applies": 0.86
+   }
+  ]
+ },
+ {
+  "law": "hametz",
+  "bill_id": "2190531",
+  "knesset": 24,
+  "title": "הצעת חוק איסור הכנסת חמץ לבסיסי צה\"ל, התשפ\"ב-2022",
+  "notes_file": "data/bill_texts/2190531.json",
+  "main": [
+   {
+    "n": "151",
+    "sign": "+",
+    "p_choice": 0.3
+   },
+   {
+    "n": "189",
+    "sign": "−",
+    "p_choice": 0.27
+   }
+  ],
+  "secondary": []
+ },
+ {
+  "law": "hametz",
+  "bill_id": "2197279",
+  "knesset": 25,
+  "title": "הצעת חוק חג המצות (איסורי חמץ) (תיקון - איסור הצגת חמץ בפסח בבתי חולים), התשפ\"ג-2022",
+  "notes_file": "data/bill_texts/2197279.json",
+  "main": [
+   {
+    "n": "260",
+    "sign": "+",
+    "p_choice": 0.32
+   },
+   {
+    "n": "15",
+    "sign": null,
+    "p_choice": 0.3
+   }
+  ],
+  "secondary": [
+   {
+    "n": "55",
+    "sign": "+",
+    "applies": 0.79
+   },
+   {
+    "n": "151",
+    "sign": "+",
+    "applies": 0.76
+   }
+  ]
+ },
+ {
+  "law": "hametz",
+  "bill_id": "2197299",
+  "knesset": 25,
+  "title": "הצעת חוק חג המצות (איסורי חמץ) (תיקון - איסור הצגת חמץ בפסח בבתי חולים), התשפ\"ג-2022",
+  "notes_file": "data/bill_texts/2197299.json",
+  "main": [
+   {
+    "n": "15",
+    "sign": "−",
+    "p_choice": 0.34
+   },
+   {
+    "n": "260",
+    "sign": "+",
+    "p_choice": 0.29
+   }
+  ],
+  "secondary": [
+   {
+    "n": "55",
+    "sign": "+",
+    "applies": 0.81
+   },
+   {
+    "n": "151",
+    "sign": "+",
+    "applies": 0.75
+   }
+  ]
+ },
+ {
+  "law": "attorney_general",
+  "bill_id": "2197909",
+  "knesset": 25,
+  "title": "חוק היועץ המשפטי לממשלה (חוות דעת, ייצוג ופיקוח), התשפ\"ו–2026",
+  "notes_file": "data/bill_texts/2197909.json",
+  "main": [
+   {
+    "n": "60",
+    "sign": "−",
+    "p_choice": 0.56
+   }
+  ],
+  "secondary": [
+   {
+    "n": "354",
+    "sign": "+",
+    "applies": 0.79
+   },
+   {
+    "n": "280",
+    "sign": "−",
+    "applies": 0.76
+   },
+   {
+    "n": "345",
+    "sign": "−",
+    "applies": 0.71
+   }
+  ]
+ },
+ {
+  "law": "attorney_general",
+  "bill_id": "2208895",
+  "knesset": 25,
+  "title": "הצעת חוק פיצול תפקיד היועץ המשפטי לממשלה, התשפ\"ג-2023",
+  "notes_file": "data/bill_texts/2208895.json",
+  "main": [
+   {
+    "n": "280",
+    "sign": "−",
+    "p_choice": 0.6
+   }
+  ],
+  "secondary": [
+   {
+    "n": "345",
+    "sign": "+",
+    "applies": 0.86
+   },
+   {
+    "n": "63",
+    "sign": "−",
+    "applies": 0.78
+   },
+   {
+    "n": "295",
+    "sign": "+",
+    "applies": 0.74
+   }
+  ]
+ },
+ {
+  "law": "attorney_general",
+  "bill_id": "2218869",
+  "knesset": 25,
+  "title": "הצעת חוק פיצול תפקיד היועץ המשפטי לממשלה, התשפ\"ד-2024",
+  "notes_file": "data/bill_texts/2218869.json",
+  "main": [
+   {
+    "n": "280",
+    "sign": "−",
+    "p_choice": 0.62
+   }
+  ],
+  "secondary": [
+   {
+    "n": "345",
+    "sign": "+",
+    "applies": 0.86
+   },
+   {
+    "n": "63",
+    "sign": "−",
+    "applies": 0.79
+   },
+   {
+    "n": "295",
+    "sign": "+",
+    "applies": 0.71
+   }
+  ]
+ },
+ {
+  "law": "attorney_general",
+  "bill_id": "2225483",
+  "knesset": 25,
+  "title": "הצעת חוק פיצול תפקיד היועץ המשפטי לממשלה, התשפ\"ה-2024",
+  "notes_file": "data/bill_texts/2225483.json",
+  "main": [
+   {
+    "n": "280",
+    "sign": "−",
+    "p_choice": 0.59
+   }
+  ],
+  "secondary": [
+   {
+    "n": "63",
+    "sign": "−",
+    "applies": 0.87
+   },
+   {
+    "n": "288",
+    "sign": "+",
+    "applies": 0.87
+   },
+   {
+    "n": "345",
+    "sign": "+",
+    "applies": 0.85
+   },
+   {
+    "n": "295",
+    "sign": "+",
+    "applies": 0.77
+   }
+  ]
+ },
+ {
+  "law": "attorney_general",
+  "bill_id": "2225635",
+  "knesset": 25,
+  "title": "הצעת חוק פיצול תפקיד היועץ המשפטי לממשלה, התשפ\"ה-2024",
+  "notes_file": "data/bill_texts/2225635.json",
+  "main": [
+   {
+    "n": "280",
+    "sign": "−",
+    "p_choice": 0.85
+   }
+  ],
+  "secondary": [
+   {
+    "n": "63",
+    "sign": "−",
+    "applies": 0.87
+   },
+   {
+    "n": "279",
+    "sign": "+",
+    "applies": 0.81
+   },
+   {
+    "n": "295",
+    "sign": "+",
+    "applies": 0.75
+   },
+   {
+    "n": "60",
+    "sign": "−",
+    "applies": 0.71
+   },
+   {
+    "n": "345",
+    "sign": "+",
+    "applies": 0.7
+   }
+  ]
+ },
+ {
+  "law": "attorney_general",
+  "bill_id": "2226047",
+  "knesset": 25,
+  "title": "הצעת חוק פיצול תפקיד היועץ המשפטי לממשלה, התשפ\"ה-2024",
+  "notes_file": "data/bill_texts/2226047.json",
+  "main": [
+   {
+    "n": "280",
+    "sign": "−",
+    "p_choice": 0.6
+   }
+  ],
+  "secondary": [
+   {
+    "n": "63",
+    "sign": "−",
+    "applies": 0.87
+   },
+   {
+    "n": "288",
+    "sign": "+",
+    "applies": 0.85
+   },
+   {
+    "n": "345",
+    "sign": "+",
+    "applies": 0.84
+   },
+   {
+    "n": "295",
+    "sign": "+",
+    "applies": 0.78
+   }
+  ]
+ },
+ {
+  "law": "attorney_general",
+  "bill_id": "2226845",
+  "knesset": 25,
+  "title": "הצעת חוק פיצול תפקיד היועץ המשפטי לממשלה, התשפ\"ה-2025",
+  "notes_file": "data/bill_texts/2226845.json",
+  "main": [
+   {
+    "n": "280",
+    "sign": "−",
+    "p_choice": 0.93
+   }
+  ],
+  "secondary": [
+   {
+    "n": "279",
+    "sign": "+",
+    "applies": 0.8
+   },
+   {
+    "n": "60",
+    "sign": "−",
+    "applies": 0.77
+   },
+   {
+    "n": "63",
+    "sign": "−",
+    "applies": 0.76
+   }
+  ]
+ },
+ {
+  "law": "inquiry_oct7",
+  "bill_id": "2215901",
+  "knesset": 25,
+  "title": "הצעת חוק ועדת חקירה לאירועים שקדמו למלחמת חרבות ברזל, התשפ\"ד-2024",
+  "notes_file": "data/bill_texts/2215901.json",
+  "main": [
+   {
+    "n": "295",
+    "sign": "+",
+    "p_choice": 0.54
+   }
+  ],
+  "secondary": [
+   {
+    "n": "288",
+    "sign": "+",
+    "applies": 0.88
+   },
+   {
+    "n": "80",
+    "sign": "+",
+    "applies": 0.85
+   },
+   {
+    "n": "44",
+    "sign": "+",
+    "applies": 0.78
+   },
+   {
+    "n": "279",
+    "sign": "+",
+    "applies": 0.72
+   }
+  ]
+ },
+ {
+  "law": "inquiry_oct7",
+  "bill_id": "2218567",
+  "knesset": 25,
+  "title": "הצעת חוק הקמת ועדת חקירה ממלכתית לאירועי 7 באוקטובר, התשפ\"ד-2024",
+  "notes_file": "data/bill_texts/2218567.json",
+  "main": [
+   {
+    "n": "295",
+    "sign": "+",
+    "p_choice": 0.6
+   }
+  ],
+  "secondary": [
+   {
+    "n": "80",
+    "sign": "+",
+    "applies": 0.83
+   },
+   {
+    "n": "279",
+    "sign": "+",
+    "applies": 0.79
+   },
+   {
+    "n": "44",
+    "sign": "+",
+    "applies": 0.7
+   }
+  ]
+ },
+ {
+  "law": "inquiry_oct7",
+  "bill_id": "2218628",
+  "knesset": 25,
+  "title": "הצעת חוק הקמת ועדת חקירה ממלכתית לאירועי 7 באוקטובר ומלחמת חרבות ברזל, התשפ\"ד-2024",
+  "notes_file": "data/bill_texts/2218628.json",
+  "main": [
+   {
+    "n": "295",
+    "sign": "+",
+    "p_choice": 0.53
+   }
+  ],
+  "secondary": [
+   {
+    "n": "80",
+    "sign": "+",
+    "applies": 0.83
+   },
+   {
+    "n": "279",
+    "sign": "+",
+    "applies": 0.79
+   }
+  ]
+ },
+ {
+  "law": "inquiry_oct7",
+  "bill_id": "2219454",
+  "knesset": 25,
+  "title": "הצעת חוק הקמת ועדת חקירה ממלכתית לאירועי 7 באוקטובר ומלחמת חרבות ברזל, התשפ\"ד-2024",
+  "notes_file": "data/bill_texts/2219454.json",
+  "main": [
+   {
+    "n": "295",
+    "sign": "+",
+    "p_choice": 0.46
+   },
+   {
+    "n": "80",
+    "sign": "+",
+    "p_choice": 0.32
+   }
+  ],
+  "secondary": [
+   {
+    "n": "279",
+    "sign": "+",
+    "applies": 0.77
+   }
+  ]
+ },
+ {
+  "law": "inquiry_oct7",
+  "bill_id": "2222852",
+  "knesset": 25,
+  "title": "חוק העמדה לדין בשל אירועי טבח 7 באוקטובר 2023 (טבח שמיני עצרת), התשפ\"ו–2026",
+  "notes_file": "data/bill_texts/2222852.json",
+  "main": [
+   {
+    "n": "64",
+    "sign": "+",
+    "p_choice": 0.32
+   },
+   {
+    "n": "77",
+    "sign": "+",
+    "p_choice": 0.18
+   }
+  ],
+  "secondary": [
+   {
+    "n": "55",
+    "sign": "+",
+    "applies": 0.88
+   },
+   {
+    "n": "279",
+    "sign": "+",
+    "applies": 0.86
+   },
+   {
+    "n": "60",
+    "sign": "+",
+    "applies": 0.81
+   },
+   {
+    "n": "346",
+    "sign": "+",
+    "applies": 0.81
+   },
+   {
+    "n": "149",
+    "sign": "−",
+    "applies": 0.79
+   }
+  ]
+ },
+ {
+  "law": "inquiry_oct7",
+  "bill_id": "2226911",
+  "knesset": 25,
+  "title": "הצעת חוק הקמת ועדת חקירה ממלכתית לאירועי 7 באוקטובר, התשפ\"ה-2025",
+  "notes_file": "data/bill_texts/2226911.json",
+  "main": [
+   {
+    "n": "295",
+    "sign": "+",
+    "p_choice": 0.36
+   }
+  ],
+  "secondary": [
+   {
+    "n": "80",
+    "sign": "+",
+    "applies": 0.79
+   }
+  ]
+ },
+ {
+  "law": "inquiry_oct7",
+  "bill_id": "2231299",
+  "knesset": 25,
+  "title": "הצעת חוק-יסוד: משאל עם - ועדת חקירה ממלכתית לאירועי 7 באוקטובר",
+  "notes_file": "data/bill_texts/2231299.json",
+  "main": [
+   {
+    "n": "295",
+    "sign": "+",
+    "p_choice": 0.61
+   }
+  ],
+  "secondary": [
+   {
+    "n": "80",
+    "sign": "+",
+    "applies": 0.75
+   }
+  ]
+ },
+ {
+  "law": "inquiry_oct7",
+  "bill_id": "2235553",
+  "knesset": 25,
+  "title": "הצעת חוק הקמת ועדת חקירה ממלכתית לאירועי 7 באוקטובר, התשפ\"ו-2025",
+  "notes_file": "data/bill_texts/2235553.json",
+  "main": [
+   {
+    "n": "295",
+    "sign": "+",
+    "p_choice": 0.6
+   }
+  ],
+  "secondary": [
+   {
+    "n": "80",
+    "sign": "+",
+    "applies": 0.8
+   },
+   {
+    "n": "279",
+    "sign": "+",
+    "applies": 0.73
+   },
+   {
+    "n": "44",
+    "sign": "+",
+    "applies": 0.72
+   }
+  ]
+ },
+ {
+  "law": "inquiry_oct7",
+  "bill_id": "2235692",
+  "knesset": 25,
+  "title": "הצעת חוק הקמת ועדת חקירה ממלכתית לאירועי 7 באוקטובר, התשפ\"ו-2025",
+  "notes_file": "data/bill_texts/2235692.json",
+  "main": [
+   {
+    "n": "295",
+    "sign": "+",
+    "p_choice": 0.32
+   },
+   {
+    "n": "354",
+    "sign": "+",
+    "p_choice": 0.3
+   }
+  ],
+  "secondary": [
+   {
+    "n": "80",
+    "sign": "+",
+    "applies": 0.8
+   }
+  ]
+ },
+ {
+  "law": "inquiry_oct7",
+  "bill_id": "2236693",
+  "knesset": 25,
+  "title": "הצעת חוק הקמת ועדת חקירה ממלכתית לאירועי 7 באוקטובר, התשפ\"ו-2025",
+  "notes_file": "data/bill_texts/2236693.json",
+  "main": [
+   {
+    "n": "354",
+    "sign": "+",
+    "p_choice": 0.33
+   },
+   {
+    "n": "295",
+    "sign": "+",
+    "p_choice": 0.28
+   }
+  ],
+  "secondary": [
+   {
+    "n": "80",
+    "sign": "+",
+    "applies": 0.81
+   }
+  ]
+ },
+ {
+  "law": "inquiry_oct7",
+  "bill_id": "2237274",
+  "knesset": 25,
+  "title": "הצעת חוק הקמת ועדת חקירה ממלכתית לאירועי 7 באוקטובר, התשפ\"ו-2025",
+  "notes_file": "data/bill_texts/2237274.json",
+  "main": [
+   {
+    "n": "295",
+    "sign": "+",
+    "p_choice": 0.64
+   }
+  ],
+  "secondary": [
+   {
+    "n": "80",
+    "sign": "+",
+    "applies": 0.8
+   },
+   {
+    "n": "44",
+    "sign": "+",
+    "applies": 0.71
+   },
+   {
+    "n": "279",
+    "sign": "+",
+    "applies": 0.71
+   }
+  ]
+ },
+ {
+  "law": "inquiry_oct7",
+  "bill_id": "2243006",
+  "knesset": 25,
+  "title": "הצעת חוק הקמת ועדת חקירה ממלכתית לאירועי 7 באוקטובר, התשפ\"ו-2026",
+  "notes_file": "data/bill_texts/2243006.json",
+  "main": [
+   {
+    "n": "295",
+    "sign": "+",
+    "p_choice": 0.65
+   }
+  ],
+  "secondary": [
+   {
+    "n": "80",
+    "sign": "+",
+    "applies": 0.8
+   },
+   {
+    "n": "44",
+    "sign": "+",
+    "applies": 0.72
+   },
+   {
+    "n": "279",
+    "sign": "+",
+    "applies": 0.72
+   }
+  ]
+ }
+]

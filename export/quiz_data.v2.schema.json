@@ -68,7 +68,10 @@
         "TRADE_CANDIDATES",
         "VOTE_WEIGHT",
         "CLOSE",
-        "BILL_URL"
+        "BILL_URL",
+        "MIN_EX_MKS",
+        "MIN_CLEAR_MKS",
+        "MIN_CLEAR_BILLS"
       ],
       "properties": {
         "K": {
@@ -106,6 +109,19 @@
         "BILL_URL": {
           "type": "string",
           "description": "Link to a bill on the Knesset site: replace {id} with the bill id."
+        },
+        "MIN_EX_MKS": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "A list with fewer former MKs is shown but not ranked (customer decision 2026-10-18)."
+        },
+        "MIN_CLEAR_MKS": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "MIN_CLEAR_BILLS": {
+          "type": "integer",
+          "minimum": 1
         }
       }
     },
@@ -220,7 +236,9 @@
                 "P_bills",
                 "e",
                 "n_mk",
-                "n_votes"
+                "n_votes",
+                "n_other",
+                "n_names"
               ],
               "properties": {
                 "P": {
@@ -242,6 +260,16 @@
                 "n_votes": {
                   "type": "integer",
                   "description": "Votes on private bills on this direction (shown in explanations)."
+                },
+                "n_other": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "description": "Votes of the list's ex-MKs on the other camp's bills on this direction (basis line, 2026-10-18)."
+                },
+                "n_names": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "description": "Distinct bills (by name, sponsored or voted) behind the position; a clear position needs >= params.MIN_CLEAR_BILLS and n_mk >= params.MIN_CLEAR_MKS (2026-10-18)."
                 }
               }
             }
@@ -352,7 +380,8 @@
         "clarify_top",
         "stop_gap",
         "min_questions",
-        "max_questions"
+        "max_questions",
+        "core_one_sided"
       ],
       "properties": {
         "core": {
@@ -403,6 +432,10 @@
           "type": "integer",
           "minimum": 0,
           "description": "Stopping rule: at most this many statements."
+        },
+        "core_one_sided": {
+          "type": "boolean",
+          "description": "false: statements on which every evaluated list with a clear position is on the same side are not in the core (2026-10-18)."
         }
       }
     },

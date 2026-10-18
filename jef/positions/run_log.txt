@@ -1,29 +1,31 @@
 bill votes (4 stages, non-technical): 4763; roster rows with for/against: 263211; MKs 195
 government formation (from positions): {24: '2021-06-13', 25: '2022-12-29'} | transition windows: [('2021-04-06', '2021-06-13'), ('2022-11-15', '2022-12-29')]
-A rows (MK×Knesset×dir): 27463; V rows: 53862
-mk_topic_positions: 44067 rows, MKs 193, directions 333; with A: 22717, V only: 21350
+coalition by behaviour (cleaning votes): [('הרשימה הערבית המאוחדת', 24, 0.946)]
+A rows (MK×Knesset×dir): 27114; V rows: 54029
+O rows (votes on the other camp's bills): 44956; bills with a camp: 4703
+mk_topic_positions: 46210 rows, MKs 194, directions 342; with A: 22452, V only: 23758
 faction camp switches (W30≥0.7): [(1107, 'נעם - בראשות אבי מעוז', '2025-03-04', '2025-03-25'), (1108, 'הימין הממלכתי', '2024-09-29', '2026-07-28')]
 MK camp-switch periods (W30≥0.7): [('גדעון סער', '2024-07-17', '2024-11-06'), ('זאב אלקין', '2024-07-17', '2024-11-06'), ('שרן מרים השכל', '2024-07-17', '2024-11-06'), ('יעקב טסלר', '2026-03-18', '2026-06-24'), ('עמיחי שיקלי', '2021-06-29', '2022-06-01'), ('מישל בוסקילה', '2024-07-17', '2024-11-06'), ('יצחק גולדקנופ', '2026-03-24', '2026-06-10')]
 against-camp rows: 4369, in MK switch periods 686, examples written 3683
 
 # list coverage
 letters                                                                                          list_name  candidates  ex_mks  ex_mks_top10        status  dirs_nmk_ge1  dirs_nmk_ge3  median_nA_per_exmk
-    מחל                                            Likud , headed by Binyamin Netanyahu for Prime Minister         120      34             9            ok           317           300                97.5
-     רק                                                                Be’Yahad, headed by Naftali Bennett         118      19             5            ok           308           288               158.0
-     שס            Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL         119      12             9            ok           306           291               166.5
-    אמת                                                                 HaDemocratim, headed by Yair Golan         119      11             6            ok           299           281               141.0
-      ג             Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah         118       9             5            ok           300           282                82.0
-      ל                                                       Yisrael Beiteinu, headed by Avigdor Liberman          34       8             6            ok           300           281               305.0
-      ט                       Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin          33       6             4            ok           298           278               163.5
-     עם                                                                        Ra’am, the United Arab List          73       6             5            ok           291           269               235.5
-      ב                                                           Otzma Yehudit, headed by Itamar Ben Gvir          35       6             6            ok           301           261                95.0
-    ודם                                                                                The Joint Arab List         118       5             3            ok           294           276               457.0
-     כן                                                 Kahol Lavan (Blue and White), headed by Beni Gantz          39       4             4            ok           286           234               104.0
-    דרך                                           Yashar! With Eizenkot for Prime Minister, Uniting Israel         120       4             3            ok           274           209                40.0
+    מחל                                            Likud , headed by Binyamin Netanyahu for Prime Minister         120      34             9            ok           329           315                97.5
+     רק                                                                Be’Yahad, headed by Naftali Bennett         118      19             5            ok           325           307               158.0
+     שס            Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL         119      12             9            ok           321           309               166.5
+    אמת                                                                 HaDemocratim, headed by Yair Golan         119      11             6            ok           312           294               141.0
+      ג             Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah         118       9             5            ok           312           295                82.0
+      ל                                                       Yisrael Beiteinu, headed by Avigdor Liberman          34       8             6            ok           316           297               305.0
+      ט                       Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin          33       6             4            ok           310           294               163.5
+     עם                                                                        Ra’am, the United Arab List          73       6             5            ok           308           285               235.5
+      ב                                                           Otzma Yehudit, headed by Itamar Ben Gvir          35       6             6            ok           317           266                95.0
+    ודם                                                                                The Joint Arab List         118       5             3            ok           310           295               457.0
+     כן                                                 Kahol Lavan (Blue and White), headed by Beni Gantz          39       4             4            ok           303           250               104.0
+    דרך                                           Yashar! With Eizenkot for Prime Minister, Uniting Israel         120       4             3            ok           291           231                40.0
      די                                HaMiluimnikim v’haCalcalit, headed by Yoaz Hendel and Yaron Zelekha          36       1             1       warning            11             0                 3.0
-     בי                                                                                Tzomet Beit Yisrael          12       1             1       warning           195             0                35.0
-     ני                                       Noam L’Yisrael for the Children’s Future, headed by Avi Maoz          16       1             1       warning           240             0                97.0
-      י                                                          Yisrael Techila, headed by Sharren Haskel          12       1             1       warning           270             0               145.0
+     בי                                                                                Tzomet Beit Yisrael          12       1             1       warning           216             0                35.0
+     ני                                       Noam L’Yisrael for the Children’s Future, headed by Avi Maoz          16       1             1       warning           266             0                97.0
+      י                                                          Yisrael Techila, headed by Sharren Haskel          12       1             1       warning           282             0               145.0
      קך                       Seder Hadash for a Constitution, Separation of Powers and Personal Elections          25       0             0 not_evaluated             0             0                 NaN
      נר                                                                   Tzeva Shahor, Magen Olam haTorah          18       0             0 not_evaluated             0             0                 NaN
     צדק                                                                     Sharshar l’Ahava v’Ahdut Ha”am          12       0             0 not_evaluated             0             0                 NaN
@@ -48,17 +50,17 @@ letters                                                                         
      זך                                                         HaTzibbur HaHaredi, headed by Moti Leitner          12       0             0 not_evaluated             0             0                 NaN
 
 # top-10 differentiating directions (SD of list P among lists with n_mk≥3)
-  161 автономия религиозных институтов: SD 1.155 (3 lists) {'אמת': -1.0, 'ל': -1.0, 'שס': 1.0}
   53a отстранение депутатов за поддержку врага и нелояльность: SD 1.022 (6 lists) {'אמת': -1.0, 'ב': 0.67, 'ודם': -1.0, 'ט': 1.0, 'מחל': 0.9, 'רק': -1.0}
-  274 пенсионный возраст: SD 0.940 (5 lists) {'אמת': 0.67, 'ג': 0.67, 'ודם': -0.83, 'מחל': 1.0, 'עם': -1.0}
-  218 сила профсоюзов и коллективных договоров: SD 0.858 (4 lists) {'אמת': 1.0, 'מחל': -0.43, 'רק': -1.0, 'שס': 0.2}
-  116a избирательный порог и порог регистрации партий: SD 0.784 (5 lists) {'ב': -0.66, 'ג': 1.0, 'מחל': -0.56, 'עם': 0.89, 'שס': -0.05}
-  128 допустимые модели формирования правительства: SD 0.780 (8 lists) {'אמת': -0.8, 'ג': 1.0, 'ט': 0.58, 'כן': -0.33, 'מחל': 0.15, 'עם': 1.0, 'רק': -1.0, 'שס': 0.56}
-  209a законные ограничения рабочего времени: SD 0.733 (7 lists) {'אמת': -0.67, 'ג': -1.0, 'ודם': -1.0, 'ט': 1.0, 'ל': -1.0, 'מחל': -0.2, 'עם': -0.83}
-  179 допуск иностранцев на въезд и пребывание: SD 0.703 (12 lists) {'אמת': 0.65, 'ב': -0.72, 'ג': -0.53, 'דרך': -0.37, 'ודם': 0.97, 'ט': -0.87, 'כן': 0.13, 'ל': -0.69, 'מחל': -0.75, 'עם': 0.94, 'רק': 0.15, 'שס': -0.85}
-  183 доступ к гражданству и репатриации: SD 0.689 (11 lists) {'אמת': 0.56, 'ב': -0.55, 'ג': -0.58, 'ודם': 0.96, 'ט': -0.87, 'כן': -0.03, 'ל': 0.35, 'מחל': -0.49, 'עם': 1.14, 'רק': 0.32, 'שס': -0.6}
-  309 право на семейную жизнь и усыновление: SD 0.689 (12 lists) {'אמת': 1.16, 'ב': -0.58, 'ג': 0.13, 'דרך': -0.22, 'ודם': 0.89, 'ט': -0.41, 'כן': -0.08, 'ל': -0.6, 'מחל': -0.7, 'עם': 0.74, 'רק': 0.64, 'שס': -0.83}
-directions with ≥3 lists: 304; SD quantiles {0.1: 0.15, 0.5: 0.33, 0.9: 0.52}
+  179 допуск иностранцев на въезд и пребывание: SD 0.858 (12 lists) {'אמת': 0.88, 'ב': -0.91, 'ג': -0.66, 'דרך': -0.33, 'ודם': 1.32, 'ט': -1.06, 'כן': -0.19, 'ל': -0.61, 'מחל': -0.82, 'עם': 1.06, 'רק': 0.37, 'שס': -1.04}
+  183 доступ к гражданству и репатриации: SD 0.835 (11 lists) {'אמת': 0.8, 'ב': -0.58, 'ג': -0.78, 'ודם': 1.23, 'ט': -1.05, 'כן': 0.0, 'ל': 0.4, 'מחל': -0.52, 'עם': 1.2, 'רק': 0.51, 'שס': -0.81}
+  309 право на семейную жизнь и усыновление: SD 0.821 (12 lists) {'אמת': 1.34, 'ב': -0.8, 'ג': 0.04, 'דרך': -0.09, 'ודם': 1.15, 'ט': -0.61, 'כן': -0.15, 'ל': -0.75, 'מחל': -0.83, 'עם': 0.83, 'רק': 0.74, 'שס': -0.88}
+  116a избирательный порог и порог регистрации партий: SD 0.815 (5 lists) {'ב': -0.66, 'ג': 1.0, 'מחל': -0.59, 'עם': 0.99, 'שס': -0.05}
+  128 допустимые модели формирования правительства: SD 0.809 (8 lists) {'אמת': -0.85, 'ג': 1.0, 'ט': 0.52, 'כן': -0.5, 'מחל': 0.09, 'עם': 1.0, 'רק': -1.08, 'שס': 0.47}
+  151 роль религиозных норм в государстве и публичной сфере: SD 0.780 (11 lists) {'אמת': -0.36, 'ב': 0.59, 'ג': 1.05, 'ודם': -0.03, 'ט': 0.84, 'כן': -0.06, 'ל': -0.95, 'מחל': 0.5, 'עם': -0.27, 'רק': -0.9, 'שס': 1.44}
+  296a обязательства по международному праву прав человека и мирным соглашениям: SD 0.762 (12 lists) {'אמת': 1.0, 'ב': -0.75, 'ג': -0.25, 'דרך': -0.1, 'ודם': 1.34, 'ט': -0.64, 'כן': -0.51, 'ל': -1.34, 'מחל': -0.42, 'עם': 0.58, 'רק': -0.4, 'שס': -0.27}
+  171 экономические связи с враждебными образованиями (заодно даёт знаки 172): SD 0.738 (12 lists) {'אמת': 0.13, 'ב': -0.41, 'ג': -0.16, 'דרך': -0.38, 'ודם': 1.41, 'ט': -1.13, 'כן': -0.55, 'ל': -1.18, 'מחל': -0.77, 'עם': 0.32, 'רק': -1.13, 'שס': -0.5}
+  166 территория под израильским суверенитетом и правом: SD 0.735 (12 lists) {'אמת': -0.59, 'ב': 0.75, 'ג': 0.51, 'דרך': 0.15, 'ודם': -1.4, 'ט': 1.07, 'כן': 0.15, 'ל': 0.98, 'מחל': 0.71, 'עם': -0.37, 'רק': -0.26, 'שס': 0.64}
+directions with ≥3 lists: 319; SD quantiles {0.1: 0.191, 0.5: 0.355, 0.9: 0.575}
 
 # government layer per list
 letters  knesset  n_mk  n_votes  share_with_gov  mean_mk_share
