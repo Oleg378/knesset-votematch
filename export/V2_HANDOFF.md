@@ -11,7 +11,7 @@ flow in the terminal. Decisions are in `docs/SHARED_UNDERSTANDING.md` (Russian).
 | Area | v1 | v2 |
 |---|---|---|
 | Files | one `quiz_data.v1.json` (1.6 MB), bundled | three files fetched in order (section 5); bills lose `url` (built from `params.BILL_URL`) and `summary_en` |
-| Statements | 65 | 77 (`q` ids stable, gaps allowed; removed ones are gone, new ones up to q105). Texts and titles changed for many |
+| Statements | 65 | 76 (`q` ids stable, gaps allowed; removed ones are gone, new ones up to q105). Texts and titles changed for many |
 | List position P | (A + 0.25 V) / weights, A centered | P = A + 0.25 V + 0.25 O; A (sponsored bills) is **not centered**; O = votes against the other camp's bills (2026-10-18). Comes ready in `lists[].positions` — the web only reads P |
 | Ranking | coverage ≥ MIN_COVERAGE | also `ex_mks ≥ params.MIN_EX_MKS` (2): a list with one former MK goes to «Not ranked» with its note (2026-10-18) |
 | Shrinkage | p = P · e / (e + K), K = 2 | **K = 0: p = P**. Keep the formula generic and read K from `params` |
@@ -106,8 +106,8 @@ Goal: the start page never waits for data, and a loader almost never appears.
 Texts for the methodology / FAQ page, English as shown. Numbers come from the export where noted; the rest is fixed text.
 
 **How topics are chosen.** A topic gets a statement only if the parties' former MKs actually differ on it in the Knesset record:
-at least 8 evaluated lists with 3 or more former MKs on the topic, a spread of their positions of at least 0.25, and at least 10
-distinct bills sponsored by them. These thresholds were fixed in advance and are the same for every topic. Topics where all lists
+at least 8 evaluated lists with 3 or more former MKs on the topic, a spread of their positions of at least 0.25, and at least 5
+distinct bills (a re-submitted bill counts once) sponsored by them. These thresholds were fixed in advance and are the same for every topic. Topics where all lists
 did the same, or where too few bills exist, are left out — even when they are important.
 
 **Important topics that are not in the quiz, and why.**

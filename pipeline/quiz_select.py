@@ -3,8 +3,9 @@
 Over evaluated lists (status ok) whose position on the direction rests on >= 3 ex-MKs:
   coverage   — at least 8 such lists;
   spread     — population SD of their positions P >= 0.25 ([У] 2026-10-17, new formula P = A + 0.25 V; before: 0.3 on the old scale);
-  volume     — distinct bills sponsored by the ex-MKs of those lists >= MIN_BILLS ([У] 2026-10-18, Р5 / external audit С5; before:
-               MK × bill authorship pairs >= 30, then 25). 10 keeps the pool unchanged (local/research/sensitivity/report.md); frozen.
+  volume     — distinct bills sponsored by the ex-MKs of those lists, counted by NAME without the year (a bill re-submitted in the
+               next Knesset counts once) >= MIN_NAMES ([У] 2026-10-18 after external audit №2 С2: 5; before — distinct bill ids >= 10,
+               MK × bill pairs >= 30, then 25).
   gov axis   — |r| between P and the list's share of votes with the government in K25 >= 0.8: shown, not a drop and no cap
                ([У] 2026-10-18; the cap of 5 from 2026-10-16 is lifted: with the core → clarifying flow the balance is kept in the
                core instead, quiz_flow.FLOW core_gov_share).
@@ -19,14 +20,17 @@ import numpy as np
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 POS = os.path.join(ROOT, "jef/positions")
-MIN_LISTS, MIN_SD, MIN_BILLS, GOV_R = 8, 0.25, 10, 0.8   # [У] 2026-10-18: thresholds frozen after the sensitivity report
+MIN_LISTS, MIN_SD, MIN_NAMES, GOV_R = 8, 0.25, 5, 0.8   # [У] 2026-10-18: volume by distinct names, 5 (customer: 10 by names is too coarse)
 
 def _bills_by_list_direction():
-    """(list, direction) -> set of distinct bills sponsored (initiator) by the list's ex-MKs, Knessets 24–25, current labels."""
+    """(list, direction) -> set of distinct bill NAMES (without the year) sponsored (initiator) by the list's ex-MKs, Knessets 24–25."""
     import duckdb, pandas as pd
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import labels
     bl = labels.load()["bill_lab"]
     con = duckdb.connect(os.path.join(ROOT, "knesset.duckdb"), read_only=True)
+    import re
+    base = lambda n: re.sub(r",?\s*(ה?תש[\"״׳'\w\-]*\s*-?\s*\d{4})\s*$", "", str(n or "")).strip()
+    bn = {b: base(n) for b, n in con.execute("select bill_id, name from bills").fetchall()}
     bi = con.execute("select i.bill_id, i.mk_id from bill_initiators i join bills b using(bill_id) where i.is_initiator and b.knesset in (24,25)").df()
     cand = pd.read_csv(os.path.join(ROOT, "manual/candidate_mk_26.csv")); cand = cand[cand.match.isin(["exact", "manual"])]
     mk2l = dict(zip(cand.mk_id.astype(int), cand.letters))
@@ -34,7 +38,7 @@ def _bills_by_list_direction():
     for b, m in zip(bi.bill_id, bi.mk_id):
         l = mk2l.get(int(m)); lab = bl.get(int(b))
         if l is None or lab is None: continue
-        for d in labels.signed_topics(lab): out[(l, d)].add(int(b))
+        for d in labels.signed_topics(lab): out[(l, d)].add(bn.get(int(b)))
     return out
 
 def criteria():
@@ -50,7 +54,7 @@ def criteria():
         g = [G[(x["letters"], "25")] for x in xs]
         c = float(np.corrcoef(P, g)[0, 1]) if np.std(P) > 0 else float("nan")
         sd = st.pstdev(P) if len(P) > 1 else 0.0
-        base = len(xs) >= MIN_LISTS and sd >= MIN_SD and nA >= MIN_BILLS
+        base = len(xs) >= MIN_LISTS and sd >= MIN_SD and nA >= MIN_NAMES
         out[d] = dict(d=d, name=name, lists=len(xs), sd=sd, nA=nA, r=c, base=base, gov=base and abs(c) >= GOV_R)
     return out
 
