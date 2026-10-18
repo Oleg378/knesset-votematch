@@ -11,7 +11,7 @@ flow in the terminal. Decisions are in `docs/SHARED_UNDERSTANDING.md` (Russian).
 | Area | v1 | v2 |
 |---|---|---|
 | Files | one `quiz_data.v1.json` (1.6 MB), bundled | three files fetched in order (section 5); bills lose `url` (built from `params.BILL_URL`) and `summary_en` |
-| Statements | 65 | 78 (`q` ids stable, gaps allowed; removed ones are gone, new ones up to q105). Texts and titles changed for many |
+| Statements | 65 | 77 (`q` ids stable, gaps allowed; removed ones are gone, new ones up to q105). Texts and titles changed for many |
 | List position P | (A + 0.25 V) / weights, A centered | P = A + 0.25 V + 0.25 O; A (sponsored bills) is **not centered**; O = votes against the other camp's bills (2026-10-18). Comes ready in `lists[].positions` — the web only reads P |
 | Ranking | coverage ≥ MIN_COVERAGE | also `ex_mks ≥ params.MIN_EX_MKS` (2): a list with one former MK goes to «Not ranked» with its note (2026-10-18) |
 | Shrinkage | p = P · e / (e + K), K = 2 | **K = 0: p = P**. Keep the formula generic and read K from `params` |
@@ -19,7 +19,7 @@ flow in the terminal. Decisions are in `docs/SHARED_UNDERSTANDING.md` (Russian).
 | Trade-offs | up to MAX_TRADE | unchanged algorithm; the limit comes from `flow.trade` |
 | Answer words in explanations | «somewhat agree / somewhat disagree» | **«agree / disagree»** (same as the buttons); «strongly …» unchanged |
 | Explanation caveat | «… positions are measured relative to the average MK» | **removed** (no longer true) |
-| |p| < CLOSE | «close to the average MK on this statement» | **«has no clear position on this statement»** (customer, 2026-10-18); CLOSE comes from `params.CLOSE` (0.3 since 2026-10-18: the smallest |p| above which the side agrees between the two Knessets in ≥ 75 % of cases) |
+| |p| < CLOSE | «close to the average MK on this statement» | **«has no clear position on this statement»** (customer, 2026-10-18); a position is clear when |p| ≥ `params.CLOSE` (0.2) and it rests on ≥ 2 former MKs and ≥ 2 distinct bills (2026-10-18, after the second external audit) |
 
 Nothing changes in: cosine closeness, weights 1/n per direction (a/b pairs), coverage threshold 0.5 and the «Not ranked» block,
 the two notes, what is not shown (no coalition/opposition, no number of MKs).
@@ -56,7 +56,7 @@ Per list, everything comes from `quiz_report.contributions()` and `explain()`; g
 - `lines` — shown exactly as given, in order:
   1. the statement in quotes;
   2. `Your answer: <agree / strongly agree / …>. The record of the list's former MKs <points toward this statement | points against this statement | shows no clear position on this statement>.`
-     (the third variant when |p| < CLOSE; wording changed 2026-10-18);
+     (the third variant when the position is not clear: |p| < `params.CLOSE` (0.2), or fewer than `params.MIN_CLEAR_MKS` former MKs, or fewer than `params.MIN_CLEAR_BILLS` distinct bills (`n_names`); wording changed 2026-10-18);
   3. basis: `Basis: N bills sponsored by the list's former MKs — X your way, Y the other way; M votes on private bills and K votes on the other camp's bills on this topic.`
      or `Basis: no bills of their own on this topic, only M votes on private bills and K votes on the other camp's bills on this topic.`
      (M = `n_votes`, K = `n_other` of the list's position);
@@ -137,8 +137,8 @@ their own votes.
 **The answer scale.** Closeness compares directions, not intensity: if you answer «strongly agree» to everything, the result is the
 same as «agree» to everything; the strength of an answer matters when your answers are mixed.
 
-**«No clear position».** A list is marked so when its position is weaker than 0.3 (`params.CLOSE`): below that, the side of the
-same list did not hold between the two Knessets in most cases.
+**«No clear position».** A list is marked so when its position is weaker than 0.2 (`params.CLOSE`) — below that, the side of the
+same list did not hold between the two Knessets in most cases — or when it rests on a single former MK or a single bill.
 
 **Checks and their limits.** Topic labels were made by a language model and checked by independent model reviewers, not yet by
 human experts; a human check is planned.

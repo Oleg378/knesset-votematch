@@ -36,7 +36,7 @@ def load():
     pos = collections.defaultdict(dict)
     for r in csv.DictReader(open(os.path.join(POS, "list_topic_positions.csv"))):
         e = float(r["sum_nA"]) + 0.25 * (float(r["sum_nV"]) + float(r.get("sum_nO") or 0))   # O: votes on the other camp's bills (2026-10-18)
-        pos[r["letters"]][r["d"]] = (float(r["P"]), e, int(r["n_mk"]), float(r["P_A"]))   # P_A: the part from own bills
+        pos[r["letters"]][r["d"]] = (float(r["P"]), e, int(r["n_mk"]), float(r["P_A"]), int(r.get("n_names") or 0))   # P_A: own bills; n_names: distinct bills
     cov = {r["letters"]: r for r in csv.DictReader(open(os.path.join(POS, "list_coverage.csv")))}
     return st, pos, cov
 

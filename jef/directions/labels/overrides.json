@@ -885,7 +885,7 @@
  "_doc_labels": "Point corrections of high-profile laws (customer decision 2026-10-17): gross errors fixed per bill after an expert check (jef/h9_check/landmark/fix/out_1.json, out_2.json); reason and framing per bill.",
  "_doc_remove": "Label removals (customer decision 2026-10-18): a bill's label on a quiz direction is removed when two independent checks found the bill is not about the question of that direction's statement. Candidates: docs/SHARED_UNDERSTANDING.md (label removals), local/research/secondary_weight_v2/ (audit_result.md, check2_result.csv). Applied by pipeline/labels.py after all split stages.",
  "remove": {
-  "decision": "2026-10-18, customer: apply all 109 removals agreed by both checks (variant A); borderline ones are kept; 2026-10-18, customer: wave 2 (candidates from the wording / votes / main-label check, same two-check rule) applied; 2026-10-18, customer: wave 3 (new and moved statements q51, q64, q69, q98, q105; same two-check rule) applied; 2026-10-18, customer: Р8 symmetric check of the core statements — 5 more",
+  "decision": "2026-10-18, customer: apply all 109 removals agreed by both checks (variant A); borderline ones are kept; 2026-10-18, customer: wave 2 (candidates from the wording / votes / main-label check, same two-check rule) applied; 2026-10-18, customer: wave 3 (new and moved statements q51, q64, q69, q98, q105; same two-check rule) applied; 2026-10-18, customer: Р8 symmetric check of the core statements — 5 more; 2026-10-18, customer (audit №2 С3): disputed pairs resolved by majority of three blind checks — 20 removed, 113 kept; 2026-10-18 (audit №2 К2): every bill of the 8 core statements checked, removals where two blind checks agree",
   "items": [
    {
     "bill_id": "2156912",
@@ -2030,6 +2030,790 @@
     "role": "main",
     "source": "R8 symmetric check (core statements)",
     "reason": "Disperses infiltrators geographically; does not change foreign-worker inflow."
+   },
+   {
+    "bill_id": "2207140",
+    "d": "80",
+    "q": "96",
+    "role": "secondary",
+    "source": "disputed pair: 2 of 3 blind checks «not about» (third check, audit №2 С3)",
+    "reason": "Criminalizes break-ins to bases; not oversight of security services"
+   },
+   {
+    "bill_id": "2166058",
+    "d": "352",
+    "q": "52",
+    "role": "secondary",
+    "source": "disputed pair: 2 of 3 blind checks «not about» (third check, audit №2 С3)",
+    "reason": "Anti-discrimination in housing, not contract terms protecting weaker party"
+   },
+   {
+    "bill_id": "2169247",
+    "d": "204",
+    "q": "40",
+    "role": "secondary",
+    "source": "disputed pair: 2 of 3 blind checks «not about» (third check, audit №2 С3)",
+    "reason": "Citizenship discrimination against spouses; not LGBT-specific"
+   },
+   {
+    "bill_id": "2214310",
+    "d": "80",
+    "q": "96",
+    "role": "secondary",
+    "source": "disputed pair: 2 of 3 blind checks «not about» (third check, audit №2 С3)",
+    "reason": "Criminalizes break-ins to bases; not oversight of security services"
+   },
+   {
+    "bill_id": "2201387",
+    "d": "80",
+    "q": "96",
+    "role": "secondary",
+    "source": "disputed pair: 2 of 3 blind checks «not about» (third check, audit №2 С3)",
+    "reason": "Criminalizes break-ins to bases; not oversight of security services"
+   },
+   {
+    "bill_id": "2166058",
+    "d": "352",
+    "q": "52",
+    "role": "secondary",
+    "source": "disputed pair: 2 of 3 blind checks «not about» (third check, audit №2 С3)",
+    "reason": "Anti-discrimination in housing, not contract terms protecting weaker party"
+   },
+   {
+    "bill_id": "2199458",
+    "d": "352",
+    "q": "52",
+    "role": "secondary",
+    "source": "disputed pair: 2 of 3 blind checks «not about» (third check, audit №2 С3)",
+    "reason": "Abolishes notary minimum tariff; price deregulation, not contract fairness"
+   },
+   {
+    "bill_id": "2191360",
+    "d": "230",
+    "q": "50",
+    "role": "secondary",
+    "source": "disputed pair: 2 of 3 blind checks «not about» (third check, audit №2 С3)",
+    "reason": "Mortgage refinancing paperwork, not lending rules or credit access"
+   },
+   {
+    "bill_id": "2190731",
+    "d": "352",
+    "q": "52",
+    "role": "secondary",
+    "source": "disputed pair: 2 of 3 blind checks «not about» (third check, audit №2 С3)",
+    "reason": "Abolishes notary minimum tariff; price deregulation, not contract fairness"
+   },
+   {
+    "bill_id": "2190775",
+    "d": "291",
+    "q": "74",
+    "role": "main",
+    "source": "disputed pair: 2 of 3 blind checks «not about» (third check, audit №2 С3)",
+    "reason": "Basic Law on environment, not the right to equality"
+   },
+   {
+    "bill_id": "2197351",
+    "d": "352",
+    "q": "52",
+    "role": "secondary",
+    "source": "disputed pair: 2 of 3 blind checks «not about» (third check, audit №2 С3)",
+    "reason": "Abolishes notary minimum tariff; price deregulation, not contract fairness"
+   },
+   {
+    "bill_id": "2204203",
+    "d": "352",
+    "q": "52",
+    "role": "secondary",
+    "source": "disputed pair: 2 of 3 blind checks «not about» (third check, audit №2 С3)",
+    "reason": "Anti-discrimination in housing, not contract terms protecting weaker party"
+   },
+   {
+    "bill_id": "2230303",
+    "d": "146",
+    "q": "55",
+    "role": "secondary",
+    "source": "disputed pair: 2 of 3 blind checks «not about» (third check, audit №2 С3)",
+    "reason": "Requires stating military service; privacy only marginally affected"
+   },
+   {
+    "bill_id": "2199458",
+    "d": "352",
+    "q": "52",
+    "role": "secondary",
+    "source": "disputed pair: 2 of 3 blind checks «not about» (third check, audit №2 С3)",
+    "reason": "Abolishes notary minimum tariff; price deregulation, not contract fairness"
+   },
+   {
+    "bill_id": "2162295",
+    "d": "265",
+    "q": "41",
+    "role": "secondary",
+    "source": "disputed pair: 2 of 3 blind checks «not about» (third check, audit №2 С3)",
+    "reason": "Youth labor on rest day; not parental consent question"
+   },
+   {
+    "bill_id": "2197351",
+    "d": "352",
+    "q": "52",
+    "role": "secondary",
+    "source": "disputed pair: 2 of 3 blind checks «not about» (third check, audit №2 С3)",
+    "reason": "Abolishes notary minimum tariff; price deregulation, not contract fairness"
+   },
+   {
+    "bill_id": "2216972",
+    "d": "291",
+    "q": "74",
+    "role": "main",
+    "source": "disputed pair: 2 of 3 blind checks «not about» (third check, audit №2 С3)",
+    "reason": "Basic Law on environment, not the right to equality"
+   },
+   {
+    "bill_id": "2204203",
+    "d": "352",
+    "q": "52",
+    "role": "secondary",
+    "source": "disputed pair: 2 of 3 blind checks «not about» (third check, audit №2 С3)",
+    "reason": "Anti-discrimination in housing, not contract terms protecting weaker party"
+   },
+   {
+    "bill_id": "2190731",
+    "d": "352",
+    "q": "52",
+    "role": "secondary",
+    "source": "disputed pair: 2 of 3 blind checks «not about» (third check, audit №2 С3)",
+    "reason": "Abolishes notary minimum tariff; price deregulation, not contract fairness"
+   },
+   {
+    "bill_id": "2198183",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Local guard force for emergencies; no service-linked benefits"
+   },
+   {
+    "bill_id": "2208574",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Pension terms of IDF civilian employees, not service-based priority"
+   },
+   {
+    "bill_id": "2227119",
+    "d": "179",
+    "q": "10",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Protection from ICC; unrelated to foreigners' entry or residence"
+   },
+   {
+    "bill_id": "2156096",
+    "d": "179",
+    "q": "10",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Protection from ICC; unrelated to foreigners' entry or residence"
+   },
+   {
+    "bill_id": "2203774",
+    "d": "179",
+    "q": "10",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Protection from ICC; unrelated to foreigners' entry or residence"
+   },
+   {
+    "bill_id": "2199099",
+    "d": "179",
+    "q": "10",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Protection from ICC; unrelated to foreigners' entry or residence"
+   },
+   {
+    "bill_id": "2156291",
+    "d": "179",
+    "q": "10",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Protection from ICC; unrelated to foreigners' entry or residence"
+   },
+   {
+    "bill_id": "2213628",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Firefighters' bereaved families compensation; not military/national service benefits"
+   },
+   {
+    "bill_id": "2211901",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Firefighters' bereaved families compensation; not military/national service benefits"
+   },
+   {
+    "bill_id": "2223229",
+    "d": "187",
+    "q": "9",
+    "role": "main",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Medical school admission tied to southern internship, not service"
+   },
+   {
+    "bill_id": "2239490",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Military burial eligibility; commemoration, not distributive benefits priority"
+   },
+   {
+    "bill_id": "2239348",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Military burial eligibility; commemoration, not distributive benefits priority"
+   },
+   {
+    "bill_id": "2238614",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Military burial eligibility; commemoration, not distributive benefits priority"
+   },
+   {
+    "bill_id": "2196798",
+    "d": "72",
+    "q": "1",
+    "role": "main",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Appointment of judges' ombudsman, not judicial selection committee"
+   },
+   {
+    "bill_id": "2157679",
+    "d": "179",
+    "q": "10",
+    "role": "main",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Restricts foreign officials' Yad Vashem visits, not entry/residence"
+   },
+   {
+    "bill_id": "2199898",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Regulates military security coordinators' role; no benefits"
+   },
+   {
+    "bill_id": "2200802",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Regulates military security coordinators' role; no benefits"
+   },
+   {
+    "bill_id": "2196867",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Regulates military security coordinators' role; no benefits"
+   },
+   {
+    "bill_id": "2159992",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Regulates military security coordinators' role; no benefits"
+   },
+   {
+    "bill_id": "2200838",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Regulates military security coordinators' role; no benefits"
+   },
+   {
+    "bill_id": "2199578",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Regulates military security coordinators' role; no benefits"
+   },
+   {
+    "bill_id": "2159035",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Regulates military security coordinators' role; no benefits"
+   },
+   {
+    "bill_id": "2198081",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Regulates military security coordinators' role; no benefits"
+   },
+   {
+    "bill_id": "2197010",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Regulates military security coordinators' role; no benefits"
+   },
+   {
+    "bill_id": "2236314",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Security cabinet structure; unrelated to service benefits"
+   },
+   {
+    "bill_id": "2240445",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Security cabinet structure; unrelated to service benefits"
+   },
+   {
+    "bill_id": "2164143",
+    "d": "72",
+    "q": "1",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Civil service disciplinary tribunal, not judicial appointments"
+   },
+   {
+    "bill_id": "2197665",
+    "d": "72",
+    "q": "1",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Civil service disciplinary tribunal, not judicial appointments"
+   },
+   {
+    "bill_id": "2196795",
+    "d": "72",
+    "q": "1",
+    "role": "main",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Election committee chair selection, not appointing judges"
+   },
+   {
+    "bill_id": "2229808",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Firearm self-defense rights; not service-linked benefits"
+   },
+   {
+    "bill_id": "2222860",
+    "d": "179",
+    "q": "10",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Development of Gaza border region; not foreigners' entry"
+   },
+   {
+    "bill_id": "2210965",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Compensation for rescue volunteers injured; not military/national service"
+   },
+   {
+    "bill_id": "2157254",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Posthumous sperm use; not benefits priority for servers"
+   },
+   {
+    "bill_id": "2213237",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Firefighters' compensation; not military or national service"
+   },
+   {
+    "bill_id": "2235294",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Military burial exceptions committee; commemoration only"
+   },
+   {
+    "bill_id": "2156520",
+    "d": "180",
+    "q": "14",
+    "role": "main",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Dispersal of infiltrators, not number of foreign workers"
+   },
+   {
+    "bill_id": "2222440",
+    "d": "180",
+    "q": "14",
+    "role": "main",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Dispersal of infiltrators, not number of foreign workers"
+   },
+   {
+    "bill_id": "1056892",
+    "d": "90a",
+    "q": "49",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Entry bans for Gaza flotilla participants; not suspects' rights"
+   },
+   {
+    "bill_id": "2219079",
+    "d": "72",
+    "q": "1",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Special military court for terrorists; not judicial selection"
+   },
+   {
+    "bill_id": "2220453",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Recognition of service dogs; no human benefits"
+   },
+   {
+    "bill_id": "2215118",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Academic credit for civilian volunteering, not military service"
+   },
+   {
+    "bill_id": "2215834",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Academic credit for civilian volunteering, not military service"
+   },
+   {
+    "bill_id": "2217506",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Firefighter burial in military cemeteries; commemoration"
+   },
+   {
+    "bill_id": "2226349",
+    "d": "179",
+    "q": "10",
+    "role": "main",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Emigration of Gaza residents; not entry into Israel"
+   },
+   {
+    "bill_id": "2230790",
+    "d": "179",
+    "q": "10",
+    "role": "main",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Emigration of Gaza residents; not entry into Israel"
+   },
+   {
+    "bill_id": "2217569",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Combat wound decoration; honor, not material benefit"
+   },
+   {
+    "bill_id": "2215762",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Bans refusing service to security personnel; anti-discrimination, not priority"
+   },
+   {
+    "bill_id": "2217042",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Recognition of service dogs; no human benefits"
+   },
+   {
+    "bill_id": "2213729",
+    "d": "180",
+    "q": "14",
+    "role": "main",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Dispersal of infiltrators, not number of foreign workers"
+   },
+   {
+    "bill_id": "2221106",
+    "d": "90a",
+    "q": "49",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Immunity for October 7 self-defense acts; not procedural safeguards"
+   },
+   {
+    "bill_id": "2220387",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Universal service obligation, not benefits tied to service"
+   },
+   {
+    "bill_id": "2216397",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Universal service obligation, not benefits tied to service"
+   },
+   {
+    "bill_id": "2200888",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Universal service obligation, not benefits tied to service"
+   },
+   {
+    "bill_id": "2202287",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Prison guards' military burial; commemoration"
+   },
+   {
+    "bill_id": "2203626",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Voting arrangements abroad; not a service-linked benefit"
+   },
+   {
+    "bill_id": "2166419",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Use of fallen soldier's sperm; not benefits priority"
+   },
+   {
+    "bill_id": "2165785",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Regulates military security coordinators' role; no benefits"
+   },
+   {
+    "bill_id": "2161537",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Regulates military security coordinators' role; no benefits"
+   },
+   {
+    "bill_id": "2203051",
+    "d": "90a",
+    "q": "49",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Payment deadline for administrative fines; not arrest or trial"
+   },
+   {
+    "bill_id": "2202552",
+    "d": "90a",
+    "q": "49",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Payment deadline for administrative fines; not arrest or trial"
+   },
+   {
+    "bill_id": "2200536",
+    "d": "90a",
+    "q": "49",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Payment deadline for administrative fines; not arrest or trial"
+   },
+   {
+    "bill_id": "2227066",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Revokes benefits for political conduct, not service status"
+   },
+   {
+    "bill_id": "2224779",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Revokes benefits for political conduct, not service status"
+   },
+   {
+    "bill_id": "2230560",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Revokes benefits for political conduct, not service status"
+   },
+   {
+    "bill_id": "2220680",
+    "d": "195",
+    "q": "81",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Officials' duty to appear before Knesset committees"
+   },
+   {
+    "bill_id": "2205673",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Universal service obligation, not benefits tied to service"
+   },
+   {
+    "bill_id": "2201429",
+    "d": "179",
+    "q": "10",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Palestinian construction in Area C; not entry to Israel"
+   },
+   {
+    "bill_id": "2192886",
+    "d": "179",
+    "q": "10",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Palestinian construction in Area C; not entry to Israel"
+   },
+   {
+    "bill_id": "2196806",
+    "d": "179",
+    "q": "10",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Palestinian construction in Area C; not entry to Israel"
+   },
+   {
+    "bill_id": "2198187",
+    "d": "179",
+    "q": "10",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Palestinian construction in Area C; not entry to Israel"
+   },
+   {
+    "bill_id": "2200411",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Prison guards' military burial; commemoration"
+   },
+   {
+    "bill_id": "2211496",
+    "d": "179",
+    "q": "10",
+    "role": "main",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Gaza residents' resettlement abroad, not entry to Israel"
+   },
+   {
+    "bill_id": "2197145",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Severance pay for joining fire authority; not military service"
+   },
+   {
+    "bill_id": "2156360",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Severance pay for joining fire authority; not military service"
+   },
+   {
+    "bill_id": "2222199",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Arming civilians in emergencies; no service-linked benefits"
+   },
+   {
+    "bill_id": "2224180",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Firefighter burial retroactivity; commemoration"
+   },
+   {
+    "bill_id": "2218568",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Firefighter burial retroactivity; commemoration"
+   },
+   {
+    "bill_id": "2224717",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Police and prison wage linkage; employment pay, not priority"
+   },
+   {
+    "bill_id": "2191184",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
+    "reason": "Firefighters as fallen; commemoration, not service benefits"
    }
   ]
  },

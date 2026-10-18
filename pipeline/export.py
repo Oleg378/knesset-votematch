@@ -52,7 +52,7 @@ def build_data(ctx):
         P = {}
         for d in quiz_d:
             x = pos.get(L, {}).get(d)
-            if x: P[d] = {"P": x[0], "P_bills": x[3], "e": x[1], "n_mk": x[2], "n_votes": nv.get((L, d), 0), "n_other": ctx["no"].get((L, d), 0)}
+            if x: P[d] = {"P": x[0], "P_bills": x[3], "e": x[1], "n_mk": x[2], "n_votes": nv.get((L, d), 0), "n_other": ctx["no"].get((L, d), 0), "n_names": x[4]}
         lists.append({"id": L, "name_en": c["list_name"], "status": c["status"], "ex_mks": int(c["ex_mks"]), "positions": P})
     cand_list, mks = {}, {}
     for L, ms in ctx["cand"].items():
@@ -71,7 +71,7 @@ def build_data(ctx):
         "generated": datetime.date.today().isoformat(),
         "source_commit": source_commit(),
         "params": {"K": qm.K, "MIN_COVERAGE": qm.MIN_COVERAGE, "MIN_EX_MKS": qm.MIN_EX_MKS, "MAX_TRADE": qm.MAX_TRADE, "TRADE_TOP": qm.TRADE_TOP,
-                   "TRADE_W": qm.TRADE_W, "TRADE_CANDIDATES": 3, "VOTE_WEIGHT": 0.25, "CLOSE": qr.CLOSE,
+                   "TRADE_W": qm.TRADE_W, "TRADE_CANDIDATES": 3, "VOTE_WEIGHT": 0.25, "CLOSE": qr.CLOSE, "MIN_CLEAR_MKS": qr.MIN_CLEAR_MKS, "MIN_CLEAR_BILLS": qr.MIN_CLEAR_BILLS,
                    "BILL_URL": qr.LINK.replace("{}", "{id}")},
         "flow": dict(qf.FLOW),
         "core": qf.core(),

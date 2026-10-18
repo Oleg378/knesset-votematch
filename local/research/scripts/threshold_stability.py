@@ -2,7 +2,7 @@
 no more reliable than a coin?
 
 The list positions are computed separately from Knesset 24 only and from Knesset 25 only (same formula as pipeline/positions.py:
-P = A + 0.25 V, A centered per Knesset × direction, V the residual on the government share), for list × quiz direction pairs
+P = A + 0.25 V + 0.25 O as in pipeline/positions.py: A not centered, V the residual on the government share, O votes on the other camp's bills), for list × quiz direction pairs
 that have data in both. Pairs are binned by the strength of the production position |p| = |P · e/(e + K)|; for each bin: how
 often the side (sign) is the same in the two Knessets. 50 % = coin.
 

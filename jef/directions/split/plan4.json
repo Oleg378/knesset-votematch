@@ -1,5 +1,5 @@
 {
- "note": "Stage 4 (2026-10-18, [У]): split by the standard statement audit of the 26 statements touched by the label removals (local/research/statement_audit_removals/). Same method as stages 2-3: applied after stage 3, parts keep the parent's orientation and sign, Jev only chooses the part. Extended the same day: 130b (q56) split by the standard audit after the volume threshold was lowered to 25 (local/research/statement_audit_t25/).",
+ "note": "Stage 4 (2026-10-18, [У]): split by the standard statement audit of the 26 statements touched by the label removals (local/research/statement_audit_removals/). Same method as stages 2-3: applied after stage 3, parts keep the parent's orientation and sign, Jev only chooses the part. Extended the same day: 130b (q56) split by the standard audit after the volume threshold was lowered to 25 (local/research/statement_audit_t25/). Extended again: 195 (q81) split by the standard audit after external audit №2 (local/research/statement_audit_q81/).",
  "parents": {
   "58": [
    "58a",
@@ -16,6 +16,10 @@
   "130b": [
    "130b1",
    "130b2"
+  ],
+  "195": [
+   "195a",
+   "195b"
   ]
  },
  "new": {
@@ -66,6 +70,18 @@
    "name_en": "Laws and powers tied to a state of emergency",
    "plus_en": "Adds or prolongs special powers and temporary laws that rely on a declared state of emergency or war.",
    "minus_en": "Ends such powers and temporary laws when the crisis ends, or detaches them from the state of emergency."
+  },
+  "195a": {
+   "name_ru": "увольнение госслужащих за поддержку террора",
+   "name_en": "Dismissal of public employees over support for terror",
+   "plus_en": "Makes it easier or mandatory to dismiss teachers, lecturers or public employees who express support for terror.",
+   "minus_en": "Makes such dismissal harder or removes it."
+  },
+  "195b": {
+   "name_ru": "отстранение учителей и полицейских при уголовном деле о насилии",
+   "name_en": "Suspension over violence or sex-offense allegations",
+   "plus_en": "Suspends teachers, police officers or public employees once a criminal case for violence or sexual abuse is opened, before a verdict.",
+   "minus_en": "Delays or limits such suspension."
   }
  }
 }

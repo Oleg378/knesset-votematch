@@ -69,7 +69,9 @@
         "VOTE_WEIGHT",
         "CLOSE",
         "BILL_URL",
-        "MIN_EX_MKS"
+        "MIN_EX_MKS",
+        "MIN_CLEAR_MKS",
+        "MIN_CLEAR_BILLS"
       ],
       "properties": {
         "K": {
@@ -112,6 +114,14 @@
           "type": "integer",
           "minimum": 1,
           "description": "A list with fewer former MKs is shown but not ranked (customer decision 2026-10-18)."
+        },
+        "MIN_CLEAR_MKS": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "MIN_CLEAR_BILLS": {
+          "type": "integer",
+          "minimum": 1
         }
       }
     },
@@ -227,7 +237,8 @@
                 "e",
                 "n_mk",
                 "n_votes",
-                "n_other"
+                "n_other",
+                "n_names"
               ],
               "properties": {
                 "P": {
@@ -254,6 +265,11 @@
                   "type": "integer",
                   "minimum": 0,
                   "description": "Votes of the list's ex-MKs on the other camp's bills on this direction (basis line, 2026-10-18)."
+                },
+                "n_names": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "description": "Distinct bills (by name, sponsored or voted) behind the position; a clear position needs >= params.MIN_CLEAR_BILLS and n_mk >= params.MIN_CLEAR_MKS (2026-10-18)."
                 }
               }
             }

@@ -26,7 +26,7 @@ import csv, os, sys
 import numpy as np
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import quiz_match as qm
-from quiz_report import CLOSE   # |p| below it: «no clear position» (one rule for explanations and the core filter)
+from quiz_report import is_clear   # «clear position»: one rule for explanations and the core filter
 
 FLOW = {
     "core": 8,            # [У] 2026-10-18: 8 core + 7 clarifying (local/research/scripts/flow_core_clar.py: clarifying questions add
@@ -64,6 +64,7 @@ def _r(x, y):
 def core(flow=FLOW, ctx=None):
     """The core statements, in the order they are asked (most separating first)."""
     st, ok, vec, gov = ctx or _ctx()
+    pl = qm.load()[1]   # n_mk and n_names per list × direction, for is_clear
     rows = []
     for r in st:
         v = _vals(vec, ok, r["q"])
@@ -71,8 +72,9 @@ def core(flow=FLOW, ctx=None):
         p = [x for _, x in v]
         sep = float(np.std(p)) * len(v) / len(ok)
         g = abs(_r(p, [gov[l] for l, _ in v]))
-        clear = [x for x in p if abs(x) >= CLOSE]
-        if not flow["core_one_sided"] and clear and (all(x > 0 for x in clear) or all(x < 0 for x in clear)): continue
+        clear = [x for l, x in v if is_clear(x, pl[l][r["d"]][2], pl[l][r["d"]][4])]
+        # [У] 2026-10-18: not in the core — no list with a clear position (audit №2, minor 9), or all clear ones on one side (К2)
+        if not flow["core_one_sided"] and (not clear or all(x > 0 for x in clear) or all(x < 0 for x in clear)): continue
         rows.append((-sep, int(r["q"]), r["q"], r["d"], g >= flow["gov_r"]))
     out, dirs, ngov = [], set(), 0
     for _, _, q, d, on_gov in sorted(rows):

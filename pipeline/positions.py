@@ -195,9 +195,23 @@ cm = cand[cand.match.isin(['exact', 'manual'])].copy(); cm['mk_id'] = cm.mk_id.a
 cm = cm.drop_duplicates('mk_id')
 L = cm[['letters', 'mk_id']].merge(T, on='mk_id')
 LP = L.groupby(['letters', 'd']).agg(P=('P', 'mean'), P_A=('P_A', 'mean'), P_V=('P_V', 'mean'), n_mk=('mk_id', 'size'), sum_nA=('nA', 'sum'), sum_nV=('nV', 'sum'), P_O=('P_O', 'mean'), sum_nO=('nO', 'sum')).reset_index()
+# [У] 2026-10-18 (external audit №2, С2): distinct bills behind a list × direction — sponsored, or voted on (V or O) — counted by
+# name without the year, so a bill re-submitted in the next Knesset counts once. Used for «a clear position needs >= 2 MKs and
+# >= 2 distinct bills» (quiz_report.is_clear).
+import re as _re
+_base = lambda n: _re.sub(r",?\s*(ה?תש[\"״׳'\w\-]*\s*-?\s*\d{4})\s*$", "", str(n or "")).strip()
+_bn = {b: _base(n) for b, n in con.execute("select bill_id, name from bills").fetchall()}
+_vb = dict(zip(va.vote_id, va.bill_id))
+_ev = pd.concat([bi.merge(ab, on='bill_id')[['mk_id', 'd', 'bill_id']],
+                 pd.DataFrame([(r.mk_id, d, _vb.get(r.vote_id)) for r in pv.itertuples() for d in vt[r.vote_id]], columns=['mk_id', 'd', 'bill_id']),
+                 pd.DataFrame([(r.mk_id, d, _vb.get(r.vote_id)) for r in ov.itertuples() for d in vt[r.vote_id]], columns=['mk_id', 'd', 'bill_id'])])
+_ev['name'] = _ev.bill_id.map(_bn)
+_ev = cm[['letters', 'mk_id']].merge(_ev, on='mk_id')
+LP = LP.merge(_ev.groupby(['letters', 'd']).name.nunique().rename('n_names').reset_index(), on=['letters', 'd'], how='left')
+LP['n_names'] = LP.n_names.fillna(0).astype(int)
 LP['low_data'] = LP.n_mk < 3
 LP['list_name'] = LP.letters.map(lname); LP['direction'] = LP.d.map(dname)
-LP = LP[['letters', 'list_name', 'd', 'direction', 'P', 'P_A', 'P_V', 'n_mk', 'sum_nA', 'sum_nV', 'low_data', 'P_O', 'sum_nO']]
+LP = LP[['letters', 'list_name', 'd', 'direction', 'P', 'P_A', 'P_V', 'n_mk', 'sum_nA', 'sum_nV', 'low_data', 'P_O', 'sum_nO', 'n_names']]
 LP.round(4).to_csv(f'{OUT}/list_topic_positions.csv', index=False)
 
 cov_rows = []
@@ -347,7 +361,7 @@ readme = f"""# Позиции депутатов и списков 2026
 
 ## Файлы
 - `mk_topic_positions.csv` — депутат × направление: P, A, nA (законопроекты, оба созыва), V, nV (голоса).
-- `list_topic_positions.csv` — список × направление: P, P_A, P_V, P_O, n_mk, sum_nA, sum_nV, sum_nO, low_data.
+- `list_topic_positions.csv` — список × направление: P, P_A, P_V, P_O, n_mk, sum_nA, sum_nV, sum_nO, low_data, n_names (разные законопроекты за позицией: внесённые и голосованные, по названию без года).
 - `list_coverage.csv` — по каждому списку 2026: кандидатов, бывших депутатов (всего и в первой десятке), статус покрытия (п. 20), число направлений с n_mk≥1 и ≥3, медиана nA на бывшего депутата.
 - `government_layer_mk.csv` — депутат × созыв: голосов, совпавших с правительством, доля, месяцы на должности.
 - `government_layer_list.csv` — список × созыв: те же суммы по кандидатам; share_with_gov — по всем голосам, mean_mk_share — среднее по депутатам.

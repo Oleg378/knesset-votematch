@@ -19,9 +19,15 @@ ROOT, LAB = qm.ROOT, os.path.join(qm.ROOT, "jef/directions/labels")
 SGN = {"+": 1, "−": -1, "-": -1}
 LINK = "https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/LawBill.aspx?t=lawsuggestionssearch&lawitemid={}"
 TOP, PER = 10, 5   # [У] 2026-10-17: топ-10 списков, у каждого «почему подходит» и «почему не подходит»
-CLOSE = 0.3   # [У] 2026-10-18: |p| below this — «has no clear position». Rule (fixed in advance, external audit С4): the smallest bin
-              # boundary above which the list's side agrees between K24 and K25 in >= 75 % of pairs (threshold_stability.py). With the O signal:
-              # < 0.2 — 35 %, 0.2–0.3 — 62 %, >= 0.3 — 77–85 % -> 0.3 (was 0.2 under the formula without O).
+CLOSE = 0.2   # [У] 2026-10-18 (after external audit №2): |p| below this — «shows no clear position». With the O signal the side of
+              # positions >= 0.2 agrees between K24 and K25 in 79 % of pairs, below 0.2 in 35 % (threshold_stability.py). 0.3 was dropped:
+              # it is above the ceiling of the O signal (0.25), so a stance expressed only by votes could never be clear (audit №2, К1).
+MIN_CLEAR_MKS, MIN_CLEAR_BILLS = 2, 2   # [У] 2026-10-18 (audit №2, С2): a clear position also needs >= 2 former MKs and >= 2 distinct
+                                        # bills (sponsored or voted, by name) behind it — one MK or one bill is not a position
+
+def is_clear(p, n_mk, n_names):
+    """One rule for «the list has a clear position» — explanations and the core filter."""
+    return abs(p) >= CLOSE and n_mk >= MIN_CLEAR_MKS and n_names >= MIN_CLEAR_BILLS
 EPS = 1e-9
 ANS = {2: "strongly agree", 1: "agree", 0: "neutral", -1: "disagree", -2: "strongly disagree"}   # [У] 2026-10-18: the same words as the UI buttons
 
@@ -113,7 +119,8 @@ def explain(ctx, L, q, a, p, contrib, mult=None):
     ev = evidence(ctx, L, q, a / 2 * q["key_s"], contrib)
     n_same = sum(1 for e in ev if e[6]); n_opp = len(ev) - n_same
     nvotes = ctx["nv"].get((L, q["d"]), 0); nother = ctx["no"].get((L, q["d"]), 0)
-    close = abs(p) < CLOSE
+    x = ctx["pos"][L][q["d"]]
+    close = not is_clear(p, x[2], x[4])
     toward = not close and p * q["key_s"] > 0
     # [У] 2026-10-18 (Р4а, external audit К2): say what was measured — what the list's former MKs pushed for with their bills and
     # votes — not that the list accepts the statement, whose «even if» price the data does not measure.
