@@ -1,4 +1,7 @@
-/** Types of export/quiz_data.v1.json (see export/quiz_data.v1.schema.json). */
+/**
+ * Types of the v2 data contract (export/quiz_data.v2.schema.json, export/V2_HANDOFF.md). Three files, fetched in order:
+ * quiz_core (enough to start answering) → quiz_data (positions, everything for ranking) → quiz_bills (list details only).
+ */
 
 export type Sign = 1 | -1;
 export type Role = 'main' | 'secondary';
@@ -12,6 +15,25 @@ export interface Params {
   TRADE_W: number;
   TRADE_CANDIDATES: number;
   VOTE_WEIGHT: number;
+  /** |p| below it: «has no clear position on this statement». */
+  CLOSE: number;
+  /** Bill page; `{id}` is replaced with the bill id. */
+  BILL_URL: string;
+}
+
+/** Order of questions (pipeline/quiz_flow.py FLOW). Never hard-code these numbers. */
+export interface Flow {
+  core: number;
+  clarify: number;
+  trade: number;
+  core_r_max: number;
+  core_gov_share: number;
+  gov_r: number;
+  clarify_top: number;
+  /** null: a fixed number of clarifying questions; a number: the optional stopping rule. */
+  stop_gap: number | null;
+  min_questions: number;
+  max_questions: number;
 }
 
 export interface Statement {
@@ -31,6 +53,8 @@ export interface Direction {
 
 export interface Position {
   P: number;
+  /** The authorship part of P (sponsored bills); used for the «side comes from votes» caveat. */
+  P_bills: number;
   e: number;
   n_mk: number;
   n_votes: number;
@@ -53,22 +77,36 @@ export interface Mk {
 export interface Bill {
   name_he: string;
   knesset: number;
-  url: string;
-  /** Always null [У 2026-10-17]: no per-bill English summary; never rendered. */
-  summary_en: string | null;
   sponsors: string[];
 }
 
 export type BillRef = [bill: string, sign: Sign, role: Role];
 
-export interface QuizData {
-  version: 1;
+interface Head {
+  version: 2;
   generated: string;
   source_commit: string;
+}
+
+/** quiz_core.v2.json: the flow numbers, the core order and the core statements. */
+export interface QuizCore extends Head {
+  flow: Flow;
+  core: string[];
+  statements: Statement[];
+}
+
+/** quiz_data.v2.json: everything the ranking, trade-offs and clarifying questions need. */
+export interface QuizData extends Head {
   params: Params;
+  flow: Flow;
+  core: string[];
   statements: Statement[];
   directions: Record<string, Direction>;
   lists: QuizList[];
+}
+
+/** quiz_bills.v2.json: only for List details, «Bills of one statement» and Methodology. */
+export interface QuizBills extends Head {
   mks: Record<string, Mk>;
   by_direction: Record<string, BillRef[]>;
   bills: Record<string, Bill>;

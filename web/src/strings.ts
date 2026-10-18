@@ -6,12 +6,12 @@ import type { AnswerValue } from './engine/types';
 
 // ---- Engine texts (must match the Python reference byte for byte) ----
 
-/** quiz_report.ANS */
+/** quiz_report.ANS — the same words as the answer buttons (v2) */
 export const ANS: Record<AnswerValue, string> = {
   2: 'strongly agree',
-  1: 'somewhat agree',
+  1: 'agree',
   0: 'neutral',
-  [-1]: 'somewhat disagree',
+  [-1]: 'disagree',
   [-2]: 'strongly disagree',
 } as Record<AnswerValue, string>;
 
@@ -27,6 +27,7 @@ export const explainText = {
   quote: (s: string) => `“${s}”`,
   sideFor: 'for this statement',
   sideAgainst: 'against this statement',
+  sideNoClear: 'has no clear position on this statement',
   answer: (ans: string, side: string) => `Your answer: ${ans}. The list is ${side}.`,
   basis: (nBills: number, nSame: number, nOpp: number, nVotes: number) =>
     `Basis: ${plural(nBills, 'bill')} sponsored by the list's former MKs — ${nSame} your way, ${nOpp} the other way; ` +
@@ -34,12 +35,8 @@ export const explainText = {
   basisVotesOnly: (nVotes: number) =>
     `Basis: no bills of their own on this topic, only ${plural(nVotes, 'vote')} on private bills.`,
   weight: 'Weight ×2: you chose this topic in a trade-off question.',
-  caveatFits:
-    'The list has more bills of its own the other way, but other MKs sponsored such bills even more often: ' +
-    'positions are measured relative to the average MK.',
-  caveatMisfits:
-    'The list has more bills of its own your way, but other MKs sponsored such bills even more often: ' +
-    'positions are measured relative to the average MK.',
+  caveatByVotes:
+    "The list's side comes from how its former MKs voted on private bills, not from the bills they sponsored.",
 };
 
 // ---- UI ----
@@ -51,11 +48,13 @@ export const S = {
   // Texts of the Figma mockups (Home, Menu, Questions, Clarifying question), verbatim except the real statement count.
   eyebrow: 'Knesset election 2026', // shown upper-case by CSS
   loading: 'Loading…',
+  loadError: 'Could not load the quiz data.',
+  reload: 'Reload the page',
   start: {
     title: 'Find your vote match',
     tagline: 'Parties judged by votes, not promises',
     chipStatements: (n: number) => `${n} statements`,
-    chipTime: '10–15 min',
+    chipTime: '3–5 min',
     chipAnonymous: 'Anonymous',
     steps: (n: number) => [`Rate ${n} statements`, 'We check their Knesset votes', 'Get your 3 closest parties'],
     button: 'Start the quiz',
@@ -109,6 +108,8 @@ export const S = {
     notRanked: 'Not ranked',
     noRecord: (n: number) => `No record in the Knesset (${n})`,
     notComputable: '—',
+    answerMore: 'Answer more questions',
+    noMore: 'No more questions.',
     changeAnswers: 'Change answers',
     startOver: 'Start over',
     methodology: 'How it works',
@@ -146,12 +147,13 @@ export const S = {
       "Where positions come from. A list's position on a topic comes only from what its candidates who are former MKs " +
         'did in the 24th and 25th Knesset (2021–2026): the bills they sponsored, and how they voted on private bills. ' +
         'A vote counts a quarter as much as a sponsored bill. New faces on the lists are not visible.',
-      'Relative positions. Positions are measured relative to the average MK: “for” means the list pushed that way ' +
-        'more than the average MK did. So a list can have bills of its own on both sides and still come out on one side.',
+      'Questions. Everyone starts with the same core statements. Each next one is chosen from your answers so far: ' +
+        'the statement on which the lists closest to you disagree most. After the results you can answer more.',
+      'No clear position. When a list’s record on a topic points only weakly to one side, the list is shown as having ' +
+        'no clear position on the statement.',
       'Closeness. Your answers and each list’s positions are compared statement by statement (only the statements ' +
         'you answered and the list has a position on). The result goes from −1 (completely opposite) to +1 ' +
-        '(completely the same). Positions based on very little evidence are pulled toward zero. ' +
-        'Skipped statements are left out. A trade-off answer doubles the weight of the topic you chose.',
+        '(completely the same). Skipped statements are left out. A trade-off answer doubles the weight of the topic you chose.',
       'Notes. “Few former MKs: N” — the list’s position rests on very few people. “Position known for only N% of your ' +
         'answers” — the list has a position on less than half of what you answered, so it is shown below the others ' +
         'and not ranked. Lists without any former MKs have no record in the Knesset and cannot be compared.',

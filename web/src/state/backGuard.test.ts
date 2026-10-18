@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { data } from '../data';
+import { core, data } from '../testSources';
 import { createBackGuard, type HistoryLike } from './backGuard';
 import { createReducer, initialState, type State } from './reducer';
 
@@ -21,7 +21,7 @@ function fakeHistory() {
 
 /** Wires guard + reducer as App does. */
 function setup() {
-  const reducer = createReducer(data);
+  const reducer = createReducer({ core, data });
   const h = fakeHistory();
   const guard = createBackGuard(h);
   let state: State = initialState;

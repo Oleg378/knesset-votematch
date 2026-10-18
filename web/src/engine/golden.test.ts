@@ -1,11 +1,11 @@
 /**
- * Migration tests Python -> TypeScript: every case of export/golden.v1.json (computed by pipeline/quiz_match.py and
- * pipeline/quiz_report.py) must be reproduced. Python is the reference.
+ * Migration tests Python -> TypeScript: every case of export/golden.v2.json (computed by pipeline/quiz_match.py,
+ * pipeline/quiz_flow.py and pipeline/quiz_report.py) must be reproduced. Python is the reference.
  */
 import { describe, expect, it } from 'vitest';
-import goldenRaw from '@export/golden.v1.json';
-import { data } from '../data';
-import { contributions, explain, match, tradeoffs } from './index';
+import goldenRaw from '@export/golden.v2.json';
+import { bills, data } from '../testSources';
+import { contributions, explain, match, nextClarify, shouldStop, tradeoffs } from './index';
 import type { Answers, Mult, Role, Sign } from './types';
 
 interface GoldenCase {
@@ -24,6 +24,8 @@ interface GoldenCase {
       evidence: { bill: string; sign: Sign; role: Role; same: boolean; authors: [number, string][] }[];
     }[];
   }[];
+  /** «flow N» cases: the statements asked, in order (quiz_flow.core, then next_clarify one at a time). */
+  flow?: { core: string[]; clarifying: string[] };
 }
 
 const golden = goldenRaw as { version: number; tolerance: number; cases: GoldenCase[] };
@@ -38,10 +40,11 @@ function close(actual: number | null, expected: number | null, what: string) {
   expect(Math.abs((actual as number) - expected), `${what}: ${actual} vs ${expected}`).toBeLessThanOrEqual(tol);
 }
 
-describe('golden.v1.json', () => {
-  it('has the expected version and cases', () => {
-    expect(golden.version).toBe(1);
-    expect(golden.cases.length).toBeGreaterThanOrEqual(28);
+describe('golden.v2.json', () => {
+  it('has the expected version and cases, including the flow cases', () => {
+    expect(golden.version).toBe(2);
+    expect(golden.cases.length).toBeGreaterThanOrEqual(34);
+    expect(golden.cases.filter((c) => c.flow).length).toBeGreaterThanOrEqual(6);
   });
 
   for (const gc of golden.cases) {
@@ -71,12 +74,33 @@ describe('golden.v1.json', () => {
             const g = d.items[i]!;
             close(x.c, g.contribution, `${d.id}/${g.q} contribution`);
             close(x.p, g.p, `${d.id}/${g.q} p`);
-            const ex = explain(data, d.id, x.statement, x.a, x.p, x.c, gc.mult);
+            const ex = explain(data, bills, d.id, x.statement, x.a, x.p, x.c, gc.mult);
             expect(ex.lines, `${d.id}/${g.q} lines`).toEqual(g.lines);
             expect(ex.evidence, `${d.id}/${g.q} evidence`).toEqual(g.evidence);
           });
         }
       });
+
+      if (gc.flow) {
+        it('question order: the core, then every clarifying statement chosen from the answers so far', () => {
+          const flow = gc.flow!;
+          expect(flow.core).toEqual(data.core);
+          // Replays export.flow_case(): the user answers what is asked; answers hold only those (incl. «don't know», 0).
+          const asked = [...flow.core];
+          const ans: Answers = {};
+          for (const q of asked) if (gc.answers[q] !== undefined) ans[q] = gc.answers[q]!;
+          const steps: string[] = [];
+          while (!shouldStop(data.flow, data, ans, asked.length)) {
+            const q = nextClarify(data, ans, new Set(asked));
+            if (q === null) break;
+            asked.push(q);
+            if (gc.answers[q] !== undefined) ans[q] = gc.answers[q]!;
+            steps.push(q);
+          }
+          expect(steps).toEqual(flow.clarifying);
+          expect(ans).toEqual(gc.answers);
+        });
+      }
     });
   }
 });

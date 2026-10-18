@@ -1,7 +1,9 @@
-# web/ — product spec (v1)
+# web/ — product spec (v2)
 
-Static SPA. Input: `export/quiz_data.v1.json` (schema next to it). Reference behaviour: `pipeline/quiz_cli.py`
-(run it to see the flow) and `pipeline/quiz_report.py` (explanations). Formulas: `docs/QUIZ_MATCHING.md`.
+Static SPA. Input: the v2 data contract — three files fetched at run time (`export/quiz_core.v2.json`,
+`quiz_data.v2.json`, `quiz_bills.v2.json`; one schema for their merge). What changed from v1 and why:
+`export/V2_HANDOFF.md`. Reference behaviour: `pipeline/quiz_cli.py` (run it to see the flow), `pipeline/quiz_flow.py`
+(order of questions), `pipeline/quiz_report.py` (explanations). Formulas: `docs/QUIZ_MATCHING.md`.
 
 **Mobile first.** Design for 360–430 px wide screens. Desktop adaptation is out of scope for now: on wide screens show the
 mobile layout centered with a max width (≈ 480 px). Base components: Figma
@@ -10,8 +12,10 @@ https://www.figma.com/design/TTgHWki3flpBiQ6U9XQF7I/CSS (see «Design» below).
 ## Flow (approved, SU; same as quiz_cli.py)
 
 ```
-Start → Statements (65) → Trade-offs (0–5) → Results (full leaderboard) ⇄ List details → Bills of one statement
-                                                         └→ Methodology (also reachable from Start and Results)
+Start → Core statements (flow.core) → Clarifying statements (flow.clarify, chosen one at a time) → Trade-offs
+(0–flow.trade) → Results (full leaderboard) ⇄ List details → Bills of one statement
+            └→ «Answer more questions»: clarifying statements until the pool ends → Results
+Methodology: reachable from Start, Results and the menu.
 ```
 
 **Screens with a Figma mockup follow the mockup** (Home, Questions, Clarifying question, Menu) — texts, controls and
@@ -20,11 +24,20 @@ interaction; the statement count comes from the data. Customer, 2026-10-18. Open
 Every screen: header with the menu button (Figma «Menu»: Start over · My results · Methodology).
 
 ### 1. Start (Figma «Home»)
-- Eyebrow, «Find your vote match», hero graphic, tagline, chips (N statements · 10–15 min · Anonymous), three steps.
+- Eyebrow, «Find your vote match», hero graphic, tagline, chips (N statements · 3–5 min · Anonymous), three steps.
+  N = flow.core + flow.clarify (now 15) [У 2026-10-18]; the time «3–5 min» [У 2026-10-18]. The page renders before any
+  data; the statements chip and the steps appear when quiz_core (~1 KB) has arrived.
 - «Start the quiz». «Behind the results» → Methodology.
 
 ### 2. Statements (Figma «Questions»)
-- Header: progress track and `n/65`. One statement per screen: `statement_en`.
+- Order (quiz_flow / quiz_cli.flow): the core statements in the exported order (`core`), then clarifying ones —
+  each chosen after the previous answer with `next_clarify` (port: `src/engine/flow.ts`), until `should_stop`
+  (fixed number while `flow.stop_gap` is null). Numbers always from `flow`, never hard-coded.
+- Header: progress track and `n/(core + clarify)` (`n/15`); during «Answer more» `n/<all statements>`.
+  One statement per screen: `statement_en`.
+- Back / Next move along the statements already shown (the answer stays selected); a new statement is chosen only at
+  the end of that sequence, from all answers given so far [А 2026-10-18; the terminal reference drops the last answer
+  on «<» instead].
 - Answers: Strongly agree (2) · Agree (1) · Disagree (−1) · Strongly disagree (−2). A tap selects; «Next» (inactive until
   an answer is selected) moves on; round «Back». «Not sure — skip this question» = no answer, moves on.
 - Finishing early: menu «My results» (trade-offs follow). Going back shows the previous answer selected.
@@ -32,8 +45,8 @@ Every screen: header with the menu button (Figma «Menu»: Start over · My resu
 
 ### 3. Trade-offs
 - Adaptive, one at a time, exactly as `exchange()` in quiz_cli.py: compute `tradeoffs(answers, mult, exclude=used,
-  skip_lists=asked)`, take the first pair, ask, apply, repeat; stop at MAX_TRADE or when no pair is returned.
-- Figma «Clarifying question — Equal as option»: header counter `n/MAX_TRADE`, «Thanks! Just a few clarifying
+  skip_lists=asked)`, take the first pair, ask, apply, repeat; stop at `flow.trade` or when no pair is returned.
+- Figma «Clarifying question — Equal as option»: header counter `n/flow.trade`, «Thanks! Just a few clarifying
   questions», «Which matters more to you?» + explanation; cards A and B (`title_en`, «Your answer: …»), «or», card
   «Both matter equally». A tap selects; «Next» applies; «Back» undoes the previous trade-off (from the first: back to the
   statement where the questions were finished). Menu «My results» skips the remaining ones.
@@ -42,7 +55,11 @@ Every screen: header with the menu button (Figma «Menu»: Start over · My resu
 - If no pair at all: skip the screen silently (no message needed on the web).
 
 ### 4. Results
-- «All lists by closeness to your answers (from −1 to +1). Based on N of 65 answers[, including trade-offs].»
+- «All lists by closeness to your answers (from −1 to +1). Based on N of M answers[, including trade-offs].» M = statements
+  shown.
+- «Answer more questions» (shown while the pool has a statement left): continues clarifying statements; menu «My results»
+  or the end of the pool returns to Results; no new trade-offs (as quiz_cli). Placed first in the button group at the end of
+  the list, ordinary button style [А 2026-10-18, the customer reviews it on the site].
 - Rows: rank, list name (`name_en`), closeness formatted `+0.35`, note. A simple bar (−1…+1, centered at 0) is welcome.
 - Ranked lists first; then a «Not ranked» divider with lists below the coverage threshold (no rank number); then one collapsed
   line «No record in the Knesset (N)» listing lists with status `not_evaluated`.
@@ -94,11 +111,14 @@ exact equality with the golden cases:
 - Strings in explanations come from `strings.ts` and must reproduce the golden `lines` exactly.
 
 ## Tests (Vitest) — migration Python → TypeScript
-- `export/golden.v1.json`, 28 cases (full synthetic answer set, full + trade-offs, adaptive step, 20 random, edge cases: no answers, all dk,
+- `export/golden.v2.json`, 34 cases (full synthetic answer set, full + trade-offs, adaptive step, 20 random, edge cases: no answers, all dk,
   all neutral, one answer, rare topics). For every case assert: ranking ids in order, closeness and coverage within
   `tolerance`, notes, ranked flags; trade-off pairs; for each `details[]` list: item order, contribution, p, `lines` (exact
   strings), evidence order (`bill`, `same`, `role`, `sign`, authors).
-- Schema test: `quiz_data.v1.json` validates against the schema (ajv).
+- «flow N» cases (6): replay the question order — the core, then every clarifying statement from `next_clarify`.
+- Schema test: `quiz_data.v2.json` + `quiz_bills.v2.json` merged validate against `quiz_data.v2.schema.json` (ajv); `quiz_core`
+  is the head of `quiz_data` (same export, flow, core, statements).
+- Screen tests also cover loading: the start page before any data, a loader on a screen whose file has not arrived.
 - Reducer tests for the state machine (transitions, back/skip, start over).
 - Python stays the reference: if a golden case fails, the TS code is wrong unless the customer changed the formula (then a
   new export and, for structural changes, v2).

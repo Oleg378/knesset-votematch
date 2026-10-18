@@ -2,6 +2,7 @@ import { useMemo } from 'react';
 import { Accordion } from '../components/Accordion';
 import { Button } from '../components/Button';
 import { ListRow } from '../components/ListRow';
+import { nextClarify } from '../engine/flow';
 import { match } from '../engine/match';
 import { answeredCount } from '../state/reducer';
 import { S } from '../strings';
@@ -12,6 +13,9 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
   const ranked = rows.filter((r) => r.ranked);
   const low = rows.filter((r) => !r.ranked && r.evaluated);
   const none = rows.filter((r) => !r.evaluated);
+  // «Answer more questions» only while the pool has a statement left (quiz_flow.next_clarify).
+  const more = useMemo(() => nextClarify(data, state.answers, new Set([...state.shown, ...Object.keys(state.answers)])),
+    [data, state.answers, state.shown]) !== null;
   const open = (id: string) => () => dispatch({ type: 'OPEN_DETAILS', list: id });
   return (
     <section className="screen">
@@ -19,7 +23,7 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
         <h1 className="title-lg">{S.results.heading}</h1>
         <p>{S.results.intro}</p>
         <p className="small muted">
-          {S.results.basedOn(answeredCount(state.answers), data.statements.length, Object.keys(state.mult).length > 0)}
+          {S.results.basedOn(answeredCount(state.answers), state.shown.length, Object.keys(state.mult).length > 0)}
         </p>
       </div>
       <ol className="list-rows">
@@ -54,6 +58,11 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
         </Accordion>
       )}
       <div className="sticky-actions">
+        {more && (
+          <Button block onClick={() => dispatch({ type: 'MORE' })}>
+            {S.results.answerMore}
+          </Button>
+        )}
         <Button block onClick={() => dispatch({ type: 'CHANGE_ANSWERS' })}>
           {S.results.changeAnswers}
         </Button>

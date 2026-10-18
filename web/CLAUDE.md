@@ -12,7 +12,11 @@ React + Vite + TypeScript, static SPA (no server, no Next.js). Talk to the custo
 - **Edit only `web/` and `.github/`.** `pipeline/`, `export/`, `jef/`, `docs/`, `manual/`, `research/` belong to the data
   session: do not edit, do not commit their changes (they are often uncommitted in the working tree — leave them).
 - Missing or wrong data → write it in `DATA_REQUESTS.md` and tell the customer. Never patch `../export/*` by hand.
-- Data: `../export/quiz_data.v1.json` only.
+- Data: the v2 contract in `../export/` only — `quiz_core.v2.json`, `quiz_data.v2.json`, `quiz_bills.v2.json`, fetched
+  at run time in this order by `src/data.ts` (never bundled; content-hashed, never inlined — CSP `connect-src 'self'`).
+  Start with `../export/README.md` and `../export/V2_HANDOFF.md`. v1 files stay only for the data side.
+- A screen renders only when its file has arrived (App shows a loader for that screen only): Start — nothing; questions —
+  quiz_core, clarifying ones and everything after — quiz_data; List details, Bills, Methodology — quiz_bills.
 
 ## Design: Figma first
 - **A screen that has a Figma mockup is built exactly as the mockup**: texts, number of answers, buttons, progress,
@@ -64,7 +68,7 @@ Line heights are exact Figma px ÷ size (`calc(22 / 17)`), never rounded ratios.
 | Counter | Plus Jakarta Sans 600 | 15 / 22 | `.counter` | progress counter |
 | Label/Medium | Plus Jakarta Sans 500 | 15 / 20 | `.step` | Home steps |
 | Body/Default | Plus Jakarta Sans 400 | 15 / 21 | `.lead`, `.explain` | card explanations, intro text |
-| Chip | Plus Jakarta Sans 500 | 13 / 20 | `.chip` | chips (N statements, 10–15 min) |
+| Chip | Plus Jakarta Sans 500 | 13 / 20 | `.chip` | chips (N statements, 3–5 min) |
 | Caption | Plus Jakarta Sans 400 | 13 / 18 | `.choice-sub`, `.or-divider` | «Your answer: …», «or» |
 | Eyebrow | Plus Jakarta Sans 600 | 12 / 16, 0.72 px (6%), upper case | `.eyebrow` | label above the title |
 
@@ -268,7 +272,8 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
 
 ## Code
 - `src/engine/` — pure TypeScript port of `pipeline/quiz_match.py` + `pipeline/quiz_report.py`. No React, no DOM.
-- **Python is the reference**: `../export/golden.v1.json` must pass (1e-9). If a golden case fails because Python looks
+- **Python is the reference**: `../export/golden.v2.json` must pass (1e-9), including the «flow N» question-order cases
+  (`src/engine/flow.ts` reproduces numpy's std summation bit for bit). If a golden case fails because Python looks
   wrong — stop and describe it to the customer; do not «fix» the TS to differ.
 - Explanation strings that appear in golden must reproduce it exactly.
 - `src/state/` — `useReducer` state machine, pure and tested. No router.

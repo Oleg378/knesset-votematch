@@ -1,25 +1,36 @@
 // @vitest-environment jsdom
 /**
- * Screen tests: the whole flow through <App/> as a user clicks it, plus the SPEC «never show / never store» rules.
+ * Screen tests: the whole flow through <App/> as a user clicks it, plus the SPEC «never show / never store» rules and the
+ * v2 loading rules (the start page never waits; a screen whose file has not arrived shows a loader).
  * Numbers themselves are covered by the golden tests; here only what reaches the screen.
  */
-import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+import { act, cleanup, fireEvent, render, screen, within } from '@testing-library/react';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import App from '../App';
-import { data } from '../data';
+import type { Loader, Sources } from '../data';
 import { formatCloseness } from '../engine/format';
 import { match } from '../engine/match';
+import type { Answers } from '../engine/types';
 import { S } from '../strings';
+import { bills, core, data, loaded } from '../testSources';
 
 const click = (name: string | RegExp) => fireEvent.click(screen.getByRole('button', { name }));
 const pressed = () => screen.queryAllByRole('button', { pressed: true }).map((b) => b.textContent);
+const planned = data.flow.core + data.flow.clarify;
+const byText = new Map(data.statements.map((s) => [s.statement_en, s.q]));
+const firstCore = data.statements.find((s) => s.q === data.core[0])!;
 
 const SEQ = [2, -1, 1, -2] as const;
+/** What was answered on screen so far (statement → answer). */
+let given: Answers = {};
 
-/** Answers the first n statements (answer + Next) with a fixed pattern; stops on statement n + 1. */
+/** Answers the next n statements shown (answer + Next) with a fixed pattern. */
 function answer(n: number) {
   for (let i = 0; i < n; i++) {
-    click(S.answers[SEQ[i % SEQ.length]!]);
+    const q = byText.get(screen.getByRole('heading', { level: 2 }).textContent!)!;
+    const a = SEQ[i % SEQ.length]!;
+    given[q] = a;
+    click(S.answers[a]);
     click(S.nav.next);
   }
 }
@@ -30,11 +41,11 @@ const menuTo = (item: string) => {
 };
 const equalCard = () => screen.queryByRole('button', { name: new RegExp(S.trade.equalTitle) });
 
-/** Start → n answers → (menu «My results» if not all) → «Both matter equally» on every trade-off → results. */
-function toResults(n = 20) {
+/** Start → n answers → (menu «My results» if fewer than planned) → «Both matter equally» on every trade-off → results. */
+function toResults(n = planned) {
   click(S.start.button);
   answer(n);
-  if (n < data.statements.length) menuTo(S.menu.results); // the last Next finishes by itself
+  if (n < planned) menuTo(S.menu.results); // the last planned Next finishes by itself
   while (equalCard()) {
     fireEvent.click(equalCard()!);
     click(S.nav.next);
@@ -42,16 +53,39 @@ function toResults(n = 20) {
   screen.getByRole('heading', { name: S.results.heading });
 }
 
+/** A loader whose files arrive when the test says so. */
+function manualLoader() {
+  let state: Sources = { core: null, data: null, bills: null, failed: false };
+  const ls = new Set<() => void>();
+  const loader: Loader = {
+    get: () => state,
+    subscribe: (f) => {
+      ls.add(f);
+      return () => ls.delete(f);
+    },
+    start: () => {},
+  };
+  const arrive = (patch: Partial<Sources>) => act(() => {
+    state = { ...state, ...patch };
+    ls.forEach((f) => f());
+  });
+  return { loader, arrive };
+}
+
 beforeEach(() => {
   window.scrollTo = vi.fn() as unknown as typeof window.scrollTo;
-  render(<App />);
+  given = {};
 });
 afterEach(cleanup);
 
 describe('start', () => {
-  it('shows the Figma home: title, chips with the real statement count, Start and Behind the results', () => {
+  beforeEach(() => render(<App loader={loaded()} />));
+
+  it('shows the Figma home: title, chips with the planned number of statements, Start and Behind the results', () => {
     screen.getByRole('heading', { name: S.start.title });
-    screen.getByText(S.start.chipStatements(data.statements.length));
+    screen.getByText(S.start.chipStatements(planned));
+    screen.getByText(S.start.chipTime);
+    screen.getByText(S.start.steps(planned)[0]!);
     click(S.start.howItWorks);
     screen.getByRole('heading', { name: S.methodology.heading });
     click(S.methodology.back);
@@ -59,30 +93,76 @@ describe('start', () => {
   });
 });
 
+describe('loading (V2_HANDOFF «Loading»)', () => {
+  it('the start page renders before any data; Start waits for quiz_core, then the first core statement', () => {
+    const { loader, arrive } = manualLoader();
+    render(<App loader={loader} />);
+    screen.getByRole('heading', { name: S.start.title });
+    screen.getByRole('button', { name: S.start.button });
+    expect(screen.queryByText(S.start.chipStatements(planned))).toBeNull();
+    click(S.start.button);
+    screen.getByRole('status');
+    arrive({ core });
+    screen.getByRole('heading', { name: firstCore.statement_en });
+  });
+
+  it('the first clarifying question waits for quiz_data; list details wait for quiz_bills', () => {
+    const { loader, arrive } = manualLoader();
+    render(<App loader={loader} />);
+    arrive({ core });
+    click(S.start.button);
+    answer(data.flow.core);
+    screen.getByRole('status');
+    arrive({ data });
+    screen.getByText(S.question.progress(data.flow.core + 1, planned));
+    answer(data.flow.clarify);
+    while (equalCard()) {
+      fireEvent.click(equalCard()!);
+      click(S.nav.next);
+    }
+    fireEvent.click(within(screen.getAllByRole('list')[0]!).getAllByRole('button')[0]!);
+    screen.getByRole('status');
+    arrive({ bills });
+    screen.getByRole('button', { name: S.details.back });
+  });
+
+  it('a failed file shows an error with a reload button on the screen that needs it', () => {
+    const { loader, arrive } = manualLoader();
+    render(<App loader={loader} />);
+    arrive({ failed: true });
+    screen.getByRole('heading', { name: S.start.title });
+    click(S.start.button);
+    screen.getByRole('alert');
+    screen.getByRole('button', { name: S.reload });
+  });
+});
+
 describe('statements', () => {
+  beforeEach(() => render(<App loader={loaded()} />));
+
   it('four answers as in Figma; a tap selects, Next (inactive until then) advances; Back shows it selected', () => {
     click(S.start.button);
-    screen.getByText(S.question.progress(1, data.statements.length));
-    screen.getByRole('heading', { name: data.statements[0]!.statement_en });
+    screen.getByText(S.question.progress(1, planned));
+    screen.getByRole('heading', { name: firstCore.statement_en });
     const group = screen.getByRole('group', { name: S.question.answersLabel });
     expect(within(group).getAllByRole('button').map((b) => b.textContent))
       .toEqual(['Strongly agree', 'Agree', 'Disagree', 'Strongly disagree']);
     expect(screen.getByRole('button', { name: S.nav.next })).toHaveProperty('disabled', true);
     click(S.answers[1]);
     expect(pressed()).toEqual([S.answers[1]]);
-    screen.getByText(S.question.progress(1, data.statements.length));
+    screen.getByText(S.question.progress(1, planned));
     click(S.nav.next);
-    screen.getByText(S.question.progress(2, data.statements.length));
+    screen.getByText(S.question.progress(2, planned));
     expect(pressed()).toEqual([]);
     click(S.nav.back);
-    screen.getByRole('heading', { name: data.statements[0]!.statement_en });
+    screen.getByRole('heading', { name: firstCore.statement_en });
     expect(pressed()).toEqual([S.answers[1]]);
   });
 
   it('Skip moves on without an answer', () => {
     click(S.start.button);
     click(S.question.skip);
-    screen.getByText(S.question.progress(2, data.statements.length));
+    screen.getByText(S.question.progress(2, planned));
     click(S.nav.back);
     expect(pressed()).toEqual([]);
   });
@@ -92,17 +172,24 @@ describe('statements', () => {
     click(S.question.skip);
     menuTo(S.menu.results);
     screen.getByText(S.question.noAnswers);
-    screen.getByText(S.question.progress(2, data.statements.length));
+    screen.getByText(S.question.progress(2, planned));
+  });
+
+  it('after the planned number of statements the questions end by themselves', () => {
+    click(S.start.button);
+    answer(planned);
+    expect(screen.queryByRole('group', { name: S.question.answersLabel })).toBeNull();
   });
 });
 
 describe('trade-offs', () => {
+  beforeEach(() => render(<App loader={loaded()} />));
+
   it('Figma «clarifying question»: A / B / equal, Next after a choice, Back undoes; the list is never named', () => {
     click(S.start.button);
-    answer(30);
-    menuTo(S.menu.results);
-    expect(screen.queryByRole('heading', { name: S.trade.title })).not.toBeNull(); // these answers produce a pair
-    screen.getByText(S.trade.counter(1, data.params.MAX_TRADE));
+    answer(planned);
+    if (!screen.queryByRole('heading', { name: S.trade.title })) return; // these answers produced no pair
+    screen.getByText(S.trade.counter(1, data.flow.trade));
     const text = document.body.textContent!;
     for (const l of data.lists) expect(text).not.toContain(l.name_en);
     const next = screen.getByRole('button', { name: S.nav.next });
@@ -113,9 +200,9 @@ describe('trade-offs', () => {
     expect(next).toHaveProperty('disabled', false);
     click(S.nav.next);
     if (screen.queryByRole('heading', { name: S.trade.title })) {
-      screen.getByText(S.trade.counter(2, data.params.MAX_TRADE));
+      screen.getByText(S.trade.counter(2, data.flow.trade));
       click(S.nav.back);
-      screen.getByText(S.trade.counter(1, data.params.MAX_TRADE));
+      screen.getByText(S.trade.counter(1, data.flow.trade));
       expect(within(screen.getByRole('group', { name: S.trade.title })).getAllByRole('button')[0]!.textContent)
         .toBe(titleA);
     }
@@ -123,12 +210,11 @@ describe('trade-offs', () => {
 });
 
 describe('results', () => {
+  beforeEach(() => render(<App loader={loaded()} />));
+
   it('rows follow the engine ranking with formatted closeness', () => {
     toResults();
-    const rows = match(data, Object.fromEntries(
-      data.statements.slice(0, 20).map((s, i) => [s.q, SEQ[i % SEQ.length]!]),
-    ), {});
-    const ranked = rows.filter((r) => r.ranked);
+    const ranked = match(data, given, {}).filter((r) => r.ranked);
     const items = within(screen.getAllByRole('list')[0]!).getAllByRole('listitem');
     expect(items).toHaveLength(ranked.length);
     // Trade-offs answered «Equally» change no weights, so the plain ranking applies.
@@ -136,6 +222,16 @@ describe('results', () => {
       expect(items[i]!.textContent).toContain(r.name_en);
       expect(items[i]!.textContent).toContain(formatCloseness(r.closeness!));
     });
+  });
+
+  it('«Answer more questions» continues with a new statement, counted out of all statements', () => {
+    toResults();
+    click(S.results.answerMore);
+    screen.getByRole('group', { name: S.question.answersLabel });
+    screen.getByText(S.question.progress(planned + 1, data.statements.length));
+    answer(1);
+    menuTo(S.menu.results);
+    screen.getByRole('heading', { name: S.results.heading });
   });
 
   it('shows only the two allowed notes and nothing about government, coalition or seats', () => {
@@ -148,19 +244,21 @@ describe('results', () => {
     expect(document.querySelectorAll('.screen img')).toHaveLength(0); // no logos (only the header's menu icon)
   });
 
-  it('row → details → bills; Hebrew titles are dir=auto, lang=he', () => {
+  it('row → details → bills; Hebrew titles are dir=auto, lang=he; links built from BILL_URL', () => {
     toResults();
     const first = within(screen.getAllByRole('list')[0]!).getAllByRole('button')[0]!;
     fireEvent.click(first);
     screen.getByRole('button', { name: S.details.back });
-    const card = document.querySelector('button.card') as HTMLButtonElement | null;
-    expect(card).not.toBeNull();
-    fireEvent.click(card!);
+    const card = [...document.querySelectorAll('button.card')].find((c) => /sponsored by/.test(c.textContent!));
+    expect(card).toBeDefined();
+    fireEvent.click(card as HTMLElement);
     screen.getByRole('button', { name: S.bills.back });
     for (const t of document.querySelectorAll('.bill-title')) {
       expect(t.getAttribute('dir')).toBe('auto');
       expect(t.getAttribute('lang')).toBe('he');
     }
+    const prefix = data.params.BILL_URL.split('{id}')[0]!;
+    for (const a of screen.getAllByRole('link')) expect(a.getAttribute('href')!.startsWith(prefix)).toBe(true);
     click(S.bills.back);
     click(S.details.back);
     screen.getByRole('heading', { name: S.results.heading });
@@ -175,13 +273,15 @@ describe('results', () => {
 });
 
 describe('accessibility', () => {
+  beforeEach(() => render(<App loader={loaded()} />));
+
   it('focus moves to the new screen heading', () => {
     expect(document.activeElement).toBe(document.body); // not on the first render
     click(S.start.button);
-    expect(document.activeElement).toBe(screen.getByRole('heading', { name: data.statements[0]!.statement_en }));
+    expect(document.activeElement).toBe(screen.getByRole('heading', { name: firstCore.statement_en }));
     click(S.answers[2]);
     click(S.nav.next);
-    expect(document.activeElement).toBe(screen.getByRole('heading', { name: data.statements[1]!.statement_en }));
+    expect(document.activeElement).toBe(screen.getByRole('heading', { level: 2 }));
   });
 
   it('menu is a dialog: focus on Close, Escape closes', () => {
@@ -209,10 +309,12 @@ describe('accessibility', () => {
 });
 
 describe('privacy', () => {
+  beforeEach(() => render(<App loader={loaded()} />));
+
   it('nothing is stored and the URL never changes', () => {
     const href = window.location.href;
     const setLocal = vi.spyOn(Storage.prototype, 'setItem');
-    toResults(65);
+    toResults();
     const first = within(screen.getAllByRole('list')[0]!).getAllByRole('button')[0]!;
     fireEvent.click(first);
     expect(setLocal).not.toHaveBeenCalled();

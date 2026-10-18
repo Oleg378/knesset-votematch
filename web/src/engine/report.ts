@@ -1,10 +1,12 @@
 /**
  * Port of pipeline/quiz_report.py: contributions, evidence, explain. Strings come from src/strings.ts and must reproduce
- * the golden `lines` exactly.
+ * the golden `lines` exactly. Evidence needs quiz_bills (sponsors, bills by direction).
  */
 import { ANS, explainText as T } from '../strings';
 import { listVec } from './match';
-import type { AnswerValue, Answers, Mult, QuizData, QuizList, Role, Sign, Statement } from './types';
+import type { AnswerValue, Answers, Mult, Params, QuizBills, QuizData, QuizList, Role, Sign, Statement } from './types';
+
+const EPS = 1e-9; // quiz_report.EPS
 
 export interface Contribution {
   /** Contribution to the closeness numerator: w * mult * u * p. */
@@ -19,6 +21,11 @@ function findList(data: QuizData, id: string): QuizList {
   const l = data.lists.find((x) => x.id === id);
   if (!l) throw new Error(`unknown list ${id}`);
   return l;
+}
+
+/** The Knesset page of a bill: params.BILL_URL with {id} replaced. */
+export function billUrl(params: Params, id: string): string {
+  return params.BILL_URL.replace('{id}', id);
 }
 
 /** Answered statements (not dk, not 0) where the list has a value, largest contribution first (stable). */
@@ -50,14 +57,14 @@ export interface Evidence {
 }
 
 /** Bills on the statement's direction with ≥1 sponsor among the list's ex-MKs; relevant first, then best list position. */
-export function evidence(data: QuizData, listId: string, q: Statement, u: number, contrib: number): Evidence[] {
+export function evidence(bills: QuizBills, listId: string, q: Statement, u: number, contrib: number): Evidence[] {
   const rows: { relevant: boolean; best: number; ev: Evidence }[] = [];
-  for (const [bill, sign, role] of data.by_direction[q.d] ?? []) {
-    const b = data.bills[bill];
+  for (const [bill, sign, role] of bills.by_direction[q.d] ?? []) {
+    const b = bills.bills[bill];
     if (!b) continue;
     const authors: [number, string][] = [];
     for (const m of b.sponsors) {
-      const mk = data.mks[m];
+      const mk = bills.mks[m];
       if (mk && mk.list === listId) authors.push([mk.list_position, mk.name_en]);
     }
     if (!authors.length) continue;
@@ -76,21 +83,24 @@ export interface Explanation {
 }
 
 /** One explained statement, exactly as quiz_report.explain(). */
-export function explain(data: QuizData, listId: string, q: Statement, a: Exclude<AnswerValue, 0>, p: number,
-  contrib: number, mult: Mult = {}): Explanation {
+export function explain(data: QuizData, bills: QuizBills, listId: string, q: Statement, a: Exclude<AnswerValue, 0>,
+  p: number, contrib: number, mult: Mult = {}): Explanation {
   const list = findList(data, listId);
-  const ev = evidence(data, listId, q, (a / 2) * q.key, contrib);
+  const ev = evidence(bills, listId, q, (a / 2) * q.key, contrib);
   const nSame = ev.filter((e) => e.same).length;
   const nOpp = ev.length - nSame;
-  const nVotes = list.positions[q.d]?.n_votes ?? 0;
-  const side = p * q.key > 0 ? T.sideFor : T.sideAgainst;
+  const pos = list.positions[q.d];
+  const nVotes = pos?.n_votes ?? 0;
+  const close = Math.abs(p) < data.params.CLOSE;
+  const side = close ? T.sideNoClear : p * q.key > 0 ? T.sideFor : T.sideAgainst;
   const lines = [
     T.quote(q.statement_en),
     T.answer(ANS[a], side),
     ev.length ? T.basis(ev.length, nSame, nOpp, nVotes) : T.basisVotesOnly(nVotes),
   ];
   if ((mult[q.q] ?? 1) !== 1) lines.push(T.weight);
-  if (ev.length && contrib > 0 && nOpp > nSame) lines.push(T.caveatFits);
-  if (ev.length && contrib < 0 && nSame > nOpp) lines.push(T.caveatMisfits);
+  // The list's own bills give nothing or the other side: its side comes from the votes.
+  const byVotes = ev.length > 0 && !!pos && (Math.abs(pos.P_bills) <= EPS || (pos.P_bills > 0) !== (pos.P > 0));
+  if (!close && byVotes) lines.push(T.caveatByVotes);
   return { lines, evidence: ev };
 }

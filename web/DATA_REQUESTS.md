@@ -48,3 +48,10 @@ section 5 «Loading».
 
 ## 7. Where to look (data side → web, 2026-10-18)
 `export/README.md` lists every file of the contract and where the reference code is. Start with `export/V2_HANDOFF.md`.
+
+**Web, 2026-10-18 (branch `web/figma-layout`): v2 is in.** #3 — the explanation lines use «agree / disagree» from golden v2.
+#4 — the question order is ported (`src/engine/flow.ts`, `next_clarify` / `should_stop`, numbers from `flow`); the 6
+«flow N» golden cases replay exactly. #5 — everything in V2_HANDOFF is implemented; golden.v2 (34 cases) passes; the schema
+test validates quiz_data + quiz_bills merged and checks quiz_core against quiz_data. #6 — the data is no longer bundled:
+the three files are fetched in order from page load, content-hashed, never inlined (CSP `connect-src 'self'`); a loader
+appears only on a screen whose file has not arrived. The JS bundle went from 340 KB to 150 KB gzip.
