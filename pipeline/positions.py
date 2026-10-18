@@ -133,9 +133,28 @@ A = bi.merge(ab, on='bill_id').groupby(['mk_id', 'knesset', 'd']).s.agg(['mean',
 # (every author +1 − mean +1 = 0; 32 of 199 directions); centering over all MKs would read «did not sponsor» as «against».
 # Not sponsoring = no authorship signal (0); the side then comes from votes. local/research/a_centering/.
 
+# ======================= camp of each bill (for V and O) =======================
+# A government bill is the coalition's; a private bill belongs to the camp of the majority of its initiators on the vote date.
+_ini = con.execute("select bill_id, mk_id from bill_initiators where is_initiator").df().groupby('bill_id').mk_id.apply(list).to_dict()
+_fmd = {m: q for m, q in fm.groupby('mk_id')}
+def _faction_at(m, d):
+    q = _fmd.get(m)
+    if q is None: return None
+    x = q[(q.df <= d) & (q.dt > d)]
+    return int(x.sort_values('df').faction_id.iloc[-1]) if len(x) else None
+bcamp = {}
+for r in va.itertuples():
+    if r.bill_type == 'ממשלתית': bcamp[r.vote_id] = True; continue
+    if r.bill_type != 'פרטית': continue
+    s_ = [(f, r.vote_date) in INGOV_V for f in (_faction_at(m, r.vote_date) for m in _ini.get(r.bill_id, [])) if f is not None]
+    if s_: bcamp[r.vote_id] = bool(np.mean(s_) > 0.5)
+
 # ======================= V: private-bill votes, residual on government share =======================
 share = rv[~rv.trans].groupby(['mk_id', 'knesset']).camp_gov.mean().rename('gov_share')
+# [У] 2026-10-19 (customer: double counting is a mistake): V uses only votes on private bills of the MK's OWN camp (or without a
+# camp); votes on the other camp's bills go only to O. Before, 46 % of the V votes were also counted in O.
 pv = rv[rv.bill_type == 'פרטית']
+pv = pv[pv.vote_id.map(bcamp).isna().values | (pv.vote_id.map(bcamp).values == pv.camp_gov.values)]
 vt = va.set_index('vote_id').topics
 vrows = [(r.mk_id, r.knesset, d, s * r.v) for r in pv.itertuples() for d, s in vt[r.vote_id].items()]
 V = pd.DataFrame(vrows, columns=['mk_id', 'knesset', 'd', 'c']).groupby(['mk_id', 'knesset', 'd']).c.agg(['mean', 'size']).reset_index().rename(columns={'mean': 'pos', 'size': 'nV'})
@@ -152,19 +171,6 @@ P(f'A rows (MK×Knesset×dir): {len(A)}; V rows: {len(V)}')
 # A government bill is the coalition's; a private bill belongs to the camp of the majority of its initiators on the vote date. O = mean
 # of topic sign × vote over the MK's votes on bills of the other camp (all four stages, outside the transition windows), NOT residualised:
 # it keeps «the opposition voted against the coalition's bills on X», which V removes with the government axis (external audit К1).
-_ini = con.execute("select bill_id, mk_id from bill_initiators where is_initiator").df().groupby('bill_id').mk_id.apply(list).to_dict()
-_fmd = {m: q for m, q in fm.groupby('mk_id')}
-def _faction_at(m, d):
-    q = _fmd.get(m)
-    if q is None: return None
-    x = q[(q.df <= d) & (q.dt > d)]
-    return int(x.sort_values('df').faction_id.iloc[-1]) if len(x) else None
-bcamp = {}
-for r in va.itertuples():
-    if r.bill_type == 'ממשלתית': bcamp[r.vote_id] = True; continue
-    if r.bill_type != 'פרטית': continue
-    s_ = [(f, r.vote_date) in INGOV_V for f in (_faction_at(m, r.vote_date) for m in _ini.get(r.bill_id, [])) if f is not None]
-    if s_: bcamp[r.vote_id] = bool(np.mean(s_) > 0.5)
 ov = rv[~rv.trans & rv.vote_id.isin(bcamp.keys())]
 ov = ov[ov.camp_gov.values != ov.vote_id.map(bcamp).values]
 orows = [(r.mk_id, r.knesset, d, s * r.v) for r in ov.itertuples() for d, s in vt[r.vote_id].items()]
@@ -344,7 +350,7 @@ readme = f"""# Позиции депутатов и списков 2026
 ## Правила
 - **Слой тем [У, 27.2–27.3].** На депутата × направление, оба созыва вместе.
   - **A — авторство.** Законопроекты, где депутат инициатор (`is_initiator`), все инициаторы с равным весом. Каждый законопроект даёт свои темы (главные и побочные наравне) со знаком ±1. Темы без знака пропускаются. Технические законопроекты (`overrides.json`, SU 23c) исключены. Метки бюджетных пакетов на A не влияют. A = средний знак, nA = число законопроектов.
-  - **V — голоса по частным законопроектам.** «За» = +1, «против» = −1; вклад = знак темы × голос. Берётся остаток после регрессии на долю голосов депутата, поданных, когда его фракция была на стороне правительства (внутри созыва × направления). nV = число голосов.
+  - **V — голоса по частным законопроектам своего лагеря** (с 2026-10-19: голоса по законопроектам чужого лагеря идут только в O, без двойного учёта). «За» = +1, «против» = −1; вклад = знак темы × голос. Берётся остаток после регрессии на долю голосов депутата, поданных, когда его фракция была на стороне правительства (внутри созыва × направления). nV = число голосов.
   - A не центрируется (вариант Б, SU 27.3, 2026-10-17): знак законопроектов как есть, не вносил — 0 (нет сигнала). V — остаток, его среднее по созыву × направлению равно 0. Созывы объединяются с весом n.
   - **O — голоса против законопроектов другого лагеря [У, 2026-10-18].** Правительственный законопроект — коалиционный; частный — лагеря большинства его инициаторов на дату голосования. O = средний знак темы × голос по законопроектам чужого лагеря (все четыре чтения, без переходных окон), **без** вычета оси правительства: так видно «оппозиция голосовала против законов коалиции о X». nO = число голосов.
   - **Лагерь для очистки голосов и для O [У, 2026-10-18]** — правительство по министрам **или** фракция без министров, голосующая с большинством правительства в ≥ 90 % из ≥ 200 голосов в созыве (сейчас так только РААМ в K24). Слой правительства по-прежнему только по министрам.
