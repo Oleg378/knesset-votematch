@@ -1,16 +1,59 @@
 /// <reference types="vitest/config" />
 import { fileURLToPath } from 'node:url';
-import { defineConfig } from 'vite';
+import { defineConfig, type HtmlTagDescriptor, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
 
 // The data contract lives outside web/: ../export (produced by `make data`, never copied by hand).
 const exportDir = fileURLToPath(new URL('../export', import.meta.url));
 
+// Dev and preview only: lets an ngrok tunnel reach the server (preview on a phone).
+const allowedHosts = ['.ngrok-free.app', '.ngrok-free.dev', '.ngrok.app'];
+
+/**
+ * The start page in one wave: index.html preloads what it needs besides the JS — its fonts (Fraunces, Plus Jakarta Sans
+ * 400/500/600), quiz_core (the number of statements on the chips) and the hero picture. Without this they start only after
+ * the JS has run
+ * (+0.6 s on a slow phone network, and the text first shows in a fallback font). Build only: names are content-hashed.
+ */
+function preloadStartPage(): Plugin {
+  let base = '/';
+  return {
+    name: 'preload-start-page',
+    apply: 'build',
+    configResolved(c) {
+      base = c.base;
+    },
+    transformIndexHtml: {
+      order: 'post',
+      handler(_html, ctx) {
+        const files = Object.keys(ctx.bundle ?? {});
+        const fonts = files.filter((f) => /\/(fraunces-opsz|plus-jakarta-sans-latin-(400|500|600)-normal)-[\w-]+\.woff2$/.test(f));
+        const core = files.filter((f) => /\/quiz_core\.v2-[\w-]+\.json$/.test(f));
+        const hero = files.filter((f) => /\/hero-[\w-]+\.svg$/.test(f));
+        if (fonts.length !== 4 || core.length !== 1 || hero.length !== 1) {
+          throw new Error(`preload-start-page: found ${fonts.length} fonts, ${core.length} quiz_core, ${hero.length} hero`);
+        }
+        // crossorigin: fonts and fetch() are CORS requests; without it the preloaded file is not reused.
+        const link = (href: string, attrs: HtmlTagDescriptor['attrs']): HtmlTagDescriptor => ({
+          tag: 'link',
+          attrs: { rel: 'preload', href: base + href, ...attrs },
+          injectTo: 'head',
+        });
+        return [
+          ...fonts.map((f) => link(f, { as: 'font', type: 'font/woff2', crossorigin: true })),
+          link(core[0]!, { as: 'fetch', crossorigin: true }),
+          link(hero[0]!, { as: 'image' }),
+        ];
+      },
+    },
+  };
+}
+
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), preloadStartPage()],
   resolve: { alias: { '@export': exportDir } },
-  // Dev only: lets an ngrok tunnel reach the dev server (preview on a phone).
-  server: { fs: { allow: ['.', exportDir] }, allowedHosts: ['.ngrok-free.app', '.ngrok-free.dev', '.ngrok.app'] },
+  server: { fs: { allow: ['.', exportDir] }, allowedHosts },
+  preview: { allowedHosts },
   json: { stringify: true },
   build: {
     // The data files (src/data.ts) are always separate, content-hashed files: a small one (quiz_core, ~2 KB) must not be

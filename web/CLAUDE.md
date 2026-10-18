@@ -17,6 +17,12 @@ React + Vite + TypeScript, static SPA (no server, no Next.js). Talk to the custo
   Start with `../export/README.md` and `../export/V2_HANDOFF.md`. v1 files stay only for the data side.
 - A screen renders only when its file has arrived (App shows a loader for that screen only): Start — nothing; questions —
   quiz_core, clarifying ones and everything after — quiz_data; List details, Bills, Methodology — quiz_bills.
+- **The start page loads first** (DECISIONS.md G): `index.html` preloads its fonts, quiz_core and the hero
+  (`preloadStartPage` in `vite.config.ts`); quiz_data and quiz_bills start only after it is drawn (`firstScreenShown` in
+  `src/data.ts`). A new font or picture on Home → add it to the preload. Measure with a production build (gzip), never
+  the dev server: Slow 4G (150 ms, 1.6 Mbit/s), CPU ×4, no cache — Home complete ≈ 1.24 s on 2026-10-18.
+- Phone preview over ngrok points at the production build (`vite build --watch` + a static server with gzip and the CSP
+  from `public/_headers`), not at `npm run dev` (unminified React, no compression: 5.4 MB).
 
 ## Design: Figma first
 - **A screen that has a Figma mockup is built exactly as the mockup**: texts, number of answers, buttons, progress,
