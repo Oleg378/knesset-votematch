@@ -1,0 +1,7 @@
+current     : clear cells 690/922 | vote-only clear 116/218 | no clear position in core 19/96 | gold: stated 32/40, agree 30 | clear cells same side K24 vs K25 81% (n=589)
+alt α=0.05  : clear cells 379/922 | vote-only clear 43/218 | no clear position in core 60/96 | gold: stated 18/40, agree 17 | clear cells same side K24 vs K25 88% (n=364)
+   agreement of the rules (α=0.05): both clear 357, only alt 22, only current 333
+alt α=0.1   : clear cells 467/922 | vote-only clear 62/218 | no clear position in core 54/96 | gold: stated 21/40, agree 20 | clear cells same side K24 vs K25 87% (n=433)
+   agreement of the rules (α=0.1): both clear 432, only alt 35, only current 258
+alt α=0.2   : clear cells 605/922 | vote-only clear 95/218 | no clear position in core 37/96 | gold: stated 30/40, agree 27 | clear cells same side K24 vs K25 83% (n=532)
+   agreement of the rules (α=0.2): both clear 539, only alt 66, only current 151
