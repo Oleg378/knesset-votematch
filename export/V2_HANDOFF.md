@@ -140,5 +140,18 @@ same as «agree» to everything; the strength of an answer matters when your ans
 **«No clear position».** A list is marked so when its position is weaker than 0.2 (`params.CLOSE`) — below that, the side of the
 same list did not hold between the two Knessets in most cases — or when it rests on a single former MK or a single bill.
 
-**Checks and their limits.** Topic labels were made by a language model and checked by independent model reviewers, not yet by
-human experts; a human check is planned.
+**Limitations — what this quiz can and cannot tell you.** The quiz is an orientation, not a precise measurement. We state openly
+where the data and the analysis are noisy:
+- *Only the Knesset record of former MKs* (24th–25th Knesset) is used. New candidates, platforms and statements are not seen. 12 of
+  38 lists can be evaluated; 4 lists with a single former MK are shown but not ranked; 22 lists have no record.
+- *Bloc discipline.* About 98 % of votes follow the voter's bloc. A party's opposition to the other camp's laws is read from its votes
+  against them — partly party discipline, not only conviction.
+- *Leaders and ministers sponsor few bills,* so a list's position rests mostly on its other former MKs and on votes.
+- *Topic labels were made by a language model.* Independent model checks found main topics right in about 93 % and secondary topics
+  in about 80 % of cases; individual mistakes remain. Labels were corrected only where two independent checks agreed.
+- *Checks so far were done by models, not by people.* Agreement figures measure consistency, not accuracy for real voters. A human
+  check is planned.
+- *Closeness is approximate.* Lists with close values cannot be told apart reliably, so values are shown rounded and should be read
+  as «about as close». «No clear position» means the record is weak or rests on a single former MK or a single bill.
+- *The price in a statement* («even if …») is not measured: the record shows what a list's bills and votes pushed for, not whether
+  it accepts that price.

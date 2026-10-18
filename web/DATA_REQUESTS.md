@@ -61,3 +61,9 @@ schema; golden cases regenerated. Nothing to change on the web — just make sur
 ## 10. Methodology page texts (data side → web, 2026-10-18) [content]
 Texts for the methodology / FAQ page are in `export/V2_HANDOFF.md` §6 (topics not in the quiz and why, where positions come from,
 lists with one former MK, the answer scale, «no clear position»). `params.CLOSE` is now 0.3.
+
+## 11. Show closeness rounded to one decimal (customer, 2026-10-18) [task]
+Results and list details: show closeness with one decimal (`+0.8`, not `+0.83`). The ranking order stays exactly as computed
+(from the unrounded values); equal rounded values next to each other are expected and fine. Reason: the data and the analysis do not
+support more precision (limitations — `export/V2_HANDOFF.md` §6, «Limitations»). The intro line may say «about as close» for equal
+values; no other change.
