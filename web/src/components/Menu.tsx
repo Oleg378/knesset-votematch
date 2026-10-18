@@ -19,7 +19,6 @@ export function Menu({ onClose, onStartOver, onResults, onMethodology }: Props) 
   const layerRef = useRef<HTMLDivElement>(null);
   const dimRef = useRef<HTMLDivElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
-  const closeRef = useRef<HTMLButtonElement>(null);
   const closing = useRef(false);
   const [frame, setFrame] = useState<CSSProperties>();
 
@@ -71,7 +70,9 @@ export function Menu({ onClose, onStartOver, onResults, onMethodology }: Props) 
 
   useEffect(() => {
     const opener = document.activeElement as HTMLElement | null;
-    closeRef.current?.focus();
+    // Focus goes to the dialog itself (WAI-ARIA APG), not to Close: a focused button gets the keyboard focus ring, and
+    // Safari shows it even after a click (customer 2026-10-18: no ring around the X). Tab reaches Close, with its ring.
+    panelRef.current?.focus({ preventScroll: true });
     const onKey = (e: KeyboardEvent) => e.key === 'Escape' && close();
     document.addEventListener('keydown', onKey);
     const root = document.documentElement;
@@ -97,8 +98,8 @@ export function Menu({ onClose, onStartOver, onResults, onMethodology }: Props) 
     <div ref={layerRef} className="menu-layer" onClick={(e) => e.target === e.currentTarget && close()}>
       <div className="menu-frame" style={frame}>
         <div ref={dimRef} className="menu-dim" onClick={() => close()} aria-hidden="true" />
-        <div ref={panelRef} className="menu" role="dialog" aria-modal="true" aria-label={S.menu.title}>
-          <button ref={closeRef} type="button" className="icon-btn" aria-label={S.menu.close} onClick={() => close()}>
+        <div ref={panelRef} className="menu" role="dialog" aria-modal="true" aria-label={S.menu.title} tabIndex={-1}>
+          <button type="button" className="icon-btn" aria-label={S.menu.close} onClick={() => close()}>
             <Icon name="close" />
           </button>
           <div className="menu-title">

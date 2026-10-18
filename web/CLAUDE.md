@@ -145,7 +145,8 @@ Home, Question, Clarifying question, Menu). All values in px.
   Animations); none with reduced motion. The page does not scroll while it is open. Close = burger point always,
   also on a scrolled long screen.
 - Panel: width 320 (max 85 % of the frame), height 100 %, at the left edge. Vertical flex, padding 62 24 34 24 (top and bottom = safe area).
-- Close 44×44 at the same point as the burger.
+- Close 44×44 at the same point as the burger. On open, focus goes to the dialog itself (`tabIndex=-1`, no ring), not
+  to Close: Safari would draw the keyboard focus ring around the X after a click (customer 2026-10-18: no circle).
 - Head: padding-top 16, eyebrow → 8 → title (28/34).
 - Divider: 1px line, Brand / Tint 10%, 16 above and below.
 - Items: height 52, gap 0, icon 24 + gap 12 + text.

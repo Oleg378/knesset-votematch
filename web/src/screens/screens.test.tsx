@@ -286,10 +286,11 @@ describe('accessibility', () => {
     expect(document.activeElement).toBe(screen.getByRole('heading', { level: 2 }));
   });
 
-  it('menu is a dialog: focus on Close, Escape closes', () => {
+  it('menu is a dialog: focus on the dialog itself (no ring around Close), Escape closes', () => {
     click(S.menu.open);
     const dialog = screen.getByRole('dialog');
-    expect(document.activeElement).toBe(within(dialog).getByRole('button', { name: S.menu.close }));
+    expect(document.activeElement).toBe(dialog);
+    expect(dialog.tabIndex).toBe(-1);
     fireEvent.keyDown(document, { key: 'Escape' });
     expect(screen.queryByRole('dialog')).toBeNull();
   });
