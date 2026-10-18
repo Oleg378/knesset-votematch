@@ -19,7 +19,7 @@ flow in the terminal. Decisions are in `docs/SHARED_UNDERSTANDING.md` (Russian).
 | Trade-offs | up to MAX_TRADE | unchanged algorithm; the limit comes from `flow.trade` |
 | Answer words in explanations | «somewhat agree / somewhat disagree» | **«agree / disagree»** (same as the buttons); «strongly …» unchanged |
 | Explanation caveat | «… positions are measured relative to the average MK» | **removed** (no longer true) |
-| |p| < CLOSE | «close to the average MK on this statement» | **«has no clear position on this statement»** (customer, 2026-10-18); CLOSE = 0.2 (measured: below it the side is a coin flip between the two Knessets) |
+| |p| < CLOSE | «close to the average MK on this statement» | **«has no clear position on this statement»** (customer, 2026-10-18); CLOSE comes from `params.CLOSE` (0.3 since 2026-10-18: the smallest |p| above which the side agrees between the two Knessets in ≥ 75 % of cases) |
 
 Nothing changes in: cosine closeness, weights 1/n per direction (a/b pairs), coverage threshold 0.5 and the «Not ranked» block,
 the two notes, what is not shown (no coalition/opposition, no number of MKs).
@@ -100,3 +100,45 @@ Goal: the start page never waits for data, and a loader almost never appears.
 - All three files carry the same `version`, `generated` and `source_commit`; if they differ (a deploy mid-session), reload.
 - Caching: give the files content-hashed names at build time (or short cache + revalidation); never `immutable` under a
   fixed name.
+
+## 6. Methodology page texts (customer, 2026-10-18)
+
+Texts for the methodology / FAQ page, English as shown. Numbers come from the export where noted; the rest is fixed text.
+
+**How topics are chosen.** A topic gets a statement only if the parties' former MKs actually differ on it in the Knesset record:
+at least 8 evaluated lists with 3 or more former MKs on the topic, a spread of their positions of at least 0.25, and at least 10
+distinct bills sponsored by them. These thresholds were fixed in advance and are the same for every topic. Topics where all lists
+did the same, or where too few bills exist, are left out — even when they are important.
+
+**Important topics that are not in the quiz, and why.**
+- *The lists' records hardly differ (nearly everyone pushed the same way):* animal protection; credit and mortgages; state power to
+  ban harmful content; public broadcasting (Kan, Galei Tzahal); tax enforcement; cannabis; state support for long-term savings;
+  support for charities.
+- *Too few bills by the candidates to place the lists:* abortion; who is registered as a Jew; rights of the parliamentary
+  opposition; gun licensing; immunity for soldiers; the death penalty for terrorists; immigration rights of grandchildren of Jews
+  (Law of Return); laws tied to a state of emergency; a shorter working week; the Yemenite children affair; adoption rules.
+- *Covered by another statement:* immunity of elected officials (in «A prime minister under indictment»); civil marriage and divorce
+  (in «Civil marriage» and «Divorce»); conditions on funding religious schools (in «Funding schools without the core curriculum»);
+  alternatives to military service (in «Drafting yeshiva students»); international law and UNRWA (in «Foreign states and
+  international organizations in Israel»).
+
+**Where a list's position comes from.** Only from what its candidates who were MKs in the 24th–25th Knesset did: the bills they
+sponsored, their votes on private bills, and their votes on the other camp's bills. Promises and speeches are not used. Positions
+that coincide with the coalition line are read mostly from the votes on the other camp's bills.
+
+**Leaders with few bills of their own.** Ministers and prime ministers rarely sponsor bills, so a list's position rests mostly on
+its other former MKs and on votes.
+
+**Candidates who moved to another list.** A former MK's record counts for the list they run with in 2026: it is the same person and
+their own votes.
+
+**Lists with one former MK** are shown but not ranked: one person's record is too thin to call a list the closest.
+
+**The answer scale.** Closeness compares directions, not intensity: if you answer «strongly agree» to everything, the result is the
+same as «agree» to everything; the strength of an answer matters when your answers are mixed.
+
+**«No clear position».** A list is marked so when its position is weaker than 0.3 (`params.CLOSE`): below that, the side of the
+same list did not hold between the two Knessets in most cases.
+
+**Checks and their limits.** Topic labels were made by a language model and checked by independent model reviewers, not yet by
+human experts; a human check is planned.

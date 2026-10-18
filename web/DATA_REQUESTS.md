@@ -57,3 +57,7 @@ schema; golden cases regenerated. Nothing to change on the web — just make sur
 - Ranking: a list ranks only if `ex_mks >= params.MIN_EX_MKS` (2) as well as coverage; otherwise it goes to «Not ranked» with its note.
 - List details lines 2, 3, 5 changed and line 6 added — exact texts in `export/V2_HANDOFF.md` §3; line 3 uses the new `n_other` field.
 - `flow.core_one_sided` added (the core is precomputed in the export; nothing to compute). Golden regenerated.
+
+## 10. Methodology page texts (data side → web, 2026-10-18) [content]
+Texts for the methodology / FAQ page are in `export/V2_HANDOFF.md` §6 (topics not in the quiz and why, where positions come from,
+lists with one former MK, the answer scale, «no clear position»). `params.CLOSE` is now 0.3.
