@@ -31,7 +31,7 @@ FLOW = {
     "core": 8,            # [У] 2026-10-18: 8 core + 7 clarifying (local/research/scripts/flow_core_clar.py: clarifying questions add
     "clarify": 7,         # most after a core of 5–9; 15 questions ≈ 0.81 own list 1st / 0.94 top 3 at 10 % inconsistent answers)
     "trade": 5,           # at most; asked only if it can change the top 5 (quiz_match.tradeoffs)
-    "core_r_max": 0.8,    # [А] core statements must not repeat each other's list order
+    "core_r_max": 0.7,    # [У] 2026-10-18 (was 0.8 [А]): core statements must not repeat each other's list order; 0.8 let 4 of 8 sit on one axis
     "core_gov_share": 0.5,   # [У] 2026-10-18: at most half of the core on the government axis (5 -> 2, 6 -> 3)
     "gov_r": 0.8,         # as quiz_select.GOV_R
     "clarify_top": 4,     # [А] lists compared when choosing the next clarifying question
