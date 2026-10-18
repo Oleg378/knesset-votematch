@@ -192,7 +192,9 @@ to any new one. Based on Material 3 window size classes. Previous layout = «в�
    card width never shrink. Never scale the card down to fit (defeats browser zoom).
 3. **Tall windows never stretch a screen:** extra height goes to the margins, the card stays centred.
 4. **When even the minimums do not fit, the page scrolls,** and a screen's primary bottom buttons stay visible (sticky
-   with a fade).
+   with a fade). The header (burger, progress, counter) is pinned on top on every screen (customer 2026-10-18).
+6. **The header never moves between screens:** same place on every screen of one window — on phones safe area + 8, in
+   card mode the card's top is where a Figma-height card sits centred; a long screen grows downwards.
 5. **Browser zoom needs no special handling:** zooming in only makes the CSS viewport smaller, the same rules apply.
 
 ### Width / height points (global, in `.app` — every screen gets them automatically)
@@ -237,13 +239,14 @@ starts below ~750 px.
   zoom 200 % (720×409 @2). Primary bottom buttons (Start / Behind the results, Back / Next) must be visible without
   scrolling in all of them; the card mode / phone layout must switch exactly at 600 / 480.
 - Known trade-off (accepted by the customer): at window heights ~390–550 (phone in landscape, zoom ≥ 150 %) the stuck
-  buttons with the fade take ~170 px of the screen.
+  buttons with the fade take ~170 px of the screen; the pinned header takes another 52 (+ 16 fade).
 
 ## Approved implementation (customer, 2026-10-17 — do not change without asking)
 Full list with reasons: `DECISIONS.md` section E. Where the code differs from a mockup, it is on purpose.
 - **Safe areas.** Mockup 62 on top / 34 at the bottom = `env(safe-area-inset-*)` (`viewport-fit=cover`); never add 34 by
   hand — in a browser the toolbar already covers the home indicator. Top of every screen and of the menu:
-  `calc(env(safe-area-inset-top) + 8px)`. `.app` bottom: safe area only; the bottom groups add their own 16.
+  `calc(env(safe-area-inset-top) + 8px)` — on screens it is the pinned `.header`'s padding-top (white), so a stuck
+  header clears the status bar; `.app` has no top padding. `.app` bottom: safe area only; the bottom groups add their own 16.
 - **Bottom groups.** Both use `padding-bottom: calc(16px + env(safe-area-inset-bottom))` and
   `margin-bottom: calc(-1 * env(safe-area-inset-bottom))` (the screen's safe area moves inside the group), so they sit
   16 above the safe area (Home too — general rule, not the 0 drawn in the Home frame).
@@ -257,7 +260,9 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
   padding-top 8, 44 px skip link). In the clarifying card «or» gets `padding-block: 4px` inside the 8 px card stack → 12 / 12.
 - **Menu line** under «Vote Match»: Tint 10 % (`--color-accent-soft`), as in the Menu frame.
 - **Card mode (see «Breakpoints»):** page background Brand / Tint 10 %, the 480 px column is a white card (radius 32,
-  soft shadow, margins 16–32); the menu opens inside the card. No Figma frame — customer chose this variant (C) from
+  soft shadow, margins 16–32); the menu opens inside the card. The card's top is
+  `max(gap, (100dvh − 812) / 2)` on every screen (not flex-centred: a long screen would start higher and the header jump);
+  `overflow: clip` keeps the pinned header's corners inside the radius (never `hidden` — it breaks sticky). No Figma frame — customer chose this variant (C) from
   three rendered options. Never scale the card down to fit (rejected: it defeats browser zoom). Recipes and saved
   alternatives: `design-variants/`.
 - **Home on narrow phones:** the hero picture is 150 px (Figma) from ~390 px wide; narrower, it shrinks

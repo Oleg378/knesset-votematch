@@ -44,9 +44,10 @@ button {
   min-height: 100dvh;
   /* Figma frames: status bar (62) on top, «Home Indicator» (34) at the bottom — these are the safe areas
      (viewport-fit=cover). In a browser its toolbars cover them and the insets are 0, so nothing is added twice.
-     Top: safe area + 8 (Figma «Layout & Spacing», customer 2026-10-17). Bottom: the bottom bars add their own 16. */
-  padding: calc(env(safe-area-inset-top) + var(--space-2)) calc(var(--gutter) + env(safe-area-inset-right))
-    env(safe-area-inset-bottom) calc(var(--gutter) + env(safe-area-inset-left));
+     Top: safe area + 8 (Figma «Layout & Spacing», customer 2026-10-17) — inside the pinned .header. Bottom: the bottom
+     bars add their own 16. */
+  padding: 0 calc(var(--gutter) + env(safe-area-inset-right)) env(safe-area-inset-bottom)
+    calc(var(--gutter) + env(safe-area-inset-left));
   display: flex;
   flex-direction: column;
   gap: var(--space-4);
@@ -67,15 +68,20 @@ button {
     min-height: 100dvh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
   }
 
   .app {
     min-height: min(var(--desktop-card-height), calc(100dvh - 2 * var(--desktop-gap)));
-    margin-block: var(--desktop-gap);
+    /* The top is where a card of the Figma height sits when centred, on every screen: a long one (results, methodology)
+       grows downwards instead of starting higher, so the header never jumps (customer 2026-10-18). */
+    margin-top: max(var(--desktop-gap), calc((100dvh - var(--desktop-card-height)) / 2));
+    margin-bottom: var(--desktop-gap);
     background: var(--color-bg);
     border-radius: var(--radius-desktop);
     box-shadow: var(--shadow-desktop);
+    /* The pinned header's square corners stay inside the rounded card. clip, not hidden: hidden would make the card a
+       scroll container and the header and bottom bar would stop sticking to the window. */
+    overflow: clip;
   }
 }
 
@@ -320,14 +326,32 @@ button {
   box-shadow: inset 0 0 0 var(--border-width-strong) var(--color-accent);
 }
 
-/* Header (Figma «Frame 4»): menu button, progress track, counter */
+/* Header (Figma «Frame 4»): menu button, progress track, counter. Pinned to the top (customer 2026-10-18): the menu
+   and the progress stay in place on every screen and while longer content scrolls under it. The screen's top safe
+   area + 8 is inside it, so a stuck header still clears the status bar; the fade below softens the edge. */
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-sizing: content-box;
+  padding-top: calc(env(safe-area-inset-top) + var(--space-2));
+  background: var(--color-bg);
   display: flex;
   align-items: center;
   gap: var(--space-3);
   min-height: var(--tap-min);
   /* Figma: the 24 px icon lines up with the text column, its 44 px tap area hangs out to the left. */
   margin-inline-start: calc((24px - var(--tap-min)) / 2);
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  inset-inline: 0;
+  top: 100%;
+  height: var(--header-fade);
+  background: linear-gradient(var(--color-bg), transparent);
+  pointer-events: none;
 }
 
 .icon-btn {
