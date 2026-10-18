@@ -3,7 +3,8 @@
 Over evaluated lists (status ok) whose position on the direction rests on >= 3 ex-MKs:
   coverage   — at least 8 such lists;
   spread     — population SD of their positions P >= 0.25 ([У] 2026-10-17, new formula P = A + 0.25 V; before: 0.3 on the old scale);
-  volume     — sum of sum_nA over them >= 30 (MK × bill authorship pairs, not distinct bills);
+  volume     — sum of sum_nA over them >= MIN_NA (25 since 2026-10-18 [У]; MK × bill authorship pairs, not distinct bills —
+               to be replaced by distinct bills after the sensitivity report, customer decision Р5 2026-10-18);
   gov axis   — |r| between P and the list's share of votes with the government in K25 >= 0.8: shown, not a drop and no cap
                ([У] 2026-10-18; the cap of 5 from 2026-10-16 is lifted: with the core → clarifying flow the balance is kept in the
                core instead, quiz_flow.FLOW core_gov_share).

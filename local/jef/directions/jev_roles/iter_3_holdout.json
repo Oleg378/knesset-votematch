@@ -1,0 +1,2260 @@
+{
+ "iteration": "3",
+ "holdout": true,
+ "metrics": {
+  "bills": 20,
+  "main_selected": 30,
+  "main_correct": 23,
+  "gold_main": 33,
+  "gold_main_found": 23,
+  "bills_with_correct_main": 19,
+  "secondary_selected": 89,
+  "secondary_by_gold_role": {
+   "secondary": 27,
+   "primary": 8,
+   "borderline": 15,
+   "none": 24,
+   "tertiary": 15
+  },
+  "gold_secondary": 44,
+  "gold_secondary_found": 27,
+  "main_precision": 0.77,
+  "main_recall": 0.7,
+  "share_bills_with_correct_main": 0.95,
+  "secondary_recall": 0.61,
+  "secondary_not_applicable_share": 0.27,
+  "tokens": 0,
+  "usd": 0,
+  "recomputed_from": "2"
+ },
+ "rows": [
+  {
+   "bill_id": "2166714",
+   "test": "jev_test3",
+   "main": [
+    "27"
+   ],
+   "sec": [
+    "35",
+    "95",
+    "1",
+    "358",
+    "312"
+   ],
+   "detail": {
+    "27": {
+     "p_choice": 0.76
+    },
+    "1": {
+     "p_choice": 0.14
+    },
+    "4": {
+     "p_choice": 0.07
+    },
+    "35": {
+     "p_choice": 0.02
+    },
+    "358": {
+     "p_choice": 0.01
+    },
+    "95": {
+     "p_choice": 0.0
+    },
+    "312": {
+     "p_choice": 0.0
+    },
+    "317": {
+     "p_choice": 0.0
+    },
+    "40": {
+     "p_choice": 0.0
+    },
+    "345": {
+     "p_choice": 0.0
+    },
+    "227": {
+     "p_choice": 0.0
+    },
+    "375": {
+     "p_choice": 0.0
+    },
+    "353": {
+     "p_choice": 0.0
+    },
+    "37": {
+     "p_choice": 0.0
+    },
+    "2": {
+     "p_choice": 0.0
+    },
+    "130": {
+     "p_choice": 0.0
+    },
+    "277": {
+     "p_choice": 0.0
+    },
+    "55": {
+     "p_choice": 0.0
+    },
+    "36": {
+     "p_choice": 0.0
+    },
+    "242": {
+     "p_choice": 0.0
+    },
+    "296": {
+     "p_choice": 0.0
+    },
+    "352": {
+     "p_choice": 0.0
+    }
+   },
+   "gold": {
+    "1": "primary",
+    "35": "secondary",
+    "27": "primary",
+    "95": "secondary",
+    "358": "secondary",
+    "312": "borderline",
+    "317": "borderline",
+    "40": "none",
+    "345": "none",
+    "227": "none",
+    "375": "tertiary",
+    "353": "none",
+    "37": "none",
+    "4": "secondary",
+    "2": "none",
+    "130": "borderline",
+    "277": "none",
+    "55": "none",
+    "36": "none",
+    "242": "none",
+    "296": "none",
+    "352": "none"
+   }
+  },
+  {
+   "bill_id": "2163935",
+   "test": "jev_test3",
+   "main": [
+    "290"
+   ],
+   "sec": [
+    "200",
+    "197",
+    "288",
+    "95",
+    "312"
+   ],
+   "detail": {
+    "290": {
+     "p_choice": 0.76
+    },
+    "288": {
+     "p_choice": 0.17
+    },
+    "200": {
+     "p_choice": 0.07
+    },
+    "197": {
+     "p_choice": 0.0
+    },
+    "95": {
+     "p_choice": 0.0
+    },
+    "55": {
+     "p_choice": 0.0
+    },
+    "312": {
+     "p_choice": 0.0
+    },
+    "344": {
+     "p_choice": 0.0
+    },
+    "60": {
+     "p_choice": 0.0
+    },
+    "196": {
+     "p_choice": 0.0
+    },
+    "296": {
+     "p_choice": 0.0
+    },
+    "317": {
+     "p_choice": 0.0
+    },
+    "260": {
+     "p_choice": 0.0
+    },
+    "191": {
+     "p_choice": 0.0
+    },
+    "44": {
+     "p_choice": 0.0
+    },
+    "151": {
+     "p_choice": 0.0
+    },
+    "107": {
+     "p_choice": 0.0
+    },
+    "377": {
+     "p_choice": 0.0
+    },
+    "345": {
+     "p_choice": 0.0
+    }
+   },
+   "gold": {
+    "200": "primary",
+    "197": "secondary",
+    "290": "primary",
+    "95": "none",
+    "55": "borderline",
+    "288": "secondary",
+    "312": "none",
+    "344": "none",
+    "60": "tertiary",
+    "196": "none",
+    "296": "none",
+    "317": "borderline",
+    "260": "none",
+    "191": "none",
+    "44": "none",
+    "151": "none",
+    "107": "none",
+    "377": "none",
+    "345": "none"
+   }
+  },
+  {
+   "bill_id": "2214664",
+   "test": "jev_test3",
+   "main": [
+    "1",
+    "277"
+   ],
+   "sec": [
+    "208",
+    "95",
+    "2",
+    "202",
+    "312"
+   ],
+   "detail": {
+    "1": {
+     "p_choice": 0.59
+    },
+    "277": {
+     "p_choice": 0.37
+    },
+    "208": {
+     "p_choice": 0.03
+    },
+    "202": {
+     "p_choice": 0.01
+    },
+    "95": {
+     "p_choice": 0.0
+    },
+    "35": {
+     "p_choice": 0.0
+    },
+    "2": {
+     "p_choice": 0.0
+    },
+    "312": {
+     "p_choice": 0.0
+    },
+    "278": {
+     "p_choice": 0.0
+    },
+    "353": {
+     "p_choice": 0.0
+    },
+    "296": {
+     "p_choice": 0.0
+    },
+    "370": {
+     "p_choice": 0.0
+    },
+    "375": {
+     "p_choice": 0.0
+    },
+    "40": {
+     "p_choice": 0.0
+    },
+    "149": {
+     "p_choice": 0.0
+    },
+    "317": {
+     "p_choice": 0.0
+    },
+    "37": {
+     "p_choice": 0.0
+    },
+    "11": {
+     "p_choice": 0.0
+    },
+    "197": {
+     "p_choice": 0.0
+    },
+    "377": {
+     "p_choice": 0.0
+    },
+    "17": {
+     "p_choice": 0.0
+    },
+    "211": {
+     "p_choice": 0.0
+    },
+    "345": {
+     "p_choice": 0.0
+    },
+    "12": {
+     "p_choice": 0.0
+    },
+    "36": {
+     "p_choice": 0.0
+    },
+    "160": {
+     "p_choice": 0.0
+    }
+   },
+   "gold": {
+    "1": "primary",
+    "208": "secondary",
+    "95": "none",
+    "35": "tertiary",
+    "2": "none",
+    "202": "secondary",
+    "312": "none",
+    "277": "primary",
+    "278": "tertiary",
+    "353": "none",
+    "296": "none",
+    "370": "none",
+    "375": "none",
+    "40": "none",
+    "149": "none",
+    "317": "none",
+    "37": "none",
+    "11": "none",
+    "197": "borderline",
+    "377": "none",
+    "17": "none",
+    "211": "borderline",
+    "345": "none",
+    "12": "none",
+    "36": "none",
+    "160": "none"
+   }
+  },
+  {
+   "bill_id": "2234635",
+   "test": "jev_test3",
+   "main": [
+    "16",
+    "251"
+   ],
+   "sec": [
+    "99",
+    "285",
+    "283",
+    "353",
+    "312"
+   ],
+   "detail": {
+    "16": {
+     "p_choice": 0.43
+    },
+    "251": {
+     "p_choice": 0.2
+    },
+    "283": {
+     "p_choice": 0.14
+    },
+    "285": {
+     "p_choice": 0.1
+    },
+    "99": {
+     "p_choice": 0.05
+    },
+    "2": {
+     "p_choice": 0.03
+    },
+    "265": {
+     "p_choice": 0.03
+    },
+    "160": {
+     "p_choice": 0.01
+    },
+    "345": {
+     "p_choice": 0.01
+    },
+    "312": {
+     "p_choice": 0.0
+    },
+    "296": {
+     "p_choice": 0.0
+    },
+    "355": {
+     "p_choice": 0.0
+    },
+    "35": {
+     "p_choice": 0.0
+    },
+    "279": {
+     "p_choice": 0.0
+    },
+    "353": {
+     "p_choice": 0.0
+    },
+    "149": {
+     "p_choice": 0.0
+    },
+    "311": {
+     "p_choice": 0.0
+    },
+    "344": {
+     "p_choice": 0.0
+    },
+    "366": {
+     "p_choice": 0.0
+    },
+    "97": {
+     "p_choice": 0.0
+    },
+    "95": {
+     "p_choice": 0.0
+    },
+    "197": {
+     "p_choice": 0.0
+    },
+    "280": {
+     "p_choice": 0.0
+    },
+    "40": {
+     "p_choice": 0.0
+    },
+    "317": {
+     "p_choice": 0.0
+    },
+    "60": {
+     "p_choice": 0.0
+    },
+    "358": {
+     "p_choice": 0.0
+    }
+   },
+   "gold": {
+    "99": "primary",
+    "285": "none",
+    "2": "borderline",
+    "251": "secondary",
+    "312": "none",
+    "160": "borderline",
+    "283": "none",
+    "296": "none",
+    "355": "none",
+    "35": "borderline",
+    "279": "none",
+    "345": "none",
+    "353": "none",
+    "149": "none",
+    "265": "borderline",
+    "311": "borderline",
+    "344": "none",
+    "366": "none",
+    "97": "none",
+    "95": "none",
+    "197": "none",
+    "16": "none",
+    "280": "none",
+    "40": "none",
+    "317": "none",
+    "60": "none",
+    "358": "none"
+   }
+  },
+  {
+   "bill_id": "2220367",
+   "test": "jev_test3",
+   "main": [
+    "311"
+   ],
+   "sec": [
+    "312",
+    "95",
+    "2",
+    "317",
+    "277"
+   ],
+   "detail": {
+    "311": {
+     "p_choice": 0.99
+    },
+    "4": {
+     "p_choice": 0.01
+    },
+    "1": {
+     "p_choice": 0.0
+    },
+    "312": {
+     "p_choice": 0.0
+    },
+    "2": {
+     "p_choice": 0.0
+    },
+    "3": {
+     "p_choice": 0.0
+    },
+    "95": {
+     "p_choice": 0.0
+    },
+    "317": {
+     "p_choice": 0.0
+    },
+    "35": {
+     "p_choice": 0.0
+    },
+    "187": {
+     "p_choice": 0.0
+    },
+    "370": {
+     "p_choice": 0.0
+    },
+    "40": {
+     "p_choice": 0.0
+    },
+    "345": {
+     "p_choice": 0.0
+    },
+    "9": {
+     "p_choice": 0.0
+    },
+    "277": {
+     "p_choice": 0.0
+    },
+    "377": {
+     "p_choice": 0.0
+    },
+    "197": {
+     "p_choice": 0.0
+    },
+    "375": {
+     "p_choice": 0.0
+    },
+    "55": {
+     "p_choice": 0.0
+    },
+    "69": {
+     "p_choice": 0.0
+    },
+    "41": {
+     "p_choice": 0.0
+    },
+    "296": {
+     "p_choice": 0.0
+    },
+    "37": {
+     "p_choice": 0.0
+    },
+    "353": {
+     "p_choice": 0.0
+    },
+    "94": {
+     "p_choice": 0.0
+    },
+    "149": {
+     "p_choice": 0.0
+    },
+    "206": {
+     "p_choice": 0.0
+    },
+    "280": {
+     "p_choice": 0.0
+    }
+   },
+   "gold": {
+    "1": "secondary",
+    "311": "primary",
+    "312": "borderline",
+    "2": "tertiary",
+    "3": "primary",
+    "95": "none",
+    "317": "tertiary",
+    "4": "primary",
+    "35": "tertiary",
+    "187": "secondary",
+    "370": "borderline",
+    "40": "tertiary",
+    "345": "none",
+    "9": "tertiary",
+    "277": "secondary",
+    "377": "none",
+    "197": "none",
+    "375": "borderline",
+    "55": "none",
+    "69": "borderline",
+    "41": "none",
+    "296": "none",
+    "37": "none",
+    "353": "none",
+    "94": "borderline",
+    "149": "none",
+    "206": "tertiary",
+    "280": "none"
+   }
+  },
+  {
+   "bill_id": "2200012",
+   "test": "jev_test3",
+   "main": [
+    "208"
+   ],
+   "sec": [
+    "353",
+    "1",
+    "149",
+    "17"
+   ],
+   "detail": {
+    "208": {
+     "p_choice": 0.93
+    },
+    "1": {
+     "p_choice": 0.04
+    },
+    "211": {
+     "p_choice": 0.03
+    },
+    "353": {
+     "p_choice": 0.0
+    },
+    "17": {
+     "p_choice": 0.0
+    },
+    "149": {
+     "p_choice": 0.0
+    },
+    "227": {
+     "p_choice": 0.0
+    },
+    "95": {
+     "p_choice": 0.0
+    },
+    "358": {
+     "p_choice": 0.0
+    },
+    "230": {
+     "p_choice": 0.0
+    },
+    "296": {
+     "p_choice": 0.0
+    },
+    "277": {
+     "p_choice": 0.0
+    },
+    "365": {
+     "p_choice": 0.0
+    },
+    "40": {
+     "p_choice": 0.0
+    },
+    "278": {
+     "p_choice": 0.0
+    },
+    "352": {
+     "p_choice": 0.0
+    },
+    "312": {
+     "p_choice": 0.0
+    }
+   },
+   "gold": {
+    "208": "primary",
+    "353": "secondary",
+    "1": "none",
+    "17": "borderline",
+    "149": "borderline",
+    "227": "none",
+    "211": "secondary",
+    "95": "none",
+    "358": "none",
+    "230": "none",
+    "296": "none",
+    "277": "none",
+    "365": "none",
+    "40": "none",
+    "278": "borderline",
+    "352": "borderline",
+    "312": "none"
+   }
+  },
+  {
+   "bill_id": "2198344",
+   "test": "jev_test3",
+   "main": [
+    "97"
+   ],
+   "sec": [
+    "236",
+    "19",
+    "202",
+    "247",
+    "17"
+   ],
+   "detail": {
+    "97": {
+     "p_choice": 0.99
+    },
+    "17": {
+     "p_choice": 0.01
+    },
+    "19": {
+     "p_choice": 0.0
+    },
+    "236": {
+     "p_choice": 0.0
+    },
+    "247": {
+     "p_choice": 0.0
+    },
+    "202": {
+     "p_choice": 0.0
+    },
+    "94": {
+     "p_choice": 0.0
+    },
+    "283": {
+     "p_choice": 0.0
+    },
+    "20": {
+     "p_choice": 0.0
+    },
+    "95": {
+     "p_choice": 0.0
+    },
+    "311": {
+     "p_choice": 0.0
+    },
+    "296": {
+     "p_choice": 0.0
+    },
+    "349": {
+     "p_choice": 0.0
+    },
+    "211": {
+     "p_choice": 0.0
+    },
+    "353": {
+     "p_choice": 0.0
+    },
+    "197": {
+     "p_choice": 0.0
+    },
+    "149": {
+     "p_choice": 0.0
+    },
+    "358": {
+     "p_choice": 0.0
+    },
+    "285": {
+     "p_choice": 0.0
+    },
+    "191": {
+     "p_choice": 0.0
+    },
+    "64": {
+     "p_choice": 0.0
+    },
+    "146": {
+     "p_choice": 0.0
+    },
+    "40": {
+     "p_choice": 0.0
+    },
+    "365": {
+     "p_choice": 0.0
+    },
+    "208": {
+     "p_choice": 0.0
+    },
+    "55": {
+     "p_choice": 0.0
+    }
+   },
+   "gold": {
+    "17": "secondary",
+    "97": "primary",
+    "19": "secondary",
+    "236": "none",
+    "247": "secondary",
+    "202": "secondary",
+    "94": "secondary",
+    "283": "borderline",
+    "20": "tertiary",
+    "95": "none",
+    "311": "borderline",
+    "296": "none",
+    "349": "tertiary",
+    "211": "tertiary",
+    "353": "none",
+    "197": "borderline",
+    "149": "none",
+    "358": "borderline",
+    "285": "none",
+    "191": "none",
+    "64": "borderline",
+    "146": "borderline",
+    "40": "none",
+    "365": "none",
+    "208": "none",
+    "55": "none"
+   }
+  },
+  {
+   "bill_id": "2199912",
+   "test": "jev_test3",
+   "main": [
+    "197",
+    "202"
+   ],
+   "sec": [
+    "151",
+    "17",
+    "95",
+    "19",
+    "366"
+   ],
+   "detail": {
+    "197": {
+     "p_choice": 0.59
+    },
+    "202": {
+     "p_choice": 0.26
+    },
+    "151": {
+     "p_choice": 0.13
+    },
+    "17": {
+     "p_choice": 0.02
+    },
+    "19": {
+     "p_choice": 0.0
+    },
+    "95": {
+     "p_choice": 0.0
+    },
+    "312": {
+     "p_choice": 0.0
+    },
+    "260": {
+     "p_choice": 0.0
+    },
+    "296": {
+     "p_choice": 0.0
+    },
+    "366": {
+     "p_choice": 0.0
+    },
+    "15": {
+     "p_choice": 0.0
+    },
+    "149": {
+     "p_choice": 0.0
+    },
+    "12": {
+     "p_choice": 0.0
+    },
+    "161": {
+     "p_choice": 0.0
+    },
+    "204": {
+     "p_choice": 0.0
+    },
+    "349": {
+     "p_choice": 0.0
+    },
+    "20": {
+     "p_choice": 0.0
+    },
+    "162": {
+     "p_choice": 0.0
+    },
+    "55": {
+     "p_choice": 0.0
+    },
+    "64": {
+     "p_choice": 0.0
+    },
+    "236": {
+     "p_choice": 0.0
+    },
+    "345": {
+     "p_choice": 0.0
+    },
+    "35": {
+     "p_choice": 0.0
+    },
+    "88": {
+     "p_choice": 0.0
+    },
+    "375": {
+     "p_choice": 0.0
+    },
+    "358": {
+     "p_choice": 0.0
+    },
+    "27": {
+     "p_choice": 0.0
+    },
+    "352": {
+     "p_choice": 0.0
+    },
+    "107": {
+     "p_choice": 0.0
+    },
+    "96": {
+     "p_choice": 0.0
+    },
+    "134": {
+     "p_choice": 0.0
+    },
+    "163": {
+     "p_choice": 0.0
+    },
+    "1": {
+     "p_choice": 0.0
+    },
+    "353": {
+     "p_choice": 0.0
+    },
+    "44": {
+     "p_choice": 0.0
+    },
+    "301": {
+     "p_choice": 0.0
+    },
+    "154": {
+     "p_choice": 0.0
+    },
+    "317": {
+     "p_choice": 0.0
+    },
+    "370": {
+     "p_choice": 0.0
+    },
+    "300": {
+     "p_choice": 0.0
+    },
+    "69": {
+     "p_choice": 0.0
+    },
+    "66": {
+     "p_choice": 0.0
+    },
+    "108": {
+     "p_choice": 0.0
+    }
+   },
+   "gold": {
+    "197": "primary",
+    "202": "primary",
+    "17": "secondary",
+    "19": "tertiary",
+    "95": "none",
+    "312": "borderline",
+    "260": "secondary",
+    "296": "borderline",
+    "151": "primary",
+    "366": "borderline",
+    "15": "borderline",
+    "149": "borderline",
+    "12": "none",
+    "161": "borderline",
+    "204": "tertiary",
+    "349": "none",
+    "20": "tertiary",
+    "162": "borderline",
+    "55": "none",
+    "64": "borderline",
+    "236": "none",
+    "345": "none",
+    "35": "borderline",
+    "88": "none",
+    "375": "borderline",
+    "358": "none",
+    "27": "none",
+    "352": "none",
+    "107": "borderline",
+    "96": "none",
+    "134": "none",
+    "163": "borderline",
+    "1": "none",
+    "353": "none",
+    "44": "none",
+    "301": "borderline",
+    "154": "none",
+    "317": "none",
+    "370": "none",
+    "300": "none",
+    "69": "none",
+    "66": "none",
+    "108": "none"
+   }
+  },
+  {
+   "bill_id": "2164185",
+   "test": "jev_test3",
+   "main": [
+    "227",
+    "226"
+   ],
+   "sec": [
+    "149",
+    "130",
+    "345",
+    "55",
+    "353"
+   ],
+   "detail": {
+    "227": {
+     "p_choice": 0.42
+    },
+    "226": {
+     "p_choice": 0.32
+    },
+    "149": {
+     "p_choice": 0.14
+    },
+    "130": {
+     "p_choice": 0.03
+    },
+    "55": {
+     "p_choice": 0.03
+    },
+    "77": {
+     "p_choice": 0.03
+    },
+    "345": {
+     "p_choice": 0.01
+    },
+    "17": {
+     "p_choice": 0.01
+    },
+    "88": {
+     "p_choice": 0.01
+    },
+    "40": {
+     "p_choice": 0.0
+    },
+    "353": {
+     "p_choice": 0.0
+    },
+    "296": {
+     "p_choice": 0.0
+    },
+    "1": {
+     "p_choice": 0.0
+    },
+    "277": {
+     "p_choice": 0.0
+    },
+    "231": {
+     "p_choice": 0.0
+    },
+    "312": {
+     "p_choice": 0.0
+    },
+    "95": {
+     "p_choice": 0.0
+    },
+    "230": {
+     "p_choice": 0.0
+    },
+    "99": {
+     "p_choice": 0.0
+    },
+    "160": {
+     "p_choice": 0.0
+    },
+    "278": {
+     "p_choice": 0.0
+    },
+    "358": {
+     "p_choice": 0.0
+    },
+    "247": {
+     "p_choice": 0.0
+    }
+   },
+   "gold": {
+    "149": "secondary",
+    "227": "primary",
+    "226": "primary",
+    "345": "borderline",
+    "130": "tertiary",
+    "55": "tertiary",
+    "40": "none",
+    "353": "none",
+    "296": "none",
+    "1": "none",
+    "277": "none",
+    "231": "none",
+    "312": "none",
+    "77": "borderline",
+    "17": "none",
+    "88": "borderline",
+    "95": "none",
+    "230": "none",
+    "99": "none",
+    "160": "none",
+    "278": "none",
+    "358": "none",
+    "247": "none"
+   }
+  },
+  {
+   "bill_id": "2195810",
+   "test": "jev_test3",
+   "main": [
+    "30",
+    "147"
+   ],
+   "sec": [
+    "345",
+    "312",
+    "41",
+    "43"
+   ],
+   "detail": {
+    "30": {
+     "p_choice": 0.49
+    },
+    "147": {
+     "p_choice": 0.22
+    },
+    "41": {
+     "p_choice": 0.08
+    },
+    "43": {
+     "p_choice": 0.08
+    },
+    "2": {
+     "p_choice": 0.04
+    },
+    "312": {
+     "p_choice": 0.03
+    },
+    "345": {
+     "p_choice": 0.02
+    },
+    "370": {
+     "p_choice": 0.02
+    },
+    "244": {
+     "p_choice": 0.01
+    },
+    "246": {
+     "p_choice": 0.01
+    },
+    "35": {
+     "p_choice": 0.0
+    },
+    "344": {
+     "p_choice": 0.0
+    },
+    "55": {
+     "p_choice": 0.0
+    },
+    "95": {
+     "p_choice": 0.0
+    },
+    "146": {
+     "p_choice": 0.0
+    },
+    "279": {
+     "p_choice": 0.0
+    },
+    "44": {
+     "p_choice": 0.0
+    },
+    "149": {
+     "p_choice": 0.0
+    },
+    "280": {
+     "p_choice": 0.0
+    },
+    "20": {
+     "p_choice": 0.0
+    },
+    "283": {
+     "p_choice": 0.0
+    }
+   },
+   "gold": {
+    "41": "secondary",
+    "312": "tertiary",
+    "147": "tertiary",
+    "345": "secondary",
+    "43": "secondary",
+    "244": "none",
+    "35": "tertiary",
+    "344": "none",
+    "55": "none",
+    "95": "none",
+    "370": "borderline",
+    "246": "none",
+    "2": "none",
+    "146": "none",
+    "279": "none",
+    "30": "primary",
+    "44": "none",
+    "149": "none",
+    "280": "none",
+    "20": "none",
+    "283": "borderline"
+   }
+  },
+  {
+   "bill_id": "2192648",
+   "test": "jev_test4",
+   "main": [
+    "8"
+   ],
+   "sec": [
+    "227"
+   ],
+   "detail": {
+    "8": {
+     "p_choice": 0.88
+    },
+    "227": {
+     "p_choice": 0.07
+    },
+    "55": {
+     "p_choice": 0.05
+    },
+    "353": {
+     "p_choice": 0.0
+    },
+    "226": {
+     "p_choice": 0.0
+    },
+    "17": {
+     "p_choice": 0.0
+    },
+    "230": {
+     "p_choice": 0.0
+    },
+    "96": {
+     "p_choice": 0.0
+    },
+    "358": {
+     "p_choice": 0.0
+    },
+    "20": {
+     "p_choice": 0.0
+    },
+    "296": {
+     "p_choice": 0.0
+    },
+    "352": {
+     "p_choice": 0.0
+    },
+    "40": {
+     "p_choice": 0.0
+    },
+    "19": {
+     "p_choice": 0.0
+    },
+    "346": {
+     "p_choice": 0.0
+    }
+   },
+   "gold": {
+    "227": "secondary",
+    "8": "primary",
+    "55": "tertiary",
+    "353": "borderline",
+    "226": "tertiary",
+    "17": "none",
+    "230": "none",
+    "96": "none",
+    "358": "none",
+    "20": "none",
+    "296": "none",
+    "352": "none",
+    "40": "none",
+    "19": "none",
+    "346": "none"
+   }
+  },
+  {
+   "bill_id": "2168881",
+   "test": "jev_test4",
+   "main": [
+    "185",
+    "55"
+   ],
+   "sec": [
+    "359",
+    "200",
+    "345",
+    "149",
+    "132"
+   ],
+   "detail": {
+    "185": {
+     "p_choice": 0.64
+    },
+    "55": {
+     "p_choice": 0.22
+    },
+    "359": {
+     "p_choice": 0.04
+    },
+    "200": {
+     "p_choice": 0.03
+    },
+    "132": {
+     "p_choice": 0.02
+    },
+    "186": {
+     "p_choice": 0.02
+    },
+    "264": {
+     "p_choice": 0.02
+    },
+    "197": {
+     "p_choice": 0.01
+    },
+    "149": {
+     "p_choice": 0.0
+    },
+    "345": {
+     "p_choice": 0.0
+    },
+    "40": {
+     "p_choice": 0.0
+    },
+    "187": {
+     "p_choice": 0.0
+    },
+    "162": {
+     "p_choice": 0.0
+    },
+    "46": {
+     "p_choice": 0.0
+    },
+    "161": {
+     "p_choice": 0.0
+    },
+    "95": {
+     "p_choice": 0.0
+    },
+    "244": {
+     "p_choice": 0.0
+    },
+    "296": {
+     "p_choice": 0.0
+    },
+    "88": {
+     "p_choice": 0.0
+    },
+    "189": {
+     "p_choice": 0.0
+    },
+    "312": {
+     "p_choice": 0.0
+    },
+    "346": {
+     "p_choice": 0.0
+    },
+    "280": {
+     "p_choice": 0.0
+    },
+    "35": {
+     "p_choice": 0.0
+    },
+    "44": {
+     "p_choice": 0.0
+    },
+    "80": {
+     "p_choice": 0.0
+    },
+    "317": {
+     "p_choice": 0.0
+    }
+   },
+   "gold": {
+    "185": "primary",
+    "149": "tertiary",
+    "359": "secondary",
+    "55": "tertiary",
+    "345": "none",
+    "200": "none",
+    "40": "none",
+    "187": "tertiary",
+    "132": "none",
+    "162": "none",
+    "46": "none",
+    "161": "none",
+    "197": "none",
+    "186": "secondary",
+    "264": "none",
+    "95": "none",
+    "244": "none",
+    "296": "none",
+    "88": "none",
+    "189": "tertiary",
+    "312": "none",
+    "346": "none",
+    "280": "none",
+    "35": "none",
+    "44": "none",
+    "80": "none",
+    "317": "none"
+   }
+  },
+  {
+   "bill_id": "2218798",
+   "test": "jev_test4",
+   "main": [
+    "114"
+   ],
+   "sec": [
+    "35",
+    "95",
+    "115",
+    "277",
+    "1"
+   ],
+   "detail": {
+    "114": {
+     "p_choice": 0.94
+    },
+    "1": {
+     "p_choice": 0.03
+    },
+    "35": {
+     "p_choice": 0.02
+    },
+    "124": {
+     "p_choice": 0.01
+    },
+    "95": {
+     "p_choice": 0.0
+    },
+    "312": {
+     "p_choice": 0.0
+    },
+    "375": {
+     "p_choice": 0.0
+    },
+    "132": {
+     "p_choice": 0.0
+    },
+    "37": {
+     "p_choice": 0.0
+    },
+    "115": {
+     "p_choice": 0.0
+    },
+    "317": {
+     "p_choice": 0.0
+    },
+    "277": {
+     "p_choice": 0.0
+    },
+    "40": {
+     "p_choice": 0.0
+    },
+    "55": {
+     "p_choice": 0.0
+    },
+    "122": {
+     "p_choice": 0.0
+    }
+   },
+   "gold": {
+    "35": "secondary",
+    "114": "primary",
+    "1": "none",
+    "95": "borderline",
+    "312": "none",
+    "124": "none",
+    "375": "tertiary",
+    "132": "none",
+    "37": "none",
+    "115": "none",
+    "317": "none",
+    "277": "none",
+    "40": "none",
+    "55": "none",
+    "122": "none",
+    "116": "tertiary"
+   }
+  },
+  {
+   "bill_id": "2218092",
+   "test": "jev_test4",
+   "main": [
+    "92"
+   ],
+   "sec": [
+    "130",
+    "312",
+    "291",
+    "55",
+    "149"
+   ],
+   "detail": {
+    "92": {
+     "p_choice": 0.9
+    },
+    "130": {
+     "p_choice": 0.05
+    },
+    "77": {
+     "p_choice": 0.03
+    },
+    "55": {
+     "p_choice": 0.02
+    },
+    "149": {
+     "p_choice": 0.0
+    },
+    "35": {
+     "p_choice": 0.0
+    },
+    "312": {
+     "p_choice": 0.0
+    },
+    "296": {
+     "p_choice": 0.0
+    },
+    "95": {
+     "p_choice": 0.0
+    },
+    "146": {
+     "p_choice": 0.0
+    },
+    "69": {
+     "p_choice": 0.0
+    },
+    "291": {
+     "p_choice": 0.0
+    },
+    "345": {
+     "p_choice": 0.0
+    },
+    "246": {
+     "p_choice": 0.0
+    },
+    "66": {
+     "p_choice": 0.0
+    },
+    "247": {
+     "p_choice": 0.0
+    },
+    "2": {
+     "p_choice": 0.0
+    },
+    "44": {
+     "p_choice": 0.0
+    },
+    "50": {
+     "p_choice": 0.0
+    },
+    "370": {
+     "p_choice": 0.0
+    },
+    "90": {
+     "p_choice": 0.0
+    }
+   },
+   "gold": {
+    "55": "secondary",
+    "92": "primary",
+    "130": "secondary",
+    "149": "borderline",
+    "35": "none",
+    "312": "none",
+    "296": "borderline",
+    "95": "borderline",
+    "77": "secondary",
+    "146": "none",
+    "69": "none",
+    "291": "none",
+    "345": "none",
+    "246": "none",
+    "66": "tertiary",
+    "247": "none",
+    "2": "none",
+    "44": "none",
+    "50": "none",
+    "370": "none",
+    "90": "none"
+   }
+  },
+  {
+   "bill_id": "2169199",
+   "test": "jev_test4",
+   "main": [
+    "311"
+   ],
+   "sec": [
+    "94",
+    "312",
+    "317",
+    "95",
+    "277"
+   ],
+   "detail": {
+    "311": {
+     "p_choice": 0.85
+    },
+    "94": {
+     "p_choice": 0.15
+    },
+    "1": {
+     "p_choice": 0.0
+    },
+    "312": {
+     "p_choice": 0.0
+    },
+    "35": {
+     "p_choice": 0.0
+    },
+    "95": {
+     "p_choice": 0.0
+    },
+    "2": {
+     "p_choice": 0.0
+    },
+    "317": {
+     "p_choice": 0.0
+    },
+    "345": {
+     "p_choice": 0.0
+    },
+    "370": {
+     "p_choice": 0.0
+    },
+    "202": {
+     "p_choice": 0.0
+    },
+    "296": {
+     "p_choice": 0.0
+    },
+    "375": {
+     "p_choice": 0.0
+    },
+    "277": {
+     "p_choice": 0.0
+    },
+    "377": {
+     "p_choice": 0.0
+    },
+    "197": {
+     "p_choice": 0.0
+    },
+    "69": {
+     "p_choice": 0.0
+    },
+    "238": {
+     "p_choice": 0.0
+    },
+    "55": {
+     "p_choice": 0.0
+    },
+    "97": {
+     "p_choice": 0.0
+    },
+    "41": {
+     "p_choice": 0.0
+    },
+    "149": {
+     "p_choice": 0.0
+    },
+    "9": {
+     "p_choice": 0.0
+    },
+    "40": {
+     "p_choice": 0.0
+    },
+    "353": {
+     "p_choice": 0.0
+    },
+    "279": {
+     "p_choice": 0.0
+    }
+   },
+   "gold": {
+    "94": "primary",
+    "1": "borderline",
+    "311": "primary",
+    "312": "tertiary",
+    "35": "secondary",
+    "95": "none",
+    "2": "tertiary",
+    "317": "borderline",
+    "345": "tertiary",
+    "370": "borderline",
+    "202": "tertiary",
+    "296": "borderline",
+    "375": "tertiary",
+    "277": "secondary",
+    "377": "none",
+    "197": "none",
+    "69": "none",
+    "238": "none",
+    "55": "none",
+    "97": "borderline",
+    "41": "borderline",
+    "149": "none",
+    "9": "borderline",
+    "40": "borderline",
+    "353": "none",
+    "279": "none"
+   }
+  },
+  {
+   "bill_id": "2229396",
+   "test": "jev_test4",
+   "main": [
+    "4",
+    "1"
+   ],
+   "sec": [
+    "35",
+    "95",
+    "2",
+    "312",
+    "317"
+   ],
+   "detail": {
+    "4": {
+     "p_choice": 0.54
+    },
+    "1": {
+     "p_choice": 0.45
+    },
+    "35": {
+     "p_choice": 0.01
+    },
+    "2": {
+     "p_choice": 0.0
+    },
+    "95": {
+     "p_choice": 0.0
+    },
+    "312": {
+     "p_choice": 0.0
+    },
+    "94": {
+     "p_choice": 0.0
+    },
+    "30": {
+     "p_choice": 0.0
+    },
+    "278": {
+     "p_choice": 0.0
+    },
+    "317": {
+     "p_choice": 0.0
+    },
+    "370": {
+     "p_choice": 0.0
+    },
+    "268": {
+     "p_choice": 0.0
+    },
+    "11": {
+     "p_choice": 0.0
+    },
+    "238": {
+     "p_choice": 0.0
+    },
+    "375": {
+     "p_choice": 0.0
+    },
+    "40": {
+     "p_choice": 0.0
+    },
+    "377": {
+     "p_choice": 0.0
+    },
+    "264": {
+     "p_choice": 0.0
+    },
+    "37": {
+     "p_choice": 0.0
+    },
+    "277": {
+     "p_choice": 0.0
+    },
+    "353": {
+     "p_choice": 0.0
+    },
+    "197": {
+     "p_choice": 0.0
+    },
+    "296": {
+     "p_choice": 0.0
+    },
+    "160": {
+     "p_choice": 0.0
+    },
+    "187": {
+     "p_choice": 0.0
+    },
+    "99": {
+     "p_choice": 0.0
+    },
+    "202": {
+     "p_choice": 0.0
+    },
+    "55": {
+     "p_choice": 0.0
+    }
+   },
+   "gold": {
+    "1": "primary",
+    "35": "secondary",
+    "4": "primary",
+    "2": "tertiary",
+    "95": "borderline",
+    "312": "borderline",
+    "94": "borderline",
+    "30": "tertiary",
+    "278": "tertiary",
+    "317": "borderline",
+    "370": "none",
+    "268": "borderline",
+    "11": "tertiary",
+    "238": "none",
+    "375": "borderline",
+    "40": "none",
+    "377": "none",
+    "264": "none",
+    "37": "none",
+    "277": "tertiary",
+    "353": "none",
+    "197": "none",
+    "296": "none",
+    "160": "none",
+    "187": "none",
+    "99": "none",
+    "202": "none",
+    "55": "none"
+   }
+  },
+  {
+   "bill_id": "2207374",
+   "test": "jev_test4",
+   "main": [
+    "132"
+   ],
+   "sec": [],
+   "detail": {
+    "132": {
+     "p_choice": 0.91
+    },
+    "186": {
+     "p_choice": 0.05
+    },
+    "285": {
+     "p_choice": 0.01
+    },
+    "55": {
+     "p_choice": 0.01
+    },
+    "17": {
+     "p_choice": 0.01
+    },
+    "366": {
+     "p_choice": 0.01
+    },
+    "300": {
+     "p_choice": 0.0
+    },
+    "124": {
+     "p_choice": 0.0
+    },
+    "283": {
+     "p_choice": 0.0
+    },
+    "244": {
+     "p_choice": 0.0
+    },
+    "251": {
+     "p_choice": 0.0
+    },
+    "260": {
+     "p_choice": 0.0
+    },
+    "191": {
+     "p_choice": 0.0
+    },
+    "312": {
+     "p_choice": 0.0
+    },
+    "60": {
+     "p_choice": 0.0
+    }
+   },
+   "gold": {
+    "132": "primary",
+    "285": "borderline",
+    "55": "none",
+    "300": "secondary",
+    "186": "none",
+    "124": "none",
+    "283": "borderline",
+    "17": "tertiary",
+    "244": "none",
+    "251": "none",
+    "260": "tertiary",
+    "191": "none",
+    "312": "none",
+    "366": "tertiary",
+    "60": "none"
+   }
+  },
+  {
+   "bill_id": "2229710",
+   "test": "jev_test4",
+   "main": [
+    "25",
+    "55"
+   ],
+   "sec": [
+    "17",
+    "251",
+    "24",
+    "358",
+    "345"
+   ],
+   "detail": {
+    "25": {
+     "p_choice": 0.25
+    },
+    "55": {
+     "p_choice": 0.19
+    },
+    "251": {
+     "p_choice": 0.15
+    },
+    "24": {
+     "p_choice": 0.13
+    },
+    "17": {
+     "p_choice": 0.1
+    },
+    "132": {
+     "p_choice": 0.07
+    },
+    "285": {
+     "p_choice": 0.04
+    },
+    "44": {
+     "p_choice": 0.03
+    },
+    "88": {
+     "p_choice": 0.02
+    },
+    "358": {
+     "p_choice": 0.01
+    },
+    "19": {
+     "p_choice": 0.01
+    },
+    "345": {
+     "p_choice": 0.0
+    },
+    "50": {
+     "p_choice": 0.0
+    },
+    "20": {
+     "p_choice": 0.0
+    },
+    "40": {
+     "p_choice": 0.0
+    },
+    "149": {
+     "p_choice": 0.0
+    },
+    "46": {
+     "p_choice": 0.0
+    },
+    "191": {
+     "p_choice": 0.0
+    },
+    "346": {
+     "p_choice": 0.0
+    },
+    "353": {
+     "p_choice": 0.0
+    },
+    "280": {
+     "p_choice": 0.0
+    },
+    "1": {
+     "p_choice": 0.0
+    },
+    "244": {
+     "p_choice": 0.0
+    }
+   },
+   "gold": {
+    "55": "secondary",
+    "358": "tertiary",
+    "17": "secondary",
+    "345": "borderline",
+    "25": "primary",
+    "251": "tertiary",
+    "24": "primary",
+    "285": "borderline",
+    "50": "borderline",
+    "19": "borderline",
+    "20": "borderline",
+    "132": "borderline",
+    "88": "none",
+    "40": "none",
+    "44": "tertiary",
+    "149": "none",
+    "46": "none",
+    "191": "none",
+    "346": "none",
+    "353": "none",
+    "280": "none",
+    "1": "none",
+    "244": "none"
+   }
+  },
+  {
+   "bill_id": "2212495",
+   "test": "jev_test4",
+   "main": [
+    "274",
+    "4"
+   ],
+   "sec": [
+    "208",
+    "206",
+    "149",
+    "353",
+    "124"
+   ],
+   "detail": {
+    "274": {
+     "p_choice": 0.64
+    },
+    "4": {
+     "p_choice": 0.25
+    },
+    "208": {
+     "p_choice": 0.1
+    },
+    "206": {
+     "p_choice": 0.01
+    },
+    "149": {
+     "p_choice": 0.0
+    },
+    "124": {
+     "p_choice": 0.0
+    },
+    "95": {
+     "p_choice": 0.0
+    },
+    "353": {
+     "p_choice": 0.0
+    },
+    "211": {
+     "p_choice": 0.0
+    },
+    "312": {
+     "p_choice": 0.0
+    },
+    "197": {
+     "p_choice": 0.0
+    },
+    "1": {
+     "p_choice": 0.0
+    },
+    "30": {
+     "p_choice": 0.0
+    },
+    "101": {
+     "p_choice": 0.0
+    },
+    "358": {
+     "p_choice": 0.0
+    },
+    "2": {
+     "p_choice": 0.0
+    },
+    "3": {
+     "p_choice": 0.0
+    },
+    "277": {
+     "p_choice": 0.0
+    }
+   },
+   "gold": {
+    "206": "secondary",
+    "208": "primary",
+    "149": "tertiary",
+    "274": "primary",
+    "124": "none",
+    "95": "none",
+    "353": "borderline",
+    "211": "secondary",
+    "4": "none",
+    "312": "none",
+    "197": "borderline",
+    "1": "none",
+    "30": "borderline",
+    "101": "none",
+    "358": "none",
+    "2": "none",
+    "3": "none",
+    "277": "none",
+    "132": "tertiary"
+   }
+  },
+  {
+   "bill_id": "2222786",
+   "test": "jev_test4",
+   "main": [
+    "90",
+    "311"
+   ],
+   "sec": [
+    "132",
+    "130",
+    "149",
+    "92",
+    "55"
+   ],
+   "detail": {
+    "90": {
+     "p_choice": 0.39
+    },
+    "311": {
+     "p_choice": 0.23
+    },
+    "132": {
+     "p_choice": 0.22
+    },
+    "130": {
+     "p_choice": 0.11
+    },
+    "77": {
+     "p_choice": 0.02
+    },
+    "92": {
+     "p_choice": 0.02
+    },
+    "64": {
+     "p_choice": 0.01
+    },
+    "55": {
+     "p_choice": 0.0
+    },
+    "149": {
+     "p_choice": 0.0
+    },
+    "312": {
+     "p_choice": 0.0
+    },
+    "80": {
+     "p_choice": 0.0
+    },
+    "146": {
+     "p_choice": 0.0
+    },
+    "178": {
+     "p_choice": 0.0
+    },
+    "296": {
+     "p_choice": 0.0
+    },
+    "353": {
+     "p_choice": 0.0
+    },
+    "95": {
+     "p_choice": 0.0
+    },
+    "69": {
+     "p_choice": 0.0
+    },
+    "50": {
+     "p_choice": 0.0
+    },
+    "280": {
+     "p_choice": 0.0
+    },
+    "97": {
+     "p_choice": 0.0
+    },
+    "44": {
+     "p_choice": 0.0
+    },
+    "71": {
+     "p_choice": 0.0
+    },
+    "345": {
+     "p_choice": 0.0
+    },
+    "346": {
+     "p_choice": 0.0
+    },
+    "295": {
+     "p_choice": 0.0
+    },
+    "66": {
+     "p_choice": 0.0
+    },
+    "43": {
+     "p_choice": 0.0
+    }
+   },
+   "gold": {
+    "130": "primary",
+    "55": "borderline",
+    "90": "primary",
+    "132": "tertiary",
+    "64": "secondary",
+    "77": "secondary",
+    "149": "tertiary",
+    "311": "secondary",
+    "92": "tertiary",
+    "312": "none",
+    "80": "tertiary",
+    "146": "none",
+    "178": "secondary",
+    "296": "tertiary",
+    "353": "none",
+    "95": "none",
+    "69": "borderline",
+    "50": "none",
+    "280": "none",
+    "97": "borderline",
+    "44": "tertiary",
+    "71": "none",
+    "345": "none",
+    "346": "none",
+    "295": "none",
+    "66": "borderline",
+    "43": "none"
+   }
+  }
+ ]
+}

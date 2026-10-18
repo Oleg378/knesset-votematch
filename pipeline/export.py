@@ -29,6 +29,14 @@ def num(x):
     """JSON has no NaN: a closeness that cannot be computed is null."""
     return None if x is None or (isinstance(x, float) and math.isnan(x)) else x
 
+def source_commit():
+    """HEAD, with «+dirty» if the inputs differ from it (external audit 2026-10-18, minor 4): uncommitted changes in the code
+    (pipeline/), the data (jef/ except the generated jef/positions/) or manual/ mean the export does not come from that commit."""
+    git = lambda *a: subprocess.run(["git", *a], cwd=ROOT, capture_output=True, text=True).stdout
+    dirty = [l[3:] for l in git("status", "--porcelain").splitlines() if l[3:].startswith(("pipeline/", "jef/", "manual/")) and not l[3:].startswith("jef/positions/")]
+    if dirty: print(f"warning: export built from a working tree with uncommitted inputs: {dirty[:5]}", file=sys.stderr)
+    return git("rev-parse", "--short", "HEAD").strip() + ("+dirty" if dirty else "")
+
 def build_data(ctx):
     st, pos, cov = ctx["st"], ctx["pos"], ctx["cov"]
     quiz_d = list(dict.fromkeys(r["d"] for r in st))
@@ -61,7 +69,7 @@ def build_data(ctx):
     return {
         "version": VERSION,
         "generated": datetime.date.today().isoformat(),
-        "source_commit": subprocess.run(["git", "rev-parse", "--short", "HEAD"], cwd=ROOT, capture_output=True, text=True).stdout.strip(),
+        "source_commit": source_commit(),
         "params": {"K": qm.K, "MIN_COVERAGE": qm.MIN_COVERAGE, "MAX_TRADE": qm.MAX_TRADE, "TRADE_TOP": qm.TRADE_TOP,
                    "TRADE_W": qm.TRADE_W, "TRADE_CANDIDATES": 3, "VOTE_WEIGHT": 0.25, "CLOSE": qr.CLOSE,
                    "BILL_URL": qr.LINK.replace("{}", "{id}")},

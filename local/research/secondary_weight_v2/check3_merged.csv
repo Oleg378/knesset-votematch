@@ -1,0 +1,107 @@
+id,q,d,bill,kind,role,sign,verdict,reason
+I1,64,58,2163133,control,secondary,-1,about,Ends PM's term upon indictment; exactly the statement's question.
+I2,64,58,2157701,control,secondary,1,about,Criminal immunity for sitting ministers; same question of indicted leaders staying in office.
+I3,51,31,2241731,proposed,secondary,1,not_about,Senior citizens' allowance; nothing specific to olim.
+I4,90,106,2170082,control,main,1,about,Municipal guard units; statement explicitly names local guard units.
+I5,80,69,2199409,proposed,secondary,1,borderline,Debtor protection in tax collection; only indirectly about challenging authority decisions.
+I6,12,181,2157408,proposed,secondary,-1,borderline,Bars illegal migrants' entry; same population but admission not social rights.
+I7,64,58,2243018,proposed_resubmission,secondary,-1,not_about,PM press conferences; transparency not indicted PM.
+I8,12,181,2197103,proposed_resubmission,secondary,-1,borderline,Bars illegal migrants' entry; same population but admission not social rights.
+I9,90,106,2191507,control,secondary,1,not_about,Building-safety inspection duty; not municipal autonomy question.
+I10,12,181,2234650,proposed_resubmission,secondary,-1,borderline,Bars illegal migrants' entry; same population but admission not social rights.
+I11,64,58,2225126,proposed,secondary,-1,not_about,PM press conferences; transparency not indicted PM.
+I12,64,58,2198668,control,secondary,-1,about,Ends PM's term upon indictment; exactly the statement's question.
+I13,51,31,2156101,proposed,secondary,-1,borderline,Law of Return grandchild clause; eligibility for aliyah rather than olim benefits.
+I14,64,58,2158705,proposed,secondary,-1,not_about,National security decision-making process; unrelated to indicted PM.
+I15,74,291,2216972,proposed_resubmission,main,1,borderline,Constitutional environmental right; rights in Basic Laws but not equality.
+I16,88,117,2203626,control,main,1,about,Voting for national-service volunteers abroad; matches voting wherever one serves.
+I17,51,31,2162761,control,secondary,1,about,Grant for oleh teachers; direct benefit to olim.
+I18,90,106,2217182,proposed,secondary,1,not_about,Centralized fast-track planning for rural settlements; does not empower municipalities.
+I19,51,31,2203631,proposed,secondary,-1,borderline,Law of Return grandchild clause; eligibility for aliyah rather than olim benefits.
+I20,94,108,2225119,proposed,main,1,not_about,State grants to remote education authorities; not resident discounts versus council revenue.
+I21,53,283,2170082,proposed,secondary,1,not_about,Municipal guard is a local-government body; not private actors in public services.
+I22,53,283,2160285,control,secondary,1,borderline,State funding for environmental NGOs; funding charities rather than outsourcing services.
+I23,52,352,2162908,control,secondary,-1,about,Limits non-compete clauses in employment contracts to protect workers.
+I24,52,352,2193012,control,secondary,-1,about,Mandatory consumer protections for apartment buyers in sale contracts.
+I25,48,340,2156648,control,secondary,1,about,Search committee for police commissioner; vetting committee for senior appointment.
+I26,24,71,2160035,proposed,secondary,-1,borderline,Publishing names of judges complained against; transparency more than political control.
+I27,48,340,2224733,proposed,main,-1,not_about,Seniority rule for Supreme Court president; not ministerial appointments vetting; sign doubtful.
+I28,9,187,2165976,control,main,-1,about,Removes service-based distinction in National Insurance contributions; weaker linkage plausible.
+I29,24,71,2156372,control,secondary,-1,about,Override clause for Basic Law; statement explicitly names overriding rulings.
+I30,69,66b,2169594,control,main,-1,about,Minimum sentence for stone-throwing terror offenses.
+I31,54,277a,2158413,control,secondary,1,about,Denies benefits to people involved in terror.
+I32,5,164,2211131,proposed,secondary,-1,not_about,Cutting ministries for war budget; not heritage centers or Jewish identity funding.
+I33,45,178,2214465,proposed,secondary,1,borderline,UNRWA ban; framed as counter-terror but about an international organization.
+I34,53,283,2157790,control,secondary,-1,about,Ends contractor employment; insourcing public-service workers.
+I35,54,277a,2226921,proposed,main,1,not_about,Driving licenses for infiltrators; statement is about terrorists and families.
+I36,80,69,2165968,control,secondary,1,about,Foreign workers' access to court deadlines; easier to challenge authority decisions.
+I37,51,31,2200336,control,secondary,1,about,Recognizing olim's professional licenses; assistance for olim absorption.
+I38,94,108,2166401,control,secondary,-1,about,Exempting needy residents from local betterment levy; discount reducing local revenue.
+I39,80,69,2205865,proposed,secondary,1,borderline,Abolishes municipal administrative collection; debtor protection more than appeal rights.
+I40,52,352,2199458,proposed,secondary,1,borderline,Removes notary minimum fee; price deregulation not protective contract terms.
+I41,64,58,2210721,proposed,secondary,1,not_about,October 7 commemoration; unrelated to PM powers or indictment.
+I42,90,106,2233165,proposed,secondary,1,not_about,Post-war building rehabilitation planning relief; not municipal powers.
+I43,24,71,2156570,control,secondary,-1,about,Basic Law: Override; politicians overriding court rulings.
+I44,69,66b,2216827,proposed,secondary,1,not_about,Restrictions on sex offenders near victims; not minimum sentences.
+I45,41,265,2193584,control,secondary,1,about,Lowers party membership age; statement names joining a party.
+I46,12,181,2210157,proposed_resubmission,secondary,-1,borderline,Immigration and status Basic Law; same population but admission not social rights.
+I47,74,291,2195990,control,main,1,about,Enshrines equality and non-discrimination in Basic Law.
+I48,64,58,2166166,control,secondary,1,about,Bans criminal investigation of sitting PM; directly about PM facing criminal proceedings.
+I49,51,31,2189595,proposed_resubmission,secondary,-1,borderline,Law of Return grandchild clause; eligibility for aliyah rather than olim benefits.
+I50,64,58,2211374,proposed_resubmission,secondary,-1,not_about,PM press conferences; transparency not indicted PM.
+I51,12,181,2159382,proposed,secondary,-1,borderline,Immigration and status Basic Law; same population but admission not social rights.
+I52,74,291,2190775,proposed,main,1,borderline,Constitutional environmental right; rights in Basic Laws but not equality.
+I53,80,69,2199350,proposed_resubmission,secondary,1,borderline,Debtor protection in tax collection; only indirectly about challenging authority decisions.
+I54,12,181,2156351,proposed_resubmission,secondary,-1,borderline,Bars illegal migrants' entry; same population but admission not social rights.
+I55,51,31,2197203,control,secondary,-1,borderline,Restricts passports for new olim; status right rather than benefits or assistance.
+I56,12,181,2165968,control,main,1,borderline,Foreign workers' court access; procedural right rather than social rights.
+I57,24,71,2233290,proposed,secondary,-1,about,Knesset committee may stay trials of ministers; politicians over judicial process.
+I58,24,71,2197104,proposed_resubmission,secondary,-1,borderline,Publishing names of judges complained against; transparency more than political control.
+I59,38,275,2157264,proposed_resubmission,secondary,-1,not_about,Denies pensions to terrorists; not early withdrawal of savings.
+I60,60,231e,2235662,proposed,secondary,1,borderline,Seizing UNRWA premises; international organization rather than criminal or terror property.
+I61,60,231e,2167084,control,secondary,1,about,Forfeiture of proceeds of agricultural crime.
+I62,45,178,2196942,control,secondary,1,about,Revokes citizenship of paid terrorists; tighter counter-terror measures.
+I63,51,31,2196875,proposed_resubmission,secondary,-1,borderline,Law of Return grandchild clause; eligibility for aliyah rather than olim benefits.
+I64,88,117,2197545,proposed_resubmission,main,1,not_about,Party membership age; not voting access in elections.
+I65,52,352,2197351,proposed_resubmission,secondary,1,borderline,Removes notary minimum fee; price deregulation not protective contract terms.
+I66,88,117,2193584,proposed,main,1,not_about,Party membership age; not voting access in elections.
+I67,38,275,2156177,control,secondary,1,borderline,Tax exemption on lump-sum withdrawal at retirement; not early withdrawal.
+I68,9,187,2170082,proposed,secondary,1,not_about,Municipal guard; nothing about service-linked benefits.
+I69,52,352,2204203,proposed_resubmission,secondary,-1,borderline,Housing anti-discrimination; contract limit but an equality question.
+I70,12,181,2197411,proposed_resubmission,secondary,-1,borderline,Bars illegal migrants' entry; same population but admission not social rights.
+I71,90,106,2200709,proposed,secondary,1,borderline,Abolishes religious councils; religious services question with some municipal role.
+I72,38,275,2201038,proposed,secondary,-1,not_about,Denies pensions to terrorists; not early withdrawal of savings.
+I73,52,352,2166058,proposed,secondary,-1,borderline,Housing anti-discrimination; contract limit but an equality question.
+I74,80,69,2196100,proposed_resubmission,secondary,1,borderline,Debtor protection in tax collection; only indirectly about challenging authority decisions.
+I75,5,164,2165425,control,main,1,about,State heritage center for Tunisian Jewry; exactly the statement's example.
+I76,52,352,2190731,proposed_resubmission,secondary,1,borderline,Removes notary minimum fee; price deregulation not protective contract terms.
+I77,53,283,2156982,proposed,secondary,1,not_about,Civil marriage in Eilat; not private actors in public services.
+I78,41,265,2157099,proposed,secondary,1,not_about,Bans soliciting minors to religion; not parental consent or minors' autonomy.
+I79,94,108,2156750,proposed_resubmission,main,1,not_about,State grants to remote education authorities; not resident discounts versus council revenue.
+I80,54,277a,2156467,control,secondary,1,about,Freezes allowances to terrorists and their families.
+I81,51,31,2158128,proposed,secondary,-1,borderline,Law of Return grandchild clause; eligibility for aliyah rather than olim benefits.
+I82,51,31,2199544,proposed,secondary,-1,borderline,Law of Return grandchild clause; eligibility for aliyah rather than olim benefits.
+I83,52,352,2165506,control,secondary,1,about,Consumer cancellation rights in tourism contracts; protective contract terms.
+I84,12,181,2196908,proposed,secondary,-1,borderline,Immigration and status Basic Law; same population but admission not social rights.
+I85,12,181,2169574,proposed_resubmission,secondary,-1,borderline,Immigration and status Basic Law; same population but admission not social rights.
+I86,51,31,2214314,control,secondary,1,about,Grant for oleh teachers; direct benefit to olim.
+I87,80,69,2196922,proposed_resubmission,secondary,1,borderline,Debtor protection in tax collection; only indirectly about challenging authority decisions.
+I88,36,169a,2212244,proposed,main,1,not_about,Gaza-envelope development; not settlements in Judea and Samaria.
+I89,90,106,2196955,control,secondary,1,about,Removes minister's veto on Shabbat bylaws; municipal autonomy on Shabbat.
+I90,54,277a,2227498,proposed,secondary,1,not_about,Citizenship for children of infiltrators; statement is about terrorists.
+I91,36,169a,2225066,proposed_resubmission,main,1,not_about,Gaza-envelope development; not settlements in Judea and Samaria.
+I92,36,169a,2156088,control,main,1,about,Regularizes settlements in Judea and Samaria.
+I93,5,164,2210354,proposed,secondary,1,borderline,National WWII Jewish fighter center; heritage center but not a community's.
+I94,12,181,2191393,control,secondary,-1,about,Exempts employers from pensions for foreign caregivers; statement names pensions.
+I95,52,352,2190946,proposed,secondary,-1,borderline,Price cap on English courses; price regulation rather than contract terms.
+I96,5,164,2198716,control,secondary,1,about,State authority for Moroccan Jewish culture; community heritage institution.
+I97,60,231e,2157264,proposed_resubmission,secondary,1,borderline,Denies terrorists' pension entitlements; forfeiture-like but a benefits sanction.
+I98,51,31,2234990,proposed_resubmission,secondary,-1,borderline,Law of Return grandchild clause; eligibility for aliyah rather than olim benefits.
+I99,51,31,2192402,control,secondary,1,about,National Insurance exemption for retired olim; benefit for olim.
+I100,80,69,2166034,proposed_resubmission,secondary,1,borderline,Debtor protection in tax collection; only indirectly about challenging authority decisions.
+I101,64,58,2198919,proposed,secondary,1,not_about,Bans returning terrorists' bodies; unrelated to PM indictment.
+I102,51,31,2156061,proposed,secondary,-1,borderline,Law of Return grandchild clause; eligibility for aliyah rather than olim benefits.
+I103,12,181,2157572,control,main,-1,about,Denies foreign workers paid election day; fewer worker rights.
+I104,60,231e,2201038,proposed,secondary,1,borderline,Denies terrorists' pension entitlements; forfeiture-like but a benefits sanction.
+I105,51,31,2225464,control,secondary,1,about,Reduced contributions for employers hiring olim; assistance to olim.
+I106,80,69,2157182,control,main,-1,about,Restricts standing to petition courts; harder to challenge authorities.

@@ -1,0 +1,23 @@
+policy             labels stmts side changed +/− swap SD<0.25 median SD   spot  core
+now                     0     0            0        0       0      0.38  18/24  10,9,14,1,7,5,63,37
+agreed                109    30           39        0       4      0.37  19/24  10,3,14,1,7,63,40,22
+agreed+borderline     187    36           69        3      10      0.37  18/24  10,14,1,9,7,63,3,22
+
+statements whose SD changes by >= 0.05 (now → agreed → agreed+borderline; rank by SD among 83):
+  q  3 Trade with hostile countries             0.60 (#4) → 0.60 (#3) → 0.46 (#12)
+  q  5 Community heritage centers               0.52 (#10) → 0.30 (#74) → 0.32 (#63)
+  q  9 Benefits for those who served            0.63 (#3) → 0.55 (#7) → 0.55 (#6)
+  q 14 Foreign workers: quotas                  0.56 (#5) → 0.56 (#4) → 0.61 (#3)
+  q 27 Public broadcasting: Kan and Galei Tzaha 0.36 (#51) → 0.16 (#83) → 0.16 (#83)
+  q 40 LGBT rights                              0.45 (#16) → 0.45 (#13) → 0.39 (#36)
+  q 41 Autonomy of minors                       0.36 (#54) → 0.30 (#66) → 0.36 (#48)
+  q 48 Vetting senior appointments              0.41 (#33) → 0.39 (#36) → 0.20 (#81)
+  q 51 Help for new immigrants                  0.34 (#57) → 0.33 (#61) → 0.28 (#68)
+  q 56 State of emergency                       0.40 (#38) → 0.34 (#52) → 0.24 (#77)
+  q 85 Survivors' benefits                      0.34 (#59) → 0.34 (#51) → 0.27 (#70)
+  q 95 Protection of debtors                    0.29 (#74) → 0.26 (#79) → 0.23 (#78)
+  q 96 Oversight of security forces             0.29 (#71) → 0.29 (#71) → 0.24 (#75)
+  q 98 Tax enforcement                          0.26 (#80) → 0.26 (#78) → 0.16 (#82)
+now: below 0.25: 
+agreed: below 0.25: q27 Public broadcasting: Kan and Galei Tzahal 0.16←0.36; q50 Credit and mortgages 0.23←0.25; q57 Banning harmful content 0.24←0.27; q102 Animal protection 0.22←0.26
+agreed+borderline: below 0.25: q27 Public broadcasting: Kan and Galei Tzahal 0.16←0.36; q48 Vetting senior appointments 0.20←0.41; q50 Credit and mortgages 0.21←0.25; q53 Privatization of public services 0.25←0.28; q56 State of emergency 0.24←0.40; q57 Banning harmful content 0.24←0.27; q95 Protection of debtors 0.23←0.29; q96 Oversight of security forces 0.24←0.29; q98 Tax enforcement 0.16←0.26; q102 Animal protection 0.22←0.26

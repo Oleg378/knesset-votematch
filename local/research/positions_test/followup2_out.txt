@@ -1,0 +1,22 @@
+
+=== FOLLOW-UP 2 (PROVISIONAL formula) ===
+
+# TEST A: list-level stability K24 vs K25 (lists with ≥3 matched MKs; per list×Knesset×dir need ≥2 candidates with votes and ≥5 votes in total)
+list mean coalition share K24 / K25 (switched?): {'אמת': (1.0, 0.0, True), 'ב': (0.0, 0.94, True), 'ג': (0.0, 1.0, True), 'דרך': (1.0, 0.17, True), 'ודם': (0.0, 0.0, False), 'ט': (0.0, 1.0, True), 'כן': (1.0, 0.19, True), 'ל': (1.0, 0.17, True), 'מחל': (0.13, 0.97, True), 'עם': (1.0, 0.0, True), 'רק': (1.0, 0.0, True), 'שס': (0.0, 1.0, True)}
+candidates per list in K24 / K25 with votes: {'אמת': (11, 3), 'ב': (1, 6), 'ג': (7, 9), 'דרך': (3, 4), 'ודם': (4, 5), 'ט': (4, 6), 'כן': (3, 3), 'ל': (7, 6), 'מחל': (22, 33), 'עם': (5, 5), 'רק': (11, 16), 'שס': (9, 12)}
+raw: r=0.225 pairs 1766 lists 11 | perm mean 0.071 95% [-0.052, 0.188] | switched lists r=0.183 (pairs 1612), same-role r=0.590 (pairs 154)
+centered per Knesset×dir: r=0.191 pairs 1766 lists 11 | perm mean 0.011 95% [-0.123, 0.142] | switched lists r=0.147 (pairs 1612), same-role r=0.537 (pairs 154)
+(b1) residual on coalition share (MK level) then averaged: r=0.244 pairs 1766 lists 11 | perm mean 0.016 95% [-0.205, 0.207] | switched lists r=0.127 (pairs 1612), same-role r=0.437 (pairs 154)
+(c) private bills only + b1: r=0.280 pairs 1556 lists 11 | perm mean 0.020 95% [-0.227, 0.262] | switched lists r=0.110 (pairs 1426), same-role r=0.540 (pairs 130)
+per-list r, raw / b1 (pairs): {'אמת': (0.37, 0.24, 176), 'ג': (0.0, 0.12, 172), 'דרך': (-0.05, -0.06, 72), 'ודם': (0.59, 0.44, 154), 'ט': (0.12, -0.07, 158), 'כן': (0.19, 0.23, 136), 'ל': (-0.03, 0.11, 158), 'מחל': (0.19, 0.27, 196), 'עם': (0.31, 0.31, 167), 'רק': (0.32, 0.05, 192), 'שס': (0.13, -0.18, 185)}
+
+# TEST B: authorship stability (initiators only, main+secondary, sign mean per MK×Knesset×dir; Knesset = bills.knesset)
+authored bills by Knesset: {25: 6876, 24: 4078} | MK×K×dir rows: 25989
+MKs authoring in both Knessets: 66
+raw n≥3: r=0.866 pairs 1840 MKs 55 | perm mean 0.743 95% [0.681, 0.804] | both=+1 share 0.50 | r on pairs with ≥1 non-+1: 0.798 (pairs 921)
+centered n≥3: r=0.521 pairs 1840 MKs 55 | perm mean 0.038 95% [-0.107, 0.183] | both=+1 share 0.00 | r on pairs with ≥1 non-+1: 0.521 (pairs 1840)
+raw n≥2: r=0.830 pairs 2721 MKs 59 | perm mean 0.659 95% [0.596, 0.722] | both=+1 share 0.53 | r on pairs with ≥1 non-+1: 0.729 (pairs 1270)
+centered n≥2: r=0.521 pairs 2721 MKs 59 | perm mean 0.013 95% [-0.101, 0.138] | both=+1 share 0.00 | r on pairs with ≥1 non-+1: 0.521 (pairs 2721)
+share of MK×K×dir authorship pos == +1 (n≥3): 0.599 | == −1: 0.067
+list-level authorship raw (≥2 authoring candidates): r=0.801 pairs 1257 lists 9 | perm mean 0.636 95% [0.546, 0.725] | both=+1 0.42 | r non-+1 pairs 0.716 (730)
+list-level authorship centered (≥2 authoring candidates): r=0.541 pairs 1257 lists 9 | perm mean 0.031 95% [-0.219, 0.315] | both=+1 0.00 | r non-+1 pairs 0.541 (1257)

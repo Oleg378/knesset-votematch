@@ -1,0 +1,4901 @@
+[
+ {
+  "key": "1",
+  "name_ru": "социальные выплаты, пособия и льготы",
+  "name_en": "Social benefits, allowances and concessions",
+  "plus_en": "Increases benefits, allowances, concessions or state compensation, or widens the circle of eligible recipients.",
+  "minus_en": "Reduces benefits, allowances, concessions or state compensation, or narrows eligibility.",
+  "members": [
+   {
+    "n": "1",
+    "name": "социальные выплаты, пособия и льготы",
+    "plus": "больше выплат, пособий, льгот или шире круг получателей",
+    "minus": "меньше выплат или уже круг",
+    "flip": false
+   },
+   {
+    "n": "6",
+    "name": "государственные компенсации отдельным группам",
+    "plus": "шире право на компенсацию от государства",
+    "minus": "уже",
+    "flip": false
+   },
+   {
+    "n": "318",
+    "name": "льготы отдельным группам населения",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "2",
+  "name_ru": "объём и стандарты государственных социальных услуг",
+  "name_en": "Scope and standards of public social services",
+  "plus_en": "Expands public social services and programs or raises their required standards.",
+  "minus_en": "Reduces public social services and programs or lowers their standards.",
+  "members": [
+   {
+    "n": "2",
+    "name": "объём государственных социальных услуг",
+    "plus": "больше социальных услуг и программ",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "320",
+    "name": "стандарты государственных социальных и медицинских услуг",
+    "plus": "выше",
+    "minus": "ниже",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "3",
+  "name_ru": "льготы и выплаты военнослужащим, резервистам и ветеранам",
+  "name_en": "Benefits for soldiers, reservists and veterans",
+  "plus_en": "Gives more benefits, payments and preferences to those who served and their families.",
+  "minus_en": "Gives fewer benefits, payments and preferences to those who served and their families.",
+  "members": [
+   {
+    "n": "3",
+    "name": "льготы и выплаты военнослужащим, резервистам и ветеранам",
+    "plus": "больше льгот, выплат и преференций отслужившим и их семьям",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "4",
+  "name_ru": "помощь пострадавшим от войны, терроризма и катастроф",
+  "name_en": "Aid to victims of war, terrorism and disasters",
+  "plus_en": "Gives more rights, payments, deferrals or wider coverage to victims of war, terrorism, disasters and emergencies and their families.",
+  "minus_en": "Gives less aid or narrower coverage to such victims and their families.",
+  "members": [
+   {
+    "n": "4",
+    "name": "помощь пострадавшим от войны и терроризма и их семьям",
+    "plus": "больше прав, выплат, шире круг",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "5",
+    "name": "помощь пострадавшим от катастроф и чрезвычайных ситуаций",
+    "plus": "больше помощи, отсрочек, шире охват",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "36",
+  "name_ru": "налоговая и обязательная платёжная нагрузка (+ доходы государства)",
+  "name_en": "Tax and mandatory payment burden",
+  "plus_en": "Raises taxes, levies or contributions, or cuts exemptions and deductions, increasing state revenue.",
+  "minus_en": "Lowers taxes, levies or contributions, or adds exemptions and deductions, reducing state revenue.",
+  "members": [
+   {
+    "n": "7",
+    "name": "налоговая и обязательная платёжная нагрузка",
+    "plus": "выше налоги, сборы, взносы / меньше льгот и вычетов",
+    "minus": "ниже налоги / больше льгот, освобождений, вычетов",
+    "flip": false
+   },
+   {
+    "n": "36",
+    "name": "доходы государства",
+    "plus": "больше поступлений",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "8",
+  "name_ru": "денежные санкции: штрафы, пени, надбавки",
+  "name_en": "Monetary sanctions: fines, penalties and surcharges",
+  "plus_en": "Adds or raises fines, penalty interest and surcharges.",
+  "minus_en": "Reduces or waives fines, penalty interest and surcharges.",
+  "members": [
+   {
+    "n": "8",
+    "name": "денежная нагрузка на граждан: штрафы, пени, надбавки",
+    "plus": "больше штрафов, пеней, надбавок",
+    "minus": "меньше, списание",
+    "flip": false
+   },
+   {
+    "n": "82",
+    "name": "строгость санкций за нарушения (штрафы)",
+    "plus": "тяжелее санкции",
+    "minus": "мягче",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "9",
+  "name_ru": "плата граждан за государственные и общественные услуги",
+  "name_en": "Fees for public services",
+  "plus_en": "Raises fees and tariffs citizens pay for public services.",
+  "minus_en": "Lowers such fees or makes the services free.",
+  "members": [
+   {
+    "n": "9",
+    "name": "плата граждан за государственные и общественные услуги",
+    "plus": "выше плата и тарифы",
+    "minus": "ниже или бесплатно",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "10",
+  "name_ru": "расходы потребителей на тару и упаковку",
+  "name_en": "Consumer costs of containers and packaging",
+  "plus_en": "Consumers pay more for containers and packaging (e.g. deposits, levies).",
+  "minus_en": "Consumers pay less for containers and packaging.",
+  "members": [
+   {
+    "n": "10",
+    "name": "расходы потребителей на тару и упаковку",
+    "plus": "потребители платят больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "11",
+  "name_ru": "доступность и государственное финансирование медицинской помощи",
+  "name_en": "Access to and public funding of health care",
+  "plus_en": "Widens coverage, lowers patient costs or adds choice, and increases state funding, obligations or financial regulation in health care.",
+  "minus_en": "Narrows coverage, raises patient costs, or reduces state funding, obligations or financial regulation in health care.",
+  "members": [
+   {
+    "n": "11",
+    "name": "финансовая и физическая доступность медицинской помощи",
+    "plus": "шире покрытие, ниже плата, больше выбора",
+    "minus": "уже покрытие, выше плата",
+    "flip": false
+   },
+   {
+    "n": "13",
+    "name": "государственное финансирование здравоохранения",
+    "plus": "больше денег поставщикам медуслуг",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "14",
+    "name": "обязательства государства в здравоохранении",
+    "plus": "больше обязанностей государства",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "372",
+    "name": "государственное регулирование финансов здравоохранения",
+    "plus": "больше госрегулирования расчётов",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "12",
+  "name_ru": "права пациентов",
+  "name_en": "Patients' rights",
+  "plus_en": "Gives patients more rights vis-à-vis health providers.",
+  "minus_en": "Gives patients fewer rights vis-à-vis health providers.",
+  "members": [
+   {
+    "n": "12",
+    "name": "права пациентов",
+    "plus": "больше прав пациентов перед поставщиками",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "15",
+  "name_ru": "обязанности медицинских учреждений и работников",
+  "name_en": "Obligations of medical institutions and staff",
+  "plus_en": "Imposes more mandatory requirements on medical institutions and health workers.",
+  "minus_en": "Imposes fewer mandatory requirements on them.",
+  "members": [
+   {
+    "n": "15",
+    "name": "обязанности медицинских учреждений и работников",
+    "plus": "больше обязательных требований",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "16",
+  "name_ru": "профессиональные полномочия медработников",
+  "name_en": "Scope of practice of health personnel",
+  "plus_en": "Allows health personnel, including non-physician staff, to perform more tasks.",
+  "minus_en": "Restricts the tasks health personnel, including non-physician staff, may perform.",
+  "members": [
+   {
+    "n": "16",
+    "name": "профессиональные полномочия медработников",
+    "plus": "немедицинскому персоналу разрешено больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "17",
+  "name_ru": "регуляторная нагрузка на бизнес и частные организации",
+  "name_en": "Regulatory burden on businesses and private organizations",
+  "plus_en": "Adds obligations, prohibitions, licensing, oversight or approval requirements, or mandatory procedures for market actors.",
+  "minus_en": "Deregulates or simplifies: fewer prohibitions on activities, fewer approvals, more freedom of choice for market actors.",
+  "members": [
+   {
+    "n": "17",
+    "name": "регуляторная нагрузка на бизнес и частные организации",
+    "plus": "больше обязанностей, запретов, лицензий, надзора",
+    "minus": "дерегуляция, упрощение",
+    "flip": false
+   },
+   {
+    "n": "23",
+    "name": "свобода хозяйственной деятельности",
+    "plus": "меньше запретов на виды деятельности",
+    "minus": "больше запретов",
+    "flip": true
+   },
+   {
+    "n": "351",
+    "name": "свобода выбора участников рынка в процедурах",
+    "plus": "больше свободы",
+    "minus": "обязательные процедуры",
+    "flip": true
+   },
+   {
+    "n": "367",
+    "name": "регуляторный контроль государства (согласования)",
+    "plus": "больше согласований",
+    "minus": "отменяются",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "18",
+  "name_ru": "регулирование финансового сектора",
+  "name_en": "Regulation of the financial sector",
+  "plus_en": "Imposes more obligations and supervision on banks and insurers.",
+  "minus_en": "Imposes fewer obligations and less supervision on banks and insurers.",
+  "members": [
+   {
+    "n": "18",
+    "name": "регулирование финансового сектора",
+    "plus": "больше обязанностей и надзора для банков и страховщиков",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "19",
+  "name_ru": "обязанности бизнеса перед потребителями",
+  "name_en": "Business obligations toward consumers",
+  "plus_en": "Companies have more obligations toward customers.",
+  "minus_en": "Companies have fewer obligations toward customers.",
+  "members": [
+   {
+    "n": "19",
+    "name": "обязанности бизнеса перед потребителями",
+    "plus": "у компаний больше обязанностей перед клиентами",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "20",
+  "name_ru": "права и защита потребителей",
+  "name_en": "Consumer rights and protection",
+  "plus_en": "Gives consumers more rights, information or benefits.",
+  "minus_en": "Gives consumers fewer rights, information or benefits.",
+  "members": [
+   {
+    "n": "20",
+    "name": "права и защита потребителей",
+    "plus": "больше прав, информации, выгод потребителя",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "21",
+  "name_ru": "государственное регулирование цен и тарифов",
+  "name_en": "State control of prices and tariffs",
+  "plus_en": "Increases state control over prices, tariffs and markups.",
+  "minus_en": "Frees prices, tariffs and markups from state control.",
+  "members": [
+   {
+    "n": "21",
+    "name": "государственное регулирование цен и тарифов",
+    "plus": "больше контроля цен, тарифов, наценок",
+    "minus": "цены свободнее",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "22",
+  "name_ru": "защита арендаторов и жильцов",
+  "name_en": "Protection of tenants and residents",
+  "plus_en": "Strengthens the rights of tenants and of residents facing eviction.",
+  "minus_en": "Weakens the rights of tenants and of residents facing eviction.",
+  "members": [
+   {
+    "n": "22",
+    "name": "защита арендаторов",
+    "plus": "больше прав арендаторов",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "315",
+    "name": "права выселяемых жильцов",
+    "plus": "сильнее защита",
+    "minus": "слабее",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "24",
+  "name_ru": "ограничения импорта и защита местного производства",
+  "name_en": "Import restrictions and protection of local production",
+  "plus_en": "Adds import restrictions or preferences for local products.",
+  "minus_en": "Opens the market more to imports.",
+  "members": [
+   {
+    "n": "24",
+    "name": "ограничения импорта и защита местного производства",
+    "plus": "больше ограничений импорта, преференций местной продукции",
+    "minus": "больше открытости импорту",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "25",
+  "name_ru": "конкуренция на рынке и в госзакупках",
+  "name_en": "Market and public procurement competition",
+  "plus_en": "Increases competition, lowers entry barriers, limits concentration and market power, or makes public procurement more open.",
+  "minus_en": "Reduces competition, eases limits on concentration, or adds exemptions from competitive procurement.",
+  "members": [
+   {
+    "n": "25",
+    "name": "конкуренция на рынке",
+    "plus": "больше конкуренции, ниже барьеры",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "26",
+    "name": "ограничения на концентрацию и рыночную власть крупных игроков",
+    "plus": "больше ограничений",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "286",
+    "name": "конкурентность государственных закупок",
+    "plus": "больше открытой конкуренции",
+    "minus": "больше исключений",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "27",
+  "name_ru": "государственная поддержка отраслей и бизнеса",
+  "name_en": "State support for industries and businesses",
+  "plus_en": "Gives more subsidies, tax benefits, grants or targeted support to industries, businesses or regions.",
+  "minus_en": "Gives less such support.",
+  "members": [
+   {
+    "n": "27",
+    "name": "государственная поддержка отраслей и бизнеса",
+    "plus": "больше субсидий, льгот, грантов",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "319",
+    "name": "государственная поддержка отраслей и регионов (смешанное)",
+    "plus": "больше целевой поддержки",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "28",
+  "name_ru": "государственная поддержка сельского хозяйства",
+  "name_en": "State support for agriculture",
+  "plus_en": "Gives farmers more benefits and grants.",
+  "minus_en": "Gives farmers fewer benefits and grants.",
+  "members": [
+   {
+    "n": "28",
+    "name": "государственная поддержка сельского хозяйства",
+    "plus": "больше льгот и грантов аграриям",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "29",
+  "name_ru": "государственная поддержка возобновляемой энергетики",
+  "name_en": "State support for renewable energy",
+  "plus_en": "Adds incentives for renewable energy or raises its required share.",
+  "minus_en": "Reduces incentives for renewable energy or its required share.",
+  "members": [
+   {
+    "n": "29",
+    "name": "государственная поддержка возобновляемой энергетики",
+    "plus": "больше стимулов и доля ВИЭ",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "30",
+  "name_ru": "государственная поддержка занятости и профобучения",
+  "name_en": "State support for employment and vocational training",
+  "plus_en": "Adds incentives and support for employment and vocational training.",
+  "minus_en": "Reduces such incentives and support.",
+  "members": [
+   {
+    "n": "30",
+    "name": "государственная поддержка занятости и профобучения",
+    "plus": "больше стимулов",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "31",
+  "name_ru": "поддержка репатриации и репатриантов",
+  "name_en": "Support for aliyah and immigrants",
+  "plus_en": "Gives more benefits and incentives for aliyah and to olim.",
+  "minus_en": "Gives fewer benefits and incentives for aliyah and to olim.",
+  "members": [
+   {
+    "n": "31",
+    "name": "поддержка репатриации и репатриантов",
+    "plus": "больше льгот и стимулов",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "32",
+  "name_ru": "государственная поддержка спорта и культуры",
+  "name_en": "State support for sport and culture",
+  "plus_en": "Allocates more funds to sport and culture.",
+  "minus_en": "Allocates fewer funds to sport and culture.",
+  "members": [
+   {
+    "n": "32",
+    "name": "государственная поддержка спорта и культуры",
+    "plus": "больше средств",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "33",
+  "name_ru": "государственная поддержка периферийных регионов",
+  "name_en": "State support for peripheral regions",
+  "plus_en": "Directs more resources, benefits and investment to the periphery.",
+  "minus_en": "Directs fewer resources, benefits and investment to the periphery.",
+  "members": [
+   {
+    "n": "33",
+    "name": "государственная поддержка периферийных регионов",
+    "plus": "больше ресурсов, льгот, инвестиций периферии",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "34",
+  "name_ru": "доступность базовых коммунальных услуг и связи",
+  "name_en": "Reliability of basic utilities and communications",
+  "plus_en": "Makes access to electricity, water and communications more reliable.",
+  "minus_en": "Makes such access less reliable.",
+  "members": [
+   {
+    "n": "34",
+    "name": "доступность базовых коммунальных услуг и связи",
+    "plus": "доступ к электричеству, воде, связи надёжнее",
+    "minus": "менее надёжно",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "35",
+  "name_ru": "государственные расходы",
+  "name_en": "Government expenditure",
+  "plus_en": "Increases government spending and commitments, including budgets of specific institutions.",
+  "minus_en": "Reduces government spending and commitments.",
+  "members": [
+   {
+    "n": "35",
+    "name": "государственные расходы",
+    "plus": "больше расходов и обязательств",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "335",
+    "name": "государственное финансирование отдельных учреждений",
+    "plus": "больше бюджета",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "37",
+  "name_ru": "строгость фискальных ограничений",
+  "name_en": "Strictness of fiscal rules",
+  "plus_en": "Tightens limits on the deficit and spending.",
+  "minus_en": "Loosens limits on the deficit and spending.",
+  "members": [
+   {
+    "n": "37",
+    "name": "строгость фискальных ограничений",
+    "plus": "жёстче пределы дефицита и расходов",
+    "minus": "мягче",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "38",
+  "name_ru": "налоговый контроль и полномочия налоговых органов",
+  "name_en": "Tax enforcement and tax authority powers",
+  "plus_en": "Adds mechanisms against tax evasion or functions of the tax authorities.",
+  "minus_en": "Removes such mechanisms or functions.",
+  "members": [
+   {
+    "n": "38",
+    "name": "налоговый контроль и борьба с уклонением",
+    "plus": "больше механизмов контроля",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "337",
+    "name": "полномочия налоговых органов",
+    "plus": "больше функций",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "39",
+  "name_ru": "ограничения на наличные расчёты",
+  "name_en": "Restrictions on cash transactions",
+  "plus_en": "Adds restrictions on cash payments.",
+  "minus_en": "Eases restrictions on cash payments.",
+  "members": [
+   {
+    "n": "39",
+    "name": "ограничения на наличные расчёты",
+    "plus": "больше ограничений",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "40",
+  "name_ru": "административная нагрузка на граждан",
+  "name_en": "Administrative burden on citizens",
+  "plus_en": "Adds bureaucracy and requirements for citizens.",
+  "minus_en": "Reduces bureaucracy and requirements for citizens.",
+  "members": [
+   {
+    "n": "40",
+    "name": "административная нагрузка на граждан",
+    "plus": "больше бюрократии и требований",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "41",
+  "name_ru": "доступность, скорость и цифровизация госуслуг",
+  "name_en": "Accessibility, speed and digitization of public services",
+  "plus_en": "Makes public services more accessible, faster or available through more digital channels.",
+  "minus_en": "Makes public services less accessible, slower or less digital.",
+  "members": [
+   {
+    "n": "41",
+    "name": "доступность и скорость государственных услуг",
+    "plus": "доступнее и быстрее",
+    "minus": "менее доступны",
+    "flip": false
+   },
+   {
+    "n": "42",
+    "name": "цифровизация государственных процедур",
+    "plus": "больше цифровых каналов",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "43",
+  "name_ru": "прозрачность власти и политической деятельности",
+  "name_en": "Transparency of government and political activity",
+  "plus_en": "Requires more disclosure and reporting by government and political actors, or lifts confidentiality of financial regulators and state-secret protections.",
+  "minus_en": "Reduces disclosure, or adds confidentiality for financial regulators and state-secret protections.",
+  "members": [
+   {
+    "n": "43",
+    "name": "прозрачность и открытость власти",
+    "plus": "больше раскрытия информации и отчётности",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "348",
+    "name": "конфиденциальность информации финансовых регуляторов",
+    "plus": "больше тайны",
+    "minus": "тайна снимается",
+    "flip": true
+   },
+   {
+    "n": "350",
+    "name": "защита государственной тайны",
+    "plus": "больше мер",
+    "minus": "меньше",
+    "flip": true
+   },
+   {
+    "n": "369",
+    "name": "прозрачность политической деятельности",
+    "plus": "больше раскрытия",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "44",
+  "name_ru": "парламентский контроль над исполнительной властью",
+  "name_en": "Knesset oversight of the executive",
+  "plus_en": "Gives the Knesset more tools to oversee the executive, or sets norms in primary legislation rather than ministry regulations.",
+  "minus_en": "Gives the Knesset fewer oversight tools, or leaves more to ministry regulation.",
+  "members": [
+   {
+    "n": "44",
+    "name": "парламентский контроль над исполнительной властью",
+    "plus": "Кнессету больше инструментов контроля",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "338",
+    "name": "парламентский контроль над ведомственным регулированием",
+    "plus": "нормы в законе",
+    "minus": "ведомство регулирует само",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "45",
+  "name_ru": "полномочия и самостоятельность Кнессета и депутатов",
+  "name_en": "Powers and self-governance of the Knesset and MKs",
+  "plus_en": "Gives the Knesset and MKs more powers, makes participation and voting easier, or lets the Knesset organize its own work more freely.",
+  "minus_en": "Reduces such powers, participation options or self-governance.",
+  "members": [
+   {
+    "n": "45",
+    "name": "полномочия Кнессета и депутатов",
+    "plus": "больше полномочий",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "52",
+    "name": "возможности депутатов участвовать в работе Кнессета",
+    "plus": "легче участвовать и голосовать",
+    "minus": "труднее",
+    "flip": false
+   },
+   {
+    "n": "54",
+    "name": "самостоятельность Кнессета в организации работы",
+    "plus": "свободнее определяет состав и порядок",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "46",
+  "name_ru": "полномочия избранных политических органов",
+  "name_en": "Powers of elected political bodies",
+  "plus_en": "Elected political bodies get more powers.",
+  "minus_en": "Elected political bodies get fewer powers.",
+  "members": [
+   {
+    "n": "46",
+    "name": "полномочия избранных политических органов",
+    "plus": "больше полномочий",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "47",
+  "name_ru": "возможности партий менять состав Кнессета",
+  "name_en": "Parties' ability to replace Knesset members",
+  "plus_en": "Widens parties' ability to replace their MKs.",
+  "minus_en": "Narrows parties' ability to replace their MKs.",
+  "members": [
+   {
+    "n": "47",
+    "name": "возможности партий менять состав Кнессета",
+    "plus": "шире возможности замещать депутатов",
+    "minus": "уже",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "48",
+  "name_ru": "полномочия председателя Кнессета",
+  "name_en": "Powers of the Knesset Speaker",
+  "plus_en": "The Speaker decides more matters alone.",
+  "minus_en": "The Speaker decides fewer matters alone.",
+  "members": [
+   {
+    "n": "48",
+    "name": "полномочия председателя Кнессета",
+    "plus": "решает больше единолично",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "49",
+  "name_ru": "тайность голосования в Кнессете",
+  "name_en": "Secrecy of Knesset votes",
+  "plus_en": "More Knesset votes are secret.",
+  "minus_en": "Fewer Knesset votes are secret.",
+  "members": [
+   {
+    "n": "49",
+    "name": "тайность голосования в Кнессете",
+    "plus": "больше тайных голосований",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "50",
+  "name_ru": "разделение властей",
+  "name_en": "Separation of powers",
+  "plus_en": "Separates the legislature and the executive more.",
+  "minus_en": "Separates the legislature and the executive less.",
+  "members": [
+   {
+    "n": "50",
+    "name": "разделение властей",
+    "plus": "больше разделения законодательной и исполнительной",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "51",
+  "name_ru": "процедурные требования к законодательной инициативе депутатов",
+  "name_en": "Procedural requirements for private member bills",
+  "plus_en": "Adds procedural requirements for MKs' bills.",
+  "minus_en": "Removes procedural requirements for MKs' bills.",
+  "members": [
+   {
+    "n": "51",
+    "name": "процедурные требования к законодательной инициативе депутатов",
+    "plus": "больше требований",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "53",
+  "name_ru": "дисциплинарный контроль над депутатами",
+  "name_en": "Disciplinary control over Knesset members",
+  "plus_en": "Adds or strengthens sanctions against MKs.",
+  "minus_en": "Removes or weakens sanctions against MKs.",
+  "members": [
+   {
+    "n": "53",
+    "name": "дисциплинарный контроль над депутатами",
+    "plus": "больше санкций",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "55",
+  "name_ru": "полномочия исполнительной власти (+ дискреция)",
+  "name_en": "Powers of the executive branch",
+  "plus_en": "Gives the government, ministers or agencies more powers, discretion or delegated rule-making.",
+  "minus_en": "Gives them fewer powers, limits their discretion or delegated rule-making.",
+  "members": [
+   {
+    "n": "55",
+    "name": "полномочия исполнительной власти",
+    "plus": "у правительства, министров, ведомств больше полномочий",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "56",
+    "name": "дискреционные полномочия исполнительной власти",
+    "plus": "больше свободы решать",
+    "minus": "усмотрение ограничено",
+    "flip": false
+   },
+   {
+    "n": "59",
+    "name": "делегированное нормотворчество министров",
+    "plus": "министры решают постановлениями больше",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "324",
+    "name": "полномочия министра по развитию Негева, Галилеи",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "325",
+    "name": "полномочия министерства здравоохранения",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "326",
+    "name": "полномочия министерства экономики",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "327",
+    "name": "полномочия министерства обороны",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "336",
+    "name": "полномочия органов социального обеспечения",
+    "plus": "больше функций",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "362",
+    "name": "полномочия центрального правительства (министерства как работодатели)",
+    "plus": "больше роли министерств",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "373",
+    "name": "полномочия исполнительной власти в сфере иммиграции",
+    "plus": "больше полномочий",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "60",
+  "name_ru": "политический контроль над госорганами и назначениями",
+  "name_en": "Political control over state bodies and appointments",
+  "plus_en": "Ministers and the cabinet control more; appointing bodies are freer; oversight bodies, regulators, legal advisers and prosecutors depend more on politicians.",
+  "minus_en": "State bodies, legal advisers and prosecutors become more independent; appointments are bound by criteria.",
+  "members": [
+   {
+    "n": "57",
+    "name": "свобода исполнительной власти при назначениях",
+    "plus": "назначающий орган свободнее",
+    "minus": "ограничен критериями",
+    "flip": false
+   },
+   {
+    "n": "60",
+    "name": "прямой политический контроль над госорганами",
+    "plus": "министры и кабинет контролируют больше",
+    "minus": "больше независимости",
+    "flip": false
+   },
+   {
+    "n": "61",
+    "name": "независимость контролирующих и регулирующих органов от политиков",
+    "plus": "меньше зависят от политиков",
+    "minus": "больше зависят",
+    "flip": true
+   },
+   {
+    "n": "62",
+    "name": "независимость юрисконсультов и прокуратуры от политиков",
+    "plus": "независимее",
+    "minus": "зависимее",
+    "flip": true
+   }
+  ]
+ },
+ {
+  "key": "58",
+  "name_ru": "полномочия главы правительства",
+  "name_en": "Powers of the Prime Minister",
+  "plus_en": "The Prime Minister has more freedom of action.",
+  "minus_en": "The Prime Minister has less freedom of action.",
+  "members": [
+   {
+    "n": "58",
+    "name": "полномочия главы правительства",
+    "plus": "больше свободы премьера",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "63",
+  "name_ru": "полномочия и вес юридического советника правительства",
+  "name_en": "Powers and weight of the Attorney General",
+  "plus_en": "The Attorney General gets more powers or their opinions become more binding.",
+  "minus_en": "The Attorney General gets fewer powers or their opinions become less binding.",
+  "members": [
+   {
+    "n": "63",
+    "name": "полномочия и вес юридического советника правительства",
+    "plus": "больше полномочий и обязательность позиции",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "64",
+  "name_ru": "полномочия обвинения и возможности уголовного преследования",
+  "name_en": "Prosecutorial powers and ease of criminal prosecution",
+  "plus_en": "Gives prosecutors more procedural tools or makes it easier to investigate and prove offenses.",
+  "minus_en": "Gives prosecutors fewer tools or makes investigation and proof harder.",
+  "members": [
+   {
+    "n": "64",
+    "name": "полномочия обвинения",
+    "plus": "больше процессуальных возможностей прокуратуры",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "65",
+    "name": "возможности уголовного преследования и доказывания",
+    "plus": "легче расследовать и доказывать",
+    "minus": "труднее",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "66",
+  "name_ru": "полномочия судов (+ дискреция судов)",
+  "name_en": "Powers of the courts",
+  "plus_en": "Courts decide more, have more discretion, review the executive and the Knesset more, and Knesset laws are less protected from judicial invalidation.",
+  "minus_en": "Courts decide less, are bound by minimums and rigid frameworks, review less, and Knesset laws are more protected.",
+  "members": [
+   {
+    "n": "66",
+    "name": "полномочия судов",
+    "plus": "больше решений за судами",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "67",
+    "name": "дискреция судов при назначении наказания и в решениях",
+    "plus": "суд свободнее",
+    "minus": "минимумы и жёсткие рамки",
+    "flip": false
+   },
+   {
+    "n": "68",
+    "name": "судебный контроль над исполнительной властью",
+    "plus": "больше действий проходит через суд",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "293",
+    "name": "защищённость законов Кнессета от судебной отмены",
+    "plus": "более защищены",
+    "minus": "менее",
+    "flip": true
+   },
+   {
+    "n": "294",
+    "name": "судебный контроль над решениями Кнессета",
+    "plus": "не указано",
+    "minus": "не указано",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "69",
+  "name_ru": "возможность оспорить решения властей",
+  "name_en": "Ability to challenge government decisions",
+  "plus_en": "Makes it easier to go to court or appeal and complain against authorities.",
+  "minus_en": "Makes it harder to challenge authorities.",
+  "members": [
+   {
+    "n": "69",
+    "name": "доступ к судебной защите против власти",
+    "plus": "проще обратиться в суд",
+    "minus": "сложнее",
+    "flip": false
+   },
+   {
+    "n": "70",
+    "name": "возможность обжаловать решения властей",
+    "plus": "больше возможностей оспаривать и жаловаться",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "71",
+  "name_ru": "автономия судебной системы",
+  "name_en": "Autonomy of the judiciary",
+  "plus_en": "The judiciary and its leadership are more self-governing.",
+  "minus_en": "The judiciary is subject to more external influence.",
+  "members": [
+   {
+    "n": "71",
+    "name": "автономия и независимость судебной системы",
+    "plus": "судебная система самостоятельнее",
+    "minus": "больше внешнего влияния",
+    "flip": false
+   },
+   {
+    "n": "376",
+    "name": "полномочия руководства судебной системы",
+    "plus": "больше усмотрения председателя и руководства судов",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "72",
+  "name_ru": "влияние политиков на назначение судей",
+  "name_en": "Political influence on judicial appointments",
+  "plus_en": "Politicians have more influence on appointing judges; the Bar and sitting judges have less.",
+  "minus_en": "Politicians have less influence; the Bar and sitting judges have more.",
+  "members": [
+   {
+    "n": "72",
+    "name": "влияние политической власти на назначение судей",
+    "plus": "политики влияют больше",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "73",
+    "name": "влияние адвокатуры и профессиональных организаций на назначения",
+    "plus": "больше участия",
+    "minus": "меньше",
+    "flip": true
+   },
+   {
+    "n": "74",
+    "name": "влияние судей на назначение судей",
+    "plus": "больше веса судей",
+    "minus": "меньше",
+    "flip": true
+   }
+  ]
+ },
+ {
+  "key": "75",
+  "name_ru": "права парламентской оппозиции",
+  "name_en": "Rights of the parliamentary opposition",
+  "plus_en": "Guarantees the opposition more seats and powers.",
+  "minus_en": "Guarantees the opposition fewer seats and powers.",
+  "members": [
+   {
+    "n": "75",
+    "name": "права парламентской оппозиции",
+    "plus": "больше гарантированных мест и полномочий",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "76",
+  "name_ru": "кадровые ресурсы и структура судебной системы",
+  "name_en": "Staffing and structure of the judiciary",
+  "plus_en": "Adds judges, positions or resources to the court system.",
+  "minus_en": "Reduces judges, positions or resources.",
+  "members": [
+   {
+    "n": "76",
+    "name": "кадровые ресурсы и структура судебной системы",
+    "plus": "больше судей, должностей, ресурсов",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "77",
+  "name_ru": "полномочия и ресурсы силовых и правоохранительных органов",
+  "name_en": "Powers and resources of security and law enforcement",
+  "plus_en": "Broadens powers to detain, search, surveil and use force, adds resources or discretion for security forces.",
+  "minus_en": "Narrows such powers, resources or discretion.",
+  "members": [
+   {
+    "n": "77",
+    "name": "полномочия силовых и правоохранительных органов",
+    "plus": "больше полномочий задерживать, обыскивать, следить",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "78",
+    "name": "допустимое применение силы и оружия силовиками",
+    "plus": "шире",
+    "minus": "уже",
+    "flip": false
+   },
+   {
+    "n": "79",
+    "name": "ресурсы правоохранительных органов",
+    "plus": "больше ресурсов",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "194",
+    "name": "дискреция руководителей силовых структур",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "80",
+  "name_ru": "подотчётность и внешний надзор над силовыми структурами",
+  "name_en": "Accountability and oversight of security forces",
+  "plus_en": "Adds external oversight and accountability for security forces.",
+  "minus_en": "Reduces oversight and accountability.",
+  "members": [
+   {
+    "n": "80",
+    "name": "подотчётность и внешний надзор над силовыми структурами",
+    "plus": "больше надзора и ответственности",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "81",
+  "name_ru": "сфера и строгость уголовной ответственности",
+  "name_en": "Scope and severity of criminal liability",
+  "plus_en": "Criminalizes more conduct or makes punishments harsher, with less use of non-custodial sentences.",
+  "minus_en": "Decriminalizes or makes punishments milder, with wider use of non-custodial sentences.",
+  "members": [
+   {
+    "n": "81",
+    "name": "строгость уголовных наказаний",
+    "plus": "строже (сроки, минимумы)",
+    "minus": "мягче",
+    "flip": false
+   },
+   {
+    "n": "83",
+    "name": "сфера и строгость уголовной ответственности (смешанная)",
+    "plus": "новые преступления и/или строже наказания",
+    "minus": "декриминализация и/или мягче",
+    "flip": false
+   },
+   {
+    "n": "84",
+    "name": "объём уголовно наказуемого поведения",
+    "plus": "больше деяний криминализовано",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "86",
+    "name": "использование альтернативных наказаний",
+    "plus": "шире наказания без лишения свободы",
+    "minus": "уже",
+    "flip": true
+   }
+  ]
+ },
+ {
+  "key": "85",
+  "name_ru": "уголовный запрет на подстрекательство и защита групп от ненависти",
+  "name_en": "Criminal bans on incitement and hate",
+  "plus_en": "Covers more groups and acts under incitement and hate prohibitions.",
+  "minus_en": "Covers fewer groups and acts.",
+  "members": [
+   {
+    "n": "85",
+    "name": "уголовный запрет на подстрекательство и защита групп от ненависти",
+    "plus": "больше групп и деяний под запретом",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "88",
+  "name_ru": "полномочия регулирующих и надзорных органов",
+  "name_en": "Powers of regulatory and supervisory agencies",
+  "plus_en": "Gives regulators more powers, discretion and out-of-court administrative sanctions.",
+  "minus_en": "Gives regulators fewer powers; their decisions are more tightly set by law.",
+  "members": [
+   {
+    "n": "87",
+    "name": "административные санкционные полномочия",
+    "plus": "больше админ. санкций и взыскания без суда",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "88",
+    "name": "полномочия регулирующих и надзорных органов",
+    "plus": "больше полномочий",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "334",
+    "name": "свобода усмотрения регулятора",
+    "plus": "больше",
+    "minus": "решения жёстче заданы законом",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "89",
+  "name_ru": "подотчётность избранных должностных лиц",
+  "name_en": "Accountability of elected officials",
+  "plus_en": "Imposes more consequences on elected officials who violate rules.",
+  "minus_en": "Imposes fewer consequences.",
+  "members": [
+   {
+    "n": "89",
+    "name": "подотчётность избранных должностных лиц",
+    "plus": "больше последствий для нарушающих",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "90",
+  "name_ru": "процессуальные права подозреваемых и обвиняемых",
+  "name_en": "Procedural rights of suspects and defendants",
+  "plus_en": "Gives suspects and defendants more safeguards.",
+  "minus_en": "Gives them fewer safeguards.",
+  "members": [
+   {
+    "n": "90",
+    "name": "процессуальные права подозреваемых и обвиняемых",
+    "plus": "больше гарантий",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "91",
+  "name_ru": "свидетельские привилегии",
+  "name_en": "Testimonial privileges",
+  "plus_en": "Adds protected categories of privileged communication.",
+  "minus_en": "Removes protected categories.",
+  "members": [
+   {
+    "n": "91",
+    "name": "свидетельские привилегии",
+    "plus": "больше защищённых категорий",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "92",
+  "name_ru": "права и условия содержания заключённых и осуждённых",
+  "name_en": "Rights and conditions of prisoners",
+  "plus_en": "Gives prisoners more rights or milder conditions.",
+  "minus_en": "Gives prisoners fewer rights or harsher conditions.",
+  "members": [
+   {
+    "n": "92",
+    "name": "права и условия содержания заключённых и осуждённых",
+    "plus": "больше прав, мягче условия",
+    "minus": "меньше, строже",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "93",
+  "name_ru": "международный доступ в места заключения",
+  "name_en": "International access to detention facilities",
+  "plus_en": "Allows more international access to places of detention.",
+  "minus_en": "Allows less such access.",
+  "members": [
+   {
+    "n": "93",
+    "name": "международный доступ в места заключения",
+    "plus": "больше доступа",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "94",
+  "name_ru": "права и поддержка потерпевших от преступлений",
+  "name_en": "Rights and support for crime victims",
+  "plus_en": "Gives crime victims more rights, assistance or compensation.",
+  "minus_en": "Gives them fewer rights, assistance or compensation.",
+  "members": [
+   {
+    "n": "94",
+    "name": "права и поддержка потерпевших от преступлений",
+    "plus": "больше прав, помощи, компенсаций",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "95",
+  "name_ru": "ответственность государства и учреждений перед гражданами",
+  "name_en": "Liability of the state and institutions to citizens",
+  "plus_en": "Widens the liability of the state and institutions toward citizens.",
+  "minus_en": "Narrows that liability.",
+  "members": [
+   {
+    "n": "95",
+    "name": "ответственность государства и учреждений перед гражданами",
+    "plus": "шире ответственность",
+    "minus": "уже",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "96",
+  "name_ru": "ответственность правонарушителей",
+  "name_en": "Financial liability of offenders",
+  "plus_en": "Offenders answer more with their property.",
+  "minus_en": "Offenders answer less with their property.",
+  "members": [
+   {
+    "n": "96",
+    "name": "ответственность правонарушителей",
+    "plus": "отвечают имуществом больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "97",
+  "name_ru": "защита от насилия и его профилактика",
+  "name_en": "Protection from and prevention of violence",
+  "plus_en": "Adds protection from violence, bullying and harassment, or more prevention measures.",
+  "minus_en": "Reduces such protection or prevention.",
+  "members": [
+   {
+    "n": "97",
+    "name": "защита от насилия, травли и домогательств",
+    "plus": "больше защиты",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "102",
+    "name": "профилактика насилия и преступлений",
+    "plus": "больше мер",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "98",
+  "name_ru": "принудительные меры в отношении лиц под защитным приказом",
+  "name_en": "Coercive measures against persons under protective orders",
+  "plus_en": "Imposes more measures and obligations on persons subject to protective orders.",
+  "minus_en": "Imposes fewer such measures.",
+  "members": [
+   {
+    "n": "98",
+    "name": "принудительные меры в отношении лиц под защитным приказом",
+    "plus": "больше мер и обязанностей",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "99",
+  "name_ru": "защита детей",
+  "name_en": "Child protection",
+  "plus_en": "Adds child protection mechanisms.",
+  "minus_en": "Removes child protection mechanisms.",
+  "members": [
+   {
+    "n": "99",
+    "name": "защита детей",
+    "plus": "больше механизмов",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "100",
+  "name_ru": "надзор и камеры в учреждениях",
+  "name_en": "Surveillance and cameras in institutions",
+  "plus_en": "Adds monitoring and cameras in institutions.",
+  "minus_en": "Reduces monitoring and cameras.",
+  "members": [
+   {
+    "n": "100",
+    "name": "надзор и камеры в учреждениях",
+    "plus": "больше наблюдения",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "101",
+  "name_ru": "права родителей",
+  "name_en": "Parental rights",
+  "plus_en": "Gives parents more rights.",
+  "minus_en": "Gives parents fewer rights.",
+  "members": [
+   {
+    "n": "101",
+    "name": "права родителей",
+    "plus": "больше прав",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "103",
+  "name_ru": "защита должностных лиц от преследования",
+  "name_en": "Protection of officials from prosecution",
+  "plus_en": "Expands immunity of elected and senior officials, criminal-law protection of civil servants, or protection from international prosecution.",
+  "minus_en": "Narrows such immunity and protection.",
+  "members": [
+   {
+    "n": "103",
+    "name": "иммунитет выборных и высших должностных лиц от преследования",
+    "plus": "больше иммунитета",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "104",
+    "name": "уголовно-правовая защита государственных служащих",
+    "plus": "больше защиты",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "176",
+    "name": "защита должностных лиц от международного преследования",
+    "plus": "больше защиты",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "105",
+  "name_ru": "государственная охрана выборных лиц",
+  "name_en": "State security protection for elected officials",
+  "plus_en": "Extends state security details to more officials or for longer.",
+  "minus_en": "Reduces state security protection.",
+  "members": [
+   {
+    "n": "105",
+    "name": "государственная охрана выборных лиц",
+    "plus": "больше охраны",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "106",
+  "name_ru": "полномочия и автономия местного самоуправления",
+  "name_en": "Powers and autonomy of local government",
+  "plus_en": "Gives municipalities more powers and freedom.",
+  "minus_en": "Gives municipalities fewer powers and less freedom.",
+  "members": [
+   {
+    "n": "106",
+    "name": "полномочия и автономия местного самоуправления",
+    "plus": "больше полномочий и свободы муниципалитетов",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "107",
+  "name_ru": "контроль и полномочия центра над местной властью",
+  "name_en": "Central control over local government",
+  "plus_en": "The central government gets more control and powers over local authorities.",
+  "minus_en": "The central government gets less control over local authorities.",
+  "members": [
+   {
+    "n": "107",
+    "name": "контроль и полномочия центра над местной властью",
+    "plus": "больше у центра",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "108",
+  "name_ru": "финансовые ресурсы местных властей",
+  "name_en": "Financial resources of local authorities",
+  "plus_en": "Local authorities get more revenue.",
+  "minus_en": "Local authorities get less revenue.",
+  "members": [
+   {
+    "n": "108",
+    "name": "финансовые ресурсы местных властей",
+    "plus": "больше доходов",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "109",
+  "name_ru": "перераспределение средств между местными властями",
+  "name_en": "Redistribution of funds among local authorities",
+  "plus_en": "More funds are redistributed between local authorities.",
+  "minus_en": "Fewer funds are redistributed.",
+  "members": [
+   {
+    "n": "109",
+    "name": "перераспределение средств между местными властями",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "110",
+  "name_ru": "ограничения на занятие выборных и высших должностей",
+  "name_en": "Restrictions on holding elected and senior office",
+  "plus_en": "Adds restrictions on running for or holding senior office, or lengthens cooling-off periods after public service.",
+  "minus_en": "Eases such restrictions or shortens cooling-off periods.",
+  "members": [
+   {
+    "n": "110",
+    "name": "ограничения права быть избранным и занимать высшие должности",
+    "plus": "больше ограничений",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "111",
+    "name": "периоды охлаждения и ограничения после госслужбы",
+    "plus": "строже и дольше",
+    "minus": "мягче",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "112",
+  "name_ru": "автономия политических партий",
+  "name_en": "Autonomy of political parties",
+  "plus_en": "Parties are freer to run their affairs.",
+  "minus_en": "Parties face more requirements.",
+  "members": [
+   {
+    "n": "112",
+    "name": "автономия политических партий",
+    "plus": "партии свободнее",
+    "minus": "больше требований",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "113",
+  "name_ru": "концентрация власти внутри партий",
+  "name_en": "Concentration of power within parties",
+  "plus_en": "Party leaders get more power.",
+  "minus_en": "Party leaders get less power.",
+  "members": [
+   {
+    "n": "113",
+    "name": "концентрация власти внутри партий",
+    "plus": "больше власти у лидера",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "114",
+  "name_ru": "государственное финансирование партий и кампаний",
+  "name_en": "Public funding of parties and campaigns",
+  "plus_en": "Gives more public money to parties and campaigns or lowers the eligibility threshold.",
+  "minus_en": "Gives less money or raises the threshold.",
+  "members": [
+   {
+    "n": "114",
+    "name": "государственное финансирование партий и кампаний",
+    "plus": "больше денег или ниже порог",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "115",
+  "name_ru": "регулирование финансирования партий",
+  "name_en": "Regulation of party financing",
+  "plus_en": "Adds restrictions on party financing.",
+  "minus_en": "Eases restrictions on party financing.",
+  "members": [
+   {
+    "n": "115",
+    "name": "регулирование финансирования партий",
+    "plus": "больше ограничений",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "116",
+  "name_ru": "доступность участия партий в выборах",
+  "name_en": "Ease of party participation in elections",
+  "plus_en": "Makes it easier for parties to run in elections.",
+  "minus_en": "Makes it harder for parties to run.",
+  "members": [
+   {
+    "n": "116",
+    "name": "доступность участия партий в выборах",
+    "plus": "проще участвовать",
+    "minus": "сложнее",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "117",
+  "name_ru": "доступность голосования и избирательные права",
+  "name_en": "Voting access and franchise",
+  "plus_en": "Makes voting easier or extends the right to vote to more people.",
+  "minus_en": "Makes voting harder or restricts who may vote.",
+  "members": [
+   {
+    "n": "117",
+    "name": "доступность голосования",
+    "plus": "легче голосовать",
+    "minus": "труднее",
+    "flip": false
+   },
+   {
+    "n": "118",
+    "name": "избирательные права",
+    "plus": "больше людей могут голосовать",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "119",
+  "name_ru": "ограничения предвыборной агитации",
+  "name_en": "Restrictions on election campaigning",
+  "plus_en": "Adds restrictions on campaigning.",
+  "minus_en": "Eases restrictions on campaigning.",
+  "members": [
+   {
+    "n": "119",
+    "name": "ограничения предвыборной агитации",
+    "plus": "больше ограничений",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "120",
+  "name_ru": "полномочия избирательных органов",
+  "name_en": "Powers of election authorities",
+  "plus_en": "Gives election committees more powers, including over other state bodies and their staff.",
+  "minus_en": "Gives election committees fewer powers; other state bodies are more autonomous from them.",
+  "members": [
+   {
+    "n": "120",
+    "name": "полномочия избирательных органов",
+    "plus": "больше полномочий",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "121",
+    "name": "автономия госорганов от избирательных комиссий (освобождение работников)",
+    "plus": "больше самостоятельности",
+    "minus": "меньше",
+    "flip": true
+   }
+  ]
+ },
+ {
+  "key": "122",
+  "name_ru": "защита избирательного процесса",
+  "name_en": "Protection of the electoral process",
+  "plus_en": "Adds safeguards for the electoral process.",
+  "minus_en": "Reduces safeguards for the electoral process.",
+  "members": [
+   {
+    "n": "122",
+    "name": "защита избирательного процесса",
+    "plus": "больше защиты",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "123",
+  "name_ru": "срок полномочий Кнессета и продление без выборов",
+  "name_en": "Length of the Knesset's term",
+  "plus_en": "Lengthens the Knesset's term or extends terms without elections, postponing elections.",
+  "minus_en": "Shortens the term, e.g. by dissolution, or shortens extensions.",
+  "members": [
+   {
+    "n": "123",
+    "name": "срок полномочий Кнессета",
+    "plus": "дольше",
+    "minus": "короче (роспуск)",
+    "flip": false
+   },
+   {
+    "n": "125",
+    "name": "продолжение полномочий без переизбрания",
+    "plus": "сроки продлеваются, выборы откладываются",
+    "minus": "сроки сокращаются",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "124",
+  "name_ru": "срок пребывания в должности",
+  "name_en": "Length of tenure in office",
+  "plus_en": "Lengthens tenure in office, including judges' tenure.",
+  "minus_en": "Shortens or caps tenure in office.",
+  "members": [
+   {
+    "n": "124",
+    "name": "срок пребывания в должности",
+    "plus": "дольше",
+    "minus": "короче или ограничен",
+    "flip": false
+   },
+   {
+    "n": "126",
+    "name": "срок пребывания судей в должности",
+    "plus": "дольше",
+    "minus": "короче",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "127",
+  "name_ru": "порог большинства при назначениях в судебную систему",
+  "name_en": "Majority threshold for judicial appointments",
+  "plus_en": "Raises the majority required for appointments in the judiciary.",
+  "minus_en": "Lowers the required majority.",
+  "members": [
+   {
+    "n": "127",
+    "name": "порог большинства при назначениях в судебную систему",
+    "plus": "выше",
+    "minus": "ниже",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "128",
+  "name_ru": "допустимые модели формирования правительства",
+  "name_en": "Permitted models of government formation",
+  "plus_en": "Allows more models of forming a government.",
+  "minus_en": "Allows fewer models.",
+  "members": [
+   {
+    "n": "128",
+    "name": "допустимые модели формирования правительства",
+    "plus": "больше моделей",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "129",
+  "name_ru": "барьеры досрочного роспуска Кнессета",
+  "name_en": "Barriers to early Knesset dissolution",
+  "plus_en": "Makes early dissolution of the Knesset harder.",
+  "minus_en": "Makes early dissolution easier.",
+  "members": [
+   {
+    "n": "129",
+    "name": "барьеры досрочного роспуска Кнессета",
+    "plus": "роспуск труднее",
+    "minus": "легче",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "130",
+  "name_ru": "режим чрезвычайного положения",
+  "name_en": "Reliance on state of emergency",
+  "plus_en": "Extends emergency measures or makes more legislation depend on a declared state of emergency.",
+  "minus_en": "Shortens emergency measures or reduces legislation's dependence on a state of emergency.",
+  "members": [
+   {
+    "n": "130",
+    "name": "срок действия чрезвычайных мер",
+    "plus": "дольше",
+    "minus": "короче",
+    "flip": false
+   },
+   {
+    "n": "131",
+    "name": "опора законодательства на режим ЧП",
+    "plus": "больше норм зависит от ЧП",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "132",
+  "name_ru": "продолжительность установленных законом сроков процедур",
+  "name_en": "Length of statutory procedural deadlines",
+  "plus_en": "Lengthens statutory deadlines for procedures.",
+  "minus_en": "Shortens statutory deadlines.",
+  "members": [
+   {
+    "n": "132",
+    "name": "продолжительность установленных законом сроков процедур",
+    "plus": "длиннее",
+    "minus": "короче",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "133",
+  "name_ru": "сроки давности для требований граждан",
+  "name_en": "Limitation periods for citizens' claims",
+  "plus_en": "Lengthens limitation periods for claims.",
+  "minus_en": "Shortens limitation periods.",
+  "members": [
+   {
+    "n": "133",
+    "name": "сроки давности для требований граждан",
+    "plus": "дольше",
+    "minus": "короче",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "134",
+  "name_ru": "свобода выражения и протеста",
+  "name_en": "Freedom of expression and protest",
+  "plus_en": "Permits more speech, assembly and protest.",
+  "minus_en": "Prohibits more speech or restricts assembly and protest.",
+  "members": [
+   {
+    "n": "134",
+    "name": "свобода выражения",
+    "plus": "больше допустимых высказываний",
+    "minus": "больше запрещено",
+    "flip": false
+   },
+   {
+    "n": "135",
+    "name": "свобода собраний и протеста",
+    "plus": "шире",
+    "minus": "уже",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "136",
+  "name_ru": "правовая защита репутации",
+  "name_en": "Legal protection of reputation",
+  "plus_en": "Strengthens protection against defamation and sanctions for speech.",
+  "minus_en": "Weakens protection against defamation.",
+  "members": [
+   {
+    "n": "136",
+    "name": "правовая защита репутации",
+    "plus": "больше защиты от клеветы и санкций за высказывания",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "137",
+  "name_ru": "полномочия государства ограничивать СМИ и интернет-контент",
+  "name_en": "State powers to restrict media and online content",
+  "plus_en": "Gives the state more powers to restrict media and internet content.",
+  "minus_en": "Gives the state fewer such powers.",
+  "members": [
+   {
+    "n": "137",
+    "name": "полномочия государства ограничивать СМИ и интернет-контент",
+    "plus": "больше полномочий",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "138",
+  "name_ru": "независимость общественных СМИ от правительства",
+  "name_en": "Independence of public broadcasting from government",
+  "plus_en": "Makes public broadcasting more independent of the government.",
+  "minus_en": "Makes public broadcasting more dependent on the government.",
+  "members": [
+   {
+    "n": "138",
+    "name": "независимость общественных СМИ от правительства",
+    "plus": "независимее",
+    "minus": "зависимее",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "139",
+  "name_ru": "государственное финансирование СМИ",
+  "name_en": "Public funding of media",
+  "plus_en": "Gives media more public funding.",
+  "minus_en": "Gives media less public funding.",
+  "members": [
+   {
+    "n": "139",
+    "name": "государственное финансирование СМИ",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "140",
+  "name_ru": "возможности частных СМИ вещать",
+  "name_en": "Broadcasting opportunities of private media",
+  "plus_en": "Gives private media more broadcasting opportunities and more secure licenses.",
+  "minus_en": "Gives private media fewer opportunities or less secure licenses.",
+  "members": [
+   {
+    "n": "140",
+    "name": "возможности частных СМИ вещать",
+    "plus": "больше возможностей и устойчивее лицензии",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "141",
+  "name_ru": "участие государства в экономике и СМИ",
+  "name_en": "State ownership in the economy and media",
+  "plus_en": "Increases state ownership.",
+  "minus_en": "Privatizes state holdings.",
+  "members": [
+   {
+    "n": "141",
+    "name": "участие государства в экономике и СМИ",
+    "plus": "больше госсобственности",
+    "minus": "приватизация",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "142",
+  "name_ru": "доступ публики к медиаконтенту",
+  "name_en": "Public access to media content",
+  "plus_en": "Makes more media content freely available to the public.",
+  "minus_en": "Makes less media content freely available.",
+  "members": [
+   {
+    "n": "142",
+    "name": "доступ публики к медиаконтенту",
+    "plus": "больше бесплатного",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "143",
+  "name_ru": "защита животных",
+  "name_en": "Animal protection",
+  "plus_en": "Strengthens protection of animals.",
+  "minus_en": "Weakens protection of animals.",
+  "members": [
+   {
+    "n": "143",
+    "name": "защита животных",
+    "plus": "больше защиты",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "144",
+  "name_ru": "экологическое регулирование",
+  "name_en": "Scope of environmental regulation",
+  "plus_en": "Adds environmental requirements and nature protection, or gives environmental authorities more influence.",
+  "minus_en": "Reduces environmental requirements or the influence of environmental authorities.",
+  "members": [
+   {
+    "n": "144",
+    "name": "объём экологического регулирования",
+    "plus": "больше экологических требований и охраны природы",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "145",
+    "name": "полномочия природоохранных органов",
+    "plus": "больше влияния",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "146",
+  "name_ru": "защита частной жизни и персональных данных",
+  "name_en": "Privacy and personal data protection",
+  "plus_en": "Protects privacy and personal data better.",
+  "minus_en": "Protects privacy and personal data less.",
+  "members": [
+   {
+    "n": "146",
+    "name": "защита частной жизни и персональных данных",
+    "plus": "лучше защищены",
+    "minus": "хуже",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "147",
+  "name_ru": "сбор и передача данных государственными органами",
+  "name_en": "Government collection and sharing of data",
+  "plus_en": "Lets state bodies collect, access and share more data, including with foreign states.",
+  "minus_en": "Restricts state collection, access and sharing of data.",
+  "members": [
+   {
+    "n": "147",
+    "name": "доступ и сбор данных государственными органами",
+    "plus": "больше сбора, доступа и обмена",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "148",
+    "name": "передача персональных данных иностранным государствам",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "149",
+  "name_ru": "личная свобода и автономия",
+  "name_en": "Personal liberty and autonomy",
+  "plus_en": "Gives individuals more freedom of personal choice, private conduct and privacy.",
+  "minus_en": "Increases state interference or prohibitions on private conduct.",
+  "members": [
+   {
+    "n": "149",
+    "name": "личная автономия и неприкосновенность частной жизни",
+    "plus": "больше свободы личного выбора и приватности",
+    "minus": "больше вмешательства",
+    "flip": false
+   },
+   {
+    "n": "150",
+    "name": "личная свобода частного поведения",
+    "plus": "больше свободы в личных делах",
+    "minus": "больше запретов",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "151",
+  "name_ru": "роль религиозных норм в государстве и публичной сфере",
+  "name_en": "Role of religious norms in state and public life",
+  "plus_en": "Religious law and norms govern more of the state and public sphere, including gender-segregated spaces.",
+  "minus_en": "Religious norms govern less; more secular alternatives and fewer segregated spaces.",
+  "members": [
+   {
+    "n": "151",
+    "name": "религиозные нормы в публичной сфере",
+    "plus": "религиозные нормы влияют больше",
+    "minus": "меньше, светские альтернативы",
+    "flip": false
+   },
+   {
+    "n": "152",
+    "name": "гендерная сегрегация в общественных местах",
+    "plus": "больше раздельных пространств",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "153",
+    "name": "роль религиозного права и норм в государстве",
+    "plus": "религиозное право определяет больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "154",
+  "name_ru": "полномочия религиозных институтов и судов",
+  "name_en": "Powers of religious institutions and courts",
+  "plus_en": "Gives religious institutions more powers and monopoly, extends Rabbinate and state control over religious bodies, or widens religious courts' jurisdiction.",
+  "minus_en": "Reduces these powers, control or jurisdiction.",
+  "members": [
+   {
+    "n": "154",
+    "name": "полномочия религиозных институтов",
+    "plus": "больше полномочий и монополии",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "155",
+    "name": "контроль государства и раввината над религиозными органами",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "157",
+    "name": "юрисдикция религиозных судов",
+    "plus": "шире",
+    "minus": "уже",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "156",
+  "name_ru": "доступность признаваемого гиюра",
+  "name_en": "Availability of recognized conversion",
+  "plus_en": "Creates more routes to recognized conversion (giyur).",
+  "minus_en": "Narrows routes to recognized conversion.",
+  "members": [
+   {
+    "n": "156",
+    "name": "доступность признаваемого гиюра",
+    "plus": "больше путей",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "158",
+  "name_ru": "доступность гражданских способов личного статуса",
+  "name_en": "Availability of civil personal-status options",
+  "plus_en": "Adds non-religious options for marriage and personal status.",
+  "minus_en": "Removes non-religious options.",
+  "members": [
+   {
+    "n": "158",
+    "name": "доступность гражданских способов личного статуса",
+    "plus": "больше нерелигиозных способов",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "159",
+  "name_ru": "доступ к расторжению брака",
+  "name_en": "Access to divorce",
+  "plus_en": "Makes divorce easier to obtain.",
+  "minus_en": "Makes divorce harder to obtain.",
+  "members": [
+   {
+    "n": "159",
+    "name": "доступ к расторжению брака",
+    "plus": "проще развестись",
+    "minus": "сложнее",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "160",
+  "name_ru": "государственное регулирование семейных отношений",
+  "name_en": "State regulation of family relations",
+  "plus_en": "Increases state involvement in family relations.",
+  "minus_en": "Reduces state involvement in family relations.",
+  "members": [
+   {
+    "n": "160",
+    "name": "государственное регулирование семейных отношений",
+    "plus": "больше участия государства",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "161",
+  "name_ru": "автономия религиозных институтов",
+  "name_en": "Autonomy of religious institutions",
+  "plus_en": "Religious institutions decide more for themselves.",
+  "minus_en": "Religious institutions face more outside intervention.",
+  "members": [
+   {
+    "n": "161",
+    "name": "автономия религиозных институтов",
+    "plus": "определяют сами",
+    "minus": "больше внешнего вмешательства",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "162",
+  "name_ru": "свобода вероисповедания и обрядов",
+  "name_en": "Freedom of religion and worship",
+  "plus_en": "Widens freedom of religion and religious practice.",
+  "minus_en": "Narrows freedom of religion and religious practice.",
+  "members": [
+   {
+    "n": "162",
+    "name": "свобода вероисповедания и обрядов",
+    "plus": "шире",
+    "minus": "уже",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "163",
+  "name_ru": "государственная поддержка религиозных институтов и практик",
+  "name_en": "State support for religious institutions and practice",
+  "plus_en": "Gives more state support to religious institutions and practices.",
+  "minus_en": "Gives less state support.",
+  "members": [
+   {
+    "n": "163",
+    "name": "государственная поддержка религиозных институтов и практик",
+    "plus": "больше поддержки",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "164",
+  "name_ru": "государственная поддержка еврейской идентичности и диаспоры",
+  "name_en": "State support for Jewish identity and the Diaspora",
+  "plus_en": "Gives more state support to Jewish identity programs and Diaspora ties.",
+  "minus_en": "Gives less such support.",
+  "members": [
+   {
+    "n": "164",
+    "name": "государственная поддержка еврейской идентичности и диаспоры",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "165",
+  "name_ru": "закрепление еврейского характера государства",
+  "name_en": "Legal entrenchment of the state's Jewish character",
+  "plus_en": "Entrenches the Jewish character of the state more strongly.",
+  "minus_en": "Entrenches it more weakly.",
+  "members": [
+   {
+    "n": "165",
+    "name": "закрепление еврейского характера государства",
+    "plus": "сильнее",
+    "minus": "слабее",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "166",
+  "name_ru": "территория под израильским суверенитетом и правом",
+  "name_en": "Territory under Israeli sovereignty and law",
+  "plus_en": "Applies Israeli sovereignty or law to more territory.",
+  "minus_en": "Applies Israeli sovereignty or law to less territory.",
+  "members": [
+   {
+    "n": "166",
+    "name": "территория под израильским суверенитетом и правом",
+    "plus": "на большей территории",
+    "minus": "на меньшей",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "167",
+  "name_ru": "военное управление территориями",
+  "name_en": "Military administration of the territories",
+  "plus_en": "Gives the military administration and the Defense Minister a larger role and more discretion in Judea and Samaria.",
+  "minus_en": "Reduces their role and discretion.",
+  "members": [
+   {
+    "n": "167",
+    "name": "военное управление территориями",
+    "plus": "больше роли военной администрации",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "168",
+    "name": "полномочия министра обороны и военной администрации на территориях",
+    "plus": "больше усмотрения",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "169",
+  "name_ru": "поддержка и присутствие поселений в Иудее и Самарии",
+  "name_en": "Support for and presence of settlements in Judea and Samaria",
+  "plus_en": "Increases support for and presence of settlements.",
+  "minus_en": "Reduces support for and presence of settlements.",
+  "members": [
+   {
+    "n": "169",
+    "name": "поддержка и присутствие поселений в Иудее и Самарии",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "170",
+  "name_ru": "финансовые ресурсы Палестинской администрации",
+  "name_en": "Financial resources of the Palestinian Authority",
+  "plus_en": "The Palestinian Authority receives more funds.",
+  "minus_en": "The Palestinian Authority receives fewer funds (e.g. offsets, withholding).",
+  "members": [
+   {
+    "n": "170",
+    "name": "финансовые ресурсы Палестинской администрации",
+    "plus": "больше средств",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "171",
+  "name_ru": "экономические связи с враждебными образованиями (заодно даёт знаки 172)",
+  "name_en": "Economic ties with hostile entities",
+  "plus_en": "Permits more economic and other ties with hostile entities and states, or designates fewer of them as hostile.",
+  "minus_en": "Restricts economic and other ties with hostile entities and states, or designates more of them as hostile (e.g. declaring a state an enemy state).",
+  "members": [
+   {
+    "n": "171",
+    "name": "экономические связи с враждебными образованиями",
+    "plus": "больше разрешено",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "172",
+    "name": "ограничения отношений с враждебными государствами",
+    "plus": "не указано",
+    "minus": "не указано",
+    "flip": true
+   }
+  ]
+ },
+ {
+  "key": "173",
+  "name_ru": "присутствие иностранных государств и международных организаций",
+  "name_en": "Presence of foreign states and international organizations",
+  "plus_en": "Gives foreign states and international organizations more room to operate in Israel.",
+  "minus_en": "Restricts their activity in Israel.",
+  "members": [
+   {
+    "n": "173",
+    "name": "деятельность международных организаций в Израиле",
+    "plus": "больше возможностей",
+    "minus": "больше ограничений",
+    "flip": false
+   },
+   {
+    "n": "174",
+    "name": "присутствие иностранных государств",
+    "plus": "больше возможностей",
+    "minus": "больше ограничений",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "175",
+  "name_ru": "иммунитет иностранных государств",
+  "name_en": "Immunity of foreign states",
+  "plus_en": "Widens immunity of foreign states from Israeli courts.",
+  "minus_en": "Narrows such immunity.",
+  "members": [
+   {
+    "n": "175",
+    "name": "иммунитет иностранных государств",
+    "plus": "шире",
+    "minus": "уже",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "177",
+  "name_ru": "сотрудничество с международными судами",
+  "name_en": "Cooperation with international courts",
+  "plus_en": "Increases cooperation with international courts.",
+  "minus_en": "Reduces cooperation with international courts.",
+  "members": [
+   {
+    "n": "177",
+    "name": "сотрудничество с международными судами",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "178",
+  "name_ru": "меры против терроризма и его финансирования",
+  "name_en": "Counter-terrorism and terror-financing measures",
+  "plus_en": "Adds measures and sanctions against terrorism and its financing.",
+  "minus_en": "Reduces such measures and sanctions.",
+  "members": [
+   {
+    "n": "178",
+    "name": "меры против терроризма и его финансирования",
+    "plus": "больше мер и санкций",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "179",
+  "name_ru": "допуск иностранцев на въезд и пребывание",
+  "name_en": "Admission of foreigners for entry and residence",
+  "plus_en": "Makes it easier for foreigners to enter and stay.",
+  "minus_en": "Makes it harder for foreigners to enter and stay.",
+  "members": [
+   {
+    "n": "179",
+    "name": "допуск иностранцев на въезд и пребывание",
+    "plus": "легче въехать и остаться",
+    "minus": "труднее",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "180",
+  "name_ru": "приток иностранной рабочей силы",
+  "name_en": "Inflow of foreign workers",
+  "plus_en": "Allows more foreign workers or makes hiring them easier and cheaper.",
+  "minus_en": "Allows fewer foreign workers or makes hiring them harder.",
+  "members": [
+   {
+    "n": "180",
+    "name": "приток иностранной рабочей силы",
+    "plus": "больше, проще и дешевле найм",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "181",
+  "name_ru": "права иностранных работников",
+  "name_en": "Rights of foreign workers",
+  "plus_en": "Gives foreign workers more rights.",
+  "minus_en": "Gives foreign workers fewer rights.",
+  "members": [
+   {
+    "n": "181",
+    "name": "права иностранных работников",
+    "plus": "больше прав",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "182",
+  "name_ru": "права иностранцев на социальную помощь",
+  "name_en": "Foreigners' entitlement to social assistance",
+  "plus_en": "Gives foreigners more entitlement to social assistance.",
+  "minus_en": "Gives foreigners less entitlement.",
+  "members": [
+   {
+    "n": "182",
+    "name": "права иностранцев на социальную помощь",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "183",
+  "name_ru": "доступ к гражданству и репатриации",
+  "name_en": "Access to citizenship and aliyah",
+  "plus_en": "Makes citizenship and aliyah easier to obtain.",
+  "minus_en": "Makes them harder to obtain.",
+  "members": [
+   {
+    "n": "183",
+    "name": "доступ к гражданству и репатриации",
+    "plus": "легче",
+    "minus": "труднее",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "184",
+  "name_ru": "полномочия лишать гражданства и статуса",
+  "name_en": "Powers to revoke citizenship and status",
+  "plus_en": "Makes it easier to revoke citizenship or residency status.",
+  "minus_en": "Makes revocation harder.",
+  "members": [
+   {
+    "n": "184",
+    "name": "полномочия лишать гражданства и статуса",
+    "plus": "легче лишить",
+    "minus": "труднее",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "185",
+  "name_ru": "охват воинской обязанности",
+  "name_en": "Scope of compulsory military service",
+  "plus_en": "More people serve, or serve longer.",
+  "minus_en": "Fewer people serve, or serve shorter.",
+  "members": [
+   {
+    "n": "185",
+    "name": "охват воинской обязанности",
+    "plus": "служат больше людей и дольше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "186",
+  "name_ru": "доступность альтернатив военной службе",
+  "name_en": "Availability of alternatives to military service",
+  "plus_en": "Widens alternatives to military service (e.g. civilian/national service).",
+  "minus_en": "Narrows such alternatives.",
+  "members": [
+   {
+    "n": "186",
+    "name": "доступность альтернатив военной службе",
+    "plus": "шире",
+    "minus": "уже",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "187",
+  "name_ru": "привязка прав и льгот к службе",
+  "name_en": "Linkage of rights and benefits to service",
+  "plus_en": "Ties rights and benefits more strongly to military or national service.",
+  "minus_en": "Ties them more weakly.",
+  "members": [
+   {
+    "n": "187",
+    "name": "привязка прав и льгот к службе",
+    "plus": "сильнее",
+    "minus": "слабее",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "188",
+  "name_ru": "использование военных в гражданских функциях",
+  "name_en": "Use of the military in civilian functions",
+  "plus_en": "The military performs more civilian functions.",
+  "minus_en": "The military performs fewer civilian functions.",
+  "members": [
+   {
+    "n": "188",
+    "name": "использование военных в гражданских функциях",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "189",
+  "name_ru": "автономия армии от политиков и законодателя",
+  "name_en": "Autonomy of the military from politicians and legislators",
+  "plus_en": "The IDF command has more discretion vis-à-vis the political echelon and the Knesset.",
+  "minus_en": "The IDF command is subject to more political direction and statutory prescription.",
+  "members": [
+   {
+    "n": "189",
+    "name": "автономия военного командования от законодателя",
+    "plus": "больше усмотрения армии",
+    "minus": "больше предписаний",
+    "flip": false
+   },
+   {
+    "n": "190",
+    "name": "автономия армии от политического руководства",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "191",
+  "name_ru": "иерархический контроль командования",
+  "name_en": "Hierarchical command control",
+  "plus_en": "Strengthens hierarchical control by the command.",
+  "minus_en": "Weakens hierarchical control.",
+  "members": [
+   {
+    "n": "191",
+    "name": "иерархический контроль командования",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "192",
+  "name_ru": "военные меры охраны границы",
+  "name_en": "Military border security measures",
+  "plus_en": "Adds military measures to secure the border.",
+  "minus_en": "Reduces such measures.",
+  "members": [
+   {
+    "n": "192",
+    "name": "военные меры охраны границы",
+    "plus": "больше мер",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "193",
+  "name_ru": "допустимая цена сделок по освобождению пленных",
+  "name_en": "Permissible price of prisoner-release deals",
+  "plus_en": "The state may give more in deals to free captives.",
+  "minus_en": "The state may give less in such deals.",
+  "members": [
+   {
+    "n": "193",
+    "name": "допустимая цена сделок по освобождению пленных",
+    "plus": "государство отдаёт больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "195",
+  "name_ru": "дисциплинарный контроль над работниками госсектора",
+  "name_en": "Disciplinary control over public sector employees",
+  "plus_en": "Makes it easier to suspend or dismiss public employees.",
+  "minus_en": "Makes it harder.",
+  "members": [
+   {
+    "n": "195",
+    "name": "дисциплинарный контроль над работниками госсектора",
+    "plus": "легче отстранять",
+    "minus": "труднее",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "196",
+  "name_ru": "признание и права национальных меньшинств",
+  "name_en": "Recognition and rights of national minorities",
+  "plus_en": "Gives national minorities more recognition and protection.",
+  "minus_en": "Gives them less recognition and protection.",
+  "members": [
+   {
+    "n": "196",
+    "name": "признание и права национальных меньшинств",
+    "plus": "больше признания и защиты",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "197",
+  "name_ru": "защита от дискриминации",
+  "name_en": "Protection against discrimination",
+  "plus_en": "Adds anti-discrimination prohibitions and protections, or broadens rights and priority for vulnerable groups.",
+  "minus_en": "Reduces such protections, rights or priority.",
+  "members": [
+   {
+    "n": "197",
+    "name": "защита от дискриминации",
+    "plus": "больше запретов и защиты",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "198",
+    "name": "права и защита от дискриминации отдельных групп (широкое)",
+    "plus": "права уязвимых групп шире",
+    "minus": "уже",
+    "flip": false
+   },
+   {
+    "n": "199",
+    "name": "защита и приоритет дискриминируемых групп (широкое)",
+    "plus": "сильнее защита и приоритет",
+    "minus": "слабее",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "200",
+  "name_ru": "квоты и преференции для недопредставленных групп",
+  "name_en": "Quotas and preferences for underrepresented groups",
+  "plus_en": "Adds quotas and preferences.",
+  "minus_en": "Reduces quotas and preferences.",
+  "members": [
+   {
+    "n": "200",
+    "name": "квоты и преференции для недопредставленных групп",
+    "plus": "больше квот и преференций",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "201",
+  "name_ru": "представительство женщин в публичных органах",
+  "name_en": "Representation of women in public bodies",
+  "plus_en": "Increases women's representation in public bodies.",
+  "minus_en": "Decreases women's representation.",
+  "members": [
+   {
+    "n": "201",
+    "name": "представительство женщин в публичных органах",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "202",
+  "name_ru": "гендерное равенство и права женщин",
+  "name_en": "Gender equality and women's rights",
+  "plus_en": "Increases gender equality in rights or women's rights and benefits.",
+  "minus_en": "Decreases them.",
+  "members": [
+   {
+    "n": "202",
+    "name": "гендерное равенство в правах",
+    "plus": "больше равенства",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "203",
+    "name": "права и льготы женщин",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "204",
+  "name_ru": "права ЛГБТ и признание нетрадиционных семей",
+  "name_en": "LGBT rights and recognition of non-traditional families",
+  "plus_en": "Gives LGBT people more rights and protection, or recognizes non-traditional families more.",
+  "minus_en": "Gives fewer rights or less recognition.",
+  "members": [
+   {
+    "n": "204",
+    "name": "права и защита ЛГБТ",
+    "plus": "больше прав и защиты",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "205",
+    "name": "признание нетрадиционных семей",
+    "plus": "больше признания",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "206",
+  "name_ru": "права людей с инвалидностью и пожилых",
+  "name_en": "Rights of people with disabilities and the elderly",
+  "plus_en": "Gives people with disabilities and the elderly more rights, accessibility and assistance.",
+  "minus_en": "Gives them fewer.",
+  "members": [
+   {
+    "n": "206",
+    "name": "права людей с инвалидностью",
+    "plus": "больше прав и доступности",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "207",
+    "name": "права пожилых и людей с инвалидностью",
+    "plus": "больше прав и помощи",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "208",
+  "name_ru": "права и защита работников",
+  "name_en": "Employee rights and protection",
+  "plus_en": "Gives employees more rights, leave, payments or protection from dismissal.",
+  "minus_en": "Gives employees fewer.",
+  "members": [
+   {
+    "n": "208",
+    "name": "права и защита работников",
+    "plus": "больше прав, отпусков, выплат, защиты от увольнения",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "209",
+  "name_ru": "продолжительность рабочего времени",
+  "name_en": "Working hours",
+  "plus_en": "People work more hours.",
+  "minus_en": "People work fewer hours.",
+  "members": [
+   {
+    "n": "209",
+    "name": "продолжительность рабочего времени",
+    "plus": "работают больше часов",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "211",
+  "name_ru": "обязанности и расходы работодателей",
+  "name_en": "Employer obligations and costs",
+  "plus_en": "Imposes more obligations, restrictions or costs on employers, including less flexibility in scheduling work.",
+  "minus_en": "Gives employers more freedom and scheduling flexibility, with fewer obligations or costs.",
+  "members": [
+   {
+    "n": "210",
+    "name": "гибкость распределения рабочего времени",
+    "plus": "работодатель свободнее",
+    "minus": "меньше",
+    "flip": true
+   },
+   {
+    "n": "211",
+    "name": "обязанности работодателей",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "212",
+    "name": "свобода работодателя",
+    "plus": "больше свободы",
+    "minus": "больше ограничений",
+    "flip": true
+   },
+   {
+    "n": "213",
+    "name": "финансовая нагрузка на работодателей",
+    "plus": "больше расходов",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "214",
+  "name_ru": "вознаграждение и привилегии выборных и бывших должностных лиц",
+  "name_en": "Pay and perks of elected and former officials",
+  "plus_en": "Raises pay of elected officials or benefits of former officials.",
+  "minus_en": "Lowers them.",
+  "members": [
+   {
+    "n": "214",
+    "name": "вознаграждение выборных должностных лиц",
+    "plus": "выше",
+    "minus": "ниже",
+    "flip": false
+   },
+   {
+    "n": "374",
+    "name": "привилегии бывших должностных лиц",
+    "plus": "больше льгот",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "215",
+  "name_ru": "оплата и статус работников госсектора",
+  "name_en": "Pay and status of public sector employees",
+  "plus_en": "Raises pay and status of public employees.",
+  "minus_en": "Lowers them.",
+  "members": [
+   {
+    "n": "215",
+    "name": "оплата и статус работников госсектора",
+    "plus": "выше",
+    "minus": "ниже",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "216",
+  "name_ru": "ограничения труда несовершеннолетних",
+  "name_en": "Restrictions on child labor",
+  "plus_en": "Tightens restrictions on work by minors.",
+  "minus_en": "Eases restrictions on work by minors.",
+  "members": [
+   {
+    "n": "216",
+    "name": "ограничения труда несовершеннолетних",
+    "plus": "строже",
+    "minus": "мягче",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "217",
+  "name_ru": "свобода работников выбирать профсоюз",
+  "name_en": "Workers' freedom to choose a union",
+  "plus_en": "Makes it easier to choose or switch union.",
+  "minus_en": "Makes it harder.",
+  "members": [
+   {
+    "n": "217",
+    "name": "свобода работников выбирать профсоюз",
+    "plus": "легче выбрать или сменить",
+    "minus": "труднее",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "218",
+  "name_ru": "сила профсоюзов и коллективных договоров",
+  "name_en": "Strength of unions and collective agreements",
+  "plus_en": "Gives unions and representative organizations more coverage, autonomy, powers, resources or influence, or widens coverage of collective agreements.",
+  "minus_en": "Restricts unions or narrows collective-agreement coverage.",
+  "members": [
+   {
+    "n": "218",
+    "name": "автономия профсоюзов",
+    "plus": "больше охват и свобода",
+    "minus": "ограничения государства",
+    "flip": false
+   },
+   {
+    "n": "219",
+    "name": "полномочия представительных организаций",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "220",
+    "name": "ресурсы и влияние профсоюзов",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "221",
+    "name": "охват коллективных трудовых договоров",
+    "plus": "шире",
+    "minus": "уже",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "222",
+  "name_ru": "представительство работников в управлении",
+  "name_en": "Employee representation in management",
+  "plus_en": "Gives employees more representation in management.",
+  "minus_en": "Gives employees less representation.",
+  "members": [
+   {
+    "n": "222",
+    "name": "представительство работников в управлении",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "223",
+  "name_ru": "обязанности государства перед работниками подрядчиков",
+  "name_en": "State obligations to contractor employees",
+  "plus_en": "The state has more obligations toward workers of its contractors.",
+  "minus_en": "The state has fewer such obligations.",
+  "members": [
+   {
+    "n": "223",
+    "name": "обязанности государства перед работниками подрядчиков",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "277",
+  "name_ru": "адресность и ограничения получения пособий",
+  "name_en": "Targeting and eligibility limits on benefits",
+  "plus_en": "Adds limits on who receives benefits or makes benefits more means-tested.",
+  "minus_en": "Removes limits or makes benefits more universal.",
+  "members": [
+   {
+    "n": "224",
+    "name": "ограничения на получателей пособий",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "277",
+    "name": "адресность льгот и выплат",
+    "plus": "сильнее зависят от достатка",
+    "minus": "универсальнее",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "225",
+  "name_ru": "защита миноритарных акционеров",
+  "name_en": "Protection of minority shareholders",
+  "plus_en": "Strengthens protection of minority shareholders.",
+  "minus_en": "Weakens it.",
+  "members": [
+   {
+    "n": "225",
+    "name": "защита миноритарных акционеров",
+    "plus": "больше защиты",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "226",
+  "name_ru": "возможности кредиторов",
+  "name_en": "Creditors' powers",
+  "plus_en": "Gives creditors more debt-collection tools, stronger insolvency rights or more and longer-held information about borrowers.",
+  "minus_en": "Gives creditors fewer such tools, rights or information.",
+  "members": [
+   {
+    "n": "226",
+    "name": "возможности кредиторов взыскивать долги",
+    "plus": "больше инструментов",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "228",
+    "name": "права кредиторов при несостоятельности",
+    "plus": "больше у группы",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "229",
+    "name": "информация о заёмщиках, доступная кредиторам",
+    "plus": "больше и дольше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "227",
+  "name_ru": "защита должников",
+  "name_en": "Protection of debtors",
+  "plus_en": "Strengthens protection of debtors.",
+  "minus_en": "Weakens protection of debtors.",
+  "members": [
+   {
+    "n": "227",
+    "name": "защита должников",
+    "plus": "больше защиты",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "230",
+  "name_ru": "доступность кредита",
+  "name_en": "Availability of credit",
+  "plus_en": "Makes credit easier to obtain.",
+  "minus_en": "Makes credit harder to obtain.",
+  "members": [
+   {
+    "n": "230",
+    "name": "доступность кредита",
+    "plus": "легче",
+    "minus": "труднее",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "231",
+  "name_ru": "защита собственности и свобода распоряжения ею",
+  "name_en": "Protection of property and freedom to dispose of it",
+  "plus_en": "Strengthens property rights and freedom to dispose of property, or limits state powers of expropriation.",
+  "minus_en": "Weakens property rights or expands expropriation powers.",
+  "members": [
+   {
+    "n": "231",
+    "name": "защита права собственности",
+    "plus": "сильнее защита",
+    "minus": "слабее",
+    "flip": false
+   },
+   {
+    "n": "232",
+    "name": "полномочия государства по изъятию имущества",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": true
+   },
+   {
+    "n": "237",
+    "name": "свобода распоряжения собственностью",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "233",
+  "name_ru": "государственный контроль над землёй и недвижимостью",
+  "name_en": "State control over land and real estate",
+  "plus_en": "Increases state control over land or state and municipal ownership of real estate.",
+  "minus_en": "Decreases such control or ownership.",
+  "members": [
+   {
+    "n": "233",
+    "name": "государственный контроль над землёй",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "234",
+    "name": "государственная и муниципальная собственность на недвижимость",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "235",
+  "name_ru": "права отдельного собственника в общем имуществе",
+  "name_en": "Rights of individual owners in shared property",
+  "plus_en": "Gives individual co-owners more rights in commonly owned property.",
+  "minus_en": "Gives them fewer rights.",
+  "members": [
+   {
+    "n": "235",
+    "name": "права отдельного собственника в общем имуществе",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "236",
+  "name_ru": "имущественные обязанности собственников",
+  "name_en": "Property owners' obligations",
+  "plus_en": "Imposes more obligations on property owners.",
+  "minus_en": "Imposes fewer obligations.",
+  "members": [
+   {
+    "n": "236",
+    "name": "имущественные обязанности собственников",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "238",
+  "name_ru": "права наследников",
+  "name_en": "Rights of heirs",
+  "plus_en": "Gives heirs more rights.",
+  "minus_en": "Gives heirs fewer rights.",
+  "members": [
+   {
+    "n": "238",
+    "name": "права наследников",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "239",
+  "name_ru": "лишение выгод от преступления",
+  "name_en": "Forfeiture of proceeds of crime",
+  "plus_en": "Widens forfeiture of proceeds of crime.",
+  "minus_en": "Narrows forfeiture.",
+  "members": [
+   {
+    "n": "239",
+    "name": "лишение выгод от преступления",
+    "plus": "шире",
+    "minus": "уже",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "240",
+  "name_ru": "строгость требований в планировании и строительстве",
+  "name_en": "Strictness of planning and building requirements",
+  "plus_en": "Tightens planning and building requirements and enforcement, or adds obligations on developers and owners.",
+  "minus_en": "Makes building simpler and faster, with fewer requirements.",
+  "members": [
+   {
+    "n": "240",
+    "name": "строгость требований и правоприменения в планировании и строительстве",
+    "plus": "строже",
+    "minus": "проще и быстрее строить",
+    "flip": false
+   },
+   {
+    "n": "347",
+    "name": "обязательные требования к застройщикам и собственникам",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "241",
+  "name_ru": "предложение жилья и объём строительства",
+  "name_en": "Housing supply and construction volume",
+  "plus_en": "Increases housing supply and construction.",
+  "minus_en": "Decreases housing supply and construction.",
+  "members": [
+   {
+    "n": "241",
+    "name": "предложение жилья и объём строительства",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "242",
+  "name_ru": "государственная помощь и вмешательство в рынок жилья",
+  "name_en": "State intervention and assistance in housing",
+  "plus_en": "Increases state housing assistance or intervention in the housing market.",
+  "minus_en": "Reduces it.",
+  "members": [
+   {
+    "n": "242",
+    "name": "государственная помощь в обеспечении жильём",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "243",
+    "name": "государственное вмешательство в рынок жилья",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "244",
+  "name_ru": "централизация планирования",
+  "name_en": "Centralization of planning",
+  "plus_en": "Moves more planning authority to central bodies.",
+  "minus_en": "Moves planning authority away from central bodies.",
+  "members": [
+   {
+    "n": "244",
+    "name": "централизация планирования",
+    "plus": "больше у центральных органов",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "245",
+  "name_ru": "полномочия органов планирования менять землепользование",
+  "name_en": "Planning authorities' power to change land use",
+  "plus_en": "Gives planning authorities more power to change land designation.",
+  "minus_en": "Gives them less such power.",
+  "members": [
+   {
+    "n": "245",
+    "name": "полномочия органов планирования менять землепользование",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "246",
+  "name_ru": "развитие инфраструктуры",
+  "name_en": "Infrastructure development",
+  "plus_en": "Creates more opportunity for infrastructure development.",
+  "minus_en": "Creates less.",
+  "members": [
+   {
+    "n": "246",
+    "name": "развитие инфраструктуры",
+    "plus": "больше возможностей",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "247",
+  "name_ru": "регулирование безопасности и защита населения",
+  "name_en": "Safety regulation and civil protection",
+  "plus_en": "Adds safety requirements and measures to protect the public.",
+  "minus_en": "Reduces them.",
+  "members": [
+   {
+    "n": "247",
+    "name": "защита и безопасность населения",
+    "plus": "больше мер",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "249",
+    "name": "регулирование безопасности",
+    "plus": "больше требований",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "248",
+  "name_ru": "государственное регулирование ради охраны здоровья",
+  "name_en": "Public health regulation",
+  "plus_en": "Tightens health-motivated restrictions or increases state pressure on citizens in health matters.",
+  "minus_en": "Eases such restrictions or pressure.",
+  "members": [
+   {
+    "n": "248",
+    "name": "государственное регулирование ради охраны здоровья",
+    "plus": "строже ограничения",
+    "minus": "мягче",
+    "flip": false
+   },
+   {
+    "n": "272",
+    "name": "давление государства на граждан в вопросах здоровья",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "250",
+  "name_ru": "государственный контроль над оборотом оружия",
+  "name_en": "State control over firearms",
+  "plus_en": "Tightens control over firearms.",
+  "minus_en": "Loosens control over firearms.",
+  "members": [
+   {
+    "n": "250",
+    "name": "государственный контроль над оборотом оружия",
+    "plus": "строже",
+    "minus": "мягче",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "251",
+  "name_ru": "регулирование профессий и барьеры входа",
+  "name_en": "Occupational regulation and entry barriers",
+  "plus_en": "Licenses more professions or tightens requirements for entering professions and positions.",
+  "minus_en": "Licenses fewer professions or eases entry.",
+  "members": [
+   {
+    "n": "251",
+    "name": "регулирование профессий",
+    "plus": "больше профессий лицензируется",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "252",
+    "name": "барьеры входа в профессии",
+    "plus": "требования строже",
+    "minus": "доступ проще",
+    "flip": false
+   },
+   {
+    "n": "363",
+    "name": "профессиональные требования для доступа к должностям",
+    "plus": "строже",
+    "minus": "мягче",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "253",
+  "name_ru": "объём государственного образования",
+  "name_en": "Scope of public education",
+  "plus_en": "Expands public educational services and funding, or enrolls more pupils in the state system.",
+  "minus_en": "Reduces them.",
+  "members": [
+   {
+    "n": "253",
+    "name": "объём государственных образовательных услуг и финансирования",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "316",
+    "name": "охват государственной системы образования",
+    "plus": "больше учеников в госсистеме",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "254",
+  "name_ru": "доступ к высшему образованию",
+  "name_en": "Access to higher education",
+  "plus_en": "Adds institutions or places in higher education.",
+  "minus_en": "Reduces them.",
+  "members": [
+   {
+    "n": "254",
+    "name": "доступ к высшему образованию",
+    "plus": "больше вузов и мест",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "255",
+  "name_ru": "финансирование негосударственного образования",
+  "name_en": "Funding of non-state education",
+  "plus_en": "Gives non-state schools more funding.",
+  "minus_en": "Gives them less funding.",
+  "members": [
+   {
+    "n": "255",
+    "name": "финансирование негосударственного образования",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "256",
+  "name_ru": "государственный контроль над образованием (автономия вузов — с обратным знаком)",
+  "name_en": "State control over education",
+  "plus_en": "Adds mandatory curriculum requirements, oversight of the system and of academic institutions, or obligations on schools; limits university autonomy.",
+  "minus_en": "Reduces such requirements and oversight; universities are freer.",
+  "members": [
+   {
+    "n": "256",
+    "name": "государственное регулирование содержания образования",
+    "plus": "больше обязательных требований к программе",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "257",
+    "name": "автономия вузов",
+    "plus": "свободнее",
+    "minus": "больше внешних требований",
+    "flip": true
+   },
+   {
+    "n": "258",
+    "name": "государственный контроль над системой образования",
+    "plus": "больше надзора",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "259",
+    "name": "государственный контроль над академическими учреждениями",
+    "plus": "не указано",
+    "minus": "не указано",
+    "flip": false
+   },
+   {
+    "n": "261",
+    "name": "обязанности учебных заведений",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "260",
+  "name_ru": "автономия организаций, получающих господдержку",
+  "name_en": "Autonomy of state-funded organizations",
+  "plus_en": "State-funded organizations are more autonomous.",
+  "minus_en": "State-funded organizations are less autonomous.",
+  "members": [
+   {
+    "n": "260",
+    "name": "автономия организаций, получающих господдержку",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "262",
+  "name_ru": "строгость школьной дисциплины",
+  "name_en": "Strictness of school discipline",
+  "plus_en": "Adds disciplinary sanctions in schools.",
+  "minus_en": "Reduces them.",
+  "members": [
+   {
+    "n": "262",
+    "name": "строгость школьной дисциплины",
+    "plus": "больше санкций",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "359",
+  "name_ru": "обязанности граждан перед государством",
+  "name_en": "Citizens' obligations to the state",
+  "plus_en": "Imposes more obligations on citizens, including duties to report to authorities.",
+  "minus_en": "Imposes fewer.",
+  "members": [
+   {
+    "n": "263",
+    "name": "обязанности сообщать властям",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "359",
+    "name": "обязанности граждан перед государством",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "264",
+  "name_ru": "права студентов",
+  "name_en": "Student rights",
+  "plus_en": "Gives students more rights.",
+  "minus_en": "Gives students fewer rights.",
+  "members": [
+   {
+    "n": "264",
+    "name": "права студентов",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "265",
+  "name_ru": "самостоятельность несовершеннолетних в решениях",
+  "name_en": "Decision-making autonomy of minors",
+  "plus_en": "Minors can decide more for themselves.",
+  "minus_en": "Minors can decide less for themselves.",
+  "members": [
+   {
+    "n": "265",
+    "name": "самостоятельность несовершеннолетних в решениях",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "266",
+  "name_ru": "полномочия опекунов в медицинских решениях",
+  "name_en": "Guardians' authority in medical decisions",
+  "plus_en": "Guardians have more say in medical decisions.",
+  "minus_en": "Guardians have less say.",
+  "members": [
+   {
+    "n": "266",
+    "name": "полномочия опекунов в медицинских решениях",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "267",
+  "name_ru": "роль суда в опекунских и медицинских решениях",
+  "name_en": "Court role in guardianship and medical decisions",
+  "plus_en": "More such decisions require court approval.",
+  "minus_en": "Fewer such decisions require court approval.",
+  "members": [
+   {
+    "n": "267",
+    "name": "роль суда в опекунских и медицинских решениях",
+    "plus": "больше решений требуют суда",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "268",
+  "name_ru": "права родственников недееспособных и зависимых",
+  "name_en": "Rights of relatives of incapacitated and dependent persons",
+  "plus_en": "Gives such relatives more rights.",
+  "minus_en": "Gives them fewer rights.",
+  "members": [
+   {
+    "n": "268",
+    "name": "права родственников недееспособных и зависимых",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "269",
+  "name_ru": "репродуктивная автономия и доступ к репродуктивным технологиям",
+  "name_en": "Reproductive autonomy and access to fertility technologies",
+  "plus_en": "Widens reproductive choices and access to reproductive technologies.",
+  "minus_en": "Narrows them.",
+  "members": [
+   {
+    "n": "269",
+    "name": "репродуктивная автономия и доступ к репродуктивным технологиям",
+    "plus": "больше возможностей",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "270",
+  "name_ru": "требование явного согласия на посмертное использование",
+  "name_en": "Explicit consent requirement for posthumous use",
+  "plus_en": "Tightens explicit-consent requirements for posthumous use (e.g. organs, gametes).",
+  "minus_en": "Relaxes them.",
+  "members": [
+   {
+    "n": "270",
+    "name": "требование явного согласия на посмертное использование",
+    "plus": "строже",
+    "minus": "мягче",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "271",
+  "name_ru": "ограничения на оборот и употребление психоактивных веществ",
+  "name_en": "Restrictions on psychoactive substances",
+  "plus_en": "Adds restrictions on trade and use of psychoactive substances.",
+  "minus_en": "Liberalizes them.",
+  "members": [
+   {
+    "n": "271",
+    "name": "ограничения на оборот и употребление психоактивных веществ",
+    "plus": "больше ограничений",
+    "minus": "либерализация",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "273",
+  "name_ru": "легальность азартных игр",
+  "name_en": "Legality of gambling",
+  "plus_en": "Permits more gambling.",
+  "minus_en": "Permits less gambling.",
+  "members": [
+   {
+    "n": "273",
+    "name": "легальность азартных игр",
+    "plus": "больше разрешено",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "274",
+  "name_ru": "пенсионный возраст",
+  "name_en": "Retirement age",
+  "plus_en": "Raises the retirement age.",
+  "minus_en": "Lowers the retirement age.",
+  "members": [
+   {
+    "n": "274",
+    "name": "пенсионный возраст",
+    "plus": "выше",
+    "minus": "ниже",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "275",
+  "name_ru": "свобода распоряжения пенсионными накоплениями",
+  "name_en": "Freedom to access pension savings",
+  "plus_en": "Gives more possibilities to withdraw pension savings.",
+  "minus_en": "Gives fewer such possibilities.",
+  "members": [
+   {
+    "n": "275",
+    "name": "свобода распоряжения пенсионными накоплениями",
+    "plus": "больше возможностей снять",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "276",
+  "name_ru": "государственная поддержка пенсионных накоплений",
+  "name_en": "State support for pension savings",
+  "plus_en": "Increases state support for pension savings.",
+  "minus_en": "Decreases it.",
+  "members": [
+   {
+    "n": "276",
+    "name": "государственная поддержка пенсионных накоплений",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "278",
+  "name_ru": "поддержка семей с детьми",
+  "name_en": "Support for families with children",
+  "plus_en": "Increases support for families with children.",
+  "minus_en": "Decreases it.",
+  "members": [
+   {
+    "n": "278",
+    "name": "поддержка семей с детьми",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "279",
+  "name_ru": "размер государственного аппарата",
+  "name_en": "Size of the government apparatus",
+  "plus_en": "Adds government bodies and positions.",
+  "minus_en": "Removes government bodies and positions.",
+  "members": [
+   {
+    "n": "279",
+    "name": "размер государственного аппарата",
+    "plus": "больше органов и должностей",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "280",
+  "name_ru": "централизация управления в одном органе",
+  "name_en": "Concentration of authority in a single body",
+  "plus_en": "Concentrates authority in one agency or a single head (e.g. early childhood, Foreign Ministry).",
+  "minus_en": "Spreads authority across agencies or collegial bodies.",
+  "members": [
+   {
+    "n": "280",
+    "name": "централизация управления раннего детства",
+    "plus": "больше у одного органа",
+    "minus": "раздроблено",
+    "flip": false
+   },
+   {
+    "n": "281",
+    "name": "центральная роль одного ведомства (МИД) в госуправлении",
+    "plus": "центральная роль",
+    "minus": "распределено",
+    "flip": false
+   },
+   {
+    "n": "282",
+    "name": "централизация управленческих полномочий в органе",
+    "plus": "больше у единоличного руководителя",
+    "minus": "у коллегиальных",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "283",
+  "name_ru": "участие частных субъектов в публичных функциях",
+  "name_en": "Private actors in public functions",
+  "plus_en": "Private actors and intermediaries perform more public functions and social services.",
+  "minus_en": "Private actors perform fewer.",
+  "members": [
+   {
+    "n": "283",
+    "name": "участие частных субъектов в публичных функциях",
+    "plus": "больше функций у частных лиц",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "284",
+    "name": "роль частных посредников в социальных услугах",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "285",
+  "name_ru": "рыночные позиции посредников",
+  "name_en": "Market position of intermediaries",
+  "plus_en": "Gives intermediaries more access and rights.",
+  "minus_en": "Gives them less.",
+  "members": [
+   {
+    "n": "285",
+    "name": "рыночные позиции посредников",
+    "plus": "больше доступа и прав",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "287",
+  "name_ru": "права поставщиков в отношениях с государством",
+  "name_en": "Rights of suppliers dealing with the state",
+  "plus_en": "Gives suppliers faster payment and more guarantees.",
+  "minus_en": "Gives them fewer.",
+  "members": [
+   {
+    "n": "287",
+    "name": "права поставщиков в отношениях с государством",
+    "plus": "быстрее оплата, больше гарантий",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "288",
+  "name_ru": "требования к составу и кворуму коллегиальных органов",
+  "name_en": "Composition and quorum requirements for collegial bodies",
+  "plus_en": "Adds requirements on who must sit on a collegial body (mandatory seats, member qualifications, categories of members) or how many must be present for it to act (quorum).",
+  "minus_en": "Relaxes such composition or quorum requirements.",
+  "members": [
+   {
+    "n": "288",
+    "name": "требования к составу коллегиальных органов",
+    "plus": "больше требований",
+    "minus": "ослаблены",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "289",
+  "name_ru": "размер коллегиальных органов",
+  "name_en": "Size of collegial bodies",
+  "plus_en": "Increases the number of members of collegial bodies.",
+  "minus_en": "Reduces the number of members of collegial bodies.",
+  "members": [
+   {
+    "n": "289",
+    "name": "размер коллегиальных органов",
+    "plus": "больше членов",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "290",
+  "name_ru": "представительство групп и общественности в госорганах",
+  "name_en": "Representation of groups and the public in state bodies",
+  "plus_en": "Gives groups and the public more seats in state bodies.",
+  "minus_en": "Gives them fewer seats.",
+  "members": [
+   {
+    "n": "290",
+    "name": "представительство групп и общественности в госорганах",
+    "plus": "больше мест",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "291",
+  "name_ru": "конституционная защита прав человека",
+  "name_en": "Constitutional protection of human rights",
+  "plus_en": "Enshrines more rights in Basic Laws.",
+  "minus_en": "Enshrines fewer.",
+  "members": [
+   {
+    "n": "291",
+    "name": "конституционная защита прав человека",
+    "plus": "больше прав в основных законах",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "292",
+  "name_ru": "защищённость и верховенство основных законов",
+  "name_en": "Entrenchment and supremacy of Basic Laws",
+  "plus_en": "Makes Basic Laws harder to amend or gives them more precedence.",
+  "minus_en": "Makes them easier to amend or gives them less precedence.",
+  "members": [
+   {
+    "n": "292",
+    "name": "защищённость и верховенство основных законов",
+    "plus": "труднее изменить, приоритет",
+    "minus": "легче",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "295",
+  "name_ru": "внешний контроль и расследования в отношении органов власти",
+  "name_en": "External oversight and investigation of government bodies",
+  "plus_en": "Allows more external oversight and investigation of authorities.",
+  "minus_en": "Allows less.",
+  "members": [
+   {
+    "n": "295",
+    "name": "внешний контроль и расследования в отношении органов власти",
+    "plus": "больше расследований",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "296",
+  "name_ru": "соответствие международным стандартам",
+  "name_en": "Alignment with international standards",
+  "plus_en": "Brings Israeli law closer to international standards.",
+  "minus_en": "Moves it further from them.",
+  "members": [
+   {
+    "n": "296",
+    "name": "соответствие международным стандартам",
+    "plus": "ближе к международным",
+    "minus": "дальше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "297",
+  "name_ru": "автономия частных механизмов разрешения споров",
+  "name_en": "Autonomy of private dispute resolution",
+  "plus_en": "Gives arbitrators more powers.",
+  "minus_en": "Gives arbitrators fewer powers.",
+  "members": [
+   {
+    "n": "297",
+    "name": "автономия частных механизмов разрешения споров",
+    "plus": "больше полномочий арбитров",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "298",
+  "name_ru": "доступ к поставщикам вне израильского регулирования",
+  "name_en": "Access to providers outside Israeli regulation",
+  "plus_en": "Allows use of providers outside Israeli regulation.",
+  "minus_en": "Prohibits or restricts such use.",
+  "members": [
+   {
+    "n": "298",
+    "name": "доступ к поставщикам вне израильского регулирования",
+    "plus": "можно пользоваться",
+    "minus": "запрещено",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "299",
+  "name_ru": "охрана интеллектуальной собственности",
+  "name_en": "Intellectual property protection",
+  "plus_en": "Broadens intellectual property rights.",
+  "minus_en": "Narrows them.",
+  "members": [
+   {
+    "n": "299",
+    "name": "охрана интеллектуальной собственности",
+    "plus": "шире права",
+    "minus": "уже",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "300",
+  "name_ru": "государственный контроль над НКО и общественными объединениями",
+  "name_en": "State control over NGOs and associations",
+  "plus_en": "Adds oversight and disclosure requirements for NGOs and associations (including cults).",
+  "minus_en": "Reduces them.",
+  "members": [
+   {
+    "n": "300",
+    "name": "государственный контроль над НКО",
+    "plus": "больше надзора и требований раскрытия",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "305",
+    "name": "государственное регулирование общественных объединений (культы)",
+    "plus": "больше контроля",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "301",
+  "name_ru": "государственная поддержка гражданских организаций и благотворительности",
+  "name_en": "State support for civil society and charity",
+  "plus_en": "Increases state funding for civil-society organizations or incentives for donations.",
+  "minus_en": "Decreases them.",
+  "members": [
+   {
+    "n": "301",
+    "name": "государственное финансирование гражданских организаций",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "302",
+    "name": "стимулы к благотворительности",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "303",
+  "name_ru": "государственный контроль над ККЛ",
+  "name_en": "State control over KKL-JNF",
+  "plus_en": "Increases state control over KKL-JNF and reduces its resources and autonomy.",
+  "minus_en": "Reduces state control; KKL-JNF has more resources and autonomy.",
+  "members": [
+   {
+    "n": "303",
+    "name": "государственный контроль над ККЛ",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "304",
+    "name": "ресурсы и автономия национальных институтов (ККЛ)",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": true
+   }
+  ]
+ },
+ {
+  "key": "306",
+  "name_ru": "государственная помощь пострадавшим от культов",
+  "name_en": "State aid to victims of cults",
+  "plus_en": "Gives cult victims more state assistance.",
+  "minus_en": "Gives them less.",
+  "members": [
+   {
+    "n": "306",
+    "name": "государственная помощь пострадавшим от культов",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "307",
+  "name_ru": "увековечение памяти и национальная символика",
+  "name_en": "Commemoration and national symbols",
+  "plus_en": "Adds state commemoration measures or national symbols in public life.",
+  "minus_en": "Reduces them.",
+  "members": [
+   {
+    "n": "307",
+    "name": "государственное увековечение памяти",
+    "plus": "больше мемориальных мер",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "308",
+    "name": "национальная символика в публичной сфере",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "309",
+  "name_ru": "право на семейную жизнь и усыновление",
+  "name_en": "Right to family life and adoption",
+  "plus_en": "Removes obstacles to family life and widens possibilities to form a family by adoption.",
+  "minus_en": "Adds obstacles and narrows such possibilities.",
+  "members": [
+   {
+    "n": "309",
+    "name": "право на семейную жизнь",
+    "plus": "меньше препятствий",
+    "minus": "больше",
+    "flip": false
+   },
+   {
+    "n": "310",
+    "name": "права семьи усыновления",
+    "plus": "больше возможностей создать семью",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "311",
+  "name_ru": "доступ к юридической помощи и правосудию",
+  "name_en": "Access to legal aid and justice",
+  "plus_en": "Makes legal aid and justice easier to obtain.",
+  "minus_en": "Makes them harder to obtain.",
+  "members": [
+   {
+    "n": "311",
+    "name": "доступ к юридической помощи и правосудию",
+    "plus": "проще получить помощь",
+    "minus": "труднее",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "312",
+  "name_ru": "обязанности госорганов перед гражданами",
+  "name_en": "Obligations of state bodies to citizens",
+  "plus_en": "Imposes more duties on state bodies to inform and serve citizens, or gives citizens more guarantees and a stronger position toward the administration and providers.",
+  "minus_en": "Imposes fewer such duties and guarantees.",
+  "members": [
+   {
+    "n": "312",
+    "name": "обязанности госорганов перед гражданами",
+    "plus": "больше обязанностей информировать и обслуживать",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "321",
+    "name": "обязанности государства перед гражданами (широкое)",
+    "plus": "больше обязанностей",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "323",
+    "name": "защита граждан в отношениях с властями и поставщиками (сроки)",
+    "plus": "больше гарантий",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "368",
+    "name": "права граждан в отношениях с администрацией",
+    "plus": "сильнее позиция гражданина",
+    "minus": "слабее",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "313",
+  "name_ru": "полномочия государства в сфере кибербезопасности",
+  "name_en": "State cybersecurity powers",
+  "plus_en": "Gives the state more cybersecurity powers.",
+  "minus_en": "Gives it fewer.",
+  "members": [
+   {
+    "n": "313",
+    "name": "полномочия государства в сфере кибербезопасности",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "314",
+  "name_ru": "права семей выяснять судьбу родственников",
+  "name_en": "Families' right to learn the fate of relatives",
+  "plus_en": "Widens families' rights to find out what happened to relatives.",
+  "minus_en": "Narrows them.",
+  "members": [
+   {
+    "n": "314",
+    "name": "права семей выяснять судьбу родственников",
+    "plus": "шире",
+    "minus": "уже",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "317",
+  "name_ru": "приоритет групп в распределении госресурсов",
+  "name_en": "Group priority in allocating state resources",
+  "plus_en": "Gives a particular group more priority in state resource allocation.",
+  "minus_en": "Gives it less priority.",
+  "members": [
+   {
+    "n": "317",
+    "name": "приоритет групп в распределении госресурсов",
+    "plus": "больше приоритета группе",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "322",
+  "name_ru": "требования к кандидатам в судьи",
+  "name_en": "Requirements for judicial candidates",
+  "plus_en": "Tightens requirements for candidates for judgeships.",
+  "minus_en": "Relaxes them.",
+  "members": [
+   {
+    "n": "322",
+    "name": "требования к кандидатам в судьи",
+    "plus": "строже",
+    "minus": "мягче",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "332",
+  "name_ru": "контроль государства над госкомпаниями",
+  "name_en": "State control over government companies",
+  "plus_en": "The state as owner decides more in government companies.",
+  "minus_en": "Government companies are more independent.",
+  "members": [
+   {
+    "n": "332",
+    "name": "контроль государства над госкомпаниями",
+    "plus": "государство как владелец решает больше",
+    "minus": "самостоятельнее",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "333",
+  "name_ru": "свобода рыночной деятельности госкомпаний",
+  "name_en": "Commercial freedom of government companies",
+  "plus_en": "Widens the range of commercial activities government companies may engage in.",
+  "minus_en": "Narrows it.",
+  "members": [
+   {
+    "n": "333",
+    "name": "свобода рыночной деятельности госкомпаний",
+    "plus": "шире круг коммерческой деятельности",
+    "minus": "уже",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "339",
+  "name_ru": "полномочия по выплате/сертификации: независимость проверяющего от сертифицирующего",
+  "name_en": "Separation of inspectors from certifying bodies",
+  "plus_en": "Requires stricter separation between the inspector and the certifying body.",
+  "minus_en": "Allows more exceptions to that separation.",
+  "members": [
+   {
+    "n": "339",
+    "name": "полномочия по выплате/сертификации: независимость проверяющего от сертифицирующего",
+    "plus": "строже отделение",
+    "minus": "больше исключений",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "340",
+  "name_ru": "полномочия комиссий по проверке назначений",
+  "name_en": "Powers of appointment vetting committees",
+  "plus_en": "Gives appointment vetting committees a larger role.",
+  "minus_en": "Gives them a smaller role.",
+  "members": [
+   {
+    "n": "340",
+    "name": "полномочия комиссий по проверке назначений",
+    "plus": "больше роли",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "341",
+  "name_ru": "информирование и обслуживание: конкурсное распределение лицензий",
+  "name_en": "Competitive allocation of licenses",
+  "plus_en": "More licenses are allocated through tenders.",
+  "minus_en": "More licenses are allocated without a tender.",
+  "members": [
+   {
+    "n": "341",
+    "name": "информирование и обслуживание: конкурсное распределение лицензий",
+    "plus": "больше через конкурсы",
+    "minus": "без конкурса",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "342",
+  "name_ru": "полномочия Президента государства",
+  "name_en": "Powers of the President of the State",
+  "plus_en": "Gives the President more powers.",
+  "minus_en": "Gives the President fewer powers.",
+  "members": [
+   {
+    "n": "342",
+    "name": "полномочия Президента государства",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "343",
+  "name_ru": "законодательное регулирование государственных наград",
+  "name_en": "Statutory regulation of state honors",
+  "plus_en": "Sets more of the rules for state honors in law.",
+  "minus_en": "Leaves more to administrative discretion.",
+  "members": [
+   {
+    "n": "343",
+    "name": "законодательное регулирование государственных наград",
+    "plus": "больше закреплено в законе",
+    "minus": "на усмотрение администрации",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "344",
+  "name_ru": "обязанности и ответственность государственных служащих",
+  "name_en": "Duties and accountability of civil servants",
+  "plus_en": "Imposes more duties and accountability on civil servants.",
+  "minus_en": "Imposes fewer.",
+  "members": [
+   {
+    "n": "344",
+    "name": "обязанности и ответственность государственных служащих",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "345",
+  "name_ru": "объём функций государственного органа",
+  "name_en": "Scope of a government body's functions",
+  "plus_en": "Gives a government body more functions.",
+  "minus_en": "Gives it fewer functions.",
+  "members": [
+   {
+    "n": "345",
+    "name": "объём функций государственного органа",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "346",
+  "name_ru": "уровень принятия решений в исполнительной власти",
+  "name_en": "Level of decision-making in the executive",
+  "plus_en": "Decisions move to a higher level of the executive.",
+  "minus_en": "Decisions move to lower levels.",
+  "members": [
+   {
+    "n": "346",
+    "name": "уровень принятия решений в исполнительной власти",
+    "plus": "решает более высокий уровень",
+    "minus": "нижестоящие",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "349",
+  "name_ru": "юридическая ответственность организаций и должностных лиц",
+  "name_en": "Legal liability of organizations and officers",
+  "plus_en": "Extends legal liability to more organizations and officers.",
+  "minus_en": "Extends it to fewer.",
+  "members": [
+   {
+    "n": "349",
+    "name": "юридическая ответственность организаций и должностных лиц",
+    "plus": "больше субъектов",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "352",
+  "name_ru": "свобода договора",
+  "name_en": "Freedom of contract",
+  "plus_en": "Gives more weight to the text of the contract.",
+  "minus_en": "Gives courts more room to intervene in contracts.",
+  "members": [
+   {
+    "n": "352",
+    "name": "свобода договора",
+    "plus": "больше вес текста договора",
+    "minus": "больше вмешательства суда",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "353",
+  "name_ru": "защита слабой стороны в договорных отношениях",
+  "name_en": "Protection of the weaker contracting party",
+  "plus_en": "Adds protective terms for the weaker party.",
+  "minus_en": "Gives the stronger party more freedom.",
+  "members": [
+   {
+    "n": "353",
+    "name": "защита слабой стороны в договорных отношениях",
+    "plus": "больше защитных условий",
+    "minus": "больше свободы сильной стороны",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "354",
+  "name_ru": "статус и независимость квазисудебных органов",
+  "name_en": "Status and independence of quasi-judicial bodies",
+  "plus_en": "Raises the status and independence of tribunals and quasi-judicial bodies.",
+  "minus_en": "Lowers them.",
+  "members": [
+   {
+    "n": "354",
+    "name": "статус и независимость квазисудебных органов",
+    "plus": "выше",
+    "minus": "ниже",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "355",
+  "name_ru": "интересы будущих поколений в принятии решений",
+  "name_en": "Weight of future generations in decision-making",
+  "plus_en": "Future generations' interests are considered more.",
+  "minus_en": "They are considered less.",
+  "members": [
+   {
+    "n": "355",
+    "name": "интересы будущих поколений в принятии решений",
+    "plus": "учитываются больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "356",
+  "name_ru": "поддержка общественного транспорта",
+  "name_en": "Support for public transport",
+  "plus_en": "Gives more benefits for public transport.",
+  "minus_en": "Gives fewer.",
+  "members": [
+   {
+    "n": "356",
+    "name": "поддержка общественного транспорта",
+    "plus": "больше льгот",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "358",
+  "name_ru": "прибыль и права бизнеса",
+  "name_en": "Business profits and rights",
+  "plus_en": "Gives businesses more rights and income.",
+  "minus_en": "Gives them fewer rights and less income.",
+  "members": [
+   {
+    "n": "358",
+    "name": "прибыль и права бизнеса",
+    "plus": "больше прав и доходов",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "361",
+  "name_ru": "ограничение внешней торговли (экспорт вооружений)",
+  "name_en": "Restrictions on foreign trade, incl. arms exports",
+  "plus_en": "Adds restrictions on foreign trade such as arms exports.",
+  "minus_en": "Eases them.",
+  "members": [
+   {
+    "n": "361",
+    "name": "ограничение внешней торговли (экспорт вооружений)",
+    "plus": "больше ограничений",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "364",
+  "name_ru": "выборность институтов",
+  "name_en": "Electiveness of institutions",
+  "plus_en": "Bodies are elected.",
+  "minus_en": "Bodies are appointed.",
+  "members": [
+   {
+    "n": "364",
+    "name": "выборность институтов",
+    "plus": "органы избираются",
+    "minus": "назначаются",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "365",
+  "name_ru": "надзор за работниками",
+  "name_en": "Monitoring of employees",
+  "plus_en": "Allows more monitoring and control of employees.",
+  "minus_en": "Allows less.",
+  "members": [
+   {
+    "n": "365",
+    "name": "надзор за работниками",
+    "plus": "больше контроля",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "366",
+  "name_ru": "автономия поставщиков социальных услуг",
+  "name_en": "Autonomy of social service providers",
+  "plus_en": "Social service providers are freer from external supervision.",
+  "minus_en": "They are subject to more supervision.",
+  "members": [
+   {
+    "n": "366",
+    "name": "автономия поставщиков социальных услуг",
+    "plus": "свободнее от внешнего надзора",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "370",
+  "name_ru": "объём и доступность публичных услуг (широкое)",
+  "name_en": "Scope and accessibility of public services",
+  "plus_en": "Makes public services (health, transport, emergency, utilities, mental health) more extensive and accessible.",
+  "minus_en": "Makes them less extensive and accessible.",
+  "members": [
+   {
+    "n": "370",
+    "name": "объём публичных услуг населению (широкое)",
+    "plus": "больше и доступнее услуги (здравоохранение, транспорт, экстренные)",
+    "minus": "меньше",
+    "flip": false
+   },
+   {
+    "n": "371",
+    "name": "доступность базовых и медицинских услуг (широкое)",
+    "plus": "базовые услуги (электричество, медицина, психологическая помощь) доступнее",
+    "minus": "менее доступны",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "375",
+  "name_ru": "бюджетная свобода правительства",
+  "name_en": "Government budgetary discretion",
+  "plus_en": "Gives the government more freedom to allocate the budget.",
+  "minus_en": "Fixes more spending in law.",
+  "members": [
+   {
+    "n": "375",
+    "name": "бюджетная свобода правительства",
+    "plus": "больше свободы в распределении бюджета",
+    "minus": "больше расходов закреплено законом",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "377",
+  "name_ru": "перераспределение в пользу слабых групп и районов",
+  "name_en": "Redistribution to disadvantaged groups and areas",
+  "plus_en": "Redistributes more to disadvantaged groups and areas.",
+  "minus_en": "Redistributes less.",
+  "members": [
+   {
+    "n": "377",
+    "name": "перераспределение в пользу слабых групп и районов",
+    "plus": "больше",
+    "minus": "меньше",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "key": "new357",
+  "name_ru": "возможность оспорить результаты выборов в суде",
+  "name_en": "Ability to challenge election results in court",
+  "plus_en": "Widens grounds, eases and extends filing of petitions to annul elections, or broadens court powers to do so.",
+  "minus_en": "Narrows grounds, shortens deadlines or raises barriers to such petitions.",
+  "members": [
+   {
+    "n": "new357",
+    "name": "возможность оспорить результаты выборов в суде",
+    "plus": "шире основания, проще и дольше можно подать иск об отмене выборов, суд вправе отменить больше",
+    "minus": "уже основания, короче сроки, выше барьеры для исков об отмене выборов",
+    "flip": false
+   }
+  ]
+ }
+]

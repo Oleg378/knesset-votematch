@@ -10,7 +10,7 @@ Closeness = cosine over statements the user answered and the list has a position
 Output: lists sorted by closeness; evaluated lists (status ok / warning) with the number of ex-MKs behind the position;
 lists without ex-MKs are listed as «нет данных о работе в Кнессете».
 
-Usage: python3 pipeline/quiz_match.py jef/quiz/pilot_answers.csv   filled pilot sheet: № (1–60), Тема, Утверждение, Ответ
+Usage: python3 pipeline/quiz_match.py jef/quiz/pilot_answers.csv   filled pilot sheet: № (statement q), Тема, Утверждение, Ответ
                                                                    (2 / 1 / 0 / -1 / -2 / нз; empty = не отвечено)
        python3 pipeline/quiz_match.py answers.json                  {"<№>": 2 | 1 | 0 | -1 | -2 | "dk"}
        python3 pipeline/quiz_match.py --calibrate         choose K on synthetic users (jef/quiz/match_calibration.txt)

@@ -1,0 +1,90 @@
+[
+ {
+  "key": "66",
+  "fix": "confirm",
+  "new": [],
+  "bills": [
+   {"bill_id": 2201660, "target_key": "66", "sign": "−"},
+   {"bill_id": 2216582, "target_key": null, "sign": null}
+  ],
+  "why": "The translator's assumption for member 294 (+ = more judicial review of Knesset decisions) matches the direction's plus: courts review more. Member 293 is correctly flipped. Bill 2201660 restricts the grounds and raises the threshold for striking down laws: + in 293 (laws better protected), so − in 66. Bill 2216582 only moves the appeal against the Knesset committee's decision on an MK leaving their faction from the district court to the Supreme Court and adds procedural rules. From the excerpt, the scope of review neither grows nor shrinks, so the bill gets no sign on this scale.",
+  "doubt": "2216582: if the bill text shows that the move to the Supreme Court removes an appeal level, or that the new rules narrow the grounds or deadlines for appeal, it should go to 66 − or 69 −. The excerpt doesn't show this; the full text should be checked."
+ },
+ {
+  "key": "171",
+  "fix": "edit_signs",
+  "new": [
+   {
+    "name_en": "Economic ties with hostile entities",
+    "plus_en": "Permits more economic and other ties with hostile entities and states, or designates fewer of them as hostile.",
+    "minus_en": "Restricts economic and other ties with hostile entities and states, or designates more of them as hostile (e.g. declaring a state an enemy state).",
+    "members": ["171", "172"]
+   }
+  ],
+  "bills": [
+   {"bill_id": 2239060, "target_key": "171", "sign": "−"}
+  ],
+  "why": "Flipping 172 is correct: more restrictions on relations with hostile states means fewer permitted ties, which is the minus of 171. The only bill (declaring Qatar an enemy state, + in 172) applies all enemy-state rules to Qatar, including the ban on trade, so it is − in 171. plus_en and minus_en are reworded to cover relations beyond the economic ones (the translator's concern) and the case where a law adds a state to the list of hostile ones rather than changing the rules on ties.",
+  "doubt": ""
+ },
+ {
+  "key": "256",
+  "fix": "confirm",
+  "new": [],
+  "bills": [
+   {"bill_id": 2222430, "target_key": "256", "sign": "+"},
+   {"bill_id": 2197160, "target_key": "256", "sign": "+"},
+   {"bill_id": 2189922, "target_key": "256", "sign": "+"},
+   {"bill_id": 2168419, "target_key": "256", "sign": "+"},
+   {"bill_id": 2209184, "target_key": "256", "sign": "+"}
+  ],
+  "why": "Member 259 (state control over academic institutions) is correctly taken with + = more control. 2222430 makes state funding of a university depend on its students having served, so it is +. Members 257 (university autonomy, flipped): in 2197160, 2168419 and 2209184 universities get a new external obligation (preferences for combat soldiers, a ban on discrimination by sexual orientation, a ban on exams on Arab holidays). That is − autonomy, so + in 256. The discovery agent's sign is wrong for 2189922: abolishing psychometric tests in their current form and requiring equal admission conditions is an external requirement on universities, i.e. − autonomy, not +. With the flip, the old '+' would have given − in 256. The correct sign is + in 256.",
+  "doubt": "The discovery agent's '+' on 2189922 probably referred to the specific item 'use of psychometric exams' rather than to autonomy. The correction is based on the description in basis, not on the bill text."
+ },
+ {
+  "key": "288",
+  "fix": "split",
+  "new": [
+   {
+    "name_en": "Composition and quorum requirements for collegial bodies",
+    "plus_en": "Adds requirements on who must sit on a collegial body (mandatory seats, member qualifications, categories of members) or how many must be present for it to act (quorum).",
+    "minus_en": "Relaxes such composition or quorum requirements.",
+    "members": ["288"]
+   },
+   {
+    "name_en": "Size of collegial bodies",
+    "plus_en": "Increases the number of members of collegial bodies.",
+    "minus_en": "Reduces the number of members of collegial bodies.",
+    "members": ["289"]
+   }
+  ],
+  "bills": [
+   {"bill_id": 1046680, "target_key": "288", "sign": "−"},
+   {"bill_id": 2203992, "target_key": "288", "sign": "−"},
+   {"bill_id": 2226650, "target_key": "289", "sign": "−"},
+   {"bill_id": 2204025, "target_key": "251", "sign": "+"}
+  ],
+  "why": "The translator is right that 'how strict the composition requirements are' and 'how many members' are different quantities, so 288 keeps the requirements and 289 becomes a separate direction for size. 1046680 lowers the quorum of the appeals committee for compensation and betterment levy from 3 of 3 to 2 (with the chair holding a casting vote). That is a relaxation of the conditions for the body to act lawfully, so the requirements direction is defined to include quorum: − in 288. 2203992 drops the requirement that one psychiatrist on the committee be a civil servant: − in 288. 2226650 cuts the number of members of the memorial centres' councils: − in 289. 2204025 sets qualification requirements for a single post (the General Prosecutor), not for a collegial body, so it moves to 251 'Occupational regulation and entry barriers' (stricter requirements for entering a position): +.",
+  "doubt": "Including quorum in 288 is a stretch: quorum is a rule of procedure, not of composition. The alternative would be to treat the 1046680 quorum change as technical. 2204025 could also go to 60 (the prosecutor's independence from politicians), but the specific item recorded by the discovery agent is the candidate's qualifications, so 251 is chosen."
+ },
+ {
+  "key": "328",
+  "fix": "disband",
+  "new": [],
+  "bills": [
+   {"bill_id": 2198748, "target_key": "40", "sign": "−"}
+  ],
+  "why": "Moving a function from one body to another has no 'more/less' dimension, and the direction has a single bill. In 2198748, the transfer of grant payments from the Tax Authority to the National Insurance Institute is only a means. The purpose and real effect is that the work grant becomes automatic and the worker no longer has to file a claim. That is less bureaucracy for citizens: − in 40 'Administrative burden on citizens'. The transfer itself is not assessed.",
+  "doubt": "The same effect also fits 41 'Accessibility, speed and digitization of public services' (+). Only one direction is chosen to avoid double counting. If discovery already recorded 2198748 in 40/41 from another specific item, the entry here is a duplicate and can be dropped."
+ },
+ {
+  "key": "329",
+  "fix": "technical",
+  "new": [],
+  "bills": [
+   {"bill_id": 2190420, "target_key": null, "sign": null}
+  ],
+  "why": "The bill enshrines a transfer of powers under the R&D Law from the Economy Minister to the Minister of Innovation that the government and the Knesset already approved: it changes ministry names, the definition of the chief scientist, and which officials sit on the Authority council. The state's powers neither grow nor shrink, and no group gains or loses. This is an organisational, technical change; the direction is also tied to a single law rather than to a quantity.",
+  "doubt": "The excerpt mentions amendments to the powers of the Innovation Minister and the Finance Minister to request opinions and information from the Innovation Authority, and an extension of some time limit (the text is cut off). If the full text shows these powers being widened, the bill may deserve 55 + or 132 +."
+ }
+]

@@ -1,0 +1,168 @@
+Split as the audit proposes: list positions of the parts (P = A + 0.25 V; lists ok with >= 3 ex-MKs)
+r — correlation of list positions on the direction; «same side» — lists with the same sign; criteria: lists >= 8, SD >= 0.3, nA >= 30
+
+== 269 (now q16, q17)
+   269#1    Access to abortion                                         lists  3  SD 0.00  nA   21  fail
+   269#2    Access to assisted reproduction                            lists 10  SD 0.36  nA   47  pass
+   269#rest rest                                                       lists  1  SD 0.00  nA    3  fail
+   r(269#1, 269#2) = +nan; same side 0/3
+   r(269#1, 269#rest) = +nan; same side 0/0
+   r(269#2, 269#rest) = +nan; same side 0/1
+   closest other quiz statements to 269#1: 
+   closest other quiz statements to 269#2: q41 (265) r=-0.72, same side 2/7; q39 (136) r=-0.62, same side 3/9
+
+== 92 (now q18)
+   92#1     Death penalty for terrorism                                lists 12  SD 0.29  nA   12  fail
+   92#2     Rights and conditions of security prisoners                lists 12  SD 0.32  nA   52  pass
+   92#3     Rights of ordinary prisoners and detainees                 lists 10  SD 0.32  nA   43  pass
+   92#rest  rest                                                       lists 12  SD 0.50  nA  110  pass
+   r(92#1, 92#2) = +0.55; same side 9/12
+   r(92#1, 92#3) = +0.50; same side 5/10
+   r(92#1, 92#rest) = +0.68; same side 9/12
+   r(92#2, 92#3) = +0.59; same side 4/10
+   r(92#2, 92#rest) = +0.76; same side 10/12
+   r(92#3, 92#rest) = +0.43; same side 5/10
+   closest other quiz statements to 92#1: q14 (180) r=+0.83, same side 7/9; q47 (77) r=-0.75, same side 3/12
+   closest other quiz statements to 92#2: q13 (173) r=+0.89, same side 11/12; q2 (166) r=-0.86, same side 0/12
+   closest other quiz statements to 92#3: q4 (165) r=-0.95, same side 7/10; q15 (3) r=-0.94, same side 8/10
+
+== 255 (now q19)
+   255#1    Funding of schools without core studies                    lists 11  SD 0.41  nA   50  pass
+   255#2    Funding cuts for schools teaching against the state        lists 11  SD 0.32  nA   20  fail
+   255#3    Funding cuts for schools discriminating in admission       lists 10  SD 0.34  nA   16  fail
+   r(255#1, 255#2) = +0.67; same side 7/10
+   r(255#1, 255#3) = +0.76; same side 5/9
+   r(255#2, 255#3) = +0.76; same side 6/9
+   closest other quiz statements to 255#1: q58 (161a) r=+0.94, same side 7/10; q22 (158) r=-0.90, same side 1/9
+   closest other quiz statements to 255#2: q41 (265) r=+0.84, same side 4/8; q55 (146) r=+0.79, same side 8/11
+   closest other quiz statements to 255#3: q37 (241) r=+0.71, same side 6/10; q46 (75) r=+0.71, same side 4/9
+
+== 151 (now q25, q26)
+   151#1    Powers of religious courts                                 lists 11  SD 0.20  nA   20  fail
+   151#2    Religious rules in public institutions                     lists 12  SD 0.31  nA   84  pass
+   151#3    Gender separation in public settings                       lists 12  SD 0.25  nA   35  fail
+   151#4    Orthodox definition of who is Jewish                       lists 10  SD 0.16  nA    3  fail
+   151#rest rest                                                       lists 11  SD 0.61  nA  162  pass
+   r(151#1, 151#2) = +0.65; same side 6/11
+   r(151#1, 151#3) = +0.65; same side 9/11
+   r(151#1, 151#4) = +0.36; same side 5/9
+   r(151#1, 151#rest) = +0.73; same side 8/11
+   r(151#2, 151#3) = +0.66; same side 9/12
+   r(151#2, 151#4) = +0.02; same side 4/10
+   r(151#2, 151#rest) = +0.82; same side 7/11
+   r(151#3, 151#4) = -0.07; same side 4/10
+   r(151#3, 151#rest) = +0.67; same side 8/11
+   r(151#4, 151#rest) = +0.55; same side 5/9
+   closest other quiz statements to 151#1: q40 (204) r=-0.81, same side 3/11; q51 (31) r=-0.75, same side 4/11
+   closest other quiz statements to 151#2: q64 (58) r=+0.84, same side 10/12; q40 (204) r=-0.84, same side 4/12
+   closest other quiz statements to 151#3: q33 (154) r=+0.75, same side 10/12; q61 (63) r=-0.70, same side 1/11
+   closest other quiz statements to 151#4: q22 (158) r=-0.60, same side 2/8; q38 (275) r=+0.58, same side 5/8
+
+== 314 (now q28)
+   314#1    Yemenite, Mizrahi and Balkan children affair               lists  6  SD 0.42  nA   10  fail
+   314#2    Victims' families in criminal trials                       lists  7  SD 0.27  nA    9  fail
+   314#rest rest                                                       lists 10  SD 0.28  nA   18  fail
+   r(314#1, 314#2) = -0.87; same side 2/4
+   r(314#1, 314#rest) = -0.53; same side 5/6
+   r(314#2, 314#rest) = +0.52; same side 4/6
+   closest other quiz statements to 314#1: q13 (173) r=+0.95, same side 2/6; q6 (184) r=-0.92, same side 4/6
+   closest other quiz statements to 314#2: q10 (179) r=-0.90, same side 0/7; q45 (178) r=+0.86, same side 7/7
+
+== 235 (now q29)
+   235#1    Individual rights in apartment buildings                   lists  9  SD 0.23  nA   18  fail
+   235#2    Property rights of a spouse who murdered the other         lists  8  SD 0.33  nA   12  fail
+   r(235#1, 235#2) = +0.71; same side 0/5
+   closest other quiz statements to 235#1: q50 (230) r=+0.77, same side 5/9; q20 (159) r=+0.70, same side 4/9
+   closest other quiz statements to 235#2: q23 (215) r=+0.82, same side 1/5; q54 (277a) r=+0.70, same side 2/8
+
+== 142 (now q30, q31)
+   142#1    State power to block broadcasts and online content         lists 11  SD 0.49  nA   60  pass
+   142#2    Broadcasting and transparency of court and public-body pro lists 10  SD 0.36  nA   20  fail
+   142#rest rest                                                       lists 12  SD 0.29  nA   74  fail
+   r(142#1, 142#2) = +0.35; same side 1/10
+   r(142#1, 142#rest) = -0.37; same side 5/11
+   r(142#2, 142#rest) = -0.03; same side 4/10
+   closest other quiz statements to 142#1: q4 (165) r=-0.91, same side 0/11; q12 (181) r=+0.91, same side 10/11
+   closest other quiz statements to 142#2: q39 (136) r=-0.71, same side 6/10; q23 (215) r=+0.69, same side 7/9
+
+== 356 (now q35)
+   356#1    Public transport on Shabbat                                lists  9  SD 0.42  nA   23  fail
+   356#2    Public spending on public transport                        lists 12  SD 0.38  nA   78  pass
+   356#rest rest                                                       lists  9  SD 0.35  nA   18  fail
+   r(356#1, 356#2) = +0.41; same side 7/9
+   r(356#1, 356#rest) = +0.90; same side 7/8
+   r(356#2, 356#rest) = +0.11; same side 8/9
+   closest other quiz statements to 356#1: q22 (158) r=+0.96, same side 7/9; q33 (154) r=-0.95, same side 4/9
+   closest other quiz statements to 356#2: q20 (159) r=+0.75, same side 9/10; q23 (215) r=+0.64, same side 9/9
+
+== 169 (now q36)
+   169#1    State support for settlements in Judea and Samaria         lists 12  SD 0.42  nA  134  pass
+   169#2    Applying Israeli sovereignty in Judea and Samaria          lists 12  SD 0.57  nA   92  pass
+   169#rest rest                                                       lists 12  SD 0.42  nA   90  pass
+   r(169#1, 169#2) = +0.73; same side 10/12
+   r(169#1, 169#rest) = +0.38; same side 9/12
+   r(169#2, 169#rest) = +0.60; same side 11/12
+   closest other quiz statements to 169#1: q62 (60) r=+0.89, same side 12/12; q64 (58) r=+0.89, same side 11/12
+   closest other quiz statements to 169#2: q2 (166) r=+0.95, same side 12/12; q6 (184) r=+0.95, same side 11/12
+
+== 309 (now q43, q44)
+   309#1    Who may adopt                                              lists 10  SD 0.40  nA   28  fail
+   309#2    Family reunification with Palestinian spouses              lists  9  SD 0.87  nA   64  pass
+   309#rest rest                                                       lists 11  SD 0.51  nA  118  pass
+   r(309#1, 309#2) = +0.11; same side 3/7
+   r(309#1, 309#rest) = +0.75; same side 2/9
+   r(309#2, 309#rest) = +0.57; same side 6/8
+   closest other quiz statements to 309#1: q22 (158) r=+0.96, same side 6/8; q20 (159) r=+0.84, same side 6/8
+   closest other quiz statements to 309#2: q10 (179) r=+0.99, same side 9/9; q54 (277a) r=-0.97, same side 2/9
+
+== 90 (now q49)
+   90#1     Procedural rights of suspects and defendants               lists 12  SD 0.36  nA   94  pass
+   90#2     Severity of punishment for terrorists                      lists 12  SD 0.31  nA   50  pass
+   90#rest  rest                                                       lists 12  SD 0.51  nA  219  pass
+   r(90#1, 90#2) = +0.49; same side 6/12
+   r(90#1, 90#rest) = +0.81; same side 12/12
+   r(90#2, 90#rest) = +0.83; same side 6/12
+   closest other quiz statements to 90#1: q33 (154) r=+0.73, same side 8/12; q20 (159) r=-0.71, same side 7/10
+   closest other quiz statements to 90#2: q47 (77) r=-0.86, same side 2/12; q6 (184) r=-0.85, same side 1/12
+
+== 130 (now q56)
+   130#1    Relief for citizens in wartime and emergencies             lists 12  SD 0.27  nA   73  fail
+   130#2    Emergency legal measures                                   lists  7  SD 0.36  nA   11  fail
+   130#rest rest                                                       lists 12  SD 0.55  nA   63  pass
+   r(130#1, 130#2) = +0.12; same side 5/7
+   r(130#1, 130#rest) = +0.36; same side 11/12
+   r(130#2, 130#rest) = -0.07; same side 5/7
+   closest other quiz statements to 130#1: q41 (265) r=-0.73, same side 6/8; q23 (215) r=+0.72, same side 9/9
+   closest other quiz statements to 130#2: q66 (277c) r=-0.91, same side 4/7; q39 (136) r=+0.89, same side 5/7
+
+== 101b (now q59)
+   101b#1   Guardianship of violent parents                            lists  9  SD 0.34  nA   40  pass
+   101b#2   Parents' access to daycare camera footage                  lists  5  SD 0.08  nA    7  fail
+   101b#rest rest                                                       lists 12  SD 0.31  nA   65  pass
+   r(101b#1, 101b#2) = -0.52; same side 1/5
+   r(101b#1, 101b#rest) = -0.16; same side 2/9
+   r(101b#2, 101b#rest) = -0.12; same side 3/5
+   closest other quiz statements to 101b#1: q33 (154) r=+0.94, same side 5/9; q61 (63) r=-0.90, same side 3/9
+   closest other quiz statements to 101b#2: q50 (230) r=-0.92, same side 4/5; q9 (187) r=-0.86, same side 3/5
+
+== 66 (now q63)
+   66#1     Judicial review of laws and government                     lists 12  SD 0.38  nA   64  pass
+   66#2     Judges' discretion in sentencing                           lists 12  SD 0.31  nA   35  pass
+   66#rest  rest                                                       lists 12  SD 0.53  nA  292  pass
+   r(66#1, 66#2) = +0.17; same side 8/12
+   r(66#1, 66#rest) = +0.87; same side 11/12
+   r(66#2, 66#rest) = +0.15; same side 7/12
+   closest other quiz statements to 66#1: q61 (63) r=+0.92, same side 11/11; q62 (60) r=-0.91, same side 1/12
+   closest other quiz statements to 66#2: q66 (277c) r=+0.86, same side 4/10; q14 (180) r=+0.85, same side 5/9
+
+== 183 (now q65)
+   183#1    Law of Return eligibility                                  lists 10  SD 0.39  nA   19  fail
+   183#2    Family reunification with Palestinian spouses              lists  9  SD 0.79  nA   73  pass
+   183#rest rest                                                       lists 10  SD 0.25  nA   35  fail
+   r(183#1, 183#2) = +0.71; same side 7/8
+   r(183#1, 183#rest) = +0.68; same side 8/9
+   r(183#2, 183#rest) = +0.33; same side 6/9
+   closest other quiz statements to 183#1: q64 (58) r=-0.83, same side 0/10; q1 (72) r=-0.75, same side 0/10
+   closest other quiz statements to 183#2: q10 (179) r=+0.98, same side 9/9; q54 (277a) r=-0.94, same side 2/9
+
+two «Family reunification» parts: r(309#2, 183#2) = +0.97; same side 9/9

@@ -1,0 +1,538 @@
+[
+ {
+  "id": "technical_amendment",
+  "description": "Technical, procedural or administrative amendment with no clear political dispute (deadlines, definitions, regulator powers, minor procedure)"
+ },
+ {
+  "id": "soldier_reservist_benefits",
+  "description": "Benefits for soldiers, reservists and discharged soldiers: tax credits, grants, tuition, daycare, priority in hiring or land, job protection (מילואים, חיילים משוחררים, הטבות)"
+ },
+ {
+  "id": "terror_punitive_measures",
+  "description": "Harsher measures against terrorists and their families: deportation of families, house demolitions, not returning bodies, minimum sentences for stone throwing, terror offenses, sanctions on terror supporters (מחבלים, גירוש משפחות, הריסת בתים)"
+ },
+ {
+  "id": "judicial_overhaul",
+  "description": "Judicial overhaul: Supreme Court powers and panels, judicial selection, override clause, splitting the Attorney General role, legal advisers, Israel Bar, constitutional court (בית המשפט העליון, היועץ המשפטי לממשלה, פסקת התגברות)"
+ },
+ {
+  "id": "immigration_migrants",
+  "description": "Immigration control: asylum seekers and infiltrators, illegal residents, foreign workers, border protection, deportation of migrants (מסתננים, שוהים בלתי חוקיים, עובדים זרים)"
+ },
+ {
+  "id": "security_detainee_rights",
+  "description": "Security detainees and prisoners: lawyer access, detention extensions, unlawful combatants, prison conditions, medical care and Red Cross access for security prisoners (עצור בעבירת ביטחון, אסיר ביטחוני, לוחמים בלתי חוקיים)"
+ },
+ {
+  "id": "government_structure",
+  "description": "Structure and rules of government and Knesset: who forms the government, acting PM, ministers' qualifications, Knesset committees, opposition rights, cabinet procedures (חוק-יסוד: הממשלה, הכנסת, ועדות)"
+ },
+ {
+  "id": "women_representation",
+  "description": "Women's representation and gender equality in politics, boards and public bodies; gender budgeting; advancing women (ייצוג נשים, שוויון מגדרי)"
+ },
+ {
+  "id": "haredi_draft",
+  "description": "Military conscription of Haredi yeshiva students, draft exemptions, sanctions on draft evaders and institutions encouraging evasion, Torah study status (גיוס חרדים, השתמטות, לומדי תורה)"
+ },
+ {
+  "id": "judea_samaria_other",
+  "description": "Judea and Samaria (West Bank) measures other than formal sovereignty: land purchase and land registry, young settlements, disengagement law repeal, Civil Administration, heritage authority, terminology (יהודה והשומרון, התנחלויות, ההתנתקות)"
+ },
+ {
+  "id": "illegal_weapons_crime",
+  "description": "Organized crime, illegal weapons, protection racketeering, agricultural crime, looting (נשק בלתי חוקי, ארגוני פשיעה, דמי חסות)"
+ },
+ {
+  "id": "rabbinate_reform",
+  "description": "Chief Rabbinate, city rabbis, rabbinical and religious courts, religious services and councils, their powers and elections (רבנות ראשית, בתי דין רבניים, שירותי דת)"
+ },
+ {
+  "id": "terror_victims",
+  "description": "Rights, compensation and legal aid for victims of terror and hostile acts and their families (נפגעי פעולות איבה, נפגעי טרור)"
+ },
+ {
+  "id": "state_loyalty",
+  "description": "Loyalty to the state: oaths of allegiance, cutting funding to bodies or educators acting against the state or supporting terror, banning enemy or PA flags, flag protection (נאמנות למדינה, הנפת דגל, שלילת תמיכה)"
+ },
+ {
+  "id": "state_commission_inquiry",
+  "description": "State commissions of inquiry (e.g. into October 7 failures, spyware) and accountability of security chiefs (ועדת חקירה ממלכתית)"
+ },
+ {
+  "id": "land_policy",
+  "description": "Land policy: Israel Land Authority, JNF/KKL, grazing land farms, admission committees and community settlements, cooperative societies (מקרקעי ישראל, קק\"ל, שטחי מרעה, יישוב קהילתי)"
+ },
+ {
+  "id": "frontline_communities",
+  "description": "Support for frontline and border communities after October 7: Gaza envelope, northern confrontation line, Kiryat Shmona, tax benefits and economic aid for the home front (קו העימות, עוטף עזה)"
+ },
+ {
+  "id": "revoke_citizenship_terrorists",
+  "description": "Revoking citizenship or residency of terrorists (ביטול אזרחות או תושבות)"
+ },
+ {
+  "id": "culture_heritage",
+  "description": "Culture, heritage and commemoration: memorial days, heritage centers for communities and leaders, Yemenite children affair (הנצחה, מורשת, יום זיכרון)"
+ },
+ {
+  "id": "domestic_violence",
+  "description": "Domestic violence and violence against women: definitions, electronic monitoring, protection orders, victims' rights (אלימות במשפחה)"
+ },
+ {
+  "id": "higher_education_access",
+  "description": "Students' rights and access to higher education: tuition, admission rules, student insurance fees (זכויות הסטודנט, השכלה גבוהה)"
+ },
+ {
+  "id": "health_periphery",
+  "description": "Health services in the periphery: hospitals and emergency rooms in remote towns, reducing the center-periphery health gap (בריאות בפריפריה)"
+ },
+ {
+  "id": "racism",
+  "description": "Fighting racism and hate crimes: defining racism, nationalist or gender-based hate offenses, racist incitement (גזענות, פשעי שנאה)"
+ },
+ {
+  "id": "election_procedures",
+  "description": "Election procedures and party finance: voting arrangements, local election rules, campaign financing (בחירות, מימון מפלגות)"
+ },
+ {
+  "id": "diversity_public_bodies",
+  "description": "Fair representation of groups (Arabs, Haredim, Ethiopians and others) in government companies, civil service and planning bodies (ייצוג הולם)"
+ },
+ {
+  "id": "pa_pay_for_slay",
+  "description": "Palestinian Authority payments to terrorists ('pay for slay'), freezing and offsetting PA funds, interim agreement restrictions (הרשות הפלסטינית, כספים בזיקה לטרור)"
+ },
+ {
+  "id": "environment",
+  "description": "Environment and climate: climate law, plastic bags, recycling, cleanliness, trees, solar energy (אקלים, סביבה, מיחזור)"
+ },
+ {
+  "id": "consumer_protection",
+  "description": "Consumer protection: billing, contracts, labeling, flight cancellations, class actions, bank fees (הגנת הצרכן)"
+ },
+ {
+  "id": "disqualify_terror_supporters",
+  "description": "Disqualifying candidates or removing MKs and officials who support terror or armed struggle (פסילת מועמדים, הדחת חבר כנסת)"
+ },
+ {
+  "id": "sovereignty_annexation",
+  "description": "Applying Israeli sovereignty / annexation to Judea and Samaria, the Jordan Valley or specific settlements (החלת ריבונות)"
+ },
+ {
+  "id": "police_political_control",
+  "description": "Political control and independence of the police: minister's authority over policy, appointments, opening investigations, protest dispersal, national guard (המשטרה, השר, משמר לאומי)"
+ },
+ {
+  "id": "debts_insolvency",
+  "description": "Debts, debt collection, enforcement office and insolvency (הוצאה לפועל, חדלות פירעון)"
+ },
+ {
+  "id": "cost_of_living",
+  "description": "Cost of living: food prices, monopolies, competition, price controls (יוקר המחיה, מחירים, מונופול)"
+ },
+ {
+  "id": "lgbt_rights",
+  "description": "LGBT rights: conversion therapy ban, discrimination by sexual orientation or gender identity, adoption (להט\"ב, טיפולי המרה)"
+ },
+ {
+  "id": "tax_breaks",
+  "description": "General income tax, property tax and deductions not tied to a specific group (מס הכנסה, מיסוי מקרקעין, ניכויים)"
+ },
+ {
+  "id": "unrwa",
+  "description": "UNRWA: ending its activity in Israel, revoking its immunities (אונר\"א)"
+ },
+ {
+  "id": "unemployment_benefits",
+  "description": "Unemployment benefits, including for the self-employed (דמי אבטלה)"
+ },
+ {
+  "id": "equality_basic_law",
+  "description": "Enshrining the right to equality or the Declaration of Independence in Basic Laws (הזכות לשוויון, מגילת העצמאות)"
+ },
+ {
+  "id": "free_speech",
+  "description": "Freedom of speech and press: journalists' protection and privilege, censorship, insulting public servants, denial laws (October 7, Nakba) (חופש הביטוי, עיתונאים)"
+ },
+ {
+  "id": "labor_rights",
+  "description": "Workers' rights: minimum wage, sick leave, wage protection, women's employment protections (שכר מינימום, זכויות עובדים)"
+ },
+ {
+  "id": "pm_term_limits",
+  "description": "Term limits for the Prime Minister and barring a PM under indictment (הגבלת כהונת ראש הממשלה)"
+ },
+ {
+  "id": "religion_public_space",
+  "description": "Religion in public space: public transport and electricity on Shabbat, chametz on Passover in hospitals, Shabbat work (שבת, חמץ, תחבורה ציבורית בשבת)"
+ },
+ {
+  "id": "elderly_rights",
+  "description": "Senior citizens: old-age allowance, long-term care, protection of elderly (אזרחים ותיקים, קצבת זקנה, סיעוד)"
+ },
+ {
+  "id": "periphery_development",
+  "description": "Developing the periphery: Negev and Galilee, new airport, universities, regional authorities (פריפריה, נגב, גליל)"
+ },
+ {
+  "id": "covid",
+  "description": "COVID-19 emergency measures and related economic relief (נגיף הקורונה)"
+ },
+ {
+  "id": "suspect_rights",
+  "description": "Rights of suspects and defendants: interrogation limits, searches, evidence exclusion, bail, torture ban (זכויות חשודים)"
+ },
+ {
+  "id": "education_curriculum",
+  "description": "School curriculum and content: heritage studies, financial education, smartphones in schools, incitement in curricula (תוכנית לימודים)"
+ },
+ {
+  "id": "poverty",
+  "description": "Fighting poverty and food insecurity: national anti-poverty authority, school meals, dignified living index (עוני, ביטחון תזונתי)"
+ },
+ {
+  "id": "haredi_education",
+  "description": "Haredi education: core curriculum requirements, state Haredi school stream, funding of Haredi institutions (לימודי ליבה, חינוך חרדי)"
+ },
+ {
+  "id": "state_budget",
+  "description": "State budget laws, deficit reduction and budget amendments (תקציב המדינה)"
+ },
+ {
+  "id": "anti_discrimination",
+  "description": "Prohibiting discrimination in products, services, housing and public places (איסור הפליה)"
+ },
+ {
+  "id": "service_model",
+  "description": "Model of military service: mandatory service for all, abolishing conscription, women's service, encouraging civil-national service (שירות חובה לכל, גיוס חובה)"
+ },
+ {
+  "id": "health_coverage",
+  "description": "Expanding health coverage: national health basket, subsidies for treatments and equipment, patients' rights to timely care (ביטוח בריאות ממלכתי, סל הבריאות)"
+ },
+ {
+  "id": "nation_state_law",
+  "description": "The Nation-State Basic Law: repealing it or adding equality (חוק הלאום)"
+ },
+ {
+  "id": "early_childhood",
+  "description": "Daycare and early childhood: subsidies, regulation, caregivers (מעונות יום, גיל הרך)"
+ },
+ {
+  "id": "mental_health",
+  "description": "Mental health, trauma and addiction services (בריאות הנפש, התמכרויות)"
+ },
+ {
+  "id": "media_regulation",
+  "description": "Media and telecom regulation: broadcasting rules, social networks, online content removal (תקשורת, שידורים, רשתות חברתיות)"
+ },
+ {
+  "id": "bereaved_families",
+  "description": "Bereaved families of fallen soldiers: benefits and recognition (משפחות שכולות)"
+ },
+ {
+  "id": "police_surveillance",
+  "description": "Police and security powers of search and surveillance: device searches, biometrics, cameras, anonymous SIM cards (חיפוש, האזנה, מאגר ביומטרי)"
+ },
+ {
+  "id": "cannabis",
+  "description": "Cannabis: legalization, decriminalization, medical cannabis (קנאביס)"
+ },
+ {
+  "id": "vat_essentials",
+  "description": "VAT exemptions or zero rate on essentials such as medicines and textbooks (מע\"מ, פטור)"
+ },
+ {
+  "id": "foreign_broadcaster_ban",
+  "description": "Banning foreign broadcasters harming state security, e.g. Al Jazeera (גוף שידורים זר)"
+ },
+ {
+  "id": "foreign_policy",
+  "description": "Foreign policy and hostile entities: declaring states or Gaza hostile, the ICC and international institutions (מדינת אויב, בית הדין הבין-לאומי)"
+ },
+ {
+  "id": "home_front_shelters",
+  "description": "Home-front protection: shelters and safe rooms, education during emergencies (מיגון, מקלטים, מרחב מוגן)"
+ },
+ {
+  "id": "utility_relief",
+  "description": "Utility relief: bans on cutting electricity or water, discounts for needy households (ניתוק חשמל, הנחות במים)"
+ },
+ {
+  "id": "disability_rights",
+  "description": "Rights and accessibility for people with disabilities (אנשים עם מוגבלות, נגישות)"
+ },
+ {
+  "id": "civil_service_appointments",
+  "description": "Senior civil service appointments, political appointees and conflicts of interest (מינויים בשירות המדינה)"
+ },
+ {
+  "id": "animal_welfare",
+  "description": "Animal welfare and wildlife protection (צער בעלי חיים)"
+ },
+ {
+  "id": "parking_tolls",
+  "description": "Parking fees and toll roads (חניה, כביש אגרה)"
+ },
+ {
+  "id": "idf_disabled",
+  "description": "Disabled IDF veterans: benefits and rehabilitation (נכי צה\"ל)"
+ },
+ {
+  "id": "death_penalty_terrorists",
+  "description": "Death penalty for terrorists (עונש מוות למחבלים)"
+ },
+ {
+  "id": "public_transport",
+  "description": "Public transport services, fares and ride-sharing (תחבורה ציבורית)"
+ },
+ {
+  "id": "sex_violent_crime_penalties",
+  "description": "Harsher penalties for sexual and violent crimes, offenses against minors or the vulnerable (עבירות מין, אונס)"
+ },
+ {
+  "id": "arab_druze_recognition",
+  "description": "Recognition and status of Arab and Druze citizens: Druze status law, Kafr Qasim commemoration (העדה הדרוזית, כפר קאסם)"
+ },
+ {
+  "id": "medical_professions",
+  "description": "Regulating medical and therapy professions (מקצועות הבריאות)"
+ },
+ {
+  "id": "ngo_foreign_funding",
+  "description": "Regulating NGOs and funding from foreign governments (עמותות, ישות מדינית זרה)"
+ },
+ {
+  "id": "government_transparency",
+  "description": "Government transparency: press conferences, disclosure of advisers, sharing classified info with ministers (שקיפות)"
+ },
+ {
+  "id": "school_admission_discrimination",
+  "description": "Discrimination in school admissions and cutting funding to discriminating schools (הפליה ברישום)"
+ },
+ {
+  "id": "civilian_gun_licenses",
+  "description": "Firearm licenses for civilians (רישיון כלי ירייה)"
+ },
+ {
+  "id": "family_reunification",
+  "description": "Citizenship and Entry Law restricting Palestinian family reunification (חוק האזרחות והכניסה לישראל)"
+ },
+ {
+  "id": "public_broadcaster",
+  "description": "Public broadcaster Kan and Army Radio: budget, privatization, appointments (תאגיד השידור, גלי צה\"ל)"
+ },
+ {
+  "id": "who_is_a_jew",
+  "description": "Law of Return and who is a Jew: grandchild clause, family members' rights, population registry definition (חוק השבות, הגדרת יהודי)"
+ },
+ {
+  "id": "housing_affordability",
+  "description": "Housing affordability: rent caps, public housing stock, mortgages and grants for home buyers (שכירות, דיור ציבורי)"
+ },
+ {
+  "id": "low_income_families",
+  "description": "Support for low-income families with children (משפחות מעוטות יכולת)"
+ },
+ {
+  "id": "arabic_language",
+  "description": "Arabic language status and services in Arabic (השפה הערבית)"
+ },
+ {
+  "id": "mk_immunity",
+  "description": "Immunity of MKs and ministers (חסינות חברי הכנסת)"
+ },
+ {
+  "id": "arab_planning",
+  "description": "Planning, building and housing in Arab and Druze towns, connecting unpermitted homes to utilities (תכנון ובנייה ביישובים ערביים ודרוזיים)"
+ },
+ {
+  "id": "municipal_budget_equity",
+  "description": "Distributive justice in budgets between municipalities (צדק חלוקתי ברשויות)"
+ },
+ {
+  "id": "aliyah_absorption",
+  "description": "Aliyah and absorption of immigrants (עלייה, סל קליטה)"
+ },
+ {
+  "id": "jerusalem_status",
+  "description": "Status of Jerusalem and foreign diplomatic missions there (ירושלים בירת ישראל)"
+ },
+ {
+  "id": "officials_pay",
+  "description": "Salaries and perks of officials and elected representatives (שכר נבחרי ציבור)"
+ },
+ {
+  "id": "free_education",
+  "description": "Free education: abolishing parental fees, free psychometric prep, informal education (חינוך חינם)"
+ },
+ {
+  "id": "holy_places",
+  "description": "Holy places: Western Wall, Temple Mount, Cave of the Patriarchs (המקומות הקדושים, הר הבית)"
+ },
+ {
+  "id": "tobacco",
+  "description": "Tobacco and smoking regulation (טבק, עישון)"
+ },
+ {
+  "id": "agriculture",
+  "description": "Agriculture and farm market regulation (חקלאות)"
+ },
+ {
+  "id": "civil_marriage",
+  "description": "Civil marriage and divorce outside the rabbinate (נישואים אזרחיים)"
+ },
+ {
+  "id": "humanitarian_aid",
+  "description": "Humanitarian aid to Palestinians from state funds (סיוע הומניטרי)"
+ },
+ {
+  "id": "settlement_security",
+  "description": "Security coordinators and protection of settlements and border towns (רכזי ביטחון)"
+ },
+ {
+  "id": "urban_renewal",
+  "description": "Urban renewal and earthquake reinforcement of buildings (פינוי בינוי, חיזוק מבנים)"
+ },
+ {
+  "id": "holocaust_survivors",
+  "description": "Benefits for Holocaust survivors (ניצולי שואה)"
+ },
+ {
+  "id": "religious_institutions_benefits",
+  "description": "Benefits for synagogues and religious institutions (בתי תפילה)"
+ },
+ {
+  "id": "whistleblowers",
+  "description": "Protection of whistleblowers (חושפי שחיתויות)"
+ },
+ {
+  "id": "polygamy",
+  "description": "Polygamy (פוליגמיה)"
+ },
+ {
+  "id": "coalition_funds",
+  "description": "Coalition discretionary funds (כספים קואליציוניים)"
+ },
+ {
+  "id": "prostitution",
+  "description": "Prostitution and pimping (זנות)"
+ },
+ {
+  "id": "bioethics",
+  "description": "Bioethics: organ donation consent, posthumous sperm use (תרומת אברים, זרע של נפטר)"
+ },
+ {
+  "id": "hostages",
+  "description": "Hostages taken on October 7 and their families (חטופים)"
+ },
+ {
+  "id": "health_funding",
+  "description": "Health system funding arrangements (מימון מערכת הבריאות)"
+ },
+ {
+  "id": "child_allowance",
+  "description": "Child allowances (קצבת ילדים)"
+ },
+ {
+  "id": "electricity_market",
+  "description": "Electricity market structure (משק החשמל)"
+ },
+ {
+  "id": "new_cities",
+  "description": "Establishing new towns (הקמת יישוב חדש)"
+ },
+ {
+  "id": "nonprofit_tax_status",
+  "description": "Tax status of public institutions for donations (מוסד ציבורי, סעיף 46)"
+ },
+ {
+  "id": "gender_segregation",
+  "description": "Gender segregation in public spaces, separate beaches (הפרדה מגדרית, רחצה נפרדת)"
+ },
+ {
+  "id": "gambling",
+  "description": "Gambling (הימורים, מפעל הפיס)"
+ },
+ {
+  "id": "conversion",
+  "description": "Conversion to Judaism (גיור)"
+ },
+ {
+  "id": "disability_allowance",
+  "description": "Disability allowance level (קצבת נכות)"
+ },
+ {
+  "id": "cabinet_leaks",
+  "description": "Leaks and secrecy in the security cabinet (הדלפות, פוליגרף)"
+ },
+ {
+  "id": "ptsd",
+  "description": "Combat PTSD treatment authority (הלם קרב)"
+ },
+ {
+  "id": "state_identity",
+  "description": "Declaring the state's identity in Basic Laws (זהות המדינה)"
+ },
+ {
+  "id": "palestinian_state",
+  "description": "Recognition of a Palestinian state (מדינה פלסטינית)"
+ },
+ {
+  "id": "arms_exports",
+  "description": "Restricting arms exports to human rights violators (ייצוא ביטחוני)"
+ },
+ {
+  "id": "privacy",
+  "description": "Privacy and personal data deletion (הגנת הפרטיות)"
+ },
+ {
+  "id": "protests",
+  "description": "Protests and demonstrations: blocking roads, restrictions on protest, dispersal of demonstrations (חסימת כבישים, הפגנות, חסימת ציר תנועה)"
+ },
+ {
+  "id": "espionage",
+  "description": "Espionage, contact with foreign agents, treason and spying for enemies (ריגול, מגע עם סוכן חוץ, בגידה)"
+ },
+ {
+  "id": "public_corruption",
+  "description": "Public corruption offenses: fraud and breach of trust, bribery, moral turpitude of officials (מרמה והפרת אמונים, שוחד, שחיתות ציבורית, קלון)"
+ },
+ {
+  "id": "family_law",
+  "description": "Family law outside religious marriage: common-law couples, child custody and parental authority, guardianship, foster care (ידועים בציבור, משמורת, אפוטרופסות, אומנה)"
+ },
+ {
+  "id": "cyber_digital",
+  "description": "Cybersecurity, cyber attacks, digital services and domain registries (סייבר, שירותים דיגיטליים)"
+ },
+ {
+  "id": "gaza_future",
+  "description": "The future of the Gaza Strip: encouraging voluntary emigration of Gaza residents, resettlement in Gaza, Gaza's status after the war (עזיבה מרצון של תושבי עזה, רצועת עזה)"
+ },
+ {
+  "id": "soldier_legal_immunity",
+  "description": "Legal protection of IDF soldiers: immunity from prosecution for operational actions, investigations of soldiers (חסינות לחיילי צה\"ל, אירועים מבצעיים)"
+ },
+ {
+  "id": "self_defense",
+  "description": "Self-defense: defending one's home, business, farm or vehicle against intruders (הגנה עצמית, הגנת בית מגורים, משק חקלאי)"
+ },
+ {
+  "id": "absentee_property",
+  "description": "Absentee property law and Palestinian property claims (נכסי נפקדים)"
+ },
+ {
+  "id": "sport",
+  "description": "Sport: athletes' rights, sports associations, violence in sport (ספורט)"
+ },
+ {
+  "id": "road_safety",
+  "description": "Road safety and traffic rules: driving, e-scooters, traffic arrangements near schools, sobriety on roads (תעבורה, בטיחות בדרכים)"
+ },
+ {
+  "id": "none_of_these",
+  "description": "None of the listed issues fits"
+ }
+]

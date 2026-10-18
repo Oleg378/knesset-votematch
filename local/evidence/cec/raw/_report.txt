@@ -1,0 +1,50 @@
+CEC candidate lists, 26th Knesset: fetch report (fetched 2026-10-11, Hebrew pages on www.gov.il)
+
+INDEX: https://www.gov.il/he/pages/candidates-lists-26 (page updated 06.10.2026)
+- 38 lists. The index says all lists are shown "as approved by the CEC plenum on 27.9.2026" (כפי שאושרו ... ביום 27.9.2026). No list is marked "submitted"-only.
+- עם (רע"ם) and ודם (הרשימה המשותפת) are listed normally, with no special note on the index. Their own pages say: CEC disqualified both lists on 24.9.2026 (Basic Law: Knesset, s.7A); the Supreme Court reversed this on 2.10.2026, so both may run.
+- No Cloudflare challenge seen. Only problem: the מחל page returned an empty shell on the first read and loaded fine on the second.
+- No list page links a PDF. Each page's only attachment is a PNG image of the ballot, so every file has "PDF: none" on line 2.
+
+Columns: letters | name | url | saved | candidates (count of numbered entries on page) | PDF | notes
+
+מחל | הליכוד בהנהגת בנימין נתניהו לראשות הממשלה | https://www.gov.il/he/pages/halikud-tikvahadasha_iist29 | yes | 120 | none | slug "_iist29" (sic); first read empty, OK on retry; joint Likud + New Hope (תקווה חדשה at #9, #88, #89)
+רק | ביחד בראשות נפתלי בנט | https://www.gov.il/he/pages/beyahad_list1 | yes | 118 | none | Bennett + Yesh Atid; resignations: #69 עופר פליקס מאור (1.10), #118 אנטולי בראל (9.10); list shown renumbered
+דרך | ישר! עם איזנקוט לראשות הממשלה מאחדים את ישראל | https://www.gov.il/he/pages/yashar_list_2 | yes | 120 | none | Yashar + יסודות ישראל
+אמת | הדמוקרטים בראשות יאיר גולן | https://www.gov.il/he/pages/hademokratim_list17 | yes | 119 | none | Democrats + Meretz (#6); resignation #75 ירון גדות זרצנסקי (16.9); "12.זר" has no space after the number
+ל | ישראל ביתנו בראשות אביגדור ליברמן | https://www.gov.il/he/pages/israel-beitenu_list11 | yes | 34 | none |
+כן | כחול לבן בראשות בני גנץ | https://www.gov.il/he/pages/kachol-lavan_list30 | yes | 39 | none | resignations: #30 אמיר שושני (16.9), #19 עירד הרשקוביץ (23.9)
+שס | התאחדות הספרדים שומרי תורה ... | https://www.gov.il/he/pages/shas_list19 | yes | 119 | none | resignation #117 איציק חוגי (15.9)
+ג | יהדות התורה והשבת אגודת ישראל – דגל התורה | https://www.gov.il/he/pages/yahadut-degel_list37 | yes | 118 | none | Degel + Agudat Yisrael + חומת תורת ישראל; resignations #24 מורגנשטרן, #66 רוזנשטין (4.10)
+ט | הציונות הדתית ... וזהות בראשות משה פייגלין | https://www.gov.il/he/pages/tzionutdatit-zehut_list31 | yes | 33 | none | RZ + Zehut + עתיד אחד; #31 לייבלר אברהם שמואל excluded (s.63, not approved 27.9)
+ב | עוצמה יהודית בראשות איתמר בן גביר | https://www.gov.il/he/pages/yehudit-meuhedet_list14 | yes | 35 | none |
+עם | רע"ם – הרשימה הערבית המאוחדת | https://www.gov.il/he/pages/raam_list18 | yes | 73 | none | list disqualified by CEC 24.9, reinstated by Supreme Court 2.10; "הייב מוחמד" appears at both #11 and #33 (as on page)
+ודם | הרשימה המשותפת | https://www.gov.il/he/pages/hareshima-hameshutefet_list35 | yes | 118 | none | Hadash + Balad + Ta'al; list disqualified 24.9, reinstated 2.10; CEC barred #3 סמי אבו שחאדה and #6 עופר כסיף; SC allowed כסיף (now #5); אבו שחאדה resigned 2.10; resignation #53 תאודור אריאל עמר (17.9)
+ני | נעם לישראל למען עתיד הילדים בראשות אבי מעוז | https://www.gov.il/he/pages/noam_list38 | yes | 16 | none |
+די | המילואימניקים והכלכלית בראשות יועז הנדל וירון זליכה | https://www.gov.il/he/pages/hamiluimnikim-vehakalkalit_list16 | yes | 36 | none | #15 בהט יונתן excluded (s.63); resignations #37 בר שמיאן (28.9), #16 אלמוג רום (11.10); page updated 11.10
+ך | עמך ישראל בראשות עופר וינטר | https://www.gov.il/he/pages/amcha-israel_list6 | yes | 18 | none |
+י | ישראל תחילה בראשות שרן השכל | https://www.gov.il/he/pages/israel-tchila_list7 | yes | 12 | none |
+ק | תקומה | https://www.gov.il/he/pages/tekuma_list34 | yes | 13 | none |
+בד | מפלגת ביחד נצליח – רשימה משותפת ערבית יהודית בראשות אבי שקד | https://www.gov.il/he/pages/beyachad-natzliah_list10 | yes | 9 | none |
+בי | צומת בית ישראל | https://www.gov.il/he/pages/tzomet-beit-israel_list33 | yes | 12 | none |
+בקר | אורות השחר בראשות ניסים לוק | https://www.gov.il/he/pages/orot_list26 | yes | 13 | none |
+ד | השותפות לכולם | https://www.gov.il/he/pages/hashutafut-lekulam_iist | yes | 7 | none | index link is http:// with slug "_iist" and no number; redirected to https
+ה | גן עדן בראשות ישוע ישראל בן דוד | https://www.gov.il/he/pages/gan-eden_list_8 | yes | 7 | none |
+ז | בטח – בטחון חברתי בראשות סמיון גרפמן | https://www.gov.il/he/pages/betach_list25 | yes | 3 | none |
+זך | הציבור החרדי בראשות מוטי ליטנר | https://www.gov.il/he/pages/tzibur-charedi_list20 | yes | 12 | none |
+זץ | ברית עולם לגאולת ישראל | https://www.gov.il/he/pages/brit-olam_list22 | yes | 11 | none |
+יק | גה"ת – גוש התנ"כי | https://www.gov.il/he/pages/gush-tanachi_list24 | yes | 4 | none |
+נף | שמע בראשות נפתלי גולדמן | https://www.gov.il/he/pages/shama | yes | 1 | none | slug has no _listN; single unnumbered candidate
+נץ | ביטחון אישי | https://www.gov.il/he/pages/demokratura_list27 | yes | 6 | none |
+נקי | התיקון לשיטת הבחירות והממשל | https://www.gov.il/he/pages/tikun_list23 | yes | 13 | none |
+נר | צבע שחור – מגן עולם התורה | https://www.gov.il/he/pages/shachor_list28 | yes | 18 | none |
+פה | אני ואתה מפלגת העם הישראלית | https://www.gov.il/he/pages/miflegat-am-israelit_list21 | yes | 7 | none |
+צבי | תנועת אחי תנועתו של הרב יורם אברג'ל זצ"ל | https://www.gov.il/he/pages/chozrim-leshorashim_list32 | yes | 10 | none |
+צדק | שרשר לאהבה ואחדות העם | https://www.gov.il/he/pages/sharshar_list3 | yes | 12 | none |
+צף | הפיראטים – צפים לטוב | https://www.gov.il/he/pages/pirates_list_5 | yes | 24 | none | #22 פוויץ יהודה אריה excluded (s.63)
+קה | קול הנשים | https://www.gov.il/he/pages/kol-ha-nashim_list9 | yes | 15 | none |
+קך | סדר-חדש לכינון חוקה, להפרדת רשויות ולבחירות אישיות | https://www.gov.il/he/pages/seder-chadash_list15 | yes | 25 | none | resignations #3, #16, #28 (17.9); #24 אשטון גולן excluded (s.63)
+קץ | משפט צדק | https://www.gov.il/he/pages/mishpat-tzedek_list12 | yes | 8 | none | #9 אייזנשטיין מיכאל excluded (s.63)
+רץ | הקהל – מפלגה כלל חרדית ... בראשות הרב שלמה אלבוים | https://www.gov.il/he/pages/machane-israel_list36 | yes | 8 | none |
+
+TOTAL: 38/38 saved, 0 skipped. Candidates on pages: 1,366.

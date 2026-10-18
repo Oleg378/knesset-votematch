@@ -1,0 +1,22 @@
+list × quiz direction pairs with data in both Knessets: 830 of 1125; K = 0.0
+overall same side K24 vs K25: 73%
+
+|p| bin       pairs  same side
+[0.000, 0.025)     40  42%
+[0.025, 0.050)     29  48%
+[0.050, 0.075)     36  44%
+[0.075, 0.100)     25  44%
+[0.100, 0.150)     40  50%
+[0.150, 0.200)     49  59%
+[0.200, 0.300)     92  76%
+[0.300, 0.500)    142  74%
+[0.500, 9.000)    377  87%
+
+threshold t: positions below t shown as «close to the average MK»
+t      share of positions below t   same side below t   same side at/above t
+0.025                           9%                 42%                    75%
+0.05                           14%                 45%                    76%
+0.075                          19%                 45%                    78%
+0.1                            24%                 45%                    79%
+0.15                           28%                 46%                    80%
+0.2                            34%                 49%                    82%

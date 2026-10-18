@@ -1,0 +1,35 @@
+sanity: base vs exported P, max diff 5.0e-05; base rankings == golden: True
+
+answer sets compared: 25 golden cases with >= 3 ranked lists (pilot, pilot + trade-offs, adaptive, random)
+
+variant     pairs by votes 2nd-topic one vote   any side flip top1 same top3 ovl   tau  |dC| fail SD
+base          896      371       248      268   519         0      100%     100%  1.00  0.00       0
+v1            841      242         0      218   334       138       60%      75%  0.71  0.09      15
+v2            896      354       211      235   471        21       96%      87%  0.88  0.04      17
+v3            896      371       248      268   519         0      100%      99%  0.98  0.00       0
+v1+v3         841      242         0      218   334       138       60%      75%  0.71  0.09      15
+v1+v2+v3      841      227         0      164   283       133       60%      73%  0.71  0.10      22
+v4a           896      341       183      219   429        34       80%      76%  0.78  0.07      19
+v4b           896      340       195      213   444        51       88%      81%  0.84  0.05       7
+v1+v3+v4a     841      220         0      160   271       132       52%      71%  0.68  0.11      22
+
+fail SD = quiz directions that would not pass «>= 8 lists, SD >= 0.3, nA >= 30» (base: 0); the SD threshold was set on the base scale, so it is not comparable for v2/v4a.
+
+pilot top-5 per variant:
+  base        HaDemocratim +0.31 · Yashar! With Eizen +0.18 · Be’Yahad +0.17 · Yisrael Beiteinu +0.14 · The Joint Arab Lis +0.09
+  v1          HaDemocratim +0.34 · Yashar! With Eizen +0.31 · The Joint Arab Lis +0.13 · Be’Yahad +0.12 · Yisrael Beiteinu +0.09
+  v2          HaDemocratim +0.33 · Yashar! With Eizen +0.21 · Be’Yahad +0.18 · The Joint Arab Lis +0.13 · Yisrael Beiteinu +0.11
+  v3          HaDemocratim +0.31 · Yashar! With Eizen +0.17 · Be’Yahad +0.17 · Yisrael Beiteinu +0.13 · The Joint Arab Lis +0.11
+  v1+v3       HaDemocratim +0.33 · Yashar! With Eizen +0.31 · The Joint Arab Lis +0.13 · Be’Yahad +0.12 · Yisrael Beiteinu +0.09
+  v1+v2+v3    HaDemocratim +0.35 · Yashar! With Eizen +0.33 · The Joint Arab Lis +0.15 · Be’Yahad +0.13 · Yisrael Beiteinu +0.07
+  v4a         HaDemocratim +0.34 · The Joint Arab Lis +0.21 · Yashar! With Eizen +0.21 · Be’Yahad +0.19 · Yisrael Beiteinu +0.09
+  v4b         HaDemocratim +0.32 · Yashar! With Eizen +0.22 · Be’Yahad +0.16 · The Joint Arab Lis +0.13 · Yisrael Beiteinu +0.09
+  v1+v3+v4a   HaDemocratim +0.35 · Yashar! With Eizen +0.31 · The Joint Arab Lis +0.20 · Be’Yahad +0.13 · Yisrael Beiteinu +0.09
+
+q11 (direction 276), list positions P (shrunk p = P·e/(e+2)):
+  base       מחל:-0.22(-0.21) שס:-0.24(-0.20) רק:+0.03(+0.03) אמת:+0.06(+0.04) ודם:+1.46(+0.56) עם:+1.33(+0.77)
+  v1         מחל:+0.04(+0.03) שס:+0.00(+0.00) רק:+0.00(+0.00) אמת:+0.11(+0.06) עם:+0.00(+0.00)
+  v3         מחל:-0.22(-0.20) שס:-0.24(-0.19) רק:+0.03(+0.03) אמת:+0.06(+0.04) ודם:+1.46(+0.56) עם:+1.33(+0.62)
+  v1+v3      מחל:+0.04(+0.02) שס:+0.00(+0.00) רק:+0.00(+0.00) אמת:+0.11(+0.04) עם:+0.00(+0.00)
+  v4a        מחל:-0.03(-0.03) שס:-0.07(-0.06) רק:+0.02(+0.02) אמת:+0.03(+0.03) ודם:+0.37(+0.14) עם:+0.34(+0.19)
+  v1+v3+v4a  מחל:+0.04(+0.02) שס:+0.00(+0.00) רק:+0.00(+0.00) אמת:+0.11(+0.04) עם:+0.00(+0.00)

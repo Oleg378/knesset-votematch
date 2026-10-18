@@ -1,0 +1,13 @@
+faction,to,ref_first_vote,prev_vote,a_current,W30>=0.5,W30>=0.7,M10>=0.5,base_only,base+W30>=0.5,base+W30>=0.7,base+M10>=0.5
+1095 התאחדות הספרדים שומרי תורה ת,opposition,2025-07-23,2025-07-21,missed,missed,missed,missed,missed,missed,missed,missed
+1098 המחנה הממלכתי,coalition,2023-10-16,2023-07-30,0,-96,0,0,missed,-89,missed,114
+1098 המחנה הממלכתי,opposition,2024-06-17,2024-06-10,0,-245,0,0,missed,14,missed,-14
+1101 יהדות התורה,opposition,2025-07-21,2025-07-16,missed,missed,missed,51,missed,missed,missed,51
+1101 יהדות התורה,coalition,2026-01-21,2026-01-14,missed,missed,missed,-91,missed,missed,missed,-91
+1106 עוצמה יהודית בראשות איתמר בן,opposition,2025-01-21,2025-01-20,0,-7,-6,0,missed,missed,missed,missed
+1106 עוצמה יהודית בראשות איתמר בן,coalition,2025-03-19,2025-03-12,0,5,1,0,missed,missed,missed,missed
+1107 נעם - בראשות אבי מעוז,opposition,2023-03-01,2023-02-22,missed,missed,missed,missed,missed,missed,missed,missed
+1107 נעם - בראשות אבי מעוז,coalition,2023-06-07,2023-05-31,-176,-176,-176,-176,-176,-176,-176,-176
+1107 נעם - בראשות אבי מעוז,opposition,2025-03-27,2025-03-25,missed,-86,-23,-23,missed,-86,-23,-23
+1108 הימין הממלכתי,opposition,2024-03-27,2024-03-26,-9,-9,-9,-9,-9,-9,-9,-9
+1108 הימין הממלכתי,coalition,2024-10-28,2024-09-29,0,0,0,0,missed,-29,-29,9
