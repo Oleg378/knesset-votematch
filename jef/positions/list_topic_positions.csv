@@ -84,7 +84,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO
 אמת,"HaDemocratim, headed by Yair Golan",178,меры против терроризма и его финансирования,-0.3062,0.0,-0.0609,10,0,179,False,-0.2453,148
 אמת,"HaDemocratim, headed by Yair Golan",179,допуск иностранцев на въезд и пребывание,0.8853,0.5,0.1395,10,5,74,False,0.2458,57
 אמת,"HaDemocratim, headed by Yair Golan",18,регулирование финансового сектора,0.4866,0.5556,-0.0134,9,15,18,False,-0.0556,22
-אמת,"HaDemocratim, headed by Yair Golan",180,приток иностранной рабочей силы,0.625,0.625,0.0,8,10,5,False,0.0,0
+אמת,"HaDemocratim, headed by Yair Golan",180,приток иностранной рабочей силы,0.625,0.625,0.0,8,7,5,False,0.0,0
 אמת,"HaDemocratim, headed by Yair Golan",181,права иностранных работников,0.261,0.0,0.0182,10,0,38,False,0.2429,31
 אמת,"HaDemocratim, headed by Yair Golan",182,права иностранцев на социальную помощь,1.0,1.0,0.0,1,1,0,True,0.0,0
 אמת,"HaDemocratim, headed by Yair Golan",183,доступ к гражданству и репатриации,0.8044,0.4,0.1544,10,4,40,False,0.25,32
@@ -95,7 +95,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO
 אמת,"HaDemocratim, headed by Yair Golan",186,доступность альтернатив военной службе,-0.25,0.0,0.0,3,0,0,False,-0.25,6
 אמת,"HaDemocratim, headed by Yair Golan",186a,изучение Торы как альтернатива службе,-0.2827,0.0,-0.0327,3,0,12,False,-0.25,12
 אמת,"HaDemocratim, headed by Yair Golan",186b,гражданская служба и отказ по убеждениям,0.5625,0.75,0.0,4,3,0,False,-0.1875,3
-אמת,"HaDemocratim, headed by Yair Golan",187,привязка прав и льгот к службе,0.1826,0.3778,-0.0199,10,28,205,False,-0.1752,89
+אמת,"HaDemocratim, headed by Yair Golan",187,привязка прав и льгот к службе,0.1827,0.3778,-0.0199,10,28,205,False,-0.1752,89
 אמת,"HaDemocratim, headed by Yair Golan",188c,прикомандирование срочников к полиции и ШАБАС,-0.625,-0.5,0.0,2,1,0,True,-0.125,1
 אמת,"HaDemocratim, headed by Yair Golan",19,обязанности бизнеса перед потребителями,0.8532,0.9948,0.0028,11,99,272,False,-0.1444,294
 אמת,"HaDemocratim, headed by Yair Golan",195,дисциплинарный контроль над работниками госсектора,0.4389,0.5714,-0.0254,7,5,26,False,-0.1071,23
@@ -270,7 +270,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO
 אמת,"HaDemocratim, headed by Yair Golan",53b,санкции против выборных лиц за коррупцию и уголовные дела,1.0,1.0,0.0,2,2,0,True,0.0,0
 אמת,"HaDemocratim, headed by Yair Golan",55,полномочия исполнительной власти (+ дискреция),0.4638,0.6157,0.006,10,160,611,False,-0.1579,511
 אמת,"HaDemocratim, headed by Yair Golan",58,полномочия главы правительства,0.6326,0.6667,0.0076,6,7,13,False,-0.0417,9
-אמת,"HaDemocratim, headed by Yair Golan",58a,глава правительства под уголовным делом,-0.25,0.0,0.0,9,0,9,False,-0.25,9
+אמת,"HaDemocratim, headed by Yair Golan",58a,глава правительства под уголовным делом,-0.3611,-0.1111,0.0,9,1,9,False,-0.25,9
 אמת,"HaDemocratim, headed by Yair Golan",58b,единоличные полномочия главы правительства,-0.5947,-0.3333,-0.0113,3,1,11,False,-0.25,8
 אמת,"HaDemocratim, headed by Yair Golan",60,политический контроль над госорганами и назначениями,-0.8315,-0.7273,-0.0296,11,15,225,False,-0.0746,205
 אמת,"HaDemocratim, headed by Yair Golan",63,полномочия и вес юридического советника правительства,0.9547,0.75,0.0256,4,3,89,False,0.1792,89
@@ -413,7 +413,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",185b,объём общей воинской и резервной повинности,0.0894,0.3333,0.006,6,2,19,False,-0.25,22
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",186a,изучение Торы как альтернатива службе,0.0168,0.0,0.0168,6,0,24,False,0.0,0
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",186b,гражданская служба и отказ по убеждениям,0.0625,0.0,0.0,4,0,3,False,0.0625,3
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",187,привязка прав и льгот к службе,0.4553,0.6667,-0.0077,6,46,360,False,-0.2037,258
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",187,привязка прав и льгот к службе,0.4559,0.6667,-0.0071,6,46,358,False,-0.2037,258
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",188,использование военных в гражданских функциях,-1.0,-1.0,0.0,1,1,0,True,0.0,0
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",188c,прикомандирование срочников к полиции и ШАБАС,-0.25,0.0,0.0,1,0,0,True,-0.25,4
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",189,автономия армии от политиков и законодателя,0.3333,0.3333,0.0,3,3,0,False,0.0,0
@@ -941,7 +941,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,185b,объём общей воинской и резервной повинности,-0.3566,0.0,-0.1066,9,0,29,False,-0.25,36
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,186a,изучение Торы как альтернатива службе,0.524,0.4286,0.0954,7,5,28,False,0.0,0
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,186b,гражданская служба и отказ по убеждениям,-0.1429,0.0,0.0,7,0,2,False,-0.1429,7
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,187,привязка прав и льгот к службе,0.2676,0.5556,-0.0978,9,14,364,False,-0.1902,186
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,187,привязка прав и льгот к службе,0.2675,0.5556,-0.0979,9,14,362,False,-0.1902,186
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,188,использование военных в гражданских функциях,1.0,1.0,0.0,1,1,0,True,0.0,0
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,188c,прикомандирование срочников к полиции и ШАБАС,-0.25,0.0,0.0,5,0,0,False,-0.25,25
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,189,автономия армии от политиков и законодателя,-1.0,-1.0,0.0,5,5,0,False,0.0,0
@@ -1260,7 +1260,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",186,доступность альтернатив военной службе,-0.25,0.0,0.0,2,0,0,True,-0.25,4
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",186a,изучение Торы как альтернатива службе,-0.3086,0.0,-0.0586,2,0,8,True,-0.25,8
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",186b,гражданская служба и отказ по убеждениям,0.25,0.5,0.0,2,1,0,True,-0.25,4
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",187,привязка прав и льгот к службе,1.1491,1.0,0.1097,4,25,188,False,0.0393,60
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",187,привязка прав и льгот к службе,1.1466,1.0,0.1095,4,25,186,False,0.0371,59
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",19,обязанности бизнеса перед потребителями,0.1757,0.25,0.0063,4,6,105,False,-0.0806,138
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",193,допустимая цена сделок по освобождению пленных,-0.4916,0.0,-0.2416,1,0,1,True,-0.25,1
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",195,дисциплинарный контроль над работниками госсектора,-0.2945,0.0,-0.0683,3,0,21,False,-0.2262,21
@@ -1551,7 +1551,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO
 ודם,The Joint Arab List,185b,объём общей воинской и резервной повинности,-1.4349,-0.8,-0.3849,5,9,18,False,-0.25,19
 ודם,The Joint Arab List,186a,изучение Торы как альтернатива службе,-0.2827,0.0,-0.0327,4,0,11,False,-0.25,11
 ודם,The Joint Arab List,186b,гражданская служба и отказ по убеждениям,0.6,0.8,0.0,5,9,0,False,-0.2,13
-ודם,The Joint Arab List,187,привязка прав и льгот к службе,-1.2023,-0.6,-0.3595,5,9,179,False,-0.2429,86
+ודם,The Joint Arab List,187,привязка прав и льгот к службе,-1.2022,-0.6,-0.3593,5,9,179,False,-0.2429,86
 ודם,The Joint Arab List,188c,прикомандирование срочников к полиции и ШАБАС,-0.25,0.0,0.0,5,0,0,False,-0.25,30
 ודם,The Joint Arab List,19,обязанности бизнеса перед потребителями,0.9893,0.9846,0.031,5,157,268,False,-0.0263,238
 ודם,The Joint Arab List,192,военные меры охраны границы,-1.0,-1.0,0.0,4,4,0,False,0.0,0
@@ -1863,7 +1863,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",185b,объём общей воинской и резервной повинности,-0.0502,0.1667,0.0332,6,1,23,False,-0.25,31
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",186a,изучение Торы как альтернатива службе,-0.0012,0.0,-0.0012,5,0,20,False,0.0,0
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",186b,гражданская служба и отказ по убеждениям,0.85,1.0,0.0,5,8,2,False,-0.15,3
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",187,привязка прав и льгот к службе,0.8004,1.0,-0.0085,6,48,373,False,-0.1911,266
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",187,привязка прав и льгот к службе,0.8006,1.0,-0.0083,6,48,371,False,-0.1911,266
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",188,использование военных в гражданских функциях,1.0,1.0,0.0,4,7,0,False,0.0,0
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",188c,прикомандирование срочников к полиции и ШАБАС,-0.225,0.0,0.0,4,0,0,False,-0.225,18
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",189,автономия армии от политиков и законодателя,-0.4,-0.4,0.0,5,6,0,False,0.0,0
@@ -2161,7 +2161,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO
 י,"Yisrael Techila, headed by Sharren Haskel",185a,призыв учащихся ешив,-0.0856,0.0,0.1644,1,0,3,True,-0.25,1
 י,"Yisrael Techila, headed by Sharren Haskel",185b,объём общей воинской и резервной повинности,0.331,0.0,0.206,1,0,5,True,0.125,4
 י,"Yisrael Techila, headed by Sharren Haskel",186a,изучение Торы как альтернатива службе,-0.3258,0.0,-0.3258,1,0,2,True,0.0,0
-י,"Yisrael Techila, headed by Sharren Haskel",187,привязка прав и льгот к службе,0.8717,1.0,0.0146,1,3,64,True,-0.1429,42
+י,"Yisrael Techila, headed by Sharren Haskel",187,привязка прав и льгот к службе,0.8728,1.0,0.0156,1,3,64,True,-0.1429,42
 י,"Yisrael Techila, headed by Sharren Haskel",188,использование военных в гражданских функциях,1.0,1.0,0.0,1,1,0,True,0.0,0
 י,"Yisrael Techila, headed by Sharren Haskel",189,автономия армии от политиков и законодателя,-1.0,-1.0,0.0,1,1,0,True,0.0,0
 י,"Yisrael Techila, headed by Sharren Haskel",19,обязанности бизнеса перед потребителями,0.9429,1.0,0.0054,1,1,39,True,-0.0625,24
@@ -2450,7 +2450,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",186,доступность альтернатив военной службе,-0.25,0.0,0.0,3,0,0,False,-0.25,6
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",186a,изучение Торы как альтернатива службе,-0.3247,0.0,-0.0747,3,0,12,False,-0.25,12
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",186b,гражданская служба и отказ по убеждениям,0.9167,1.0,0.0,3,3,0,False,-0.0833,1
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",187,привязка прав и льгот к службе,0.8501,0.75,0.0951,4,35,199,False,0.005,64
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",187,привязка прав и льгот к службе,0.847,0.75,0.0951,4,35,197,False,0.002,62
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",19,обязанности бизнеса перед потребителями,0.8279,1.0,0.0068,4,19,110,False,-0.179,199
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",195,дисциплинарный контроль над работниками госсектора,-0.3512,0.0,-0.1012,3,0,18,False,-0.25,18
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",196,признание и права национальных меньшинств,1.2865,1.0,0.0365,4,11,44,False,0.25,8
@@ -2743,7 +2743,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",175,иммунитет иностранных государств,-0.4542,-0.1667,-0.0792,6,1,6,False,-0.2083,5
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",177,сотрудничество с международными судами,-1.0506,-1.0,-0.0922,6,18,10,False,0.0417,3
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",178,меры против терроризма и его финансирования,0.9748,0.75,0.1578,8,89,367,False,0.067,173
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",179,допуск иностранцев на въезд и пребывание,-0.7224,-0.5073,-0.186,8,59,62,False,-0.0292,24
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",179,допуск иностранцев на въезд и пребывание,-0.7224,-0.5073,-0.186,8,58,62,False,-0.0292,24
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",18,регулирование финансового сектора,0.7807,0.7917,0.0238,8,34,40,False,-0.0347,34
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",180,приток иностранной рабочей силы,-0.6667,-0.6667,0.0,6,8,0,False,0.0,0
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",181,права иностранных работников,-0.7551,-0.6667,-0.078,8,13,17,False,-0.0104,14
@@ -2756,7 +2756,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",186,доступность альтернатив военной службе,-0.25,0.0,0.0,3,0,0,False,-0.25,6
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",186a,изучение Торы как альтернатива службе,-0.3191,0.0,-0.1108,6,0,24,False,-0.2083,20
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",186b,гражданская служба и отказ по убеждениям,-0.25,0.0,0.0,3,0,0,False,-0.25,3
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",187,привязка прав и льгот к службе,0.9271,0.875,0.0701,8,195,366,False,-0.018,143
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",187,привязка прав и льгот к службе,0.9238,0.875,0.0695,8,195,361,False,-0.0207,139
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",188,использование военных в гражданских функциях,1.0,1.0,0.0,1,1,0,True,0.0,0
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",19,обязанности бизнеса перед потребителями,0.8173,0.9643,-0.0006,8,125,201,False,-0.1464,307
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",192,военные меры охраны границы,1.0,1.0,0.0,1,1,0,True,0.0,0
@@ -3074,7 +3074,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",185b,объём общей воинской и резервной повинности,-0.0717,0.0625,0.0741,32,3,95,False,-0.2083,132
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",186a,изучение Торы как альтернатива службе,0.0059,0.0,0.0059,23,0,86,False,0.0,0
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",186b,гражданская служба и отказ по убеждениям,-0.1731,0.0769,0.0,13,1,3,False,-0.25,13
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",187,привязка прав и льгот к службе,0.6373,0.6909,0.0405,33,160,1663,False,-0.0941,1115
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",187,привязка прав и льгот к службе,0.637,0.6909,0.0401,33,158,1648,False,-0.0941,1115
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",188,использование военных в гражданских функциях,1.0,1.0,0.0,3,3,0,False,0.0,0
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",188c,прикомандирование срочников к полиции и ШАБАС,-0.25,0.0,0.0,18,0,0,False,-0.25,83
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",189,автономия армии от политиков и законодателя,-0.3529,-0.3529,0.0,17,19,0,False,0.0,0
@@ -3382,7 +3382,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",186,доступность альтернатив военной службе,0.25,0.0,0.0,1,0,0,True,0.25,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",186a,изучение Торы как альтернатива службе,1.4968,1.0,0.2468,1,1,3,True,0.25,3
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",186b,гражданская служба и отказ по убеждениям,-0.25,0.0,0.0,1,0,0,True,-0.25,1
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",187,привязка прав и льгот к службе,-0.2286,0.0,-0.05,1,0,19,True,-0.1786,7
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",187,привязка прав и льгот к службе,-0.2279,0.0,-0.0493,1,0,19,True,-0.1786,7
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",188c,прикомандирование срочников к полиции и ШАБАС,-0.25,0.0,0.0,1,0,0,True,-0.25,5
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",189,автономия армии от политиков и законодателя,-1.0,-1.0,0.0,1,1,0,True,0.0,0
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",19,обязанности бизнеса перед потребителями,1.1597,1.0,-0.0028,1,3,30,True,0.1625,40
@@ -3660,7 +3660,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO
 עם,"Ra’am, the United Arab List",186,доступность альтернатив военной службе,-0.25,0.0,0.0,1,0,0,True,-0.25,2
 עם,"Ra’am, the United Arab List",186a,изучение Торы как альтернатива службе,-0.2827,0.0,-0.0327,4,0,13,False,-0.25,13
 עם,"Ra’am, the United Arab List",186b,гражданская служба и отказ по убеждениям,-0.25,0.0,0.0,4,0,0,False,-0.25,7
-עם,"Ra’am, the United Arab List",187,привязка прав и льгот к службе,-0.0989,0.3333,-0.2192,6,11,185,False,-0.213,95
+עם,"Ra’am, the United Arab List",187,привязка прав и льгот к службе,-0.1016,0.3333,-0.2192,6,11,184,False,-0.2157,94
 עם,"Ra’am, the United Arab List",188c,прикомандирование срочников к полиции и ШАБАС,-0.25,0.0,0.0,1,0,0,True,-0.25,2
 עם,"Ra’am, the United Arab List",19,обязанности бизнеса перед потребителями,0.8921,1.0,0.0172,6,109,264,False,-0.125,298
 עם,"Ra’am, the United Arab List",193,допустимая цена сделок по освобождению пленных,0.2028,0.0,0.2028,3,0,3,False,0.0,0
@@ -3970,7 +3970,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO
 רק,"Be’Yahad, headed by Naftali Bennett",186,доступность альтернатив военной службе,-0.25,0.0,0.0,14,0,0,False,-0.25,28
 רק,"Be’Yahad, headed by Naftali Bennett",186a,изучение Торы как альтернатива службе,-0.2827,0.0,-0.0327,15,0,59,False,-0.25,59
 רק,"Be’Yahad, headed by Naftali Bennett",186b,гражданская служба и отказ по убеждениям,-0.1528,0.0833,0.0,12,1,0,False,-0.2361,32
-רק,"Be’Yahad, headed by Naftali Bennett",187,привязка прав и льгот к службе,0.8979,0.8068,0.0851,16,223,1008,False,0.0059,268
+רק,"Be’Yahad, headed by Naftali Bennett",187,привязка прав и льгот к службе,0.8942,0.8068,0.085,16,222,1000,False,0.0024,260
 רק,"Be’Yahad, headed by Naftali Bennett",188c,прикомандирование срочников к полиции и ШАБАС,0.25,0.0,0.0,1,0,0,True,0.25,2
 רק,"Be’Yahad, headed by Naftali Bennett",189,автономия армии от политиков и законодателя,-1.0,-1.0,0.0,2,2,0,True,0.0,0
 רק,"Be’Yahad, headed by Naftali Bennett",19,обязанности бизнеса перед потребителями,0.6594,0.8125,0.0131,16,132,592,False,-0.1662,1030
@@ -4291,7 +4291,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",186,доступность альтернатив военной службе,0.25,0.0,0.0,6,0,0,False,0.25,12
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",186a,изучение Торы как альтернатива службе,1.4608,1.0,0.2108,11,11,44,False,0.25,44
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",186b,гражданская служба и отказ по убеждениям,-0.125,0.0,0.0,8,0,1,False,-0.125,14
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",187,привязка прав и льгот к службе,0.7395,0.8333,-0.0794,12,37,656,False,-0.0144,306
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",187,привязка прав и льгот к службе,0.7379,0.8333,-0.0811,12,36,649,False,-0.0144,306
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",188,использование военных в гражданских функциях,1.0,1.0,0.0,1,1,0,True,0.0,0
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",188c,прикомандирование срочников к полиции и ШАБАС,-0.1644,0.0,0.0,9,0,0,False,-0.1644,47
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",189,автономия армии от политиков и законодателя,-1.0,-1.0,0.0,9,10,0,False,0.0,0

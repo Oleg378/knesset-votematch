@@ -885,7 +885,7 @@
  "_doc_labels": "Point corrections of high-profile laws (customer decision 2026-10-17): gross errors fixed per bill after an expert check (jef/h9_check/landmark/fix/out_1.json, out_2.json); reason and framing per bill.",
  "_doc_remove": "Label removals (customer decision 2026-10-18): a bill's label on a quiz direction is removed when two independent checks found the bill is not about the question of that direction's statement. Candidates: docs/SHARED_UNDERSTANDING.md (label removals), local/research/secondary_weight_v2/ (audit_result.md, check2_result.csv). Applied by pipeline/labels.py after all split stages.",
  "remove": {
-  "decision": "2026-10-18, customer: apply all 109 removals agreed by both checks (variant A); borderline ones are kept; 2026-10-18, customer: wave 2 (candidates from the wording / votes / main-label check, same two-check rule) applied; 2026-10-18, customer: wave 3 (new and moved statements q51, q64, q69, q98, q105; same two-check rule) applied",
+  "decision": "2026-10-18, customer: apply all 109 removals agreed by both checks (variant A); borderline ones are kept; 2026-10-18, customer: wave 2 (candidates from the wording / votes / main-label check, same two-check rule) applied; 2026-10-18, customer: wave 3 (new and moved statements q51, q64, q69, q98, q105; same two-check rule) applied; 2026-10-18, customer: Р8 symmetric check of the core statements — 5 more",
   "items": [
    {
     "bill_id": "2156912",
@@ -1990,7 +1990,65 @@
     "role": "secondary",
     "source": "wave 3: check",
     "reason": "Referendum to approve sovereignty application; annexation question touches PM power only formally"
+   },
+   {
+    "bill_id": "2213789",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "R8 symmetric check (core statements)",
+    "reason": "War-time subsistence pay for self-employed; nothing tied to military service."
+   },
+   {
+    "bill_id": "2227745",
+    "d": "179",
+    "q": "10",
+    "role": "secondary",
+    "source": "R8 symmetric check (core statements)",
+    "reason": "Limits cooperation with ICC; unrelated to foreigners' entry or residence."
+   },
+   {
+    "bill_id": "2211287",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "R8 symmetric check (core statements)",
+    "reason": "Compensation for ZAKA civilian volunteers, not military or national service."
+   },
+   {
+    "bill_id": "2223329",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "R8 symmetric check (core statements)",
+    "reason": "Retroactive military burial for firefighters; commemoration, not service-linked benefits."
+   },
+   {
+    "bill_id": "2200906",
+    "d": "180",
+    "q": "14",
+    "role": "main",
+    "source": "R8 symmetric check (core statements)",
+    "reason": "Disperses infiltrators geographically; does not change foreign-worker inflow."
    }
   ]
+ },
+ "_doc_add": "Labels added (customer decision 2026-10-18, Р8): a bill the labels missed, where two independent blind checks agree it is about the statement's question and on the sign. Applied by pipeline/labels.py after the removals.",
+ "add": {
+  "decision": "2026-10-18, customer: symmetric check of the core statements (Р8)",
+  "items": [
+   {
+    "bill_id": "2157851",
+    "d": "58a",
+    "q": "64",
+    "sign": "−",
+    "role": "secondary",
+    "reason": "Integrity Basic Law restricts indicted leaders from serving; removes protection."
+   }
+  ]
+ },
+ "_doc_flip": "Sign corrections (Р8): applied only where two independent checks agree. None so far (2026-10-18: 3 proposed, the second check kept the current sign).",
+ "flip": {
+  "items": []
  }
 }

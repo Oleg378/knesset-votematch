@@ -20,6 +20,7 @@ src = src.replace("OUT = f'{ROOT}/jef/positions'", f"OUT = {OUT + '/pos'!r}")
 ns = {"__file__": f"{ROOT}/pipeline/positions.py", "__name__": "threshold_stability"}
 exec(compile(src, "positions.py", "exec"), ns)
 A, V, cm, W_A, W_V = ns["A"], ns["V"], ns["cm"], ns["W_A"], ns["W_V"]
+O, W_O = ns.get("O"), ns.get("W_O", 0)   # 2026-10-18: votes on the other camp's bills
 sys.path.insert(0, os.path.join(ROOT, "pipeline"))
 import quiz_match as qm
 
@@ -28,15 +29,17 @@ quiz_d = {r["d"] for r in st}
 shown = {l for l, c in cov.items() if c["status"] != "not_evaluated"}
 
 per_k = A[["mk_id", "knesset", "d", "A"]].merge(V[["mk_id", "knesset", "d", "V"]], on=["mk_id", "knesset", "d"], how="outer")
+if O is not None: per_k = per_k.merge(O[["mk_id", "knesset", "d", "O"]], on=["mk_id", "knesset", "d"], how="outer")
+else: per_k["O"] = np.nan
 per_k = per_k[per_k.d.isin(quiz_d)]
-per_k["P"] = W_A * per_k.A.fillna(0) + W_V * per_k.V.fillna(0)
+per_k["P"] = W_A * per_k.A.fillna(0) + W_V * per_k.V.fillna(0) + W_O * per_k.O.fillna(0)
 M = cm[["letters", "mk_id"]].merge(per_k, on="mk_id")
 M = M[M.letters.isin(shown)]
 LK = M.groupby(["letters", "d", "knesset"]).agg(P=("P", "mean"), n=("mk_id", "size")).reset_index()
 W = LK.pivot_table(index=["letters", "d"], columns="knesset", values="P").dropna()
 W.columns = ["P24", "P25"]
 W = W.reset_index()
-W["p"] = [pos[l][d][0] * pos[l][d][1] / (pos[l][d][1] + qm.K) if d in pos.get(l, {}) else np.nan for l, d in zip(W.letters, W.d)]
+W["p"] = [(pos[l][d][0] if qm.K == 0 else pos[l][d][0] * pos[l][d][1] / (pos[l][d][1] + qm.K)) if d in pos.get(l, {}) else np.nan for l, d in zip(W.letters, W.d)]
 W = W.dropna()
 W["same"] = np.sign(W.P24) == np.sign(W.P25)
 W["ap"] = W.p.abs()
@@ -52,7 +55,7 @@ for a, b in zip(edges[:-1], edges[1:]):
     p(f"[{a:.3f}, {b:.3f})  {len(x):5}  {x.same.mean():.0%}" if len(x) else f"[{a:.3f}, {b:.3f})      0")
 p("\nthreshold t: positions below t shown as «close to the average MK»")
 p("t      share of positions below t   same side below t   same side at/above t")
-allp = [abs(pos[l][d][0] * pos[l][d][1] / (pos[l][d][1] + qm.K)) for l in pos if l in shown for d in pos[l] if d in quiz_d]
+allp = [abs((pos[l][d][0] if qm.K == 0 else pos[l][d][0] * pos[l][d][1] / (pos[l][d][1] + qm.K))) for l in pos if l in shown for d in pos[l] if d in quiz_d]
 for t in (0.025, 0.05, 0.075, 0.1, 0.15, 0.2):
     lo, hi = W[W.ap < t], W[W.ap >= t]
     p(f"{t:<6} {np.mean([v < t for v in allp]):>27.0%} {lo.same.mean():>19.0%} {hi.same.mean():>22.0%}")

@@ -81,6 +81,19 @@ def load(relevance=True, stages=99):
     for b, (main, sec) in list(bill_lab.items()):
         if any((str(b), str(t['n'])) in rm for t in main + sec):
             bill_lab[b] = ([t for t in main if (str(b), str(t['n'])) not in rm], [t for t in sec if (str(b), str(t['n'])) not in rm])
+    # symmetric corrections (customer decision 2026-10-18, Р8 / external audit С7): a label's sign flipped, or a missing label added,
+    # where two independent checks agree (overrides.json «flip», «add»; local/research/r8_labels/). Applied after the removals.
+    ov = json.load(open(f'{LAB}/overrides.json'))
+    for r in ov.get('flip', {}).get('items', []):
+        b = int(r['bill_id'])
+        if b in bill_lab:
+            bill_lab[b] = tuple([dict(t, sign=r['sign']) if str(t['n']) == str(r['d']) else t for t in lst] for lst in bill_lab[b])
+    for r in ov.get('add', {}).get('items', []):
+        b = int(r['bill_id'])
+        if b in bill_lab and not any(str(t['n']) == str(r['d']) for t in bill_lab[b][0] + bill_lab[b][1]):
+            main, sec = [list(x) for x in bill_lab[b]]
+            (main if r.get('role') == 'main' else sec).append({'n': str(r['d']), 'sign': r['sign']})
+            bill_lab[b] = (main, sec)
     if relevance:
         drop = irrelevant()
         for b, (main, sec) in list(bill_lab.items()):
