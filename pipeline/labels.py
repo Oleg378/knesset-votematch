@@ -1,8 +1,9 @@
 """Bill and vote labels as the positions use them (shared by positions.py and jev_relevance.py).
 
 load() -> dict(technical, bill_lab, pk_agent, pk_whole, split_plan):
-  bill_lab[bill_id] = (main, secondary) after the split of heterogeneous directions, the point corrections and the relevance
-  filter (a quiz direction is removed from a bill that is not about the issue of its quiz statements; SU 27.3, 2026-10-17);
+  bill_lab[bill_id] = (main, secondary) after the split of heterogeneous directions (stages 1–3), the point corrections, the
+  label removals (overrides.json «remove»: two checks found the bill is not about the statement's question; SU 27.3, 2026-10-18)
+  and the relevance filter (off: REL_T = None);
   pk_agent / pk_whole — labels of budget-package votes (by vote_id).
 signed_topics(lab) -> {direction: ±1} over main and secondary (equal weight; unsigned skipped).
 """
@@ -20,10 +21,10 @@ def irrelevant():
     if REL_T is None or not os.path.exists(REL_FILE): return set()
     return {(r['bill_id'], r['d']) for r in map(json.loads, open(REL_FILE)) if r['p'] < REL_T}
 
-LATER = [(2, 'plan2.json', 'split2_choice.jsonl'), (3, 'plan3.json', 'split3_choice.jsonl')]   # later split stages, in order
+LATER = [(2, 'plan2.json', 'split2_choice.jsonl'), (3, 'plan3.json', 'split3_choice.jsonl'), (4, 'plan4.json', 'split4_choice.jsonl')]   # later split stages, in order
 
 def later_plans():
-    """Plans of the later split stages (2: audit of the statements, 3: audit of the new statements), in order."""
+    """Plans of the later split stages (2: audit of the statements, 3: audit of the new statements, 4: audit after the label removals), in order."""
     return [json.load(open(f'{ROOT}/jef/directions/split/{p}')) for _, p, _ in LATER]
 
 def load(relevance=True, stages=99):
@@ -73,6 +74,13 @@ def load(relevance=True, stages=99):
             for a in r['assigned']:
                 if a['n'] not in have: lst.append({'n': a['n'], 'sign': a['sign']}); have.add(a['n'])
             bill_lab[b] = (main, sec)
+    # label removals (customer decision 2026-10-18 [У]): a bill's label on a direction is removed when it is not about the question of
+    # that direction's statement (Opus audit of the bills that create the list spread + an independent blind second check; only
+    # removals both agree on; local/research/secondary_weight_v2/). Applied after the splits, so part directions (e.g. 130b) work.
+    rm = {(str(r['bill_id']), str(r['d'])) for r in json.load(open(f'{LAB}/overrides.json')).get('remove', {}).get('items', [])}
+    for b, (main, sec) in list(bill_lab.items()):
+        if any((str(b), str(t['n'])) in rm for t in main + sec):
+            bill_lab[b] = ([t for t in main if (str(b), str(t['n'])) not in rm], [t for t in sec if (str(b), str(t['n'])) not in rm])
     if relevance:
         drop = irrelevant()
         for b, (main, sec) in list(bill_lab.items()):

@@ -18,7 +18,7 @@ import numpy as np
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 POS = os.path.join(ROOT, "jef/positions")
-MIN_LISTS, MIN_SD, MIN_NA, GOV_R = 8, 0.25, 30, 0.8
+MIN_LISTS, MIN_SD, MIN_NA, GOV_R = 8, 0.25, 25, 0.8   # MIN_NA [У] 2026-10-18: 30 → 25 (q64 at 29; one rule instead of an exception)
 
 def criteria():
     cov = {r["letters"]: r for r in csv.DictReader(open(os.path.join(POS, "list_coverage.csv")))}

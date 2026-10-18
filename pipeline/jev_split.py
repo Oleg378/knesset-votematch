@@ -8,7 +8,7 @@ Per bill × split direction d (same input as the mass labeling: Hebrew title + f
   (main or secondary); its sign follows the current scheme (side < 0.7 «−», > 1.3 «+», else increase/decrease questions);
   if no candidate is assigned, the bill stays in d (leftover).
 
-Stages 2 and 3 (--stage2 / --stage3, 2026-10-18 [У]): directions split by the audits of the statements (jef/directions/split/plan2.json, plan3.json). The bills are taken
+Stages 2–4 (--stage2 / --stage3 / --stage4, 2026-10-18 [У]): directions split by the audits of the statements (jef/directions/split/plan2.json, plan3.json, plan4.json). The bills are taken
 from the effective labels (pipeline/labels.py after stage 1 and the overrides); one choice question per bill × direction, as in
 --choice; every sub-direction keeps the parent's orientation, so the bill keeps the parent's sign (no sign questions).
 -> jef/directions/labels/split2_choice.jsonl, split3_choice.jsonl.
@@ -180,7 +180,7 @@ OUT_A = OUT
 CHOICE, STAGE = False, 0
 if __name__ == "__main__":
     args = sys.argv[1:]
-    if args and args[0] in ("--stage2", "--stage3"):
+    if args and args[0] in ("--stage2", "--stage3", "--stage4"):
         STAGE = int(args[0][-1]); OUT, args = OUT.replace("split_relabel", f"split{STAGE}_choice"), args[1:]
         STOP_USD = 0.30   # [У] 2026-10-18: estimate ≈ $0.22 for 1,328 pairs
     if args and args[0] == "--choice":

@@ -882,5 +882,1115 @@
    "framing": ""
   }
  },
- "_doc_labels": "Point corrections of high-profile laws (customer decision 2026-10-17): gross errors fixed per bill after an expert check (jef/h9_check/landmark/fix/out_1.json, out_2.json); reason and framing per bill."
+ "_doc_labels": "Point corrections of high-profile laws (customer decision 2026-10-17): gross errors fixed per bill after an expert check (jef/h9_check/landmark/fix/out_1.json, out_2.json); reason and framing per bill.",
+ "_doc_remove": "Label removals (customer decision 2026-10-18): a bill's label on a quiz direction is removed when two independent checks found the bill is not about the question of that direction's statement. Candidates: docs/SHARED_UNDERSTANDING.md (label removals), local/research/secondary_weight_v2/ (audit_result.md, check2_result.csv). Applied by pipeline/labels.py after all split stages.",
+ "remove": {
+  "decision": "2026-10-18, customer: apply all 109 removals agreed by both checks (variant A); borderline ones are kept; 2026-10-18, customer: wave 2 (candidates from the wording / votes / main-label check, same two-check rule) applied; 2026-10-18, customer: wave 3 (new and moved statements q51, q64, q69, q98, q105; same two-check rule) applied",
+  "items": [
+   {
+    "bill_id": "2156912",
+    "d": "164",
+    "q": "5",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Repealing Nation-State Law; not community heritage centers"
+   },
+   {
+    "bill_id": "2158716",
+    "d": "164",
+    "q": "5",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Repealing Nation-State Law; not community heritage centers"
+   },
+   {
+    "bill_id": "2159158",
+    "d": "164",
+    "q": "5",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Repealing Nation-State Law; not community heritage centers"
+   },
+   {
+    "bill_id": "2168492",
+    "d": "164",
+    "q": "5",
+    "role": "secondary",
+    "source": "added by hand (q5: Keren Kayemeth LeIsrael Law repeal, not among the 8 driving bills)",
+    "reason": "Repealing KKL's special status; not community heritage centers"
+   },
+   {
+    "bill_id": "2192252",
+    "d": "164",
+    "q": "5",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Repealing Nation-State Law; not community heritage centers"
+   },
+   {
+    "bill_id": "2196279",
+    "d": "164",
+    "q": "5",
+    "role": "secondary",
+    "source": "added by hand (q5: Keren Kayemeth LeIsrael Law repeal, not among the 8 driving bills)",
+    "reason": "Repealing KKL's special status; not community heritage centers"
+   },
+   {
+    "bill_id": "2197146",
+    "d": "164",
+    "q": "5",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Repealing Nation-State Law; not community heritage centers"
+   },
+   {
+    "bill_id": "2198155",
+    "d": "164",
+    "q": "5",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Repealing Nation-State Law; not community heritage centers"
+   },
+   {
+    "bill_id": "2157218",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Housewife social insurance rules; not service-linked benefits"
+   },
+   {
+    "bill_id": "2166200",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Housewife social insurance rules; not service-linked benefits"
+   },
+   {
+    "bill_id": "2166427",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Housewife social insurance rules; not service-linked benefits"
+   },
+   {
+    "bill_id": "2198460",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Housewife social insurance rules; not service-linked benefits"
+   },
+   {
+    "bill_id": "2200168",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Housewife social insurance rules; not service-linked benefits"
+   },
+   {
+    "bill_id": "2201850",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Housewife social insurance rules; not service-linked benefits"
+   },
+   {
+    "bill_id": "2167103",
+    "d": "181",
+    "q": "12",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Work-hour recording at construction sites; general labor law"
+   },
+   {
+    "bill_id": "2228927",
+    "d": "181",
+    "q": "12",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Bans Palestinian work permits; worker numbers, not foreign workers' rights"
+   },
+   {
+    "bill_id": "2218867",
+    "d": "269b",
+    "q": "16",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Benefits for adult orphans of fallen soldiers; not fertility"
+   },
+   {
+    "bill_id": "2161528",
+    "d": "71",
+    "q": "24",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Genetic tests in rabbinical courts; not politicians over civil courts"
+   },
+   {
+    "bill_id": "2169594",
+    "d": "71",
+    "q": "24",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Minimum sentences for stone throwing; not political power over courts"
+   },
+   {
+    "bill_id": "2195993",
+    "d": "71",
+    "q": "24",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Genetic tests in rabbinical courts; not politicians over civil courts"
+   },
+   {
+    "bill_id": "2196072",
+    "d": "71",
+    "q": "24",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Minimum sentences for stone throwing; not political power over courts"
+   },
+   {
+    "bill_id": "2197599",
+    "d": "71",
+    "q": "24",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Minimum sentences for stone throwing; not political power over courts"
+   },
+   {
+    "bill_id": "2200287",
+    "d": "71",
+    "q": "24",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Minimum sentences for stone throwing; not political power over courts"
+   },
+   {
+    "bill_id": "2200302",
+    "d": "71",
+    "q": "24",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Minimum sentences for stone throwing; not political power over courts"
+   },
+   {
+    "bill_id": "2204871",
+    "d": "71",
+    "q": "24",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Minimum sentences for stone throwing; not political power over courts"
+   },
+   {
+    "bill_id": "2207077",
+    "d": "71",
+    "q": "24",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Minimum sentences for stone throwing; not political power over courts"
+   },
+   {
+    "bill_id": "2216177",
+    "d": "71",
+    "q": "24",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Chief Rabbinate structure; not civil courts' independence"
+   },
+   {
+    "bill_id": "2236458",
+    "d": "141",
+    "q": "27",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Turning KKL into government company; not public broadcasters"
+   },
+   {
+    "bill_id": "2239066",
+    "d": "356b",
+    "q": "35",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Kiryat Shmona development package; not public transport spending"
+   },
+   {
+    "bill_id": "2163745",
+    "d": "241",
+    "q": "37",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Expanding Jerusalem's status and boundaries; not housing supply"
+   },
+   {
+    "bill_id": "2190589",
+    "d": "241",
+    "q": "37",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Expanding Jerusalem's status and boundaries; not housing supply"
+   },
+   {
+    "bill_id": "2197167",
+    "d": "241",
+    "q": "37",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Expanding Jerusalem's status and boundaries; not housing supply"
+   },
+   {
+    "bill_id": "2198097",
+    "d": "241",
+    "q": "37",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Herders' residence on grazing land; not housing supply"
+   },
+   {
+    "bill_id": "2198902",
+    "d": "241",
+    "q": "37",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Metro infrastructure law; not housing construction volume"
+   },
+   {
+    "bill_id": "2219403",
+    "d": "241",
+    "q": "37",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Metro infrastructure law; not housing construction volume"
+   },
+   {
+    "bill_id": "2158413",
+    "d": "275",
+    "q": "38",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Denies rights to terror participants; not pension withdrawal freedom"
+   },
+   {
+    "bill_id": "2191341",
+    "d": "275",
+    "q": "38",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Denies rights to terror participants; not pension withdrawal freedom"
+   },
+   {
+    "bill_id": "2192417",
+    "d": "265",
+    "q": "41",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Sexual exploitation of minors by public figures; abuse not parental consent"
+   },
+   {
+    "bill_id": "2197561",
+    "d": "265",
+    "q": "41",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Sexual exploitation of minors by public figures; abuse not parental consent"
+   },
+   {
+    "bill_id": "2226596",
+    "d": "265",
+    "q": "41",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Sexual exploitation of minors by public figures; abuse not parental consent"
+   },
+   {
+    "bill_id": "2230227",
+    "d": "265",
+    "q": "41",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Sex offences against minors; protection not decision autonomy"
+   },
+   {
+    "bill_id": "2159484",
+    "d": "75",
+    "q": "46",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Finance Committee approval of tax-benefit institutions; not opposition powers"
+   },
+   {
+    "bill_id": "2198900",
+    "d": "75",
+    "q": "46",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Finance Committee approval of tax-benefit institutions; not opposition powers"
+   },
+   {
+    "bill_id": "2157204",
+    "d": "340",
+    "q": "48",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Abortion law; abortion committees not appointment vetting"
+   },
+   {
+    "bill_id": "2158641",
+    "d": "340",
+    "q": "48",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Abortion law; abortion committees not appointment vetting"
+   },
+   {
+    "bill_id": "2199143",
+    "d": "340",
+    "q": "48",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Abortion law; abortion committees not appointment vetting"
+   },
+   {
+    "bill_id": "2158539",
+    "d": "230",
+    "q": "50",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Regularizing West Bank settlement sites; not lending rules"
+   },
+   {
+    "bill_id": "2162970",
+    "d": "230",
+    "q": "50",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Tax incentives for high-tech; not lending rules"
+   },
+   {
+    "bill_id": "2166124",
+    "d": "230",
+    "q": "50",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Tax incentives for high-tech; not lending rules"
+   },
+   {
+    "bill_id": "2198687",
+    "d": "230",
+    "q": "50",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Tax credit points for discharged soldiers; not lending"
+   },
+   {
+    "bill_id": "2198942",
+    "d": "230",
+    "q": "50",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Tax incentives for high-tech; not lending rules"
+   },
+   {
+    "bill_id": "2205551",
+    "d": "230",
+    "q": "50",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Tax credit points for discharged soldiers; not lending"
+   },
+   {
+    "bill_id": "2160218",
+    "d": "31",
+    "q": "51",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Conversion by local rabbis; religious status not olim benefits"
+   },
+   {
+    "bill_id": "2163310",
+    "d": "352",
+    "q": "52",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Custody and violent parent; child protection not contract freedom"
+   },
+   {
+    "bill_id": "2163621",
+    "d": "352",
+    "q": "52",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Custody and violent parent; child protection not contract freedom"
+   },
+   {
+    "bill_id": "2197865",
+    "d": "352",
+    "q": "52",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Custody and violent parent; child protection not contract freedom"
+   },
+   {
+    "bill_id": "2156158",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Civil marriage and divorce; not privatization of services"
+   },
+   {
+    "bill_id": "2165912",
+    "d": "283",
+    "q": "53",
+    "role": "main",
+    "source": "audit",
+    "reason": "WZO settlement division land allocation; settlement question not privatization"
+   },
+   {
+    "bill_id": "2196011",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Civil marriage and divorce; not privatization of services"
+   },
+   {
+    "bill_id": "2201417",
+    "d": "283",
+    "q": "53",
+    "role": "main",
+    "source": "resubmission",
+    "reason": "WZO settlement division land allocation; settlement question not privatization"
+   },
+   {
+    "bill_id": "2206726",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Civil marriage and divorce; not privatization of services"
+   },
+   {
+    "bill_id": "2192110",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Party funding for boycott calls; not terrorists or their families"
+   },
+   {
+    "bill_id": "2196789",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Defunding institutions inciting against service; not terror convicts"
+   },
+   {
+    "bill_id": "2198589",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Party funding for boycott calls; not terrorists or their families"
+   },
+   {
+    "bill_id": "2202132",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Party funding for boycott calls; not terrorists or their families"
+   },
+   {
+    "bill_id": "2202840",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Defunding schools with PA curriculum; schools not terror convicts or families"
+   },
+   {
+    "bill_id": "2216020",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Party funding for boycott calls; not terrorists or their families"
+   },
+   {
+    "bill_id": "2217178",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Party funding for boycott calls; not terrorists or their families"
+   },
+   {
+    "bill_id": "2228138",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Entry and family unification restrictions; not terror convicts' benefits"
+   },
+   {
+    "bill_id": "2166034",
+    "d": "146",
+    "q": "55",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Tax debt collection procedure; not personal data protection"
+   },
+   {
+    "bill_id": "2189939",
+    "d": "146",
+    "q": "55",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Bans job discrimination by economic status; not data protection"
+   },
+   {
+    "bill_id": "2196100",
+    "d": "146",
+    "q": "55",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Tax debt collection procedure; not personal data protection"
+   },
+   {
+    "bill_id": "2196911",
+    "d": "146",
+    "q": "55",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Bans job discrimination by economic status; not data protection"
+   },
+   {
+    "bill_id": "2196922",
+    "d": "146",
+    "q": "55",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Tax debt collection procedure; not personal data protection"
+   },
+   {
+    "bill_id": "2199350",
+    "d": "146",
+    "q": "55",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Tax debt collection procedure; not personal data protection"
+   },
+   {
+    "bill_id": "2199409",
+    "d": "146",
+    "q": "55",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Tax debt collection procedure; not personal data protection"
+   },
+   {
+    "bill_id": "2220457",
+    "d": "130b",
+    "q": "56",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Civilian reserve duty for national service graduates; not lifting war measures"
+   },
+   {
+    "bill_id": "2230356",
+    "d": "130b",
+    "q": "56",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Pre-indictment review for soldiers in combat; not wartime emergency powers"
+   },
+   {
+    "bill_id": "2191454",
+    "d": "137",
+    "q": "57",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Restricts security prisoners' TV channels; prison conditions not content bans"
+   },
+   {
+    "bill_id": "2197580",
+    "d": "137",
+    "q": "57",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Restricts security prisoners' TV channels; prison conditions not content bans"
+   },
+   {
+    "bill_id": "2158962",
+    "d": "58",
+    "q": "64",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Caps number of ministers; not indicted PM"
+   },
+   {
+    "bill_id": "2198419",
+    "d": "58",
+    "q": "64",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Limits High Court remedies; not indicted PM question"
+   },
+   {
+    "bill_id": "2206652",
+    "d": "58",
+    "q": "64",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Limits High Court remedies; not indicted PM question"
+   },
+   {
+    "bill_id": "2216392",
+    "d": "58",
+    "q": "64",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Caps number of ministers; not indicted PM"
+   },
+   {
+    "bill_id": "2231728",
+    "d": "58",
+    "q": "64",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Caps number of ministers; not indicted PM"
+   },
+   {
+    "bill_id": "2231729",
+    "d": "58",
+    "q": "64",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Caps number of ministers; not indicted PM"
+   },
+   {
+    "bill_id": "2156988",
+    "d": "277g",
+    "q": "78",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Funding sanction on COVID-noncompliant institutions; not student benefits"
+   },
+   {
+    "bill_id": "2190775",
+    "d": "69",
+    "q": "80",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Constitutional environmental right; not appeals against authorities"
+   },
+   {
+    "bill_id": "2216972",
+    "d": "69",
+    "q": "80",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Constitutional environmental right; not appeals against authorities"
+   },
+   {
+    "bill_id": "2229715",
+    "d": "12b",
+    "q": "89",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Denies care to terrorists; not health fund entitlements for patients"
+   },
+   {
+    "bill_id": "2231899",
+    "d": "12b",
+    "q": "89",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Denies care to terrorists; not health fund entitlements for patients"
+   },
+   {
+    "bill_id": "2206673",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Property tax discount for disabled; not municipal powers"
+   },
+   {
+    "bill_id": "2210440",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Property tax discount for disabled; not municipal powers"
+   },
+   {
+    "bill_id": "2161954",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Reducing fireworks use; not municipal revenue"
+   },
+   {
+    "bill_id": "2197427",
+    "d": "108",
+    "q": "94",
+    "role": "main",
+    "source": "resubmission",
+    "reason": "Reducing fireworks use; not municipal revenue"
+   },
+   {
+    "bill_id": "2234093",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Sovereignty over Joseph's Tomb; not municipal revenue"
+   },
+   {
+    "bill_id": "2205266",
+    "d": "226",
+    "q": "95",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Collecting military court compensation from terrorists; not ordinary debtors"
+   },
+   {
+    "bill_id": "2156530",
+    "d": "80",
+    "q": "96",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Gender equality in IDF service; not external oversight"
+   },
+   {
+    "bill_id": "2157789",
+    "d": "80",
+    "q": "96",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Release of seized property; suspects' rights not security oversight"
+   },
+   {
+    "bill_id": "2197257",
+    "d": "80",
+    "q": "96",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Release of seized property; suspects' rights not security oversight"
+   },
+   {
+    "bill_id": "2199930",
+    "d": "80",
+    "q": "96",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Gender equality in IDF service; not external oversight"
+   },
+   {
+    "bill_id": "2238565",
+    "d": "80",
+    "q": "96",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Gender equality in IDF service; not external oversight"
+   },
+   {
+    "bill_id": "2162836",
+    "d": "38",
+    "q": "98",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Recognizing poker as sport; not tax enforcement"
+   },
+   {
+    "bill_id": "2196574",
+    "d": "38",
+    "q": "98",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Recognizing poker as sport; not tax enforcement"
+   },
+   {
+    "bill_id": "2197045",
+    "d": "38",
+    "q": "98",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Recognizing poker as sport; not tax enforcement"
+   },
+   {
+    "bill_id": "2243096",
+    "d": "38",
+    "q": "98",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Extortion fighting via tax checks; organized crime not business tax compliance"
+   },
+   {
+    "bill_id": "2156285",
+    "d": "143",
+    "q": "102",
+    "role": "secondary",
+    "source": "resubmission",
+    "reason": "Bans police horses against protesters; about protesters not animal welfare"
+   },
+   {
+    "bill_id": "2198431",
+    "d": "143",
+    "q": "102",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Bans police horses against protesters; about protesters not animal welfare"
+   },
+   {
+    "bill_id": "2223639",
+    "d": "143",
+    "q": "102",
+    "role": "secondary",
+    "source": "audit",
+    "reason": "Maritime zones jurisdiction law; not animal protection"
+   },
+   {
+    "bill_id": "2211131",
+    "d": "164",
+    "q": "5",
+    "role": "secondary",
+    "source": "wave 2: check",
+    "reason": "Cutting ministries for war budget; not heritage centers or Jewish identity funding."
+   },
+   {
+    "bill_id": "2170082",
+    "d": "187",
+    "q": "9",
+    "role": "secondary",
+    "source": "wave 2: check",
+    "reason": "Municipal guard; nothing about service-linked benefits."
+   },
+   {
+    "bill_id": "2212244",
+    "d": "169a",
+    "q": "36",
+    "role": "main",
+    "source": "wave 2: check",
+    "reason": "Gaza-envelope development; not settlements in Judea and Samaria."
+   },
+   {
+    "bill_id": "2225066",
+    "d": "169a",
+    "q": "36",
+    "role": "main",
+    "source": "wave 2: resubmission",
+    "reason": "Gaza-envelope development; not settlements in Judea and Samaria."
+   },
+   {
+    "bill_id": "2157264",
+    "d": "275",
+    "q": "38",
+    "role": "secondary",
+    "source": "wave 2: resubmission",
+    "reason": "Denies pensions to terrorists; not early withdrawal of savings."
+   },
+   {
+    "bill_id": "2201038",
+    "d": "275",
+    "q": "38",
+    "role": "secondary",
+    "source": "wave 2: check",
+    "reason": "Denies pensions to terrorists; not early withdrawal of savings."
+   },
+   {
+    "bill_id": "2157099",
+    "d": "265",
+    "q": "41",
+    "role": "secondary",
+    "source": "wave 2: check",
+    "reason": "Bans soliciting minors to religion; not parental consent or minors' autonomy."
+   },
+   {
+    "bill_id": "2224733",
+    "d": "340",
+    "q": "48",
+    "role": "main",
+    "source": "wave 2: check",
+    "reason": "Seniority rule for Supreme Court president; not ministerial appointments vetting; sign doubtful."
+   },
+   {
+    "bill_id": "2241731",
+    "d": "31",
+    "q": "51",
+    "role": "secondary",
+    "source": "wave 2: check",
+    "reason": "Senior citizens' allowance; nothing specific to olim."
+   },
+   {
+    "bill_id": "2156982",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "wave 2: check",
+    "reason": "Civil marriage in Eilat; not private actors in public services."
+   },
+   {
+    "bill_id": "2170082",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "wave 2: check",
+    "reason": "Municipal guard is a local-government body; not private actors in public services."
+   },
+   {
+    "bill_id": "2226921",
+    "d": "277a",
+    "q": "54",
+    "role": "main",
+    "source": "wave 2: check",
+    "reason": "Driving licenses for infiltrators; statement is about terrorists and families."
+   },
+   {
+    "bill_id": "2227498",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "wave 2: check",
+    "reason": "Citizenship for children of infiltrators; statement is about terrorists."
+   },
+   {
+    "bill_id": "2158705",
+    "d": "58",
+    "q": "64",
+    "role": "secondary",
+    "source": "wave 2: check",
+    "reason": "National security decision-making process; unrelated to indicted PM."
+   },
+   {
+    "bill_id": "2198919",
+    "d": "58",
+    "q": "64",
+    "role": "secondary",
+    "source": "wave 2: check",
+    "reason": "Bans returning terrorists' bodies; unrelated to PM indictment."
+   },
+   {
+    "bill_id": "2210721",
+    "d": "58",
+    "q": "64",
+    "role": "secondary",
+    "source": "wave 2: check",
+    "reason": "October 7 commemoration; unrelated to PM powers or indictment."
+   },
+   {
+    "bill_id": "2211374",
+    "d": "58",
+    "q": "64",
+    "role": "secondary",
+    "source": "wave 2: resubmission",
+    "reason": "PM press conferences; transparency not indicted PM."
+   },
+   {
+    "bill_id": "2225126",
+    "d": "58",
+    "q": "64",
+    "role": "secondary",
+    "source": "wave 2: check",
+    "reason": "PM press conferences; transparency not indicted PM."
+   },
+   {
+    "bill_id": "2243018",
+    "d": "58",
+    "q": "64",
+    "role": "secondary",
+    "source": "wave 2: resubmission",
+    "reason": "PM press conferences; transparency not indicted PM."
+   },
+   {
+    "bill_id": "2216827",
+    "d": "66b",
+    "q": "69",
+    "role": "secondary",
+    "source": "wave 2: check",
+    "reason": "Restrictions on sex offenders near victims; not minimum sentences."
+   },
+   {
+    "bill_id": "2193584",
+    "d": "117",
+    "q": "88",
+    "role": "main",
+    "source": "wave 2: check",
+    "reason": "Party membership age; not voting access in elections."
+   },
+   {
+    "bill_id": "2197545",
+    "d": "117",
+    "q": "88",
+    "role": "main",
+    "source": "wave 2: resubmission",
+    "reason": "Party membership age; not voting access in elections."
+   },
+   {
+    "bill_id": "2217182",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "wave 2: check",
+    "reason": "Centralized fast-track planning for rural settlements; does not empower municipalities."
+   },
+   {
+    "bill_id": "2233165",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "wave 2: check",
+    "reason": "Post-war building rehabilitation planning relief; not municipal powers."
+   },
+   {
+    "bill_id": "2156750",
+    "d": "108",
+    "q": "94",
+    "role": "main",
+    "source": "wave 2: resubmission",
+    "reason": "State grants to remote education authorities; not resident discounts versus council revenue."
+   },
+   {
+    "bill_id": "2225119",
+    "d": "108",
+    "q": "94",
+    "role": "main",
+    "source": "wave 2: check",
+    "reason": "State grants to remote education authorities; not resident discounts versus council revenue."
+   },
+   {
+    "bill_id": "2226180",
+    "d": "58b",
+    "q": "105",
+    "role": "secondary",
+    "source": "wave 3: check",
+    "reason": "Referendum on evacuating West Bank settlements; territorial conflict question not PM power"
+   },
+   {
+    "bill_id": "2201845",
+    "d": "58b",
+    "q": "105",
+    "role": "secondary",
+    "source": "wave 3: check",
+    "reason": "Referendum to approve sovereignty application; annexation question touches PM power only formally"
+   },
+   {
+    "bill_id": "2225835",
+    "d": "58b",
+    "q": "105",
+    "role": "secondary",
+    "source": "wave 3: check",
+    "reason": "Referendum to approve sovereignty application; annexation question touches PM power only formally"
+   }
+  ]
+ }
 }

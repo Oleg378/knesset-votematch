@@ -1,0 +1,71 @@
+{
+ "note": "Stage 4 (2026-10-18, [У]): split by the standard statement audit of the 26 statements touched by the label removals (local/research/statement_audit_removals/). Same method as stages 2-3: applied after stage 3, parts keep the parent's orientation and sign, Jev only chooses the part. Extended the same day: 130b (q56) split by the standard audit after the volume threshold was lowered to 25 (local/research/statement_audit_t25/).",
+ "parents": {
+  "58": [
+   "58a",
+   "58b"
+  ],
+  "31": [
+   "31a",
+   "31b"
+  ],
+  "66b": [
+   "66b1",
+   "66b2"
+  ],
+  "130b": [
+   "130b1",
+   "130b2"
+  ]
+ },
+ "new": {
+  "58a": {
+   "name_ru": "глава правительства под уголовным делом",
+   "name_en": "Prime minister under criminal proceedings",
+   "plus_en": "Lets a prime minister or minister under investigation or indictment stay in office or shields them (immunity, limits on investigating them).",
+   "minus_en": "Requires leaving office on indictment or removes such protection."
+  },
+  "58b": {
+   "name_ru": "единоличные полномочия главы правительства",
+   "name_en": "Checks on the prime minister's power",
+   "plus_en": "Gives the prime minister more freedom to act alone (appoint or dismiss senior officials and ministers, refuse a state inquiry, decide without referendum or approval).",
+   "minus_en": "Limits that freedom or adds checks on it."
+  },
+  "31a": {
+   "name_ru": "льготы и помощь репатриантам",
+   "name_en": "Benefits for new immigrants",
+   "plus_en": "Gives more benefits, assistance or incentives to olim and for aliyah.",
+   "minus_en": "Gives fewer such benefits."
+  },
+  "31b": {
+   "name_ru": "право на репатриацию по Закону о возвращении",
+   "name_en": "Eligibility under the Law of Return",
+   "plus_en": "Widens or keeps who may immigrate under the Law of Return (e.g. grandchildren and family members of Jews).",
+   "minus_en": "Narrows who may immigrate (e.g. repeals the grandchild clause)."
+  },
+  "66b1": {
+   "name_ru": "смертная казнь для террористов",
+   "name_en": "Death penalty for terrorists",
+   "plus_en": "Leaves the sentence for terrorist murder to the judges.",
+   "minus_en": "Makes the death penalty for terrorist murderers mandatory or easier to impose."
+  },
+  "66b2": {
+   "name_ru": "минимальные наказания",
+   "name_en": "Minimum sentences",
+   "plus_en": "Gives judges more discretion in sentencing.",
+   "minus_en": "Fixes minimum or mandatory punishments for crimes (other than the death penalty), limiting judges' discretion."
+  },
+  "130b1": {
+   "name_ru": "послабления по возвращённым чекам в чрезвычайной ситуации",
+   "name_en": "Bounced-cheque relief during emergencies",
+   "plus_en": "Suspends or eases sanctions for bounced cheques during a declared emergency such as a pandemic or war.",
+   "minus_en": "Normal bounced-cheque sanctions apply even during a declared emergency."
+  },
+  "130b2": {
+   "name_ru": "законы и полномочия, привязанные к чрезвычайному положению",
+   "name_en": "Laws and powers tied to a state of emergency",
+   "plus_en": "Adds or prolongs special powers and temporary laws that rely on a declared state of emergency or war.",
+   "minus_en": "Ends such powers and temporary laws when the crisis ends, or detaches them from the state of emergency."
+  }
+ }
+}
