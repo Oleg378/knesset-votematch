@@ -79,30 +79,37 @@ button {
   }
 }
 
-/* Until the JS has drawn the first screen: dot rings with a blue dot running round (index.html, bootLoader in
-   vite.config.ts). It is the same white .app (a card in card mode), so the first screen appears in place. The rings fade
-   in after a moment, so a fast load shows no flash. The blue dot starts where the Figma frame has it (−62.6°). */
+/* Loading: dot rings with a blue dot running round (src/components/dotRing.ts). Before the JS — .boot, an empty .app in
+   index.html (bootLoader in vite.config.ts), the same white box (a card in card mode) the first screen appears in. In the
+   app — .loader, a screen waiting for its data file. The rings fade in after a moment, so a fast load shows no flash.
+   The blue dot starts where the Figma frame has it (−62.6°). */
 .boot {
   width: 100%; /* in card mode the card would shrink to the picture: it has no text to fill the column */
   justify-content: center;
   align-items: center;
 }
 
-.boot svg {
-  animation: boot-in 300ms ease-out 150ms both;
+.loader {
+  justify-content: center;
+  align-items: center;
 }
 
-.boot-runner {
-  animation: boot-spin 1.2s linear infinite;
+.dot-ring {
+  color: var(--color-accent);
+  animation: dot-ring-in 300ms ease-out 150ms both;
 }
 
-@keyframes boot-in {
+.dot-ring-runner {
+  animation: dot-ring-spin 1.2s linear infinite;
+}
+
+@keyframes dot-ring-in {
   from {
     opacity: 0;
   }
 }
 
-@keyframes boot-spin {
+@keyframes dot-ring-spin {
   from {
     transform: rotate(-62.6deg);
   }
@@ -112,7 +119,7 @@ button {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .boot-runner {
+  .dot-ring-runner {
     animation: none;
     transform: rotate(-62.6deg);
   }

@@ -21,9 +21,10 @@ React + Vite + TypeScript, static SPA (no server, no Next.js). Talk to the custo
   (`preloadStartPage` in `vite.config.ts`); quiz_data and quiz_bills start only after it is drawn (`firstScreenShown` in
   `src/data.ts`). A new font or picture on Home → add it to the preload. Measure with a production build (gzip), never
   the dev server: Slow 4G (150 ms, 1.6 Mbit/s), CPU ×4, no cache — Home complete ≈ 1.24 s on 2026-10-18.
-- Before the JS has drawn anything, `index.html` shows the boot loader (dot rings + a running blue dot, Figma «Frame 9»,
-  `bootLoader` in `vite.config.ts`, `.boot` in `app.css`): plain HTML + CSS, no script; React replaces it. Keep it the
-  same `.app` box as the first screen and every ring uniform (no lighter dots around the blue one).
+- Loading picture = dot rings + a running blue dot (Figma «Frame 9», geometry in `src/components/dotRing.ts`, styles
+  `.dot-ring` in `app.css`), in two places: before the JS has drawn anything — `index.html` (`bootLoader` in
+  `vite.config.ts`, plain HTML + CSS, no script; React replaces it; same `.app` box as the first screen); in the app —
+  `<Loading/>` on a screen waiting for its file. Every ring uniform (no lighter dots around the blue one).
 - Phone preview over ngrok points at the production build (`vite build --watch` + a static server with gzip and the CSP
   from `public/_headers`), not at `npm run dev` (unminified React, no compression: 5.4 MB).
 

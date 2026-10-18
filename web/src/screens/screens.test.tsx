@@ -101,7 +101,9 @@ describe('loading (V2_HANDOFF «Loading»)', () => {
     screen.getByRole('button', { name: S.start.button });
     expect(screen.queryByText(S.start.chipStatements(planned))).toBeNull();
     click(S.start.button);
-    screen.getByRole('status');
+    // The dot ring (customer 2026-10-18): 5 uniform rings, 230 dots, and the running blue dot.
+    expect(screen.getByRole('status').querySelectorAll('svg circle')).toHaveLength(231);
+    screen.getByText(S.loading);
     arrive({ core });
     screen.getByRole('heading', { name: firstCore.statement_en });
   });
