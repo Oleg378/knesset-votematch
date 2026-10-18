@@ -16,7 +16,8 @@
     "by_direction",
     "bills",
     "flow",
-    "core"
+    "core",
+    "votes"
   ],
   "additionalProperties": false,
   "$defs": {
@@ -445,6 +446,46 @@
         "type": "string"
       },
       "description": "Core statements (`q`) in the order they are asked."
+    },
+    "votes": {
+      "type": "object",
+      "description": "How each list's former MKs voted on the bills of a quiz direction (2026-10-19): votes[list][direction] = [[bill id, sign (+1 raises / −1 lowers the direction), «own» | «other» (the bill's camp relative to the MK), votes for, votes against], ...]. Exactly the votes behind the position (V: own camp's private bills; O: the other camp's bills). Bill name and Knesset: bills.",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "type": "string"
+              },
+              {
+                "enum": [
+                  1,
+                  -1
+                ]
+              },
+              {
+                "enum": [
+                  "own",
+                  "other"
+                ]
+              },
+              {
+                "type": "integer",
+                "minimum": 0
+              },
+              {
+                "type": "integer",
+                "minimum": 0
+              }
+            ],
+            "minItems": 5,
+            "maxItems": 5
+          }
+        }
+      }
     }
   }
 }

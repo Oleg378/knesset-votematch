@@ -74,6 +74,14 @@ Per list, everything comes from `quiz_report.contributions()` and `explain()`; g
 ✓/✗ · Hebrew bill name linking to `params.BILL_URL` · `Knesset N` · `main / secondary topic` · `raises / lowers “<direction name_en>”` ·
 `sponsored by: <name> (#<position> on the list)` (first two by list position). Bill names are never translated.
 
+**Votes of the list's former MKs** (2026-10-19, `quiz_bills.v2.json` → `votes`): `votes[list][direction]` = rows
+`[bill, sign, camp, for, against]` — the bills of that direction its former MKs voted on, with the bill's sign on the direction
+(+1 raises / −1 lowers), whether the bill came from the MK's own camp (`own`, counted in V) or from the other camp (`other`, counted in
+O), and how many of them voted for and against. These are exactly the votes behind the position. Name and Knesset: `bills[bill]`.
+Suggested place: under «Bills of one statement», a third group «How its former MKs voted (N)», each line:
+`Hebrew name · Knesset N · raises / lowers “<direction>” · for X, against Y · own camp’s bill / the other camp’s bill`. Not part of the
+golden cases (no formula), plain display.
+
 ## 4. Golden v2
 
 Same structure as v1 plus 6 flow cases («flow 0» … «flow 5»): a synthetic user's answers to every statement; `flow.core` and

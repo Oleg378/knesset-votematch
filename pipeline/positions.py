@@ -232,6 +232,21 @@ for l in cec.letters:
 LC = pd.DataFrame(cov_rows).sort_values(['ex_mks'], ascending=False)
 LC.to_csv(f'{OUT}/list_coverage.csv', index=False)
 
+# [У] 2026-10-19: the votes behind each list's position on the quiz directions, for the web («how the list's former MKs voted»):
+# exactly the votes used in V (own camp's private bills) and O (the other camp's bills), counted per list × direction × bill.
+_qd = {r['d'] for r in pd.read_csv(f'{ROOT}/jef/quiz/statements_v4.csv', dtype=str).query("status == 'ok'").to_dict('records')}
+_vbill = dict(zip(va.vote_id, va.bill_id)); _m2l = dict(zip(cm.mk_id, cm.letters)); _agg = {}
+for _frame, _camp in ((pv, 'own'), (ov, 'other')):
+    for r in _frame.itertuples():
+        l = _m2l.get(r.mk_id)
+        if l is None: continue
+        for d, sg in vt[r.vote_id].items():   # sign of the bill on the direction (package articles can differ, so it is in the key)
+            if d not in _qd: continue
+            k = (l, d, int(_vbill[r.vote_id]), int(sg), _camp); x = _agg.setdefault(k, [0, 0]); x[0 if r.v > 0 else 1] += 1
+pd.DataFrame([(*k, *v) for k, v in _agg.items()], columns=['letters', 'd', 'bill_id', 'sign', 'camp', 'for', 'against']).sort_values(
+    ['letters', 'd', 'bill_id', 'sign', 'camp']).to_csv(f'{OUT}/list_topic_votes.csv', index=False)
+P(f'list_topic_votes: {len(_agg)} rows (list × quiz direction × bill × camp)')
+
 # ======================= government layer =======================
 g = rv[~rv.trans]
 gm = g[g.gov_side].groupby('vote_id').v.mean().rename('gov_maj')
@@ -368,6 +383,7 @@ readme = f"""# Позиции депутатов и списков 2026
 ## Файлы
 - `mk_topic_positions.csv` — депутат × направление: P, A, nA (законопроекты, оба созыва), V, nV (голоса).
 - `list_topic_positions.csv` — список × направление: P, P_A, P_V, P_O, n_mk, sum_nA, sum_nV, sum_nO, low_data, n_names (разные законопроекты за позицией: внесённые и голосованные, по названию без года).
+- `list_topic_votes.csv` — список × направление квиза × законопроект: знак законопроекта по теме, голоса бывших депутатов списка «за» и «против», отдельно свой лагерь (V) и чужой (O) — ровно те голоса, что вошли в позицию.
 - `list_coverage.csv` — по каждому списку 2026: кандидатов, бывших депутатов (всего и в первой десятке), статус покрытия (п. 20), число направлений с n_mk≥1 и ≥3, медиана nA на бывшего депутата.
 - `government_layer_mk.csv` — депутат × созыв: голосов, совпавших с правительством, доля, месяцы на должности.
 - `government_layer_list.csv` — список × созыв: те же суммы по кандидатам; share_with_gov — по всем голосам, mean_mk_share — среднее по депутатам.
