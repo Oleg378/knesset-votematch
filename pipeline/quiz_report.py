@@ -64,11 +64,13 @@ def context():
         for role, ms in (("main", v["main"]), ("secondary", v["sec"])):
             for m in ms:
                 if m["sign"] in SGN: by_d[m["n"]].append((b, SGN[m["sign"]], role))
-    nv = {(r["letters"], r["d"]): int(r["sum_nV"]) for r in csv.DictReader(open(os.path.join(qm.POS, "list_topic_positions.csv")))}
+    nv, no = {}, {}
+    for r in csv.DictReader(open(os.path.join(qm.POS, "list_topic_positions.csv"))):
+        nv[(r["letters"], r["d"])] = int(r["sum_nV"]); no[(r["letters"], r["d"])] = int(r.get("sum_nO") or 0)
     dir_en = {d["key"]: d["name_en"] for d in json.load(open(os.path.join(ROOT, "jef/directions/merge3/directions_final.json")))}
     for p in [json.load(open(os.path.join(ROOT, "jef/directions/split/plan.json")))] + L.later_plans():   # all split stages (labels.LATER)
         dir_en.update({k: v["name_en"] for k, v in p["new"].items()})
-    return dict(st=st, pos=pos, cov=cov, info=info, init=init, cand=cand, by_d=by_d, nv=nv, dir_en=dir_en,
+    return dict(st=st, pos=pos, cov=cov, info=info, init=init, cand=cand, by_d=by_d, nv=nv, no=no, dir_en=dir_en,
                 title={r["q"]: r for r in st})
 
 def contributions(ctx, L, ans, mult=None):
@@ -109,21 +111,26 @@ def explain(ctx, L, q, a, p, contrib, mult=None):
     side (п. 7). [У] 2026-10-18: the caveat «positions are relative to the average MK» is gone — authorship is no longer centered."""
     ev = evidence(ctx, L, q, a / 2 * q["key_s"], contrib)
     n_same = sum(1 for e in ev if e[6]); n_opp = len(ev) - n_same
-    nvotes = ctx["nv"].get((L, q["d"]), 0)
+    nvotes = ctx["nv"].get((L, q["d"]), 0); nother = ctx["no"].get((L, q["d"]), 0)
     close = abs(p) < CLOSE
-    side = ("has no clear position on this statement" if close else   # [У] 2026-10-18 (was «close to the average MK»)
-            "for this statement" if p * q["key_s"] > 0 else "against this statement")
+    toward = not close and p * q["key_s"] > 0
+    # [У] 2026-10-18 (Р4а, external audit К2): say what was measured — what the list's former MKs pushed for with their bills and
+    # votes — not that the list accepts the statement, whose «even if» price the data does not measure.
+    side = ("shows no clear position on this statement" if close else
+            "points toward this statement" if toward else "points against this statement")
+    votes = f"{plural(nvotes, 'vote')} on private bills and {plural(nother, 'vote')} on the other camp's bills on this topic"
     lines = [f"“{q['statement_en']}”",
-             f"Your answer: {ANS[a]}. The list is {side}.",
+             f"Your answer: {ANS[a]}. The record of the list's former MKs {side}.",
              (f"Basis: {plural(len(ev), 'bill')} sponsored by the list's former MKs — {n_same} your way, {n_opp} the other way; "
-              f"{plural(nvotes, 'vote')} on private bills on this topic." if ev else
-              f"Basis: no bills of their own on this topic, only {plural(nvotes, 'vote')} on private bills.")]
+              f"{votes}." if ev else f"Basis: no bills of their own on this topic, only {votes}.")]
     if (mult or {}).get(q["q"], 1) != 1: lines.append("Weight ×2: you chose this topic in a trade-off question.")
     P, P_A = ctx["pos"][L][q["d"]][0], ctx["pos"][L][q["d"]][3]
     by_votes = bool(ev) and (abs(P_A) <= EPS or (P_A > 0) != (P > 0))   # own bills give nothing or the other side
     if close: pass
     elif by_votes:
-        lines.append("The list's side comes from how its former MKs voted on private bills, not from the bills they sponsored.")
+        lines.append("The list's side comes from how its former MKs voted, not from the bills they sponsored.")
+    if toward:
+        lines.append("This shows what their bills and votes pushed for, not whether they accept the price named in the statement.")
     return lines, ev
 
 def main(f):
@@ -150,7 +157,7 @@ def main(f):
     place = 0
     for r in ranking:
         if r["closeness"] is None: continue
-        ranked = r["coverage"] >= qm.MIN_COVERAGE
+        ranked = r["ranked"]
         place += ranked
         out.append(f"| {place if ranked else '—'} | {r['list']} | {r['closeness']:+.2f} | {r['note']} |")
     ne = [r["list"] for r in ranking if r["closeness"] is None]
@@ -159,7 +166,7 @@ def main(f):
             "- “your answer” — your position on the statement;",
             "- “the list is for / against the statement” — which side its former MKs pushed with the bills they sponsored and, with less weight, their votes;",
             "- “✓ / ✗” next to a bill — whether it moves things the same way as your answer or the opposite way.", ""]
-    shown = [r for r in ranking if r["closeness"] is not None and r["coverage"] >= qm.MIN_COVERAGE][:TOP]
+    shown = [r for r in ranking if r["ranked"]][:TOP]
     for place_, r in enumerate(shown, 1):
         L = r["letters"]
         rows = contributions(ctx, L, ans, mult)

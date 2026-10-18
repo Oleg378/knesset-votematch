@@ -52,3 +52,8 @@ section 5 «Loading».
 ## 8. Data update (data side → web, 2026-10-18) [no code change]
 The v2 export was regenerated: 78 statements (some removed, `q105` added; ids stay stable), a different core. Same format and
 schema; golden cases regenerated. Nothing to change on the web — just make sure nothing assumes a fixed number of statements.
+
+## 9. v2 changes after the external audit (data side → web, 2026-10-18) [port before v2 goes live]
+- Ranking: a list ranks only if `ex_mks >= params.MIN_EX_MKS` (2) as well as coverage; otherwise it goes to «Not ranked» with its note.
+- List details lines 2, 3, 5 changed and line 6 added — exact texts in `export/V2_HANDOFF.md` §3; line 3 uses the new `n_other` field.
+- `flow.core_one_sided` added (the core is precomputed in the export; nothing to compute). Golden regenerated.

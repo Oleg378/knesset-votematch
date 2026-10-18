@@ -26,6 +26,7 @@ import csv, os, sys
 import numpy as np
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import quiz_match as qm
+from quiz_report import CLOSE   # |p| below it: «no clear position» (one rule for explanations and the core filter)
 
 FLOW = {
     "core": 8,            # [У] 2026-10-18: 8 core + 7 clarifying (local/research/scripts/flow_core_clar.py: clarifying questions add
@@ -35,6 +36,8 @@ FLOW = {
     "core_gov_share": 0.5,   # [У] 2026-10-18: at most half of the core on the government axis (5 -> 2, 6 -> 3)
     "gov_r": 0.8,         # as quiz_select.GOV_R
     "clarify_top": 4,     # [А] lists compared when choosing the next clarifying question
+    "core_one_sided": False,   # [У] 2026-10-18 (Р4в, external audit К2): a statement on which every evaluated list with a clear
+                               # position (|p| >= CLOSE) is on the same side separates lists only by strength — not in the core
     # stopping rule (2026-10-18, values pending the simulation local/research/scripts/flow_stop.py): with stop_gap set, clarifying
     # questions go on until the leader's closeness exceeds the second list's by stop_gap (after at least min_questions), or
     # max_questions are asked; with stop_gap None the fixed number «clarify» is used.
@@ -68,6 +71,8 @@ def core(flow=FLOW, ctx=None):
         p = [x for _, x in v]
         sep = float(np.std(p)) * len(v) / len(ok)
         g = abs(_r(p, [gov[l] for l, _ in v]))
+        clear = [x for x in p if abs(x) >= CLOSE]
+        if not flow["core_one_sided"] and clear and (all(x > 0 for x in clear) or all(x < 0 for x in clear)): continue
         rows.append((-sep, int(r["q"]), r["q"], r["d"], g >= flow["gov_r"]))
     out, dirs, ngov = [], set(), 0
     for _, _, q, d, on_gov in sorted(rows):

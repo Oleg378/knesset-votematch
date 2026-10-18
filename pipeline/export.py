@@ -52,7 +52,7 @@ def build_data(ctx):
         P = {}
         for d in quiz_d:
             x = pos.get(L, {}).get(d)
-            if x: P[d] = {"P": x[0], "P_bills": x[3], "e": x[1], "n_mk": x[2], "n_votes": nv.get((L, d), 0)}
+            if x: P[d] = {"P": x[0], "P_bills": x[3], "e": x[1], "n_mk": x[2], "n_votes": nv.get((L, d), 0), "n_other": ctx["no"].get((L, d), 0)}
         lists.append({"id": L, "name_en": c["list_name"], "status": c["status"], "ex_mks": int(c["ex_mks"]), "positions": P})
     cand_list, mks = {}, {}
     for L, ms in ctx["cand"].items():
@@ -70,7 +70,7 @@ def build_data(ctx):
         "version": VERSION,
         "generated": datetime.date.today().isoformat(),
         "source_commit": source_commit(),
-        "params": {"K": qm.K, "MIN_COVERAGE": qm.MIN_COVERAGE, "MAX_TRADE": qm.MAX_TRADE, "TRADE_TOP": qm.TRADE_TOP,
+        "params": {"K": qm.K, "MIN_COVERAGE": qm.MIN_COVERAGE, "MIN_EX_MKS": qm.MIN_EX_MKS, "MAX_TRADE": qm.MAX_TRADE, "TRADE_TOP": qm.TRADE_TOP,
                    "TRADE_W": qm.TRADE_W, "TRADE_CANDIDATES": 3, "VOTE_WEIGHT": 0.25, "CLOSE": qr.CLOSE,
                    "BILL_URL": qr.LINK.replace("{}", "{id}")},
         "flow": dict(qf.FLOW),
@@ -90,7 +90,7 @@ def case(ctx, name, answers, mult=None, exclude=(), skip_lists=()):
     mult = mult or {}
     rows = qm.match(answers, mult=mult)
     ranking = [{"id": r["letters"], "closeness": num(r["closeness"]), "coverage": r["coverage"], "note": r["note"],
-                "ranked": r["closeness"] is not None and r["closeness"] == r["closeness"] and r["coverage"] >= qm.MIN_COVERAGE}
+                "ranked": r["ranked"]}
                for r in rows]
     out = {"name": name, "answers": answers, "mult": mult, "ranking": ranking,
            "tradeoffs": {"exclude": list(exclude), "skip_lists": list(skip_lists),

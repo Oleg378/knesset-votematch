@@ -123,7 +123,7 @@ def exchange(ctx, ans, mult, done):
 
 def leaderboard(ctx, ans, mult):
     ranking = qm.match(ans, mult=mult)
-    ranked = [r for r in ranking if r["closeness"] is not None and r["closeness"] == r["closeness"] and r["coverage"] >= qm.MIN_COVERAGE]
+    ranked = [r for r in ranking if r["ranked"]]
     low = [r for r in ranking if r["closeness"] is not None and r not in ranked]
     none = [r for r in ranking if r["closeness"] is None]
     say("\n" + "=" * W + "\nRESULT: all lists by closeness to your answers (from −1 to +1)\n"

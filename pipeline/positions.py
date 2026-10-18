@@ -11,6 +11,9 @@ LAB = f'{ROOT}/jef/directions/labels'
 os.makedirs(OUT, exist_ok=True)
 SGN = {'+': 1, '−': -1, '-': -1}
 W_A, W_V = 1.0, 0.25            # SU 27.3: authorship 1, private-bill votes 0.25, secondary topics = main
+W_O = 0.25                      # [У] 2026-10-18 (Р1): votes against the other camp's bills (local/research/other_camp/)
+BEH_X, BEH_MIN = 0.9, 200       # [У] 2026-10-18 (Р2): a faction without ministers that votes with the government in >= 90 % of
+                                # >= 200 votes in a Knesset counts as coalition for cleaning votes (Ra'am K24)
 MIN_IDS = {39, 57, 45, 31, 50, 51, 65, 73}   # שר/שרה/ראש הממשלה/משנה/סגן ראש הממשלה/מ"מ/סגנית/ראש הממשלה החילופי
 DEP_IDS = {40, 59, 285079}                   # סגן שר / סגנית שר / סגן שרה
 LOW_NA = 10                                  # [А] "личных законопроектов почти нет"
@@ -103,6 +106,19 @@ gov_months = (gd.groupby(['mk_id', 'knesset']).apply(union_days) / 30.44).round(
 
 ro['gov_side'] = [(int(f), d) in INGOV if pd.notna(f) else False for f, d in zip(ro.faction_id, ro.vote_date)]
 ro['trans'] = in_trans(ro.vote_date.values)
+# [У] 2026-10-18 (Р2, external audit С2): camp for cleaning votes and for «the other camp» = government by ministers (INGOV) OR a
+# faction that votes with the government majority in >= BEH_X of its votes in that Knesset (outside the transition windows) while
+# having no minister most of the time. The government layer keeps INGOV (ministers only).
+_g = ro.dropna(subset=['v']); _g = _g[~_g.trans]
+_gm = _g[_g.gov_side].groupby('vote_id').v.mean().rename('gm'); _g = _g.join(_gm, on='vote_id'); _g = _g[_g.gm.notna() & (_g.gm != 0)]
+_g = _g.assign(w=np.sign(_g.v) == np.sign(_g.gm))
+_fs = _g[_g.faction_id.notna()].groupby([_g.faction_id.astype(int), 'knesset']).agg(share=('w', 'mean'), n=('w', 'size'), ingov=('gov_side', 'mean'))
+_beh = _fs[(_fs.share >= BEH_X) & (_fs.ingov < 0.5) & (_fs.n >= BEH_MIN)]
+INGOV_V = set(INGOV)
+for (f, k), _ in _beh.iterrows():
+    INGOV_V |= {(int(f), pd.Timestamp(d)) for d in ro[(ro.faction_id == f) & (ro.knesset == k)].vote_date.unique()}
+P('coalition by behaviour (cleaning votes):', [(fname.get(int(f)), int(k), round(r.share, 3)) for (f, k), r in _beh.iterrows()])
+ro['camp_gov'] = [(int(f), d) in INGOV_V if pd.notna(f) else False for f, d in zip(ro.faction_id, ro.vote_date)]
 rv = ro.dropna(subset=['v']).copy()
 
 # ======================= A: authorship =======================
@@ -118,7 +134,7 @@ A = bi.merge(ab, on='bill_id').groupby(['mk_id', 'knesset', 'd']).s.agg(['mean',
 # Not sponsoring = no authorship signal (0); the side then comes from votes. local/research/a_centering/.
 
 # ======================= V: private-bill votes, residual on government share =======================
-share = rv[~rv.trans].groupby(['mk_id', 'knesset']).gov_side.mean().rename('gov_share')
+share = rv[~rv.trans].groupby(['mk_id', 'knesset']).camp_gov.mean().rename('gov_share')
 pv = rv[rv.bill_type == 'פרטית']
 vt = va.set_index('vote_id').topics
 vrows = [(r.mk_id, r.knesset, d, s * r.v) for r in pv.itertuples() for d, s in vt[r.vote_id].items()]
@@ -132,19 +148,43 @@ beta = (cov / var.where(var > 1e-9)).fillna(0)
 V['V'] = V.pos - my - beta * (V.gov_share - mx)   # residual, mean 0 per Knesset × direction
 P(f'A rows (MK×Knesset×dir): {len(A)}; V rows: {len(V)}')
 
+# ======================= O: votes against the other camp's bills [У] 2026-10-18 (Р1) =======================
+# A government bill is the coalition's; a private bill belongs to the camp of the majority of its initiators on the vote date. O = mean
+# of topic sign × vote over the MK's votes on bills of the other camp (all four stages, outside the transition windows), NOT residualised:
+# it keeps «the opposition voted against the coalition's bills on X», which V removes with the government axis (external audit К1).
+_ini = con.execute("select bill_id, mk_id from bill_initiators where is_initiator").df().groupby('bill_id').mk_id.apply(list).to_dict()
+_fmd = {m: q for m, q in fm.groupby('mk_id')}
+def _faction_at(m, d):
+    q = _fmd.get(m)
+    if q is None: return None
+    x = q[(q.df <= d) & (q.dt > d)]
+    return int(x.sort_values('df').faction_id.iloc[-1]) if len(x) else None
+bcamp = {}
+for r in va.itertuples():
+    if r.bill_type == 'ממשלתית': bcamp[r.vote_id] = True; continue
+    if r.bill_type != 'פרטית': continue
+    s_ = [(f, r.vote_date) in INGOV_V for f in (_faction_at(m, r.vote_date) for m in _ini.get(r.bill_id, [])) if f is not None]
+    if s_: bcamp[r.vote_id] = bool(np.mean(s_) > 0.5)
+ov = rv[~rv.trans & rv.vote_id.isin(bcamp.keys())]
+ov = ov[ov.camp_gov.values != ov.vote_id.map(bcamp).values]
+orows = [(r.mk_id, r.knesset, d, s * r.v) for r in ov.itertuples() for d, s in vt[r.vote_id].items()]
+O = pd.DataFrame(orows, columns=['mk_id', 'knesset', 'd', 'c']).groupby(['mk_id', 'knesset', 'd']).c.agg(['mean', 'size']).reset_index().rename(columns={'mean': 'O', 'size': 'nO'})
+P(f'O rows (votes on the other camp\'s bills): {len(O)}; bills with a camp: {len(bcamp)}')
+
 # ======================= pool Knessets, topic position =======================
 def pool(df, val, n):
     g = df.assign(w=df[val] * df[n]).groupby(['mk_id', 'd'])
     return pd.DataFrame({val: g.w.sum() / g[n].sum(), n: g[n].sum()})
-T = pool(A, 'A', 'nA').join(pool(V, 'V', 'nV'), how='outer').reset_index()
-T[['nA', 'nV']] = T[['nA', 'nV']].fillna(0).astype(int)
+T = pool(A, 'A', 'nA').join(pool(V, 'V', 'nV'), how='outer').join(pool(O, 'O', 'nO'), how='outer').reset_index()
+T[['nA', 'nV', 'nO']] = T[['nA', 'nV', 'nO']].fillna(0).astype(int)
 # [У] 2026-10-17: the model the weights were fitted on (local/research/positions_test/test_weights.py): P = A + 0.25 V, a missing
 # component counts 0. Before: (A + 0.25 V) / (1[A] + 0.25 [V]) — votes of a MK without own bills on the topic went in at full weight.
 T['P_A'] = W_A * T.A.fillna(0)
 T['P_V'] = W_V * T.V.fillna(0)
-T['P'] = T.P_A + T.P_V
+T['P_O'] = W_O * T.O.fillna(0)
+T['P'] = T.P_A + T.P_V + T.P_O   # [У] 2026-10-18: P = A + 0.25 V + 0.25 O
 T['name'] = T.mk_id.map(names); T['direction'] = T.d.map(dname)
-T = T[['mk_id', 'name', 'd', 'direction', 'P', 'P_A', 'P_V', 'A', 'nA', 'V', 'nV']]
+T = T[['mk_id', 'name', 'd', 'direction', 'P', 'P_A', 'P_V', 'P_O', 'A', 'nA', 'V', 'nV', 'O', 'nO']]
 T.round(4).to_csv(f'{OUT}/mk_topic_positions.csv', index=False)
 P(f'mk_topic_positions: {len(T)} rows, MKs {T.mk_id.nunique()}, directions {T.d.nunique()}; with A: {T.A.notna().sum()}, V only: {(T.A.isna()).sum()}')
 
@@ -154,10 +194,10 @@ cec = pd.read_csv(f'{ROOT}/manual/cec_lists_26.csv'); lname = dict(zip(cec.lette
 cm = cand[cand.match.isin(['exact', 'manual'])].copy(); cm['mk_id'] = cm.mk_id.astype(int)
 cm = cm.drop_duplicates('mk_id')
 L = cm[['letters', 'mk_id']].merge(T, on='mk_id')
-LP = L.groupby(['letters', 'd']).agg(P=('P', 'mean'), P_A=('P_A', 'mean'), P_V=('P_V', 'mean'), n_mk=('mk_id', 'size'), sum_nA=('nA', 'sum'), sum_nV=('nV', 'sum')).reset_index()
+LP = L.groupby(['letters', 'd']).agg(P=('P', 'mean'), P_A=('P_A', 'mean'), P_V=('P_V', 'mean'), n_mk=('mk_id', 'size'), sum_nA=('nA', 'sum'), sum_nV=('nV', 'sum'), P_O=('P_O', 'mean'), sum_nO=('nO', 'sum')).reset_index()
 LP['low_data'] = LP.n_mk < 3
 LP['list_name'] = LP.letters.map(lname); LP['direction'] = LP.d.map(dname)
-LP = LP[['letters', 'list_name', 'd', 'direction', 'P', 'P_A', 'P_V', 'n_mk', 'sum_nA', 'sum_nV', 'low_data']]
+LP = LP[['letters', 'list_name', 'd', 'direction', 'P', 'P_A', 'P_V', 'n_mk', 'sum_nA', 'sum_nV', 'low_data', 'P_O', 'sum_nO']]
 LP.round(4).to_csv(f'{OUT}/list_topic_positions.csv', index=False)
 
 cov_rows = []
@@ -292,7 +332,9 @@ readme = f"""# Позиции депутатов и списков 2026
   - **A — авторство.** Законопроекты, где депутат инициатор (`is_initiator`), все инициаторы с равным весом. Каждый законопроект даёт свои темы (главные и побочные наравне) со знаком ±1. Темы без знака пропускаются. Технические законопроекты (`overrides.json`, SU 23c) исключены. Метки бюджетных пакетов на A не влияют. A = средний знак, nA = число законопроектов.
   - **V — голоса по частным законопроектам.** «За» = +1, «против» = −1; вклад = знак темы × голос. Берётся остаток после регрессии на долю голосов депутата, поданных, когда его фракция была на стороне правительства (внутри созыва × направления). nV = число голосов.
   - A не центрируется (вариант Б, SU 27.3, 2026-10-17): знак законопроектов как есть, не вносил — 0 (нет сигнала). V — остаток, его среднее по созыву × направлению равно 0. Созывы объединяются с весом n.
-  - **P = 1·A + 0,25·V; нет компоненты — 0** (как при подборе весов; SU 27.3, 2026-10-17). P_A и P_V — вклады авторства и голосов. Метки, снятые по двум независимым проверкам (`overrides.json` «remove», SU 27.3, 2026-10-18), не учитываются; Jev-фильтр относимости выключен (`labels.REL_T = None`). Голоса по правительственным законопроектам (и статьям пакетов) и голоса против лагеря — вес 0. Авторство: только `is_initiator`; отозванные подписи (KNS_BillHistoryInitiator «חזר בו», 4 случая) не вычитаются [А]. Сжатия нет ни здесь, ни при ранжировании (K = 0, 2026-10-18).
+  - **O — голоса против законопроектов другого лагеря [У, 2026-10-18].** Правительственный законопроект — коалиционный; частный — лагеря большинства его инициаторов на дату голосования. O = средний знак темы × голос по законопроектам чужого лагеря (все четыре чтения, без переходных окон), **без** вычета оси правительства: так видно «оппозиция голосовала против законов коалиции о X». nO = число голосов.
+  - **Лагерь для очистки голосов и для O [У, 2026-10-18]** — правительство по министрам **или** фракция без министров, голосующая с большинством правительства в ≥ 90 % из ≥ 200 голосов в созыве (сейчас так только РААМ в K24). Слой правительства по-прежнему только по министрам.
+  - **P = 1·A + 0,25·V + 0,25·O; нет компоненты — 0** (A и V — как при подборе весов, SU 27.3, 2026-10-17; O — 2026-10-18). P_A и P_V — вклады авторства и голосов. Метки, снятые по двум независимым проверкам (`overrides.json` «remove», SU 27.3, 2026-10-18), не учитываются; Jev-фильтр относимости выключен (`labels.REL_T = None`). Голоса по правительственным законопроектам (и статьям пакетов) и голоса против лагеря — вес 0. Авторство: только `is_initiator`; отозванные подписи (KNS_BillHistoryInitiator «חזר בו», 4 случая) не вычитаются [А]. Сжатия нет ни здесь, ни при ранжировании (K = 0, 2026-10-18).
 - **Правительство [У, 27.3].** Фракция с ≥1 министром или замминистром на дату (`data/person_to_position_24_25.json`; должности {sorted(MIN_IDS)} и {sorted(DEP_IDS)}).
   - Человек → фракция по `faction_membership` на дату. Если он не депутат (норвежский закон), берётся его ближайшее членство в том же созыве [А]. Из-за этого министры, сложившие мандат, относятся к фракции до раскола (например, Дерех Эрец).
   - Переходные окна от начала созыва до формирования правительства ({', '.join(f'{a.date()}–{b.date()}' for a, b in TRANS)}; дата — первая запись должностей правительства 36/37) исключены из доли «на стороне правительства» и из слоя правительства [А].
@@ -305,7 +347,7 @@ readme = f"""# Позиции депутатов и списков 2026
 
 ## Файлы
 - `mk_topic_positions.csv` — депутат × направление: P, A, nA (законопроекты, оба созыва), V, nV (голоса).
-- `list_topic_positions.csv` — список × направление: P, n_mk, sum_nA, sum_nV, low_data.
+- `list_topic_positions.csv` — список × направление: P, P_A, P_V, P_O, n_mk, sum_nA, sum_nV, sum_nO, low_data.
 - `list_coverage.csv` — по каждому списку 2026: кандидатов, бывших депутатов (всего и в первой десятке), статус покрытия (п. 20), число направлений с n_mk≥1 и ≥3, медиана nA на бывшего депутата.
 - `government_layer_mk.csv` — депутат × созыв: голосов, совпавших с правительством, доля, месяцы на должности.
 - `government_layer_list.csv` — список × созыв: те же суммы по кандидатам; share_with_gov — по всем голосам, mean_mk_share — среднее по депутатам.
