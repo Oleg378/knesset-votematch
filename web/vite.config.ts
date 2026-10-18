@@ -49,8 +49,35 @@ function preloadStartPage(): Plugin {
   };
 }
 
+/**
+ * What the page shows until the JS has drawn the first screen (customer 2026-10-18): the hero's dot rings as a full circle
+ * (Figma «Frame 9»: radii 34…66, dots 6, ~7 px apart, Brand/Primary at 40 / 28 / 18 / 10 / 4.8 %) and a blue dot (9.6)
+ * running along the middle ring. Plain HTML + CSS (styles: `.boot` in app.css), no script — the CSP allows none inline.
+ * Every ring is uniform: the Figma frame lightens the dots around its blue dot, which would read as a glare here.
+ * React replaces it on its first render (createRoot clears #root).
+ */
+const BOOT_RINGS: [radius: number, dots: number, opacity: number][] = [[34, 30, 0.4], [42, 38, 0.28], [50, 46, 0.18], [58, 54, 0.1], [66, 62, 0.048]];
+function bootLoader(): Plugin {
+  const r2 = (x: number) => +x.toFixed(2);
+  const rings = BOOT_RINGS.map(([r, n, o]) => {
+    const dots = Array.from({ length: n }, (_, i) => {
+      const a = (2 * Math.PI * i) / n;
+      return `<circle cx="${r2(r * Math.cos(a))}" cy="${r2(r * Math.sin(a))}" r="3"/>`;
+    });
+    return `<g fill-opacity="${o}">${dots.join('')}</g>`;
+  });
+  const svg = `<svg width="138" height="138" viewBox="-69 -69 138 138" fill="#0038B8" role="img" aria-label="Loading">${rings.join('')}<circle class="boot-runner" cx="50" cy="0" r="4.8"/></svg>`;
+  return {
+    name: 'boot-loader',
+    transformIndexHtml(html) {
+      if (!html.includes('<div id="root"></div>')) throw new Error('boot-loader: <div id="root"></div> not found');
+      return html.replace('<div id="root"></div>', `<div id="root"><main class="app boot">${svg}</main></div>`);
+    },
+  };
+}
+
 export default defineConfig({
-  plugins: [react(), preloadStartPage()],
+  plugins: [react(), preloadStartPage(), bootLoader()],
   resolve: { alias: { '@export': exportDir } },
   server: { fs: { allow: ['.', exportDir] }, allowedHosts },
   preview: { allowedHosts },

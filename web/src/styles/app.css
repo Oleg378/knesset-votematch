@@ -79,6 +79,45 @@ button {
   }
 }
 
+/* Until the JS has drawn the first screen: dot rings with a blue dot running round (index.html, bootLoader in
+   vite.config.ts). It is the same white .app (a card in card mode), so the first screen appears in place. The rings fade
+   in after a moment, so a fast load shows no flash. The blue dot starts where the Figma frame has it (−62.6°). */
+.boot {
+  width: 100%; /* in card mode the card would shrink to the picture: it has no text to fill the column */
+  justify-content: center;
+  align-items: center;
+}
+
+.boot svg {
+  animation: boot-in 300ms ease-out 150ms both;
+}
+
+.boot-runner {
+  animation: boot-spin 1.2s linear infinite;
+}
+
+@keyframes boot-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes boot-spin {
+  from {
+    transform: rotate(-62.6deg);
+  }
+  to {
+    transform: rotate(297.4deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .boot-runner {
+    animation: none;
+    transform: rotate(-62.6deg);
+  }
+}
+
 .screen {
   display: flex;
   flex-direction: column;
