@@ -101,21 +101,21 @@
     },
     {
      "id": "רק",
-     "closeness": 0.03898735935570687,
+     "closeness": 0.03898579059054044,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.025366698668575167,
+     "closeness": 0.02536863218810255,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.016091324949754838,
+     "closeness": 0.016091757053220378,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -143,28 +143,28 @@
     },
     {
      "id": "דרך",
-     "closeness": -0.019636600440542117,
+     "closeness": -0.019569506246590117,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.022767611647002115,
+     "closeness": -0.022755336416675705,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.051688898298263716,
+     "closeness": -0.05178164868157676,
      "coverage": 0.9696969696969697,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.13435075684015862,
+     "closeness": -0.13450228450834537,
      "coverage": 0.9848484848484849,
      "note": "",
      "ranked": true
@@ -17268,7 +17268,7 @@
     },
     {
      "id": "רק",
-     "closeness": -0.007270274258676889,
+     "closeness": -0.007269994650540803,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -17282,42 +17282,42 @@
     },
     {
      "id": "אמת",
-     "closeness": -0.021972304368549803,
+     "closeness": -0.021972879252906898,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.026019037872616745,
+     "closeness": -0.026020937088641366,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.06630784020876347,
+     "closeness": -0.06642140811835537,
      "coverage": 0.9705882352941176,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.07703540242045243,
+     "closeness": -0.07699692653529394,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.08479087677149534,
+     "closeness": -0.08453152481856141,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.1378166061327887,
+     "closeness": -0.1379700913892961,
      "coverage": 0.9852941176470589,
      "note": "",
      "ranked": true
@@ -34418,7 +34418,7 @@
     },
     {
      "id": "רק",
-     "closeness": 0.02873957492230206,
+     "closeness": 0.02873842198826081,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -34439,42 +34439,42 @@
     },
     {
      "id": "אמת",
-     "closeness": 0.0023338938631231767,
+     "closeness": 0.002333956163600302,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.0005256523010985297,
+     "closeness": -0.0005256915317228968,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.03243614571893398,
+     "closeness": -0.03232594319836408,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.03309219782529322,
+     "closeness": -0.033074423119665894,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.08423439067666962,
+     "closeness": -0.08437991622505185,
      "coverage": 0.9701492537313433,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.14925165268903878,
+     "closeness": -0.1494183106099874,
      "coverage": 0.9850746268656716,
      "note": "",
      "ranked": true
@@ -62384,14 +62384,14 @@
     },
     {
      "id": "רק",
-     "closeness": 0.10774362911246742,
+     "closeness": 0.1072658974836898,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.10420664512905332,
+     "closeness": 0.10427568654208372,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -62412,35 +62412,35 @@
     },
     {
      "id": "דרך",
-     "closeness": 0.058731802130275464,
+     "closeness": 0.05519021305242642,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.033815780488245246,
+     "closeness": 0.03363704210923099,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.022349411926579174,
+     "closeness": 0.021707246460487196,
      "coverage": 0.96875,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.03749701818505567,
+     "closeness": -0.037740653634833164,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.08577307723721615,
+     "closeness": -0.08705171237994071,
      "coverage": 0.984375,
      "note": "",
      "ranked": true
@@ -101298,14 +101298,14 @@
     },
     {
      "id": "רק",
-     "closeness": 0.10561950928411917,
+     "closeness": 0.10487542117428245,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.10525956255744935,
+     "closeness": 0.10477460066225942,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -101319,14 +101319,14 @@
     },
     {
      "id": "דרך",
-     "closeness": 0.036731767573354564,
+     "closeness": 0.030931558156380778,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.002760197350255211,
+     "closeness": -0.00266048513270441,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -101340,7 +101340,7 @@
     },
     {
      "id": "עם",
-     "closeness": -0.014624337539369136,
+     "closeness": -0.016585912741208426,
      "coverage": 0.9861111111111112,
      "note": "",
      "ranked": true
@@ -101361,14 +101361,14 @@
     },
     {
      "id": "ודם",
-     "closeness": -0.11223784169729059,
+     "closeness": -0.11356565388821821,
      "coverage": 0.9722222222222222,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.11375871690054298,
+     "closeness": -0.11403986071988086,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -123239,12 +123239,12 @@
       },
       {
        "q": "8",
-       "contribution": -0.0223,
-       "p": 0.0223,
+       "contribution": -0.0465,
+       "p": 0.0465,
        "lines": [
         "“Every citizen, including groups that are exempt today, should do compulsory military or civilian service, even if the army does not need all of them.”",
         "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 47 votes on private bills and 77 votes on the other camp's bills on this topic."
+        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 47 votes on private bills and 38 votes on the other camp's bills on this topic."
        ],
        "evidence": [
         {
@@ -149431,49 +149431,49 @@
     },
     {
      "id": "ל",
-     "closeness": -0.04154635319600488,
+     "closeness": -0.041492448008099335,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.05271674094296742,
+     "closeness": -0.05313922336185111,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.05694026059093447,
+     "closeness": -0.057151529743395754,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.0654564717137548,
+     "closeness": -0.06617315502965311,
      "coverage": 0.9859154929577465,
      "note": "",
      "ranked": true
     },
     {
-     "id": "דרך",
-     "closeness": -0.10713166468639715,
+     "id": "אמת",
+     "closeness": -0.1078356902481956,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
-     "id": "אמת",
-     "closeness": -0.1076736811224938,
+     "id": "דרך",
+     "closeness": -0.1098758154072539,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.13231543444948624,
+     "closeness": -0.13351404163463332,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -164702,21 +164702,21 @@
    "ranking": [
     {
      "id": "עם",
-     "closeness": 0.28682890181104564,
+     "closeness": 0.285019933487965,
      "coverage": 0.9863013698630136,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.1641567283899771,
+     "closeness": 0.1631561939890673,
      "coverage": 0.9726027397260274,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.14403837129579747,
+     "closeness": 0.14372215995798487,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -164744,14 +164744,14 @@
     },
     {
      "id": "דרך",
-     "closeness": 0.1066002374480704,
+     "closeness": 0.09994326223249922,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.05407606986636704,
+     "closeness": 0.05323165867612211,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -164772,14 +164772,14 @@
     },
     {
      "id": "כן",
-     "closeness": -0.018406682357428636,
+     "closeness": -0.01887613378129338,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.06270407975083493,
+     "closeness": -0.062593467521838,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -164977,7 +164977,7 @@
       "עם"
      ],
      [
-      "8",
+      "2",
       "66",
       "ודם"
      ],
@@ -166055,17 +166055,6 @@
        ]
       },
       {
-       "q": "8",
-       "contribution": 0.4115,
-       "p": -0.4115,
-       "lines": [
-        "“Every citizen, including groups that are exempt today, should do compulsory military or civilian service, even if the army does not need all of them.”",
-        "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
-        "Basis: no bills of their own on this topic, only 13 votes on private bills and 15 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
-      },
-      {
        "q": "82",
        "contribution": 0.39585,
        "p": 0.7917,
@@ -166797,6 +166786,17 @@
          ]
         }
        ]
+      },
+      {
+       "q": "8",
+       "contribution": 0.352,
+       "p": -0.352,
+       "lines": [
+        "“Every citizen, including groups that are exempt today, should do compulsory military or civilian service, even if the army does not need all of them.”",
+        "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
+        "Basis: no bills of their own on this topic, only 13 votes on private bills and 9 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
       },
       {
        "q": "103",
@@ -168372,86 +168372,6 @@
      "id": "ודם",
      "items": [
       {
-       "q": "8",
-       "contribution": 1.4383,
-       "p": -1.4383,
-       "lines": [
-        "“Every citizen, including groups that are exempt today, should do compulsory military or civilian service, even if the army does not need all of them.”",
-        "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
-        "Basis: 4 bills sponsored by the list's former MKs — 4 your way, 0 the other way; 18 votes on private bills and 19 votes on the other camp's bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2156769",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Ahmad Tibi"
-          ]
-         ]
-        },
-        {
-         "bill": "2196930",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Ahmad Tibi"
-          ]
-         ]
-        },
-        {
-         "bill": "2197310",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Ahmad Tibi"
-          ],
-          [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
-          ]
-         ]
-        },
-        {
-         "bill": "2159044",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "2",
        "contribution": 1.4185,
        "p": -1.4185,
@@ -168535,6 +168455,86 @@
          "role": "main",
          "same": true,
          "authors": [
+          [
+           108,
+           "Ayman Odeh"
+          ],
+          [
+           109,
+           "Aida Touma-Sliman"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "8",
+       "contribution": 1.3883,
+       "p": -1.3883,
+       "lines": [
+        "“Every citizen, including groups that are exempt today, should do compulsory military or civilian service, even if the army does not need all of them.”",
+        "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
+        "Basis: 4 bills sponsored by the list's former MKs — 4 your way, 0 the other way; 18 votes on private bills and 12 votes on the other camp's bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2156769",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Ahmad Tibi"
+          ]
+         ]
+        },
+        {
+         "bill": "2196930",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Ahmad Tibi"
+          ]
+         ]
+        },
+        {
+         "bill": "2197310",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Ahmad Tibi"
+          ],
+          [
+           5,
+           "Ofer Cassif"
+          ],
+          [
+           108,
+           "Ayman Odeh"
+          ],
+          [
+           109,
+           "Aida Touma-Sliman"
+          ]
+         ]
+        },
+        {
+         "bill": "2159044",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           5,
+           "Ofer Cassif"
+          ],
           [
            108,
            "Ayman Odeh"
@@ -175518,7 +175518,7 @@
    "ranking": [
     {
      "id": "עם",
-     "closeness": 0.4169913910009152,
+     "closeness": 0.41415155249902547,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -175560,42 +175560,42 @@
     },
     {
      "id": "ודם",
-     "closeness": 0.128908991354128,
+     "closeness": 0.12720547394460308,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.033398105418941365,
+     "closeness": -0.03430941159890375,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.058863958493551465,
+     "closeness": -0.05989984864932594,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.2391048096762468,
+     "closeness": -0.24101443510369266,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.3054426888157534,
+     "closeness": -0.31550854181125343,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.5244482756341496,
+     "closeness": -0.5243642285789182,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -176230,12 +176230,12 @@
       },
       {
        "q": "8",
-       "contribution": 0.20575,
-       "p": -0.4115,
+       "contribution": 0.176,
+       "p": -0.352,
        "lines": [
         "“Every citizen, including groups that are exempt today, should do compulsory military or civilian service, even if the army does not need all of them.”",
         "Your answer: disagree. The record of the list's former MKs points against this statement.",
-        "Basis: no bills of their own on this topic, only 13 votes on private bills and 15 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 13 votes on private bills and 9 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -177578,92 +177578,92 @@
     "64": "dk",
     "63": 1,
     "107": "dk",
-    "33": 2,
-    "61": 2,
-    "38": 1
+    "105": "dk",
+    "90": "dk",
+    "61": 2
    },
    "mult": {},
    "ranking": [
     {
      "id": "ב",
-     "closeness": 0.5725561977046041,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "מחל",
-     "closeness": 0.5520534656970526,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "ט",
-     "closeness": 0.49643729271189074,
-     "coverage": 0.9,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "ג",
-     "closeness": 0.42638850045763815,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "שס",
-     "closeness": 0.3497733295302545,
+     "closeness": 0.5542635936449631,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.3297595277864079,
+     "closeness": 0.5477432816586245,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
-     "id": "כן",
-     "closeness": -0.01798281320345596,
+     "id": "מחל",
+     "closeness": 0.4752943650439517,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "ט",
+     "closeness": 0.4023513515449765,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "ג",
+     "closeness": 0.1826715707172646,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "שס",
+     "closeness": 0.14895343187429824,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.1381838109001416,
+     "closeness": 0.03230585275168265,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "כן",
+     "closeness": -0.12024635090359637,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.15288758146923656,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "עם",
-     "closeness": -0.36706213326377135,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "ודם",
-     "closeness": -0.4010937706662862,
+     "closeness": -0.16735358030239086,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.5065232391698238,
+     "closeness": -0.45442780243836345,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "ודם",
+     "closeness": -0.6570803571274527,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "עם",
+     "closeness": -0.7456564097922859,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -177677,22 +177677,22 @@
     },
     {
      "id": "בי",
-     "closeness": 0.36686136023505067,
-     "coverage": 0.7,
+     "closeness": -0.06704495326842698,
+     "coverage": 0.625,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": 0.39139640263809816,
-     "coverage": 0.9,
+     "closeness": 0.21404605985739278,
+     "coverage": 1.0,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": -0.10821366582351613,
-     "coverage": 0.8,
+     "closeness": 0.17298317109571282,
+     "coverage": 0.875,
      "note": "few former MKs: 1",
      "ranked": false
     },
@@ -177861,24 +177861,14 @@
       "ב"
      ],
      [
+      "81",
+      "63",
+      "ל"
+     ],
+     [
       "10",
       "49",
       "מחל"
-     ],
-     [
-      "33",
-      "81",
-      "ט"
-     ],
-     [
-      "38",
-      "7",
-      "ג"
-     ],
-     [
-      "63",
-      "8",
-      "שס"
      ]
     ]
    },
@@ -178250,67 +178240,6 @@
        ]
       },
       {
-       "q": "33",
-       "contribution": 0.3515,
-       "p": 0.3515,
-       "lines": [
-        "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
-        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 4 bills sponsored by the list's former MKs — 3 your way, 1 the other way; 58 votes on private bills and 27 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2209242",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Limor Son Har-Melech"
-          ]
-         ]
-        },
-        {
-         "bill": "2232488",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Limor Son Har-Melech"
-          ]
-         ]
-        },
-        {
-         "bill": "2225758",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2205366",
-         "sign": -1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Tally Gotliv"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "81",
        "contribution": 0.2984,
        "p": 0.2984,
@@ -178382,17 +178311,6 @@
          ]
         }
        ]
-      },
-      {
-       "q": "38",
-       "contribution": 0.0,
-       "p": 0.0,
-       "lines": [
-        "“Citizens should be allowed to withdraw long-term savings, such as pension and study funds, early, even if they are left with less in old age.”",
-        "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 1 vote on private bills and 0 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
       },
       {
        "q": "49",
@@ -178527,1387 +178445,72 @@
      ]
     },
     {
-     "id": "מחל",
+     "id": "ל",
      "items": [
       {
-       "q": "61",
-       "contribution": 0.6266,
-       "p": -0.6266,
-       "lines": [
-        "“Ministers should be allowed to act against the opinion of the government's Attorney General, even if their decisions undergo less legal review.”",
-        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 16 bills sponsored by the list's former MKs — 14 your way, 2 the other way; 632 votes on private bills and 0 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2160204",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Eli Cohen"
-          ],
-          [
-           3,
-           "Amir Ohana"
-          ],
-          [
-           8,
-           "Ofir Katz"
-          ],
-          [
-           20,
-           "Hava Eti Atia"
-          ],
-          [
-           24,
-           "Nir Barkat"
-          ],
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2164143",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Amir Ohana"
-          ],
-          [
-           10,
-           "Yoav Kisch"
-          ],
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2156884",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Amir Ohana"
-          ],
-          [
-           12,
-           "Makhlouf Miki Zohar"
-          ],
-          [
-           19,
-           "David Amsalem"
-          ],
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2204719",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Ofir Katz"
-          ],
-          [
-           17,
-           "Moshe Saada"
-          ],
-          [
-           21,
-           "Boaz Bismuth"
-          ],
-          [
-           47,
-           "Ariel Kallner"
-          ],
-          [
-           49,
-           "Sasson Sassi Guetta"
-          ],
-          [
-           65,
-           "Osher Shekalim"
-          ]
-         ]
-        },
-        {
-         "bill": "2201592",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           17,
-           "Moshe Saada"
-          ]
-         ]
-        },
-        {
-         "bill": "2202667",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           19,
-           "David Amsalem"
-          ]
-         ]
-        },
-        {
-         "bill": "2165961",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           19,
-           "David Amsalem"
-          ]
-         ]
-        },
-        {
-         "bill": "2197909",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ],
-          [
-           21,
-           "Boaz Bismuth"
-          ],
-          [
-           33,
-           "Amit Halevi"
-          ],
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ],
-          [
-           38,
-           "Hanoch Dov Milwidsky"
-          ],
-          [
-           47,
-           "Ariel Kallner"
-          ],
-          [
-           50,
-           "Shalom Danino"
-          ]
-         ]
-        },
-        {
-         "bill": "2208895",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ],
-          [
-           21,
-           "Boaz Bismuth"
-          ],
-          [
-           33,
-           "Amit Halevi"
-          ],
-          [
-           50,
-           "Shalom Danino"
-          ]
-         ]
-        },
-        {
-         "bill": "2159687",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2197077",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           33,
-           "Amit Halevi"
-          ]
-         ]
-        },
-        {
-         "bill": "2207172",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ]
-         ]
-        },
-        {
-         "bill": "2220245",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ]
-         ]
-        },
-        {
-         "bill": "2229802",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ]
-         ]
-        },
-        {
-         "bill": "2190209",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Eli Cohen"
-          ]
-         ]
-        },
-        {
-         "bill": "2229752",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           47,
-           "Ariel Kallner"
-          ],
-          [
-           65,
-           "Osher Shekalim"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "10",
-       "contribution": 0.41315,
-       "p": -0.8263,
-       "lines": [
-        "“Israel should restrict more strictly the entry and residence of foreigners, including citizens' spouses who come from the Palestinian territories, even if this separates some families.”",
-        "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 28 bills sponsored by the list's former MKs — 24 your way, 4 the other way; 213 votes on private bills and 90 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2169827",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Eli Cohen"
-          ],
-          [
-           3,
-           "Amir Ohana"
-          ],
-          [
-           4,
-           "Yariv Levin"
-          ],
-          [
-           8,
-           "Ofir Katz"
-          ],
-          [
-           10,
-           "Yoav Kisch"
-          ],
-          [
-           14,
-           "Amichai Chikli"
-          ],
-          [
-           19,
-           "David Amsalem"
-          ],
-          [
-           23,
-           "Shlomo Karhi"
-          ],
-          [
-           24,
-           "Nir Barkat"
-          ],
-          [
-           25,
-           "Gila Gamliel"
-          ],
-          [
-           48,
-           "Avi Dichter"
-          ]
-         ]
-        },
-        {
-         "bill": "2164318",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Eli Cohen"
-          ]
-         ]
-        },
-        {
-         "bill": "2162396",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Eli Cohen"
-          ],
-          [
-           3,
-           "Amir Ohana"
-          ],
-          [
-           4,
-           "Yariv Levin"
-          ],
-          [
-           8,
-           "Ofir Katz"
-          ],
-          [
-           10,
-           "Yoav Kisch"
-          ],
-          [
-           14,
-           "Amichai Chikli"
-          ],
-          [
-           19,
-           "David Amsalem"
-          ],
-          [
-           23,
-           "Shlomo Karhi"
-          ],
-          [
-           24,
-           "Nir Barkat"
-          ],
-          [
-           25,
-           "Gila Gamliel"
-          ],
-          [
-           48,
-           "Avi Dichter"
-          ]
-         ]
-        },
-        {
-         "bill": "2159382",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Amir Ohana"
-          ],
-          [
-           14,
-           "Amichai Chikli"
-          ]
-         ]
-        },
-        {
-         "bill": "2159109",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           4,
-           "Yariv Levin"
-          ]
-         ]
-        },
-        {
-         "bill": "2228138",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Ofir Katz"
-          ],
-          [
-           17,
-           "Moshe Saada"
-          ],
-          [
-           20,
-           "Hava Eti Atia"
-          ],
-          [
-           21,
-           "Boaz Bismuth"
-          ],
-          [
-           22,
-           "David Bitan"
-          ],
-          [
-           33,
-           "Amit Halevi"
-          ],
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ],
-          [
-           38,
-           "Hanoch Dov Milwidsky"
-          ],
-          [
-           47,
-           "Ariel Kallner"
-          ],
-          [
-           49,
-           "Sasson Sassi Guetta"
-          ],
-          [
-           50,
-           "Shalom Danino"
-          ],
-          [
-           65,
-           "Osher Shekalim"
-          ],
-          [
-           76,
-           "Afif Abed"
-          ]
-         ]
-        },
-        {
-         "bill": "2229959",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Ofir Katz"
-          ],
-          [
-           33,
-           "Amit Halevi"
-          ]
-         ]
-        },
-        {
-         "bill": "2166717",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           10,
-           "Yoav Kisch"
-          ]
-         ]
-        },
-        {
-         "bill": "2156351",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           12,
-           "Makhlouf Miki Zohar"
-          ]
-         ]
-        },
-        {
-         "bill": "2156101",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ],
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2234444",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
-         "bill": "2234650",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
-         "bill": "2223703",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           22,
-           "David Bitan"
-          ],
-          [
-           50,
-           "Shalom Danino"
-          ]
-         ]
-        },
-        {
-         "bill": "2156516",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2189595",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2216282",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           33,
-           "Amit Halevi"
-          ]
-         ]
-        },
-        {
-         "bill": "2203339",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           33,
-           "Amit Halevi"
-          ]
-         ]
-        },
-        {
-         "bill": "2235026",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           33,
-           "Amit Halevi"
-          ]
-         ]
-        },
-        {
-         "bill": "2196865",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           38,
-           "Hanoch Dov Milwidsky"
-          ]
-         ]
-        },
-        {
-         "bill": "2157408",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2197126",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2197103",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2197411",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           47,
-           "Ariel Kallner"
-          ]
-         ]
-        },
-        {
-         "bill": "2167826",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           48,
-           "Avi Dichter"
-          ]
-         ]
-        },
-        {
-         "bill": "2169566",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
-         "bill": "2234153",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
-         "bill": "2209533",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           49,
-           "Sasson Sassi Guetta"
-          ]
-         ]
-        },
-        {
-         "bill": "2234472",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           76,
-           "Afif Abed"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "33",
-       "contribution": 0.3465,
-       "p": 0.3465,
-       "lines": [
-        "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
-        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 6 bills sponsored by the list's former MKs — 5 your way, 1 the other way; 283 votes on private bills and 210 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2191944",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           12,
-           "Makhlouf Miki Zohar"
-          ]
-         ]
-        },
-        {
-         "bill": "2242994",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
-         "bill": "2225758",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ],
-          [
-           22,
-           "David Bitan"
-          ],
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ],
-          [
-           38,
-           "Hanoch Dov Milwidsky"
-          ],
-          [
-           47,
-           "Ariel Kallner"
-          ],
-          [
-           49,
-           "Sasson Sassi Guetta"
-          ],
-          [
-           50,
-           "Shalom Danino"
-          ]
-         ]
-        },
-        {
-         "bill": "2223698",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ]
-         ]
-        },
-        {
-         "bill": "2209274",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           47,
-           "Ariel Kallner"
-          ]
-         ]
-        },
-        {
-         "bill": "2190539",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           25,
-           "Gila Gamliel"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "63",
-       "contribution": 0.3162,
-       "p": -0.6324,
-       "lines": [
-        "“The Knesset should be able to re-enact a law struck down by the Supreme Court, even if citizens have fewer ways to challenge laws in court.”",
-        "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 30 bills sponsored by the list's former MKs — 27 your way, 3 the other way; 255 votes on private bills and 84 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2164318",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Eli Cohen"
-          ]
-         ]
-        },
-        {
-         "bill": "2159382",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Amir Ohana"
-          ],
-          [
-           14,
-           "Amichai Chikli"
-          ]
-         ]
-        },
-        {
-         "bill": "2156884",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Amir Ohana"
-          ],
-          [
-           12,
-           "Makhlouf Miki Zohar"
-          ],
-          [
-           19,
-           "David Amsalem"
-          ],
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2161289",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           4,
-           "Yariv Levin"
-          ]
-         ]
-        },
-        {
-         "bill": "2200701",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Ofir Katz"
-          ],
-          [
-           17,
-           "Moshe Saada"
-          ],
-          [
-           20,
-           "Hava Eti Atia"
-          ],
-          [
-           21,
-           "Boaz Bismuth"
-          ],
-          [
-           22,
-           "David Bitan"
-          ],
-          [
-           33,
-           "Amit Halevi"
-          ],
-          [
-           38,
-           "Hanoch Dov Milwidsky"
-          ],
-          [
-           47,
-           "Ariel Kallner"
-          ],
-          [
-           50,
-           "Shalom Danino"
-          ]
-         ]
-        },
-        {
-         "bill": "2201424",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Ofir Katz"
-          ]
-         ]
-        },
-        {
-         "bill": "2241157",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Ofir Katz"
-          ]
-         ]
-        },
-        {
-         "bill": "2190584",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           10,
-           "Yoav Kisch"
-          ]
-         ]
-        },
-        {
-         "bill": "2156366",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           12,
-           "Makhlouf Miki Zohar"
-          ]
-         ]
-        },
-        {
-         "bill": "2156351",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           12,
-           "Makhlouf Miki Zohar"
-          ]
-         ]
-        },
-        {
-         "bill": "2197393",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           12,
-           "Makhlouf Miki Zohar"
-          ]
-         ]
-        },
-        {
-         "bill": "2196169",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           12,
-           "Makhlouf Miki Zohar"
-          ]
-         ]
-        },
-        {
-         "bill": "2156272",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           12,
-           "Makhlouf Miki Zohar"
-          ]
-         ]
-        },
-        {
-         "bill": "2196792",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           17,
-           "Moshe Saada"
-          ]
-         ]
-        },
-        {
-         "bill": "2234650",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
-         "bill": "2159037",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2156570",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2223239",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ]
-         ]
-        },
-        {
-         "bill": "2197908",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           38,
-           "Hanoch Dov Milwidsky"
-          ]
-         ]
-        },
-        {
-         "bill": "2197119",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2157408",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2197114",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2197126",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2197103",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2156620",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2157247",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2197411",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           47,
-           "Ariel Kallner"
-          ]
-         ]
-        },
-        {
-         "bill": "2198951",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           7,
-           "Gideon Sa'ar"
-          ]
-         ]
-        },
-        {
-         "bill": "2190775",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           25,
-           "Gila Gamliel"
-          ],
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2200576",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           47,
-           "Ariel Kallner"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "81",
-       "contribution": 0.162,
-       "p": 0.162,
+       "contribution": 1.3107,
+       "p": 1.3107,
        "lines": [
         "“Teachers, lecturers and public employees who express support for terrorism should be dismissed, even without a criminal conviction.”",
-        "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: 7 bills sponsored by the list's former MKs — 7 your way, 0 the other way; 155 votes on private bills and 9 votes on the other camp's bills on this topic."
+        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 4 bills sponsored by the list's former MKs — 4 your way, 0 the other way; 12 votes on private bills and 10 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
         {
-         "bill": "2203347",
+         "bill": "2201421",
          "sign": 1,
          "role": "main",
          "same": true,
          "authors": [
           [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
            8,
-           "Ofir Katz"
-          ],
-          [
-           33,
-           "Amit Halevi"
-          ],
-          [
-           47,
-           "Ariel Kallner"
+           "Evgeny Sova"
           ]
          ]
         },
         {
-         "bill": "2203954",
+         "bill": "2212936",
          "sign": 1,
          "role": "main",
          "same": true,
          "authors": [
           [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
            8,
-           "Ofir Katz"
-          ],
-          [
-           33,
-           "Amit Halevi"
-          ],
-          [
-           47,
-           "Ariel Kallner"
+           "Evgeny Sova"
           ]
          ]
         },
@@ -179919,212 +178522,19 @@
          "authors": [
           [
            8,
-           "Ofir Katz"
+           "Evgeny Sova"
           ]
          ]
         },
         {
-         "bill": "2202802",
+         "bill": "2202746",
          "sign": 1,
          "role": "main",
          "same": true,
          "authors": [
           [
-           13,
-           "Almog Cohen"
-          ]
-         ]
-        },
-        {
-         "bill": "2200735",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           33,
-           "Amit Halevi"
-          ]
-         ]
-        },
-        {
-         "bill": "2203342",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           33,
-           "Amit Halevi"
-          ]
-         ]
-        },
-        {
-         "bill": "2165640",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "38",
-       "contribution": 0.1607,
-       "p": 0.3214,
-       "lines": [
-        "“Citizens should be allowed to withdraw long-term savings, such as pension and study funds, early, even if they are left with less in old age.”",
-        "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 8 bills sponsored by the list's former MKs — 6 your way, 2 the other way; 1 vote on private bills and 1 vote on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2167864",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Ofir Katz"
-          ]
-         ]
-        },
-        {
-         "bill": "2159460",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Ofir Katz"
-          ]
-         ]
-        },
-        {
-         "bill": "2209180",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
-         "bill": "2209946",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
-         "bill": "2220955",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ]
-         ]
-        },
-        {
-         "bill": "2216756",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           38,
-           "Hanoch Dov Milwidsky"
-          ]
-         ]
-        },
-        {
-         "bill": "2191803",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           46,
-           "Idit Silman"
-          ]
-         ]
-        },
-        {
-         "bill": "2226325",
-         "sign": -1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           65,
-           "Osher Shekalim"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "8",
-       "contribution": -0.01425,
-       "p": -0.0285,
-       "lines": [
-        "“Every citizen, including groups that are exempt today, should do compulsory military or civilian service, even if the army does not need all of them.”",
-        "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 21 votes on private bills and 132 votes on the other camp's bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2164153",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           19,
-           "David Amsalem"
-          ]
-         ]
-        },
-        {
-         "bill": "2202671",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           19,
-           "David Amsalem"
-          ]
-         ]
-        },
-        {
-         "bill": "2221252",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           38,
-           "Hanoch Dov Milwidsky"
+           10,
+           "Dan Illouz"
           ]
          ]
         }
@@ -180132,23 +178542,96 @@
       },
       {
        "q": "20",
-       "contribution": -0.08115,
-       "p": -0.1623,
+       "contribution": 0.52765,
+       "p": 1.0553,
        "lines": [
         "“Getting a divorce should be easier, even if one of the spouses objects.”",
-        "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 4 votes on private bills and 45 votes on the other camp's bills on this topic."
+        "Your answer: agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 11 votes on private bills and 3 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
         {
-         "bill": "2160023",
+         "bill": "2206726",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2196011",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2156158",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2206808",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           10,
+           "Dan Illouz"
+          ]
+         ]
+        },
+        {
+         "bill": "2209872",
          "sign": 1,
          "role": "main",
          "same": true,
          "authors": [
           [
-           3,
-           "Amir Ohana"
+           10,
+           "Dan Illouz"
           ]
          ]
         }
@@ -180156,402 +178639,891 @@
       },
       {
        "q": "7",
-       "contribution": -0.11755,
-       "p": -0.2351,
+       "contribution": 0.489,
+       "p": 0.978,
        "lines": [
         "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
-        "Your answer: agree. The record of the list's former MKs points against this statement.",
-        "Basis: no bills of their own on this topic, only 86 votes on private bills and 65 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
-      },
-      {
-       "q": "49",
-       "contribution": -0.1532,
-       "p": 0.3064,
-       "lines": [
-        "“Suspects and defendants should have fewer legal protections during arrest, questioning and trial, even if the risk of convicting innocent people grows.”",
-        "Your answer: agree. The record of the list's former MKs points against this statement.",
-        "Basis: 28 bills sponsored by the list's former MKs — 3 your way, 25 the other way; 192 votes on private bills and 247 votes on the other camp's bills on this topic."
+        "Your answer: agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 4 bills sponsored by the list's former MKs — 4 your way, 0 the other way; 9 votes on private bills and 42 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
         {
-         "bill": "2163541",
+         "bill": "2205673",
          "sign": 1,
          "role": "main",
-         "same": false,
+         "same": true,
          "authors": [
           [
-           2,
-           "Eli Cohen"
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
           ],
           [
            8,
-           "Ofir Katz"
-          ],
-          [
-           20,
-           "Hava Eti Atia"
-          ],
-          [
-           23,
-           "Shlomo Karhi"
-          ],
-          [
-           25,
-           "Gila Gamliel"
-          ],
-          [
-           40,
-           "May Golan"
+           "Evgeny Sova"
           ]
          ]
         },
         {
-         "bill": "2162892",
+         "bill": "2198947",
          "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2156426",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2160524",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Evgeny Sova"
+          ],
+          [
+           14,
+           "Limor Magen Telem"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "49",
+       "contribution": 0.4739,
+       "p": -0.9478,
+       "lines": [
+        "“Suspects and defendants should have fewer legal protections during arrest, questioning and trial, even if the risk of convicting innocent people grows.”",
+        "Your answer: agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 7 bills sponsored by the list's former MKs — 6 your way, 1 the other way; 41 votes on private bills and 51 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2201009",
+         "sign": -1,
          "role": "secondary",
-         "same": false,
+         "same": true,
          "authors": [
           [
-           2,
-           "Eli Cohen"
-          ]
-         ]
-        },
-        {
-         "bill": "2164262",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Eli Cohen"
+           1,
+           "Avigdor Liberman"
           ],
           [
-           19,
-           "David Amsalem"
-          ]
-         ]
-        },
-        {
-         "bill": "2163400",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
           [
            8,
-           "Ofir Katz"
+           "Evgeny Sova"
           ]
          ]
         },
         {
-         "bill": "2156068",
-         "sign": 1,
-         "role": "main",
-         "same": false,
+         "bill": "2201006",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
          "authors": [
           [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
            8,
-           "Ofir Katz"
+           "Evgeny Sova"
           ]
          ]
         },
         {
-         "bill": "2168383",
-         "sign": 1,
+         "bill": "2215984",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2214419",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2225286",
+         "sign": -1,
          "role": "main",
-         "same": false,
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2220609",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
          "authors": [
           [
            10,
-           "Yoav Kisch"
+           "Dan Illouz"
           ]
          ]
         },
         {
-         "bill": "2156782",
+         "bill": "2195984",
          "sign": 1,
          "role": "main",
          "same": false,
          "authors": [
           [
-           12,
-           "Makhlouf Miki Zohar"
-          ]
-         ]
-        },
-        {
-         "bill": "2167388",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           19,
-           "David Amsalem"
-          ]
-         ]
-        },
-        {
-         "bill": "2166142",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           19,
-           "David Amsalem"
-          ]
-         ]
-        },
-        {
-         "bill": "2169965",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           19,
-           "David Amsalem"
-          ]
-         ]
-        },
-        {
-         "bill": "2159492",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           19,
-           "David Amsalem"
-          ]
-         ]
-        },
-        {
-         "bill": "2159496",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           19,
-           "David Amsalem"
-          ]
-         ]
-        },
-        {
-         "bill": "2164937",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           19,
-           "David Amsalem"
-          ]
-         ]
-        },
-        {
-         "bill": "2229019",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
-         "bill": "2228065",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
+           5,
+           "Yulia Malinovsky"
           ],
           [
-           50,
-           "Shalom Danino"
+           8,
+           "Evgeny Sova"
           ]
          ]
-        },
+        }
+       ]
+      },
+      {
+       "q": "8",
+       "contribution": 0.31175,
+       "p": 0.6235,
+       "lines": [
+        "“Every citizen, including groups that are exempt today, should do compulsory military or civilian service, even if the army does not need all of them.”",
+        "Your answer: agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 7 bills sponsored by the list's former MKs — 7 your way, 0 the other way; 19 votes on private bills and 26 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
         {
-         "bill": "2160147",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ],
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2228568",
+         "bill": "2220387",
          "sign": 1,
          "role": "main",
-         "same": false,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
-         "bill": "2228024",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           22,
-           "David Bitan"
-          ],
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ],
-          [
-           38,
-           "Hanoch Dov Milwidsky"
-          ],
-          [
-           50,
-           "Shalom Danino"
-          ]
-         ]
-        },
-        {
-         "bill": "2189597",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2159033",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2160341",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2235933",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ]
-         ]
-        },
-        {
-         "bill": "2221688",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ]
-         ]
-        },
-        {
-         "bill": "2197913",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           38,
-           "Hanoch Dov Milwidsky"
-          ]
-         ]
-        },
-        {
-         "bill": "2199854",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           47,
-           "Ariel Kallner"
-          ]
-         ]
-        },
-        {
-         "bill": "2207023",
-         "sign": -1,
-         "role": "secondary",
          "same": true,
          "authors": [
           [
-           17,
-           "Moshe Saada"
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           8,
+           "Evgeny Sova"
           ]
          ]
         },
         {
-         "bill": "2211439",
+         "bill": "2216397",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2205673",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2200888",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2243236",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2230308",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2220457",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           10,
+           "Dan Illouz"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "10",
+       "contribution": 0.2959,
+       "p": -0.5918,
+       "lines": [
+        "“Israel should restrict more strictly the entry and residence of foreigners, including citizens' spouses who come from the Palestinian territories, even if this separates some families.”",
+        "Your answer: agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 13 bills sponsored by the list's former MKs — 11 your way, 2 the other way; 30 votes on private bills and 23 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2228138",
          "sign": -1,
          "role": "main",
          "same": true,
          "authors": [
           [
-           38,
-           "Hanoch Dov Milwidsky"
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ],
+          [
+           10,
+           "Dan Illouz"
           ]
          ]
         },
         {
-         "bill": "2235227",
+         "bill": "2214301",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2217793",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2225412",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2198920",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2215370",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2227707",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           10,
+           "Dan Illouz"
+          ]
+         ]
+        },
+        {
+         "bill": "2207163",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           10,
+           "Dan Illouz"
+          ]
+         ]
+        },
+        {
+         "bill": "2227714",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           10,
+           "Dan Illouz"
+          ]
+         ]
+        },
+        {
+         "bill": "2209904",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           10,
+           "Dan Illouz"
+          ]
+         ]
+        },
+        {
+         "bill": "2202793",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           10,
+           "Dan Illouz"
+          ]
+         ]
+        },
+        {
+         "bill": "2226030",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2220976",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "63",
+       "contribution": -0.3932,
+       "p": 0.7864,
+       "lines": [
+        "“The Knesset should be able to re-enact a law struck down by the Supreme Court, even if citizens have fewer ways to challenge laws in court.”",
+        "Your answer: agree. The record of the list's former MKs points against this statement.",
+        "Basis: 3 bills sponsored by the list's former MKs — 1 your way, 2 the other way; 13 votes on private bills and 43 votes on the other camp's bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2209457",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2167058",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ],
+          [
+           14,
+           "Limor Magen Telem"
+          ]
+         ]
+        },
+        {
+         "bill": "2224247",
          "sign": -1,
          "role": "secondary",
          "same": true,
          "authors": [
           [
-           47,
-           "Ariel Kallner"
+           10,
+           "Dan Illouz"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "61",
+       "contribution": -0.4539,
+       "p": 0.4539,
+       "lines": [
+        "“Ministers should be allowed to act against the opinion of the government's Attorney General, even if their decisions undergo less legal review.”",
+        "Your answer: strongly agree. The record of the list's former MKs points against this statement.",
+        "Basis: 5 bills sponsored by the list's former MKs — 3 your way, 2 the other way; 30 votes on private bills and 132 votes on the other camp's bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2195993",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2161528",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ],
+          [
+           14,
+           "Limor Magen Telem"
+          ]
+         ]
+        },
+        {
+         "bill": "2216448",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           10,
+           "Dan Illouz"
+          ]
+         ]
+        },
+        {
+         "bill": "2197909",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           10,
+           "Dan Illouz"
+          ]
+         ]
+        },
+        {
+         "bill": "2208895",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           10,
+           "Dan Illouz"
           ]
          ]
         }
@@ -180562,41 +179534,6 @@
     {
      "id": "בי",
      "items": [
-      {
-       "q": "38",
-       "contribution": 0.5,
-       "p": 1.0,
-       "lines": [
-        "“Citizens should be allowed to withdraw long-term savings, such as pension and study funds, early, even if they are left with less in old age.”",
-        "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 0 votes on private bills and 0 votes on the other camp's bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2159836",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Gadi Yevarkan"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "33",
-       "contribution": 0.1667,
-       "p": 0.1667,
-       "lines": [
-        "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
-        "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 2 votes on private bills and 6 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
-      },
       {
        "q": "10",
        "contribution": 0.15025,
@@ -180671,9 +179608,9 @@
      "64",
      "63",
      "107",
-     "33",
-     "61",
-     "38"
+     "105",
+     "90",
+     "61"
     ]
    }
   },
@@ -180689,10 +179626,10 @@
     "20": -1,
     "19": "dk",
     "92": 2,
-    "45": 1,
+    "2": 1,
     "40": -1,
     "38": 2,
-    "2": 1,
+    "45": 1,
     "103": 2,
     "63": 1
    },
@@ -180721,28 +179658,28 @@
     },
     {
      "id": "כן",
-     "closeness": 0.42753071974674217,
+     "closeness": 0.42597855073042934,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": 0.4106419963268191,
+     "closeness": 0.40773732602115875,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.373858820760417,
+     "closeness": 0.3538940700633344,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.26420589471869904,
+     "closeness": 0.26318901936660194,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -180763,21 +179700,21 @@
     },
     {
      "id": "רק",
-     "closeness": 0.046875661311483796,
+     "closeness": 0.044902341683152144,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.03560458903141173,
+     "closeness": 0.03589693989099169,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.089203423178853,
+     "closeness": -0.08991161213155702,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -183485,10 +182422,10 @@
     ],
     "clarifying": [
      "92",
-     "45",
+     "2",
      "40",
      "38",
-     "2",
+     "45",
      "103",
      "63"
     ]
@@ -183552,49 +182489,49 @@
     },
     {
      "id": "דרך",
-     "closeness": 0.035045499667984606,
+     "closeness": 0.015622146011694787,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.022777758380841538,
+     "closeness": -0.02873339103943794,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.23385830973607935,
+     "closeness": -0.23903240260964076,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.2621393505263813,
+     "closeness": -0.2627776342628337,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.28761599283814615,
+     "closeness": -0.2900131085996867,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.5805020208692053,
+     "closeness": -0.5813860627002585,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.5836662895928847,
+     "closeness": -0.5835806439557291,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -186775,28 +185712,28 @@
    "ranking": [
     {
      "id": "עם",
-     "closeness": 0.7732813067284987,
+     "closeness": 0.7719818068318377,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.6228460307356154,
+     "closeness": 0.6234192205711873,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.009156817104301392,
+     "closeness": -0.010477651137343058,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.09376041006377217,
+     "closeness": -0.09481442980153612,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -186817,7 +185754,7 @@
     },
     {
      "id": "דרך",
-     "closeness": -0.3734693090101229,
+     "closeness": -0.3831252490069433,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -186831,7 +185768,7 @@
     },
     {
      "id": "רק",
-     "closeness": -0.43192182187879274,
+     "closeness": -0.43389987682723674,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -186852,7 +185789,7 @@
     },
     {
      "id": "ל",
-     "closeness": -0.6997672714897105,
+     "closeness": -0.6996684720062274,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -187477,12 +186414,12 @@
       },
       {
        "q": "8",
-       "contribution": 0.20575,
-       "p": -0.4115,
+       "contribution": 0.176,
+       "p": -0.352,
        "lines": [
         "“Every citizen, including groups that are exempt today, should do compulsory military or civilian service, even if the army does not need all of them.”",
         "Your answer: disagree. The record of the list's former MKs points against this statement.",
-        "Basis: no bills of their own on this topic, only 13 votes on private bills and 15 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 13 votes on private bills and 9 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -187921,12 +186858,12 @@
       },
       {
        "q": "8",
-       "contribution": 0.71915,
-       "p": -1.4383,
+       "contribution": 0.69415,
+       "p": -1.3883,
        "lines": [
         "“Every citizen, including groups that are exempt today, should do compulsory military or civilian service, even if the army does not need all of them.”",
         "Your answer: disagree. The record of the list's former MKs points against this statement.",
-        "Basis: 4 bills sponsored by the list's former MKs — 4 your way, 0 the other way; 18 votes on private bills and 19 votes on the other camp's bills on this topic."
+        "Basis: 4 bills sponsored by the list's former MKs — 4 your way, 0 the other way; 18 votes on private bills and 12 votes on the other camp's bills on this topic."
        ],
        "evidence": [
         {
@@ -188454,21 +187391,21 @@
    "ranking": [
     {
      "id": "דרך",
-     "closeness": 0.7379270558428719,
+     "closeness": 0.7476690272917017,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.7027042354219656,
+     "closeness": 0.7029943436768172,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.43821021395794146,
+     "closeness": 0.4415256766629085,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -188482,14 +187419,14 @@
     },
     {
      "id": "ל",
-     "closeness": 0.3801479023095037,
+     "closeness": 0.3798732387490003,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.24636197772967564,
+     "closeness": 0.2474767270740704,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -188524,14 +187461,14 @@
     },
     {
      "id": "עם",
-     "closeness": -0.12445855092707184,
+     "closeness": -0.11666609391764471,
      "coverage": 0.9090909090909091,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.2682071727539914,
+     "closeness": -0.2656623469048718,
      "coverage": 0.9090909090909091,
      "note": "",
      "ranked": true
@@ -188890,38 +187827,13 @@
        ]
       },
       {
-       "q": "49",
-       "contribution": 0.17785,
-       "p": -0.3557,
-       "lines": [
-        "“Suspects and defendants should have fewer legal protections during arrest, questioning and trial, even if the risk of convicting innocent people grows.”",
-        "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 8 votes on private bills and 19 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2211439",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Matan Kahana"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "8",
-       "contribution": 0.11935,
-       "p": 0.2387,
+       "contribution": 0.18185,
+       "p": 0.3637,
        "lines": [
         "“Every citizen, including groups that are exempt today, should do compulsory military or civilian service, even if the army does not need all of them.”",
         "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 9 votes on private bills and 9 votes on the other camp's bills on this topic.",
+        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 9 votes on private bills and 5 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -188946,6 +187858,31 @@
           [
            3,
            "Orit Farkash-Hacohen"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "49",
+       "contribution": 0.17785,
+       "p": -0.3557,
+       "lines": [
+        "“Suspects and defendants should have fewer legal protections during arrest, questioning and trial, even if the risk of convicting innocent people grows.”",
+        "Your answer: agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 8 votes on private bills and 19 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2211439",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           5,
+           "Matan Kahana"
           ]
          ]
         }
@@ -189153,12 +188090,12 @@
       },
       {
        "q": "8",
-       "contribution": 0.35415,
-       "p": 0.7083,
+       "contribution": 0.3604,
+       "p": 0.7208,
        "lines": [
         "“Every citizen, including groups that are exempt today, should do compulsory military or civilian service, even if the army does not need all of them.”",
         "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 8 votes on private bills and 12 votes on the other camp's bills on this topic.",
+        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 8 votes on private bills and 9 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [

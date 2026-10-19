@@ -90,7 +90,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",184,полномочия лишать гражданства и статуса,-0.2213,0.0,0.0287,10,0,3,False,-0.25,43,4
 אמת,"HaDemocratim, headed by Yair Golan",185,охват воинской обязанности,-0.1539,-0.1,0.0301,10,1,13,False,-0.084,29,9
 אמת,"HaDemocratim, headed by Yair Golan",185a,призыв учащихся ешив,0.1205,0.0,0.1205,3,0,4,False,0.0,24,4
-אמת,"HaDemocratim, headed by Yair Golan",185b,объём общей воинской и резервной повинности,-0.0677,0.0,0.0233,10,2,10,False,-0.091,35,9
+אמת,"HaDemocratim, headed by Yair Golan",185b,объём общей воинской и резервной повинности,-0.0584,0.0,0.0233,10,2,10,False,-0.0817,28,7
 אמת,"HaDemocratim, headed by Yair Golan",186,доступность альтернатив военной службе,-0.25,0.0,0.0,3,0,0,False,-0.25,6,1
 אמת,"HaDemocratim, headed by Yair Golan",186a,изучение Торы как альтернатива службе,-0.25,0.0,0.0,3,0,0,False,-0.25,12,1
 אמת,"HaDemocratim, headed by Yair Golan",186b,гражданская служба и отказ по убеждениям,0.5625,0.75,0.0,4,3,0,False,-0.1875,3,2
@@ -1265,7 +1265,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",184,полномочия лишать гражданства и статуса,0.4273,0.25,0.0732,4,2,36,False,0.1042,9,3
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",185,охват воинской обязанности,0.142,0.0,0.142,4,0,11,False,0.0,5,6
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",185a,призыв учащихся ешив,0.1956,0.0,0.0706,4,0,3,False,0.125,18,4
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",185b,объём общей воинской и резервной повинности,0.2387,0.25,0.1137,4,2,9,False,-0.125,9,7
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",185b,объём общей воинской и резервной повинности,0.3637,0.25,0.1137,4,2,9,False,0.0,5,6
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",186,доступность альтернатив военной службе,-0.25,0.0,0.0,2,0,0,True,-0.25,4,1
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",186a,изучение Торы как альтернатива службе,-0.25,0.0,0.0,2,0,0,True,-0.25,8,1
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",186b,гражданская служба и отказ по убеждениям,0.25,0.5,0.0,2,1,0,True,-0.25,4,4
@@ -1560,7 +1560,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,184,полномочия лишать гражданства и статуса,-0.6659,0.0,-0.4159,5,0,70,False,-0.25,10,5
 ודם,The Joint Arab List,185,охват воинской обязанности,-1.3712,-0.8,-0.3712,5,8,18,False,-0.2,8,7
 ודם,The Joint Arab List,185a,призыв учащихся ешив,-0.4099,0.0,-0.3795,5,0,5,False,-0.0305,27,4
-ודם,The Joint Arab List,185b,объём общей воинской и резервной повинности,-1.4383,-0.8,-0.3883,5,9,18,False,-0.25,19,9
+ודם,The Joint Arab List,185b,объём общей воинской и резервной повинности,-1.3883,-0.8,-0.3883,5,9,18,False,-0.2,12,7
 ודם,The Joint Arab List,186a,изучение Торы как альтернатива службе,-0.25,0.0,0.0,4,0,0,False,-0.25,11,1
 ודם,The Joint Arab List,186b,гражданская служба и отказ по убеждениям,0.6,0.8,0.0,5,9,0,False,-0.2,13,4
 ודם,The Joint Arab List,187,привязка прав и льгот к службе,-1.219,-0.6,-0.3767,5,9,90,False,-0.2423,82,48
@@ -2466,7 +2466,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",184,полномочия лишать гражданства и статуса,0.2523,0.25,0.0648,4,1,17,False,-0.0625,11,4
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",185,охват воинской обязанности,0.2417,0.25,0.1042,4,1,8,False,-0.1125,9,8
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",185a,призыв учащихся ешив,0.0614,0.0,0.0522,3,0,1,False,0.0093,25,4
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",185b,объём общей воинской и резервной повинности,0.7083,0.75,0.0833,4,6,8,False,-0.125,12,10
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",185b,объём общей воинской и резервной повинности,0.7208,0.75,0.0833,4,6,8,False,-0.1125,9,9
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",186,доступность альтернатив военной службе,-0.25,0.0,0.0,3,0,0,False,-0.25,6,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",186a,изучение Торы как альтернатива службе,-0.25,0.0,0.0,3,0,0,False,-0.25,12,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",186b,гражданская служба и отказ по убеждениям,0.9167,1.0,0.0,3,3,0,False,-0.0833,1,2
@@ -2774,7 +2774,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",184,полномочия лишать гражданства и статуса,0.861,0.75,0.0589,8,13,48,False,0.0521,32,4
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",185,охват воинской обязанности,0.6377,0.75,0.0627,8,24,20,False,-0.175,26,12
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",185a,призыв учащихся ешив,0.978,0.8571,0.1565,7,14,9,False,-0.0357,42,7
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",185b,объём общей воинской и резервной повинности,0.6277,0.75,0.0485,8,26,19,False,-0.1708,42,11
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",185b,объём общей воинской и резервной повинности,0.6235,0.75,0.0485,8,26,19,False,-0.175,26,9
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",186,доступность альтернатив военной службе,-0.25,0.0,0.0,3,0,0,False,-0.25,6,1
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",186a,изучение Торы как альтернатива службе,-0.2877,0.0,-0.0793,6,0,4,False,-0.2083,20,1
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",186b,гражданская служба и отказ по убеждениям,-0.25,0.0,0.0,3,0,0,False,-0.25,3,1
@@ -3687,7 +3687,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",184,полномочия лишать гражданства и статуса,-0.337,0.1667,-0.2537,6,2,36,False,-0.25,28,4
 עם,"Ra’am, the United Arab List",185,охват воинской обязанности,-0.3331,0.0,-0.2497,6,0,14,False,-0.0833,10,9
 עם,"Ra’am, the United Arab List",185a,призыв учащихся ешив,-0.2086,0.0,-0.2036,5,0,4,False,-0.005,23,4
-עם,"Ra’am, the United Arab List",185b,объём общей воинской и резервной повинности,-0.4115,0.0,-0.2687,6,0,13,False,-0.1429,15,9
+עם,"Ra’am, the United Arab List",185b,объём общей воинской и резервной повинности,-0.352,0.0,-0.2687,6,0,13,False,-0.0833,9,7
 עם,"Ra’am, the United Arab List",186,доступность альтернатив военной службе,-0.25,0.0,0.0,1,0,0,True,-0.25,2,1
 עם,"Ra’am, the United Arab List",186a,изучение Торы как альтернатива службе,-0.25,0.0,0.0,4,0,0,False,-0.25,13,1
 עם,"Ra’am, the United Arab List",186b,гражданская служба и отказ по убеждениям,-0.25,0.0,0.0,4,0,0,False,-0.25,7,2
@@ -4000,7 +4000,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",184,полномочия лишать гражданства и статуса,0.3767,0.3846,0.0882,13,11,101,False,-0.0962,47,4
 רק,"Be’Yahad, headed by Naftali Bennett",185,охват воинской обязанности,0.067,0.0714,0.1003,14,2,61,False,-0.1048,38,8
 רק,"Be’Yahad, headed by Naftali Bennett",185a,призыв учащихся ешив,0.9021,0.8,0.1045,15,30,25,False,-0.0024,119,7
-רק,"Be’Yahad, headed by Naftali Bennett",185b,объём общей воинской и резервной повинности,0.0223,0.0667,0.0776,15,1,47,False,-0.122,77,10
+רק,"Be’Yahad, headed by Naftali Bennett",185b,объём общей воинской и резервной повинности,0.0465,0.0667,0.0776,15,1,47,False,-0.0978,38,7
 רק,"Be’Yahad, headed by Naftali Bennett",186,доступность альтернатив военной службе,-0.25,0.0,0.0,14,0,0,False,-0.25,28,1
 רק,"Be’Yahad, headed by Naftali Bennett",186a,изучение Торы как альтернатива службе,-0.25,0.0,0.0,15,0,0,False,-0.25,59,1
 רק,"Be’Yahad, headed by Naftali Bennett",186b,гражданская служба и отказ по убеждениям,-0.1528,0.0833,0.0,12,1,0,False,-0.2361,32,4

@@ -14,7 +14,7 @@ _Порядок проверки — [LABEL_CHECK.md](LABEL_CHECK.md). По од
 | q20 | Divorce | да | 35 (18) | ✓ проверено | 2026-10-18: полная проверка ядра |
 | q9 | Benefits for those who served |  | 292 (184) | ✓ проверено | 2026-10-18: полная проверка ядра, снята 31 метка (мемориальные законы, пожарные) |
 | q81 | Dismissing employees who support terror |  | 13 (6) | ✓ проверено | 2026-10-18: полная проверка ядра → стандартный аудит → тема 195 разделена, q81 на 195a |
-| q8 | Compulsory service for everyone | да | 31 (19) | в очереди |  |
+| q8 | Compulsory service for everyone | да | 31 (19) | ✓ проверено (метки) | 2026-10-19: про вопрос 11 из 19; сняты 4 закона военного времени о резервистах (2 проверки или 2 из 3); знаки совпали; стандартный аудит текста — не проводился |
 | q19 | Funding schools without the core curriculum | да | 14 (6) | в очереди |  |
 | q2 | Sovereignty in Judea and Samaria |  | 111 (52) | в очереди |  |
 | q3 | Trade with hostile countries |  | 49 (35) | в очереди |  |
