@@ -12,7 +12,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",103b,иммунитет солдат и силовиков за действия на службе,-0.25,0.0,0.0,3,0,0,False,-0.25,3,1
 אמת,"HaDemocratim, headed by Yair Golan",106,полномочия и автономия местного самоуправления,0.0834,0.2,0.0022,11,23,17,False,-0.1188,25,21
 אמת,"HaDemocratim, headed by Yair Golan",107,контроль и полномочия центра над местной властью,0.0901,0.303,0.0144,11,10,9,False,-0.2273,26,11
-אמת,"HaDemocratim, headed by Yair Golan",108,финансовые ресурсы местных властей,-0.1242,-0.25,-0.0076,10,15,17,False,0.1333,15,16
+אמת,"HaDemocratim, headed by Yair Golan",108,финансовые ресурсы местных властей,-0.5471,-0.4571,-0.015,10,12,12,False,-0.075,6,10
 אמת,"HaDemocratim, headed by Yair Golan",109,перераспределение средств между местными властями,-0.25,0.0,0.0,9,0,0,False,-0.25,19,2
 אמת,"HaDemocratim, headed by Yair Golan",11,доступность и государственное финансирование медицинской помощи,0.802,0.9091,0.0089,11,54,49,False,-0.1159,144,69
 אמת,"HaDemocratim, headed by Yair Golan",110,ограничения на занятие выборных и высших должностей,0.619,0.7818,0.006,11,38,30,False,-0.1687,98,38
@@ -339,7 +339,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",103c,защита израильтян от международных судов,-0.15,0.0,0.0,5,0,0,False,-0.15,9,2
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",106,полномочия и автономия местного самоуправления,-0.3333,-0.1667,0.0,6,5,19,False,-0.1667,23,13
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",107,контроль и полномочия центра над местной властью,0.0983,0.1667,0.0844,6,1,8,False,-0.1528,12,5
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",108,финансовые ресурсы местных властей,-0.1579,-0.2222,0.0734,6,9,20,False,-0.0091,25,19
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",108,финансовые ресурсы местных властей,-0.3019,-0.4,-0.0043,5,7,4,False,0.1024,20,13
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",109,перераспределение средств между местными властями,0.2109,0.2,0.0109,5,1,13,False,0.0,0,3
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",11,доступность и государственное финансирование медицинской помощи,0.3524,0.5,0.0411,6,19,23,False,-0.1887,99,46
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",110,ограничения на занятие выборных и высших должностей,0.3644,0.5833,-0.0054,6,12,112,False,-0.2135,79,32
@@ -657,7 +657,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 בי,Tzomet Beit Yisrael,101,права родителей,-0.0536,0.0,-0.0536,1,0,1,True,0.0,0,1
 בי,Tzomet Beit Yisrael,106,полномочия и автономия местного самоуправления,1.05,1.0,0.05,1,2,1,True,0.0,4,3
 בי,Tzomet Beit Yisrael,107,контроль и полномочия центра над местной властью,-0.2028,0.0,0.0472,1,0,2,True,-0.25,2,2
-בי,Tzomet Beit Yisrael,108,финансовые ресурсы местных властей,0.1259,0.0,0.0009,1,0,1,True,0.125,8,3
+בי,Tzomet Beit Yisrael,108,финансовые ресурсы местных властей,0.125,0.0,0.0,1,0,0,True,0.125,8,2
 בי,Tzomet Beit Yisrael,109,перераспределение средств между местными властями,0.0545,0.0,0.0545,1,0,1,True,0.0,0,1
 בי,Tzomet Beit Yisrael,11,доступность и государственное финансирование медицинской помощи,0.7925,1.0,-0.0075,1,2,9,True,-0.2,20,12
 בי,Tzomet Beit Yisrael,110,ограничения на занятие выборных и высших должностей,-0.2088,0.0,0.0412,1,0,8,True,-0.25,2,8
@@ -886,7 +886,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,103c,защита израильтян от международных судов,-0.2504,0.0,-0.0004,6,0,2,False,-0.25,12,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,106,полномочия и автономия местного самоуправления,-0.2977,-0.1265,-0.1216,9,46,26,False,-0.0497,44,23
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,107,контроль и полномочия центра над местной властью,0.5644,0.7143,-0.0887,7,15,15,False,-0.0612,21,10
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,108,финансовые ресурсы местных властей,-0.4444,-0.5278,-0.0877,9,27,8,False,0.1711,64,19
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,108,финансовые ресурсы местных властей,-0.4205,-0.575,-0.0023,8,19,2,False,0.1568,58,12
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,109,перераспределение средств между местными властями,0.1474,0.125,0.0224,8,1,34,False,0.0,0,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,11,доступность и государственное финансирование медицинской помощи,0.5061,0.6689,0.0198,9,73,66,False,-0.1826,201,64
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,110,ограничения на занятие выборных и высших должностей,0.1348,0.4259,-0.0499,9,16,173,False,-0.2412,68,29
@@ -1220,7 +1220,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",103c,защита израильтян от международных судов,0.0508,0.0,-0.0117,4,0,4,False,0.0625,1,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",106,полномочия и автономия местного самоуправления,0.4086,0.25,0.0485,4,2,14,False,0.1101,16,11
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",107,контроль и полномочия центра над местной властью,0.0563,0.0,0.1188,4,0,4,False,-0.0625,4,4
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",108,финансовые ресурсы местных властей,-0.5309,-0.25,-0.0726,4,1,7,False,-0.2083,10,6
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",108,финансовые ресурсы местных властей,-0.5072,-0.25,-0.0489,4,1,7,False,-0.2083,10,6
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",109,перераспределение средств между местными властями,-0.25,0.0,0.0,2,0,0,True,-0.25,7,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",11,доступность и государственное финансирование медицинской помощи,0.784,0.75,0.0071,4,5,55,False,0.027,39,43
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",110,ограничения на занятие выборных и высших должностей,0.855,0.75,0.0722,4,6,35,False,0.0327,35,20
@@ -1521,7 +1521,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,103c,защита израильтян от международных судов,-0.5612,0.0,-0.3737,4,0,6,False,-0.1875,3,2
 ודם,The Joint Arab List,106,полномочия и автономия местного самоуправления,0.271,0.2,-0.0932,5,3,13,False,0.1642,35,16
 ודם,The Joint Arab List,107,контроль и полномочия центра над местной властью,0.5101,1.0,-0.3233,5,11,15,False,-0.1667,13,11
-ודם,The Joint Arab List,108,финансовые ресурсы местных властей,-0.8919,-0.9333,0.0147,5,22,12,False,0.0267,42,18
+ודם,The Joint Arab List,108,финансовые ресурсы местных властей,-0.9203,-1.0,0.0531,5,21,8,False,0.0267,42,15
 ודם,The Joint Arab List,109,перераспределение средств между местными властями,0.2436,0.8,-0.3564,5,7,4,False,-0.2,21,3
 ודם,The Joint Arab List,11,доступность и государственное финансирование медицинской помощи,0.9698,1.0,0.0415,5,121,109,False,-0.0717,146,78
 ודם,The Joint Arab List,110,ограничения на занятие выборных и высших должностей,0.3302,0.5,-0.094,5,21,119,False,-0.0758,39,29
@@ -1840,7 +1840,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",103c,защита израильтян от международных судов,-0.2515,0.0,-0.0015,5,0,1,False,-0.25,9,2
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",106,полномочия и автономия местного самоуправления,0.1398,0.1667,0.0738,6,4,21,False,-0.1007,36,12
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",107,контроль и полномочия центра над местной властью,0.8715,1.0,0.0424,6,12,12,False,-0.1708,17,8
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",108,финансовые ресурсы местных властей,-0.4191,-0.5556,0.0013,6,10,12,False,0.1351,51,17
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",108,финансовые ресурсы местных властей,-0.4107,-0.5556,-0.0027,6,10,2,False,0.1475,49,13
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",109,перераспределение средств между местными властями,0.0162,0.0,0.0162,6,0,24,False,0.0,0,2
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",11,доступность и государственное финансирование медицинской помощи,0.5501,0.7177,0.0171,6,41,53,False,-0.1847,188,55
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",110,ограничения на занятие выборных и высших должностей,0.7396,0.9667,0.0108,6,29,135,False,-0.2378,81,33
@@ -2160,7 +2160,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 י,"Yisrael Techila, headed by Sharren Haskel",103c,защита израильтян от международных судов,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
 י,"Yisrael Techila, headed by Sharren Haskel",106,полномочия и автономия местного самоуправления,0.8395,1.0,-0.0534,1,4,3,True,-0.1071,7,11
 י,"Yisrael Techila, headed by Sharren Haskel",107,контроль и полномочия центра над местной властью,-0.1476,0.0,0.1024,1,0,1,True,-0.25,3,3
-י,"Yisrael Techila, headed by Sharren Haskel",108,финансовые ресурсы местных властей,-0.575,-1.0,0.175,1,1,3,True,0.25,2,4
+י,"Yisrael Techila, headed by Sharren Haskel",108,финансовые ресурсы местных властей,0.4705,0.0,0.2205,1,0,2,True,0.25,2,2
 י,"Yisrael Techila, headed by Sharren Haskel",109,перераспределение средств между местными властями,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
 י,"Yisrael Techila, headed by Sharren Haskel",11,доступность и государственное финансирование медицинской помощи,0.5342,0.7143,-0.0041,1,7,6,True,-0.1759,27,30
 י,"Yisrael Techila, headed by Sharren Haskel",110,ограничения на занятие выборных и высших должностей,1.0851,1.0,0.188,1,6,6,True,-0.1029,17,22
@@ -2451,7 +2451,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",103c,защита израильтян от международных судов,0.1131,0.0,0.1131,2,0,2,True,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",106,полномочия и автономия местного самоуправления,0.294,0.25,0.0357,4,1,24,False,0.0083,14,12
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",107,контроль и полномочия центра над местной властью,0.3918,0.5,0.0793,4,2,7,False,-0.1875,6,6
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",108,финансовые ресурсы местных властей,-0.0619,0.0,-0.0202,4,2,11,False,-0.0417,10,11
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",108,финансовые ресурсы местных властей,-0.1879,0.0,-0.042,4,2,10,False,-0.1458,7,7
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",109,перераспределение средств между местными властями,0.25,0.5,0.0,2,1,0,True,-0.25,2,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",11,доступность и государственное финансирование медицинской помощи,0.7058,0.75,0.0039,4,5,41,False,-0.0481,53,37
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",110,ограничения на занятие выборных и высших должностей,1.0084,1.0,0.0521,4,21,37,False,-0.0438,32,24
@@ -2765,7 +2765,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",103c,защита израильтян от международных судов,1.1052,1.0,0.1052,6,18,8,False,0.0,2,3
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",106,полномочия и автономия местного самоуправления,1.0382,0.9429,0.0489,7,28,22,False,0.0464,28,19
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",107,контроль и полномочия центра над местной властью,0.2844,0.4583,0.0761,8,24,13,False,-0.25,15,7
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",108,финансовые ресурсы местных властей,-0.0736,-0.123,0.0859,8,38,23,False,-0.0365,18,20
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",108,финансовые ресурсы местных властей,-0.5382,-0.375,-0.0434,8,19,12,False,-0.1198,15,11
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",109,перераспределение средств между местными властями,-0.1667,0.0,0.0,3,0,6,False,-0.1667,2,2
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",11,доступность и государственное финансирование медицинской помощи,0.2558,0.4387,-0.0461,8,58,65,False,-0.1368,103,54
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",110,ограничения на занятие выборных и высших должностей,0.9093,0.875,0.0374,8,52,76,False,-0.0031,65,28
@@ -3093,7 +3093,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",105,государственная охрана выборных лиц,-1.0,-1.0,0.0,1,1,0,True,0.0,0,1
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",106,полномочия и автономия местного самоуправления,0.289,0.3021,0.0307,32,38,91,False,-0.0437,187,24
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",107,контроль и полномочия центра над местной властью,0.3423,0.4839,0.0597,31,31,53,False,-0.2013,86,18
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",108,финансовые ресурсы местных властей,-0.1991,-0.3202,0.0065,33,75,78,False,0.1146,223,36
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",108,финансовые ресурсы местных властей,-0.2639,-0.4066,0.0025,33,62,24,False,0.1402,204,25
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",109,перераспределение средств между местными властями,0.157,0.1429,0.023,28,4,94,False,-0.0089,1,5
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",11,доступность и государственное финансирование медицинской помощи,0.2205,0.4057,0.0023,33,121,253,False,-0.1875,784,96
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",110,ограничения на занятие выборных и высших должностей,0.4041,0.5716,0.043,33,93,579,False,-0.2105,326,51
@@ -3705,7 +3705,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",103c,защита израильтян от международных судов,-0.3237,0.0,-0.2737,5,0,7,False,-0.05,1,2
 עם,"Ra’am, the United Arab List",106,полномочия и автономия местного самоуправления,0.9208,0.8333,0.0305,6,10,14,False,0.0569,24,16
 עם,"Ra’am, the United Arab List",107,контроль и полномочия центра над местной властью,0.4735,0.8333,-0.1515,6,24,8,False,-0.2083,14,7
-עם,"Ra’am, the United Arab List",108,финансовые ресурсы местных властей,-0.8047,-0.8333,0.0648,6,8,15,False,-0.0361,16,11
+עם,"Ra’am, the United Arab List",108,финансовые ресурсы местных властей,-0.9673,-0.8333,0.0744,6,8,13,False,-0.2083,10,8
 עם,"Ra’am, the United Arab List",109,перераспределение средств между местными властями,-0.25,0.0,0.0,6,0,0,False,-0.25,27,2
 עם,"Ra’am, the United Arab List",11,доступность и государственное финансирование медицинской помощи,0.9867,1.0,0.0297,6,93,96,False,-0.043,108,61
 עם,"Ra’am, the United Arab List",110,ограничения на занятие выборных и высших должностей,0.8323,1.0,0.0045,6,10,84,False,-0.1722,66,24
@@ -4024,7 +4024,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",103c,защита израильтян от международных судов,0.1263,0.0,0.1263,10,0,10,False,0.0,0,1
 רק,"Be’Yahad, headed by Naftali Bennett",106,полномочия и автономия местного самоуправления,0.9246,0.7857,0.0363,14,36,69,False,0.1027,82,21
 רק,"Be’Yahad, headed by Naftali Bennett",107,контроль и полномочия центра над местной властью,-0.5664,-0.4738,0.1015,14,27,17,False,-0.194,39,13
-רק,"Be’Yahad, headed by Naftali Bennett",108,финансовые ресурсы местных властей,-0.4149,-0.3714,0.0032,14,26,52,False,-0.0466,58,21
+רק,"Be’Yahad, headed by Naftali Bennett",108,финансовые ресурсы местных властей,-0.6454,-0.4286,-0.0026,14,22,49,False,-0.2143,35,15
 רק,"Be’Yahad, headed by Naftali Bennett",109,перераспределение средств между местными властями,-0.25,0.0,0.0,13,0,0,False,-0.25,55,2
 רק,"Be’Yahad, headed by Naftali Bennett",11,доступность и государственное финансирование медицинской помощи,0.7613,0.8125,0.0296,16,71,251,False,-0.0807,240,75
 רק,"Be’Yahad, headed by Naftali Bennett",110,ограничения на занятие выборных и высших должностей,0.7564,0.7333,0.0333,15,66,179,False,-0.0103,166,38
@@ -4359,7 +4359,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",103c,защита израильтян от международных судов,-0.2345,0.0,0.0155,9,0,6,False,-0.25,14,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",106,полномочия и автономия местного самоуправления,0.381,0.4167,-0.1026,12,11,55,False,0.0669,81,17
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",107,контроль и полномочия центра над местной властью,0.3636,0.5,-0.1156,12,13,22,False,-0.0208,42,14
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",108,финансовые ресурсы местных властей,-0.9094,-0.9282,-0.136,12,52,26,False,0.1548,127,28
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",108,финансовые ресурсы местных властей,-0.8306,-0.9417,-0.0155,12,47,13,False,0.1265,98,20
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",109,перераспределение средств между местными властями,0.3552,0.3333,0.0219,12,7,49,False,0.0,0,3
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",11,доступность и государственное финансирование медицинской помощи,0.5023,0.7183,-0.0917,12,72,172,False,-0.1242,356,79
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",110,ограничения на занятие выборных и высших должностей,0.3415,0.6667,-0.1054,12,23,281,False,-0.2198,109,34
