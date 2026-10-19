@@ -1,0 +1,4 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason,kind,cid
+82,254,הצעת חוק המועצה להשכלה גבוהה (תיקון - ביטול חובת דרישות מבחני כניסה וציון פסיכומטרי),2169378 2165979 2201285 2191186,+,main,2169378,F1-5,about,+,Abolishes psychometric and entrance exam requirements; easier admission,control,C1
+82,254,הצעת חוק לתיקון פקודת בתי הסוהר (תנאי אסיר ביטחוני בבתי הסוהר),2168627 2162072 2197023 2197577 2203194,−,secondary,2168627,F1-1,not_about,,Security prisoner conditions; unrelated to higher education,candidate,C2
+82,254,הצעת חוק זכויות הסטודנט (תיקון - התאמות למועמד ללימודים שעברית אינה שפת אמו),2209956,+,main,2209956,F1-12,about,+,Admission accommodations for non-native Hebrew speakers,control,C3
