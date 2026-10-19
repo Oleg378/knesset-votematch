@@ -4774,6 +4774,86 @@
     "role": "main",
     "source": "label check q41 (2026-10-19): 2 of 3 blind checks «not about»",
     "reason": "Athlete transfer rules between clubs, not parental consent"
+   },
+   {
+    "bill_id": "2220995",
+    "d": "204",
+    "q": "40",
+    "role": "secondary",
+    "source": "label check q40 (2026-10-19): two blind checks «not about»",
+    "reason": "Rape definition covering men; sexual offense law, not LGBT rights"
+   },
+   {
+    "bill_id": "2227746",
+    "d": "204",
+    "q": "40",
+    "role": "secondary",
+    "source": "label check q40 (2026-10-19): two blind checks «not about»",
+    "reason": "Unifies rape offenses for male victims; criminal law reform"
+   },
+   {
+    "bill_id": "2190466",
+    "d": "204",
+    "q": "40",
+    "role": "secondary",
+    "source": "label check q40 (2026-10-19): two blind checks «not about»",
+    "reason": "Unifies rape offenses for male victims; criminal law reform"
+   },
+   {
+    "bill_id": "2157844",
+    "d": "204",
+    "q": "40",
+    "role": "secondary",
+    "source": "label check q40 (2026-10-19): two blind checks «not about»",
+    "reason": "Bans seat-change requests based on sex; gender, not LGBT"
+   },
+   {
+    "bill_id": "2200093",
+    "d": "204",
+    "q": "40",
+    "role": "secondary",
+    "source": "label check q40 (2026-10-19): two blind checks «not about»",
+    "reason": "Bans seat-change requests based on sex; gender, not LGBT"
+   },
+   {
+    "bill_id": "2201444",
+    "d": "204",
+    "q": "40",
+    "role": "secondary",
+    "source": "label check q40 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Civil union for man and woman; religion-state, not LGBT"
+   },
+   {
+    "bill_id": "2158367",
+    "d": "204",
+    "q": "40",
+    "role": "secondary",
+    "source": "label check q40 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Civil union registration for non-religious immigrants; not LGBT"
+   },
+   {
+    "bill_id": "2242444",
+    "d": "204",
+    "q": "40",
+    "role": "secondary",
+    "source": "label check q40 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Leave for reservists' partners; not LGBT rights"
+   },
+   {
+    "bill_id": "2156342",
+    "d": "204",
+    "q": "40",
+    "role": "main",
+    "source": "label check q40 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Gender-neutral household term; not LGBT rights"
+   },
+   {
+    "bill_id": "2222700",
+    "d": "178",
+    "q": "45",
+    "role": "main",
+    "source": "label check q45 (2026-10-19): two blind checks «not about»",
+    "reason": "Transferring captured weapons to Ukraine; foreign policy"
    }
   ]
  },
