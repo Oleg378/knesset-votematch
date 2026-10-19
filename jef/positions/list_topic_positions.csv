@@ -145,7 +145,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",246,развитие инфраструктуры,0.2882,0.5185,0.0162,9,12,5,False,-0.2465,52,14
 אמת,"HaDemocratim, headed by Yair Golan",247,регулирование безопасности и защита населения,0.8825,0.8727,0.0036,11,136,267,False,0.0062,158,122
 אמת,"HaDemocratim, headed by Yair Golan",248,государственное регулирование ради охраны здоровья,0.9339,0.8182,0.0116,11,53,62,False,0.1042,82,42
-אמת,"HaDemocratim, headed by Yair Golan",25,конкуренция на рынке и в госзакупках,-0.282,-0.0444,-0.0167,10,19,24,False,-0.2208,81,20
+אמת,"HaDemocratim, headed by Yair Golan",25,конкуренция на рынке и в госзакупках,-0.1176,0.0,-0.0276,8,8,13,False,-0.0901,51,10
 אמת,"HaDemocratim, headed by Yair Golan",250,государственный контроль над оборотом оружия,1.0162,1.0,0.0162,3,6,2,False,0.0,0,3
 אמת,"HaDemocratim, headed by Yair Golan",250b,наказания за нелегальное оружие,0.25,0.0,0.0,1,0,0,True,0.25,1,1
 אמת,"HaDemocratim, headed by Yair Golan",251,регулирование профессий и барьеры входа,0.6543,0.6313,0.0101,11,56,64,False,0.0129,205,64
@@ -158,6 +158,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",255b,"финансирование школ, учащих против государства",-1.0,-1.0,0.0,1,1,0,True,0.0,0,1
 אמת,"HaDemocratim, headed by Yair Golan",255c,"финансирование школ, дискриминирующих при приёме",-0.3998,-0.4,0.0002,5,2,10,False,0.0,0,2
 אמת,"HaDemocratim, headed by Yair Golan",256,государственный контроль над образованием (автономия вузов — с обратным знаком),0.6948,0.9,0.0112,10,34,39,False,-0.2164,61,42
+אמת,"HaDemocratim, headed by Yair Golan",25a,открытие рынков для конкуренции,0.1767,0.4,0.0017,10,5,11,False,-0.225,29,5
+אמת,"HaDemocratim, headed by Yair Golan",25b,предпочтение местных поставщиков в госзакупках,-1.0,-1.0,0.0,3,5,0,False,0.0,0,3
 אמת,"HaDemocratim, headed by Yair Golan",260,"автономия организаций, получающих господдержку",-0.3499,-0.3667,0.0048,10,11,23,False,0.012,35,22
 אמת,"HaDemocratim, headed by Yair Golan",262,строгость школьной дисциплины,-0.3149,0.0,-0.0649,3,0,1,False,-0.25,17,2
 אמת,"HaDemocratim, headed by Yair Golan",264,права студентов,0.5347,0.7,0.0041,10,29,27,False,-0.1694,37,31
@@ -467,7 +469,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",246,развитие инфраструктуры,0.2388,0.2,0.0024,5,1,15,False,0.0364,12,7
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",247,регулирование безопасности и защита населения,0.6868,0.6667,0.034,6,48,112,False,-0.0138,134,82
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",248,государственное регулирование ради охраны здоровья,0.301,0.5,-0.0254,6,10,34,False,-0.1736,22,21
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",25,конкуренция на рынке и в госзакупках,-0.2311,-0.1852,0.0222,6,17,38,False,-0.0681,29,29
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",25,конкуренция на рынке и в госзакупках,-0.2862,-0.36,0.1238,5,8,5,False,-0.05,12,9
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",250,государственный контроль над оборотом оружия,-0.206,-0.1667,0.0023,6,1,9,False,-0.0417,1,1
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",250a,лицензии на оружие для граждан,0.2857,0.0,0.1607,6,6,24,False,0.125,12,5
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",250b,наказания за нелегальное оружие,0.25,0.25,0.0,4,1,8,False,0.0,0,4
@@ -481,6 +483,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",255b,"финансирование школ, учащих против государства",-0.6667,-0.6667,0.0,3,2,1,False,0.0,0,1
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",255c,"финансирование школ, дискриминирующих при приёме",0.25,0.0,0.0,4,0,0,False,0.25,4,1
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",256,государственный контроль над образованием (автономия вузов — с обратным знаком),0.1631,0.3333,0.0346,6,16,54,False,-0.2049,50,30
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",25a,открытие рынков для конкуренции,0.3664,0.5,0.0122,6,3,32,False,-0.1458,12,13
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",25b,предпочтение местных поставщиков в госзакупках,-0.8125,-0.75,0.0,4,5,0,False,-0.0625,3,4
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",260,"автономия организаций, получающих господдержку",0.352,0.1667,0.0604,6,7,21,False,0.125,36,18
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",262,строгость школьной дисциплины,0.4577,0.5,-0.0007,6,4,38,False,-0.0417,3,5
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",264,права студентов,0.1231,0.2778,-0.021,6,11,26,False,-0.1337,40,25
@@ -722,13 +726,14 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 בי,Tzomet Beit Yisrael,246,развитие инфраструктуры,0.057,0.0,0.0377,1,0,1,True,0.0192,13,3
 בי,Tzomet Beit Yisrael,247,регулирование безопасности и защита населения,0.9489,1.0,0.0322,1,3,12,True,-0.0833,9,16
 בי,Tzomet Beit Yisrael,248,государственное регулирование ради охраны здоровья,0.1069,0.0,0.0236,1,0,6,True,0.0833,3,5
-בי,Tzomet Beit Yisrael,25,конкуренция на рынке и в госзакупках,-0.2143,0.0,0.0,1,0,1,True,-0.2143,14,5
+בי,Tzomet Beit Yisrael,25,конкуренция на рынке и в госзакупках,-0.2045,0.0,0.0,1,0,0,True,-0.2045,11,2
 בי,Tzomet Beit Yisrael,251,регулирование профессий и барьеры входа,-0.0321,0.0,-0.0321,1,0,12,True,0.0,4,8
 בי,Tzomet Beit Yisrael,253,объём государственного образования,0.25,0.0,0.0,1,0,0,True,0.25,2,1
 בי,Tzomet Beit Yisrael,254,доступ к высшему образованию,-0.0259,0.0,-0.0259,1,0,2,True,0.0,0,2
 בי,Tzomet Beit Yisrael,255,финансирование негосударственного образования,-0.06,0.0,-0.06,1,0,1,True,0.0,0,1
 בי,Tzomet Beit Yisrael,255c,"финансирование школ, дискриминирующих при приёме",0.25,0.0,0.0,1,0,0,True,0.25,2,2
 בי,Tzomet Beit Yisrael,256,государственный контроль над образованием (автономия вузов — с обратным знаком),0.7716,1.0,0.0216,1,1,2,True,-0.25,2,5
+בי,Tzomet Beit Yisrael,25a,открытие рынков для конкуренции,-0.25,0.0,0.0,1,0,1,True,-0.25,3,3
 בי,Tzomet Beit Yisrael,260,"автономия организаций, получающих господдержку",0.2018,0.0,-0.0482,1,0,2,True,0.25,2,4
 בי,Tzomet Beit Yisrael,264,права студентов,-0.25,0.0,0.0,1,0,3,True,-0.25,1,3
 בי,Tzomet Beit Yisrael,267,роль суда в опекунских и медицинских решениях,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
@@ -994,7 +999,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,246,развитие инфраструктуры,0.2465,0.25,0.0161,8,2,19,False,-0.0196,60,10
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,247,регулирование безопасности и защита населения,0.6868,0.7778,-0.0763,9,142,166,False,-0.0147,163,120
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,248,государственное регулирование ради охраны здоровья,-0.1354,0.0987,-0.1605,9,58,98,False,-0.0736,36,29
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,25,конкуренция на рынке и в госзакупках,0.1858,0.3406,-0.0188,9,42,42,False,-0.136,84,36
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,25,конкуренция на рынке и в госзакупках,0.119,0.3333,0.0,7,8,0,False,-0.2143,57,8
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,250,государственный контроль над оборотом оружия,-0.1204,0.0,0.0046,4,0,3,False,-0.125,2,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,250a,лицензии на оружие для граждан,0.1694,0.0,-0.0181,4,0,8,False,0.1875,6,4
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,250b,наказания за нелегальное оружие,0.0,0.0,0.0,4,0,11,False,0.0,0,3
@@ -1008,6 +1013,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,255b,"финансирование школ, учащих против государства",0.0,0.0,0.0,2,0,2,True,0.0,0,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,255c,"финансирование школ, дискриминирующих при приёме",0.25,0.0,0.0,8,0,0,False,0.25,13,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,256,государственный контроль над образованием (автономия вузов — с обратным знаком),0.3143,0.5556,-0.1498,9,9,80,False,-0.0915,49,26
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,25a,открытие рынков для конкуренции,0.429,0.5556,-0.0293,9,20,39,False,-0.0972,20,18
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,25b,предпочтение местных поставщиков в госзакупках,-0.4167,-0.5,0.0,6,4,0,False,0.0833,4,4
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,260,"автономия организаций, получающих господдержку",0.6333,0.4444,0.0222,9,6,45,False,0.1667,32,15
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,262,строгость школьной дисциплины,0.0847,0.0,0.0014,6,0,37,False,0.0833,2,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,264,права студентов,0.6455,0.7778,0.0138,9,25,36,False,-0.1461,63,30
@@ -1306,7 +1313,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",246,развитие инфраструктуры,0.1099,0.25,0.0655,4,1,8,False,-0.2056,52,9
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",247,регулирование безопасности и защита населения,0.8243,0.75,0.0493,4,5,59,False,0.0249,41,51
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",248,государственное регулирование ради охраны здоровья,0.4692,0.25,0.0706,4,1,12,False,0.1486,39,16
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",25,конкуренция на рынке и в госзакупках,0.074,0.25,0.0262,4,4,12,False,-0.2022,62,20
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",25,конкуренция на рынке и в госзакупках,-0.4652,-0.25,0.0279,4,1,3,False,-0.2431,48,5
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",250b,наказания за нелегальное оружие,0.25,0.0,0.0,1,0,0,True,0.25,1,1
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",251,регулирование профессий и барьеры входа,0.0194,0.125,0.0139,4,4,21,False,-0.1195,90,34
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",253,объём государственного образования,0.25,0.25,0.0,4,2,7,False,0.0,0,3
@@ -1317,6 +1324,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",255a,финансирование школ без базовых предметов,0.0,0.0,0.0,4,0,8,False,0.0,0,3
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",255c,"финансирование школ, дискриминирующих при приёме",-0.0163,0.0,-0.0163,4,0,4,False,0.0,0,1
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",256,государственный контроль над образованием (автономия вузов — с обратным знаком),0.0524,0.0,0.0555,4,0,36,False,-0.0031,39,21
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",25a,открытие рынков для конкуренции,0.8085,0.6667,0.0252,3,3,8,False,0.1167,14,14
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",25b,предпочтение местных поставщиков в госзакупках,0.0,0.0,0.0,1,0,1,True,0.0,0,1
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",260,"автономия организаций, получающих господдержку",-0.4001,-0.25,-0.0546,4,3,21,False,-0.0955,18,13
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",262,строгость школьной дисциплины,-0.1879,0.0,0.0621,4,0,1,False,-0.25,17,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",264,права студентов,0.9302,0.75,0.015,4,4,34,False,0.1652,14,19
@@ -1607,7 +1616,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,246,развитие инфраструктуры,-0.0428,0.4,-0.2163,5,2,6,False,-0.2266,96,12
 ודם,The Joint Arab List,247,регулирование безопасности и защита населения,0.9524,0.9693,-0.0715,5,132,216,False,0.0546,196,145
 ודם,The Joint Arab List,248,государственное регулирование ради охраны здоровья,0.9902,0.8,0.015,5,37,59,False,0.1752,85,36
-ודם,The Joint Arab List,25,конкуренция на рынке и в госзакупках,0.4439,0.6,-0.028,5,12,22,False,-0.1281,168,32
+ודם,The Joint Arab List,25,конкуренция на рынке и в госзакупках,0.1037,0.2,0.1338,5,2,2,False,-0.2301,115,6
 ודם,The Joint Arab List,250,государственный контроль над оборотом оружия,0.191,0.0,0.0244,3,0,3,False,0.1667,2,1
 ודם,The Joint Arab List,250a,лицензии на оружие для граждан,0.2036,0.0,0.0161,4,0,5,False,0.1875,5,3
 ודם,The Joint Arab List,250b,наказания за нелегальное оружие,0.25,0.0,0.0,2,0,0,True,0.25,3,2
@@ -1621,6 +1630,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,255b,"финансирование школ, учащих против государства",0.25,0.0,0.0,4,0,0,False,0.25,4,1
 ודם,The Joint Arab List,255c,"финансирование школ, дискриминирующих при приёме",0.75,0.75,0.0,4,3,0,False,0.0,2,3
 ודם,The Joint Arab List,256,государственный контроль над образованием (автономия вузов — с обратным знаком),0.7607,1.0,-0.1302,5,58,42,False,-0.1091,74,46
+ודם,The Joint Arab List,25a,открытие рынков для конкуренции,0.2213,0.2,-0.0577,5,4,13,False,0.079,46,20
 ודם,The Joint Arab List,260,"автономия организаций, получающих господдержку",0.5893,0.4667,0.063,5,8,15,False,0.0596,29,16
 ודם,The Joint Arab List,262,строгость школьной дисциплины,-0.4447,0.0,-0.1947,5,0,9,False,-0.25,39,3
 ודם,The Joint Arab List,264,права студентов,1.1512,1.0,-0.011,5,90,66,False,0.1621,32,45
@@ -1918,7 +1928,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",246,развитие инфраструктуры,-0.1249,0.0,0.012,6,0,11,False,-0.1369,36,7
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",247,регулирование безопасности и защита населения,0.9767,1.0,0.0196,6,51,109,False,-0.0429,155,88
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",248,государственное регулирование ради охраны здоровья,0.6932,0.8333,-0.0082,6,15,37,False,-0.1319,34,20
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",25,конкуренция на рынке и в госзакупках,-0.3057,-0.0741,-0.0033,6,28,43,False,-0.2283,79,36
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",25,конкуренция на рынке и в госзакупках,-0.6614,-0.4444,-0.0631,6,13,3,False,-0.1538,47,11
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",250,государственный контроль над оборотом оружия,0.0214,0.0,0.0214,2,0,2,True,0.0,0,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",250a,лицензии на оружие для граждан,-0.0698,0.0,-0.0073,4,0,8,False,-0.0625,1,2
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",250b,наказания за нелегальное оружие,0.5,0.5,0.0,4,2,7,False,0.0,0,3
@@ -1932,6 +1942,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",255b,"финансирование школ, учащих против государства",-0.4,-0.4,0.0,5,2,5,False,0.0,0,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",255c,"финансирование школ, дискриминирующих при приёме",0.25,0.0,0.0,5,0,0,False,0.25,7,2
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",256,государственный контроль над образованием (автономия вузов — с обратным знаком),0.2762,0.4167,0.0312,6,8,54,False,-0.1717,54,27
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",25a,открытие рынков для конкуренции,0.4734,0.6667,0.0095,6,11,37,False,-0.2028,24,20
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",25b,предпочтение местных поставщиков в госзакупках,-0.8333,-0.6667,0.0,3,3,0,False,-0.1667,8,3
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",260,"автономия организаций, получающих господдержку",0.0205,-0.1667,0.0367,6,5,29,False,0.1505,43,14
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",262,строгость школьной дисциплины,-0.0629,0.0,-0.0129,5,0,31,False,-0.05,3,3
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",264,права студентов,0.6698,0.8333,0.0042,6,12,24,False,-0.1677,53,26
@@ -2212,7 +2224,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 י,"Yisrael Techila, headed by Sharren Haskel",246,развитие инфраструктуры,-0.2256,0.0,0.0244,1,0,1,True,-0.25,6,4
 י,"Yisrael Techila, headed by Sharren Haskel",247,регулирование безопасности и защита населения,1.0983,1.0,0.0222,1,6,40,True,0.0761,23,45
 י,"Yisrael Techila, headed by Sharren Haskel",248,государственное регулирование ради охраны здоровья,0.0977,0.0,-0.0094,1,0,8,True,0.1071,14,12
-י,"Yisrael Techila, headed by Sharren Haskel",25,конкуренция на рынке и в госзакупках,0.7037,1.0,-0.0463,1,1,6,True,-0.25,9,10
+י,"Yisrael Techila, headed by Sharren Haskel",25,конкуренция на рынке и в госзакупках,0.703,1.0,-0.047,1,1,3,True,-0.25,8,6
 י,"Yisrael Techila, headed by Sharren Haskel",250,государственный контроль над оборотом оружия,-0.1646,0.0,-0.1646,1,0,1,True,0.0,0,1
 י,"Yisrael Techila, headed by Sharren Haskel",250a,лицензии на оружие для граждан,0.0663,0.0,-0.1837,1,0,2,True,0.25,2,4
 י,"Yisrael Techila, headed by Sharren Haskel",251,регулирование профессий и барьеры входа,1.0091,1.0,-0.0465,1,5,19,True,0.0556,18,29
@@ -2225,6 +2237,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 י,"Yisrael Techila, headed by Sharren Haskel",255b,"финансирование школ, учащих против государства",-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
 י,"Yisrael Techila, headed by Sharren Haskel",255c,"финансирование школ, дискриминирующих при приёме",-0.1137,0.0,-0.1137,1,0,1,True,0.0,0,1
 י,"Yisrael Techila, headed by Sharren Haskel",256,государственный контроль над образованием (автономия вузов — с обратным знаком),0.0013,0.0,0.0429,1,0,5,True,-0.0417,12,15
+י,"Yisrael Techila, headed by Sharren Haskel",25a,открытие рынков для конкуренции,-0.2362,0.0,0.0138,1,0,3,True,-0.25,1,4
 י,"Yisrael Techila, headed by Sharren Haskel",260,"автономия организаций, получающих господдержку",-0.2787,0.0,-0.2509,1,0,3,True,-0.0278,9,10
 י,"Yisrael Techila, headed by Sharren Haskel",264,права студентов,0.861,1.0,0.111,1,3,5,True,-0.25,8,14
 י,"Yisrael Techila, headed by Sharren Haskel",265,самостоятельность несовершеннолетних в решениях,0.3456,0.0,0.0956,1,0,1,True,0.25,2,1
@@ -2503,7 +2516,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",246,развитие инфраструктуры,0.0725,0.25,0.0495,4,1,5,False,-0.227,50,9
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",247,регулирование безопасности и защита населения,0.91,0.75,0.0336,4,23,96,False,0.1265,62,76
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",248,государственное регулирование ради охраны здоровья,0.7121,0.5,0.0541,4,4,19,False,0.158,42,17
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",25,конкуренция на рынке и в госзакупках,-0.6604,-0.3889,-0.0689,4,12,15,False,-0.2026,63,24
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",25,конкуренция на рынке и в госзакупках,-0.351,-0.15,-0.0135,4,7,5,False,-0.1875,50,10
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",250,государственный контроль над оборотом оружия,1.0,1.0,0.0,1,2,0,True,0.0,0,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",250a,лицензии на оружие для граждан,1.0687,1.0,0.0687,1,2,3,True,0.0,0,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",250b,наказания за нелегальное оружие,0.25,0.0,0.0,1,0,0,True,0.25,1,1
@@ -2516,6 +2529,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",255a,финансирование школ без базовых предметов,0.0,0.0,0.0,3,0,7,False,0.0,0,3
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",255c,"финансирование школ, дискриминирующих при приёме",-0.0165,0.0,-0.0165,2,0,2,True,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",256,государственный контроль над образованием (автономия вузов — с обратным знаком),0.6859,0.75,0.0418,4,9,37,False,-0.1059,32,24
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",25a,открытие рынков для конкуренции,0.2676,0.25,0.0176,4,1,7,False,0.0,13,9
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",25b,предпочтение местных поставщиков в госзакупках,-0.5,-0.5,0.0,4,4,3,False,0.0,0,5
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",260,"автономия организаций, получающих господдержку",0.271,0.3333,0.0247,4,4,20,False,-0.0871,20,14
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",262,строгость школьной дисциплины,-0.25,0.0,0.0,3,0,0,False,-0.25,15,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",264,права студентов,0.7805,0.75,0.0222,4,7,33,False,0.0083,14,23
@@ -2815,7 +2830,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",246,развитие инфраструктуры,0.571,0.75,0.0085,8,10,4,False,-0.1875,76,12
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",247,регулирование безопасности и защита населения,1.0429,0.9643,0.0338,8,152,140,False,0.0448,112,111
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",248,государственное регулирование ради охраны здоровья,0.7433,0.625,0.0251,8,28,30,False,0.0932,51,32
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",25,конкуренция на рынке и в госзакупках,0.5657,0.7533,-0.0754,7,82,53,False,-0.1121,119,47
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",25,конкуренция на рынке и в госзакупках,0.2144,0.3905,-0.0333,7,28,12,False,-0.1429,82,11
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",250,государственный контроль над оборотом оружия,-0.2286,0.0,0.0214,1,0,1,True,-0.25,1,1
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",250a,лицензии на оружие для граждан,-0.2798,-0.3333,0.0119,3,2,6,False,0.0417,4,6
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",250b,наказания за нелегальное оружие,0.875,0.8333,0.0,6,5,3,False,0.0417,1,4
@@ -2829,6 +2844,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",255b,"финансирование школ, учащих против государства",-0.125,0.0,0.0,2,0,1,True,-0.125,1,1
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",255c,"финансирование школ, дискриминирующих при приёме",0.0016,0.0,0.0016,3,0,3,False,0.0,0,1
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",256,государственный контроль над образованием (автономия вузов — с обратным знаком),0.8279,0.75,0.0404,8,66,49,False,0.0375,41,36
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",25a,открытие рынков для конкуренции,1.177,1.0,0.0199,7,44,32,False,0.1571,33,32
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",25b,предпочтение местных поставщиков в госзакупках,0.5833,0.619,0.0,7,9,6,False,-0.0357,2,3
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",260,"автономия организаций, получающих господдержку",-0.459,-0.5,0.0705,8,16,31,False,-0.0295,36,17
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",262,строгость школьной дисциплины,1.118,0.8333,0.2014,6,15,11,False,0.0833,5,4
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",264,права студентов,0.833,0.875,0.0205,8,21,23,False,-0.0625,27,28
@@ -3138,7 +3155,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",246,развитие инфраструктуры,0.3275,0.3438,0.0154,32,17,71,False,-0.0316,221,19
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",247,регулирование безопасности и защита населения,0.7552,0.7576,0.0138,33,178,612,False,-0.0161,731,161
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",248,государственное регулирование ради охраны здоровья,0.4437,0.4747,0.0438,33,46,200,False,-0.0749,158,44
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",25,конкуренция на рынке и в госзакупках,-0.138,0.051,-0.0024,32,80,210,False,-0.1866,341,62
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",25,конкуренция на рынке и в госзакупках,-0.226,-0.046,-0.0016,29,30,8,False,-0.1784,207,18
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",250,государственный контроль над оборотом оружия,-0.1445,0.0,0.0082,18,0,15,False,-0.1528,11,1
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",250a,лицензии на оружие для граждан,-0.2028,-0.1905,-0.0284,21,4,34,False,0.0161,52,7
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",250b,наказания за нелегальное оружие,0.1111,0.1111,0.0,18,2,42,False,0.0,0,4
@@ -3152,6 +3169,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",255b,"финансирование школ, учащих против государства",-0.2321,-0.2143,0.0,14,3,12,False,-0.0179,1,1
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",255c,"финансирование школ, дискриминирующих при приёме",0.2073,0.0,-0.0086,22,0,4,False,0.2159,24,2
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",256,государственный контроль над образованием (автономия вузов — с обратным знаком),0.3314,0.4531,0.0301,32,46,263,False,-0.1518,227,48
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",25a,открытие рынков для конкуренции,0.2841,0.4194,0.0088,31,28,182,False,-0.1441,115,30
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",25b,предпочтение местных поставщиков в госзакупках,-0.8846,-0.6923,0.0,13,15,0,False,-0.1923,16,7
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",260,"автономия организаций, получающих господдержку",0.0829,-0.026,-0.0441,32,27,138,False,0.1531,165,22
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",262,строгость школьной дисциплины,0.2724,0.2727,-0.0117,22,7,142,False,0.0114,15,7
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",264,права студентов,0.4073,0.5521,0.0224,32,37,132,False,-0.1671,216,39
@@ -3434,7 +3453,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",246,развитие инфраструктуры,-0.0873,0.0,0.0377,1,0,2,True,-0.125,16,6
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",247,регулирование безопасности и защита населения,0.8523,1.0,-0.112,1,7,10,True,-0.0357,14,28
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",248,государственное регулирование ради охраны здоровья,0.7269,1.0,-0.1659,1,3,7,True,-0.1071,7,13
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",25,конкуренция на рынке и в госзакупках,-1.1466,-1.0,0.0,1,1,1,True,-0.1466,29,8
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",25,конкуренция на рынке и в госзакупках,-1.1346,-1.0,0.0,1,1,0,True,-0.1346,26,5
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",251,регулирование профессий и барьеры входа,0.3376,0.4286,-0.0493,1,7,12,True,-0.0417,12,25
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",253,объём государственного образования,0.25,0.0,0.0,1,0,0,True,0.25,2,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",253a,объём бесплатного государственного образования,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
@@ -3443,6 +3462,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",255a,финансирование школ без базовых предметов,-0.25,0.0,0.0,1,0,0,True,-0.25,2,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",255c,"финансирование школ, дискриминирующих при приёме",0.4148,0.0,0.4148,1,0,1,True,0.0,0,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",256,государственный контроль над образованием (автономия вузов — с обратным знаком),-0.1712,0.0,-0.1712,1,0,7,True,0.0,4,10
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",25a,открытие рынков для конкуренции,-0.25,0.0,0.0,1,0,1,True,-0.25,3,3
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",260,"автономия организаций, получающих господдержку",1.5162,1.0,0.2662,1,1,7,True,0.25,1,7
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",262,строгость школьной дисциплины,0.4055,0.0,0.1555,1,0,1,True,0.25,1,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",264,права студентов,-0.5251,0.0,-0.2751,1,0,3,True,-0.25,2,5
@@ -3721,7 +3741,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",246,развитие инфраструктуры,0.1648,0.6667,-0.2725,6,4,7,False,-0.2293,82,10
 עם,"Ra’am, the United Arab List",247,регулирование безопасности и защита населения,0.9763,1.0,-0.021,6,96,205,False,-0.0027,157,97
 עם,"Ra’am, the United Arab List",248,государственное регулирование ради охраны здоровья,1.1175,1.0,-0.043,6,17,62,False,0.1605,74,28
-עם,"Ra’am, the United Arab List",25,конкуренция на рынке и в госзакупках,0.8843,1.0,0.0671,6,18,26,False,-0.1828,127,23
+עם,"Ra’am, the United Arab List",25,конкуренция на рынке и в госзакупках,-0.0367,0.1667,0.0003,6,2,5,False,-0.2037,84,6
 עם,"Ra’am, the United Arab List",250,государственный контроль над оборотом оружия,0.2058,0.0,0.0183,4,0,3,False,0.1875,3,1
 עם,"Ra’am, the United Arab List",250a,лицензии на оружие для граждан,0.2554,0.0,0.0054,4,0,1,False,0.25,8,2
 עם,"Ra’am, the United Arab List",250b,наказания за нелегальное оружие,0.25,0.0,0.0,3,0,0,False,0.25,3,1
@@ -3735,6 +3755,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",255b,"финансирование школ, учащих против государства",0.25,0.0,0.0,4,0,0,False,0.25,4,1
 עם,"Ra’am, the United Arab List",255c,"финансирование школ, дискриминирующих при приёме",0.0008,0.0,0.0008,1,0,2,True,0.0,0,2
 עם,"Ra’am, the United Arab List",256,государственный контроль над образованием (автономия вузов — с обратным знаком),0.6576,0.8333,-0.039,6,27,27,False,-0.1367,95,31
+עם,"Ra’am, the United Arab List",25a,открытие рынков для конкуренции,0.7996,0.8333,0.0219,6,9,19,False,-0.0556,41,14
 עם,"Ra’am, the United Arab List",260,"автономия организаций, получающих господдержку",-0.2191,-0.1667,-0.0617,6,1,16,False,0.0093,32,14
 עם,"Ra’am, the United Arab List",262,строгость школьной дисциплины,-0.3668,0.0,-0.1168,5,0,4,False,-0.25,38,3
 עם,"Ra’am, the United Arab List",264,права студентов,0.9872,1.0,-0.0223,6,38,52,False,0.0095,45,29
@@ -4035,7 +4056,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",246,развитие инфраструктуры,0.4308,0.6,0.0584,15,17,24,False,-0.2276,211,13
 רק,"Be’Yahad, headed by Naftali Bennett",247,регулирование безопасности и защита населения,0.9767,0.9222,0.0371,15,161,430,False,0.0173,308,162
 רק,"Be’Yahad, headed by Naftali Bennett",248,государственное регулирование ради охраны здоровья,0.9142,0.7732,0.0499,16,66,108,False,0.091,207,43
-רק,"Be’Yahad, headed by Naftali Bennett",25,конкуренция на рынке и в госзакупках,-0.0791,0.0321,0.0293,16,56,81,False,-0.1406,421,47
+רק,"Be’Yahad, headed by Naftali Bennett",25,конкуренция на рынке и в госзакупках,-0.7388,-0.4881,-0.0066,14,16,19,False,-0.244,231,10
 רק,"Be’Yahad, headed by Naftali Bennett",250,государственный контроль над оборотом оружия,1.0,1.0,0.0,3,6,0,False,0.0,0,2
 רק,"Be’Yahad, headed by Naftali Bennett",250a,лицензии на оружие для граждан,0.4172,0.4,0.0172,5,3,8,False,0.0,0,3
 רק,"Be’Yahad, headed by Naftali Bennett",250b,наказания за нелегальное оружие,1.125,1.0,0.0,2,2,0,True,0.125,1,2
@@ -4049,6 +4070,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",255b,"финансирование школ, учащих против государства",-0.9722,-1.0,0.0,9,9,0,False,0.0278,1,2
 רק,"Be’Yahad, headed by Naftali Bennett",255c,"финансирование школ, дискриминирующих при приёме",-0.7487,-0.75,0.0013,12,10,18,False,0.0,0,2
 רק,"Be’Yahad, headed by Naftali Bennett",256,государственный контроль над образованием (автономия вузов — с обратным знаком),0.8034,0.8667,0.0522,15,71,173,False,-0.1155,177,45
+רק,"Be’Yahad, headed by Naftali Bennett",25a,открытие рынков для конкуренции,0.6239,0.625,0.0245,16,21,46,False,-0.0256,183,28
+רק,"Be’Yahad, headed by Naftali Bennett",25b,предпочтение местных поставщиков в госзакупках,-0.875,-0.875,0.0,8,14,2,False,0.0,0,5
 רק,"Be’Yahad, headed by Naftali Bennett",260,"автономия организаций, получающих господдержку",-0.7241,-0.6221,-0.0347,14,54,103,False,-0.0672,91,22
 רק,"Be’Yahad, headed by Naftali Bennett",262,строгость школьной дисциплины,-0.25,0.0,0.0,12,0,0,False,-0.25,81,2
 רק,"Be’Yahad, headed by Naftali Bennett",264,права студентов,0.7886,0.75,0.0145,16,43,173,False,0.0241,71,33
@@ -4360,7 +4383,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",246,развитие инфраструктуры,0.3669,0.25,0.023,12,3,32,False,0.0939,189,14
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",247,регулирование безопасности и защита населения,0.8451,0.8333,-0.0452,12,171,311,False,0.057,371,160
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",248,государственное регулирование ради охраны здоровья,0.7433,0.7708,-0.0888,12,63,138,False,0.0613,61,44
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",25,конкуренция на рынке и в госзакупках,0.2759,0.2579,-0.0294,12,46,110,False,0.0473,265,53
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",25,конкуренция на рынке и в госзакупках,0.3748,0.338,0.0279,12,20,7,False,0.0089,187,18
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",250,государственный контроль над оборотом оружия,-0.2009,0.0,-0.0759,6,0,6,False,-0.125,3,1
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",250a,лицензии на оружие для граждан,-0.0484,0.0,-0.0884,5,0,10,False,0.04,7,4
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",250b,наказания за нелегальное оружие,0.0,0.0,0.0,7,0,15,False,0.0,0,3
@@ -4374,6 +4397,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",255b,"финансирование школ, учащих против государства",0.0,0.0,0.0,5,0,5,False,0.0,0,1
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",255c,"финансирование школ, дискриминирующих при приёме",0.0938,-0.125,0.0,8,1,0,False,0.2188,7,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",256,государственный контроль над образованием (автономия вузов — с обратным знаком),0.3522,0.4722,-0.0905,12,34,137,False,-0.0295,65,41
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",25a,открытие рынков для конкуренции,0.5928,0.5833,-0.0573,12,13,92,False,0.0668,67,25
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",25b,предпочтение местных поставщиков в госзакупках,-0.6389,-0.6667,0.0,9,9,0,False,0.0278,3,5
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",260,"автономия организаций, получающих господдержку",0.5429,0.3056,0.0413,12,19,75,False,0.1961,48,19
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",262,строгость школьной дисциплины,0.2418,0.25,0.0543,8,2,60,False,-0.0625,4,3
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",264,права студентов,0.8373,0.9167,-0.0373,12,32,65,False,-0.042,84,38
