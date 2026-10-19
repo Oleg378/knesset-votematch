@@ -41,7 +41,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",132,продолжительность установленных законом сроков процедур,0.5189,0.4187,0.0072,11,72,92,False,0.0931,137,72
 אמת,"HaDemocratim, headed by Yair Golan",133,сроки давности для требований граждан,1.0482,0.9,-0.0001,10,32,66,False,0.1482,23,21
 אמת,"HaDemocratim, headed by Yair Golan",134,свобода выражения и протеста,0.2653,0.0985,-0.0343,11,39,33,False,0.2011,142,51
-אמת,"HaDemocratim, headed by Yair Golan",136,правовая защита репутации,0.4766,0.5,0.0016,10,10,22,False,-0.025,1,7
+אמת,"HaDemocratim, headed by Yair Golan",136,правовая защита репутации,0.875,1.0,0.0,2,2,0,True,-0.125,1,3
 אמת,"HaDemocratim, headed by Yair Golan",137,полномочия государства ограничивать СМИ и интернет-контент,0.2621,0.1333,0.0072,10,8,30,False,0.1216,31,16
 אמת,"HaDemocratim, headed by Yair Golan",138,независимость общественных СМИ от правительства,0.25,0.0,0.0,3,0,0,False,0.25,3,1
 אמת,"HaDemocratim, headed by Yair Golan",139,государственное финансирование СМИ,0.25,0.0,0.0,10,0,0,False,0.25,11,2
@@ -108,7 +108,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",200,квоты и преференции для недопредставленных групп,0.7615,0.8,0.01,10,54,59,False,-0.0484,82,45
 אמת,"HaDemocratim, headed by Yair Golan",201,представительство женщин в публичных органах,0.7284,0.8,0.0034,10,25,46,False,-0.075,9,16
 אמת,"HaDemocratim, headed by Yair Golan",202,гендерное равенство и права женщин,0.9432,1.0,0.0135,11,158,166,False,-0.0704,78,113
-אמת,"HaDemocratim, headed by Yair Golan",204,права ЛГБТ и признание нетрадиционных семей,0.8724,0.8182,0.0315,11,73,35,False,0.0227,1,41
+אמת,"HaDemocratim, headed by Yair Golan",204,права ЛГБТ и признание нетрадиционных семей,0.8422,0.8182,0.024,11,68,35,False,0.0,0,37
 אמת,"HaDemocratim, headed by Yair Golan",206,права людей с инвалидностью и пожилых,0.7906,0.9091,0.0075,11,111,94,False,-0.126,152,109
 אמת,"HaDemocratim, headed by Yair Golan",208,права и защита работников,0.894,0.9091,0.01,11,192,160,False,-0.0251,159,147
 אמת,"HaDemocratim, headed by Yair Golan",209,продолжительность рабочего времени,0.1769,0.1,0.0019,10,1,13,False,0.075,5,4
@@ -164,7 +164,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",260,"автономия организаций, получающих господдержку",-0.3499,-0.3667,0.0048,10,11,23,False,0.012,35,22
 אמת,"HaDemocratim, headed by Yair Golan",262,строгость школьной дисциплины,-0.3149,0.0,-0.0649,3,0,1,False,-0.25,17,2
 אמת,"HaDemocratim, headed by Yair Golan",264,права студентов,0.5347,0.7,0.0041,10,29,27,False,-0.1694,37,31
-אמת,"HaDemocratim, headed by Yair Golan",265,самостоятельность несовершеннолетних в решениях,1.0285,1.0,-0.0215,5,8,4,False,0.05,1,4
+אמת,"HaDemocratim, headed by Yair Golan",265,самостоятельность несовершеннолетних в решениях,1.0,1.0,0.0,1,1,0,True,0.0,0,1
+אמת,"HaDemocratim, headed by Yair Golan",265a,личные решения несовершеннолетних без согласия родителей,1.25,1.0,0.0,1,1,2,True,0.25,1,1
+אמת,"HaDemocratim, headed by Yair Golan",265b,возраст политического участия,1.0,1.0,0.0,5,6,0,False,0.0,0,1
 אמת,"HaDemocratim, headed by Yair Golan",266,полномочия опекунов в медицинских решениях,-1.0,-1.0,0.0,3,7,0,False,0.0,0,3
 אמת,"HaDemocratim, headed by Yair Golan",267,роль суда в опекунских и медицинских решениях,0.5,0.5,0.0,6,4,3,False,0.0,0,2
 אמת,"HaDemocratim, headed by Yair Golan",268,права родственников недееспособных и зависимых,0.3986,0.5333,0.0065,10,14,12,False,-0.1413,24,18
@@ -290,7 +292,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",75,права парламентской оппозиции,0.0552,0.2727,0.0098,11,5,2,False,-0.2273,23,8
 אמת,"HaDemocratim, headed by Yair Golan",76a,мощности гражданских судов,1.0,1.0,0.0,6,6,0,False,0.0,0,2
 אמת,"HaDemocratim, headed by Yair Golan",76b,"структура высших судов (размер ВС, конституционный суд)",-0.25,0.0,0.0,9,0,0,False,-0.25,9,1
-אמת,"HaDemocratim, headed by Yair Golan",77,полномочия и ресурсы силовых и правоохранительных органов,-0.1719,-0.0643,-0.0222,10,25,90,False,-0.0854,98,48
+אמת,"HaDemocratim, headed by Yair Golan",77,полномочия и ресурсы силовых и правоохранительных органов,0.1062,0.3,-0.0088,10,5,8,False,-0.185,37,12
+אמת,"HaDemocratim, headed by Yair Golan",77a,полномочия полиции и силовых органов,-0.3926,-0.4667,-0.0359,10,17,44,False,0.11,41,26
+אמת,"HaDemocratim, headed by Yair Golan",77b,санкции против террористов и их семей,-0.2749,0.0,-0.0249,9,0,16,False,-0.25,19,4
 אמת,"HaDemocratim, headed by Yair Golan",8,"денежные санкции: штрафы, пени, надбавки",0.3983,0.3565,0.0216,11,49,50,False,0.0202,93,53
 אמת,"HaDemocratim, headed by Yair Golan",80,подотчётность и внешний надзор над силовыми структурами,0.7495,0.8,0.0076,10,33,63,False,-0.0581,53,36
 אמת,"HaDemocratim, headed by Yair Golan",81,сфера и строгость уголовной ответственности,0.0338,0.2207,-0.0273,11,115,188,False,-0.1596,254,141
@@ -363,7 +367,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",132,продолжительность установленных законом сроков процедур,0.3195,0.2313,0.0377,6,27,40,False,0.0505,76,53
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",133,сроки давности для требований граждан,0.5011,0.3333,0.0011,6,4,4,False,0.1667,14,7
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",134,свобода выражения и протеста,-0.3961,-0.563,-0.0179,6,30,112,False,0.1847,26,42
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",136,правовая защита репутации,0.2622,0.5,0.0122,6,3,1,False,-0.25,6,5
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",136,правовая защита репутации,1.0,1.0,0.0,3,3,1,False,0.0,0,3
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",137,полномочия государства ограничивать СМИ и интернет-контент,0.3547,0.5,0.0145,6,5,27,False,-0.1597,12,11
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",138,независимость общественных СМИ от правительства,0.0,0.0,0.0,4,0,4,False,0.0,0,1
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",139,государственное финансирование СМИ,-0.1749,-0.2222,0.0473,6,7,15,False,0.0,0,5
@@ -434,7 +438,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",200,квоты и преференции для недопредставленных групп,0.4458,0.5,0.0818,6,15,36,False,-0.136,73,34
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",201,представительство женщин в публичных органах,-0.25,0.0,0.0,6,0,0,False,-0.25,36,7
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",202,гендерное равенство и права женщин,0.4967,0.6667,0.0739,6,10,17,False,-0.2438,125,36
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",204,права ЛГБТ и признание нетрадиционных семей,-0.1502,0.0,0.0998,6,2,13,False,-0.25,58,11
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",204,права ЛГБТ и признание нетрадиционных семей,-0.4167,-0.1667,0.0,6,1,0,False,-0.25,58,10
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",206,права людей с инвалидностью и пожилых,0.596,0.6667,0.0271,6,41,44,False,-0.0977,69,68
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",208,права и защита работников,0.6405,0.5683,0.1243,6,41,55,False,-0.052,87,69
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",209,продолжительность рабочего времени,-0.25,0.0,0.0,5,0,0,False,-0.25,5,2
@@ -490,7 +494,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",260,"автономия организаций, получающих господдержку",0.352,0.1667,0.0604,6,7,21,False,0.125,36,18
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",262,строгость школьной дисциплины,0.4577,0.5,-0.0007,6,4,38,False,-0.0417,3,5
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",264,права студентов,0.1231,0.2778,-0.021,6,11,26,False,-0.1337,40,25
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",265,самостоятельность несовершеннолетних в решениях,0.2464,0.0,-0.0036,6,0,3,False,0.25,10,2
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",265a,личные решения несовершеннолетних без согласия родителей,0.1667,0.0,0.0,3,0,3,False,0.1667,4,1
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",266,полномочия опекунов в медицинских решениях,0.25,0.0,0.0,2,0,0,True,0.25,3,2
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",267,роль суда в опекунских и медицинских решениях,0.375,0.5,0.0,2,1,0,True,-0.125,1,2
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",268,права родственников недееспособных и зависимых,0.5209,0.5,0.0001,6,11,10,False,0.0208,11,14
@@ -610,7 +614,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",72,влияние политиков на назначение судей,1.0172,1.0,0.0172,3,4,3,False,0.0,0,5
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",75,права парламентской оппозиции,-0.1368,0.0,0.0716,6,0,8,False,-0.2083,5,4
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",76b,"структура высших судов (размер ВС, конституционный суд)",0.025,0.0,0.025,1,0,1,True,0.0,0,1
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",77,полномочия и ресурсы силовых и правоохранительных органов,0.2989,0.1061,0.027,6,32,80,False,0.1659,150,56
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",77,полномочия и ресурсы силовых и правоохранительных органов,0.1655,0.1667,0.0012,6,1,9,False,-0.0024,26,8
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",77a,полномочия полиции и силовых органов,0.317,0.0926,0.0573,6,27,35,False,0.167,61,36
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",77b,санкции против террористов и их семей,0.6438,0.4,-0.0062,5,3,29,False,0.25,34,6
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",8,"денежные санкции: штрафы, пени, надбавки",0.5034,0.5556,0.0721,6,17,34,False,-0.1242,60,44
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",80,подотчётность и внешний надзор над силовыми структурами,0.0454,0.2417,0.0385,6,26,24,False,-0.2348,54,34
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",81,сфера и строгость уголовной ответственности,0.4466,0.4439,0.0614,6,70,235,False,-0.0587,227,136
@@ -659,7 +665,6 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 בי,Tzomet Beit Yisrael,132,продолжительность установленных законом сроков процедур,-0.0447,0.0,0.1263,1,0,2,True,-0.1711,19,14
 בי,Tzomet Beit Yisrael,133,сроки давности для требований граждан,0.25,0.0,0.0,1,0,0,True,0.25,1,1
 בי,Tzomet Beit Yisrael,134,свобода выражения и протеста,-0.0457,0.0,-0.0457,1,0,10,True,0.0,0,10
-בי,Tzomet Beit Yisrael,136,правовая защита репутации,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
 בי,Tzomet Beit Yisrael,137,полномочия государства ограничивать СМИ и интернет-контент,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
 בי,Tzomet Beit Yisrael,139,государственное финансирование СМИ,0.0,0.0,0.0,1,0,1,True,0.0,0,1
 בי,Tzomet Beit Yisrael,140,возможности частных СМИ вещать,0.0,0.0,0.0,1,0,1,True,0.0,0,1
@@ -829,7 +834,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 בי,Tzomet Beit Yisrael,72,влияние политиков на назначение судей,0.0517,0.0,0.0517,1,0,3,True,0.0,0,2
 בי,Tzomet Beit Yisrael,75,права парламентской оппозиции,0.0,0.0,0.0,1,0,2,True,0.0,0,2
 בי,Tzomet Beit Yisrael,76b,"структура высших судов (размер ВС, конституционный суд)",0.025,0.0,0.025,1,0,1,True,0.0,0,1
-בי,Tzomet Beit Yisrael,77,полномочия и ресурсы силовых и правоохранительных органов,-0.0048,0.0,-0.0048,1,0,4,True,0.0,2,6
+בי,Tzomet Beit Yisrael,77,полномочия и ресурсы силовых и правоохранительных органов,0.0337,0.0,0.0337,1,0,1,True,0.0,0,1
+בי,Tzomet Beit Yisrael,77a,полномочия полиции и силовых органов,-0.0187,0.0,-0.0187,1,0,2,True,0.0,2,4
+בי,Tzomet Beit Yisrael,77b,санкции против террористов и их семей,0.051,0.0,0.051,1,0,1,True,0.0,0,1
 בי,Tzomet Beit Yisrael,8,"денежные санкции: штрафы, пени, надбавки",-0.1189,0.0,-0.0117,1,2,5,True,-0.1071,7,9
 בי,Tzomet Beit Yisrael,80,подотчётность и внешний надзор над силовыми структурами,0.0,0.0,0.0,1,0,4,True,0.0,0,4
 בי,Tzomet Beit Yisrael,81,сфера и строгость уголовной ответственности,1.2139,1.0,0.0354,1,1,16,True,0.1786,7,22
@@ -897,7 +904,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,132,продолжительность установленных законом сроков процедур,0.1754,0.1693,0.0634,9,42,68,False,-0.0574,178,60
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,133,сроки давности для требований граждан,0.8782,0.6667,0.0032,6,5,8,False,0.2083,9,8
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,134,свобода выражения и протеста,-0.6703,-0.6562,-0.0085,8,25,126,False,-0.0055,49,39
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,136,правовая защита репутации,0.2472,0.3333,0.0,6,2,0,False,-0.0861,13,5
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,136,правовая защита репутации,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,137,полномочия государства ограничивать СМИ и интернет-контент,0.3289,0.375,0.0154,8,3,11,False,-0.0615,22,9
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,138,независимость общественных СМИ от правительства,0.0,0.0,0.0,5,0,5,False,0.0,0,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,139,государственное финансирование СМИ,0.1853,0.125,0.0603,8,1,21,False,0.0,0,3
@@ -965,7 +972,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,200,квоты и преференции для недопредставленных групп,0.4695,0.6667,-0.1293,9,41,73,False,-0.0679,110,34
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,201,представительство женщин в публичных органах,-0.2535,0.0,-0.0424,9,0,15,False,-0.2111,49,9
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,202,гендерное равенство и права женщин,0.293,0.5556,-0.107,9,43,65,False,-0.1556,190,55
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,204,права ЛГБТ и признание нетрадиционных семей,-0.7368,-0.3333,-0.1892,9,4,30,False,-0.2143,37,11
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,204,права ЛГБТ и признание нетрадиционных семей,-0.5987,-0.3333,-0.0431,9,4,27,False,-0.2222,36,10
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,206,права людей с инвалидностью и пожилых,0.7242,0.7778,-0.0121,9,146,123,False,-0.0414,117,106
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,208,права и защита работников,0.5683,0.6349,-0.0721,9,132,119,False,0.0054,148,96
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,209,продолжительность рабочего времени,-0.25,0.0,0.0,8,0,0,False,-0.25,10,2
@@ -1021,7 +1028,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,260,"автономия организаций, получающих господдержку",0.6333,0.4444,0.0222,9,6,45,False,0.1667,32,15
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,262,строгость школьной дисциплины,0.0847,0.0,0.0014,6,0,37,False,0.0833,2,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,264,права студентов,0.6455,0.7778,0.0138,9,25,36,False,-0.1461,63,30
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,265,самостоятельность несовершеннолетних в решениях,0.8032,0.7143,0.0175,7,8,4,False,0.0714,2,6
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,265a,личные решения несовершеннолетних без согласия родителей,0.75,0.6667,0.0,6,7,2,False,0.0833,2,4
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,265b,возраст политического участия,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,266,полномочия опекунов в медицинских решениях,-1.0,-1.0,0.0,3,3,0,False,0.0,0,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,267,роль суда в опекунских и медицинских решениях,-1.0,-1.0,0.0,4,9,0,False,0.0,0,4
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,268,права родственников недееспособных и зависимых,0.5211,0.75,0.0003,8,39,26,False,-0.2292,10,15
@@ -1142,7 +1150,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,71,автономия судебной системы,-0.5307,-0.5,-0.0307,8,8,32,False,0.0,0,7
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,72,влияние политиков на назначение судей,0.3851,0.3333,0.0517,6,2,12,False,0.0,0,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,75,права парламентской оппозиции,-0.0714,0.0,0.0,7,0,8,False,-0.0714,8,4
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,77,полномочия и ресурсы силовых и правоохранительных органов,-0.2022,-0.3333,-0.0077,9,8,78,False,0.1388,163,46
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,77,полномочия и ресурсы силовых и правоохранительных органов,-0.0225,0.0,0.0109,9,0,15,False,-0.0333,31,10
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,77a,полномочия полиции и силовых органов,-0.1735,-0.2222,-0.0543,9,2,28,False,0.103,80,24
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,77b,санкции против террористов и их семей,0.2991,0.125,0.0179,8,1,30,False,0.1562,36,5
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,8,"денежные санкции: штрафы, пени, надбавки",-0.0913,0.0535,-0.0658,9,51,84,False,-0.079,81,51
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,80,подотчётность и внешний надзор над силовыми структурами,0.5117,0.6111,-0.0197,9,14,60,False,-0.0797,68,28
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,81,сфера и строгость уголовной ответственности,0.1195,0.2791,-0.1186,9,52,266,False,-0.041,263,118
@@ -1218,7 +1228,6 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",132,продолжительность установленных законом сроков процедур,0.5927,0.5,0.0117,4,2,32,False,0.081,79,50
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",133,сроки давности для требований граждан,-0.0855,0.0,0.0002,4,0,12,False,-0.0857,18,10
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",134,свобода выражения и протеста,-0.1349,-0.25,0.03,4,1,17,False,0.0851,50,26
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",136,правовая защита репутации,0.0,0.0,0.0,1,0,3,True,0.0,0,3
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",137,полномочия государства ограничивать СМИ и интернет-контент,0.0642,0.0,0.0471,4,0,6,False,0.017,15,14
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",138,независимость общественных СМИ от правительства,0.25,0.0,0.0,4,0,0,False,0.25,4,1
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",139,государственное финансирование СМИ,0.25,0.0,0.0,3,0,0,False,0.25,3,1
@@ -1285,7 +1294,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",200,квоты и преференции для недопредставленных групп,1.2416,1.0,0.0728,4,10,44,False,0.1688,13,26
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",201,представительство женщин в публичных органах,0.569,0.5,0.069,4,5,23,False,0.0,0,11
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",202,гендерное равенство и права женщин,0.7316,0.75,0.0441,4,8,79,False,-0.0625,10,33
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",204,права ЛГБТ и признание нетрадиционных семей,0.4102,0.25,0.0977,4,1,24,False,0.0625,3,10
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",204,права ЛГБТ и признание нетрадиционных семей,0.3647,0.25,0.1147,4,1,24,False,0.0,0,9
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",206,права людей с инвалидностью и пожилых,0.4625,0.5,0.0245,4,3,48,False,-0.062,44,43
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",208,права и защита работников,0.7354,0.5536,0.0405,4,12,68,False,0.1414,60,58
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",209,продолжительность рабочего времени,0.2504,0.0,0.0004,4,0,5,False,0.25,4,3
@@ -1333,7 +1342,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",260,"автономия организаций, получающих господдержку",-0.4001,-0.25,-0.0546,4,3,21,False,-0.0955,18,13
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",262,строгость школьной дисциплины,-0.1879,0.0,0.0621,4,0,1,False,-0.25,17,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",264,права студентов,0.9302,0.75,0.015,4,4,34,False,0.1652,14,19
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",265,самостоятельность несовершеннолетних в решениях,0.055,0.0,-0.07,2,0,4,True,0.125,1,2
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",265a,личные решения несовершеннолетних без согласия родителей,0.25,0.0,0.0,1,0,2,True,0.25,1,1
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",268,права родственников недееспособных и зависимых,0.7791,0.7778,0.0013,3,5,4,False,0.0,2,7
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",269b,доступ к вспомогательной репродукции,0.1552,0.0,0.0302,2,0,4,True,0.125,1,4
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",27,государственная поддержка отраслей и бизнеса,0.5784,0.5,0.0482,4,6,37,False,0.0301,33,34
@@ -1447,7 +1456,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",72,влияние политиков на назначение судей,-0.5,-0.3333,0.0,3,1,0,False,-0.1667,5,3
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",75,права парламентской оппозиции,-0.2215,0.0,0.0285,2,0,1,True,-0.25,4,4
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",76b,"структура высших судов (размер ВС, конституционный суд)",-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",77,полномочия и ресурсы силовых и правоохранительных органов,0.0187,0.0,0.007,4,0,51,False,0.0117,49,37
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",77,полномочия и ресурсы силовых и правоохранительных органов,0.0614,0.0,0.0733,4,0,10,False,-0.0119,16,9
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",77a,полномочия полиции и силовых органов,0.0491,0.0,-0.0158,4,0,11,False,0.0649,29,22
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",77b,санкции против террористов и их семей,0.0071,0.0,0.0071,4,0,18,False,0.0,4,3
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",8,"денежные санкции: штрафы, пени, надбавки",1.157,1.0,0.1129,4,4,28,False,0.0441,42,32
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",80,подотчётность и внешний надзор над силовыми структурами,0.5824,0.75,0.0355,4,8,46,False,-0.2031,12,22
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",81,сфера и строгость уголовной ответственности,0.3123,0.25,0.0133,4,2,123,False,0.049,95,90
@@ -1516,7 +1527,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,132,продолжительность установленных законом сроков процедур,0.4636,0.3583,0.1506,5,69,62,False,-0.0453,342,106
 ודם,The Joint Arab List,133,сроки давности для требований граждан,1.1282,1.0,-0.0003,5,18,33,False,0.1286,46,21
 ודם,The Joint Arab List,134,свобода выражения и протеста,0.5865,0.1186,0.2429,5,54,64,False,0.225,158,52
-ודם,The Joint Arab List,136,правовая защита репутации,-0.4671,-0.6667,0.012,4,9,1,False,0.1875,4,7
+ודם,The Joint Arab List,136,правовая защита репутации,-1.0,-1.0,0.0,4,7,0,False,0.0,0,2
 ודם,The Joint Arab List,137,полномочия государства ограничивать СМИ и интернет-контент,-0.2439,-0.0867,0.0571,5,16,19,False,-0.2143,105,18
 ודם,The Joint Arab List,138,независимость общественных СМИ от правительства,0.25,0.0,0.0,4,0,0,False,0.25,4,1
 ודם,The Joint Arab List,139,государственное финансирование СМИ,0.5833,0.3333,0.0,3,1,0,False,0.25,3,2
@@ -1583,7 +1594,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,200,квоты и преференции для недопредставленных групп,0.8139,1.0,-0.0805,5,88,68,False,-0.1056,62,53
 ודם,The Joint Arab List,201,представительство женщин в публичных органах,1.0165,0.8,0.0165,5,17,22,False,0.2,10,12
 ודם,The Joint Arab List,202,гендерное равенство и права женщин,1.0232,1.0,0.0312,5,230,119,False,-0.0081,75,88
-ודם,The Joint Arab List,204,права ЛГБТ и признание нетрадиционных семей,0.6158,0.4,0.0158,5,3,24,False,0.2,5,11
+ודם,The Joint Arab List,204,права ЛГБТ и признание нетрадиционных семей,0.5351,0.4,-0.0149,5,2,24,False,0.15,3,9
 ודם,The Joint Arab List,206,права людей с инвалидностью и пожилых,1.0873,0.9925,0.0152,5,205,122,False,0.0797,86,125
 ודם,The Joint Arab List,208,права и защита работников,1.1951,1.0,-0.0049,5,216,171,False,0.2,152,128
 ודם,The Joint Arab List,209,продолжительность рабочего времени,-0.4474,-0.6,-0.0974,5,3,1,False,0.25,6,4
@@ -1639,7 +1650,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,260,"автономия организаций, получающих господдержку",0.5893,0.4667,0.063,5,8,15,False,0.0596,29,16
 ודם,The Joint Arab List,262,строгость школьной дисциплины,-0.4447,0.0,-0.1947,5,0,9,False,-0.25,39,3
 ודם,The Joint Arab List,264,права студентов,1.1512,1.0,-0.011,5,90,66,False,0.1621,32,45
-ודם,The Joint Arab List,265,самостоятельность несовершеннолетних в решениях,0.4463,0.0,0.1963,2,0,5,True,0.25,2,2
+ודם,The Joint Arab List,265a,личные решения несовершеннолетних без согласия родителей,0.25,0.0,0.0,2,0,4,True,0.25,2,1
 ודם,The Joint Arab List,267,роль суда в опекунских и медицинских решениях,-0.25,0.0,0.0,1,0,0,True,-0.25,3,2
 ודם,The Joint Arab List,268,права родственников недееспособных и зависимых,0.9526,0.8,0.0003,5,10,15,False,0.1524,21,13
 ודם,The Joint Arab List,269a,доступ к абортам,1.0,1.0,0.0,4,7,0,False,0.0,0,1
@@ -1759,7 +1770,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,72,влияние политиков на назначение судей,-0.4483,0.0,-0.4483,4,0,10,False,0.0,0,2
 ודם,The Joint Arab List,75,права парламентской оппозиции,0.8327,1.0,0.0202,4,7,5,False,-0.1875,4,5
 ודם,The Joint Arab List,76b,"структура высших судов (размер ВС, конституционный суд)",-0.475,0.0,-0.475,2,0,2,True,0.0,0,1
-ודם,The Joint Arab List,77,полномочия и ресурсы силовых и правоохранительных органов,-0.9462,-0.5606,-0.1961,5,28,163,False,-0.1895,265,82
+ודם,The Joint Arab List,77,полномочия и ресурсы силовых и правоохранительных органов,-0.9131,-0.6,-0.2359,5,9,44,False,-0.0773,44,18
+ודם,The Joint Arab List,77a,полномочия полиции и силовых органов,-0.9728,-0.6,-0.1552,5,17,72,False,-0.2176,174,53
+ודם,The Joint Arab List,77b,санкции против террористов и их семей,-0.361,0.0,-0.111,5,0,40,False,-0.25,38,5
 ודם,The Joint Arab List,8,"денежные санкции: штрафы, пени, надбавки",-0.4753,-0.2029,-0.182,5,67,101,False,-0.0904,70,62
 ודם,The Joint Arab List,80,подотчётность и внешний надзор над силовыми структурами,1.0219,1.0,0.0215,5,27,84,False,0.0005,23,31
 ודם,The Joint Arab List,81,сфера и строгость уголовной ответственности,0.2409,0.4672,-0.1361,5,106,269,False,-0.0901,269,143
@@ -1829,7 +1842,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",132,продолжительность установленных законом сроков процедур,0.1202,0.2718,-0.1189,6,29,28,False,-0.0328,125,49
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",133,сроки давности для требований граждан,0.8761,0.6667,0.0011,6,4,1,False,0.2083,13,6
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",134,свобода выражения и протеста,-0.523,-0.6349,-0.0095,6,41,130,False,0.1214,28,45
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",136,правовая защита репутации,0.1667,0.3333,0.0,6,2,0,False,-0.1667,8,5
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",136,правовая защита репутации,1.0,1.0,0.0,2,2,0,True,0.0,0,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",137,полномочия государства ограничивать СМИ и интернет-контент,0.3547,0.5,0.0005,6,4,31,False,-0.1458,14,12
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",138,независимость общественных СМИ от правительства,0.0,0.0,0.0,5,0,5,False,0.0,0,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",139,государственное финансирование СМИ,-0.6738,-0.6667,-0.0072,6,9,11,False,0.0,0,5
@@ -1900,7 +1913,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",200,квоты и преференции для недопредставленных групп,0.7887,0.8333,0.0113,6,18,46,False,-0.0559,107,36
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",201,представительство женщин в публичных органах,0.25,0.5,0.0,6,6,0,False,-0.25,46,11
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",202,гендерное равенство и права женщин,0.4721,0.6667,0.0352,6,18,24,False,-0.2297,164,46
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",204,права ЛГБТ и признание нетрадиционных семей,-0.2115,0.0,0.0333,6,0,4,False,-0.2448,63,10
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",204,права ЛГБТ и признание нетрадиционных семей,-0.25,0.0,0.0,6,0,0,False,-0.25,62,9
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",206,права людей с инвалидностью и пожилых,0.8922,1.0,0.0172,6,64,78,False,-0.125,87,77
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",208,права и защита работников,0.7978,0.9209,-0.0285,6,60,60,False,-0.0946,97,76
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",209,продолжительность рабочего времени,-0.0833,0.1667,0.0,6,3,0,False,-0.25,8,4
@@ -1953,7 +1966,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",260,"автономия организаций, получающих господдержку",0.0205,-0.1667,0.0367,6,5,29,False,0.1505,43,14
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",262,строгость школьной дисциплины,-0.0629,0.0,-0.0129,5,0,31,False,-0.05,3,3
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",264,права студентов,0.6698,0.8333,0.0042,6,12,24,False,-0.1677,53,26
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",265,самостоятельность несовершеннолетних в решениях,0.4413,0.2,-0.0087,5,1,3,False,0.25,11,3
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",265a,личные решения несовершеннолетних без согласия родителей,0.25,0.0,0.0,3,0,3,False,0.25,6,1
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",265b,возраст политического участия,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",266,полномочия опекунов в медицинских решениях,1.25,1.0,0.0,1,1,0,True,0.25,2,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",267,роль суда в опекунских и медицинских решениях,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",268,права родственников недееспособных и зависимых,0.3921,0.5583,0.0004,6,19,10,False,-0.1667,11,13
@@ -2072,7 +2086,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",75,права парламентской оппозиции,-0.1839,0.0,0.0245,6,2,13,False,-0.2083,5,7
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",76a,мощности гражданских судов,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",76b,"структура высших судов (размер ВС, конституционный суд)",0.2688,0.25,0.0187,4,1,3,False,0.0,0,2
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",77,полномочия и ресурсы силовых и правоохранительных органов,0.2756,0.2222,-0.0338,6,10,87,False,0.0871,142,44
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",77,полномочия и ресурсы силовых и правоохранительных органов,-0.1849,0.0,0.0109,6,0,8,False,-0.1958,21,7
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",77a,полномочия полиции и силовых органов,0.0044,-0.0556,-0.0315,6,5,49,False,0.0914,59,25
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",77b,санкции против террористов и их семей,0.2041,0.0,-0.0043,6,0,27,False,0.2083,35,4
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",8,"денежные санкции: штрафы, пени, надбавки",0.8352,1.0,-0.0201,6,19,41,False,-0.1447,76,36
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",80,подотчётность и внешний надзор над силовыми структурами,0.5237,0.6556,0.0383,6,23,48,False,-0.1701,61,30
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",81,сфера и строгость уголовной ответственности,0.4004,0.4411,0.0233,6,60,237,False,-0.064,252,126
@@ -2136,7 +2152,6 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 י,"Yisrael Techila, headed by Sharren Haskel",132,продолжительность установленных законом сроков процедур,0.7737,0.6667,-0.0874,1,6,9,True,0.1944,9,20
 י,"Yisrael Techila, headed by Sharren Haskel",133,сроки давности для требований граждан,1.25,1.0,0.0,1,1,3,True,0.25,3,6
 י,"Yisrael Techila, headed by Sharren Haskel",134,свобода выражения и протеста,-0.4409,-0.5,0.0196,1,4,6,True,0.0395,19,22
-י,"Yisrael Techila, headed by Sharren Haskel",136,правовая защита репутации,0.0,0.0,0.0,1,0,1,True,0.0,0,1
 י,"Yisrael Techila, headed by Sharren Haskel",137,полномочия государства ограничивать СМИ и интернет-контент,0.2231,0.0,0.0356,1,0,4,True,0.1875,8,8
 י,"Yisrael Techila, headed by Sharren Haskel",139,государственное финансирование СМИ,0.1985,0.0,-0.0515,1,0,1,True,0.25,1,2
 י,"Yisrael Techila, headed by Sharren Haskel",140,возможности частных СМИ вещать,1.0833,1.0,0.0,1,1,2,True,0.0833,3,4
@@ -2199,7 +2214,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 י,"Yisrael Techila, headed by Sharren Haskel",200,квоты и преференции для недопредставленных групп,1.0395,1.0,0.0895,1,2,7,True,-0.05,15,17
 י,"Yisrael Techila, headed by Sharren Haskel",201,представительство женщин в публичных органах,-0.0687,0.0,0.1813,1,0,6,True,-0.25,3,6
 י,"Yisrael Techila, headed by Sharren Haskel",202,гендерное равенство и права женщин,0.8468,1.0,0.0059,1,3,19,True,-0.1591,11,26
-י,"Yisrael Techila, headed by Sharren Haskel",204,права ЛГБТ и признание нетрадиционных семей,0.8201,1.0,0.0701,1,1,3,True,-0.25,5,7
+י,"Yisrael Techila, headed by Sharren Haskel",204,права ЛГБТ и признание нетрадиционных семей,1.0026,1.0,0.2526,1,1,3,True,-0.25,5,7
 י,"Yisrael Techila, headed by Sharren Haskel",206,права людей с инвалидностью и пожилых,0.8188,1.0,0.0212,1,5,13,True,-0.2024,21,30
 י,"Yisrael Techila, headed by Sharren Haskel",208,права и защита работников,0.782,0.8,0.0375,1,10,21,True,-0.0556,18,37
 י,"Yisrael Techila, headed by Sharren Haskel",209,продолжительность рабочего времени,-0.25,0.0,0.0,1,0,1,True,-0.25,1,2
@@ -2247,7 +2262,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 י,"Yisrael Techila, headed by Sharren Haskel",25a,открытие рынков для конкуренции,-0.2362,0.0,0.0138,1,0,3,True,-0.25,1,4
 י,"Yisrael Techila, headed by Sharren Haskel",260,"автономия организаций, получающих господдержку",-0.2787,0.0,-0.2509,1,0,3,True,-0.0278,9,10
 י,"Yisrael Techila, headed by Sharren Haskel",264,права студентов,0.861,1.0,0.111,1,3,5,True,-0.25,8,14
-י,"Yisrael Techila, headed by Sharren Haskel",265,самостоятельность несовершеннолетних в решениях,0.3456,0.0,0.0956,1,0,1,True,0.25,2,1
+י,"Yisrael Techila, headed by Sharren Haskel",265a,личные решения несовершеннолетних без согласия родителей,0.25,0.0,0.0,1,0,1,True,0.25,2,1
 י,"Yisrael Techila, headed by Sharren Haskel",268,права родственников недееспособных и зависимых,0.7539,1.0,0.0039,1,2,2,True,-0.25,1,5
 י,"Yisrael Techila, headed by Sharren Haskel",269b,доступ к вспомогательной репродукции,1.25,1.0,-0.0,1,2,2,True,0.25,1,4
 י,"Yisrael Techila, headed by Sharren Haskel",27,государственная поддержка отраслей и бизнеса,-0.1602,0.0,0.0604,1,2,3,True,-0.2206,17,18
@@ -2355,7 +2370,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 י,"Yisrael Techila, headed by Sharren Haskel",72,влияние политиков на назначение судей,-0.25,0.0,0.0,1,0,0,True,-0.25,3,2
 י,"Yisrael Techila, headed by Sharren Haskel",75,права парламентской оппозиции,-0.25,0.0,0.0,1,0,0,True,-0.25,3,3
 י,"Yisrael Techila, headed by Sharren Haskel",76b,"структура высших судов (размер ВС, конституционный суд)",-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
-י,"Yisrael Techila, headed by Sharren Haskel",77,полномочия и ресурсы силовых и правоохранительных органов,1.2511,1.0,0.1064,1,2,14,True,0.1447,19,22
+י,"Yisrael Techila, headed by Sharren Haskel",77,полномочия и ресурсы силовых и правоохранительных органов,1.0275,1.0,0.0275,1,2,2,True,0.0,2,5
+י,"Yisrael Techila, headed by Sharren Haskel",77a,полномочия полиции и силовых органов,0.3009,0.0,0.1509,1,0,8,True,0.15,5,12
+י,"Yisrael Techila, headed by Sharren Haskel",77b,санкции против террористов и их семей,0.3336,0.0,0.1461,1,0,4,True,0.1875,8,3
 י,"Yisrael Techila, headed by Sharren Haskel",8,"денежные санкции: штрафы, пени, надбавки",0.1131,0.1429,-0.0525,1,7,6,True,0.0227,11,20
 י,"Yisrael Techila, headed by Sharren Haskel",80,подотчётность и внешний надзор над силовыми структурами,0.7535,1.0,0.0035,1,2,6,True,-0.25,9,13
 י,"Yisrael Techila, headed by Sharren Haskel",81,сфера и строгость уголовной ответственности,0.0846,0.2,-0.0049,1,15,42,True,-0.1105,43,66
@@ -2424,7 +2441,6 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",132,продолжительность установленных законом сроков процедур,0.3466,0.3036,0.0045,4,13,36,False,0.0385,85,49
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",133,сроки давности для требований граждан,0.3251,0.25,0.0001,4,2,18,False,0.075,15,13
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",134,свобода выражения и протеста,-0.2021,-0.375,-0.0249,4,7,25,False,0.1978,45,28
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",136,правовая защита репутации,0.5,0.5,0.0,2,1,4,True,0.0,0,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",137,полномочия государства ограничивать СМИ и интернет-контент,0.5978,0.3333,0.07,3,1,12,False,0.1944,5,8
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",138,независимость общественных СМИ от правительства,0.25,0.0,0.0,3,0,0,False,0.25,3,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",139,государственное финансирование СМИ,0.25,0.0,0.0,4,0,0,False,0.25,5,2
@@ -2489,7 +2505,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",200,квоты и преференции для недопредставленных групп,0.8927,0.75,0.0321,4,21,43,False,0.1106,24,33
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",201,представительство женщин в публичных органах,0.5442,0.5,0.0442,4,8,24,False,0.0,0,12
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",202,гендерное равенство и права женщин,0.6916,0.75,0.0341,4,28,97,False,-0.0926,22,50
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",204,права ЛГБТ и признание нетрадиционных семей,0.8853,0.75,0.0728,4,3,30,False,0.0625,3,10
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",204,права ЛГБТ и признание нетрадиционных семей,0.8323,0.75,0.0823,4,3,30,False,0.0,0,9
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",206,права людей с инвалидностью и пожилых,0.7565,0.75,0.0181,4,25,57,False,-0.0116,69,65
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",208,права и защита работников,1.0712,1.0,0.0244,4,35,83,False,0.0468,58,79
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",209,продолжительность рабочего времени,0.439,0.25,0.0015,4,1,4,False,0.1875,3,4
@@ -2542,7 +2558,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",260,"автономия организаций, получающих господдержку",0.271,0.3333,0.0247,4,4,20,False,-0.0871,20,14
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",262,строгость школьной дисциплины,-0.25,0.0,0.0,3,0,0,False,-0.25,15,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",264,права студентов,0.7805,0.75,0.0222,4,7,33,False,0.0083,14,23
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",265,самостоятельность несовершеннолетних в решениях,0.3756,0.5,-0.1244,2,1,1,True,0.0,0,2
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",265a,личные решения несовершеннолетних без согласия родителей,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",267,роль суда в опекунских и медицинских решениях,0.0,0.0,0.0,1,0,1,True,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",268,права родственников недееспособных и зависимых,0.4433,0.5,0.0058,4,8,4,False,-0.0625,3,9
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",269a,доступ к абортам,1.0,1.0,0.0,1,1,0,True,0.0,0,1
@@ -2661,7 +2677,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",72,влияние политиков на назначение судей,-0.9375,-0.75,0.0,4,3,0,False,-0.1875,8,3
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",75,права парламентской оппозиции,0.0,0.25,0.0,4,1,0,False,-0.25,9,5
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",76b,"структура высших судов (размер ВС, конституционный суд)",-0.25,0.0,0.0,2,0,0,True,-0.25,2,1
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",77,полномочия и ресурсы силовых и правоохранительных органов,-0.198,-0.1667,0.0028,4,4,53,False,-0.0342,43,35
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",77,полномочия и ресурсы силовых и правоохранительных органов,0.1845,0.25,0.0366,4,1,4,False,-0.1021,13,6
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",77a,полномочия полиции и силовых органов,-0.1101,-0.25,0.109,4,3,16,False,0.0309,24,21
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",77b,санкции против террористов и их семей,-0.2527,0.0,-0.0652,4,0,16,False,-0.1875,4,3
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",8,"денежные санкции: штрафы, пени, надбавки",0.3934,0.25,0.1083,4,12,32,False,0.0351,44,34
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",80,подотчётность и внешний надзор над силовыми структурами,0.631,0.75,0.0269,4,5,47,False,-0.1458,15,19
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",81,сфера и строгость уголовной ответственности,0.5945,0.6457,0.0183,4,32,161,False,-0.0695,102,105
@@ -2731,7 +2749,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",132,продолжительность установленных законом сроков процедур,0.5659,0.5036,0.0037,8,36,50,False,0.0587,179,70
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",133,сроки давности для требований граждан,0.7903,0.75,-0.0002,8,13,21,False,0.0405,28,13
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",134,свобода выражения и протеста,-0.8228,-0.8098,-0.0086,8,84,64,False,-0.0045,88,44
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",136,правовая защита репутации,0.8529,0.875,0.0091,8,8,5,False,-0.0312,1,6
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",136,правовая защита репутации,1.0,1.0,0.0,7,8,1,False,0.0,0,4
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",137,полномочия государства ограничивать СМИ и интернет-контент,1.0414,0.75,0.0831,8,22,30,False,0.2083,38,15
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",138,независимость общественных СМИ от правительства,0.4,0.2,0.0,5,1,1,False,0.2,4,2
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",139,государственное финансирование СМИ,0.03,-0.1429,-0.0415,7,3,1,False,0.2143,9,3
@@ -2773,7 +2791,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",173,присутствие иностранных государств и международных организаций,-0.9312,-0.75,-0.0872,8,37,78,False,-0.0939,66,15
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",175,иммунитет иностранных государств,-0.375,-0.1667,0.0,6,1,1,False,-0.2083,5,1
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",177,сотрудничество с международными судами,-1.0636,-1.0,-0.1052,6,18,8,False,0.0417,3,4
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",178,меры против терроризма и его финансирования,0.9837,0.75,0.1666,8,89,196,False,0.067,173,48
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",178,меры против терроризма и его финансирования,0.9837,0.75,0.1666,8,88,196,False,0.067,173,47
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",179,допуск иностранцев на въезд и пребывание,-0.5918,-0.3899,-0.1624,8,41,30,False,-0.0396,23,18
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",18,регулирование финансового сектора,0.7597,0.7917,0.0028,8,34,26,False,-0.0347,34,19
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",180,приток иностранной рабочей силы,-0.6667,-0.6667,0.0,6,8,0,False,0.0,0,3
@@ -2802,7 +2820,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",200,квоты и преференции для недопредставленных групп,0.8601,0.7917,0.0515,8,69,56,False,0.0169,55,34
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",201,представительство женщин в публичных органах,0.7285,0.75,0.0097,8,40,32,False,-0.0312,8,12
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",202,гендерное равенство и права женщин,0.7856,0.875,0.0046,8,102,103,False,-0.094,54,52
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",204,права ЛГБТ и признание нетрадиционных семей,0.3744,0.3333,0.0827,6,2,24,False,-0.0417,11,11
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",204,права ЛГБТ и признание нетрадиционных семей,0.0046,0.0,0.0463,6,0,21,False,-0.0417,11,9
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",206,права людей с инвалидностью и пожилых,0.7906,0.875,0.0191,8,114,58,False,-0.1035,94,78
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",208,права и защита работников,0.7781,0.7142,0.0287,8,143,102,False,0.0352,119,101
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",209,продолжительность рабочего времени,0.0057,-0.125,0.0057,8,1,7,False,0.125,6,4
@@ -2858,7 +2876,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",260,"автономия организаций, получающих господдержку",-0.459,-0.5,0.0705,8,16,31,False,-0.0295,36,17
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",262,строгость школьной дисциплины,1.118,0.8333,0.2014,6,15,11,False,0.0833,5,4
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",264,права студентов,0.833,0.875,0.0205,8,21,23,False,-0.0625,27,28
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",265,самостоятельность несовершеннолетних в решениях,-0.3283,-0.3333,-0.0783,3,1,2,False,0.0833,3,3
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",265a,личные решения несовершеннолетних без согласия родителей,-0.375,-0.5,0.0,2,1,1,True,0.125,2,2
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",266,полномочия опекунов в медицинских решениях,0.625,0.5,0.0,2,1,0,True,0.125,2,2
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",267,роль суда в опекунских и медицинских решениях,-0.25,0.0,0.0,2,0,0,True,-0.25,5,3
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",268,права родственников недееспособных и зависимых,0.6101,0.6375,0.0039,8,20,8,False,-0.0312,8,11
@@ -2980,7 +2998,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",72,влияние политиков на назначение судей,-0.25,0.0,0.0,4,0,0,False,-0.25,10,2
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",75,права парламентской оппозиции,-0.1816,0.0,0.0371,8,0,5,False,-0.2188,11,4
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",76b,"структура высших судов (размер ВС, конституционный суд)",0.5714,0.7143,0.0,7,5,0,False,-0.1429,4,2
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",77,полномочия и ресурсы силовых и правоохранительных органов,0.9037,0.7534,0.1182,8,86,93,False,0.0321,100,60
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",77,полномочия и ресурсы силовых и правоохранительных органов,0.8422,0.8571,0.0576,7,14,19,False,-0.0726,28,15
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",77a,полномочия полиции и силовых органов,1.0,0.75,0.1092,8,27,35,False,0.1407,50,30
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",77b,санкции против террористов и их семей,0.8694,0.75,0.1037,8,11,13,False,0.0156,18,5
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",8,"денежные санкции: штрафы, пени, надбавки",0.8005,0.6526,0.1112,8,96,78,False,0.0367,59,58
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",80,подотчётность и внешний надзор над силовыми структурами,0.7206,0.875,0.0227,8,14,52,False,-0.1771,34,23
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",81,сфера и строгость уголовной ответственности,0.8862,0.7621,0.0788,8,300,286,False,0.0453,226,154
@@ -3055,7 +3075,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",132,продолжительность установленных законом сроков процедур,0.3273,0.3674,-0.0121,33,115,243,False,-0.0279,588,88
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",133,сроки давности для требований граждан,0.7463,0.5484,-0.0037,31,36,31,False,0.2016,78,17
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",134,свобода выражения и протеста,-0.6467,-0.6246,-0.0267,33,115,588,False,0.0047,177,83
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",136,правовая защита репутации,0.2631,0.3929,0.0339,28,12,16,False,-0.1637,38,8
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",136,правовая защита репутации,0.6875,0.6875,0.0,16,12,13,False,0.0,0,4
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",137,полномочия государства ограничивать СМИ и интернет-контент,0.2063,0.2188,-0.0045,32,20,123,False,-0.0079,104,20
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",138,независимость общественных СМИ от правительства,-0.05,-0.05,0.0,20,1,20,False,0.0,0,1
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",139,государственное финансирование СМИ,-0.1056,-0.0968,-0.0169,31,12,63,False,0.0081,1,5
@@ -3127,7 +3147,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",200,квоты и преференции для недопредставленных групп,0.6415,0.6162,0.0307,33,48,218,False,-0.0053,452,54
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",201,представительство женщин в публичных органах,-0.125,0.0769,0.0163,26,4,10,False,-0.2182,191,13
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",202,гендерное равенство и права женщин,0.4696,0.633,0.0343,33,55,130,False,-0.1977,673,80
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",204,права ЛГБТ и признание нетрадиционных семей,-0.1099,0.0357,0.0645,28,1,44,False,-0.2101,241,10
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",204,права ЛГБТ и признание нетрадиционных семей,-0.1547,0.0357,0.0234,28,1,7,False,-0.2138,238,9
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",206,права людей с инвалидностью и пожилых,0.6913,0.8003,0.0048,33,211,400,False,-0.1138,401,171
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",208,права и защита работников,0.5485,0.63,0.0055,33,189,345,False,-0.087,484,167
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",209,продолжительность рабочего времени,-0.2069,0.0345,0.0,29,2,1,False,-0.2414,38,3
@@ -3184,7 +3204,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",260,"автономия организаций, получающих господдержку",0.0829,-0.026,-0.0441,32,27,138,False,0.1531,165,22
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",262,строгость школьной дисциплины,0.2724,0.2727,-0.0117,22,7,142,False,0.0114,15,7
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",264,права студентов,0.4073,0.5521,0.0224,32,37,132,False,-0.1671,216,39
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",265,самостоятельность несовершеннолетних в решениях,0.6325,0.4286,-0.0103,21,9,15,False,0.2143,36,3
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",265a,личные решения несовершеннолетних без согласия родителей,0.4118,0.2353,0.0,17,4,15,False,0.1765,21,1
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",265b,возраст политического участия,1.0,1.0,0.0,5,5,0,False,0.0,0,1
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",266,полномочия опекунов в медицинских решениях,-0.375,-0.5,0.0,4,2,0,False,0.125,2,2
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",267,роль суда в опекунских и медицинских решениях,-0.15,0.0667,0.0,15,3,1,False,-0.2167,14,3
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",268,права родственников недееспособных и зависимых,0.447,0.629,-0.0154,31,46,50,False,-0.1667,38,26
@@ -3311,7 +3332,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",75,права парламентской оппозиции,0.0001,0.1333,0.0334,30,4,51,False,-0.1667,21,6
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",76a,мощности гражданских судов,1.0,1.0,0.0,5,6,0,False,0.0,0,2
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",76b,"структура высших судов (размер ВС, конституционный суд)",0.1937,0.1875,0.0219,16,4,14,False,-0.0156,1,3
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",77,полномочия и ресурсы силовых и правоохранительных органов,0.4559,0.3848,0.0022,33,69,397,False,0.0689,598,61
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",77,полномочия и ресурсы силовых и правоохранительных органов,0.2344,0.25,0.0126,32,12,48,False,-0.0282,118,12
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",77a,полномочия полиции и силовых органов,0.3194,0.2929,0.0011,33,28,194,False,0.0253,239,33
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",77b,санкции против террористов и их семей,0.5194,0.3226,0.0114,31,13,132,False,0.1855,142,6
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",8,"денежные санкции: штрафы, пени, надбавки",0.5997,0.6542,0.0244,33,94,239,False,-0.0789,395,75
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",80,подотчётность и внешний надзор над силовыми структурами,0.045,0.1253,0.0125,33,85,185,False,-0.0927,251,49
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",81,сфера и строгость уголовной ответственности,0.6999,0.6859,0.0343,33,242,1190,False,-0.0202,1119,227
@@ -3373,7 +3396,6 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",132,продолжительность установленных законом сроков процедур,0.8914,1.0,0.0164,1,1,2,True,-0.125,32,21
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",133,сроки давности для требований граждан,0.0029,0.0,0.0029,1,0,1,True,0.0,0,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",134,свобода выражения и протеста,-0.9311,-0.6,-0.0811,1,5,13,True,-0.25,3,18
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",136,правовая защита репутации,0.0,0.0,0.0,1,0,0,True,0.0,2,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",137,полномочия государства ограничивать СМИ и интернет-контент,0.2047,0.0,0.0797,1,0,2,True,0.125,4,5
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",139,государственное финансирование СМИ,0.0,0.0,0.0,1,0,1,True,0.0,0,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",140,возможности частных СМИ вещать,0.0,0.0,0.0,1,0,1,True,0.0,0,1
@@ -3436,7 +3458,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",200,квоты и преференции для недопредставленных групп,0.1558,0.0,0.0597,1,0,4,True,0.0962,13,11
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",201,представительство женщин в публичных органах,-0.25,0.0,0.0,1,0,0,True,-0.25,4,4
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",202,гендерное равенство и права женщин,0.7159,1.0,-0.0636,1,1,5,True,-0.2206,17,18
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",204,права ЛГБТ и признание нетрадиционных семей,-1.6506,-1.0,-0.4006,1,3,4,True,-0.25,6,10
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",204,права ЛГБТ и признание нетрадиционных семей,-1.4522,-1.0,-0.2022,1,3,4,True,-0.25,6,10
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",206,права людей с инвалидностью и пожилых,1.0581,1.0,-0.0253,1,4,15,True,0.0833,12,23
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",208,права и защита работников,0.7738,1.0,-0.1637,1,4,11,True,-0.0625,8,19
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",209,продолжительность рабочего времени,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
@@ -3581,7 +3603,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",72,влияние политиков на назначение судей,1.0517,1.0,0.0517,1,2,3,True,0.0,0,3
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",75,права парламентской оппозиции,0.0,0.0,0.0,1,0,2,True,0.0,0,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",76b,"структура высших судов (размер ВС, конституционный суд)",0.025,0.0,0.025,1,0,1,True,0.0,0,1
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",77,полномочия и ресурсы силовых и правоохранительных органов,-0.9399,-1.0,0.1226,1,1,12,True,-0.0625,8,15
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",77,полномочия и ресурсы силовых и правоохранительных органов,-0.0913,0.0,0.0337,1,0,1,True,-0.125,4,4
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",77a,полномочия полиции и силовых органов,-0.1335,0.0,0.1165,1,0,3,True,-0.25,2,5
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",77b,санкции против террористов и их семей,0.4324,0.0,0.1824,1,0,5,True,0.25,2,4
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",8,"денежные санкции: штрафы, пени, надбавки",0.7787,1.0,-0.0622,1,2,8,True,-0.1591,11,15
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",80,подотчётность и внешний надзор над силовыми структурами,0.0174,0.3333,-0.0659,1,3,5,True,-0.25,2,9
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",81,сфера и строгость уголовной ответственности,1.0493,1.0,-0.0007,1,3,37,True,0.05,20,46
@@ -3648,7 +3672,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",132,продолжительность установленных законом сроков процедур,-0.2623,-0.2255,-0.0018,6,35,63,False,-0.0349,234,87
 עם,"Ra’am, the United Arab List",133,сроки давности для требований граждан,0.519,0.5,-0.0002,6,10,45,False,0.0192,24,16
 עם,"Ra’am, the United Arab List",134,свобода выражения и протеста,-0.4711,-0.754,0.0706,6,25,28,False,0.2123,170,38
-עם,"Ra’am, the United Arab List",136,правовая защита репутации,0.887,0.8333,0.012,6,9,8,False,0.0417,1,5
+עם,"Ra’am, the United Arab List",136,правовая защита репутации,1.05,1.0,0.0,5,8,0,False,0.05,1,3
 עם,"Ra’am, the United Arab List",137,полномочия государства ограничивать СМИ и интернет-контент,0.1906,0.3333,-0.0305,6,11,22,False,-0.1122,84,17
 עם,"Ra’am, the United Arab List",138,независимость общественных СМИ от правительства,0.25,0.0,0.0,4,0,0,False,0.25,4,1
 עם,"Ra’am, the United Arab List",139,государственное финансирование СМИ,0.25,0.0,0.0,6,0,0,False,0.25,8,2
@@ -3717,7 +3741,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",200,квоты и преференции для недопредставленных групп,0.7877,1.0,-0.0491,6,69,57,False,-0.1632,65,36
 עם,"Ra’am, the United Arab List",201,представительство женщин в публичных органах,1.0077,1.0,0.0077,6,19,38,False,0.0,0,11
 עם,"Ra’am, the United Arab List",202,гендерное равенство и права женщин,0.9606,1.0,0.0155,6,105,137,False,-0.0549,37,57
-עם,"Ra’am, the United Arab List",204,права ЛГБТ и признание нетрадиционных семей,0.7089,0.8333,-0.1661,6,9,38,False,0.0417,1,10
+עם,"Ra’am, the United Arab List",204,права ЛГБТ и признание нетрадиционных семей,0.6453,0.8333,-0.188,6,9,38,False,0.0,0,9
 עם,"Ra’am, the United Arab List",206,права людей с инвалидностью и пожилых,0.9462,1.0,0.0183,6,94,89,False,-0.0722,101,84
 עם,"Ra’am, the United Arab List",208,права и защита работников,1.099,1.0,0.0121,6,223,156,False,0.0869,126,113
 עם,"Ra’am, the United Arab List",209,продолжительность рабочего времени,0.7126,0.5,0.0043,6,3,9,False,0.2083,13,3
@@ -3771,7 +3795,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",260,"автономия организаций, получающих господдержку",-0.2191,-0.1667,-0.0617,6,1,16,False,0.0093,32,14
 עם,"Ra’am, the United Arab List",262,строгость школьной дисциплины,-0.3668,0.0,-0.1168,5,0,4,False,-0.25,38,3
 עם,"Ra’am, the United Arab List",264,права студентов,0.9872,1.0,-0.0223,6,38,52,False,0.0095,45,29
-עם,"Ra’am, the United Arab List",265,самостоятельность несовершеннолетних в решениях,0.0713,0.0,-0.0537,2,0,4,True,0.125,1,2
+עם,"Ra’am, the United Arab List",265a,личные решения несовершеннолетних без согласия родителей,0.25,0.0,0.0,1,0,2,True,0.25,1,1
 עם,"Ra’am, the United Arab List",267,роль суда в опекунских и медицинских решениях,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
 עם,"Ra’am, the United Arab List",268,права родственников недееспособных и зависимых,0.8722,0.8333,0.0041,6,13,11,False,0.0347,22,10
 עם,"Ra’am, the United Arab List",269b,доступ к вспомогательной репродукции,-0.2179,0.0,-0.2679,5,0,6,False,0.05,1,2
@@ -3889,7 +3913,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",72,влияние политиков на назначение судей,-0.25,0.0,0.0,5,0,0,False,-0.25,15,2
 עם,"Ra’am, the United Arab List",75,права парламентской оппозиции,-0.0392,0.2,0.0108,5,1,1,False,-0.25,12,5
 עם,"Ra’am, the United Arab List",76b,"структура высших судов (размер ВС, конституционный суд)",-0.25,0.0,0.0,5,0,0,False,-0.25,5,1
-עם,"Ra’am, the United Arab List",77,полномочия и ресурсы силовых и правоохранительных органов,-0.5273,-0.2222,-0.1375,6,11,115,False,-0.1676,229,75
+עם,"Ra’am, the United Arab List",77,полномочия и ресурсы силовых и правоохранительных органов,-0.442,-0.1667,-0.1823,6,1,25,False,-0.093,40,15
+עם,"Ra’am, the United Arab List",77a,полномочия полиции и силовых органов,-0.2315,0.0,-0.1034,6,5,50,False,-0.128,156,46
+עם,"Ra’am, the United Arab List",77b,санкции против террористов и их семей,-0.3122,0.0,-0.0622,6,0,30,False,-0.25,29,5
 עם,"Ra’am, the United Arab List",8,"денежные санкции: штрафы, пени, надбавки",-0.2907,-0.2032,-0.0488,6,86,80,False,-0.0387,70,55
 עם,"Ra’am, the United Arab List",80,подотчётность и внешний надзор над силовыми структурами,0.2047,0.3333,0.0214,6,2,87,False,-0.15,32,27
 עם,"Ra’am, the United Arab List",81,сфера и строгость уголовной ответственности,0.4537,0.6234,-0.0266,6,84,269,False,-0.1432,263,129
@@ -3961,7 +3987,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",132,продолжительность установленных законом сроков процедур,0.1565,0.2042,-0.0288,16,72,190,False,-0.0189,729,126
 רק,"Be’Yahad, headed by Naftali Bennett",133,сроки давности для требований граждан,0.6956,0.6923,-0.0002,13,20,99,False,0.0035,66,24
 רק,"Be’Yahad, headed by Naftali Bennett",134,свобода выражения и протеста,0.0134,-0.0778,-0.0623,15,26,69,False,0.1535,299,47
-רק,"Be’Yahad, headed by Naftali Bennett",136,правовая защита репутации,0.1533,0.1429,0.0283,14,6,25,False,-0.0179,1,6
+רק,"Be’Yahad, headed by Naftali Bennett",136,правовая защита репутации,-0.0833,0.0,0.0,3,2,0,False,-0.0833,1,2
 רק,"Be’Yahad, headed by Naftali Bennett",137,полномочия государства ограничивать СМИ и интернет-контент,0.2915,0.3667,0.0142,15,14,51,False,-0.0894,91,20
 רק,"Be’Yahad, headed by Naftali Bennett",138,независимость общественных СМИ от правительства,0.25,0.0,0.0,10,0,0,False,0.25,10,1
 רק,"Be’Yahad, headed by Naftali Bennett",139,государственное финансирование СМИ,0.25,0.0,0.0,13,0,0,False,0.25,21,2
@@ -4032,7 +4058,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",200,квоты и преференции для недопредставленных групп,0.8484,0.8611,0.0418,16,97,225,False,-0.0545,109,47
 רק,"Be’Yahad, headed by Naftali Bennett",201,представительство женщин в публичных органах,0.8474,0.9333,0.0141,15,54,154,False,-0.1,11,20
 רק,"Be’Yahad, headed by Naftali Bennett",202,гендерное равенство и права женщин,0.8052,0.875,0.0337,16,186,452,False,-0.1035,95,103
-רק,"Be’Yahad, headed by Naftali Bennett",204,права ЛГБТ и признание нетрадиционных семей,1.0238,0.9286,0.0953,14,130,177,False,0.0,0,30
+רק,"Be’Yahad, headed by Naftali Bennett",204,права ЛГБТ и признание нетрадиционных семей,0.9945,0.9286,0.0659,14,121,177,False,0.0,0,28
 רק,"Be’Yahad, headed by Naftali Bennett",206,права людей с инвалидностью и пожилых,0.8946,0.875,0.0204,16,163,278,False,-0.0008,267,130
 רק,"Be’Yahad, headed by Naftali Bennett",208,права и защита работников,0.9196,0.8121,0.0322,15,210,441,False,0.0752,371,156
 רק,"Be’Yahad, headed by Naftali Bennett",209,продолжительность рабочего времени,0.394,0.1667,0.0086,12,2,20,False,0.2188,29,4
@@ -4088,7 +4114,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",260,"автономия организаций, получающих господдержку",-0.7241,-0.6221,-0.0347,14,54,103,False,-0.0672,91,22
 רק,"Be’Yahad, headed by Naftali Bennett",262,строгость школьной дисциплины,-0.25,0.0,0.0,12,0,0,False,-0.25,81,2
 רק,"Be’Yahad, headed by Naftali Bennett",264,права студентов,0.7886,0.75,0.0145,16,43,173,False,0.0241,71,33
-רק,"Be’Yahad, headed by Naftali Bennett",265,самостоятельность несовершеннолетних в решениях,0.2476,0.1538,-0.0409,13,4,27,False,0.1346,7,4
+רק,"Be’Yahad, headed by Naftali Bennett",265a,личные решения несовершеннолетних без согласия родителей,0.3929,0.1429,0.0,7,3,14,False,0.25,7,2
 רק,"Be’Yahad, headed by Naftali Bennett",266,полномочия опекунов в медицинских решениях,0.2917,0.1667,0.0,4,5,6,False,0.125,6,4
 רק,"Be’Yahad, headed by Naftali Bennett",267,роль суда в опекунских и медицинских решениях,-0.375,-0.25,0.0,8,3,8,False,-0.125,14,5
 רק,"Be’Yahad, headed by Naftali Bennett",268,права родственников недееспособных и зависимых,0.8175,0.7619,0.0033,14,27,30,False,0.0523,40,22
@@ -4216,7 +4242,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",75,права парламентской оппозиции,-0.1367,0.0667,0.0467,15,1,13,False,-0.25,33,5
 רק,"Be’Yahad, headed by Naftali Bennett",76a,мощности гражданских судов,0.875,0.8333,0.0,6,5,0,False,0.0417,2,5
 רק,"Be’Yahad, headed by Naftali Bennett",76b,"структура высших судов (размер ВС, конституционный суд)",-0.25,0.0,0.0,7,0,0,False,-0.25,7,1
-רק,"Be’Yahad, headed by Naftali Bennett",77,полномочия и ресурсы силовых и правоохранительных органов,0.1278,0.1405,-0.0102,17,35,243,False,-0.0025,463,87
+רק,"Be’Yahad, headed by Naftali Bennett",77,полномочия и ресурсы силовых и правоохранительных органов,0.0909,0.0,0.0599,15,0,34,False,0.031,136,18
+רק,"Be’Yahad, headed by Naftali Bennett",77a,полномочия полиции и силовых органов,0.0492,0.0392,-0.0045,17,24,75,False,0.0144,263,54
+רק,"Be’Yahad, headed by Naftali Bennett",77b,санкции против террористов и их семей,-0.2804,0.0,-0.0435,14,0,65,False,-0.2369,52,4
 רק,"Be’Yahad, headed by Naftali Bennett",8,"денежные санкции: штрафы, пени, надбавки",0.7785,0.7397,0.0441,15,89,253,False,-0.0054,187,79
 רק,"Be’Yahad, headed by Naftali Bennett",80,подотчётность и внешний надзор над силовыми структурами,0.7365,0.8125,0.0248,16,34,223,False,-0.1007,87,32
 רק,"Be’Yahad, headed by Naftali Bennett",81,сфера и строгость уголовной ответственности,0.6725,0.7167,0.0553,16,257,715,False,-0.0996,492,177
@@ -4287,7 +4315,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",132,продолжительность установленных законом сроков процедур,0.5616,0.5335,0.0283,12,54,148,False,-0.0003,399,88
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",133,сроки давности для требований граждан,0.9355,0.7273,0.0037,11,18,38,False,0.2045,30,14
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",134,свобода выражения и протеста,-0.594,-0.5148,-0.0254,12,47,219,False,-0.0539,99,51
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",136,правовая защита репутации,0.1728,0.4167,-0.2022,12,5,11,False,-0.0417,17,7
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",136,правовая защита репутации,0.7143,0.7143,0.0,7,5,4,False,0.0,0,3
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",137,полномочия государства ограничивать СМИ и интернет-контент,0.278,0.3333,-0.0939,12,4,26,False,0.0386,58,14
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",138,независимость общественных СМИ от правительства,0.0,0.0,0.0,8,0,8,False,0.0,0,1
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",139,государственное финансирование СМИ,0.0715,0.0833,-0.0119,12,3,21,False,0.0,0,4
@@ -4360,7 +4388,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",200,квоты и преференции для недопредставленных групп,0.4911,0.5833,-0.0869,12,19,107,False,-0.0053,177,39
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",201,представительство женщин в публичных органах,-0.326,0.0909,-0.1669,11,2,41,False,-0.25,66,10
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",202,гендерное равенство и права женщин,0.4635,0.8194,-0.1966,12,38,164,False,-0.1594,266,61
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",204,права ЛГБТ и признание нетрадиционных семей,-0.6246,-0.0909,-0.3129,11,1,60,False,-0.2208,48,11
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",204,права ЛГБТ и признание нетрадиционных семей,-0.4709,-0.0909,-0.1527,11,1,57,False,-0.2273,47,10
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",206,права людей с инвалидностью и пожилых,0.8224,0.8541,-0.0482,12,183,259,False,0.0165,173,146
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",208,права и защита работников,0.7821,0.7845,-0.0178,12,171,264,False,0.0154,247,147
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",209,продолжительность рабочего времени,-0.3333,-0.0833,0.0,12,1,0,False,-0.25,15,3
@@ -4416,7 +4444,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",260,"автономия организаций, получающих господдержку",0.5429,0.3056,0.0413,12,19,75,False,0.1961,48,19
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",262,строгость школьной дисциплины,0.2418,0.25,0.0543,8,2,60,False,-0.0625,4,3
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",264,права студентов,0.8373,0.9167,-0.0373,12,32,65,False,-0.042,84,38
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",265,самостоятельность несовершеннолетних в решениях,0.5832,0.25,0.1144,8,2,19,False,0.2188,7,3
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",265a,личные решения несовершеннолетних без согласия родителей,0.25,0.0,0.0,7,0,12,False,0.25,7,1
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",265b,возраст политического участия,1.0,1.0,0.0,2,2,0,True,0.0,0,1
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",266,полномочия опекунов в медицинских решениях,-0.0417,-0.1667,0.0,6,1,6,False,0.125,3,3
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",267,роль суда в опекунских и медицинских решениях,0.25,0.4,0.0,5,2,0,False,-0.15,3,3
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",268,права родственников недееспособных и зависимых,0.719,0.8194,0.0002,12,35,49,False,-0.1007,25,24
@@ -4541,7 +4570,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",72,влияние политиков на назначение судей,0.4962,0.4444,0.0517,9,4,22,False,0.0,0,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",75,права парламентской оппозиции,0.1424,0.1818,-0.2213,11,2,21,False,0.1818,8,5
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",76b,"структура высших судов (размер ВС, конституционный суд)",0.025,0.0,0.025,8,0,8,False,0.0,0,1
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",77,полномочия и ресурсы силовых и правоохранительных органов,-0.2709,-0.4524,0.0382,12,28,177,False,0.1434,306,67
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",77,полномочия и ресурсы силовых и правоохранительных органов,0.2281,0.1667,0.0201,12,3,18,False,0.0413,66,14
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",77a,полномочия полиции и силовых органов,-0.3457,-0.5,0.0006,12,15,80,False,0.1536,172,38
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",77b,санкции против террористов и их семей,0.3108,0.0833,0.0608,12,1,45,False,0.1667,54,5
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",8,"денежные санкции: штрафы, пени, надбавки",0.0192,0.1337,-0.0782,12,68,141,False,-0.0363,199,69
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",80,подотчётность и внешний надзор над силовыми структурами,0.5001,0.6512,-0.1309,12,43,125,False,-0.0202,78,38
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",81,сфера и строгость уголовной ответственности,0.6685,0.6838,-0.0707,12,85,537,False,0.0554,466,157
