@@ -10,7 +10,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",103,защита должностных лиц от преследования,-0.0909,-0.0909,0.0,11,3,10,False,0.0,0,3
 אמת,"HaDemocratim, headed by Yair Golan",103a,иммунитет избранных лиц от уголовного преследования,-0.25,0.0,0.0,10,0,0,False,-0.25,12,2
 אמת,"HaDemocratim, headed by Yair Golan",103b,иммунитет солдат и силовиков за действия на службе,-0.25,0.0,0.0,3,0,0,False,-0.25,3,1
-אמת,"HaDemocratim, headed by Yair Golan",106,полномочия и автономия местного самоуправления,0.2045,0.2545,0.0688,11,25,23,False,-0.1188,25,25
+אמת,"HaDemocratim, headed by Yair Golan",106,полномочия и автономия местного самоуправления,0.0834,0.2,0.0022,11,23,17,False,-0.1188,25,21
 אמת,"HaDemocratim, headed by Yair Golan",107,контроль и полномочия центра над местной властью,0.0901,0.303,0.0144,11,10,9,False,-0.2273,26,11
 אמת,"HaDemocratim, headed by Yair Golan",108,финансовые ресурсы местных властей,-0.1242,-0.25,-0.0076,10,15,17,False,0.1333,15,16
 אמת,"HaDemocratim, headed by Yair Golan",109,перераспределение средств между местными властями,-0.25,0.0,0.0,9,0,0,False,-0.25,19,2
@@ -21,7 +21,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",115,регулирование финансирования партий,0.0833,0.3333,-0.0,9,4,8,False,-0.25,10,4
 אמת,"HaDemocratim, headed by Yair Golan",116a,избирательный порог и порог регистрации партий,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 אמת,"HaDemocratim, headed by Yair Golan",116b,основания для отстранения списков и кандидатов от выборов,0.25,0.0,0.0,10,0,0,False,0.25,13,2
-אמת,"HaDemocratim, headed by Yair Golan",117,доступность голосования и избирательные права,0.5349,0.5,0.0099,10,9,27,False,0.025,1,11
+אמת,"HaDemocratim, headed by Yair Golan",117a,кто имеет право голоса,0.4713,0.25,0.2213,4,1,5,False,0.0,0,2
+אמת,"HaDemocratim, headed by Yair Golan",117b,доступность голосования вне дома,0.3142,0.3333,-0.0192,9,7,21,False,0.0,0,6
 אמת,"HaDemocratim, headed by Yair Golan",119,ограничения предвыборной агитации,0.175,0.4,-0.0,10,5,8,False,-0.225,38,9
 אמת,"HaDemocratim, headed by Yair Golan",12,права пациентов,0.6541,0.6,0.0041,10,16,27,False,0.05,2,16
 אמת,"HaDemocratim, headed by Yair Golan",120,полномочия избирательных органов,-0.05,0.2,0.0,10,2,3,False,-0.25,15,4
@@ -49,7 +50,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",141,участие государства в экономике и СМИ,0.25,0.0,0.0,10,2,0,False,0.25,11,4
 אמת,"HaDemocratim, headed by Yair Golan",142,доступ публики к медиаконтенту,-0.6314,-0.4,0.0051,10,11,29,False,-0.2365,125,13
 אמת,"HaDemocratim, headed by Yair Golan",143,защита животных,0.6309,0.6364,0.0059,11,36,25,False,-0.0114,11,23
-אמת,"HaDemocratim, headed by Yair Golan",144,экологическое регулирование,0.8668,0.9091,0.0003,11,124,45,False,-0.0427,43,49
+אמת,"HaDemocratim, headed by Yair Golan",144,экологическое регулирование,0.8668,0.9091,0.0003,11,121,45,False,-0.0427,43,48
 אמת,"HaDemocratim, headed by Yair Golan",146,защита частной жизни и персональных данных,0.3097,0.2909,-0.0052,11,29,117,False,0.024,30,32
 אמת,"HaDemocratim, headed by Yair Golan",147,сбор и передача данных государственными органами,0.801,0.9,0.0043,10,32,75,False,-0.1033,49,32
 אמת,"HaDemocratim, headed by Yair Golan",149,личная свобода и автономия,0.6276,0.5403,0.0522,11,115,165,False,0.0351,313,142
@@ -336,7 +337,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",103b1,иммунитет солдат и полиции за действия на службе,1.0,1.0,0.0,3,3,2,False,0.0,0,3
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",103b2,полномочия силовиков в отношении граждан,1.0,1.0,0.0,3,3,0,False,0.0,0,1
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",103c,защита израильтян от международных судов,-0.15,0.0,0.0,5,0,0,False,-0.15,9,2
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",106,полномочия и автономия местного самоуправления,-0.3527,-0.1667,-0.0015,6,5,19,False,-0.1845,26,14
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",106,полномочия и автономия местного самоуправления,-0.3333,-0.1667,0.0,6,5,19,False,-0.1667,23,13
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",107,контроль и полномочия центра над местной властью,0.0983,0.1667,0.0844,6,1,8,False,-0.1528,12,5
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",108,финансовые ресурсы местных властей,-0.1579,-0.2222,0.0734,6,9,20,False,-0.0091,25,19
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",109,перераспределение средств между местными властями,0.2109,0.2,0.0109,5,1,13,False,0.0,0,3
@@ -349,7 +350,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",115,регулирование финансирования партий,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",116a,избирательный порог и порог регистрации партий,-0.6667,-0.6667,0.0,3,2,2,False,0.0,0,3
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",116b,основания для отстранения списков и кандидатов от выборов,-0.4083,-0.4,-0.0083,5,4,4,False,0.0,0,5
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",117,доступность голосования и избирательные права,0.5441,0.5,-0.007,6,4,4,False,0.0511,33,10
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",117a,кто имеет право голоса,0.25,0.0,0.0,5,0,0,False,0.25,6,1
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",117b,доступность голосования вне дома,0.5984,0.6,-0.0049,5,3,4,False,0.0033,19,6
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",119,ограничения предвыборной агитации,0.4085,0.4,0.0085,5,4,16,False,0.0,0,5
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",12,права пациентов,0.6875,0.75,0.0,4,5,9,False,-0.0625,1,8
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",120,полномочия избирательных органов,0.2113,0.4,0.0113,5,2,7,False,-0.2,7,3
@@ -653,7 +655,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 בי,Tzomet Beit Yisrael,100b,съёмка применения силы полицией,0.0,0.0,0.0,1,0,1,True,0.0,0,1
 בי,Tzomet Beit Yisrael,100c,трансляции заседаний судов и органов,0.0104,0.0,0.0104,1,0,1,True,0.0,0,1
 בי,Tzomet Beit Yisrael,101,права родителей,-0.0536,0.0,-0.0536,1,0,1,True,0.0,0,1
-בי,Tzomet Beit Yisrael,106,полномочия и автономия местного самоуправления,1.0324,1.0,0.0324,1,2,1,True,0.0,4,3
+בי,Tzomet Beit Yisrael,106,полномочия и автономия местного самоуправления,1.05,1.0,0.05,1,2,1,True,0.0,4,3
 בי,Tzomet Beit Yisrael,107,контроль и полномочия центра над местной властью,-0.2028,0.0,0.0472,1,0,2,True,-0.25,2,2
 בי,Tzomet Beit Yisrael,108,финансовые ресурсы местных властей,0.1259,0.0,0.0009,1,0,1,True,0.125,8,3
 בי,Tzomet Beit Yisrael,109,перераспределение средств между местными властями,0.0545,0.0,0.0545,1,0,1,True,0.0,0,1
@@ -882,7 +884,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,103b,иммунитет солдат и силовиков за действия на службе,0.0,0.0,0.0,6,0,6,False,0.0,0,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,103b1,иммунитет солдат и полиции за действия на службе,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,103c,защита израильтян от международных судов,-0.2504,0.0,-0.0004,6,0,2,False,-0.25,12,2
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,106,полномочия и автономия местного самоуправления,-0.1113,0.036,-0.0843,9,46,31,False,-0.063,49,25
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,106,полномочия и автономия местного самоуправления,-0.2977,-0.1265,-0.1216,9,46,26,False,-0.0497,44,23
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,107,контроль и полномочия центра над местной властью,0.5644,0.7143,-0.0887,7,15,15,False,-0.0612,21,10
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,108,финансовые ресурсы местных властей,-0.4444,-0.5278,-0.0877,9,27,8,False,0.1711,64,19
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,109,перераспределение средств между местными властями,0.1474,0.125,0.0224,8,1,34,False,0.0,0,2
@@ -894,7 +896,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,115,регулирование финансирования партий,0.0645,0.0,0.0645,3,0,2,False,0.0,2,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,116a,избирательный порог и порог регистрации партий,1.0,1.0,0.0,5,8,0,False,0.0,0,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,116b,основания для отстранения списков и кандидатов от выборов,-0.0268,0.0,-0.0268,7,0,8,False,0.0,0,2
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,117,доступность голосования и избирательные права,0.4793,0.4444,0.0055,9,4,8,False,0.0294,36,11
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,117a,кто имеет право голоса,0.2414,0.1111,-0.0086,9,1,5,False,0.1389,5,2
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,117b,доступность голосования вне дома,0.3544,0.2857,-0.0027,7,2,3,False,0.0714,21,6
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,119,ограничения предвыборной агитации,0.3962,0.375,0.0212,8,3,28,False,0.0,2,6
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,12,права пациентов,0.7917,0.75,0.0,8,29,11,False,0.0417,11,14
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,120,полномочия избирательных органов,-0.1557,0.0,0.0318,8,0,8,False,-0.1875,6,2
@@ -1215,7 +1218,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",103a,иммунитет избранных лиц от уголовного преследования,-0.25,0.0,0.0,4,0,0,False,-0.25,5,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",103b,иммунитет солдат и силовиков за действия на службе,-0.25,0.0,0.0,4,0,0,False,-0.25,4,1
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",103c,защита израильтян от международных судов,0.0508,0.0,-0.0117,4,0,4,False,0.0625,1,2
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",106,полномочия и автономия местного самоуправления,0.4068,0.25,0.0467,4,3,18,False,0.1101,16,12
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",106,полномочия и автономия местного самоуправления,0.4086,0.25,0.0485,4,2,14,False,0.1101,16,11
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",107,контроль и полномочия центра над местной властью,0.0563,0.0,0.1188,4,0,4,False,-0.0625,4,4
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",108,финансовые ресурсы местных властей,-0.5309,-0.25,-0.0726,4,1,7,False,-0.2083,10,6
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",109,перераспределение средств между местными властями,-0.25,0.0,0.0,2,0,0,True,-0.25,7,2
@@ -1226,7 +1229,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",114a,финансирование за выдвижение женщин,0.053,0.0,0.053,3,0,6,False,0.0,0,4
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",115,регулирование финансирования партий,-0.25,0.0,-0.0,1,0,1,True,-0.25,1,1
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",116b,основания для отстранения списков и кандидатов от выборов,-0.25,-0.5,0.0,2,1,0,True,0.25,3,3
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",117,доступность голосования и избирательные права,0.5179,0.5,0.0179,4,2,20,False,0.0,0,7
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",117a,кто имеет право голоса,-0.2477,0.0,-0.2477,1,0,1,True,0.0,0,1
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",117b,доступность голосования вне дома,0.2821,0.25,0.0321,4,1,16,False,0.0,0,5
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",119,ограничения предвыборной агитации,-0.1667,0.0,-0.0,3,0,1,False,-0.1667,8,6
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",12,права пациентов,0.251,0.0,0.001,3,0,4,False,0.25,3,6
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",120,полномочия избирательных органов,-0.0833,0.0,0.0,3,0,5,False,-0.0833,4,3
@@ -1515,7 +1519,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,103b,иммунитет солдат и силовиков за действия на службе,-0.25,0.0,0.0,5,0,0,False,-0.25,5,1
 ודם,The Joint Arab List,103b1,иммунитет солдат и полиции за действия на службе,-0.25,0.0,0.0,4,0,0,False,-0.25,4,1
 ודם,The Joint Arab List,103c,защита израильтян от международных судов,-0.5612,0.0,-0.3737,4,0,6,False,-0.1875,3,2
-ודם,The Joint Arab List,106,полномочия и автономия местного самоуправления,0.3467,0.2667,-0.0744,5,8,15,False,0.1544,36,21
+ודם,The Joint Arab List,106,полномочия и автономия местного самоуправления,0.271,0.2,-0.0932,5,3,13,False,0.1642,35,16
 ודם,The Joint Arab List,107,контроль и полномочия центра над местной властью,0.5101,1.0,-0.3233,5,11,15,False,-0.1667,13,11
 ודם,The Joint Arab List,108,финансовые ресурсы местных властей,-0.8919,-0.9333,0.0147,5,22,12,False,0.0267,42,18
 ודם,The Joint Arab List,109,перераспределение средств между местными властями,0.2436,0.8,-0.3564,5,7,4,False,-0.2,21,3
@@ -1526,7 +1530,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,114a,финансирование за выдвижение женщин,0.9071,0.8,0.0071,5,7,2,False,0.1,6,4
 ודם,The Joint Arab List,115,регулирование финансирования партий,0.1976,0.0,0.0726,4,0,4,False,0.125,2,2
 ודם,The Joint Arab List,116b,основания для отстранения списков и кандидатов от выборов,0.4333,0.0,0.1833,5,0,2,False,0.25,5,2
-ודם,The Joint Arab List,117,доступность голосования и избирательные права,-0.0265,0.0,0.0735,5,0,15,False,-0.1,10,7
+ודם,The Joint Arab List,117a,кто имеет право голоса,0.2951,0.0,0.2951,5,0,7,False,0.0,0,1
+ודם,The Joint Arab List,117b,доступность голосования вне дома,-0.2892,0.0,-0.1892,5,0,3,False,-0.1,10,5
 ודם,The Joint Arab List,119,ограничения предвыборной агитации,0.5839,0.8,-0.0494,5,5,7,False,-0.1667,8,5
 ודם,The Joint Arab List,12,права пациентов,0.9667,0.8,0.0,5,29,9,False,0.1667,18,15
 ודם,The Joint Arab List,120,полномочия избирательных органов,-0.6047,0.0,-0.3547,5,0,4,False,-0.25,10,2
@@ -1555,7 +1560,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,141,участие государства в экономике и СМИ,0.25,0.0,0.0,3,0,0,False,0.25,3,1
 ודם,The Joint Arab List,142,доступ публики к медиаконтенту,0.7476,0.7333,0.0818,5,17,4,False,-0.0675,194,16
 ודם,The Joint Arab List,143,защита животных,0.3918,0.2,0.0252,5,4,8,False,0.1667,11,11
-ודם,The Joint Arab List,144,экологическое регулирование,0.8171,0.8,-0.0488,5,44,16,False,0.066,50,31
+ודם,The Joint Arab List,144,экологическое регулирование,0.8171,0.8,-0.0488,5,43,16,False,0.066,50,30
 ודם,The Joint Arab List,146,защита частной жизни и персональных данных,0.9048,0.6,0.0632,5,6,29,False,0.2417,96,31
 ודם,The Joint Arab List,147,сбор и передача данных государственными органами,0.675,0.8,-0.0482,5,28,29,False,-0.0769,76,33
 ודם,The Joint Arab List,149,личная свобода и автономия,1.0846,0.7782,0.15,5,100,286,False,0.1564,435,135
@@ -1833,7 +1838,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",103b,иммунитет солдат и силовиков за действия на службе,0.0,0.0,0.0,5,0,5,False,0.0,0,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",103b1,иммунитет солдат и полиции за действия на службе,0.5,0.5,0.0,4,2,3,False,0.0,0,2
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",103c,защита израильтян от международных судов,-0.2515,0.0,-0.0015,5,0,1,False,-0.25,9,2
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",106,полномочия и автономия местного самоуправления,0.1224,0.1667,0.0678,6,4,23,False,-0.112,42,15
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",106,полномочия и автономия местного самоуправления,0.1398,0.1667,0.0738,6,4,21,False,-0.1007,36,12
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",107,контроль и полномочия центра над местной властью,0.8715,1.0,0.0424,6,12,12,False,-0.1708,17,8
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",108,финансовые ресурсы местных властей,-0.4191,-0.5556,0.0013,6,10,12,False,0.1351,51,17
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",109,перераспределение средств между местными властями,0.0162,0.0,0.0162,6,0,24,False,0.0,0,2
@@ -1846,7 +1851,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",115,регулирование финансирования партий,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",116a,избирательный порог и порог регистрации партий,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",116b,основания для отстранения списков и кандидатов от выборов,-0.6167,-0.6,-0.0167,5,4,7,False,0.0,0,4
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",117,доступность голосования и избирательные права,0.6839,0.6,-0.0111,5,5,3,False,0.095,39,10
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",117a,кто имеет право голоса,0.25,0.0,0.0,5,0,0,False,0.25,8,1
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",117b,доступность голосования вне дома,0.6539,0.6,-0.0078,5,5,3,False,0.0617,23,7
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",119,ограничения предвыборной агитации,0.6646,0.6667,-0.0021,6,5,18,False,0.0,0,6
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",12,права пациентов,1.0,1.0,0.0,5,12,1,False,0.0,6,7
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",120,полномочия избирательных органов,0.1454,0.3333,0.0204,6,2,11,False,-0.2083,8,3
@@ -2152,7 +2158,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 י,"Yisrael Techila, headed by Sharren Haskel",103a,иммунитет избранных лиц от уголовного преследования,-1.5715,-1.0,-0.3215,1,1,1,True,-0.25,1,3
 י,"Yisrael Techila, headed by Sharren Haskel",103b,иммунитет солдат и силовиков за действия на службе,0.0,0.0,0.0,1,0,1,True,0.0,0,1
 י,"Yisrael Techila, headed by Sharren Haskel",103c,защита израильтян от международных судов,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
-י,"Yisrael Techila, headed by Sharren Haskel",106,полномочия и автономия местного самоуправления,0.8387,1.0,-0.0541,1,4,3,True,-0.1071,7,11
+י,"Yisrael Techila, headed by Sharren Haskel",106,полномочия и автономия местного самоуправления,0.8395,1.0,-0.0534,1,4,3,True,-0.1071,7,11
 י,"Yisrael Techila, headed by Sharren Haskel",107,контроль и полномочия центра над местной властью,-0.1476,0.0,0.1024,1,0,1,True,-0.25,3,3
 י,"Yisrael Techila, headed by Sharren Haskel",108,финансовые ресурсы местных властей,-0.575,-1.0,0.175,1,1,3,True,0.25,2,4
 י,"Yisrael Techila, headed by Sharren Haskel",109,перераспределение средств между местными властями,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
@@ -2164,7 +2170,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 י,"Yisrael Techila, headed by Sharren Haskel",116,доступность участия партий в выборах,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 י,"Yisrael Techila, headed by Sharren Haskel",116a,избирательный порог и порог регистрации партий,-1.25,-1.0,0.0,1,1,0,True,-0.25,2,2
 י,"Yisrael Techila, headed by Sharren Haskel",116b,основания для отстранения списков и кандидатов от выборов,1.25,1.0,0.0,1,1,1,True,0.25,1,3
-י,"Yisrael Techila, headed by Sharren Haskel",117,доступность голосования и избирательные права,1.2751,1.0,0.0251,1,1,4,True,0.25,5,8
+י,"Yisrael Techila, headed by Sharren Haskel",117a,кто имеет право голоса,0.25,0.0,0.0,1,0,0,True,0.25,2,1
+י,"Yisrael Techila, headed by Sharren Haskel",117b,доступность голосования вне дома,1.2703,1.0,0.0203,1,1,3,True,0.25,3,6
 י,"Yisrael Techila, headed by Sharren Haskel",119,ограничения предвыборной агитации,-0.25,0.0,-0.0,1,2,4,True,-0.25,3,5
 י,"Yisrael Techila, headed by Sharren Haskel",12,права пациентов,1.0033,1.0,0.0033,1,1,4,True,0.0,0,4
 י,"Yisrael Techila, headed by Sharren Haskel",120,полномочия избирательных органов,-0.25,0.0,0.0,1,0,2,True,-0.25,1,2
@@ -2442,7 +2449,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",103a,иммунитет избранных лиц от уголовного преследования,-0.25,0.0,0.0,4,0,0,False,-0.25,5,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",103b,иммунитет солдат и силовиков за действия на службе,-0.25,0.0,0.0,3,0,0,False,-0.25,3,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",103c,защита израильтян от международных судов,0.1131,0.0,0.1131,2,0,2,True,0.0,0,1
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",106,полномочия и автономия местного самоуправления,0.2653,0.25,0.007,4,1,29,False,0.0083,14,14
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",106,полномочия и автономия местного самоуправления,0.294,0.25,0.0357,4,1,24,False,0.0083,14,12
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",107,контроль и полномочия центра над местной властью,0.3918,0.5,0.0793,4,2,7,False,-0.1875,6,6
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",108,финансовые ресурсы местных властей,-0.0619,0.0,-0.0202,4,2,11,False,-0.0417,10,11
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",109,перераспределение средств между местными властями,0.25,0.5,0.0,2,1,0,True,-0.25,2,2
@@ -2455,7 +2462,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",115,регулирование финансирования партий,-0.25,0.0,-0.0,2,2,2,True,-0.25,2,3
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",116,доступность участия партий в выборах,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",116b,основания для отстранения списков и кандидатов от выборов,-0.625,-0.75,0.0,4,3,0,False,0.125,2,2
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",117,доступность голосования и избирательные права,0.6426,0.6667,0.0592,3,4,16,False,-0.0833,1,8
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",117a,кто имеет право голоса,0.2625,0.0,0.2625,2,0,2,True,0.0,0,1
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",117b,доступность голосования вне дома,0.6438,0.6667,0.0605,3,4,13,False,-0.0833,1,6
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",119,ограничения предвыборной агитации,-0.0,0.25,-0.0,4,1,2,False,-0.25,14,5
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",12,права пациентов,0.6696,0.6667,0.003,3,2,5,False,0.0,0,5
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",120,полномочия избирательных органов,0.125,0.25,0.0,4,1,4,False,-0.125,2,3
@@ -2755,7 +2763,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",103b,иммунитет солдат и силовиков за действия на службе,-0.2083,0.0,0.0,6,0,1,False,-0.2083,5,1
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",103b1,иммунитет солдат и полиции за действия на службе,1.0,1.0,0.0,5,5,0,False,0.0,0,1
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",103c,защита израильтян от международных судов,1.1052,1.0,0.1052,6,18,8,False,0.0,2,3
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",106,полномочия и автономия местного самоуправления,1.0344,0.9429,0.0475,7,30,26,False,0.044,29,21
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",106,полномочия и автономия местного самоуправления,1.0382,0.9429,0.0489,7,28,22,False,0.0464,28,19
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",107,контроль и полномочия центра над местной властью,0.2844,0.4583,0.0761,8,24,13,False,-0.25,15,7
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",108,финансовые ресурсы местных властей,-0.0736,-0.123,0.0859,8,38,23,False,-0.0365,18,20
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",109,перераспределение средств между местными властями,-0.1667,0.0,0.0,3,0,6,False,-0.1667,2,2
@@ -2767,7 +2775,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",115,регулирование финансирования партий,0.5714,0.7143,-0.0,7,5,4,False,-0.1429,5,3
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",116,доступность участия партий в выборах,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",116b,основания для отстранения списков и кандидатов от выборов,-0.0312,0.0,0.0,8,0,1,False,-0.0312,9,2
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",117,доступность голосования и избирательные права,0.0547,0.0251,-0.0865,7,49,29,False,0.1161,11,14
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",117a,кто имеет право голоса,-0.6291,-0.5,-0.1708,6,25,10,False,0.0417,1,3
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",117b,доступность голосования вне дома,0.8977,0.8571,0.0334,7,14,11,False,0.0071,5,6
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",119,ограничения предвыборной агитации,0.0937,0.25,-0.0,8,10,9,False,-0.1562,15,8
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",12,права пациентов,0.0658,0.0,0.0033,4,0,7,False,0.0625,1,5
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",120,полномочия избирательных органов,0.8929,0.8571,0.0,7,9,9,False,0.0357,10,3
@@ -3082,7 +3091,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",103b2,полномочия силовиков в отношении граждан,1.0,1.0,0.0,8,8,0,False,0.0,0,1
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",103c,защита израильтян от международных судов,-0.1532,0.08,-0.0032,25,2,11,False,-0.23,35,2
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",105,государственная охрана выборных лиц,-1.0,-1.0,0.0,1,1,0,True,0.0,0,1
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",106,полномочия и автономия местного самоуправления,0.2417,0.2604,0.0349,32,43,99,False,-0.0537,205,30
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",106,полномочия и автономия местного самоуправления,0.289,0.3021,0.0307,32,38,91,False,-0.0437,187,24
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",107,контроль и полномочия центра над местной властью,0.3423,0.4839,0.0597,31,31,53,False,-0.2013,86,18
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",108,финансовые ресурсы местных властей,-0.1991,-0.3202,0.0065,33,75,78,False,0.1146,223,36
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",109,перераспределение средств между местными властями,0.157,0.1429,0.023,28,4,94,False,-0.0089,1,5
@@ -3097,7 +3106,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",116,доступность участия партий в выборах,1.0,1.0,0.0,2,2,0,True,0.0,0,2
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",116a,избирательный порог и порог регистрации партий,-0.5833,-0.5556,0.0,9,8,6,False,-0.0278,2,5
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",116b,основания для отстранения списков и кандидатов от выборов,-0.2077,-0.1935,-0.0141,31,11,34,False,0.0,2,5
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",117,доступность голосования и избирательные права,0.2758,0.2222,-0.0,27,8,13,False,0.0537,159,13
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",117a,кто имеет право голоса,0.25,0.0,0.0,19,0,0,False,0.25,34,1
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",117b,доступность голосования вне дома,0.2253,0.1852,0.0005,27,7,11,False,0.0397,98,9
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",119,ограничения предвыборной агитации,0.1578,0.1771,-0.0037,32,11,106,False,-0.0156,16,9
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",12,права пациентов,0.1934,0.1818,0.0002,22,12,32,False,0.0114,20,16
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",120,полномочия избирательных органов,-0.0426,0.0968,0.0219,31,6,51,False,-0.1613,29,3
@@ -3414,7 +3424,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",103,защита должностных лиц от преследования,1.25,1.0,0.0,1,1,0,True,0.25,1,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",103a,иммунитет избранных лиц от уголовного преследования,1.0326,1.0,0.0326,1,1,1,True,0.0,0,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",103b1,иммунитет солдат и полиции за действия на службе,1.0,1.0,0.0,1,1,0,True,0.0,0,1
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",106,полномочия и автономия местного самоуправления,-0.3229,0.0,-0.2604,1,0,3,True,-0.0625,8,6
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",106,полномочия и автономия местного самоуправления,-0.3163,0.0,-0.2538,1,0,3,True,-0.0625,8,6
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",107,контроль и полномочия центра над местной властью,0.9638,1.0,0.0472,1,1,2,True,-0.0833,3,4
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",108,финансовые ресурсы местных властей,-0.8125,-1.0,0.0,1,2,0,True,0.1875,8,4
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",109,перераспределение средств между местными властями,0.0136,0.0,0.0136,1,0,4,True,0.0,0,2
@@ -3425,7 +3435,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",114a,финансирование за выдвижение женщин,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",116a,избирательный порог и порог регистрации партий,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",116b,основания для отстранения списков и кандидатов от выборов,-0.0208,0.0,-0.0208,1,0,2,True,0.0,0,2
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",117,доступность голосования и избирательные права,-0.0463,0.0,0.0787,1,0,2,True,-0.125,4,6
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",117a,кто имеет право голоса,0.1134,0.0,0.1134,1,0,1,True,0.0,0,1
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",117b,доступность голосования вне дома,-0.1584,0.0,0.0916,1,0,1,True,-0.25,2,3
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",119,ограничения предвыборной агитации,0.0424,0.0,0.0424,1,0,2,True,0.0,0,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",12,права пациентов,0.75,1.0,0.0,1,1,0,True,-0.25,1,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",120,полномочия избирательных органов,-0.2217,0.0,0.0283,1,0,2,True,-0.25,1,2
@@ -3692,7 +3703,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",103b,иммунитет солдат и силовиков за действия на службе,-0.25,0.0,0.0,5,0,0,False,-0.25,5,1
 עם,"Ra’am, the United Arab List",103b1,иммунитет солдат и полиции за действия на службе,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
 עם,"Ra’am, the United Arab List",103c,защита израильтян от международных судов,-0.3237,0.0,-0.2737,5,0,7,False,-0.05,1,2
-עם,"Ra’am, the United Arab List",106,полномочия и автономия местного самоуправления,0.7952,0.7222,0.016,6,11,17,False,0.0569,24,19
+עם,"Ra’am, the United Arab List",106,полномочия и автономия местного самоуправления,0.9208,0.8333,0.0305,6,10,14,False,0.0569,24,16
 עם,"Ra’am, the United Arab List",107,контроль и полномочия центра над местной властью,0.4735,0.8333,-0.1515,6,24,8,False,-0.2083,14,7
 עם,"Ra’am, the United Arab List",108,финансовые ресурсы местных властей,-0.8047,-0.8333,0.0648,6,8,15,False,-0.0361,16,11
 עם,"Ra’am, the United Arab List",109,перераспределение средств между местными властями,-0.25,0.0,0.0,6,0,0,False,-0.25,27,2
@@ -3704,7 +3715,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",115,регулирование финансирования партий,-0.2,0.0,-0.0,5,0,5,False,-0.2,8,2
 עם,"Ra’am, the United Arab List",116a,избирательный порог и порог регистрации партий,0.9,0.8,0.0,5,8,0,False,0.1,3,4
 עם,"Ra’am, the United Arab List",116b,основания для отстранения списков и кандидатов от выборов,0.25,0.0,0.0,6,0,0,False,0.25,9,2
-עם,"Ra’am, the United Arab List",117,доступность голосования и избирательные права,0.7508,0.8333,0.0425,6,14,24,False,-0.125,3,14
+עם,"Ra’am, the United Arab List",117a,кто имеет право голоса,0.2951,0.0,0.2951,3,0,5,False,0.0,0,1
+עם,"Ra’am, the United Arab List",117b,доступность голосования вне дома,0.5629,0.8,-0.0871,5,10,13,False,-0.15,3,10
 עם,"Ra’am, the United Arab List",119,ограничения предвыборной агитации,0.4778,0.6667,-0.0,6,7,5,False,-0.1889,21,6
 עם,"Ra’am, the United Arab List",12,права пациентов,0.6002,0.5,0.003,6,7,16,False,0.0972,9,11
 עם,"Ra’am, the United Arab List",120,полномочия избирательных органов,-0.2222,0.0,0.0,6,0,2,False,-0.2222,13,4
@@ -4010,7 +4022,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",103b,иммунитет солдат и силовиков за действия на службе,-0.25,0.0,0.0,12,0,0,False,-0.25,12,1
 רק,"Be’Yahad, headed by Naftali Bennett",103b1,иммунитет солдат и полиции за действия на службе,0.25,0.0,0.0,1,0,0,True,0.25,1,1
 רק,"Be’Yahad, headed by Naftali Bennett",103c,защита израильтян от международных судов,0.1263,0.0,0.1263,10,0,10,False,0.0,0,1
-רק,"Be’Yahad, headed by Naftali Bennett",106,полномочия и автономия местного самоуправления,0.8984,0.7619,0.0338,14,43,81,False,0.1027,82,24
+רק,"Be’Yahad, headed by Naftali Bennett",106,полномочия и автономия местного самоуправления,0.9246,0.7857,0.0363,14,36,69,False,0.1027,82,21
 רק,"Be’Yahad, headed by Naftali Bennett",107,контроль и полномочия центра над местной властью,-0.5664,-0.4738,0.1015,14,27,17,False,-0.194,39,13
 רק,"Be’Yahad, headed by Naftali Bennett",108,финансовые ресурсы местных властей,-0.4149,-0.3714,0.0032,14,26,52,False,-0.0466,58,21
 רק,"Be’Yahad, headed by Naftali Bennett",109,перераспределение средств между местными властями,-0.25,0.0,0.0,13,0,0,False,-0.25,55,2
@@ -4024,7 +4036,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",116,доступность участия партий в выборах,-1.0,-1.0,0.0,5,5,0,False,0.0,0,1
 רק,"Be’Yahad, headed by Naftali Bennett",116a,избирательный порог и порог регистрации партий,-0.625,-0.5,0.0,2,2,0,True,-0.125,2,3
 רק,"Be’Yahad, headed by Naftali Bennett",116b,основания для отстранения списков и кандидатов от выборов,0.25,0.0,0.0,13,0,0,False,0.25,20,2
-רק,"Be’Yahad, headed by Naftali Bennett",117,доступность голосования и избирательные права,0.0681,0.1429,-0.0518,14,7,73,False,-0.023,19,12
+רק,"Be’Yahad, headed by Naftali Bennett",117a,кто имеет право голоса,-0.2049,0.0,-0.2049,13,0,18,False,0.0,0,1
+רק,"Be’Yahad, headed by Naftali Bennett",117b,доступность голосования вне дома,0.0977,0.0769,0.0688,13,1,43,False,-0.0481,15,7
 רק,"Be’Yahad, headed by Naftali Bennett",119,ограничения предвыборной агитации,0.5192,0.7692,-0.0,13,20,9,False,-0.25,56,10
 רק,"Be’Yahad, headed by Naftali Bennett",12,права пациентов,0.7525,0.6429,0.0025,14,18,31,False,0.1071,17,15
 רק,"Be’Yahad, headed by Naftali Bennett",120,полномочия избирательных органов,-0.141,0.0769,0.0,13,1,21,False,-0.2179,23,4
@@ -4344,7 +4357,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",103b,иммунитет солдат и силовиков за действия на службе,0.0,0.0,0.0,8,0,8,False,0.0,0,1
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",103b1,иммунитет солдат и полиции за действия на службе,0.625,0.625,0.0,8,5,4,False,0.0,0,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",103c,защита израильтян от международных судов,-0.2345,0.0,0.0155,9,0,6,False,-0.25,14,2
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",106,полномочия и автономия местного самоуправления,0.19,0.25,-0.0916,12,15,60,False,0.0315,92,23
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",106,полномочия и автономия местного самоуправления,0.381,0.4167,-0.1026,12,11,55,False,0.0669,81,17
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",107,контроль и полномочия центра над местной властью,0.3636,0.5,-0.1156,12,13,22,False,-0.0208,42,14
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",108,финансовые ресурсы местных властей,-0.9094,-0.9282,-0.136,12,52,26,False,0.1548,127,28
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",109,перераспределение средств между местными властями,0.3552,0.3333,0.0219,12,7,49,False,0.0,0,3
@@ -4356,7 +4369,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",115,регулирование финансирования партий,-0.1391,0.0,0.0484,8,0,4,False,-0.1875,6,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",116a,избирательный порог и порог регистрации партий,0.0,0.0,0.0,3,0,6,False,0.0,0,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",116b,основания для отстранения списков и кандидатов от выборов,-0.1098,-0.0909,-0.0189,11,1,15,False,0.0,0,2
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",117,доступность голосования и избирательные права,0.2807,0.1818,0.0565,11,2,13,False,0.0424,59,9
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",117a,кто имеет право голоса,0.4218,0.1818,0.0809,11,2,8,False,0.1591,7,2
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",117b,доступность голосования вне дома,0.0533,0.0,0.0097,8,0,5,False,0.0436,38,5
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",119,ограничения предвыборной агитации,0.5626,0.6667,0.021,12,10,44,False,-0.125,6,7
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",12,права пациентов,0.6375,0.6,0.0,10,12,18,False,0.0375,17,13
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",120,полномочия избирательных органов,-0.0678,0.0909,0.0232,11,1,21,False,-0.1818,15,3
