@@ -694,8 +694,10 @@ a {
   background: var(--color-bg);
 }
 
-/* Bottom buttons that stick over scrolling content: the content fades out instead of being cut by a hard edge. Over
-   empty space (when everything fits) the fade is white on white and invisible. */
+/* Bottom buttons that stick over scrolling content: the content fades out instead of being cut by a hard edge. Only
+   while the page scrolls: when everything fits, a card ending just above the buttons stays crisp (customer 2026-10-19).
+   A scroll-driven animation is active only on a scrollable page; where it is not supported (Safari ≤ 18) the animation
+   simply runs and the fade is always there, white on white over empty space. */
 .bottom-bar::before,
 .start .sticky-actions::before {
   content: '';
@@ -705,6 +707,16 @@ a {
   height: var(--cta-fade);
   background: linear-gradient(to bottom, transparent, var(--color-bg));
   pointer-events: none;
+  opacity: 0;
+  animation: cta-fade-on linear both;
+  animation-timeline: scroll(root);
+}
+
+@keyframes cta-fade-on {
+  from,
+  to {
+    opacity: 1;
+  }
 }
 
 .round-btn {

@@ -222,8 +222,10 @@ starts below ~750 px.
 ### Bottom buttons — two kinds
 - **Primary bottom group** (the screen's main action, the screen is built around it): `position: sticky; bottom: 0`,
   white background, 32 px white fade above (`::before`, `--cta-fade`), padding `12` on top and `16 + safe area` below,
-  negative bottom margin of the safe area. It only visibly sticks when the content does not fit; over empty space the
-  fade is white on white. Use `BottomBar` or `.sticky-actions` with these rules.
+  negative bottom margin of the safe area. It only visibly sticks when the content does not fit. The fade shows only
+  while the page scrolls (scroll-driven animation on `scroll(root)`; customer 2026-10-19: a card that fits stays crisp
+  even right above the buttons); Safari ≤ 18 has no scroll timelines — there it is always on, white on white over empty
+  space. Use `BottomBar` or `.sticky-actions` with these rules.
 - **Actions at the end of a long scrolling list** (read first, act after): not sticky — they would permanently cover
   part of the list. They sit after the content with the normal screen gap (customer 2026-10-17).
 
