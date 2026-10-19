@@ -214,3 +214,7 @@ label check q8,8,185b,2219664,main,not about,borderline,,not_about,removed (2 of
 label check q19,19,255a,2190881,main,not about,borderline,,borderline,kept (majority not «not about»)
 label check q19,19,255a,2203614,main,not about,borderline,,borderline,kept (majority not «not about»)
 label check q19,19,255a,2195684,main,not about,borderline,,borderline,kept (majority not «not about»)
+label check q2,2,166,2157795,main,not about,borderline,"Repeals Golan Heights Law, returning annexed Golan to occupied status; anti-annexation, but Golan, not Judea and Samaria.",borderline,kept (majority not «not about»)
+label check q2,2,166,2198334,main,not about,borderline,"Repeals Golan Heights Law, returning annexed Golan to occupied status; anti-annexation, but Golan, not Judea and Samaria.",borderline,kept (majority not «not about»)
+label check q2,2,166,2158715,main,not about,borderline,"Repeals Golan Heights Law, returning annexed Golan to occupied status; anti-annexation, but Golan, not Judea and Samaria.",borderline,kept (majority not «not about»)
+label check q2,2,166,2235027,main,not about,borderline,"Extends Israeli law, jurisdiction and administration to Syrian areas held in 1973-74; annexation, but outside Judea and Samaria.",borderline,kept (majority not «not about»)

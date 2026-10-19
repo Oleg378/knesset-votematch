@@ -1,0 +1,7 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason,kind,cid
+2,166,הצעת חוק רמת הגולן (תיקון - ביטול החוק),2157795 2198334 2158715,−,main,2157795,F1-19,not_about,,"Golan Heights annexation repeal; different territory, not West Bank",candidate,C1
+2,166,"הצעת חוק בקעת הירדן, צפון ים המלח ומדבר יהודה",2156601,+,main,2156601,F1-31,about,+,Applies Israeli law to Jordan Valley and Judean Desert,control,C2
+2,166,הצעת חוק רמת הגולן (תיקון - החלת ריבונות על אזורים שהיו בשליטת ישראל בסיום מלחמת יום הכיפורים),2235027,+,main,2235027,F1-48,not_about,,Expands Golan sovereignty into Syrian areas; not West Bank,candidate,C3
+2,166,הצעת חוק העונשין (תיקון מס' 147) (תחולת הדין הישראלי על עבירות חוץ שנעברה בידי אזרח ישראלי או תושב ישראל),2195429,+,main,2195429,F1-16,not_about,,Extraterritorial criminal jurisdiction over citizens abroad; not territorial sovereignty,candidate,C4
+2,166,הצעת חוק האזורים הימיים,2223639,+,main,2223639,F1-20,not_about,,Maritime economic zones regulation; unrelated to West Bank,candidate,C5
+2,166,הצעת חוק החלת הריבונות של מדינת ישראל בחבלי יהודה והשומרון,2196153 2196858 2230789 2228412 2165950 2156405 2156362 2230425 2164496 2203414 2190587 2202971 2163382,+,main,2196153,F1-10,about,+,Applies sovereignty over Judea and Samaria regions,control,C6

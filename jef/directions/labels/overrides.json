@@ -3214,6 +3214,22 @@
     "role": "secondary",
     "source": "label check q92 (2026-10-19): two blind checks «not about»",
     "reason": "Municipal property tax discount for disabled; not benefit eligibility"
+   },
+   {
+    "bill_id": "2195429",
+    "d": "166",
+    "q": "2",
+    "role": "main",
+    "source": "label check q2 (2026-10-19): two blind checks «not about»",
+    "reason": "Extraterritorial criminal jurisdiction over citizens abroad; not territorial sovereignty"
+   },
+   {
+    "bill_id": "2223639",
+    "d": "166",
+    "q": "2",
+    "role": "main",
+    "source": "label check q2 (2026-10-19): two blind checks «not about»",
+    "reason": "Maritime economic zones regulation; unrelated to West Bank"
    }
   ]
  },
