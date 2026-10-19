@@ -5,7 +5,7 @@ import { ExternalLink } from '../components/ExternalLink';
 import { HebrewTitle } from '../components/HebrewTitle';
 import { billUrl } from '../engine/report';
 import type { BillRef, QuizBills, QuizData, Statement } from '../engine/types';
-import { S } from '../strings';
+import { S, type MethodNumbers } from '../strings';
 import type { BillsScreenProps } from './types';
 
 const PAGE = 20;
@@ -61,6 +61,13 @@ function StatementBody({ data, bills, st, names }: { data: QuizData; bills: Quiz
   );
 }
 
+function methodNumbers(data: QuizData): MethodNumbers {
+  const evaluated = data.lists.filter((l) => l.status !== 'not_evaluated');
+  const evaluable = evaluated.filter((l) => l.ex_mks >= data.params.MIN_EX_MKS).length;
+  return { lists: data.lists.length, evaluable, single: evaluated.length - evaluable,
+    noRecord: data.lists.length - evaluated.length, close: data.params.CLOSE };
+}
+
 export function MethodologyScreen({ data, bills, dispatch }: BillsScreenProps) {
   const names = new Map(data.lists.map((l) => [l.id, l.name_en]));
   return (
@@ -70,8 +77,24 @@ export function MethodologyScreen({ data, bills, dispatch }: BillsScreenProps) {
       </Button>
       <h1 className="title-lg">{M.heading}</h1>
       <div className="stack-lg">
-        {M.paragraphs.map((p, i) => (
-          <p key={i}>{p}</p>
+        {M.sections(methodNumbers(data)).map((s) => (
+          <div key={s.title} className="stack">
+            {s.text !== undefined && (
+              <p>
+                <strong>{s.title}</strong> {s.text}
+              </p>
+            )}
+            {s.text === undefined && <p><strong>{s.title}</strong></p>}
+            {s.bullets && (
+              <ul className="method-bullets">
+                {s.bullets.map(([lead, text]) => (
+                  <li key={lead}>
+                    <em>{lead}</em> {text}
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
         ))}
       </div>
       <h2 className="title-md">{M.statementsHeading(data.statements.length)}</h2>

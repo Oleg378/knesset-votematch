@@ -77,6 +77,11 @@ export function evidence(bills: QuizBills, listId: string, q: Statement, u: numb
     .map((x) => x.ev);
 }
 
+/** quiz_report.is_clear: one rule for «the list has a clear position». */
+export function isClear(params: Params, p: number, nMk: number, nNames: number): boolean {
+  return Math.abs(p) >= params.CLOSE && nMk >= params.MIN_CLEAR_MKS && nNames >= params.MIN_CLEAR_BILLS;
+}
+
 export interface Explanation {
   lines: string[];
   evidence: Evidence[];
@@ -90,17 +95,19 @@ export function explain(data: QuizData, bills: QuizBills, listId: string, q: Sta
   const nSame = ev.filter((e) => e.same).length;
   const nOpp = ev.length - nSame;
   const pos = list.positions[q.d];
-  const nVotes = pos?.n_votes ?? 0;
-  const close = Math.abs(p) < data.params.CLOSE;
-  const side = close ? T.sideNoClear : p * q.key > 0 ? T.sideFor : T.sideAgainst;
+  const close = !isClear(data.params, p, pos?.n_mk ?? 0, pos?.n_names ?? 0);
+  const toward = !close && p * q.key > 0;
+  const side = close ? T.sideNoClear : toward ? T.sideFor : T.sideAgainst;
+  const votes = T.votes(pos?.n_votes ?? 0, pos?.n_other ?? 0);
   const lines = [
     T.quote(q.statement_en),
     T.answer(ANS[a], side),
-    ev.length ? T.basis(ev.length, nSame, nOpp, nVotes) : T.basisVotesOnly(nVotes),
+    ev.length ? T.basis(ev.length, nSame, nOpp, votes) : T.basisVotesOnly(votes),
   ];
   if ((mult[q.q] ?? 1) !== 1) lines.push(T.weight);
   // The list's own bills give nothing or the other side: its side comes from the votes.
   const byVotes = ev.length > 0 && !!pos && (Math.abs(pos.P_bills) <= EPS || (pos.P_bills > 0) !== (pos.P > 0));
   if (!close && byVotes) lines.push(T.caveatByVotes);
+  if (toward) lines.push(T.caveatPrice);
   return { lines, evidence: ev };
 }

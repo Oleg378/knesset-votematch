@@ -74,3 +74,11 @@ Results and list details: show closeness with one decimal (`+0.8`, not `+0.83`).
 (from the unrounded values); equal rounded values next to each other are expected and fine. Reason: the data and the analysis do not
 support more precision (limitations — `export/V2_HANDOFF.md` §6, «Limitations»). The intro line may say «about as close» for equal
 values; no other change.
+
+**Web, 2026-10-18: #8–#11 done.** #9 — ranking needs `ex_mks >= params.MIN_EX_MKS`; «clear position» = `is_clear`
+(`CLOSE`, `MIN_CLEAR_MKS`, `MIN_CLEAR_BILLS`, `n_names`); lines 2/3/5/6 as in quiz_report; with K = 0 the list value is
+exactly P (as `list_vec`: `P·e/e` lost the last bit and swapped a tie in «random 6»). golden.v2 passes. #10 — the §6 texts
+are on Methodology; list counts and CLOSE are taken from the export. #11 — closeness `+.1f`; intro adds «Lists with the
+same value are about as close.»
+Questions to the data side: (1) #10 says `params.CLOSE` is now 0.3, but the export, quiz_report and §6 say 0.2 — the web
+uses the export (0.2); please fix #10. (2) #8 says 78 statements, the export has 76.

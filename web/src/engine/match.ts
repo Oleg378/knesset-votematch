@@ -6,7 +6,7 @@ import { pyPercent0 } from './format';
 import type { Answers, ListStatus, Mult, QuizData, QuizList, TradePair } from './types';
 import { noteFewMks, noteLowCoverage, noteNoRecord, NOTE_JOIN } from '../strings';
 
-/** Statement q -> shrunk list value p = P * e / (e + K); only statements whose direction has a position. */
+/** Statement q -> list value p = P (K = 0) or P * e / (e + K); only statements whose direction has a position. */
 export type ListVec = Map<string, number>;
 
 const vecCache = new WeakMap<QuizData, Map<string, ListVec>>();
@@ -23,7 +23,7 @@ export function listVec(data: QuizData, list: QuizList): ListVec {
   const v: ListVec = new Map();
   for (const r of data.statements) {
     const x = list.positions[r.d];
-    if (x) v.set(r.q, (x.P * x.e) / (x.e + k));
+    if (x) v.set(r.q, k === 0 ? x.P : (x.P * x.e) / (x.e + k)); // K = 0: exactly P (P·e/e can lose the last bit)
   }
   byList.set(list.id, v);
   return v;
@@ -67,7 +67,7 @@ export interface MatchRow {
 }
 
 export function match(data: QuizData, answers: Answers, mult: Mult = {}): MatchRow[] {
-  const minCov = data.params.MIN_COVERAGE;
+  const { MIN_COVERAGE: minCov, MIN_EX_MKS: minMks } = data.params;
   const rows: MatchRow[] = data.lists.map((l) => {
     if (l.status === 'not_evaluated') {
       return { id: l.id, name_en: l.name_en, status: l.status, evaluated: false, closeness: null, coverage: 0,
@@ -78,7 +78,7 @@ export function match(data: QuizData, answers: Answers, mult: Mult = {}): MatchR
     if (cv < minCov) note = (note ? note + NOTE_JOIN : '') + noteLowCoverage(pyPercent0(cv));
     const finite = !Number.isNaN(cos);
     return { id: l.id, name_en: l.name_en, status: l.status, evaluated: true, closeness: finite ? cos : null,
-      coverage: cv, note, ranked: finite && cv >= minCov };
+      coverage: cv, note, ranked: finite && cv >= minCov && l.ex_mks >= minMks };
   });
   // key (not ranked, closeness is None, -(closeness if ranked else 0)); Array.prototype.sort is stable (lists order).
   const key = (r: MatchRow): [number, number, number] => [r.ranked ? 0 : 1, r.evaluated ? 0 : 1,

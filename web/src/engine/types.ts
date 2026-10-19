@@ -10,13 +10,17 @@ export type ListStatus = 'ok' | 'warning' | 'not_evaluated';
 export interface Params {
   K: number;
   MIN_COVERAGE: number;
+  /** A list ranks only with at least this many former MKs (otherwise «Not ranked» with its note). */
+  MIN_EX_MKS: number;
   MAX_TRADE: number;
   TRADE_TOP: number;
   TRADE_W: number;
   TRADE_CANDIDATES: number;
   VOTE_WEIGHT: number;
-  /** |p| below it: «has no clear position on this statement». */
+  /** A position is clear when |p| >= CLOSE, n_mk >= MIN_CLEAR_MKS and n_names >= MIN_CLEAR_BILLS. */
   CLOSE: number;
+  MIN_CLEAR_MKS: number;
+  MIN_CLEAR_BILLS: number;
   /** Bill page; `{id}` is replaced with the bill id. */
   BILL_URL: string;
 }
@@ -30,6 +34,8 @@ export interface Flow {
   core_gov_share: number;
   gov_r: number;
   clarify_top: number;
+  /** false: a statement on which every clear list position is on one side is not in the core (precomputed in `core`). */
+  core_one_sided: boolean;
   /** null: a fixed number of clarifying questions; a number: the optional stopping rule. */
   stop_gap: number | null;
   min_questions: number;
@@ -58,6 +64,10 @@ export interface Position {
   e: number;
   n_mk: number;
   n_votes: number;
+  /** Votes on the other camp's bills. */
+  n_other: number;
+  /** Distinct bills (by name, sponsored or voted) behind the position. */
+  n_names: number;
 }
 
 export interface QuizList {
