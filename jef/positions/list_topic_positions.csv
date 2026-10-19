@@ -35,7 +35,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",12b,услуги больничных касс пациентам,0.5648,0.6667,0.0,9,12,5,False,-0.1019,13,13
 אמת,"HaDemocratim, headed by Yair Golan",12c,еда в больницах в Песах,0.25,0.0,0.0,9,0,0,False,0.25,18,2
 אמת,"HaDemocratim, headed by Yair Golan",130,режим чрезвычайного положения,1.0,1.0,0.0,2,3,1,True,0.0,4,6
-אמת,"HaDemocratim, headed by Yair Golan",130a,льготы гражданам в войну и чрезвычайное положение,-0.0563,0.1111,0.0131,9,1,2,False,-0.1806,26,9
+אמת,"HaDemocratim, headed by Yair Golan",130a,льготы гражданам в войну и чрезвычайное положение,-0.0548,0.1111,0.0146,9,1,2,False,-0.1806,26,9
 אמת,"HaDemocratim, headed by Yair Golan",130b1,послабления по возвращённым чекам в чрезвычайной ситуации,-0.25,0.0,0.0,8,0,0,False,-0.25,8,1
 אמת,"HaDemocratim, headed by Yair Golan",130b2,"законы и полномочия, привязанные к чрезвычайному положению",-0.4814,-0.25,0.0,8,2,0,False,-0.2314,41,14
 אמת,"HaDemocratim, headed by Yair Golan",132,продолжительность установленных законом сроков процедур,0.5189,0.4187,0.0072,11,72,92,False,0.0931,137,72
@@ -184,7 +184,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",277,адресность и ограничения получения пособий,-0.1775,-0.1243,0.0275,10,26,34,False,-0.0807,63,33
 אמת,"HaDemocratim, headed by Yair Golan",277a,лишение пособий и прав как санкция,-0.2856,0.0,-0.0356,10,0,1,False,-0.25,31,5
 אמת,"HaDemocratim, headed by Yair Golan",277b,"пособия по инвалидности, уходу и болезни",0.2,0.4,0.0,10,6,1,False,-0.2,10,9
-אמת,"HaDemocratim, headed by Yair Golan",277c,"пособия при беременности, на детей и родителям",1.0124,1.0,0.0124,6,7,2,False,0.0,0,8
+אמת,"HaDemocratim, headed by Yair Golan",277c,"пособия при беременности, на детей и родителям",1.0,1.0,0.0,6,7,0,False,0.0,0,6
 אמת,"HaDemocratim, headed by Yair Golan",277d,пособия по безработице и для молодых работников,0.4396,0.4,-0.0003,10,7,36,False,0.0399,40,11
 אמת,"HaDemocratim, headed by Yair Golan",277e,пособия пожилым и пережившим Катастрофу,0.6,0.6,0.0,5,5,2,False,0.0,0,5
 אמת,"HaDemocratim, headed by Yair Golan",277f,"пособия семьям погибших, вдовам и сиротам",0.6286,0.5714,0.0,7,13,12,False,0.0571,10,14
@@ -311,7 +311,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",92,права и условия содержания заключённых и осуждённых,0.3611,0.1111,0.0,3,3,0,False,0.25,15,4
 אמת,"HaDemocratim, headed by Yair Golan",92a,смертная казнь за терроризм,0.281,0.0,0.031,10,0,2,False,0.25,51,5
 אמת,"HaDemocratim, headed by Yair Golan",92b,права и условия заключённых по безопасности,0.2767,0.0,0.0267,10,0,1,False,0.25,22,6
-אמת,"HaDemocratim, headed by Yair Golan",92c,права и условия обычных заключённых и задержанных,0.5458,0.5,0.0266,10,14,17,False,0.0192,31,15
+אמת,"HaDemocratim, headed by Yair Golan",92c,права и условия обычных заключённых и задержанных,0.3458,0.3,0.0266,10,11,17,False,0.0192,31,14
 אמת,"HaDemocratim, headed by Yair Golan",94,права и поддержка потерпевших от преступлений,0.9466,0.9091,0.0068,11,103,275,False,0.0307,97,106
 אמת,"HaDemocratim, headed by Yair Golan",95,ответственность государства и учреждений перед гражданами,0.3708,0.5,0.0,10,15,23,False,-0.1292,28,12
 אמת,"HaDemocratim, headed by Yair Golan",96,ответственность правонарушителей,0.6114,0.6623,0.0124,11,67,116,False,-0.0632,73,72
@@ -362,7 +362,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",12b,услуги больничных касс пациентам,0.683,0.6667,0.008,6,6,11,False,0.0083,19,17
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",12c,еда в больницах в Песах,-0.0377,0.0,-0.0377,1,0,2,True,0.0,0,2
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",130,режим чрезвычайного положения,0.35,0.6,0.0,5,5,2,False,-0.25,5,6
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",130a,льготы гражданам в войну и чрезвычайное положение,0.1584,0.2,0.0417,5,1,6,False,-0.0833,15,6
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",130a,льготы гражданам в войну и чрезвычайное положение,0.1682,0.2,0.0415,5,1,6,False,-0.0733,12,5
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",130b1,послабления по возвращённым чекам в чрезвычайной ситуации,0.0,0.0,0.0,1,0,1,True,0.0,0,1
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",130b2,"законы и полномочия, привязанные к чрезвычайному положению",0.125,0.0,0.0,4,0,0,False,0.125,8,5
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",132,продолжительность установленных законом сроков процедур,0.3195,0.2313,0.0377,6,27,40,False,0.0505,76,53
@@ -511,7 +511,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",277,адресность и ограничения получения пособий,0.034,0.2639,-0.089,6,16,30,False,-0.1409,27,30
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",277a,лишение пособий и прав как санкция,0.8094,0.6667,0.0039,6,6,29,False,0.1389,14,12
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",277b,"пособия по инвалидности, уходу и болезни",1.0,1.0,0.0,2,2,0,True,0.0,0,2
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",277c,"пособия при беременности, на детей и родителям",0.625,0.4,0.0,5,2,0,False,0.225,10,3
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",277c,"пособия при беременности, на детей и родителям",0.625,0.5,0.0,4,2,0,False,0.125,4,2
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",277d,пособия по безработице и для молодых работников,0.2393,0.0,-0.0107,1,0,4,True,0.25,1,5
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",277e,пособия пожилым и пережившим Катастрофу,0.875,1.0,0.0,2,2,0,True,-0.125,1,3
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",277f,"пособия семьям погибших, вдовам и сиротам",0.1667,0.2778,0.0,6,8,2,False,-0.1111,13,8
@@ -902,7 +902,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,12b,услуги больничных касс пациентам,0.7262,0.6667,0.0021,9,33,12,False,0.0574,26,21
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,12c,еда в больницах в Песах,-0.8377,-0.8,-0.0377,5,7,10,False,0.0,0,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,130,режим чрезвычайного положения,0.3333,0.5,0.0,6,4,0,False,-0.1667,4,4
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,130a,льготы гражданам в войну и чрезвычайное положение,-0.297,0.0,-0.1407,8,0,12,False,-0.1562,10,5
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,130a,льготы гражданам в войну и чрезвычайное положение,-0.2965,0.0,-0.1403,8,0,12,False,-0.1562,5,4
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,130b1,послабления по возвращённым чекам в чрезвычайной ситуации,0.0,0.0,0.0,3,0,3,False,0.0,0,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,130b2,"законы и полномочия, привязанные к чрезвычайному положению",0.1271,0.0,0.0504,7,0,2,False,0.0767,41,7
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,132,продолжительность установленных законом сроков процедур,0.1754,0.1693,0.0634,9,42,68,False,-0.0574,178,60
@@ -1050,7 +1050,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,277,адресность и ограничения получения пособий,-0.0674,0.0699,-0.0144,8,31,57,False,-0.1229,42,34
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,277a,лишение пособий и прав как санкция,0.5759,0.625,0.0259,8,6,27,False,-0.075,10,10
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,277b,"пособия по инвалидности, уходу и болезни",0.9167,0.8333,0.0,6,12,7,False,0.0833,2,8
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,277c,"пособия при беременности, на детей и родителям",0.8125,0.625,0.0,8,23,0,False,0.1875,9,10
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,277c,"пособия при беременности, на детей и родителям",0.7812,0.625,0.0,8,23,0,False,0.1562,7,9
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,277d,пособия по безработице и для молодых работников,0.9309,0.6,0.0809,5,16,29,False,0.25,7,10
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,277e,пособия пожилым и пережившим Катастрофу,0.4375,0.625,0.0,8,13,0,False,-0.1875,6,5
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,277f,"пособия семьям погибших, вдовам и сиротам",0.4896,0.625,0.0,8,12,4,False,-0.1354,11,8
@@ -1174,7 +1174,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,92,права и условия содержания заключённых и осуждённых,-0.1875,0.0,0.0,8,4,16,False,-0.1875,25,5
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,92a,смертная казнь за терроризм,0.5363,0.0,0.4363,5,0,38,False,0.1,4,3
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,92b,права и условия заключённых по безопасности,-0.5282,-0.5,-0.0303,8,4,8,False,0.0021,23,7
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,92c,права и условия обычных заключённых и задержанных,0.393,0.375,0.0024,8,5,8,False,0.0156,14,10
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,92c,права и условия обычных заключённых и задержанных,0.393,0.375,0.0024,8,4,8,False,0.0156,14,9
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,94,права и поддержка потерпевших от преступлений,0.521,0.6667,-0.0689,9,21,104,False,-0.0768,164,69
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,95,ответственность государства и учреждений перед гражданами,0.8214,0.7143,0.0,7,24,16,False,0.1071,3,11
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,96,ответственность правонарушителей,0.1982,0.4029,-0.1026,9,73,109,False,-0.1021,110,67
@@ -1228,7 +1228,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",12b,услуги больничных касс пациентам,0.1677,0.0,0.001,3,0,11,False,0.1667,5,11
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",12c,еда в больницах в Песах,0.25,0.0,0.0,1,0,0,True,0.25,2,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",130,режим чрезвычайного положения,0.3333,0.3333,0.0,3,1,2,False,0.0,3,5
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",130a,льготы гражданам в войну и чрезвычайное положение,0.4565,0.25,0.0601,4,1,10,False,0.1464,14,9
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",130a,льготы гражданам в войну и чрезвычайное положение,0.4626,0.25,0.0662,4,1,6,False,0.1464,14,8
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",130b1,послабления по возвращённым чекам в чрезвычайной ситуации,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",130b2,"законы и полномочия, привязанные к чрезвычайному положению",0.0597,0.0,0.0,4,0,0,False,0.0597,32,11
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",132,продолжительность установленных законом сроков процедур,0.5927,0.5,0.0117,4,2,32,False,0.081,79,50
@@ -1361,7 +1361,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",277,адресность и ограничения получения пособий,0.5841,0.75,0.0424,4,4,18,False,-0.2083,27,22
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",277a,лишение пособий и прав как санкция,0.514,0.25,0.0973,4,1,6,False,0.1667,17,9
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",277b,"пособия по инвалидности, уходу и болезни",-0.25,0.0,0.0,2,0,1,True,-0.25,2,2
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",277c,"пособия при беременности, на детей и родителям",-0.169,0.0,-0.169,2,0,3,True,0.0,0,2
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",277c,"пособия при беременности, на детей и родителям",-0.2547,0.0,-0.2547,1,0,2,True,0.0,0,1
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",277d,пособия по безработице и для молодых работников,0.1786,0.0,0.0,1,0,0,True,0.1786,7,4
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",277e,пособия пожилым и пережившим Катастрофу,0.0,0.0,0.0,3,0,3,False,0.0,0,1
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",277f,"пособия семьям погибших, вдовам и сиротам",0.0,0.0,0.0,4,3,11,False,0.0,0,7
@@ -1528,7 +1528,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,12b,услуги больничных касс пациентам,1.2,1.0,0.0,5,34,43,False,0.2,9,27
 ודם,The Joint Arab List,12c,еда в больницах в Песах,0.4623,0.0,0.4623,2,0,4,True,0.0,0,2
 ודם,The Joint Arab List,130,режим чрезвычайного положения,-0.5625,-0.75,0.0,4,3,0,False,0.1875,4,3
-ודם,The Joint Arab List,130a,льготы гражданам в войну и чрезвычайное положение,0.3736,0.2,-0.0264,5,7,7,False,0.2,24,15
+ודם,The Joint Arab List,130a,льготы гражданам в войну и чрезвычайное положение,0.3566,0.2,-0.0434,5,7,5,False,0.2,24,14
 ודם,The Joint Arab List,130b1,послабления по возвращённым чекам в чрезвычайной ситуации,0.25,0.25,0.0,4,2,4,False,0.0,0,2
 ודם,The Joint Arab List,130b2,"законы и полномочия, привязанные к чрезвычайному положению",-1.2816,-0.8,-0.2588,5,4,4,False,-0.2227,192,41
 ודם,The Joint Arab List,132,продолжительность установленных законом сроков процедур,0.4636,0.3583,0.1506,5,69,62,False,-0.0453,342,106
@@ -1674,7 +1674,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,277,адресность и ограничения получения пособий,-0.2857,-0.1403,-0.1122,5,26,45,False,-0.0332,60,30
 ודם,The Joint Arab List,277a,лишение пособий и прав как санкция,-0.6408,0.0,-0.3908,5,0,25,False,-0.25,31,9
 ודם,The Joint Arab List,277b,"пособия по инвалидности, уходу и болезни",1.0,1.0,0.0,5,27,8,False,0.0,0,14
-ודם,The Joint Arab List,277c,"пособия при беременности, на детей и родителям",1.0745,1.0,0.0745,4,22,12,False,0.0,0,10
+ודם,The Joint Arab List,277c,"пособия при беременности, на детей и родителям",1.2453,1.0,0.2453,4,22,10,False,0.0,0,9
 ודם,The Joint Arab List,277d,пособия по безработице и для молодых работников,1.1795,1.0,0.0914,5,23,29,False,0.0881,18,15
 ודם,The Joint Arab List,277e,пособия пожилым и пережившим Катастрофу,0.8125,0.75,0.0,4,3,1,False,0.0625,1,3
 ודם,The Joint Arab List,277f,"пособия семьям погибших, вдовам и сиротам",0.8,0.8,0.0,5,8,14,False,0.0,0,3
@@ -1797,7 +1797,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,92,права и условия содержания заключённых и осуждённых,-0.0451,-0.2,0.0,5,1,0,False,0.1549,54,7
 ודם,The Joint Arab List,92a,смертная казнь за терроризм,0.5156,0.0,0.2656,5,0,17,False,0.25,49,5
 ודם,The Joint Arab List,92b,права и условия заключённых по безопасности,0.498,0.0,0.248,5,0,12,False,0.25,51,13
-ודם,The Joint Arab List,92c,права и условия обычных заключённых и задержанных,1.0479,0.8,0.024,5,17,10,False,0.2239,82,26
+ודם,The Joint Arab List,92c,права и условия обычных заключённых и задержанных,0.9673,0.8,0.024,5,16,10,False,0.1433,82,25
 ודם,The Joint Arab List,94,права и поддержка потерпевших от преступлений,0.9769,1.0,-0.0895,5,85,165,False,0.0664,194,104
 ודם,The Joint Arab List,95,ответственность государства и учреждений перед гражданами,1.25,1.0,0.0,4,23,14,False,0.25,8,14
 ודם,The Joint Arab List,96,ответственность правонарушителей,-0.1078,0.1055,-0.2126,5,61,103,False,-0.0006,84,76
@@ -1845,7 +1845,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",12b,услуги больничных касс пациентам,0.8113,0.8333,0.0061,6,12,14,False,-0.0282,27,15
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",12c,еда в больницах в Песах,-0.0377,0.0,-0.0377,4,0,8,False,0.0,0,2
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",130,режим чрезвычайного положения,-0.05,0.2,0.0,5,1,0,False,-0.25,5,2
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",130a,льготы гражданам в войну и чрезвычайное положение,-0.1599,0.0,0.0484,6,0,9,False,-0.2083,13,5
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",130a,льготы гражданам в войну и чрезвычайное положение,-0.1602,0.0,0.0481,6,0,9,False,-0.2083,9,4
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",130b1,послабления по возвращённым чекам в чрезвычайной ситуации,0.0,0.0,0.0,3,0,3,False,0.0,0,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",130b2,"законы и полномочия, привязанные к чрезвычайному положению",0.0,0.2,0.0,5,1,0,False,-0.2,7,3
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",132,продолжительность установленных законом сроков процедур,0.1202,0.2718,-0.1189,6,29,28,False,-0.0328,125,49
@@ -1991,7 +1991,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",277,адресность и ограничения получения пособий,0.0467,0.2724,-0.0085,6,36,45,False,-0.2173,35,33
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",277a,лишение пособий и прав как санкция,0.8615,0.8333,0.0101,6,15,41,False,0.0181,15,12
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",277b,"пособия по инвалидности, уходу и болезни",1.0,1.0,0.0,3,3,2,False,0.0,0,3
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",277c,"пособия при беременности, на детей и родителям",0.65,0.4,0.0,5,6,0,False,0.25,7,6
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",277c,"пособия при беременности, на детей и родителям",0.65,0.4,0.0,5,5,0,False,0.25,5,5
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",277d,пособия по безработице и для молодых работников,0.2393,0.0,-0.0107,4,0,15,False,0.25,4,5
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",277e,пособия пожилым и пережившим Катастрофу,0.5,0.6667,0.0,3,2,0,False,-0.1667,2,2
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",277f,"пособия семьям погибших, вдовам и сиротам",-0.18,-0.08,0.0,5,8,1,False,-0.1,11,8
@@ -2158,7 +2158,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 י,"Yisrael Techila, headed by Sharren Haskel",12b,услуги больничных касс пациентам,0.75,1.0,0.0,1,1,0,True,-0.25,4,5
 י,"Yisrael Techila, headed by Sharren Haskel",12c,еда в больницах в Песах,0.25,0.0,0.0,1,0,0,True,0.25,2,2
 י,"Yisrael Techila, headed by Sharren Haskel",130,режим чрезвычайного положения,0.0,0.0,0.0,1,0,0,True,0.0,2,2
-י,"Yisrael Techila, headed by Sharren Haskel",130a,льготы гражданам в войну и чрезвычайное положение,-0.1843,0.0,0.0657,1,0,1,True,-0.25,3,4
+י,"Yisrael Techila, headed by Sharren Haskel",130a,льготы гражданам в войну и чрезвычайное положение,-0.182,0.0,0.068,1,0,1,True,-0.25,2,3
 י,"Yisrael Techila, headed by Sharren Haskel",130b2,"законы и полномочия, привязанные к чрезвычайному положению",0.25,0.0,0.0,1,0,0,True,0.25,6,2
 י,"Yisrael Techila, headed by Sharren Haskel",132,продолжительность установленных законом сроков процедур,0.7737,0.6667,-0.0874,1,6,9,True,0.1944,9,20
 י,"Yisrael Techila, headed by Sharren Haskel",133,сроки давности для требований граждан,1.25,1.0,0.0,1,1,3,True,0.25,3,6
@@ -2447,7 +2447,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",12b,услуги больничных касс пациентам,0.0588,0.0,0.0005,4,0,4,False,0.0583,11,7
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",12c,еда в больницах в Песах,0.25,0.0,0.0,2,0,0,True,0.25,4,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",130,режим чрезвычайного положения,0.7917,1.0,0.0,2,3,1,True,-0.2083,13,6
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",130a,льготы гражданам в войну и чрезвычайное положение,0.178,0.25,0.03,4,1,6,False,-0.1021,13,8
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",130a,льготы гражданам в войну и чрезвычайное положение,0.181,0.25,0.0331,4,1,4,False,-0.1021,13,7
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",130b1,послабления по возвращённым чекам в чрезвычайной ситуации,-0.25,0.0,0.0,2,0,0,True,-0.25,2,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",130b2,"законы и полномочия, привязанные к чрезвычайному положению",-0.0694,0.0,0.0,3,0,0,False,-0.0694,16,7
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",132,продолжительность установленных законом сроков процедур,0.3466,0.3036,0.0045,4,13,36,False,0.0385,85,49
@@ -2586,7 +2586,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",277,адресность и ограничения получения пособий,0.1561,0.2143,0.0164,4,10,19,False,-0.0746,27,27
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",277a,лишение пособий и прав как санкция,-0.0347,0.0,0.0653,4,0,6,False,-0.1,14,8
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",277b,"пособия по инвалидности, уходу и болезни",0.0625,0.0,0.0,4,0,1,False,0.0625,5,3
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",277c,"пособия при беременности, на детей и родителям",0.586,0.5,0.086,2,1,4,True,0.0,0,3
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",277c,"пособия при беременности, на детей и родителям",0.7786,0.5,0.2786,2,1,2,True,0.0,0,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",277d,пособия по безработице и для молодых работников,0.0414,0.0,-0.0003,2,0,7,True,0.0417,5,5
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",277e,пособия пожилым и пережившим Катастрофу,0.0,0.0,0.0,2,0,2,True,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",277f,"пособия семьям погибших, вдовам и сиротам",1.1875,1.0,0.0,4,4,9,False,0.1875,3,7
@@ -2757,7 +2757,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",12b,услуги больничных касс пациентам,0.77,0.75,0.0013,8,15,24,False,0.0188,16,21
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",12c,еда в больницах в Песах,0.25,0.0,0.0,3,0,0,False,0.25,6,2
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",130,режим чрезвычайного положения,1.0417,1.0,0.0,6,8,1,False,0.0417,8,5
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",130a,льготы гражданам в войну и чрезвычайное положение,0.6492,0.625,0.0309,8,5,7,False,-0.0066,29,15
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",130a,льготы гражданам в войну и чрезвычайное положение,0.6517,0.625,0.0333,8,5,7,False,-0.0066,28,14
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",130b1,послабления по возвращённым чекам в чрезвычайной ситуации,-0.25,0.0,0.0,3,0,0,False,-0.25,3,1
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",130b2,"законы и полномочия, привязанные к чрезвычайному положению",0.0432,0.0,0.0,5,0,0,False,0.0432,79,19
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",132,продолжительность установленных законом сроков процедур,0.5659,0.5036,0.0037,8,36,50,False,0.0587,179,70
@@ -2907,7 +2907,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",277,адресность и ограничения получения пособий,0.2328,0.2969,0.0745,8,58,29,False,-0.1387,57,37
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",277a,лишение пособий и прав как санкция,0.8149,0.75,0.0888,8,18,28,False,-0.024,29,12
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",277b,"пособия по инвалидности, уходу и болезни",0.75,0.8333,0.0,6,5,2,False,-0.0833,2,3
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",277c,"пособия при беременности, на детей и родителям",-0.4682,-0.3143,-0.1539,7,24,17,False,0.0,2,7
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",277c,"пособия при беременности, на детей и родителям",-0.4962,-0.3143,-0.1819,7,24,9,False,0.0,2,5
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",277d,пособия по безработице и для молодых работников,0.0208,0.0,0.0,4,0,0,False,0.0208,7,3
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",277e,пособия пожилым и пережившим Катастрофу,0.8571,0.8571,0.0,7,15,5,False,0.0,2,6
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",277f,"пособия семьям погибших, вдовам и сиротам",0.8889,0.8056,0.0,6,15,8,False,0.0833,8,11
@@ -3031,7 +3031,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",92,права и условия содержания заключённых и осуждённых,-0.3333,-0.2,0.0,5,1,5,False,-0.1333,7,3
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",92a,смертная казнь за терроризм,-0.8334,-0.5,-0.218,8,4,20,False,-0.1154,56,5
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",92b,права и условия заключённых по безопасности,-0.8824,-0.8571,-0.1674,7,21,12,False,0.1422,25,9
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",92c,права и условия обычных заключённых и задержанных,-0.6733,-0.625,-0.1369,8,20,13,False,0.0885,15,10
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",92c,права и условия обычных заключённых и задержанных,-0.6733,-0.625,-0.1369,8,15,13,False,0.0885,15,9
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",94,права и поддержка потерпевших от преступлений,1.0025,0.875,0.0359,8,153,141,False,0.0915,76,82
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",95,ответственность государства и учреждений перед гражданами,0.5,0.625,0.0,8,10,3,False,-0.125,7,7
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",96,ответственность правонарушителей,0.8234,0.7427,0.072,8,119,99,False,0.0088,51,68
@@ -3085,7 +3085,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",12b,услуги больничных касс пациентам,0.3177,0.4194,-0.0111,31,31,68,False,-0.0906,100,30
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",12c,еда в больницах в Песах,-0.0218,0.0,-0.0356,18,0,34,False,0.0139,2,2
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",130,режим чрезвычайного положения,0.3816,0.5789,0.0,19,17,16,False,-0.1974,15,9
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",130a,льготы гражданам в войну и чрезвычайное положение,-0.038,0.1071,0.0423,28,4,42,False,-0.1875,50,7
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",130a,льготы гражданам в войну и чрезвычайное положение,-0.0382,0.1071,0.0421,28,4,42,False,-0.1875,35,6
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",130b1,послабления по возвращённым чекам в чрезвычайной ситуации,-0.0192,0.0,0.0,13,0,12,False,-0.0192,1,1
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",130b2,"законы и полномочия, привязанные к чрезвычайному положению",0.0535,0.2273,0.008,22,5,1,False,-0.1818,46,9
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",132,продолжительность установленных законом сроков процедур,0.3273,0.3674,-0.0121,33,115,243,False,-0.0279,588,88
@@ -3238,7 +3238,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277,адресность и ограничения получения пособий,0.0507,0.203,0.0309,33,62,183,False,-0.1832,167,50
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277a,лишение пособий и прав как санкция,0.638,0.5758,0.018,33,41,176,False,0.0442,53,21
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277b,"пособия по инвалидности, уходу и болезни",0.5125,0.45,0.0,20,24,11,False,0.0625,8,18
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277c,"пособия при беременности, на детей и родителям",0.4504,0.2857,0.0,21,11,0,False,0.1647,39,11
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277c,"пособия при беременности, на детей и родителям",0.4375,0.3,0.0,20,11,0,False,0.1375,26,9
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277d,пособия по безработице и для молодых работников,0.2468,0.05,-0.0407,20,9,64,False,0.2375,39,13
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277e,пособия пожилым и пережившим Катастрофу,-0.0952,0.1429,0.0,21,7,0,False,-0.2381,20,7
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277f,"пособия семьям погибших, вдовам и сиротам",0.5139,0.5772,0.0,27,41,39,False,-0.0633,54,21
@@ -3527,7 +3527,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",277,адресность и ограничения получения пособий,0.6362,0.6667,0.0195,1,6,10,True,-0.05,5,14
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",277a,лишение пособий и прав как санкция,1.3062,1.0,0.0562,1,1,4,True,0.25,1,5
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",277b,"пособия по инвалидности, уходу и болезни",0.0,0.0,0.0,1,0,1,True,0.0,0,1
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",277c,"пособия при беременности, на детей и родителям",-0.037,0.0,-0.037,1,0,3,True,0.0,0,3
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",277c,"пособия при беременности, на детей и родителям",-0.0954,0.0,-0.0954,1,0,1,True,0.0,0,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",277d,пособия по безработице и для молодых работников,0.1143,0.0,-0.1357,1,0,2,True,0.25,1,3
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",277f,"пособия семьям погибших, вдовам и сиротам",-0.25,0.0,0.0,1,0,0,True,-0.25,2,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",278,поддержка семей с детьми,0.8173,1.0,0.0117,1,4,10,True,-0.1944,9,20
@@ -3685,7 +3685,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",12b,услуги больничных касс пациентам,0.75,0.6667,0.0,6,44,52,False,0.0833,17,28
 עם,"Ra’am, the United Arab List",12c,еда в больницах в Песах,0.25,0.0,0.0,4,0,0,False,0.25,8,2
 עם,"Ra’am, the United Arab List",130,режим чрезвычайного положения,-0.65,-0.8,0.0,5,4,0,False,0.15,4,4
-עם,"Ra’am, the United Arab List",130a,льготы гражданам в войну и чрезвычайное положение,0.092,0.1667,0.0295,6,1,5,False,-0.1042,10,8
+עם,"Ra’am, the United Arab List",130a,льготы гражданам в войну и чрезвычайное положение,0.0735,0.1667,0.011,6,1,2,False,-0.1042,10,7
 עם,"Ra’am, the United Arab List",130b1,послабления по возвращённым чекам в чрезвычайной ситуации,-0.25,0.0,0.0,5,0,0,False,-0.25,5,1
 עם,"Ra’am, the United Arab List",130b2,"законы и полномочия, привязанные к чрезвычайному положению",-0.2211,0.0,0.0,6,0,0,False,-0.2211,170,34
 עם,"Ra’am, the United Arab List",132,продолжительность установленных законом сроков процедур,-0.2623,-0.2255,-0.0018,6,35,63,False,-0.0349,234,87
@@ -3830,7 +3830,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",277,адресность и ограничения получения пособий,-0.7502,-0.7667,0.0596,6,19,30,False,-0.0431,53,28
 עם,"Ra’am, the United Arab List",277a,лишение пособий и прав как санкция,-0.4635,0.0,-0.2135,6,0,17,False,-0.25,43,10
 עם,"Ra’am, the United Arab List",277b,"пособия по инвалидности, уходу и болезни",0.6,0.8,0.0,5,22,3,False,-0.2,4,7
-עם,"Ra’am, the United Arab List",277c,"пособия при беременности, на детей и родителям",0.3245,0.25,0.0745,4,3,8,False,0.0,0,7
+עם,"Ra’am, the United Arab List",277c,"пособия при беременности, на детей и родителям",0.5786,0.3333,0.2453,3,3,6,False,0.0,0,5
 עם,"Ra’am, the United Arab List",277d,пособия по безработице и для молодых работников,0.9471,0.8333,-0.0001,6,20,6,False,0.1139,26,13
 עם,"Ra’am, the United Arab List",277e,пособия пожилым и пережившим Катастрофу,0.125,0.0,0.0,2,0,2,True,0.125,1,2
 עם,"Ra’am, the United Arab List",277f,"пособия семьям погибших, вдовам и сиротам",0.25,0.2,0.0,5,2,13,False,0.05,1,6
@@ -3951,7 +3951,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",92,права и условия содержания заключённых и осуждённых,0.25,0.0,0.0,5,0,0,False,0.25,40,5
 עם,"Ra’am, the United Arab List",92a,смертная казнь за терроризм,0.3532,0.0,0.1032,6,0,6,False,0.25,66,5
 עם,"Ra’am, the United Arab List",92b,права и условия заключённых по безопасности,0.4637,0.0,0.2137,5,0,8,False,0.25,59,13
-עם,"Ra’am, the United Arab List",92c,права и условия обычных заключённых и задержанных,0.9608,0.8333,0.0222,6,11,10,False,0.1053,73,23
+עם,"Ra’am, the United Arab List",92c,права и условия обычных заключённых и задержанных,0.9063,0.8333,0.0222,6,11,10,False,0.0507,73,23
 עם,"Ra’am, the United Arab List",94,права и поддержка потерпевших от преступлений,0.8196,1.0,-0.0587,6,67,146,False,-0.1217,102,79
 עם,"Ra’am, the United Arab List",95,ответственность государства и учреждений перед гражданами,0.6458,0.8333,0.0,6,16,6,False,-0.1875,15,9
 עם,"Ra’am, the United Arab List",96,ответственность правонарушителей,-0.088,0.0516,-0.0805,6,89,106,False,-0.0592,68,66
@@ -4001,7 +4001,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",12b,услуги больничных касс пациентам,0.3217,0.2667,0.0,15,9,74,False,0.055,38,24
 רק,"Be’Yahad, headed by Naftali Bennett",12c,еда в больницах в Песах,0.25,0.0,0.0,8,0,0,False,0.25,15,2
 רק,"Be’Yahad, headed by Naftali Bennett",130,режим чрезвычайного положения,0.5,0.5,0.0,12,13,11,False,0.0,16,10
-רק,"Be’Yahad, headed by Naftali Bennett",130a,льготы гражданам в войну и чрезвычайное положение,0.8873,0.8571,0.059,14,16,34,False,-0.0288,79,19
+רק,"Be’Yahad, headed by Naftali Bennett",130a,льготы гражданам в войну и чрезвычайное положение,0.8942,0.8571,0.0658,14,16,24,False,-0.0288,79,18
 רק,"Be’Yahad, headed by Naftali Bennett",130b1,послабления по возвращённым чекам в чрезвычайной ситуации,-0.25,0.0,0.0,6,0,0,False,-0.25,6,1
 רק,"Be’Yahad, headed by Naftali Bennett",130b2,"законы и полномочия, привязанные к чрезвычайному положению",-0.1817,-0.1429,0.0,14,8,0,False,-0.0389,267,44
 רק,"Be’Yahad, headed by Naftali Bennett",132,продолжительность установленных законом сроков процедур,0.1565,0.2042,-0.0288,16,72,190,False,-0.0189,729,126
@@ -4153,7 +4153,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",277,адресность и ограничения получения пособий,0.0022,0.1325,-0.0022,14,46,80,False,-0.1282,115,47
 רק,"Be’Yahad, headed by Naftali Bennett",277a,лишение пособий и прав как санкция,0.0953,0.25,0.0719,16,4,17,False,-0.2266,44,9
 רק,"Be’Yahad, headed by Naftali Bennett",277b,"пособия по инвалидности, уходу и болезни",0.125,0.2143,0.0,14,7,8,False,-0.0893,9,10
-רק,"Be’Yahad, headed by Naftali Bennett",277c,"пособия при беременности, на детей и родителям",0.3771,0.3846,-0.0075,13,9,36,False,0.0,0,10
+רק,"Be’Yahad, headed by Naftali Bennett",277c,"пособия при беременности, на детей и родителям",0.3929,0.5,-0.1071,8,7,10,False,0.0,0,8
 רק,"Be’Yahad, headed by Naftali Bennett",277d,пособия по безработице и для молодых работников,0.4271,0.3636,-0.0001,11,6,19,False,0.0636,47,8
 רק,"Be’Yahad, headed by Naftali Bennett",277e,пособия пожилым и пережившим Катастрофу,0.45,0.4,0.0,10,5,10,False,0.05,5,5
 רק,"Be’Yahad, headed by Naftali Bennett",277f,"пособия семьям погибших, вдовам и сиротам",0.5071,0.3286,0.0,14,12,41,False,0.1786,31,13
@@ -4283,7 +4283,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",92,права и условия содержания заключённых и осуждённых,0.1995,0.0,0.0,13,0,0,False,0.1995,70,6
 רק,"Be’Yahad, headed by Naftali Bennett",92a,смертная казнь за терроризм,0.25,0.0,0.0,15,0,0,False,0.25,141,3
 רק,"Be’Yahad, headed by Naftali Bennett",92b,права и условия заключённых по безопасности,0.1317,0.0,-0.0411,17,0,4,False,0.1728,92,10
-רק,"Be’Yahad, headed by Naftali Bennett",92c,права и условия обычных заключённых и задержанных,0.3744,0.3125,0.0427,16,8,22,False,0.0192,70,22
+רק,"Be’Yahad, headed by Naftali Bennett",92c,права и условия обычных заключённых и задержанных,0.3449,0.25,0.0427,16,7,22,False,0.0522,70,21
 רק,"Be’Yahad, headed by Naftali Bennett",94,права и поддержка потерпевших от преступлений,1.0995,0.9333,0.0439,15,139,489,False,0.1223,179,125
 רק,"Be’Yahad, headed by Naftali Bennett",95,ответственность государства и учреждений перед гражданами,0.3248,0.4524,0.0,14,12,10,False,-0.1276,45,14
 רק,"Be’Yahad, headed by Naftali Bennett",96,ответственность правонарушителей,0.8735,0.7847,0.053,16,103,366,False,0.0358,125,89
@@ -4331,7 +4331,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",12b,услуги больничных касс пациентам,0.9002,0.8182,0.0032,11,20,26,False,0.0789,78,25
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",12c,еда в больницах в Песах,-0.1627,-0.125,-0.0377,8,5,16,False,0.0,0,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",130,режим чрезвычайного положения,0.1071,0.3571,0.0,7,7,6,False,-0.25,7,6
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",130a,льготы гражданам в войну и чрезвычайное положение,0.0972,0.25,-0.143,12,5,25,False,-0.0097,32,11
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",130a,льготы гражданам в войну и чрезвычайное положение,0.1315,0.25,-0.1414,12,5,25,False,0.0229,25,10
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",130b1,послабления по возвращённым чекам в чрезвычайной ситуации,0.3333,0.3333,0.0,6,3,6,False,0.0,0,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",130b2,"законы и полномочия, привязанные к чрезвычайному положению",0.1626,0.0,0.0642,11,0,4,False,0.0984,75,15
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",132,продолжительность установленных законом сроков процедур,0.5616,0.5335,0.0283,12,54,148,False,-0.0003,399,88
@@ -4484,7 +4484,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",277,адресность и ограничения получения пособий,0.2042,0.3083,0.0261,12,31,95,False,-0.1302,73,41
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",277a,лишение пособий и прав как санкция,0.645,0.5833,0.0353,12,16,70,False,0.0264,24,14
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",277b,"пособия по инвалидности, уходу и болезни",0.9545,0.8182,0.0,11,19,11,False,0.1364,7,15
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",277c,"пособия при беременности, на детей и родителям",0.8821,0.6909,0.0093,11,16,22,False,0.1818,12,9
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",277c,"пособия при беременности, на детей и родителям",0.9318,0.7333,-0.0015,10,14,4,False,0.2,12,7
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",277d,пособия по безработице и для молодых работников,0.8575,0.6364,0.0166,11,17,42,False,0.2045,31,17
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",277e,пособия пожилым и пережившим Катастрофу,0.5833,0.7778,0.0,9,18,0,False,-0.1944,7,8
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",277f,"пособия семьям погибших, вдовам и сиротам",0.1582,0.2143,0.0,7,5,26,False,-0.0561,21,13
@@ -4612,7 +4612,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",92,права и условия содержания заключённых и осуждённых,-0.375,-0.1667,0.0,12,8,37,False,-0.2083,29,9
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",92a,смертная казнь за терроризм,-0.2666,0.0,-0.0791,12,0,21,False,-0.1875,81,3
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",92b,права и условия заключённых по безопасности,-0.4636,-0.5455,0.1046,11,8,26,False,-0.0227,24,8
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",92c,права и условия обычных заключённых и задержанных,0.4856,0.5833,-0.0283,12,15,32,False,-0.0695,35,20
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",92c,права и условия обычных заключённых и задержанных,0.4323,0.5,-0.0283,12,14,32,False,-0.0394,35,19
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",94,права и поддержка потерпевших от преступлений,0.7749,0.8889,-0.1079,12,58,267,False,-0.0061,251,96
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",95,ответственность государства и учреждений перед гражданами,0.9167,0.8333,0.0,12,24,28,False,0.0833,4,15
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",96,ответственность правонарушителей,0.4053,0.5162,-0.0835,12,90,197,False,-0.0274,185,89
