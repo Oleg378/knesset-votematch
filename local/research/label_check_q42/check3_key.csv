@@ -1,0 +1,12 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason,part,kind,cid,v2,tid
+42,25,הצעת חוק הביטוח הלאומי (תיקון - מימון הסעת יולדת באמבולנס),2162471 2197321 2209217 2203296 2208575,+,main,2162471,F1-7,not_about,,Ambulance transport for women giving birth,25a,remove,K4,borderline,T1
+42,25,הצעת חוק הבנקאות (שירות ללקוח) (תיקון - הגברת השקיפות לגבי רמת הריביות בשוק האשראי),2215329,+,main,2215329,F1-32,not_about,,Credit interest transparency for consumers,25a,remove,K7,borderline,T2
+42,25,הצעת חוק הפיקוח על שירותים פיננסיים (שירותים פיננסיים מוסדרים) (תיקון - שירות להשוואת עלויות פיננסיות),2162820,+,main,2162820,F1-47,not_about,,Financial cost comparison services,25a,remove,K9,borderline,T3
+42,25,חוק השקעות משותפות בנאמנות (תיקון מס' 31),2216840,+,main,2216840,F1-43,not_about,,Mutual fund regulation amendment,25a,remove,K11,borderline,T4
+42,25,הצעת חוק ציוד רפואי (תיקון מס' 2 והוראת שעה),2202410,+,secondary,2202410,F2-79,not_about,,Medical device registration timing; competition effect not evident,25a,remove,K12,borderline,T5
+42,25,הצעת חוק ביטוח בריאות ממלכתי (תיקון - בחירת נותן שירותים על ידי מבוטח),2205915 2209021,+,secondary,2205915,F1-51,not_about,,Patient choice of health provider,25a,remove,K17,borderline,T6
+42,25,הצעת חוק ציוד רפואי (תיקון והוראת שעה),2191665,+,secondary,2191665,F2-9,not_about,,Medical device registration timing; competition effect not evident,25a,remove,K21,borderline,T7
+42,25,"הצעת חוק הביטוח הלאומי  (תיקון מס' 268) (הסעת יולדת באמבולנס), התשפ""ו–2026",1057378,+,main,1057378,F1-10,not_about,,Ambulance transport for women giving birth,25a,remove,K26,borderline,T8
+42,25,הצעת חוק הפיקוח על שירותים פיננסיים (שירותים פיננסיים מוסדרים) (תיקון מס' 18),1042178,+,main,1042178,F2-30,not_about,,"Currency service provider supervision, no entry focus evident",25a,remove,K30,borderline,T9
+42,25,הצעת חוק לשינוי מתכונת השידור הציבורי ולהסדרת שידורי רדיו ארציים (תיקוני חקיקה),2226882,+,secondary,2226882,F1-54,not_about,,Public broadcasting and radio structure,25a,remove,K34,borderline,T10
+42,25,הצעת חוק הפיקוח על שירותים פיננסיים (ביטוח) (תיקון - איסור סירוב התקשרות של גוף מוסדי עם סוכן ביטוח),2207655,+,secondary,2207655,F1-71,not_about,,Insurers must contract with insurance agents,25a,remove,K35,borderline,T11

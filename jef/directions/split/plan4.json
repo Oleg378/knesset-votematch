@@ -1,5 +1,5 @@
 {
- "note": "Stage 4 (2026-10-18, [У]): split by the standard statement audit of the 26 statements touched by the label removals (local/research/statement_audit_removals/). Same method as stages 2-3: applied after stage 3, parts keep the parent's orientation and sign, Jev only chooses the part. Extended the same day: 130b (q56) split by the standard audit after the volume threshold was lowered to 25 (local/research/statement_audit_t25/). Extended again: 195 (q81) split by the standard audit after external audit №2 (local/research/statement_audit_q81/).",
+ "note": "Stage 4 (2026-10-18, [У]): split by the standard statement audit of the 26 statements touched by the label removals (local/research/statement_audit_removals/). Same method as stages 2-3: applied after stage 3, parts keep the parent's orientation and sign, Jev only chooses the part. Extended the same day: 130b (q56) split by the standard audit after the volume threshold was lowered to 25 (local/research/statement_audit_t25/). Extended again: 195 (q81) split by the standard audit after external audit №2 (local/research/statement_audit_q81/). Extended 2026-10-19: 25 (q42) split by the standard audit after a full label check (local/research/statement_audit_q42/, label_check_q42/).",
  "parents": {
   "58": [
    "58a",
@@ -20,6 +20,10 @@
   "195": [
    "195a",
    "195b"
+  ],
+  "25": [
+   "25a",
+   "25b"
   ]
  },
  "new": {
@@ -82,6 +86,18 @@
    "name_en": "Suspension over violence or sex-offense allegations",
    "plus_en": "Suspends teachers, police officers or public employees once a criminal case for violence or sexual abuse is opened, before a verdict.",
    "minus_en": "Delays or limits such suspension."
+  },
+  "25a": {
+   "name_ru": "открытие рынков для конкуренции",
+   "name_en": "Opening markets to competition",
+   "plus_en": "Fewer barriers for imports and new competitors in concentrated consumer markets (food, banking, pharmacies, transport, car services, media, insurance).",
+   "minus_en": "Protection of incumbent firms and local producers from imports and new entrants."
+  },
+  "25b": {
+   "name_ru": "предпочтение местных поставщиков в госзакупках",
+   "name_en": "Local preference in government purchasing",
+   "plus_en": "Open, equal tenders for all suppliers in government purchasing.",
+   "minus_en": "Preference or tender exemptions for Israeli-made goods and for suppliers from priority regions (Negev, periphery, confrontation lines)."
   }
  }
 }

@@ -1,0 +1,36 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason,part,kind,cid
+42,25,הצעת חוק לתיקון פקודת ביטוח רכב מנועי (חיוב שיווק פוליסה),2162956 2196383 2197998 2166077 2198324 2190976,+,secondary,2162956,F1-50,not_about,,Compulsory motor insurance marketing duty,25a,remove,K1
+42,25,חוק התקנים (תיקון מס' 19),2217172,+,secondary,2217172,F2-50,about,+,Standards reform removing import barriers,25a,control,K2
+42,25,הצעת חוק לתיקון פקודת התעבורה (שירותי תחבורה שיתופית מקוונת),2231205,+,main,2231205,F2-61,about,+,Allows online ridesharing as new transport competitors,25a,control,K3
+42,25,הצעת חוק הביטוח הלאומי (תיקון - מימון הסעת יולדת באמבולנס),2162471 2197321 2209217 2203296 2208575,+,main,2162471,F1-7,not_about,,Ambulance transport for women giving birth,25a,remove,K4
+42,25,הצעת חוק חובת המכרזים (תיקון - העדפת טובין בעלי תו תקן ירוק),2157365 2161137,−,main,2157365,F2-56,not_about,,Green label preference in public tenders,25b,remove,K5
+42,25,חוק התקנים (תיקון מס' 21),1046300,+,secondary,1046300,F2-11,about,+,Standards reform removing import barriers,25a,control,K6
+42,25,הצעת חוק הבנקאות (שירות ללקוח) (תיקון - הגברת השקיפות לגבי רמת הריביות בשוק האשראי),2215329,+,main,2215329,F1-32,not_about,,Credit interest transparency for consumers,25a,remove,K7
+42,25,"הצעת חוק לתיקון פקודת ביטוח רכב מנועי (חיוב שיווק פוליסה), התשפ""ג–2022",2196074,+,secondary,2196074,F2-65,not_about,,Obligation to market compulsory motor insurance policies,25a,remove,K8
+42,25,הצעת חוק הפיקוח על שירותים פיננסיים (שירותים פיננסיים מוסדרים) (תיקון - שירות להשוואת עלויות פיננסיות),2162820,+,main,2162820,F1-47,not_about,,Financial cost comparison services,25a,remove,K9
+42,25,הצעת חוק ליצירת תחרות והגדלת זמינות האשראי,2162824,+,main,2162824,F2-49,about,+,Enables new players in concentrated credit market,25a,control,K10
+42,25,חוק השקעות משותפות בנאמנות (תיקון מס' 31),2216840,+,main,2216840,F1-43,not_about,,Mutual fund regulation amendment,25a,remove,K11
+42,25,הצעת חוק ציוד רפואי (תיקון מס' 2 והוראת שעה),2202410,+,secondary,2202410,F2-79,not_about,,Medical device registration timing; competition effect not evident,25a,remove,K12
+42,25,הצעת חוק התחרות הכלכלית (תיקון - איסור פטור סוג להסדר בלעדיות),2190114,+,main,2190114,F2-75,about,+,Bans block exemption for exclusive import arrangements,25a,control,K13
+42,25,הצעת חוק השידור הציבורי הישראלי (תיקון - הפסקת שידורי חדשות ועידוד הפקות מקור ויצירה ישראלית בתאגיד השידור הישראלי),2225837,+,secondary,2225837,F2-58,not_about,,Public broadcaster news content,25a,remove,K14
+42,25,הצעת חוק חובת המכרזים (תיקון מס' 24 - הוראת שעה) (תיקון - הארכת הוראת השעה),2233613,−,secondary,2233613,F1-70,about,−,Extends local textile preference in defense tenders,25b,control,K15
+42,25,הצעת חוק הבנקאות (שירות ללקוח) (תיקון - מסירת מידע על עמלות וריביות),2197916 2203054 2200758 2203718,+,secondary,2197916,F1-14,not_about,,Bank fee disclosure to customers,25a,remove,K16
+42,25,הצעת חוק ביטוח בריאות ממלכתי (תיקון - בחירת נותן שירותים על ידי מבוטח),2205915 2209021,+,secondary,2205915,F1-51,not_about,,Patient choice of health provider,25a,remove,K17
+42,25,"חוק הבנקאות (שירות ללקוח) (תיקון מס' 38), התשפ""ה–2025",2222052,+,main,2222052,F2-68,not_about,,Bank deposit interest and customer service,25a,remove,K18
+42,25,הצעת חוק משק החשמל (תיקון - טעינת רכב חשמלי באמצעות יישומון תשלום אחוד),2223948 2227682 2226689 2226598,+,main,2223948,F1-37,not_about,,Unified app for EV charging,25a,remove,K19
+42,25,הצעת חוק בעלות אחודה (תיקוני חקיקה),2232387,+,main,2232387,F2-18,not_about,,"Rental housing ownership structure, not competition barriers",25a,remove,K20
+42,25,הצעת חוק ציוד רפואי (תיקון והוראת שעה),2191665,+,secondary,2191665,F2-9,not_about,,Medical device registration timing; competition effect not evident,25a,remove,K21
+42,25,חוק הבנקאות (רישוי) (תיקון מס' 28),2151997,+,main,2151997,F2-3,about,+,Eases entry of non-bank credit providers into concentrated market,25a,control,K22
+42,25,הצעת חוק תכנון משק החלב (תיקון - ביטול החוק),2192169 2235128 2197397 2196848,+,main,2192169,F2-7,about,+,"Abolishes dairy quotas, opening production to new entrants",25a,control,K23
+42,25,הצעת חוק לקידום מתחרים ולהגברת יעילות במתן רישיונות והיתרים בענף הפיננסים,2190594 2159746,+,secondary,2190594,F1-48,about,+,Eases licensing for new finance competitors,25a,control,K24
+42,25,הצעת חוק הפיקוח על שירותים פיננסיים (ביטוח) (תיקון - ביטוח חיים עם מרכיב חיסכון שלא אושר כקופת גמל),2208936,+,main,2208936,F1-77,not_about,,Life insurance savings product rules,25a,remove,K25
+42,25,"הצעת חוק הביטוח הלאומי  (תיקון מס' 268) (הסעת יולדת באמבולנס), התשפ""ו–2026",1057378,+,main,1057378,F1-10,not_about,,Ambulance transport for women giving birth,25a,remove,K26
+42,25,הצעת חוק המועצה לענף הלול (ייצור ושיווק) (תיקון - ביטול החוק),2196885 2191418,+,main,2196885,F1-26,about,+,Abolishes poultry council quotas protecting local egg producers,25a,control,K27
+42,25,הצעת חוק חובת המכרזים (תיקון - עידוד הצלת מזון עודף),2205838 2207020,−,main,2205838,F2-45,not_about,,Tender rules for food rescue donations,25b,remove,K28
+42,25,הצעת חוק הפטנטים (תיקון מס' 14) (הגברת התחרותיות),2195286,+,main,2195286,F2-10,about,+,Limits patent extensions to enable generic competitors,25a,control,K29
+42,25,הצעת חוק הפיקוח על שירותים פיננסיים (שירותים פיננסיים מוסדרים) (תיקון מס' 18),1042178,+,main,1042178,F2-30,not_about,,"Currency service provider supervision, no entry focus evident",25a,remove,K30
+42,25,הצעת חוק הבנקאות (שירות ללקוח) (תיקון - הפחתת יוקר תשלומי הלוואה לדיור),2196859 2198732 2191977 2156255,+,main,2196859,F2-17,not_about,,"Mortgage cost regulation, not entry or imports",25a,remove,K31
+42,25,הצעת חוק לתיקון פקודת הרוקחים (מס' 40) (הסרת חסמים ביבוא וייצור תמרוקים),1046414,+,secondary,1046414,F2-60,about,+,Removes import and production barriers for cosmetics,25a,control,K32
+42,25,הצעת חוק הרשות לפיתוח הנגב (תיקון - קידום הקמתם של יישובים חקלאיים חדשים בנגב),2207038,−,main,2207038,F2-66,not_about,,New agricultural settlements in the Negev,25b,remove,K33
+42,25,הצעת חוק לשינוי מתכונת השידור הציבורי ולהסדרת שידורי רדיו ארציים (תיקוני חקיקה),2226882,+,secondary,2226882,F1-54,not_about,,Public broadcasting and radio structure,25a,remove,K34
+42,25,הצעת חוק הפיקוח על שירותים פיננסיים (ביטוח) (תיקון - איסור סירוב התקשרות של גוף מוסדי עם סוכן ביטוח),2207655,+,secondary,2207655,F1-71,not_about,,Insurers must contract with insurance agents,25a,remove,K35

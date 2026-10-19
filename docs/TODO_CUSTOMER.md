@@ -122,3 +122,9 @@ _Список того, что ждёт вашего просмотра посл
 - [ ] **q64, новая цена:** было «…even if this removes an elected leader before any verdict» (юридически неточно: отставки при обвинении закон не требует) → стало «Prosecutors should be able to investigate and try a sitting prime minister or minister, even if this disrupts the work of an elected government.»
 - [x] **Объём темы по разным названиям законопроектов** — решено: порог 5, снят только Term of Supreme Court justices. (повторное внесение = один законопроект): при пороге 10 снимаются Term of Supreme Court justices (2 названия), Guardianship of violent parents, Funding schools without the core curriculum, Prime minister term limits (по 6), Checks on the prime minister's power (8), A prime minister under indictment (9). Варианты: применить и снять / порог по названиям ниже (например 6 — снимается только первый) / оставить счёт по законопроектам.
 - [ ] **Бланк человеческого эталона заменён** на отложенную выборку (ключ вне репозитория): `docs/HUMAN_GOLD_FORM.md`.
+
+## 8. Тема «Imports and competition» (2026-10-19)
+
+Проверка всех 159 законопроектов темы: прямо про вопрос 27 %; стандартный аудит разделил тему на «открытие рынков» (q42) и «предпочтение местных поставщиков в госзакупках» (новый q107).
+- [ ] **q42 · Imports and competition** — было: The state should lower barriers to imports and new competitors, even if local producers find it harder. → стало: The state should lower barriers to imports and new competitors, even if existing local businesses lose income.
+- [ ] **q107 · Local preference in government purchasing** (новый, «согласен» = меньше открытых тендеров): When the government buys goods and services, it should prefer Israeli and local suppliers, even if it pays more.
