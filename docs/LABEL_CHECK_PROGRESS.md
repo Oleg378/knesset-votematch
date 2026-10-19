@@ -15,7 +15,7 @@ _Порядок проверки — [LABEL_CHECK.md](LABEL_CHECK.md): для к
 | q9 | Benefits for those who served |  | 292 (184) | ✓ проверено | 2026-10-18: полная проверка ядра, снята 31 метка (мемориальные законы, пожарные) |
 | q81 | Dismissing employees who support terror |  | 13 (6) | ✓ проверено | 2026-10-18: полная проверка ядра → стандартный аудит → тема 195 разделена, q81 на 195a |
 | q8 | Compulsory service for everyone | да | 31 (19) | ✓ проверено | 2026-10-19: метки — про вопрос 11 из 19, сняты 4 закона военного времени о резервистах (2 проверки или 2 из 3), знаки совпали; стандартный аудит — оставить текст («служить все, включая освобождённых сейчас»; законопроекты «против» — освобождения и отмена призыва — естественная противоположная сторона) |
-| q19 | Funding schools without the core curriculum | да | 14 (6) | в очереди |  |
+| q19 | Funding schools without the core curriculum | | 14 (6) | ✓ проверено (текст — на апрув) | 2026-10-19: метки — у 3 из 6 законопроектов знак был перевёрнут (финансирование в обмен на полную базовую программу — это «−»), исправлено двумя проверками; ваучеры — спорно, оставлены (2 из 3); Ra'am и The Joint Arab List перешли с «против» на «за», вопрос стал однополярным и вышел из ядра. Стандартный аудит — переписать: «Every school should be required to teach core subjects such as math and English, even if schools that refuse lose state funding.» |
 | q2 | Sovereignty in Judea and Samaria |  | 111 (52) | в очереди |  |
 | q3 | Trade with hostile countries |  | 49 (35) | в очереди |  |
 | q4 | Jewish character of the state |  | 46 (21) | в очереди |  |

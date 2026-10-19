@@ -128,3 +128,7 @@ _Список того, что ждёт вашего просмотра посл
 Проверка всех 159 законопроектов темы: прямо про вопрос 27 %; стандартный аудит разделил тему на «открытие рынков» (q42) и «предпочтение местных поставщиков в госзакупках» (новый q107).
 - [x] **q42 · Imports and competition** (принято 2026-10-19) — было: The state should lower barriers to imports and new competitors, even if local producers find it harder. → стало: The state should lower barriers to imports and new competitors, even if existing local businesses lose income.
 - [x] **q107 · Local preference in government purchasing** (принято 2026-10-19) (новый, «согласен» = меньше открытых тендеров): When the government buys goods and services, it should prefer Israeli and local suppliers, even if it pays more.
+
+## 9. Систематическая проверка тем (2026-10-19)
+
+- [ ] **q19 · Funding schools without the core curriculum** — стандартный аудит предлагает переписать (законопроекты решают, обязана ли каждая школа преподавать базовую программу; цена «семьи заплатят больше» ни в одном законопроекте не встречается). Было: «Schools that do not teach the core curriculum (math, English) should not receive state funding, even if students' families have to pay more for tuition.» → Стало: «Every school should be required to teach core subjects such as math and English, even if schools that refuse lose state funding.» Ключ прежний («согласен» = меньше финансирования школам без базовой программы).
