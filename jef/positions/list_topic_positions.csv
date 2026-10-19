@@ -3083,7 +3083,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",161a,автономия религиозных учебных заведений,0.2825,0.0741,-0.0231,27,3,3,False,0.2315,73,6
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",162,свобода вероисповедания и обрядов,0.1805,0.3548,0.003,31,17,193,False,-0.1774,56,14
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",163,государственная поддержка религиозных институтов и практик,0.1965,0.303,0.0102,33,10,494,False,-0.1167,111,16
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",164,государственная поддержка еврейской идентичности и диаспоры,0.6042,0.7083,0.0,24,27,4,False,-0.1042,22,8
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",164,государственная поддержка еврейской идентичности и диаспоры,0.6042,0.7083,0.0,24,25,4,False,-0.1042,22,7
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",165a,еврейский характер государства в Основных законах,0.3261,0.087,0.0,23,2,0,False,0.2391,50,4
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",165b,иммиграция и еврейское большинство,0.3023,0.2812,0.021,32,10,70,False,0.0,3,5
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",166,территория под израильским суверенитетом и правом,0.7175,0.7273,0.0455,33,71,107,False,-0.0553,82,29
@@ -3989,7 +3989,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",161a,автономия религиозных учебных заведений,-0.893,-0.8571,-0.0358,14,46,53,False,0.0,0,7
 רק,"Be’Yahad, headed by Naftali Bennett",162,свобода вероисповедания и обрядов,-0.1422,0.0625,0.0279,16,3,28,False,-0.2325,129,12
 רק,"Be’Yahad, headed by Naftali Bennett",163,государственная поддержка религиозных институтов и практик,-0.0425,0.2,-0.0069,15,8,59,False,-0.2356,308,14
-רק,"Be’Yahad, headed by Naftali Bennett",164,государственная поддержка еврейской идентичности и диаспоры,0.4,0.4,0.0,10,6,11,False,0.0,0,4
+רק,"Be’Yahad, headed by Naftali Bennett",164,государственная поддержка еврейской идентичности и диаспоры,0.3333,0.3333,0.0,9,3,11,False,0.0,0,3
 רק,"Be’Yahad, headed by Naftali Bennett",165a,еврейский характер государства в Основных законах,0.6604,0.7333,-0.0729,15,13,24,False,0.0,0,2
 רק,"Be’Yahad, headed by Naftali Bennett",165b,иммиграция и еврейское большинство,-0.25,0.0,0.0,13,0,0,False,-0.25,37,2
 רק,"Be’Yahad, headed by Naftali Bennett",166,территория под израильским суверенитетом и правом,-0.2359,0.0,-0.0026,15,0,36,False,-0.2333,56,7
@@ -4315,7 +4315,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",161a,автономия религиозных учебных заведений,0.9803,0.6364,0.1621,11,9,15,False,0.1818,15,7
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",162,свобода вероисповедания и обрядов,0.569,0.5536,0.0154,12,29,73,False,0.0,40,17
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",163,государственная поддержка религиозных институтов и практик,1.06,0.9167,-0.0029,12,34,135,False,0.1463,136,21
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",164,государственная поддержка еврейской идентичности и диаспоры,0.35,0.5,0.0,10,7,4,False,-0.15,8,8
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",164,государственная поддержка еврейской идентичности и диаспоры,0.35,0.5,0.0,10,6,4,False,-0.15,8,7
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",165a,еврейский характер государства в Основных законах,0.2641,0.0,0.0697,9,0,8,False,0.1944,11,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",165b,иммиграция и еврейское большинство,0.1092,0.0833,0.0259,12,1,30,False,0.0,0,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",166,территория под израильским суверенитетом и правом,0.6094,0.6667,-0.0267,12,19,42,False,-0.0306,28,11
