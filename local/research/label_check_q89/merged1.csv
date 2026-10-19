@@ -1,0 +1,59 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - פנייה לנציב קבילות הציבור),2193176 2197311 2236896 2169428 2203090,+,main,2193176,F1-1,borderline,+,"Complaint commissioner access; procedural patient recourse, not new services"
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - מתן שירותים במרפאה ביישוב קטן לחברי קופה אחרת),2208604 2206680 2204556 2156718,+,secondary,2208604,F1-2,about,+,Small-town clinic must serve other funds' members; more access
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - זמינות שירותים רפואיים),2197862 2164311,+,secondary,2197862,F1-3,about,+,Mandatory service basket regardless of provider arrangements
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - מימון הסעה לבית חולים),2159074 2202124 2196543 2156545 2200693 2203233,+,secondary,2159074,F1-4,about,+,Funds pay hospital transport costs; refund entitlement
+89,12b,הצעת חוק לתיקון פקודת בריאות העם (עדכון על זכאות אפשרית לגמלה),2239201,+,secondary,2239201,F1-5,not_about,,"Informing chronic patients about National Insurance allowance, not fund services"
+89,12b,הצעת חוק זכויות החולה (תיקון - שיכוך כאב בעת מתן טיפול רפואי לקטין),2158934,+,main,2158934,F1-6,borderline,+,"Pain relief duty for minors; care standard, not fund entitlement"
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - ביטול החרגת חיילים),2206677,+,secondary,2206677,F1-7,borderline,+,Soldiers moved to fund family doctors; organizational coverage shift
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - הוספת טיפול בקנבוס למטרות רפואיות לסל שירותי הבריאות),2159282 2196187,+,secondary,2159282,F1-8,about,+,Adds medical cannabis to health basket
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - החזר הוצאות עבור נסיעה באמבולנס),2168399 2201175 2201952 2158501,+,secondary,2168399,F1-9,about,+,Expands ambulance refund
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - מחלה יתומה),2195934 2157292 2199517,+,secondary,2195934,F1-10,borderline,+,State reimburses funds for rare diseases; indirect patient benefit
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - החזר דמי נסיעות עבור חולה סיעודי וחולה שנפטר),2200340 2203092 2197308 2196690,+,secondary,2200340,F1-11,about,+,Travel and ambulance refunds for nursing and deceased patients
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - קציבת מועדים לקבלת טיפול רפואי או פארא-רפואי),2156091,+,secondary,2156091,F1-12,about,+,Sets time limits for receiving treatment
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - הגבלת סכום ההשתתפות העצמית בתכשיר מרשם),2196298 2203220 2200942 2156476,+,secondary,2196298,F1-13,about,+,Caps prescription copayment; patients pay less
+89,12b,הצעת חוק החזר דמי נסיעה במונית לבית החולים (תיקוני חקיקה),2156259 2199967 2197054,+,secondary,2156259,F1-14,about,+,Taxi refund to hospital
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - הרחבת הסדרי הבחירה),2198933 2197173 2159455 2202788 2203920,+,secondary,2198933,F1-15,about,+,Expands patient choice of providers
+89,12b,"חוק ביטוח בריאות ממלכתי (תיקון מס' 67), התשפ""ג–2023",2156264,+,secondary,2156264,F1-16,about,+,Enacted ambulance refund expansion
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - סבסוד מחוללי חמצן ניידים),2202192 2200272 2201710 2189586,+,secondary,2202192,F1-17,about,+,Anchors fund duty to supply portable oxygen concentrators
+89,12b,הצעת חוק זכויות החולה (תיקון - טיפול בזמן סביר),2202191 2200361 2193200 2209019,+,secondary,2202191,F1-18,about,+,Right to treatment within reasonable time
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - החזר דמי נסיעות והסעות לטיפולי אונקולוגיה ודיאליזה),2197199 2198202 2198934 2156064 2198771,+,secondary,2197199,F1-19,about,+,Travel refunds for oncology and dialysis patients
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - ניפוק תכשיר מרשם שניתן במרשם אלקטרוני או ידני בתנאי הסדר בכל בתי המרקחת),2217187,+,secondary,2217187,F1-20,about,+,Subsidized prescriptions at any pharmacy
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - בחירה מבין נותני השירותים),2196594 2207164 2156573 2203240,+,main,2196594,F1-21,about,+,Patient choice among service providers
+89,12b,"הצעת חוק ביטוח בריאות ממלכתי (תיקון - מתן טיפולי שיניים, פה ולסת למבוטח עם שיתוק מוחין)",2156810,+,secondary,2156810,F1-22,about,+,Dental treatment for cerebral palsy patients added
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - זמן סביר לעניין שירות רפואי),2156683 2207884 2209314 2209020,+,secondary,2156683,F1-23,about,+,Defines reasonable waiting time for services
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - העברת מידע מלא בעת מעבר בין קופות החולים),2201621 2157711,+,main,2201621,F1-24,borderline,+,Full medical data transfer when switching funds; administrative right
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - שירותי בריאות נוספים לשוהים במוסדות לילדים ונוער בסיכון),2159823,+,secondary,2159823,F1-25,borderline,+,State funds supplementary insurance for at-risk children
+89,12b,"הצעת חוק ביטוח בריאות ממלכתי (תיקון - תנאים להחלפת תרופה, טיפול, מטפל, נותן שירותים או מוסד רפואי)",2161176 2199227 2197326,+,main,2161176,F1-26,about,+,Limits fund's ability to replace drug or provider
+89,12b,הצעת חוק טיפול בחולי נפש (תיקון - בחירת מקום אשפוז),2197784 2198789 2163433 2216974 2167965 2200214 2168044 2195940 2157695,+,main,2197784,F1-27,about,+,Right to choose psychiatric hospitalization place
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - קדימות בתור לטיפול או שירות רפואי לאדם עם מוגבלות),2209224 2207864,+,secondary,2209224,F1-28,borderline,+,Queue priority for disabled; reallocation rather than more services
+89,12b,הצעת חוק בריאות ממלכתי (תיקון - העברת מידע מלא בעת מעבר בין קופות החולים),2159868 2167890 2196841,+,main,2159868,F1-29,borderline,+,Full medical data transfer between funds; administrative right
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - החזר עבור פינוי באמבולנס),2192839 2201852 2203789 2200298,+,secondary,2192839,F1-30,about,+,Ambulance evacuation refund expansion
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - החזר אגרת נסיעה באמבולנס),2197041 2189741 2156267 2198990,+,secondary,2197041,F1-31,about,+,Ambulance fee refund expansion
+89,12b,הצעת חוק זכויות החולה (תיקון - קבלת חוות דעת נוספת על מצב רפואי),2220526 2216317,+,main,2220526,F1-32,about,+,Right to second medical opinion
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - תשלום בעד תכשיר מרשם בבית מרקחת שאין לו הסדר עם קופת חולים),2202257,+,secondary,2202257,F1-33,about,+,Fund pays at non-contracted pharmacy
+89,12b,הצעת חוק זכויות החולה (תיקון - זכות מטופל לקבל רשומות רפואיות),2156336 2157118 2199617 2195950,+,main,2156336,F1-34,borderline,+,"Patient right to medical records; informational, not service"
+89,12b,הצעת חוק לתיקון פקודת התעבורה (הגבלת תשלום בעד חניה במוסד רפואי),2189745 2159023,+,secondary,2189745,F1-35,not_about,,"Hospital parking fees under Traffic Ordinance, not health funds"
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - העברת תיק רפואי במעבר בין קופות),2158924 2197252 2202004 2199204,+,secondary,2158924,F1-36,borderline,+,Medical file transfer between funds; administrative right
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - הוספת מכשירי ניידות ממונעים לתוספת השנייה),2220980,+,secondary,2220980,F1-37,about,+,Adds motorized mobility devices to fund basket
+89,12b,הצעת חוק מעונות יום שיקומיים (תיקון - טיפולים לפעוט עם מוגבלות מחוץ למעון היום השיקומי),2158624,+,secondary,2158624,F1-38,borderline,+,Disabled toddler therapies outside rehabilitative daycare; partial fund link
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - החזר דמי נסיעה באמבולנס למי שהגיע לגיל פרישה),2198142 2199424 2202593,+,secondary,2198142,F1-39,about,+,Ambulance refund for retirement-age insured
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - הרחבת פטור מתשלום בחדר מיון),2156097 2204332,+,secondary,2156097,F1-40,about,+,Expands emergency room fee exemption
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - העברת תיק רפואי במעבר בין קופות חולים),2209022 2207162 2203135 2209309 2161680,+,secondary,2209022,F1-41,borderline,+,Medical file transfer between funds; administrative right
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - בחירת נותן שירותים על ידי מבוטח),2205915 2209021,+,main,2205915,F1-42,about,+,Insured choose service provider
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - החזר דמי נסיעה באמבולנס),2197328 2161174,+,secondary,2197328,F1-43,about,+,Ambulance refund for mental health patients
+89,12b,"חוק ביטוח בריאות ממלכתי (תיקון מס' 75), התשפ""ו–2026",2195995,+,secondary,2195995,F1-44,about,+,Enacted expansion of ambulance and travel refunds
+89,12b,"חוק ביטוח בריאות ממלכתי (תיקון מס' 74), התשפ""ו–2026",2231301,+,secondary,2231301,F1-45,about,+,Enacted addition of services to fund basket
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - החזר דמי נסיעות והסעות),2166956,+,secondary,2166956,F1-46,about,+,Expands travel and transport refunds
+89,12b,"הצעת חוק ביטוח בריאות ממלכתי (תיקון מס' 70) (מענה מנומק על אי-אישור קבלת שירות בריאות מקופת חולים), התשפ""ד–2024",2213398,+,secondary,2213398,F1-47,borderline,+,Reasoned refusal explanation; procedural right
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - החזר דמי נסיעה באמבולנס עבור מטופל בתחום בריאות הנפש),2198925 2159096 2198723,+,secondary,2198925,F1-48,about,+,Ambulance refund for mental health patients
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - השתתפות עצמית ברכישת תכשיר מרשם מבית מרקחת שאינו בהסדר עם קופת החולים),2205582 2209023,+,secondary,2205582,F1-49,about,+,Copayment parity at non-contracted pharmacies
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - הרחבת חופש הבחירה ושוויון בנגישות בפריפריה),2242179,+,secondary,2242179,F1-50,about,+,Expands choice and access including waiting times in periphery
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - עיגון זכאות לשירותים לילדים עם אוטיזם),2159075,+,secondary,2159075,F1-51,about,+,Anchors fund services for children with autism
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - קביעת זמני המתנה ומרחקי נסיעה מרביים לקבלת טיפול רפואי),2198204,+,secondary,2198204,F1-52,about,+,Maximum waiting times and travel distances
+89,12b,הצעת חוק זכויות החולה (תיקון - הזכות למינוי מתורגמן רפואי),2167818 2198059 2199875 2201223,+,main,2167818,F1-53,borderline,+,"Right to medical interpreter; provider duty, not fund service"
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - מתן מענה מנומק על ידי קופת החולים),2217565 2219272 2215076,+,secondary,2217565,F1-54,borderline,+,Reasoned refusal explanation; procedural right
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - קביעת זמני המתנה ומרחקי נסיעה מירביים לקבלת טיפול רפואי),2156171,+,secondary,2156171,F1-55,about,+,Maximum waiting times and travel distances
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - זכויות תושב חוזר),2158068,+,secondary,2158068,F1-56,about,+,Eases returning residents' eligibility for public health services
+89,12b,הצעת חוק ביטוח בריאות ממלכתי (תיקון - בדיקות לגילוי מוקדם של מחלות קשות אצל ילדים עד גיל 18),2156211,+,secondary,2156211,F1-57,about,+,Funds must cover early detection tests for children
+89,12b,חוק ניוד מידע רפואי,2197450,+,secondary,2197450,F1-58,borderline,+,Medical information portability; administrative right

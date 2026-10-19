@@ -1,0 +1,83 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason
+90,106,הצעת חוק רכזי ביטחון שוטף לאומי ביישובי ישראל המוגדרים,2212765,−,secondary,2212765,F1-1,not_about,,"National security coordinator division, not municipal rule-making powers"
+90,106,הצעת חוק לתיקון דיני הרשויות המקומיות (ביטול סמכות שר הפנים לעניין חוקי עזר בדבר פתיחתם וסגירתם של עסקים בימי מנוחה),2156204 2190456 2195945 2201201 2196012 2156054 2196955,+,secondary,2156204,F1-2,about,+,Removes Interior Minister veto over local Sabbath business bylaws
+90,106,חוק התכנון והבנייה (תיקון מס' 139),2164877,+,secondary,2164877,F1-3,borderline,+,Urban renewal alternative gives planning bodies more discretion
+90,106,הצעת חוק לתיקון פקודת התעבורה (הסמכת רשות מקומית לביצוע תפקידי רישוי),2199421 2164135 2234035,+,main,2199421,F1-4,about,+,Authorizes local authorities to perform vehicle licensing functions
+90,106,הצעת חוק חסינות במילוי תפקיד לראש רשות מקומית (תיקוני חקיקה),2235417,+,secondary,2235417,F1-5,not_about,,"Personal legal immunity for mayors, not municipal powers"
+90,106,חוק לייעול האכיפה והפיקוח העירוניים ברשויות המקומיות (הוראת שעה) (תיקון מס' 12),2217169,+,main,2217169,F1-6,about,+,Extends municipal enforcement and urban policing powers
+90,106,הצעת חוק הרשויות המקומיות (אכיפה סביבתית - סמכויות פקחים) (תיקון - סמכויות רשות מקומית החברה באיגוד ערים),2190060,+,main,2190060,F1-7,borderline,+,Environmental enforcement powers for authorities in city associations
+90,106,הצעת חוק לייעול האכיפה והפיקוח העירוניים ברשויות המקומיות (הוראת שעה) (תיקון - סמכויות לשמירה על הסדר הציבורי),2201160,+,secondary,2201160,F1-8,about,+,Expands municipal enforcement powers for public order
+90,106,הצעת חוק לתיקון פקודת התעבורה (אכיפת עבירות תעבורה על ידי רשויות מקומיות),2242906 2237942,+,main,2242906,F1-9,about,+,Lets local authorities enforce traffic offences
+90,106,הצעת חוק הסדרת מקומות רחצה (תיקון - קביעת מקומות לרחצה נפרדת),2200335 2167202,+,main,2200335,F1-10,borderline,−,Separate beaches arrangement likely imposed on local councils
+90,106,הצעת חוק לתיקון פקודת העיריות (שינוי מועד תשלום הארנונה),2201333,−,secondary,2201333,F1-11,borderline,−,Restricts municipal discretion on property tax payment dates
+90,106,הצעת חוק התכנון והבנייה (תיקון מס' 161),2227297,+,main,2227297,F1-12,borderline,+,Local planning committee plan powers; direction unclear from excerpt
+90,106,הצעת חוק לתיקון פקודת היערות (פקידי יערות ברשות מקומית),2157454,−,secondary,2157454,F1-13,about,+,Tree-protection licensing officers within local authorities
+90,106,הצעת חוק לתיקון פקודת התעבורה (ביטול חובת קביעת אזורי חניה),2229202,+,main,2229202,F1-14,about,+,Removes national parking-zone constraints on large municipalities
+90,106,הצעת חוק לתיקון פקודת העיריות (ערר על החלטת שר הפנים לעניין חוקי עזר),2157384,+,main,2157384,F1-15,about,+,Municipal appeal against Interior Minister bylaw rejections
+90,106,הצעת חוק הרשויות המקומיות (אכיפה סביבתית - סמכויות פקחים) (תיקון - הסמכת פקחים באיגוד ערים לווטרינריה),2196351 2156882,+,secondary,2196351,F1-16,borderline,+,Veterinary enforcement powers for city association inspectors
+90,106,הצעת חוק ההתגוננות האזרחית (תיקון - פיקוח על מקלטים משותפים),2158669 2159786 2226212 2211694,+,main,2158669,F1-17,borderline,+,"Supervision of shared shelters, likely by local authorities"
+90,106,הצעת חוק לתיקון פקודת העיריות (מענק הבירה),2196089 2156205,+,main,2196089,F1-18,not_about,,"Jerusalem capital grant is funding, not powers"
+90,106,הצעת חוק הרשויות המקומיות (בחירת ראש הרשות וסגניו וכהונתם) (תיקון מס' 40),2218124,+,main,2218124,F1-19,borderline,+,More flexibility in appointing deputy mayors
+90,106,"הצעת חוק תאגידי מים וביוב (תיקון מס' 20) (הפעלת שירותי מים וביוב על ידי רשות מקומית), התשפ""ו–2026",2197981,+,main,2197981,F1-20,borderline,+,Lets municipality run water services itself
+90,106,הצעת חוק לתיקון פקודת העיריות (הרשאת שימוש במקרקעין למוסד ציבורי),2197358 2190295,−,main,2197358,F1-21,not_about,,"Land use permits to public institutions, property arrangement"
+90,106,הצעת חוק לתיקון פקודת התעבורה (הסדר ארצי אחיד לעניין גרירת רכב),2199961 2197292 2190298,−,secondary,2199961,F1-22,about,−,Uniform national towing rule replaces varying local bylaws
+90,106,הצעת חוק הרשויות המקומיות (בחירת ראש הרשות וסגניו וכהונתם) (תיקון - מינוי סגן ראש רשות בשכר),2191222,+,secondary,2191222,F1-23,borderline,+,Eases appointment of paid deputy mayor
+90,106,הצעת חוק משמר עירוני,2170082,+,main,2170082,F1-24,borderline,+,Local emergency guard strengthens municipal security role
+90,106,הצעת חוק התכנון והבנייה (תיקון מס' 160),2225484,+,main,2225484,F1-25,borderline,+,Local committee relief powers in plans; direction uncertain
+90,106,הצעת חוק לתיקון פקודת העיריות (הסדרת מבנים לתנועות נוער),2157181 2201325 2157890,−,main,2157181,F1-26,borderline,−,Imposes rules on municipal buildings for youth movements
+90,106,הצעת חוק התכנון והבנייה (תיקון - הקלה לבניין קיים),2229512,+,secondary,2229512,F1-27,borderline,+,Licensing authority may grant relief for existing buildings
+90,106,הצעת חוק הפעלת תחבורה ציבורית מצומצמת ביום המנוחה השבועי,2157253,+,main,2157253,F1-28,about,+,Local authority may decide Sabbath public transport lines
+90,106,הצעת חוק הסדרת מקומות רחצה (תיקון - איסור גביית דמי כניסה),2157135,−,secondary,2157135,F1-29,borderline,−,"Bans beach entry fees, limiting local discretion"
+90,106,הצעת חוק הסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב) (תיקון - חובת הענקת הנחה בארנונה לאדם בעל מוגבלות),2198912 2202534 2201657 2157100,−,secondary,2198912,F1-30,borderline,−,Makes discretionary property tax discount mandatory
+90,106,הצעת חוק הסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב) (תיקון - ארנונה על מבנה מגורים שאינו בשימוש),2157401,+,main,2157401,F1-31,borderline,+,"Allows property tax on unused homes, local fiscal tool"
+90,106,הצעת חוק התכנון והבנייה (תיקון - היטלי השבחה במיתקני אגירת אנרגיה),2212785,+,secondary,2212785,F1-32,not_about,,"Betterment levy on energy storage facilities, fiscal detail"
+90,106,הצעת חוק רשויות מרחביות לתחבורה,2221686,+,main,2221686,F1-33,about,+,Decentralizes transport powers from central government
+90,106,הצעת חוק לתיקון פקודת התעבורה (סימון שונה במקומות שבהם היתר החניה תלוי בשעות),2204108,+,main,2204108,F1-34,not_about,,Technical parking curb marking rule
+90,106,הצעת חוק תאגידי מים וביוב (תיקון - הפסקת התקשרות עם חברה),2157513 2162510,+,main,2157513,F1-35,borderline,+,Lets municipality end engagement with water corporation
+90,106,הצעת חוק העסקת עובדי חינוך בגני ילדים באמצעות חוזה אישי (תיקוני חקיקה),2191632 2196714,+,secondary,2191632,F1-36,borderline,+,Lets municipalities hire kindergarten staff on personal contracts
+90,106,הצעת חוק משמר מקומי,2198183,+,main,2198183,F1-37,borderline,+,Local guard strengthens municipal security role
+90,106,הצעת חוק התכנון והבנייה (תיקון - ניוד זכויות),2230229,+,secondary,2230229,F1-38,not_about,,Transfer of building rights for safe rooms
+90,106,"הצעת חוק הסדרת מקומות רחצה (תיקון – קביעת מקומות לרחצה נפרדת), התשפ""ג–2023",2201862,+,main,2201862,F1-39,borderline,−,Separate beaches arrangement likely imposed on local councils
+90,106,"חוק העונשין (תיקון מס' 141), התשפ""ב–2022",2160464,+,main,2160464,F1-40,borderline,+,"Secondary legislation, including bylaws, may set higher penalties"
+90,106,"הצעת חוק תאגידי מים וביוב (תיקון מס' 21) (הפעלת שירותי מים וביוב על ידי רשות מקומית), התשפ""ו–2026",2234071,+,main,2234071,F1-41,borderline,+,Lets municipality run water services itself
+90,106,הצעת חוק הרשויות המקומיות (בחירת ראש הרשות וסגניו וכהונתם) (תיקון - סגני ראש הרשות),2234580,+,secondary,2234580,F2-1,borderline,+,More managerial flexibility on deputy mayors
+90,106,הצעת חוק לתיקון פקודת העדה הדתית (המרה) (גיור על ידי רב עיר),2158263 2200095 2198888 2164635,+,secondary,2158263,F2-2,not_about,,"Religious conversion by city rabbis, not municipal powers"
+90,106,"חוק רשות מקרקעי ישראל (תיקון מס' 16), התשפ""ו–2026",2225649,+,secondary,2225649,F2-3,not_about,,Land authority and tax revenue distribution
+90,106,הצעת חוק לתיקון פקודת העיריות (ביטול סמכויות גבייה מנהליות),2157455,−,main,2157455,F2-4,borderline,−,Removes municipal administrative debt collection powers
+90,106,הצעת חוק איסוף ופינוי פסולת למיחזור (תיקון - מיחזור במוסדות חינוך),2190057,+,secondary,2190057,F2-5,not_about,,Recycling in schools
+90,106,הצעת חוק לימוד חובה (תיקון - מנהל מוסד חינוך),2164264 2195677,+,secondary,2164264,F2-6,not_about,,School principal status
+90,106,הצעת חוק תאגידי מים וביוב (תיקון - ביטול סמכויות גבייה ואכיפה מיוחדות),2201724 2203225 2201722 2156276,−,secondary,2201724,F2-7,not_about,,"Water corporations' collection powers, not municipalities"
+90,106,הצעת חוק הפעלת תחבורה ציבורית בשבת,2243017 2199926 2200707 2197123 2156407,+,main,2243017,F2-8,borderline,+,"Sabbath public transport, possibly local decision"
+90,106,הצעת חוק לעידוד תחבורת אופניים,2159133,+,secondary,2159133,F2-9,not_about,,Bicycle promotion policy
+90,106,הצעת חוק הפעלת שירות רכבות בשבת ובמועדי ישראל,2156986,+,main,2156986,F2-10,not_about,,National train service on Sabbath
+90,106,הצעת חוק ההתגוננות האזרחית (תיקון - אפשרות לקבלת פטור מבניית מקלט בהרחבת בית),2200376 2157918,+,secondary,2200376,F2-11,not_about,,Shelter exemption for home extensions
+90,106,הצעת חוק לתיקון פקודת העיריות (תשלום עבור המצאת מסמכי מכרז),2196112 2157933,−,secondary,2196112,F2-12,not_about,,"Tender document fees, procedural detail"
+90,106,הצעת חוק סיירות ביטחון ברשויות המקומיות (הוראת שעה),2224175,+,secondary,2224175,F2-13,about,+,Municipal security patrol powers
+90,106,הצעת חוק שירותי הדת היהודיים (תיקון - ביטול המועצות הדתיות),2200709,+,secondary,2200709,F2-14,borderline,+,Abolishes religious councils; burial via local authorities
+90,106,הצעת חוק התכנון והבנייה (תיקון - מתן הקלה לבניין קיים),2227825,+,secondary,2227825,F2-15,borderline,+,Licensing authority may grant relief for existing buildings
+90,106,הצעת חוק הסדרת הטיפול בחופי הים התיכון (איגודי ערים חופיות),2233626,−,secondary,2233626,F2-16,borderline,−,Unifies beach management across coastal municipalities
+90,106,הצעת חוק התכנון והבנייה (תיקון - בקרת יציבות שלד הבניין),2191507,+,secondary,2191507,F2-17,not_about,,Building structural safety inspections
+90,106,הצעת חוק לתיקון פקודת העיריות (הטלת ארנונה על מפעל לייצור נשק),2164922 2164092,+,secondary,2164922,F2-18,borderline,+,Lifts property tax cap on weapons factories
+90,106,הצעת חוק תאגידי מים וביוב (תיקון - הפעלת שירותי מים וביוב על ידי רשות מקומית),2193107 2197748 2198950 2200471,+,main,2193107,F2-19,borderline,+,Lets municipality run water services itself
+90,106,הצעת חוק הדחת נציג ציבור התומך במאבק מזוין נגד מדינת ישראל (תיקוני חקיקה),2198586,−,secondary,2198586,F2-20,not_about,,"Eligibility of local representatives, not powers"
+90,106,הצעת חוק ההתגוננות האזרחית (תיקון - סמכויות אכיפת כניסה למקלט והטלת קנס),2233205,+,main,2233205,F2-21,borderline,+,Enforcement powers and fines for shelter access
+90,106,הצעת חוק לתיקון פקודת העיריות (ביטול סמכויות גבייה מינהליות),2205865,−,main,2205865,F2-22,borderline,−,Removes municipal administrative debt collection powers
+90,106,הצעת חוק לייעול הפיקוח והאכיפה העירוניים ברשויות המקומיות (תעבורה) (תיקון - הגברת האכיפה),2167313,+,secondary,2167313,F2-23,about,+,Strengthens municipal traffic enforcement
+90,106,הצעת חוק מתן סמכויות פיקוח והסמכת מפקחים ופקחים (תיקוני חקיקה),2156938 2196070,+,secondary,2156938,F2-24,borderline,+,Supervisory powers for animal welfare inspectors
+90,106,הצעת חוק שירותי הדת היהודיים (תיקון - פיזור מועצה דתית בידי מועצת הרשות המקומית),2157559 2200116,+,secondary,2157559,F2-25,borderline,+,Local council may dissolve religious council
+90,106,"הצעת חוק המוסד העליון ללשון העברית (תיקון מס' 5) (כתיב ותעתיק של שמות מקומות ציבוריים), התשפ""ב–2022",2156482,−,secondary,2156482,F2-26,not_about,,Transliteration of place names
+90,106,הצעת חוק הגנה על בתי תפילה ותיקים (תיקוני חקיקה),2205837 2225758,−,secondary,2205837,F2-27,not_about,,Use rights of old prayer houses
+90,106,הצעת חוק התכנון והבנייה (תיקון - ייצוג הוועדה המקומית),2169772 2196699,+,main,2169772,F2-28,borderline,+,Independent standing of local planning committee
+90,106,הצעת חוק מטרופולין ירושלים,2200732,+,main,2200732,F2-29,not_about,,"Jerusalem metropolitan status, not municipal rule-making"
+90,106,הצעת חוק התכנון והבנייה (תיקון - הקמת ועדה מיוחדת לקידום והסדרת התכנון ביישובים הדרוזים) (הוראת שעה),2199426,+,main,2199426,F2-30,borderline,+,Planning committee for Druze localities lacking local committees
+90,106,הצעת חוק התכנון והבנייה (תיקון מס' 117 - הוראת שעה) (תיקון - הארכת הוראת השעה),2199991,+,secondary,2199991,F2-31,about,+,Local committee may permit splitting houses
+90,106,הצעת חוק לתיקון פקודת העיריות (קביעת שירותי תחבורה ציבורית בתחומי הרשות המקומית),2222434 2216982,+,main,2222434,F2-32,about,+,Municipality determines local public transport services
+90,106,הצעת חוק התכנון והבנייה (תיקון - הארכת הסמכות של ועדות מקומיות בגליל ובנגב),2221177,+,secondary,2221177,F2-33,about,+,Extends local planning committee authority in periphery
+90,106,"הצעת חוק הקמת מאגר מידע גנטי לכלבים (תיקון - הסמכת מפקחים, אכיפה ועונשין)",2236329,+,secondary,2236329,F2-34,borderline,+,Municipal inspector enforcement for dog DNA database
+90,106,הצעת חוק הרשויות המקומיות (אזורי פיתוח אקלימיים) (הוראת שעה),2216609,+,main,2216609,F2-35,borderline,+,"Local climate development zones, local decision-making"
+90,106,הצעת חוק שירותי הדת היהודיים (מועצות דתיות - בחירות),2200616,+,secondary,2200616,F2-36,not_about,,Religious council elections
+90,106,הצעת חוק לתיקון פקודת התעבורה (סמכות לאכיפת עבירות חניה בידי רשויות מקומיות באמצעות מצלמות וסימון אזורי האכיפה בתמרור),2190305,−,main,2190305,F2-37,about,+,Municipal camera enforcement of parking
+90,106,הצעת חוק לתיקון פקודת התעבורה (סימון אחיד להסדרי חניה),2219398,−,main,2219398,F2-38,about,−,Imposes uniform parking marking on municipalities
+90,106,הצעת חוק לתיקון פקודת התעבורה (סמכות רשות מקומית בקביעת שפות תמרורים),2230386,+,main,2230386,F2-39,about,+,Local authority sets road sign languages
+90,106,הצעת חוק לתיקון פקודת העיריות (מס' 146 - הוראת שעה) (קיצור הוראת השעה),2158893,+,main,2158893,F2-40,about,+,Shortens bypass of council approval for police stations
+90,106,הצעת חוק תאגידי מים וביוב (תיקון - ביטול החוק והוראות מעבר),2160293,+,main,2160293,F2-41,borderline,+,"Abolishes water corporations, returning services to municipalities"

@@ -1,0 +1,29 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason,kind,cid
+88,117,הצעת חוק פסילת חבר מועצה מועמד למלא מקום ראש רשות מקומית שהושעה בשל הגשת כתב אישום (תיקוני חקיקה),2157334,−,secondary,2157334,F1-29,not_about,,"Disqualifying indicted council members, unrelated to voting access",candidate,C1
+88,117,הצעת חוק הבחירות לכנסת (תיקון - זכות הצבעה לאזרחים מחוץ לישראל),2194295 2167029 2198244,+,main,2194295,F1-14,about,+,"Allows citizens abroad, including students, to vote",control,C2
+88,117,הצעת חוק-יסוד: הכנסת (תיקון - גיל הבוחר),2156975,+,main,2156975,F1-27,not_about,,"Voting age change, not access for voters away from home",candidate,C3
+88,117,הצעת חוק לתיקון דיני הבחירות לרשויות המקומיות (הוראת שעה),2222870,+,main,2222870,F1-32,not_about,,"Temporary local election timing provisions, not voter access",candidate,C4
+88,117,הצעת חוק-יסוד: הכנסת (תיקון - הצהרה בדבר זהותה של מדינת ישראל),2215192,−,main,2215192,F1-7,not_about,,"Candidate identity declaration, unrelated to voting access",candidate,C5
+88,117,הצעת חוק הרשויות המקומיות (בחירות) (תיקון - הצבעת חיילים),2212711,+,main,2212711,F1-17,about,+,Enables soldiers to vote in local elections away from home,control,C6
+88,117,הצעת חוק-יסוד: הכנסת (תיקון - שלילת זכות הצבעה מאסירים),2236685 2237560,−,main,2236685,F1-4,not_about,,"Disenfranchises prisoners; franchise scope, not away-from-home access",candidate,C7
+88,117,חוק המקרקעין (תיקון מס' 37),2210753,+,secondary,2210753,F1-31,not_about,,"Real estate shared property law, unrelated",candidate,C8
+88,117,הצעת חוק הרבנות הראשית לישראל (תיקון - הרחבת האסיפה הבוחרת),2157333 2195798,+,secondary,2157333,F1-13,not_about,,"Chief Rabbinate electoral assembly expansion, unrelated",candidate,C9
+88,117,חוק לתיקון דיני הבחירות לרשויות המקומיות (הוראת שעה),2222646,+,main,2222646,F1-21,not_about,,"Temporary local election timing provisions, not voter access",candidate,C10
+88,117,חוק לתיקון דיני הבחירות לרשויות המקומיות והוראות שעה לעניין הבחירות הקרובות,2214443,+,secondary,2214443,F1-1,not_about,,"Local election postponement and timing, not away-from-home voting",candidate,C11
+88,117,הצעת חוק-יסוד: הכנסת (תיקון - התניית הצבעה בשירות צבאי או לאומי),2230039 2236213 2226673,−,main,2230039,F1-25,not_about,,"Conditions franchise on service; eligibility, not away-from-home access",candidate,C12
+88,117,הצעת חוק הרבנות הראשית לישראל (תיקון - ייצוג הציבור באסיפה הבוחרת),2200089 2169221 2196045 2190707 2193442,+,secondary,2200089,F1-10,not_about,,"Chief Rabbinate electoral assembly composition, unrelated",candidate,C13
+88,117,הצעת חוק לדחיית הבחירות הכלליות לרשויות המקומיות (תיקון - מועד הבחירות),2213071,+,main,2213071,F1-24,not_about,,"Changes local election date, not away-from-home voting",candidate,C14
+88,117,הצעת חוק הבחירות לכנסת (תיקון - עדכון כתובת לצורכי בחירות),2166743 2200497 2196709,+,main,2166743,F1-12,about,+,Updating voting address relaxes binding to home polling station,control,C15
+88,117,הצעת חוק ביטוח בריאות ממלכתי (תיקון - הוספת נציגי עובדים בדירקטוריון ובמועצת קופות החולים),2233784,+,secondary,2233784,F1-9,not_about,,"Health fund board worker representatives, not general elections",candidate,C16
+88,117,הצעת חוק הבחירות לכנסת (תיקון - הצבעת אזרחים מחוץ לישראל),2159550,+,main,2159550,F1-18,about,+,Allows Israeli citizens abroad to vote,control,C17
+88,117,הצעת חוק-יסוד: משאל עם (תיקון - זכות הצבעה לתושבי קבע בשטח לגביו מתקיים משאל העם),2156311,+,main,2156311,F1-2,not_about,,"Referendum franchise for territory residents, not absentee voting access",candidate,C18
+88,117,הצעת חוק-יסוד: הכנסת (תיקון - הצבעה מרחוק לחבר הכנסת בשל היעדרות מוצדקת),2167654,+,secondary,2167654,F1-8,not_about,,"Remote voting for MKs in plenum, not general elections",candidate,C19
+88,117,הצעת חוק הבחירות לכנסת (תיקון - ביטול עקרון הריתוק לקלפי),2156904 2200496,+,main,2156904,F1-19,about,+,Abolishes binding voters to their home polling station,control,C20
+88,117,הצעת חוק הבחירות לכנסת (תיקון - הצבעת אנשי צוות אוויר),2244243 2195856 2207565 2162316,+,main,2244243,F1-22,about,+,Lets aircrew away on election day vote elsewhere,control,C21
+88,117,הצעת חוק הפיקוח על שירותים פיננסיים (קופות גמל) (תיקון - מתן שיקול דעת לחברה מנהלת בהשתתפות ובהצבעה באסיפה של חברה דואלית),2226682,+,main,2226682,F1-15,not_about,,"Pension fund shareholder voting, unrelated to elections",candidate,C22
+88,117,הצעת חוק-יסוד: הכנסת (תיקון - הורדת גיל הבחירה),2234655,+,main,2234655,F1-36,not_about,,"Lowers voting age, not away-from-home access",candidate,C23
+88,117,הצעת חוק הרשויות המקומיות (בחירות) (תיקון - בחירה של בעל עסק בתחום רשות מקומית שעסקו רשום בה),2198917,+,main,2198917,F1-34,not_about,,"Business owners' local franchise, not voting away from home",candidate,C24
+88,117,הצעת חוק הסכמים קיבוציים (תיקון - בחירות לוועד עובדים ולארגון יציג),2190169 2196015,+,secondary,2190169,F1-11,not_about,,"Workers committee elections, unrelated to general voting access",candidate,C25
+88,117,הצעת חוק שירותי הדת היהודיים (מועצות דתיות - בחירות),2157531,+,secondary,2157531,F1-3,not_about,,"Religious council elections, unrelated to voters away from home",candidate,C26
+88,117,הצעת חוק הצבעת מתנדבי השירות האזרחי (תיקוני חקיקה),2216421,+,main,2216421,F1-28,about,+,Special voting arrangements for civil service volunteers away from home,control,C27
+88,117,הצעת חוק החברות (תיקון - עניין אישי של דירקטור שהוא נציג נבחר מקרב עובדי החברה),2167092,+,secondary,2167092,F1-26,not_about,,"Company director conflict of interest, unrelated",candidate,C28

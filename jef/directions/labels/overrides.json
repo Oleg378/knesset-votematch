@@ -7814,6 +7814,350 @@
     "role": "secondary",
     "source": "label check q86 (2026-10-19): two blind checks «not about»",
     "reason": "Changes preferred-work list generally; no clear farmer support"
+   },
+   {
+    "bill_id": "2157334",
+    "d": "117",
+    "q": "88",
+    "role": "secondary",
+    "source": "label check q88 (2026-10-19): two blind checks «not about»",
+    "reason": "Disqualifying indicted council members, unrelated to voting access"
+   },
+   {
+    "bill_id": "2210753",
+    "d": "117",
+    "q": "88",
+    "role": "secondary",
+    "source": "label check q88 (2026-10-19): two blind checks «not about»",
+    "reason": "Real estate shared property law, unrelated"
+   },
+   {
+    "bill_id": "2157333",
+    "d": "117",
+    "q": "88",
+    "role": "secondary",
+    "source": "label check q88 (2026-10-19): two blind checks «not about»",
+    "reason": "Chief Rabbinate electoral assembly expansion, unrelated"
+   },
+   {
+    "bill_id": "2195798",
+    "d": "117",
+    "q": "88",
+    "role": "secondary",
+    "source": "label check q88 (2026-10-19): two blind checks «not about»",
+    "reason": "Chief Rabbinate electoral assembly expansion, unrelated"
+   },
+   {
+    "bill_id": "2200089",
+    "d": "117",
+    "q": "88",
+    "role": "secondary",
+    "source": "label check q88 (2026-10-19): two blind checks «not about»",
+    "reason": "Chief Rabbinate electoral assembly composition, unrelated"
+   },
+   {
+    "bill_id": "2169221",
+    "d": "117",
+    "q": "88",
+    "role": "secondary",
+    "source": "label check q88 (2026-10-19): two blind checks «not about»",
+    "reason": "Chief Rabbinate electoral assembly composition, unrelated"
+   },
+   {
+    "bill_id": "2196045",
+    "d": "117",
+    "q": "88",
+    "role": "secondary",
+    "source": "label check q88 (2026-10-19): two blind checks «not about»",
+    "reason": "Chief Rabbinate electoral assembly composition, unrelated"
+   },
+   {
+    "bill_id": "2190707",
+    "d": "117",
+    "q": "88",
+    "role": "secondary",
+    "source": "label check q88 (2026-10-19): two blind checks «not about»",
+    "reason": "Chief Rabbinate electoral assembly composition, unrelated"
+   },
+   {
+    "bill_id": "2193442",
+    "d": "117",
+    "q": "88",
+    "role": "secondary",
+    "source": "label check q88 (2026-10-19): two blind checks «not about»",
+    "reason": "Chief Rabbinate electoral assembly composition, unrelated"
+   },
+   {
+    "bill_id": "2213071",
+    "d": "117",
+    "q": "88",
+    "role": "main",
+    "source": "label check q88 (2026-10-19): two blind checks «not about»",
+    "reason": "Changes local election date, not away-from-home voting"
+   },
+   {
+    "bill_id": "2233784",
+    "d": "117",
+    "q": "88",
+    "role": "secondary",
+    "source": "label check q88 (2026-10-19): two blind checks «not about»",
+    "reason": "Health fund board worker representatives, not general elections"
+   },
+   {
+    "bill_id": "2167654",
+    "d": "117",
+    "q": "88",
+    "role": "secondary",
+    "source": "label check q88 (2026-10-19): two blind checks «not about»",
+    "reason": "Remote voting for MKs in plenum, not general elections"
+   },
+   {
+    "bill_id": "2226682",
+    "d": "117",
+    "q": "88",
+    "role": "main",
+    "source": "label check q88 (2026-10-19): two blind checks «not about»",
+    "reason": "Pension fund shareholder voting, unrelated to elections"
+   },
+   {
+    "bill_id": "2190169",
+    "d": "117",
+    "q": "88",
+    "role": "secondary",
+    "source": "label check q88 (2026-10-19): two blind checks «not about»",
+    "reason": "Workers committee elections, unrelated to general voting access"
+   },
+   {
+    "bill_id": "2196015",
+    "d": "117",
+    "q": "88",
+    "role": "secondary",
+    "source": "label check q88 (2026-10-19): two blind checks «not about»",
+    "reason": "Workers committee elections, unrelated to general voting access"
+   },
+   {
+    "bill_id": "2167092",
+    "d": "117",
+    "q": "88",
+    "role": "secondary",
+    "source": "label check q88 (2026-10-19): two blind checks «not about»",
+    "reason": "Company director conflict of interest, unrelated"
+   },
+   {
+    "bill_id": "2215192",
+    "d": "117",
+    "q": "88",
+    "role": "main",
+    "source": "label check q88 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Candidate identity declaration, unrelated to voting access"
+   },
+   {
+    "bill_id": "2157531",
+    "d": "117",
+    "q": "88",
+    "role": "secondary",
+    "source": "label check q88 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Religious council elections, unrelated to voters away from home"
+   },
+   {
+    "bill_id": "2156986",
+    "d": "106",
+    "q": "90",
+    "role": "main",
+    "source": "label check q90 (2026-10-19): two blind checks «not about»",
+    "reason": "National train service on Sabbath"
+   },
+   {
+    "bill_id": "2230229",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "label check q90 (2026-10-19): two blind checks «not about»",
+    "reason": "Transfer of building rights for safe rooms"
+   },
+   {
+    "bill_id": "2198586",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "label check q90 (2026-10-19): two blind checks «not about»",
+    "reason": "Eligibility of local representatives, not powers"
+   },
+   {
+    "bill_id": "2190057",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "label check q90 (2026-10-19): two blind checks «not about»",
+    "reason": "Recycling in schools"
+   },
+   {
+    "bill_id": "2164264",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "label check q90 (2026-10-19): two blind checks «not about»",
+    "reason": "School principal status"
+   },
+   {
+    "bill_id": "2195677",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "label check q90 (2026-10-19): two blind checks «not about»",
+    "reason": "School principal status"
+   },
+   {
+    "bill_id": "2196089",
+    "d": "106",
+    "q": "90",
+    "role": "main",
+    "source": "label check q90 (2026-10-19): two blind checks «not about»",
+    "reason": "Jerusalem capital grant is funding, not powers"
+   },
+   {
+    "bill_id": "2156205",
+    "d": "106",
+    "q": "90",
+    "role": "main",
+    "source": "label check q90 (2026-10-19): two blind checks «not about»",
+    "reason": "Jerusalem capital grant is funding, not powers"
+   },
+   {
+    "bill_id": "2200616",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "label check q90 (2026-10-19): two blind checks «not about»",
+    "reason": "Religious council elections"
+   },
+   {
+    "bill_id": "2200376",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "label check q90 (2026-10-19): two blind checks «not about»",
+    "reason": "Shelter exemption for home extensions"
+   },
+   {
+    "bill_id": "2157918",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "label check q90 (2026-10-19): two blind checks «not about»",
+    "reason": "Shelter exemption for home extensions"
+   },
+   {
+    "bill_id": "2156482",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "label check q90 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Transliteration of place names"
+   },
+   {
+    "bill_id": "2201724",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "label check q90 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Water corporations' collection powers, not municipalities"
+   },
+   {
+    "bill_id": "2203225",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "label check q90 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Water corporations' collection powers, not municipalities"
+   },
+   {
+    "bill_id": "2201722",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "label check q90 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Water corporations' collection powers, not municipalities"
+   },
+   {
+    "bill_id": "2156276",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "label check q90 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Water corporations' collection powers, not municipalities"
+   },
+   {
+    "bill_id": "2196112",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "label check q90 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Tender document fees, procedural detail"
+   },
+   {
+    "bill_id": "2157933",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "label check q90 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Tender document fees, procedural detail"
+   },
+   {
+    "bill_id": "2158263",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "label check q90 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Religious conversion by city rabbis, not municipal powers"
+   },
+   {
+    "bill_id": "2200095",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "label check q90 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Religious conversion by city rabbis, not municipal powers"
+   },
+   {
+    "bill_id": "2198888",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "label check q90 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Religious conversion by city rabbis, not municipal powers"
+   },
+   {
+    "bill_id": "2164635",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "label check q90 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Religious conversion by city rabbis, not municipal powers"
+   },
+   {
+    "bill_id": "2159133",
+    "d": "106",
+    "q": "90",
+    "role": "secondary",
+    "source": "label check q90 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Bicycle promotion policy"
+   },
+   {
+    "bill_id": "2197622",
+    "d": "144",
+    "q": "93",
+    "role": "secondary",
+    "source": "label check q93 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Ethics committee for investment fund; not environmental"
+   },
+   {
+    "bill_id": "2189697",
+    "d": "144",
+    "q": "93",
+    "role": "secondary",
+    "source": "label check q93 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Ethics committee for investment fund; not environmental"
    }
   ]
  },
@@ -8145,6 +8489,60 @@
     "role": "secondary",
     "source": "label check q77 (2026-10-19): first check and the check on the full notes agree on the sign",
     "reason": "Temporary extra unemployment benefits after COVID relief; minor tightening on unpaid leave and vacation days"
+   },
+   {
+    "bill_id": "2200335",
+    "d": "106",
+    "q": "90",
+    "sign": "−",
+    "role": "main",
+    "source": "label check q90 (2026-10-19): first check and the check on the full notes agree on the sign",
+    "reason": "Mainly obliges municipalities to survey bathers and size separate beaches accordingly; secondary permission to declare full-week separate beaches."
+   },
+   {
+    "bill_id": "2167202",
+    "d": "106",
+    "q": "90",
+    "sign": "−",
+    "role": "main",
+    "source": "label check q90 (2026-10-19): first check and the check on the full notes agree on the sign",
+    "reason": "Mainly obliges municipalities to survey bathers and size separate beaches accordingly; secondary permission to declare full-week separate beaches."
+   },
+   {
+    "bill_id": "2201862",
+    "d": "106",
+    "q": "90",
+    "sign": "−",
+    "role": "main",
+    "source": "label check q90 (2026-10-19): first check and the check on the full notes agree on the sign",
+    "reason": "Same as S4: mandatory triennial survey and beach sizing imposed on municipalities; secondary permission to declare separate beaches."
+   },
+   {
+    "bill_id": "2240467",
+    "d": "144",
+    "q": "93",
+    "sign": "−",
+    "role": "main",
+    "source": "label check q93 (2026-10-19): first check and the check on the full notes agree on the sign",
+    "reason": "No notes; title: planning streamlining moves environmental permit review to licensed controller in private control institute, reducing environmental authority role."
+   },
+   {
+    "bill_id": "2204245",
+    "d": "144",
+    "q": "93",
+    "sign": "−",
+    "role": "main",
+    "source": "label check q93 (2026-10-19): first check and the check on the full notes agree on the sign",
+    "reason": "No notes; energy chapter of economic plan amending Clean Air Law, likely easing emission permits for energy projects; uncertain."
+   },
+   {
+    "bill_id": "2210623",
+    "d": "144",
+    "q": "93",
+    "sign": "−",
+    "role": "main",
+    "source": "label check q93 (2026-10-19): first check and the check on the full notes agree on the sign",
+    "reason": "No notes; temporary provision to Cleanliness Law in arrangements bill, likely diverting cleanliness fund or levy; direction uncertain."
    }
   ]
  }
