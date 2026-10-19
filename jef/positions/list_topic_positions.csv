@@ -117,7 +117,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",21,государственное регулирование цен и тарифов,0.5237,0.7159,0.0063,11,36,20,False,-0.1985,88,35
 אמת,"HaDemocratim, headed by Yair Golan",211,обязанности и расходы работодателей,0.8302,0.8107,0.0232,10,165,136,False,-0.0037,129,119
 אמת,"HaDemocratim, headed by Yair Golan",214,вознаграждение и привилегии выборных и бывших должностных лиц,-0.0108,-0.0606,0.0,11,10,0,False,0.0498,51,12
-אמת,"HaDemocratim, headed by Yair Golan",215,оплата и статус работников госсектора,0.7391,0.6667,0.0,6,5,5,False,0.0724,43,10
+אמת,"HaDemocratim, headed by Yair Golan",215,оплата и статус работников госсектора,0.7391,0.6667,0.0,6,5,2,False,0.0724,43,9
 אמת,"HaDemocratim, headed by Yair Golan",216,ограничения труда несовершеннолетних,-0.025,0.0,0.0,10,0,10,False,-0.025,2,2
 אמת,"HaDemocratim, headed by Yair Golan",218,сила профсоюзов и коллективных договоров,0.75,0.75,0.0,4,7,0,False,0.0,6,4
 אמת,"HaDemocratim, headed by Yair Golan",22,защита арендаторов и жильцов,0.7607,0.9091,0.0637,11,33,3,False,-0.2121,54,17
@@ -443,7 +443,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",21,государственное регулирование цен и тарифов,0.5357,0.5,0.005,6,8,39,False,0.0307,87,23
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",211,обязанности и расходы работодателей,0.0502,0.05,0.0808,6,26,59,False,-0.0806,73,51
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",214,вознаграждение и привилегии выборных и бывших должностных лиц,0.2083,0.1667,0.0,6,2,7,False,0.0417,1,5
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",215,оплата и статус работников госсектора,0.8125,0.75,0.0,4,4,2,False,0.0625,3,4
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",215,оплата и статус работников госсектора,0.875,0.75,0.0,4,4,2,False,0.125,2,3
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",216,ограничения труда несовершеннолетних,0.25,0.0,0.0,1,0,0,True,0.25,1,1
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",218,сила профсоюзов и коллективных договоров,-1.0,-1.0,0.0,1,1,0,True,0.0,0,1
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",22,защита арендаторов и жильцов,0.0027,0.2,0.0027,5,1,6,False,-0.2,6,8
@@ -974,7 +974,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,21,государственное регулирование цен и тарифов,0.2042,0.4537,-0.0183,9,57,103,False,-0.2311,68,34
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,211,обязанности и расходы работодателей,0.3229,0.4268,-0.0548,9,114,106,False,-0.0491,126,76
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,214,вознаграждение и привилегии выборных и бывших должностных лиц,0.0804,0.1429,-0.0625,7,1,14,False,0.0,0,5
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,215,оплата и статус работников госсектора,0.1071,0.2857,0.0,7,4,0,False,-0.1786,5,3
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,215,оплата и статус работников госсектора,0.5,0.5,0.0,4,4,0,False,0.0,0,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,216,ограничения труда несовершеннолетних,0.125,0.0,0.0,4,0,0,False,0.125,4,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,217,свобода работников выбирать профсоюз,1.0,1.0,0.0,2,2,0,True,0.0,0,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,218,сила профсоюзов и коллективных договоров,-1.0,-1.0,0.0,1,1,0,True,0.0,0,1
@@ -1293,7 +1293,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",21,государственное регулирование цен и тарифов,0.0978,0.25,0.0278,4,4,24,False,-0.18,63,23
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",211,обязанности и расходы работодателей,0.3032,0.2167,-0.0052,4,9,41,False,0.0917,25,36
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",214,вознаграждение и привилегии выборных и бывших должностных лиц,0.1965,0.0,0.0,4,0,0,False,0.1965,46,6
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",215,оплата и статус работников госсектора,0.1506,0.0,0.0,4,0,1,False,0.1506,50,5
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",215,оплата и статус работников госсектора,0.1506,0.0,0.0,4,0,0,False,0.1506,50,4
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",218,сила профсоюзов и коллективных договоров,0.0,0.0,0.0,4,0,0,False,0.0,8,1
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",22,защита арендаторов и жильцов,0.0,0.25,0.0,4,1,1,False,-0.25,8,6
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",226,возможности кредиторов,-0.4901,-0.25,-0.0696,4,1,12,False,-0.1705,14,14
@@ -1909,7 +1909,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",21,государственное регулирование цен и тарифов,-0.0293,0.1806,0.0181,6,16,70,False,-0.228,68,26
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",211,обязанности и расходы работодателей,0.5377,0.663,-0.0039,6,28,74,False,-0.1214,93,52
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",214,вознаграждение и привилегии выборных и бывших должностных лиц,0.3333,0.3333,0.0,6,2,13,False,0.0,0,5
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",215,оплата и статус работников госсектора,0.15,0.4,0.0,5,3,0,False,-0.25,5,3
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",215,оплата и статус работников госсектора,1.0,1.0,0.0,2,3,0,True,0.0,0,2
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",217,свобода работников выбирать профсоюз,1.0,1.0,0.0,2,3,0,True,0.0,0,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",218,сила профсоюзов и коллективных договоров,-1.0,-1.0,0.0,2,5,0,True,0.0,0,2
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",22,защита арендаторов и жильцов,0.7591,1.0,0.0091,6,10,16,False,-0.25,17,8
@@ -2498,7 +2498,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",21,государственное регулирование цен и тарифов,0.5427,0.75,0.0206,4,6,17,False,-0.2279,50,19
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",211,обязанности и расходы работодателей,0.555,0.5938,0.009,4,33,51,False,-0.0478,39,60
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",214,вознаграждение и привилегии выборных и бывших должностных лиц,0.2715,0.125,0.0,4,4,0,False,0.1465,38,11
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",215,оплата и статус работников госсектора,0.8068,0.6667,0.0,3,2,2,False,0.1401,41,7
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",215,оплата и статус работников госсектора,0.8068,0.6667,0.0,3,2,0,False,0.1401,41,6
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",216,ограничения труда несовершеннолетних,0.0,0.0,0.0,3,0,3,False,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",218,сила профсоюзов и коллективных договоров,0.3333,0.3333,0.0,3,1,0,False,0.0,6,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",22,защита арендаторов и жильцов,0.0,0.25,0.0,4,1,1,False,-0.25,14,7
@@ -2811,7 +2811,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",21,государственное регулирование цен и тарифов,0.5126,0.6875,0.0193,8,14,33,False,-0.1942,84,25
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",211,обязанности и расходы работодателей,0.8108,0.8577,0.0351,8,105,82,False,-0.0819,78,73
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",214,вознаграждение и привилегии выборных и бывших должностных лиц,0.2739,0.1429,0.0,7,1,3,False,0.1311,55,8
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",215,оплата и статус работников госсектора,0.8912,0.8333,0.0,6,11,5,False,0.0579,61,7
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",215,оплата и статус работников госсектора,0.3194,0.2,0.0,5,1,1,False,0.1194,60,6
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",216,ограничения труда несовершеннолетних,0.0833,0.0833,0.0,4,9,4,False,0.0,0,2
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",217,свобода работников выбирать профсоюз,1.0,1.0,0.0,6,10,0,False,0.0,0,4
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",218,сила профсоюзов и коллективных договоров,-0.1667,-0.1667,0.0,6,6,0,False,0.0,10,7
@@ -3136,7 +3136,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",21,государственное регулирование цен и тарифов,0.3822,0.5455,0.0017,33,67,392,False,-0.165,327,46
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",211,обязанности и расходы работодателей,0.3249,0.4459,-0.0106,33,154,339,False,-0.1103,441,119
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",214,вознаграждение и привилегии выборных и бывших должностных лиц,-0.0958,-0.0833,0.0042,30,22,56,False,-0.0167,2,14
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",215,оплата и статус работников госсектора,-0.103,0.0909,0.0,22,6,1,False,-0.1939,28,7
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",215,оплата и статус работников госсектора,0.3056,0.2222,0.0,9,6,1,False,0.0833,7,6
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",216,ограничения труда несовершеннолетних,0.0,0.0,0.0,3,0,1,False,0.0,3,2
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",217,свобода работников выбирать профсоюз,1.0,1.0,0.0,4,6,0,False,0.0,0,4
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",218,сила профсоюзов и коллективных договоров,-0.4286,-0.4286,0.0,7,15,0,False,0.0,0,11
@@ -3726,7 +3726,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",21,государственное регулирование цен и тарифов,0.7445,0.8767,0.0192,6,52,49,False,-0.1514,99,31
 עם,"Ra’am, the United Arab List",211,обязанности и расходы работодателей,0.8768,0.8984,-0.0016,6,197,100,False,-0.02,134,92
 עם,"Ra’am, the United Arab List",214,вознаграждение и привилегии выборных и бывших должностных лиц,0.3294,0.1667,0.0,6,3,0,False,0.1628,61,9
-עם,"Ra’am, the United Arab List",215,оплата и статус работников госсектора,-0.247,-0.4,0.0,5,4,1,False,0.153,65,7
+עם,"Ra’am, the United Arab List",215,оплата и статус работников госсектора,0.353,0.2,0.0,5,1,0,False,0.153,65,5
 עם,"Ra’am, the United Arab List",216,ограничения труда несовершеннолетних,-0.0833,0.0,0.0,6,0,5,False,-0.0833,3,2
 עם,"Ra’am, the United Arab List",218,сила профсоюзов и коллективных договоров,0.0312,0.0,0.0,4,0,0,False,0.0312,10,2
 עם,"Ra’am, the United Arab List",22,защита арендаторов и жильцов,0.489,0.8333,-0.1221,6,14,13,False,-0.2222,30,11
@@ -4041,7 +4041,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",21,государственное регулирование цен и тарифов,0.4802,0.625,0.0216,16,25,107,False,-0.1663,283,31
 רק,"Be’Yahad, headed by Naftali Bennett",211,обязанности и расходы работодателей,0.4903,0.4826,0.0396,15,201,335,False,-0.0319,198,124
 רק,"Be’Yahad, headed by Naftali Bennett",214,вознаграждение и привилегии выборных и бывших должностных лиц,0.1756,0.0,0.0,14,11,0,False,0.1756,146,11
-רק,"Be’Yahad, headed by Naftali Bennett",215,оплата и статус работников госсектора,0.5609,0.4286,0.0,14,12,14,False,0.1323,170,10
+רק,"Be’Yahad, headed by Naftali Bennett",215,оплата и статус работников госсектора,0.5609,0.4286,0.0,14,12,4,False,0.1323,170,9
 רק,"Be’Yahad, headed by Naftali Bennett",216,ограничения труда несовершеннолетних,-0.1818,0.0,0.0,11,0,8,False,-0.1818,18,2
 רק,"Be’Yahad, headed by Naftali Bennett",217,свобода работников выбирать профсоюз,1.0,1.0,0.0,1,2,0,True,0.0,0,1
 רק,"Be’Yahad, headed by Naftali Bennett",218,сила профсоюзов и коллективных договоров,-0.1997,-0.2727,0.0,11,4,0,False,0.0731,32,6
@@ -4369,7 +4369,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",21,государственное регулирование цен и тарифов,0.4325,0.5149,-0.0355,12,59,190,False,-0.0468,175,49
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",211,обязанности и расходы работодателей,0.8196,0.8025,-0.0097,12,148,194,False,0.0267,258,109
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",214,вознаграждение и привилегии выборных и бывших должностных лиц,0.125,0.1667,-0.0417,12,5,26,False,0.0,0,7
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",215,оплата и статус работников госсектора,0.1944,0.25,0.0,12,7,2,False,-0.0556,28,6
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",215,оплата и статус работников госсектора,0.303,0.2727,0.0,11,7,2,False,0.0303,20,5
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",216,ограничения труда несовершеннолетних,0.25,0.0,0.0,3,0,0,False,0.25,3,1
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",217,свобода работников выбирать профсоюз,1.0,1.0,0.0,2,3,0,True,0.0,0,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",218,сила профсоюзов и коллективных договоров,0.25,0.2,0.0,5,7,0,False,0.05,2,5
