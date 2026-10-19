@@ -1,0 +1,4 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason,kind,cid,v2,s2,r2
+77,277d,הצעת חוק הביטוח הלאומי (תיקון - הארכת תקופת הזכאות לדמי אבטלה לצעירים),2200015 2156784,+,secondary,2200015,F1-18,about,+,Longer unemployment benefit period for young workers,control,C1,about,+,Extends unemployment benefit entitlement period for young people under 28
+77,277d,"הצעת חוק הדגל, הסמל והמנון המדינה (תיקון - פגיעה בכבוד דגל המדינה או סמלה)",2197176 2158423 2190962,−,secondary,2197176,F1-5,not_about,,"Flag-desecration penalty; benefit loss is sanction, not coverage policy",candidate,C2,borderline,−,"Revokes unemployment benefits as added punishment for flag desecration; punitive, not coverage policy"
+77,277d,חוק הביטוח הלאומי (תיקון מס' 230),2156224,+,secondary,2156224,F1-28,about,+,Enacted law on unemployment benefits during vocational training,control,C3,about,+,Eases unemployment benefits for those in vocational training beyond eligibility year

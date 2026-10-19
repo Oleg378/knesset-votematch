@@ -1,0 +1,31 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason
+77,277d,הצעת חוק הביטוח הלאומי (תיקון - צמצום הפער בין עובדים עצמאיים לעובדים שכירים),2162967,+,secondary,2162967,F1-1,about,+,"Narrows self-employed gap, chiefly unemployment benefits for self-employed"
+77,277d,הצעת חוק הביטוח הלאומי (תיקון - התפטרות הורה על מנת לטפל בילדו),2199462 2198351 2156503 2202168 2195932,+,secondary,2199462,F1-2,about,+,Unemployment benefits for parent resigning to care for child
+77,277d,הצעת חוק הביטוח הלאומי (תיקון - דמי אבטלה למתמחים),2157220 2161430 2197247 2202024 2201399 2198070 2157877 2199217 2199433 2202881 2201173 2214654 2197312,+,main,2157220,F1-3,about,+,Grants unemployment benefits to medical interns
+77,277d,הצעת חוק הביטוח הלאומי (תיקון - דמי אבטלה למי שנמצא בהכשרה מקצועית),2189609 2158094 2156584,+,secondary,2189609,F1-4,about,+,Unemployment benefits for people in vocational training
+77,277d,"הצעת חוק הדגל, הסמל והמנון המדינה (תיקון - פגיעה בכבוד דגל המדינה או סמלה)",2197176 2158423 2190962,−,secondary,2197176,F1-5,not_about,,"Flag-desecration penalty; benefit loss is sanction, not coverage policy"
+77,277d,הצעת חוק להגדלת שיעור ההשתתפות בכוח העבודה ולצמצום פערים חברתיים (מענק עבודה) (תיקון - גיל הזכאות),2199543,+,main,2199543,F1-6,borderline,+,"Work grant age eligibility; in-work benefit, not unemployment"
+77,277d,הצעת חוק הבטחת הכנסה (תיקון - זכאות לגמלה למי שמצוי בהכשרה מקצועית),2203590,+,secondary,2203590,F1-7,borderline,+,"Income support, not unemployment, for vocational trainees"
+77,277d,הצעת חוק להגדלת שיעור ההשתתפות בכוח העבודה ולצמצום פערים חברתיים (מענק עבודה) (תיקון - גיל העובד),2156195 2156955 2195985 2196222,+,main,2156195,F1-8,borderline,+,"Lowers work grant age; employment support, not unemployment benefit"
+77,277d,הצעת חוק הביטוח הלאומי (תיקון - ביטול הפחתת דמי אבטלה למי שנמצא בהכשרה מקצועית),2157274,+,secondary,2157274,F1-9,about,+,Cancels unemployment benefit cut for vocational trainees
+77,277d,הצעת חוק הביטוח הלאומי (תיקון - דמי אבטלה לעצמאים),2159344 2156787 2157372 2158782 2164134,+,secondary,2159344,F1-10,about,+,Unemployment benefits for self-employed workers
+77,277d,הצעת חוק שירות התעסוקה (תיקון - נגישות לתחבורה ציבורית),2198135 2198039 2166603 2199207,+,main,2198135,F1-11,borderline,+,"Lack of transport justifies job refusal, easing benefit conditions"
+77,277d,הצעת חוק הביטוח הלאומי (תיקון - דמי אבטלה לעובד שפוטר לאחר שהגיע לגיל פרישה),2156167 2200013,+,main,2156167,F1-12,about,+,Unemployment benefits for workers fired past retirement age
+77,277d,הצעת חוק הביטוח הלאומי (תיקון - זכאות לדמי אבטלה לעובד שהתפטר לשם טיפול בילדו),2156764 2156479,+,secondary,2156764,F1-13,about,+,Unemployment benefits for worker resigning to care for child
+77,277d,הצעת חוק הביטוח הלאומי (תיקון - זכאות לדמי אבטלה בחמשת הימים הראשונים),2156214 2197095,+,main,2156214,F1-14,borderline,+,Pays first five days; generosity rather than coverage
+77,277d,הצעת חוק להגדלת שיעור ההשתתפות בכוח העבודה ולצמצום פערים חברתיים (מענק עבודה) (תיקון - הורדת גיל הזכאות),2197017 2203101 2170289,+,main,2197017,F1-15,borderline,+,Lowers work grant age; not unemployment insurance
+77,277d,הצעת חוק הביטוח הלאומי (תיקון - זכאות לדמי אבטלה מגיל 19),2201890 2202751 2156223 2199005 2195979,+,main,2201890,F1-16,about,+,Lowers unemployment benefit eligibility age to 19
+77,277d,הצעת חוק הביטוח הלאומי (תיקון - זכאות לדמי אבטלה מגיל 18),2197492 2156994,+,main,2197492,F1-17,about,+,Lowers unemployment benefit eligibility age to 18
+77,277d,הצעת חוק הביטוח הלאומי (תיקון - הארכת תקופת הזכאות לדמי אבטלה לצעירים),2200015 2156784,+,secondary,2200015,F1-18,about,+,Longer unemployment benefit period for young workers
+77,277d,הצעת חוק הביטוח הלאומי (תיקון - דמי אבטלה בעד חופשה נצרכת ללא תשלום),2168039,+,secondary,2168039,F1-19,about,+,Expands unemployment benefits for unpaid leave
+77,277d,הצעת חוק הביטוח הלאומי (תיקון - זכאות לדמי אבטלה מגיל שמונה-עשרה וחצי),2198412,+,main,2198412,F1-20,about,+,Lowers unemployment benefit eligibility age to 18.5
+77,277d,הצעת חוק הביטוח הלאומי (תיקון - עבודה במסגרות טיפוליות),2205846,+,secondary,2205846,F1-21,borderline,+,Discharged soldiers preferred-work grant list expanded; not unemployment
+77,277d,הצעת חוק הביטוח הלאומי (תיקון - שוויון לעצמאים בזכות לדמי אבטלה),2156635,+,secondary,2156635,F1-22,about,+,Equal unemployment benefit rights for self-employed
+77,277d,חוק הביטוח הלאומי (תיקון מס' 225 והוראת שעה),2159670,−,secondary,2159670,F1-23,borderline,+,"COVID temporary amendment, likely easing unemployment benefits; excerpt unclear"
+77,277d,"הצעת חוק הביטוח הלאומי (תיקון - דמי אבטלה לחיילים, מתנדבים ומשרתים בשירות לאומי-אזרחי)",2159200,+,secondary,2159200,F1-24,about,+,Unemployment benefits for soldiers and national service volunteers
+77,277d,הצעת חוק הביטוח הלאומי (תיקון - דמי אבטלה למי שנמצא בהכשרה מקצועית) (הוראת שעה),2165891,+,secondary,2165891,F1-25,about,+,Temporary unemployment benefits for vocational trainees
+77,277d,הצעת חוק הביטוח הלאומי (תיקון - דמי אבטלה למשרתים בשירות לאומי-אזרחי),2156329,+,secondary,2156329,F1-26,about,+,Unemployment benefits for national-civil service participants
+77,277d,הצעת חוק הביטוח הלאומי (תיקון - תקופת אכשרה לעובדים בעבודה מחזורית),2159061,+,main,2159061,F1-27,about,+,Eases qualifying period for cyclical workers
+77,277d,חוק הביטוח הלאומי (תיקון מס' 230),2156224,+,secondary,2156224,F1-28,about,+,Enacted law on unemployment benefits during vocational training
+77,277d,הצעת חוק הביטוח הלאומי (תיקון - דמי אבטלה לעצמאיים),2159835,+,secondary,2159835,F1-29,about,+,Creates unemployment insurance branch for self-employed
+77,277d,הצעת חוק הביטוח הלאומי (תיקון - דמי אבטלה בעד חופשה ללא תשלום),2197454,+,secondary,2197454,F1-30,about,+,Expands unemployment benefits for unpaid leave
