@@ -1,5 +1,5 @@
 {
- "note": "Stage 4 (2026-10-18, [У]): split by the standard statement audit of the 26 statements touched by the label removals (local/research/statement_audit_removals/). Same method as stages 2-3: applied after stage 3, parts keep the parent's orientation and sign, Jev only chooses the part. Extended the same day: 130b (q56) split by the standard audit after the volume threshold was lowered to 25 (local/research/statement_audit_t25/). Extended again: 195 (q81) split by the standard audit after external audit №2 (local/research/statement_audit_q81/). Extended 2026-10-19: 25 (q42) split by the standard audit after a full label check (local/research/statement_audit_q42/, label_check_q42/). Extended 2026-10-19: 165 (q4) split by the standard audit after a full label check (local/research/statement_audit_q4/, label_check_q4/); q4 moves to 165a; 165b gets no statement (its bills already count under 179, q10 — customer 2026-10-19). Extended 2026-10-19: 265 (q41) split by the standard audit after a full label check (local/research/statement_audit_q41/, label_check_q41/). Extended 2026-10-19: 77 (q47) split by the standard audit after a full label check (local/research/statement_audit_q47/, label_check_q47/); q47 moves to 77a; 77b gets no statement (its bills already count under 178, q45 — customer 2026-10-19). Extended 2026-10-19: 283 (q53) split by the standard audit after a full label check (local/research/statement_audit_q53/, label_check_q53/).",
+ "note": "Stage 4 (2026-10-18, [У]): split by the standard statement audit of the 26 statements touched by the label removals (local/research/statement_audit_removals/). Same method as stages 2-3: applied after stage 3, parts keep the parent's orientation and sign, Jev only chooses the part. Extended the same day: 130b (q56) split by the standard audit after the volume threshold was lowered to 25 (local/research/statement_audit_t25/). Extended again: 195 (q81) split by the standard audit after external audit №2 (local/research/statement_audit_q81/). Extended 2026-10-19: 25 (q42) split by the standard audit after a full label check (local/research/statement_audit_q42/, label_check_q42/). Extended 2026-10-19: 165 (q4) split by the standard audit after a full label check (local/research/statement_audit_q4/, label_check_q4/); q4 moves to 165a; 165b gets no statement (its bills already count under 179, q10 — customer 2026-10-19). Extended 2026-10-19: 265 (q41) split by the standard audit after a full label check (local/research/statement_audit_q41/, label_check_q41/). Extended 2026-10-19: 77 (q47) split by the standard audit after a full label check (local/research/statement_audit_q47/, label_check_q47/); q47 moves to 77a; 77b gets no statement (its bills already count under 178, q45 — customer 2026-10-19). Extended 2026-10-19: 283 (q53) split by the standard audit after a full label check (local/research/statement_audit_q53/, label_check_q53/). Extended 2026-10-20: 277g (q78) split by the standard audit after a full label check; q78 moves to 277g1; 277g2 gets no statement (its bills already count under 187/3, q9/q15 — same handling as 165b and 77b).",
  "parents": {
   "58": [
    "58a",
@@ -40,6 +40,10 @@
   "283": [
    "283a",
    "283b"
+  ],
+  "277g": [
+   "277g1",
+   "277g2"
   ]
  },
  "new": {
@@ -162,6 +166,18 @@
    "name_en": "App-based ride-sharing by private drivers",
    "plus_en": "Lets private drivers offer paid rides through apps.",
    "minus_en": "Keeps paid passenger transport limited to licensed taxis and operators."
+  },
+  "277g1": {
+   "name_ru": "государственная поддержка студентов и учащихся",
+   "name_en": "General state support for students and pupils",
+   "plus_en": "More state support for students and pupils (grants, free meals, tuition aid, fares).",
+   "minus_en": "Less such support."
+  },
+  "277g2": {
+   "name_ru": "льготы на учёбу служившим",
+   "name_en": "Study benefits for soldiers and reservists",
+   "plus_en": "Extra study benefits for those who served in the army or reserves (tuition funding, exam accommodations).",
+   "minus_en": "Fewer such benefits."
   }
  }
 }
