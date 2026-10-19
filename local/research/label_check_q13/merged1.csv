@@ -1,0 +1,24 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason
+13,173,הצעת חוק-יסוד: ירושלים בירת ישראל (תיקון - איסור על פתיחת נציגות דיפלומטית זרה),2207137 2198570 2160325,−,main,2207137,F1-1,about,−,Bans opening foreign diplomatic missions; restricts foreign state presence
+13,173,"חוק להפסקת פעילות אונר""א (תיקון)",1045860,−,main,1045860,F1-2,about,−,Amends UNRWA activity ban law; tightens restrictions
+13,173,הצעת חוק לתיקון פקודת בתי הסוהר (מניעת כניסתם של נציגי ארגון הצלב האדום הבין־לאומי והעברת מידע לארגון),2244405,−,secondary,2244405,F1-3,about,−,Bars Red Cross representatives from prisons; restricts international organization
+13,173,"הצעת חוק להפסקת פעילות אונר""א (תיקון - אי-הספקת חשמל ומים וסמכות תפיסת חזקה במקרקעין)",2235662,−,main,2235662,F1-4,about,−,"Cuts UNRWA electricity and water, seizes its premises"
+13,173,הצעת חוק הגנה על ריבונות ישראלית והגבלת שיתוף פעולה עם בית הדין הפלילי הבין-לאומי,2227745,−,secondary,2227745,F1-5,borderline,−,"Limits cooperation with ICC; sovereignty, not physical presence"
+13,173,הצעת חוק לתיקון פקודת מס הכנסה (מיסוי תרומה מישות מדינית זרה),2199819 2161202 2156600,−,secondary,2199819,F1-6,borderline,−,"Taxes foreign state donations to NGOs; indirect influence, not presence"
+13,173,הצעת חוק הגנה על ישראלים מפני מוסדות בין-לאומיים עוינים,2227119 2156096 2203774 2199099 2156291,−,secondary,2227119,F1-7,borderline,−,Shields Israelis from ICC; restricts hostile international institution
+13,173,חוק הטיס (תיקון מס' 6),2192014,−,main,2192014,F1-8,not_about,,Technical regulation of foreign aircraft operation and enforcement
+13,173,"הצעת חוק להפסקת פעילות סוכנות הסעד והתעסוקה של האו""ם לפליטי פלסטין במזרח הקרוב (אונר""א)",2197154 2218159 2214691 2161700 2217201,−,main,2197154,F1-9,about,−,Terminates UNRWA activity in Israel
+13,173,הצעת חוק סגירת ערוץ אלג'זירה,2212827,−,main,2212827,F1-10,borderline,−,"Closes foreign (Qatari) broadcaster; media, not state/organization operations"
+13,173,הצעת חוק העמותות (תיקון - תרומה מישות מדינית זרה),2224634,−,main,2224634,F1-11,borderline,−,Restricts foreign state donations to NGOs; indirect influence
+13,173,"חוק להפסקת פעילות אונר""א",2214465,−,main,2214465,F1-12,about,−,UNRWA activity cessation law; removes UN immunities
+13,173,"הצעת חוק להפסקת יחסי מדינת ישראל עם סוכנות הסעד והתעסוקה של האו""ם לפליטי פלסטין במזרח הקרוב (אונר""א) והכרזה עליה כארגון טרור",2214645,−,secondary,2214645,F1-13,about,−,"Cuts relations with UNRWA, designates it terror organization"
+13,173,"הצעת חוק זיכרון השואה והגבורה - יד ושם (תיקון - הגבלות ביקורים של נציגים זרים המעורבים או תומכים בפשעים נגד האנושות, פשעי מלחמה והפרות חמורות של זכויות אדם)",2157679,−,main,2157679,F1-14,borderline,−,Limits foreign representatives' Yad Vashem visits; narrow symbolic restriction
+13,173,חוק-יסוד: ירושלים בירת ישראל (תיקון מס' 3),2201428,−,main,2201428,F1-15,about,−,Jerusalem Basic Law amendment barring foreign diplomatic missions
+13,173,"הצעת חוק לתיקון פקודת החסינות וזכויות-היתר של האומות המאוחדות (ביטול החסינויות וזכויות-היתר של סוכנות הסעד והתעסוקה של האו""ם לפליטי פלסטין במזרח הקרוב (אונר""א))",2214518,−,main,2214518,F1-16,about,−,Cancels UNRWA immunities and privileges
+13,173,"הצעת חוק להפסקת יחסי מדינת ישראל עם סוכנות הסעד והתעסוקה של האו""ם לפליטי פלסטין במזרח הקרוב (אונר""א) והכרזתה כארגון טרור",2220964,−,secondary,2220964,F1-17,about,−,"Cuts relations with UNRWA, designates it terror organization"
+13,173,"הצעת חוק לתיקון פקודת החסינויות וזכויות-היתר של האומות המאוחדות (ביטול החסינויות וזכויות-היתר של סוכנות הסעד והתעסוקה של האו""ם לפליטי פלסטין במזרח הקרוב (אונר""א))",2220963,−,main,2220963,F1-18,about,−,Cancels UNRWA immunities and privileges
+13,173,"הצעת חוק יישום הסכם הביניים בדבר הגדה המערבית ורצועת עזה (הגבלת פעילות) (תיקון מס' 4) (איסור פעילות בתחומי מדינת ישראל, אכיפה ועונשין), התשפ""ה–2025",2221806,−,main,2221806,F1-19,borderline,−,Bans Palestinian Authority/PLO activity inside Israel; not state/organization strictly
+13,173,"הצעת חוק להפסקת פעילות אונר""א (תיקון - אי-אספקת חשמל ומים וסמכות תפיסת חזקה במקרקעין)",2237970,−,main,2237970,F1-20,about,−,"Cuts UNRWA electricity and water, seizes its premises"
+13,173,"חוק להפסקת פעילות אונר""א בשטח מדינת ישראל",2198188,−,main,2198188,F1-21,about,−,Bans UNRWA activity on Israeli sovereign territory
+13,173,הצעת חוק להגבלת העברת השליטה בתאגידים מרכזיים לגופים זרים,2200275,−,main,2200275,F1-22,not_about,,"Foreign corporate ownership; economic, not states or organizations"
+13,173,"הצעת חוק להפסקת פעילות אונר""א בשטח מדינת ישראל (תיקון - תפיסת חזקה בכל שטח שהוחזק בידי אונר""א)",2233528,−,main,2233528,F1-23,about,−,Seizes all land held by UNRWA

@@ -3350,6 +3350,22 @@
     "role": "secondary",
     "source": "label check q6 (2026-10-19): two blind checks «not about»",
     "reason": "Foreign worker visa cancellation timing, unrelated to terrorism"
+   },
+   {
+    "bill_id": "2192014",
+    "d": "173",
+    "q": "13",
+    "role": "main",
+    "source": "label check q13 (2026-10-19): two blind checks «not about»",
+    "reason": "Technical regulation of foreign aircraft operation and enforcement"
+   },
+   {
+    "bill_id": "2200275",
+    "d": "173",
+    "q": "13",
+    "role": "main",
+    "source": "label check q13 (2026-10-19): two blind checks «not about»",
+    "reason": "Foreign corporate ownership; economic, not states or organizations"
    }
   ]
  },
