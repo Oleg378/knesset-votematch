@@ -275,7 +275,9 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
   alternatives: `design-variants/`.
 - **Card change** (customer 2026-10-19, DECISIONS.md G11): one quiz card replacing another (question / trade-off; Next,
   Skip, Back, system Back) moves like an iOS navigation push — the new screen slides in from the right edge over the old
-  one, which moves a third to the left (Back: mirrored), 540 ms (`--card-time`, `--card-ease`). View Transitions:
+  one, which moves a third to the left and fades out (Back: mirrored; the screen on top stays opaque and fades only
+  at the end — no strip of old text lingers at the edge while the motion settles), 540 ms (`--card-time`,
+  `--card-ease`). View Transitions:
   `src/cardTransition.ts` decides (`isCardChange`; a new card-like screen goes there) and puts `data-card` on `<html>`
   for the transition only; names and keyframes — `app.css` «Card change». Header and bottom bar stay; the screen is
   clipped by the edges of `.app`. No dimming of the screen underneath (grey strips beside the column-wide bars). No View

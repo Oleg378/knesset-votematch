@@ -1036,9 +1036,10 @@ a {
 /* Card change (customer 2026-10-19): one quiz card replacing another (Next, Skip, Back, a trade-off) moves like an iOS
    navigation push, through the browser's View Transitions; cardTransition.ts puts data-card (next / back) on <html> for
    the transition only. Next: the new screen slides in from the right edge over the old one, which moves a third to the
-   left; Back: the reverse. The header and the bottom bar stay; the screen is clipped by the edges of .app (the phone
-   screen, the card). No dimming of the screen underneath: the bars span only the column, so it would show as grey
-   strips beside them. No View Transitions (iOS ≤ 17) or reduced motion: the card changes at once. */
+   left and fades out; Back: the reverse. The header and the bottom bar stay; the screen is clipped by the edges of .app
+   (the phone screen, the card). The old screen fades to white as it goes, not dims (the bars span only the column: a
+   dim would show as grey strips beside them) — otherwise, as the motion settles, a strip of the old text stays at the
+   edge and looks like lag (customer 2026-10-19). No View Transitions (iOS ≤ 17) or reduced motion: no animation. */
 :root[data-card] .screen {
   view-transition-name: screen;
   /* The screen's box reaches the edges of .app (its content stays in place), so it slides from the very edge. */
@@ -1138,20 +1139,28 @@ a {
   }
 }
 
+/* The screen on top stays opaque (nothing shows through it) and fades only when a strip of it is left. */
 @keyframes card-out {
+  60% {
+    opacity: 1;
+  }
+
   to {
     transform: translateX(100%);
+    opacity: 0;
   }
 }
 
 @keyframes card-under {
   to {
     transform: translateX(calc(-1 * var(--card-behind)));
+    opacity: 0;
   }
 }
 
 @keyframes card-from-under {
   from {
     transform: translateX(calc(-1 * var(--card-behind)));
+    opacity: 0;
   }
 }
