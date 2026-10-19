@@ -8158,6 +8158,334 @@
     "role": "secondary",
     "source": "label check q93 (2026-10-19): 2 of 3 blind checks «not about»",
     "reason": "Ethics committee for investment fund; not environmental"
+   },
+   {
+    "bill_id": "2196351",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Veterinary inspector powers"
+   },
+   {
+    "bill_id": "2201738",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Reducing fireworks use"
+   },
+   {
+    "bill_id": "2164297",
+    "d": "108",
+    "q": "94",
+    "role": "main",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Allocation to councils near airport"
+   },
+   {
+    "bill_id": "2216609",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Climate development zones for councils"
+   },
+   {
+    "bill_id": "2236922",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Budget commitment to Sdot Negev council"
+   },
+   {
+    "bill_id": "2222951",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Ban on school parent payments"
+   },
+   {
+    "bill_id": "2204160",
+    "d": "108",
+    "q": "94",
+    "role": "main",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Inter-council property tax fund allocation"
+   },
+   {
+    "bill_id": "2198775",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "State welfare budget funding for councils"
+   },
+   {
+    "bill_id": "2163048",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "State welfare budget funding for councils"
+   },
+   {
+    "bill_id": "2209554",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "State welfare budget funding for councils"
+   },
+   {
+    "bill_id": "2164906",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "National day for self-employed"
+   },
+   {
+    "bill_id": "2165546",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "National day for self-employed"
+   },
+   {
+    "bill_id": "2198626",
+    "d": "108",
+    "q": "94",
+    "role": "main",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "State funding for main road maintenance"
+   },
+   {
+    "bill_id": "2227747",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Capital investment incentives for logistics centers"
+   },
+   {
+    "bill_id": "2200709",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Abolishing religious councils"
+   },
+   {
+    "bill_id": "2162936",
+    "d": "108",
+    "q": "94",
+    "role": "main",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Relocating government units to Jerusalem"
+   },
+   {
+    "bill_id": "2196086",
+    "d": "108",
+    "q": "94",
+    "role": "main",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Relocating government units to Jerusalem"
+   },
+   {
+    "bill_id": "2236131",
+    "d": "108",
+    "q": "94",
+    "role": "main",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Cancelling weak councils' past debts"
+   },
+   {
+    "bill_id": "2199354",
+    "d": "108",
+    "q": "94",
+    "role": "main",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Religious council budget shares"
+   },
+   {
+    "bill_id": "2202530",
+    "d": "108",
+    "q": "94",
+    "role": "main",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Religious council budget shares"
+   },
+   {
+    "bill_id": "2158671",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Encouraging construction of home safe rooms"
+   },
+   {
+    "bill_id": "2213713",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Encouraging construction of home safe rooms"
+   },
+   {
+    "bill_id": "2225649",
+    "d": "108",
+    "q": "94",
+    "role": "main",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Israel Land Authority law amendment"
+   },
+   {
+    "bill_id": "2201123",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Council funding of unofficial recognized schools"
+   },
+   {
+    "bill_id": "2157954",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Council funding of unofficial recognized schools"
+   },
+   {
+    "bill_id": "2160981",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "State education budget funding for councils"
+   },
+   {
+    "bill_id": "2196112",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Fees for municipal tender documents"
+   },
+   {
+    "bill_id": "2157933",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Fees for municipal tender documents"
+   },
+   {
+    "bill_id": "2167415",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Income tax exemption on municipal dividends"
+   },
+   {
+    "bill_id": "2234080",
+    "d": "108",
+    "q": "94",
+    "role": "main",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Inter-council property tax fund sources"
+   },
+   {
+    "bill_id": "2235929",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): two blind checks «not about»",
+    "reason": "Sovereignty over Beitar Illit"
+   },
+   {
+    "bill_id": "2195926",
+    "d": "108",
+    "q": "94",
+    "role": "main",
+    "source": "label check q94 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Government property tax in Judea and Samaria"
+   },
+   {
+    "bill_id": "2236333",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Betterment levy exemption for nonprofits"
+   },
+   {
+    "bill_id": "2168713",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Rooftop agriculture business incentives"
+   },
+   {
+    "bill_id": "2197235",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Rooftop agriculture business incentives"
+   },
+   {
+    "bill_id": "2198848",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Rooftop agriculture business incentives"
+   },
+   {
+    "bill_id": "2190533",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Infrastructure levy exemption in national parks"
+   },
+   {
+    "bill_id": "2156783",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Levy on empty apartments for housing policy"
+   },
+   {
+    "bill_id": "2234528",
+    "d": "108",
+    "q": "94",
+    "role": "main",
+    "source": "label check q94 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Government property tax payments to peripheral councils"
+   },
+   {
+    "bill_id": "2219626",
+    "d": "108",
+    "q": "94",
+    "role": "secondary",
+    "source": "label check q94 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "State betterment-levy substitute transfers to councils"
+   },
+   {
+    "bill_id": "2157503",
+    "d": "108",
+    "q": "94",
+    "role": "main",
+    "source": "label check q94 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Government property tax in Judea and Samaria"
    }
   ]
  },
@@ -8543,6 +8871,15 @@
     "role": "main",
     "source": "label check q93 (2026-10-19): first check and the check on the full notes agree on the sign",
     "reason": "No notes; temporary provision to Cleanliness Law in arrangements bill, likely diverting cleanliness fund or levy; direction uncertain."
+   },
+   {
+    "bill_id": "2227215",
+    "d": "108",
+    "q": "94",
+    "sign": "+",
+    "role": "main",
+    "source": "label check q94 (2026-10-19): first check and the check on the full notes agree on the sign",
+    "reason": "Economic plan narrows arnona exemption for ruined property; owners pay, councils collect more (notes empty)."
    }
   ]
  }

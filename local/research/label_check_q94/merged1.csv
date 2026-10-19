@@ -1,0 +1,81 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason
+94,108,הצעת חוק הסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב) (תיקון - זכאות להנחה בארנונה בגין ילד נכה נוסף),2190833 2198643,−,secondary,2190833,F1-1,about,−,Property tax discount for parents of disabled children
+94,108,הצעת חוק לעידוד השקעות הון (תיקון - מרכזים לוגיסטיים),2227747,+,secondary,2227747,F1-2,not_about,,Capital investment incentives for logistics centers
+94,108,"הצעת חוק הרשויות המקומיות (פטור חיילים, נפגעי מלחמה ושוטרים מארנונה) (תיקון - הנחה בארנונה למשרת בשירות מילואים פעיל) (הוראת שעה)",2213786 2215203,−,secondary,2213786,F1-3,about,−,Property tax discount for active reservists
+94,108,הצעת חוק לתיקון פקודת העיריות (קיצור תקופת הפטור מתשלום ארנונה לבניין שנהרס או ניזוק),2161900 2198037 2166450 2197743,+,secondary,2161900,F1-4,borderline,+,"Shortens property tax exemption for destroyed buildings; owners, not residents"
+94,108,"פרק כ' (רשויות מקומיות), 78, 79 מתוכו רק: 1, 2, 5, 6(א) עד (ג), 7, 25-23 (בעניין כספי הקרן להרחבת ההשקעה בתושב, הקצאתם ומקורות הקרן) מתוך הצעת חוק התכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנות התקציב 2023 ו-2024)",2204160,+,main,2204160,F1-5,not_about,,Inter-council property tax fund allocation
+94,108,הצעת חוק לתיקון פקודת מסי העירייה ומסי הממשלה (פטורין) (גביית ארנונה מנכסי מדינה ברשויות פריפריאליות),2234528,+,main,2234528,F1-6,not_about,,Government property tax payments to peripheral councils
+94,108,"חוק הרשויות המקומיות (ריבית והפרשי הצמדה על תשלומי חובה) (תיקון מס' 3), התשפ""ד–2024",2206973,−,secondary,2206973,F1-7,not_about,,Refund interest on overcollected property tax
+94,108,הצעת חוק שירותי הדת היהודיים (תיקון - סכום ההשתתפות בהוצאות התקציב של מועצה דתית),2199354 2202530,−,main,2199354,F1-8,not_about,,Religious council budget shares
+94,108,"הצעת חוק הרשויות המקומיות (פטור חיילים, נפגעי מלחמה ושוטרים מארנונה) (תיקון - פטור מארנונה לבית עסק של משרת בשירות מילואים פעיל) (הוראת שעה)",2213848,−,secondary,2213848,F1-9,about,−,Property tax exemption for reservists' businesses
+94,108,"הצעת חוק הרשויות המקומיות (פטור חיילים, נפגעי מלחמה ושוטרים מארנונה) (תיקון - פטור מארנונה לחייל מילואים שהוא סטודנט) (הוראת שעה)",2226894,−,secondary,2226894,F1-10,about,−,Property tax exemption for reservist students
+94,108,הצעת חוק הסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב) (תיקון - חובת הענקת הנחה בארנונה לבעלי עסקים של תושבי אזור הצפון שנפגעו בעקבות מלחמת חרבות ברזל),2218944,−,secondary,2218944,F1-11,about,−,Mandatory property tax discount for war-hit northern businesses
+94,108,הצעת חוק האזרחים הוותיקים (הנחה בארנונה),2156227,−,secondary,2156227,F1-12,about,−,Property tax discount for senior citizens
+94,108,הצעת חוק לתיקון פקודת העיריות (תשלום עבור המצאת מסמכי מכרז),2196112 2157933,−,secondary,2196112,F1-13,not_about,,Fees for municipal tender documents
+94,108,"סעיפים 9(12), 10, 12 (ארנונה לנכס הרוס) מתוך הצעת חוק התוכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנת התקציב 2025), התשפ""ה-2024 [פוצל לפי סעיף 84(ב) לתקנון]",2227215,−,main,2227215,F1-14,borderline,+,Property tax on destroyed property; likely narrows exemption
+94,108,הצעת חוק הרשויות המקומיות (ריבית והפרשי הצמדה על תשלומי חובה) (תיקון - הפחתת אחוז הריבית ברשויות המקומיות),2166028 2203089 2199549 2197444 2208140,−,secondary,2166028,F1-15,borderline,−,Lower late-payment interest on municipal charges
+94,108,הצעת חוק הרשויות המקומיות (התאמת תקציב הרווחה),2198775 2163048 2209554,+,secondary,2198775,F1-16,not_about,,State welfare budget funding for councils
+94,108,הצעת חוק לתיקון פקודת מסי העיריה ומסי הממשלה (פיטורין) (נכס המשמש כמבנה לארגון נוער),2232610,−,secondary,2232610,F1-17,borderline,−,Property tax exemption for youth movement buildings; organizations
+94,108,הצעת חוק לתיקון פקודת התעבורה (הפחתת גובה קנס בשל תשלום מיידי),2197290 2199001 2190299 2199456,−,secondary,2197290,F1-18,borderline,−,Reduced parking fine for immediate payment
+94,108,הצעת חוק האזרחים הוותיקים (תיקון - חניה חינם לאזרח ותיק שמלאו לו 75 שנים),2201961 2210438 2202889,−,secondary,2201961,F1-19,about,−,Free municipal parking for seniors aged 75
+94,108,הצעת חוק לתיקון פקודת התעבורה (איסור שימוש במצלמות ניידות לאכיפת עבירות חניה),2196928 2190378 2209338 2198837,−,secondary,2196928,F1-20,not_about,,"Parking enforcement method, not discounts"
+94,108,הצעת חוק ההסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב) (תיקון - הנחה בארנונה לנכים),2206673 2210440,−,secondary,2206673,F1-21,about,−,Property tax discount for people with disabilities
+94,108,"הצעת חוק הרשויות המקומיות (פטור חיילים, נפגעי מלחמה ושוטרים מארנונה) (תיקון - החרגת ההגבלה סייג לדירות גדולות לחיילים בודדים)",2157314,−,secondary,2157314,F1-22,about,−,Wider property tax exemption for lone soldiers
+94,108,הצעת חוק לעידוד חקלאות גגות (תיקוני חקיקה),2168713 2197235 2198848,−,secondary,2168713,F1-23,not_about,,Rooftop agriculture business incentives
+94,108,הצעת חוק לתיקון פקודת מסי העירייה ומסי הממשלה (פטורין) (פטור מארנונה לעמותות הפועלות להנצחת השואה או למען ניצולי השואה),2159142,−,secondary,2159142,F1-24,borderline,−,Property tax exemption for Holocaust nonprofits; organizations
+94,108,הצעת חוק לעידוד הקמת מרחבים מוגנים דירתיים,2158671 2213713,−,secondary,2158671,F1-25,not_about,,Encouraging construction of home safe rooms
+94,108,הצעת חוק סיוע למשפחות ברוכות ילדים (תיקוני חקיקה),2203968 2196367,−,secondary,2203968,F1-26,about,−,Property tax discounts for large families
+94,108,הצעת חוק התכנון והבנייה (תיקון - חלף היטל השבחה),2219626,+,secondary,2219626,F1-27,not_about,,State betterment-levy substitute transfers to councils
+94,108,"הצעת חוק הרשויות המקומיות (פטור חיילים, נפגעי מלחמה ושוטרים מארנונה) (תיקון - הארכת תקופת פטור מארנונה לחיילים בודדים)",2201857 2157286,−,secondary,2201857,F1-28,about,−,Longer property tax exemption for lone soldiers
+94,108,הצעת חוק לתיקון פקודת התעבורה (מחירי חניה ברשויות מקומיות),2206391 2209487,−,secondary,2206391,F1-29,borderline,−,Regulating municipal parking prices
+94,108,הצעת חוק לתיקון פקודת מסי העירייה ומסי הממשלה (פטורין) (פטור מארנונה לישיבת הסדר ולמכינה קדם צבאית),2201436,−,secondary,2201436,F1-30,borderline,−,Property tax exemption for pre-military academies; institutions
+94,108,הצעת חוק היטל על דירת מגורים ריקה באזור היצע דירות מגורים נמוך,2156783,+,secondary,2156783,F1-31,not_about,,Levy on empty apartments for housing policy
+94,108,הצעת חוק הסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב) (תיקון - שיפוי רשויות מקומיות בגין הנחה כפויה בארנונה),2208173,+,main,2208173,F1-32,borderline,+,State compensates councils for mandated discounts; trade-off side
+94,108,הצעת חוק התכנון והבנייה (תיקון - דחיית תשלום היטל השבחה אגב גירושין),2160570 2203743,−,secondary,2160570,F1-33,not_about,,Betterment levy deferral on divorce
+94,108,הצעת חוק הרשויות המקומיות (אזורי פיתוח אקלימיים) (הוראת שעה),2216609,+,secondary,2216609,F1-34,not_about,,Climate development zones for councils
+94,108,"הצעת חוק הרשויות המקומיות (פטור חיילים, נפגעי מלחמה ושוטרים מארנונה) (תיקון - הנחה בארנונה לחייל מילואים פעיל)",2231169,−,secondary,2231169,F1-35,about,−,Property tax discount for active reservists
+94,108,הצעת חוק לימוד חובה (תיקון - איסור על גביית תשלומי הורים),2222951,−,secondary,2222951,F1-36,not_about,,Ban on school parent payments
+94,108,"הצעת חוק הרשויות המקומיות (פטור חיילים, נפגעי מלחמה ושוטרים מארנונה) (תיקון - סיוע לחיילים בודדים)",2218881,−,secondary,2218881,F1-37,about,−,Property tax relief for lone soldiers
+94,108,"הצעת חוק הרשויות המקומיות (פטור חיילים, נפגעי מלחמה ושוטרים מארנונה) (תיקון - פטור מארנונה לבית עסק של משרת בשירות מילואים פעיל)",2220544,−,secondary,2220544,F1-38,about,−,Property tax exemption for reservists' businesses
+94,108,"הצעת חוק הרשויות המקומיות (פטור חיילים, נפגעי מלחמה ושוטרים מארנונה) (תיקון - הנחה בארנונה למשרת בשירות מילואים פעיל)",2216446,−,secondary,2216446,F1-39,about,−,Property tax discount for active reservists
+94,108,הצעת חוק הסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב) (תיקון - זכאות כפולה להנחה בארנונה למשרת מילואים שהוא הורה לילד נכה),2223966,−,secondary,2223966,F1-40,about,−,Double discount for reservist parents of disabled children
+94,108,הצעת חוק חינוך ממלכתי (תיקון - ביטול השתתפות רשות מקומית בתקציבי מוסדות חינוך מוכרים לא רשמיים),2201123 2157954,+,secondary,2201123,F2-1,not_about,,Council funding of unofficial recognized schools
+94,108,הצעת חוק לתיקון פקודת העיריות (בניין שניזוק או נהרס),2198042 2201007 2202876,+,secondary,2198042,F2-2,borderline,+,"Property tax on damaged buildings; owners, not residents"
+94,108,"חוק רשות מקרקעי ישראל (תיקון מס' 16), התשפ""ו–2026",2225649,+,main,2225649,F2-3,not_about,,Israel Land Authority law amendment
+94,108,"הצעת חוק הרשויות המקומיות (פטור חיילים, נפגעי מלחמה ושוטרים מארנונה) (תיקון - הנחה בארנונה ליתומי צה""ל)",2198237,−,secondary,2198237,F2-4,about,−,Property tax discount for military orphans
+94,108,הצעת חוק לתיקון פקודת מסי העירייה ומסי הממשלה (פטורין) (פטור מארנונה למצללה),2205959,−,secondary,2205959,F2-5,about,−,Property tax exemption for residential pergolas
+94,108,הצעת חוק לתיקון פקודת העיריות (תיקון - בניין שניזוק או נהרס),2166573,+,secondary,2166573,F2-6,borderline,+,"Property tax on damaged buildings; owners, not residents"
+94,108,הצעת חוק התכנון והבנייה (תיקון - פטור מהיטל השבחה בגין זכאות לסיוע ממשלתי בדיור),2166401,−,secondary,2166401,F2-7,not_about,,"Betterment levy exemption, not property tax or parking"
+94,108,הצעת חוק הסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב) (תיקון - פטור מארנונה לנשים ששהו במקלט לנשים מוכות),2157318 2168404 2198459 2166217,−,secondary,2157318,F2-8,about,−,Property tax exemption for women leaving shelters
+94,108,הצעת חוק האזרחים הוותיקים (תיקון - הנחה בארנונה),2200017 2203724 2222439 2201632,−,secondary,2200017,F2-9,about,−,Property tax discount for senior citizens
+94,108,הצעת חוק לתיקון פקודת מסי העירייה ומסי הממשלה (פטורין) (פטור מארנונה למכללה טכנולוגית מוכרת),2200902 2244033 2193481,−,secondary,2200902,F2-10,borderline,−,Property tax exemption for technological colleges; institutions
+94,108,הצעת חוק לתיקון פקודת מסי העירייה ומסי הממשלה (פטורין) (החלת חובת תשלום ארנונה על נכסי ממשלה המצויים באזור),2195926,+,main,2195926,F2-11,not_about,,Government property tax in Judea and Samaria
+94,108,הצעת חוק החלת ריבונות על ביתר עילית,2235929,+,secondary,2235929,F2-12,not_about,,Sovereignty over Beitar Illit
+94,108,"הנחה בתשלומי ארנונה, חשמל ומים מתוך הצעת חוק למתן הטבות למשרתים במילואים",2225750,−,secondary,2225750,F2-13,about,−,Property tax discount for reservists
+94,108,הצעת חוק שירותי הדת היהודיים (תיקון - ביטול המועצות הדתיות),2200709,+,secondary,2200709,F2-14,not_about,,Abolishing religious councils
+94,108,הצעת חוק לביטול חובות עבר לרשויות מקומיות מוחלשות,2236131,+,main,2236131,F2-15,not_about,,Cancelling weak councils' past debts
+94,108,הצעת חוק האזרחים הוותיקים (תיקון - חניה חינם לאזרח ותיק שמלאו לו 70 שנים),2200020 2156318,−,secondary,2200020,F2-16,about,−,Free municipal parking for seniors aged 70
+94,108,הצעת חוק לתיקון פקודת מס הכנסה (פטור ממס לרשויות מקומיות על דיבידנד מחברות עירוניות),2167415,+,secondary,2167415,F2-17,not_about,,Income tax exemption on municipal dividends
+94,108,הצעת חוק הרשויות המקומיות (אכיפה סביבתית - סמכויות פקחים) (תיקון - הסמכת פקחים באיגוד ערים לווטרינריה),2196351,+,secondary,2196351,F2-18,not_about,,Veterinary inspector powers
+94,108,הצעת חוק הסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב) (תיקון - פטור מארנונה למגורים),2198965,−,secondary,2198965,F2-19,about,−,Property tax exemption for residential homes
+94,108,הצעת חוק לתיקון פקודת העיריות (הטלת ארנונה על מפעל לייצור נשק),2164922 2164092,+,main,2164922,F2-20,not_about,,Property tax on weapons factories
+94,108,הצעת חוק אחזקת כבישים ראשיים ברשויות מקומיות,2198626,+,main,2198626,F2-21,not_about,,State funding for main road maintenance
+94,108,"הצעת חוק הרשויות המקומיות (פטור חיילים, נפגעי מלחמה ושוטרים מארנונה) (תיקון - פטור לחייל בודד בדירת שותפים)",2160984 2163404,−,secondary,2160984,F2-22,about,−,Property tax exemption for lone soldiers in shared flats
+94,108,"הצעת חוק גנים לאומיים, שמורות טבע, אתרים לאומיים ואתרי הנצחה (תיקון - פטור מתשלומי חובה עבור התקנת תשתיות ציבוריות)",2190533,−,secondary,2190533,F2-23,not_about,,Infrastructure levy exemption in national parks
+94,108,הצעת חוק הסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב) (תיקון - שינוי הגדרת מצללה),2190938,−,secondary,2190938,F2-24,borderline,−,Pergola definition for property tax
+94,108,הצעת חוק התכנון והבנייה (תיקון - פטור מהיטל השבחה למוסד ללא כוונות רווח),2236333,+,secondary,2236333,F2-25,not_about,,Betterment levy exemption for nonprofits
+94,108,הצעת חוק העברת היחידות הארציות של משרדי הממשלה לירושלים,2162936 2196086,+,main,2162936,F2-26,not_about,,Relocating government units to Jerusalem
+94,108,הצעת חוק הסדרת מקומות רחצה (תיקון - איסור גביית דמי כניסה),2157135,−,secondary,2157135,F2-27,not_about,,Ban on beach entry fees
+94,108,הצעת חוק הסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב) (תיקון - ארנונה על מבנה מגורים שאינו בשימוש),2157401,+,secondary,2157401,F2-28,borderline,+,Property tax on unused residential buildings
+94,108,הצעת חוק יום העצמאיות והעצמאים,2164906 2165546,−,secondary,2164906,F2-29,not_about,,National day for self-employed
+94,108,הצעת חוק לתיקון פקודת התעבורה (פטור מתשלום דמי חניה באזורי מגורים במהלך שבתות ומועדי ישראל),2156123 2196174,−,secondary,2156123,F2-30,about,−,Parking payment exemption on Sabbath and holidays
+94,108,הצעת חוק הרשויות המקומיות (הקרן להרחבת ההשקעה בתושב ולהגדלת היצע הדיור) (תיקון - החרגת הכנסות מארנונה בגין תקופות שקדמו לשנת 2023),2234080,+,main,2234080,F2-31,not_about,,Inter-council property tax fund sources
+94,108,הצעת חוק-יסוד: משק המדינה (תיקון - בחינת עלות תקציבית מוניציפלית),2233000,+,main,2233000,F2-32,borderline,+,Requires municipal cost assessment of private bills
+94,108,הצעת חוק האזרחים הוותיקים (תיקון - הנחה בארנונה לאזרח ותיק המתגורר בדירה שאינה בהחזקתו),2207857 2195919 2224480,−,secondary,2207857,F2-33,about,−,Property tax discount for seniors in others' homes
+94,108,הצעת חוק למניעת מפגעים (תיקון - עידוד הפחתת שימוש בזיקוקי די-נור),2201738,+,secondary,2201738,F2-34,not_about,,Reducing fireworks use
+94,108,הצעת חוק הרשויות המקומיות (התאמת תקציב החינוך),2160981,+,secondary,2160981,F2-35,not_about,,State education budget funding for councils
+94,108,הצעת חוק לתיקון פקודת מסי העיריה ומסי הממשלה (פיטורין) (החלת חובת תשלום ארנונה על נכסי ממשלה המצויים באזור),2157503,+,main,2157503,F2-36,not_about,,Government property tax in Judea and Samaria
+94,108,הצעת חוק הסדרים במשק המדינה (תיקוני חקיקה להשגת יעדי התקציב) (תיקון - הנחה מארנונה לעסק חדש בשנת פעילותו הראשונה),2163181,−,secondary,2163181,F2-37,borderline,−,Property tax discount for new businesses
+94,108,הצעת חוק ההתייעלות הכלכלית (תיקוני חקיקה להשגת יעדי התקציב לשנות התקציב 2017 ו-2018 (תיקון מס' 8) (הקצאת סכום לרשויות המקומיות הסמוכות לנמל התעופה בן-גוריון),2164297,+,main,2164297,F2-38,not_about,,Allocation to councils near airport
+94,108,הצעת חוק לשינוי סדרי עדיפויות לאומיים (תיקוני חקיקה להשגת יעדי התקציב לשנים 2013 ו-2014) (תיקון - ביטול השיעור הנוסף),2201258,+,secondary,2201258,F2-39,not_about,,State-council financial arrangement for strong councils
+94,108,"חוק שיקום נרחב לחבל התקומה כאזור מיקוד לאומי וסיוע ליישובים הסמוכים אליו (תיקון מס' 2), התשפ""ו–2026",2236922,+,secondary,2236922,F2-40,not_about,,Budget commitment to Sdot Negev council
