@@ -4470,6 +4470,14 @@
     "role": "secondary",
     "source": "label check q35 (2026-10-19): two blind checks «not about»",
     "reason": "Employer commuting allowance, not state public transport spending"
+   },
+   {
+    "bill_id": "2225520",
+    "d": "169a",
+    "q": "36",
+    "role": "secondary",
+    "source": "label check q36 (2026-10-19): two blind checks «not about»",
+    "reason": "Gaza-border region rehabilitation, not West Bank settlements"
    }
   ]
  },
