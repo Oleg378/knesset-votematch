@@ -1,0 +1,9 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason,kind,cid
+8,185b,הצעת חוק שירות ביטחון (תיקון - פטור מטעמי מצפון),2159044 2156769 2196930 2197310,−,main,2159044,F1-7,about,−,Adds conscientious exemption from military service,control,C1
+8,185b,חוק שירות ביטחון (תיקון מס' 25 – הוראת שעה – חרבות ברזל) (העלאת גיל הפטור משירות מילואים),2212387,+,main,2212387,F1-3,not_about,,"Raises reserve exemption age; reserve burden, not exempt groups",remove,C2
+8,185b,הצעת חוק שירות חובה לכול,2205673,+,main,2205673,F1-12,about,+,Mandatory military or national service for all citizens,control,C3
+8,185b,חוק שירות ביטחון (תיקון מס' 26 – הוראת שעה – חרבות ברזל),2214427,+,main,2214427,F1-8,not_about,,Wartime reserve duty temporary order; not universal service,remove,C4
+8,185b,הצעת חוק שירות ביטחון (תיקון מס' 27) (העלאת גיל הפטור – חרבות ברזל – הארכת הוראת שעה),2219664,+,main,2219664,F1-11,not_about,,Extends reserve exemption age order; not exempt groups,remove,C5
+8,185b,הצעת חוק השירות הצבאי או האזרחי,2156488 2196317,−,main,2156488,F1-18,about,−,Conscript only by army need; prevents coercion,control,C6
+8,185b,הצעת חוק שירות ביטחון (תיקון - חובת פוקד לקרוא להתייצבות לשירות ביטחון),2164153 2202671,+,main,2164153,F1-10,about,+,"Requires calling up all, regardless of religion or origin",control,C7
+8,185b,הצעת חוק שירות ביטחון (תיקון - תגמול לחיילים סדירים בסוף שירותם בתנאי קבע) (הוראת שעה),2220911,+,main,2220911,F1-2,not_about,,Pay for soldiers in permanent-service terms; not service breadth,remove,C8

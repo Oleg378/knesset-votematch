@@ -3,7 +3,7 @@
 Writes to export/ (v2: three files loaded in order, see export/V2_HANDOFF.md «Loading»):
   quiz_core.v2.json         the core statements and the flow numbers — enough to start answering;
   quiz_data.v2.json         everything for matching: params, all statements, directions, lists with positions;
-  quiz_bills.v2.json        what only the list details need: bills, sponsors, bills by direction;
+  quiz_bills.v2.json        what only the list details need: bills, sponsors, bills by direction, the lists' votes;
   quiz_data.v2.schema.json  JSON Schema of the three merged (validated here before writing);
   golden.v2.json            golden test cases: answers (+ trade-off weights) -> what pipeline/quiz_match.py and
                             pipeline/quiz_report.py compute. The TypeScript port must reproduce them (web/ Vitest).
@@ -60,7 +60,13 @@ def build_data(ctx):
             cand_list[m] = L
             mks[m] = {"name_en": name, "list": L, "list_position": p}
     by_direction = {d: [[b, s, role] for b, s, role in ctx["by_d"].get(d, [])] for d in quiz_d}
-    bill_ids = {b for v in by_direction.values() for b, _, _ in v}
+    # [У] 2026-10-19: how the list's former MKs voted on each bill of a quiz direction (jef/positions/list_topic_votes.csv):
+    # votes[list][direction] = [[bill, sign (+1 raises / −1 lowers the direction), camp («own» / «other»), for, against], ...].
+    votes = {}
+    for r in csv.DictReader(open(os.path.join(qm.POS, "list_topic_votes.csv"))):
+        if r["d"] in by_direction and cov.get(r["letters"], {}).get("status") != "not_evaluated":
+            votes.setdefault(r["letters"], {}).setdefault(r["d"], []).append([r["bill_id"], int(r["sign"]), r["camp"], int(r["for"]), int(r["against"])])
+    bill_ids = {b for v in by_direction.values() for b, _, _ in v} | {r[0] for dd in votes.values() for rows in dd.values() for r in rows}
     bills = {}
     for b in sorted(bill_ids, key=int):
         name, k = ctx["info"][b]
@@ -81,6 +87,7 @@ def build_data(ctx):
         "lists": lists,
         "mks": dict(sorted(mks.items(), key=lambda x: int(x[0]))),
         "by_direction": by_direction,
+        "votes": votes,
         "bills": bills,
     }
 
@@ -161,7 +168,7 @@ def main():
     parts = {"core": {**head, "flow": data["flow"], "core": data["core"],
                       "statements": [s for s in data["statements"] if s["q"] in data["core"]]},
              "data": {**head, **{k: data[k] for k in ("params", "flow", "core", "statements", "directions", "lists")}},
-             "bills": {**head, **{k: data[k] for k in ("mks", "by_direction", "bills")}}}
+             "bills": {**head, **{k: data[k] for k in ("mks", "by_direction", "votes", "bills")}}}
     for name, part in parts.items():
         json.dump(part, open(os.path.join(OUT, f"quiz_{name}.v{VERSION}.json"), "w"), ensure_ascii=False, separators=(",", ":"))
     g = golden(ctx)

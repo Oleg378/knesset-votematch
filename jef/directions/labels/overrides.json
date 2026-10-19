@@ -885,7 +885,7 @@
  "_doc_labels": "Point corrections of high-profile laws (customer decision 2026-10-17): gross errors fixed per bill after an expert check (jef/h9_check/landmark/fix/out_1.json, out_2.json); reason and framing per bill.",
  "_doc_remove": "Label removals (customer decision 2026-10-18): a bill's label on a quiz direction is removed when two independent checks found the bill is not about the question of that direction's statement. Candidates: docs/SHARED_UNDERSTANDING.md (label removals), local/research/secondary_weight_v2/ (audit_result.md, check2_result.csv). Applied by pipeline/labels.py after all split stages.",
  "remove": {
-  "decision": "2026-10-18, customer: apply all 109 removals agreed by both checks (variant A); borderline ones are kept; 2026-10-18, customer: wave 2 (candidates from the wording / votes / main-label check, same two-check rule) applied; 2026-10-18, customer: wave 3 (new and moved statements q51, q64, q69, q98, q105; same two-check rule) applied; 2026-10-18, customer: Р8 symmetric check of the core statements — 5 more; 2026-10-18, customer (audit №2 С3): disputed pairs resolved by majority of three blind checks — 20 removed, 113 kept; 2026-10-18 (audit №2 К2): every bill of the 8 core statements checked, removals where two blind checks agree",
+  "decision": "2026-10-18, customer: apply all 109 removals agreed by both checks (variant A); borderline ones are kept; 2026-10-18, customer: wave 2 (candidates from the wording / votes / main-label check, same two-check rule) applied; 2026-10-18, customer: wave 3 (new and moved statements q51, q64, q69, q98, q105; same two-check rule) applied; 2026-10-18, customer: Р8 symmetric check of the core statements — 5 more; 2026-10-18, customer (audit №2 С3): disputed pairs resolved by majority of three blind checks — 20 removed, 113 kept; 2026-10-18 (audit №2 К2): every bill of the 8 core statements checked, removals where two blind checks agree; 2026-10-19: systematic label check, one statement at a time (docs/LABEL_CHECK.md), same two-check rule",
   "items": [
    {
     "bill_id": "2156912",
@@ -916,7 +916,7 @@
     "d": "164",
     "q": "5",
     "role": "secondary",
-    "source": "added by hand (q5: Keren Kayemeth LeIsrael Law repeal, not among the 8 driving bills)",
+    "source": "q5: Keren Kayemeth LeIsrael Law repeal; first removed by hand, confirmed 2026-10-19 by two blind checks «not about» (local/research/label_check_q5_kkl/)",
     "reason": "Repealing KKL's special status; not community heritage centers"
    },
    {
@@ -932,7 +932,7 @@
     "d": "164",
     "q": "5",
     "role": "secondary",
-    "source": "added by hand (q5: Keren Kayemeth LeIsrael Law repeal, not among the 8 driving bills)",
+    "source": "q5: Keren Kayemeth LeIsrael Law repeal; first removed by hand, confirmed 2026-10-19 by two blind checks «not about» (local/research/label_check_q5_kkl/)",
     "reason": "Repealing KKL's special status; not community heritage centers"
    },
    {
@@ -2814,6 +2814,478 @@
     "role": "secondary",
     "source": "full check of the core statements: 2 blind checks «not about» (audit №2 К2)",
     "reason": "Firefighters as fallen; commemoration, not service benefits"
+   },
+   {
+    "bill_id": "2162956",
+    "d": "25a",
+    "q": "42",
+    "role": "secondary",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Duty to sell compulsory motor policy; consumer access, not entry"
+   },
+   {
+    "bill_id": "2196383",
+    "d": "25a",
+    "q": "42",
+    "role": "secondary",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Duty to sell compulsory motor policy; consumer access, not entry"
+   },
+   {
+    "bill_id": "2197998",
+    "d": "25a",
+    "q": "42",
+    "role": "secondary",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Duty to sell compulsory motor policy; consumer access, not entry"
+   },
+   {
+    "bill_id": "2166077",
+    "d": "25a",
+    "q": "42",
+    "role": "secondary",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Duty to sell compulsory motor policy; consumer access, not entry"
+   },
+   {
+    "bill_id": "2198324",
+    "d": "25a",
+    "q": "42",
+    "role": "secondary",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Duty to sell compulsory motor policy; consumer access, not entry"
+   },
+   {
+    "bill_id": "2190976",
+    "d": "25a",
+    "q": "42",
+    "role": "secondary",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Duty to sell compulsory motor policy; consumer access, not entry"
+   },
+   {
+    "bill_id": "2157365",
+    "d": "25b",
+    "q": "107",
+    "role": "main",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Green-label tender preference; environmental, not local origin"
+   },
+   {
+    "bill_id": "2161137",
+    "d": "25b",
+    "q": "107",
+    "role": "main",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Green-label tender preference; environmental, not local origin"
+   },
+   {
+    "bill_id": "2196074",
+    "d": "25a",
+    "q": "42",
+    "role": "secondary",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Duty to sell compulsory motor policy; consumer access, not entry"
+   },
+   {
+    "bill_id": "2225837",
+    "d": "25a",
+    "q": "42",
+    "role": "secondary",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Public broadcaster news content, not market entry"
+   },
+   {
+    "bill_id": "2197916",
+    "d": "25a",
+    "q": "42",
+    "role": "secondary",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Bank fee disclosure; consumer protection, not entry barriers"
+   },
+   {
+    "bill_id": "2203054",
+    "d": "25a",
+    "q": "42",
+    "role": "secondary",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Bank fee disclosure; consumer protection, not entry barriers"
+   },
+   {
+    "bill_id": "2200758",
+    "d": "25a",
+    "q": "42",
+    "role": "secondary",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Bank fee disclosure; consumer protection, not entry barriers"
+   },
+   {
+    "bill_id": "2203718",
+    "d": "25a",
+    "q": "42",
+    "role": "secondary",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Bank fee disclosure; consumer protection, not entry barriers"
+   },
+   {
+    "bill_id": "2222052",
+    "d": "25a",
+    "q": "42",
+    "role": "main",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Bank interest on balances; price regulation, not entry"
+   },
+   {
+    "bill_id": "2223948",
+    "d": "25a",
+    "q": "42",
+    "role": "main",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Unified EV charging app; interoperability, not entry barriers"
+   },
+   {
+    "bill_id": "2227682",
+    "d": "25a",
+    "q": "42",
+    "role": "main",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Unified EV charging app; interoperability, not entry barriers"
+   },
+   {
+    "bill_id": "2226689",
+    "d": "25a",
+    "q": "42",
+    "role": "main",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Unified EV charging app; interoperability, not entry barriers"
+   },
+   {
+    "bill_id": "2226598",
+    "d": "25a",
+    "q": "42",
+    "role": "main",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Unified EV charging app; interoperability, not entry barriers"
+   },
+   {
+    "bill_id": "2232387",
+    "d": "25a",
+    "q": "42",
+    "role": "main",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Rental housing ownership model, unrelated to competition entry"
+   },
+   {
+    "bill_id": "2205838",
+    "d": "25b",
+    "q": "107",
+    "role": "main",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Tender rule on food rescue, not local preference"
+   },
+   {
+    "bill_id": "2207020",
+    "d": "25b",
+    "q": "107",
+    "role": "main",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Tender rule on food rescue, not local preference"
+   },
+   {
+    "bill_id": "2196859",
+    "d": "25a",
+    "q": "42",
+    "role": "main",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Mortgage interest limits; prudential regulation, not market entry"
+   },
+   {
+    "bill_id": "2198732",
+    "d": "25a",
+    "q": "42",
+    "role": "main",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Mortgage interest limits; prudential regulation, not market entry"
+   },
+   {
+    "bill_id": "2191977",
+    "d": "25a",
+    "q": "42",
+    "role": "main",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Mortgage interest limits; prudential regulation, not market entry"
+   },
+   {
+    "bill_id": "2156255",
+    "d": "25a",
+    "q": "42",
+    "role": "main",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Mortgage interest limits; prudential regulation, not market entry"
+   },
+   {
+    "bill_id": "2207038",
+    "d": "25b",
+    "q": "107",
+    "role": "main",
+    "source": "full check of «Imports and competition» (customer 2026-10-19): 2 blind checks «not about»",
+    "reason": "Negev agricultural settlements, not government procurement"
+   },
+   {
+    "bill_id": "2162471",
+    "d": "25a",
+    "q": "42",
+    "role": "main",
+    "source": "«Imports and competition»: 2 of 3 blind checks «not about»",
+    "reason": "Ambulance transport for women giving birth; no market competition question"
+   },
+   {
+    "bill_id": "2197321",
+    "d": "25a",
+    "q": "42",
+    "role": "main",
+    "source": "«Imports and competition»: 2 of 3 blind checks «not about»",
+    "reason": "Ambulance transport for women giving birth; no market competition question"
+   },
+   {
+    "bill_id": "2209217",
+    "d": "25a",
+    "q": "42",
+    "role": "main",
+    "source": "«Imports and competition»: 2 of 3 blind checks «not about»",
+    "reason": "Ambulance transport for women giving birth; no market competition question"
+   },
+   {
+    "bill_id": "2203296",
+    "d": "25a",
+    "q": "42",
+    "role": "main",
+    "source": "«Imports and competition»: 2 of 3 blind checks «not about»",
+    "reason": "Ambulance transport for women giving birth; no market competition question"
+   },
+   {
+    "bill_id": "2208575",
+    "d": "25a",
+    "q": "42",
+    "role": "main",
+    "source": "«Imports and competition»: 2 of 3 blind checks «not about»",
+    "reason": "Ambulance transport for women giving birth; no market competition question"
+   },
+   {
+    "bill_id": "2205915",
+    "d": "25a",
+    "q": "42",
+    "role": "secondary",
+    "source": "«Imports and competition»: 2 of 3 blind checks «not about»",
+    "reason": "Patient choice of provider within health funds; not imports or entrants"
+   },
+   {
+    "bill_id": "2209021",
+    "d": "25a",
+    "q": "42",
+    "role": "secondary",
+    "source": "«Imports and competition»: 2 of 3 blind checks «not about»",
+    "reason": "Patient choice of provider within health funds; not imports or entrants"
+   },
+   {
+    "bill_id": "1057378",
+    "d": "25a",
+    "q": "42",
+    "role": "main",
+    "source": "«Imports and competition»: 2 of 3 blind checks «not about»",
+    "reason": "Ambulance transport for women giving birth; no market competition question"
+   },
+   {
+    "bill_id": "2220911",
+    "d": "185b",
+    "q": "8",
+    "role": "main",
+    "source": "label check q8 (2026-10-19): 2 blind checks «not about»",
+    "reason": "Pay for soldiers in permanent-service terms; not service breadth"
+   },
+   {
+    "bill_id": "2212387",
+    "d": "185b",
+    "q": "8",
+    "role": "main",
+    "source": "label check q8 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Raises reserve exemption age; reserve burden, not exempt groups"
+   },
+   {
+    "bill_id": "2214427",
+    "d": "185b",
+    "q": "8",
+    "role": "main",
+    "source": "label check q8 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Wartime reserve duty temporary order; not universal service"
+   },
+   {
+    "bill_id": "2219664",
+    "d": "185b",
+    "q": "8",
+    "role": "main",
+    "source": "label check q8 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Extends reserve exemption age order; not exempt groups"
+   },
+   {
+    "bill_id": "2198025",
+    "d": "277b",
+    "q": "92",
+    "role": "secondary",
+    "source": "label check q92 (2026-10-19): two blind checks «not about»",
+    "reason": "Income tax credit points for guardians; not a benefit"
+   },
+   {
+    "bill_id": "2190214",
+    "d": "277b",
+    "q": "92",
+    "role": "secondary",
+    "source": "label check q92 (2026-10-19): two blind checks «not about»",
+    "reason": "Income tax credit points for guardians; not a benefit"
+   },
+   {
+    "bill_id": "2207414",
+    "d": "277b",
+    "q": "92",
+    "role": "secondary",
+    "source": "label check q92 (2026-10-19): two blind checks «not about»",
+    "reason": "Paying unpaid benefits of deceased to supplier; administrative"
+   },
+   {
+    "bill_id": "2199995",
+    "d": "277b",
+    "q": "92",
+    "role": "secondary",
+    "source": "label check q92 (2026-10-19): two blind checks «not about»",
+    "reason": "Health insurance waiting period for lone returning residents"
+   },
+   {
+    "bill_id": "2156189",
+    "d": "277b",
+    "q": "92",
+    "role": "secondary",
+    "source": "label check q92 (2026-10-19): two blind checks «not about»",
+    "reason": "Health insurance waiting period for lone returning residents"
+   },
+   {
+    "bill_id": "2207026",
+    "d": "277b",
+    "q": "92",
+    "role": "secondary",
+    "source": "label check q92 (2026-10-19): two blind checks «not about»",
+    "reason": "Disabled parking badge duration; not a benefit eligibility"
+   },
+   {
+    "bill_id": "2215925",
+    "d": "277b",
+    "q": "92",
+    "role": "secondary",
+    "source": "label check q92 (2026-10-19): two blind checks «not about»",
+    "reason": "Disabled parking badge duration; not a benefit eligibility"
+   },
+   {
+    "bill_id": "2195949",
+    "d": "277b",
+    "q": "92",
+    "role": "secondary",
+    "source": "label check q92 (2026-10-19): two blind checks «not about»",
+    "reason": "Health insurance waiting period for returning residents"
+   },
+   {
+    "bill_id": "2198912",
+    "d": "277b",
+    "q": "92",
+    "role": "secondary",
+    "source": "label check q92 (2026-10-19): two blind checks «not about»",
+    "reason": "Municipal property tax discount for disabled; not benefit eligibility"
+   },
+   {
+    "bill_id": "2201657",
+    "d": "277b",
+    "q": "92",
+    "role": "secondary",
+    "source": "label check q92 (2026-10-19): two blind checks «not about»",
+    "reason": "Municipal property tax discount for disabled; not benefit eligibility"
+   },
+   {
+    "bill_id": "2157100",
+    "d": "277b",
+    "q": "92",
+    "role": "secondary",
+    "source": "label check q92 (2026-10-19): two blind checks «not about»",
+    "reason": "Municipal property tax discount for disabled; not benefit eligibility"
+   },
+   {
+    "bill_id": "2195429",
+    "d": "166",
+    "q": "2",
+    "role": "main",
+    "source": "label check q2 (2026-10-19): two blind checks «not about»",
+    "reason": "Extraterritorial criminal jurisdiction over citizens abroad; not territorial sovereignty"
+   },
+   {
+    "bill_id": "2223639",
+    "d": "166",
+    "q": "2",
+    "role": "main",
+    "source": "label check q2 (2026-10-19): two blind checks «not about»",
+    "reason": "Maritime economic zones regulation; unrelated to West Bank"
+   },
+   {
+    "bill_id": "2228260",
+    "d": "165",
+    "q": "4",
+    "role": "main",
+    "source": "label check q4 (2026-10-19): two blind checks «not about»",
+    "reason": "Terminology for Judea and Samaria; territorial naming issue"
+   },
+   {
+    "bill_id": "2197785",
+    "d": "165",
+    "q": "4",
+    "role": "secondary",
+    "source": "label check q4 (2026-10-19): two blind checks «not about»",
+    "reason": "Cremation ban; religious practice, not national character law"
+   },
+   {
+    "bill_id": "2224619",
+    "d": "165",
+    "q": "4",
+    "role": "main",
+    "source": "label check q4 (2026-10-19): two blind checks «not about»",
+    "reason": "Terminology for Judea and Samaria; territorial naming issue"
+   },
+   {
+    "bill_id": "2230442",
+    "d": "165",
+    "q": "4",
+    "role": "secondary",
+    "source": "label check q4 (2026-10-19): two blind checks «not about»",
+    "reason": "Annexation of territories, not Jewish character in law"
+   },
+   {
+    "bill_id": "2169472",
+    "d": "165",
+    "q": "4",
+    "role": "secondary",
+    "source": "label check q4 (2026-10-19): two blind checks «not about»",
+    "reason": "Limits judicial review over infiltrators; migration and courts"
+   },
+   {
+    "bill_id": "2196860",
+    "d": "165",
+    "q": "4",
+    "role": "secondary",
+    "source": "label check q4 (2026-10-19): two blind checks «not about»",
+    "reason": "Limits judicial review over infiltrators; migration and courts"
+   },
+   {
+    "bill_id": "2197671",
+    "d": "165",
+    "q": "4",
+    "role": "secondary",
+    "source": "label check q4 (2026-10-19): two blind checks «not about»",
+    "reason": "Limits judicial review over infiltrators; migration and courts"
    }
   ]
  },
@@ -2862,15 +3334,109 @@
     "bill_id": "2157698",
     "d": "277c",
     "sign": "+",
-    "source": "external label audit (blind) + independent second check, 2026-10-18",
+    "source": "external label audit (blind) + independent second check, 2026-10-18; confirmed 2026-10-19 on the full notes (≤3,000 characters, local/research/flip_recheck/)",
     "reason": "Single mothers receiving state alimony payments become eligible for public housing"
    },
    {
     "bill_id": "2196380",
     "d": "17",
     "sign": "+",
-    "source": "external label audit (blind) + independent second check, 2026-10-18",
+    "source": "external label audit (blind) + independent second check, 2026-10-18; confirmed 2026-10-19 on the full notes (≤3,000 characters, local/research/flip_recheck/)",
     "reason": "Prohibits sports clubs from conditioning minor athletes' transfers on payment or quarantine"
+   },
+   {
+    "bill_id": "2195655",
+    "d": "255a",
+    "sign": "−",
+    "source": "label check q19 (2026-10-19): two blind checks agree on the sign; confirmed 2026-10-19 on the full notes (≤3,000 characters, local/research/flip_recheck/)",
+    "reason": "Expands mandatory core (basic) studies in non-state schools beyond 75% exemption; tightens core conditions tied to their funding."
+   },
+   {
+    "bill_id": "2198924",
+    "d": "255a",
+    "sign": "−",
+    "source": "label check q19 (2026-10-19): two blind checks agree on the sign; confirmed 2026-10-19 on the full notes (≤3,000 characters, local/research/flip_recheck/)",
+    "reason": "Expands mandatory core (basic) studies in non-state schools beyond 75% exemption; tightens core conditions tied to their funding."
+   },
+   {
+    "bill_id": "2190874",
+    "d": "255a",
+    "sign": "−",
+    "source": "label check q19 (2026-10-19): two blind checks agree on the sign; confirmed 2026-10-19 on the full notes (≤3,000 characters, local/research/flip_recheck/)",
+    "reason": "Expands mandatory core (basic) studies in non-state schools beyond 75% exemption; tightens core conditions tied to their funding."
+   },
+   {
+    "bill_id": "2190645",
+    "d": "255a",
+    "sign": "−",
+    "source": "label check q19 (2026-10-19): two blind checks agree on the sign; confirmed 2026-10-19 on the full notes (≤3,000 characters, local/research/flip_recheck/)",
+    "reason": "Targets 75% core exemption for recognized unofficial schools; equal opportunity means requiring full core curriculum, tightening conditions."
+   },
+   {
+    "bill_id": "2197973",
+    "d": "255a",
+    "sign": "−",
+    "source": "label check q19 (2026-10-19): two blind checks agree on the sign; confirmed 2026-10-19 on the full notes (≤3,000 characters, local/research/flip_recheck/)",
+    "reason": "Full (100%) funding for recognized unofficial schools offered in return for teaching full core; funding conditional on core."
+   },
+   {
+    "bill_id": "2169841",
+    "d": "255a",
+    "sign": "−",
+    "source": "label check q19 (2026-10-19): two blind checks agree on the sign; confirmed 2026-10-19 on the full notes (≤3,000 characters, local/research/flip_recheck/)",
+    "reason": "Full (100%) funding for recognized unofficial schools offered in return for teaching full core; funding conditional on core."
+   },
+   {
+    "bill_id": "2164170",
+    "d": "255a",
+    "sign": "−",
+    "source": "label check q19 (2026-10-19): two blind checks agree on the sign; confirmed 2026-10-19 on the full notes (≤3,000 characters, local/research/flip_recheck/)",
+    "reason": "Full (100%) funding for recognized unofficial schools offered in return for teaching full core; funding conditional on core."
+   },
+   {
+    "bill_id": "2204688",
+    "d": "165",
+    "q": "4",
+    "sign": "−",
+    "role": "secondary",
+    "source": "label check q4 (2026-10-19): two blind checks agree on the sign; confirmed on the full notes (≤3,000 characters, flip_result.csv)",
+    "reason": "Gives the Declaration constitutional status, adding its full-equality guarantee to balance the Nation-State Law."
+   },
+   {
+    "bill_id": "2198973",
+    "d": "165",
+    "q": "4",
+    "sign": "−",
+    "role": "main",
+    "source": "label check q4 (2026-10-19): two blind checks agree on the sign; confirmed on the full notes (≤3,000 characters, flip_result.csv)",
+    "reason": "Constitutionalizes the Declaration of Independence, entrenching its equality principle as a counterweight to the Nation-State Law."
+   },
+   {
+    "bill_id": "2156247",
+    "d": "165",
+    "q": "4",
+    "sign": "−",
+    "role": "main",
+    "source": "label check q4 (2026-10-19): two blind checks agree on the sign; confirmed on the full notes (≤3,000 characters, flip_result.csv)",
+    "reason": "Constitutionalizes the Declaration of Independence, entrenching its equality principle as a counterweight to the Nation-State Law."
+   },
+   {
+    "bill_id": "2210217",
+    "d": "165",
+    "q": "4",
+    "sign": "−",
+    "role": "main",
+    "source": "label check q4 (2026-10-19): two blind checks agree on the sign; confirmed on the full notes (≤3,000 characters, flip_result.csv)",
+    "reason": "Constitutionalizes the Declaration of Independence, entrenching its equality principle as a counterweight to the Nation-State Law."
+   },
+   {
+    "bill_id": "2201486",
+    "d": "165",
+    "q": "4",
+    "sign": "−",
+    "role": "main",
+    "source": "label check q4 (2026-10-19): two blind checks agree on the sign; confirmed on the full notes (≤3,000 characters, flip_result.csv)",
+    "reason": "Constitutionalizes the Declaration of Independence, entrenching its equality principle as a counterweight to the Nation-State Law."
    }
   ]
  }

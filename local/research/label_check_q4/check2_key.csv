@@ -1,0 +1,11 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason,kind,cid
+4,165,הצעת חוק לתיקון מונחים בחקיקה (יהודה והשומרון),2228260,+,main,2228260,F1-10,not_about,,Terminology for Judea and Samaria; territorial naming issue,candidate,C1
+4,165,הצעת חוק השבות (תיקון - מיהו יהודי),2158836,+,secondary,2158836,F1-20,about,+,Law of Return: only halakhic conversion recognized,control,C2
+4,165,הצעת חוק-יסוד: הכנסת (תיקון - הצהרת אמונים),2198953 2192095,+,main,2198953,F1-4,about,+,Knesset oath to Israel as Jewish and democratic state,control,C3
+4,165,הצעת חוק-יסוד: מעמד ההכרזה על הקמת מדינת ישראל,2204688,+,secondary,2204688,F1-16,borderline,−,Constitutionalizes Declaration incl. equality; counterweight to Nation-State Law,flip,C4
+4,165,הצעת חוק יסוד: ישראל - מדינת הלאום של העם היהודי (תיקון - ביטול החוק),2192282,−,main,2192282,F1-13,about,−,Repeals the Nation-State Basic Law as discriminatory,control,C5
+4,165,הצעת חוק לתיקון פקודת בריאות העם (חובת קבורה בבית עלמין),2197785,+,secondary,2197785,F1-17,not_about,,"Cremation ban; religious practice, not national character law",candidate,C6
+4,165,"הצעת חוק שימוש במונח יהודה והשומרון, התשפ""ה–2025",2224619,+,main,2224619,F1-14,not_about,,Terminology for Judea and Samaria; territorial naming issue,candidate,C7
+4,165,"הצעת חוק החלת המשפט, השיפוט והמינהל בחבלי הארץ שבריבונות ישראל",2230442,+,secondary,2230442,F1-9,not_about,,"Annexation of territories, not Jewish character in law",candidate,C8
+4,165,הצעת חוק-יסוד: כבוד האדם וחירותו (תיקון - פגיעה בזכויות),2169472 2196860 2197671,+,secondary,2169472,F1-11,not_about,,Limits judicial review over infiltrators; migration and courts,candidate,C9
+4,165,הצעת חוק-יסוד: מגילת העצמאות,2198973 2156247 2210217 2201486,+,main,2198973,F1-6,borderline,−,Constitutionalizes Declaration incl. equality; counterweight to Nation-State Law,flip,C10

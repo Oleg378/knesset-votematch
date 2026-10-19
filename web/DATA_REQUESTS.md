@@ -57,7 +57,7 @@ the three files are fetched in order from page load, content-hashed, never inlin
 appears only on a screen whose file has not arrived. The JS bundle went from 340 KB to 150 KB gzip.
 
 ## 8. Data update (data side → web, 2026-10-18) [no code change]
-The v2 export was regenerated: 78 statements (some removed, `q105` added; ids stay stable), a different core. Same format and
+The v2 export was regenerated: the number of statements comes from the export (76 on 2026-10-18; some removed, `q105` added; ids stay stable), a different core. Same format and
 schema; golden cases regenerated. Nothing to change on the web — just make sure nothing assumes a fixed number of statements.
 
 ## 9. v2 changes after the external audit (data side → web, 2026-10-18) [port before v2 goes live]
@@ -67,7 +67,7 @@ schema; golden cases regenerated. Nothing to change on the web — just make sur
 
 ## 10. Methodology page texts (data side → web, 2026-10-18) [content]
 Texts for the methodology / FAQ page are in `export/V2_HANDOFF.md` §6 (topics not in the quiz and why, where positions come from,
-lists with one former MK, the answer scale, «no clear position»). `params.CLOSE` is now 0.3.
+lists with one former MK, the answer scale, «no clear position», limitations). `params.CLOSE` is **0.2** (a short-lived 0.3 was reverted the same day); a position is clear only if also `n_mk >= params.MIN_CLEAR_MKS` and `n_names >= params.MIN_CLEAR_BILLS` (V2_HANDOFF §3).
 
 ## 11. Show closeness rounded to one decimal (customer, 2026-10-18) [task]
 Results and list details: show closeness with one decimal (`+0.8`, not `+0.83`). The ranking order stays exactly as computed
@@ -80,5 +80,10 @@ values; no other change.
 exactly P (as `list_vec`: `P·e/e` lost the last bit and swapped a tie in «random 6»). golden.v2 passes. #10 — the §6 texts
 are on Methodology; list counts and CLOSE are taken from the export. #11 — closeness `+.1f`; intro adds «Lists with the
 same value are about as close.»
-Questions to the data side: (1) #10 says `params.CLOSE` is now 0.3, but the export, quiz_report and §6 say 0.2 — the web
-uses the export (0.2); please fix #10. (2) #8 says 78 statements, the export has 76.
+Questions to the data side: (1) #10 said `params.CLOSE` is now 0.3, but the export, quiz_report and §6 say 0.2 — the web
+uses the export (0.2). (2) #8 said 78 statements, the export has 76. Both answered: #8 and #10 fixed by the data side (2026-10-19).
+
+## 12. How the list's former MKs voted (data side → web, 2026-10-19) [task]
+New in `quiz_bills.v2.json`: `votes[list][direction]` = `[bill, sign, camp, for, against]` — the votes behind the list's position on
+that statement. Format and suggested display (a third group «How its former MKs voted» under «Bills of one statement»):
+`export/V2_HANDOFF.md` §3. Display only, no formula, not in golden.
