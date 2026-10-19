@@ -305,7 +305,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",91b,привилегии в политико-медийной сфере,1.0,1.0,0.0,2,2,0,True,0.0,0,1
 אמת,"HaDemocratim, headed by Yair Golan",92,права и условия содержания заключённых и осуждённых,0.3611,0.1111,0.0,3,3,0,False,0.25,15,4
 אמת,"HaDemocratim, headed by Yair Golan",92a,смертная казнь за терроризм,0.281,0.0,0.031,10,0,2,False,0.25,51,5
-אמת,"HaDemocratim, headed by Yair Golan",92b,права и условия заключённых по безопасности,0.2725,0.0,0.0267,10,0,1,False,0.2458,29,7
+אמת,"HaDemocratim, headed by Yair Golan",92b,права и условия заключённых по безопасности,0.2767,0.0,0.0267,10,0,1,False,0.25,22,6
 אמת,"HaDemocratim, headed by Yair Golan",92c,права и условия обычных заключённых и задержанных,0.5458,0.5,0.0266,10,14,17,False,0.0192,31,15
 אמת,"HaDemocratim, headed by Yair Golan",94,права и поддержка потерпевших от преступлений,0.9466,0.9091,0.0068,11,103,275,False,0.0307,97,106
 אמת,"HaDemocratim, headed by Yair Golan",95,ответственность государства и учреждений перед гражданами,0.3708,0.5,0.0,10,15,23,False,-0.1292,28,12
@@ -625,7 +625,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",91b,привилегии в политико-медийной сфере,-0.25,0.0,0.0,5,0,0,False,-0.25,5,1
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",92,права и условия содержания заключённых и осуждённых,-0.45,-0.4,0.0,5,2,25,False,-0.05,3,4
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",92a,смертная казнь за терроризм,-0.6152,-0.3333,-0.0318,6,2,73,False,-0.25,11,5
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",92b,права и условия заключённых по безопасности,-0.449,-0.5,-0.0184,6,5,40,False,0.0694,12,9
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",92b,права и условия заключённых по безопасности,-0.449,-0.5,-0.0184,6,5,13,False,0.0694,12,8
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",92c,права и условия обычных заключённых и задержанных,0.1309,0.1667,0.0059,6,3,4,False,-0.0417,7,9
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",94,права и поддержка потерпевших от преступлений,0.6391,0.6508,0.0354,6,48,78,False,-0.0472,128,86
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",95,ответственность государства и учреждений перед гражданами,0.5625,0.5,0.0,4,4,5,False,0.0625,1,7
@@ -1157,7 +1157,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,91b,привилегии в политико-медийной сфере,-0.0373,0.0,-0.0373,3,0,3,False,0.0,0,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,92,права и условия содержания заключённых и осуждённых,-0.1875,0.0,0.0,8,4,16,False,-0.1875,25,5
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,92a,смертная казнь за терроризм,0.5363,0.0,0.4363,5,0,38,False,0.1,4,3
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,92b,права и условия заключённых по безопасности,-0.5541,-0.5,-0.0303,8,4,8,False,-0.0238,27,8
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,92b,права и условия заключённых по безопасности,-0.5282,-0.5,-0.0303,8,4,8,False,0.0021,23,7
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,92c,права и условия обычных заключённых и задержанных,0.393,0.375,0.0024,8,5,8,False,0.0156,14,10
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,94,права и поддержка потерпевших от преступлений,0.521,0.6667,-0.0689,9,21,104,False,-0.0768,164,69
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,95,ответственность государства и учреждений перед гражданами,0.8214,0.7143,0.0,7,24,16,False,0.1071,3,11
@@ -1462,7 +1462,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",91b,привилегии в политико-медийной сфере,0.0233,0.0,0.0233,1,0,1,True,0.0,0,1
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",92,права и условия содержания заключённых и осуждённых,-0.3333,-0.3333,0.0,3,1,1,False,0.0,5,4
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",92a,смертная казнь за терроризм,0.25,0.0,0.0,3,0,0,False,0.25,20,2
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",92b,права и условия заключённых по безопасности,-0.0946,0.0,-0.1009,4,0,3,False,0.0062,16,8
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",92b,права и условия заключённых по безопасности,-0.0384,0.0,-0.1009,4,0,3,False,0.0625,12,6
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",92c,права и условия обычных заключённых и задержанных,0.0036,0.0,0.0036,3,0,3,False,0.0,8,6
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",94,права и поддержка потерпевших от преступлений,1.0116,0.75,0.0456,4,6,94,False,0.2159,29,55
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",95,ответственность государства и учреждений перед гражданами,0.375,0.5,0.0,2,1,0,True,-0.125,3,4
@@ -1774,7 +1774,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,91b,привилегии в политико-медийной сфере,0.0233,0.0,0.0233,2,0,2,True,0.0,0,1
 ודם,The Joint Arab List,92,права и условия содержания заключённых и осуждённых,-0.0451,-0.2,0.0,5,1,0,False,0.1549,54,7
 ודם,The Joint Arab List,92a,смертная казнь за терроризм,0.5156,0.0,0.2656,5,0,17,False,0.25,49,5
-ודם,The Joint Arab List,92b,права и условия заключённых по безопасности,0.498,0.0,0.248,5,0,12,False,0.25,78,19
+ודם,The Joint Arab List,92b,права и условия заключённых по безопасности,0.498,0.0,0.248,5,0,12,False,0.25,51,13
 ודם,The Joint Arab List,92c,права и условия обычных заключённых и задержанных,1.0479,0.8,0.024,5,17,10,False,0.2239,82,26
 ודם,The Joint Arab List,94,права и поддержка потерпевших от преступлений,0.9769,1.0,-0.0895,5,85,165,False,0.0664,194,104
 ודם,The Joint Arab List,95,ответственность государства и учреждений перед гражданами,1.25,1.0,0.0,4,23,14,False,0.25,8,14
@@ -2087,7 +2087,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",91b,привилегии в политико-медийной сфере,-0.25,0.0,0.0,5,0,0,False,-0.25,5,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",92,права и условия содержания заключённых и осуждённых,-0.5,-0.3333,0.0,6,2,24,False,-0.1667,12,4
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",92a,смертная казнь за терроризм,-0.2387,0.0,-0.0303,6,0,68,False,-0.2083,10,5
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",92b,права и условия заключённых по безопасности,-0.741,-0.8333,-0.0188,6,15,19,False,0.1111,11,8
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",92b,права и условия заключённых по безопасности,-0.7424,-0.8333,-0.0202,6,15,13,False,0.1111,11,7
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",92c,права и условия обычных заключённых и задержанных,0.3787,0.4167,-0.0102,6,6,11,False,-0.0278,12,10
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",94,права и поддержка потерпевших от преступлений,0.9586,1.0,0.0282,6,33,76,False,-0.0696,161,67
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",95,ответственность государства и учреждений перед гражданами,0.75,0.75,0.0,6,10,14,False,0.0,0,9
@@ -2369,7 +2369,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 י,"Yisrael Techila, headed by Sharren Haskel",91a,профессиональные и терапевтические привилегии,0.002,0.0,0.002,1,0,5,True,0.0,0,3
 י,"Yisrael Techila, headed by Sharren Haskel",92,права и условия содержания заключённых и осуждённых,-0.25,0.0,0.0,1,0,2,True,-0.25,1,1
 י,"Yisrael Techila, headed by Sharren Haskel",92a,смертная казнь за терроризм,0.1093,0.0,-0.1407,1,0,9,True,0.25,1,2
-י,"Yisrael Techila, headed by Sharren Haskel",92b,права и условия заключённых по безопасности,-1.0086,-1.0,-0.0919,1,1,4,True,0.0833,3,5
+י,"Yisrael Techila, headed by Sharren Haskel",92b,права и условия заключённых по безопасности,-1.0086,-1.0,-0.0919,1,1,3,True,0.0833,3,4
 י,"Yisrael Techila, headed by Sharren Haskel",92c,права и условия обычных заключённых и задержанных,-0.0833,0.0,-0.0,1,0,1,True,-0.0833,3,4
 י,"Yisrael Techila, headed by Sharren Haskel",94,права и поддержка потерпевших от преступлений,1.0369,1.0,0.025,1,12,38,True,0.0119,21,53
 י,"Yisrael Techila, headed by Sharren Haskel",95,ответственность государства и учреждений перед гражданами,-0.0833,0.0,0.0,1,0,2,True,-0.0833,3,5
@@ -2676,7 +2676,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",91b,привилегии в политико-медийной сфере,0.4154,0.3333,0.0821,3,1,3,False,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",92,права и условия содержания заключённых и осуждённых,0.25,0.0,0.0,2,0,1,True,0.25,3,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",92a,смертная казнь за терроризм,0.25,0.0,0.0,3,0,0,False,0.25,20,3
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",92b,права и условия заключённых по безопасности,0.0629,0.0,-0.1067,4,0,3,False,0.1696,15,8
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",92b,права и условия заключённых по безопасности,0.0754,0.0,-0.1067,4,0,3,False,0.1821,14,7
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",92c,права и условия обычных заключённых и задержанных,0.3917,0.3333,-0.0527,3,1,3,False,0.1111,7,7
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",94,права и поддержка потерпевших от преступлений,0.9918,0.75,0.0379,4,33,131,False,0.2039,43,84
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",95,ответственность государства и учреждений перед гражданами,0.5556,0.6667,0.0,3,3,3,False,-0.1111,5,7
@@ -2994,7 +2994,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",91a,профессиональные и терапевтические привилегии,0.002,0.0,0.002,3,0,6,False,0.0,0,2
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",92,права и условия содержания заключённых и осуждённых,-0.3333,-0.2,0.0,5,1,5,False,-0.1333,7,3
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",92a,смертная казнь за терроризм,-0.8334,-0.5,-0.218,8,4,20,False,-0.1154,56,5
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",92b,права и условия заключённых по безопасности,-0.9615,-0.8571,-0.1674,7,21,13,False,0.0631,35,14
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",92b,права и условия заключённых по безопасности,-0.8824,-0.8571,-0.1674,7,21,12,False,0.1422,25,9
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",92c,права и условия обычных заключённых и задержанных,-0.6733,-0.625,-0.1369,8,20,13,False,0.0885,15,10
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",94,права и поддержка потерпевших от преступлений,1.0025,0.875,0.0359,8,153,141,False,0.0915,76,82
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",95,ответственность государства и учреждений перед гражданами,0.5,0.625,0.0,8,10,3,False,-0.125,7,7
@@ -3326,7 +3326,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",91b,привилегии в политико-медийной сфере,-0.0694,0.1667,0.0,18,3,0,False,-0.2361,17,4
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",92,права и условия содержания заключённых и осуждённых,-0.5345,-0.3793,0.0,29,12,83,False,-0.1552,52,7
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",92a,смертная казнь за терроризм,-0.5014,-0.3,-0.0264,30,11,275,False,-0.175,34,7
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",92b,права и условия заключённых по безопасности,-0.3188,-0.3636,-0.0259,33,14,107,False,0.0707,44,9
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",92b,права и условия заключённых по безопасности,-0.3197,-0.3636,-0.0267,33,14,65,False,0.0707,44,8
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",92c,права и условия обычных заключённых и задержанных,0.0791,0.0625,0.0062,32,9,39,False,0.0104,36,13
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",94,права и поддержка потерпевших от преступлений,0.9014,0.9091,0.0261,33,125,420,False,-0.0338,757,123
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",95,ответственность государства и учреждений перед гражданами,0.3056,0.2667,0.0,30,12,69,False,0.0389,9,12
@@ -3595,7 +3595,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",91a,профессиональные и терапевтические привилегии,0.0,0.0,0.0,1,0,0,True,0.0,2,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",92,права и условия содержания заключённых и осуждённых,-0.25,0.0,0.0,1,0,2,True,-0.25,3,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",92a,смертная казнь за терроризм,-0.0682,0.0,-0.0682,1,0,2,True,0.0,0,2
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",92b,права и условия заключённых по безопасности,-1.3497,-1.0,-0.0997,1,1,3,True,-0.25,6,5
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",92b,права и условия заключённых по безопасности,-1.0997,-1.0,-0.0997,1,1,3,True,0.0,0,4
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",92c,права и условия обычных заключённых и задержанных,-0.3731,0.0,-0.1231,1,0,3,True,-0.25,1,4
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",94,права и поддержка потерпевших от преступлений,0.8624,1.0,0.0215,1,1,3,True,-0.1591,11,12
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",95,ответственность государства и учреждений перед гражданами,0.0,0.0,0.0,1,0,2,True,0.0,0,2
@@ -3904,7 +3904,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",91b,привилегии в политико-медийной сфере,0.0233,0.0,0.0233,1,0,1,True,0.0,0,1
 עם,"Ra’am, the United Arab List",92,права и условия содержания заключённых и осуждённых,0.25,0.0,0.0,5,0,0,False,0.25,40,5
 עם,"Ra’am, the United Arab List",92a,смертная казнь за терроризм,0.3532,0.0,0.1032,6,0,6,False,0.25,66,5
-עם,"Ra’am, the United Arab List",92b,права и условия заключённых по безопасности,0.4637,0.0,0.2137,5,0,8,False,0.25,86,19
+עם,"Ra’am, the United Arab List",92b,права и условия заключённых по безопасности,0.4637,0.0,0.2137,5,0,8,False,0.25,59,13
 עם,"Ra’am, the United Arab List",92c,права и условия обычных заключённых и задержанных,0.9608,0.8333,0.0222,6,11,10,False,0.1053,73,23
 עם,"Ra’am, the United Arab List",94,права и поддержка потерпевших от преступлений,0.8196,1.0,-0.0587,6,67,146,False,-0.1217,102,79
 עם,"Ra’am, the United Arab List",95,ответственность государства и учреждений перед гражданами,0.6458,0.8333,0.0,6,16,6,False,-0.1875,15,9
@@ -4232,7 +4232,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",91b,привилегии в политико-медийной сфере,0.0233,0.0,0.0233,13,0,13,False,0.0,0,1
 רק,"Be’Yahad, headed by Naftali Bennett",92,права и условия содержания заключённых и осуждённых,0.1995,0.0,0.0,13,0,0,False,0.1995,70,6
 רק,"Be’Yahad, headed by Naftali Bennett",92a,смертная казнь за терроризм,0.25,0.0,0.0,15,0,0,False,0.25,141,3
-רק,"Be’Yahad, headed by Naftali Bennett",92b,права и условия заключённых по безопасности,0.0829,0.0,-0.0411,17,0,4,False,0.124,127,16
+רק,"Be’Yahad, headed by Naftali Bennett",92b,права и условия заключённых по безопасности,0.1317,0.0,-0.0411,17,0,4,False,0.1728,92,10
 רק,"Be’Yahad, headed by Naftali Bennett",92c,права и условия обычных заключённых и задержанных,0.3744,0.3125,0.0427,16,8,22,False,0.0192,70,22
 רק,"Be’Yahad, headed by Naftali Bennett",94,права и поддержка потерпевших от преступлений,1.0995,0.9333,0.0439,15,139,489,False,0.1223,179,125
 רק,"Be’Yahad, headed by Naftali Bennett",95,ответственность государства и учреждений перед гражданами,0.3248,0.4524,0.0,14,12,10,False,-0.1276,45,14
@@ -4556,7 +4556,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",91b,привилегии в политико-медийной сфере,0.023,0.1667,-0.1436,6,1,6,False,0.0,0,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",92,права и условия содержания заключённых и осуждённых,-0.375,-0.1667,0.0,12,8,37,False,-0.2083,29,9
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",92a,смертная казнь за терроризм,-0.2666,0.0,-0.0791,12,0,21,False,-0.1875,81,3
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",92b,права и условия заключённых по безопасности,-0.4924,-0.5455,0.1046,11,8,26,False,-0.0515,28,9
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",92b,права и условия заключённых по безопасности,-0.4636,-0.5455,0.1046,11,8,26,False,-0.0227,24,8
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",92c,права и условия обычных заключённых и задержанных,0.4856,0.5833,-0.0283,12,15,32,False,-0.0695,35,20
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",94,права и поддержка потерпевших от преступлений,0.7749,0.8889,-0.1079,12,58,267,False,-0.0061,251,96
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",95,ответственность государства и учреждений перед гражданами,0.9167,0.8333,0.0,12,24,28,False,0.0833,4,15

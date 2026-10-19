@@ -94,63 +94,63 @@
     },
     {
      "id": "מחל",
-     "closeness": 0.0728791950036486,
+     "closeness": 0.07292412916773139,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.03946857769676104,
+     "closeness": 0.03755822485682568,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.03583438350979455,
+     "closeness": 0.03567568758754188,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.032557339223083945,
+     "closeness": 0.030210991639025235,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.005841177387489134,
+     "closeness": 0.004724659518520881,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.001617034852099308,
+     "closeness": 0.0016679500750670163,
      "coverage": 0.9848484848484849,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.006400034396541043,
+     "closeness": -0.0075872612566513726,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.01758787905976787,
+     "closeness": -0.020591458204925295,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.024490508037091997,
+     "closeness": -0.025034742226355513,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -185,7 +185,7 @@
     },
     {
      "id": "ני",
-     "closeness": 0.08605730509707618,
+     "closeness": 0.07915754611799881,
      "coverage": 0.8787878787878788,
      "note": "few former MKs: 1",
      "ranked": false
@@ -1142,7 +1142,7 @@
        "lines": [
         "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 40 votes on private bills and 12 votes on the other camp's bills on this topic.",
+        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 13 votes on private bills and 12 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -6370,12 +6370,12 @@
       },
       {
        "q": "18",
-       "contribution": 0.3188,
-       "p": -0.3188,
+       "contribution": 0.3197,
+       "p": -0.3197,
        "lines": [
         "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 107 votes on private bills and 44 votes on the other camp's bills on this topic.",
+        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 65 votes on private bills and 44 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -16887,63 +16887,63 @@
     },
     {
      "id": "מחל",
-     "closeness": 0.04243693850749325,
+     "closeness": 0.04247987796969699,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.005677367285654384,
+     "closeness": 0.00572476007262194,
      "coverage": 0.9852941176470589,
      "note": "",
      "ranked": true
     },
     {
-     "id": "שס",
-     "closeness": -0.0018510419813317328,
+     "id": "אמת",
+     "closeness": -0.0025435585557964943,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
-     "id": "אמת",
-     "closeness": -0.002393425385238262,
+     "id": "שס",
+     "closeness": -0.0029223230686689933,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.006732177132997798,
+     "closeness": -0.008532754876401458,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.011631852087224958,
+     "closeness": -0.012781450578598681,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.018969647565241197,
+     "closeness": -0.021302875766544733,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.07797401672653917,
+     "closeness": -0.07848006845484373,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.08313453868555745,
+     "closeness": -0.08590804539128351,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -16978,7 +16978,7 @@
     },
     {
      "id": "ני",
-     "closeness": 0.0828596300054006,
+     "closeness": 0.0763369335473592,
      "coverage": 0.8823529411764706,
      "note": "few former MKs: 1",
      "ranked": false
@@ -17165,14 +17165,14 @@
       "ט"
      ],
      [
-      "62",
-      "7",
-      "שס"
-     ],
-     [
       "61",
       "40",
       "אמת"
+     ],
+     [
+      "62",
+      "7",
+      "שס"
      ]
     ]
    },
@@ -17936,7 +17936,7 @@
        "lines": [
         "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 40 votes on private bills and 12 votes on the other camp's bills on this topic.",
+        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 13 votes on private bills and 12 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -23222,12 +23222,12 @@
       },
       {
        "q": "18",
-       "contribution": 0.3188,
-       "p": -0.3188,
+       "contribution": 0.3197,
+       "p": -0.3197,
        "lines": [
         "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 107 votes on private bills and 44 votes on the other camp's bills on this topic.",
+        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 65 votes on private bills and 44 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -33684,63 +33684,63 @@
     },
     {
      "id": "מחל",
-     "closeness": 0.08614599527718782,
+     "closeness": 0.08618973741611848,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.037511742978105625,
+     "closeness": 0.03755931325154139,
      "coverage": 0.9850746268656716,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.029229074718728675,
+     "closeness": 0.027353373782619088,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.023286697940209194,
+     "closeness": 0.022204392297574652,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.02193991219029049,
+     "closeness": 0.02178478996817974,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.006261537082323436,
+     "closeness": 0.003920799554583938,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.004127137747585421,
+     "closeness": 0.002969885781747339,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.030356884475502152,
+     "closeness": -0.03331029927231105,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.034791007087513925,
+     "closeness": -0.035325304578172664,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -33775,7 +33775,7 @@
     },
     {
      "id": "ני",
-     "closeness": 0.11375708369751324,
+     "closeness": 0.10729922706636827,
      "coverage": 0.8805970149253731,
      "note": "few former MKs: 1",
      "ranked": false
@@ -34733,7 +34733,7 @@
        "lines": [
         "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 40 votes on private bills and 12 votes on the other camp's bills on this topic.",
+        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 13 votes on private bills and 12 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -40018,12 +40018,12 @@
       },
       {
        "q": "18",
-       "contribution": 0.3188,
-       "p": -0.3188,
+       "contribution": 0.3197,
+       "p": -0.3197,
        "lines": [
         "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 107 votes on private bills and 44 votes on the other camp's bills on this topic.",
+        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 65 votes on private bills and 44 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -50425,14 +50425,14 @@
    "ranking": [
     {
      "id": "אמת",
-     "closeness": 0.25535028514275415,
+     "closeness": 0.2550917082782273,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.2511937445402733,
+     "closeness": 0.2504557673167413,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -50446,49 +50446,49 @@
     },
     {
      "id": "דרך",
-     "closeness": 0.22981905970377267,
+     "closeness": 0.224671000939518,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.2110743848259523,
+     "closeness": 0.208688303403686,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.09595296430199216,
+     "closeness": 0.0943738431907176,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.05539402985380892,
+     "closeness": 0.05380353485410846,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.03454803140912422,
+     "closeness": 0.03462207548173107,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.024408583332962707,
+     "closeness": 0.02171773100377625,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.021202579695139345,
+     "closeness": -0.021127103224686302,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -50523,7 +50523,7 @@
     },
     {
      "id": "ני",
-     "closeness": -0.041173729872452915,
+     "closeness": -0.05348475784349276,
      "coverage": 0.8666666666666667,
      "note": "few former MKs: 1",
      "ranked": false
@@ -50715,7 +50715,7 @@
       "דרך"
      ],
      [
-      "18",
+      "13",
       "60",
       "ל"
      ]
@@ -51751,12 +51751,12 @@
       },
       {
        "q": "18",
-       "contribution": -0.13625,
-       "p": 0.2725,
+       "contribution": -0.13835,
+       "p": 0.2767,
        "lines": [
         "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
         "Your answer: agree. The record of the list's former MKs points against this statement.",
-        "Basis: no bills of their own on this topic, only 1 vote on private bills and 29 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 1 vote on private bills and 22 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -52525,12 +52525,12 @@
       },
       {
        "q": "18",
-       "contribution": -0.03145,
-       "p": 0.0629,
+       "contribution": -0.0377,
+       "p": 0.0754,
        "lines": [
         "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
         "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 3 votes on private bills and 15 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 3 votes on private bills and 14 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -52865,7 +52865,7 @@
    "ranking": [
     {
      "id": "ל",
-     "closeness": -0.03586543003945708,
+     "closeness": -0.04077828378036562,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -52879,35 +52879,35 @@
     },
     {
      "id": "ט",
-     "closeness": -0.10052269569977144,
+     "closeness": -0.10041620291184676,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.16135041765693073,
+     "closeness": -0.16125491265717412,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.16306347021040266,
+     "closeness": -0.16570729203094184,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.17946203821734866,
+     "closeness": -0.1821037364229563,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.27752982381418134,
+     "closeness": -0.28349686945926833,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -52921,14 +52921,14 @@
     },
     {
      "id": "כן",
-     "closeness": -0.3268421545905691,
+     "closeness": -0.3279837093773543,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.44914481034287335,
+     "closeness": -0.4494129359623622,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -52942,7 +52942,7 @@
     },
     {
      "id": "רק",
-     "closeness": -0.5993677546741191,
+     "closeness": -0.6027958275418206,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -52963,7 +52963,7 @@
     },
     {
      "id": "ני",
-     "closeness": 0.19168635478360901,
+     "closeness": 0.17966156563321647,
      "coverage": 0.8571428571428571,
      "note": "few former MKs: 1",
      "ranked": false
@@ -53135,7 +53135,7 @@
     "skip_lists": [],
     "pairs": [
      [
-      "18",
+      "13",
       "42",
       "ל"
      ],
@@ -53150,7 +53150,7 @@
       "ט"
      ],
      [
-      "13",
+      "54",
       "107",
       "מחל"
      ],
@@ -53165,143 +53165,6 @@
     {
      "id": "ל",
      "items": [
-      {
-       "q": "18",
-       "contribution": 0.9615,
-       "p": -0.9615,
-       "lines": [
-        "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
-        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 13 votes on private bills and 35 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2236882",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2229715",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2231899",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2240115",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2207261",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           10,
-           "Dan Illouz"
-          ]
-         ]
-        }
-       ]
-      },
       {
        "q": "13",
        "contribution": 0.9312,
@@ -53563,6 +53426,143 @@
         },
         {
          "bill": "2214518",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           10,
+           "Dan Illouz"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "18",
+       "contribution": 0.8824,
+       "p": -0.8824,
+       "lines": [
+        "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
+        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 12 votes on private bills and 25 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2236882",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2229715",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2231899",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2240115",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2207261",
          "sign": -1,
          "role": "main",
          "same": true,
@@ -56725,7 +56725,7 @@
        "lines": [
         "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 40 votes on private bills and 12 votes on the other camp's bills on this topic.",
+        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 13 votes on private bills and 12 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -61782,7 +61782,7 @@
    "ranking": [
     {
      "id": "ג",
-     "closeness": 0.1742503487929817,
+     "closeness": 0.17443924871390973,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -61796,42 +61796,42 @@
     },
     {
      "id": "שס",
-     "closeness": 0.12454043256331528,
+     "closeness": 0.12462430882873596,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.10745814232781299,
+     "closeness": 0.10742880620228536,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.09972797444067442,
+     "closeness": 0.09994316577451949,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.09133364959065587,
+     "closeness": 0.09132999881945349,
      "coverage": 0.984375,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.0911230289969104,
+     "closeness": 0.09112083717650359,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.053439099832533275,
+     "closeness": 0.05345841411359526,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -61845,14 +61845,14 @@
     },
     {
      "id": "אמת",
-     "closeness": 0.02291815953397692,
+     "closeness": 0.022916856251098214,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.041671647891807446,
+     "closeness": -0.04166943999983563,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -61880,7 +61880,7 @@
     },
     {
      "id": "ני",
-     "closeness": -0.013196558764090247,
+     "closeness": -0.013305998980532627,
      "coverage": 0.875,
      "note": "few former MKs: 1",
      "ranked": false
@@ -82223,63 +82223,63 @@
    "ranking": [
     {
      "id": "שס",
-     "closeness": 0.20176700682799228,
+     "closeness": 0.20080145485733886,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.15614208283718226,
+     "closeness": 0.15618337086218936,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.14039048707081464,
+     "closeness": 0.13985278284188954,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.12336507050466783,
+     "closeness": 0.12233365396420406,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.11254805234204654,
+     "closeness": 0.11047398067286684,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.09099494053684298,
+     "closeness": 0.09103974073337527,
      "coverage": 0.9848484848484849,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.05908999405878941,
+     "closeness": 0.0558752726443246,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.05048032059484923,
+     "closeness": 0.04866598234239527,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.023002142809803068,
+     "closeness": 0.022854730001960605,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -82321,7 +82321,7 @@
     },
     {
      "id": "ני",
-     "closeness": 0.14379212461391436,
+     "closeness": 0.13733520375651004,
      "coverage": 0.8484848484848485,
      "note": "few former MKs: 1",
      "ranked": false
@@ -84412,75 +84412,6 @@
        ]
       },
       {
-       "q": "18",
-       "contribution": 0.4924,
-       "p": -0.4924,
-       "lines": [
-        "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
-        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 26 votes on private bills and 28 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2189872",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ]
-         ]
-        },
-        {
-         "bill": "2193213",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ],
-          [
-           3,
-           "Michael Malchieli"
-          ],
-          [
-           7,
-           "Moshe Abutbul"
-          ],
-          [
-           8,
-           "Uriel Buso"
-          ],
-          [
-           9,
-           "Yosef Taieb"
-          ],
-          [
-           119,
-           "Yaakov Margi"
-          ]
-         ]
-        },
-        {
-         "bill": "2162072",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Michael Malchieli"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "80",
        "contribution": 0.4729,
        "p": 0.4729,
@@ -84952,6 +84883,75 @@
           [
            2,
            "Yinon Azoulay"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "18",
+       "contribution": 0.4636,
+       "p": -0.4636,
+       "lines": [
+        "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
+        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 26 votes on private bills and 24 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2189872",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
+          ]
+         ]
+        },
+        {
+         "bill": "2193213",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
+          ],
+          [
+           3,
+           "Michael Malchieli"
+          ],
+          [
+           7,
+           "Moshe Abutbul"
+          ],
+          [
+           8,
+           "Uriel Buso"
+          ],
+          [
+           9,
+           "Yosef Taieb"
+          ],
+          [
+           119,
+           "Yaakov Margi"
+          ]
+         ]
+        },
+        {
+         "bill": "2162072",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Michael Malchieli"
           ]
          ]
         }
@@ -91860,12 +91860,12 @@
       },
       {
        "q": "18",
-       "contribution": 0.3188,
-       "p": -0.3188,
+       "contribution": 0.3197,
+       "p": -0.3197,
        "lines": [
         "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 107 votes on private bills and 44 votes on the other camp's bills on this topic.",
+        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 65 votes on private bills and 44 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -100359,49 +100359,49 @@
    "ranking": [
     {
      "id": "מחל",
-     "closeness": 0.12739981993298,
+     "closeness": 0.12743278806926855,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.10907251811300099,
+     "closeness": 0.10863406122021298,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.10229629327285415,
+     "closeness": 0.10078293457495713,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.03739906445096973,
+     "closeness": 0.037436365554187154,
      "coverage": 0.9861111111111112,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.0254074850875774,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "ל",
-     "closeness": -0.005451781463128095,
+     "closeness": 0.02287189495441104,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.005990036208880011,
+     "closeness": -0.006869782035142442,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "ל",
+     "closeness": -0.007362020332305834,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -100415,7 +100415,7 @@
     },
     {
      "id": "ג",
-     "closeness": -0.028479876936320547,
+     "closeness": -0.029440580646587333,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -100436,7 +100436,7 @@
     },
     {
      "id": "אמת",
-     "closeness": -0.13222756219679535,
+     "closeness": -0.13234525889108026,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -100457,7 +100457,7 @@
     },
     {
      "id": "ני",
-     "closeness": -0.03024618367618589,
+     "closeness": -0.036432818030990466,
      "coverage": 0.875,
      "note": "few former MKs: 1",
      "ranked": false
@@ -106923,12 +106923,12 @@
       },
       {
        "q": "18",
-       "contribution": 0.3188,
-       "p": -0.3188,
+       "contribution": 0.3197,
+       "p": -0.3197,
        "lines": [
         "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 107 votes on private bills and 44 votes on the other camp's bills on this topic.",
+        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 65 votes on private bills and 44 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -118012,17 +118012,6 @@
        "evidence": []
       },
       {
-       "q": "18",
-       "contribution": -0.0629,
-       "p": 0.0629,
-       "lines": [
-        "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
-        "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 3 votes on private bills and 15 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
-      },
-      {
        "q": "83",
        "contribution": -0.06945,
        "p": 0.1389,
@@ -118030,6 +118019,17 @@
         "“Israel should withhold Palestinian Authority tax revenues equal to its payments to people jailed for terrorism and their families, even if the Authority collapses financially.”",
         "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
         "Basis: no bills of their own on this topic, only 0 votes on private bills and 5 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
+      },
+      {
+       "q": "18",
+       "contribution": -0.0754,
+       "p": 0.0754,
+       "lines": [
+        "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
+        "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: no bills of their own on this topic, only 3 votes on private bills and 14 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -132204,21 +132204,21 @@
    "ranking": [
     {
      "id": "ל",
-     "closeness": 0.2504587990148397,
+     "closeness": 0.24989915027561796,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.1881025561940596,
+     "closeness": 0.186601440426301,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.15334297389489565,
+     "closeness": 0.15335911905065913,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -132232,28 +132232,28 @@
     },
     {
      "id": "כן",
-     "closeness": 0.08274933706515114,
+     "closeness": 0.08248153934284132,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.04705082863980912,
+     "closeness": 0.046150101860034015,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.030395978882102898,
+     "closeness": 0.03041622370701426,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.023178659875001048,
+     "closeness": 0.02261820890741258,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -132267,7 +132267,7 @@
     },
     {
      "id": "אמת",
-     "closeness": -0.036353091741259905,
+     "closeness": -0.03642519447331659,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -132281,7 +132281,7 @@
     },
     {
      "id": "שס",
-     "closeness": -0.05277131345067293,
+     "closeness": -0.0533437384632746,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -132302,7 +132302,7 @@
     },
     {
      "id": "ני",
-     "closeness": 0.0007756294787534,
+     "closeness": -0.00277906174801803,
      "coverage": 0.8548387096774194,
      "note": "few former MKs: 1",
      "ranked": false
@@ -135091,143 +135091,6 @@
        ]
       },
       {
-       "q": "18",
-       "contribution": 0.48075,
-       "p": -0.9615,
-       "lines": [
-        "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
-        "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 13 votes on private bills and 35 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2236882",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2229715",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2231899",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2240115",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2207261",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           10,
-           "Dan Illouz"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "49",
        "contribution": 0.4739,
        "p": -0.9478,
@@ -136133,6 +135996,143 @@
           [
            8,
            "Evgeny Sova"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "18",
+       "contribution": 0.4412,
+       "p": -0.8824,
+       "lines": [
+        "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
+        "Your answer: agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 12 votes on private bills and 25 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2236882",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2229715",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2231899",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2240115",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2207261",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           10,
+           "Dan Illouz"
           ]
          ]
         }
@@ -141414,12 +141414,12 @@
       },
       {
        "q": "18",
-       "contribution": 0.0473,
-       "p": -0.0946,
+       "contribution": 0.0192,
+       "p": -0.0384,
        "lines": [
         "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
         "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 3 votes on private bills and 16 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 3 votes on private bills and 12 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -142094,7 +142094,7 @@
    "ranking": [
     {
      "id": "ט",
-     "closeness": 0.1156075413115809,
+     "closeness": 0.11564749124599115,
      "coverage": 0.9859154929577465,
      "note": "",
      "ranked": true
@@ -142108,21 +142108,21 @@
     },
     {
      "id": "שס",
-     "closeness": 0.08523600806696909,
+     "closeness": 0.0842735886974802,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.05951620892975625,
+     "closeness": 0.05847741546473522,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.055220275643707704,
+     "closeness": 0.05526043665392697,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -142136,21 +142136,21 @@
     },
     {
      "id": "ל",
-     "closeness": -0.04131482073335768,
+     "closeness": -0.0435549665573294,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.04729905435176321,
+     "closeness": -0.048996866491771,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.05773742786304573,
+     "closeness": -0.058210790086030285,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -142164,14 +142164,14 @@
     },
     {
      "id": "אמת",
-     "closeness": -0.09664859686515449,
+     "closeness": -0.09678574012471415,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.10290468510585814,
+     "closeness": -0.10572451008352929,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -142192,7 +142192,7 @@
     },
     {
      "id": "ני",
-     "closeness": 0.018197015132144254,
+     "closeness": 0.011407070477930334,
      "coverage": 0.8873239436619719,
      "note": "few former MKs: 1",
      "ranked": false
@@ -143196,12 +143196,12 @@
       },
       {
        "q": "18",
-       "contribution": 0.741,
-       "p": -0.741,
+       "contribution": 0.7424,
+       "p": -0.7424,
        "lines": [
         "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 8 bills sponsored by the list's former MKs — 8 your way, 0 the other way; 19 votes on private bills and 11 votes on the other camp's bills on this topic.",
+        "Basis: 8 bills sponsored by the list's former MKs — 8 your way, 0 the other way; 13 votes on private bills and 11 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -150133,7 +150133,7 @@
        "lines": [
         "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 40 votes on private bills and 12 votes on the other camp's bills on this topic.",
+        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 13 votes on private bills and 12 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -157377,49 +157377,49 @@
     },
     {
      "id": "אמת",
-     "closeness": 0.13722680695758557,
+     "closeness": 0.1373626204254821,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.1323655857341823,
+     "closeness": 0.13231526574974953,
      "coverage": 0.9863013698630136,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.12342266383422079,
+     "closeness": 0.12452980667469489,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.1207659713079238,
+     "closeness": 0.1219610502811415,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.10276434456503322,
+     "closeness": 0.10562574874896033,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.05344406590599995,
+     "closeness": 0.05512818718551547,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.028621523595950823,
+     "closeness": 0.028578421252495902,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -157433,14 +157433,14 @@
     },
     {
      "id": "כן",
-     "closeness": -0.011337174352460748,
+     "closeness": -0.010858328050108872,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.06472900899675976,
+     "closeness": -0.06266976048639587,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -157461,7 +157461,7 @@
     },
     {
      "id": "ני",
-     "closeness": 0.1525509331476869,
+     "closeness": 0.1611924407138201,
      "coverage": 0.863013698630137,
      "note": "few former MKs: 1",
      "ranked": false
@@ -158546,7 +158546,7 @@
        "lines": [
         "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
         "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
-        "Basis: no bills of their own on this topic, only 8 votes on private bills and 86 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 8 votes on private bills and 59 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -163008,7 +163008,7 @@
        "lines": [
         "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
         "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
-        "Basis: no bills of their own on this topic, only 12 votes on private bills and 78 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 12 votes on private bills and 51 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
