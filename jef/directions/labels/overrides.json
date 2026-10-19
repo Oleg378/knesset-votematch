@@ -3230,6 +3230,62 @@
     "role": "main",
     "source": "label check q2 (2026-10-19): two blind checks «not about»",
     "reason": "Maritime economic zones regulation; unrelated to West Bank"
+   },
+   {
+    "bill_id": "2228260",
+    "d": "165",
+    "q": "4",
+    "role": "main",
+    "source": "label check q4 (2026-10-19): two blind checks «not about»",
+    "reason": "Terminology for Judea and Samaria; territorial naming issue"
+   },
+   {
+    "bill_id": "2197785",
+    "d": "165",
+    "q": "4",
+    "role": "secondary",
+    "source": "label check q4 (2026-10-19): two blind checks «not about»",
+    "reason": "Cremation ban; religious practice, not national character law"
+   },
+   {
+    "bill_id": "2224619",
+    "d": "165",
+    "q": "4",
+    "role": "main",
+    "source": "label check q4 (2026-10-19): two blind checks «not about»",
+    "reason": "Terminology for Judea and Samaria; territorial naming issue"
+   },
+   {
+    "bill_id": "2230442",
+    "d": "165",
+    "q": "4",
+    "role": "secondary",
+    "source": "label check q4 (2026-10-19): two blind checks «not about»",
+    "reason": "Annexation of territories, not Jewish character in law"
+   },
+   {
+    "bill_id": "2169472",
+    "d": "165",
+    "q": "4",
+    "role": "secondary",
+    "source": "label check q4 (2026-10-19): two blind checks «not about»",
+    "reason": "Limits judicial review over infiltrators; migration and courts"
+   },
+   {
+    "bill_id": "2196860",
+    "d": "165",
+    "q": "4",
+    "role": "secondary",
+    "source": "label check q4 (2026-10-19): two blind checks «not about»",
+    "reason": "Limits judicial review over infiltrators; migration and courts"
+   },
+   {
+    "bill_id": "2197671",
+    "d": "165",
+    "q": "4",
+    "role": "secondary",
+    "source": "label check q4 (2026-10-19): two blind checks «not about»",
+    "reason": "Limits judicial review over infiltrators; migration and courts"
    }
   ]
  },
@@ -3336,6 +3392,51 @@
     "sign": "−",
     "source": "label check q19 (2026-10-19): two blind checks agree on the sign",
     "reason": "Full (100%) funding for recognized unofficial schools offered in return for teaching full core; funding conditional on core."
+   },
+   {
+    "bill_id": "2204688",
+    "d": "165",
+    "q": "4",
+    "sign": "−",
+    "role": "secondary",
+    "source": "label check q4 (2026-10-19): two blind checks agree on the sign",
+    "reason": "Gives the Declaration constitutional status, adding its full-equality guarantee to balance the Nation-State Law."
+   },
+   {
+    "bill_id": "2198973",
+    "d": "165",
+    "q": "4",
+    "sign": "−",
+    "role": "main",
+    "source": "label check q4 (2026-10-19): two blind checks agree on the sign",
+    "reason": "Constitutionalizes the Declaration of Independence, entrenching its equality principle as a counterweight to the Nation-State Law."
+   },
+   {
+    "bill_id": "2156247",
+    "d": "165",
+    "q": "4",
+    "sign": "−",
+    "role": "main",
+    "source": "label check q4 (2026-10-19): two blind checks agree on the sign",
+    "reason": "Constitutionalizes the Declaration of Independence, entrenching its equality principle as a counterweight to the Nation-State Law."
+   },
+   {
+    "bill_id": "2210217",
+    "d": "165",
+    "q": "4",
+    "sign": "−",
+    "role": "main",
+    "source": "label check q4 (2026-10-19): two blind checks agree on the sign",
+    "reason": "Constitutionalizes the Declaration of Independence, entrenching its equality principle as a counterweight to the Nation-State Law."
+   },
+   {
+    "bill_id": "2201486",
+    "d": "165",
+    "q": "4",
+    "sign": "−",
+    "role": "main",
+    "source": "label check q4 (2026-10-19): two blind checks agree on the sign",
+    "reason": "Constitutionalizes the Declaration of Independence, entrenching its equality principle as a counterweight to the Nation-State Law."
    }
   ]
  }
