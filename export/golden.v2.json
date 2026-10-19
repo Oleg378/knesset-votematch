@@ -122,7 +122,7 @@
     },
     {
      "id": "שס",
-     "closeness": 0.004724659518520881,
+     "closeness": 0.004733300157054528,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -16908,7 +16908,7 @@
     },
     {
      "id": "שס",
-     "closeness": -0.0029223230686689933,
+     "closeness": -0.0029275052248137227,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -33705,7 +33705,7 @@
     },
     {
      "id": "שס",
-     "closeness": 0.022204392297574652,
+     "closeness": 0.02224458859153569,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -75734,15 +75734,15 @@
      "ranked": true
     },
     {
-     "id": "מחל",
-     "closeness": -0.29480186308743955,
+     "id": "שס",
+     "closeness": -0.2927984156656962,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
-     "id": "שס",
-     "closeness": -0.3033704252790735,
+     "id": "מחל",
+     "closeness": -0.29480186308743955,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -82178,7 +82178,7 @@
    "ranking": [
     {
      "id": "שס",
-     "closeness": 0.20080145485733886,
+     "closeness": 0.1969168092649779,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -84957,30 +84957,6 @@
        ]
       },
       {
-       "q": "22",
-       "contribution": 0.3972,
-       "p": -0.3972,
-       "lines": [
-        "“Couples should be able to marry in Israel without a religious ceremony, even if the Chief Rabbinate does not recognize such marriages.”",
-        "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 6 votes on private bills and 8 votes on the other camp's bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2156060",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "3",
        "contribution": 0.3153,
        "p": -0.3153,
@@ -85213,6 +85189,17 @@
          ]
         }
        ]
+      },
+      {
+       "q": "22",
+       "contribution": 0.2861,
+       "p": -0.2861,
+       "lines": [
+        "“Couples should be able to marry in Israel without a religious ceremony, even if the Chief Rabbinate does not recognize such marriages.”",
+        "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
+        "Basis: no bills of their own on this topic, only 6 votes on private bills and 8 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
       },
       {
        "q": "55",
@@ -100348,15 +100335,15 @@
      "ranked": true
     },
     {
-     "id": "שס",
-     "closeness": -0.006869782035142442,
+     "id": "ל",
+     "closeness": -0.007362020332305834,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
-     "id": "ל",
-     "closeness": -0.007362020332305834,
+     "id": "שס",
+     "closeness": -0.010266606011418572,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -126072,15 +126059,15 @@
      "ranked": true
     },
     {
-     "id": "ג",
-     "closeness": -0.003426944384245107,
+     "id": "שס",
+     "closeness": 0.005483025278309985,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
-     "id": "שס",
-     "closeness": -0.004060623465212722,
+     "id": "ג",
+     "closeness": -0.003426944384245107,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -132216,7 +132203,7 @@
     },
     {
      "id": "שס",
-     "closeness": -0.0533437384632746,
+     "closeness": -0.055515514743903135,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -142043,7 +142030,7 @@
     },
     {
      "id": "שס",
-     "closeness": 0.0842735886974802,
+     "closeness": 0.08049533778615531,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -157278,7 +157265,7 @@
     },
     {
      "id": "שס",
-     "closeness": 0.12452980667469489,
+     "closeness": 0.12474367495438606,
      "coverage": 1.0,
      "note": "",
      "ranked": true

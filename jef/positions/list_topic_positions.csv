@@ -4307,7 +4307,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",151d,ортодоксальное определение еврейства,0.4193,0.25,0.1693,8,3,8,False,0.0,0,3
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",154,полномочия религиозных институтов и судов,0.7058,0.4167,0.0694,12,19,93,False,0.2198,352,27
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",156,доступность признаваемого гиюра,-0.375,-0.125,0.0,8,2,0,False,-0.25,8,2
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",158,доступность гражданских способов личного статуса,-0.3972,-0.1111,-0.0639,9,1,6,False,-0.2222,8,3
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",158,доступность гражданских способов личного статуса,-0.2861,0.0,-0.0639,9,0,6,False,-0.2222,8,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",159,доступ к расторжению брака,-0.2382,0.0,-0.0159,9,0,16,False,-0.2222,8,4
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",16,профессиональные полномочия медработников,0.1092,0.1,0.0,10,2,5,False,0.0092,21,4
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",160,государственное регулирование семейных отношений,0.4375,0.4167,-0.0653,12,13,109,False,0.0861,128,30
