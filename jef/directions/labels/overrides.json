@@ -885,7 +885,7 @@
  "_doc_labels": "Point corrections of high-profile laws (customer decision 2026-10-17): gross errors fixed per bill after an expert check (jef/h9_check/landmark/fix/out_1.json, out_2.json); reason and framing per bill.",
  "_doc_remove": "Label removals (customer decision 2026-10-18): a bill's label on a quiz direction is removed when two independent checks found the bill is not about the question of that direction's statement. Candidates: docs/SHARED_UNDERSTANDING.md (label removals), local/research/secondary_weight_v2/ (audit_result.md, check2_result.csv). Applied by pipeline/labels.py after all split stages.",
  "remove": {
-  "decision": "2026-10-18, customer: apply all 109 removals agreed by both checks (variant A); borderline ones are kept; 2026-10-18, customer: wave 2 (candidates from the wording / votes / main-label check, same two-check rule) applied; 2026-10-18, customer: wave 3 (new and moved statements q51, q64, q69, q98, q105; same two-check rule) applied; 2026-10-18, customer: Р8 symmetric check of the core statements — 5 more; 2026-10-18, customer (audit №2 С3): disputed pairs resolved by majority of three blind checks — 20 removed, 113 kept; 2026-10-18 (audit №2 К2): every bill of the 8 core statements checked, removals where two blind checks agree",
+  "decision": "2026-10-18, customer: apply all 109 removals agreed by both checks (variant A); borderline ones are kept; 2026-10-18, customer: wave 2 (candidates from the wording / votes / main-label check, same two-check rule) applied; 2026-10-18, customer: wave 3 (new and moved statements q51, q64, q69, q98, q105; same two-check rule) applied; 2026-10-18, customer: Р8 symmetric check of the core statements — 5 more; 2026-10-18, customer (audit №2 С3): disputed pairs resolved by majority of three blind checks — 20 removed, 113 kept; 2026-10-18 (audit №2 К2): every bill of the 8 core statements checked, removals where two blind checks agree; 2026-10-19: systematic label check, one statement at a time (docs/LABEL_CHECK.md), same two-check rule",
   "items": [
    {
     "bill_id": "2156912",
@@ -3126,6 +3126,94 @@
     "role": "main",
     "source": "label check q8 (2026-10-19): 2 of 3 blind checks «not about»",
     "reason": "Extends reserve exemption age order; not exempt groups"
+   },
+   {
+    "bill_id": "2198025",
+    "d": "277b",
+    "q": "92",
+    "role": "secondary",
+    "source": "label check q92 (2026-10-19): two blind checks «not about»",
+    "reason": "Income tax credit points for guardians; not a benefit"
+   },
+   {
+    "bill_id": "2190214",
+    "d": "277b",
+    "q": "92",
+    "role": "secondary",
+    "source": "label check q92 (2026-10-19): two blind checks «not about»",
+    "reason": "Income tax credit points for guardians; not a benefit"
+   },
+   {
+    "bill_id": "2207414",
+    "d": "277b",
+    "q": "92",
+    "role": "secondary",
+    "source": "label check q92 (2026-10-19): two blind checks «not about»",
+    "reason": "Paying unpaid benefits of deceased to supplier; administrative"
+   },
+   {
+    "bill_id": "2199995",
+    "d": "277b",
+    "q": "92",
+    "role": "secondary",
+    "source": "label check q92 (2026-10-19): two blind checks «not about»",
+    "reason": "Health insurance waiting period for lone returning residents"
+   },
+   {
+    "bill_id": "2156189",
+    "d": "277b",
+    "q": "92",
+    "role": "secondary",
+    "source": "label check q92 (2026-10-19): two blind checks «not about»",
+    "reason": "Health insurance waiting period for lone returning residents"
+   },
+   {
+    "bill_id": "2207026",
+    "d": "277b",
+    "q": "92",
+    "role": "secondary",
+    "source": "label check q92 (2026-10-19): two blind checks «not about»",
+    "reason": "Disabled parking badge duration; not a benefit eligibility"
+   },
+   {
+    "bill_id": "2215925",
+    "d": "277b",
+    "q": "92",
+    "role": "secondary",
+    "source": "label check q92 (2026-10-19): two blind checks «not about»",
+    "reason": "Disabled parking badge duration; not a benefit eligibility"
+   },
+   {
+    "bill_id": "2195949",
+    "d": "277b",
+    "q": "92",
+    "role": "secondary",
+    "source": "label check q92 (2026-10-19): two blind checks «not about»",
+    "reason": "Health insurance waiting period for returning residents"
+   },
+   {
+    "bill_id": "2198912",
+    "d": "277b",
+    "q": "92",
+    "role": "secondary",
+    "source": "label check q92 (2026-10-19): two blind checks «not about»",
+    "reason": "Municipal property tax discount for disabled; not benefit eligibility"
+   },
+   {
+    "bill_id": "2201657",
+    "d": "277b",
+    "q": "92",
+    "role": "secondary",
+    "source": "label check q92 (2026-10-19): two blind checks «not about»",
+    "reason": "Municipal property tax discount for disabled; not benefit eligibility"
+   },
+   {
+    "bill_id": "2157100",
+    "d": "277b",
+    "q": "92",
+    "role": "secondary",
+    "source": "label check q92 (2026-10-19): two blind checks «not about»",
+    "reason": "Municipal property tax discount for disabled; not benefit eligibility"
    }
   ]
  },
