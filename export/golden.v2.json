@@ -115,7 +115,7 @@
     },
     {
      "id": "ל",
-     "closeness": 0.033648861598712734,
+     "closeness": 0.031843464312231694,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -6182,7 +6182,7 @@
        "lines": [
         "“It should be easier for the state to revoke the citizenship or residency of people convicted of terrorism, even if they are left stateless.”",
         "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 14 bills sponsored by the list's former MKs — 14 your way, 0 the other way; 126 votes on private bills and 196 votes on the other camp's bills on this topic.",
+        "Basis: 11 bills sponsored by the list's former MKs — 11 your way, 0 the other way; 126 votes on private bills and 196 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -6379,34 +6379,6 @@
          ]
         },
         {
-         "bill": "2156371",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ],
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2234444",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
          "bill": "2199287",
          "sign": 1,
          "role": "main",
@@ -6415,18 +6387,6 @@
           [
            32,
            "Ze'ev Elkin"
-          ]
-         ]
-        },
-        {
-         "bill": "2196883",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           38,
-           "Hanoch Dov Milwidsky"
           ]
          ]
         },
@@ -17069,7 +17029,7 @@
     },
     {
      "id": "ל",
-     "closeness": -0.018407913805412884,
+     "closeness": -0.020266458954261744,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -23174,7 +23134,7 @@
        "lines": [
         "“It should be easier for the state to revoke the citizenship or residency of people convicted of terrorism, even if they are left stateless.”",
         "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 14 bills sponsored by the list's former MKs — 14 your way, 0 the other way; 126 votes on private bills and 196 votes on the other camp's bills on this topic.",
+        "Basis: 11 bills sponsored by the list's former MKs — 11 your way, 0 the other way; 126 votes on private bills and 196 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -23371,34 +23331,6 @@
          ]
         },
         {
-         "bill": "2156371",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ],
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2234444",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
          "bill": "2199287",
          "sign": 1,
          "role": "main",
@@ -23407,18 +23339,6 @@
           [
            32,
            "Ze'ev Elkin"
-          ]
-         ]
-        },
-        {
-         "bill": "2196883",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           38,
-           "Hanoch Dov Milwidsky"
           ]
          ]
         },
@@ -33999,7 +33919,7 @@
     },
     {
      "id": "ל",
-     "closeness": 0.007414877017403618,
+     "closeness": 0.005581228768690735,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -40110,7 +40030,7 @@
        "lines": [
         "“It should be easier for the state to revoke the citizenship or residency of people convicted of terrorism, even if they are left stateless.”",
         "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 14 bills sponsored by the list's former MKs — 14 your way, 0 the other way; 126 votes on private bills and 196 votes on the other camp's bills on this topic.",
+        "Basis: 11 bills sponsored by the list's former MKs — 11 your way, 0 the other way; 126 votes on private bills and 196 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -40307,34 +40227,6 @@
          ]
         },
         {
-         "bill": "2156371",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ],
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2234444",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
          "bill": "2199287",
          "sign": 1,
          "role": "main",
@@ -40343,18 +40235,6 @@
           [
            32,
            "Ze'ev Elkin"
-          ]
-         ]
-        },
-        {
-         "bill": "2196883",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           38,
-           "Hanoch Dov Milwidsky"
           ]
          ]
         },
@@ -53285,7 +53165,7 @@
    "ranking": [
     {
      "id": "ל",
-     "closeness": -0.04304490228106998,
+     "closeness": -0.03586543003945708,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -55882,85 +55762,13 @@
        ]
       },
       {
-       "q": "63",
-       "contribution": -0.7864,
-       "p": 0.7864,
-       "lines": [
-        "“The Knesset should be able to re-enact a law struck down by the Supreme Court, even if citizens have fewer ways to challenge laws in court.”",
-        "Your answer: strongly agree. The record of the list's former MKs points against this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 1 your way, 2 the other way; 13 votes on private bills and 43 votes on the other camp's bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2209457",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2167058",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ],
-          [
-           14,
-           "Limor Magen Telem"
-          ]
-         ]
-        },
-        {
-         "bill": "2224247",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           10,
-           "Dan Illouz"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "6",
-       "contribution": -0.861,
-       "p": 0.861,
+       "contribution": -0.736,
+       "p": 0.736,
        "lines": [
         "“It should be easier for the state to revoke the citizenship or residency of people convicted of terrorism, even if they are left stateless.”",
         "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 4 bills sponsored by the list's former MKs — 0 your way, 4 the other way; 48 votes on private bills and 32 votes on the other camp's bills on this topic.",
+        "Basis: 3 bills sponsored by the list's former MKs — 0 your way, 3 the other way; 48 votes on private bills and 32 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -56035,12 +55843,72 @@
            "Evgeny Sova"
           ]
          ]
+        }
+       ]
+      },
+      {
+       "q": "63",
+       "contribution": -0.7864,
+       "p": 0.7864,
+       "lines": [
+        "“The Knesset should be able to re-enact a law struck down by the Supreme Court, even if citizens have fewer ways to challenge laws in court.”",
+        "Your answer: strongly agree. The record of the list's former MKs points against this statement.",
+        "Basis: 3 bills sponsored by the list's former MKs — 1 your way, 2 the other way; 13 votes on private bills and 43 votes on the other camp's bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2209457",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
         },
         {
-         "bill": "2202759",
+         "bill": "2167058",
          "sign": 1,
          "role": "secondary",
          "same": false,
+         "authors": [
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ],
+          [
+           14,
+           "Limor Magen Telem"
+          ]
+         ]
+        },
+        {
+         "bill": "2224247",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
          "authors": [
           [
            10,
@@ -62242,7 +62110,7 @@
     },
     {
      "id": "ל",
-     "closeness": 0.10087163813601543,
+     "closeness": 0.09933483445559294,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -72907,7 +72775,7 @@
     },
     {
      "id": "ל",
-     "closeness": 0.191908158198563,
+     "closeness": 0.19811335472254035,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -76206,7 +76074,7 @@
     },
     {
      "id": "ל",
-     "closeness": 0.15950741295479048,
+     "closeness": 0.1605356398131688,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -80202,15 +80070,15 @@
      "ranked": true
     },
     {
-     "id": "ל",
-     "closeness": -0.954994579887706,
+     "id": "דרך",
+     "closeness": -0.9690959372247758,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
-     "id": "דרך",
-     "closeness": -0.9690959372247758,
+     "id": "ל",
+     "closeness": -0.9728009468191552,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -80999,7 +80867,7 @@
    "ranking": [
     {
      "id": "ל",
-     "closeness": 0.5185752427217968,
+     "closeness": 0.515912779337787,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -81473,12 +81341,12 @@
       },
       {
        "q": "6",
-       "contribution": 0.4305,
-       "p": 0.861,
+       "contribution": 0.368,
+       "p": 0.736,
        "lines": [
         "“It should be easier for the state to revoke the citizenship or residency of people convicted of terrorism, even if they are left stateless.”",
         "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 4 bills sponsored by the list's former MKs — 4 your way, 0 the other way; 48 votes on private bills and 32 votes on the other camp's bills on this topic.",
+        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 48 votes on private bills and 32 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -81551,18 +81419,6 @@
           [
            8,
            "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2202759",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           10,
-           "Dan Illouz"
           ]
          ]
         }
@@ -82743,7 +82599,7 @@
     },
     {
      "id": "ל",
-     "closeness": 0.11585997481852559,
+     "closeness": 0.11254805234204654,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -83464,7 +83320,7 @@
        "lines": [
         "“It should be easier for the state to revoke the citizenship or residency of people convicted of terrorism, even if they are left stateless.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 6 bills sponsored by the list's former MKs — 6 your way, 0 the other way; 38 votes on private bills and 41 votes on the other camp's bills on this topic.",
+        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 38 votes on private bills and 41 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -83557,18 +83413,6 @@
           [
            8,
            "Uriel Buso"
-          ]
-         ]
-        },
-        {
-         "bill": "2156371",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           7,
-           "Moshe Abutbul"
           ]
          ]
         }
@@ -88595,7 +88439,7 @@
        "lines": [
         "“It should be easier for the state to revoke the citizenship or residency of people convicted of terrorism, even if they are left stateless.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 14 bills sponsored by the list's former MKs — 14 your way, 0 the other way; 126 votes on private bills and 196 votes on the other camp's bills on this topic.",
+        "Basis: 11 bills sponsored by the list's former MKs — 11 your way, 0 the other way; 126 votes on private bills and 196 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -88792,34 +88636,6 @@
          ]
         },
         {
-         "bill": "2156371",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ],
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2234444",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
          "bill": "2199287",
          "sign": 1,
          "role": "main",
@@ -88828,18 +88644,6 @@
           [
            32,
            "Ze'ev Elkin"
-          ]
-         ]
-        },
-        {
-         "bill": "2196883",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           38,
-           "Hanoch Dov Milwidsky"
           ]
          ]
         },
@@ -100937,15 +100741,15 @@
      "ranked": true
     },
     {
-     "id": "שס",
-     "closeness": -0.005989339713137755,
+     "id": "ל",
+     "closeness": -0.00544888485404329,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
-     "id": "ל",
-     "closeness": -0.00842115462771983,
+     "id": "שס",
+     "closeness": -0.005989339713137755,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -116735,7 +116539,7 @@
        "lines": [
         "“It should be easier for the state to revoke the citizenship or residency of people convicted of terrorism, even if they are left stateless.”",
         "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 14 bills sponsored by the list's former MKs — 0 your way, 14 the other way; 126 votes on private bills and 196 votes on the other camp's bills on this topic.",
+        "Basis: 11 bills sponsored by the list's former MKs — 0 your way, 11 the other way; 126 votes on private bills and 196 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -116932,34 +116736,6 @@
          ]
         },
         {
-         "bill": "2156371",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ],
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2234444",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
          "bill": "2199287",
          "sign": 1,
          "role": "main",
@@ -116968,18 +116744,6 @@
           [
            32,
            "Ze'ev Elkin"
-          ]
-         ]
-        },
-        {
-         "bill": "2196883",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           38,
-           "Hanoch Dov Milwidsky"
           ]
          ]
         },
@@ -126680,7 +126444,7 @@
     },
     {
      "id": "ל",
-     "closeness": 0.18847617225247196,
+     "closeness": 0.18116222650511302,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -132788,7 +132552,7 @@
    "ranking": [
     {
      "id": "ל",
-     "closeness": 0.2531519329879497,
+     "closeness": 0.2504587990148397,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -134241,103 +134005,6 @@
        ]
       },
       {
-       "q": "6",
-       "contribution": 0.861,
-       "p": 0.861,
-       "lines": [
-        "“It should be easier for the state to revoke the citizenship or residency of people convicted of terrorism, even if they are left stateless.”",
-        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 4 bills sponsored by the list's former MKs — 4 your way, 0 the other way; 48 votes on private bills and 32 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2196942",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2198982",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2156708",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2202759",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           10,
-           "Dan Illouz"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "64",
        "contribution": 0.8571,
        "p": -0.8571,
@@ -134958,6 +134625,91 @@
           [
            10,
            "Dan Illouz"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "6",
+       "contribution": 0.736,
+       "p": 0.736,
+       "lines": [
+        "“It should be easier for the state to revoke the citizenship or residency of people convicted of terrorism, even if they are left stateless.”",
+        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 48 votes on private bills and 32 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2196942",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2198982",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2156708",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           8,
+           "Evgeny Sova"
           ]
          ]
         }
@@ -142732,7 +142484,7 @@
     },
     {
      "id": "ל",
-     "closeness": -0.043190230635399444,
+     "closeness": -0.04160318406790575,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -158072,7 +157824,7 @@
     },
     {
      "id": "ל",
-     "closeness": -0.06733211448586265,
+     "closeness": -0.06406569802324828,
      "coverage": 1.0,
      "note": "",
      "ranked": true
