@@ -4638,6 +4638,62 @@
     "role": "secondary",
     "source": "label check q37 (2026-10-19): 2 of 3 blind checks «not about»",
     "reason": "Transfer of rights for safe rooms, protection focus"
+   },
+   {
+    "bill_id": "2201622",
+    "d": "275",
+    "q": "38",
+    "role": "secondary",
+    "source": "label check q38 (2026-10-19): two blind checks «not about»",
+    "reason": "Encourages retirement saving; no change to withdrawal access"
+   },
+   {
+    "bill_id": "2158033",
+    "d": "275",
+    "q": "38",
+    "role": "secondary",
+    "source": "label check q38 (2026-10-19): two blind checks «not about»",
+    "reason": "Encourages retirement saving; no change to withdrawal access"
+   },
+   {
+    "bill_id": "2157504",
+    "d": "275",
+    "q": "38",
+    "role": "main",
+    "source": "label check q38 (2026-10-19): two blind checks «not about»",
+    "reason": "Tax parity for self-employed savings deposits, not withdrawal"
+   },
+   {
+    "bill_id": "2195923",
+    "d": "275",
+    "q": "38",
+    "role": "main",
+    "source": "label check q38 (2026-10-19): two blind checks «not about»",
+    "reason": "Tax parity for self-employed savings deposits, not withdrawal"
+   },
+   {
+    "bill_id": "2162824",
+    "d": "275",
+    "q": "38",
+    "role": "secondary",
+    "source": "label check q38 (2026-10-19): two blind checks «not about»",
+    "reason": "Credit market competition, not savings withdrawal"
+   },
+   {
+    "bill_id": "2203885",
+    "d": "275",
+    "q": "38",
+    "role": "main",
+    "source": "label check q38 (2026-10-19): two blind checks «not about»",
+    "reason": "Work-injury benefit commutation for lawyer fees, not savings"
+   },
+   {
+    "bill_id": "2191803",
+    "d": "275",
+    "q": "38",
+    "role": "secondary",
+    "source": "label check q38 (2026-10-19): two blind checks «not about»",
+    "reason": "Denies social benefits to security offenders; unrelated"
    }
   ]
  },
