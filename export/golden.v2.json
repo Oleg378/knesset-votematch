@@ -87,70 +87,70 @@
    "ranking": [
     {
      "id": "ב",
-     "closeness": 0.08314829482455241,
+     "closeness": 0.08382236165627337,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.07079296116118987,
+     "closeness": 0.0728791950036486,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.03946042769544033,
+     "closeness": 0.03946857769676104,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.03576909320894551,
+     "closeness": 0.03583438350979455,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.031843464312231694,
+     "closeness": 0.032557339223083945,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.005681042812498799,
+     "closeness": 0.005841177387489134,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.0021901091540185297,
+     "closeness": 0.001617034852099308,
      "coverage": 0.9848484848484849,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.006409117840109618,
+     "closeness": -0.006400034396541043,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.016932347462999528,
+     "closeness": -0.01758787905976787,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.025304252632349485,
+     "closeness": -0.024490508037091997,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -164,7 +164,7 @@
     },
     {
      "id": "עם",
-     "closeness": -0.15056739977863426,
+     "closeness": -0.15059279790542032,
      "coverage": 0.9848484848484849,
      "note": "",
      "ranked": true
@@ -178,7 +178,7 @@
     },
     {
      "id": "בי",
-     "closeness": -0.08232945193736439,
+     "closeness": -0.0822634255928166,
      "coverage": 0.6515151515151515,
      "note": "few former MKs: 1",
      "ranked": false
@@ -192,7 +192,7 @@
     },
     {
      "id": "י",
-     "closeness": -0.03505778586715331,
+     "closeness": -0.03479268307965009,
      "coverage": 0.9242424242424242,
      "note": "few former MKs: 1",
      "ranked": false
@@ -3371,12 +3371,12 @@
       },
       {
        "q": "15",
-       "contribution": -0.793,
-       "p": 0.793,
+       "contribution": -0.7785,
+       "p": 0.7785,
        "lines": [
         "“Reservists and veterans should receive more payments and benefits, even if this requires raising taxes.”",
         "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 80 bills sponsored by the list's former MKs — 1 your way, 79 the other way; 126 votes on private bills and 271 votes on the other camp's bills on this topic.",
+        "Basis: 77 bills sponsored by the list's former MKs — 0 your way, 77 the other way; 113 votes on private bills and 260 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -3533,18 +3533,6 @@
           [
            6,
            "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2198186",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Tally Gotliv"
           ]
          ]
         },
@@ -4013,6 +4001,18 @@
          ]
         },
         {
+         "bill": "2225752",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           6,
+           "Yitzhak Kroizer"
+          ]
+         ]
+        },
+        {
          "bill": "2225750",
          "sign": 1,
          "role": "main",
@@ -4088,18 +4088,6 @@
          "bill": "2216628",
          "sign": 1,
          "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2220804",
-         "sign": 1,
-         "role": "main",
          "same": false,
          "authors": [
           [
@@ -4265,18 +4253,6 @@
          ]
         },
         {
-         "bill": "2216636",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
          "bill": "2225745",
          "sign": 1,
          "role": "secondary",
@@ -4389,18 +4365,6 @@
          "sign": 1,
          "role": "main",
          "same": false,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2225752",
-         "sign": -1,
-         "role": "main",
-         "same": true,
          "authors": [
           [
            6,
@@ -14144,12 +14108,12 @@
       },
       {
        "q": "15",
-       "contribution": -0.8581,
-       "p": 0.8581,
+       "contribution": -0.8215,
+       "p": 0.8215,
        "lines": [
         "“Reservists and veterans should receive more payments and benefits, even if this requires raising taxes.”",
         "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 179 bills sponsored by the list's former MKs — 4 your way, 175 the other way; 663 votes on private bills and 1273 votes on the other camp's bills on this topic.",
+        "Basis: 174 bills sponsored by the list's former MKs — 3 your way, 171 the other way; 630 votes on private bills and 1243 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -14758,18 +14722,6 @@
           [
            65,
            "Osher Shekalim"
-          ]
-         ]
-        },
-        {
-         "bill": "2237934",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           8,
-           "Ofir Katz"
           ]
          ]
         },
@@ -15466,6 +15418,18 @@
          ]
         },
         {
+         "bill": "2225752",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           17,
+           "Moshe Saada"
+          ]
+         ]
+        },
+        {
          "bill": "2225750",
          "sign": 1,
          "role": "main",
@@ -16070,22 +16034,6 @@
          ]
         },
         {
-         "bill": "2198186",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           21,
-           "Boaz Bismuth"
-          ],
-          [
-           38,
-           "Hanoch Dov Milwidsky"
-          ]
-         ]
-        },
-        {
          "bill": "2212210",
          "sign": 1,
          "role": "secondary",
@@ -16270,18 +16218,6 @@
           [
            23,
            "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2191296",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           24,
-           "Nir Barkat"
           ]
          ]
         },
@@ -16530,18 +16466,6 @@
          ]
         },
         {
-         "bill": "2157254",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
          "bill": "2169225",
          "sign": 1,
          "role": "main",
@@ -16774,18 +16698,6 @@
          ]
         },
         {
-         "bill": "2242145",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           76,
-           "Afif Abed"
-          ]
-         ]
-        },
-        {
          "bill": "2224779",
          "sign": -1,
          "role": "main",
@@ -16794,18 +16706,6 @@
           [
            13,
            "Almog Cohen"
-          ]
-         ]
-        },
-        {
-         "bill": "2225752",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           17,
-           "Moshe Saada"
           ]
          ]
         },
@@ -16980,70 +16880,70 @@
    "ranking": [
     {
      "id": "ב",
-     "closeness": 0.0864278751717629,
+     "closeness": 0.08767873677938304,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.03867412306803844,
+     "closeness": 0.04243693850749325,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.006752841330715972,
+     "closeness": 0.005677367285654384,
      "coverage": 0.9852941176470589,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.0021549809118565737,
+     "closeness": -0.0018510419813317328,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.002514818345032928,
+     "closeness": -0.002393425385238262,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.006746835309929875,
+     "closeness": -0.006732177132997798,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.011649317804852188,
+     "closeness": -0.011631852087224958,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.020266458954261744,
+     "closeness": -0.018969647565241197,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.07936489263622411,
+     "closeness": -0.07797401672653917,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.08208035184416153,
+     "closeness": -0.08313453868555745,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -17057,7 +16957,7 @@
     },
     {
      "id": "עם",
-     "closeness": -0.15349946025390399,
+     "closeness": -0.15354845781810073,
      "coverage": 0.9852941176470589,
      "note": "",
      "ranked": true
@@ -17071,7 +16971,7 @@
     },
     {
      "id": "בי",
-     "closeness": -0.1419171201913163,
+     "closeness": -0.14180393566085295,
      "coverage": 0.6470588235294118,
      "note": "few former MKs: 1",
      "ranked": false
@@ -17085,7 +16985,7 @@
     },
     {
      "id": "י",
-     "closeness": -0.0958348420244283,
+     "closeness": -0.09536496182919334,
      "coverage": 0.9264705882352942,
      "note": "few former MKs: 1",
      "ranked": false
@@ -20369,12 +20269,12 @@
       },
       {
        "q": "15",
-       "contribution": -1.586,
-       "p": 0.793,
+       "contribution": -1.557,
+       "p": 0.7785,
        "lines": [
         "“Reservists and veterans should receive more payments and benefits, even if this requires raising taxes.”",
         "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 80 bills sponsored by the list's former MKs — 1 your way, 79 the other way; 126 votes on private bills and 271 votes on the other camp's bills on this topic.",
+        "Basis: 77 bills sponsored by the list's former MKs — 0 your way, 77 the other way; 113 votes on private bills and 260 votes on the other camp's bills on this topic.",
         "Weight ×2: you chose this topic in a trade-off question.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
@@ -20532,18 +20432,6 @@
           [
            6,
            "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2198186",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Tally Gotliv"
           ]
          ]
         },
@@ -21012,6 +20900,18 @@
          ]
         },
         {
+         "bill": "2225752",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           6,
+           "Yitzhak Kroizer"
+          ]
+         ]
+        },
+        {
          "bill": "2225750",
          "sign": 1,
          "role": "main",
@@ -21087,18 +20987,6 @@
          "bill": "2216628",
          "sign": 1,
          "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2220804",
-         "sign": 1,
-         "role": "main",
          "same": false,
          "authors": [
           [
@@ -21264,18 +21152,6 @@
          ]
         },
         {
-         "bill": "2216636",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
          "bill": "2225745",
          "sign": 1,
          "role": "secondary",
@@ -21388,18 +21264,6 @@
          "sign": 1,
          "role": "main",
          "same": false,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2225752",
-         "sign": -1,
-         "role": "main",
-         "same": true,
          "authors": [
           [
            6,
@@ -31040,12 +30904,12 @@
       },
       {
        "q": "15",
-       "contribution": -1.7162,
-       "p": 0.8581,
+       "contribution": -1.643,
+       "p": 0.8215,
        "lines": [
         "“Reservists and veterans should receive more payments and benefits, even if this requires raising taxes.”",
         "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 179 bills sponsored by the list's former MKs — 4 your way, 175 the other way; 663 votes on private bills and 1273 votes on the other camp's bills on this topic.",
+        "Basis: 174 bills sponsored by the list's former MKs — 3 your way, 171 the other way; 630 votes on private bills and 1243 votes on the other camp's bills on this topic.",
         "Weight ×2: you chose this topic in a trade-off question.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
@@ -31655,18 +31519,6 @@
           [
            65,
            "Osher Shekalim"
-          ]
-         ]
-        },
-        {
-         "bill": "2237934",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           8,
-           "Ofir Katz"
           ]
          ]
         },
@@ -32363,6 +32215,18 @@
          ]
         },
         {
+         "bill": "2225752",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           17,
+           "Moshe Saada"
+          ]
+         ]
+        },
+        {
          "bill": "2225750",
          "sign": 1,
          "role": "main",
@@ -32967,22 +32831,6 @@
          ]
         },
         {
-         "bill": "2198186",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           21,
-           "Boaz Bismuth"
-          ],
-          [
-           38,
-           "Hanoch Dov Milwidsky"
-          ]
-         ]
-        },
-        {
          "bill": "2212210",
          "sign": 1,
          "role": "secondary",
@@ -33167,18 +33015,6 @@
           [
            23,
            "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2191296",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           24,
-           "Nir Barkat"
           ]
          ]
         },
@@ -33427,18 +33263,6 @@
          ]
         },
         {
-         "bill": "2157254",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
          "bill": "2169225",
          "sign": 1,
          "role": "main",
@@ -33671,18 +33495,6 @@
          ]
         },
         {
-         "bill": "2242145",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           76,
-           "Afif Abed"
-          ]
-         ]
-        },
-        {
          "bill": "2224779",
          "sign": -1,
          "role": "main",
@@ -33691,18 +33503,6 @@
           [
            13,
            "Almog Cohen"
-          ]
-         ]
-        },
-        {
-         "bill": "2225752",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           17,
-           "Moshe Saada"
           ]
          ]
         },
@@ -33877,70 +33677,70 @@
    "ranking": [
     {
      "id": "ב",
-     "closeness": 0.12156776266835287,
+     "closeness": 0.12223498659837471,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.08406226373388652,
+     "closeness": 0.08614599527718782,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.03808412056808815,
+     "closeness": 0.037511742978105625,
      "coverage": 0.9850746268656716,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.02922115018547468,
+     "closeness": 0.029229074718728675,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.023127564279679328,
+     "closeness": 0.023286697940209194,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.021876481625469263,
+     "closeness": 0.02193991219029049,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.005581228768690735,
+     "closeness": 0.006261537082323436,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.004118160997432579,
+     "closeness": 0.004127137747585421,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.02972978897506932,
+     "closeness": -0.030356884475502152,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.03557695654344956,
+     "closeness": -0.034791007087513925,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -33954,7 +33754,7 @@
     },
     {
      "id": "עם",
-     "closeness": -0.16529863114219234,
+     "closeness": -0.16532361266413645,
      "coverage": 0.9850746268656716,
      "note": "",
      "ranked": true
@@ -33968,7 +33768,7 @@
     },
     {
      "id": "בי",
-     "closeness": -0.08232945193736439,
+     "closeness": -0.0822634255928166,
      "coverage": 0.6417910447761194,
      "note": "few former MKs: 1",
      "ranked": false
@@ -33982,7 +33782,7 @@
     },
     {
      "id": "י",
-     "closeness": -0.07107961578616,
+     "closeness": -0.07083256932282918,
      "coverage": 0.9253731343283582,
      "note": "few former MKs: 1",
      "ranked": false
@@ -37162,12 +36962,12 @@
       },
       {
        "q": "15",
-       "contribution": -0.793,
-       "p": 0.793,
+       "contribution": -0.7785,
+       "p": 0.7785,
        "lines": [
         "“Reservists and veterans should receive more payments and benefits, even if this requires raising taxes.”",
         "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 80 bills sponsored by the list's former MKs — 1 your way, 79 the other way; 126 votes on private bills and 271 votes on the other camp's bills on this topic.",
+        "Basis: 77 bills sponsored by the list's former MKs — 0 your way, 77 the other way; 113 votes on private bills and 260 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -37324,18 +37124,6 @@
           [
            6,
            "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2198186",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Tally Gotliv"
           ]
          ]
         },
@@ -37804,6 +37592,18 @@
          ]
         },
         {
+         "bill": "2225752",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           6,
+           "Yitzhak Kroizer"
+          ]
+         ]
+        },
+        {
          "bill": "2225750",
          "sign": 1,
          "role": "main",
@@ -37879,18 +37679,6 @@
          "bill": "2216628",
          "sign": 1,
          "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2220804",
-         "sign": 1,
-         "role": "main",
          "same": false,
          "authors": [
           [
@@ -38056,18 +37844,6 @@
          ]
         },
         {
-         "bill": "2216636",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
          "bill": "2225745",
          "sign": 1,
          "role": "secondary",
@@ -38180,18 +37956,6 @@
          "sign": 1,
          "role": "main",
          "same": false,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2225752",
-         "sign": -1,
-         "role": "main",
-         "same": true,
          "authors": [
           [
            6,
@@ -47936,12 +47700,12 @@
       },
       {
        "q": "15",
-       "contribution": -0.8581,
-       "p": 0.8581,
+       "contribution": -0.8215,
+       "p": 0.8215,
        "lines": [
         "“Reservists and veterans should receive more payments and benefits, even if this requires raising taxes.”",
         "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 179 bills sponsored by the list's former MKs — 4 your way, 175 the other way; 663 votes on private bills and 1273 votes on the other camp's bills on this topic.",
+        "Basis: 174 bills sponsored by the list's former MKs — 3 your way, 171 the other way; 630 votes on private bills and 1243 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -48550,18 +48314,6 @@
           [
            65,
            "Osher Shekalim"
-          ]
-         ]
-        },
-        {
-         "bill": "2237934",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           8,
-           "Ofir Katz"
           ]
          ]
         },
@@ -49258,6 +49010,18 @@
          ]
         },
         {
+         "bill": "2225752",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           17,
+           "Moshe Saada"
+          ]
+         ]
+        },
+        {
          "bill": "2225750",
          "sign": 1,
          "role": "main",
@@ -49862,22 +49626,6 @@
          ]
         },
         {
-         "bill": "2198186",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           21,
-           "Boaz Bismuth"
-          ],
-          [
-           38,
-           "Hanoch Dov Milwidsky"
-          ]
-         ]
-        },
-        {
          "bill": "2212210",
          "sign": 1,
          "role": "secondary",
@@ -50062,18 +49810,6 @@
           [
            23,
            "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2191296",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           24,
-           "Nir Barkat"
           ]
          ]
         },
@@ -50322,18 +50058,6 @@
          ]
         },
         {
-         "bill": "2157254",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
          "bill": "2169225",
          "sign": 1,
          "role": "main",
@@ -50566,18 +50290,6 @@
          ]
         },
         {
-         "bill": "2242145",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           76,
-           "Afif Abed"
-          ]
-         ]
-        },
-        {
          "bill": "2224779",
          "sign": -1,
          "role": "main",
@@ -50586,18 +50298,6 @@
           [
            13,
            "Almog Cohen"
-          ]
-         ]
-        },
-        {
-         "bill": "2225752",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           17,
-           "Moshe Saada"
           ]
          ]
         },
@@ -62082,56 +61782,56 @@
    "ranking": [
     {
      "id": "ג",
-     "closeness": 0.17424463979570115,
+     "closeness": 0.1742503487929817,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.1712543232670056,
+     "closeness": 0.17165640238521582,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.12444645323873268,
+     "closeness": 0.12454043256331528,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.10745318001058476,
+     "closeness": 0.10745814232781299,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.09933483445559294,
+     "closeness": 0.09972797444067442,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.09165030008289304,
+     "closeness": 0.09133364959065587,
      "coverage": 0.984375,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.08998701659961841,
+     "closeness": 0.0911230289969104,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.053850135925278715,
+     "closeness": 0.053439099832533275,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -62145,21 +61845,21 @@
     },
     {
      "id": "אמת",
-     "closeness": 0.02288462944304209,
+     "closeness": 0.02291815953397692,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.042026567365779165,
+     "closeness": -0.041671647891807446,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.08063973734928806,
+     "closeness": -0.0806523102588247,
      "coverage": 0.984375,
      "note": "",
      "ranked": true
@@ -62173,7 +61873,7 @@
     },
     {
      "id": "בי",
-     "closeness": 0.1906665559631923,
+     "closeness": 0.19072175672778965,
      "coverage": 0.671875,
      "note": "few former MKs: 1",
      "ranked": false
@@ -62187,7 +61887,7 @@
     },
     {
      "id": "י",
-     "closeness": -0.09569091035538689,
+     "closeness": -0.09557667616150949,
      "coverage": 0.9375,
      "note": "few former MKs: 1",
      "ranked": false
@@ -66206,12 +65906,12 @@
       },
       {
        "q": "15",
-       "contribution": -0.17855,
-       "p": 0.3571,
+       "contribution": -0.17845,
+       "p": 0.3569,
        "lines": [
         "“Reservists and veterans should receive more payments and benefits, even if this requires raising taxes.”",
         "Your answer: disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 8 bills sponsored by the list's former MKs — 0 your way, 8 the other way; 162 votes on private bills and 249 votes on the other camp's bills on this topic.",
+        "Basis: 8 bills sponsored by the list's former MKs — 0 your way, 8 the other way; 157 votes on private bills and 247 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -71323,12 +71023,12 @@
       },
       {
        "q": "15",
-       "contribution": -0.3965,
-       "p": 0.793,
+       "contribution": -0.38925,
+       "p": 0.7785,
        "lines": [
         "“Reservists and veterans should receive more payments and benefits, even if this requires raising taxes.”",
         "Your answer: disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 80 bills sponsored by the list's former MKs — 1 your way, 79 the other way; 126 votes on private bills and 271 votes on the other camp's bills on this topic.",
+        "Basis: 77 bills sponsored by the list's former MKs — 0 your way, 77 the other way; 113 votes on private bills and 260 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -71485,18 +71185,6 @@
           [
            6,
            "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2198186",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Tally Gotliv"
           ]
          ]
         },
@@ -71965,6 +71653,18 @@
          ]
         },
         {
+         "bill": "2225752",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           6,
+           "Yitzhak Kroizer"
+          ]
+         ]
+        },
+        {
          "bill": "2225750",
          "sign": 1,
          "role": "main",
@@ -72040,18 +71740,6 @@
          "bill": "2216628",
          "sign": 1,
          "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2220804",
-         "sign": 1,
-         "role": "main",
          "same": false,
          "authors": [
           [
@@ -72217,18 +71905,6 @@
          ]
         },
         {
-         "bill": "2216636",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
          "bill": "2225745",
          "sign": 1,
          "role": "secondary",
@@ -72341,18 +72017,6 @@
          "sign": 1,
          "role": "main",
          "same": false,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2225752",
-         "sign": -1,
-         "role": "main",
-         "same": true,
          "authors": [
           [
            6,
@@ -72754,77 +72418,77 @@
    "ranking": [
     {
      "id": "כן",
-     "closeness": 0.29037996236558017,
+     "closeness": 0.28918476159821305,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.22165311962471437,
+     "closeness": 0.22264719413149248,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.21039555576978153,
+     "closeness": 0.21037531658998343,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.19811335472254035,
+     "closeness": 0.19663241646170848,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.1819710974919246,
+     "closeness": 0.18308595319215842,
      "coverage": 0.9629629629629629,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": 0.16086609443404007,
+     "closeness": 0.16093620571487197,
      "coverage": 0.9629629629629629,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.14415024379129604,
+     "closeness": 0.14379216690108138,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.14107541780514996,
+     "closeness": 0.1397035530588164,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.11314618983167493,
+     "closeness": 0.1092574222629584,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.06850501602905597,
+     "closeness": 0.06834891984043166,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.02723506413673663,
+     "closeness": 0.027213509774570387,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -72845,7 +72509,7 @@
     },
     {
      "id": "בי",
-     "closeness": 0.45909806928266145,
+     "closeness": 0.45902927884440003,
      "coverage": 0.7037037037037037,
      "note": "few former MKs: 1",
      "ranked": false
@@ -72859,7 +72523,7 @@
     },
     {
      "id": "י",
-     "closeness": 0.10595679617153167,
+     "closeness": 0.1052492390047014,
      "coverage": 0.8888888888888888,
      "note": "few former MKs: 1",
      "ranked": false
@@ -73056,12 +72720,12 @@
      "items": [
       {
        "q": "15",
-       "contribution": 1.1199,
-       "p": 1.1199,
+       "contribution": 1.1005,
+       "p": 1.1005,
        "lines": [
         "“Reservists and veterans should receive more payments and benefits, even if this requires raising taxes.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 47 bills sponsored by the list's former MKs — 47 your way, 0 the other way; 163 votes on private bills and 98 votes on the other camp's bills on this topic.",
+        "Basis: 47 bills sponsored by the list's former MKs — 47 your way, 0 the other way; 163 votes on private bills and 95 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -74664,12 +74328,12 @@
      "items": [
       {
        "q": "15",
-       "contribution": 1.1079,
-       "p": 1.1079,
+       "contribution": 1.1206,
+       "p": 1.1206,
        "lines": [
         "“Reservists and veterans should receive more payments and benefits, even if this requires raising taxes.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 48 bills sponsored by the list's former MKs — 47 your way, 1 the other way; 163 votes on private bills and 93 votes on the other camp's bills on this topic.",
+        "Basis: 48 bills sponsored by the list's former MKs — 48 your way, 0 the other way; 161 votes on private bills and 91 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -74783,6 +74447,18 @@
         },
         {
          "bill": "2225748",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Orit Farkash-Hacohen"
+          ]
+         ]
+        },
+        {
+         "bill": "2225752",
          "sign": 1,
          "role": "main",
          "same": true,
@@ -75266,18 +74942,6 @@
           [
            12,
            "Elazar Stern"
-          ]
-         ]
-        },
-        {
-         "bill": "2225752",
-         "sign": -1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           3,
-           "Orit Farkash-Hacohen"
           ]
          ]
         }
@@ -76060,21 +75724,21 @@
    "ranking": [
     {
      "id": "אמת",
-     "closeness": 0.3037896421208674,
+     "closeness": 0.3036517429413673,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.217713011286413,
+     "closeness": 0.21871643808075297,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.1605356398131688,
+     "closeness": 0.15906667126228924,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -76088,56 +75752,56 @@
     },
     {
      "id": "עם",
-     "closeness": 0.10566431587168161,
+     "closeness": 0.10573812879346013,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.09011942669950543,
+     "closeness": 0.0901032919199837,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.04864185831174163,
+     "closeness": 0.046617629115011036,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.2838464373670433,
+     "closeness": -0.2820786475223558,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.2885352886161548,
+     "closeness": -0.29480186308743955,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.30280223483432156,
+     "closeness": -0.3033704252790735,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.321878041161608,
+     "closeness": -0.3219180236911142,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.37972684721950867,
+     "closeness": -0.38197515111781016,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -76151,7 +75815,7 @@
     },
     {
      "id": "בי",
-     "closeness": -0.12914684312051275,
+     "closeness": -0.12947888934709986,
      "coverage": 0.48,
      "note": "few former MKs: 1; position known for only 48% of your answers",
      "ranked": false
@@ -76165,7 +75829,7 @@
     },
     {
      "id": "י",
-     "closeness": 0.2278650275583413,
+     "closeness": 0.22728629214950793,
      "coverage": 1.0,
      "note": "few former MKs: 1",
      "ranked": false
@@ -76659,12 +76323,12 @@
       },
       {
        "q": "15",
-       "contribution": 0.6669,
-       "p": 0.6669,
+       "contribution": 0.6652,
+       "p": 0.6652,
        "lines": [
         "“Reservists and veterans should receive more payments and benefits, even if this requires raising taxes.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 53 bills sponsored by the list's former MKs — 53 your way, 0 the other way; 134 votes on private bills and 143 votes on the other camp's bills on this topic.",
+        "Basis: 52 bills sponsored by the list's former MKs — 52 your way, 0 the other way; 132 votes on private bills and 141 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -77136,18 +76800,6 @@
          "bill": "2239348",
          "sign": 1,
          "role": "main",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Gilad Kariv"
-          ]
-         ]
-        },
-        {
-         "bill": "2216636",
-         "sign": 1,
-         "role": "secondary",
          "same": true,
          "authors": [
           [
@@ -78751,12 +78403,12 @@
      "items": [
       {
        "q": "15",
-       "contribution": 1.1079,
-       "p": 1.1079,
+       "contribution": 1.1206,
+       "p": 1.1206,
        "lines": [
         "“Reservists and veterans should receive more payments and benefits, even if this requires raising taxes.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 48 bills sponsored by the list's former MKs — 47 your way, 1 the other way; 163 votes on private bills and 93 votes on the other camp's bills on this topic.",
+        "Basis: 48 bills sponsored by the list's former MKs — 48 your way, 0 the other way; 161 votes on private bills and 91 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -78870,6 +78522,18 @@
         },
         {
          "bill": "2225748",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Orit Farkash-Hacohen"
+          ]
+         ]
+        },
+        {
+         "bill": "2225752",
          "sign": 1,
          "role": "main",
          "same": true,
@@ -79353,18 +79017,6 @@
           [
            12,
            "Elazar Stern"
-          ]
-         ]
-        },
-        {
-         "bill": "2225752",
-         "sign": -1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           3,
-           "Orit Farkash-Hacohen"
           ]
          ]
         }
@@ -100707,70 +100359,70 @@
    "ranking": [
     {
      "id": "מחל",
-     "closeness": 0.1271170635262106,
+     "closeness": 0.12739981993298,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.10894223487119357,
+     "closeness": 0.10907251811300099,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.10229545847695114,
+     "closeness": 0.10229629327285415,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.03741717566761044,
+     "closeness": 0.03739906445096973,
      "coverage": 0.9861111111111112,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.025441619324075036,
+     "closeness": 0.0254074850875774,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.00544888485404329,
+     "closeness": -0.005451781463128095,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.005989339713137755,
+     "closeness": -0.005990036208880011,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.022085701746411533,
+     "closeness": -0.02209808139382169,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.028479754165966903,
+     "closeness": -0.028479876936320547,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.030240055945735245,
+     "closeness": -0.030240262488352602,
      "coverage": 0.9861111111111112,
      "note": "",
      "ranked": true
@@ -100784,7 +100436,7 @@
     },
     {
      "id": "אמת",
-     "closeness": -0.1322215430211575,
+     "closeness": -0.13222756219679535,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -100798,7 +100450,7 @@
     },
     {
      "id": "בי",
-     "closeness": -0.11185726826889196,
+     "closeness": -0.11186766148902755,
      "coverage": 0.6527777777777778,
      "note": "few former MKs: 1",
      "ranked": false
@@ -100812,7 +100464,7 @@
     },
     {
      "id": "י",
-     "closeness": -0.0772144577631815,
+     "closeness": -0.07723152821107211,
      "coverage": 0.9305555555555556,
      "note": "few former MKs: 1",
      "ranked": false
@@ -118990,49 +118642,49 @@
    "ranking": [
     {
      "id": "ג",
-     "closeness": 0.43585038228790246,
+     "closeness": 0.4359441165390969,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.4150029318275416,
+     "closeness": 0.4091998567243311,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.37006892503615035,
+     "closeness": 0.37555360436725244,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.3055991705678771,
+     "closeness": 0.307062981543125,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.2639542360562694,
+     "closeness": 0.2798124469395144,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.254147693139915,
+     "closeness": 0.26334826947079304,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.13267167104018462,
+     "closeness": -0.132960410870011,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -119046,28 +118698,28 @@
     },
     {
      "id": "דרך",
-     "closeness": -0.35864984433479785,
+     "closeness": -0.36002400084258906,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.544017239725847,
+     "closeness": -0.5447934924198332,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.6840430104720122,
+     "closeness": -0.6839166694206003,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.7538998202748096,
+     "closeness": -0.7539082423151103,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -119081,7 +118733,7 @@
     },
     {
      "id": "בי",
-     "closeness": 0.19961593556510585,
+     "closeness": 0.200066267391256,
      "coverage": 0.8571428571428571,
      "note": "few former MKs: 1",
      "ranked": false
@@ -119095,7 +118747,7 @@
     },
     {
      "id": "י",
-     "closeness": 0.0690052186576073,
+     "closeness": 0.07093179301718815,
      "coverage": 1.0,
      "note": "few former MKs: 1",
      "ranked": false
@@ -119713,12 +119365,12 @@
       },
       {
        "q": "15",
-       "contribution": -0.3571,
-       "p": 0.3571,
+       "contribution": -0.3569,
+       "p": 0.3569,
        "lines": [
         "“Reservists and veterans should receive more payments and benefits, even if this requires raising taxes.”",
         "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 8 bills sponsored by the list's former MKs — 0 your way, 8 the other way; 162 votes on private bills and 249 votes on the other camp's bills on this topic.",
+        "Basis: 8 bills sponsored by the list's former MKs — 0 your way, 8 the other way; 157 votes on private bills and 247 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -120487,12 +120139,12 @@
       },
       {
        "q": "15",
-       "contribution": -0.8863,
-       "p": 0.8863,
+       "contribution": -0.902,
+       "p": 0.902,
        "lines": [
         "“Reservists and veterans should receive more payments and benefits, even if this requires raising taxes.”",
         "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 57 bills sponsored by the list's former MKs — 1 your way, 56 the other way; 130 votes on private bills and 294 votes on the other camp's bills on this topic.",
+        "Basis: 57 bills sponsored by the list's former MKs — 0 your way, 57 the other way; 126 votes on private bills and 293 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -120830,6 +120482,22 @@
         },
         {
          "bill": "2225748",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           12,
+           "Ohad Tal"
+          ],
+          [
+           30,
+           "Michal Miriam Woldiger"
+          ]
+         ]
+        },
+        {
+         "bill": "2225752",
          "sign": 1,
          "role": "main",
          "same": false,
@@ -121294,22 +120962,6 @@
          "role": "main",
          "same": false,
          "authors": [
-          [
-           30,
-           "Michal Miriam Woldiger"
-          ]
-         ]
-        },
-        {
-         "bill": "2225752",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           12,
-           "Ohad Tal"
-          ],
           [
            30,
            "Michal Miriam Woldiger"
@@ -142442,35 +142094,35 @@
    "ranking": [
     {
      "id": "ט",
-     "closeness": 0.11591367180363751,
+     "closeness": 0.1156075413115809,
      "coverage": 0.9859154929577465,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.10568671882579272,
+     "closeness": 0.10602704802641327,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.08515347506075509,
+     "closeness": 0.08523600806696909,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.05951172431912172,
+     "closeness": 0.05951620892975625,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.0542524263799902,
+     "closeness": 0.055220275643707704,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -142484,42 +142136,42 @@
     },
     {
      "id": "ל",
-     "closeness": -0.04160318406790575,
+     "closeness": -0.04131482073335768,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.047302161653896065,
+     "closeness": -0.04729905435176321,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.05804157611174734,
+     "closeness": -0.05773742786304573,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.07893745142248573,
+     "closeness": -0.07894875251054566,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.09667279148826022,
+     "closeness": -0.09664859686515449,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.10271859629337934,
+     "closeness": -0.10290468510585814,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -142533,7 +142185,7 @@
     },
     {
      "id": "בי",
-     "closeness": -0.04686497903703667,
+     "closeness": -0.04683545095379886,
      "coverage": 0.6338028169014085,
      "note": "few former MKs: 1",
      "ranked": false
@@ -142547,7 +142199,7 @@
     },
     {
      "id": "י",
-     "closeness": -0.13510196985444414,
+     "closeness": -0.13500833256954498,
      "coverage": 0.9577464788732394,
      "note": "few former MKs: 1",
      "ranked": false
@@ -142728,12 +142380,12 @@
      ],
      [
       "77",
-      "37",
+      "41",
       "ג"
      ],
      [
       "9",
-      "41",
+      "63",
       "מחל"
      ]
     ]
@@ -146872,13 +146524,142 @@
        ]
       },
       {
+       "q": "72",
+       "contribution": -0.44495,
+       "p": 0.8899,
+       "lines": [
+        "“Israelis, including Jews, should be allowed to buy land in Judea and Samaria (the West Bank), even if this makes a future territorial agreement harder.”",
+        "Your answer: disagree. The record of the list's former MKs points toward this statement.",
+        "Basis: 6 bills sponsored by the list's former MKs — 0 your way, 6 the other way; 8 votes on private bills and 3 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2165752",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           1,
+           "Bezalel Smotrich"
+          ],
+          [
+           3,
+           "Orit Malka Strock"
+          ],
+          [
+           4,
+           "Simcha Rothman"
+          ],
+          [
+           30,
+           "Michal Miriam Woldiger"
+          ]
+         ]
+        },
+        {
+         "bill": "2165911",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           1,
+           "Bezalel Smotrich"
+          ],
+          [
+           3,
+           "Orit Malka Strock"
+          ],
+          [
+           4,
+           "Simcha Rothman"
+          ],
+          [
+           30,
+           "Michal Miriam Woldiger"
+          ]
+         ]
+        },
+        {
+         "bill": "2205720",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           4,
+           "Simcha Rothman"
+          ],
+          [
+           12,
+           "Ohad Tal"
+          ],
+          [
+           30,
+           "Michal Miriam Woldiger"
+          ]
+         ]
+        },
+        {
+         "bill": "2197432",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           4,
+           "Simcha Rothman"
+          ],
+          [
+           12,
+           "Ohad Tal"
+          ]
+         ]
+        },
+        {
+         "bill": "2223039",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           4,
+           "Simcha Rothman"
+          ],
+          [
+           12,
+           "Ohad Tal"
+          ],
+          [
+           30,
+           "Michal Miriam Woldiger"
+          ]
+         ]
+        },
+        {
+         "bill": "2230961",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           7,
+           "Zvi Yedidya Sukkot"
+          ]
+         ]
+        }
+       ]
+      },
+      {
        "q": "15",
-       "contribution": -0.44315,
-       "p": 0.8863,
+       "contribution": -0.451,
+       "p": 0.902,
        "lines": [
         "“Reservists and veterans should receive more payments and benefits, even if this requires raising taxes.”",
         "Your answer: disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 57 bills sponsored by the list's former MKs — 1 your way, 56 the other way; 130 votes on private bills and 294 votes on the other camp's bills on this topic.",
+        "Basis: 57 bills sponsored by the list's former MKs — 0 your way, 57 the other way; 126 votes on private bills and 293 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -147216,6 +146997,22 @@
         },
         {
          "bill": "2225748",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           12,
+           "Ohad Tal"
+          ],
+          [
+           30,
+           "Michal Miriam Woldiger"
+          ]
+         ]
+        },
+        {
+         "bill": "2225752",
          "sign": 1,
          "role": "main",
          "same": false,
@@ -147683,151 +147480,6 @@
           [
            30,
            "Michal Miriam Woldiger"
-          ]
-         ]
-        },
-        {
-         "bill": "2225752",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           12,
-           "Ohad Tal"
-          ],
-          [
-           30,
-           "Michal Miriam Woldiger"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "72",
-       "contribution": -0.44495,
-       "p": 0.8899,
-       "lines": [
-        "“Israelis, including Jews, should be allowed to buy land in Judea and Samaria (the West Bank), even if this makes a future territorial agreement harder.”",
-        "Your answer: disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 6 bills sponsored by the list's former MKs — 0 your way, 6 the other way; 8 votes on private bills and 3 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2165752",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Bezalel Smotrich"
-          ],
-          [
-           3,
-           "Orit Malka Strock"
-          ],
-          [
-           4,
-           "Simcha Rothman"
-          ],
-          [
-           30,
-           "Michal Miriam Woldiger"
-          ]
-         ]
-        },
-        {
-         "bill": "2165911",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Bezalel Smotrich"
-          ],
-          [
-           3,
-           "Orit Malka Strock"
-          ],
-          [
-           4,
-           "Simcha Rothman"
-          ],
-          [
-           30,
-           "Michal Miriam Woldiger"
-          ]
-         ]
-        },
-        {
-         "bill": "2205720",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           4,
-           "Simcha Rothman"
-          ],
-          [
-           12,
-           "Ohad Tal"
-          ],
-          [
-           30,
-           "Michal Miriam Woldiger"
-          ]
-         ]
-        },
-        {
-         "bill": "2197432",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           4,
-           "Simcha Rothman"
-          ],
-          [
-           12,
-           "Ohad Tal"
-          ]
-         ]
-        },
-        {
-         "bill": "2223039",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           4,
-           "Simcha Rothman"
-          ],
-          [
-           12,
-           "Ohad Tal"
-          ],
-          [
-           30,
-           "Michal Miriam Woldiger"
-          ]
-         ]
-        },
-        {
-         "bill": "2230961",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           7,
-           "Zvi Yedidya Sukkot"
           ]
          ]
         }
@@ -153079,12 +152731,12 @@
       },
       {
        "q": "15",
-       "contribution": -0.3965,
-       "p": 0.793,
+       "contribution": -0.38925,
+       "p": 0.7785,
        "lines": [
         "“Reservists and veterans should receive more payments and benefits, even if this requires raising taxes.”",
         "Your answer: disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 80 bills sponsored by the list's former MKs — 1 your way, 79 the other way; 126 votes on private bills and 271 votes on the other camp's bills on this topic.",
+        "Basis: 77 bills sponsored by the list's former MKs — 0 your way, 77 the other way; 113 votes on private bills and 260 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -153241,18 +152893,6 @@
           [
            6,
            "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2198186",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Tally Gotliv"
           ]
          ]
         },
@@ -153721,6 +153361,18 @@
          ]
         },
         {
+         "bill": "2225752",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           6,
+           "Yitzhak Kroizer"
+          ]
+         ]
+        },
+        {
          "bill": "2225750",
          "sign": 1,
          "role": "main",
@@ -153796,18 +153448,6 @@
          "bill": "2216628",
          "sign": 1,
          "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2220804",
-         "sign": 1,
-         "role": "main",
          "same": false,
          "authors": [
           [
@@ -153973,18 +153613,6 @@
          ]
         },
         {
-         "bill": "2216636",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
          "bill": "2225745",
          "sign": 1,
          "role": "secondary",
@@ -154097,18 +153725,6 @@
          "sign": 1,
          "role": "main",
          "same": false,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2225752",
-         "sign": -1,
-         "role": "main",
-         "same": true,
          "authors": [
           [
            6,
@@ -157747,7 +157363,7 @@
    "ranking": [
     {
      "id": "עם",
-     "closeness": 0.32121163117564605,
+     "closeness": 0.3212348343346604,
      "coverage": 0.9863013698630136,
      "note": "",
      "ranked": true
@@ -157761,70 +157377,70 @@
     },
     {
      "id": "אמת",
-     "closeness": 0.1372780885532123,
+     "closeness": 0.13722680695758557,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.13192555965785702,
+     "closeness": 0.1323655857341823,
      "coverage": 0.9863013698630136,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.12355412887604401,
+     "closeness": 0.12342266383422079,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.12077384041157005,
+     "closeness": 0.1207659713079238,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.1022547559046132,
+     "closeness": 0.10276434456503322,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.05345058783327812,
+     "closeness": 0.05344406590599995,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.030275240533418176,
+     "closeness": 0.028621523595950823,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.01630330376764072,
+     "closeness": 0.01575664114560012,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.01058299645018434,
+     "closeness": -0.011337174352460748,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.06406569802324828,
+     "closeness": -0.06472900899675976,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -157838,7 +157454,7 @@
     },
     {
      "id": "בי",
-     "closeness": 0.14911234147810293,
+     "closeness": 0.14906047590903473,
      "coverage": 0.6301369863013698,
      "note": "few former MKs: 1",
      "ranked": false
@@ -157852,7 +157468,7 @@
     },
     {
      "id": "י",
-     "closeness": -0.07358014437125153,
+     "closeness": -0.07384760963273077,
      "coverage": 0.9315068493150684,
      "note": "few former MKs: 1",
      "ranked": false
@@ -160765,12 +160381,12 @@
       },
       {
        "q": "15",
-       "contribution": -0.2314,
-       "p": -0.2314,
+       "contribution": -0.2308,
+       "p": -0.2308,
        "lines": [
         "“Reservists and veterans should receive more payments and benefits, even if this requires raising taxes.”",
         "Your answer: strongly agree. The record of the list's former MKs points against this statement.",
-        "Basis: 14 bills sponsored by the list's former MKs — 14 your way, 0 the other way; 90 votes on private bills and 139 votes on the other camp's bills on this topic.",
+        "Basis: 14 bills sponsored by the list's former MKs — 14 your way, 0 the other way; 88 votes on private bills and 135 votes on the other camp's bills on this topic.",
         "The list's side comes from how its former MKs voted, not from the bills they sponsored."
        ],
        "evidence": [
@@ -165944,7 +165560,7 @@
        "lines": [
         "“Reservists and veterans should receive more payments and benefits, even if this requires raising taxes.”",
         "Your answer: strongly agree. The record of the list's former MKs points against this statement.",
-        "Basis: no bills of their own on this topic, only 95 votes on private bills and 141 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 93 votes on private bills and 138 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -179270,77 +178886,77 @@
     },
     {
      "id": "עם",
-     "closeness": 0.33772101755912154,
+     "closeness": 0.33764167761655833,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.07423653412971555,
+     "closeness": -0.07243561815190566,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.14288309467131116,
+     "closeness": -0.14249782814309916,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.15983799853199065,
+     "closeness": -0.1598130176984305,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.16896757422989694,
+     "closeness": -0.16895265064957674,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.22935782201756183,
+     "closeness": -0.22919766730739846,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.2647105678703269,
+     "closeness": -0.2623048113671889,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.2853847587828394,
+     "closeness": -0.2859404817664768,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.4722737727130111,
+     "closeness": -0.47271666075950297,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.5788473699758705,
+     "closeness": -0.5787757329774256,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.6556813278006498,
+     "closeness": -0.6553881409977005,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -179354,7 +178970,7 @@
     },
     {
      "id": "בי",
-     "closeness": -0.6907092955526115,
+     "closeness": -0.6908425455598077,
      "coverage": 0.7272727272727273,
      "note": "few former MKs: 1",
      "ranked": false
@@ -179368,7 +178984,7 @@
     },
     {
      "id": "י",
-     "closeness": -0.32816712554444893,
+     "closeness": -0.3277105324867511,
      "coverage": 0.9090909090909091,
      "note": "few former MKs: 1",
      "ranked": false
@@ -179986,7 +179602,7 @@
        "lines": [
         "“Reservists and veterans should receive more payments and benefits, even if this requires raising taxes.”",
         "Your answer: disagree. The record of the list's former MKs points against this statement.",
-        "Basis: no bills of their own on this topic, only 95 votes on private bills and 141 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 93 votes on private bills and 138 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -180652,12 +180268,12 @@
       },
       {
        "q": "15",
-       "contribution": 0.1157,
-       "p": -0.2314,
+       "contribution": 0.1154,
+       "p": -0.2308,
        "lines": [
         "“Reservists and veterans should receive more payments and benefits, even if this requires raising taxes.”",
         "Your answer: disagree. The record of the list's former MKs points against this statement.",
-        "Basis: 14 bills sponsored by the list's former MKs — 0 your way, 14 the other way; 90 votes on private bills and 139 votes on the other camp's bills on this topic.",
+        "Basis: 14 bills sponsored by the list's former MKs — 0 your way, 14 the other way; 88 votes on private bills and 135 votes on the other camp's bills on this topic.",
         "The list's side comes from how its former MKs voted, not from the bills they sponsored."
        ],
        "evidence": [
