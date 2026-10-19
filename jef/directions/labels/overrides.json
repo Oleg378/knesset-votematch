@@ -3638,6 +3638,30 @@
     "role": "secondary",
     "source": "label check q22 (2026-10-19): two blind checks «not about»",
     "reason": "Conversion system governance, not non-religious marriage options"
+   },
+   {
+    "bill_id": "2226625",
+    "d": "215",
+    "q": "23",
+    "role": "main",
+    "source": "label check q23 (2026-10-19): two blind checks «not about»",
+    "reason": "Creates forensic medicine authority; institutional structure, not public pay"
+   },
+   {
+    "bill_id": "2219479",
+    "d": "215",
+    "q": "23",
+    "role": "main",
+    "source": "label check q23 (2026-10-19): two blind checks «not about»",
+    "reason": "Creates forensic medicine authority; institutional structure, not public pay"
+   },
+   {
+    "bill_id": "2197980",
+    "d": "215",
+    "q": "23",
+    "role": "main",
+    "source": "label check q23 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Transport policy: decouples car-allowance pay from car ownership"
    }
   ]
  },
