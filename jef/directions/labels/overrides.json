@@ -3662,6 +3662,38 @@
     "role": "main",
     "source": "label check q23 (2026-10-19): 2 of 3 blind checks «not about»",
     "reason": "Transport policy: decouples car-allowance pay from car ownership"
+   },
+   {
+    "bill_id": "2196795",
+    "d": "71",
+    "q": "24",
+    "role": "secondary",
+    "source": "label check q24 (2026-10-19): two blind checks «not about»",
+    "reason": "Election committee chairmanship, not courts' independence"
+   },
+   {
+    "bill_id": "2158836",
+    "d": "71",
+    "q": "24",
+    "role": "secondary",
+    "source": "label check q24 (2026-10-19): two blind checks «not about»",
+    "reason": "Defines conversion for Law of Return; religion, not courts"
+   },
+   {
+    "bill_id": "2225581",
+    "d": "71",
+    "q": "24",
+    "role": "secondary",
+    "source": "label check q24 (2026-10-19): two blind checks «not about»",
+    "reason": "Minimum sentence for rape; criminal sentencing policy"
+   },
+   {
+    "bill_id": "2206733",
+    "d": "71",
+    "q": "24",
+    "role": "secondary",
+    "source": "label check q24 (2026-10-19): two blind checks «not about»",
+    "reason": "Minimum sentencing for sexual harassment; criminal policy"
    }
   ]
  },
@@ -3822,6 +3854,15 @@
     "role": "main",
     "source": "label check q15 (2026-10-19): first check and the check on the full notes agree on the sign (no notes: title only)",
     "reason": "Split from a reservist-benefits bill: reduces income tax withheld at source by 5% for reservists, a tax benefit; no notes."
+   },
+   {
+    "bill_id": "2197006",
+    "d": "71",
+    "q": "24",
+    "sign": "−",
+    "role": "main",
+    "source": "label check q24 (2026-10-19): first check and the check on the full notes agree on the sign",
+    "reason": "Legislates random Supreme Court panel assignment, removing Chief Justice's discretion over panels; externally constrains judicial leadership's internal administration, no direct elected-official power."
    }
   ]
  }
