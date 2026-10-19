@@ -1,5 +1,5 @@
 {
- "note": "Stage 4 (2026-10-18, [У]): split by the standard statement audit of the 26 statements touched by the label removals (local/research/statement_audit_removals/). Same method as stages 2-3: applied after stage 3, parts keep the parent's orientation and sign, Jev only chooses the part. Extended the same day: 130b (q56) split by the standard audit after the volume threshold was lowered to 25 (local/research/statement_audit_t25/). Extended again: 195 (q81) split by the standard audit after external audit №2 (local/research/statement_audit_q81/). Extended 2026-10-19: 25 (q42) split by the standard audit after a full label check (local/research/statement_audit_q42/, label_check_q42/). Extended 2026-10-19: 165 (q4) split by the standard audit after a full label check (local/research/statement_audit_q4/, label_check_q4/); q4 moves to 165a; 165b gets no statement (its bills already count under 179, q10 — customer 2026-10-19). Extended 2026-10-19: 265 (q41) split by the standard audit after a full label check (local/research/statement_audit_q41/, label_check_q41/).",
+ "note": "Stage 4 (2026-10-18, [У]): split by the standard statement audit of the 26 statements touched by the label removals (local/research/statement_audit_removals/). Same method as stages 2-3: applied after stage 3, parts keep the parent's orientation and sign, Jev only chooses the part. Extended the same day: 130b (q56) split by the standard audit after the volume threshold was lowered to 25 (local/research/statement_audit_t25/). Extended again: 195 (q81) split by the standard audit after external audit №2 (local/research/statement_audit_q81/). Extended 2026-10-19: 25 (q42) split by the standard audit after a full label check (local/research/statement_audit_q42/, label_check_q42/). Extended 2026-10-19: 165 (q4) split by the standard audit after a full label check (local/research/statement_audit_q4/, label_check_q4/); q4 moves to 165a; 165b gets no statement (its bills already count under 179, q10 — customer 2026-10-19). Extended 2026-10-19: 265 (q41) split by the standard audit after a full label check (local/research/statement_audit_q41/, label_check_q41/). Extended 2026-10-19: 77 (q47) split by the standard audit after a full label check (local/research/statement_audit_q47/, label_check_q47/); q47 moves to 77a; 77b gets no statement (its bills already count under 178, q45 — customer 2026-10-19).",
  "parents": {
   "58": [
    "58a",
@@ -32,6 +32,10 @@
   "265": [
    "265a",
    "265b"
+  ],
+  "77": [
+   "77a",
+   "77b"
   ]
  },
  "new": {
@@ -130,6 +134,18 @@
    "name_en": "Age of political participation",
    "plus_en": "Lower minimum age to vote or to join a party.",
    "minus_en": "Keep or raise the minimum age to vote or to join a party."
+  },
+  "77a": {
+   "name_ru": "полномочия полиции и силовых органов",
+   "name_en": "Police and enforcement powers",
+   "plus_en": "Broader powers for police, prison service and security forces to arrest, detain, search, monitor and use force; fewer limits on them.",
+   "minus_en": "More limits and oversight on police force, searches and dispersal of protests."
+  },
+  "77b": {
+   "name_ru": "санкции против террористов и их семей",
+   "name_en": "Punitive measures against terrorists and their families",
+   "plus_en": "Deportation of terrorists' families, demolition of their homes, loss of residency, prison for minors convicted of terror, new terror-incitement offences.",
+   "minus_en": "No collective or added sanctions beyond the ordinary criminal process."
   }
  }
 }
