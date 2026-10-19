@@ -7030,6 +7030,94 @@
     "role": "secondary",
     "source": "label check q63 (2026-10-19): 2 of 3 blind checks «not about»",
     "reason": "Social security appeals procedure; unrelated to override question"
+   },
+   {
+    "bill_id": "2157955",
+    "d": "277c",
+    "q": "66",
+    "role": "secondary",
+    "source": "label check q66 (2026-10-19): two blind checks «not about»",
+    "reason": "Dismissal protection during fertility treatment; employment protection only"
+   },
+   {
+    "bill_id": "2161070",
+    "d": "277c",
+    "q": "66",
+    "role": "secondary",
+    "source": "label check q66 (2026-10-19): two blind checks «not about»",
+    "reason": "Dismissal protection during fertility treatment; employment protection only"
+   },
+   {
+    "bill_id": "2201159",
+    "d": "277c",
+    "q": "66",
+    "role": "secondary",
+    "source": "label check q66 (2026-10-19): two blind checks «not about»",
+    "reason": "Dismissal protection during fertility treatment; employment protection only"
+   },
+   {
+    "bill_id": "2233344",
+    "d": "277c",
+    "q": "66",
+    "role": "main",
+    "source": "label check q66 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Foster parent maximum age; not a benefit eligibility"
+   },
+   {
+    "bill_id": "2233645",
+    "d": "277c",
+    "q": "66",
+    "role": "main",
+    "source": "label check q66 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Foster parent maximum age; not a benefit eligibility"
+   },
+   {
+    "bill_id": "2228513",
+    "d": "277c",
+    "q": "66",
+    "role": "main",
+    "source": "label check q66 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Foster parent maximum age; not a benefit eligibility"
+   },
+   {
+    "bill_id": "2226669",
+    "d": "92c",
+    "q": "68",
+    "role": "main",
+    "source": "label check q68 (2026-10-19): two blind checks «not about»",
+    "reason": "Bail for infiltrators; immigration enforcement, not prisoner rights"
+   },
+   {
+    "bill_id": "2225286",
+    "d": "92c",
+    "q": "68",
+    "role": "main",
+    "source": "label check q68 (2026-10-19): two blind checks «not about»",
+    "reason": "Bail for infiltrators; immigration enforcement, not prisoner rights"
+   },
+   {
+    "bill_id": "2167896",
+    "d": "92c",
+    "q": "68",
+    "role": "secondary",
+    "source": "label check q68 (2026-10-19): two blind checks «not about»",
+    "reason": "Interest exemption on criminal fines; not prisoner rights"
+   },
+   {
+    "bill_id": "2164298",
+    "d": "66b2",
+    "q": "69",
+    "role": "secondary",
+    "source": "label check q69 (2026-10-19): two blind checks «not about»",
+    "reason": "Penalty for threats to public servants; no minimum sentence"
+   },
+   {
+    "bill_id": "2210823",
+    "d": "130a",
+    "q": "71",
+    "role": "secondary",
+    "source": "label check q71 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Exam accommodations for students; not economic relief"
    }
   ]
  },
@@ -7298,6 +7386,60 @@
     "role": "secondary",
     "source": "label check q62 (2026-10-19): first check and the check on the full notes agree on the sign",
     "reason": "Splits Attorney General into adviser, prosecutor and state representative; adviser repositioned to help government implement policy, details of appointments unspecified."
+   },
+   {
+    "bill_id": "1046277",
+    "d": "92c",
+    "q": "68",
+    "sign": "+",
+    "role": "main",
+    "source": "label check q68 (2026-10-19): first check and the check on the full notes agree on the sign",
+    "reason": "Extends special leave letting criminal prisoners near release leave prison early, easing overcrowding; milder conditions for ordinary prisoners."
+   },
+   {
+    "bill_id": "2231120",
+    "d": "92c",
+    "q": "68",
+    "sign": "+",
+    "role": "main",
+    "source": "label check q68 (2026-10-19): first check and the check on the full notes agree on the sign",
+    "reason": "Extends special early leave for criminal prisoners near release to relieve wartime overcrowding; milder treatment of ordinary prisoners."
+   },
+   {
+    "bill_id": "2155597",
+    "d": "92c",
+    "q": "68",
+    "sign": "+",
+    "role": "main",
+    "source": "label check q68 (2026-10-19): first check and the check on the full notes agree on the sign",
+    "reason": "Renews enhanced administrative early release to meet living-space ruling, though excluding dangerous offenders; net shorter incarceration, less crowding."
+   },
+   {
+    "bill_id": "2219130",
+    "d": "92c",
+    "q": "68",
+    "sign": "+",
+    "role": "main",
+    "source": "label check q68 (2026-10-19): first check and the check on the full notes agree on the sign",
+    "reason": "Extends wartime special leave sending criminal prisoners near release home early to free space; milder conditions for them."
+   },
+   {
+    "bill_id": "2214722",
+    "d": "92c",
+    "q": "68",
+    "sign": "+",
+    "role": "main",
+    "source": "label check q68 (2026-10-19): first check and the check on the full notes agree on the sign",
+    "reason": "Creates special leave for criminal prisoners near release during war to reduce overcrowding; early release, milder conditions."
+   },
+   {
+    "bill_id": "2223236",
+    "d": "92c",
+    "q": "68",
+    "sign": "+",
+    "role": "main",
+    "source": "label check q68 (2026-10-19): first check and the check on the full notes agree on the sign",
+    "reason": "Extends special leave for criminal prisoners near end of sentence to ease wartime overcrowding; milder treatment of ordinary prisoners."
    }
   ]
  }

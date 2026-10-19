@@ -1,0 +1,13 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason
+70,151b,הצעת חוק חג המצות (איסורי חמץ) (תיקון - איסור הצגת חמץ בפסח בבתי חולים),2156478 2197279 2197299,+,main,2156478,F1-1,about,+,Bans displaying leavened bread in hospitals on Passover
+70,151b,"הצעת חוק חג הפסח בבסיסי צה""ל",2194244 2190977 2196855 2197083,+,secondary,2194244,F1-2,about,+,Enforces Passover observance in army bases
+70,151b,הצעת חוק זכויות החולה (תיקון - הכנסת מזון למוסדות רפואיים בחג הפסח),2156369 2162874 2156051 2194243 2198887,+,secondary,2156369,F1-3,about,+,Regulates bringing food into hospitals on Passover
+70,151b,הצעת חוק שירות ביטחון (תיקון - שירות על פי אמונה דתית),2165957,+,secondary,2165957,F1-4,borderline,+,Religious soldiers' observance rights in army; individual accommodation
+70,151b,הצעת חוק התכנון והבנייה (תיקון - התקנת מנגנון שבת למשאבות מים),2165737 2197694,+,secondary,2165737,F1-5,not_about,,"Shabbat mechanism in residential water pumps, not institutions"
+70,151b,הצעת חוק זכויות החולה (תיקון - קביעת הוראות לעניין הכנסת חפצים ודברי מאכל למוסד רפואי),2200435 2196349,+,secondary,2200435,F1-6,about,+,"Lets hospitals restrict food items brought in, Passover"
+70,151b,הצעת חוק חג המצות (איסורי חמץ) (תיקון - ביטול החוק),2157361,−,secondary,2157361,F1-7,borderline,−,"Repeals leavened bread law; public places, not institutions"
+70,151b,הצעת חוק לתיקון פקודת העיריות (אי-חיוב פעילות בשבת),2203244,+,secondary,2203244,F1-8,about,+,Exempts municipal bodies from operating on Shabbat
+70,151b,"הצעת חוק איסור הכנסת חמץ לבסיסי צה""ל",2190531,+,main,2190531,F1-9,about,+,Bans bringing leavened bread into army bases
+70,151b,הצעת חוק זכויות החולה (תיקון - הכנסת מזון למוסד רפואי בחג הפסח),2165952,+,secondary,2165952,F1-10,about,+,Regulates bringing food into hospitals on Passover
+70,151b,"חוק זכויות החולה (תיקון מס' 13), התשפ""ג–2023",2196420,+,secondary,2196420,F1-11,about,+,Enacted hospital leavened bread restriction law
+70,151b,הצעת חוק חג המצות (איסורי חמץ) (תיקון - איסור מכירת חמץ גם שלא בפומבי),2156432,+,main,2156432,F1-12,borderline,+,"Widens leavened bread sale ban for businesses, not institutions"
