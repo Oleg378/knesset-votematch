@@ -2446,7 +2446,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",163,государственная поддержка религиозных институтов и практик,0.4406,0.75,-0.097,4,4,10,False,-0.2124,60,12
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",164,государственная поддержка еврейской идентичности и диаспоры,0.0,0.0,0.0,3,0,3,False,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",165,закрепление еврейского характера государства,-0.0395,0.0,0.0855,4,0,7,False,-0.125,3,5
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",166,территория под израильским суверенитетом и правом,0.1254,0.25,0.0629,4,1,8,False,-0.1875,9,7
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",166,территория под израильским суверенитетом и правом,-0.1246,0.0,0.0629,4,0,8,False,-0.1875,9,6
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",167,военное управление территориями,0.0297,0.0,0.0297,3,0,3,False,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",169,поддержка и присутствие поселений в Иудее и Самарии,-0.084,0.0,0.0903,4,0,2,False,-0.1742,24,7
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",169a,государственная поддержка поселений,0.3125,0.25,0.0,4,1,0,False,0.0625,14,4

@@ -150,7 +150,7 @@
     },
     {
      "id": "כן",
-     "closeness": -0.022742498036051793,
+     "closeness": -0.0227426351256016,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -17267,7 +17267,7 @@
     },
     {
      "id": "כן",
-     "closeness": -0.07695668058950697,
+     "closeness": -0.07695711036633573,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -34388,7 +34388,7 @@
     },
     {
      "id": "כן",
-     "closeness": -0.03305583284887504,
+     "closeness": -0.03305603135832439,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -62660,7 +62660,7 @@
     },
     {
      "id": "כן",
-     "closeness": -0.03771907088318179,
+     "closeness": -0.04299886314612476,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -83173,7 +83173,7 @@
     },
     {
      "id": "כן",
-     "closeness": 0.14693102022478013,
+     "closeness": 0.1416285072620427,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -127430,13 +127430,6 @@
      "ranked": true
     },
     {
-     "id": "כן",
-     "closeness": 0.10721328677185685,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
      "id": "דרך",
      "closeness": 0.09754695386417503,
      "coverage": 1.0,
@@ -127446,6 +127439,13 @@
     {
      "id": "עם",
      "closeness": 0.09164446196122032,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "כן",
+     "closeness": 0.08418363547103402,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -127695,14 +127695,14 @@
       "ל"
      ],
      [
-      "74",
-      "66",
-      "כן"
-     ],
-     [
       "6",
       "94",
       "דרך"
+     ],
+     [
+      "68",
+      "39",
+      "עם"
      ]
     ]
    },
@@ -133580,7 +133580,7 @@
     },
     {
      "id": "כן",
-     "closeness": 0.09619847766484618,
+     "closeness": 0.08568418361617998,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -133830,16 +133830,6 @@
       "42",
       "78",
       "דרך"
-     ],
-     [
-      "6",
-      "63",
-      "ט"
-     ],
-     [
-      "10",
-      "64",
-      "ב"
      ]
     ]
    },
@@ -143515,7 +143505,7 @@
     },
     {
      "id": "כן",
-     "closeness": -0.062325563433654044,
+     "closeness": -0.05757268571365792,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -158834,7 +158824,7 @@
     },
     {
      "id": "כן",
-     "closeness": -0.021480985472922577,
+     "closeness": -0.011927148336259852,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -169626,7 +169616,7 @@
     },
     {
      "id": "כן",
-     "closeness": 0.04799286092389372,
+     "closeness": 0.019835225111575074,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -171910,93 +171900,93 @@
     "81": 2,
     "72": -1,
     "107": "dk",
-    "37": 2,
-    "64": "dk",
+    "2": 1,
     "63": 1,
+    "64": "dk",
     "105": "dk"
    },
    "mult": {},
    "ranking": [
     {
      "id": "ל",
-     "closeness": 0.46422419405962206,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "ב",
-     "closeness": 0.1477703730152419,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "מחל",
-     "closeness": 0.09750194530268423,
+     "closeness": 0.4570569511091913,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.08008743178654276,
+     "closeness": 0.348997775856954,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "מחל",
+     "closeness": 0.14908034255006727,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "ב",
+     "closeness": 0.13107288715461832,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.06364220636698201,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "ג",
-     "closeness": -0.005893201185108353,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "שס",
-     "closeness": -0.058467953594604716,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "כן",
-     "closeness": -0.1510335964809226,
+     "closeness": 0.029636215485826647,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.15766069762330462,
+     "closeness": -0.04975643934523449,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "שס",
+     "closeness": -0.08288931523625102,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "ג",
+     "closeness": -0.11943567052925354,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "כן",
+     "closeness": -0.1715308694050624,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.3031633570227048,
+     "closeness": -0.29517098022570476,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.44644166976606825,
+     "closeness": -0.697630989103825,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.48437213068997065,
+     "closeness": -0.7409043219452004,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -172010,21 +172000,21 @@
     },
     {
      "id": "בי",
-     "closeness": 0.14553777534905482,
+     "closeness": -0.0030821019588367655,
      "coverage": 0.7,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": 0.011881402846949142,
+     "closeness": 0.08940833869682029,
      "coverage": 1.0,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.6431876192759576,
+     "closeness": 0.5941117225157104,
      "coverage": 0.9,
      "note": "few former MKs: 1",
      "ranked": false
@@ -172194,19 +172184,19 @@
       "ל"
      ],
      [
-      "10",
-      "92",
-      "ב"
+      "8",
+      "63",
+      "דרך"
      ],
      [
-      "63",
-      "49",
+      "10",
+      "92",
       "מחל"
      ],
      [
-      "8",
-      "37",
-      "דרך"
+      "2",
+      "20",
+      "ב"
      ]
     ]
    },
@@ -172308,147 +172298,6 @@
        ]
       },
       {
-       "q": "37",
-       "contribution": 0.7448,
-       "p": 0.7448,
-       "lines": [
-        "“Much more housing construction should be allowed, even at the cost of building on open spaces and greater strain on infrastructure.”",
-        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 8 bills sponsored by the list's former MKs — 8 your way, 0 the other way; 30 votes on private bills and 50 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2200934",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ]
-         ]
-        },
-        {
-         "bill": "2224051",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2167490",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ],
-          [
-           14,
-           "Limor Magen Telem"
-          ]
-         ]
-        },
-        {
-         "bill": "2169206",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Evgeny Sova"
-          ],
-          [
-           14,
-           "Limor Magen Telem"
-          ]
-         ]
-        },
-        {
-         "bill": "2210328",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           10,
-           "Dan Illouz"
-          ]
-         ]
-        },
-        {
-         "bill": "2207143",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           10,
-           "Dan Illouz"
-          ]
-         ]
-        },
-        {
-         "bill": "2210349",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           10,
-           "Dan Illouz"
-          ]
-         ]
-        },
-        {
-         "bill": "2200732",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           10,
-           "Dan Illouz"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "20",
        "contribution": 0.52765,
        "p": 1.0553,
@@ -172533,6 +172382,247 @@
         },
         {
          "bill": "2209872",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           10,
+           "Dan Illouz"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "2",
+       "contribution": 0.49235,
+       "p": 0.9847,
+       "lines": [
+        "“Israel should apply its sovereignty to parts of Judea and Samaria (the West Bank), even if this harms relations with Israel's allies.”",
+        "Your answer: agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 11 bills sponsored by the list's former MKs — 11 your way, 0 the other way; 29 votes on private bills and 11 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2235929",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2198938",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2203397",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2238616",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2227681",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2231986",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2202984",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           10,
+           "Dan Illouz"
+          ]
+         ]
+        },
+        {
+         "bill": "2237967",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           10,
+           "Dan Illouz"
+          ]
+         ]
+        },
+        {
+         "bill": "2202968",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           10,
+           "Dan Illouz"
+          ]
+         ]
+        },
+        {
+         "bill": "2202974",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           10,
+           "Dan Illouz"
+          ]
+         ]
+        },
+        {
+         "bill": "2202971",
          "sign": 1,
          "role": "main",
          "same": true,
@@ -173490,343 +173580,40 @@
      ]
     },
     {
-     "id": "ב",
+     "id": "דרך",
      "items": [
       {
-       "q": "10",
-       "contribution": 0.45145,
-       "p": -0.9029,
-       "lines": [
-        "“Israel should restrict more strictly the entry and residence of foreigners, including citizens' spouses who come from the Palestinian territories, even if this separates some families.”",
-        "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 9 bills sponsored by the list's former MKs — 9 your way, 0 the other way; 43 votes on private bills and 35 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2163900",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Itamar Ben Gvir"
-          ]
-         ]
-        },
-        {
-         "bill": "2169827",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Itamar Ben Gvir"
-          ]
-         ]
-        },
-        {
-         "bill": "2227635",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Itamar Ben Gvir"
-          ]
-         ]
-        },
-        {
-         "bill": "2162396",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Itamar Ben Gvir"
-          ]
-         ]
-        },
-        {
-         "bill": "2158836",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Itamar Ben Gvir"
-          ]
-         ]
-        },
-        {
-         "bill": "2228138",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Tally Gotliv"
-          ],
-          [
-           5,
-           "Limor Son Har-Melech"
-          ],
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2221997",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Limor Son Har-Melech"
-          ],
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2228927",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Limor Son Har-Melech"
-          ],
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2225412",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Limor Son Har-Melech"
-          ],
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "37",
-       "contribution": 0.4431,
-       "p": 0.4431,
-       "lines": [
-        "“Much more housing construction should be allowed, even at the cost of building on open spaces and greater strain on infrastructure.”",
-        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 25 votes on private bills and 29 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2233741",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Tally Gotliv"
-          ],
-          [
-           5,
-           "Limor Son Har-Melech"
-          ],
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2231180",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2200868",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "63",
-       "contribution": 0.38555,
-       "p": -0.7711,
-       "lines": [
-        "“The Knesset should be able to re-enact a law struck down by the Supreme Court, even if citizens have fewer ways to challenge laws in court.”",
-        "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 4 bills sponsored by the list's former MKs — 3 your way, 1 the other way; 42 votes on private bills and 15 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2156884",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Itamar Ben Gvir"
-          ]
-         ]
-        },
-        {
-         "bill": "2200701",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Tally Gotliv"
-          ],
-          [
-           5,
-           "Limor Son Har-Melech"
-          ],
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2201424",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2200576",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "81",
-       "contribution": 0.2984,
-       "p": 0.2984,
-       "lines": [
-        "“Teachers, lecturers and public employees who express support for terrorism should be dismissed, even without a criminal conviction.”",
-        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 35 votes on private bills and 2 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2165640",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Itamar Ben Gvir"
-          ]
-         ]
-        },
-        {
-         "bill": "2218845",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Limor Son Har-Melech"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "8",
-       "contribution": 0.0595,
-       "p": 0.119,
+       "contribution": 0.18185,
+       "p": 0.3637,
        "lines": [
         "“Every citizen, including groups that are exempt today, should do compulsory military or civilian service, even if the army does not need all of them.”",
-        "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 1 vote on private bills and 22 votes on the other camp's bills on this topic."
+        "Your answer: agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 9 votes on private bills and 5 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
         {
-         "bill": "2221546",
+         "bill": "2220457",
          "sign": 1,
          "role": "main",
          "same": true,
          "authors": [
           [
-           5,
-           "Limor Son Har-Melech"
+           3,
+           "Orit Farkash-Hacohen"
           ]
          ]
         },
         {
-         "bill": "2221252",
+         "bill": "2203151",
          "sign": 1,
          "role": "main",
          "same": true,
          "authors": [
           [
-           6,
-           "Yitzhak Kroizer"
+           3,
+           "Orit Farkash-Hacohen"
           ]
          ]
         }
@@ -173834,182 +173621,49 @@
       },
       {
        "q": "49",
-       "contribution": -0.0756,
-       "p": 0.1512,
+       "contribution": 0.17785,
+       "p": -0.3557,
        "lines": [
         "“Suspects and defendants should have fewer legal protections during arrest, questioning and trial, even if the risk of convicting innocent people grows.”",
-        "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: 8 bills sponsored by the list's former MKs — 2 your way, 6 the other way; 28 votes on private bills and 64 votes on the other camp's bills on this topic."
+        "Your answer: agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 8 votes on private bills and 19 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
         {
-         "bill": "2160341",
-         "sign": 1,
+         "bill": "2211439",
+         "sign": -1,
          "role": "main",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Itamar Ben Gvir"
-          ]
-         ]
-        },
-        {
-         "bill": "2196871",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Tally Gotliv"
-          ]
-         ]
-        },
-        {
-         "bill": "2199946",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Tally Gotliv"
-          ]
-         ]
-        },
-        {
-         "bill": "2207001",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Tally Gotliv"
-          ]
-         ]
-        },
-        {
-         "bill": "2199948",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Tally Gotliv"
-          ]
-         ]
-        },
-        {
-         "bill": "2228065",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
+         "same": true,
          "authors": [
           [
            5,
-           "Limor Son Har-Melech"
-          ]
-         ]
-        },
-        {
-         "bill": "2232191",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2201009",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
+           "Matan Kahana"
           ]
          ]
         }
        ]
       },
       {
-       "q": "7",
-       "contribution": -0.11475,
-       "p": -0.2295,
+       "q": "10",
+       "contribution": 0.14595,
+       "p": -0.2919,
        "lines": [
-        "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
-        "Your answer: agree. The record of the list's former MKs points against this statement.",
-        "Basis: no bills of their own on this topic, only 24 votes on private bills and 10 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
-      },
-      {
-       "q": "20",
-       "contribution": -0.125,
-       "p": -0.25,
-       "lines": [
-        "“Getting a divorce should be easier, even if one of the spouses objects.”",
-        "Your answer: agree. The record of the list's former MKs points against this statement.",
-        "Basis: no bills of their own on this topic, only 0 votes on private bills and 14 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
-      },
-      {
-       "q": "72",
-       "contribution": -0.29445,
-       "p": 0.5889,
-       "lines": [
-        "“Israelis, including Jews, should be allowed to buy land in Judea and Samaria (the West Bank), even if this makes a future territorial agreement harder.”",
-        "Your answer: disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 2 votes on private bills and 6 votes on the other camp's bills on this topic.",
+        "“Israel should restrict more strictly the entry and residence of foreigners, including citizens' spouses who come from the Palestinian territories, even if this separates some families.”",
+        "Your answer: agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 7 votes on private bills and 8 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
         {
-         "bill": "2205720",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
+         "bill": "2228138",
+         "sign": -1,
+         "role": "main",
+         "same": true,
          "authors": [
           [
-           2,
-           "Tally Gotliv"
-          ],
-          [
            5,
-           "Limor Son Har-Melech"
-          ],
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2223039",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Tally Gotliv"
-          ],
-          [
-           5,
-           "Limor Son Har-Melech"
-          ],
-          [
-           6,
-           "Yitzhak Kroizer"
+           "Matan Kahana"
           ]
          ]
         }
@@ -174017,40 +173671,80 @@
       },
       {
        "q": "92",
-       "contribution": -0.5,
-       "p": 1.0,
+       "contribution": 0.125,
+       "p": -0.25,
        "lines": [
         "“More people should qualify for disability, nursing-care and sick-leave benefits, for example homemakers and the self-employed, even if National Insurance and employers pay more.”",
-        "Your answer: disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 0 votes on private bills and 0 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+        "Your answer: disagree. The record of the list's former MKs points against this statement.",
+        "Basis: no bills of their own on this topic, only 1 vote on private bills and 2 votes on the other camp's bills on this topic."
        ],
-       "evidence": [
-        {
-         "bill": "2213558",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Tally Gotliv"
-          ]
-         ]
-        },
-        {
-         "bill": "2216630",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        }
-       ]
+       "evidence": []
+      },
+      {
+       "q": "7",
+       "contribution": 0.0978,
+       "p": 0.1956,
+       "lines": [
+        "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
+        "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: no bills of their own on this topic, only 3 votes on private bills and 18 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
+      },
+      {
+       "q": "2",
+       "contribution": 0.0932,
+       "p": 0.1864,
+       "lines": [
+        "“Israel should apply its sovereignty to parts of Judea and Samaria (the West Bank), even if this harms relations with Israel's allies.”",
+        "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: no bills of their own on this topic, only 8 votes on private bills and 5 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
+      },
+      {
+       "q": "20",
+       "contribution": 0.04575,
+       "p": 0.0915,
+       "lines": [
+        "“Getting a divorce should be easier, even if one of the spouses objects.”",
+        "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: no bills of their own on this topic, only 4 votes on private bills and 0 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
+      },
+      {
+       "q": "72",
+       "contribution": -0.0,
+       "p": 0.0,
+       "lines": [
+        "“Israelis, including Jews, should be allowed to buy land in Judea and Samaria (the West Bank), even if this makes a future territorial agreement harder.”",
+        "Your answer: disagree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: no bills of their own on this topic, only 0 votes on private bills and 4 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
+      },
+      {
+       "q": "63",
+       "contribution": -0.1479,
+       "p": 0.2958,
+       "lines": [
+        "“The Knesset should be able to re-enact a law struck down by the Supreme Court, even if citizens have fewer ways to challenge laws in court.”",
+        "Your answer: agree. The record of the list's former MKs points against this statement.",
+        "Basis: no bills of their own on this topic, only 11 votes on private bills and 26 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
+      },
+      {
+       "q": "81",
+       "contribution": -0.2222,
+       "p": -0.2222,
+       "lines": [
+        "“Teachers, lecturers and public employees who express support for terrorism should be dismissed, even without a criminal conviction.”",
+        "Your answer: strongly agree. The record of the list's former MKs points against this statement.",
+        "Basis: no bills of their own on this topic, only 0 votes on private bills and 19 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
       }
      ]
     },
@@ -174058,17 +173752,17 @@
      "id": "בי",
      "items": [
       {
-       "q": "37",
-       "contribution": 0.8476,
-       "p": 0.8476,
+       "q": "2",
+       "contribution": 0.525,
+       "p": 1.05,
        "lines": [
-        "“Much more housing construction should be allowed, even at the cost of building on open spaces and greater strain on infrastructure.”",
-        "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 1 vote on private bills and 6 votes on the other camp's bills on this topic."
+        "“Israel should apply its sovereignty to parts of Judea and Samaria (the West Bank), even if this harms relations with Israel's allies.”",
+        "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 4 votes on private bills and 0 votes on the other camp's bills on this topic."
        ],
        "evidence": [
         {
-         "bill": "2159824",
+         "bill": "2162889",
          "sign": 1,
          "role": "main",
          "same": true,
@@ -174178,9 +173872,9 @@
      "81",
      "72",
      "107",
-     "37",
-     "64",
+     "2",
      "63",
+     "64",
      "105"
     ]
    }
@@ -174197,95 +173891,95 @@
     "20": -1,
     "92": 2,
     "2": 1,
+    "45": 1,
     "40": -1,
     "38": 2,
-    "45": 1,
-    "103": 2,
-    "63": 1,
-    "74": -1
+    "13": -1,
+    "75": -2,
+    "55": 2
    },
    "mult": {},
    "ranking": [
     {
-     "id": "שס",
-     "closeness": 0.6764042349534274,
+     "id": "ג",
+     "closeness": 0.6733379703013795,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
-     "id": "ג",
-     "closeness": 0.6479729531794166,
+     "id": "שס",
+     "closeness": 0.6551549004724894,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.5513401515644862,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "כן",
-     "closeness": 0.3433260262344994,
+     "closeness": 0.4274940928670944,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": 0.30939545654340705,
+     "closeness": 0.2878980934590423,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "ודם",
+     "closeness": 0.23807350865603286,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "כן",
+     "closeness": 0.23451445889390957,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.2695559179135858,
+     "closeness": 0.13535051699913292,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.2614877156978471,
+     "closeness": 0.0884440818028531,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.225784716422883,
+     "closeness": 0.06956047193288699,
      "coverage": 0.9285714285714286,
      "note": "",
      "ranked": true
     },
     {
-     "id": "ודם",
-     "closeness": 0.1996511976726935,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "ל",
-     "closeness": 0.022130914076717762,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
      "id": "רק",
-     "closeness": -0.025376203816657145,
+     "closeness": -0.078386964590278,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.15082371051843832,
+     "closeness": -0.14183598542193748,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "ל",
+     "closeness": -0.1566534357340674,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -174299,21 +173993,21 @@
     },
     {
      "id": "בי",
-     "closeness": 0.6187945521667694,
-     "coverage": 0.7857142857142857,
+     "closeness": 0.5547887555440371,
+     "coverage": 0.7142857142857143,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": 0.4223253792751331,
+     "closeness": 0.2928600942355137,
      "coverage": 0.8571428571428571,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.4105339022685713,
+     "closeness": 0.3017889286650986,
      "coverage": 0.8571428571428571,
      "note": "few former MKs: 1",
      "ranked": false
@@ -174478,33 +174172,990 @@
     "skip_lists": [],
     "pairs": [
      [
-      "7",
-      "1",
-      "שס"
-     ],
-     [
       "38",
-      "20",
+      "1",
       "ג"
      ],
      [
       "14",
-      "103",
-      "מחל"
+      "13",
+      "שס"
      ],
      [
-      "45",
-      "40",
-      "כן"
+      "55",
+      "75",
+      "עם"
      ],
      [
       "92",
-      "10",
-      "עם"
+      "2",
+      "ודם"
      ]
     ]
    },
    "details": [
+    {
+     "id": "ג",
+     "items": [
+      {
+       "q": "38",
+       "contribution": 1.0,
+       "p": 1.0,
+       "lines": [
+        "“Citizens should be allowed to withdraw long-term savings, such as pension and study funds, early, even if they are left with less in old age.”",
+        "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 0 votes on private bills and 0 votes on the other camp's bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2156177",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           3,
+           "Yitzhak Pindrus"
+          ],
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "92",
+       "contribution": 0.9167,
+       "p": 0.9167,
+       "lines": [
+        "“More people should qualify for disability, nursing-care and sick-leave benefits, for example homemakers and the self-employed, even if National Insurance and employers pay more.”",
+        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 6 bills sponsored by the list's former MKs — 6 your way, 0 the other way; 7 votes on private bills and 2 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2159262",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           3,
+           "Yitzhak Pindrus"
+          ],
+          [
+           116,
+           "Uri Maklev"
+          ],
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        },
+        {
+         "bill": "2156384",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           3,
+           "Yitzhak Pindrus"
+          ],
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        },
+        {
+         "bill": "2242757",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ]
+         ]
+        },
+        {
+         "bill": "2163183",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Yitzhak Pindrus"
+          ]
+         ]
+        },
+        {
+         "bill": "2165895",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           4,
+           "Meir Porush"
+          ],
+          [
+           116,
+           "Uri Maklev"
+          ]
+         ]
+        },
+        {
+         "bill": "2221855",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "14",
+       "contribution": 0.6667,
+       "p": 0.6667,
+       "lines": [
+        "“Israel should reduce the number of foreign workers, even if construction, agriculture and elderly care become more expensive.”",
+        "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 1 vote on private bills and 0 votes on the other camp's bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2243540",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Yaakov Tesler"
+          ]
+         ]
+        },
+        {
+         "bill": "2206795",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "7",
+       "contribution": 0.6207,
+       "p": -0.6207,
+       "lines": [
+        "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
+        "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
+        "Basis: 4 bills sponsored by the list's former MKs — 4 your way, 0 the other way; 32 votes on private bills and 14 votes on the other camp's bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2208935",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        },
+        {
+         "bill": "2157486",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           3,
+           "Yitzhak Pindrus"
+          ],
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        },
+        {
+         "bill": "2198907",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        },
+        {
+         "bill": "2157484",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           3,
+           "Yitzhak Pindrus"
+          ],
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "55",
+       "contribution": 0.4518,
+       "p": 0.4518,
+       "lines": [
+        "“Personal information should be better protected by law, even if this makes it harder for the police and the media to obtain it.”",
+        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 10 bills sponsored by the list's former MKs — 9 your way, 1 the other way; 29 votes on private bills and 77 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2158437",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        },
+        {
+         "bill": "2218872",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        },
+        {
+         "bill": "2190868",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           3,
+           "Yitzhak Pindrus"
+          ],
+          [
+           116,
+           "Uri Maklev"
+          ],
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        },
+        {
+         "bill": "2196495",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        },
+        {
+         "bill": "2159152",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           116,
+           "Uri Maklev"
+          ],
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        },
+        {
+         "bill": "2156082",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Yitzhak Pindrus"
+          ]
+         ]
+        },
+        {
+         "bill": "2161233",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Yitzhak Pindrus"
+          ]
+         ]
+        },
+        {
+         "bill": "2209394",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           11,
+           "Moshe Roth"
+          ]
+         ]
+        },
+        {
+         "bill": "2233979",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           12,
+           "Eliyahu Baruchi"
+          ]
+         ]
+        },
+        {
+         "bill": "2160035",
+         "sign": -1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           3,
+           "Yitzhak Pindrus"
+          ],
+          [
+           116,
+           "Uri Maklev"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "40",
+       "contribution": 0.3684,
+       "p": -0.7368,
+       "lines": [
+        "“The state should expand legal protections and equal rights for LGBT people, even if religious citizens and businesses must sometimes act against their beliefs.”",
+        "Your answer: disagree. The record of the list's former MKs points against this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 30 votes on private bills and 37 votes on the other camp's bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2156835",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           3,
+           "Yitzhak Pindrus"
+          ],
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        },
+        {
+         "bill": "2196357",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Yitzhak Pindrus"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "10",
+       "contribution": 0.3295,
+       "p": -0.659,
+       "lines": [
+        "“Israel should restrict more strictly the entry and residence of foreigners, including citizens' spouses who come from the Palestinian territories, even if this separates some families.”",
+        "Your answer: agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 8 bills sponsored by the list's former MKs — 7 your way, 1 the other way; 47 votes on private bills and 24 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2199544",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        },
+        {
+         "bill": "2169827",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           3,
+           "Yitzhak Pindrus"
+          ]
+         ]
+        },
+        {
+         "bill": "2158128",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           3,
+           "Yitzhak Pindrus"
+          ],
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        },
+        {
+         "bill": "2162396",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           3,
+           "Yitzhak Pindrus"
+          ]
+         ]
+        },
+        {
+         "bill": "2228138",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Yitzhak Pindrus"
+          ],
+          [
+           11,
+           "Moshe Roth"
+          ]
+         ]
+        },
+        {
+         "bill": "2159382",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Yitzhak Pindrus"
+          ]
+         ]
+        },
+        {
+         "bill": "2163900",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           4,
+           "Meir Porush"
+          ]
+         ]
+        },
+        {
+         "bill": "2243540",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           8,
+           "Yaakov Tesler"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "45",
+       "contribution": 0.30305,
+       "p": 0.6061,
+       "lines": [
+        "“Measures against terrorism and its financing should be tightened, even if people not involved in terrorism are caught by the restrictions.”",
+        "Your answer: agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 7 bills sponsored by the list's former MKs — 7 your way, 0 the other way; 163 votes on private bills and 153 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2190865",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ]
+         ]
+        },
+        {
+         "bill": "2169827",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           3,
+           "Yitzhak Pindrus"
+          ]
+         ]
+        },
+        {
+         "bill": "2169242",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           3,
+           "Yitzhak Pindrus"
+          ]
+         ]
+        },
+        {
+         "bill": "2162965",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           3,
+           "Yitzhak Pindrus"
+          ]
+         ]
+        },
+        {
+         "bill": "2156708",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Yitzhak Pindrus"
+          ]
+         ]
+        },
+        {
+         "bill": "2201602",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Yitzhak Pindrus"
+          ],
+          [
+           11,
+           "Moshe Roth"
+          ],
+          [
+           12,
+           "Eliyahu Baruchi"
+          ],
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        },
+        {
+         "bill": "2162133",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Yitzhak Pindrus"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "75",
+       "contribution": 0.2535,
+       "p": -0.2535,
+       "lines": [
+        "“Party lists and public bodies should be required to include a minimum share of women, even if parties must drop candidates their members chose.”",
+        "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
+        "Basis: no bills of their own on this topic, only 15 votes on private bills and 49 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
+      },
+      {
+       "q": "2",
+       "contribution": 0.24015,
+       "p": 0.4803,
+       "lines": [
+        "“Israel should apply its sovereignty to parts of Judea and Samaria (the West Bank), even if this harms relations with Israel's allies.”",
+        "Your answer: agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 30 votes on private bills and 19 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2163745",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           3,
+           "Yitzhak Pindrus"
+          ],
+          [
+           4,
+           "Meir Porush"
+          ],
+          [
+           116,
+           "Uri Maklev"
+          ],
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        },
+        {
+         "bill": "2157994",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Yitzhak Pindrus"
+          ]
+         ]
+        },
+        {
+         "bill": "2241438",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           4,
+           "Meir Porush"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "8",
+       "contribution": 0.20445,
+       "p": -0.4089,
+       "lines": [
+        "“Every citizen, including groups that are exempt today, should do compulsory military or civilian service, even if the army does not need all of them.”",
+        "Your answer: disagree. The record of the list's former MKs points against this statement.",
+        "Basis: no bills of their own on this topic, only 8 votes on private bills and 36 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
+      },
+      {
+       "q": "20",
+       "contribution": -0.18475,
+       "p": 0.3695,
+       "lines": [
+        "“Getting a divorce should be easier, even if one of the spouses objects.”",
+        "Your answer: disagree. The record of the list's former MKs points toward this statement.",
+        "Basis: 3 bills sponsored by the list's former MKs — 0 your way, 3 the other way; 12 votes on private bills and 8 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2169490",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           3,
+           "Yitzhak Pindrus"
+          ],
+          [
+           116,
+           "Uri Maklev"
+          ],
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        },
+        {
+         "bill": "2197239",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           118,
+           "Moshe Gafni"
+          ]
+         ]
+        },
+        {
+         "bill": "2165642",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           116,
+           "Uri Maklev"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "13",
+       "contribution": -0.24265,
+       "p": -0.4853,
+       "lines": [
+        "“Israel should restrict more strictly the activity of foreign states and international organizations on its territory, such as UNRWA, even at the cost of conflict with the UN and allies.”",
+        "Your answer: disagree. The record of the list's former MKs points toward this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 40 votes on private bills and 56 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2160325",
+         "sign": -1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           3,
+           "Yitzhak Pindrus"
+          ],
+          [
+           4,
+           "Meir Porush"
+          ]
+         ]
+        },
+        {
+         "bill": "2161700",
+         "sign": -1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           3,
+           "Yitzhak Pindrus"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "1",
+       "contribution": -0.3851,
+       "p": 0.3851,
+       "lines": [
+        "“Judges and lawyers should hold the majority on the committee that selects judges, even if elected officials have little say over who becomes a judge.”",
+        "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 12 votes on private bills and 0 votes on the other camp's bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2159877",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           1,
+           "Yaakov Asher"
+          ],
+          [
+           3,
+           "Yitzhak Pindrus"
+          ]
+         ]
+        }
+       ]
+      }
+     ]
+    },
     {
      "id": "שס",
      "items": [
@@ -175449,19 +176100,19 @@
        ]
       },
       {
-       "q": "63",
-       "contribution": 0.3236,
-       "p": -0.6472,
+       "q": "55",
+       "contribution": 0.4606,
+       "p": 0.4606,
        "lines": [
-        "“The Knesset should be able to re-enact a law struck down by the Supreme Court, even if citizens have fewer ways to challenge laws in court.”",
-        "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 9 bills sponsored by the list's former MKs — 7 your way, 2 the other way; 113 votes on private bills and 30 votes on the other camp's bills on this topic.",
+        "“Personal information should be better protected by law, even if this makes it harder for the police and the media to obtain it.”",
+        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 25 bills sponsored by the list's former MKs — 18 your way, 7 the other way; 107 votes on private bills and 117 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
         {
-         "bill": "2159382",
-         "sign": -1,
+         "bill": "2157160",
+         "sign": 1,
          "role": "secondary",
          "same": true,
          "authors": [
@@ -175472,9 +176123,33 @@
          ]
         },
         {
-         "bill": "2200701",
-         "sign": -1,
+         "bill": "2197183",
+         "sign": 1,
          "role": "main",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
+          ]
+         ]
+        },
+        {
+         "bill": "2157506",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
+          ]
+         ]
+        },
+        {
+         "bill": "2192329",
+         "sign": 1,
+         "role": "secondary",
          "same": true,
          "authors": [
           [
@@ -175482,13 +176157,173 @@
            "Yinon Azoulay"
           ],
           [
-           8,
-           "Uriel Buso"
+           3,
+           "Michael Malchieli"
           ],
+          [
+           5,
+           "Haim Biton"
+          ],
+          [
+           7,
+           "Moshe Abutbul"
+          ],
+          [
+           119,
+           "Yaakov Margi"
+          ]
+         ]
+        },
+        {
+         "bill": "2168823",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
+          ]
+         ]
+        },
+        {
+         "bill": "2195689",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
+          ]
+         ]
+        },
+        {
+         "bill": "2190868",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
+          ],
+          [
+           3,
+           "Michael Malchieli"
+          ]
+         ]
+        },
+        {
+         "bill": "2157945",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
+          ]
+         ]
+        },
+        {
+         "bill": "2195956",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
+          ]
+         ]
+        },
+        {
+         "bill": "2166703",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Michael Malchieli"
+          ]
+         ]
+        },
+        {
+         "bill": "2156330",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Michael Malchieli"
+          ],
+          [
+           7,
+           "Moshe Abutbul"
+          ]
+         ]
+        },
+        {
+         "bill": "2156406",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           7,
+           "Moshe Abutbul"
+          ]
+         ]
+        },
+        {
+         "bill": "2226614",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
           [
            9,
            "Yosef Taieb"
           ],
+          [
+           10,
+           "Yonatan Mishraki"
+          ]
+         ]
+        },
+        {
+         "bill": "2218410",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           9,
+           "Yosef Taieb"
+          ]
+         ]
+        },
+        {
+         "bill": "2209003",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           10,
+           "Yonatan Mishraki"
+          ]
+         ]
+        },
+        {
+         "bill": "2205309",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
           [
            10,
            "Yonatan Mishraki"
@@ -175500,10 +176335,50 @@
          ]
         },
         {
-         "bill": "2201424",
+         "bill": "2209394",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           10,
+           "Yonatan Mishraki"
+          ]
+         ]
+        },
+        {
+         "bill": "2223948",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           12,
+           "Erez Malul"
+          ]
+         ]
+        },
+        {
+         "bill": "2160035",
          "sign": -1,
          "role": "main",
-         "same": true,
+         "same": false,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
+          ],
+          [
+           8,
+           "Uriel Buso"
+          ]
+         ]
+        },
+        {
+         "bill": "2156654",
+         "sign": -1,
+         "role": "secondary",
+         "same": false,
          "authors": [
           [
            2,
@@ -175512,10 +176387,10 @@
          ]
         },
         {
-         "bill": "2162870",
+         "bill": "2225586",
          "sign": -1,
-         "role": "main",
-         "same": true,
+         "role": "secondary",
+         "same": false,
          "authors": [
           [
            2,
@@ -175524,34 +176399,34 @@
          ]
         },
         {
-         "bill": "2169472",
+         "bill": "2195729",
          "sign": -1,
-         "role": "main",
-         "same": true,
+         "role": "secondary",
+         "same": false,
          "authors": [
           [
-           3,
-           "Michael Malchieli"
+           2,
+           "Yinon Azoulay"
           ]
          ]
         },
         {
-         "bill": "2156094",
+         "bill": "2156814",
          "sign": -1,
-         "role": "main",
-         "same": true,
+         "role": "secondary",
+         "same": false,
          "authors": [
           [
-           3,
-           "Michael Malchieli"
+           2,
+           "Yinon Azoulay"
           ]
          ]
         },
         {
-         "bill": "2196972",
+         "bill": "2197437",
          "sign": -1,
          "role": "main",
-         "same": true,
+         "same": false,
          "authors": [
           [
            8,
@@ -175560,26 +176435,55 @@
          ]
         },
         {
-         "bill": "2203287",
-         "sign": 1,
+         "bill": "2227161",
+         "sign": -1,
          "role": "secondary",
          "same": false,
          "authors": [
+          [
+           9,
+           "Yosef Taieb"
+          ],
           [
            10,
            "Yonatan Mishraki"
           ]
          ]
-        },
+        }
+       ]
+      },
+      {
+       "q": "75",
+       "contribution": 0.326,
+       "p": -0.326,
+       "lines": [
+        "“Party lists and public bodies should be required to include a minimum share of women, even if parties must drop candidates their members chose.”",
+        "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 41 votes on private bills and 66 votes on the other camp's bills on this topic.",
+        "The list's side comes from how its former MKs voted, not from the bills they sponsored."
+       ],
+       "evidence": [
         {
-         "bill": "2200576",
+         "bill": "2195936",
          "sign": 1,
          "role": "secondary",
          "same": false,
          "authors": [
           [
-           10,
-           "Yonatan Mishraki"
+           2,
+           "Yinon Azoulay"
+          ]
+         ]
+        },
+        {
+         "bill": "2156624",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
           ]
          ]
         }
@@ -175755,30 +176659,6 @@
        ]
       },
       {
-       "q": "74",
-       "contribution": 0.1907,
-       "p": -0.3814,
-       "lines": [
-        "“The right to equality should be written into the Basic Laws, including the Nation-State Law, even if this weakens laws favoring the state's Jewish character.”",
-        "Your answer: disagree. The record of the list's former MKs points against this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 15 votes on private bills and 101 votes on the other camp's bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2169472",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Michael Malchieli"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "8",
        "contribution": 0.17645,
        "p": -0.3529,
@@ -175801,15 +176681,85 @@
        "evidence": []
       },
       {
-       "q": "103",
-       "contribution": -0.4003,
-       "p": 0.4003,
+       "q": "13",
+       "contribution": -0.45645,
+       "p": -0.9129,
        "lines": [
-        "“A prime minister should be limited to two consecutive terms, even if voters lose the option to re-elect a popular leader.”",
-        "Your answer: strongly agree. The record of the list's former MKs points against this statement.",
-        "Basis: no bills of their own on this topic, only 24 votes on private bills and 66 votes on the other camp's bills on this topic."
+        "“Israel should restrict more strictly the activity of foreign states and international organizations on its territory, such as UNRWA, even at the cost of conflict with the UN and allies.”",
+        "Your answer: disagree. The record of the list's former MKs points toward this statement.",
+        "Basis: 3 bills sponsored by the list's former MKs — 0 your way, 3 the other way; 72 votes on private bills and 112 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
-       "evidence": []
+       "evidence": [
+        {
+         "bill": "2160325",
+         "sign": -1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
+          ],
+          [
+           3,
+           "Michael Malchieli"
+          ],
+          [
+           4,
+           "Yoav Ben-Tzur"
+          ],
+          [
+           5,
+           "Haim Biton"
+          ],
+          [
+           7,
+           "Moshe Abutbul"
+          ],
+          [
+           8,
+           "Uriel Buso"
+          ],
+          [
+           119,
+           "Yaakov Margi"
+          ]
+         ]
+        },
+        {
+         "bill": "2161700",
+         "sign": -1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           7,
+           "Moshe Abutbul"
+          ],
+          [
+           119,
+           "Yaakov Margi"
+          ]
+         ]
+        },
+        {
+         "bill": "2217201",
+         "sign": -1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           9,
+           "Yosef Taieb"
+          ],
+          [
+           10,
+           "Yonatan Mishraki"
+          ]
+         ]
+        }
+       ]
       },
       {
        "q": "1",
@@ -175842,934 +176792,6 @@
           [
            119,
            "Yaakov Margi"
-          ]
-         ]
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "id": "ג",
-     "items": [
-      {
-       "q": "38",
-       "contribution": 1.0,
-       "p": 1.0,
-       "lines": [
-        "“Citizens should be allowed to withdraw long-term savings, such as pension and study funds, early, even if they are left with less in old age.”",
-        "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 0 votes on private bills and 0 votes on the other camp's bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2156177",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           3,
-           "Yitzhak Pindrus"
-          ],
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "92",
-       "contribution": 0.9167,
-       "p": 0.9167,
-       "lines": [
-        "“More people should qualify for disability, nursing-care and sick-leave benefits, for example homemakers and the self-employed, even if National Insurance and employers pay more.”",
-        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 6 bills sponsored by the list's former MKs — 6 your way, 0 the other way; 7 votes on private bills and 2 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2159262",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           3,
-           "Yitzhak Pindrus"
-          ],
-          [
-           116,
-           "Uri Maklev"
-          ],
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        },
-        {
-         "bill": "2156384",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           3,
-           "Yitzhak Pindrus"
-          ],
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        },
-        {
-         "bill": "2242757",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ]
-         ]
-        },
-        {
-         "bill": "2163183",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Yitzhak Pindrus"
-          ]
-         ]
-        },
-        {
-         "bill": "2165895",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           4,
-           "Meir Porush"
-          ],
-          [
-           116,
-           "Uri Maklev"
-          ]
-         ]
-        },
-        {
-         "bill": "2221855",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "14",
-       "contribution": 0.6667,
-       "p": 0.6667,
-       "lines": [
-        "“Israel should reduce the number of foreign workers, even if construction, agriculture and elderly care become more expensive.”",
-        "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 1 vote on private bills and 0 votes on the other camp's bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2243540",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Yaakov Tesler"
-          ]
-         ]
-        },
-        {
-         "bill": "2206795",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "7",
-       "contribution": 0.6207,
-       "p": -0.6207,
-       "lines": [
-        "“Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.”",
-        "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
-        "Basis: 4 bills sponsored by the list's former MKs — 4 your way, 0 the other way; 32 votes on private bills and 14 votes on the other camp's bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2208935",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        },
-        {
-         "bill": "2157486",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           3,
-           "Yitzhak Pindrus"
-          ],
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        },
-        {
-         "bill": "2198907",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        },
-        {
-         "bill": "2157484",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           3,
-           "Yitzhak Pindrus"
-          ],
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "40",
-       "contribution": 0.3684,
-       "p": -0.7368,
-       "lines": [
-        "“The state should expand legal protections and equal rights for LGBT people, even if religious citizens and businesses must sometimes act against their beliefs.”",
-        "Your answer: disagree. The record of the list's former MKs points against this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 30 votes on private bills and 37 votes on the other camp's bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2156835",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           3,
-           "Yitzhak Pindrus"
-          ],
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        },
-        {
-         "bill": "2196357",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Yitzhak Pindrus"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "10",
-       "contribution": 0.3295,
-       "p": -0.659,
-       "lines": [
-        "“Israel should restrict more strictly the entry and residence of foreigners, including citizens' spouses who come from the Palestinian territories, even if this separates some families.”",
-        "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 8 bills sponsored by the list's former MKs — 7 your way, 1 the other way; 47 votes on private bills and 24 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2199544",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        },
-        {
-         "bill": "2169827",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           3,
-           "Yitzhak Pindrus"
-          ]
-         ]
-        },
-        {
-         "bill": "2158128",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           3,
-           "Yitzhak Pindrus"
-          ],
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        },
-        {
-         "bill": "2162396",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           3,
-           "Yitzhak Pindrus"
-          ]
-         ]
-        },
-        {
-         "bill": "2228138",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Yitzhak Pindrus"
-          ],
-          [
-           11,
-           "Moshe Roth"
-          ]
-         ]
-        },
-        {
-         "bill": "2159382",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Yitzhak Pindrus"
-          ]
-         ]
-        },
-        {
-         "bill": "2163900",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           4,
-           "Meir Porush"
-          ]
-         ]
-        },
-        {
-         "bill": "2243540",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           8,
-           "Yaakov Tesler"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "45",
-       "contribution": 0.30305,
-       "p": 0.6061,
-       "lines": [
-        "“Measures against terrorism and its financing should be tightened, even if people not involved in terrorism are caught by the restrictions.”",
-        "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 7 bills sponsored by the list's former MKs — 7 your way, 0 the other way; 163 votes on private bills and 153 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2190865",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ]
-         ]
-        },
-        {
-         "bill": "2169827",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           3,
-           "Yitzhak Pindrus"
-          ]
-         ]
-        },
-        {
-         "bill": "2169242",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           3,
-           "Yitzhak Pindrus"
-          ]
-         ]
-        },
-        {
-         "bill": "2162965",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           3,
-           "Yitzhak Pindrus"
-          ]
-         ]
-        },
-        {
-         "bill": "2156708",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Yitzhak Pindrus"
-          ]
-         ]
-        },
-        {
-         "bill": "2201602",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Yitzhak Pindrus"
-          ],
-          [
-           11,
-           "Moshe Roth"
-          ],
-          [
-           12,
-           "Eliyahu Baruchi"
-          ],
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        },
-        {
-         "bill": "2162133",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Yitzhak Pindrus"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "2",
-       "contribution": 0.24015,
-       "p": 0.4803,
-       "lines": [
-        "“Israel should apply its sovereignty to parts of Judea and Samaria (the West Bank), even if this harms relations with Israel's allies.”",
-        "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 30 votes on private bills and 19 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2163745",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           3,
-           "Yitzhak Pindrus"
-          ],
-          [
-           4,
-           "Meir Porush"
-          ],
-          [
-           116,
-           "Uri Maklev"
-          ],
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        },
-        {
-         "bill": "2157994",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Yitzhak Pindrus"
-          ]
-         ]
-        },
-        {
-         "bill": "2241438",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           4,
-           "Meir Porush"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "63",
-       "contribution": 0.2134,
-       "p": -0.4268,
-       "lines": [
-        "“The Knesset should be able to re-enact a law struck down by the Supreme Court, even if citizens have fewer ways to challenge laws in court.”",
-        "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 9 bills sponsored by the list's former MKs — 7 your way, 2 the other way; 69 votes on private bills and 22 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2198892",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        },
-        {
-         "bill": "2200701",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           3,
-           "Yitzhak Pindrus"
-          ],
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        },
-        {
-         "bill": "2162870",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           3,
-           "Yitzhak Pindrus"
-          ],
-          [
-           116,
-           "Uri Maklev"
-          ],
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        },
-        {
-         "bill": "2156495",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           3,
-           "Yitzhak Pindrus"
-          ],
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        },
-        {
-         "bill": "2159382",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Yitzhak Pindrus"
-          ]
-         ]
-        },
-        {
-         "bill": "2201424",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Yitzhak Pindrus"
-          ]
-         ]
-        },
-        {
-         "bill": "2156884",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Yitzhak Pindrus"
-          ],
-          [
-           116,
-           "Uri Maklev"
-          ]
-         ]
-        },
-        {
-         "bill": "2197323",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        },
-        {
-         "bill": "2162474",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           3,
-           "Yitzhak Pindrus"
-          ],
-          [
-           116,
-           "Uri Maklev"
-          ],
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "8",
-       "contribution": 0.20445,
-       "p": -0.4089,
-       "lines": [
-        "“Every citizen, including groups that are exempt today, should do compulsory military or civilian service, even if the army does not need all of them.”",
-        "Your answer: disagree. The record of the list's former MKs points against this statement.",
-        "Basis: no bills of their own on this topic, only 8 votes on private bills and 36 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
-      },
-      {
-       "q": "74",
-       "contribution": 0.09635,
-       "p": -0.1927,
-       "lines": [
-        "“The right to equality should be written into the Basic Laws, including the Nation-State Law, even if this weakens laws favoring the state's Jewish character.”",
-        "Your answer: disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 9 votes on private bills and 63 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
-      },
-      {
-       "q": "20",
-       "contribution": -0.18475,
-       "p": 0.3695,
-       "lines": [
-        "“Getting a divorce should be easier, even if one of the spouses objects.”",
-        "Your answer: disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 0 your way, 3 the other way; 12 votes on private bills and 8 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2169490",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           3,
-           "Yitzhak Pindrus"
-          ],
-          [
-           116,
-           "Uri Maklev"
-          ],
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        },
-        {
-         "bill": "2197239",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           118,
-           "Moshe Gafni"
-          ]
-         ]
-        },
-        {
-         "bill": "2165642",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           116,
-           "Uri Maklev"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "103",
-       "contribution": -0.2909,
-       "p": 0.2909,
-       "lines": [
-        "“A prime minister should be limited to two consecutive terms, even if voters lose the option to re-elect a popular leader.”",
-        "Your answer: strongly agree. The record of the list's former MKs points against this statement.",
-        "Basis: no bills of their own on this topic, only 9 votes on private bills and 46 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
-      },
-      {
-       "q": "1",
-       "contribution": -0.3851,
-       "p": 0.3851,
-       "lines": [
-        "“Judges and lawyers should hold the majority on the committee that selects judges, even if elected officials have little say over who becomes a judge.”",
-        "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 12 votes on private bills and 0 votes on the other camp's bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2159877",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ],
-          [
-           3,
-           "Yitzhak Pindrus"
           ]
          ]
         }
@@ -176853,6 +176875,17 @@
        ]
       },
       {
+       "q": "55",
+       "contribution": 0.4894,
+       "p": 0.4894,
+       "lines": [
+        "“Personal information should be better protected by law, even if this makes it harder for the police and the media to obtain it.”",
+        "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: no bills of their own on this topic, only 2 votes on private bills and 3 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
+      },
+      {
        "q": "7",
        "contribution": 0.25,
        "p": -0.25,
@@ -176886,28 +176919,6 @@
        "evidence": []
       },
       {
-       "q": "74",
-       "contribution": 0.125,
-       "p": -0.25,
-       "lines": [
-        "“The right to equality should be written into the Basic Laws, including the Nation-State Law, even if this weakens laws favoring the state's Jewish character.”",
-        "Your answer: disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 0 votes on private bills and 1 vote on the other camp's bills on this topic."
-       ],
-       "evidence": []
-      },
-      {
-       "q": "63",
-       "contribution": 0.025,
-       "p": -0.05,
-       "lines": [
-        "“The Knesset should be able to re-enact a law struck down by the Supreme Court, even if citizens have fewer ways to challenge laws in court.”",
-        "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 4 votes on private bills and 0 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
-      },
-      {
        "q": "8",
        "contribution": 0.01795,
        "p": -0.0359,
@@ -176930,15 +176941,28 @@
        "evidence": []
       },
       {
-       "q": "103",
-       "contribution": -0.25,
-       "p": 0.25,
+       "q": "13",
+       "contribution": -0.52585,
+       "p": -1.0517,
        "lines": [
-        "“A prime minister should be limited to two consecutive terms, even if voters lose the option to re-elect a popular leader.”",
-        "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 0 votes on private bills and 2 votes on the other camp's bills on this topic."
+        "“Israel should restrict more strictly the activity of foreign states and international organizations on its territory, such as UNRWA, even at the cost of conflict with the UN and allies.”",
+        "Your answer: disagree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 1 vote on private bills and 0 votes on the other camp's bills on this topic."
        ],
-       "evidence": []
+       "evidence": [
+        {
+         "bill": "2160325",
+         "sign": -1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           1,
+           "Gadi Yevarkan"
+          ]
+         ]
+        }
+       ]
       }
      ]
     }
@@ -176956,12 +176980,12 @@
     ],
     "clarifying": [
      "2",
+     "45",
      "40",
      "38",
-     "45",
-     "103",
-     "63",
-     "74"
+     "13",
+     "75",
+     "55"
     ]
    }
   },
