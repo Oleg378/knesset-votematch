@@ -3094,6 +3094,38 @@
     "role": "main",
     "source": "«Imports and competition»: 2 of 3 blind checks «not about»",
     "reason": "Ambulance transport for women giving birth; no market competition question"
+   },
+   {
+    "bill_id": "2220911",
+    "d": "185b",
+    "q": "8",
+    "role": "main",
+    "source": "label check q8 (2026-10-19): 2 blind checks «not about»",
+    "reason": "Pay for soldiers in permanent-service terms; not service breadth"
+   },
+   {
+    "bill_id": "2212387",
+    "d": "185b",
+    "q": "8",
+    "role": "main",
+    "source": "label check q8 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Raises reserve exemption age; reserve burden, not exempt groups"
+   },
+   {
+    "bill_id": "2214427",
+    "d": "185b",
+    "q": "8",
+    "role": "main",
+    "source": "label check q8 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Wartime reserve duty temporary order; not universal service"
+   },
+   {
+    "bill_id": "2219664",
+    "d": "185b",
+    "q": "8",
+    "role": "main",
+    "source": "label check q8 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Extends reserve exemption age order; not exempt groups"
    }
   ]
  },
