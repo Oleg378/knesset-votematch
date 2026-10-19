@@ -4694,6 +4694,86 @@
     "role": "secondary",
     "source": "label check q38 (2026-10-19): two blind checks «not about»",
     "reason": "Denies social benefits to security offenders; unrelated"
+   },
+   {
+    "bill_id": "2236826",
+    "d": "136",
+    "q": "39",
+    "role": "secondary",
+    "source": "label check q39 (2026-10-19): two blind checks «not about»",
+    "reason": "Denial of October 7 events; not reputation protection"
+   },
+   {
+    "bill_id": "2162653",
+    "d": "136",
+    "q": "39",
+    "role": "secondary",
+    "source": "label check q39 (2026-10-19): two blind checks «not about»",
+    "reason": "Content removal for criminal posts; not defamation"
+   },
+   {
+    "bill_id": "2156082",
+    "d": "136",
+    "q": "39",
+    "role": "secondary",
+    "source": "label check q39 (2026-10-19): two blind checks «not about»",
+    "reason": "Casualty information publication ban; privacy, not defamation"
+   },
+   {
+    "bill_id": "2167942",
+    "d": "136",
+    "q": "39",
+    "role": "secondary",
+    "source": "label check q39 (2026-10-19): two blind checks «not about»",
+    "reason": "Casualty name publication ban; privacy, not defamation"
+   },
+   {
+    "bill_id": "2189748",
+    "d": "136",
+    "q": "39",
+    "role": "secondary",
+    "source": "label check q39 (2026-10-19): two blind checks «not about»",
+    "reason": "Casualty name publication ban; privacy, not defamation"
+   },
+   {
+    "bill_id": "2203963",
+    "d": "136",
+    "q": "39",
+    "role": "main",
+    "source": "label check q39 (2026-10-19): two blind checks «not about»",
+    "reason": "Media violence-glorifying phrases; not defamation"
+   },
+   {
+    "bill_id": "2223817",
+    "d": "265",
+    "q": "41",
+    "role": "secondary",
+    "source": "label check q41 (2026-10-19): two blind checks «not about»",
+    "reason": "Smartphone ban in schools, not parental consent"
+   },
+   {
+    "bill_id": "2157406",
+    "d": "265",
+    "q": "41",
+    "role": "secondary",
+    "source": "label check q41 (2026-10-19): two blind checks «not about»",
+    "reason": "All-terrain vehicle licensing safety restriction"
+   },
+   {
+    "bill_id": "2229236",
+    "d": "265",
+    "q": "41",
+    "role": "secondary",
+    "source": "label check q41 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Students' religious practice in schools, not parental consent"
+   },
+   {
+    "bill_id": "2196380",
+    "d": "265",
+    "q": "41",
+    "role": "main",
+    "source": "label check q41 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Athlete transfer rules between clubs, not parental consent"
    }
   ]
  },

@@ -270,3 +270,7 @@ label check q33,33,154,2156158,secondary,not about,borderline,"Civil marriage an
 label check q37,37,241,2158038,main,not about,borderline,"Student dormitories provision; may require building dorms, but mainly student housing welfare, not general construction",borderline,kept (majority not «not about»)
 label check q37,37,241,2230229,secondary,not about,borderline,"Allows transferring building rights tied to safe rooms; adds buildable area, but aim is civil protection",not_about,removed (2 of 3 «not about»)
 label check q37,37,241,2232387,secondary,not about,borderline,"Unified-ownership long-term rental buildings; enables build-to-rent tenure model, volume effect indirect",borderline,kept (majority not «not about»)
+label check q41,41,265,2156975,secondary,not about,borderline,"Lowers Knesset voting age to 17; expands minors' political rights, but not parental consent question",borderline,kept (majority not «not about»)
+label check q41,41,265,2229236,secondary,not about,borderline,Grants students right to pray and wear tefillin at school; student religious freedom against institution,not_about,removed (2 of 3 «not about»)
+label check q41,41,265,2196380,main,not about,borderline,"Frees minor athletes from club transfer compensation restrictions; minors' contractual freedom, not parental consent",not_about,removed (2 of 3 «not about»)
+label check q41,41,265,2234655,secondary,not about,borderline,"Lowers Knesset voting age to 17; expands minors' political rights, but not parental consent question",borderline,kept (majority not «not about»)
