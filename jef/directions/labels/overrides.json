@@ -3694,6 +3694,750 @@
     "role": "secondary",
     "source": "label check q24 (2026-10-19): two blind checks «not about»",
     "reason": "Minimum sentencing for sexual harassment; criminal policy"
+   },
+   {
+    "bill_id": "2164500",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Tombstone grant to religious council"
+   },
+   {
+    "bill_id": "2190793",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Conversion system reform, not civil dispute jurisdiction"
+   },
+   {
+    "bill_id": "2157559",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Dissolving religious councils, not courts"
+   },
+   {
+    "bill_id": "2200116",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Dissolving religious councils, not courts"
+   },
+   {
+    "bill_id": "2195993",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Genetic testing for religious status, not civil disputes"
+   },
+   {
+    "bill_id": "2161528",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Genetic testing for religious status, not civil disputes"
+   },
+   {
+    "bill_id": "2165830",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Bans conversion annulment, not civil property jurisdiction"
+   },
+   {
+    "bill_id": "2156829",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Bans conversion annulment, not civil property jurisdiction"
+   },
+   {
+    "bill_id": "2201553",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Bans conversion annulment, not civil property jurisdiction"
+   },
+   {
+    "bill_id": "2190518",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Sanctions on divorce refusers, not civil disputes"
+   },
+   {
+    "bill_id": "2239094",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Administrative subordination of courts to Justice Ministry"
+   },
+   {
+    "bill_id": "2203674",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Get coercion in divorce, not civil disputes"
+   },
+   {
+    "bill_id": "2158666",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Get coercion in divorce, not civil disputes"
+   },
+   {
+    "bill_id": "2206205",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Enforcement of divorce judgments, not civil jurisdiction"
+   },
+   {
+    "bill_id": "2195656",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "State conversion system, unrelated to civil disputes"
+   },
+   {
+    "bill_id": "2156060",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "State conversion system, unrelated to civil disputes"
+   },
+   {
+    "bill_id": "2197004",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Population registry definition of Jew, unrelated"
+   },
+   {
+    "bill_id": "2195650",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Kashrut reform, not rabbinical court civil jurisdiction"
+   },
+   {
+    "bill_id": "2192290",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Kashrut reform, not rabbinical court civil jurisdiction"
+   },
+   {
+    "bill_id": "2169490",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Sanctions on divorce refusers, not civil jurisdiction"
+   },
+   {
+    "bill_id": "2165642",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Sanctions on divorce refusers, not civil jurisdiction"
+   },
+   {
+    "bill_id": "2206802",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Sanctions on divorce refusers, not civil jurisdiction"
+   },
+   {
+    "bill_id": "2197239",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Sanctions on divorce refusers, not civil jurisdiction"
+   },
+   {
+    "bill_id": "2205844",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Sanctions on divorce refusers, not civil jurisdiction"
+   },
+   {
+    "bill_id": "2207489",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Sanctions on divorce refusers, not civil jurisdiction"
+   },
+   {
+    "bill_id": "2209872",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Sanctions on divorce refusers, not civil jurisdiction"
+   },
+   {
+    "bill_id": "2191850",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Druze court title change, technical"
+   },
+   {
+    "bill_id": "2157188",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Marriage refusal (agunot) prevention, not civil dispute jurisdiction"
+   },
+   {
+    "bill_id": "2166216",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Marriage refusal (agunot) prevention, not civil dispute jurisdiction"
+   },
+   {
+    "bill_id": "2200280",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Marriage refusal (agunot) prevention, not civil dispute jurisdiction"
+   },
+   {
+    "bill_id": "2199357",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Kashrut reform repeal, not court jurisdiction"
+   },
+   {
+    "bill_id": "2157362",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Women's equality in religious roles"
+   },
+   {
+    "bill_id": "2205366",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Child support substantive law, not forum or consent"
+   },
+   {
+    "bill_id": "2210521",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Military service religious exemption"
+   },
+   {
+    "bill_id": "2157766",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Military service religious exemption"
+   },
+   {
+    "bill_id": "2204099",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Tombstone grant to religious council"
+   },
+   {
+    "bill_id": "2206803",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Tombstone grant to religious council"
+   },
+   {
+    "bill_id": "2208593",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Tombstone grant to religious council"
+   },
+   {
+    "bill_id": "2196307",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Holy places and Rabbinate advice, not court jurisdiction"
+   },
+   {
+    "bill_id": "2157296",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Holy places and Rabbinate advice, not court jurisdiction"
+   },
+   {
+    "bill_id": "2202585",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Holy places and Rabbinate advice, not court jurisdiction"
+   },
+   {
+    "bill_id": "2209181",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Forced divorce for attempted murderers, not civil disputes"
+   },
+   {
+    "bill_id": "2158015",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Kashrut market regulation, unrelated to courts"
+   },
+   {
+    "bill_id": "2200279",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Kashrut market regulation, unrelated to courts"
+   },
+   {
+    "bill_id": "2200709",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Abolishes religious councils, not court jurisdiction"
+   },
+   {
+    "bill_id": "2200982",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Abolishes Chief Rabbinate institution, not courts' civil jurisdiction"
+   },
+   {
+    "bill_id": "2157952",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Abolishes Chief Rabbinate institution, not courts' civil jurisdiction"
+   },
+   {
+    "bill_id": "2157198",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Bigamy exceptions, criminal law"
+   },
+   {
+    "bill_id": "2200268",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Bigamy exceptions, criminal law"
+   },
+   {
+    "bill_id": "2225758",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Property rights of prayer houses, not courts"
+   },
+   {
+    "bill_id": "2198287",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Druze court title change, technical"
+   },
+   {
+    "bill_id": "2160218",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Conversion authority, not civil dispute jurisdiction"
+   },
+   {
+    "bill_id": "2195960",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Conversion authority, not civil dispute jurisdiction"
+   },
+   {
+    "bill_id": "2209242",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Religious state education council, unrelated"
+   },
+   {
+    "bill_id": "2209274",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Religious state education council, unrelated"
+   },
+   {
+    "bill_id": "2209270",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Religious state education council, unrelated"
+   },
+   {
+    "bill_id": "2242994",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Chief Rabbinate exam authority, not civil disputes"
+   },
+   {
+    "bill_id": "2157102",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Name change rules, unrelated to court jurisdiction"
+   },
+   {
+    "bill_id": "2195878",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Civil union for those barred from marriage, unrelated"
+   },
+   {
+    "bill_id": "2190160",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Civil union for those barred from marriage, unrelated"
+   },
+   {
+    "bill_id": "2202588",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Population registry definition of Jew"
+   },
+   {
+    "bill_id": "2161279",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Population registry definition of Jew"
+   },
+   {
+    "bill_id": "2239363",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Population registry definition of Jew"
+   },
+   {
+    "bill_id": "2232488",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Rabbinate administration and budget, not court jurisdiction"
+   },
+   {
+    "bill_id": "2205831",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Election of city rabbis"
+   },
+   {
+    "bill_id": "2241107",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Rabbinate authority over holy places, not courts"
+   },
+   {
+    "bill_id": "2229643",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Kashrut certificates and Sabbath, unrelated to courts"
+   },
+   {
+    "bill_id": "1046237",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Kashrut fraud law amendment, unrelated to courts"
+   },
+   {
+    "bill_id": "2199059",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Civil marriage registration in Eilat, unrelated"
+   },
+   {
+    "bill_id": "2193364",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Kosher certification for imported meat, not courts"
+   },
+   {
+    "bill_id": "2195726",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Kosher certification for imported meat, not courts"
+   },
+   {
+    "bill_id": "2235656",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Conversion of minors, not civil disputes"
+   },
+   {
+    "bill_id": "2158249",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Jewishness clarification in marriage, status not civil disputes"
+   },
+   {
+    "bill_id": "2163299",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Uniform civil child support law, substantive not jurisdictional"
+   },
+   {
+    "bill_id": "2158263",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Conversion by city rabbis, not civil dispute jurisdiction"
+   },
+   {
+    "bill_id": "2200095",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Conversion by city rabbis, not civil dispute jurisdiction"
+   },
+   {
+    "bill_id": "2198888",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Conversion by city rabbis, not civil dispute jurisdiction"
+   },
+   {
+    "bill_id": "2164635",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Conversion by city rabbis, not civil dispute jurisdiction"
+   },
+   {
+    "bill_id": "2157645",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Kashrut certificate criteria, unrelated to court jurisdiction"
+   },
+   {
+    "bill_id": "2197902",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Appointment of associate judges, administrative"
+   },
+   {
+    "bill_id": "2156850",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Appointment of associate judges, administrative"
+   },
+   {
+    "bill_id": "2167252",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Chief Rabbi serving as judge, not civil jurisdiction"
+   },
+   {
+    "bill_id": "2166078",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Adoption religion requirement"
+   },
+   {
+    "bill_id": "2197278",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): two blind checks «not about»",
+    "reason": "Kashrut reform repeal, not court jurisdiction"
+   },
+   {
+    "bill_id": "2156420",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Civil marriage and dissolution, personal status not property disputes"
+   },
+   {
+    "bill_id": "2200136",
+    "d": "154",
+    "q": "33",
+    "role": "main",
+    "source": "label check q33 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Civil marriage and dissolution, personal status not property disputes"
+   },
+   {
+    "bill_id": "2156943",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Civil marriage at embassies, personal status not civil disputes"
+   },
+   {
+    "bill_id": "2196176",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Civil marriage at embassies, personal status not civil disputes"
+   },
+   {
+    "bill_id": "2196096",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Civil marriage at embassies, personal status not civil disputes"
+   },
+   {
+    "bill_id": "2165281",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Civil marriage at embassies, personal status not civil disputes"
+   },
+   {
+    "bill_id": "2206726",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Marriage and divorce framework, not civil property disputes"
+   },
+   {
+    "bill_id": "2196011",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Marriage and divorce framework, not civil property disputes"
+   },
+   {
+    "bill_id": "2156158",
+    "d": "154",
+    "q": "33",
+    "role": "secondary",
+    "source": "label check q33 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Marriage and divorce framework, not civil property disputes"
    }
   ]
  },
