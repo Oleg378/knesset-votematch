@@ -283,7 +283,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",63,полномочия и вес юридического советника правительства,0.25,0.0,0.0,3,0,0,False,0.25,89,5
 אמת,"HaDemocratim, headed by Yair Golan",64,полномочия обвинения и возможности уголовного преследования,0.4,0.3635,-0.0088,10,35,179,False,0.0453,111,55
 אמת,"HaDemocratim, headed by Yair Golan",66,полномочия судов (+ дискреция судов),0.5614,0.575,-0.0188,10,20,40,False,0.0052,61,24
-אמת,"HaDemocratim, headed by Yair Golan",66a,судебный контроль над законами и правительством,1.0436,0.8,-0.0014,10,12,10,False,0.245,54,11
+אמת,"HaDemocratim, headed by Yair Golan",66a,судебный контроль над законами и правительством,0.3436,0.1,-0.0014,10,2,10,False,0.245,54,9
 אמת,"HaDemocratim, headed by Yair Golan",66b,свобода судей в назначении наказаний,0.3333,0.3333,0.0,3,1,6,False,0.0,0,3
 אמת,"HaDemocratim, headed by Yair Golan",66b1,смертная казнь для террористов,0.281,0.0,0.031,10,0,2,False,0.25,42,4
 אמת,"HaDemocratim, headed by Yair Golan",66b2,минимальные наказания,0.0334,-0.2,0.0,10,2,5,False,0.2333,17,6
@@ -609,7 +609,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",63,полномочия и вес юридического советника правительства,-0.5,-0.5,0.0,6,9,164,False,0.0,0,8
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",64,полномочия обвинения и возможности уголовного преследования,0.2347,0.1071,0.0533,6,35,84,False,0.0742,114,69
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",66,полномочия судов (+ дискреция судов),-0.1113,0.0,-0.0601,6,2,27,False,-0.0512,46,12
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",66a,судебный контроль над законами и правительством,-0.7711,-0.5556,-0.0072,6,6,42,False,-0.2083,15,12
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",66a,судебный контроль над законами и правительством,-0.7153,-0.5,-0.007,6,4,39,False,-0.2083,15,9
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",66b1,смертная казнь для террористов,-0.6149,-0.3333,-0.0316,6,2,72,False,-0.25,11,4
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",66b2,минимальные наказания,-0.5903,-0.6667,-0.007,3,3,2,False,0.0833,1,4
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",69,возможность оспорить решения властей,0.0389,0.2,0.0167,6,11,69,False,-0.1778,19,27
@@ -1149,7 +1149,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,63,полномочия и вес юридического советника правительства,-0.2143,0.0,0.0,7,0,136,False,-0.2143,51,4
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,64,полномочия обвинения и возможности уголовного преследования,0.122,0.1143,-0.0442,9,22,104,False,0.0519,166,58
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,66,полномочия судов (+ дискреция судов),-0.5405,-0.3333,-0.0905,9,5,39,False,-0.1166,49,15
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,66a,судебный контроль над законами и правительством,-0.4268,-0.2143,-0.0251,8,22,69,False,-0.1875,22,13
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,66a,судебный контроль над законами и правительством,-0.7124,-0.5,-0.0249,8,14,67,False,-0.1875,22,10
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,66b1,смертная казнь для террористов,0.5363,0.0,0.4363,5,0,38,False,0.1,4,3
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,66b2,минимальные наказания,0.0381,0.0,-0.0244,8,0,15,False,0.0625,6,3
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,69,возможность оспорить решения властей,0.2626,0.3883,-0.0122,8,45,110,False,-0.1134,71,36
@@ -1770,7 +1770,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,63,полномочия и вес юридического советника правительства,0.25,0.0,0.0,4,0,0,False,0.25,109,5
 ודם,The Joint Arab List,64,полномочия обвинения и возможности уголовного преследования,0.5502,0.8286,-0.1586,5,26,135,False,-0.1198,188,70
 ודם,The Joint Arab List,66,полномочия судов (+ дискреция судов),0.8619,0.8,-0.0564,5,17,37,False,0.1183,26,16
-ודם,The Joint Arab List,66a,судебный контроль над законами и правительством,0.8424,0.4,0.1924,5,2,28,False,0.25,37,11
+ודם,The Joint Arab List,66a,судебный контроль над законами и правительством,0.4424,0.0,0.1924,5,0,28,False,0.25,32,9
 ודם,The Joint Arab List,66b,свобода судей в назначении наказаний,0.25,0.0,0.0,2,0,0,True,0.25,4,2
 ודם,The Joint Arab List,66b1,смертная казнь для террористов,0.4758,0.0,0.2258,5,0,13,False,0.25,49,4
 ודם,The Joint Arab List,66b2,минимальные наказания,0.6567,0.2,0.3067,5,2,29,False,0.15,7,7
@@ -2088,7 +2088,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",63,полномочия и вес юридического советника правительства,-1.0,-1.0,0.0,6,13,148,False,0.0,0,7
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",64,полномочия обвинения и возможности уголовного преследования,-0.1654,-0.2096,-0.0078,6,30,89,False,0.052,154,59
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",66,полномочия судов (+ дискреция судов),-0.2677,-0.1667,-0.0447,6,6,28,False,-0.0564,54,15
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",66a,судебный контроль над законами и правительством,-1.0491,-0.8333,-0.0075,6,26,50,False,-0.2083,14,14
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",66a,судебный контроль над законами и правительством,-1.049,-0.8333,-0.0073,6,22,50,False,-0.2083,14,13
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",66b1,смертная казнь для террористов,-0.2392,0.0,-0.0309,6,0,64,False,-0.2083,10,4
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",66b2,минимальные наказания,-0.4417,-0.5,-0.025,6,7,14,False,0.0833,8,10
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",69,возможность оспорить решения властей,-0.4062,-0.2208,-0.0093,6,37,73,False,-0.1761,44,30
@@ -2373,7 +2373,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 י,"Yisrael Techila, headed by Sharren Haskel",63,полномочия и вес юридического советника правительства,1.0,1.0,0.0,1,1,29,True,0.0,0,6
 י,"Yisrael Techila, headed by Sharren Haskel",64,полномочия обвинения и возможности уголовного преследования,0.2998,0.2,-0.0336,1,10,28,True,0.1333,30,40
 י,"Yisrael Techila, headed by Sharren Haskel",66,полномочия судов (+ дискреция судов),1.297,1.0,0.2136,1,3,8,True,0.0833,3,9
-י,"Yisrael Techila, headed by Sharren Haskel",66a,судебный контроль над законами и правительством,-0.6515,-1.0,0.1541,1,2,3,True,0.1944,9,11
+י,"Yisrael Techila, headed by Sharren Haskel",66a,судебный контроль над законами и правительством,-0.6514,-1.0,0.1542,1,1,3,True,0.1944,9,10
 י,"Yisrael Techila, headed by Sharren Haskel",66b,свобода судей в назначении наказаний,0.0,0.0,0.0,1,0,2,True,0.0,0,2
 י,"Yisrael Techila, headed by Sharren Haskel",66b1,смертная казнь для террористов,-0.1407,0.0,-0.1407,1,0,9,True,0.0,0,1
 י,"Yisrael Techila, headed by Sharren Haskel",66b2,минимальные наказания,-0.7585,-1.0,-0.0085,1,1,3,True,0.25,2,4
@@ -2682,7 +2682,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",63,полномочия и вес юридического советника правительства,0.25,0.0,0.0,3,0,0,False,0.25,89,5
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",64,полномочия обвинения и возможности уголовного преследования,0.581,0.625,0.0157,4,13,103,False,-0.0597,33,48
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",66,полномочия судов (+ дискреция судов),0.4776,0.25,0.0485,4,3,16,False,0.1792,24,13
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",66a,судебный контроль над законами и правительством,0.5316,0.25,0.0316,4,1,7,False,0.25,25,10
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",66a,судебный контроль над законами и правительством,0.2816,0.0,0.0316,4,0,7,False,0.25,25,9
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",66b,свобода судей в назначении наказаний,0.0,0.0,0.0,1,0,2,True,0.0,0,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",66b1,смертная казнь для террористов,0.25,0.0,0.0,2,0,0,True,0.25,19,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",66b2,минимальные наказания,0.0822,0.0,-0.0428,4,0,4,False,0.125,4,3
@@ -3005,7 +3005,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",63,полномочия и вес юридического советника правительства,0.0417,-0.1667,0.0,6,2,30,False,0.2083,132,5
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",64,полномочия обвинения и возможности уголовного преследования,0.7343,0.5917,0.0797,8,74,152,False,0.0629,69,63
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",66,полномочия судов (+ дискреция судов),0.8527,0.625,0.0698,8,20,26,False,0.158,44,15
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",66a,судебный контроль над законами и правительством,0.7864,0.625,-0.0004,8,9,13,False,0.1618,43,13
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",66a,судебный контроль над законами и правительством,0.6802,0.5,-0.0004,8,6,12,False,0.1806,41,11
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",66b,свобода судей в назначении наказаний,0.6667,0.6667,0.0,3,2,2,False,0.0,0,3
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",66b1,смертная казнь для террористов,-0.9992,-0.5714,-0.2492,7,4,20,False,-0.1786,52,4
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",66b2,минимальные наказания,-0.9041,-0.7143,-0.0612,7,25,23,False,-0.1286,16,9
@@ -3340,7 +3340,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",63,полномочия и вес юридического советника правительства,-0.3636,-0.3636,0.0,22,15,632,False,0.0,0,6
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",64,полномочия обвинения и возможности уголовного преследования,0.0802,0.0051,0.0029,33,106,455,False,0.0722,677,105
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",66,полномочия судов (+ дискреция судов),0.0631,0.1354,0.0049,32,14,130,False,-0.0772,232,19
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",66a,судебный контроль над законами и правительством,-0.6324,-0.4882,0.0041,33,43,255,False,-0.1483,84,22
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",66a,судебный контроль над законами и правительством,-0.6297,-0.4848,0.0035,33,34,243,False,-0.1483,84,17
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",66b,свобода судей в назначении наказаний,1.0,1.0,0.0,2,2,2,True,0.0,0,3
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",66b1,смертная казнь для террористов,-0.2592,-0.0357,-0.027,28,1,265,False,-0.1964,33,4
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",66b2,минимальные наказания,-0.2967,-0.375,-0.022,32,36,52,False,0.1003,26,25
@@ -3925,7 +3925,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",63,полномочия и вес юридического советника правительства,0.25,0.0,0.0,5,0,0,False,0.25,135,5
 עם,"Ra’am, the United Arab List",64,полномочия обвинения и возможности уголовного преследования,0.2597,0.3889,-0.0458,6,20,145,False,-0.0834,148,61
 עם,"Ra’am, the United Arab List",66,полномочия судов (+ дискреция судов),1.012,1.0,-0.0913,6,15,40,False,0.1033,37,15
-עם,"Ra’am, the United Arab List",66a,судебный контроль над законами и правительством,0.2469,0.0,-0.0031,6,0,27,False,0.25,41,11
+עם,"Ra’am, the United Arab List",66a,судебный контроль над законами и правительством,0.2469,0.0,-0.0031,6,0,27,False,0.25,40,10
 עם,"Ra’am, the United Arab List",66b1,смертная казнь для террористов,0.3532,0.0,0.1032,6,0,6,False,0.25,61,4
 עם,"Ra’am, the United Arab List",66b2,минимальные наказания,0.1796,-0.1667,0.1171,6,1,20,False,0.2292,14,6
 עם,"Ra’am, the United Arab List",69,возможность оспорить решения властей,0.716,0.6667,-0.0323,6,7,47,False,0.0817,83,30
@@ -4254,7 +4254,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",63,полномочия и вес юридического советника правительства,0.248,0.0,0.0,15,0,0,False,0.248,424,5
 רק,"Be’Yahad, headed by Naftali Bennett",64,полномочия обвинения и возможности уголовного преследования,0.5329,0.5375,0.0144,16,43,403,False,-0.019,287,71
 רק,"Be’Yahad, headed by Naftali Bennett",66,полномочия судов (+ дискреция судов),0.8867,0.6875,0.0274,16,26,76,False,0.1718,116,22
-רק,"Be’Yahad, headed by Naftali Bennett",66a,судебный контроль над законами и правительством,0.6304,0.3846,-0.0042,13,6,49,False,0.25,102,11
+רק,"Be’Yahad, headed by Naftali Bennett",66a,судебный контроль над законами и правительством,0.3227,0.0769,-0.0042,13,1,49,False,0.25,102,10
 רק,"Be’Yahad, headed by Naftali Bennett",66b,свобода судей в назначении наказаний,0.6667,0.6667,0.0,6,5,8,False,0.0,0,6
 רק,"Be’Yahad, headed by Naftali Bennett",66b1,смертная казнь для террористов,0.25,0.0,0.0,15,0,0,False,0.25,135,2
 רק,"Be’Yahad, headed by Naftali Bennett",66b2,минимальные наказания,-0.3901,-0.4615,-0.0664,13,6,25,False,0.1378,18,8
@@ -4585,7 +4585,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",63,полномочия и вес юридического советника правительства,-0.25,0.0,0.0,11,0,0,False,-0.25,301,5
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",64,полномочия обвинения и возможности уголовного преследования,0.0873,0.002,0.0091,12,24,213,False,0.0762,297,80
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",66,полномочия судов (+ дискреция судов),-0.6569,-0.5556,0.0212,12,20,31,False,-0.1226,137,21
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",66a,судебный контроль над законами и правительством,-0.6472,-0.3889,-0.0708,12,13,113,False,-0.1875,30,14
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",66a,судебный контроль над законами и правительством,-0.758,-0.5,-0.0705,12,11,112,False,-0.1875,30,11
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",66b,свобода судей в назначении наказаний,0.25,0.0,0.0,1,0,0,True,0.25,2,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",66b1,смертная казнь для террористов,-0.2663,0.0,-0.0788,12,0,15,False,-0.1875,81,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",66b2,минимальные наказания,-0.0755,-0.1818,-0.03,11,4,25,False,0.1364,10,6
