@@ -1,0 +1,3 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason,kind,cid,v2,s2,r2,tid
+52,352,הצעת חוק שוויון הזדמנויות במקום מגורים,2158074,−,secondary,2158074,F1-30,not_about,,"Anti-discrimination in housing admission, not contract terms",candidate,C2,borderline,−1,Bans discrimination in admission to housing; limits freedom to choose contracting party to protect applicants,T1
+52,352,חוק הבוררות המסחרית הבין-לאומית,2209386,+,secondary,2209386,F1-7,not_about,,Commercial arbitration procedure; no weaker-party protection question,candidate,C4,borderline,1,"International commercial arbitration law adopting party autonomy and limited court intervention; commercial parties, not weaker party",T2

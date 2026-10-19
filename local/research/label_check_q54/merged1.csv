@@ -1,0 +1,44 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason
+54,277a,הצעת חוק לתיקון פקודת בתי הסוהר (תנאי אסיר ביטחוני בבתי הסוהר),2168627 2162072 2197023 2197577 2203194,+,secondary,2168627,F1-1,about,+,Restricts security prisoners' prison conditions and privileges
+54,277a,הצעת חוק שלילת זכויות לראש ממשלה לשעבר שכיהן תקופה קצרה,2195685 2190835 2198230,+,secondary,2195685,F1-2,not_about,,Former prime minister perks; not terrorism
+54,277a,"חוק הביטוח הלאומי (תיקון מס' 257), התשפ""ה–2025",2197166,+,secondary,2197166,F1-3,about,+,National Insurance rights denied for serious terror acts
+54,277a,הצעת חוק לתיקון פקודת בתי הסוהר (שלילת זכאות למימון שירותי בריאות משפרי איכות חיים לאסיר ביטחוני),2196049 2193630 2196828 2193213,+,secondary,2196049,F1-4,about,+,Denies security prisoners state-funded quality-of-life health services
+54,277a,הצעת חוק הכניסה לישראל (תיקון - רישיון מיוחד לישיבת ביקור),2156516 2196865,+,secondary,2156516,F1-5,borderline,−,"Grants residence permit after terror-linked status revocation; status, not benefits"
+54,277a,הצעת חוק החמרת ענישה למורשעים במגע עם סוכן חוץ מטעם מדינת איראן,2242372,+,secondary,2242372,F1-6,borderline,+,"Strips benefits from Iran-spying convicts; security, not strictly terror"
+54,277a,הצעת חוק לתיקון פקודת בתי הסוהר (שלילת זכויות יתר מאסיר ביטחוני המשתייך לארגון טרור),2204137 2189872 2207261,+,secondary,2204137,F1-7,about,+,Removes privileges from prisoners belonging to terror organizations
+54,277a,הצעת חוק שלילת זכויות למעורב בטרור ולבני משפחתו (תיקוני חקיקה),2156371 2196883 2202759,+,secondary,2156371,F1-8,about,+,Denies social benefits to terror perpetrators and their families
+54,277a,הצעת חוק הביטוח הלאומי (תיקון - שלילת זכויות סוציאליות לאדם שהורשע ברצח או ניסיון לרצח על רקע לאומני),2159212,+,secondary,2159212,F1-9,about,+,National Insurance rights denied for nationalist murder convicts
+54,277a,הצעת חוק להקפאת קצבאות שמשולמות לפעיל טרור ומשפחתו מקופת המדינה,2196353 2223688 2159478 2196157 2156467,+,secondary,2196353,F1-10,about,+,Freezes state allowances to terror operatives and families
+54,277a,הצעת חוק בתי דין רבניים (קיום פסקי דין של גירושין) (תיקון - שלילת זכאות לסיוע משפטי לסרבני גט),2221001,+,secondary,2221001,F1-11,not_about,,Legal aid for get refusers; unrelated to terrorism
+54,277a,הצעת חוק לתיקון פקודת מס הכנסה (שלילת הכרה בעמותות המעודדות השתמטות משירות ביטחון),2234467 2235554,+,secondary,2234467,F1-12,not_about,,Tax recognition for draft-evasion nonprofits; unrelated to terrorism
+54,277a,הצעת חוק המכינות הקדם-צבאיות (תיקון - שלילת הכרה ממכינות המעודדות סירוב פקודה והסתה),2156354 2201029,+,secondary,2156354,F1-13,not_about,,Pre-military academies encouraging refusal; unrelated to terrorism
+54,277a,הצעת חוק שלילת זכויות למעורב בטרור (תיקוני חקיקה),2191341 2158413,+,secondary,2191341,F1-14,about,+,Denies state rights to people involved in terror
+54,277a,"הצעת חוק הדגל, הסמל והמנון המדינה (תיקון - שלילת תמיכה)",2196067 2156821,+,secondary,2196067,F1-15,not_about,,Funding tied to flag display; unrelated to terrorism
+54,277a,הצעת חוק למניעת פגיעה במדינת ישראל באמצעות חרם (תיקון - מניעת זכאות לפרס),2159916 2197156,+,main,2159916,F1-16,not_about,,State prizes for boycott supporters; unrelated to terrorism
+54,277a,הצעת חוק הביטוח הלאומי (תיקון - שלילת קצבאות ממחבלים),2201649 2223412 2191361,+,secondary,2201649,F1-17,about,+,Denies National Insurance allowances to terrorists
+54,277a,הצעת חוק שלילת הטבות מבכירים במדינת ישראל,2235433,+,main,2235433,F1-18,not_about,,Perks of senior officials; unrelated to terrorism
+54,277a,הצעת חוק מיסוי מקרקעין (שבח ורכישה) (תיקון - אי תחולת פטור ממס שבח על מי שהשכיר דירת מגורים לשוהה שלא כדין),2159149,+,secondary,2159149,F1-19,not_about,,Tax exemption for landlords of illegal residents
+54,277a,הצעת חוק שלילת הטבות מבכירים במערכת הביטחון,2227066 2224779 2230560,+,secondary,2227066,F1-20,not_about,,Perks of former security chiefs over political conduct
+54,277a,הצעת חוק הבטחת הכנסה (תיקון - שלילת גמלה בגלל פעולת טרור),2195700 2191397,+,main,2195700,F1-21,about,+,Denies income support due to terror act
+54,277a,הצעת חוק שלילת תשלומים מחבר הכנסת ומחבר הכנסת לשעבר בשל עבירה (תיקון - חשוד בעבירת ביטחון),2197894 2159743,+,secondary,2197894,F1-22,borderline,+,Denies pay to Knesset members suspected of security offenses
+54,277a,הצעת חוק הביטוח הלאומי (תיקון - שלילת זכויות סוציאליות לאדם שהורשע ברצח או בניסיון לרצח על רקע לאומני),2227987,+,secondary,2227987,F1-23,about,+,National Insurance rights denied for nationalist murder convicts
+54,277a,הצעת חוק-יסוד: הממשלה (תיקון - שלילת שכר בגין אי-הקמת ממשלה),2157899,+,secondary,2157899,F1-24,not_about,,Politicians' pay after failed government formation
+54,277a,הצעת חוק הביטוח הלאומי (תיקון - שלילת זכויות סוציאליות לאדם שהורשע בעבירות ביטחון חמורות),2191803,+,secondary,2191803,F1-25,about,+,National Insurance rights denied for serious security offenses
+54,277a,הצעת חוק יסודות התקציב (תיקון - מניעת תמיכה במוסדות המסיתים להשתמטות),2236084,+,secondary,2236084,F1-26,not_about,,Budget support for institutions inciting draft evasion
+54,277a,הצעת חוק להקפאת כספים ששילמה הרשות הפלסטינית בזיקה לטרור מהכספים המועברים אליה מממשלת ישראל (תיקון - הקפאת כספי הרשות הפלסטינית בגין טיפולים רפואיים לאסיר ביטחוני),2223612,+,secondary,2223612,F1-27,borderline,+,Offsets security prisoners' medical costs from Palestinian Authority funds
+54,277a,הצעת חוק לתיקון פקודת הרופאים (אי-הכרה בלימודי רפואה שנערכו במדינות עוינות או ברשות הפלסטינית),2229631,+,secondary,2229631,F1-28,not_about,,Medical degrees from hostile states; not terror convicts
+54,277a,"חוק הביטוח הלאומי (תיקון מס' 250), התשפ""ה–2024",2218862,+,secondary,2218862,F1-29,about,+,Stops allowances to terror operatives' families abroad
+54,277a,הצעת חוק-יסוד: הכנסת (תיקון - שלילת שכר בשל אי-הצהרת אמונים),2158080,+,secondary,2158080,F1-30,not_about,,Knesset member pay for refusing oath of allegiance
+54,277a,"חוק הביטוח הלאומי (תיקון מס' 251), התשפ""ה–2024",2213768,+,secondary,2213768,F1-31,not_about,,"Notes suggest security-load measure, no benefit denial shown"
+54,277a,הצעת חוק האזרחות והכניסה לישראל (הוראת שעה) (תיקון - איסור שהייה וישיבה של פעילי טרור וקרוביהם),2235026,+,secondary,2235026,F1-32,borderline,+,"Bars residence for terror operatives and relatives; status, not benefits"
+54,277a,הצעת חוק לתיקון פקודת בתי הסוהר (שלילת ביקורים מאסירים המשתייכים לארגון טרור),2223724,+,secondary,2223724,F1-33,about,+,Denies visits to prisoners from terror organizations
+54,277a,הצעת חוק להקפאת כספים ששילמה הרשות הפלסטינית בזיקה לטרור מהכספים המועברים אליה מממשלת ישראל (תיקון - חילוט הכספים וניהולם),2202350,+,secondary,2202350,F1-34,borderline,+,Forfeits Palestinian Authority funds covering terror prisoners' medical care
+54,277a,הצעת חוק הביטוח הלאומי (תיקון - שלילת קצבה בשל מעשה טרור),2156225,+,secondary,2156225,F1-35,about,+,Denies allowances to terrorists' family members
+54,277a,"חוק מניעת מימון לייצוג משפטי בידי מדינת ישראל (חשוד, נאשם או מורשע בעבירת ביטחון - חרבות ברזל), התשפ""ה–2024",2211439,+,secondary,2211439,F1-36,about,+,Denies state-funded legal representation to security offenders
+54,277a,הצעת חוק להקפאת כספים ששילמה הרשות הפלסטינית בזיקה לטרור מהכספים המועברים אליה מממשלת ישראל (תיקון - הקפאת כספי תגמולים לתושבי האזור מכוח חוק התגמולים לנפגעי פעולות איבה),2206225,+,secondary,2206225,F1-37,not_about,,Compensation for Gaza residents hurt by rockets; not convicts
+54,277a,הצעת חוק זכויות החולה (תיקון - מניעת טיפול רפואי למחבלים במערכת הבריאות הציבורית),2229715 2231899,+,secondary,2229715,F1-38,about,+,Denies terrorists treatment in public health system
+54,277a,הצעת חוק הפיקוח על שירותים פיננסיים (קופות גמל) (תיקון - שלילת זכאות לקצבאות ולפיצויי פיטורים עקב ביצוע פעילות טרור),2201038 2157264,+,main,2201038,F1-39,about,+,Denies pensions and severance due to terror activity
+54,277a,הצעת חוק הביטוח הלאומי (תיקון - שלילת קצבאות שמשולמות לפעילי טרור ובני משפחותיהם מחוץ לישראל),2220970,+,secondary,2220970,F1-40,about,+,Denies allowances to terror operatives and families abroad
+54,277a,הצעת חוק לאיסור מתן היתר שהייה בישראל לעבריין בנייה בשטחי c,2202793,+,secondary,2202793,F1-41,not_about,,Stay permits for illegal builders in Area C
+54,277a,הצעת חוק המועצה להשכלה גבוהה (תיקון - שלילת זכאות לתואר אקדמי בשל תמיכה בטרור),2211596,+,secondary,2211596,F1-42,borderline,+,Revokes academic degrees for terror support; not state benefit
+54,277a,"הצעת חוק לתיקון פקודת בתי הסוהר (מס' 73) (מניעת כניסתם של נציגי ארגון הצלב האדום הבין-לאומי והעברת מידע לארגון), התשפ""ו–2026",2211922,+,secondary,2211922,F1-43,borderline,+,Bars Red Cross from prisons; prisoner conditions indirectly

@@ -5174,6 +5174,646 @@
     "role": "main",
     "source": "label check q47 (2026-10-19): 2 of 3 blind checks «not about»",
     "reason": "Procedure for forfeiting and destroying seized drugs; technical"
+   },
+   {
+    "bill_id": "2215754",
+    "d": "340",
+    "q": "48",
+    "role": "secondary",
+    "source": "label check q48 (2026-10-19): two blind checks «not about»",
+    "reason": "Israel Prize basic law, not state appointments"
+   },
+   {
+    "bill_id": "2157330",
+    "d": "340",
+    "q": "48",
+    "role": "secondary",
+    "source": "label check q48 (2026-10-19): two blind checks «not about»",
+    "reason": "Local council acting head election rules"
+   },
+   {
+    "bill_id": "2216177",
+    "d": "340",
+    "q": "48",
+    "role": "secondary",
+    "source": "label check q48 (2026-10-19): two blind checks «not about»",
+    "reason": "Single chief rabbi and rabbinical court structure"
+   },
+   {
+    "bill_id": "2143625",
+    "d": "340",
+    "q": "48",
+    "role": "secondary",
+    "source": "label check q48 (2026-10-19): two blind checks «not about»",
+    "reason": "Municipal tax collection companies"
+   },
+   {
+    "bill_id": "2205614",
+    "d": "340",
+    "q": "48",
+    "role": "secondary",
+    "source": "label check q48 (2026-10-19): two blind checks «not about»",
+    "reason": "Municipal tenders committee, procurement not appointments"
+   },
+   {
+    "bill_id": "2233791",
+    "d": "340",
+    "q": "48",
+    "role": "secondary",
+    "source": "label check q48 (2026-10-19): two blind checks «not about»",
+    "reason": "Municipal tenders committee, procurement not appointments"
+   },
+   {
+    "bill_id": "2159458",
+    "d": "340",
+    "q": "48",
+    "role": "secondary",
+    "source": "label check q48 (2026-10-19): two blind checks «not about»",
+    "reason": "Periphery representation on public company boards"
+   },
+   {
+    "bill_id": "2202902",
+    "d": "340",
+    "q": "48",
+    "role": "secondary",
+    "source": "label check q48 (2026-10-19): two blind checks «not about»",
+    "reason": "National Library public oversight, not appointment vetting"
+   },
+   {
+    "bill_id": "2164264",
+    "d": "340",
+    "q": "48",
+    "role": "secondary",
+    "source": "label check q48 (2026-10-19): two blind checks «not about»",
+    "reason": "School principal role and status"
+   },
+   {
+    "bill_id": "2195677",
+    "d": "340",
+    "q": "48",
+    "role": "secondary",
+    "source": "label check q48 (2026-10-19): two blind checks «not about»",
+    "reason": "School principal role and status"
+   },
+   {
+    "bill_id": "2216629",
+    "d": "340",
+    "q": "48",
+    "role": "secondary",
+    "source": "label check q48 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Head of disabled veterans rehabilitation department; no vetting committee"
+   },
+   {
+    "bill_id": "2160370",
+    "d": "352",
+    "q": "52",
+    "role": "secondary",
+    "source": "label check q52 (2026-10-19): two blind checks «not about»",
+    "reason": "Antitrust exemption for agricultural produce, not weaker-party contract terms"
+   },
+   {
+    "bill_id": "2160322",
+    "d": "352",
+    "q": "52",
+    "role": "secondary",
+    "source": "label check q52 (2026-10-19): two blind checks «not about»",
+    "reason": "Copyright royalty collection arrangements, not weaker-party contract terms"
+   },
+   {
+    "bill_id": "2227459",
+    "d": "352",
+    "q": "52",
+    "role": "secondary",
+    "source": "label check q52 (2026-10-19): two blind checks «not about»",
+    "reason": "Language accessibility of documents and services"
+   },
+   {
+    "bill_id": "2169731",
+    "d": "352",
+    "q": "52",
+    "role": "secondary",
+    "source": "label check q52 (2026-10-19): two blind checks «not about»",
+    "reason": "Patient medical information transfer, not contract terms"
+   },
+   {
+    "bill_id": "2158074",
+    "d": "352",
+    "q": "52",
+    "role": "secondary",
+    "source": "label check q52 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Anti-discrimination in housing admission, not contract terms"
+   },
+   {
+    "bill_id": "2209386",
+    "d": "352",
+    "q": "52",
+    "role": "secondary",
+    "source": "label check q52 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Commercial arbitration procedure; no weaker-party protection question"
+   },
+   {
+    "bill_id": "2205489",
+    "d": "283",
+    "q": "53",
+    "role": "main",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Beekeeping and pollination regulation; unrelated"
+   },
+   {
+    "bill_id": "2156091",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Waiting-time limits in public health care; no state-private shift"
+   },
+   {
+    "bill_id": "2198183",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Local civilian guard for emergencies; not privatization"
+   },
+   {
+    "bill_id": "2223726",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Benefits for adult orphans of terror victims; unrelated"
+   },
+   {
+    "bill_id": "2221268",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Benefits for adult orphans of terror victims; unrelated"
+   },
+   {
+    "bill_id": "2224879",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Benefits for adult orphans of terror victims; unrelated"
+   },
+   {
+    "bill_id": "2159056",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Internet providers' mandatory content filtering; unrelated"
+   },
+   {
+    "bill_id": "2241472",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Public transport fare calculation method; no ownership change"
+   },
+   {
+    "bill_id": "2215762",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Restricts businesses refusing service to security forces"
+   },
+   {
+    "bill_id": "2157457",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Pharmacies must collect unused medicines; environmental regulation"
+   },
+   {
+    "bill_id": "2196965",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Gun license eligibility; unrelated"
+   },
+   {
+    "bill_id": "2189801",
+    "d": "283",
+    "q": "53",
+    "role": "main",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Beekeeping regulation; unrelated"
+   },
+   {
+    "bill_id": "2190821",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Social finance lending for small businesses; not public services"
+   },
+   {
+    "bill_id": "2197688",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Social finance lending for small businesses; not public services"
+   },
+   {
+    "bill_id": "2157402",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Harassment prevention duties for venues, not service delivery"
+   },
+   {
+    "bill_id": "2198344",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Harassment prevention duties for venues, not service delivery"
+   },
+   {
+    "bill_id": "2199718",
+    "d": "283",
+    "q": "53",
+    "role": "main",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Mine clearance authority procedure; no state-versus-private question"
+   },
+   {
+    "bill_id": "2234536",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Anti-money-laundering duties on real estate brokers; regulation"
+   },
+   {
+    "bill_id": "2191296",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Gun licensing for veterans; firearms policy, not service provision"
+   },
+   {
+    "bill_id": "2167379",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "National-civil service linked to draft arrangements; unrelated"
+   },
+   {
+    "bill_id": "2237496",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Municipal security patrols regulation; not privatization question"
+   },
+   {
+    "bill_id": "2224785",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Content providers' local production investment duty; not public services"
+   },
+   {
+    "bill_id": "2198186",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Gun licensing for veterans; firearms policy, not service provision"
+   },
+   {
+    "bill_id": "2212299",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Temporary medical decision-maker for patients; unrelated to provision"
+   },
+   {
+    "bill_id": "2233168",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Licensing nonprofits in financial data market, not public services"
+   },
+   {
+    "bill_id": "2210668",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Special-needs inclusion in youth movements; unrelated"
+   },
+   {
+    "bill_id": "2199059",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Civil marriage registration in Eilat; unrelated"
+   },
+   {
+    "bill_id": "2211909",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Settlement standby squads; security organization, not privatization"
+   },
+   {
+    "bill_id": "2221002",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Former prison staff volunteering; individuals, not private organizations"
+   },
+   {
+    "bill_id": "2219164",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Hospital food surplus donation, not handing over a public service"
+   },
+   {
+    "bill_id": "2220895",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Court delegation to social workers; not state versus private"
+   },
+   {
+    "bill_id": "2189559",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Emergency foster care arrangements, not public-versus-private provision"
+   },
+   {
+    "bill_id": "2240227",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Health fund medicine donation; not provision ownership"
+   },
+   {
+    "bill_id": "2196562",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Reward for capturing terrorists; unrelated"
+   },
+   {
+    "bill_id": "2191777",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Reward for capturing terrorists; unrelated"
+   },
+   {
+    "bill_id": "2205561",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Domestic violence contact person at employers; not outsourcing public services"
+   },
+   {
+    "bill_id": "2203995",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Domestic violence contact person at employers; not outsourcing public services"
+   },
+   {
+    "bill_id": "1057055",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Planning temporary provision for artificial intelligence infrastructure; unrelated"
+   },
+   {
+    "bill_id": "2199820",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): two blind checks «not about»",
+    "reason": "Emergency foster care arrangements; no state-private shift"
+   },
+   {
+    "bill_id": "2160021",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Class action standing for environmental groups; litigation, not services"
+   },
+   {
+    "bill_id": "2231103",
+    "d": "283",
+    "q": "53",
+    "role": "secondary",
+    "source": "label check q53 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Recognition of pre-army volunteer year programs; not service provision"
+   },
+   {
+    "bill_id": "2157899",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "label check q54 (2026-10-19): two blind checks «not about»",
+    "reason": "Politicians' pay after failed government formation"
+   },
+   {
+    "bill_id": "2195685",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "label check q54 (2026-10-19): two blind checks «not about»",
+    "reason": "Former prime minister perks; not terrorism"
+   },
+   {
+    "bill_id": "2190835",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "label check q54 (2026-10-19): two blind checks «not about»",
+    "reason": "Former prime minister perks; not terrorism"
+   },
+   {
+    "bill_id": "2198230",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "label check q54 (2026-10-19): two blind checks «not about»",
+    "reason": "Former prime minister perks; not terrorism"
+   },
+   {
+    "bill_id": "2213768",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "label check q54 (2026-10-19): two blind checks «not about»",
+    "reason": "Notes suggest security-load measure, no benefit denial shown"
+   },
+   {
+    "bill_id": "2229631",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "label check q54 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Medical degrees from hostile states; not terror convicts"
+   },
+   {
+    "bill_id": "2196067",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "label check q54 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Funding tied to flag display; unrelated to terrorism"
+   },
+   {
+    "bill_id": "2156821",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "label check q54 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Funding tied to flag display; unrelated to terrorism"
+   },
+   {
+    "bill_id": "2158080",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "label check q54 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Knesset member pay for refusing oath of allegiance"
+   },
+   {
+    "bill_id": "2156354",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "label check q54 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Pre-military academies encouraging refusal; unrelated to terrorism"
+   },
+   {
+    "bill_id": "2201029",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "label check q54 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Pre-military academies encouraging refusal; unrelated to terrorism"
+   },
+   {
+    "bill_id": "2159149",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "label check q54 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Tax exemption for landlords of illegal residents"
+   },
+   {
+    "bill_id": "2235433",
+    "d": "277a",
+    "q": "54",
+    "role": "main",
+    "source": "label check q54 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Perks of senior officials; unrelated to terrorism"
+   },
+   {
+    "bill_id": "2221001",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "label check q54 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Legal aid for get refusers; unrelated to terrorism"
+   },
+   {
+    "bill_id": "2159916",
+    "d": "277a",
+    "q": "54",
+    "role": "main",
+    "source": "label check q54 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "State prizes for boycott supporters; unrelated to terrorism"
+   },
+   {
+    "bill_id": "2197156",
+    "d": "277a",
+    "q": "54",
+    "role": "main",
+    "source": "label check q54 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "State prizes for boycott supporters; unrelated to terrorism"
+   },
+   {
+    "bill_id": "2236084",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "label check q54 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Budget support for institutions inciting draft evasion"
+   },
+   {
+    "bill_id": "2227066",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "label check q54 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Perks of former security chiefs over political conduct"
+   },
+   {
+    "bill_id": "2224779",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "label check q54 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Perks of former security chiefs over political conduct"
+   },
+   {
+    "bill_id": "2230560",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "label check q54 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Perks of former security chiefs over political conduct"
+   },
+   {
+    "bill_id": "2234467",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "label check q54 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Tax recognition for draft-evasion nonprofits; unrelated to terrorism"
+   },
+   {
+    "bill_id": "2235554",
+    "d": "277a",
+    "q": "54",
+    "role": "secondary",
+    "source": "label check q54 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Tax recognition for draft-evasion nonprofits; unrelated to terrorism"
    }
   ]
  },
@@ -5343,6 +5983,24 @@
     "role": "main",
     "source": "label check q24 (2026-10-19): first check and the check on the full notes agree on the sign",
     "reason": "Legislates random Supreme Court panel assignment, removing Chief Justice's discretion over panels; externally constrains judicial leadership's internal administration, no direct elected-official power."
+   },
+   {
+    "bill_id": "2239526",
+    "d": "340",
+    "q": "48",
+    "sign": "−",
+    "role": "secondary",
+    "source": "label check q48 (2026-10-19): first check and the check on the full notes agree on the sign",
+    "reason": "Limits committee to formal qualification check, minister's discretion governs, Knesset hearing only advisory, bars added restrictions on appointments."
+   },
+   {
+    "bill_id": "2157017",
+    "d": "352",
+    "q": "52",
+    "sign": "−",
+    "role": "secondary",
+    "source": "label check q52 (2026-10-19): first check and the check on the full notes agree on the sign",
+    "reason": "Abolishes employer's statutory right to force retirement at 67; protects worker against employment terms, mainly retirement and age policy."
    }
   ]
  }
