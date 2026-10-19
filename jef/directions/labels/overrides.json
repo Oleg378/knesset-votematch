@@ -6918,6 +6918,118 @@
     "role": "main",
     "source": "label check q62 (2026-10-19): 2 of 3 blind checks «not about»",
     "reason": "Bar Association regulation; not ministerial control of officials"
+   },
+   {
+    "bill_id": "2241157",
+    "d": "66a",
+    "q": "63",
+    "role": "main",
+    "source": "label check q63 (2026-10-19): two blind checks «not about»",
+    "reason": "Minister minimum age qualification; unrelated to override"
+   },
+   {
+    "bill_id": "2223239",
+    "d": "66a",
+    "q": "63",
+    "role": "secondary",
+    "source": "label check q63 (2026-10-19): two blind checks «not about»",
+    "reason": "Terrorist home demolitions; not about override of struck laws"
+   },
+   {
+    "bill_id": "2196734",
+    "d": "66a",
+    "q": "63",
+    "role": "secondary",
+    "source": "label check q63 (2026-10-19): two blind checks «not about»",
+    "reason": "Candidate disqualification majority; not override or law challenges"
+   },
+   {
+    "bill_id": "2156489",
+    "d": "66a",
+    "q": "63",
+    "role": "secondary",
+    "source": "label check q63 (2026-10-19): two blind checks «not about»",
+    "reason": "Candidate disqualification majority; not override or law challenges"
+   },
+   {
+    "bill_id": "2196938",
+    "d": "66a",
+    "q": "63",
+    "role": "main",
+    "source": "label check q63 (2026-10-19): two blind checks «not about»",
+    "reason": "Minister removal on criminal suspicion; not court review of laws"
+   },
+   {
+    "bill_id": "2156884",
+    "d": "66a",
+    "q": "63",
+    "role": "main",
+    "source": "label check q63 (2026-10-19): two blind checks «not about»",
+    "reason": "Minister removal on criminal suspicion; not court review of laws"
+   },
+   {
+    "bill_id": "2167058",
+    "d": "66a",
+    "q": "63",
+    "role": "secondary",
+    "source": "label check q63 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Administrative decision validity procedure; not override question"
+   },
+   {
+    "bill_id": "2190775",
+    "d": "66a",
+    "q": "63",
+    "role": "secondary",
+    "source": "label check q63 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Environmental rights Basic Law; unrelated to override"
+   },
+   {
+    "bill_id": "2216972",
+    "d": "66a",
+    "q": "63",
+    "role": "secondary",
+    "source": "label check q63 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Environmental rights Basic Law; unrelated to override"
+   },
+   {
+    "bill_id": "2200576",
+    "d": "66a",
+    "q": "63",
+    "role": "secondary",
+    "source": "label check q63 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Prisoner petitions jurisdiction in military courts; not override"
+   },
+   {
+    "bill_id": "2199184",
+    "d": "66a",
+    "q": "63",
+    "role": "secondary",
+    "source": "label check q63 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Social security appeals procedure; unrelated to override question"
+   },
+   {
+    "bill_id": "2197323",
+    "d": "66a",
+    "q": "63",
+    "role": "secondary",
+    "source": "label check q63 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Social security appeals procedure; unrelated to override question"
+   },
+   {
+    "bill_id": "2162474",
+    "d": "66a",
+    "q": "63",
+    "role": "secondary",
+    "source": "label check q63 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Social security appeals procedure; unrelated to override question"
+   },
+   {
+    "bill_id": "2203287",
+    "d": "66a",
+    "q": "63",
+    "role": "secondary",
+    "source": "label check q63 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Social security appeals procedure; unrelated to override question"
    }
   ]
  },
