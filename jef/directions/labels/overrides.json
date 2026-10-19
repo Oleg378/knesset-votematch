@@ -4438,6 +4438,38 @@
     "role": "secondary",
     "source": "label check q33 (2026-10-19): 2 of 3 blind checks «not about»",
     "reason": "Marriage and divorce framework, not civil property disputes"
+   },
+   {
+    "bill_id": "2200864",
+    "d": "356b",
+    "q": "35",
+    "role": "secondary",
+    "source": "label check q35 (2026-10-19): two blind checks «not about»",
+    "reason": "General social rights for students abroad, not public transport"
+   },
+   {
+    "bill_id": "2203913",
+    "d": "356b",
+    "q": "35",
+    "role": "secondary",
+    "source": "label check q35 (2026-10-19): two blind checks «not about»",
+    "reason": "General social rights for students abroad, not public transport"
+   },
+   {
+    "bill_id": "2227317",
+    "d": "356b",
+    "q": "35",
+    "role": "secondary",
+    "source": "label check q35 (2026-10-19): two blind checks «not about»",
+    "reason": "General social rights for students abroad, not public transport"
+   },
+   {
+    "bill_id": "2209185",
+    "d": "356b",
+    "q": "35",
+    "role": "secondary",
+    "source": "label check q35 (2026-10-19): two blind checks «not about»",
+    "reason": "Employer commuting allowance, not state public transport spending"
    }
   ]
  },
