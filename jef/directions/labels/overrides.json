@@ -3446,6 +3446,62 @@
     "role": "secondary",
     "source": "label check q15 (2026-10-19): 2 of 3 blind checks «not about»",
     "reason": "Payments to released captives, mostly civilians"
+   },
+   {
+    "bill_id": "2234330",
+    "d": "92b",
+    "q": "18",
+    "role": "main",
+    "source": "label check q18 (2026-10-19): two blind checks «not about»",
+    "reason": "Video-conference court hearings; procedural, not prison conditions"
+   },
+   {
+    "bill_id": "2214085",
+    "d": "92b",
+    "q": "18",
+    "role": "secondary",
+    "source": "label check q18 (2026-10-19): two blind checks «not about»",
+    "reason": "Detention extension for suspects; procedural, not prison conditions"
+   },
+   {
+    "bill_id": "2220054",
+    "d": "92b",
+    "q": "18",
+    "role": "secondary",
+    "source": "label check q18 (2026-10-19): two blind checks «not about»",
+    "reason": "Detention extension for suspects; procedural, not prison conditions"
+   },
+   {
+    "bill_id": "2214722",
+    "d": "92b",
+    "q": "18",
+    "role": "main",
+    "source": "label check q18 (2026-10-19): two blind checks «not about»",
+    "reason": "Special prisoner furlough in wartime, not security prisoners' conditions"
+   },
+   {
+    "bill_id": "2218801",
+    "d": "92b",
+    "q": "18",
+    "role": "secondary",
+    "source": "label check q18 (2026-10-19): two blind checks «not about»",
+    "reason": "Detention extension for suspects; procedural, not prison conditions"
+   },
+   {
+    "bill_id": "2221017",
+    "d": "92b",
+    "q": "18",
+    "role": "secondary",
+    "source": "label check q18 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Detention powers and judicial review timing, not prison conditions"
+   },
+   {
+    "bill_id": "2216638",
+    "d": "92b",
+    "q": "18",
+    "role": "secondary",
+    "source": "label check q18 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Detention powers for unlawful combatants, not prison conditions"
    }
   ]
  },
