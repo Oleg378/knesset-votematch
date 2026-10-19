@@ -99,15 +99,16 @@ export default function App({ loader }: { loader: Loader }) {
   // A screen is shown only when its file has arrived; otherwise a loader for this screen only.
   const wait = src.failed ? <LoadError /> : <Loading />;
   const props = { state, dispatch: send };
-  const statement = sc.name === 'question'
-    ? (data?.statements ?? core?.statements ?? []).find((s) => s.q === state.shown[sc.i]) : undefined;
+  const statements = data?.statements ?? core?.statements;
+  const texts = useMemo(() => (statements ?? []).map((s) => s.statement_en), [statements]);
+  const statement = sc.name === 'question' ? statements?.find((s) => s.q === state.shown[sc.i]) : undefined;
   let body;
   switch (sc.name) {
     case 'start':
       body = <StartScreen core={core} dispatch={send} />;
       break;
     case 'question':
-      body = statement ? <QuestionScreen key={sc.i} statement={statement} {...props} /> : wait;
+      body = statement ? <QuestionScreen key={sc.i} statement={statement} texts={texts} {...props} /> : wait;
       break;
     case 'wait':
       body = wait;

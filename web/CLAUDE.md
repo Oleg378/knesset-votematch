@@ -284,6 +284,11 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
   the scroll goes to the top when it ends; the old picture is put where it was (`--card-old-y`); the screens are
   clipped at the bottom bar's top (`--card-visible`). Check a scrolled screen in WebKit too (Playwright WebKit: compare
   positions — its screenshots leave the new pictures of named elements blank).
+- **Statement reserve** (customer 2026-10-19, DECISIONS.md G12): on question screens the statement block keeps the
+  height of the longest statement at the current width, among those within 7 lines on the Figma phone (`REF_LINES`,
+  `REF_VIEWPORT` in `src/statementReserve.ts`; measured in the browser over all statements of the data), so the answers
+  stay in one place. It takes only free space above the bottom bar — never adds scrolling or hides the card's bottom;
+  the statement itself is always shown whole (no inner scroll: its end, «even if …», must be read).
 - **Home on narrow phones:** the hero picture is 150 px (Figma) from ~390 px wide; narrower, it shrinks
   (`width: min(150px, 100% − 184px − 4px)`) so «Find your / vote match» always stays on two lines. Never three lines.
 - **Fonts:** Fraunces only from `src/assets/fonts/fraunces-opsz.woff2` (regenerate with `node scripts/subset-fraunces.mjs`);
