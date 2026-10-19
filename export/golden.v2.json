@@ -100,21 +100,28 @@
     },
     {
      "id": "כן",
-     "closeness": 0.07510651239132105,
+     "closeness": 0.08531392409573998,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.04937465921378723,
+     "closeness": 0.049775332915227156,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.04398413145813397,
+     "closeness": 0.04420640944408796,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "דרך",
+     "closeness": 0.03155983407400407,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -122,13 +129,6 @@
     {
      "id": "ל",
      "closeness": 0.026495725823390607,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "דרך",
-     "closeness": 0.021251418394986656,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -7123,14 +7123,21 @@
     },
     {
      "id": "כן",
-     "closeness": 0.06203099768689835,
+     "closeness": 0.0717532015245751,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "דרך",
+     "closeness": 0.06180322886814027,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.05909201048460331,
+     "closeness": 0.05947163416692317,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -7143,15 +7150,8 @@
      "ranked": true
     },
     {
-     "id": "דרך",
-     "closeness": 0.05196665022809604,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
      "id": "רק",
-     "closeness": 0.03751873196472852,
+     "closeness": 0.037734331201718437,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -7394,14 +7394,14 @@
       "כן"
      ],
      [
+      "14",
+      "59",
+      "דרך"
+     ],
+     [
       "41",
       "63",
       "אמת"
-     ],
-     [
-      "72",
-      "99",
-      "ל"
      ]
     ]
    },
@@ -14149,28 +14149,28 @@
     },
     {
      "id": "כן",
-     "closeness": 0.08912148905802643,
+     "closeness": 0.09916738822675003,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.07207394067722749,
+     "closeness": 0.07245553772071056,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.046838334631354714,
+     "closeness": 0.04705668488297204,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.03376667079879203,
+     "closeness": 0.04385668585163017,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -23501,14 +23501,7 @@
     },
     {
      "id": "כן",
-     "closeness": -0.011534280240794536,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "דרך",
-     "closeness": -0.040915132227207454,
+     "closeness": -0.05267244117265534,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -23517,6 +23510,13 @@
      "id": "ודם",
      "closeness": -0.06643922873027513,
      "coverage": 0.9285714285714286,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "דרך",
+     "closeness": -0.08134772765078918,
+     "coverage": 1.0,
      "note": "",
      "ranked": true
     },
@@ -23543,7 +23543,7 @@
     },
     {
      "id": "אמת",
-     "closeness": -0.18875768844778248,
+     "closeness": -0.19042679032889276,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -23571,7 +23571,7 @@
     },
     {
      "id": "רק",
-     "closeness": -0.3546130796296301,
+     "closeness": -0.3554134904732126,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -23774,14 +23774,14 @@
       "כן"
      ],
      [
-      "94",
-      "45",
-      "דרך"
-     ],
-     [
       "64",
       "10",
       "ודם"
+     ],
+     [
+      "94",
+      "45",
+      "דרך"
      ],
      [
       "36",
@@ -28205,30 +28205,6 @@
        ]
       },
       {
-       "q": "36",
-       "contribution": 0.3125,
-       "p": 0.3125,
-       "lines": [
-        "“The state should reduce its support for settlements in Judea and Samaria (the West Bank), even if this makes life there harder for settlers.”",
-        "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 0 votes on private bills and 14 votes on the other camp's bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2225520",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           6,
-           "Alon Schuster"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "75",
        "contribution": 0.2721,
        "p": 0.5442,
@@ -28703,6 +28679,17 @@
          ]
         }
        ]
+      },
+      {
+       "q": "36",
+       "contribution": -0.125,
+       "p": -0.125,
+       "lines": [
+        "“The state should reduce its support for settlements in Judea and Samaria (the West Bank), even if this makes life there harder for settlers.”",
+        "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: no bills of their own on this topic, only 0 votes on private bills and 5 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
       },
       {
        "q": "81",
@@ -33031,7 +33018,7 @@
     },
     {
      "id": "כן",
-     "closeness": 0.09098921249919449,
+     "closeness": 0.07174892868545531,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -33045,21 +33032,21 @@
     },
     {
      "id": "דרך",
-     "closeness": 0.01078343172148661,
+     "closeness": -0.011219225338157899,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.06097521785773413,
+     "closeness": -0.06142012263332646,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.07711952100242592,
+     "closeness": -0.07791139246008778,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -33267,7 +33254,7 @@
     "pairs": [
      [
       "3",
-      "42",
+      "100",
       "ל"
      ],
      [
@@ -54331,7 +54318,7 @@
     },
     {
      "id": "דרך",
-     "closeness": 0.11996920172721157,
+     "closeness": 0.11969526933039919,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -54345,7 +54332,7 @@
     },
     {
      "id": "רק",
-     "closeness": 0.09880802367441055,
+     "closeness": 0.09879768340565705,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -54359,7 +54346,7 @@
     },
     {
      "id": "כן",
-     "closeness": 0.08609389098093687,
+     "closeness": 0.08632662541064427,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -54373,7 +54360,7 @@
     },
     {
      "id": "אמת",
-     "closeness": -0.09835922716176311,
+     "closeness": -0.09831412282981734,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -66004,7 +65991,21 @@
     },
     {
      "id": "אמת",
-     "closeness": 0.026121477633902556,
+     "closeness": 0.026448046418088365,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "דרך",
+     "closeness": 0.010689857128955855,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "כן",
+     "closeness": 0.0043868387583893866,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -66013,20 +66014,6 @@
      "id": "ט",
      "closeness": 0.0028661900604956938,
      "coverage": 0.9859154929577465,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "דרך",
-     "closeness": 0.002493824688050239,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "כן",
-     "closeness": -0.0034354453680094364,
-     "coverage": 1.0,
      "note": "",
      "ranked": true
     },
@@ -66046,7 +66033,7 @@
     },
     {
      "id": "רק",
-     "closeness": -0.020514375677479185,
+     "closeness": -0.0203382753149361,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -66277,11 +66264,6 @@
       "אמת"
      ],
      [
-      "2",
-      "52",
-      "ט"
-     ],
-     [
       "9",
       "14",
       "דרך"
@@ -66290,6 +66272,11 @@
       "78",
       "103",
       "כן"
+     ],
+     [
+      "2",
+      "52",
+      "ט"
      ]
     ]
    },
@@ -80044,6 +80031,55 @@
        "evidence": []
       },
       {
+       "q": "36",
+       "contribution": 0.20455,
+       "p": -0.4091,
+       "lines": [
+        "“The state should reduce its support for settlements in Judea and Samaria (the West Bank), even if this makes life there harder for settlers.”",
+        "Your answer: agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 0 votes on private bills and 37 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2166205",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Michal Rozin"
+          ]
+         ]
+        },
+        {
+         "bill": "2156185",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Michal Rozin"
+          ]
+         ]
+        },
+        {
+         "bill": "2156192",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           108,
+           "Tamar Zandberg"
+          ]
+         ]
+        }
+       ]
+      },
+      {
        "q": "90",
        "contribution": 0.2045,
        "p": 0.2045,
@@ -80299,55 +80335,6 @@
          "sign": -1,
          "role": "main",
          "same": false,
-         "authors": [
-          [
-           108,
-           "Tamar Zandberg"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "36",
-       "contribution": 0.1938,
-       "p": -0.3876,
-       "lines": [
-        "“The state should reduce its support for settlements in Judea and Samaria (the West Bank), even if this makes life there harder for settlers.”",
-        "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 0 votes on private bills and 42 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2166205",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Michal Rozin"
-          ]
-         ]
-        },
-        {
-         "bill": "2156185",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Michal Rozin"
-          ]
-         ]
-        },
-        {
-         "bill": "2156192",
-         "sign": -1,
-         "role": "main",
-         "same": true,
          "authors": [
           [
            108,
@@ -85585,14 +85572,14 @@
    "ranking": [
     {
      "id": "רק",
-     "closeness": 0.22090469533007856,
+     "closeness": 0.22132846558322053,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.20098136818212295,
+     "closeness": 0.2017168491916052,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -85606,7 +85593,7 @@
     },
     {
      "id": "דרך",
-     "closeness": 0.14509081442500693,
+     "closeness": 0.16809390650334316,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -85620,7 +85607,7 @@
     },
     {
      "id": "כן",
-     "closeness": 0.040190955683396645,
+     "closeness": 0.06233317206572983,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -85861,7 +85848,7 @@
      ],
      [
       "20",
-      "103",
+      "86",
       "אמת"
      ],
      [
@@ -85871,7 +85858,7 @@
      ],
      [
       "42",
-      "49",
+      "103",
       "דרך"
      ],
      [
@@ -89772,12 +89759,12 @@
       },
       {
        "q": "36",
-       "contribution": 0.1721,
-       "p": -0.1721,
+       "contribution": 0.1833,
+       "p": -0.1833,
        "lines": [
         "“The state should reduce its support for settlements in Judea and Samaria (the West Bank), even if this makes life there harder for settlers.”",
         "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 3 votes on private bills and 97 votes on the other camp's bills on this topic."
+        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 3 votes on private bills and 94 votes on the other camp's bills on this topic."
        ],
        "evidence": [
         {
@@ -94080,12 +94067,12 @@
       },
       {
        "q": "36",
-       "contribution": 0.3876,
-       "p": -0.3876,
+       "contribution": 0.4091,
+       "p": -0.4091,
        "lines": [
         "“The state should reduce its support for settlements in Judea and Samaria (the West Bank), even if this makes life there harder for settlers.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 0 votes on private bills and 42 votes on the other camp's bills on this topic.",
+        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 0 votes on private bills and 37 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -96932,28 +96919,28 @@
     },
     {
      "id": "כן",
-     "closeness": -0.08007054556647604,
+     "closeness": -0.118310870620138,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.12308185342276996,
+     "closeness": -0.12391918608035099,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.15484955601139933,
+     "closeness": -0.20222942611867017,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.20157006668139238,
+     "closeness": -0.20318720474451585,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -102241,15 +102228,15 @@
      "ranked": true
     },
     {
-     "id": "דרך",
-     "closeness": 0.16493688010175162,
+     "id": "מחל",
+     "closeness": 0.16260722377883335,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
-     "id": "מחל",
-     "closeness": 0.16260722377883335,
+     "id": "דרך",
+     "closeness": 0.1546073208279717,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -102270,21 +102257,14 @@
     },
     {
      "id": "רק",
-     "closeness": 0.09601688090347199,
+     "closeness": 0.0957967614701015,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.018724307955935368,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "כן",
-     "closeness": 0.01758006252314826,
+     "closeness": 0.018316878195155685,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -102293,6 +102273,13 @@
      "id": "ודם",
      "closeness": 0.014472037424437492,
      "coverage": 0.9710144927536232,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "כן",
+     "closeness": 0.00852057738710483,
+     "coverage": 1.0,
      "note": "",
      "ranked": true
     },
@@ -102504,9 +102491,9 @@
       "ג"
      ],
      [
-      "42",
-      "78",
-      "דרך"
+      "45",
+      "47",
+      "מחל"
      ]
     ]
    },
@@ -115397,14 +115384,14 @@
     },
     {
      "id": "רק",
-     "closeness": 0.2034393592061025,
+     "closeness": 0.20384703008146107,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.14672436884640502,
+     "closeness": 0.16509761384438554,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -115425,7 +115412,7 @@
     },
     {
      "id": "דרך",
-     "closeness": 0.09542132611879812,
+     "closeness": 0.11508836813216329,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -115460,7 +115447,7 @@
     },
     {
      "id": "אמת",
-     "closeness": -0.034793150261680846,
+     "closeness": -0.03399351396539614,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -115681,7 +115668,7 @@
      ],
      [
       "13",
-      "52",
+      "18",
       "מחל"
      ]
     ]
@@ -126978,12 +126965,12 @@
       },
       {
        "q": "36",
-       "contribution": 0.1721,
-       "p": -0.1721,
+       "contribution": 0.1833,
+       "p": -0.1833,
        "lines": [
         "“The state should reduce its support for settlements in Judea and Samaria (the West Bank), even if this makes life there harder for settlers.”",
         "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 3 votes on private bills and 97 votes on the other camp's bills on this topic."
+        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 3 votes on private bills and 94 votes on the other camp's bills on this topic."
        ],
        "evidence": [
         {

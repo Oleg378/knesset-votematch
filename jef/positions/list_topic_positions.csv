@@ -75,7 +75,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",166,территория под израильским суверенитетом и правом,-0.6184,-0.3,-0.0684,10,4,12,False,-0.25,46,7
 אמת,"HaDemocratim, headed by Yair Golan",167,военное управление территориями,0.3076,0.0,0.0576,6,0,2,False,0.25,6,2
 אמת,"HaDemocratim, headed by Yair Golan",169,поддержка и присутствие поселений в Иудее и Самарии,-0.4842,-0.1,-0.1342,10,1,7,False,-0.25,48,9
-אמת,"HaDemocratim, headed by Yair Golan",169a,государственная поддержка поселений,-0.3876,-0.1818,0.0,11,3,0,False,-0.2058,42,8
+אמת,"HaDemocratim, headed by Yair Golan",169a,государственная поддержка поселений,-0.4091,-0.1818,0.0,11,3,0,False,-0.2273,37,7
 אמת,"HaDemocratim, headed by Yair Golan",169b,суверенитет в Иудее и Самарии,-0.3297,0.0,-0.0797,10,0,9,False,-0.25,40,4
 אמת,"HaDemocratim, headed by Yair Golan",17,регуляторная нагрузка на бизнес и частные организации,0.8242,0.851,0.0206,11,424,445,False,-0.0474,548,346
 אמת,"HaDemocratim, headed by Yair Golan",170,финансовые ресурсы Палестинской администрации,0.25,0.0,0.0,5,0,0,False,0.25,10,3
@@ -1252,7 +1252,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",166,территория под израильским суверенитетом и правом,0.1864,0.0,0.2489,4,0,8,False,-0.0625,5,5
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",167,военное управление территориями,-0.0345,0.0,-0.097,4,0,5,False,0.0625,1,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",169,поддержка и присутствие поселений в Иудее и Самарии,-0.3549,-0.25,0.0451,4,1,1,False,-0.15,26,8
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",169a,государственная поддержка поселений,0.125,0.0,0.0,4,0,0,False,0.125,11,4
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",169a,государственная поддержка поселений,-0.25,0.0,0.0,1,0,0,True,-0.25,4,3
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",169b,суверенитет в Иудее и Самарии,0.1662,0.0,0.2287,4,0,7,False,-0.0625,4,3
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",17,регуляторная нагрузка на бизнес и частные организации,0.887,0.8333,0.054,4,18,200,False,-0.0003,274,170
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",170,финансовые ресурсы Палестинской администрации,0.25,0.0,0.0,4,0,0,False,0.25,4,1
@@ -2457,7 +2457,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",166,территория под израильским суверенитетом и правом,-0.1246,0.0,0.0629,4,0,8,False,-0.1875,9,6
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",167,военное управление территориями,0.0297,0.0,0.0297,3,0,3,False,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",169,поддержка и присутствие поселений в Иудее и Самарии,-0.084,0.0,0.0903,4,0,2,False,-0.1742,24,7
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",169a,государственная поддержка поселений,0.3125,0.25,0.0,4,1,0,False,0.0625,14,4
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",169a,государственная поддержка поселений,-0.125,0.0,0.0,4,0,0,False,-0.125,5,3
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",169b,суверенитет в Иудее и Самарии,-0.1407,0.0,0.0468,4,0,6,False,-0.1875,9,4
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",17,регуляторная нагрузка на бизнес и частные организации,0.8277,0.8709,0.0371,4,64,200,False,-0.0802,331,194
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",170,финансовые ресурсы Палестинской администрации,0.1389,0.0,0.0,3,0,0,False,0.1389,5,2
@@ -3995,7 +3995,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",166,территория под израильским суверенитетом и правом,-0.2359,0.0,-0.0026,15,0,36,False,-0.2333,56,7
 רק,"Be’Yahad, headed by Naftali Bennett",167,военное управление территориями,-0.0712,0.0,-0.1545,6,0,6,False,0.0833,2,2
 רק,"Be’Yahad, headed by Naftali Bennett",169,поддержка и присутствие поселений в Иудее и Самарии,-0.2982,-0.0714,-0.0268,14,1,13,False,-0.1999,80,9
-רק,"Be’Yahad, headed by Naftali Bennett",169a,государственная поддержка поселений,-0.1721,0.0667,0.0,15,1,3,False,-0.2388,97,7
+רק,"Be’Yahad, headed by Naftali Bennett",169a,государственная поддержка поселений,-0.1833,0.0667,0.0,15,1,3,False,-0.25,94,6
 רק,"Be’Yahad, headed by Naftali Bennett",169b,суверенитет в Иудее и Самарии,-0.1637,0.0,0.003,15,0,22,False,-0.1667,35,3
 רק,"Be’Yahad, headed by Naftali Bennett",17,регуляторная нагрузка на бизнес и частные организации,0.5961,0.6408,0.0332,16,613,1199,False,-0.0778,1903,434
 רק,"Be’Yahad, headed by Naftali Bennett",170,финансовые ресурсы Палестинской администрации,0.0,0.0,0.0,2,0,0,True,0.0,2,2
