@@ -1,0 +1,17 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason,kind,cid
+21,300,הצעת חוק ארגוני עזר רפואיים הפועלים בתחום רפואת חירום דחופה טרום אשפוזית,2156338 2202735,+,secondary,2156338,F1-16,not_about,,Regulates emergency medical organizations; unrelated,candidate,C1
+21,300,הצעת חוק מגן דוד אדום (תיקון - חיזוק הפיקוח הפרלמנטרי על האגודה),2220893,+,main,2220893,F1-13,not_about,,Parliamentary oversight of Magen David Adom; unrelated,candidate,C2
+21,300,הצעת חוק שירות אזרחי (תיקון - צמצום יכולת ההשפעה של חשודים על התנהלות גוף מוכר),2157415,+,secondary,2157415,F1-17,not_about,,Civil service bodies under criminal investigation; unrelated,candidate,C3
+21,300,הצעת חוק לתיקון פקודת מס הכנסה (מיסוי תרומה מישות מדינית זרה),2199819 2161202 2156600,+,main,2199819,F1-5,about,+,Taxes donations from foreign state entities to NGOs,control,C4
+21,300,הצעת חוק האגודות העותומניות (רישום ופיקוח),2195987 2237242 2204617 2156173,+,main,2195987,F1-3,not_about,,Ottoman associations registration and supervision; not foreign funding,candidate,C5
+21,300,הצעת חוק העמותות (תיקון - מימון טרור כעילת פירוק),2203340,+,main,2203340,F1-19,not_about,,Terror financing as dissolution ground; not foreign-government funding,candidate,C6
+21,300,הצעת חוק קופת חולים (עידוד תרומת תרופות),2240227,+,secondary,2240227,F1-12,not_about,,Medicine donations via health funds; unrelated,candidate,C7
+21,300,הצעת חוק העמותות (תיקון - הסדרת מעמדן של אגודות עותמאניות כעמותות רשומות),2236464 2239606 2157067,+,main,2236464,F1-1,not_about,,General registration of Ottoman associations; no foreign-government funding angle,candidate,C8
+21,300,הצעת חוק העמותות (תיקון - הגבלת הכנסה ממדינות שאין לישראל יחסים רשמיים עימן),2198312,+,main,2198312,F1-18,about,+,Bans NGO income from countries without relations with Israel,control,C9
+21,300,הצעת חוק הגנת השכר (תיקון - הגבלת ניכוי דמי חבר ודמי טיפול מקצועי ארגוני),2156864,+,secondary,2156864,F1-8,not_about,,Union dues wage deductions; unrelated to NGO foreign funding,candidate,C10
+21,300,הצעת חוק מעמדן של ההסתדרות הציונית העולמית ושל הסוכנות היהודית לארץ-ישראל (תיקון - ביטול תיקון מס' 2 והחלת חופש מידע),2160542,+,secondary,2160542,F1-7,not_about,,Zionist Organization and Jewish Agency status; not foreign-funded NGOs,candidate,C11
+21,300,הצעת חוק העמותות (תיקון - שקיפות במימון ממשלתי או עירוני),2157935,+,main,2157935,F1-14,not_about,,"Disclosure of domestic government/municipal funding, not foreign",candidate,C12
+21,300,הצעת חוק חופש המידע (תיקון - הקרן הקיימת לישראל רשות ציבורית),2189580,+,secondary,2189580,F1-4,not_about,,Freedom of information for Jewish National Fund; unrelated,candidate,C13
+21,300,הצעת חוק המרכז הישראלי לקידום תרבות האדם (תיקון - הסדרת הפיקוח הפרלמנטרי על המרכז וביטול הפטור ממסים),2202913,+,secondary,2202913,F1-9,not_about,,Van Leer Institute oversight and tax exemption; not foreign governments,candidate,C14
+21,300,הצעת חוק בתי המשפט (תיקון - שקיפות בארגונים נתמכים),2201102,+,main,2201102,F1-15,about,+,Transparency rules for court representatives of foreign-state-funded organizations,control,C15
+21,300,הצעת חוק העמותות (תיקון - תרומה מישות מדינית זרה),2224634,+,secondary,2224634,F1-11,about,+,Restricts NGO donations from foreign state entities,control,C16

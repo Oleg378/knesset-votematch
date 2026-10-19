@@ -3502,6 +3502,134 @@
     "role": "secondary",
     "source": "label check q18 (2026-10-19): 2 of 3 blind checks «not about»",
     "reason": "Detention powers for unlawful combatants, not prison conditions"
+   },
+   {
+    "bill_id": "2156338",
+    "d": "300",
+    "q": "21",
+    "role": "secondary",
+    "source": "label check q21 (2026-10-19): two blind checks «not about»",
+    "reason": "Regulates emergency medical organizations; unrelated"
+   },
+   {
+    "bill_id": "2202735",
+    "d": "300",
+    "q": "21",
+    "role": "secondary",
+    "source": "label check q21 (2026-10-19): two blind checks «not about»",
+    "reason": "Regulates emergency medical organizations; unrelated"
+   },
+   {
+    "bill_id": "2220893",
+    "d": "300",
+    "q": "21",
+    "role": "main",
+    "source": "label check q21 (2026-10-19): two blind checks «not about»",
+    "reason": "Parliamentary oversight of Magen David Adom; unrelated"
+   },
+   {
+    "bill_id": "2157415",
+    "d": "300",
+    "q": "21",
+    "role": "secondary",
+    "source": "label check q21 (2026-10-19): two blind checks «not about»",
+    "reason": "Civil service bodies under criminal investigation; unrelated"
+   },
+   {
+    "bill_id": "2240227",
+    "d": "300",
+    "q": "21",
+    "role": "secondary",
+    "source": "label check q21 (2026-10-19): two blind checks «not about»",
+    "reason": "Medicine donations via health funds; unrelated"
+   },
+   {
+    "bill_id": "2156864",
+    "d": "300",
+    "q": "21",
+    "role": "secondary",
+    "source": "label check q21 (2026-10-19): two blind checks «not about»",
+    "reason": "Union dues wage deductions; unrelated to NGO foreign funding"
+   },
+   {
+    "bill_id": "2160542",
+    "d": "300",
+    "q": "21",
+    "role": "secondary",
+    "source": "label check q21 (2026-10-19): two blind checks «not about»",
+    "reason": "Zionist Organization and Jewish Agency status; not foreign-funded NGOs"
+   },
+   {
+    "bill_id": "2189580",
+    "d": "300",
+    "q": "21",
+    "role": "secondary",
+    "source": "label check q21 (2026-10-19): two blind checks «not about»",
+    "reason": "Freedom of information for Jewish National Fund; unrelated"
+   },
+   {
+    "bill_id": "2195987",
+    "d": "300",
+    "q": "21",
+    "role": "main",
+    "source": "label check q21 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Ottoman associations registration and supervision; not foreign funding"
+   },
+   {
+    "bill_id": "2237242",
+    "d": "300",
+    "q": "21",
+    "role": "main",
+    "source": "label check q21 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Ottoman associations registration and supervision; not foreign funding"
+   },
+   {
+    "bill_id": "2204617",
+    "d": "300",
+    "q": "21",
+    "role": "main",
+    "source": "label check q21 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Ottoman associations registration and supervision; not foreign funding"
+   },
+   {
+    "bill_id": "2156173",
+    "d": "300",
+    "q": "21",
+    "role": "main",
+    "source": "label check q21 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Ottoman associations registration and supervision; not foreign funding"
+   },
+   {
+    "bill_id": "2203340",
+    "d": "300",
+    "q": "21",
+    "role": "main",
+    "source": "label check q21 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Terror financing as dissolution ground; not foreign-government funding"
+   },
+   {
+    "bill_id": "2236464",
+    "d": "300",
+    "q": "21",
+    "role": "main",
+    "source": "label check q21 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "General registration of Ottoman associations; no foreign-government funding angle"
+   },
+   {
+    "bill_id": "2239606",
+    "d": "300",
+    "q": "21",
+    "role": "main",
+    "source": "label check q21 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "General registration of Ottoman associations; no foreign-government funding angle"
+   },
+   {
+    "bill_id": "2157067",
+    "d": "300",
+    "q": "21",
+    "role": "main",
+    "source": "label check q21 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "General registration of Ottoman associations; no foreign-government funding angle"
    }
   ]
  },
