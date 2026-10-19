@@ -86,84 +86,84 @@
    "ranking": [
     {
      "id": "עם",
-     "closeness": 0.11170137779464512,
+     "closeness": 0.10981064758060924,
      "coverage": 0.9846153846153847,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.09812437541396647,
+     "closeness": 0.0975007013514059,
      "coverage": 0.9692307692307692,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.0721133229771122,
+     "closeness": 0.07510651239132105,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.05936817191339101,
+     "closeness": 0.04937465921378723,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.029709178441310134,
+     "closeness": 0.04398413145813397,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.023456188644387612,
+     "closeness": 0.026495725823390607,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.014934545528159829,
+     "closeness": 0.021251418394986656,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.05810295348938996,
+     "closeness": -0.05372298108941042,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.06847466073341023,
+     "closeness": -0.06175127717065892,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.07104147088738934,
+     "closeness": -0.06488523580268521,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.0884526873986773,
+     "closeness": -0.0791413571354576,
      "coverage": 0.9846153846153847,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.19672570607775308,
+     "closeness": -0.1925382342545572,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -184,14 +184,14 @@
     },
     {
      "id": "ני",
-     "closeness": -0.0462914718643445,
+     "closeness": -0.047161215767819134,
      "coverage": 0.8615384615384616,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.10624358914565406,
+     "closeness": 0.07899774466605528,
      "coverage": 0.9230769230769231,
      "note": "few former MKs: 1",
      "ranked": false
@@ -1905,12 +1905,12 @@
       },
       {
        "q": "33",
-       "contribution": -0.0459,
-       "p": 0.0459,
+       "contribution": -0.0903,
+       "p": 0.0903,
        "lines": [
         "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
         "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 14 votes on private bills and 56 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 3 votes on private bills and 27 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -5105,12 +5105,12 @@
       },
       {
        "q": "33",
-       "contribution": -0.0488,
-       "p": 0.0488,
+       "contribution": -0.0694,
+       "p": 0.0694,
        "lines": [
         "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
         "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 12 votes on private bills and 44 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 3 votes on private bills and 43 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -7121,84 +7121,84 @@
    "ranking": [
     {
      "id": "עם",
-     "closeness": 0.11961162802956736,
+     "closeness": 0.11783849792840591,
      "coverage": 0.9850746268656716,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.08661269616645521,
+     "closeness": 0.0860227621835773,
      "coverage": 0.9701492537313433,
      "note": "",
      "ranked": true
     },
     {
-     "id": "אמת",
-     "closeness": 0.06857469184976385,
+     "id": "כן",
+     "closeness": 0.06203099768689835,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
-     "id": "כן",
-     "closeness": 0.05915580528460264,
+     "id": "אמת",
+     "closeness": 0.05909201048460331,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.05286297915822606,
+     "closeness": 0.05569666075500399,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.045986166502457314,
+     "closeness": 0.05196665022809604,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.023651005351188543,
+     "closeness": 0.03751873196472852,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.05859538239162101,
+     "closeness": -0.05442415906296672,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.06995842953526227,
+     "closeness": -0.06354267304379539,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.08289344120789913,
+     "closeness": -0.07698995451593571,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.1104197773249712,
+     "closeness": -0.10160881872393472,
      "coverage": 0.9850746268656716,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.22222735824485165,
+     "closeness": -0.21827518865075568,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -7219,14 +7219,14 @@
     },
     {
      "id": "ני",
-     "closeness": -0.0699186202344592,
+     "closeness": -0.07072181382942176,
      "coverage": 0.8656716417910447,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.10625713323644817,
+     "closeness": 0.08056177433656274,
      "coverage": 0.9253731343283582,
      "note": "few former MKs: 1",
      "ranked": false
@@ -7401,14 +7401,14 @@
       "ודם"
      ],
      [
-      "41",
-      "63",
-      "אמת"
-     ],
-     [
       "103",
       "15",
       "כן"
+     ],
+     [
+      "41",
+      "63",
+      "אמת"
      ],
      [
       "72",
@@ -8941,12 +8941,12 @@
       },
       {
        "q": "33",
-       "contribution": -0.0459,
-       "p": 0.0459,
+       "contribution": -0.0903,
+       "p": 0.0903,
        "lines": [
         "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
         "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 14 votes on private bills and 56 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 3 votes on private bills and 27 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -12143,12 +12143,12 @@
       },
       {
        "q": "33",
-       "contribution": -0.0488,
-       "p": 0.0488,
+       "contribution": -0.0694,
+       "p": 0.0694,
        "lines": [
         "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
         "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 12 votes on private bills and 44 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 3 votes on private bills and 43 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -14159,84 +14159,84 @@
    "ranking": [
     {
      "id": "עם",
-     "closeness": 0.14620577536024457,
+     "closeness": 0.14438473094411264,
      "coverage": 0.9848484848484849,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.11934835435318873,
+     "closeness": 0.11873954958344937,
      "coverage": 0.9696969696969697,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.0862069105730532,
+     "closeness": 0.08912148905802643,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.08161996048740955,
+     "closeness": 0.07207394067722749,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.03283090144456318,
+     "closeness": 0.046838334631354714,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.027603196430360546,
+     "closeness": 0.03376667079879203,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.025319168631761306,
+     "closeness": 0.028304625445091387,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.03624544025542418,
+     "closeness": -0.0318659017014006,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.04921240457986303,
+     "closeness": -0.04253190501884435,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.06905027544101801,
+     "closeness": -0.06298936691535385,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.09033603211718208,
+     "closeness": -0.08119298597180966,
      "coverage": 0.9848484848484849,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.2195706733254648,
+     "closeness": -0.21554385453725342,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -14257,14 +14257,14 @@
     },
     {
      "id": "ני",
-     "closeness": -0.043053543606147014,
+     "closeness": -0.04390909627733071,
      "coverage": 0.8636363636363636,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.13369163526152456,
+     "closeness": 0.1078123647053988,
      "coverage": 0.9242424242424242,
      "note": "few former MKs: 1",
      "ranked": false
@@ -15979,12 +15979,12 @@
       },
       {
        "q": "33",
-       "contribution": -0.0459,
-       "p": 0.0459,
+       "contribution": -0.0903,
+       "p": 0.0903,
        "lines": [
         "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
         "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 14 votes on private bills and 56 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 3 votes on private bills and 27 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -19180,12 +19180,12 @@
       },
       {
        "q": "33",
-       "contribution": -0.0488,
-       "p": 0.0488,
+       "contribution": -0.0694,
+       "p": 0.0694,
        "lines": [
         "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
         "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 12 votes on private bills and 44 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 3 votes on private bills and 43 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -21150,84 +21150,84 @@
    "ranking": [
     {
      "id": "דרך",
-     "closeness": 0.3327977361960007,
+     "closeness": 0.32520917325805443,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.18483508193939532,
+     "closeness": 0.18298980954252714,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.1749949905906568,
+     "closeness": 0.17379953310518417,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.11505781419513222,
+     "closeness": 0.11781213637686448,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.09693998998556157,
+     "closeness": 0.1012913845644521,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.09340343837768002,
+     "closeness": 0.09338859404568024,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.08596508315713888,
+     "closeness": 0.08137807641610327,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": 0.0621180154538837,
+     "closeness": 0.06206881772956519,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.04116098993311822,
+     "closeness": 0.04179965692412314,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.02658232396310958,
+     "closeness": 0.027177887538967153,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.021564669834037355,
+     "closeness": 0.021932647977026435,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.07680541094023849,
+     "closeness": -0.0773176090066351,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -21248,14 +21248,14 @@
     },
     {
      "id": "ני",
-     "closeness": -0.017049812325001617,
+     "closeness": -0.016983805878304364,
      "coverage": 0.9333333333333333,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.3536598000728665,
+     "closeness": 0.37653439775597247,
      "coverage": 0.9666666666666667,
      "note": "few former MKs: 1",
      "ranked": false
@@ -33032,84 +33032,84 @@
    "ranking": [
     {
      "id": "ל",
-     "closeness": 0.25165869910960087,
+     "closeness": 0.24954198337815783,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.16665542152917565,
+     "closeness": 0.16273424607611867,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.15293839287657396,
+     "closeness": 0.15021638186856848,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.10481921987189521,
+     "closeness": 0.10299540280572614,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.10293831494759478,
+     "closeness": 0.09993922110705054,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.09261095986934972,
+     "closeness": 0.09098921249919449,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.07124746168817417,
+     "closeness": 0.06904808039487483,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.014205174402739747,
+     "closeness": 0.01078343172148661,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.05429748432134467,
+     "closeness": -0.06097521785773413,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.08155397349179151,
+     "closeness": -0.07711952100242592,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.1555142879800837,
+     "closeness": -0.15520676358085905,
      "coverage": 0.9846153846153847,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.17389144076648608,
+     "closeness": -0.17297443571693463,
      "coverage": 0.9846153846153847,
      "note": "",
      "ranked": true
@@ -33130,14 +33130,14 @@
     },
     {
      "id": "ני",
-     "closeness": 0.12374262383911887,
+     "closeness": 0.12409105704065743,
      "coverage": 0.8615384615384616,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.14486885652977044,
+     "closeness": 0.16239402760723895,
      "coverage": 0.9384615384615385,
      "note": "few former MKs: 1",
      "ranked": false
@@ -39225,98 +39225,14 @@
       },
       {
        "q": "33",
-       "contribution": -0.3972,
-       "p": -0.7944,
+       "contribution": -0.447,
+       "p": -0.894,
        "lines": [
         "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
         "Your answer: agree. The record of the list's former MKs points against this statement.",
-        "Basis: 19 bills sponsored by the list's former MKs — 3 your way, 16 the other way; 37 votes on private bills and 178 votes on the other camp's bills on this topic."
+        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 14 votes on private bills and 73 votes on the other camp's bills on this topic."
        ],
        "evidence": [
-        {
-         "bill": "2206726",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2239094",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2200709",
-         "sign": -1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
         {
          "bill": "2200718",
          "sign": -1,
@@ -39342,254 +39258,6 @@
           [
            8,
            "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2200279",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ]
-         ]
-        },
-        {
-         "bill": "2195993",
-         "sign": -1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2193364",
-         "sign": -1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ],
-          [
-           14,
-           "Limor Magen Telem"
-          ]
-         ]
-        },
-        {
-         "bill": "2196011",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2156158",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2195878",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2195726",
-         "sign": -1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2190160",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ],
-          [
-           14,
-           "Limor Magen Telem"
-          ]
-         ]
-        },
-        {
-         "bill": "2196096",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2161528",
-         "sign": -1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ],
-          [
-           14,
-           "Limor Magen Telem"
-          ]
-         ]
-        },
-        {
-         "bill": "2157362",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2165281",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2160218",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ],
-          [
-           14,
-           "Limor Magen Telem"
-          ]
-         ]
-        },
-        {
-         "bill": "2195960",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2209872",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           10,
-           "Dan Illouz"
           ]
          ]
         }
@@ -44865,91 +44533,6 @@
        ]
       },
       {
-       "q": "33",
-       "contribution": 0.33865,
-       "p": 0.6773,
-       "lines": [
-        "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
-        "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 6 bills sponsored by the list's former MKs — 6 your way, 0 the other way; 58 votes on private bills and 47 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2169490",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Bezalel Smotrich"
-          ]
-         ]
-        },
-        {
-         "bill": "2205831",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           4,
-           "Simcha Rothman"
-          ]
-         ]
-        },
-        {
-         "bill": "2191996",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           4,
-           "Simcha Rothman"
-          ]
-         ]
-        },
-        {
-         "bill": "2197753",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           4,
-           "Simcha Rothman"
-          ]
-         ]
-        },
-        {
-         "bill": "2209270",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           12,
-           "Ohad Tal"
-          ]
-         ]
-        },
-        {
-         "bill": "2225758",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           12,
-           "Ohad Tal"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "60",
        "contribution": 0.28015,
        "p": 0.5603,
@@ -45305,6 +44888,43 @@
           [
            12,
            "Ohad Tal"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "33",
+       "contribution": 0.20045,
+       "p": 0.4009,
+       "lines": [
+        "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
+        "Your answer: agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 48 votes on private bills and 29 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2191996",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           4,
+           "Simcha Rothman"
+          ]
+         ]
+        },
+        {
+         "bill": "2197753",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           4,
+           "Simcha Rothman"
           ]
          ]
         }
@@ -54738,84 +54358,84 @@
    "ranking": [
     {
      "id": "ל",
-     "closeness": 0.17658951513706006,
+     "closeness": 0.17309275837389285,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.1595802444607214,
+     "closeness": 0.15543259219834366,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.15212007585448528,
+     "closeness": 0.14651633345341636,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.12672153504730524,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "רק",
-     "closeness": 0.11474796402585993,
+     "closeness": 0.11996920172721157,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.11347144405865438,
+     "closeness": 0.10469064700540029,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "רק",
+     "closeness": 0.09880802367441055,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.09289836719949358,
+     "closeness": 0.08650797744836253,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.08929452831176332,
+     "closeness": 0.08609389098093687,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.08429144145832981,
+     "closeness": 0.08004665742188911,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.10830414217279821,
+     "closeness": -0.09835922716176311,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.13460049890246198,
+     "closeness": -0.13261267087592585,
      "coverage": 0.9838709677419355,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.2684506947741792,
+     "closeness": -0.2678256862818989,
      "coverage": 0.9516129032258065,
      "note": "",
      "ranked": true
@@ -54836,14 +54456,14 @@
     },
     {
      "id": "ני",
-     "closeness": -0.02484702511530853,
+     "closeness": -0.02396342029533289,
      "coverage": 0.8709677419354839,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.1964671049597849,
+     "closeness": 0.22956964921926473,
      "coverage": 0.9516129032258065,
      "note": "few former MKs: 1",
      "ranked": false
@@ -55028,9 +54648,9 @@
       "דרך"
      ],
      [
-      "40",
-      "95",
-      "רק"
+      "6",
+      "24",
+      "ט"
      ]
     ]
    },
@@ -60294,378 +59914,6 @@
        ]
       },
       {
-       "q": "33",
-       "contribution": -0.7944,
-       "p": -0.7944,
-       "lines": [
-        "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
-        "Your answer: strongly agree. The record of the list's former MKs points against this statement.",
-        "Basis: 19 bills sponsored by the list's former MKs — 3 your way, 16 the other way; 37 votes on private bills and 178 votes on the other camp's bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2206726",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2239094",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2200709",
-         "sign": -1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2200718",
-         "sign": -1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2200279",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ]
-         ]
-        },
-        {
-         "bill": "2195993",
-         "sign": -1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2193364",
-         "sign": -1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ],
-          [
-           14,
-           "Limor Magen Telem"
-          ]
-         ]
-        },
-        {
-         "bill": "2196011",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2156158",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2195878",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2195726",
-         "sign": -1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2190160",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ],
-          [
-           14,
-           "Limor Magen Telem"
-          ]
-         ]
-        },
-        {
-         "bill": "2196096",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2161528",
-         "sign": -1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ],
-          [
-           14,
-           "Limor Magen Telem"
-          ]
-         ]
-        },
-        {
-         "bill": "2157362",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2165281",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2160218",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ],
-          [
-           14,
-           "Limor Magen Telem"
-          ]
-         ]
-        },
-        {
-         "bill": "2195960",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2209872",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           10,
-           "Dan Illouz"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "64",
        "contribution": -0.8571,
        "p": -0.8571,
@@ -62353,6 +61601,46 @@
        ]
       },
       {
+       "q": "33",
+       "contribution": -0.894,
+       "p": -0.894,
+       "lines": [
+        "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
+        "Your answer: strongly agree. The record of the list's former MKs points against this statement.",
+        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 14 votes on private bills and 73 votes on the other camp's bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2200718",
+         "sign": -1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        }
+       ]
+      },
+      {
        "q": "69",
        "contribution": -0.9041,
        "p": -0.9041,
@@ -63360,67 +62648,6 @@
        ]
       },
       {
-       "q": "33",
-       "contribution": 0.3515,
-       "p": 0.3515,
-       "lines": [
-        "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
-        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 4 bills sponsored by the list's former MKs — 3 your way, 1 the other way; 58 votes on private bills and 27 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2209242",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Limor Son Har-Melech"
-          ]
-         ]
-        },
-        {
-         "bill": "2232488",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Limor Son Har-Melech"
-          ]
-         ]
-        },
-        {
-         "bill": "2225758",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2205366",
-         "sign": -1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Tally Gotliv"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "66",
        "contribution": 0.3125,
        "p": 0.625,
@@ -63598,6 +62825,18 @@
          ]
         }
        ]
+      },
+      {
+       "q": "33",
+       "contribution": 0.2454,
+       "p": 0.2454,
+       "lines": [
+        "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
+        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
+        "Basis: no bills of their own on this topic, only 48 votes on private bills and 11 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": []
       },
       {
        "q": "77",
@@ -66806,84 +66045,84 @@
    "ranking": [
     {
      "id": "ל",
-     "closeness": 0.04411950390080389,
+     "closeness": 0.04524267934343196,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.03007802018832433,
+     "closeness": 0.026121477633902556,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -2.4169381596723812e-05,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "כן",
-     "closeness": -0.004649880615058571,
+     "closeness": 0.002493824688050239,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.005653583947512891,
+     "closeness": -0.0018084525082722688,
      "coverage": 0.9859154929577465,
      "note": "",
      "ranked": true
     },
     {
+     "id": "כן",
+     "closeness": -0.0034354453680094364,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
      "id": "עם",
-     "closeness": -0.007629394674485472,
+     "closeness": -0.00832328298223743,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.011508978747554015,
+     "closeness": -0.009705265551703562,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.026367436475801108,
+     "closeness": -0.020514375677479185,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.028897267757331223,
+     "closeness": -0.026253446491569847,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.04847658252944937,
+     "closeness": -0.046061446082835224,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.07910439703028663,
+     "closeness": -0.07933338949644511,
      "coverage": 0.9859154929577465,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.1025108708218507,
+     "closeness": -0.10113955193370192,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -66904,14 +66143,14 @@
     },
     {
      "id": "ני",
-     "closeness": -0.050302478007997295,
+     "closeness": -0.0506104648075089,
      "coverage": 0.8732394366197183,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": -0.053769733348274555,
+     "closeness": -0.06602427898486156,
      "coverage": 0.9436619718309859,
      "note": "few former MKs: 1",
      "ranked": false
@@ -67091,14 +66330,14 @@
       "דרך"
      ],
      [
-      "78",
-      "103",
-      "כן"
-     ],
-     [
       "2",
       "52",
       "ט"
+     ],
+     [
+      "78",
+      "103",
+      "כן"
      ]
     ]
    },
@@ -70263,6 +69502,46 @@
        ]
       },
       {
+       "q": "33",
+       "contribution": 0.447,
+       "p": -0.894,
+       "lines": [
+        "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
+        "Your answer: disagree. The record of the list's former MKs points against this statement.",
+        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 14 votes on private bills and 73 votes on the other camp's bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2200718",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Avigdor Liberman"
+          ],
+          [
+           4,
+           "Oded Forer"
+          ],
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           7,
+           "Hamad Amar"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        }
+       ]
+      },
+      {
        "q": "39",
        "contribution": 0.42645,
        "p": 0.8529,
@@ -70333,378 +69612,6 @@
           [
            14,
            "Limor Magen Telem"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "33",
-       "contribution": 0.3972,
-       "p": -0.7944,
-       "lines": [
-        "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
-        "Your answer: disagree. The record of the list's former MKs points against this statement.",
-        "Basis: 19 bills sponsored by the list's former MKs — 16 your way, 3 the other way; 37 votes on private bills and 178 votes on the other camp's bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2206726",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2239094",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2200709",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2200718",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ],
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           7,
-           "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2200279",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Avigdor Liberman"
-          ],
-          [
-           4,
-           "Oded Forer"
-          ]
-         ]
-        },
-        {
-         "bill": "2195993",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2193364",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ],
-          [
-           14,
-           "Limor Magen Telem"
-          ]
-         ]
-        },
-        {
-         "bill": "2196011",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2156158",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2195878",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2195726",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2190160",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ],
-          [
-           14,
-           "Limor Magen Telem"
-          ]
-         ]
-        },
-        {
-         "bill": "2196096",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2161528",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ],
-          [
-           14,
-           "Limor Magen Telem"
-          ]
-         ]
-        },
-        {
-         "bill": "2157362",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2165281",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2160218",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ],
-          [
-           14,
-           "Limor Magen Telem"
-          ]
-         ]
-        },
-        {
-         "bill": "2195960",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2209872",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           10,
-           "Dan Illouz"
           ]
          ]
         }
@@ -80658,210 +79565,6 @@
        ]
       },
       {
-       "q": "33",
-       "contribution": 0.42195,
-       "p": -0.8439,
-       "lines": [
-        "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
-        "Your answer: disagree. The record of the list's former MKs points against this statement.",
-        "Basis: 14 bills sponsored by the list's former MKs — 14 your way, 0 the other way; 14 votes on private bills and 142 votes on the other camp's bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2156420",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Gilad Kariv"
-          ],
-          [
-           4,
-           "Efrat Rayten Marom"
-          ],
-          [
-           14,
-           "Emilie Haya Moatti"
-          ],
-          [
-           17,
-           "Ram Shefa"
-          ]
-         ]
-        },
-        {
-         "bill": "2156829",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Gilad Kariv"
-          ],
-          [
-           4,
-           "Efrat Rayten Marom"
-          ],
-          [
-           14,
-           "Emilie Haya Moatti"
-          ],
-          [
-           17,
-           "Ram Shefa"
-          ]
-         ]
-        },
-        {
-         "bill": "2157069",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Gilad Kariv"
-          ]
-         ]
-        },
-        {
-         "bill": "2157202",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Gilad Kariv"
-          ]
-         ]
-        },
-        {
-         "bill": "2167252",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Gilad Kariv"
-          ]
-         ]
-        },
-        {
-         "bill": "2166216",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Michal Rozin"
-          ]
-         ]
-        },
-        {
-         "bill": "2157102",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Michal Rozin"
-          ]
-         ]
-        },
-        {
-         "bill": "2156659",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Michal Rozin"
-          ]
-         ]
-        },
-        {
-         "bill": "2165830",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Michal Rozin"
-          ]
-         ]
-        },
-        {
-         "bill": "2158666",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Michal Rozin"
-          ]
-         ]
-        },
-        {
-         "bill": "2166078",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Michal Rozin"
-          ]
-         ]
-        },
-        {
-         "bill": "2158673",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Michal Rozin"
-          ]
-         ]
-        },
-        {
-         "bill": "2163299",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Michal Rozin"
-          ]
-         ]
-        },
-        {
-         "bill": "2156257",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           22,
-           "Mossi Raz"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "49",
        "contribution": 0.3124,
        "p": 0.3124,
@@ -81097,6 +79800,78 @@
           [
            4,
            "Efrat Rayten Marom"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "33",
+       "contribution": 0.2875,
+       "p": -0.575,
+       "lines": [
+        "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
+        "Your answer: disagree. The record of the list's former MKs points against this statement.",
+        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 3 votes on private bills and 59 votes on the other camp's bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2157069",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Gilad Kariv"
+          ]
+         ]
+        },
+        {
+         "bill": "2157202",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Gilad Kariv"
+          ]
+         ]
+        },
+        {
+         "bill": "2156659",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Michal Rozin"
+          ]
+         ]
+        },
+        {
+         "bill": "2158673",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Michal Rozin"
+          ]
+         ]
+        },
+        {
+         "bill": "2156257",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           22,
+           "Mossi Raz"
           ]
          ]
         }
@@ -103487,85 +102262,85 @@
    "ranking": [
     {
      "id": "שס",
-     "closeness": 0.2161252232114136,
+     "closeness": 0.22384700324907725,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.2140069778928168,
+     "closeness": 0.21898945921152965,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.20489246271835249,
+     "closeness": 0.2160043468910807,
      "coverage": 0.9855072463768116,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.1903779154590048,
+     "closeness": 0.19552453473287282,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.15924009785329427,
+     "closeness": 0.16493688010175162,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.1559738260896415,
+     "closeness": 0.16260722377883335,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.10967067837542943,
+     "closeness": 0.11234963117421144,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": 0.0984766269637581,
+     "closeness": 0.09673471231041614,
      "coverage": 0.9855072463768116,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.08318990198792596,
+     "closeness": 0.09601688090347199,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.028507267512984127,
+     "closeness": 0.018724307955935368,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "כן",
+     "closeness": 0.01758006252314826,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.015055163707957456,
+     "closeness": 0.014472037424437492,
      "coverage": 0.9710144927536232,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "כן",
-     "closeness": 0.014787153015814488,
-     "coverage": 1.0,
      "note": "",
      "ranked": true
     },
@@ -103585,14 +102360,14 @@
     },
     {
      "id": "ני",
-     "closeness": 0.16724463414729476,
+     "closeness": 0.16622233013064835,
      "coverage": 0.855072463768116,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.12312861138545593,
+     "closeness": 0.0973836939259236,
      "coverage": 0.927536231884058,
      "note": "few former MKs: 1",
      "ranked": false
@@ -103768,7 +102543,7 @@
      ],
      [
       "13",
-      "33",
+      "49",
       "ט"
      ],
      [
@@ -109949,6 +108724,127 @@
        ]
       },
       {
+       "q": "33",
+       "contribution": -0.5275,
+       "p": 0.5275,
+       "lines": [
+        "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
+        "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
+        "Basis: 9 bills sponsored by the list's former MKs — 0 your way, 9 the other way; 48 votes on private bills and 131 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2197901",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
+          ]
+         ]
+        },
+        {
+         "bill": "2195952",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
+          ]
+         ]
+        },
+        {
+         "bill": "2157164",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
+          ]
+         ]
+        },
+        {
+         "bill": "2195944",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
+          ]
+         ]
+        },
+        {
+         "bill": "2156848",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
+          ]
+         ]
+        },
+        {
+         "bill": "2157304",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
+          ]
+         ]
+        },
+        {
+         "bill": "2196475",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           9,
+           "Yosef Taieb"
+          ]
+         ]
+        },
+        {
+         "bill": "2215560",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           12,
+           "Erez Malul"
+          ]
+         ]
+        },
+        {
+         "bill": "2228962",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           12,
+           "Erez Malul"
+          ]
+         ]
+        }
+       ]
+      },
+      {
        "q": "49",
        "contribution": -0.5786,
        "p": 0.5786,
@@ -110291,247 +109187,6 @@
           [
            119,
            "Yaakov Margi"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "33",
-       "contribution": -0.7058,
-       "p": 0.7058,
-       "lines": [
-        "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
-        "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 19 bills sponsored by the list's former MKs — 0 your way, 19 the other way; 93 votes on private bills and 352 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2195650",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ]
-         ]
-        },
-        {
-         "bill": "2197901",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ]
-         ]
-        },
-        {
-         "bill": "2195952",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ]
-         ]
-        },
-        {
-         "bill": "2157164",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ]
-         ]
-        },
-        {
-         "bill": "2195944",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ]
-         ]
-        },
-        {
-         "bill": "2197902",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ]
-         ]
-        },
-        {
-         "bill": "2156848",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ]
-         ]
-        },
-        {
-         "bill": "2164500",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ]
-         ]
-        },
-        {
-         "bill": "2195656",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ]
-         ]
-        },
-        {
-         "bill": "2156060",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ]
-         ]
-        },
-        {
-         "bill": "2157304",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ]
-         ]
-        },
-        {
-         "bill": "2241107",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           3,
-           "Michael Malchieli"
-          ]
-         ]
-        },
-        {
-         "bill": "2196307",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           9,
-           "Yosef Taieb"
-          ]
-         ]
-        },
-        {
-         "bill": "2197004",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           9,
-           "Yosef Taieb"
-          ]
-         ]
-        },
-        {
-         "bill": "2196475",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           9,
-           "Yosef Taieb"
-          ]
-         ]
-        },
-        {
-         "bill": "2204099",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           10,
-           "Yonatan Mishraki"
-          ]
-         ]
-        },
-        {
-         "bill": "2215560",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           12,
-           "Erez Malul"
-          ]
-         ]
-        },
-        {
-         "bill": "2228962",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           12,
-           "Erez Malul"
-          ]
-         ]
-        },
-        {
-         "bill": "2197278",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           12,
-           "Erez Malul"
           ]
          ]
         }
@@ -114421,6 +113076,18 @@
        ]
       },
       {
+       "q": "33",
+       "contribution": -0.2454,
+       "p": 0.2454,
+       "lines": [
+        "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
+        "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
+        "Basis: no bills of their own on this topic, only 48 votes on private bills and 11 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": []
+      },
+      {
        "q": "75",
        "contribution": -0.25,
        "p": -0.25,
@@ -115164,67 +113831,6 @@
           [
            5,
            "Limor Son Har-Melech"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "33",
-       "contribution": -0.3515,
-       "p": 0.3515,
-       "lines": [
-        "“Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.”",
-        "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 4 bills sponsored by the list's former MKs — 1 your way, 3 the other way; 58 votes on private bills and 27 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2209242",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Limor Son Har-Melech"
-          ]
-         ]
-        },
-        {
-         "bill": "2232488",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Limor Son Har-Melech"
-          ]
-         ]
-        },
-        {
-         "bill": "2225758",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        },
-        {
-         "bill": "2205366",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Tally Gotliv"
           ]
          ]
         }
@@ -131355,84 +129961,84 @@
    "ranking": [
     {
      "id": "ודם",
-     "closeness": 0.524312863337458,
+     "closeness": 0.5240799750949059,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.22226045731666266,
+     "closeness": 0.24851214844818464,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.031335746307205044,
+     "closeness": 0.030859033537788683,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.027885068698236277,
+     "closeness": -0.027849964436100074,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.09321070136545813,
+     "closeness": -0.08454891179999627,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.1343471349129116,
+     "closeness": -0.13234793887190546,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.2200991012831997,
+     "closeness": -0.21460279670557625,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.24942691016285987,
+     "closeness": -0.2538878824659211,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.30810714995512756,
+     "closeness": -0.3161744596951792,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.45204100474802617,
+     "closeness": -0.4736204182668697,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.45853355889558056,
+     "closeness": -0.48009888363436726,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.5773391937417482,
+     "closeness": -0.6221738348050191,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -131453,14 +130059,14 @@
     },
     {
      "id": "ני",
-     "closeness": 0.10680888457280548,
+     "closeness": 0.10601004213457935,
      "coverage": 0.7777777777777778,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": -0.2580707347708246,
+     "closeness": -0.31164132441299613,
      "coverage": 1.0,
      "note": "few former MKs: 1",
      "ranked": false

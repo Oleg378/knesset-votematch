@@ -59,7 +59,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",151b,еврейские религиозные правила в государственных учреждениях,-0.325,-0.1,0.0,10,1,0,False,-0.225,31,5
 אמת,"HaDemocratim, headed by Yair Golan",151c,раздельность мужчин и женщин в публичных местах,-0.35,-0.1,0.0,10,1,0,False,-0.25,22,3
 אמת,"HaDemocratim, headed by Yair Golan",151d,ортодоксальное определение еврейства,-0.278,-0.25,-0.028,4,1,3,False,0.0,0,2
-אמת,"HaDemocratim, headed by Yair Golan",154,полномочия религиозных институтов и судов,-0.8439,-0.6,-0.0326,10,20,14,False,-0.2112,142,28
+אמת,"HaDemocratim, headed by Yair Golan",154,полномочия религиозных институтов и судов,-0.575,-0.3,-0.025,10,5,3,False,-0.25,59,10
 אמת,"HaDemocratim, headed by Yair Golan",156,доступность признаваемого гиюра,0.0,0.0,0.0,1,0,1,True,0.0,0,1
 אמת,"HaDemocratim, headed by Yair Golan",158,доступность гражданских способов личного статуса,1.0232,1.0,0.0232,6,7,3,False,0.0,0,4
 אמת,"HaDemocratim, headed by Yair Golan",159,доступ к расторжению брака,1.102,1.0,0.0083,8,19,3,False,0.0938,5,11
@@ -381,7 +381,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",151b,еврейские религиозные правила в государственных учреждениях,0.2021,0.2,0.0021,5,2,38,False,0.0,0,6
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",151c,раздельность мужчин и женщин в публичных местах,0.3333,0.3333,0.0,6,2,21,False,0.0,0,3
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",151d,ортодоксальное определение еврейства,0.375,0.5,0.0,2,1,0,True,-0.125,1,2
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",154,полномочия религиозных институтов и судов,0.3515,0.1667,-0.0061,6,4,58,False,0.191,27,15
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",154,полномочия религиозных институтов и судов,0.2454,0.0,-0.0046,6,0,48,False,0.25,11,5
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",156,доступность признаваемого гиюра,-0.5833,-0.3333,0.0,3,1,0,False,-0.25,3,2
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",158,доступность гражданских способов личного статуса,-0.25,0.0,0.0,5,0,0,False,-0.25,8,2
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",159,доступ к расторжению брака,-0.25,0.0,0.0,6,0,0,False,-0.25,14,3
@@ -915,7 +915,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,151b,еврейские религиозные правила в государственных учреждениях,0.637,0.625,0.012,8,23,52,False,0.0,0,6
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,151c,раздельность мужчин и женщин в публичных местах,0.5,0.5,0.0,8,20,16,False,0.0,0,5
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,151d,ортодоксальное определение еврейства,0.2107,0.2,0.0107,5,1,5,False,0.0,0,2
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,154,полномочия религиозных институтов и судов,0.7506,0.5556,0.027,9,28,97,False,0.1681,62,19
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,154,полномочия религиозных институтов и судов,0.6511,0.4444,0.04,9,12,74,False,0.1667,38,8
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,156,доступность признаваемого гиюра,-0.375,-0.1667,0.0,6,1,0,False,-0.2083,5,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,158,доступность гражданских способов личного статуса,-0.2074,0.0,-0.0289,7,0,3,False,-0.1786,5,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,159,доступ к расторжению брака,0.3695,0.5,-0.0055,8,7,12,False,-0.125,8,5
@@ -1236,7 +1236,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",151b,еврейские религиозные правила в государственных учреждениях,-0.25,0.0,0.0,4,0,0,False,-0.25,25,4
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",151c,раздельность мужчин и женщин в публичных местах,-0.225,0.0,0.0,4,0,0,False,-0.225,11,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",151d,ортодоксальное определение еврейства,-0.0374,0.0,-0.0374,1,0,1,True,0.0,0,1
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",154,полномочия религиозных институтов и судов,-0.2068,-0.15,0.0962,4,5,10,False,-0.153,74,17
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",154,полномочия религиозных институтов и судов,-0.3217,0.0,-0.0717,3,0,2,False,-0.25,29,5
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",156,доступность признаваемого гиюра,0.25,0.25,0.0,4,2,4,False,0.0,0,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",158,доступность гражданских способов личного статуса,0.0959,0.0,0.0959,2,0,3,True,0.0,0,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",159,доступ к расторжению брака,0.0915,0.0,0.0915,2,0,4,True,0.0,0,3
@@ -1533,7 +1533,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,151a,полномочия религиозных судов,-0.2083,0.0,-0.0416,3,0,4,False,-0.1667,16,3
 ודם,The Joint Arab List,151b,еврейские религиозные правила в государственных учреждениях,-0.4346,0.0,-0.1846,5,0,2,False,-0.25,32,4
 ודם,The Joint Arab List,151c,раздельность мужчин и женщин в публичных местах,-0.2,0.0,0.0,5,0,4,False,-0.2,11,2
-ודם,The Joint Arab List,154,полномочия религиозных институтов и судов,0.0488,0.0,0.0317,5,0,12,False,0.0172,44,8
+ודם,The Joint Arab List,154,полномочия религиозных институтов и судов,0.0694,0.0,0.05,5,0,3,False,0.0194,43,4
 ודם,The Joint Arab List,158,доступность гражданских способов личного статуса,-0.1805,0.0,-0.1805,4,0,5,False,0.0,0,2
 ודם,The Joint Arab List,159,доступ к расторжению брака,0.308,0.5,-0.192,4,3,5,False,0.0,0,4
 ודם,The Joint Arab List,16,профессиональные полномочия медработников,1.05,0.8,0.0,5,10,7,False,0.25,19,8
@@ -1847,7 +1847,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",151b,еврейские религиозные правила в государственных учреждениях,0.6763,0.6667,0.0097,6,11,42,False,0.0,0,7
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",151c,раздельность мужчин и женщин в публичных местах,0.6667,0.6667,0.0,6,9,23,False,0.0,0,5
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",151d,ортодоксальное определение еврейства,1.0,1.0,0.0,1,1,0,True,0.0,0,1
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",154,полномочия религиозных институтов и судов,0.6773,0.5,-0.015,6,6,58,False,0.1923,47,13
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",154,полномочия религиозных институтов и судов,0.4009,0.1667,-0.0158,6,2,48,False,0.25,29,5
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",156,доступность признаваемого гиюра,-0.45,-0.2,0.0,5,1,0,False,-0.25,5,2
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",158,доступность гражданских способов личного статуса,-0.25,0.0,0.0,5,0,0,False,-0.25,9,2
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",159,доступ к расторжению брака,-0.0417,0.1667,0.0,6,1,0,False,-0.2083,14,4
@@ -2153,7 +2153,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 י,"Yisrael Techila, headed by Sharren Haskel",151b,еврейские религиозные правила в государственных учреждениях,0.75,1.0,0.0,1,1,0,True,-0.25,7,5
 י,"Yisrael Techila, headed by Sharren Haskel",151c,раздельность мужчин и женщин в публичных местах,-0.25,0.0,0.0,1,0,2,True,-0.25,1,2
 י,"Yisrael Techila, headed by Sharren Haskel",151d,ортодоксальное определение еврейства,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
-י,"Yisrael Techila, headed by Sharren Haskel",154,полномочия религиозных институтов и судов,-1.129,-1.0,0.121,1,1,1,True,-0.25,7,8
+י,"Yisrael Techila, headed by Sharren Haskel",154,полномочия религиозных институтов и судов,-0.25,0.0,0.0,1,0,0,True,-0.25,4,3
 י,"Yisrael Techila, headed by Sharren Haskel",158,доступность гражданских способов личного статуса,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 י,"Yisrael Techila, headed by Sharren Haskel",16,профессиональные полномочия медработников,0.0,0.0,0.0,1,0,3,True,0.0,0,2
 י,"Yisrael Techila, headed by Sharren Haskel",160,государственное регулирование семейных отношений,0.2402,0.0,0.0735,1,0,7,True,0.1667,12,11
@@ -2442,7 +2442,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",151b,еврейские религиозные правила в государственных учреждениях,-0.25,0.0,0.0,4,0,0,False,-0.25,22,4
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",151c,раздельность мужчин и женщин в публичных местах,-0.25,0.0,0.0,4,0,0,False,-0.25,13,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",151d,ортодоксальное определение еврейства,-0.0986,0.0,-0.0986,2,0,2,True,0.0,0,1
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",154,полномочия религиозных институтов и судов,-0.2743,0.0,-0.0279,4,0,12,False,-0.2464,106,14
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",154,полномочия религиозных институтов и судов,-0.342,0.0,-0.092,4,0,3,False,-0.25,46,5
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",156,доступность признаваемого гиюра,0.0,0.0,0.0,3,0,3,False,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",158,доступность гражданских способов личного статуса,0.1152,0.0,0.1152,2,0,3,True,0.0,0,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",159,доступ к расторжению брака,0.5581,0.5,0.0581,2,2,3,True,0.0,0,3
@@ -2749,7 +2749,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",151b,еврейские религиозные правила в государственных учреждениях,-0.2141,0.0,0.0002,7,0,8,False,-0.2143,42,4
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",151c,раздельность мужчин и женщин в публичных местах,-0.2188,0.0,0.0,8,0,2,False,-0.2188,21,2
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",151d,ортодоксальное определение еврейства,0.3626,0.4,-0.0374,5,2,5,False,0.0,0,2
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",154,полномочия религиозных институтов и судов,-0.7944,-0.5018,-0.0477,8,52,37,False,-0.2449,178,24
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",154,полномочия религиозных институтов и судов,-0.894,-0.625,-0.0548,8,5,14,False,-0.2143,73,6
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",156,доступность признаваемого гиюра,0.4583,0.5,0.0,6,5,4,False,-0.0417,1,2
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",158,доступность гражданских способов личного статуса,0.8711,0.8571,0.0497,7,21,9,False,-0.0357,1,6
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",159,доступ к расторжению брака,1.0553,1.0,0.0553,6,11,11,False,0.0,3,4
@@ -3073,7 +3073,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",151b,еврейские религиозные правила в государственных учреждениях,0.415,0.4333,0.0067,30,21,164,False,-0.025,17,8
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",151c,раздельность мужчин и женщин в публичных местах,0.125,0.125,0.0,32,4,92,False,0.0,2,3
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",151d,ортодоксальное определение еврейства,-0.1833,0.0667,0.0,15,1,0,False,-0.25,15,2
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",154,полномочия религиозных институтов и судов,0.3465,0.2188,-0.0101,32,12,283,False,0.1378,210,17
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",154,полномочия религиозных институтов и судов,0.2228,0.0312,-0.0089,32,3,235,False,0.2005,126,7
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",156,доступность признаваемого гиюра,-0.2778,-0.0556,0.0,18,1,2,False,-0.2222,16,2
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",158,доступность гражданских способов личного статуса,-0.2052,0.0,0.0122,23,0,1,False,-0.2174,34,2
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",159,доступ к расторжению брака,-0.1623,0.0435,0.0116,23,1,4,False,-0.2174,45,5
@@ -3390,7 +3390,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",151b,еврейские религиозные правила в государственных учреждениях,1.2554,1.0,0.0054,1,5,6,True,0.25,2,8
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",151c,раздельность мужчин и женщин в публичных местах,1.25,1.0,0.0,1,2,1,True,0.25,3,4
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",151d,ортодоксальное определение еврейства,1.1698,1.0,0.1698,1,5,1,True,0.0,0,3
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",154,полномочия религиозных институтов и судов,1.348,1.0,0.098,1,10,11,True,0.25,15,11
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",154,полномочия религиозных институтов и судов,1.3763,1.0,0.1263,1,4,5,True,0.25,13,4
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",156,доступность признаваемого гиюра,-1.0,-1.0,0.0,1,1,0,True,0.0,0,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",158,доступность гражданских способов личного статуса,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",159,доступ к расторжению брака,-0.25,0.0,0.0,1,0,2,True,-0.25,1,2
@@ -3666,7 +3666,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",151b,еврейские религиозные правила в государственных учреждениях,-0.25,0.0,0.0,6,0,0,False,-0.25,28,4
 עם,"Ra’am, the United Arab List",151c,раздельность мужчин и женщин в публичных местах,0.4167,0.6667,0.0,6,4,0,False,-0.25,15,3
 עם,"Ra’am, the United Arab List",151d,ортодоксальное определение еврейства,-0.0374,0.0,-0.0374,1,0,1,True,0.0,0,1
-עם,"Ra’am, the United Arab List",154,полномочия религиозных институтов и судов,0.0459,0.0,0.1205,6,0,14,False,-0.0746,56,15
+עם,"Ra’am, the United Arab List",154,полномочия религиозных институтов и судов,0.0903,0.0,0.125,6,0,3,False,-0.0347,27,5
 עם,"Ra’am, the United Arab List",156,доступность признаваемого гиюра,0.0,0.0,0.0,1,0,1,True,0.0,0,1
 עם,"Ra’am, the United Arab List",158,доступность гражданских способов личного статуса,-0.3305,0.0,-0.3305,5,0,5,False,0.0,0,2
 עם,"Ra’am, the United Arab List",159,доступ к расторжению брака,-0.2837,0.0,-0.3337,5,0,6,False,0.05,2,4
@@ -3979,7 +3979,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",151b,еврейские религиозные правила в государственных учреждениях,-0.1683,0.0769,0.0,13,1,0,False,-0.2452,102,5
 רק,"Be’Yahad, headed by Naftali Bennett",151c,раздельность мужчин и женщин в публичных местах,-0.25,0.0,0.0,16,0,0,False,-0.25,63,2
 רק,"Be’Yahad, headed by Naftali Bennett",151d,ортодоксальное определение еврейства,-0.0374,0.0,-0.0374,12,0,12,False,0.0,0,1
-רק,"Be’Yahad, headed by Naftali Bennett",154,полномочия религиозных институтов и судов,-0.4015,-0.0778,-0.0899,15,18,71,False,-0.2338,514,22
+רק,"Be’Yahad, headed by Naftali Bennett",154,полномочия религиозных институтов и судов,-0.7619,-0.4286,-0.0833,14,7,14,False,-0.25,193,9
 רק,"Be’Yahad, headed by Naftali Bennett",156,доступность признаваемого гиюра,0.2727,0.2727,0.0,11,4,9,False,0.0,0,1
 רק,"Be’Yahad, headed by Naftali Bennett",158,доступность гражданских способов личного статуса,0.7838,0.7143,0.0695,14,24,24,False,0.0,0,3
 רק,"Be’Yahad, headed by Naftali Bennett",159,доступ к расторжению брака,0.602,0.5,0.0663,14,29,33,False,0.0357,3,11
@@ -4305,7 +4305,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",151b,еврейские религиозные правила в государственных учреждениях,0.7645,0.75,0.0145,12,27,70,False,0.0,0,7
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",151c,раздельность мужчин и женщин в публичных местах,0.5208,0.3333,0.0,12,9,23,False,0.1875,18,6
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",151d,ортодоксальное определение еврейства,0.4193,0.25,0.1693,8,3,8,False,0.0,0,3
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",154,полномочия религиозных институтов и судов,0.7058,0.4167,0.0694,12,19,93,False,0.2198,352,27
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",154,полномочия религиозных институтов и судов,0.5275,0.25,0.0692,12,9,48,False,0.2083,131,10
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",156,доступность признаваемого гиюра,-0.375,-0.125,0.0,8,2,0,False,-0.25,8,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",158,доступность гражданских способов личного статуса,-0.2861,0.0,-0.0639,9,0,6,False,-0.2222,8,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",159,доступ к расторжению брака,-0.2382,0.0,-0.0159,9,0,16,False,-0.2222,8,4

@@ -1,12 +1,12 @@
 letters,list_name,position,name_he,mk_id,gov_months_k24,gov_months_k25,nA,nA_labeled,dirs_with_P,note
 אמת,"HaDemocratim, headed by Yair Golan",1,גולן יאיר,30743,15.7,0.0,8,8,212,личных законопроектов почти нет
 אמת,"HaDemocratim, headed by Yair Golan",2,לזימי נעמה,30106,0.0,0.0,474,474,288,
-אמת,"HaDemocratim, headed by Yair Golan",3,קריב גלעד,30807,0.0,0.0,303,303,289,
-אמת,"HaDemocratim, headed by Yair Golan",4,רייטן מרום אפרת,30808,0.0,0.0,186,186,279,
+אמת,"HaDemocratim, headed by Yair Golan",3,קריב גלעד,30807,0.0,0.0,303,302,289,
+אמת,"HaDemocratim, headed by Yair Golan",4,רייטן מרום אפרת,30808,0.0,0.0,186,185,279,
 אמת,"HaDemocratim, headed by Yair Golan",6,לסקי שוץ גבריאלה,30818,0.0,0.0,126,126,242,
-אמת,"HaDemocratim, headed by Yair Golan",8,רוזין מיכל,23653,0.0,0.0,214,214,249,
-אמת,"HaDemocratim, headed by Yair Golan",14,מואטי אמילי חיה,30806,0.0,0.0,141,141,231,
-אמת,"HaDemocratim, headed by Yair Golan",17,שפע רם,30696,0.0,0.0,79,79,223,
+אמת,"HaDemocratim, headed by Yair Golan",8,רוזין מיכל,23653,0.0,0.0,214,213,249,
+אמת,"HaDemocratim, headed by Yair Golan",14,מואטי אמילי חיה,30806,0.0,0.0,141,140,231,
+אמת,"HaDemocratim, headed by Yair Golan",17,שפע רם,30696,0.0,0.0,79,78,223,
 אמת,"HaDemocratim, headed by Yair Golan",18,סלאלחה עלי,30821,0.0,0.0,43,43,201,
 אמת,"HaDemocratim, headed by Yair Golan",22,רז מוסי,511,0.0,0.0,238,238,262,
 אמת,"HaDemocratim, headed by Yair Golan",108,זנדברג תמר,23651,17.1,1.4,34,33,72,
@@ -17,7 +17,7 @@ letters,list_name,position,name_he,mk_id,gov_months_k24,gov_months_k25,nA,nA_lab
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",5,סון הר-מלך לימור,30849,0.0,0.0,221,218,271,
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",6,קרויזר יצחק,30867,0.0,0.0,296,292,278,
 בי,Tzomet Beit Yisrael,1,יברקן דסטה,30724,2.2,0.0,35,35,217,
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,1,אשר יעקב,23641,0.0,0.0,544,541,278,
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,1,אשר יעקב,23641,0.0,0.0,544,540,278,
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,2,גולדקנופ יצחק יששכר,30846,0.0,29.5,1,1,136,личных законопроектов почти нет
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,3,פינדרוס יצחק זאב,30672,0.0,0.0,329,327,297,
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,4,פרוש מאיר,563,2.2,30.5,82,82,260,
@@ -25,11 +25,11 @@ letters,list_name,position,name_he,mk_id,gov_months_k24,gov_months_k25,nA,nA_lab
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,11,רוט משה,30870,0.0,0.0,32,32,234,
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,12,ברוכי אליהו,30768,0.0,0.0,30,30,236,
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,116,מקלב ישראל מאיר אורי,11835,2.2,30.4,185,185,263,
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,118,גפני משה רפאל,526,0.0,0.0,518,515,278,
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,118,גפני משה רפאל,526,0.0,0.0,518,514,278,
 די,"HaMiluimnikim v’haCalcalit, headed by Yoaz Hendel and Yaron Zelekha",1,הנדל יועז,30680,17.1,1.4,3,3,11,личных законопроектов почти нет
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",1,איזנקוט גד,30836,0.0,8.0,5,5,220,личных законопроектов почти нет
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",3,פרקש הכהן אורית,30685,19.3,1.4,81,80,252,
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",5,כהנא מתן,30662,14.0,0.0,24,24,240,
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",5,כהנא מתן,30662,14.0,0.0,24,24,239,
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",12,שטרן אלעזר,23591,17.1,1.4,56,55,285,
 ודם,The Joint Arab List,2,טיבי אחמד,560,0.0,0.0,547,547,298,
 ודם,The Joint Arab List,5,כסיף עופר,30719,0.0,0.0,457,457,295,
@@ -112,7 +112,7 @@ letters,list_name,position,name_he,mk_id,gov_months_k24,gov_months_k25,nA,nA_lab
 רק,"Be’Yahad, headed by Naftali Bennett",31,איריש מלכאי רוני,30923,0.0,0.0,0,0,0,личных законопроектов почти нет
 רק,"Be’Yahad, headed by Naftali Bennett",33,צרפתי הרכבי מטי,30851,0.0,0.0,203,203,281,
 רק,"Be’Yahad, headed by Naftali Bennett",36,עזוז עדי עליזה,30895,0.0,0.0,17,17,176,
-רק,"Be’Yahad, headed by Naftali Bennett",38,חיים עוז,30916,0.0,0.0,1,1,98,личных законопроектов почти нет
+רק,"Be’Yahad, headed by Naftali Bennett",38,חיים עוז,30916,0.0,0.0,1,1,97,личных законопроектов почти нет
 רק,"Be’Yahad, headed by Naftali Bennett",44,אבו אל היג'א מוחמד,30917,0.0,0.0,0,0,7,личных законопроектов почти нет
 רק,"Be’Yahad, headed by Naftali Bennett",50,סלבני כבביה מיכל,30921,0.0,0.0,0,0,0,личных законопроектов почти нет
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",1,דרעי אריה מכלוף,2291,2.2,0.9,9,9,208,личных законопроектов почти нет
@@ -124,6 +124,6 @@ letters,list_name,position,name_he,mk_id,gov_months_k24,gov_months_k25,nA,nA_lab
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",8,בוסו אוריאל מנחם,30765,0.0,21.3,168,168,297,
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",9,טייב יוסף,30770,0.0,0.0,226,226,292,
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",10,מישרקי יונתן,30868,0.0,0.0,220,220,277,
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",12,מלול ארז,30873,0.0,0.0,89,89,265,
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",12,מלול ארז,30873,0.0,0.0,89,88,265,
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",13,מושיאשוילי סימיון,30872,0.0,0.0,13,13,240,
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",119,מרגי יעקב,1056,0.0,30.7,165,165,271,
