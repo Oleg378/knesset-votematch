@@ -70,7 +70,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",162,свобода вероисповедания и обрядов,-0.0468,0.1515,0.0062,11,9,4,False,-0.2045,37,17
 אמת,"HaDemocratim, headed by Yair Golan",163,государственная поддержка религиозных институтов и практик,-0.4742,-0.3,-0.0048,10,8,11,False,-0.1694,99,15
 אמת,"HaDemocratim, headed by Yair Golan",164,государственная поддержка еврейской идентичности и диаспоры,0.6667,0.6667,0.0,3,3,2,False,0.0,0,4
-אמת,"HaDemocratim, headed by Yair Golan",165,закрепление еврейского характера государства,-0.8615,-0.6,-0.024,10,7,8,False,-0.2375,24,6
+אמת,"HaDemocratim, headed by Yair Golan",165a,еврейский характер государства в Основных законах,-0.8884,-0.8571,-0.0312,7,7,8,False,0.0,0,4
+אמת,"HaDemocratim, headed by Yair Golan",165b,иммиграция и еврейское большинство,-0.2375,0.0,0.0,10,0,0,False,-0.2375,24,2
 אמת,"HaDemocratim, headed by Yair Golan",166,территория под израильским суверенитетом и правом,-0.6184,-0.3,-0.0684,10,4,12,False,-0.25,46,7
 אמת,"HaDemocratim, headed by Yair Golan",167,военное управление территориями,0.3076,0.0,0.0576,6,0,2,False,0.25,6,2
 אמת,"HaDemocratim, headed by Yair Golan",169,поддержка и присутствие поселений в Иудее и Самарии,-0.4842,-0.1,-0.1342,10,1,7,False,-0.25,48,9
@@ -391,7 +392,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",162,свобода вероисповедания и обрядов,0.1263,0.3333,0.0013,6,4,46,False,-0.2083,12,10
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",163,государственная поддержка религиозных институтов и практик,0.3951,0.3333,0.0089,6,2,106,False,0.0528,24,13
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",164,государственная поддержка еврейской идентичности и диаспоры,0.5833,0.5,0.0,6,4,0,False,0.0833,10,5
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",165,закрепление еврейского характера государства,0.922,0.6667,0.0054,6,4,12,False,0.25,9,6
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",165a,еврейский характер государства в Основных законах,0.75,0.5,0.0,6,3,0,False,0.25,9,3
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",165b,иммиграция и еврейское большинство,0.1753,0.1667,0.0086,6,1,12,False,0.0,0,3
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",166,территория под израильским суверенитетом и правом,0.7151,0.6667,0.036,6,9,16,False,0.0125,21,10
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",167,военное управление территориями,0.1846,0.0,0.018,6,0,5,False,0.1667,5,2
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",169,поддержка и присутствие поселений в Иудее и Самарии,0.6383,0.44,-0.0017,5,13,31,False,0.2,6,10
@@ -678,7 +680,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 בי,Tzomet Beit Yisrael,161a,автономия религиозных учебных заведений,0.25,0.0,0.0,1,0,0,True,0.25,1,1
 בי,Tzomet Beit Yisrael,162,свобода вероисповедания и обрядов,-0.2123,0.0,0.0377,1,0,1,True,-0.25,1,2
 בי,Tzomet Beit Yisrael,163,государственная поддержка религиозных институтов и практик,0.0184,0.0,0.0184,1,0,5,True,0.0,0,5
-בי,Tzomet Beit Yisrael,165,закрепление еврейского характера государства,0.0517,0.0,0.0517,1,0,2,True,0.0,0,2
+בי,Tzomet Beit Yisrael,165b,иммиграция и еврейское большинство,0.0517,0.0,0.0517,1,0,2,True,0.0,0,2
 בי,Tzomet Beit Yisrael,166,территория под израильским суверенитетом и правом,1.05,1.0,0.05,1,1,4,True,0.0,0,2
 בי,Tzomet Beit Yisrael,169,поддержка и присутствие поселений в Иудее и Самарии,1.3006,1.0,0.0506,1,1,4,True,0.25,1,5
 בי,Tzomet Beit Yisrael,169a,государственная поддержка поселений,0.0517,0.0,0.0517,1,0,2,True,0.0,0,2
@@ -924,7 +926,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,162,свобода вероисповедания и обрядов,0.3478,0.4481,0.0108,9,32,57,False,-0.1111,15,19
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,163,государственная поддержка религиозных институтов и практик,0.3824,0.5556,0.0213,9,33,150,False,-0.1944,20,18
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,164,государственная поддержка еврейской идентичности и диаспоры,-0.25,0.0,0.0,5,0,1,False,-0.25,5,2
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,165,закрепление еврейского характера государства,0.492,0.25,0.0232,8,2,20,False,0.2188,9,5
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,165a,еврейский характер государства в Основных законах,0.25,0.0,0.0,7,0,0,False,0.25,9,2
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,165b,иммиграция и еврейское большинство,0.2759,0.25,0.0259,8,2,20,False,0.0,0,3
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,166,территория под израильским суверенитетом и правом,0.4803,0.5556,-0.0382,9,7,30,False,-0.037,19,10
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,167,военное управление территориями,-0.0714,-0.2857,0.0,7,2,2,False,0.2143,11,3
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,169,поддержка и присутствие поселений в Иудее и Самарии,0.7707,0.5,0.0207,8,4,54,False,0.25,10,10
@@ -1244,7 +1247,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",162,свобода вероисповедания и обрядов,0.039,0.25,0.0163,4,1,4,False,-0.2273,27,9
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",163,государственная поддержка религиозных институтов и практик,-0.169,0.0,0.0552,4,0,15,False,-0.2242,57,12
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",164,государственная поддержка еврейской идентичности и диаспоры,0.0625,0.0,0.0,4,0,4,False,0.0625,1,2
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",165,закрепление еврейского характера государства,0.0025,0.0,0.065,4,0,7,False,-0.0625,4,4
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",165a,еврейский характер государства в Основных законах,0.064,0.0,0.064,4,0,7,False,0.0,0,2
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",165b,иммиграция и еврейское большинство,-0.25,0.0,0.0,1,0,0,True,-0.25,4,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",166,территория под израильским суверенитетом и правом,0.1864,0.0,0.2489,4,0,8,False,-0.0625,5,5
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",167,военное управление территориями,-0.0345,0.0,-0.097,4,0,5,False,0.0625,1,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",169,поддержка и присутствие поселений в Иудее и Самарии,-0.3549,-0.25,0.0451,4,1,1,False,-0.15,26,8
@@ -1538,7 +1542,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,161a,автономия религиозных учебных заведений,0.725,0.3333,0.3084,3,1,2,False,0.0833,1,3
 ודם,The Joint Arab List,162,свобода вероисповедания и обрядов,0.614,1.0,-0.1485,5,13,10,False,-0.2375,45,13
 ודם,The Joint Arab List,163,государственная поддержка религиозных институтов и практик,0.4763,0.8,-0.0737,5,9,12,False,-0.25,48,9
-ודם,The Joint Arab List,165,закрепление еврейского характера государства,-1.3645,-1.0,-0.1145,5,10,17,False,-0.25,9,4
+ודם,The Joint Arab List,165a,еврейский характер государства в Основных законах,-0.8729,-1.0,0.1271,5,10,9,False,0.0,0,2
+ודם,The Joint Arab List,165b,иммиграция и еврейское большинство,-0.6086,0.0,-0.3586,5,0,8,False,-0.25,9,2
 ודם,The Joint Arab List,166,территория под израильским суверенитетом и правом,-1.4185,-1.0,-0.3185,5,13,33,False,-0.1,4,8
 ודם,The Joint Arab List,167,военное управление территориями,0.3455,0.0,0.3455,4,0,8,False,0.0,0,1
 ודם,The Joint Arab List,169,поддержка и присутствие поселений в Иудее и Самарии,-1.2095,-0.6,-0.3595,5,5,16,False,-0.25,56,10
@@ -1853,7 +1858,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",162,свобода вероисповедания и обрядов,0.7165,0.8889,0.0081,6,18,50,False,-0.1806,15,19
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",163,государственная поддержка религиозных институтов и практик,0.0647,0.1667,0.0077,6,2,108,False,-0.1097,22,13
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",164,государственная поддержка еврейской идентичности и диаспоры,-0.05,0.2,0.0,5,1,1,False,-0.25,5,3
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",165,закрепление еврейского характера государства,0.5551,0.3333,0.0134,6,5,16,False,0.2083,11,5
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",165a,еврейский характер государства в Основных законах,0.25,0.0,0.0,5,0,0,False,0.25,11,2
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",165b,иммиграция и еврейское большинство,0.4259,0.4,0.0259,5,5,16,False,0.0,0,3
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",166,территория под израильским суверенитетом и правом,1.0487,1.0,0.0417,6,43,24,False,0.0069,21,29
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",167,военное управление территориями,-0.4583,-0.6667,0.0,6,9,3,False,0.2083,8,3
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",169,поддержка и присутствие поселений в Иудее и Самарии,1.0349,0.8333,-0.0068,6,24,61,False,0.2083,6,12
@@ -2155,7 +2161,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 י,"Yisrael Techila, headed by Sharren Haskel",162,свобода вероисповедания и обрядов,-0.2378,0.0,0.0122,1,0,2,True,-0.25,4,4
 י,"Yisrael Techila, headed by Sharren Haskel",163,государственная поддержка религиозных институтов и практик,0.5486,1.0,-0.2014,1,1,4,True,-0.25,9,10
 י,"Yisrael Techila, headed by Sharren Haskel",164,государственная поддержка еврейской идентичности и диаспоры,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
-י,"Yisrael Techila, headed by Sharren Haskel",165,закрепление еврейского характера государства,-0.0217,0.0,-0.0217,1,0,3,True,0.0,4,4
+י,"Yisrael Techila, headed by Sharren Haskel",165a,еврейский характер государства в Основных законах,-0.1498,0.0,-0.3998,1,0,1,True,0.25,2,2
+י,"Yisrael Techila, headed by Sharren Haskel",165b,иммиграция и еврейское большинство,-0.25,0.0,0.0,1,0,2,True,-0.25,2,2
 י,"Yisrael Techila, headed by Sharren Haskel",166,территория под израильским суверенитетом и правом,1.1225,1.0,0.1225,1,2,1,True,0.0,4,6
 י,"Yisrael Techila, headed by Sharren Haskel",167,военное управление территориями,0.9675,1.0,-0.0325,1,1,1,True,0.0,0,2
 י,"Yisrael Techila, headed by Sharren Haskel",169,поддержка и присутствие поселений в Иудее и Самарии,1.2203,1.0,0.1703,1,2,3,True,0.05,5,8
@@ -2445,7 +2452,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",162,свобода вероисповедания и обрядов,-0.2267,0.0,0.0233,4,0,3,False,-0.25,24,6
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",163,государственная поддержка религиозных институтов и практик,0.4406,0.75,-0.097,4,4,10,False,-0.2124,60,12
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",164,государственная поддержка еврейской идентичности и диаспоры,0.0,0.0,0.0,3,0,3,False,0.0,0,1
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",165,закрепление еврейского характера государства,-0.1104,0.0,0.0146,4,0,6,False,-0.125,3,4
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",165a,еврейский характер государства в Основных законах,0.0191,0.0,0.0191,3,0,6,False,0.0,0,2
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",165b,иммиграция и еврейское большинство,-0.25,0.0,0.0,2,0,0,True,-0.25,3,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",166,территория под израильским суверенитетом и правом,-0.1246,0.0,0.0629,4,0,8,False,-0.1875,9,6
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",167,военное управление территориями,0.0297,0.0,0.0297,3,0,3,False,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",169,поддержка и присутствие поселений в Иудее и Самарии,-0.084,0.0,0.0903,4,0,2,False,-0.1742,24,7
@@ -2752,7 +2760,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",162,свобода вероисповедания и обрядов,0.563,0.7917,0.0213,8,22,17,False,-0.25,47,17
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",163,государственная поддержка религиозных институтов и практик,0.436,0.7083,-0.0434,8,11,37,False,-0.229,118,14
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",164,государственная поддержка еврейской идентичности и диаспоры,0.7917,0.8333,0.0,6,8,4,False,-0.0417,1,4
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",165,закрепление еврейского характера государства,0.1759,0.2083,0.0197,8,15,8,False,-0.0521,10,6
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",165a,еврейский характер государства в Основных законах,0.3524,0.2778,0.033,6,15,6,False,0.0417,2,4
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",165b,иммиграция и еврейское большинство,-0.1333,0.0,0.0,5,0,2,False,-0.1333,8,2
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",166,территория под израильским суверенитетом и правом,0.9847,0.8571,0.199,7,35,29,False,-0.0714,11,10
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",167,военное управление территориями,-1.0454,-1.0,-0.1288,6,11,9,False,0.0833,3,2
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",169,поддержка и присутствие поселений в Иудее и Самарии,0.3107,0.1429,0.0536,7,2,14,False,0.1143,23,10
@@ -3075,7 +3084,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",162,свобода вероисповедания и обрядов,0.1805,0.3548,0.003,31,17,193,False,-0.1774,56,14
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",163,государственная поддержка религиозных институтов и практик,0.1965,0.303,0.0102,33,10,494,False,-0.1167,111,16
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",164,государственная поддержка еврейской идентичности и диаспоры,0.6042,0.7083,0.0,24,27,4,False,-0.1042,22,8
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",165,закрепление еврейского характера государства,0.501,0.3125,0.0166,32,12,70,False,0.1719,53,9
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",165a,еврейский характер государства в Основных законах,0.3261,0.087,0.0,23,2,0,False,0.2391,50,4
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",165b,иммиграция и еврейское большинство,0.3023,0.2812,0.021,32,10,70,False,0.0,3,5
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",166,территория под израильским суверенитетом и правом,0.7175,0.7273,0.0455,33,71,107,False,-0.0553,82,29
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",167,военное управление территориями,0.0898,-0.1111,-0.0027,27,5,7,False,0.2037,37,6
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",169,поддержка и присутствие поселений в Иудее и Самарии,0.779,0.5455,0.029,33,42,203,False,0.2045,49,12
@@ -3391,7 +3401,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",162,свобода вероисповедания и обрядов,1.191,1.0,0.0243,1,4,3,True,0.1667,6,9
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",163,государственная поддержка религиозных институтов и практик,1.2569,1.0,0.0454,1,5,9,True,0.2115,13,10
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",164,государственная поддержка еврейской идентичности и диаспоры,1.0,1.0,0.0,1,1,0,True,0.0,0,1
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",165,закрепление еврейского характера государства,1.3017,1.0,0.0517,1,1,2,True,0.25,1,4
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",165a,еврейский характер государства в Основных законах,0.25,0.0,0.0,1,0,0,True,0.25,1,1
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",165b,иммиграция и еврейское большинство,1.0517,1.0,0.0517,1,1,2,True,0.0,0,3
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",166,территория под израильским суверенитетом и правом,1.0969,1.0,0.0969,1,3,7,True,0.0,0,4
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",167,военное управление территориями,-1.0627,-1.0,-0.0627,1,1,1,True,0.0,0,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",169,поддержка и присутствие поселений в Иудее и Самарии,1.4073,1.0,0.1573,1,2,9,True,0.25,2,9
@@ -3665,7 +3676,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",162,свобода вероисповедания и обрядов,0.4875,0.8333,-0.1381,6,24,10,False,-0.2078,33,12
 עם,"Ra’am, the United Arab List",163,государственная поддержка религиозных институтов и практик,0.7167,0.8333,0.0406,6,19,6,False,-0.1572,60,16
 עם,"Ra’am, the United Arab List",164,государственная поддержка еврейской идентичности и диаспоры,0.0,0.0,0.0,1,0,1,True,0.0,0,1
-עם,"Ra’am, the United Arab List",165,закрепление еврейского характера государства,-0.2749,0.0,-0.0666,6,0,6,False,-0.2083,13,4
+עם,"Ra’am, the United Arab List",165a,еврейский характер государства в Основных законах,-0.0729,0.0,-0.0729,5,0,6,False,0.0,0,2
+עם,"Ra’am, the United Arab List",165b,иммиграция и еврейское большинство,-0.25,0.0,0.0,5,0,0,False,-0.25,13,2
 עם,"Ra’am, the United Arab List",166,территория под израильским суверенитетом и правом,-0.44,0.0,-0.19,6,0,20,False,-0.25,30,8
 עם,"Ra’am, the United Arab List",167,военное управление территориями,0.3553,0.0,0.2303,6,0,6,False,0.125,3,2
 עם,"Ra’am, the United Arab List",169,поддержка и присутствие поселений в Иудее и Самарии,-0.2999,0.1667,-0.2166,6,1,8,False,-0.25,53,10
@@ -3978,7 +3990,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",162,свобода вероисповедания и обрядов,-0.1422,0.0625,0.0279,16,3,28,False,-0.2325,129,12
 רק,"Be’Yahad, headed by Naftali Bennett",163,государственная поддержка религиозных институтов и практик,-0.0425,0.2,-0.0069,15,8,59,False,-0.2356,308,14
 רק,"Be’Yahad, headed by Naftali Bennett",164,государственная поддержка еврейской идентичности и диаспоры,0.4,0.4,0.0,10,6,11,False,0.0,0,4
-רק,"Be’Yahad, headed by Naftali Bennett",165,закрепление еврейского характера государства,0.4368,0.7333,-0.0799,15,13,24,False,-0.2167,37,4
+רק,"Be’Yahad, headed by Naftali Bennett",165a,еврейский характер государства в Основных законах,0.6604,0.7333,-0.0729,15,13,24,False,0.0,0,2
+רק,"Be’Yahad, headed by Naftali Bennett",165b,иммиграция и еврейское большинство,-0.25,0.0,0.0,13,0,0,False,-0.25,37,2
 רק,"Be’Yahad, headed by Naftali Bennett",166,территория под израильским суверенитетом и правом,-0.2359,0.0,-0.0026,15,0,36,False,-0.2333,56,7
 רק,"Be’Yahad, headed by Naftali Bennett",167,военное управление территориями,-0.0712,0.0,-0.1545,6,0,6,False,0.0833,2,2
 רק,"Be’Yahad, headed by Naftali Bennett",169,поддержка и присутствие поселений в Иудее и Самарии,-0.2982,-0.0714,-0.0268,14,1,13,False,-0.1999,80,9
@@ -4303,7 +4316,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",162,свобода вероисповедания и обрядов,0.569,0.5536,0.0154,12,29,73,False,0.0,40,17
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",163,государственная поддержка религиозных институтов и практик,1.06,0.9167,-0.0029,12,34,135,False,0.1463,136,21
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",164,государственная поддержка еврейской идентичности и диаспоры,0.35,0.5,0.0,10,7,4,False,-0.15,8,8
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",165,закрепление еврейского характера государства,0.2985,0.0833,0.0694,12,1,38,False,0.1458,11,4
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",165a,еврейский характер государства в Основных законах,0.2641,0.0,0.0697,9,0,8,False,0.1944,11,2
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",165b,иммиграция и еврейское большинство,0.1092,0.0833,0.0259,12,1,30,False,0.0,0,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",166,территория под израильским суверенитетом и правом,0.6094,0.6667,-0.0267,12,19,42,False,-0.0306,28,11
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",167,военное управление территориями,0.125,-0.1,0.0,10,1,2,False,0.225,15,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",169,поддержка и присутствие поселений в Иудее и Самарии,1.0423,0.7273,0.065,11,14,117,False,0.25,15,10

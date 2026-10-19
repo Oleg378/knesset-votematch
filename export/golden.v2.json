@@ -87,84 +87,84 @@
    "ranking": [
     {
      "id": "ב",
-     "closeness": 0.0751851862751388,
+     "closeness": 0.08314829482455241,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.06135936454567943,
+     "closeness": 0.07079296116118987,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.04970489114155137,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "ל",
-     "closeness": 0.03906408633573667,
+     "closeness": 0.040711546168183045,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.03480070167023608,
+     "closeness": 0.03576909320894551,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "ל",
+     "closeness": 0.033648861598712734,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.004341854408635155,
+     "closeness": 0.005681042812498799,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.008882547789236105,
+     "closeness": 0.0021901091540185297,
      "coverage": 0.9848484848484849,
      "note": "",
      "ranked": true
     },
     {
-     "id": "דרך",
-     "closeness": -0.013651445486195072,
+     "id": "ג",
+     "closeness": -0.006409117840109618,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
-     "id": "ג",
-     "closeness": -0.017334237202619705,
+     "id": "דרך",
+     "closeness": -0.016932347462999528,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.01964705676384052,
+     "closeness": -0.025296891582753906,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.06099231931347059,
+     "closeness": -0.07647879674576598,
      "coverage": 0.9696969696969697,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.14212004627082814,
+     "closeness": -0.15056739977863426,
      "coverage": 0.9848484848484849,
      "note": "",
      "ranked": true
@@ -178,21 +178,21 @@
     },
     {
      "id": "בי",
-     "closeness": -0.08280855658418883,
-     "coverage": 0.6666666666666666,
+     "closeness": -0.08232945193736439,
+     "coverage": 0.6515151515151515,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": 0.053038685220095076,
+     "closeness": 0.08605730509707618,
      "coverage": 0.8787878787878788,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": -0.039048068828093974,
+     "closeness": -0.03505778586715331,
      "coverage": 0.9242424242424242,
      "note": "few former MKs: 1",
      "ranked": false
@@ -372,14 +372,14 @@
       "רק"
      ],
      [
-      "81",
-      "90",
-      "ל"
-     ],
-     [
       "61",
       "62",
       "אמת"
+     ],
+     [
+      "81",
+      "90",
+      "ל"
      ]
     ]
    },
@@ -3329,6 +3329,47 @@
        ]
       },
       {
+       "q": "4",
+       "contribution": -0.75,
+       "p": 0.75,
+       "lines": [
+        "“The Jewish character of the state should be anchored more firmly in law, even if non-Jewish citizens feel less equal.”",
+        "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 0 votes on private bills and 9 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2228723",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           3,
+           "Yitzhak Shimon Wasserlauf"
+          ]
+         ]
+        },
+        {
+         "bill": "2227488",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           5,
+           "Limor Son Har-Melech"
+          ],
+          [
+           6,
+           "Yitzhak Kroizer"
+          ]
+         ]
+        }
+       ]
+      },
+      {
        "q": "15",
        "contribution": -0.793,
        "p": 0.793,
@@ -4408,59 +4449,6 @@
           [
            5,
            "Limor Son Har-Melech"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "4",
-       "contribution": -0.922,
-       "p": 0.922,
-       "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
-        "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 0 your way, 3 the other way; 12 votes on private bills and 9 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2158836",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Itamar Ben Gvir"
-          ]
-         ]
-        },
-        {
-         "bill": "2228723",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           3,
-           "Yitzhak Shimon Wasserlauf"
-          ]
-         ]
-        },
-        {
-         "bill": "2227488",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Limor Son Har-Melech"
-          ],
-          [
-           6,
-           "Yitzhak Kroizer"
           ]
          ]
         }
@@ -12990,6 +12978,43 @@
        ]
       },
       {
+       "q": "4",
+       "contribution": -0.3261,
+       "p": 0.3261,
+       "lines": [
+        "“The Jewish character of the state should be anchored more firmly in law, even if non-Jewish citizens feel less equal.”",
+        "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 0 votes on private bills and 50 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2192095",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           2,
+           "Eli Cohen"
+          ]
+         ]
+        },
+        {
+         "bill": "2241744",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           65,
+           "Osher Shekalim"
+          ]
+         ]
+        }
+       ]
+      },
+      {
        "q": "33",
        "contribution": -0.3465,
        "p": 0.3465,
@@ -13863,155 +13888,6 @@
           [
            47,
            "Ariel Kallner"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "4",
-       "contribution": -0.501,
-       "p": 0.501,
-       "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
-        "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 11 bills sponsored by the list's former MKs — 0 your way, 11 the other way; 70 votes on private bills and 53 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2164318",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Eli Cohen"
-          ]
-         ]
-        },
-        {
-         "bill": "2192095",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Eli Cohen"
-          ]
-         ]
-        },
-        {
-         "bill": "2159382",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           3,
-           "Amir Ohana"
-          ],
-          [
-           14,
-           "Amichai Chikli"
-          ]
-         ]
-        },
-        {
-         "bill": "2156351",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           12,
-           "Makhlouf Miki Zohar"
-          ]
-         ]
-        },
-        {
-         "bill": "2234650",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
-         "bill": "2189595",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2242921",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ]
-         ]
-        },
-        {
-         "bill": "2157408",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2197103",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2197411",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           47,
-           "Ariel Kallner"
-          ]
-         ]
-        },
-        {
-         "bill": "2241744",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           65,
-           "Osher Shekalim"
           ]
          ]
         }
@@ -17160,84 +17036,84 @@
    "ranking": [
     {
      "id": "ב",
-     "closeness": 0.0790371276547266,
+     "closeness": 0.0864278751717629,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.03000851858990142,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "רק",
-     "closeness": 0.0027570355232162226,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "שס",
-     "closeness": -0.0034304630209380793,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "אמת",
-     "closeness": -0.0034806429421214468,
+     "closeness": 0.03867412306803844,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.0036197015975408535,
+     "closeness": 0.006752841330715972,
      "coverage": 0.9852941176470589,
      "note": "",
      "ranked": true
     },
     {
-     "id": "ל",
-     "closeness": -0.013337280421734913,
+     "id": "שס",
+     "closeness": -0.0021549809118565737,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "אמת",
+     "closeness": -0.002514818345032928,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "רק",
+     "closeness": -0.005508732599050593,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.02215235236824245,
+     "closeness": -0.011649317804852188,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "ל",
+     "closeness": -0.018407913805412884,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.07405105116814294,
+     "closeness": -0.07934350326077261,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "דרך",
+     "closeness": -0.08208035184416153,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.07532524035883274,
+     "closeness": -0.09016952990534605,
      "coverage": 0.9705882352941176,
      "note": "",
      "ranked": true
     },
     {
-     "id": "דרך",
-     "closeness": -0.07907985115353822,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
      "id": "עם",
-     "closeness": -0.14535478386767192,
+     "closeness": -0.15349946025390399,
      "coverage": 0.9852941176470589,
      "note": "",
      "ranked": true
@@ -17251,21 +17127,21 @@
     },
     {
      "id": "בי",
-     "closeness": -0.14083754891227443,
-     "coverage": 0.6617647058823529,
+     "closeness": -0.1419171201913163,
+     "coverage": 0.6470588235294118,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": 0.05175831551058252,
+     "closeness": 0.0828596300054006,
      "coverage": 0.8823529411764706,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": -0.09958874759815438,
+     "closeness": -0.0958348420244283,
      "coverage": 0.9264705882352942,
      "note": "few former MKs: 1",
      "ranked": false
@@ -17440,18 +17316,18 @@
       "מחל"
      ],
      [
-      "7",
-      "40",
-      "רק"
+      "54",
+      "48",
+      "ט"
      ],
      [
       "62",
-      "33",
+      "7",
       "שס"
      ],
      [
       "61",
-      "96",
+      "40",
       "אמת"
      ]
     ]
@@ -20403,6 +20279,47 @@
        ]
       },
       {
+       "q": "4",
+       "contribution": -0.75,
+       "p": 0.75,
+       "lines": [
+        "“The Jewish character of the state should be anchored more firmly in law, even if non-Jewish citizens feel less equal.”",
+        "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 0 votes on private bills and 9 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2228723",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           3,
+           "Yitzhak Shimon Wasserlauf"
+          ]
+         ]
+        },
+        {
+         "bill": "2227488",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           5,
+           "Limor Son Har-Melech"
+          ],
+          [
+           6,
+           "Yitzhak Kroizer"
+          ]
+         ]
+        }
+       ]
+      },
+      {
        "q": "23",
        "contribution": -0.8125,
        "p": 0.8125,
@@ -20441,59 +20358,6 @@
           [
            5,
            "Limor Son Har-Melech"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "4",
-       "contribution": -0.922,
-       "p": 0.922,
-       "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
-        "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 0 your way, 3 the other way; 12 votes on private bills and 9 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2158836",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Itamar Ben Gvir"
-          ]
-         ]
-        },
-        {
-         "bill": "2228723",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           3,
-           "Yitzhak Shimon Wasserlauf"
-          ]
-         ]
-        },
-        {
-         "bill": "2227488",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Limor Son Har-Melech"
-          ],
-          [
-           6,
-           "Yitzhak Kroizer"
           ]
          ]
         }
@@ -30066,6 +29930,43 @@
        ]
       },
       {
+       "q": "4",
+       "contribution": -0.3261,
+       "p": 0.3261,
+       "lines": [
+        "“The Jewish character of the state should be anchored more firmly in law, even if non-Jewish citizens feel less equal.”",
+        "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 0 votes on private bills and 50 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2192095",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           2,
+           "Eli Cohen"
+          ]
+         ]
+        },
+        {
+         "bill": "2241744",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           65,
+           "Osher Shekalim"
+          ]
+         ]
+        }
+       ]
+      },
+      {
        "q": "33",
        "contribution": -0.3465,
        "p": 0.3465,
@@ -30939,155 +30840,6 @@
           [
            47,
            "Ariel Kallner"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "4",
-       "contribution": -0.501,
-       "p": 0.501,
-       "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
-        "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 11 bills sponsored by the list's former MKs — 0 your way, 11 the other way; 70 votes on private bills and 53 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2164318",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Eli Cohen"
-          ]
-         ]
-        },
-        {
-         "bill": "2192095",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Eli Cohen"
-          ]
-         ]
-        },
-        {
-         "bill": "2159382",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           3,
-           "Amir Ohana"
-          ],
-          [
-           14,
-           "Amichai Chikli"
-          ]
-         ]
-        },
-        {
-         "bill": "2156351",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           12,
-           "Makhlouf Miki Zohar"
-          ]
-         ]
-        },
-        {
-         "bill": "2234650",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
-         "bill": "2189595",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2242921",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ]
-         ]
-        },
-        {
-         "bill": "2157408",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2197103",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2197411",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           47,
-           "Ariel Kallner"
-          ]
-         ]
-        },
-        {
-         "bill": "2241744",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           65,
-           "Osher Shekalim"
           ]
          ]
         }
@@ -34237,84 +33989,84 @@
    "ranking": [
     {
      "id": "ב",
-     "closeness": 0.11366641084486541,
+     "closeness": 0.12156776266835287,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.07472037142994502,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "רק",
-     "closeness": 0.0392466645773159,
+     "closeness": 0.08406226373388652,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.027237267608775775,
+     "closeness": 0.03808412056808815,
      "coverage": 0.9850746268656716,
      "note": "",
      "ranked": true
     },
     {
+     "id": "רק",
+     "closeness": 0.03046253573838716,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
      "id": "שס",
-     "closeness": 0.021807611495701724,
+     "closeness": 0.023127564279679328,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.020911781122659134,
+     "closeness": 0.021876481625469263,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.01265522372603924,
+     "closeness": 0.007414877017403618,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.00668099449886524,
+     "closeness": 0.004118160997432579,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.026510861170156382,
+     "closeness": -0.02972978897506932,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.03001041399972645,
+     "closeness": -0.035566645999940354,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.093685550464909,
+     "closeness": -0.10907963412521918,
      "coverage": 0.9701492537313433,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.15699877337562101,
+     "closeness": -0.16529863114219234,
      "coverage": 0.9850746268656716,
      "note": "",
      "ranked": true
@@ -34328,21 +34080,21 @@
     },
     {
      "id": "בי",
-     "closeness": -0.08280855658418883,
-     "coverage": 0.6567164179104478,
+     "closeness": -0.08232945193736439,
+     "coverage": 0.6417910447761194,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": 0.08113289630528156,
+     "closeness": 0.11375708369751324,
      "coverage": 0.8805970149253731,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": -0.07492994418722493,
+     "closeness": -0.07107961578616,
      "coverage": 0.9253731343283582,
      "note": "few former MKs: 1",
      "ranked": false
@@ -34517,14 +34269,14 @@
       "מחל"
      ],
      [
-      "7",
-      "40",
-      "רק"
-     ],
-     [
       "54",
       "48",
       "ט"
+     ],
+     [
+      "7",
+      "40",
+      "רק"
      ],
      [
       "62",
@@ -37480,6 +37232,47 @@
        ]
       },
       {
+       "q": "4",
+       "contribution": -0.75,
+       "p": 0.75,
+       "lines": [
+        "“The Jewish character of the state should be anchored more firmly in law, even if non-Jewish citizens feel less equal.”",
+        "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 0 votes on private bills and 9 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2228723",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           3,
+           "Yitzhak Shimon Wasserlauf"
+          ]
+         ]
+        },
+        {
+         "bill": "2227488",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           5,
+           "Limor Son Har-Melech"
+          ],
+          [
+           6,
+           "Yitzhak Kroizer"
+          ]
+         ]
+        }
+       ]
+      },
+      {
        "q": "15",
        "contribution": -0.793,
        "p": 0.793,
@@ -38559,59 +38352,6 @@
           [
            5,
            "Limor Son Har-Melech"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "4",
-       "contribution": -0.922,
-       "p": 0.922,
-       "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
-        "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 0 your way, 3 the other way; 12 votes on private bills and 9 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2158836",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Itamar Ben Gvir"
-          ]
-         ]
-        },
-        {
-         "bill": "2228723",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           3,
-           "Yitzhak Shimon Wasserlauf"
-          ]
-         ]
-        },
-        {
-         "bill": "2227488",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Limor Son Har-Melech"
-          ],
-          [
-           6,
-           "Yitzhak Kroizer"
           ]
          ]
         }
@@ -47142,6 +46882,43 @@
        ]
       },
       {
+       "q": "4",
+       "contribution": -0.3261,
+       "p": 0.3261,
+       "lines": [
+        "“The Jewish character of the state should be anchored more firmly in law, even if non-Jewish citizens feel less equal.”",
+        "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 0 votes on private bills and 50 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2192095",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           2,
+           "Eli Cohen"
+          ]
+         ]
+        },
+        {
+         "bill": "2241744",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           65,
+           "Osher Shekalim"
+          ]
+         ]
+        }
+       ]
+      },
+      {
        "q": "33",
        "contribution": -0.3465,
        "p": 0.3465,
@@ -48015,155 +47792,6 @@
           [
            47,
            "Ariel Kallner"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "4",
-       "contribution": -0.501,
-       "p": 0.501,
-       "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
-        "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 11 bills sponsored by the list's former MKs — 0 your way, 11 the other way; 70 votes on private bills and 53 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2164318",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Eli Cohen"
-          ]
-         ]
-        },
-        {
-         "bill": "2192095",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Eli Cohen"
-          ]
-         ]
-        },
-        {
-         "bill": "2159382",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           3,
-           "Amir Ohana"
-          ],
-          [
-           14,
-           "Amichai Chikli"
-          ]
-         ]
-        },
-        {
-         "bill": "2156351",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           12,
-           "Makhlouf Miki Zohar"
-          ]
-         ]
-        },
-        {
-         "bill": "2234650",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
-         "bill": "2189595",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2242921",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ]
-         ]
-        },
-        {
-         "bill": "2157408",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2197103",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2197411",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           47,
-           "Ariel Kallner"
-          ]
-         ]
-        },
-        {
-         "bill": "2241744",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           65,
-           "Osher Shekalim"
           ]
          ]
         }
@@ -51264,85 +50892,85 @@
    },
    "ranking": [
     {
-     "id": "ודם",
-     "closeness": 0.26875304144392886,
+     "id": "אמת",
+     "closeness": 0.25535028514275415,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.26630387701055,
+     "closeness": 0.2517301059017618,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
-     "id": "אמת",
-     "closeness": 0.2530660054067427,
+     "id": "ודם",
+     "closeness": 0.23545343037162858,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.24187055771601698,
+     "closeness": 0.22981905970377267,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.2269622341160831,
+     "closeness": 0.2110743848259523,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.0916484088669887,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "רק",
-     "closeness": 0.04961896544533852,
+     "closeness": 0.09595296430199216,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.023138033533425476,
+     "closeness": 0.05539402985380892,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.004672837116202802,
+     "closeness": 0.03454803140912422,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "רק",
+     "closeness": 0.024408583332962707,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.05252271741346964,
+     "closeness": -0.021202579695139345,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.08790293492477502,
+     "closeness": -0.06924716991231822,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.13156422130605003,
+     "closeness": -0.1541606630346311,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -51356,21 +50984,21 @@
     },
     {
      "id": "בי",
-     "closeness": 0.3239014422527176,
-     "coverage": 0.6666666666666666,
+     "closeness": 0.3776741012282344,
+     "coverage": 0.6333333333333333,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": -0.12949648132164562,
+     "closeness": -0.041173729872452915,
      "coverage": 0.8666666666666667,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.42462540300592894,
+     "closeness": 0.4356687218901125,
      "coverage": 0.9666666666666667,
      "note": "few former MKs: 1",
      "ranked": false
@@ -51535,9 +51163,9 @@
     "skip_lists": [],
     "pairs": [
      [
-      "4",
-      "19",
-      "ודם"
+      "86",
+      "63",
+      "אמת"
      ],
      [
       "51",
@@ -51545,9 +51173,9 @@
       "כן"
      ],
      [
-      "86",
-      "63",
-      "אמת"
+      "4",
+      "19",
+      "ודם"
      ],
      [
       "83",
@@ -51563,143 +51191,237 @@
    },
    "details": [
     {
-     "id": "ודם",
+     "id": "אמת",
      "items": [
       {
-       "q": "4",
-       "contribution": 1.3645,
-       "p": -1.3645,
+       "q": "86",
+       "contribution": 0.9375,
+       "p": 0.9375,
        "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
-        "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
-        "Basis: 4 bills sponsored by the list's former MKs — 4 your way, 0 the other way; 17 votes on private bills and 9 votes on the other camp's bills on this topic."
+        "“The state should give farmers more support, such as cheaper water and investment grants, even if taxpayers and consumers pay more.”",
+        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 7 bills sponsored by the list's former MKs — 7 your way, 0 the other way; 1 vote on private bills and 7 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
         {
-         "bill": "2156912",
-         "sign": -1,
+         "bill": "2199169",
+         "sign": 1,
          "role": "main",
          "same": true,
          "authors": [
           [
            2,
-           "Ahmad Tibi"
+           "Naama Lazimi"
           ]
          ]
         },
         {
-         "bill": "2159158",
-         "sign": -1,
+         "bill": "2215643",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Naama Lazimi"
+          ]
+         ]
+        },
+        {
+         "bill": "2216305",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Naama Lazimi"
+          ]
+         ]
+        },
+        {
+         "bill": "2200223",
+         "sign": 1,
          "role": "main",
          "same": true,
          "authors": [
           [
            2,
-           "Ahmad Tibi"
-          ],
-          [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
+           "Naama Lazimi"
           ]
          ]
         },
         {
-         "bill": "2197146",
-         "sign": -1,
-         "role": "main",
+         "bill": "2211486",
+         "sign": 1,
+         "role": "secondary",
          "same": true,
          "authors": [
           [
-           2,
-           "Ahmad Tibi"
+           3,
+           "Gilad Kariv"
           ]
          ]
         },
         {
-         "bill": "2198155",
-         "sign": -1,
+         "bill": "2231906",
+         "sign": 1,
          "role": "main",
          "same": true,
          "authors": [
           [
-           5,
-           "Ofer Cassif"
-          ],
+           3,
+           "Gilad Kariv"
+          ]
+         ]
+        },
+        {
+         "bill": "2157311",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
           [
-           6,
-           "Youssef Atauna"
-          ],
-          [
-           108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
+           17,
+           "Ram Shefa"
           ]
          ]
         }
        ]
       },
       {
-       "q": "60",
-       "contribution": 0.5638,
-       "p": -1.1276,
+       "q": "4",
+       "contribution": 0.8884,
+       "p": -0.8884,
        "lines": [
-        "“The state should have broader powers to confiscate property linked to crime or terrorism, even if innocent owners are sometimes harmed.”",
-        "Your answer: disagree. The record of the list's former MKs points against this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 8 votes on private bills and 18 votes on the other camp's bills on this topic."
+        "“The Jewish character of the state should be anchored more firmly in law, even if non-Jewish citizens feel less equal.”",
+        "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
+        "Basis: 7 bills sponsored by the list's former MKs — 7 your way, 0 the other way; 8 votes on private bills and 0 votes on the other camp's bills on this topic."
        ],
        "evidence": [
         {
-         "bill": "2197257",
+         "bill": "2210217",
          "sign": -1,
          "role": "main",
          "same": true,
          "authors": [
           [
            2,
-           "Ahmad Tibi"
-          ],
-          [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
+           "Naama Lazimi"
           ]
          ]
         },
         {
-         "bill": "2157789",
+         "bill": "2204688",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Gilad Kariv"
+          ]
+         ]
+        },
+        {
+         "bill": "2192282",
          "sign": -1,
          "role": "main",
          "same": true,
          "authors": [
           [
-           2,
-           "Ahmad Tibi"
+           6,
+           "Gaby Lasky"
+          ]
+         ]
+        },
+        {
+         "bill": "2156247",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Michal Rozin"
+          ]
+         ]
+        },
+        {
+         "bill": "2157344",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Michal Rozin"
+          ]
+         ]
+        },
+        {
+         "bill": "2192252",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           18,
+           "Ali Salalha"
+          ]
+         ]
+        },
+        {
+         "bill": "2156157",
+         "sign": -1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           22,
+           "Mossi Raz"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "51",
+       "contribution": 0.4709,
+       "p": 0.4709,
+       "lines": [
+        "“New immigrants (olim) should receive more benefits and assistance, even at the expense of other parts of the budget.”",
+        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 8 votes on private bills and 1 vote on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2216674",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Gilad Kariv"
+          ]
+         ]
+        },
+        {
+         "bill": "2168066",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           4,
+           "Efrat Rayten Marom"
           ],
           [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
+           17,
+           "Ram Shefa"
           ]
          ]
         }
@@ -51707,28 +51429,36 @@
       },
       {
        "q": "80",
-       "contribution": 0.5622,
-       "p": 1.1244,
+       "contribution": 0.45155,
+       "p": 0.9031,
        "lines": [
         "“Citizens should have more ways to challenge government and police decisions, in court and by appeal, even if courts more often block them.”",
         "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 19 bills sponsored by the list's former MKs — 19 your way, 0 the other way; 60 votes on private bills and 104 votes on the other camp's bills on this topic.",
+        "Basis: 30 bills sponsored by the list's former MKs — 30 your way, 0 the other way; 37 votes on private bills and 93 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
         {
-         "bill": "2167645",
+         "bill": "2192362",
          "sign": 1,
          "role": "secondary",
          "same": true,
          "authors": [
           [
            2,
-           "Ahmad Tibi"
-          ],
+           "Naama Lazimi"
+          ]
+         ]
+        },
+        {
+         "bill": "2198043",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
           [
-           5,
-           "Ofer Cassif"
+           2,
+           "Naama Lazimi"
           ]
          ]
         },
@@ -51740,75 +51470,67 @@
          "authors": [
           [
            2,
-           "Ahmad Tibi"
+           "Naama Lazimi"
+          ],
+          [
+           3,
+           "Gilad Kariv"
           ]
          ]
         },
         {
-         "bill": "2217299",
+         "bill": "2166159",
          "sign": 1,
          "role": "secondary",
          "same": true,
          "authors": [
           [
            2,
-           "Ahmad Tibi"
+           "Naama Lazimi"
           ],
           [
-           5,
-           "Ofer Cassif"
+           3,
+           "Gilad Kariv"
           ],
           [
-           109,
-           "Aida Touma-Sliman"
+           4,
+           "Efrat Rayten Marom"
+          ],
+          [
+           6,
+           "Gaby Lasky"
+          ],
+          [
+           8,
+           "Michal Rozin"
+          ],
+          [
+           14,
+           "Emilie Haya Moatti"
+          ],
+          [
+           17,
+           "Ram Shefa"
+          ],
+          [
+           18,
+           "Ali Salalha"
+          ],
+          [
+           22,
+           "Mossi Raz"
           ]
          ]
         },
         {
-         "bill": "2156895",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Ahmad Tibi"
-          ]
-         ]
-        },
-        {
-         "bill": "2190709",
+         "bill": "2197513",
          "sign": 1,
          "role": "secondary",
          "same": true,
          "authors": [
           [
            2,
-           "Ahmad Tibi"
-          ]
-         ]
-        },
-        {
-         "bill": "2197257",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Ahmad Tibi"
-          ],
-          [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
+           "Naama Lazimi"
           ]
          ]
         },
@@ -51820,477 +51542,396 @@
          "authors": [
           [
            2,
-           "Ahmad Tibi"
+           "Naama Lazimi"
           ]
          ]
         },
         {
-         "bill": "2196775",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Ahmad Tibi"
-          ]
-         ]
-        },
-        {
-         "bill": "2197185",
+         "bill": "2200576",
          "sign": 1,
          "role": "main",
          "same": true,
          "authors": [
           [
            2,
-           "Ahmad Tibi"
+           "Naama Lazimi"
           ]
          ]
         },
         {
-         "bill": "2218675",
+         "bill": "2201701",
          "sign": 1,
          "role": "secondary",
          "same": true,
          "authors": [
           [
            2,
-           "Ahmad Tibi"
+           "Naama Lazimi"
           ]
          ]
         },
         {
-         "bill": "2156817",
+         "bill": "2234007",
          "sign": 1,
          "role": "secondary",
          "same": true,
          "authors": [
           [
-           2,
-           "Ahmad Tibi"
+           3,
+           "Gilad Kariv"
           ]
          ]
         },
         {
-         "bill": "2157789",
+         "bill": "2234009",
          "sign": 1,
          "role": "secondary",
          "same": true,
          "authors": [
           [
-           2,
-           "Ahmad Tibi"
+           3,
+           "Gilad Kariv"
+          ]
+         ]
+        },
+        {
+         "bill": "2190457",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Gilad Kariv"
+          ]
+         ]
+        },
+        {
+         "bill": "2239485",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Gilad Kariv"
+          ]
+         ]
+        },
+        {
+         "bill": "2195990",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Gilad Kariv"
+          ]
+         ]
+        },
+        {
+         "bill": "2169463",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Gilad Kariv"
           ],
           [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
+           6,
+           "Gaby Lasky"
           ]
          ]
         },
         {
-         "bill": "2196051",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Ofer Cassif"
-          ]
-         ]
-        },
-        {
-         "bill": "2165968",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
-          ]
-         ]
-        },
-        {
-         "bill": "2166034",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Ofer Cassif"
-          ]
-         ]
-        },
-        {
-         "bill": "2205865",
+         "bill": "2167645",
          "sign": 1,
          "role": "secondary",
          "same": true,
          "authors": [
           [
            6,
-           "Youssef Atauna"
+           "Gaby Lasky"
           ]
          ]
         },
         {
-         "bill": "2200729",
+         "bill": "2157452",
          "sign": 1,
          "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
-          ]
-         ]
-        },
-        {
-         "bill": "2164909",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           109,
-           "Aida Touma-Sliman"
-          ]
-         ]
-        },
-        {
-         "bill": "2196054",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           109,
-           "Aida Touma-Sliman"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "92",
-       "contribution": 0.5,
-       "p": 1.0,
-       "lines": [
-        "“More people should qualify for disability, nursing-care and sick-leave benefits, for example homemakers and the self-employed, even if National Insurance and employers pay more.”",
-        "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 13 bills sponsored by the list's former MKs — 13 your way, 0 the other way; 8 votes on private bills and 0 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2205604",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Ahmad Tibi"
-          ]
-         ]
-        },
-        {
-         "bill": "2197794",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Ahmad Tibi"
-          ],
-          [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
-          ]
-         ]
-        },
-        {
-         "bill": "2209345",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Ahmad Tibi"
-          ]
-         ]
-        },
-        {
-         "bill": "2197488",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Ahmad Tibi"
-          ],
-          [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
-          ]
-         ]
-        },
-        {
-         "bill": "2196042",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Ofer Cassif"
-          ]
-         ]
-        },
-        {
-         "bill": "2198172",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
-          ]
-         ]
-        },
-        {
-         "bill": "2159047",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
-          ]
-         ]
-        },
-        {
-         "bill": "2158021",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
-          ]
-         ]
-        },
-        {
-         "bill": "2203621",
-         "sign": 1,
-         "role": "main",
          "same": true,
          "authors": [
           [
            6,
-           "Youssef Atauna"
+           "Gaby Lasky"
           ]
          ]
         },
         {
-         "bill": "2160933",
+         "bill": "2190926",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           6,
+           "Gaby Lasky"
+          ]
+         ]
+        },
+        {
+         "bill": "2190174",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           6,
+           "Gaby Lasky"
+          ]
+         ]
+        },
+        {
+         "bill": "2160475",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           6,
+           "Gaby Lasky"
+          ]
+         ]
+        },
+        {
+         "bill": "2169428",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Michal Rozin"
+          ]
+         ]
+        },
+        {
+         "bill": "2164053",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Michal Rozin"
+          ]
+         ]
+        },
+        {
+         "bill": "2157125",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Michal Rozin"
+          ]
+         ]
+        },
+        {
+         "bill": "2156901",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           14,
+           "Emilie Haya Moatti"
+          ]
+         ]
+        },
+        {
+         "bill": "2168439",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           14,
+           "Emilie Haya Moatti"
+          ]
+         ]
+        },
+        {
+         "bill": "2157256",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           22,
+           "Mossi Raz"
+          ]
+         ]
+        },
+        {
+         "bill": "2156244",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           22,
+           "Mossi Raz"
+          ]
+         ]
+        },
+        {
+         "bill": "2156771",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           22,
+           "Mossi Raz"
+          ]
+         ]
+        },
+        {
+         "bill": "2159293",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           22,
+           "Mossi Raz"
+          ]
+         ]
+        },
+        {
+         "bill": "2157455",
          "sign": 1,
          "role": "secondary",
          "same": true,
          "authors": [
           [
            108,
-           "Ayman Odeh"
+           "Tamar Zandberg"
           ]
          ]
         },
         {
-         "bill": "2200398",
+         "bill": "2156768",
          "sign": 1,
          "role": "secondary",
          "same": true,
          "authors": [
           [
            108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
-          ]
-         ]
-        },
-        {
-         "bill": "2198170",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
-          ]
-         ]
-        },
-        {
-         "bill": "2202773",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           109,
-           "Aida Touma-Sliman"
+           "Tamar Zandberg"
           ]
          ]
         }
        ]
       },
       {
-       "q": "39",
-       "contribution": 0.4671,
-       "p": -0.4671,
+       "q": "23",
+       "contribution": 0.36955,
+       "p": 0.7391,
        "lines": [
-        "“Defamation laws should be relaxed, even if people find it harder to defend themselves against false accusations.”",
-        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 4 bills sponsored by the list's former MKs — 2 your way, 2 the other way; 1 vote on private bills and 4 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+        "“Public sector wages and job protections should be cut to reduce government spending, even if experienced employees leave public service.”",
+        "Your answer: disagree. The record of the list's former MKs points against this statement.",
+        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 5 votes on private bills and 43 votes on the other camp's bills on this topic."
        ],
        "evidence": [
         {
-         "bill": "2197837",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Ahmad Tibi"
-          ],
-          [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
-          ]
-         ]
-        },
-        {
-         "bill": "2157494",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
-          ]
-         ]
-        },
-        {
-         "bill": "2203963",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Ahmad Tibi"
-          ]
-         ]
-        },
-        {
-         "bill": "2189748",
+         "bill": "2218151",
          "sign": 1,
          "role": "secondary",
-         "same": false,
+         "same": true,
          "authors": [
           [
            2,
-           "Ahmad Tibi"
+           "Naama Lazimi"
+          ]
+         ]
+        },
+        {
+         "bill": "2211024",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Naama Lazimi"
+          ]
+         ]
+        },
+        {
+         "bill": "2157468",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           6,
+           "Gaby Lasky"
+          ]
+         ]
+        },
+        {
+         "bill": "2160966",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Michal Rozin"
+          ]
+         ]
+        },
+        {
+         "bill": "2157969",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           17,
+           "Ram Shefa"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "25",
+       "contribution": 0.35,
+       "p": -0.35,
+       "lines": [
+        "“Separating men and women should be allowed in state and municipal settings — swimming hours, events, study programs — even if this limits one sex's access at certain times.”",
+        "Your answer: disagree. The record of the list's former MKs points against this statement.",
+        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 0 votes on private bills and 22 votes on the other camp's bills on this topic.",
+        "Weight ×2: you chose this topic in a trade-off question."
+       ],
+       "evidence": [
+        {
+         "bill": "2157289",
+         "sign": -1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Michal Rozin"
           ]
          ]
         }
@@ -52298,92 +51939,136 @@
       },
       {
        "q": "99",
-       "contribution": 0.32805,
-       "p": 0.6561,
+       "contribution": 0.2903,
+       "p": 0.5806,
        "lines": [
         "“People under a protective order for domestic violence should be electronically monitored, even before any conviction.”",
         "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 6 bills sponsored by the list's former MKs — 6 your way, 0 the other way; 33 votes on private bills and 25 votes on the other camp's bills on this topic.",
+        "Basis: 9 bills sponsored by the list's former MKs — 7 your way, 2 the other way; 53 votes on private bills and 43 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
         {
-         "bill": "2086395",
+         "bill": "2197515",
          "sign": 1,
          "role": "main",
          "same": true,
          "authors": [
           [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
+           2,
+           "Naama Lazimi"
           ]
          ]
         },
         {
-         "bill": "2161441",
+         "bill": "2200705",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Naama Lazimi"
+          ],
+          [
+           3,
+           "Gilad Kariv"
+          ],
+          [
+           4,
+           "Efrat Rayten Marom"
+          ]
+         ]
+        },
+        {
+         "bill": "2163145",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Naama Lazimi"
+          ],
+          [
+           4,
+           "Efrat Rayten Marom"
+          ],
+          [
+           14,
+           "Emilie Haya Moatti"
+          ]
+         ]
+        },
+        {
+         "bill": "2195999",
          "sign": 1,
          "role": "secondary",
          "same": true,
          "authors": [
           [
-           109,
-           "Aida Touma-Sliman"
+           3,
+           "Gilad Kariv"
           ]
          ]
         },
         {
-         "bill": "2196763",
+         "bill": "2156398",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Michal Rozin"
+          ]
+         ]
+        },
+        {
+         "bill": "2163147",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Michal Rozin"
+          ]
+         ]
+        },
+        {
+         "bill": "2167607",
          "sign": 1,
          "role": "secondary",
          "same": true,
          "authors": [
           [
-           109,
-           "Aida Touma-Sliman"
+           14,
+           "Emilie Haya Moatti"
           ]
          ]
         },
         {
-         "bill": "2196829",
-         "sign": 1,
-         "role": "main",
-         "same": true,
+         "bill": "2198050",
+         "sign": -1,
+         "role": "secondary",
+         "same": false,
          "authors": [
           [
-           109,
-           "Aida Touma-Sliman"
+           2,
+           "Naama Lazimi"
           ]
          ]
         },
         {
-         "bill": "2156993",
-         "sign": 1,
+         "bill": "2164300",
+         "sign": -1,
          "role": "main",
-         "same": true,
+         "same": false,
          "authors": [
           [
-           109,
-           "Aida Touma-Sliman"
-          ]
-         ]
-        },
-        {
-         "bill": "2156270",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           109,
-           "Aida Touma-Sliman"
+           2,
+           "Naama Lazimi"
           ]
          ]
         }
@@ -52391,81 +52076,131 @@
       },
       {
        "q": "83",
-       "contribution": 0.3244,
-       "p": 0.3244,
+       "contribution": 0.25,
+       "p": 0.25,
        "lines": [
         "“Israel should withhold Palestinian Authority tax revenues equal to its payments to people jailed for terrorism and their families, even if the Authority collapses financially.”",
         "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
-        "Basis: no bills of their own on this topic, only 4 votes on private bills and 25 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
-      },
-      {
-       "q": "51",
-       "contribution": 0.25,
-       "p": 0.25,
-       "lines": [
-        "“New immigrants (olim) should receive more benefits and assistance, even at the expense of other parts of the budget.”",
-        "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 0 votes on private bills and 3 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
-      },
-      {
-       "q": "86",
-       "contribution": 0.25,
-       "p": 0.25,
-       "lines": [
-        "“The state should give farmers more support, such as cheaper water and investment grants, even if taxpayers and consumers pay more.”",
-        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: no bills of their own on this topic, only 4 votes on private bills and 13 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+        "Basis: no bills of their own on this topic, only 0 votes on private bills and 10 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
       {
        "q": "1",
-       "contribution": 0.22415,
-       "p": -0.4483,
+       "contribution": 0.125,
+       "p": -0.25,
        "lines": [
         "“Judges and lawyers should hold the majority on the committee that selects judges, even if elected officials have little say over who becomes a judge.”",
         "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: no bills of their own on this topic, only 10 votes on private bills and 0 votes on the other camp's bills on this topic.",
+        "Basis: no bills of their own on this topic, only 0 votes on private bills and 29 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": []
       },
       {
-       "q": "25",
-       "contribution": 0.2,
-       "p": -0.2,
+       "q": "92",
+       "contribution": 0.1,
+       "p": 0.2,
        "lines": [
-        "“Separating men and women should be allowed in state and municipal settings — swimming hours, events, study programs — even if this limits one sex's access at certain times.”",
-        "Your answer: disagree. The record of the list's former MKs points against this statement.",
-        "Basis: no bills of their own on this topic, only 4 votes on private bills and 11 votes on the other camp's bills on this topic.",
-        "Weight ×2: you chose this topic in a trade-off question."
-       ],
-       "evidence": []
-      },
-      {
-       "q": "23",
-       "contribution": 0.1622,
-       "p": 0.3244,
-       "lines": [
-        "“Public sector wages and job protections should be cut to reduce government spending, even if experienced employees leave public service.”",
-        "Your answer: disagree. The record of the list's former MKs points against this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 0 votes on private bills and 58 votes on the other camp's bills on this topic."
+        "“More people should qualify for disability, nursing-care and sick-leave benefits, for example homemakers and the self-employed, even if National Insurance and employers pay more.”",
+        "Your answer: agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 6 bills sponsored by the list's former MKs — 6 your way, 0 the other way; 1 vote on private bills and 10 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
         {
-         "bill": "2198404",
+         "bill": "2201625",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Naama Lazimi"
+          ]
+         ]
+        },
+        {
+         "bill": "2213558",
          "sign": 1,
          "role": "secondary",
          "same": true,
          "authors": [
           [
-           109,
-           "Aida Touma-Sliman"
+           2,
+           "Naama Lazimi"
+          ]
+         ]
+        },
+        {
+         "bill": "2195801",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Gilad Kariv"
+          ]
+         ]
+        },
+        {
+         "bill": "2156498",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Michal Rozin"
+          ]
+         ]
+        },
+        {
+         "bill": "2166880",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Michal Rozin"
+          ]
+         ]
+        },
+        {
+         "bill": "2193203",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           14,
+           "Emilie Haya Moatti"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "60",
+       "contribution": -0.0516,
+       "p": 0.1032,
+       "lines": [
+        "“The state should have broader powers to confiscate property linked to crime or terrorism, even if innocent owners are sometimes harmed.”",
+        "Your answer: disagree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 20 votes on private bills and 1 vote on the other camp's bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2157328",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           8,
+           "Michal Rozin"
           ]
          ]
         }
@@ -52473,192 +52208,146 @@
       },
       {
        "q": "13",
-       "contribution": -0.2112,
-       "p": 0.4224,
+       "contribution": -0.1352,
+       "p": 0.2704,
        "lines": [
         "“Israel should restrict more strictly the activity of foreign states and international organizations on its territory, such as UNRWA, even at the cost of conflict with the UN and allies.”",
         "Your answer: agree. The record of the list's former MKs points against this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 72 votes on private bills and 52 votes on the other camp's bills on this topic.",
-        "The list's side comes from how its former MKs voted, not from the bills they sponsored."
-       ],
-       "evidence": [
-        {
-         "bill": "2157679",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Ofer Cassif"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "18",
-       "contribution": -0.249,
-       "p": 0.498,
-       "lines": [
-        "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
-        "Your answer: agree. The record of the list's former MKs points against this statement.",
-        "Basis: no bills of their own on this topic, only 12 votes on private bills and 78 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 3 votes on private bills and 34 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
       {
-       "q": "63",
-       "contribution": -0.4212,
-       "p": 0.8424,
+       "q": "18",
+       "contribution": -0.13625,
+       "p": 0.2725,
        "lines": [
-        "“The Knesset should be able to re-enact a law struck down by the Supreme Court, even if citizens have fewer ways to challenge laws in court.”",
+        "“Prison conditions for those jailed for terrorism should be made harsher — fewer visits, less television and fewer privileges — even if Israel faces international criticism.”",
         "Your answer: agree. The record of the list's former MKs points against this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 28 votes on private bills and 37 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 1 vote on private bills and 29 votes on the other camp's bills on this topic."
        ],
-       "evidence": [
-        {
-         "bill": "2190775",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
-          ]
-         ]
-        }
-       ]
+       "evidence": []
       },
       {
        "q": "68",
-       "contribution": -0.52395,
-       "p": 1.0479,
+       "contribution": -0.2729,
+       "p": 0.5458,
        "lines": [
         "“Prisoners and detainees should get more rights, such as rehabilitation programs and limits on shackling, even if this costs the prison service more.”",
         "Your answer: disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 9 bills sponsored by the list's former MKs — 0 your way, 9 the other way; 10 votes on private bills and 82 votes on the other camp's bills on this topic.",
+        "Basis: 11 bills sponsored by the list's former MKs — 0 your way, 11 the other way; 17 votes on private bills and 31 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
         {
-         "bill": "2196751",
+         "bill": "2167498",
          "sign": 1,
          "role": "secondary",
          "same": false,
          "authors": [
           [
            2,
-           "Ahmad Tibi"
-          ],
-          [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
+           "Naama Lazimi"
           ]
          ]
         },
         {
-         "bill": "2156895",
+         "bill": "2197715",
          "sign": 1,
          "role": "main",
          "same": false,
          "authors": [
           [
            2,
-           "Ahmad Tibi"
+           "Naama Lazimi"
           ]
          ]
         },
         {
-         "bill": "2157709",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Ahmad Tibi"
-          ],
-          [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
-          ]
-         ]
-        },
-        {
-         "bill": "2197185",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Ahmad Tibi"
-          ]
-         ]
-        },
-        {
-         "bill": "2156813",
+         "bill": "2200576",
          "sign": 1,
          "role": "secondary",
          "same": false,
          "authors": [
           [
            2,
-           "Ahmad Tibi"
+           "Naama Lazimi"
           ]
          ]
         },
         {
-         "bill": "2197539",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Ahmad Tibi"
-          ],
-          [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
-          ]
-         ]
-        },
-        {
-         "bill": "2196919",
+         "bill": "2239100",
          "sign": 1,
          "role": "secondary",
          "same": false,
          "authors": [
           [
-           2,
-           "Ahmad Tibi"
+           3,
+           "Gilad Kariv"
+          ]
+         ]
+        },
+        {
+         "bill": "2196023",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           3,
+           "Gilad Kariv"
+          ]
+         ]
+        },
+        {
+         "bill": "2169463",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           3,
+           "Gilad Kariv"
+          ],
+          [
+           6,
+           "Gaby Lasky"
+          ]
+         ]
+        },
+        {
+         "bill": "2156293",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           6,
+           "Gaby Lasky"
+          ]
+         ]
+        },
+        {
+         "bill": "2166655",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           6,
+           "Gaby Lasky"
+          ]
+         ]
+        },
+        {
+         "bill": "2189627",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           6,
+           "Gaby Lasky"
           ]
          ]
         },
@@ -52669,20 +52358,28 @@
          "same": false,
          "authors": [
           [
-           5,
-           "Ofer Cassif"
+           6,
+           "Gaby Lasky"
+          ],
+          [
+           8,
+           "Michal Rozin"
+          ],
+          [
+           22,
+           "Mossi Raz"
           ]
          ]
         },
         {
-         "bill": "2159321",
+         "bill": "2159803",
          "sign": 1,
          "role": "secondary",
          "same": false,
          "authors": [
           [
-           109,
-           "Aida Touma-Sliman"
+           6,
+           "Gaby Lasky"
           ]
          ]
         }
@@ -52690,32 +52387,194 @@
       },
       {
        "q": "19",
-       "contribution": -0.6409,
-       "p": -0.6409,
+       "contribution": -0.2818,
+       "p": -0.2818,
        "lines": [
         "“Every school should be required to teach core subjects such as math and English, even if schools that refuse lose state funding.”",
-        "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 4 votes on private bills and 0 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+        "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: no bills of their own on this topic, only 1 vote on private bills and 0 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
+      },
+      {
+       "q": "39",
+       "contribution": -0.4766,
+       "p": 0.4766,
+       "lines": [
+        "“Defamation laws should be relaxed, even if people find it harder to defend themselves against false accusations.”",
+        "Your answer: strongly agree. The record of the list's former MKs points against this statement.",
+        "Basis: 4 bills sponsored by the list's former MKs — 0 your way, 4 the other way; 22 votes on private bills and 1 vote on the other camp's bills on this topic."
        ],
        "evidence": [
         {
-         "bill": "2190645",
-         "sign": -1,
+         "bill": "2237316",
+         "sign": 1,
          "role": "main",
          "same": false,
          "authors": [
           [
-           5,
-           "Ofer Cassif"
+           3,
+           "Gilad Kariv"
+          ]
+         ]
+        },
+        {
+         "bill": "2167942",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           6,
+           "Gaby Lasky"
           ],
           [
-           108,
-           "Ayman Odeh"
+           8,
+           "Michal Rozin"
           ],
           [
-           109,
-           "Aida Touma-Sliman"
+           18,
+           "Ali Salalha"
+          ],
+          [
+           22,
+           "Mossi Raz"
+          ]
+         ]
+        },
+        {
+         "bill": "2156082",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           6,
+           "Gaby Lasky"
+          ],
+          [
+           8,
+           "Michal Rozin"
+          ],
+          [
+           18,
+           "Ali Salalha"
+          ],
+          [
+           22,
+           "Mossi Raz"
+          ]
+         ]
+        },
+        {
+         "bill": "2157444",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           22,
+           "Mossi Raz"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "63",
+       "contribution": -0.5218,
+       "p": 1.0436,
+       "lines": [
+        "“The Knesset should be able to re-enact a law struck down by the Supreme Court, even if citizens have fewer ways to challenge laws in court.”",
+        "Your answer: agree. The record of the list's former MKs points against this statement.",
+        "Basis: 5 bills sponsored by the list's former MKs — 0 your way, 5 the other way; 10 votes on private bills and 54 votes on the other camp's bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2190775",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           2,
+           "Naama Lazimi"
+          ],
+          [
+           3,
+           "Gilad Kariv"
+          ],
+          [
+           6,
+           "Gaby Lasky"
+          ],
+          [
+           8,
+           "Michal Rozin"
+          ],
+          [
+           14,
+           "Emilie Haya Moatti"
+          ],
+          [
+           17,
+           "Ram Shefa"
+          ],
+          [
+           18,
+           "Ali Salalha"
+          ],
+          [
+           22,
+           "Mossi Raz"
+          ]
+         ]
+        },
+        {
+         "bill": "2216972",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           2,
+           "Naama Lazimi"
+          ]
+         ]
+        },
+        {
+         "bill": "2200576",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           2,
+           "Naama Lazimi"
+          ]
+         ]
+        },
+        {
+         "bill": "2211369",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           3,
+           "Gilad Kariv"
+          ]
+         ]
+        },
+        {
+         "bill": "2195990",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           3,
+           "Gilad Kariv"
           ]
          ]
         }
@@ -53111,17 +52970,6 @@
        "evidence": []
       },
       {
-       "q": "4",
-       "contribution": 0.1104,
-       "p": -0.1104,
-       "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
-        "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 6 votes on private bills and 3 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
-      },
-      {
        "q": "92",
        "contribution": 0.03125,
        "p": 0.0625,
@@ -53129,6 +52977,17 @@
         "“More people should qualify for disability, nursing-care and sick-leave benefits, for example homemakers and the self-employed, even if National Insurance and employers pay more.”",
         "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
         "Basis: no bills of their own on this topic, only 1 vote on private bills and 5 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
+      },
+      {
+       "q": "4",
+       "contribution": -0.0191,
+       "p": 0.0191,
+       "lines": [
+        "“The Jewish character of the state should be anchored more firmly in law, even if non-Jewish citizens feel less equal.”",
+        "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: no bills of their own on this topic, only 6 votes on private bills and 0 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -53431,17 +53290,6 @@
         "Basis: no bills of their own on this topic, only 3 votes on private bills and 0 votes on the other camp's bills on this topic."
        ],
        "evidence": []
-      },
-      {
-       "q": "4",
-       "contribution": -0.0517,
-       "p": 0.0517,
-       "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
-        "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 2 votes on private bills and 0 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
       }
      ]
     }
@@ -53485,84 +53333,84 @@
    "ranking": [
     {
      "id": "ל",
-     "closeness": -0.032680146043858764,
+     "closeness": -0.04304490228106998,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.09672953016148722,
+     "closeness": -0.084207512245956,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.12043052211904731,
+     "closeness": -0.10052269569977144,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.1761715865108044,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "שס",
-     "closeness": -0.1820444592160097,
+     "closeness": -0.16135041765693073,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.18226600467140258,
+     "closeness": -0.16306347021040266,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "שס",
+     "closeness": -0.17946203821734866,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.27132919642070186,
+     "closeness": -0.27752982381418134,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.2714120149282739,
+     "closeness": -0.30949465025613354,
      "coverage": 0.9285714285714286,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.3128465030016526,
+     "closeness": -0.3254520027380876,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.45238643446075844,
+     "closeness": -0.44914481034287335,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.5754872836555791,
+     "closeness": -0.5924394600495912,
      "coverage": 0.9642857142857143,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.5884195736145482,
+     "closeness": -0.5977757603011044,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -53576,21 +53424,21 @@
     },
     {
      "id": "בי",
-     "closeness": -0.11155892008115681,
-     "coverage": 0.6785714285714286,
+     "closeness": -0.11085223492267224,
+     "coverage": 0.6428571428571429,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": 0.12107954959040967,
+     "closeness": 0.19168635478360901,
      "coverage": 0.8571428571428571,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.00994939338981272,
+     "closeness": 0.01785292280672554,
      "coverage": 0.9285714285714286,
      "note": "few former MKs: 1",
      "ranked": false
@@ -53775,9 +53623,9 @@
       "מחל"
      ],
      [
-      "54",
-      "6",
-      "שס"
+      "35",
+      "86",
+      "ג"
      ]
     ]
    },
@@ -55554,13 +55402,55 @@
        "evidence": []
       },
       {
-       "q": "4",
-       "contribution": -0.1759,
-       "p": 0.1759,
+       "q": "95",
+       "contribution": -0.19625,
+       "p": -0.3925,
        "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
-        "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 1 your way, 2 the other way; 8 votes on private bills and 10 votes on the other camp's bills on this topic."
+        "“Debtors should be better protected — for example no electricity cut-offs for unpaid bills and no travel bans over small debts — even if creditors find it harder to collect.”",
+        "Your answer: disagree. The record of the list's former MKs points toward this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 17 votes on private bills and 39 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2157252",
+         "sign": -1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        },
+        {
+         "bill": "2206962",
+         "sign": -1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           10,
+           "Dan Illouz"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "4",
+       "contribution": -0.3524,
+       "p": 0.3524,
+       "lines": [
+        "“The Jewish character of the state should be anchored more firmly in law, even if non-Jewish citizens feel less equal.”",
+        "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
+        "Basis: 3 bills sponsored by the list's former MKs — 1 your way, 2 the other way; 6 votes on private bills and 2 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
         {
@@ -55644,47 +55534,6 @@
           [
            8,
            "Evgeny Sova"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "95",
-       "contribution": -0.19625,
-       "p": -0.3925,
-       "lines": [
-        "“Debtors should be better protected — for example no electricity cut-offs for unpaid bills and no travel bans over small debts — even if creditors find it harder to collect.”",
-        "Your answer: disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 17 votes on private bills and 39 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2157252",
-         "sign": -1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        },
-        {
-         "bill": "2206962",
-         "sign": -1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           10,
-           "Dan Illouz"
           ]
          ]
         }
@@ -58258,6 +58107,47 @@
        ]
       },
       {
+       "q": "4",
+       "contribution": -0.75,
+       "p": 0.75,
+       "lines": [
+        "“The Jewish character of the state should be anchored more firmly in law, even if non-Jewish citizens feel less equal.”",
+        "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 0 votes on private bills and 9 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2228723",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           3,
+           "Yitzhak Shimon Wasserlauf"
+          ]
+         ]
+        },
+        {
+         "bill": "2227488",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           5,
+           "Limor Son Har-Melech"
+          ],
+          [
+           6,
+           "Yitzhak Kroizer"
+          ]
+         ]
+        }
+       ]
+      },
+      {
        "q": "107",
        "contribution": -0.8125,
        "p": -0.8125,
@@ -58374,59 +58264,6 @@
           [
            5,
            "Limor Son Har-Melech"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "4",
-       "contribution": -0.922,
-       "p": 0.922,
-       "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
-        "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 0 your way, 3 the other way; 12 votes on private bills and 9 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2158836",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Itamar Ben Gvir"
-          ]
-         ]
-        },
-        {
-         "bill": "2228723",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           3,
-           "Yitzhak Shimon Wasserlauf"
-          ]
-         ]
-        },
-        {
-         "bill": "2227488",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Limor Son Har-Melech"
-          ],
-          [
-           6,
-           "Yitzhak Kroizer"
           ]
          ]
         }
@@ -58563,84 +58400,84 @@
    "ranking": [
     {
      "id": "אמת",
-     "closeness": 0.46565927704734766,
+     "closeness": 0.46435967493533664,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.4350471201518582,
+     "closeness": 0.43548093327407505,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.38448885188921833,
+     "closeness": 0.3777589917514437,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.3354472861686143,
+     "closeness": 0.335247393610085,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": 0.3307586345807517,
+     "closeness": 0.3320534888200005,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.18998619039434367,
+     "closeness": 0.1964424186899002,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.16728508848161328,
+     "closeness": 0.1695689176135507,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.13074664505613276,
+     "closeness": 0.1334851835671427,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.0947821457387831,
+     "closeness": 0.09443019332594321,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.09052956917832114,
+     "closeness": 0.09151839375144165,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.07670887387757673,
+     "closeness": 0.07809016022188787,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.026036525206825582,
+     "closeness": 0.02606428389217071,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -58654,21 +58491,21 @@
     },
     {
      "id": "בי",
-     "closeness": 0.10518699078562227,
-     "coverage": 0.6428571428571429,
+     "closeness": 0.10520680681849585,
+     "coverage": 0.6071428571428571,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": -0.2685972279945368,
+     "closeness": -0.2845513406518853,
      "coverage": 0.8571428571428571,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.1278983594950063,
+     "closeness": 0.1278060219693417,
      "coverage": 0.9642857142857143,
      "note": "few former MKs: 1",
      "ranked": false
@@ -58843,12 +58680,12 @@
       "כן"
      ],
      [
-      "53",
+      "75",
       "90",
       "רק"
      ],
      [
-      "75",
+      "78",
       "83",
       "דרך"
      ],
@@ -62425,84 +62262,84 @@
    "ranking": [
     {
      "id": "ג",
-     "closeness": 0.1787550014084179,
+     "closeness": 0.17424463979570115,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.1733406775789318,
+     "closeness": 0.1712543232670056,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.1250369928691382,
+     "closeness": 0.12444645323873268,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.10231436414731823,
+     "closeness": 0.10601660478742486,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.09842555276651516,
+     "closeness": 0.10087163813601543,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.09638868144101648,
+     "closeness": 0.09165030008289304,
      "coverage": 0.984375,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.09373646273908014,
+     "closeness": 0.08998701659961841,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.05222471569720226,
+     "closeness": 0.053850135925278715,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.026021652986983418,
+     "closeness": 0.03329670899466639,
      "coverage": 0.96875,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.023422143823413517,
+     "closeness": 0.02288462944304209,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.044481706941748377,
+     "closeness": -0.04176285907870727,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.08450599800092141,
+     "closeness": -0.08063973734928806,
      "coverage": 0.984375,
      "note": "",
      "ranked": true
@@ -62516,21 +62353,21 @@
     },
     {
      "id": "בי",
-     "closeness": 0.19097185984922208,
-     "coverage": 0.6875,
+     "closeness": 0.1906665559631923,
+     "coverage": 0.671875,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": 0.0023899359482865436,
+     "closeness": -0.013196558764090247,
      "coverage": 0.875,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": -0.09370553749959258,
+     "closeness": -0.09569091035538689,
      "coverage": 0.9375,
      "note": "few former MKs: 1",
      "ranked": false
@@ -64914,43 +64751,6 @@
        ]
       },
       {
-       "q": "4",
-       "contribution": 0.246,
-       "p": 0.492,
-       "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
-        "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 20 votes on private bills and 9 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2159382",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Yitzhak Pindrus"
-          ]
-         ]
-        },
-        {
-         "bill": "2241047",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           4,
-           "Meir Porush"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "13",
        "contribution": 0.24265,
        "p": -0.4853,
@@ -65813,6 +65613,18 @@
          ]
         }
        ]
+      },
+      {
+       "q": "4",
+       "contribution": 0.125,
+       "p": 0.25,
+       "lines": [
+        "“The Jewish character of the state should be anchored more firmly in law, even if non-Jewish citizens feel less equal.”",
+        "Your answer: agree. The record of the list's former MKs points toward this statement.",
+        "Basis: no bills of their own on this topic, only 0 votes on private bills and 9 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": []
       },
       {
        "q": "5",
@@ -68702,59 +68514,6 @@
        ]
       },
       {
-       "q": "4",
-       "contribution": 0.461,
-       "p": 0.922,
-       "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
-        "Your answer: agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 12 votes on private bills and 9 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2158836",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Itamar Ben Gvir"
-          ]
-         ]
-        },
-        {
-         "bill": "2228723",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Yitzhak Shimon Wasserlauf"
-          ]
-         ]
-        },
-        {
-         "bill": "2227488",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           5,
-           "Limor Son Har-Melech"
-          ],
-          [
-           6,
-           "Yitzhak Kroizer"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "45",
        "contribution": 0.42965,
        "p": 0.8593,
@@ -69321,6 +69080,47 @@
          "role": "main",
          "same": true,
          "authors": [
+          [
+           6,
+           "Yitzhak Kroizer"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "4",
+       "contribution": 0.375,
+       "p": 0.75,
+       "lines": [
+        "“The Jewish character of the state should be anchored more firmly in law, even if non-Jewish citizens feel less equal.”",
+        "Your answer: agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 0 votes on private bills and 9 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2228723",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Yitzhak Shimon Wasserlauf"
+          ]
+         ]
+        },
+        {
+         "bill": "2227488",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           5,
+           "Limor Son Har-Melech"
+          ],
           [
            6,
            "Yitzhak Kroizer"
@@ -76440,84 +76240,84 @@
    "ranking": [
     {
      "id": "אמת",
-     "closeness": 0.30485327258664685,
+     "closeness": 0.3037896421208674,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.21779480976204602,
+     "closeness": 0.217713011286413,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": 0.15998523231275044,
+     "closeness": 0.15950741295479048,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.14876530589937575,
+     "closeness": 0.1536075073647702,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": 0.1050404364869648,
+     "closeness": 0.10566431587168161,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.0911821497400826,
+     "closeness": 0.09011942669950543,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.048598500974781106,
+     "closeness": 0.04864185831174163,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.28060653048046424,
+     "closeness": -0.2838464373670433,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.2847116539933225,
+     "closeness": -0.2885352886161548,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.3023809038509175,
+     "closeness": -0.30280223483432156,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.3130224702981882,
+     "closeness": -0.321878041161608,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.3719296728553111,
+     "closeness": -0.37972684721950867,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -76531,21 +76331,21 @@
     },
     {
      "id": "בי",
-     "closeness": -0.12910659604013502,
-     "coverage": 0.52,
-     "note": "few former MKs: 1",
+     "closeness": -0.12914684312051275,
+     "coverage": 0.48,
+     "note": "few former MKs: 1; position known for only 48% of your answers",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": -0.22462927376170214,
+     "closeness": -0.24748261168156852,
      "coverage": 0.88,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.22807161131309814,
+     "closeness": 0.2278650275583413,
      "coverage": 1.0,
      "note": "few former MKs: 1",
      "ranked": false
@@ -82963,84 +82763,84 @@
    "ranking": [
     {
      "id": "שס",
-     "closeness": 0.20101257324221433,
+     "closeness": 0.20176700682799228,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.1508395006156754,
+     "closeness": 0.15614208283718226,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.14308636718308726,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "ל",
-     "closeness": 0.11858224954459265,
+     "closeness": 0.14039048707081464,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.11732625750555305,
+     "closeness": 0.12336507050466783,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "ל",
+     "closeness": 0.11585997481852559,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.08527504181925313,
+     "closeness": 0.09099494053684298,
      "coverage": 0.9848484848484849,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.060875692357961475,
+     "closeness": 0.05908999405878941,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.054858731310351586,
+     "closeness": 0.050423565887544076,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.022555288718342132,
+     "closeness": 0.023002142809803068,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.007314572080189202,
+     "closeness": 0.010927054010587725,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.004853731806067902,
+     "closeness": -0.011711110545639343,
      "coverage": 0.9696969696969697,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.01318099809122545,
+     "closeness": -0.017132941679801592,
      "coverage": 0.9848484848484849,
      "note": "",
      "ranked": true
@@ -83054,21 +82854,21 @@
     },
     {
      "id": "בי",
-     "closeness": 0.22141182368369114,
-     "coverage": 0.6212121212121212,
+     "closeness": 0.22395390607293014,
+     "coverage": 0.6060606060606061,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": 0.12477210627273551,
+     "closeness": 0.14379212461391436,
      "coverage": 0.8484848484848485,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.13197118390983426,
+     "closeness": 0.1338400385479969,
      "coverage": 0.9242424242424242,
      "note": "few former MKs: 1",
      "ranked": false
@@ -83248,14 +83048,14 @@
       "כן"
      ],
      [
-      "3",
-      "49",
-      "ל"
-     ],
-     [
       "52",
       "37",
       "ג"
+     ],
+     [
+      "3",
+      "49",
+      "ל"
      ]
     ]
    },
@@ -87396,6 +87196,18 @@
        "evidence": []
       },
       {
+       "q": "4",
+       "contribution": -0.13205,
+       "p": 0.2641,
+       "lines": [
+        "“The Jewish character of the state should be anchored more firmly in law, even if non-Jewish citizens feel less equal.”",
+        "Your answer: disagree. The record of the list's former MKs points toward this statement.",
+        "Basis: no bills of their own on this topic, only 8 votes on private bills and 11 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": []
+      },
+      {
        "q": "47",
        "contribution": -0.13545,
        "p": -0.2709,
@@ -87657,31 +87469,6 @@
         "Basis: no bills of their own on this topic, only 0 votes on private bills and 21 votes on the other camp's bills on this topic."
        ],
        "evidence": []
-      },
-      {
-       "q": "4",
-       "contribution": -0.14925,
-       "p": 0.2985,
-       "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
-        "Your answer: disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 38 votes on private bills and 11 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2159382",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ]
-         ]
-        }
-       ]
       },
       {
        "q": "99",
@@ -98398,6 +98185,43 @@
        ]
       },
       {
+       "q": "4",
+       "contribution": -0.16305,
+       "p": 0.3261,
+       "lines": [
+        "“The Jewish character of the state should be anchored more firmly in law, even if non-Jewish citizens feel less equal.”",
+        "Your answer: disagree. The record of the list's former MKs points toward this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 0 your way, 2 the other way; 0 votes on private bills and 50 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2192095",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           2,
+           "Eli Cohen"
+          ]
+         ]
+        },
+        {
+         "bill": "2241744",
+         "sign": 1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           65,
+           "Osher Shekalim"
+          ]
+         ]
+        }
+       ]
+      },
+      {
        "q": "48",
        "contribution": -0.1662,
        "p": -0.1662,
@@ -99172,155 +98996,6 @@
           [
            35,
            "Avichai Avraham Boaron"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "4",
-       "contribution": -0.2505,
-       "p": 0.501,
-       "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
-        "Your answer: disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 11 bills sponsored by the list's former MKs — 0 your way, 11 the other way; 70 votes on private bills and 53 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2164318",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Eli Cohen"
-          ]
-         ]
-        },
-        {
-         "bill": "2192095",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Eli Cohen"
-          ]
-         ]
-        },
-        {
-         "bill": "2159382",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           3,
-           "Amir Ohana"
-          ],
-          [
-           14,
-           "Amichai Chikli"
-          ]
-         ]
-        },
-        {
-         "bill": "2156351",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           12,
-           "Makhlouf Miki Zohar"
-          ]
-         ]
-        },
-        {
-         "bill": "2234650",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
-         "bill": "2189595",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2242921",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ]
-         ]
-        },
-        {
-         "bill": "2157408",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2197103",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2197411",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           47,
-           "Ariel Kallner"
-          ]
-         ]
-        },
-        {
-         "bill": "2241744",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           65,
-           "Osher Shekalim"
           ]
          ]
         }
@@ -101276,84 +100951,84 @@
    "ranking": [
     {
      "id": "מחל",
-     "closeness": 0.1333302302428551,
+     "closeness": 0.1271170635262106,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.10460297642069993,
+     "closeness": 0.10911903402418849,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.09484983085957113,
+     "closeness": 0.10117009112142819,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.0456492077539458,
+     "closeness": 0.03741717566761044,
      "coverage": 0.9861111111111112,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.022658706048025962,
+     "closeness": 0.025441619324075036,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.004941441711950961,
+     "closeness": -0.005989339713137755,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.012653889007180444,
+     "closeness": -0.00842115462771983,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.016363037762485825,
+     "closeness": -0.022085701746411533,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.01963008812503743,
+     "closeness": -0.028479754165966903,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.03684102175731462,
+     "closeness": -0.030240055945735245,
      "coverage": 0.9861111111111112,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.12431081758782055,
+     "closeness": -0.11447012545524389,
      "coverage": 0.9722222222222222,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.13155299046839627,
+     "closeness": -0.1322215430211575,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -101367,21 +101042,21 @@
     },
     {
      "id": "בי",
-     "closeness": -0.10799764548816944,
-     "coverage": 0.6666666666666666,
+     "closeness": -0.11185726826889196,
+     "coverage": 0.6527777777777778,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": -0.005230791979336584,
+     "closeness": -0.03024618367618589,
      "coverage": 0.875,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": -0.0739875751537094,
+     "closeness": -0.0772144577631815,
      "coverage": 0.9305555555555556,
      "note": "few former MKs: 1",
      "ranked": false
@@ -106605,155 +106280,6 @@
        ]
       },
       {
-       "q": "4",
-       "contribution": 0.501,
-       "p": 0.501,
-       "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
-        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 11 bills sponsored by the list's former MKs — 11 your way, 0 the other way; 70 votes on private bills and 53 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2164318",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Eli Cohen"
-          ]
-         ]
-        },
-        {
-         "bill": "2192095",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Eli Cohen"
-          ]
-         ]
-        },
-        {
-         "bill": "2159382",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           3,
-           "Amir Ohana"
-          ],
-          [
-           14,
-           "Amichai Chikli"
-          ]
-         ]
-        },
-        {
-         "bill": "2156351",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           12,
-           "Makhlouf Miki Zohar"
-          ]
-         ]
-        },
-        {
-         "bill": "2234650",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
-         "bill": "2189595",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           23,
-           "Shlomo Karhi"
-          ]
-         ]
-        },
-        {
-         "bill": "2242921",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ]
-         ]
-        },
-        {
-         "bill": "2157408",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2197103",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           40,
-           "May Golan"
-          ]
-         ]
-        },
-        {
-         "bill": "2197411",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           47,
-           "Ariel Kallner"
-          ]
-         ]
-        },
-        {
-         "bill": "2241744",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           65,
-           "Osher Shekalim"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "51",
        "contribution": 0.458,
        "p": 0.458,
@@ -107831,6 +107357,43 @@
          "bill": "2227066",
          "sign": 1,
          "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           65,
+           "Osher Shekalim"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "4",
+       "contribution": 0.3261,
+       "p": 0.3261,
+       "lines": [
+        "“The Jewish character of the state should be anchored more firmly in law, even if non-Jewish citizens feel less equal.”",
+        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 0 votes on private bills and 50 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2192095",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Eli Cohen"
+          ]
+         ]
+        },
+        {
+         "bill": "2241744",
+         "sign": 1,
+         "role": "main",
          "same": true,
          "authors": [
           [
@@ -118984,6 +118547,17 @@
        ]
       },
       {
+       "q": "4",
+       "contribution": 0.0191,
+       "p": 0.0191,
+       "lines": [
+        "“The Jewish character of the state should be anchored more firmly in law, even if non-Jewish citizens feel less equal.”",
+        "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: no bills of their own on this topic, only 6 votes on private bills and 0 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
+      },
+      {
        "q": "5",
        "contribution": -0.0,
        "p": 0.0,
@@ -119104,17 +118678,6 @@
         "“Israel should withhold Palestinian Authority tax revenues equal to its payments to people jailed for terrorism and their families, even if the Authority collapses financially.”",
         "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
         "Basis: no bills of their own on this topic, only 0 votes on private bills and 5 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
-      },
-      {
-       "q": "4",
-       "contribution": -0.1104,
-       "p": -0.1104,
-       "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
-        "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 6 votes on private bills and 3 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -133309,84 +132872,84 @@
    "ranking": [
     {
      "id": "ל",
-     "closeness": 0.2582981144565357,
+     "closeness": 0.2531519329879497,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.19162172771631744,
+     "closeness": 0.1881025561940596,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.14291371049218826,
+     "closeness": 0.15334297389489565,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.12029059117217981,
+     "closeness": 0.12779643898915027,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": 0.08863435749380714,
+     "closeness": 0.08322284651746137,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.05424925093084857,
+     "closeness": 0.045779716781594496,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.022112871626171923,
+     "closeness": 0.030395978882102898,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "ג",
+     "closeness": 0.023178659875001048,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.01564750613509568,
+     "closeness": 0.002133152886803589,
      "coverage": 0.967741935483871,
      "note": "",
      "ranked": true
     },
     {
-     "id": "ג",
-     "closeness": 0.01215737712463863,
+     "id": "אמת",
+     "closeness": -0.036353091741259905,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.029995040845399557,
+     "closeness": -0.037752291487865595,
      "coverage": 0.9838709677419355,
      "note": "",
      "ranked": true
     },
     {
-     "id": "אמת",
-     "closeness": -0.03734420956308482,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
      "id": "שס",
-     "closeness": -0.05401905982522463,
+     "closeness": -0.05277131345067293,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -133400,21 +132963,21 @@
     },
     {
      "id": "בי",
-     "closeness": 0.028322307087341902,
-     "coverage": 0.6129032258064516,
+     "closeness": 0.03204149738203245,
+     "coverage": 0.5967741935483871,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": -0.028334046918033973,
+     "closeness": 0.0007756294787534,
      "coverage": 0.8548387096774194,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.2368484999523605,
+     "closeness": 0.24052656622598906,
      "coverage": 0.9354838709677419,
      "note": "few former MKs: 1",
      "ranked": false
@@ -133592,11 +133155,6 @@
       "10",
       "64",
       "ב"
-     ],
-     [
-      "85",
-      "51",
-      "כן"
      ]
     ]
    },
@@ -139836,13 +139394,43 @@
        ]
       },
       {
-       "q": "4",
-       "contribution": -0.1759,
-       "p": 0.1759,
+       "q": "105",
+       "contribution": -0.2519,
+       "p": -0.5038,
        "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
-        "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: 3 bills sponsored by the list's former MKs — 1 your way, 2 the other way; 8 votes on private bills and 10 votes on the other camp's bills on this topic."
+        "“The prime minister should have less power to act alone, such as replacing senior officials, even if elected governments struggle to carry out their policies.”",
+        "Your answer: disagree. The record of the list's former MKs points toward this statement.",
+        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 9 votes on private bills and 15 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2156168",
+         "sign": -1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           5,
+           "Yulia Malinovsky"
+          ],
+          [
+           8,
+           "Evgeny Sova"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "4",
+       "contribution": -0.3524,
+       "p": 0.3524,
+       "lines": [
+        "“The Jewish character of the state should be anchored more firmly in law, even if non-Jewish citizens feel less equal.”",
+        "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
+        "Basis: 3 bills sponsored by the list's former MKs — 1 your way, 2 the other way; 6 votes on private bills and 2 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
         {
@@ -139922,35 +139510,6 @@
           [
            7,
            "Hamad Amar"
-          ],
-          [
-           8,
-           "Evgeny Sova"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "105",
-       "contribution": -0.2519,
-       "p": -0.5038,
-       "lines": [
-        "“The prime minister should have less power to act alone, such as replacing senior officials, even if elected governments struggle to carry out their policies.”",
-        "Your answer: disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 9 votes on private bills and 15 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2156168",
-         "sign": -1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Yulia Malinovsky"
           ],
           [
            8,
@@ -142670,17 +142229,6 @@
        "evidence": []
       },
       {
-       "q": "4",
-       "contribution": -0.0025,
-       "p": 0.0025,
-       "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
-        "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 7 votes on private bills and 4 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
-      },
-      {
        "q": "41",
        "contribution": -0.0275,
        "p": 0.055,
@@ -142721,6 +142269,17 @@
         "“The state should provide more free education, from early childhood and after-school programs to university, even if this requires more public spending.”",
         "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
         "Basis: no bills of their own on this topic, only 5 votes on private bills and 0 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
+      },
+      {
+       "q": "4",
+       "contribution": -0.064,
+       "p": 0.064,
+       "lines": [
+        "“The Jewish character of the state should be anchored more firmly in law, even if non-Jewish citizens feel less equal.”",
+        "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: no bills of their own on this topic, only 7 votes on private bills and 0 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -143215,84 +142774,84 @@
    "ranking": [
     {
      "id": "ט",
-     "closeness": 0.11540836393947915,
+     "closeness": 0.11591367180363751,
      "coverage": 0.9859154929577465,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.10489770322909864,
+     "closeness": 0.10568671882579272,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.08511671838860639,
+     "closeness": 0.08515347506075509,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.0591732124717223,
+     "closeness": 0.05951172431912172,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.0539577656830654,
+     "closeness": 0.0542524263799902,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.03224935627284723,
+     "closeness": -0.03265085464342387,
      "coverage": 0.9859154929577465,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.043243801791706504,
+     "closeness": -0.043190230635399444,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.04868176571375992,
+     "closeness": -0.048417922210165255,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.05755676695294971,
+     "closeness": -0.05757447710137041,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.07880860651423781,
+     "closeness": -0.07893745142248573,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.09676617818426889,
+     "closeness": -0.09667279148826022,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": -0.102737215792848,
+     "closeness": -0.10271859629337934,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -143306,21 +142865,21 @@
     },
     {
      "id": "בי",
-     "closeness": -0.046861247179621264,
-     "coverage": 0.647887323943662,
+     "closeness": -0.04686497903703667,
+     "coverage": 0.6338028169014085,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": 0.01784258716904963,
+     "closeness": 0.018197015132144254,
      "coverage": 0.8873239436619719,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": -0.13514241360762141,
+     "closeness": -0.13510196985444414,
      "coverage": 0.9577464788732394,
      "note": "few former MKs: 1",
      "ranked": false
@@ -158520,84 +158079,84 @@
    "ranking": [
     {
      "id": "עם",
-     "closeness": 0.3171462528695483,
+     "closeness": 0.32121163117564605,
      "coverage": 0.9863013698630136,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": 0.1863584309578953,
+     "closeness": 0.19500528338282846,
      "coverage": 0.9726027397260274,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": 0.13786469236196394,
+     "closeness": 0.1372780885532123,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.1362507347489853,
+     "closeness": 0.13192555965785702,
      "coverage": 0.9863013698630136,
      "note": "",
      "ranked": true
     },
     {
-     "id": "ג",
-     "closeness": 0.12516169195341134,
+     "id": "שס",
+     "closeness": 0.12355412887604401,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
-     "id": "שס",
-     "closeness": 0.1241149924518937,
+     "id": "ג",
+     "closeness": 0.12077384041157005,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.10072484240133756,
+     "closeness": 0.1022547559046132,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": 0.05093702396467052,
+     "closeness": 0.05455311216754249,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": 0.03419826859755946,
+     "closeness": 0.030275240533418176,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": 0.019456325912635464,
+     "closeness": 0.01630330376764072,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.01327826613299985,
+     "closeness": -0.010807758234643935,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.06984552255249055,
+     "closeness": -0.06733211448586265,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -158611,21 +158170,21 @@
     },
     {
      "id": "בי",
-     "closeness": 0.14949637827331116,
-     "coverage": 0.6438356164383562,
+     "closeness": 0.14911234147810293,
+     "coverage": 0.6301369863013698,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": 0.16457068548776888,
+     "closeness": 0.1525509331476869,
      "coverage": 0.863013698630137,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": -0.07177384047414581,
+     "closeness": -0.07358014437125153,
      "coverage": 0.9315068493150684,
      "note": "few former MKs: 1",
      "ranked": false
@@ -158811,8 +158370,8 @@
      ],
      [
       "92",
-      "40",
-      "ג"
+      "51",
+      "שס"
      ]
     ]
    },
@@ -161272,6 +160831,17 @@
        "evidence": []
       },
       {
+       "q": "4",
+       "contribution": -0.03645,
+       "p": -0.0729,
+       "lines": [
+        "“The Jewish character of the state should be anchored more firmly in law, even if non-Jewish citizens feel less equal.”",
+        "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: no bills of their own on this topic, only 6 votes on private bills and 0 votes on the other camp's bills on this topic."
+       ],
+       "evidence": []
+      },
+      {
        "q": "9",
        "contribution": -0.1135,
        "p": -0.227,
@@ -161449,17 +161019,6 @@
         "“Israel should make it harder for foreign workers and asylum seekers to stay, work or receive benefits, even if their living conditions worsen.”",
         "Your answer: agree. The record of the list's former MKs points against this statement.",
         "Basis: no bills of their own on this topic, only 9 votes on private bills and 19 votes on the other camp's bills on this topic."
-       ],
-       "evidence": []
-      },
-      {
-       "q": "4",
-       "contribution": -0.13745,
-       "p": -0.2749,
-       "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
-        "Your answer: agree. The record of the list's former MKs points against this statement.",
-        "Basis: no bills of their own on this topic, only 6 votes on private bills and 13 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -166297,6 +165856,90 @@
        "evidence": []
       },
       {
+       "q": "4",
+       "contribution": -0.43645,
+       "p": -0.8729,
+       "lines": [
+        "“The Jewish character of the state should be anchored more firmly in law, even if non-Jewish citizens feel less equal.”",
+        "Your answer: agree. The record of the list's former MKs points against this statement.",
+        "Basis: 4 bills sponsored by the list's former MKs — 0 your way, 4 the other way; 9 votes on private bills and 0 votes on the other camp's bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2156912",
+         "sign": -1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           2,
+           "Ahmad Tibi"
+          ]
+         ]
+        },
+        {
+         "bill": "2159158",
+         "sign": -1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           2,
+           "Ahmad Tibi"
+          ],
+          [
+           5,
+           "Ofer Cassif"
+          ],
+          [
+           108,
+           "Ayman Odeh"
+          ],
+          [
+           109,
+           "Aida Touma-Sliman"
+          ]
+         ]
+        },
+        {
+         "bill": "2197146",
+         "sign": -1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           2,
+           "Ahmad Tibi"
+          ]
+         ]
+        },
+        {
+         "bill": "2198155",
+         "sign": -1,
+         "role": "main",
+         "same": false,
+         "authors": [
+          [
+           5,
+           "Ofer Cassif"
+          ],
+          [
+           6,
+           "Youssef Atauna"
+          ],
+          [
+           108,
+           "Ayman Odeh"
+          ],
+          [
+           109,
+           "Aida Touma-Sliman"
+          ]
+         ]
+        }
+       ]
+      },
+      {
        "q": "101",
        "contribution": -0.5068,
        "p": 1.0136,
@@ -166792,90 +166435,6 @@
           [
            5,
            "Ofer Cassif"
-          ],
-          [
-           108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "4",
-       "contribution": -0.68225,
-       "p": -1.3645,
-       "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
-        "Your answer: agree. The record of the list's former MKs points against this statement.",
-        "Basis: 4 bills sponsored by the list's former MKs — 0 your way, 4 the other way; 17 votes on private bills and 9 votes on the other camp's bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2156912",
-         "sign": -1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Ahmad Tibi"
-          ]
-         ]
-        },
-        {
-         "bill": "2159158",
-         "sign": -1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Ahmad Tibi"
-          ],
-          [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
-          ]
-         ]
-        },
-        {
-         "bill": "2197146",
-         "sign": -1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Ahmad Tibi"
-          ]
-         ]
-        },
-        {
-         "bill": "2198155",
-         "sign": -1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           6,
-           "Youssef Atauna"
           ],
           [
            108,
@@ -168181,7 +167740,7 @@
     {
      "id": "בי",
      "closeness": null,
-     "coverage": 0.6623376623376623,
+     "coverage": 0.6493506493506493,
      "note": "few former MKs: 1",
      "ranked": false
     },
@@ -180029,91 +179588,91 @@
     "2": "dk",
     "60": "dk",
     "15": -1,
-    "4": -1,
-    "22": "dk"
+    "40": "dk",
+    "12": -1
    },
    "mult": {},
    "ranking": [
     {
      "id": "ודם",
-     "closeness": 0.3534153593785438,
+     "closeness": 0.34631663836538745,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": 0.3378209574120874,
+     "closeness": 0.33772101755912154,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.06490439863540357,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "אמת",
-     "closeness": -0.1180327255030472,
+     "closeness": -0.07423653412971555,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": -0.15168443232261763,
+     "closeness": -0.14288309467131116,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": -0.17170895151920135,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "דרך",
-     "closeness": -0.2410956813911242,
+     "closeness": -0.15983799853199065,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.24802403201920764,
+     "closeness": -0.16896757422989694,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "אמת",
+     "closeness": -0.22935782201756183,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "מחל",
-     "closeness": -0.2758322133091645,
+     "closeness": -0.2647105678703269,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "דרך",
+     "closeness": -0.2853847587828394,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": -0.47517351217522247,
+     "closeness": -0.4722737727130111,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ב",
-     "closeness": -0.5831485428759705,
+     "closeness": -0.5788473699758705,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.6284844284726036,
+     "closeness": -0.6556813278006498,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -180127,21 +179686,21 @@
     },
     {
      "id": "בי",
-     "closeness": -0.6907092955526114,
+     "closeness": -0.6907092955526115,
      "coverage": 0.7272727272727273,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": -0.020233389828029205,
+     "closeness": 0.08936502822953128,
      "coverage": 0.9090909090909091,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": -0.2320386930786884,
+     "closeness": -0.32816712554444893,
      "coverage": 0.9090909090909091,
      "note": "few former MKs: 1",
      "ranked": false
@@ -180321,9 +179880,14 @@
       "כן"
      ],
      [
-      "4",
+      "7",
+      "12",
+      "שס"
+     ],
+     [
+      "49",
       "20",
-      "אמת"
+      "ג"
      ]
     ]
    },
@@ -180484,76 +180048,24 @@
        ]
       },
       {
-       "q": "4",
-       "contribution": 0.68225,
-       "p": -1.3645,
+       "q": "12",
+       "contribution": 0.5747,
+       "p": 1.1494,
        "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
+        "“Israel should make it harder for foreign workers and asylum seekers to stay, work or receive benefits, even if their living conditions worsen.”",
         "Your answer: disagree. The record of the list's former MKs points against this statement.",
-        "Basis: 4 bills sponsored by the list's former MKs — 4 your way, 0 the other way; 17 votes on private bills and 9 votes on the other camp's bills on this topic."
+        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 16 votes on private bills and 26 votes on the other camp's bills on this topic."
        ],
        "evidence": [
         {
-         "bill": "2156912",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Ahmad Tibi"
-          ]
-         ]
-        },
-        {
-         "bill": "2159158",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Ahmad Tibi"
-          ],
-          [
-           5,
-           "Ofer Cassif"
-          ],
-          [
-           108,
-           "Ayman Odeh"
-          ],
-          [
-           109,
-           "Aida Touma-Sliman"
-          ]
-         ]
-        },
-        {
-         "bill": "2197146",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Ahmad Tibi"
-          ]
-         ]
-        },
-        {
-         "bill": "2198155",
-         "sign": -1,
+         "bill": "2165968",
+         "sign": 1,
          "role": "main",
          "same": true,
          "authors": [
           [
            5,
            "Ofer Cassif"
-          ],
-          [
-           6,
-           "Youssef Atauna"
           ],
           [
            108,
@@ -181448,13 +180960,13 @@
        "evidence": []
       },
       {
-       "q": "4",
-       "contribution": 0.13745,
-       "p": -0.2749,
+       "q": "12",
+       "contribution": 0.13705,
+       "p": 0.2741,
        "lines": [
-        "“The Jewish character of the state and its Jewish majority should be anchored more firmly in law, even if non-Jews feel less equal.”",
+        "“Israel should make it harder for foreign workers and asylum seekers to stay, work or receive benefits, even if their living conditions worsen.”",
         "Your answer: disagree. The record of the list's former MKs points against this statement.",
-        "Basis: no bills of their own on this topic, only 6 votes on private bills and 13 votes on the other camp's bills on this topic."
+        "Basis: no bills of their own on this topic, only 9 votes on private bills and 19 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -181925,8 +181437,8 @@
      "2",
      "60",
      "15",
-     "4",
-     "22"
+     "40",
+     "12"
     ]
    }
   },
