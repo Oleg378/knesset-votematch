@@ -3286,6 +3286,30 @@
     "role": "secondary",
     "source": "label check q4 (2026-10-19): two blind checks «not about»",
     "reason": "Limits judicial review over infiltrators; migration and courts"
+   },
+   {
+    "bill_id": "2190897",
+    "d": "164",
+    "q": "5",
+    "role": "main",
+    "source": "label check q5 (2026-10-19): two blind checks «not about»",
+    "reason": "Basic Law duty to Jewish people in emergencies"
+   },
+   {
+    "bill_id": "2201312",
+    "d": "164",
+    "q": "5",
+    "role": "secondary",
+    "source": "label check q5 (2026-10-19): two blind checks «not about»",
+    "reason": "Tuition for Diaspora Jewish students, not heritage centers"
+   },
+   {
+    "bill_id": "2169321",
+    "d": "164",
+    "q": "5",
+    "role": "secondary",
+    "source": "label check q5 (2026-10-19): two blind checks «not about»",
+    "reason": "Diaspora Jews entry visa, not heritage centers"
    }
   ]
  },
