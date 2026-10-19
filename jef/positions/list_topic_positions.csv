@@ -207,7 +207,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",299,охрана интеллектуальной собственности,1.0,1.0,0.0,2,2,0,True,0.0,0,1
 אמת,"HaDemocratim, headed by Yair Golan",3,"льготы и выплаты военнослужащим, резервистам и ветеранам",0.6652,0.8,0.0318,10,72,132,False,-0.1665,141,122
 אמת,"HaDemocratim, headed by Yair Golan",30,государственная поддержка занятости и профобучения,0.5892,0.7,0.018,10,22,61,False,-0.1288,48,33
-אמת,"HaDemocratim, headed by Yair Golan",300,государственный контроль над НКО и общественными объединениями,0.1591,0.3636,0.0,11,8,0,False,-0.2045,14,7
+אמת,"HaDemocratim, headed by Yair Golan",300,государственный контроль над НКО и общественными объединениями,0.1591,0.3636,0.0,11,4,0,False,-0.2045,14,5
 אמת,"HaDemocratim, headed by Yair Golan",301a,господдержка благотворительности,0.7385,0.7333,0.0052,5,10,12,False,0.0,0,8
 אמת,"HaDemocratim, headed by Yair Golan",301b,иностранное государственное финансирование НКО,0.25,0.0,0.0,10,0,0,False,0.25,12,2
 אמת,"HaDemocratim, headed by Yair Golan",303,государственный контроль над ККЛ,-0.2285,0.3333,-0.3119,3,1,3,False,-0.25,3,2
@@ -1064,7 +1064,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,299,охрана интеллектуальной собственности,0.0,0.0,0.0,1,0,1,True,0.0,0,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,3,"льготы и выплаты военнослужащим, резервистам и ветеранам",0.3569,0.6667,-0.132,9,19,157,False,-0.1778,247,94
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,30,государственная поддержка занятости и профобучения,0.5109,0.7778,-0.0331,9,29,33,False,-0.2337,93,25
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,300,государственный контроль над НКО и общественными объединениями,0.1423,0.125,0.0173,8,1,12,False,0.0,0,4
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,300,государственный контроль над НКО и общественными объединениями,0.0173,0.0,0.0173,8,0,12,False,0.0,0,3
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,301,государственная поддержка гражданских организаций и благотворительности,0.0,0.0,0.0,1,0,1,True,0.0,0,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,301a,господдержка благотворительности,0.4108,0.4444,0.0404,9,13,7,False,-0.0741,18,9
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,301b,иностранное государственное финансирование НКО,-0.0417,0.0,-0.0417,5,0,5,False,0.0,0,1
@@ -1993,7 +1993,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",299,охрана интеллектуальной собственности,-0.4375,-0.5,0.0,4,2,2,False,0.0625,2,2
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",3,"льготы и выплаты военнослужащим, резервистам и ветеранам",0.902,1.0,0.0329,6,91,126,False,-0.1308,293,132
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",30,государственная поддержка занятости и профобучения,0.2835,0.5,0.0335,6,9,21,False,-0.25,87,24
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",300,государственный контроль над НКО и общественными объединениями,1.0098,1.0,0.0098,6,9,11,False,0.0,0,7
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",300,государственный контроль над НКО и общественными объединениями,0.8431,0.8333,0.0098,6,5,11,False,0.0,0,4
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",301,государственная поддержка гражданских организаций и благотворительности,0.0,0.0,0.0,1,0,1,True,0.0,0,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",301a,господдержка благотворительности,0.3508,0.2,0.0143,5,1,2,False,0.1365,29,8
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",301b,иностранное государственное финансирование НКО,-0.7083,-0.6667,-0.0417,3,4,3,False,0.0,0,2
@@ -2281,7 +2281,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 י,"Yisrael Techila, headed by Sharren Haskel",298,доступ к поставщикам вне израильского регулирования,-1.0652,-1.0,-0.3152,1,1,1,True,0.25,3,3
 י,"Yisrael Techila, headed by Sharren Haskel",3,"льготы и выплаты военнослужащим, резервистам и ветеранам",0.9087,1.0,0.0487,1,2,24,True,-0.14,50,62
 י,"Yisrael Techila, headed by Sharren Haskel",30,государственная поддержка занятости и профобучения,-0.0235,0.0,0.2265,1,2,1,True,-0.25,9,10
-י,"Yisrael Techila, headed by Sharren Haskel",300,государственный контроль над НКО и общественными объединениями,0.75,1.0,0.0,1,2,1,True,-0.25,1,4
+י,"Yisrael Techila, headed by Sharren Haskel",300,государственный контроль над НКО и общественными объединениями,-0.25,0.0,0.0,1,0,1,True,-0.25,1,2
 י,"Yisrael Techila, headed by Sharren Haskel",301a,господдержка благотворительности,0.0833,0.0,0.0,1,0,0,True,0.0833,3,3
 י,"Yisrael Techila, headed by Sharren Haskel",301b,иностранное государственное финансирование НКО,0.25,0.0,0.0,1,0,0,True,0.25,1,1
 י,"Yisrael Techila, headed by Sharren Haskel",303,государственный контроль над ККЛ,-0.25,0.0,0.0,1,0,0,True,-0.25,2,2
@@ -2900,7 +2900,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",299,охрана интеллектуальной собственности,0.0,0.0,0.0,2,0,3,True,0.0,0,1
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",3,"льготы и выплаты военнослужащим, резервистам и ветеранам",0.8663,0.875,0.0729,8,244,227,False,-0.0817,199,136
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",30,государственная поддержка занятости и профобучения,0.8443,0.8571,0.0562,7,59,28,False,-0.069,32,23
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",300,государственный контроль над НКО и общественными объединениями,0.1429,0.1429,0.0,7,3,2,False,0.0,8,6
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",300,государственный контроль над НКО и общественными объединениями,0.1429,0.1429,0.0,7,1,2,False,0.0,8,4
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",301a,господдержка благотворительности,0.7492,0.8333,-0.105,6,11,9,False,0.0208,8,8
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",301b,иностранное государственное финансирование НКО,0.25,0.0,0.0,4,0,0,False,0.25,4,1
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",303,государственный контроль над ККЛ,-0.5099,0.0,-0.2599,6,0,5,False,-0.25,6,2
@@ -3226,7 +3226,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",299,охрана интеллектуальной собственности,0.0833,0.0,0.0,15,4,10,False,0.0833,10,3
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",3,"льготы и выплаты военнослужащим, резервистам и ветеранам",0.8215,0.8312,0.0484,33,306,630,False,-0.0581,1243,206
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",30,государственная поддержка занятости и профобучения,0.4251,0.5938,0.0471,32,44,93,False,-0.2158,381,43
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",300,государственный контроль над НКО и общественными объединениями,0.2858,0.2759,0.0099,29,13,50,False,0.0,2,5
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",300,государственный контроль над НКО и общественными объединениями,0.2858,0.2759,0.0099,29,10,50,False,0.0,2,4
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",301,государственная поддержка гражданских организаций и благотворительности,0.875,0.875,0.0,8,7,4,False,0.0,0,1
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",301a,господдержка благотворительности,0.5588,0.4615,0.0148,26,25,9,False,0.0825,116,13
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",301b,иностранное государственное финансирование НКО,-0.2108,-0.1765,-0.0343,17,4,14,False,0.0,2,3

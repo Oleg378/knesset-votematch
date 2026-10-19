@@ -57962,7 +57962,7 @@
     },
     {
      "id": "ג",
-     "closeness": 0.1695689176135507,
+     "closeness": 0.16290099470658262,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -57983,7 +57983,7 @@
     },
     {
      "id": "ט",
-     "closeness": 0.09151839375144165,
+     "closeness": 0.08565999497874564,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -58025,7 +58025,7 @@
     },
     {
      "id": "י",
-     "closeness": 0.1278060219693417,
+     "closeness": 0.09272427442959412,
      "coverage": 0.9642857142857143,
      "note": "few former MKs: 1",
      "ranked": false
@@ -59480,29 +59480,9 @@
        "lines": [
         "“The state should tighten control over non-profits funded by foreign governments, for example by taxing such donations, even if this limits independent civil-society groups.”",
         "Your answer: agree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: 5 bills sponsored by the list's former MKs — 5 your way, 0 the other way; 0 votes on private bills and 14 votes on the other camp's bills on this topic."
+        "Basis: 3 bills sponsored by the list's former MKs — 3 your way, 0 the other way; 0 votes on private bills and 14 votes on the other camp's bills on this topic."
        ],
        "evidence": [
-        {
-         "bill": "2189580",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           6,
-           "Gaby Lasky"
-          ],
-          [
-           8,
-           "Michal Rozin"
-          ],
-          [
-           22,
-           "Mossi Raz"
-          ]
-         ]
-        },
         {
          "bill": "2163864",
          "sign": 1,
@@ -59516,18 +59496,6 @@
           [
            22,
            "Mossi Raz"
-          ]
-         ]
-        },
-        {
-         "bill": "2160542",
-         "sign": 1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           8,
-           "Michal Rozin"
           ]
          ]
         },
@@ -61782,7 +61750,7 @@
    "ranking": [
     {
      "id": "ג",
-     "closeness": 0.17443924871390973,
+     "closeness": 0.18661117241587655,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -61809,16 +61777,16 @@
      "ranked": true
     },
     {
-     "id": "ל",
-     "closeness": 0.09994316577451949,
-     "coverage": 1.0,
+     "id": "ט",
+     "closeness": 0.10391693624741824,
+     "coverage": 0.984375,
      "note": "",
      "ranked": true
     },
     {
-     "id": "ט",
-     "closeness": 0.09132999881945349,
-     "coverage": 0.984375,
+     "id": "ל",
+     "closeness": 0.09994316577451949,
+     "coverage": 1.0,
      "note": "",
      "ranked": true
     },
@@ -61887,7 +61855,7 @@
     },
     {
      "id": "י",
-     "closeness": -0.09557667616150949,
+     "closeness": -0.03307475723808391,
      "coverage": 0.9375,
      "note": "few former MKs: 1",
      "ranked": false
@@ -62072,9 +62040,9 @@
       "רק"
      ],
      [
-      "49",
-      "81",
-      "ל"
+      "83",
+      "36",
+      "ט"
      ]
     ]
    },
@@ -65672,6 +65640,18 @@
        "evidence": []
       },
       {
+       "q": "21",
+       "contribution": -0.0346,
+       "p": 0.0173,
+       "lines": [
+        "“The state should tighten control over non-profits funded by foreign governments, for example by taxing such donations, even if this limits independent civil-society groups.”",
+        "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: no bills of their own on this topic, only 12 votes on private bills and 0 votes on the other camp's bills on this topic.",
+        "Weight ×2: you chose this topic in a trade-off question."
+       ],
+       "evidence": []
+      },
+      {
        "q": "99",
        "contribution": -0.03935,
        "p": -0.0787,
@@ -66301,31 +66281,6 @@
         "Basis: no bills of their own on this topic, only 15 votes on private bills and 49 votes on the other camp's bills on this topic."
        ],
        "evidence": []
-      },
-      {
-       "q": "21",
-       "contribution": -0.2846,
-       "p": 0.1423,
-       "lines": [
-        "“The state should tighten control over non-profits funded by foreign governments, for example by taxing such donations, even if this limits independent civil-society groups.”",
-        "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 12 votes on private bills and 0 votes on the other camp's bills on this topic.",
-        "Weight ×2: you chose this topic in a trade-off question."
-       ],
-       "evidence": [
-        {
-         "bill": "2240227",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Yaakov Asher"
-          ]
-         ]
-        }
-       ]
       },
       {
        "q": "14",
@@ -100380,7 +100335,7 @@
     },
     {
      "id": "ט",
-     "closeness": 0.037436365554187154,
+     "closeness": 0.039950047310407626,
      "coverage": 0.9861111111111112,
      "note": "",
      "ranked": true
@@ -100415,7 +100370,7 @@
     },
     {
      "id": "ג",
-     "closeness": -0.029440580646587333,
+     "closeness": -0.027196922196463157,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -100464,7 +100419,7 @@
     },
     {
      "id": "י",
-     "closeness": -0.07723152821107211,
+     "closeness": -0.06499494823801256,
      "coverage": 0.9305555555555556,
      "note": "few former MKs: 1",
      "ranked": false
@@ -111803,7 +111758,7 @@
        "lines": [
         "“The state should tighten control over non-profits funded by foreign governments, for example by taxing such donations, even if this limits independent civil-society groups.”",
         "Your answer: disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 6 bills sponsored by the list's former MKs — 0 your way, 6 the other way; 50 votes on private bills and 2 votes on the other camp's bills on this topic.",
+        "Basis: 5 bills sponsored by the list's former MKs — 0 your way, 5 the other way; 50 votes on private bills and 2 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
@@ -111832,26 +111787,6 @@
           [
            38,
            "Hanoch Dov Milwidsky"
-          ],
-          [
-           47,
-           "Ariel Kallner"
-          ]
-         ]
-        },
-        {
-         "bill": "2203340",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           8,
-           "Ofir Katz"
-          ],
-          [
-           33,
-           "Amit Halevi"
           ],
           [
            47,
@@ -142094,7 +142029,7 @@
    "ranking": [
     {
      "id": "ט",
-     "closeness": 0.11564749124599115,
+     "closeness": 0.11099392248067445,
      "coverage": 0.9859154929577465,
      "note": "",
      "ranked": true
@@ -142114,15 +142049,15 @@
      "ranked": true
     },
     {
-     "id": "ג",
-     "closeness": 0.05847741546473522,
+     "id": "מחל",
+     "closeness": 0.05526043665392697,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
-     "id": "מחל",
-     "closeness": 0.05526043665392697,
+     "id": "ג",
+     "closeness": 0.0532403381194319,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -142199,7 +142134,7 @@
     },
     {
      "id": "י",
-     "closeness": -0.13500833256954498,
+     "closeness": -0.16413464347687248,
      "coverage": 0.9577464788732394,
      "note": "few former MKs: 1",
      "ranked": false
@@ -142364,29 +142299,29 @@
     "skip_lists": [],
     "pairs": [
      [
-      "21",
+      "1",
       "45",
       "ט"
      ],
      [
-      "1",
-      "89",
+      "13",
+      "63",
       "ב"
      ],
      [
-      "13",
-      "36",
+      "94",
+      "89",
       "שס"
+     ],
+     [
+      "9",
+      "36",
+      "מחל"
      ],
      [
       "77",
       "41",
       "ג"
-     ],
-     [
-      "9",
-      "63",
-      "מחל"
      ]
     ]
    },
@@ -142462,103 +142397,6 @@
         },
         {
          "bill": "2159877",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           30,
-           "Michal Miriam Woldiger"
-          ]
-         ]
-        }
-       ]
-      },
-      {
-       "q": "21",
-       "contribution": 1.0098,
-       "p": 1.0098,
-       "lines": [
-        "“The state should tighten control over non-profits funded by foreign governments, for example by taxing such donations, even if this limits independent civil-society groups.”",
-        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 6 bills sponsored by the list's former MKs — 6 your way, 0 the other way; 11 votes on private bills and 0 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2165267",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           1,
-           "Bezalel Smotrich"
-          ],
-          [
-           3,
-           "Orit Malka Strock"
-          ],
-          [
-           4,
-           "Simcha Rothman"
-          ],
-          [
-           30,
-           "Michal Miriam Woldiger"
-          ]
-         ]
-        },
-        {
-         "bill": "2237242",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           7,
-           "Zvi Yedidya Sukkot"
-          ]
-         ]
-        },
-        {
-         "bill": "2204617",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           7,
-           "Zvi Yedidya Sukkot"
-          ]
-         ]
-        },
-        {
-         "bill": "2236464",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           12,
-           "Ohad Tal"
-          ]
-         ]
-        },
-        {
-         "bill": "2201102",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           12,
-           "Ohad Tal"
-          ]
-         ]
-        },
-        {
-         "bill": "2220893",
          "sign": 1,
          "role": "main",
          "same": true,
@@ -143052,6 +142890,55 @@
           [
            30,
            "Michal Miriam Woldiger"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "21",
+       "contribution": 0.8431,
+       "p": 0.8431,
+       "lines": [
+        "“The state should tighten control over non-profits funded by foreign governments, for example by taxing such donations, even if this limits independent civil-society groups.”",
+        "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
+        "Basis: 2 bills sponsored by the list's former MKs — 2 your way, 0 the other way; 11 votes on private bills and 0 votes on the other camp's bills on this topic.",
+        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+       ],
+       "evidence": [
+        {
+         "bill": "2165267",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Bezalel Smotrich"
+          ],
+          [
+           3,
+           "Orit Malka Strock"
+          ],
+          [
+           4,
+           "Simcha Rothman"
+          ],
+          [
+           30,
+           "Michal Miriam Woldiger"
+          ]
+         ]
+        },
+        {
+         "bill": "2201102",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           12,
+           "Ohad Tal"
           ]
          ]
         }
@@ -157384,7 +157271,7 @@
     },
     {
      "id": "ט",
-     "closeness": 0.13231526574974953,
+     "closeness": 0.12764697510761966,
      "coverage": 0.9863013698630136,
      "note": "",
      "ranked": true
@@ -157398,7 +157285,7 @@
     },
     {
      "id": "ג",
-     "closeness": 0.1219610502811415,
+     "closeness": 0.1167753427876541,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -157468,7 +157355,7 @@
     },
     {
      "id": "י",
-     "closeness": -0.07384760963273077,
+     "closeness": -0.10310518038100566,
      "coverage": 0.9315068493150684,
      "note": "few former MKs: 1",
      "ranked": false

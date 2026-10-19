@@ -1,9 +1,9 @@
 bill votes (4 stages, non-technical): 4763; roster rows with for/against: 263211; MKs 195
 government formation (from positions): {24: '2021-06-13', 25: '2022-12-29'} | transition windows: [('2021-04-06', '2021-06-13'), ('2022-11-15', '2022-12-29')]
 coalition by behaviour (cleaning votes): [('הרשימה הערבית המאוחדת', 24, 0.946)]
-A rows (MK×Knesset×dir): 27233; V rows: 41574
+A rows (MK×Knesset×dir): 27225; V rows: 41574
 O rows (votes on the other camp's bills): 45106; bills with a camp: 4703
-mk_topic_positions: 46474 rows, MKs 193, directions 345; with A: 22564, V only: 23910
+mk_topic_positions: 46474 rows, MKs 193, directions 345; with A: 22558, V only: 23916
 list_topic_votes: 13640 rows (list × quiz direction × bill × camp)
 faction camp switches (W30≥0.7): [(1107, 'נעם - בראשות אבי מעוז', '2025-03-04', '2025-03-25'), (1108, 'הימין הממלכתי', '2024-09-29', '2026-07-28')]
 MK camp-switch periods (W30≥0.7): [('גדעון סער', '2024-07-17', '2024-11-06'), ('זאב אלקין', '2024-07-17', '2024-11-06'), ('שרן מרים השכל', '2024-07-17', '2024-11-06'), ('יעקב טסלר', '2026-03-18', '2026-06-24'), ('עמיחי שיקלי', '2021-06-29', '2022-06-01'), ('מישל בוסקילה', '2024-07-17', '2024-11-06'), ('יצחק גולדקנופ', '2026-03-24', '2026-06-10')]
