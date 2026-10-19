@@ -3366,6 +3366,86 @@
     "role": "main",
     "source": "label check q13 (2026-10-19): two blind checks «not about»",
     "reason": "Foreign corporate ownership; economic, not states or organizations"
+   },
+   {
+    "bill_id": "2242145",
+    "d": "3",
+    "q": "15",
+    "role": "secondary",
+    "source": "label check q15 (2026-10-19): two blind checks «not about»",
+    "reason": "Military cemetery burial for firefighters"
+   },
+   {
+    "bill_id": "2237934",
+    "d": "3",
+    "q": "15",
+    "role": "main",
+    "source": "label check q15 (2026-10-19): two blind checks «not about»",
+    "reason": "Military decorations for 1948 war heroes, not payments"
+   },
+   {
+    "bill_id": "2202287",
+    "d": "3",
+    "q": "15",
+    "role": "main",
+    "source": "label check q15 (2026-10-19): two blind checks «not about»",
+    "reason": "Military cemetery burial for prison guards"
+   },
+   {
+    "bill_id": "2220089",
+    "d": "3",
+    "q": "15",
+    "role": "secondary",
+    "source": "label check q15 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Freezing phone numbers of fallen; no benefits question"
+   },
+   {
+    "bill_id": "2191296",
+    "d": "3",
+    "q": "15",
+    "role": "secondary",
+    "source": "label check q15 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Gun licensing eligibility; firearms policy, not service benefits"
+   },
+   {
+    "bill_id": "2157254",
+    "d": "3",
+    "q": "15",
+    "role": "secondary",
+    "source": "label check q15 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Posthumous sperm use; family-law/bioethics, not benefits"
+   },
+   {
+    "bill_id": "2198186",
+    "d": "3",
+    "q": "15",
+    "role": "secondary",
+    "source": "label check q15 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Firearm licensing for ex-combatants; gun policy"
+   },
+   {
+    "bill_id": "2196965",
+    "d": "3",
+    "q": "15",
+    "role": "secondary",
+    "source": "label check q15 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Gun licensing eligibility; firearms policy, not service benefits"
+   },
+   {
+    "bill_id": "2220804",
+    "d": "3",
+    "q": "15",
+    "role": "main",
+    "source": "label check q15 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Firearm license minimum age; firearms policy"
+   },
+   {
+    "bill_id": "2216636",
+    "d": "3",
+    "q": "15",
+    "role": "secondary",
+    "source": "label check q15 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Payments to released captives, mostly civilians"
    }
   ]
  },
@@ -3517,6 +3597,15 @@
     "role": "main",
     "source": "label check q4 (2026-10-19): two blind checks agree on the sign; confirmed on the full notes (≤3,000 characters, flip_result.csv)",
     "reason": "Constitutionalizes the Declaration of Independence, entrenching its equality principle as a counterweight to the Nation-State Law."
+   },
+   {
+    "bill_id": "2225752",
+    "d": "3",
+    "q": "15",
+    "sign": "+",
+    "role": "main",
+    "source": "label check q15 (2026-10-19): first check and the check on the full notes agree on the sign (no notes: title only)",
+    "reason": "Split from a reservist-benefits bill: reduces income tax withheld at source by 5% for reservists, a tax benefit; no notes."
    }
   ]
  }
