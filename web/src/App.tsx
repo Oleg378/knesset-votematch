@@ -1,5 +1,7 @@
 import { useCallback, useEffect, useMemo, useReducer, useRef, useState, useSyncExternalStore } from 'react';
+import { flushSync } from 'react-dom';
 import { track } from './analytics';
+import { isCardChange, slideCard } from './cardTransition';
 import { Counter, Header } from './components/Header';
 import { Loading, LoadError } from './components/Loading';
 import { Menu } from './components/Menu';
@@ -14,7 +16,7 @@ import { ResultsScreen } from './screens/ResultsScreen';
 import { StartScreen } from './screens/StartScreen';
 import { TradeoffScreen } from './screens/TradeoffScreen';
 import { createBackGuard } from './state/backGuard';
-import { createReducer, hasComputableAnswers, initialState } from './state/reducer';
+import { createReducer, hasComputableAnswers, initialState, type Action } from './state/reducer';
 import { S } from './strings';
 
 function focusHeading() {
@@ -43,17 +45,26 @@ export default function App({ loader }: { loader: Loader }) {
   stateRef.current = state;
   const reducerRef = useRef(reducer);
   reducerRef.current = reducer;
+  // One quiz card replacing another slides (cardTransition.ts); the DOM must change inside the transition: flushSync.
+  const send = useCallback((action: Action) => {
+    const next = reducerRef.current(stateRef.current, action);
+    if (!isCardChange(stateRef.current.screen, next.screen)) dispatch(action);
+    else slideCard(() => flushSync(() => dispatch(action)), action.type === 'BACK');
+  }, []);
+
   useEffect(() => {
-    const onPop = () => {
+    const onPop = (e: PopStateEvent) => {
       if (!guard.onPop()) return;
       // Re-arm here too: when BACK changes nothing (results, trade-off) there is no re-render.
       const next = reducerRef.current(stateRef.current, { type: 'BACK' });
-      dispatch({ type: 'BACK' });
+      // A back swipe already animated by the browser (Safari) does not slide the card again.
+      if (e.hasUAVisualTransition) dispatch({ type: 'BACK' });
+      else send({ type: 'BACK' });
       guard.sync(next.screen.name === 'start');
     };
     window.addEventListener('popstate', onPop);
     return () => window.removeEventListener('popstate', onPop);
-  }, [guard]);
+  }, [guard, send]);
 
   const prev = useRef(sc.name);
   const mounted = useRef(false);
@@ -86,13 +97,13 @@ export default function App({ loader }: { loader: Loader }) {
 
   // A screen is shown only when its file has arrived; otherwise a loader for this screen only.
   const wait = src.failed ? <LoadError /> : <Loading />;
-  const props = { state, dispatch };
+  const props = { state, dispatch: send };
   const statement = sc.name === 'question'
     ? (data?.statements ?? core?.statements ?? []).find((s) => s.q === state.shown[sc.i]) : undefined;
   let body;
   switch (sc.name) {
     case 'start':
-      body = <StartScreen core={core} dispatch={dispatch} />;
+      body = <StartScreen core={core} dispatch={send} />;
       break;
     case 'question':
       body = statement ? <QuestionScreen key={sc.i} statement={statement} {...props} /> : wait;

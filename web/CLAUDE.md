@@ -271,6 +271,14 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
   `overflow: clip` keeps the pinned header's corners inside the radius (never `hidden` — it breaks sticky). No Figma frame — customer chose this variant (C) from
   three rendered options. Never scale the card down to fit (rejected: it defeats browser zoom). Recipes and saved
   alternatives: `design-variants/`.
+- **Card change** (customer 2026-10-19, DECISIONS.md G11): one quiz card replacing another (question / trade-off; Next,
+  Skip, Back, system Back) moves like an iOS navigation push — the new screen slides in from the right edge over the old
+  one, which moves a third to the left (Back: mirrored), 540 ms (`--card-time`, `--card-ease`). View Transitions:
+  `src/cardTransition.ts` decides (`isCardChange`; a new card-like screen goes there) and puts `data-card` on `<html>`
+  for the transition only; names and keyframes — `app.css` «Card change». Header and bottom bar stay; the screen is
+  clipped by the edges of `.app`. No dimming of the screen underneath (grey strips beside the column-wide bars). No View
+  Transitions (iOS ≤ 17) or reduced motion: instant. Frames: after `startViewTransition(…).ready`, pause
+  `document.getAnimations()` and set `currentTime`.
 - **Home on narrow phones:** the hero picture is 150 px (Figma) from ~390 px wide; narrower, it shrinks
   (`width: min(150px, 100% − 184px − 4px)`) so «Find your / vote match» always stays on two lines. Never three lines.
 - **Fonts:** Fraunces only from `src/assets/fonts/fraunces-opsz.woff2` (regenerate with `node scripts/subset-fraunces.mjs`);

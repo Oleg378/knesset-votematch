@@ -83,6 +83,11 @@ button {
        scroll container and the header and bottom bar would stop sticking to the window. */
     overflow: clip;
   }
+
+  /* Card change: the sliding screen is clipped by the card's rounded bottom corners too. */
+  :root[data-card]::view-transition-group(screen) {
+    border-radius: 0 0 var(--radius-desktop) var(--radius-desktop);
+  }
 }
 
 /* Loading: dot rings with a blue dot running round (src/components/dotRing.ts). Before the JS — .boot, an empty .app in
@@ -1013,5 +1018,109 @@ a {
   .menu,
   .menu-dim {
     animation: none;
+  }
+}
+
+/* Card change (customer 2026-10-19): one quiz card replacing another (Next, Skip, Back, a trade-off) moves like an iOS
+   navigation push, through the browser's View Transitions; cardTransition.ts puts data-card (next / back) on <html> for
+   the transition only. Next: the new screen slides in from the right edge over the old one, which moves a third to the
+   left; Back: the reverse. The header and the bottom bar stay; the screen is clipped by the edges of .app (the phone
+   screen, the card). No dimming of the screen underneath: the bars span only the column, so it would show as grey
+   strips beside them. No View Transitions (iOS ≤ 17) or reduced motion: the card changes at once. */
+:root[data-card] .screen {
+  view-transition-name: screen;
+  /* The screen's box reaches the edges of .app (its content stays in place), so it slides from the very edge. */
+  margin-left: calc(-1 * (var(--gutter) + env(safe-area-inset-left)));
+  margin-right: calc(-1 * (var(--gutter) + env(safe-area-inset-right)));
+  padding-left: calc(var(--gutter) + env(safe-area-inset-left));
+  padding-right: calc(var(--gutter) + env(safe-area-inset-right));
+}
+
+:root[data-card] .header {
+  view-transition-name: header;
+}
+
+:root[data-card] .bottom-bar {
+  view-transition-name: bottom-bar;
+}
+
+/* Taps reach the new screen at once: it is already live under the animation. */
+:root[data-card]::view-transition {
+  pointer-events: none;
+}
+
+:root[data-card]::view-transition-group(*) {
+  animation-duration: var(--card-time);
+  animation-timing-function: var(--card-ease);
+}
+
+/* The rest of the page, the header and the bottom bar switch at once. */
+:root[data-card]::view-transition-old(root),
+:root[data-card]::view-transition-old(header),
+:root[data-card]::view-transition-old(bottom-bar) {
+  animation: none;
+  opacity: 0;
+}
+
+:root[data-card]::view-transition-new(root),
+:root[data-card]::view-transition-new(header),
+:root[data-card]::view-transition-new(bottom-bar) {
+  animation: none;
+}
+
+:root[data-card]::view-transition-group(screen) {
+  overflow: clip;
+}
+
+/* Opaque pages: the one on top covers the one underneath. */
+:root[data-card]::view-transition-old(screen),
+:root[data-card]::view-transition-new(screen) {
+  background: var(--color-bg);
+  mix-blend-mode: normal;
+  animation-duration: var(--card-time);
+  animation-timing-function: var(--card-ease);
+  animation-fill-mode: both;
+}
+
+:root[data-card='next']::view-transition-old(screen) {
+  animation-name: card-under;
+}
+
+:root[data-card='next']::view-transition-new(screen) {
+  animation-name: card-in;
+  box-shadow: var(--card-shadow);
+}
+
+:root[data-card='back']::view-transition-old(screen) {
+  z-index: 1;
+  animation-name: card-out;
+  box-shadow: var(--card-shadow);
+}
+
+:root[data-card='back']::view-transition-new(screen) {
+  animation-name: card-from-under;
+}
+
+@keyframes card-in {
+  from {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes card-out {
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes card-under {
+  to {
+    transform: translateX(calc(-1 * var(--card-behind)));
+  }
+}
+
+@keyframes card-from-under {
+  from {
+    transform: translateX(calc(-1 * var(--card-behind)));
   }
 }
