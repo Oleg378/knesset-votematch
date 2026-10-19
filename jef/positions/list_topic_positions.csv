@@ -153,7 +153,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",253,объём государственного образования,0.6786,0.5714,0.0,7,6,2,False,0.1071,4,4
 אמת,"HaDemocratim, headed by Yair Golan",253a,объём бесплатного государственного образования,0.6425,0.7778,0.0036,9,12,4,False,-0.1389,5,6
 אמת,"HaDemocratim, headed by Yair Golan",253b,харедимное направление в государственном образовании,0.3495,0.3333,0.0162,3,1,7,False,0.0,0,1
-אמת,"HaDemocratim, headed by Yair Golan",254,доступ к высшему образованию,0.2,0.2,0.0,10,4,1,False,0.0,20,6
+אמת,"HaDemocratim, headed by Yair Golan",254,доступ к высшему образованию,-0.05,0.2,0.0,10,4,1,False,-0.25,10,5
 אמת,"HaDemocratim, headed by Yair Golan",255,финансирование негосударственного образования,0.0492,-0.1429,-0.0222,7,1,5,False,0.2143,6,4
 אמת,"HaDemocratim, headed by Yair Golan",255a,финансирование школ без базовых предметов,-0.2818,0.0,-0.2818,1,0,1,True,0.0,0,1
 אמת,"HaDemocratim, headed by Yair Golan",255b,"финансирование школ, учащих против государства",-1.0,-1.0,0.0,1,1,0,True,0.0,0,1
@@ -288,7 +288,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",66b,свобода судей в назначении наказаний,0.3333,0.3333,0.0,3,1,6,False,0.0,0,3
 אמת,"HaDemocratim, headed by Yair Golan",66b1,смертная казнь для террористов,0.281,0.0,0.031,10,0,2,False,0.25,42,4
 אמת,"HaDemocratim, headed by Yair Golan",66b2,минимальные наказания,0.0334,-0.2,0.0,10,2,5,False,0.2333,17,6
-אמת,"HaDemocratim, headed by Yair Golan",69,возможность оспорить решения властей,0.9031,0.9091,0.0017,11,40,37,False,-0.0077,93,38
+אמת,"HaDemocratim, headed by Yair Golan",69,возможность оспорить решения властей,0.6071,0.7143,0.0,7,6,0,False,-0.1071,3,7
+אמת,"HaDemocratim, headed by Yair Golan",69a,судебный контроль над решениями правительства,0.2431,0.0,0.0,9,0,0,False,0.2431,30,4
+אמת,"HaDemocratim, headed by Yair Golan",69b,обжалование решений государственных органов,0.9,0.9091,0.0,11,25,27,False,-0.0091,34,15
 אמת,"HaDemocratim, headed by Yair Golan",71,автономия судебной системы,0.15,-0.1,0.0,10,1,0,False,0.25,41,5
 אמת,"HaDemocratim, headed by Yair Golan",72,влияние политиков на назначение судей,-0.25,0.0,0.0,10,0,0,False,-0.25,29,2
 אמת,"HaDemocratim, headed by Yair Golan",75,права парламентской оппозиции,0.0552,0.2727,0.0098,11,5,2,False,-0.2273,23,8
@@ -485,7 +487,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",253,объём государственного образования,0.375,0.25,0.0,4,1,0,False,0.125,10,4
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",253a,объём бесплатного государственного образования,0.125,0.3333,0.0,6,3,1,False,-0.2083,14,7
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",253b,харедимное направление в государственном образовании,-0.25,0.0,0.0,5,0,0,False,-0.25,10,1
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",254,доступ к высшему образованию,-0.4052,-0.2,-0.0052,5,1,2,False,-0.2,4,3
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",254,доступ к высшему образованию,-0.2,0.0,0.0,5,0,1,False,-0.2,4,2
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",255,финансирование негосударственного образования,0.25,0.0,0.0,5,0,0,False,0.25,7,2
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",255a,финансирование школ без базовых предметов,-0.2083,0.0,0.0,4,0,0,False,-0.2083,9,3
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",255b,"финансирование школ, учащих против государства",-0.6667,-0.6667,0.0,3,2,1,False,0.0,0,1
@@ -614,7 +616,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",66a,судебный контроль над законами и правительством,-0.7153,-0.5,-0.007,6,4,39,False,-0.2083,15,9
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",66b1,смертная казнь для террористов,-0.6149,-0.3333,-0.0316,6,2,72,False,-0.25,11,4
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",66b2,минимальные наказания,-0.5903,-0.6667,-0.007,3,3,2,False,0.0833,1,4
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",69,возможность оспорить решения властей,0.0389,0.2,0.0167,6,11,69,False,-0.1778,19,27
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",69,возможность оспорить решения властей,0.4167,0.5,0.0,2,1,0,True,-0.0833,6,2
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",69a,судебный контроль над решениями правительства,-0.5013,-0.5,-0.0013,6,4,46,False,0.0,0,6
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",69b,обжалование решений государственных органов,0.65,0.6,0.0,5,4,6,False,0.05,1,8
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",71,автономия судебной системы,-0.6079,-0.6,-0.0079,5,5,10,False,0.0,0,9
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",72,влияние политиков на назначение судей,1.0172,1.0,0.0172,3,4,3,False,0.0,0,5
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",75,права парламентской оппозиции,-0.1368,0.0,0.0716,6,0,8,False,-0.2083,5,4
@@ -741,7 +745,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 בי,Tzomet Beit Yisrael,25,конкуренция на рынке и в госзакупках,-0.2045,0.0,0.0,1,0,0,True,-0.2045,11,2
 בי,Tzomet Beit Yisrael,251,регулирование профессий и барьеры входа,-0.0321,0.0,-0.0321,1,0,12,True,0.0,4,8
 בי,Tzomet Beit Yisrael,253,объём государственного образования,0.25,0.0,0.0,1,0,0,True,0.25,2,1
-בי,Tzomet Beit Yisrael,254,доступ к высшему образованию,-0.0259,0.0,-0.0259,1,0,2,True,0.0,0,2
+בי,Tzomet Beit Yisrael,254,доступ к высшему образованию,0.0,0.0,0.0,1,0,1,True,0.0,0,1
 בי,Tzomet Beit Yisrael,255,финансирование негосударственного образования,-0.06,0.0,-0.06,1,0,1,True,0.0,0,1
 בי,Tzomet Beit Yisrael,255c,"финансирование школ, дискриминирующих при приёме",0.25,0.0,0.0,1,0,0,True,0.25,2,2
 בי,Tzomet Beit Yisrael,256,государственный контроль над образованием (автономия вузов — с обратным знаком),0.7716,1.0,0.0216,1,1,2,True,-0.25,2,5
@@ -834,7 +838,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 בי,Tzomet Beit Yisrael,66a,судебный контроль над законами и правительством,-0.05,0.0,-0.05,1,0,4,True,0.0,0,3
 בי,Tzomet Beit Yisrael,66b1,смертная казнь для террористов,-0.0789,0.0,-0.0789,1,0,1,True,0.0,0,1
 בי,Tzomet Beit Yisrael,66b2,минимальные наказания,-0.0376,0.0,-0.0376,1,0,2,True,0.0,0,2
-בי,Tzomet Beit Yisrael,69,возможность оспорить решения властей,0.9357,1.0,0.0429,1,1,7,True,-0.1071,7,9
+בי,Tzomet Beit Yisrael,69,возможность оспорить решения властей,-0.1071,0.0,0.0,1,0,1,True,-0.1071,7,2
+בי,Tzomet Beit Yisrael,69a,судебный контроль над решениями правительства,-0.0566,0.0,-0.0566,1,0,1,True,0.0,0,1
+בי,Tzomet Beit Yisrael,69b,обжалование решений государственных органов,1.0,1.0,0.0,1,1,2,True,0.0,0,3
 בי,Tzomet Beit Yisrael,71,автономия судебной системы,-0.0494,0.0,-0.0494,1,0,4,True,0.0,0,3
 בי,Tzomet Beit Yisrael,72,влияние политиков на назначение судей,0.0517,0.0,0.0517,1,0,3,True,0.0,0,2
 בי,Tzomet Beit Yisrael,75,права парламентской оппозиции,0.0,0.0,0.0,1,0,2,True,0.0,0,2
@@ -1022,7 +1028,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,253,объём государственного образования,0.0469,0.0,0.0,8,0,9,False,0.0469,18,3
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,253a,объём бесплатного государственного образования,-0.0231,0.2222,-0.0231,9,3,7,False,-0.2222,13,6
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,253b,харедимное направление в государственном образовании,-0.25,0.0,0.0,7,0,0,False,-0.25,15,1
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,254,доступ к высшему образованию,-0.1724,0.0,-0.0162,8,0,10,False,-0.1562,5,3
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,254,доступ к высшему образованию,-0.1562,0.0,0.0,8,0,5,False,-0.1562,5,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,255,финансирование негосударственного образования,0.1829,0.0,0.0162,6,0,4,False,0.1667,4,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,255a,финансирование школ без базовых предметов,-0.0167,0.0,0.0,5,0,0,False,-0.0167,13,3
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,255b,"финансирование школ, учащих против государства",0.0,0.0,0.0,2,0,2,True,0.0,0,1
@@ -1155,7 +1161,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,66a,судебный контроль над законами и правительством,-0.7124,-0.5,-0.0249,8,14,67,False,-0.1875,22,10
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,66b1,смертная казнь для террористов,0.5363,0.0,0.4363,5,0,38,False,0.1,4,3
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,66b2,минимальные наказания,0.0381,0.0,-0.0244,8,0,15,False,0.0625,6,3
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,69,возможность оспорить решения властей,0.2626,0.3883,-0.0122,8,45,110,False,-0.1134,71,36
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,69,возможность оспорить решения властей,0.0238,0.2,0.0,5,1,4,False,-0.1762,34,3
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,69a,судебный контроль над решениями правительства,-0.394,-0.375,-0.019,8,5,61,False,0.0,0,6
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,69b,обжалование решений государственных органов,0.7188,0.5,0.0,8,36,25,False,0.2188,15,15
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,71,автономия судебной системы,-0.5307,-0.5,-0.0307,8,8,32,False,0.0,0,7
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,72,влияние политиков на назначение судей,0.3851,0.3333,0.0517,6,2,12,False,0.0,0,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,75,права парламентской оппозиции,-0.0714,0.0,0.0,7,0,8,False,-0.0714,8,4
@@ -1341,7 +1349,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",253,объём государственного образования,0.25,0.25,0.0,4,2,7,False,0.0,0,3
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",253a,объём бесплатного государственного образования,0.056,0.0,0.056,3,0,5,False,0.0,0,3
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",253b,харедимное направление в государственном образовании,0.0688,0.0,0.0688,4,0,8,False,0.0,0,1
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",254,доступ к высшему образованию,0.1875,0.25,0.0,4,1,2,False,-0.0625,3,4
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",254,доступ к высшему образованию,0.125,0.25,0.0,4,1,2,False,-0.125,2,3
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",255,финансирование негосударственного образования,0.0409,0.0,-0.0841,2,0,3,True,0.125,1,3
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",255a,финансирование школ без базовых предметов,-0.1431,0.0,-0.1431,4,0,8,False,0.0,0,3
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",255c,"финансирование школ, дискриминирующих при приёме",-0.0163,0.0,-0.0163,4,0,4,False,0.0,0,1
@@ -1461,7 +1469,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",66a,судебный контроль над законами и правительством,0.2958,0.0,0.0458,4,0,11,False,0.25,26,9
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",66b1,смертная казнь для террористов,0.25,0.0,0.0,3,0,0,False,0.25,20,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",66b2,минимальные наказания,0.0221,0.0,-0.0196,2,0,3,True,0.0417,3,4
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",69,возможность оспорить решения властей,0.1659,0.0,0.0482,4,0,27,False,0.1177,42,22
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",69,возможность оспорить решения властей,-0.25,0.0,0.0,4,0,0,False,-0.25,4,1
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",69a,судебный контроль над решениями правительства,0.2321,0.0,0.0,4,0,0,False,0.2321,26,5
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",69b,обжалование решений государственных органов,0.0625,0.0,0.0,4,0,9,False,0.0625,2,5
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",71,автономия судебной системы,0.25,0.0,0.0,4,0,0,False,0.25,10,4
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",72,влияние политиков на назначение судей,-0.5,-0.3333,0.0,3,1,0,False,-0.1667,5,3
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",75,права парламентской оппозиции,-0.2215,0.0,0.0285,2,0,1,True,-0.25,4,4
@@ -1650,7 +1660,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,253,объём государственного образования,1.2,1.0,0.0,5,6,8,False,0.2,8,5
 ודם,The Joint Arab List,253a,объём бесплатного государственного образования,1.0136,1.0,0.0136,5,23,16,False,0.0,0,10
 ודם,The Joint Arab List,253b,харедимное направление в государственном образовании,0.0162,0.0,0.0162,2,0,3,True,0.0,0,1
-ודם,The Joint Arab List,254,доступ к высшему образованию,0.927,0.8,0.127,5,24,11,False,0.0,0,9
+ודם,The Joint Arab List,254,доступ к высшему образованию,0.8,0.8,0.0,5,24,8,False,0.0,0,8
 ודם,The Joint Arab List,255,финансирование негосударственного образования,0.4441,0.0,0.4441,3,0,4,False,0.0,0,2
 ודם,The Joint Arab List,255a,финансирование школ без базовых предметов,-0.6409,-0.75,0.1091,4,3,4,False,0.0,0,3
 ודם,The Joint Arab List,255b,"финансирование школ, учащих против государства",0.25,0.0,0.0,4,0,0,False,0.25,4,1
@@ -1778,7 +1788,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,66b,свобода судей в назначении наказаний,0.25,0.0,0.0,2,0,0,True,0.25,4,2
 ודם,The Joint Arab List,66b1,смертная казнь для террористов,0.4758,0.0,0.2258,5,0,13,False,0.25,49,4
 ודם,The Joint Arab List,66b2,минимальные наказания,0.6567,0.2,0.3067,5,2,29,False,0.15,7,7
-ודם,The Joint Arab List,69,возможность оспорить решения властей,1.1244,1.0,0.0058,5,30,60,False,0.1186,104,39
+ודם,The Joint Arab List,69,возможность оспорить решения властей,0.8179,1.0,0.0,5,6,4,False,-0.1821,31,7
+ודם,The Joint Arab List,69a,судебный контроль над решениями правительства,1.4047,0.8,0.3547,5,7,4,False,0.25,47,7
+ודם,The Joint Arab List,69b,обжалование решений государственных органов,0.85,0.6,0.0,5,11,28,False,0.25,17,13
 ודם,The Joint Arab List,71,автономия судебной системы,0.3105,-0.2,0.3605,5,1,14,False,0.15,4,5
 ודם,The Joint Arab List,72,влияние политиков на назначение судей,-0.4483,0.0,-0.4483,4,0,10,False,0.0,0,2
 ודם,The Joint Arab List,75,права парламентской оппозиции,0.8327,1.0,0.0202,4,7,5,False,-0.1875,4,5
@@ -1968,7 +1980,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",253,объём государственного образования,0.0667,0.0,0.0,6,0,4,False,0.0667,17,3
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",253a,объём бесплатного государственного образования,0.125,0.3333,0.0,6,2,3,False,-0.2083,15,6
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",253b,харедимное направление в государственном образовании,-0.25,0.0,0.0,5,0,0,False,-0.25,14,1
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",254,доступ к высшему образованию,-0.6839,-0.5,-0.0172,6,6,8,False,-0.1667,4,4
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",254,доступ к высшему образованию,0.0,0.1667,0.0,6,1,4,False,-0.1667,4,3
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",255,финансирование негосударственного образования,0.164,0.0,-0.036,5,0,3,False,0.2,7,3
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",255a,финансирование школ без базовых предметов,-0.15,0.0,0.0,5,0,0,False,-0.15,13,3
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",255b,"финансирование школ, учащих против государства",-0.4,-0.4,0.0,5,2,5,False,0.0,0,1
@@ -2096,7 +2108,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",66a,судебный контроль над законами и правительством,-1.049,-0.8333,-0.0073,6,22,50,False,-0.2083,14,13
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",66b1,смертная казнь для террористов,-0.2392,0.0,-0.0309,6,0,64,False,-0.2083,10,4
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",66b2,минимальные наказания,-0.4417,-0.5,-0.025,6,7,14,False,0.0833,8,10
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",69,возможность оспорить решения властей,-0.4062,-0.2208,-0.0093,6,37,73,False,-0.1761,44,30
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",69,возможность оспорить решения властей,-0.4286,-0.25,0.0,4,1,3,False,-0.1786,28,3
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",69a,судебный контроль над решениями правительства,-0.8456,-0.8333,-0.0123,6,24,45,False,0.0,0,9
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",69b,обжалование решений государственных органов,1.15,1.0,0.0,5,10,4,False,0.15,3,7
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",71,автономия судебной системы,-0.8597,-0.8333,-0.0264,6,18,22,False,0.0,0,8
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",72,влияние политиков на назначение судей,1.0414,1.0,0.0414,5,9,11,False,0.0,0,3
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",75,права парламентской оппозиции,-0.1839,0.0,0.0245,6,2,13,False,-0.2083,5,7
@@ -2269,7 +2283,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 י,"Yisrael Techila, headed by Sharren Haskel",253,объём государственного образования,0.75,1.0,0.0,1,1,0,True,-0.25,1,2
 י,"Yisrael Techila, headed by Sharren Haskel",253a,объём бесплатного государственного образования,-0.25,0.0,0.0,1,0,0,True,-0.25,3,3
 י,"Yisrael Techila, headed by Sharren Haskel",253b,харедимное направление в государственном образовании,1.0,1.0,0.0,1,1,0,True,0.0,0,1
-י,"Yisrael Techila, headed by Sharren Haskel",254,доступ к высшему образованию,0.0,0.0,0.0,1,0,0,True,0.0,2,2
+י,"Yisrael Techila, headed by Sharren Haskel",254,доступ к высшему образованию,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
 י,"Yisrael Techila, headed by Sharren Haskel",255,финансирование негосударственного образования,0.25,0.0,0.0,1,0,0,True,0.25,2,2
 י,"Yisrael Techila, headed by Sharren Haskel",255a,финансирование школ без базовых предметов,1.288,1.0,0.038,1,1,2,True,0.25,1,3
 י,"Yisrael Techila, headed by Sharren Haskel",255b,"финансирование школ, учащих против государства",-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
@@ -2383,7 +2397,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 י,"Yisrael Techila, headed by Sharren Haskel",66b,свобода судей в назначении наказаний,0.0,0.0,0.0,1,0,2,True,0.0,0,2
 י,"Yisrael Techila, headed by Sharren Haskel",66b1,смертная казнь для террористов,-0.1407,0.0,-0.1407,1,0,9,True,0.0,0,1
 י,"Yisrael Techila, headed by Sharren Haskel",66b2,минимальные наказания,-0.7585,-1.0,-0.0085,1,1,3,True,0.25,2,4
-י,"Yisrael Techila, headed by Sharren Haskel",69,возможность оспорить решения властей,0.4003,0.3333,0.0253,1,6,8,True,0.0417,12,22
+י,"Yisrael Techila, headed by Sharren Haskel",69,возможность оспорить решения властей,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
+י,"Yisrael Techila, headed by Sharren Haskel",69a,судебный контроль над решениями правительства,-0.75,-1.0,0.0,1,1,3,True,0.25,5,6
+י,"Yisrael Techila, headed by Sharren Haskel",69b,обжалование решений государственных органов,0.75,1.0,0.0,1,2,0,True,-0.25,1,3
 י,"Yisrael Techila, headed by Sharren Haskel",71,автономия судебной системы,0.25,0.0,0.0,1,0,1,True,0.25,5,5
 י,"Yisrael Techila, headed by Sharren Haskel",72,влияние политиков на назначение судей,-0.25,0.0,0.0,1,0,0,True,-0.25,3,2
 י,"Yisrael Techila, headed by Sharren Haskel",75,права парламентской оппозиции,-0.25,0.0,0.0,1,0,0,True,-0.25,3,3
@@ -2566,7 +2582,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",253,объём государственного образования,0.0,0.0,0.0,3,0,3,False,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",253a,объём бесплатного государственного образования,0.8007,0.75,0.0507,4,3,8,False,0.0,0,6
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",253b,харедимное направление в государственном образовании,0.5696,0.5,0.0696,2,1,6,True,0.0,0,1
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",254,доступ к высшему образованию,0.0,0.0,0.0,4,0,2,False,0.0,6,3
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",254,доступ к высшему образованию,-0.1875,0.0,0.0,4,0,2,False,-0.1875,3,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",255,финансирование негосударственного образования,0.0469,0.0,-0.0781,4,0,4,False,0.125,2,3
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",255a,финансирование школ без базовых предметов,0.1368,0.0,0.1368,3,0,7,False,0.0,0,3
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",255c,"финансирование школ, дискриминирующих при приёме",-0.0165,0.0,-0.0165,2,0,2,True,0.0,0,1
@@ -2693,7 +2709,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",66b,свобода судей в назначении наказаний,0.0,0.0,0.0,1,0,2,True,0.0,0,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",66b1,смертная казнь для террористов,0.25,0.0,0.0,2,0,0,True,0.25,19,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",66b2,минимальные наказания,0.0822,0.0,-0.0428,4,0,4,False,0.125,4,3
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",69,возможность оспорить решения властей,0.3601,0.25,0.0325,4,2,18,False,0.0776,41,23
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",69,возможность оспорить решения властей,-0.25,0.0,0.0,3,0,0,False,-0.25,3,1
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",69a,судебный контроль над решениями правительства,0.25,0.0,0.0,4,0,0,False,0.25,19,4
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",69b,обжалование решений государственных органов,0.2083,0.25,0.0,4,2,9,False,-0.0417,8,9
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",71,автономия судебной системы,0.25,0.0,0.0,4,0,0,False,0.25,13,4
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",72,влияние политиков на назначение судей,-0.9375,-0.75,0.0,4,3,0,False,-0.1875,8,3
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",75,права парламентской оппозиции,0.0,0.25,0.0,4,1,0,False,-0.25,9,5
@@ -2886,7 +2904,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",253,объём государственного образования,0.1806,0.1667,0.0,6,1,7,False,0.0139,3,3
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",253a,объём бесплатного государственного образования,0.0969,0.1667,0.0136,6,2,5,False,-0.0833,5,7
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",253b,харедимное направление в государственном образовании,0.833,0.8571,0.0116,7,8,10,False,-0.0357,3,1
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",254,доступ к высшему образованию,-0.0357,0.0,0.0,7,0,5,False,-0.0357,7,3
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",254,доступ к высшему образованию,-0.1429,0.0,0.0,7,0,5,False,-0.1429,4,2
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",255,финансирование негосударственного образования,0.2988,0.1667,-0.0346,6,1,4,False,0.1667,5,4
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",255a,финансирование школ без базовых предметов,-0.6944,-0.6667,0.0,3,4,0,False,-0.0278,3,4
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",255b,"финансирование школ, учащих против государства",-0.125,0.0,0.0,2,0,1,True,-0.125,1,1
@@ -3017,7 +3035,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",66b,свобода судей в назначении наказаний,0.6667,0.6667,0.0,3,2,2,False,0.0,0,3
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",66b1,смертная казнь для террористов,-0.9992,-0.5714,-0.2492,7,4,20,False,-0.1786,52,4
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",66b2,минимальные наказания,-0.9041,-0.7143,-0.0612,7,25,23,False,-0.1286,16,9
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",69,возможность оспорить решения властей,0.6224,0.625,0.0,8,16,26,False,-0.0026,68,28
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",69,возможность оспорить решения властей,-0.2,0.0,0.0,5,0,0,False,-0.2,6,2
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",69a,судебный контроль над решениями правительства,0.6734,0.5,0.0,8,6,10,False,0.1734,33,8
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",69b,обжалование решений государственных органов,0.8095,0.8571,0.0,7,10,4,False,-0.0476,8,8
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",71,автономия судебной системы,0.8229,0.625,0.0,8,5,2,False,0.1979,20,6
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",72,влияние политиков на назначение судей,-0.25,0.0,0.0,4,0,0,False,-0.25,10,2
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",75,права парламентской оппозиции,-0.1816,0.0,0.0371,8,0,5,False,-0.2188,11,4
@@ -3217,7 +3237,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",253,объём государственного образования,0.231,0.1724,0.0,29,6,11,False,0.0586,63,7
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",253a,объём бесплатного государственного образования,0.0224,0.2143,0.0224,28,8,8,False,-0.2143,70,9
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",253b,харедимное направление в государственном образовании,-0.2251,0.0,0.0249,24,0,2,False,-0.25,55,1
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",254,доступ к высшему образованию,-0.0715,0.0968,-0.0231,31,6,38,False,-0.1452,18,8
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",254,доступ к высшему образованию,-0.0172,0.1379,0.0,29,5,19,False,-0.1552,18,7
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",255,финансирование негосударственного образования,0.1863,0.0,-0.0267,27,4,12,False,0.213,37,4
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",255a,финансирование школ без базовых предметов,-0.0014,0.0,0.0062,22,0,4,False,-0.0076,52,3
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",255b,"финансирование школ, учащих против государства",-0.2321,-0.2143,0.0,14,3,12,False,-0.0179,1,1
@@ -3249,7 +3269,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277c,"пособия при беременности, на детей и родителям",0.4375,0.3,0.0,20,11,0,False,0.1375,26,9
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277d,пособия по безработице и для молодых работников,0.0087,0.1,0.0,20,6,47,False,-0.0912,38,12
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277e,пособия пожилым и пережившим Катастрофу,-0.0952,0.1429,0.0,21,7,0,False,-0.2381,20,7
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277f,"пособия семьям погибших, вдовам и сиротам",0.5139,0.5772,0.0,27,41,39,False,-0.0633,54,21
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277f,"пособия семьям погибших, вдовам и сиротам",0.5139,0.5772,0.0,27,40,39,False,-0.0633,54,20
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277g1,государственная поддержка студентов и учащихся,0.3409,0.3636,0.0,11,4,17,False,-0.0227,1,3
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277g2,льготы на учёбу служившим,-0.029,0.1667,-0.0012,18,3,18,False,-0.1944,22,4
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",278,поддержка семей с детьми,0.4164,0.5964,-0.0025,33,117,202,False,-0.1775,668,105
@@ -3353,7 +3373,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",66b,свобода судей в назначении наказаний,1.0,1.0,0.0,2,2,2,True,0.0,0,3
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",66b1,смертная казнь для террористов,-0.2592,-0.0357,-0.027,28,1,265,False,-0.1964,33,4
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",66b2,минимальные наказания,-0.2967,-0.375,-0.022,32,36,52,False,0.1003,26,25
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",69,возможность оспорить решения властей,-0.1179,0.0121,0.0181,33,62,412,False,-0.1481,228,46
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",69,возможность оспорить решения властей,-0.1097,0.0476,0.0,21,2,15,False,-0.1573,123,5
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",69a,судебный контроль над решениями правительства,-0.4627,-0.4688,-0.0096,32,30,229,False,0.0156,14,14
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",69b,обжалование решений государственных органов,0.5865,0.5,0.0,26,19,56,False,0.0865,15,14
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",71,автономия судебной системы,-0.4801,-0.4667,-0.0384,30,34,124,False,0.025,4,20
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",72,влияние политиков на назначение судей,0.3037,0.2727,0.0423,22,19,51,False,-0.0114,1,9
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",75,права парламентской оппозиции,0.0001,0.1333,0.0334,30,4,51,False,-0.1667,21,6
@@ -3518,7 +3540,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",253,объём государственного образования,0.25,0.0,0.0,1,0,0,True,0.25,2,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",253a,объём бесплатного государственного образования,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",253b,харедимное направление в государственном образовании,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",254,доступ к высшему образованию,-0.2759,0.0,-0.0259,1,0,2,True,-0.25,1,3
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",254,доступ к высшему образованию,-0.25,0.0,0.0,1,0,1,True,-0.25,1,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",255a,финансирование школ без базовых предметов,-0.25,0.0,0.0,1,0,0,True,-0.25,2,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",255c,"финансирование школ, дискриминирующих при приёме",0.4148,0.0,0.4148,1,0,1,True,0.0,0,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",256,государственный контроль над образованием (автономия вузов — с обратным знаком),-0.1712,0.0,-0.1712,1,0,7,True,0.0,4,10
@@ -3626,7 +3648,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",66a,судебный контроль над законами и правительством,-1.3899,-1.0,-0.1399,1,2,7,True,-0.25,6,10
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",66b1,смертная казнь для террористов,-0.0789,0.0,-0.0789,1,0,1,True,0.0,0,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",66b2,минимальные наказания,-0.2895,0.0,-0.0395,1,0,3,True,-0.25,1,3
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",69,возможность оспорить решения властей,0.0714,0.3333,-0.0786,1,3,11,True,-0.1833,15,17
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",69,возможность оспорить решения властей,-0.125,0.0,0.0,1,0,0,True,-0.125,8,2
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",69a,судебный контроль над решениями правительства,-1.2689,-1.0,-0.0189,1,1,3,True,-0.25,4,5
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",69b,обжалование решений государственных органов,0.75,1.0,0.0,1,2,3,True,-0.25,2,4
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",71,автономия судебной системы,-1.0395,-1.0,-0.0395,1,2,5,True,0.0,0,5
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",72,влияние политиков на назначение судей,1.0517,1.0,0.0517,1,2,3,True,0.0,0,3
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",75,права парламентской оппозиции,0.0,0.0,0.0,1,0,2,True,0.0,0,2
@@ -3813,7 +3837,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",253,объём государственного образования,0.6667,0.6667,0.0,6,11,10,False,0.0,0,4
 עם,"Ra’am, the United Arab List",253a,объём бесплатного государственного образования,0.5552,0.6667,0.0136,6,7,12,False,-0.125,3,8
 עם,"Ra’am, the United Arab List",253b,харедимное направление в государственном образовании,0.0162,0.0,0.0162,1,0,2,True,0.0,0,1
-עם,"Ra’am, the United Arab List",254,доступ к высшему образованию,0.7917,0.8333,0.0,6,15,5,False,-0.0417,9,5
+עם,"Ra’am, the United Arab List",254,доступ к высшему образованию,0.625,0.8333,0.0,6,15,5,False,-0.2083,5,4
 עם,"Ra’am, the United Arab List",255,финансирование негосударственного образования,0.862,0.75,-0.013,4,3,2,False,0.125,2,4
 עם,"Ra’am, the United Arab List",255a,финансирование школ без базовых предметов,-0.7157,-0.8333,0.1177,6,8,7,False,0.0,0,4
 עם,"Ra’am, the United Arab List",255b,"финансирование школ, учащих против государства",0.25,0.0,0.0,4,0,0,False,0.25,4,1
@@ -3939,7 +3963,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",66a,судебный контроль над законами и правительством,0.2469,0.0,-0.0031,6,0,27,False,0.25,40,10
 עם,"Ra’am, the United Arab List",66b1,смертная казнь для террористов,0.3532,0.0,0.1032,6,0,6,False,0.25,61,4
 עם,"Ra’am, the United Arab List",66b2,минимальные наказания,0.1796,-0.1667,0.1171,6,1,20,False,0.2292,14,6
-עם,"Ra’am, the United Arab List",69,возможность оспорить решения властей,0.716,0.6667,-0.0323,6,7,47,False,0.0817,83,30
+עם,"Ra’am, the United Arab List",69,возможность оспорить решения властей,-0.2,0.0,0.0,5,0,0,False,-0.2,6,2
+עם,"Ra’am, the United Arab List",69a,судебный контроль над решениями правительства,0.25,0.0,-0.0,6,0,6,False,0.25,35,6
+עם,"Ra’am, the United Arab List",69b,обжалование решений государственных органов,0.752,0.6667,0.0,6,6,19,False,0.0853,22,12
 עם,"Ra’am, the United Arab List",71,автономия судебной системы,0.281,0.0,0.031,6,0,9,False,0.25,24,6
 עם,"Ra’am, the United Arab List",72,влияние политиков на назначение судей,-0.25,0.0,0.0,5,0,0,False,-0.25,15,2
 עם,"Ra’am, the United Arab List",75,права парламентской оппозиции,-0.0392,0.2,0.0108,5,1,1,False,-0.25,12,5
@@ -4134,7 +4160,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",253,объём государственного образования,0.4167,0.4167,0.0,12,8,28,False,0.0,0,6
 רק,"Be’Yahad, headed by Naftali Bennett",253a,объём бесплатного государственного образования,0.3163,0.3333,0.0163,15,10,37,False,-0.0333,2,9
 רק,"Be’Yahad, headed by Naftali Bennett",253b,харедимное направление в государственном образовании,0.0876,0.0714,0.0162,14,3,33,False,0.0,0,1
-רק,"Be’Yahad, headed by Naftali Bennett",254,доступ к высшему образованию,0.1607,0.1429,0.0,14,2,11,False,0.0179,19,5
+רק,"Be’Yahad, headed by Naftali Bennett",254,доступ к высшему образованию,-0.0179,0.1429,0.0,14,2,11,False,-0.1607,9,4
 רק,"Be’Yahad, headed by Naftali Bennett",255,финансирование негосударственного образования,0.0017,-0.0714,-0.0519,14,2,27,False,0.125,7,3
 רק,"Be’Yahad, headed by Naftali Bennett",255a,финансирование школ без базовых предметов,-0.762,-0.7857,0.0237,12,25,34,False,0.0,0,4
 רק,"Be’Yahad, headed by Naftali Bennett",255b,"финансирование школ, учащих против государства",-0.9722,-1.0,0.0,9,9,0,False,0.0278,1,2
@@ -4172,7 +4198,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",277g2,льготы на учёбу служившим,0.6137,0.4167,0.072,12,5,21,False,0.125,6,4
 רק,"Be’Yahad, headed by Naftali Bennett",278,поддержка семей с детьми,0.9237,0.8594,0.0197,16,144,419,False,0.0446,156,115
 רק,"Be’Yahad, headed by Naftali Bennett",279,размер государственного аппарата,0.6217,0.7058,0.0362,16,96,425,False,-0.1203,177,75
-רק,"Be’Yahad, headed by Naftali Bennett",28,государственная поддержка сельского хозяйства,0.6515,0.4015,0.0,12,22,6,False,0.25,42,11
+רק,"Be’Yahad, headed by Naftali Bennett",28,государственная поддержка сельского хозяйства,0.6667,0.4167,0.0,12,21,6,False,0.25,42,10
 רק,"Be’Yahad, headed by Naftali Bennett",280,централизация управления в одном органе,0.845,0.6875,0.0853,16,46,272,False,0.0721,719,51
 רק,"Be’Yahad, headed by Naftali Bennett",283,участие частных субъектов в публичных функциях,1.0,1.0,0.0,2,2,0,True,0.0,0,2
 רק,"Be’Yahad, headed by Naftali Bennett",283a,передача публичных услуг частным,0.301,0.0667,0.0,15,4,22,False,0.2343,280,7
@@ -4270,7 +4296,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",66b,свобода судей в назначении наказаний,0.6667,0.6667,0.0,6,5,8,False,0.0,0,6
 רק,"Be’Yahad, headed by Naftali Bennett",66b1,смертная казнь для террористов,0.25,0.0,0.0,15,0,0,False,0.25,135,2
 רק,"Be’Yahad, headed by Naftali Bennett",66b2,минимальные наказания,-0.3901,-0.4615,-0.0664,13,6,25,False,0.1378,18,8
-רק,"Be’Yahad, headed by Naftali Bennett",69,возможность оспорить решения властей,0.7695,0.6667,0.0049,15,19,77,False,0.0979,201,32
+רק,"Be’Yahad, headed by Naftali Bennett",69,возможность оспорить решения властей,0.0179,0.1538,0.0,13,2,0,False,-0.136,29,6
+רק,"Be’Yahad, headed by Naftali Bennett",69a,судебный контроль над решениями правительства,0.25,0.0,-0.0,13,0,2,False,0.25,100,5
+רק,"Be’Yahad, headed by Naftali Bennett",69b,обжалование решений государственных органов,0.4872,0.4615,0.0,13,10,31,False,0.0256,28,12
 רק,"Be’Yahad, headed by Naftali Bennett",71,автономия судебной системы,0.1778,-0.0769,0.0048,13,1,3,False,0.25,44,6
 רק,"Be’Yahad, headed by Naftali Bennett",72,влияние политиков на назначение судей,-0.25,0.0,0.0,9,0,0,False,-0.25,24,2
 רק,"Be’Yahad, headed by Naftali Bennett",75,права парламентской оппозиции,-0.1367,0.0667,0.0467,15,1,13,False,-0.25,33,5
@@ -4467,7 +4495,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",253,объём государственного образования,0.5694,0.5,0.0,12,10,13,False,0.0694,27,5
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",253a,объём бесплатного государственного образования,0.1301,0.4545,-0.1426,11,11,18,False,-0.1818,10,9
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",253b,харедимное направление в государственном образовании,-0.3475,0.0,-0.1657,11,0,8,False,-0.1818,16,1
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",254,доступ к высшему образованию,0.1857,0.3636,0.0039,11,11,15,False,-0.1818,8,6
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",254,доступ к высшему образованию,0.2727,0.4545,0.0,11,10,8,False,-0.1818,8,5
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",255,финансирование негосударственного образования,0.7113,0.5556,0.1557,9,6,16,False,0.0,0,4
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",255a,финансирование школ без базовых предметов,-0.1458,0.0,0.0,8,0,0,False,-0.1458,21,3
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",255b,"финансирование школ, учащих против государства",0.0,0.0,0.0,5,0,5,False,0.0,0,1
@@ -4602,7 +4630,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",66b,свобода судей в назначении наказаний,0.25,0.0,0.0,1,0,0,True,0.25,2,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",66b1,смертная казнь для террористов,-0.2663,0.0,-0.0788,12,0,15,False,-0.1875,81,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",66b2,минимальные наказания,-0.0755,-0.1818,-0.03,11,4,25,False,0.1364,10,6
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",69,возможность оспорить решения властей,0.4729,0.6351,-0.0225,12,54,201,False,-0.1398,116,41
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",69,возможность оспорить решения властей,0.0635,0.2222,0.0,9,2,6,False,-0.1587,56,4
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",69a,судебный контроль над решениями правительства,-0.4364,-0.4167,-0.0197,12,7,97,False,0.0,0,6
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",69b,обжалование решений государственных органов,0.8864,0.7273,0.0,11,28,51,False,0.1591,20,21
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",71,автономия судебной системы,-0.4501,-0.4167,-0.0334,12,8,66,False,0.0,0,7
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",72,влияние политиков на назначение судей,0.4962,0.4444,0.0517,9,4,22,False,0.0,0,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",75,права парламентской оппозиции,0.1424,0.1818,-0.2213,11,2,21,False,0.1818,8,5
