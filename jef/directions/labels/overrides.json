@@ -4854,6 +4854,326 @@
     "role": "main",
     "source": "label check q45 (2026-10-19): two blind checks «not about»",
     "reason": "Transferring captured weapons to Ukraine; foreign policy"
+   },
+   {
+    "bill_id": "2231120",
+    "d": "77",
+    "q": "47",
+    "role": "secondary",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Special leave for prisoners"
+   },
+   {
+    "bill_id": "2231162",
+    "d": "77",
+    "q": "47",
+    "role": "main",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Polygraph for cabinet ministers over leaks"
+   },
+   {
+    "bill_id": "2224430",
+    "d": "77",
+    "q": "47",
+    "role": "main",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Polygraph for cabinet ministers over leaks"
+   },
+   {
+    "bill_id": "2163101",
+    "d": "77",
+    "q": "47",
+    "role": "secondary",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Bans drunken boating; new offence, not enforcement powers"
+   },
+   {
+    "bill_id": "2166690",
+    "d": "77",
+    "q": "47",
+    "role": "secondary",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Bans drunken boating; new offence, not enforcement powers"
+   },
+   {
+    "bill_id": "2196941",
+    "d": "77",
+    "q": "47",
+    "role": "secondary",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Bans drunken boating; new offence, not enforcement powers"
+   },
+   {
+    "bill_id": "2237641",
+    "d": "77",
+    "q": "47",
+    "role": "secondary",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Security guarding for Knesset members abroad"
+   },
+   {
+    "bill_id": "2222852",
+    "d": "77",
+    "q": "47",
+    "role": "main",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Special prosecution of October 7 perpetrators; criminal trial"
+   },
+   {
+    "bill_id": "2215762",
+    "d": "77",
+    "q": "47",
+    "role": "main",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Penalizes refusing services to security personnel; anti-boycott"
+   },
+   {
+    "bill_id": "2233112",
+    "d": "77",
+    "q": "47",
+    "role": "secondary",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Retention of forensic sexual assault kits"
+   },
+   {
+    "bill_id": "2210404",
+    "d": "77",
+    "q": "47",
+    "role": "secondary",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Alcohol rules for boat operators"
+   },
+   {
+    "bill_id": "2214017",
+    "d": "77",
+    "q": "47",
+    "role": "main",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Polygraph for committee participants to stop leaks; governance issue"
+   },
+   {
+    "bill_id": "2227661",
+    "d": "77",
+    "q": "47",
+    "role": "secondary",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Harsher sentences for car theft; punishment, not police powers"
+   },
+   {
+    "bill_id": "2167228",
+    "d": "77",
+    "q": "47",
+    "role": "main",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Driving licence age for e-bike offenders; traffic sanction"
+   },
+   {
+    "bill_id": "2195440",
+    "d": "77",
+    "q": "47",
+    "role": "secondary",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Tachograph requirements for vehicles; technical traffic rule"
+   },
+   {
+    "bill_id": "2213683",
+    "d": "77",
+    "q": "47",
+    "role": "secondary",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Polygraph for cabinet ministers to stop leaks; governance issue"
+   },
+   {
+    "bill_id": "2213395",
+    "d": "77",
+    "q": "47",
+    "role": "secondary",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Polygraph for cabinet ministers to stop leaks; governance issue"
+   },
+   {
+    "bill_id": "2213956",
+    "d": "77",
+    "q": "47",
+    "role": "secondary",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Harsher penalties for aiding illegal residents"
+   },
+   {
+    "bill_id": "2219670",
+    "d": "77",
+    "q": "47",
+    "role": "main",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Tachograph requirement for vehicles"
+   },
+   {
+    "bill_id": "2214310",
+    "d": "77",
+    "q": "47",
+    "role": "main",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "New trespass offences at military sites, not powers"
+   },
+   {
+    "bill_id": "2207140",
+    "d": "77",
+    "q": "47",
+    "role": "main",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "New trespass offences at military sites, not powers"
+   },
+   {
+    "bill_id": "2201387",
+    "d": "77",
+    "q": "47",
+    "role": "main",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "New trespass offences at military sites, not powers"
+   },
+   {
+    "bill_id": "2229183",
+    "d": "77",
+    "q": "47",
+    "role": "secondary",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Declares specific group a terror organization"
+   },
+   {
+    "bill_id": "2158844",
+    "d": "77",
+    "q": "47",
+    "role": "secondary",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Renews West Bank jurisdiction regulations; technical detention placement"
+   },
+   {
+    "bill_id": "2230224",
+    "d": "77",
+    "q": "47",
+    "role": "secondary",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Shifts which prosecutor files racketeering indictments; administrative"
+   },
+   {
+    "bill_id": "2233990",
+    "d": "77",
+    "q": "47",
+    "role": "secondary",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Defense budget as share of GDP; military budgeting"
+   },
+   {
+    "bill_id": "2202780",
+    "d": "77",
+    "q": "47",
+    "role": "secondary",
+    "source": "label check q47 (2026-10-19): two blind checks «not about»",
+    "reason": "Driving licence age for e-bike offenders; traffic sanction"
+   },
+   {
+    "bill_id": "2218597",
+    "d": "77",
+    "q": "47",
+    "role": "secondary",
+    "source": "label check q47 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Animal cruelty enforcement by inspectors; civilian regulation"
+   },
+   {
+    "bill_id": "2211218",
+    "d": "77",
+    "q": "47",
+    "role": "secondary",
+    "source": "label check q47 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Data transfer to identify bodies and missing persons"
+   },
+   {
+    "bill_id": "2199429",
+    "d": "77",
+    "q": "47",
+    "role": "secondary",
+    "source": "label check q47 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Planning inspectors and construction equipment; not police powers"
+   },
+   {
+    "bill_id": "2196928",
+    "d": "77",
+    "q": "47",
+    "role": "main",
+    "source": "label check q47 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Municipal parking camera enforcement"
+   },
+   {
+    "bill_id": "2190378",
+    "d": "77",
+    "q": "47",
+    "role": "main",
+    "source": "label check q47 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Municipal parking camera enforcement"
+   },
+   {
+    "bill_id": "2209338",
+    "d": "77",
+    "q": "47",
+    "role": "main",
+    "source": "label check q47 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Municipal parking camera enforcement"
+   },
+   {
+    "bill_id": "2199045",
+    "d": "77",
+    "q": "47",
+    "role": "main",
+    "source": "label check q47 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Municipal parking camera enforcement"
+   },
+   {
+    "bill_id": "2198837",
+    "d": "77",
+    "q": "47",
+    "role": "main",
+    "source": "label check q47 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Municipal parking camera enforcement"
+   },
+   {
+    "bill_id": "2167313",
+    "d": "77",
+    "q": "47",
+    "role": "main",
+    "source": "label check q47 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Municipal traffic inspection enforcement"
+   },
+   {
+    "bill_id": "2228207",
+    "d": "77",
+    "q": "47",
+    "role": "secondary",
+    "source": "label check q47 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Information transfer to identify fallen and missing; not enforcement"
+   },
+   {
+    "bill_id": "2227877",
+    "d": "77",
+    "q": "47",
+    "role": "secondary",
+    "source": "label check q47 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Information transfer to identify fallen and missing; not enforcement"
+   },
+   {
+    "bill_id": "2158468",
+    "d": "77",
+    "q": "47",
+    "role": "main",
+    "source": "label check q47 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Mining enforcement against sand theft; regulatory"
+   },
+   {
+    "bill_id": "1046535",
+    "d": "77",
+    "q": "47",
+    "role": "main",
+    "source": "label check q47 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Procedure for forfeiting and destroying seized drugs; technical"
    }
   ]
  },

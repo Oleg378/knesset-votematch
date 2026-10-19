@@ -1,0 +1,203 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason
+47,77,חוק כליאתם של לוחמים בלתי חוקיים (תיקון מס' 4 והוראת שעה – חרבות ברזל) (תיקון מס' 2),2221017,+,secondary,2221017,F1-1,about,+,Extends detention powers over unlawful combatants before judicial review
+47,77,הצעת חוק לתיקון פקודת התעבורה (איסור שימוש ברכב שהועמד באופן המפריע לתנועה),2230337 2231554,+,main,2230337,F1-2,not_about,,Creates traffic-blocking offence; not police arrest or search powers
+47,77,חוק לייעול האכיפה והפיקוח העירוניים ברשויות המקומיות (הוראת שעה) (תיקון מס' 11),2212776,+,main,2212776,F1-3,about,+,Extends municipal inspectors' enforcement powers temporary order
+47,77,"הצעת חוק חסינות חברי הכנסת, זכויותיהם וחובותיהם (תיקון - חיפוש בחומר מחשב וסמכות יושב ראש הכנסת)",2199859,−,secondary,2199859,F1-4,borderline,−,Adapts MK immunity from search to phones; limits police searches
+47,77,חוק כליאתם של לוחמים בלתי חוקיים (תיקון מס' 4 והוראת שעה - חרבות ברזל) (תיקון מס' 5),2233669,+,secondary,2233669,F1-5,about,+,Extends detention powers over unlawful combatants
+47,77,הצעת חוק גירוש משפחות מחבלים,2198970 2156196 2197893 2161059 2159755 2197406 2212130 2156307 2159472,+,secondary,2198970,F1-6,not_about,,"Punitive deportation of terrorists' families, not policing powers"
+47,77,חוק לייעול האכיפה והפיקוח העירוניים ברשויות המקומיות (הוראת שעה) (תיקון מס' 13),2222789,+,main,2222789,F1-7,about,+,Extends municipal enforcement and policing powers
+47,77,"הצעת חוק לתיקון פקודת הסמים המסוכנים (מס' 23)(חילוט סם מסוכן והשמדתו), התשפ""ו–2026",1046535,+,main,1046535,F1-8,not_about,,Procedure for forfeiting and destroying seized drugs; technical
+47,77,הצעת חוק לתיקון פקודת התעבורה (סמכות שוטר בעבירות הנוגעות לשימוש בטלפון נייד),2157524,+,main,2157524,F1-9,borderline,+,Grants officer authority over phone-use traffic offences; minor power
+47,77,הצעת חוק שירות הביטחון הכללי (תיקון - בדיקת פוליגרף למשתתפים בוועדת החוץ והביטחון של הכנסת),2214017,+,main,2214017,F1-10,not_about,,Polygraph for committee participants to stop leaks; governance issue
+47,77,"הצעת חוק למניעת אלימות במשפחה (פיקוח טכנולוגי להבטחת קיומו של צו הגנה, והערכת מסוכנות - הוראת שעה)",2198123 2197515 2196829 2200705,+,secondary,2198123,F1-11,borderline,+,Electronic monitoring of protection-order subjects; surveillance tool
+47,77,הצעת חוק סדר הדין הפלילי (סמכויות אכיפה - חיפוש בגוף ונטילת אמצעי זיהוי) (תיקון - בדיקה לגילוי נגיף HIV),2157829 2201547,+,main,2157829,F1-12,borderline,+,Compulsory HIV testing of suspects; expands bodily search power
+47,77,חוק לתיקון ולהארכת תוקפן של תקנות שעת חירום (חרבות ברזל) (הארכת מעצר לחשוד בעבירת ביטחון) (תיקון מס' 6),2233920,+,secondary,2233920,F1-13,about,+,Extends prolonged detention of security suspects before court
+47,77,הצעת חוק לתיקון פקודת התעבורה (מס' 130),2167228,+,main,2167228,F1-14,not_about,,Driving licence age for e-bike offenders; traffic sanction
+47,77,הצעת חוק לתיקון פקודת המשטרה (מס' 37) (מערכות צילום מיוחדות),2194708,+,main,2194708,F1-15,about,+,Authorizes police special camera surveillance systems
+47,77,חוק סמכויות לאיסוף ואבחון של נתוני נוסעים הנכנסים לישראל או היוצאים ממנה,2195431,+,secondary,2195431,F1-16,about,+,Powers to collect and analyze passenger data; surveillance
+47,77,הצעת חוק סדר הדין הפלילי (תיקון - העברת הטיפול בהגשת כתבי אישום בעבירות גביית דמי חסות לתביעה המשטרתית),2230224,+,secondary,2230224,F1-17,not_about,,Shifts which prosecutor files racketeering indictments; administrative
+47,77,הצעת חוק לייעול האכיפה והפיקוח העירוניים ברשויות המקומיות (הוראת שעה) (תיקון - סמכויות לשמירה על הסדר הציבורי),2201160,+,main,2201160,F1-18,about,+,Grants municipal enforcement powers to keep public order
+47,77,הצעת חוק סדר הדין הפלילי (תיקון - ביטול האיסור המוטל על המשטרה למסור לפרקליטות עמדה בכתב לעניין מכלול התשתית הראייתית),2157405,+,main,2157405,F1-19,borderline,+,Lets police give evidentiary recommendations; investigative discretion
+47,77,הצעת חוק לתיקון פקודת הנמלים (איסור על השטת כלי שיט ועל הפלגה באופנוע ים בשכרות),2163101 2166690 2196941,+,secondary,2163101,F1-20,not_about,,"Bans drunken boating; new offence, not enforcement powers"
+47,77,חוק כליאתם של לוחמים בלתי חוקיים (תיקון מס' 4 והוראת שעה – חרבות ברזל) (תיקון מס' 4),2229709,+,secondary,2229709,F1-21,about,+,Extends detention powers over unlawful combatants
+47,77,הצעת חוק סדר הדין הפלילי (סמכויות אכיפה - מעצרים) (תיקון - החרגת עבירת גביית דמי חסות),2232191,+,main,2232191,F1-22,borderline,+,Arrest rules adjusted for protection-racket offence; likely stricter
+47,77,הצעת חוק איסור שימוש בסוסים לשם פיזור התקהלויות,2198431 2156285,−,main,2198431,F1-23,about,−,Bans police horses for dispersing crowds; limits use of force
+47,77,חוק לתיקון ולהארכת תוקפן של תקנות שעת חירום (חרבות ברזל) (פגישה עם עורך דין של עצור בעבירת ביטחון),2213409,+,secondary,2213409,F1-24,about,+,Allows delaying security detainees' lawyer meetings
+47,77,חוק לתיקון ולהארכת תוקפן של תקנות שעת חירום (חרבות ברזל) (הארכת מעצר לחשוד בעבירת ביטחון) (תיקון מס' 3),2220054,+,secondary,2220054,F1-25,about,+,Extends prolonged detention of security suspects before court
+47,77,הצעת חוק איסור הלבנת הון (תיקון - צו תפיסה זמני טרם הגשת כתב אישום),2193392,+,secondary,2193392,F1-26,borderline,+,"Pre-indictment property seizure orders; seizure, not arrest"
+47,77,חוק לתיקון פקודת סדר הדין הפלילי (מעצר וחיפוש) (מס' 18),2233299,+,main,2233299,F1-27,about,+,"Amends arrest and search ordinance, extending search powers"
+47,77,הצעת חוק סדר הדין הפלילי (סמכויות אכיפה – מעצרים) (תיקון–הגדרת מסוכנות של פוגעים בבעלי חיים),2156643,+,main,2156643,F1-28,about,+,Adds dangerousness arrest ground for animal abusers
+47,77,הצעת חוק לתיקון פקודת סדר הדין הפלילי (מעצר וחיפוש) (הוראת שעה) (עילות חיפוש בלא צו בית משפט),2163288,+,main,2163288,F1-29,about,+,Expands grounds for warrantless searches
+47,77,הצעת חוק לתיקון פקודת המשטרה (הגבלת הסמכות להורות על מניעת גישה לאזור או למקום),2235706,−,main,2235706,F1-30,about,−,Limits police power to close areas
+47,77,"הצעת חוק לתיקון פקודת המשטרה (הסדרת ההפעלה של מכת""זית ותיעוד חזותי של ההפעלה)",2232685,−,main,2232685,F1-31,about,−,Regulates water cannon use and requires documentation
+47,77,הצעת חוק הכניסה לישראל (תיקון מס' 40) (סמכויות קצין ביקורת הגבולות ופקח),2217526,+,main,2217526,F1-32,about,+,Expands border control officers' and inspectors' powers
+47,77,הצעת חוק קבלת מידע לשם זיהוי חללים ונעדרים בשל אירוע רב-נפגעים,2228207 2227877,+,secondary,2228207,F1-33,not_about,,Information transfer to identify fallen and missing; not enforcement
+47,77,"חוק המאבק בכלי הנשק הבלתי חוקיים (תיקון חקיקה והוראת שעה), התשפ""ג–2023",2201009,+,main,2201009,F1-34,about,+,Illegal weapons law expanding warrantless search powers
+47,77,הצעת חוק הגנה על הציבור מפני עבריינים שביצעו עבירות אלימות חמורות,2169430 2156308 2196914,+,secondary,2169430,F1-35,borderline,+,"Post-release supervision of violent offenders; restrictive, not policing"
+47,77,הצעת חוק סדר הדין הפלילי (סמכויות אכיפה - נתוני תקשורת) (תיקון - צו לקבלת נתוני מנוי ונתוני תקשורת ממקור אחר),2221059,+,main,2221059,F1-36,about,+,Expands police access to subscriber and communication data
+47,77,חוק הכללת אמצעי זיהוי ביומטריים ונתוני זיהוי ביומטריים במסמכי זיהוי ובמאגר מידע (תיקון מס' 6),2217525,+,main,2217525,F1-37,borderline,+,Biometric identity verification powers for officials
+47,77,"חוק העברת מידע לצורך זיהוי או אימות זהות של אדם לרבות גופה, ואיתור נעדר או שבוי, הנדרשים בשל פעולות האיבה או פעולות המלחמה (הוראות שעה – חרבות ברזל)",2211218,+,secondary,2211218,F1-38,not_about,,Data transfer to identify bodies and missing persons
+47,77,הצעת חוק הממשלה (תיקון - ביצוע בדיקת פוליגרף לחברי ועדת השרים לענייני ביטחון לאומי),2213683 2213395,+,secondary,2213683,F1-39,not_about,,Polygraph for cabinet ministers to stop leaks; governance issue
+47,77,הצעת חוק לתיקון פקודת המשטרה (חובת שימוש במצלמות גוף בעת הפגנה),2196637 2156817,−,main,2196637,F1-40,about,−,Mandates body cameras and limits force at demonstrations
+47,77,הצעת חוק לתיקון פקודת התעבורה (מס' 138),2202780,+,secondary,2202780,F1-41,not_about,,Driving licence age for e-bike offenders; traffic sanction
+47,77,הצעת חוק סמכויות שעת חירום (מעצרים) (תיקון - מעצרים מנהליים),2165621,+,main,2165621,F1-42,borderline,−,Updates administrative detention per case law; likely adds safeguards
+47,77,הצעת חוק לתיקון פקודת הטבק (הגברת האכיפה),2166693,+,secondary,2166693,F1-43,borderline,+,Strengthens tobacco smuggling enforcement tools
+47,77,חוק לייעול האכיפה והפיקוח העירוניים ברשויות המקומיות (הוראת שעה) (תיקון מס' 14),2225247,+,main,2225247,F1-44,about,+,Extends municipal enforcement and policing powers
+47,77,הצעת חוק סמכויות שעת חירום (מעצרים) (תיקון - מעצרים מינהליים בגין חברות בארגון טרור),2216198,−,main,2216198,F1-45,about,−,Adds liberty protections to administrative detention
+47,77,הצעת חוק לתיקון פקודת סדר הדין הפלילי (מעצר וחיפוש) (חיפוש שלא על פי צו חיפוש) (הארכת הוראת השעה),2227036,+,main,2227036,F1-46,about,+,Extends warrantless search temporary order
+47,77,הצעת חוק למאבק באלימות משטרתית (תיקוני חקיקה),2220510 2229646,−,main,2220510,F1-47,about,−,Combats police violence; restrains use of force
+47,77,הצעת חוק משמר לאומי,2166707,+,main,2166707,F1-48,about,+,Creates National Guard; adds security force resources
+47,77,הצעת חוק התמודדות עם תופעת נטילת דמי חסות,2199730,+,secondary,2199730,F1-49,borderline,+,"Protection racket law; mainly offences, some enforcement tools"
+47,77,חוק לייעול האכיפה והפיקוח העירוניים ברשויות המקומיות (הוראת שעה) (תיקון מס' 9),2191853,+,main,2191853,F1-50,about,+,Extends municipal enforcement and policing powers
+47,77,הצעת חוק איסור הלבנת הון (תיקון מס' 36) (הקפאה זמנית של רכוש או של פעולה ברכוש),2232839,+,secondary,2232839,F1-51,borderline,+,"Temporary freezing of suspect property; seizure, not arrest"
+47,77,חוק התמודדות עם תקיפות סייבר חמורות במגזר השירותים הדיגיטליים ושירותי האחסון (הוראת שעה - חרבות ברזל),2212217,+,secondary,2212217,F1-52,borderline,+,Emergency cyber-defence powers over hosting providers
+47,77,חוק לתיקון פקודת בתי הסוהר (הארכת הוראות שעה) (תיקוני חקיקה),1057303,+,secondary,1057303,F1-53,borderline,+,Extends prison temporary orders enabling mass detention capacity
+47,77,הצעת חוק למניעת הסתננות (עבירות ושיפוט) (הוראת שעה – הארכת תוקף),2165614,+,secondary,2165614,F1-54,borderline,+,Extends infiltration enforcement and detention; migration-specific
+47,77,הצעת חוק לתיקון פקודת התעבורה (מס' 132),2195440,+,secondary,2195440,F1-55,not_about,,Tachograph requirements for vehicles; technical traffic rule
+47,77,חוק הסמכת צבא הגנה לישראל ושירות הביטחון הכללי לביצוע חדירה לחומר מחשב המשמש להפעלת מצלמה נייחת ופעולה בו (הוראת שעה – חרבות ברזל) (תיקון מס' 5),1046327,+,main,1046327,F1-56,about,+,Authorizes army and Shin Bet hacking of stationary cameras
+47,77,הצעת חוק צער בעלי חיים (הגנה על בעלי חיים) (תיקון - תפיסה במקום מגורים ללא צו),2167122 2196022,+,main,2167122,F1-57,about,+,Allows warrantless seizure inside residences
+47,77,הצעת חוק הגבלת אספקת שירותים ומוצרים לגורמי ביטחון,2215762,−,main,2215762,F1-58,not_about,,Penalizes refusing services to security personnel; anti-boycott
+47,77,הצעת חוק חיפוש במקום שהוכרז כאזור מועד לפשיעה אלימה (תיקוני חקיקה),2231300 2230446,+,main,2231300,F1-59,about,+,Search powers in declared violent-crime areas
+47,77,הצעת חוק סדר הדין הפלילי (סמכויות אכיפה - מעצרים) (תיקון - החמרת תנאי שחרור בערובה),2202874,+,main,2202874,F1-60,about,+,Tightens bail release conditions; more detention
+47,77,"הצעת חוק למניעת אלימות במשפחה (פיקוח טכנולוגי להבטחת קיומו של צו הגנה, והערכת מסוכנות – הוראת שעה), התשפ""ב–2022",2156110 2163147 2156622,+,secondary,2156110,F1-61,borderline,+,Electronic monitoring of protection-order subjects; surveillance tool
+47,77,הצעת חוק סדר הדין הפלילי (תיקון - חקירת עיתונאים),2230963,−,main,2230963,F1-62,about,−,Restricts criminal investigation of journalists
+47,77,חוק לתיקון פקודת סדר הדין הפלילי (מעצר וחיפוש) (מס' 19 - הוראת שעה),1057200,+,main,1057200,F1-63,about,+,Extends arrest and search temporary order
+47,77,הצעת חוק כליאתם והעמדתם לדין של המשתתפים באירועי 7 באוקטובר,2235652 2236997,+,main,2235652,F1-64,borderline,+,Detention and trial of October 7 participants; special regime
+47,77,הצעת חוק הגבלת שימוש במקום לשם מניעת ביצוע עבירות (תיקון - הארכת צו בהיעדר התקדמות החקירה),2243224,+,main,2243224,F1-65,about,+,Eases extending place-closure orders without investigation progress
+47,77,"הצעת חוק הגנה על בסיסי צה""ל (תיקוני חקיקה)",2215836,+,main,2215836,F1-66,borderline,+,Protecting army bases; likely adds guard powers and penalties
+47,77,"חוק העמדה לדין בשל אירועי טבח 7 באוקטובר 2023 (טבח שמיני עצרת), התשפ""ו–2026",2222852,+,main,2222852,F1-67,not_about,,Special prosecution of October 7 perpetrators; criminal trial
+47,77,הצעת חוק הגנת הפרטיות (תיקון - הגדרת שירות בתי הסוהר כרשות ביטחון),2229582,+,main,2229582,F1-68,borderline,+,Prison Service gets security-authority privacy exemptions
+47,77,חוק סדר הדין הפלילי (סמכויות אכיפה – חיפוש בגוף ונטילת אמצעי זיהוי) (תיקון מס' 8),2201089,+,main,2201089,F2-1,borderline,+,"Expands fingerprint/identification taking, mainly for US visa data sharing"
+47,77,"חוק נטילת אמצעי זיהוי ביומטריים מזרים, הפקת נתוני זיהוי ביומטריים ומאגר מידע",2164124,+,secondary,2164124,F2-2,borderline,+,Biometric collection from foreigners at border; identification not arrest
+47,77,הצעת חוק הוראות פתיחה באש במרחב החיץ הביטחוני ברצועת עזה,2228409,+,secondary,2228409,F2-3,about,+,Loosens open-fire rules for forces in Gaza buffer zone
+47,77,חוק לתיקון ולהארכת תוקפן של תקנות שעת חירום (חרבות ברזל) (פגישה עם עורך דין של עצור בעבירת ביטחון) (תיקון מס' 5),2227648,+,secondary,2227648,F2-4,about,+,Extends restricting security detainees' access to lawyers
+47,77,חוק לתיקון ולהארכת תוקפן של תקנות שעת חירום (חרבות ברזל) (הארכת מעצר לחשוד בעבירת ביטחון) (תיקון מס' 5),2227649,+,secondary,2227649,F2-5,about,+,Extends longer detention of security suspects without judge
+47,77,חוק כליאתם של לוחמים בלתי חוקיים (תיקון מס' 4 והוראת שעה – חרבות ברזל) (תיקון מס' 6),1046391,+,secondary,1046391,F2-6,about,+,Extends wartime detention powers over unlawful combatants
+47,77,"חוק כליאתם של לוחמים בלתי חוקיים (תיקון מס' 4 והוראת שעה – חרבות ברזל) (תיקון), התשפ""ד–2024",2216638,+,secondary,2216638,F2-7,about,+,Extends wartime detention powers over unlawful combatants
+47,77,הצעת חוק למניעת הסתננות (עבירות ושיפוט) (הוראות שעה - הארכת תוקף),2166717,+,main,2166717,F2-8,borderline,+,Extends infiltrator detention provisions; immigration rather than policing
+47,77,הצעת חוק הכניסה לישראל (תיקון מס' 45) (סמכויות פיקוח כלפי מגישי בקשה להסדרת מעמד בן זוג),1046169,+,secondary,1046169,F2-9,borderline,+,Adds supervision powers over spouse-status applicants; immigration context
+47,77,חוק כליאתם של לוחמים בלתי חוקיים (תיקון מס' 4 והוראת שעה - חרבות ברזל) (תיקון מס' 7),1056881,+,secondary,1056881,F2-10,about,+,Extends wartime detention powers over unlawful combatants
+47,77,חוק כליאתם של לוחמים בלתי חוקיים (תיקון מס' 4 והוראת שעה – חרבות ברזל),2212298,+,secondary,2212298,F2-11,about,+,Broadens detention periods before judicial review for combatants
+47,77,חוק לתיקון ולהארכת תוקפן של תקנות שעת חירום (חרבות ברזל) (הארכת מעצר לחשוד בעבירת ביטחון),2214085,+,main,2214085,F2-12,about,+,Extends prolonged detention of security suspects
+47,77,חוק כליאתם של לוחמים בלתי חוקיים (תיקון מס' 4 והוראת שעה – חרבות ברזל) (תיקון מס' 8),1057297,+,secondary,1057297,F2-13,about,+,Extends wartime detention powers over unlawful combatants
+47,77,הצעת חוק סמכויות מינהליות (מעצרים והגבלות) (הוראת שעה),2205538 2205830,+,main,2205538,F2-14,about,+,Administrative detention and restriction orders powers
+47,77,"חוק לתיקון פקודת סדר הדין הפלילי (מעצר וחיפוש) (מס' 17), התשפ""ד–2024",2218799,+,main,2218799,F2-15,about,+,Extends warrantless search powers from illegal-weapons provision
+47,77,"הצעת חוק משכן הכנסת, רחבתו ומשמר הכנסת (תיקון - סמכות קצין הכנסת לאבטח משלחת זרה)",2222221,+,main,2222221,F2-16,borderline,+,Knesset guard security authority for foreign delegations; minor
+47,77,הצעת חוק סמכויות לשם שמירה על ביטחון הציבור (תיקון - הסדרת סיירות ביטחון ברשויות המקומיות),2237496,+,main,2237496,F2-17,about,+,Widens local security patrols' policing powers
+47,77,הצעת חוק המאבק בטרור (תיקון - הסתה לטרור ברשתות חברתיות),2215060,+,secondary,2215060,F2-18,borderline,+,Anti-incitement measures online; speech offence more than police powers
+47,77,הצעת חוק סדר הדין הפלילי (סמכויות אכיפה - מעצרים) (תיקון - מעצר עד תום ההליכים בגין עבירה של החזקת נשק שלא כדין),2158183 2196966,+,main,2158183,F2-19,about,+,Allows detention until trial for illegal weapon possession
+47,77,"חוק גירוש משפחות מחבלים, התשפ""ה–2024",2197840,+,secondary,2197840,F2-20,borderline,+,Punitive deportation power against terrorists' families
+47,77,הצעת חוק העונשין (תיקון - חילוט בעבירות החזקת נשק בלתי חוקי ללא אישום או הרשעה),2197938,+,secondary,2197938,F2-21,borderline,+,Forfeiture without charge; expands seizure powers
+47,77,הצעת חוק לתיקון פקודת המשטרה (מערכת דיווח מאובטחת לקבלת מידע על מחזיקי אמצעי לחימה בלתי חוקיים),2239791,+,secondary,2239791,F2-22,not_about,,"Anonymous tip reporting system, not enforcement powers"
+47,77,הצעת חוק הסמכת שירות הביטחון הכללי לסייע במאמץ הלאומי לצמצום התפשטות זן אומיקרון omicron של נגיף הקורונה החדש (הוראה שעה),2165687,+,main,2165687,F2-23,borderline,+,Shin Bet location tracking of citizens for pandemic
+47,77,הצעת חוק הטיס (ביטחון בתעופה האזרחית) (תיקון - איסור שימוש בעילה של לאום או מוצא אתני בביצוע חיפוש),2158037,−,secondary,2158037,F2-24,about,−,Bans ethnic profiling in airport security searches
+47,77,הצעת חוק הכניסה לישראל (תיקון - תוקף צווי הגבלת שימוש במקום וסמכויות תפיסה וחילוט),2226293 2223641,+,main,2226293,F2-25,borderline,+,Seizure and closure powers against illegal-resident facilitators
+47,77,"הצעת חוק העונשין (תיקון - הגנה על בסיסי צה""ל, שטחי אש, תחנות משטרה ומתקנים ביטחוניים)",2214310 2207140 2201387,+,main,2214310,F2-26,not_about,,"New trespass offences at military sites, not powers"
+47,77,הצעת חוק סיירות ביטחון ברשויות המקומיות (הוראת שעה),2224175 2223949,+,main,2224175,F2-27,about,+,Authorizes municipal security patrols with policing powers
+47,77,הצעת חוק הריסת בתי מחבלים,2223239,+,secondary,2223239,F2-28,borderline,+,Punitive demolition of terrorists' homes
+47,77,הצעת חוק לתיקון פקודת התעבורה (מס' 141),2219670,+,main,2219670,F2-29,not_about,,Tachograph requirement for vehicles
+47,77,הצעת חוק סדר הדין הפלילי (סמכויות אכיפה - חיפוש בגוף ונטילת אמצעי זיהוי) (תיקון - הגדרת חיפוש בעירום מלא כחיפוש פנימי),2239100,−,main,2239100,F2-30,about,−,Restricts strip searches by treating them as internal searches
+47,77,הצעת חוק לתיקון פקודת המשטרה (תוקף סמכות שוטר לתת הוראות לציבור),2209534,−,main,2209534,F2-31,borderline,−,Limits validity of police emergency instruction power
+47,77,הצעת חוק לתיקון פקודת התעבורה (איסור שימוש במצלמות ניידות לאכיפת עבירות חניה),2196928 2190378 2209338 2199045 2198837,−,main,2196928,F2-32,not_about,,Municipal parking camera enforcement
+47,77,חוק לתיקון פקודת המשטרה (מס' 44),2219199,−,main,2219199,F2-33,about,−,Regulates and limits water cannon use against protesters
+47,77,הצעת חוק הממשלה (תיקון - בדיקת פוליגרף שנתית לבירור הדלפות מדיוני ועדת השרים לענייני ביטחון לאומי),2231162 2224430,+,main,2231162,F2-34,not_about,,Polygraph for cabinet ministers over leaks
+47,77,"חוק לתיקון ולהארכת תוקפן של תקנות שעת חירום (חרבות ברזל) (פגישה עם עורך דין של עצור בעבירת ביטחון) (תיקון מס' 8), התשפ""ו-2026.",1057406,+,secondary,1057406,F2-35,about,+,Extends restricting security detainees' access to lawyers
+47,77,"חוק למניעת אלימות במשפחה (תיקון מס' 19 – הוראת שעה), התשפ""ג–2023",2194824,+,secondary,2194824,F2-36,not_about,,Domestic violence protection order provisions
+47,77,חוק כליאתם של לוחמים בלתי חוקיים (תיקון מס' 4 והוראת שעה – חרבות ברזל) (תיקון מס' 3),2223864,+,secondary,2223864,F2-37,about,+,Extends wartime detention powers over unlawful combatants
+47,77,הצעת חוק המאבק בטרור (תיקון - זכות להחזיק בגופות מחבלים לצורכי משא ומתן),2158052 2196552 2159334,+,secondary,2158052,F2-38,not_about,,"Holding terrorists' bodies for negotiations, not policing powers"
+47,77,הצעת חוק לייעול הפיקוח והאכיפה העירוניים ברשויות המקומיות (תעבורה) (תיקון - הגברת האכיפה),2167313,+,main,2167313,F2-39,not_about,,Municipal traffic inspection enforcement
+47,77,הצעת חוק לתיקון פקודת סדר הדין הפלילי (מעצר וחיפוש) (עילות חיפוש בלא צו בית משפט) (הוראת שעה),2163828,+,main,2163828,F2-40,about,+,Broadens grounds for warrantless searches
+47,77,חוק הסמכת צבא הגנה לישראל ושירות הביטחון הכללי לביצוע חדירה לחומר מחשב המשמש להפעלת מצלמה נייחת ופעולה בו (הוראת שעה – חרבות ברזל) (תיקון מס' 3),2225476,+,main,2225476,F2-41,borderline,+,Military and Shin Bet hacking of cameras; surveillance
+47,77,הצעת חוק סדר הדין הפלילי (סמכויות אכיפה - מעצרים) (תיקון - מעצר אדם שנאשם בסיכון בטחונו של בעל חיים),2157357,+,main,2157357,F2-42,about,+,Adds arrest ground for endangering animals
+47,77,הצעת חוק המשטרה (חדירה לחומר מחשב),2219225,+,main,2219225,F2-43,about,+,Grants police computer hacking surveillance powers
+47,77,הצעת חוק לתיקון פקודת סדר הדין הפלילי (מעצר וחיפוש) (תנאים למסירת התפוס לפי צו),2197257,−,secondary,2197257,F2-44,about,−,Eases release of property seized by police
+47,77,"חוק לתיקון פקודת סדר הדין הפלילי (מעצר וחיפוש) (מס' 16), התשפ""ד–2024",2217783,+,main,2217783,F2-45,about,+,Extends warrantless search powers from illegal-weapons provision
+47,77,הצעת חוק סמכויות להתמודדות עם כלי טיס בלתי מאויש,2222367 2228827,+,main,2222367,F2-46,borderline,+,Powers to neutralize drones
+47,77,הצעת חוק סדר הדין הפלילי (סמכויות אכיפה - מעצרים) (תיקון - מאבק בעיכובי שווא),2209032,−,main,2209032,F2-47,about,−,Curbs false detentions and over-policing
+47,77,הצעת חוק יסודות התקציב (תיקון - אישור תוספת שכרית לגוף ביטחוני והעברת תקציב בין תוכניות ובין משרדים - הוראת שעה),2219889,+,secondary,2219889,F2-48,not_about,,"Salary budget for security bodies, not powers"
+47,77,הצעת חוק הגנה על הציבור מפני ארגוני פשיעה,2215984,+,main,2215984,F2-49,about,+,New police tools against criminal organizations
+47,77,הצעת חוק שירות הביטחון הכללי (תיקון - סיוע בטיפול בפשיעה פלילית חמורה),2199817 2204021,+,main,2199817,F2-50,about,+,Lets Shin Bet assist in criminal investigations
+47,77,הצעת חוק סדר הדין הפלילי (סמכויות אכיפה – מעצרים) (שטח מחיה במיתקני שירות הביטחון הכללי) (הוראת שעה),2194802,+,main,2194802,F2-51,borderline,+,Delays detainee living-space standards in Shin Bet facilities
+47,77,"הצעת חוק זכויות נפגעי עבירה (תיקון מס' 23) (שמירת ערכות ייעודיות ישנות במשטרת ישראל), התשפ""ו–2026",2233112,+,secondary,2233112,F2-52,not_about,,Retention of forensic sexual assault kits
+47,77,הצעת חוק איסור שימוש בסוסים בפיזור אי-סדר ציבורי (תיקוני חקיקה),2218887,−,main,2218887,F2-53,about,−,Bans police horses for dispersing crowds
+47,77,חוק המאבק בטרור (תיקון מס' 10),2210981,+,secondary,2210981,F2-54,borderline,+,Counter-terrorism law expansion; offence rather than enforcement powers
+47,77,חוק הגנה על הציבור מפני ארגוני פשיעה,2214419,+,main,2214419,F2-55,about,+,New police tools against criminal organizations
+47,77,"הצעת חוק חסינות חברי הכנסת, זכויותיהם וחובותיהם (תיקון - סייג לחסינות בפני מעצר בשל אי-התייצבות לחקירה)",2240625,+,secondary,2240625,F2-56,borderline,+,Allows arresting MKs who skip police questioning
+47,77,"חוק הכניסה לישראל (תיקון מס' 38), התשפ""ד–2024",2203907,+,secondary,2203907,F2-57,borderline,+,Tougher enforcement against illegal-resident transport and employment
+47,77,הצעת חוק השיפוט הצבאי (תיקון - פקודת מעצר),2197647 2160147,−,secondary,2197647,F2-58,about,−,Shortens military arrest order from 48 to 24 hours
+47,77,הצעת חוק ההוצאה לפועל (תיקון - ביטול צו הבאה בשל חוב כספי נמוך),2231176,−,secondary,2231176,F2-59,not_about,,Civil debt collection bringing orders
+47,77,חוק הכניסה לישראל (תיקון מס' 36),2189881,+,secondary,2189881,F2-60,borderline,+,Border control access to passenger lists
+47,77,הצעת חוק הגנה על הציבור מפני ביצוע עבירות מין (תיקון - סמכויות עיכוב ומעצר),2230351,+,main,2230351,F2-61,about,+,Grants detention and arrest powers to supervision officers
+47,77,"חוק לתיקון פקודת הנמלים (מס' 6), התשפ""ד–2024",2210404,+,secondary,2210404,F2-62,not_about,,Alcohol rules for boat operators
+47,77,הצעת חוק לתיקון פקודת העיריות (מס' 146 - הוראת שעה) (קיצור הוראת השעה),2158893,−,secondary,2158893,F2-63,not_about,,Approval procedure for siting police stations
+47,77,"הצעת חוק יישום הסכם הביניים בדבר הגדה המערבית ורצועת עזה (הגבלת פעילות) (תיקון מס' 4) (איסור פעילות בתחומי מדינת ישראל, אכיפה ועונשין), התשפ""ה–2025",2221806,+,secondary,2221806,F2-64,borderline,+,Enforcement against Palestinian Authority activity in Israel
+47,77,חוק לתיקון פקודת בתי הסוהר (מס' 64 - הוראת שעה - חרבות ברזל) (מצב חירום כליאתי) (תיקון מס' 4),2233629,+,secondary,2233629,F2-65,borderline,+,Prison emergency state easing detention conditions
+47,77,חוק לתיקון פקודת בתי הסוהר (תיקון מס' 66 - הוראת שעה - חרבות ברזל) (חופשה מיוחדת לאסיר) (תיקון מס' 3),2231120,+,secondary,2231120,F2-66,not_about,,Special leave for prisoners
+47,77,הצעת חוק לתיקון פקודת המשטרה (התקהלות בלתי חוקית מול ביתו של איש ציבור),2207027,+,main,2207027,F2-67,about,+,Police power against protests at public figures' homes
+47,77,הצעת חוק לתיקון פקודת המשטרה (הצבת מערכת צילום ביומטרית לצורך מניעת אלימות במגרשי הספורט) (הוראת שעה),2228801 2231485 2236155 2230836,+,main,2228801,F3-1,borderline,+,"Police biometric surveillance at stadiums; surveillance, not arrest or force"
+47,77,חוק הסמכת צבא הגנה לישראל ושירות הביטחון הכללי לביצוע חדירה לחומר מחשב המשמש להפעלת מצלמה נייחת ופעולה בו (הוראת שעה – חרבות ברזל),2211682,+,main,2211682,F3-2,borderline,+,Army and security service may hack cameras; wartime surveillance power
+47,77,חוק לתיקון ולהארכת תוקפן של תקנות שעת חירום (חרבות ברזל) (הארכת מעצר לחשוד בעבירת ביטחון) (תיקון מס' 8),1046556,+,main,1046556,F3-3,about,+,Extends detention without judge for security suspects
+47,77,חוק לתיקון ולהארכת תוקפן של תקנות שעת חירום (חרבות ברזל) (הארכת מעצר לחשוד בעבירת ביטחון) (תיקון מס' 2),2218801,+,secondary,2218801,F3-4,about,+,Extends detention without judge for security suspects
+47,77,הצעת חוק מאבק בארגוני פשיעה (תיקון - הרחבת הענישה על עבירות גניבת רכב כדין ענישה בגין חברות בארגון פשיעה),2227661,+,secondary,2227661,F3-5,not_about,,"Harsher sentences for car theft; punishment, not police powers"
+47,77,"הצעת חוק למניעת אלימות במשפחה (תיקון - פיקוח טכנולוגי להבטחת קיומו של צו הגנה, והערכת מסוכנות - הוראת שעה)",2205469,+,secondary,2205469,F3-6,not_about,,Court-ordered electronic monitoring in domestic violence; not police powers
+47,77,הצעת חוק לתיקון פקודת המשטרה (הוראות בדבר פיזור אסיפה או תהלוכה),2167560 2156244 2159518 2196051,−,main,2167560,F3-7,about,−,Sets legal limits on police force to disperse protests
+47,77,הצעת חוק כליאתם של אסירים נדרשים,2159107,+,secondary,2159107,F3-8,borderline,+,State power to hold enemy prisoners as bargaining chips
+47,77,הצעת חוק הכניסה לישראל (תיקון מס' 33),2146170,+,main,2146170,F3-9,about,+,Grants detention and arrest powers to border control officers
+47,77,חוק לתיקון ולהארכת תוקפן של תקנות שעת חירום (חרבות ברזל) (הארכת מעצר לחשוד בעבירת ביטחון) (תיקון מס' 4),2222785,+,secondary,2222785,F3-10,about,+,Extends detention without judge for security suspects
+47,77,הצעת חוק לתיקון פקודת בתי הסוהר (סמכויות חטיבת חלופות הכליאה והפיקוח),2228132,+,main,2228132,F3-11,borderline,+,Expands supervision powers of prison service monitoring division
+47,77,"הצעת חוק חסינות חברי הכנסת, זכויותיהם וחובותיהם (תיקון מס' 46) (אבטחת חבר הכנסת בחוץ לארץ), התשפ""ו–2025",2237641,+,secondary,2237641,F3-12,not_about,,Security guarding for Knesset members abroad
+47,77,חוק לייעול האכיפה והפיקוח העירוניים ברשויות המקומיות (הוראת שעה) (תיקון מס' 12),2217169,+,main,2217169,F3-13,about,+,Extends municipal policing powers of local inspectors
+47,77,חוק לתיקון ולהארכת תוקפן של תקנות שעת חירום (חרבות ברזל) (הארכת מעצר לחשוד בעבירת ביטחון) (תיקון),2216209,+,secondary,2216209,F3-14,about,+,Extends detention without judge for security suspects
+47,77,"הצעת חוק הרחבת האמצעים למאבק בארגוני פשיעה (תיקוני חקיקה), התשפ""ו–2025",2207023,+,secondary,2207023,F3-15,about,+,Expands enforcement tools against crime organizations
+47,77,חוק העונשין (תיקון מס' 150),2217086,−,secondary,2217086,F3-16,borderline,−,Repeals loitering offense often used for police stops and arrests
+47,77,הצעת חוק סדר הדין הפלילי (חקירת חשודים) (תיקון - נוכחות עורך דין בחקירת חשוד),2216663,−,secondary,2216663,F3-17,about,−,Lawyer present at interrogation constrains police
+47,77,הצעת חוק שמירה על גבולות המדינה (תיקוני חקיקה),2230569,+,secondary,2230569,F3-18,borderline,+,"Border smuggling enforcement measures, likely new interception powers"
+47,77,הצעת חוק סדר הדין הפלילי (סמכויות אכיפה - מעצרים) (תיקון - מעצר עד תום ההליכים בגין עבירה של סחיטה באיומים),2207111 2221836,+,main,2207111,F3-19,about,+,Adds extortion to presumption of dangerousness for detention
+47,77,הצעת חוק לתיקון פקודת המשטרה (חובת לבישת מדים בהפגנות),2159419 2243164,−,main,2159419,F3-20,about,−,Requires uniforms at protests to curb police abuse
+47,77,הצעת חוק יסודות התקציב (תיקון - קביעת תקציב הביטחון כשיעור מהתוצר הלאומי הגולמי והסדרה תכנונית),2233990,+,secondary,2233990,F3-21,not_about,,Defense budget as share of GDP; military budgeting
+47,77,הצעת חוק סמכויות שעת חירום (תיקוני חקיקה),2234060 2189804,+,main,2234060,F3-22,borderline,+,Anchors emergency exit-ban powers in permanent law
+47,77,הצעת חוק לתיקון פקודת סדר הדין הפלילי (מעצר וחיפוש) (שלילת הסכמה כהיתר לחיפוש בחומר מחשב),2199854,−,main,2199854,F3-23,about,−,Consent no longer allows police computer searches
+47,77,חוק לתיקון ולהארכת תוקפן של תקנות שעת חירום (חרבות ברזל) (פגישה עם עורך דין של עצור בעבירת ביטחון) (תיקון מס' 6),2233919,+,secondary,2233919,F3-24,about,+,Extends denial of lawyer meetings for security detainees
+47,77,הצעת חוק סדר הדין הפלילי (סמכויות אכיפה - מעצרים) (תיקון - הגדרת מסוכנות של פוגעים בבעלי חיים),2202979 2196989 2160553 2156271,+,main,2202979,F3-25,borderline,+,Adds animal abuse as dangerousness ground for arrest
+47,77,הצעת חוק המשטרה (סמכויות),2215996 2208110,+,main,2215996,F3-26,about,+,Expands police powers regarding illegal weapons
+47,77,"הצעת חוק סדר הדין הפלילי (סמכויות אכיפה – מעצרים) (תיקון מס' 23 – הוראת שעה) (החמרת תנאי שחרור בערובה של חשוד בעבירות חמורות), התשפ""ד–2024",2201481,+,secondary,2201481,F3-27,about,+,Stricter bail conditions for serious crime suspects
+47,77,הצעת חוק סמכויות לשם שמירה על ביטחון הציבור (תיקון - הסמכת מאבטחים למניעת פעילות חבלנית עוינת במרחב הציבורי ברשויות המקומיות),2224955 2230165,+,main,2224955,F3-28,about,+,Authorizes municipal guards to search and use force
+47,77,הצעת חוק למניעת אלימות במשפחה (תיקון - פיקוח אלקטרוני על אדם שהוצא נגדו צו הגנה),2203886,+,secondary,2203886,F3-29,not_about,,Court-ordered electronic monitoring in domestic violence; not police powers
+47,77,הצעת חוק להארכת תוקפן של תקנות שעת חירום (יהודה והשומרון – שיפוט בעבירות ועזרה משפטית) (תיקון),2158844,+,secondary,2158844,F3-30,not_about,,Renews West Bank jurisdiction regulations; technical detention placement
+47,77,חוק לתיקון ולהארכת תוקפן של תקנות שעת חירום (חרבות ברזל) (הארכת מעצר לחשוד בעבירת בטחון) (תיקון מס' 9),1057405,+,main,1057405,F3-31,about,+,Extends detention without judge for security suspects
+47,77,הצעת חוק העונשין (תיקון - ביטול עבירת השוטטות),2195917 2157597 2203066,−,secondary,2195917,F3-32,borderline,−,Repeals loitering offense often used for police stops and arrests
+47,77,הצעת חוק סדר הדין הפלילי (סמכויות אכיפה - מעצרים) (תיקון - משך מעצר מרבי ועילות מעצר),2237089 2238629,−,secondary,2237089,F3-33,about,−,Limits detention length and grounds to reduce false arrests
+47,77,"הצעת חוק לתיקון פקודת המשטרה (הסדרת הפעלת מכת""זית ותיעוד חזותי של ההפעלה)",2234009 2229800,−,main,2234009,F3-34,about,−,Regulates water cannon use and requires documentation
+47,77,הצעת חוק למניעת אלימות במשפחה (תיקון - פיקוח טכנולוגי להבטחת קיומו של צו הגנה והערכת מסוכנות - הוראת שעה),2203953,+,secondary,2203953,F3-35,not_about,,Court-ordered electronic monitoring in domestic violence; not police powers
+47,77,הצעת חוק לתיקון פקודת סדר הדין הפלילי (מעצר וחיפוש) (סמכות חיפוש בלא צו) (הוראת שעה),2198966,+,main,2198966,F3-36,about,+,Expands police search of homes without warrant
+47,77,הצעת חוק סדר הדין הפלילי (חקירת חשודים) (תיקון - נוכחות עורך דין בחקירת חשוד בעבירות פשע),2207001,−,secondary,2207001,F3-37,about,−,Lawyer present at interrogation constrains police
+47,77,הצעת חוק התכנון והבנייה (תיקון - איסור שימוש ברכב או ציוד מכני הנדסי),2199429,−,secondary,2199429,F3-38,not_about,,Planning inspectors and construction equipment; not police powers
+47,77,הצעת חוק המאבק בכלי הנשק הבלתי חוקיים (תיקוני חקיקה) (הוראת שעה),2201006,+,main,2201006,F3-39,about,+,Illegal weapons package expanding police search and enforcement powers
+47,77,חוק לייעול האכיפה והפיקוח העירוניים ברשויות המקומיות (הוראת שעה) (תיקון מס' 6),2159671,+,main,2159671,F3-40,about,+,Extends municipal policing powers of local inspectors
+47,77,הצעת חוק מתן סמכויות פיקוח והסמכת מפקחים ופקחים (תיקוני חקיקה),2156938 2196070,+,secondary,2156938,F3-41,not_about,,Animal welfare inspectors' supervision powers; civilian regulation
+47,77,"הצעת חוק סמכויות מיוחדות למאבק בארגוני פשיעה (הוראות שעה), התשפ""ו–2026",2233987,+,main,2233987,F3-42,about,+,Special police powers against crime organizations
+47,77,"החלק שפוצל מהצעת חוק לתיקון פקודת המשטרה (מס' 39) (סמכויות), התשפ""ג-2022 - סעיפים",2198673,+,main,2198673,F3-43,about,+,Police ordinance powers amendment broadening police authority
+47,77,הצעת חוק לתיקון פקודת המשטרה (מערכת צילום ביומטרית),2229355,+,main,2229355,F3-44,borderline,+,Police biometric camera surveillance in public space
+47,77,הצעת חוק חימוש כל אדם מכוחות הביטחון המוצב בקו עימות או סמוך אליו,2222198,+,main,2222198,F3-45,borderline,+,"Arms security personnel on border; resources, not policing powers"
+47,77,חוק לתיקון פקודת המשטרה (מס' 40),2202408,+,main,2202408,F3-46,borderline,+,Regulates and enables police special cameras in public space
+47,77,הצעת חוק לתיקון פקודת בתי הסוהר (מס' 48) (ביטול החוק),2157709 2197539,−,secondary,2157709,F3-47,not_about,,Repeals prisoner force-feeding; prison medical policy
+47,77,הצעת חוק לתיקון פקודת המשטרה (ביטול איסור הנפת דגל),2192538,−,main,2192538,F3-48,about,−,Removes police power to ban and remove flags
+47,77,"חוק סמכויות לשם שמירה על ביטחון הציבור (תיקון מס' 8), התשפ""ד–2024",2203869,+,main,2203869,F3-49,about,+,Expands security search powers around military bases
+47,77,"חוק לתיקון פקודת בתי הסוהר (מס' 68), התשפ""ה–2025",2219763,+,main,2219763,F3-50,borderline,+,Prison service as security body; likely strengthens wardens
+47,77,חוק הסמכת צבא הגנה לישראל ושירות הביטחון הכללי לביצוע חדירה לחומר מחשב המשמש להפעלת מצלמה נייחת ופעולה בו (הוראת שעה - חרבות ברזל) (תיקון מס' 4),2233093,+,main,2233093,F3-51,borderline,+,Army and security service may hack cameras; wartime surveillance power
+47,77,הצעת חוק למניעת אלימות במשפחה (פיקוח טכנולוגי להבטחת קיומו של צו הגנה והערכת מסוכנות - הוראת שעה),2203840 2203581 2198954,+,secondary,2203840,F3-52,not_about,,Court-ordered electronic monitoring in domestic violence; not police powers
+47,77,"הצעת חוק הכרזה על ארגון ""אדוני השממה"" כארגון טרור",2229183,+,secondary,2229183,F3-53,not_about,,Declares specific group a terror organization
+47,77,"הצעת חוק לתיקון ולהארכת תוקפן של תקנות שעת חירום (חרבות ברזל) (הארכת מעצר לחשוד בעבירת ביטחון), התשפ""ד-2024 - החלק הנותר",2214563,+,main,2214563,F3-54,about,+,Extends detention without judge for security suspects
+47,77,הצעת חוק האזנת סתר (תיקון - האזנת סתר באמצעות כלים טכנולוגיים),2225201,+,main,2225201,F3-55,about,+,Allows wiretapping via spyware tools
+47,77,הצעת חוק סמכויות לשם שמירה על ביטחון הציבור (תיקון - הסמכת מאבטחים למניעת אלימות באוטובוסים ציבוריים),2233908,+,main,2233908,F3-56,about,+,Authorizes bus guards to use public security powers
+47,77,"חוק הנוער (שפיטה, ענישה ודרכי טיפול) (תיקון מס' 25 - הוראות שעה), התשפ""ד–2024",2202644,+,secondary,2202644,F3-57,borderline,+,Harsher detention and punishment rules for minors in terror
+47,77,חוק לתיקון פקודת בתי הסוהר (מס' 64 – הוראת שעה – חרבות ברזל) (מצב חירום כליאתי) (תיקון),2213744,+,secondary,2213744,F3-58,not_about,,"Prison overcrowding emergency arrangements; capacity, not powers"
+47,77,"הצעת חוק לתיקון פקודת בתי הסוהר (מס' 69), התשפ""ה–2025",2221002,+,main,2221002,F3-59,not_about,,"Prison service volunteer manpower; staffing, not powers"
+47,77,הצעת חוק חיזוק הפיקוח על עבירות צער בעלי חיים (תיקוני חקיקה),2218597,+,secondary,2218597,F3-60,not_about,,Animal cruelty enforcement by inspectors; civilian regulation
+47,77,הצעת חוק סדר הדין הפלילי (סמכויות אכיפה - מעצרים) (תיקון - סייג לקביעת קצין משטרה את תנאי השחרור ממעצר המגבילים את זכות ההפגנה),2209051,−,main,2209051,F3-61,about,−,Limits police-set release conditions restricting protest
+47,77,"הצעת חוק הכניסה לישראל (תיקון - החמרת הענישה בעבירות של הסעה, הלנה והעסקה שלא כדין של שוהים בלתי חוקיים)",2213956,+,secondary,2213956,F3-62,not_about,,Harsher penalties for aiding illegal residents
+47,77,חוק לתיקון פקודת המכרות (מס' 13),2158468,−,main,2158468,F3-63,not_about,,Mining enforcement against sand theft; regulatory
+47,77,הצעת חוק התמודדות עם תופעת עבירות נשק (תיקוני חקיקה והוראת שעה),2230634,+,secondary,2230634,F3-64,borderline,+,"Weapons offenses package, likely adds enforcement powers"
+47,77,חוק הסמכת צבא הגנה לישראל ושירות הביטחון הכללי לביצוע חדירה לחומר מחשב המשמש להפעלת מצלמה נייחת ופעולה בו (הוראת שעה - חרבות ברזל) (תיקון),2218088,+,main,2218088,F3-65,borderline,+,Army and security service may hack cameras; wartime surveillance power
+47,77,חוק התמודדות עם תקיפות סייבר חמורות במגזר השירותים הדיגיטליים ושירותי האחסון (הוראת שעה – חרבות ברזל) (תיקון מס' 3),2234441,+,secondary,2234441,F3-66,not_about,,Cyber defense directives for digital services; not policing
+47,77,הצעת חוק ייסוד כיתות כוננות ביישובים,2211909,+,main,2211909,F3-67,not_about,,Founding village standby squads; civil defense organization
