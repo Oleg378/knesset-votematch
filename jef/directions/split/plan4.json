@@ -1,5 +1,5 @@
 {
- "note": "Stage 4 (2026-10-18, [У]): split by the standard statement audit of the 26 statements touched by the label removals (local/research/statement_audit_removals/). Same method as stages 2-3: applied after stage 3, parts keep the parent's orientation and sign, Jev only chooses the part. Extended the same day: 130b (q56) split by the standard audit after the volume threshold was lowered to 25 (local/research/statement_audit_t25/). Extended again: 195 (q81) split by the standard audit after external audit №2 (local/research/statement_audit_q81/). Extended 2026-10-19: 25 (q42) split by the standard audit after a full label check (local/research/statement_audit_q42/, label_check_q42/). Extended 2026-10-19: 165 (q4) split by the standard audit after a full label check (local/research/statement_audit_q4/, label_check_q4/); q4 moves to 165a; 165b gets no statement (its bills already count under 179, q10 — customer 2026-10-19). Extended 2026-10-19: 265 (q41) split by the standard audit after a full label check (local/research/statement_audit_q41/, label_check_q41/). Extended 2026-10-19: 77 (q47) split by the standard audit after a full label check (local/research/statement_audit_q47/, label_check_q47/); q47 moves to 77a; 77b gets no statement (its bills already count under 178, q45 — customer 2026-10-19).",
+ "note": "Stage 4 (2026-10-18, [У]): split by the standard statement audit of the 26 statements touched by the label removals (local/research/statement_audit_removals/). Same method as stages 2-3: applied after stage 3, parts keep the parent's orientation and sign, Jev only chooses the part. Extended the same day: 130b (q56) split by the standard audit after the volume threshold was lowered to 25 (local/research/statement_audit_t25/). Extended again: 195 (q81) split by the standard audit after external audit №2 (local/research/statement_audit_q81/). Extended 2026-10-19: 25 (q42) split by the standard audit after a full label check (local/research/statement_audit_q42/, label_check_q42/). Extended 2026-10-19: 165 (q4) split by the standard audit after a full label check (local/research/statement_audit_q4/, label_check_q4/); q4 moves to 165a; 165b gets no statement (its bills already count under 179, q10 — customer 2026-10-19). Extended 2026-10-19: 265 (q41) split by the standard audit after a full label check (local/research/statement_audit_q41/, label_check_q41/). Extended 2026-10-19: 77 (q47) split by the standard audit after a full label check (local/research/statement_audit_q47/, label_check_q47/); q47 moves to 77a; 77b gets no statement (its bills already count under 178, q45 — customer 2026-10-19). Extended 2026-10-19: 283 (q53) split by the standard audit after a full label check (local/research/statement_audit_q53/, label_check_q53/).",
  "parents": {
   "58": [
    "58a",
@@ -36,6 +36,10 @@
   "77": [
    "77a",
    "77b"
+  ],
+  "283": [
+   "283a",
+   "283b"
   ]
  },
  "new": {
@@ -146,6 +150,18 @@
    "name_en": "Punitive measures against terrorists and their families",
    "plus_en": "Deportation of terrorists' families, demolition of their homes, loss of residency, prison for minors convicted of terror, new terror-incitement offences.",
    "minus_en": "No collective or added sanctions beyond the ordinary criminal process."
+  },
+  "283a": {
+   "name_ru": "передача публичных услуг частным",
+   "name_en": "Private provision of public services",
+   "plus_en": "Hands public services or their staffing to private companies or organizations (outsourcing, vouchers, contract employment, privatization).",
+   "minus_en": "Keeps or returns public services to state bodies and direct public employment."
+  },
+  "283b": {
+   "name_ru": "частные перевозки через приложения",
+   "name_en": "App-based ride-sharing by private drivers",
+   "plus_en": "Lets private drivers offer paid rides through apps.",
+   "minus_en": "Keeps paid passenger transport limited to licensed taxis and operators."
   }
  }
 }
