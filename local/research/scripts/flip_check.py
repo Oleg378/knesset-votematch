@@ -1,7 +1,7 @@
 """Sign check on the full explanatory notes (customer rule 2026-10-19, docs/LABEL_CHECK.md step 3): a proposed sign change is
 confirmed only by a blind check that sees the notes up to 3,000 characters — as much as Jev saw when it labeled the bill.
 
-Input: a CSV with columns q, d, rep (representative bill_id), name, kind (flip / control) — e.g. rows of a label check's merged1.csv.
+Input: a CSV with columns q (empty for a direction without a statement), d, rep (representative bill_id), name, kind (flip / control) — e.g. rows of a label check's merged1.csv.
 Usage: python3 local/research/scripts/flip_check.py <in.csv> <out_dir>  -> <out_dir>/flip_items.md, flip_key.csv
 """
 import csv, json, os, sys, random
@@ -24,7 +24,7 @@ k["sid"] = [f"S{i+1}" for i in range(len(k))]
 L = ["# Items: which way does the bill move the direction?", ""]
 for _, g in k.iterrows():
     n, pl, mi = D[g["d"]]
-    L += [f"## {g['sid']}", f"Statement (q{g['q']}): {st[g['q']]['statement_en']}", f"Direction «{n}» — +: {pl} −: {mi}",
+    L += [f"## {g['sid']}"] + ([f"Statement (q{g['q']}): {st[g['q']]['statement_en']}"] if isinstance(g["q"], str) and g["q"] else []) + [f"Direction «{n}» — +: {pl} −: {mi}",
           f"Bill: {bname.get(int(g['rep']))}", f"Explanatory notes: {notes(g['rep'])}", ""]
 open(f"{out}/flip_items.md", "w").write("\n".join(L) + "\n"); k.to_csv(f"{out}/flip_key.csv", index=False)
 print(k[["sid", "kind", "rep"]].to_string())
