@@ -279,6 +279,11 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
   clipped by the edges of `.app`. No dimming of the screen underneath (grey strips beside the column-wide bars). No View
   Transitions (iOS ≤ 17) or reduced motion: instant. Frames: after `startViewTransition(…).ready`, pause
   `document.getAnimations()` and set `currentTime`.
+  The page never scrolls during the transition (Safari draws the pictures off by the scrolled distance and jerks at the
+  end): the new page is moved down by the scroll (`--card-lift` on `#root`), the page keeps its height (`--card-hold`),
+  the scroll goes to the top when it ends; the old picture is put where it was (`--card-old-y`); the screens are
+  clipped at the bottom bar's top (`--card-visible`). Check a scrolled screen in WebKit too (Playwright WebKit: compare
+  positions — its screenshots leave the new pictures of named elements blank).
 - **Home on narrow phones:** the hero picture is 150 px (Figma) from ~390 px wide; narrower, it shrinks
   (`width: min(150px, 100% − 184px − 4px)`) so «Find your / vote match» always stays on two lines. Never three lines.
 - **Fonts:** Fraunces only from `src/assets/fonts/fraunces-opsz.woff2` (regenerate with `node scripts/subset-fraunces.mjs`);

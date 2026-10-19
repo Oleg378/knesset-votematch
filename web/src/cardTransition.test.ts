@@ -38,7 +38,8 @@ describe('slideCard', () => {
     expect(document.documentElement.dataset.card).toBeUndefined();
   });
 
-  it('marks the direction for the transition only; a newer change keeps it', async () => {
+  it('marks the direction for the transition only; a newer change keeps it; the page scrolls up at the end', async () => {
+    const scroll = vi.spyOn(window, 'scrollTo').mockImplementation(() => {});
     const ends: (() => void)[] = [];
     doc.startViewTransition = vi.fn((update: () => void) => {
       update();
@@ -52,9 +53,13 @@ describe('slideCard', () => {
     ends[0]!(); // the first one is skipped by the second
     await Promise.resolve();
     expect(document.documentElement.dataset.card).toBe('next');
+    expect(scroll).not.toHaveBeenCalled(); // never during a transition
     ends[1]!();
     await Promise.resolve();
     expect(document.documentElement.dataset.card).toBeUndefined();
+    expect(document.documentElement.getAttribute('style') ?? '').toBe('');
+    expect(scroll).toHaveBeenCalledOnce();
+    scroll.mockRestore();
   });
 
   it('reduced motion: no transition', () => {

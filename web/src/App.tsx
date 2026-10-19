@@ -78,7 +78,8 @@ export default function App({ loader }: { loader: Loader }) {
     mounted.current = true;
     prev.current = sc.name;
     guard.sync(sc.name === 'start');
-    window.scrollTo(0, 0);
+    // During a card change the page must not scroll: cardTransition.ts scrolls to the top when it ends.
+    if (!document.documentElement.dataset.card) window.scrollTo(0, 0);
   }, [key]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const [menu, setMenu] = useState(false);

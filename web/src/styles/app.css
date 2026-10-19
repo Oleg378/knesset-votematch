@@ -1036,6 +1036,16 @@ a {
   padding-right: calc(var(--gutter) + env(safe-area-inset-right));
 }
 
+/* The page must not scroll during the transition (cardTransition.ts): it keeps at least its old height, and the new
+   page is moved down by the scroll, so it shows as at the top; 0 for the old one. */
+:root[data-card] body {
+  min-height: var(--card-hold, 0px);
+}
+
+:root[data-card] #root {
+  padding-top: var(--card-lift, 0px);
+}
+
 :root[data-card] .header {
   view-transition-name: header;
 }
@@ -1069,7 +1079,16 @@ a {
 }
 
 :root[data-card]::view-transition-group(screen) {
+  /* Sideways only: the group stays where the new screen is (at its top), and the old picture is moved to where the old
+     screen was (--card-old-y, cardTransition.ts). Clipped by the edges of .app at the sides, by its own top and by the
+     top of the bottom bar (--card-visible): the bars cover the column only, so nothing passes beside them. */
+  animation: none;
   overflow: clip;
+  clip-path: inset(0 0 calc(100% - var(--card-visible, 100%)) 0);
+}
+
+:root[data-card]::view-transition-old(screen) {
+  translate: 0 var(--card-old-y, 0px);
 }
 
 /* Opaque pages: the one on top covers the one underneath. */
