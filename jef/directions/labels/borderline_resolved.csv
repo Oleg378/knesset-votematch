@@ -267,3 +267,6 @@ label check q33,33,154,2165281,secondary,not about,borderline,"Treats embassies 
 label check q33,33,154,2206726,secondary,not about,borderline,"Civil marriage and divorce track; removes rabbinical divorce monopoly, not consent civil jurisdiction",not_about,removed (2 of 3 «not about»)
 label check q33,33,154,2196011,secondary,not about,borderline,"Civil marriage and divorce track; removes rabbinical divorce monopoly, not consent civil jurisdiction",not_about,removed (2 of 3 «not about»)
 label check q33,33,154,2156158,secondary,not about,borderline,"Civil marriage and divorce track; removes rabbinical divorce monopoly, not consent civil jurisdiction",not_about,removed (2 of 3 «not about»)
+label check q37,37,241,2158038,main,not about,borderline,"Student dormitories provision; may require building dorms, but mainly student housing welfare, not general construction",borderline,kept (majority not «not about»)
+label check q37,37,241,2230229,secondary,not about,borderline,"Allows transferring building rights tied to safe rooms; adds buildable area, but aim is civil protection",not_about,removed (2 of 3 «not about»)
+label check q37,37,241,2232387,secondary,not about,borderline,"Unified-ownership long-term rental buildings; enables build-to-rent tenure model, volume effect indirect",borderline,kept (majority not «not about»)
