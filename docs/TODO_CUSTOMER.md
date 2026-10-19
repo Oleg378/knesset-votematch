@@ -126,5 +126,5 @@ _Список того, что ждёт вашего просмотра посл
 ## 8. Тема «Imports and competition» (2026-10-19)
 
 Проверка всех 159 законопроектов темы: прямо про вопрос 27 %; стандартный аудит разделил тему на «открытие рынков» (q42) и «предпочтение местных поставщиков в госзакупках» (новый q107).
-- [ ] **q42 · Imports and competition** — было: The state should lower barriers to imports and new competitors, even if local producers find it harder. → стало: The state should lower barriers to imports and new competitors, even if existing local businesses lose income.
-- [ ] **q107 · Local preference in government purchasing** (новый, «согласен» = меньше открытых тендеров): When the government buys goods and services, it should prefer Israeli and local suppliers, even if it pays more.
+- [x] **q42 · Imports and competition** (принято 2026-10-19) — было: The state should lower barriers to imports and new competitors, even if local producers find it harder. → стало: The state should lower barriers to imports and new competitors, even if existing local businesses lose income.
+- [x] **q107 · Local preference in government purchasing** (принято 2026-10-19) (новый, «согласен» = меньше открытых тендеров): When the government buys goods and services, it should prefer Israeli and local suppliers, even if it pays more.
