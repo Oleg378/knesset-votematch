@@ -1,0 +1,22 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason
+60,231e,הצעת חוק חילוט תקבולי עבירה בפשיעה חקלאית,2216745 2196990 2167084 2207386 2206955,+,secondary,2216745,F1-1,about,+,Forfeiture of proceeds from agricultural crime
+60,231e,הצעת חוק מאבק בארגוני פשיעה (תיקון - החמרת הענישה כנגד ארגוני סחיטה ושחיתות),2202617 2227111 2227733,+,secondary,2202617,F1-2,borderline,+,Harsher sanctions on crime organizations; forfeiture not explicit
+60,231e,הצעת חוק להקפאת כספים ששילמה הרשות הפלסטינית בזיקה לטרור מהכספים המועברים אליה מממשלת ישראל (תיקון - חילוט הכספים וניהולם),2201873 2202350 2195754,+,secondary,2201873,F1-3,about,+,Forfeits Palestinian Authority funds linked to terror payments
+60,231e,הצעת חוק להגנת חיית הבר (תיקון - חילוט כלי ציד),2231160 2231885,+,secondary,2231160,F1-4,borderline,+,Forfeiture of vehicles used in illegal hunting; minor offense
+60,231e,"הצעת חוק להפסקת פעילות אונר""א (תיקון - אי-הספקת חשמל ומים וסמכות תפיסת חזקה במקרקעין)",2235662,+,secondary,2235662,F1-5,borderline,+,State seizes UNRWA real estate; terror link indirect
+60,231e,הצעת חוק לחילוט תקבולי עבירה בשווי בעבירת גניבה חקלאית ובעבירות הגורמות נזק לרכוש חקלאי,2223689 2204572 2198100,+,secondary,2223689,F1-6,about,+,Value-based forfeiture for agricultural theft offenses
+60,231e,"פרק כ' (רשויות מקומיות), סעיפים 81-84 (נכס הרוס) מתוך הצעת חוק התכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנות התקציב 2023 ו-2024)",2205755,+,main,2205755,F1-7,not_about,,Municipal tax rules on destroyed property; not confiscation
+60,231e,הצעת חוק העונשין (תיקון - הסדר חילוט לרכושו של סוחר נשק),2198704,+,secondary,2198704,F1-8,about,+,Forfeiture arrangement for arms dealers' property
+60,231e,"הצעת חוק הרחבת האמצעים למאבק בארגוני פשיעה (תיקוני חקיקה), התשפ""ו–2025",2207023,+,secondary,2207023,F1-9,borderline,+,Broad anti-crime-organization tools; forfeiture likely but unstated
+60,231e,הצעת חוק העונשין (תיקון - חילוט רווחי סרסרות),2157426 2200915 2203649 2157215 2159500 2157328 2201666,+,secondary,2157426,F1-10,about,+,Forfeiture of pimping profits
+60,231e,הצעת חוק דרישת פירוט מקורות רכוש בלתי מוסבר מאדם הפעיל בארגון פשיעה,2227879 2209420,+,secondary,2227879,F1-11,about,+,Unexplained wealth orders against crime organization members
+60,231e,הצעת חוק הקפאת כספים ששילמה הרשות הפלסטינית בזיקה לטרור מהכספים המועברים אליה מממשלת ישראל (תיקון - חילוט הכספים וניהולם),2190865 2201437,+,secondary,2190865,F1-12,about,+,Forfeits Palestinian Authority funds linked to terror payments
+60,231e,הצעת חוק העונשין (תיקון - חילוט בעבירות החזקת נשק בלתי חוקי ללא אישום או הרשעה),2197938 2214306,+,secondary,2197938,F1-13,about,+,Forfeiture for illegal weapons without charge or conviction
+60,231e,הצעת חוק העונשין (תיקון - הסדר חילוט בעבירת סחר בנשק),2165980,+,secondary,2165980,F1-14,about,+,Forfeiture arrangement for weapons trafficking offenses
+60,231e,הצעת חוק הכניסה לישראל (תיקון - תוקף צווי הגבלת שימוש במקום וסמכויות תפיסה וחילוט),2226293 2223641,+,secondary,2226293,F1-15,about,+,Seizure and forfeiture powers against those aiding illegal residents
+60,231e,הצעת חוק הריסת בתי מחבלים,2223239,+,secondary,2223239,F1-16,borderline,+,"Demolishing terrorists' homes; punitive property measure, not forfeiture"
+60,231e,הצעת חוק לתיקון פקודת סדר הדין הפלילי (מעצר וחיפוש) (תנאים למסירת התפוס לפי צו),2197257 2157789,−,main,2197257,F1-17,about,−,Conditions for returning seized property protect owners
+60,231e,הצעת חוק איסור הלבנת הון (תיקון מס' 36) (הקפאה זמנית של רכוש או של פעולה ברכוש),2232839,+,secondary,2232839,F1-18,about,+,Temporary freezing of property suspected in money laundering
+60,231e,הצעת חוק המאבק בטרור (תיקון - חילוט רכוש פעילי טרור ובעלי זיקה לפעולת טרור),2239172,+,secondary,2239172,F1-19,about,+,Forfeits property of terrorists and their connected circle
+60,231e,הצעת חוק הפיקוח על שירותים פיננסיים (קופות גמל) (תיקון - שלילת זכאות לקצבאות ולפיצויי פיטורים עקב ביצוע פעילות טרור),2201038 2157264,+,secondary,2201038,F1-20,borderline,+,"Revokes pensions of terrorists; benefit denial, not confiscation"
+60,231e,חוק לתיקון פקודת המכרות (מס' 13),2158468,−,secondary,2158468,F1-21,borderline,+,Enforcement tools against sand theft; forfeiture unclear

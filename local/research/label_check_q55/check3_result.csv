@@ -1,0 +1,9 @@
+id,verdict,reason
+T1,not_about,"Regulates municipal debt-collection companies, not personal data protection"
+T2,borderline,"Polygraphing ministers over leaks; privacy angle secondary to security"
+T3,borderline,"Annual polygraph for cabinet leaks; privacy only indirectly involved"
+T4,borderline,"Retention of victims' forensic kits; evidence handling more than privacy"
+T5,borderline,"Disclosing ministers' health: public right to know versus privacy"
+T6,not_about,"Regulates municipal collection companies; no personal data question"
+T7,not_about,"Blood type on licence for medical emergencies, not privacy protection"
+T8,borderline,"Donor anonymity versus transparency of NGO funding; weak privacy link"
