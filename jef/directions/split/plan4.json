@@ -1,5 +1,5 @@
 {
- "note": "Stage 4 (2026-10-18, [У]): split by the standard statement audit of the 26 statements touched by the label removals (local/research/statement_audit_removals/). Same method as stages 2-3: applied after stage 3, parts keep the parent's orientation and sign, Jev only chooses the part. Extended the same day: 130b (q56) split by the standard audit after the volume threshold was lowered to 25 (local/research/statement_audit_t25/). Extended again: 195 (q81) split by the standard audit after external audit №2 (local/research/statement_audit_q81/). Extended 2026-10-19: 25 (q42) split by the standard audit after a full label check (local/research/statement_audit_q42/, label_check_q42/). Extended 2026-10-19: 165 (q4) split by the standard audit after a full label check (local/research/statement_audit_q4/, label_check_q4/); q4 moves to 165a; 165b gets no statement (its bills already count under 179, q10 — customer 2026-10-19). Extended 2026-10-19: 265 (q41) split by the standard audit after a full label check (local/research/statement_audit_q41/, label_check_q41/). Extended 2026-10-19: 77 (q47) split by the standard audit after a full label check (local/research/statement_audit_q47/, label_check_q47/); q47 moves to 77a; 77b gets no statement (its bills already count under 178, q45 — customer 2026-10-19). Extended 2026-10-19: 283 (q53) split by the standard audit after a full label check (local/research/statement_audit_q53/, label_check_q53/). Extended 2026-10-20: 277g (q78) split by the standard audit after a full label check; q78 moves to 277g1; 277g2 gets no statement (its bills already count under 187/3, q9/q15 — same handling as 165b and 77b).",
+ "note": "Stage 4 (2026-10-18, [У]): split by the standard statement audit of the 26 statements touched by the label removals (local/research/statement_audit_removals/). Same method as stages 2-3: applied after stage 3, parts keep the parent's orientation and sign, Jev only chooses the part. Extended the same day: 130b (q56) split by the standard audit after the volume threshold was lowered to 25 (local/research/statement_audit_t25/). Extended again: 195 (q81) split by the standard audit after external audit №2 (local/research/statement_audit_q81/). Extended 2026-10-19: 25 (q42) split by the standard audit after a full label check (local/research/statement_audit_q42/, label_check_q42/). Extended 2026-10-19: 165 (q4) split by the standard audit after a full label check (local/research/statement_audit_q4/, label_check_q4/); q4 moves to 165a; 165b gets no statement (its bills already count under 179, q10 — customer 2026-10-19). Extended 2026-10-19: 265 (q41) split by the standard audit after a full label check (local/research/statement_audit_q41/, label_check_q41/). Extended 2026-10-19: 77 (q47) split by the standard audit after a full label check (local/research/statement_audit_q47/, label_check_q47/); q47 moves to 77a; 77b gets no statement (its bills already count under 178, q45 — customer 2026-10-19). Extended 2026-10-19: 283 (q53) split by the standard audit after a full label check (local/research/statement_audit_q53/, label_check_q53/). Extended 2026-10-20: 277g (q78) split by the standard audit after a full label check; q78 moves to 277g1; 277g2 gets no statement (its bills already count under 187/3, q9/q15 — same handling as 165b and 77b). Extended 2026-10-20: 69 (q80) split by the standard audit after a full label check (local/research/statement_audit_q80/, label_check_q80/).",
  "parents": {
   "58": [
    "58a",
@@ -44,6 +44,10 @@
   "277g": [
    "277g1",
    "277g2"
+  ],
+  "69": [
+   "69a",
+   "69b"
   ]
  },
  "new": {
@@ -178,6 +182,18 @@
    "name_en": "Study benefits for soldiers and reservists",
    "plus_en": "Extra study benefits for those who served in the army or reserves (tuition funding, exam accommodations).",
    "minus_en": "Fewer such benefits."
+  },
+  "69a": {
+   "name_ru": "судебный контроль над решениями правительства",
+   "name_en": "Court review of government decisions",
+   "plus_en": "Courts can review and overturn government decisions and laws when citizens challenge them (standing, review grounds).",
+   "minus_en": "Limits court review of government decisions and laws."
+  },
+  "69b": {
+   "name_ru": "обжалование решений государственных органов",
+   "name_en": "Appeals against decisions of public bodies",
+   "plus_en": "People get more ways to appeal or challenge decisions of police, health funds, benefit offices and other public bodies (reasons, records, appeal periods).",
+   "minus_en": "Fewer such ways."
   }
  }
 }
