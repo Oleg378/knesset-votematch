@@ -180,7 +180,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",276,государственная поддержка пенсионных накоплений,0.4395,0.2,0.0084,10,3,3,False,0.2311,32,9
 אמת,"HaDemocratim, headed by Yair Golan",277,адресность и ограничения получения пособий,-0.1775,-0.1243,0.0275,10,26,34,False,-0.0807,63,33
 אמת,"HaDemocratim, headed by Yair Golan",277a,лишение пособий и прав как санкция,0.0714,0.3,0.0214,10,4,6,False,-0.25,43,10
-אמת,"HaDemocratim, headed by Yair Golan",277b,"пособия по инвалидности, уходу и болезни",0.2,0.4,0.0,10,7,1,False,-0.2,10,10
+אמת,"HaDemocratim, headed by Yair Golan",277b,"пособия по инвалидности, уходу и болезни",0.2,0.4,0.0,10,6,1,False,-0.2,10,9
 אמת,"HaDemocratim, headed by Yair Golan",277c,"пособия при беременности, на детей и родителям",1.0124,1.0,0.0124,6,7,2,False,0.0,0,8
 אמת,"HaDemocratim, headed by Yair Golan",277d,пособия по безработице и для молодых работников,0.4396,0.4,-0.0003,10,7,36,False,0.0399,40,11
 אמת,"HaDemocratim, headed by Yair Golan",277e,пособия пожилым и пережившим Катастрофу,0.6,0.6,0.0,5,5,2,False,0.0,0,5
@@ -1034,7 +1034,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,276,государственная поддержка пенсионных накоплений,-0.0223,0.25,-0.116,8,3,12,False,-0.1562,5,7
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,277,адресность и ограничения получения пособий,-0.0674,0.0699,-0.0144,8,31,57,False,-0.1229,42,34
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,277a,лишение пособий и прав как санкция,0.4397,0.5556,-0.1047,9,6,41,False,-0.0111,14,14
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,277b,"пособия по инвалидности, уходу и болезни",0.9167,0.8333,0.0,6,19,7,False,0.0833,2,9
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,277b,"пособия по инвалидности, уходу и болезни",0.9167,0.8333,0.0,6,12,7,False,0.0833,2,8
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,277c,"пособия при беременности, на детей и родителям",0.8125,0.625,0.0,8,23,0,False,0.1875,9,10
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,277d,пособия по безработице и для молодых работников,0.9309,0.6,0.0809,5,16,29,False,0.25,7,10
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,277e,пособия пожилым и пережившим Катастрофу,0.4375,0.625,0.0,8,13,0,False,-0.1875,6,5
@@ -3190,7 +3190,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",276,государственная поддержка пенсионных накоплений,0.0769,0.2188,0.0066,32,9,40,False,-0.1484,38,9
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277,адресность и ограничения получения пособий,0.0507,0.203,0.0309,33,62,183,False,-0.1832,167,50
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277a,лишение пособий и прав как санкция,0.6632,0.6667,0.039,33,55,260,False,-0.0424,92,32
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277b,"пособия по инвалидности, уходу и болезни",0.5125,0.45,0.0,20,27,11,False,0.0625,8,20
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277b,"пособия по инвалидности, уходу и болезни",0.5125,0.45,0.0,20,24,11,False,0.0625,8,18
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277c,"пособия при беременности, на детей и родителям",0.4504,0.2857,0.0,21,11,0,False,0.1647,39,11
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277d,пособия по безработице и для молодых работников,0.2468,0.05,-0.0407,20,9,64,False,0.2375,39,13
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277e,пособия пожилым и пережившим Катастрофу,-0.0952,0.1429,0.0,21,7,0,False,-0.2381,20,7
@@ -3774,7 +3774,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",276,государственная поддержка пенсионных накоплений,0.3636,0.1667,0.007,6,1,2,False,0.19,36,7
 עם,"Ra’am, the United Arab List",277,адресность и ограничения получения пособий,-0.7502,-0.7667,0.0596,6,19,30,False,-0.0431,53,28
 עם,"Ra’am, the United Arab List",277a,лишение пособий и прав как санкция,-0.4463,0.0,-0.2068,6,0,20,False,-0.2396,57,15
-עם,"Ra’am, the United Arab List",277b,"пособия по инвалидности, уходу и болезни",0.6,0.8,0.0,5,23,3,False,-0.2,4,8
+עם,"Ra’am, the United Arab List",277b,"пособия по инвалидности, уходу и болезни",0.6,0.8,0.0,5,22,3,False,-0.2,4,7
 עם,"Ra’am, the United Arab List",277c,"пособия при беременности, на детей и родителям",0.3245,0.25,0.0745,4,3,8,False,0.0,0,7
 עם,"Ra’am, the United Arab List",277d,пособия по безработице и для молодых работников,0.9471,0.8333,-0.0001,6,20,6,False,0.1139,26,13
 עם,"Ra’am, the United Arab List",277e,пособия пожилым и пережившим Катастрофу,0.125,0.0,0.0,2,0,2,True,0.125,1,2
@@ -4418,7 +4418,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",276,государственная поддержка пенсионных накоплений,0.0819,0.1667,-0.1473,12,3,23,False,0.0625,15,7
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",277,адресность и ограничения получения пособий,0.2042,0.3083,0.0261,12,31,95,False,-0.1302,73,41
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",277a,лишение пособий и прав как санкция,0.6757,0.5833,-0.0253,12,16,102,False,0.1177,38,18
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",277b,"пособия по инвалидности, уходу и болезни",0.9545,0.8182,0.0,11,22,11,False,0.1364,7,18
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",277b,"пособия по инвалидности, уходу и болезни",0.9545,0.8182,0.0,11,19,11,False,0.1364,7,15
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",277c,"пособия при беременности, на детей и родителям",0.8821,0.6909,0.0093,11,16,22,False,0.1818,12,9
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",277d,пособия по безработице и для молодых работников,0.8575,0.6364,0.0166,11,17,42,False,0.2045,31,17
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",277e,пособия пожилым и пережившим Катастрофу,0.5833,0.7778,0.0,9,18,0,False,-0.1944,7,8
