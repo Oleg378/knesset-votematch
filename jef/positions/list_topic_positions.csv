@@ -3196,7 +3196,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",271b,продажа алкоголя,-0.0069,0.0,-0.0069,7,0,20,False,0.0,0,3
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",273,легальность азартных игр,0.25,0.0,0.0,2,0,0,True,0.25,2,1
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",274,пенсионный возраст,0.0543,0.2174,0.0,23,5,0,False,-0.163,55,3
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",275,свобода распоряжения пенсионными накоплениями,0.3214,0.2857,0.0,7,8,1,False,0.0357,1,8
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",275,свобода распоряжения пенсионными накоплениями,0.5417,0.5,0.0,6,7,1,False,0.0417,1,7
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",276,государственная поддержка пенсионных накоплений,0.0769,0.2188,0.0066,32,9,40,False,-0.1484,38,9
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277,адресность и ограничения получения пособий,0.0507,0.203,0.0309,33,62,183,False,-0.1832,167,50
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",277a,лишение пособий и прав как санкция,0.6632,0.6667,0.039,33,55,260,False,-0.0424,92,32
@@ -4428,7 +4428,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",271b,продажа алкоголя,-0.1259,-0.1111,-0.0148,9,2,23,False,0.0,0,3
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",273,легальность азартных игр,-1.0,-1.0,0.0,1,2,0,True,0.0,0,1
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",274,пенсионный возраст,-0.0469,0.125,0.0,8,1,0,False,-0.1719,29,3
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",275,свобода распоряжения пенсионными накоплениями,0.9375,0.875,0.0,8,12,4,False,0.0625,2,8
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",275,свобода распоряжения пенсионными накоплениями,0.9375,0.875,0.0,8,10,4,False,0.0625,2,7
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",276,государственная поддержка пенсионных накоплений,0.0819,0.1667,-0.1473,12,3,23,False,0.0625,15,7
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",277,адресность и ограничения получения пособий,0.2042,0.3083,0.0261,12,31,95,False,-0.1302,73,41
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",277a,лишение пособий и прав как санкция,0.6757,0.5833,-0.0253,12,16,102,False,0.1177,38,18

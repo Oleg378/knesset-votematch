@@ -149,7 +149,7 @@
     },
     {
      "id": "מחל",
-     "closeness": -0.06488523580268521,
+     "closeness": -0.06438966164762772,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -7172,7 +7172,7 @@
     },
     {
      "id": "מחל",
-     "closeness": -0.07698995451593571,
+     "closeness": -0.07640634356591042,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -14198,7 +14198,7 @@
     },
     {
      "id": "מחל",
-     "closeness": -0.06298936691535385,
+     "closeness": -0.06250828414512202,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -65959,7 +65959,7 @@
     },
     {
      "id": "מחל",
-     "closeness": -0.04237019212119584,
+     "closeness": -0.046570483455134336,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -85484,7 +85484,7 @@
     },
     {
      "id": "מחל",
-     "closeness": -0.05106084117956418,
+     "closeness": -0.03996837283728455,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -100597,7 +100597,7 @@
     },
     {
      "id": "מחל",
-     "closeness": 0.47799595571230713,
+     "closeness": 0.42135087628485934,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -102061,7 +102061,7 @@
     },
     {
      "id": "מחל",
-     "closeness": 0.16280669059645256,
+     "closeness": 0.17256468705779254,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -102525,36 +102525,12 @@
        "lines": [
         "“Citizens should be allowed to withdraw long-term savings, such as pension and study funds, early, even if they are left with less in old age.”",
         "Your answer: strongly agree. The record of the list's former MKs points toward this statement.",
-        "Basis: 10 bills sponsored by the list's former MKs — 10 your way, 0 the other way; 4 votes on private bills and 2 votes on the other camp's bills on this topic.",
+        "Basis: 8 bills sponsored by the list's former MKs — 8 your way, 0 the other way; 4 votes on private bills and 2 votes on the other camp's bills on this topic.",
         "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
        ],
        "evidence": [
         {
          "bill": "2217620",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ]
-         ]
-        },
-        {
-         "bill": "2157504",
-         "sign": 1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ]
-         ]
-        },
-        {
-         "bill": "2195923",
          "sign": 1,
          "role": "main",
          "same": true,
@@ -115237,7 +115213,7 @@
     },
     {
      "id": "מחל",
-     "closeness": 0.13482778146291285,
+     "closeness": 0.12354107006140418,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -115500,7 +115476,7 @@
      ],
      [
       "13",
-      "18",
+      "52",
       "מחל"
      ]
     ]
@@ -140343,90 +140319,90 @@
     "63": 1,
     "55": 1,
     "40": -2,
-    "38": -1
+    "66": -2
    },
    "mult": {},
    "ranking": [
     {
      "id": "מחל",
-     "closeness": 0.3330082339266159,
+     "closeness": 0.4650215311954974,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.23115069063608912,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "דרך",
-     "closeness": 0.17882107177664106,
+     "closeness": 0.42200782119803654,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.15584720650477196,
+     "closeness": 0.3825033210641896,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "ב",
+     "closeness": 0.15333053009788147,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ט",
-     "closeness": 0.05211089227272762,
-     "coverage": 0.9230769230769231,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "ב",
-     "closeness": 0.04949080950472613,
+     "closeness": 0.14776335963757897,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
-     "id": "ל",
-     "closeness": -0.021756559800820256,
+     "id": "דרך",
+     "closeness": 0.12175144750932426,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ודם",
-     "closeness": -0.1276701343244882,
+     "closeness": 0.06237689530569513,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.15738377815001472,
+     "closeness": -0.015527469336802218,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "ל",
+     "closeness": -0.06940064055043818,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.22441163666619293,
+     "closeness": -0.09048093064793196,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.3195043599146877,
+     "closeness": -0.11602597575369185,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.4323035966390716,
+     "closeness": -0.20054996385775625,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -140440,22 +140416,22 @@
     },
     {
      "id": "בי",
-     "closeness": -0.007863945392716691,
+     "closeness": 0.4307500859299118,
      "coverage": 0.6923076923076923,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "ני",
-     "closeness": 0.2647844853710871,
-     "coverage": 0.8461538461538461,
+     "closeness": 0.23975463912288725,
+     "coverage": 0.9230769230769231,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.2002692979516447,
-     "coverage": 0.8461538461538461,
+     "closeness": 0.222433602338684,
+     "coverage": 0.9230769230769231,
      "note": "few former MKs: 1",
      "ranked": false
     },
@@ -140624,19 +140600,19 @@
       "מחל"
      ],
      [
-      "40",
+      "66",
       "7",
       "שס"
      ],
      [
-      "14",
-      "8",
-      "דרך"
+      "40",
+      "20",
+      "ג"
      ],
      [
       "92",
-      "38",
-      "ג"
+      "55",
+      "ב"
      ],
      [
       "63",
@@ -141137,6 +141113,126 @@
           [
            76,
            "Afif Abed"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "66",
+       "contribution": 0.4504,
+       "p": 0.4504,
+       "lines": [
+        "“Child, pregnancy and parental benefits should come with stricter conditions, even if some children and parents lose assistance.”",
+        "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
+        "Basis: 8 bills sponsored by the list's former MKs — 8 your way, 0 the other way; 0 votes on private bills and 39 votes on the other camp's bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2165895",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           8,
+           "Ofir Katz"
+          ],
+          [
+           20,
+           "Hava Eti Atia"
+          ],
+          [
+           40,
+           "May Golan"
+          ]
+         ]
+        },
+        {
+         "bill": "2195676",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           20,
+           "Hava Eti Atia"
+          ]
+         ]
+        },
+        {
+         "bill": "2156344",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           20,
+           "Hava Eti Atia"
+          ]
+         ]
+        },
+        {
+         "bill": "2200514",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           20,
+           "Hava Eti Atia"
+          ]
+         ]
+        },
+        {
+         "bill": "2195983",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           20,
+           "Hava Eti Atia"
+          ]
+         ]
+        },
+        {
+         "bill": "2156099",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           23,
+           "Shlomo Karhi"
+          ],
+          [
+           40,
+           "May Golan"
+          ]
+         ]
+        },
+        {
+         "bill": "2161111",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           25,
+           "Gila Gamliel"
+          ]
+         ]
+        },
+        {
+         "bill": "2166990",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           46,
+           "Idit Silman"
           ]
          ]
         }
@@ -143396,115 +143492,6 @@
        ]
       },
       {
-       "q": "38",
-       "contribution": -0.1607,
-       "p": 0.3214,
-       "lines": [
-        "“Citizens should be allowed to withdraw long-term savings, such as pension and study funds, early, even if they are left with less in old age.”",
-        "Your answer: disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 8 bills sponsored by the list's former MKs — 2 your way, 6 the other way; 1 vote on private bills and 1 vote on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2167864",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           8,
-           "Ofir Katz"
-          ]
-         ]
-        },
-        {
-         "bill": "2159460",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           8,
-           "Ofir Katz"
-          ]
-         ]
-        },
-        {
-         "bill": "2209180",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
-         "bill": "2209946",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           20,
-           "Hava Eti Atia"
-          ]
-         ]
-        },
-        {
-         "bill": "2220955",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           35,
-           "Avichai Avraham Boaron"
-          ]
-         ]
-        },
-        {
-         "bill": "2216756",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           38,
-           "Hanoch Dov Milwidsky"
-          ]
-         ]
-        },
-        {
-         "bill": "2191803",
-         "sign": -1,
-         "role": "secondary",
-         "same": true,
-         "authors": [
-          [
-           46,
-           "Idit Silman"
-          ]
-         ]
-        },
-        {
-         "bill": "2226325",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           65,
-           "Osher Shekalim"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "64",
        "contribution": -0.2874,
        "p": 0.2874,
@@ -143705,6 +143692,154 @@
           [
            119,
            "Yaakov Margi"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "q": "66",
+       "contribution": 0.8821,
+       "p": 0.8821,
+       "lines": [
+        "“Child, pregnancy and parental benefits should come with stricter conditions, even if some children and parents lose assistance.”",
+        "Your answer: strongly disagree. The record of the list's former MKs points against this statement.",
+        "Basis: 9 bills sponsored by the list's former MKs — 8 your way, 1 the other way; 22 votes on private bills and 12 votes on the other camp's bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2159262",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
+          ]
+         ]
+        },
+        {
+         "bill": "2233344",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
+          ]
+         ]
+        },
+        {
+         "bill": "2156099",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
+          ],
+          [
+           5,
+           "Haim Biton"
+          ],
+          [
+           7,
+           "Moshe Abutbul"
+          ],
+          [
+           8,
+           "Uriel Buso"
+          ],
+          [
+           119,
+           "Yaakov Margi"
+          ]
+         ]
+        },
+        {
+         "bill": "2228513",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
+          ]
+         ]
+        },
+        {
+         "bill": "2165895",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           3,
+           "Michael Malchieli"
+          ],
+          [
+           7,
+           "Moshe Abutbul"
+          ],
+          [
+           8,
+           "Uriel Buso"
+          ],
+          [
+           119,
+           "Yaakov Margi"
+          ]
+         ]
+        },
+        {
+         "bill": "2196042",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           9,
+           "Yosef Taieb"
+          ]
+         ]
+        },
+        {
+         "bill": "2201426",
+         "sign": 1,
+         "role": "main",
+         "same": true,
+         "authors": [
+          [
+           10,
+           "Yonatan Mishraki"
+          ]
+         ]
+        },
+        {
+         "bill": "2203284",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           10,
+           "Yonatan Mishraki"
+          ]
+         ]
+        },
+        {
+         "bill": "2157171",
+         "sign": -1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           2,
+           "Yinon Azoulay"
           ]
          ]
         }
@@ -144929,147 +145064,6 @@
        ]
       },
       {
-       "q": "38",
-       "contribution": -0.46875,
-       "p": 0.9375,
-       "lines": [
-        "“Citizens should be allowed to withdraw long-term savings, such as pension and study funds, early, even if they are left with less in old age.”",
-        "Your answer: disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 10 bills sponsored by the list's former MKs — 0 your way, 10 the other way; 4 votes on private bills and 2 votes on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
-       ],
-       "evidence": [
-        {
-         "bill": "2217620",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ]
-         ]
-        },
-        {
-         "bill": "2157504",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ]
-         ]
-        },
-        {
-         "bill": "2195923",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ]
-         ]
-        },
-        {
-         "bill": "2156893",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ]
-         ]
-        },
-        {
-         "bill": "2200794",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ]
-         ]
-        },
-        {
-         "bill": "2216756",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           2,
-           "Yinon Azoulay"
-          ]
-         ]
-        },
-        {
-         "bill": "2156304",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           3,
-           "Michael Malchieli"
-          ]
-         ]
-        },
-        {
-         "bill": "2157579",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           5,
-           "Haim Biton"
-          ],
-          [
-           7,
-           "Moshe Abutbul"
-          ],
-          [
-           119,
-           "Yaakov Margi"
-          ]
-         ]
-        },
-        {
-         "bill": "2205738",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           9,
-           "Yosef Taieb"
-          ]
-         ]
-        },
-        {
-         "bill": "2211854",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           10,
-           "Yonatan Mishraki"
-          ]
-         ]
-        }
-       ]
-      },
-      {
        "q": "7",
        "contribution": -0.56325,
        "p": -1.1265,
@@ -145150,6 +145144,30 @@
     {
      "id": "בי",
      "items": [
+      {
+       "q": "66",
+       "contribution": 1.0,
+       "p": 1.0,
+       "lines": [
+        "“Child, pregnancy and parental benefits should come with stricter conditions, even if some children and parents lose assistance.”",
+        "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: 1 bill sponsored by the list's former MKs — 1 your way, 0 the other way; 0 votes on private bills and 0 votes on the other camp's bills on this topic."
+       ],
+       "evidence": [
+        {
+         "bill": "2159825",
+         "sign": 1,
+         "role": "secondary",
+         "same": true,
+         "authors": [
+          [
+           1,
+           "Gadi Yevarkan"
+          ]
+         ]
+        }
+       ]
+      },
       {
        "q": "92",
        "contribution": 0.5,
@@ -145263,30 +145281,6 @@
          ]
         }
        ]
-      },
-      {
-       "q": "38",
-       "contribution": -0.5,
-       "p": 1.0,
-       "lines": [
-        "“Citizens should be allowed to withdraw long-term savings, such as pension and study funds, early, even if they are left with less in old age.”",
-        "Your answer: disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 0 votes on private bills and 0 votes on the other camp's bills on this topic."
-       ],
-       "evidence": [
-        {
-         "bill": "2159836",
-         "sign": 1,
-         "role": "secondary",
-         "same": false,
-         "authors": [
-          [
-           1,
-           "Gadi Yevarkan"
-          ]
-         ]
-        }
-       ]
       }
      ]
     }
@@ -145309,7 +145303,7 @@
      "63",
      "55",
      "40",
-     "38"
+     "66"
     ]
    }
   },
@@ -145330,90 +145324,90 @@
     "92": -2,
     "62": 1,
     "40": -1,
-    "38": -2
+    "66": 2
    },
    "mult": {},
    "ranking": [
     {
      "id": "מחל",
-     "closeness": 0.37331768482945316,
+     "closeness": 0.33664531284312443,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "דרך",
-     "closeness": 0.26078994519770216,
+     "closeness": 0.3077690559849849,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "שס",
-     "closeness": 0.2191632189664638,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "ט",
-     "closeness": 0.1722725305391513,
-     "coverage": 0.9166666666666666,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "ב",
-     "closeness": 0.05217997721483997,
+     "closeness": 0.23040658507140288,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ג",
-     "closeness": 0.030025339759594098,
+     "closeness": 0.071001693063976,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "ט",
+     "closeness": 0.03903079236436328,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "רק",
-     "closeness": -0.07693518039123723,
+     "closeness": -0.03164702844026705,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "כן",
-     "closeness": -0.11782963108347515,
+     "closeness": -0.04209229180040733,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "ב",
+     "closeness": -0.08362096962119574,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "ל",
-     "closeness": -0.2601996148593031,
-     "coverage": 1.0,
-     "note": "",
-     "ranked": true
-    },
-    {
-     "id": "ודם",
-     "closeness": -0.3085805604878201,
+     "closeness": -0.14022598657527405,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "עם",
-     "closeness": -0.3393108009070193,
+     "closeness": -0.20166543364826162,
+     "coverage": 1.0,
+     "note": "",
+     "ranked": true
+    },
+    {
+     "id": "ודם",
+     "closeness": -0.29669247932406423,
      "coverage": 1.0,
      "note": "",
      "ranked": true
     },
     {
      "id": "אמת",
-     "closeness": -0.44804288501894546,
+     "closeness": -0.5555892620336342,
      "coverage": 1.0,
      "note": "",
      "ranked": true
@@ -145434,15 +145428,15 @@
     },
     {
      "id": "ני",
-     "closeness": 0.5795763165528625,
-     "coverage": 0.8333333333333334,
+     "closeness": 0.524155835378685,
+     "coverage": 0.9166666666666666,
      "note": "few former MKs: 1",
      "ranked": false
     },
     {
      "id": "י",
-     "closeness": 0.14511439078402838,
-     "coverage": 0.8333333333333334,
+     "closeness": 0.07966670828387475,
+     "coverage": 0.9166666666666666,
      "note": "few former MKs: 1",
      "ranked": false
     },
@@ -145617,18 +145611,13 @@
      ],
      [
       "7",
-      "38",
+      "66",
       "שס"
      ],
      [
-      "3",
+      "49",
       "1",
-      "ט"
-     ],
-     [
-      "62",
-      "8",
-      "ב"
+      "ג"
      ]
     ]
    },
@@ -149115,30 +149104,17 @@
        ]
       },
       {
-       "q": "38",
-       "contribution": -0.3214,
-       "p": 0.3214,
+       "q": "66",
+       "contribution": -0.4504,
+       "p": 0.4504,
        "lines": [
-        "“Citizens should be allowed to withdraw long-term savings, such as pension and study funds, early, even if they are left with less in old age.”",
-        "Your answer: strongly disagree. The record of the list's former MKs points toward this statement.",
-        "Basis: 8 bills sponsored by the list's former MKs — 2 your way, 6 the other way; 1 vote on private bills and 1 vote on the other camp's bills on this topic.",
-        "This shows what their bills and votes pushed for, not whether they accept the price named in the statement."
+        "“Child, pregnancy and parental benefits should come with stricter conditions, even if some children and parents lose assistance.”",
+        "Your answer: strongly agree. The record of the list's former MKs points against this statement.",
+        "Basis: 8 bills sponsored by the list's former MKs — 0 your way, 8 the other way; 0 votes on private bills and 39 votes on the other camp's bills on this topic."
        ],
        "evidence": [
         {
-         "bill": "2167864",
-         "sign": 1,
-         "role": "main",
-         "same": false,
-         "authors": [
-          [
-           8,
-           "Ofir Katz"
-          ]
-         ]
-        },
-        {
-         "bill": "2159460",
+         "bill": "2165895",
          "sign": 1,
          "role": "secondary",
          "same": false,
@@ -149146,11 +149122,19 @@
           [
            8,
            "Ofir Katz"
+          ],
+          [
+           20,
+           "Hava Eti Atia"
+          ],
+          [
+           40,
+           "May Golan"
           ]
          ]
         },
         {
-         "bill": "2209180",
+         "bill": "2195676",
          "sign": 1,
          "role": "main",
          "same": false,
@@ -149162,7 +149146,7 @@
          ]
         },
         {
-         "bill": "2209946",
+         "bill": "2156344",
          "sign": 1,
          "role": "main",
          "same": false,
@@ -149174,50 +149158,66 @@
          ]
         },
         {
-         "bill": "2220955",
+         "bill": "2200514",
          "sign": 1,
          "role": "main",
          "same": false,
          "authors": [
           [
-           35,
-           "Avichai Avraham Boaron"
+           20,
+           "Hava Eti Atia"
           ]
          ]
         },
         {
-         "bill": "2216756",
+         "bill": "2195983",
          "sign": 1,
          "role": "main",
          "same": false,
          "authors": [
           [
-           38,
-           "Hanoch Dov Milwidsky"
+           20,
+           "Hava Eti Atia"
           ]
          ]
         },
         {
-         "bill": "2191803",
-         "sign": -1,
+         "bill": "2156099",
+         "sign": 1,
          "role": "secondary",
-         "same": true,
+         "same": false,
+         "authors": [
+          [
+           23,
+           "Shlomo Karhi"
+          ],
+          [
+           40,
+           "May Golan"
+          ]
+         ]
+        },
+        {
+         "bill": "2161111",
+         "sign": 1,
+         "role": "secondary",
+         "same": false,
+         "authors": [
+          [
+           25,
+           "Gila Gamliel"
+          ]
+         ]
+        },
+        {
+         "bill": "2166990",
+         "sign": 1,
+         "role": "main",
+         "same": false,
          "authors": [
           [
            46,
            "Idit Silman"
-          ]
-         ]
-        },
-        {
-         "bill": "2226325",
-         "sign": -1,
-         "role": "main",
-         "same": true,
-         "authors": [
-          [
-           65,
-           "Osher Shekalim"
           ]
          ]
         }
@@ -149636,13 +149636,13 @@
        ]
       },
       {
-       "q": "38",
-       "contribution": -0.0,
-       "p": 0.0,
+       "q": "66",
+       "contribution": 0.169,
+       "p": -0.169,
        "lines": [
-        "“Citizens should be allowed to withdraw long-term savings, such as pension and study funds, early, even if they are left with less in old age.”",
-        "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
-        "Basis: no bills of their own on this topic, only 2 votes on private bills and 0 votes on the other camp's bills on this topic."
+        "“Child, pregnancy and parental benefits should come with stricter conditions, even if some children and parents lose assistance.”",
+        "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
+        "Basis: no bills of their own on this topic, only 3 votes on private bills and 0 votes on the other camp's bills on this topic."
        ],
        "evidence": []
       },
@@ -149851,17 +149851,17 @@
        "evidence": []
       },
       {
-       "q": "38",
+       "q": "66",
        "contribution": -1.0,
        "p": 1.0,
        "lines": [
-        "“Citizens should be allowed to withdraw long-term savings, such as pension and study funds, early, even if they are left with less in old age.”",
-        "Your answer: strongly disagree. The record of the list's former MKs shows no clear position on this statement.",
+        "“Child, pregnancy and parental benefits should come with stricter conditions, even if some children and parents lose assistance.”",
+        "Your answer: strongly agree. The record of the list's former MKs shows no clear position on this statement.",
         "Basis: 1 bill sponsored by the list's former MKs — 0 your way, 1 the other way; 0 votes on private bills and 0 votes on the other camp's bills on this topic."
        ],
        "evidence": [
         {
-         "bill": "2159836",
+         "bill": "2159825",
          "sign": 1,
          "role": "secondary",
          "same": false,
@@ -149919,7 +149919,7 @@
      "92",
      "62",
      "40",
-     "38"
+     "66"
     ]
    }
   },
