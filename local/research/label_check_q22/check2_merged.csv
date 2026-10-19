@@ -1,0 +1,4 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason,kind,cid,v2,s2,r2
+22,158,הצעת חוק ברית הזוגיות לחסרי דת (תיקון - ברית זוגיות למנועי חיתון בישראל),2195878 2190160,+,main,2195878,F1-7,about,+,Extends civil union to those barred from religious marriage,control,C1,about,+,Extends Covenant of Union civil partnership registration to couples barred from marrying religiously in Israel
+22,158,הצעת חוק גיור ממלכתי בישראל,2156060,−,secondary,2156060,F1-12,not_about,,"Conversion system governance, not non-religious marriage options",candidate,C2,not_about,,Restricts legal validity of religious conversion to state conversion system; no non-religious marriage option involved
+22,158,הצעת חוק רישום נישואין אזרחיים בעיר אילת (תיקוני חקיקה),2199059,+,main,2199059,F1-13,about,+,Permits civil marriage registration in Eilat,control,C3,about,+,"Allows registering civil marriages conducted in Eilat, creating a domestic non-religious marriage route"
