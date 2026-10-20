@@ -187,7 +187,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",277b,"пособия по инвалидности, уходу и болезни",0.2,0.4,0.0,10,6,1,False,-0.2,10,9
 אמת,"HaDemocratim, headed by Yair Golan",277c,"пособия при беременности, на детей и родителям",1.0,1.0,0.0,6,7,0,False,0.0,0,6
 אמת,"HaDemocratim, headed by Yair Golan",277d,пособия по безработице и для молодых работников,0.3517,0.4,0.0,10,7,36,False,-0.0483,31,10
-אמת,"HaDemocratim, headed by Yair Golan",277e,пособия пожилым и пережившим Катастрофу,0.6,0.6,0.0,5,5,2,False,0.0,0,5
+אמת,"HaDemocratim, headed by Yair Golan",277e,пособия пожилым и пережившим Катастрофу,0.8,0.8,0.0,5,4,2,False,0.0,0,4
 אמת,"HaDemocratim, headed by Yair Golan",277f,"пособия семьям погибших, вдовам и сиротам",0.6286,0.5714,0.0,7,13,12,False,0.0571,10,14
 אמת,"HaDemocratim, headed by Yair Golan",277g1,государственная поддержка студентов и учащихся,0.0357,0.1429,0.0,7,7,0,False,-0.1071,8,5
 אמת,"HaDemocratim, headed by Yair Golan",277g2,льготы на учёбу служившим,0.7387,0.6667,0.072,3,2,4,False,0.0,0,2
@@ -322,7 +322,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",95,ответственность государства и учреждений перед гражданами,0.3708,0.5,0.0,10,15,23,False,-0.1292,28,12
 אמת,"HaDemocratim, headed by Yair Golan",96,ответственность правонарушителей,0.6114,0.6623,0.0124,11,67,116,False,-0.0632,73,72
 אמת,"HaDemocratim, headed by Yair Golan",97,защита от насилия и его профилактика,0.7716,0.9091,0.0024,11,169,307,False,-0.1399,247,172
-אמת,"HaDemocratim, headed by Yair Golan",98,принудительные меры в отношении лиц под защитным приказом,0.5806,0.42,-0.0201,10,13,53,False,0.1807,43,12
+אמת,"HaDemocratim, headed by Yair Golan",98,принудительные меры в отношении лиц под защитным приказом,0.725,0.5,0.0,10,10,40,False,0.225,34,6
 אמת,"HaDemocratim, headed by Yair Golan",99,защита детей,0.9649,0.8182,0.0081,11,88,139,False,0.1387,57,76
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",1,"социальные выплаты, пособия и льготы",0.7038,0.7525,0.0651,6,194,327,False,-0.1138,606,373
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",100,надзор и камеры в учреждениях,1.0,1.0,0.0,3,3,0,False,0.0,0,2
@@ -652,7 +652,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",95,ответственность государства и учреждений перед гражданами,0.5625,0.5,0.0,4,4,5,False,0.0625,1,7
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",96,ответственность правонарушителей,0.5185,0.6,0.0624,6,22,50,False,-0.1439,86,56
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",97,защита от насилия и его профилактика,0.7236,0.6667,0.034,6,87,271,False,0.0229,307,161
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",98,принудительные меры в отношении лиц под защитным приказом,0.398,0.4,-0.002,5,2,3,False,0.0,38,5
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",98,принудительные меры в отношении лиц под защитным приказом,0.25,0.5,0.0,4,2,0,False,-0.25,12,3
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",99,защита детей,0.465,0.5744,-0.0137,6,21,44,False,-0.0957,79,42
 בי,Tzomet Beit Yisrael,1,"социальные выплаты, пособия и льготы",0.9954,1.0,0.0041,1,16,58,True,-0.0086,29,74
 בי,Tzomet Beit Yisrael,10,расходы потребителей на тару и упаковку,-0.25,0.0,-0.0,1,0,1,True,-0.25,2,1
@@ -1200,7 +1200,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,95,ответственность государства и учреждений перед гражданами,0.8214,0.7143,0.0,7,24,16,False,0.1071,3,11
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,96,ответственность правонарушителей,0.1982,0.4029,-0.1026,9,73,109,False,-0.1021,110,67
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,97,защита от насилия и его профилактика,0.7383,0.8889,-0.1147,9,35,283,False,-0.0359,298,132
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,98,принудительные меры в отношении лиц под защитным приказом,-0.0787,0.0,-0.0006,8,0,10,False,-0.0781,25,6
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,98,принудительные меры в отношении лиц под защитным приказом,-0.1094,0.0,0.0,8,0,9,False,-0.1094,17,4
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,99,защита детей,0.2034,0.4138,-0.1216,9,51,57,False,-0.0888,97,50
 די,"HaMiluimnikim v’haCalcalit, headed by Yoaz Hendel and Yaron Zelekha",132,продолжительность установленных законом сроков процедур,-1.0,-1.0,0.0,1,1,0,True,0.0,0,1
 די,"HaMiluimnikim v’haCalcalit, headed by Yoaz Hendel and Yaron Zelekha",187,привязка прав и льгот к службе,1.0,1.0,0.0,1,1,0,True,0.0,0,1
@@ -1512,7 +1512,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",95,ответственность государства и учреждений перед гражданами,0.375,0.5,0.0,2,1,0,True,-0.125,3,4
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",96,ответственность правонарушителей,0.4109,0.25,0.09,4,1,51,False,0.0708,38,42
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",97,защита от насилия и его профилактика,0.5634,0.5,0.0304,4,5,150,False,0.033,84,95
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",98,принудительные меры в отношении лиц под защитным приказом,0.1587,0.0,0.0337,4,0,12,False,0.125,7,5
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",98,принудительные меры в отношении лиц под защитным приказом,0.0625,0.0,0.0,4,0,12,False,0.0625,3,4
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",99,защита детей,0.5473,0.25,0.0473,4,1,61,False,0.25,16,32
 ודם,The Joint Arab List,1,"социальные выплаты, пособия и льготы",1.021,0.9965,-0.0353,5,565,603,False,0.0598,488,428
 ודם,The Joint Arab List,10,расходы потребителей на тару и упаковку,-0.25,0.0,-0.0,3,0,3,False,-0.25,6,1
@@ -1703,7 +1703,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,277b,"пособия по инвалидности, уходу и болезни",1.0,1.0,0.0,5,27,8,False,0.0,0,14
 ודם,The Joint Arab List,277c,"пособия при беременности, на детей и родителям",1.2453,1.0,0.2453,4,22,10,False,0.0,0,9
 ודם,The Joint Arab List,277d,пособия по безработице и для молодых работников,1.0857,1.0,0.0,5,23,25,False,0.0857,18,14
-ודם,The Joint Arab List,277e,пособия пожилым и пережившим Катастрофу,0.8125,0.75,0.0,4,3,1,False,0.0625,1,3
+ודם,The Joint Arab List,277e,пособия пожилым и пережившим Катастрофу,0.75,0.75,0.0,4,3,1,False,0.0,0,2
 ודם,The Joint Arab List,277f,"пособия семьям погибших, вдовам и сиротам",0.8,0.8,0.0,5,8,14,False,0.0,0,3
 ודם,The Joint Arab List,277g1,государственная поддержка студентов и учащихся,1.0,1.0,0.0,5,24,6,False,0.0,0,9
 ודם,The Joint Arab List,277g2,льготы на учёбу служившим,-0.446,0.0,-0.321,4,0,3,False,-0.125,2,2
@@ -1834,7 +1834,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,95,ответственность государства и учреждений перед гражданами,1.25,1.0,0.0,4,23,14,False,0.25,8,14
 ודם,The Joint Arab List,96,ответственность правонарушителей,-0.1078,0.1055,-0.2126,5,61,103,False,-0.0006,84,76
 ודם,The Joint Arab List,97,защита от насилия и его профилактика,0.7804,1.0,-0.1346,5,177,451,False,-0.085,363,202
-ודם,The Joint Arab List,98,принудительные меры в отношении лиц под защитным приказом,0.6561,0.6,-0.0181,5,8,33,False,0.0742,25,11
+ודם,The Joint Arab List,98,принудительные меры в отношении лиц под защитным приказом,0.75,0.6,0.0,5,8,26,False,0.15,18,7
 ודם,The Joint Arab List,99,защита детей,1.2595,1.0,0.0095,5,81,144,False,0.25,94,80
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",1,"социальные выплаты, пособия и льготы",0.5315,0.6672,0.0131,6,231,479,False,-0.1488,749,369
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",100a,камеры в учреждениях для детей и уязвимых,0.2083,0.2,0.0,5,1,0,False,0.0083,13,3
@@ -2158,7 +2158,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",95,ответственность государства и учреждений перед гражданами,0.75,0.75,0.0,6,10,14,False,0.0,0,9
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",96,ответственность правонарушителей,0.8381,0.9221,0.0089,6,42,63,False,-0.0928,101,62
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",97,защита от насилия и его профилактика,1.0412,1.0,0.031,6,67,273,False,0.0102,310,143
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",98,принудительные меры в отношении лиц под защитным приказом,0.0175,0.0,-0.0012,6,0,4,False,0.0186,42,5
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",98,принудительные меры в отношении лиц под защитным приказом,-0.125,0.0,0.0,6,0,2,False,-0.125,18,3
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",99,защита детей,0.3273,0.3333,0.0181,6,16,41,False,-0.0242,109,43
 י,"Yisrael Techila, headed by Sharren Haskel",1,"социальные выплаты, пособия и льготы",0.7295,0.8,0.0387,1,20,73,True,-0.1092,142,177
 י,"Yisrael Techila, headed by Sharren Haskel",10,расходы потребителей на тару и упаковку,0.2498,0.0,-0.0002,1,0,2,True,0.25,1,1
@@ -2448,7 +2448,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 י,"Yisrael Techila, headed by Sharren Haskel",95,ответственность государства и учреждений перед гражданами,-0.0833,0.0,0.0,1,0,2,True,-0.0833,3,5
 י,"Yisrael Techila, headed by Sharren Haskel",96,ответственность правонарушителей,0.8977,1.0,0.0048,1,4,13,True,-0.1071,14,26
 י,"Yisrael Techila, headed by Sharren Haskel",97,защита от насилия и его профилактика,1.0542,1.0,0.0429,1,10,60,True,0.0114,44,78
-י,"Yisrael Techila, headed by Sharren Haskel",98,принудительные меры в отношении лиц под защитным приказом,0.2556,0.0,0.0056,1,0,5,True,0.25,2,6
+י,"Yisrael Techila, headed by Sharren Haskel",98,принудительные меры в отношении лиц под защитным приказом,0.25,0.0,0.0,1,0,3,True,0.25,2,4
 י,"Yisrael Techila, headed by Sharren Haskel",99,защита детей,1.0516,1.0,0.0516,1,2,23,True,0.0,16,30
 י,"Yisrael Techila, headed by Sharren Haskel",new357,возможность оспорить результаты выборов в суде,-1.0,-1.0,0.0,1,1,0,True,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",1,"социальные выплаты, пособия и льготы",1.0871,0.9853,0.0502,4,127,373,False,0.0516,287,322
@@ -2764,7 +2764,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",95,ответственность государства и учреждений перед гражданами,0.5556,0.6667,0.0,3,3,3,False,-0.1111,5,7
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",96,ответственность правонарушителей,0.6641,0.5833,0.076,4,22,62,False,0.0048,38,52
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",97,защита от насилия и его профилактика,1.0126,1.0,0.0287,4,47,206,False,-0.0161,101,129
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",98,принудительные меры в отношении лиц под защитным приказом,0.6049,0.3333,0.0215,3,2,12,False,0.25,8,9
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",98,принудительные меры в отношении лиц под защитным приказом,0.5833,0.3333,0.0,3,2,10,False,0.25,7,6
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",99,защита детей,1.0002,0.75,0.0315,4,19,67,False,0.2188,19,48
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",1,"социальные выплаты, пособия и льготы",0.6859,0.6878,0.0023,8,604,510,False,-0.0042,560,397
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",10,расходы потребителей на тару и упаковку,0.2498,0.0,-0.0002,1,0,2,True,0.25,1,1
@@ -2960,7 +2960,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",277b,"пособия по инвалидности, уходу и болезни",0.75,0.8333,0.0,6,5,2,False,-0.0833,2,3
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",277c,"пособия при беременности, на детей и родителям",-0.4962,-0.3143,-0.1819,7,24,9,False,0.0,2,5
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",277d,пособия по безработице и для молодых работников,-0.0833,0.0,0.0,3,0,0,False,-0.0833,5,2
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",277e,пособия пожилым и пережившим Катастрофу,0.8571,0.8571,0.0,7,15,5,False,0.0,2,6
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",277e,пособия пожилым и пережившим Катастрофу,0.8214,0.8571,0.0,7,15,5,False,-0.0357,1,5
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",277f,"пособия семьям погибших, вдовам и сиротам",0.8889,0.8056,0.0,6,15,8,False,0.0833,8,11
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",277g1,государственная поддержка студентов и учащихся,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",277g2,льготы на учёбу служившим,0.0184,0.0,0.06,6,0,6,False,-0.0417,1,2
@@ -3092,7 +3092,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",95,ответственность государства и учреждений перед гражданами,0.5,0.625,0.0,8,10,3,False,-0.125,7,7
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",96,ответственность правонарушителей,0.8234,0.7427,0.072,8,119,99,False,0.0088,51,68
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",97,защита от насилия и его профилактика,1.1287,1.0,0.0604,8,344,331,False,0.0683,238,174
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",98,принудительные меры в отношении лиц под защитным приказом,0.8525,0.7143,0.0291,7,10,19,False,0.1091,19,11
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",98,принудительные меры в отношении лиц под защитным приказом,0.5,0.4286,0.0,7,3,16,False,0.0714,9,6
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",99,защита детей,1.032,0.9167,0.0268,8,70,89,False,0.0885,57,55
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",1,"социальные выплаты, пособия и льготы",0.6112,0.7152,0.0134,33,848,2286,False,-0.1174,3220,664
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",10,расходы потребителей на тару и упаковку,0.0625,0.25,-0.0,4,1,3,False,-0.1875,6,1
@@ -3435,7 +3435,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",95,ответственность государства и учреждений перед гражданами,0.3056,0.2667,0.0,30,12,69,False,0.0389,9,12
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",96,ответственность правонарушителей,0.7418,0.8019,0.0348,33,131,321,False,-0.0949,482,103
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",97,защита от насилия и его профилактика,0.9627,0.9091,0.0323,33,275,1308,False,0.0213,1421,252
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",98,принудительные меры в отношении лиц под защитным приказом,0.4829,0.4643,0.0003,28,15,30,False,0.0183,169,11
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",98,принудительные меры в отношении лиц под защитным приказом,0.2806,0.4074,0.0,27,11,21,False,-0.1269,70,5
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",99,защита детей,0.5976,0.5696,0.0301,32,82,237,False,-0.0022,492,87
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",1,"социальные выплаты, пособия и льготы",0.4041,0.5,-0.0346,1,16,73,True,-0.0613,53,111
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",100b,съёмка применения силы полицией,1.0,1.0,0.0,1,1,1,True,0.0,0,1
@@ -3900,7 +3900,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",277b,"пособия по инвалидности, уходу и болезни",0.6,0.8,0.0,5,22,3,False,-0.2,4,7
 עם,"Ra’am, the United Arab List",277c,"пособия при беременности, на детей и родителям",0.5786,0.3333,0.2453,3,3,6,False,0.0,0,5
 עם,"Ra’am, the United Arab List",277d,пособия по безработице и для молодых работников,0.9292,0.8333,0.0,6,20,6,False,0.0958,22,12
-עם,"Ra’am, the United Arab List",277e,пособия пожилым и пережившим Катастрофу,0.125,0.0,0.0,2,0,2,True,0.125,1,2
+עם,"Ra’am, the United Arab List",277e,пособия пожилым и пережившим Катастрофу,0.0,0.0,0.0,2,0,2,True,0.0,0,1
 עם,"Ra’am, the United Arab List",277f,"пособия семьям погибших, вдовам и сиротам",0.25,0.2,0.0,5,2,13,False,0.05,1,6
 עם,"Ra’am, the United Arab List",277g,льготы студентам и учащимся,1.0,1.0,0.0,4,7,0,False,0.0,0,1
 עם,"Ra’am, the United Arab List",277g1,государственная поддержка студентов и учащихся,0.6944,0.6667,0.0,6,8,0,False,0.0278,8,5
@@ -4030,7 +4030,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",95,ответственность государства и учреждений перед гражданами,0.6458,0.8333,0.0,6,16,6,False,-0.1875,15,9
 עם,"Ra’am, the United Arab List",96,ответственность правонарушителей,-0.088,0.0516,-0.0805,6,89,106,False,-0.0592,68,66
 עם,"Ra’am, the United Arab List",97,защита от насилия и его профилактика,0.7773,1.0,-0.0682,6,105,354,False,-0.1545,336,167
-עם,"Ra’am, the United Arab List",98,принудительные меры в отношении лиц под защитным приказом,-0.0138,0.0,-0.118,6,0,30,False,0.1042,21,8
+עם,"Ra’am, the United Arab List",98,принудительные меры в отношении лиц под защитным приказом,0.25,0.0,0.0,5,0,18,False,0.25,15,5
 עם,"Ra’am, the United Arab List",99,защита детей,1.1532,1.0,-0.0294,6,66,127,False,0.1827,58,61
 רק,"Be’Yahad, headed by Naftali Bennett",1,"социальные выплаты, пособия и льготы",0.8971,0.8366,0.0249,16,826,1966,False,0.0355,1573,581
 רק,"Be’Yahad, headed by Naftali Bennett",10,расходы потребителей на тару и упаковку,0.8999,0.8,-0.0001,10,12,8,False,0.1,4,1
@@ -4230,7 +4230,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",277b,"пособия по инвалидности, уходу и болезни",0.125,0.2143,0.0,14,7,8,False,-0.0893,9,10
 רק,"Be’Yahad, headed by Naftali Bennett",277c,"пособия при беременности, на детей и родителям",0.3929,0.5,-0.1071,8,7,10,False,0.0,0,8
 רק,"Be’Yahad, headed by Naftali Bennett",277d,пособия по безработице и для молодых работников,0.3841,0.3636,0.0,11,6,19,False,0.0205,39,7
-רק,"Be’Yahad, headed by Naftali Bennett",277e,пособия пожилым и пережившим Катастрофу,0.45,0.4,0.0,10,5,10,False,0.05,5,5
+רק,"Be’Yahad, headed by Naftali Bennett",277e,пособия пожилым и пережившим Катастрофу,0.4,0.4,0.0,10,5,10,False,0.0,0,4
 רק,"Be’Yahad, headed by Naftali Bennett",277f,"пособия семьям погибших, вдовам и сиротам",0.5071,0.3286,0.0,14,12,41,False,0.1786,31,13
 רק,"Be’Yahad, headed by Naftali Bennett",277g1,государственная поддержка студентов и учащихся,0.1167,0.0,0.0,5,0,0,False,0.1167,10,2
 רק,"Be’Yahad, headed by Naftali Bennett",277g2,льготы на учёбу служившим,0.6137,0.4167,0.072,12,5,21,False,0.125,6,4
@@ -4368,7 +4368,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",95,ответственность государства и учреждений перед гражданами,0.3248,0.4524,0.0,14,12,10,False,-0.1276,45,14
 רק,"Be’Yahad, headed by Naftali Bennett",96,ответственность правонарушителей,0.8735,0.7847,0.053,16,103,366,False,0.0358,125,89
 רק,"Be’Yahad, headed by Naftali Bennett",97,защита от насилия и его профилактика,0.8705,0.9375,0.0495,16,246,864,False,-0.1164,485,219
-רק,"Be’Yahad, headed by Naftali Bennett",98,принудительные меры в отношении лиц под защитным приказом,0.3934,0.1538,0.0241,13,6,50,False,0.2154,59,11
+רק,"Be’Yahad, headed by Naftali Bennett",98,принудительные меры в отношении лиц под защитным приказом,0.3846,0.1538,0.0,13,3,42,False,0.2308,42,6
 רק,"Be’Yahad, headed by Naftali Bennett",99,защита детей,1.1752,0.9333,0.0321,15,108,343,False,0.2098,141,89
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",1,"социальные выплаты, пособия и льготы",0.8222,0.9473,-0.0766,12,559,1491,False,-0.0485,1197,569
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",10,расходы потребителей на тару и упаковку,-0.375,-0.125,-0.0,8,1,8,False,-0.25,16,2
@@ -4703,5 +4703,5 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",95,ответственность государства и учреждений перед гражданами,0.9167,0.8333,0.0,12,24,28,False,0.0833,4,15
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",96,ответственность правонарушителей,0.4053,0.5162,-0.0835,12,90,197,False,-0.0274,185,89
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",97,защита от насилия и его профилактика,0.8946,0.8333,-0.0522,12,107,587,False,0.1135,600,183
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",98,принудительные меры в отношении лиц под защитным приказом,0.15,0.0909,0.0007,11,1,22,False,0.0584,68,9
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",98,принудительные меры в отношении лиц под защитным приказом,0.0318,0.0909,0.0,11,1,20,False,-0.0591,29,5
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",99,защита детей,0.8124,0.8148,-0.0625,12,57,162,False,0.0601,172,70
