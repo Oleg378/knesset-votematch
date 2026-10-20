@@ -16,7 +16,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.a
 Q, STEP = sys.argv[1], sys.argv[2]
 D = f"{ROOT}/local/research/label_check_q{Q}"
 LAB = f"{ROOT}/jef/directions/labels"
-SRC = f"label check q{Q} (2026-10-19)"
+SRC = os.environ.get("SRC", f"label check q{Q} (2026-10-19)")
 
 def rows(f, cols):
     out = []
