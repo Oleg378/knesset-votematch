@@ -36,11 +36,10 @@ if STEP == "merge":
 elif STEP == "final":
     K["vC"] = K.pid.map(C)
     def dec(r):
-        """«borderline» votes do not count; the majority of the decisive votes decides; a tie -> unresolved (no change)."""
-        v = [x for x in (r.vA, r.vB, r.vC) if x in ("different", "same")]
-        c = collections.Counter(v).most_common()
-        if not c or (len(c) == 2 and c[0][1] == c[1][1]): return "unresolved"
-        return c[0][0]
+        """Two agreeing decisive checks decide; otherwise the third check (forced choice) decides — v1 fix 2026-10-20: a tie used to be
+        left unresolved although the third check was asked precisely to break it."""
+        if r.vA == r.vB and r.vA in ("different", "same"): return r.vA
+        return r.vC if r.vC in ("different", "same") else "unresolved"
     K["decision"] = K.apply(dec, axis=1)
     K["strategy"] = K.decision.map({"different": 1, "same": 2})
     # rule (а), [У] 2026-10-20: strategy 2 only if the broad theme passes the selection (before the removals); otherwise strategy 1
@@ -49,7 +48,13 @@ elif STEP == "final":
     passing = {d for d, x in QS0.criteria().items() if x["base"]}; LB0.load = _o
     K["rule_a"] = (K.strategy == 2) & ~K.big_d.isin(passing)
     K.loc[K.rule_a, "strategy"] = 1
-    K["basis"] = K.apply(lambda r: "two checks" if r.vA == r.vB and r.vA in ("different", "same") else ("third check alone" if r.vA == r.vB == "borderline" else "majority"), axis=1)
+    # customer decisions per pair override everything above (nested_customer.csv)
+    cf = f"{O}/nested_customer.csv"
+    K["customer"] = False
+    if os.path.exists(cf):
+        for r in csv.DictReader(open(cf)):
+            K.loc[K.pid == r["pid"], ["strategy", "customer"]] = [int(r["strategy"]), True]
+    K["basis"] = K.apply(lambda r: "two checks" if r.vA == r.vB and r.vA in ("different", "same") else "third check", axis=1)
     K.to_csv(f"{O}/nested_decision.csv", index=False)
     print(K.decision.value_counts().to_dict(), "| strategy:", K.strategy.value_counts().to_dict(), "| moved to 1 by rule (а):", int(K.rule_a.sum()))
     # removals per bill id × theme, from the original sets (labels before this step)
