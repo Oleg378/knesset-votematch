@@ -1,0 +1,72 @@
+{
+ "note": "Stage 7 (2026-10-20, [У]): split of the basket directions that pass the selection criteria (SHARED_UNDERSTANDING «Выпавшие законопроекты и направления без вопроса»; local/research/basket_split/). Procedure of 2026-10-16 (Opus proposes parts; a part that is an existing direction is a transfer); the choice is made by Sonnet subagents instead of Jev; sign asked per part.",
+ "parents": {
+  "163": [
+   "163p1",
+   "163p2"
+  ],
+  "256s3": [
+   "256s3p1",
+   "256s3p2"
+  ],
+  "122s1": [
+   "122s1p1",
+   "122s1p2"
+  ],
+  "95s2": [
+   "95s2p1",
+   "95s2p2"
+  ]
+ },
+ "new": {
+  "163p1": {
+   "name_ru": "Powers of religious courts",
+   "name_en": "Powers of religious courts",
+   "plus_en": "Religious courts get wider powers, such as arbitrating civil disputes or ruling by consent of the parties",
+   "minus_en": "Religious courts' powers stay limited to their current areas or shrink"
+  },
+  "163p2": {
+   "name_ru": "State funding of religious institutions",
+   "name_en": "State funding of religious institutions",
+   "plus_en": "More state money and discounts for yeshivas, Haredi schools, religious councils, houses of prayer and holy sites",
+   "minus_en": "Less state funding and fewer discounts for religious institutions and schools"
+  },
+  "256s3p1": {
+   "name_ru": "Arabic and Hebrew in schools",
+   "name_en": "Arabic and Hebrew in schools",
+   "plus_en": "Schools must teach Arabic to Jewish pupils and Hebrew to Arab pupils",
+   "minus_en": "Schools have no duty to teach the other national language"
+  },
+  "256s3p2": {
+   "name_ru": "Teaching gender equality and tolerance",
+   "name_en": "Teaching gender equality and tolerance",
+   "plus_en": "Schools must teach gender equality, tolerance and prevention of sexual harassment, and train staff on these topics",
+   "minus_en": "Such programs stay optional for schools"
+  },
+  "122s1p1": {
+   "name_ru": "Penalties for election fraud and deepfakes",
+   "name_en": "Penalties for election fraud and deepfakes",
+   "plus_en": "Harsher penalties and disclosure duties for ballot fraud and AI-made fake content in election campaigns",
+   "minus_en": "Current penalties and fewer restrictions on campaign content"
+  },
+  "122s1p2": {
+   "name_ru": "Special arrangements for local elections in emergencies",
+   "name_en": "Special arrangements for local elections in emergencies",
+   "plus_en": "Local-election dates and rules may be changed or postponed by temporary orders or ministerial decision in emergencies",
+   "minus_en": "Local elections held on schedule under the standard rules"
+  },
+  "95s2p1": {
+   "name_ru": "Limits on police force at protests",
+   "name_en": "Limits on police force at protests",
+   "plus_en": "Stricter rules on how police disperse protests and use force, with body cameras and accountability for police violence",
+   "minus_en": "Police keep broad discretion to disperse assemblies and use force"
+  },
+  "95s2p2": {
+   "name_ru": "State compensation for wrongful detention and prosecution",
+   "name_en": "State compensation for wrongful detention and prosecution",
+   "plus_en": "Wider state liability to compensate people wrongly detained, shackled, prosecuted or later acquitted",
+   "minus_en": "Narrower state liability for such compensation"
+  }
+ },
+ "transfers": {}
+}

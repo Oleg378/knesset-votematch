@@ -1,0 +1,602 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason
+n81s3,81s3,הצעת חוק התכנון והבנייה (הוראות מיוחדות לעניין יישובי מיעוטים) (הוראת שעה),2198002 2158340 2167078 2199006 2167946,−,main,2198002,F1-1,not_about,,"Planning-and-building enforcement in minority towns, not violent or sexual crime"
+n81s3,81s3,הצעת חוק מאבק בארגוני פשיעה (תיקון - החמרת הענישה כנגד ארגוני סחיטה ושחיתות),2202617 2227111,+,main,2202617,F1-2,about,+,Harsher punishment for extortion and corruption crime organizations
+n81s3,81s3,"הצעת חוק העונשין (תיקון מס' 158) (אסון טבע, מלחמה ומצב חירום)",2234269,+,main,2234269,F1-3,about,+,Aggravated sentencing for offences such as looting during disasters and war
+n81s3,81s3,הצעת חוק העונשין (תיקון - אלימות קבוצתית כנסיבה מחמירה של רצח והחמרת ענישה על המתה בקלות דעת),2243087,+,main,2243087,F1-4,about,+,Group violence as aggravating circumstance of murder; harsher punishment for reckless killing
+n81s3,81s3,הצעת חוק העונשין (תיקון - המאבק בפוליגמיה),2227532,+,main,2227532,F1-5,borderline,+,"Raises polygamy penalty; marriage-law offence, not violence or sexual assault"
+n81s3,81s3,הצעת חוק העונשין (תיקון - תקיפת נהג אוטובוס),2163144 2197617,+,main,2163144,F1-6,about,+,Harsher punishment for assaulting bus drivers
+n81s3,81s3,הצעת חוק העונשין (תיקון - מעשה מגונה בהסכמה בקטין שמלאו לו ארבע-עשרה שנים וטרם מלאו לו שש-עשרה שנים),2195994,+,main,2195994,F1-7,about,+,Tightens sexual-offence law for indecent acts with minors aged 14-16
+n81s3,81s3,הצעת חוק העונשין (תיקון - מאבק בפשיעה חקלאית),2200440,+,main,2200440,F1-8,about,+,Harsher punishment for agricultural crime
+n81s3,81s3,הצעת חוק העונשין (תיקון - החמרת ענישה במקרי אונס ותקיפה מינית),2169114,+,main,2169114,F1-9,about,+,Harsher punishment for rape and sexual assault
+n81s3,81s3,הצעת חוק העונשין (תיקון - תקיפת עובד מערך הבריאות),2192857,+,main,2192857,F1-10,about,+,Harsher punishment for assaulting health workers
+n81s3,81s3,הצעת חוק העונשין (תיקון - סחיטת דמי חסות),2196504,+,main,2196504,F1-11,about,+,Creates or tightens protection-racket extortion offence
+n81s3,81s3,"חוק העונשין (תיקון מס' 143 והוראת שעה) (תיקון), התשפ""ד–2024",2210306,+,main,2210306,F1-12,about,+,Extends harsher punishment for violence against toddlers and helpless persons
+n81s3,81s3,הצעת חוק העונשין (תיקון - התארגנות חמושה אסורה),2215742,+,main,2215742,F1-13,borderline,+,New offence of unauthorized armed organization; post-October-7 security context
+n1s1,1s1,הצעת חוק להגדלת שיעור ההשתתפות בכוח העבודה ולצמצום פערים חברתיים (מענק עבודה) (תיקון - זכות במקרקעין בקבוצת רכישה),2202017 2197972 2197198,+,main,2202017,F1-14,about,+,Widens work-grant eligibility for owners of purchase-group property rights
+n1s1,1s1,הצעת חוק להגדלת שיעור ההשתתפות בכוח העבודה ולצמצום פערים חברתיים (מענק עבודה) (תיקון מס' 20),2156944,+,secondary,2156944,F1-15,about,+,"Amends work grant for low earners, presumably widening it"
+n1s1,1s1,הצעת חוק הביטוח הלאומי (תיקון - קבלת מענק במקרה פטירה),2164500,+,main,2164500,F1-16,borderline,+,"Redirects tombstone grant for heirless deceased; administrative, not benefit level"
+n17s2,17s2,הצעת חוק זכויות הסטודנט (תיקון - איסור הפליה מחמת מוגבלות),2226997 2227311 2226614,+,secondary,2226997,F1-17,about,+,Bans disability discrimination by higher-education institutions
+n17s2,17s2,הצעת חוק הטיס (ביטחון בתעופה האזרחית) (תיקון - איסור שימוש בעילה של לאום או מוצא אתני בביצוע חיפוש),2158037,+,secondary,2158037,F1-18,not_about,,"Ethnic profiling in state airport security searches, not private organizations"
+n17s2,17s2,הצעת חוק שוויון ההזדמנויות בעבודה (תיקון - איסור הפליה בשל דרישות כשרות),2213716,+,secondary,2213716,F1-19,about,+,Bans employer discrimination over kashrut requirements
+n17s2,17s2,הצעת חוק זכויות הסטודנט (תיקון - איסור הפליית מועמדים או סטודנטים),2157342,+,secondary,2157342,F1-20,about,+,Widens non-discrimination grounds in university admissions
+n34s2,34s2,"הצעת חוק הספקת החשמל (הוראת שעה), התשפ""ד–2024",2212840,+,main,2212840,F1-21,borderline,+,"Temporary electricity for unpermitted homes, but in Druze and Circassian towns"
+n19s3,19s3,הצעת חוק שוויון זכויות לאנשים עם מוגבלות (תיקון - הנגשת תחבורה ציבורית),2156251,+,secondary,2156251,F1-22,borderline,+,"Public-transport accessibility duty, not refusal of customers"
+n19s3,19s3,הצעת חוק לתיקון פקודת התעבורה (שילוט אלקטרוני ומערכת כריזה באוטובוס בשפה הערבית),2157458,+,secondary,2157458,F1-23,not_about,,"Arabic-language bus signage is language rights, not refusal of customers"
+n19s3,19s3,הצעת חוק איסור הפליית אנשים עם עיוורון המלווים בכלבי נחייה (תיקון - אנשים עם הפרעות בתר חבלתיות או בעלי מוגבלות המלווים בכלב שירות),2164664,+,secondary,2164664,F1-24,about,+,Bans refusing entry to people with service dogs
+n89s2,89s2,הצעת חוק-יסוד: משק המדינה (תיקון - סנקציה לאי-עמידה בזמני הגשת התקציב),2225891,+,main,2225891,F1-25,not_about,,"Sanction for late budget is fiscal procedure, not disclosure duties"
+n89s2,89s2,הצעת חוק המפלגות (תיקון - הגבלת מימון של נבחרי ציבור),2202673,+,secondary,2202673,F1-26,borderline,+,Limits funding of elected officials; ethics rule rather than disclosure
+n122s4,122s4,הצעת חוק-יסוד: הכנסת (תיקון - ביטול הפסקת חברות של חבר הכנסת),2234551 2233718 2234201,−,secondary,2234551,F1-27,about,−,Repeals the procedure for expelling Knesset members
+n251s3,251s3,הצעת חוק שיקום מתמודדי נפש בקהילה (תיקון - הסדרת מעמד מדריכי שיקום),2232341,+,main,2232341,F1-28,about,+,Regulates training and status of rehabilitation instructors for mentally ill
+n251s3,251s3,הצעת חוק למניעת העסקה של עברייני מין במוסדות מסוימים (תיקון - הגדרת עבירת מין),2157068 2200277,+,main,2157068,F1-29,about,+,Widens sex-offence list barring offenders from working with children
+n110s2,110s2,הצעת חוק הרשויות המקומיות (בחירות) (תיקון - מניעת השתתפות של מועמד או של רשימת מועמדים בבחירות),2211426,+,main,2211426,F1-30,about,+,Bars local-election candidates and lists on terror-support grounds
+n110s3,110s3,הצעת חוק שירות הציבור (הגבלות לאחר פרישה) (תיקון - תקופת צינון לשופטים),2168900 2196909,+,main,2168900,F1-31,about,+,Adds cooling-off period for judges
+n110s3,110s3,הצעת חוק שירות הציבור (הגבלות לאחר פרישה) (תיקון - תקופת צינון של עובדי אגף התקציבים במשרד האוצר במעבר למגזר הפרטי),2159015,+,main,2159015,F1-32,about,+,Cooling-off for budget-division staff moving to private sector
+n344s2,344s2,הצעת חוק שירות הציבור (הגבלות לאחר פרישה) (תיקון - תקופת צינון לשופטים),2168900 2196909,+,secondary,2168900,F1-33,not_about,,"Post-retirement cooling-off, not gifts or side jobs of serving officials"
+n344s2,344s2,הצעת חוק לתיקון פקודת הבנקאות (תקופת צינון למפקח על הבנקים והארכת כהונה),2169687,+,secondary,2169687,F1-34,not_about,,"Cooling-off and term of banking supervisor, not serving-official ethics"
+n309s3,309s3,הצעת חוק אימוץ ילדים (תיקון - הוספת סמכות בנושא דתו של המאומץ),2200493 2157803,+,main,2200493,F1-35,about,+,Eases same-religion requirement for adoptive parents
+n279s1,279s1,הצעת חוק לצמצום משרדי ממשלה ולהעברת תקציבם למאמץ המלחמתי (הוראת שעה - חרבות ברזל),2211131,−,main,2211131,F1-36,about,−,Cuts number of government ministries during war
+n279s1,279s1,הצעת חוק הרשויות המקומיות (בחירת ראש הרשות וסגניו וכהונתם) (תיקון - סגנים נוספים),2232599,+,main,2232599,F1-37,about,+,Allows more deputy mayors in large local authorities
+n11s2,11s2,הצעת חוק לתיקון פקודת בריאות העם (העדפות מתן רישיון למכשור רפואי בפריפריה),2198203 2209392 2206679 2208605,+,secondary,2198203,F1-38,about,+,Licensing preference for medical equipment in peripheral hospitals
+n11s3,11s3,הצעת חוק הרשות לטיפול בנפגעי הלם קרב,2166065 2196717 2236170 2236702 2198038 2222442 2156903,+,secondary,2166065,F1-39,about,+,Creates authority treating combat-stress victims
+n11s3,11s3,הצעת חוק סיוע לקטינים נפגעי עבירות מין או אלימות (תיקון - טיפול נפשי לילדים),2156773 2195858,+,secondary,2156773,F1-40,about,+,State-funded psychological treatment for child victims of violence
+n11s3,11s3,הצעת חוק זכויות נפגעי עבירה (תיקון - מרכזי טיפול ייעודיים לנפגעות ונפגעי עבירות מין בגירים),2200461,+,secondary,2200461,F1-41,about,+,Treatment centres for adult victims of sexual offences
+n11s3,11s3,הצעת חוק הרשות לטיפול בנפגעי פוסט-טראומה והלומי קרב,2236174,+,secondary,2236174,F1-42,about,+,Creates authority treating PTSD and combat-stress victims
+n317s2,317s2,הצעת חוק האזרחים הוותיקים (תיקון - חניה חינם לאזרח ותיק שמלאו לו 70 שנים),2200020 2156318,+,secondary,2200020,F1-43,about,+,Free municipal parking for senior citizens aged 70+
+n160s1,160s1,הצעת חוק למניעת אלימות במשפחה (תיקון - דיון במעמד צד אחד באלימות נפשית),2200222 2157214,+,secondary,2200222,F1-44,about,+,Ex parte protective-order hearings for psychological domestic violence
+n160s1,160s1,הצעת חוק מרשם האוכלוסין (תיקון - שינוי שם משפחה של קורבנות עבירת רצח שבוצעה על ידי בני משפחתם),2226723 2198745,+,secondary,2226723,F1-45,about,+,Remedy for families of victims murdered by relatives
+n160s1,160s1,הצעת חוק למניעת אלימות במשפחה (תיקון - תכניות ומרכזי טיפול באלימות במשפחה),2159012,+,secondary,2159012,F1-46,about,+,Treatment programmes and centres for domestic violence
+n22s1,22s1,הצעת חוק השכירות והשאילה (תיקון - הארכת הסכמי חכירה לדורות),2226093 2169590,+,main,2226093,F1-47,borderline,+,"Extends generational leases; long-term lessees, not ordinary renters"
+n22s3,22s3,הצעת חוק הבטחת פיצויים לתושבי מתחם פארק חורשות (אבו-כביר),2157493 2197055,+,secondary,2157493,F1-48,about,+,Guarantees compensation for evicted Abu Kabir residents
+n22s3,22s3,הצעת חוק פינוי ובינוי של אזורי שיקום (הוראת שעה - כפר שלם),2242893,+,main,2242893,F1-49,about,+,Freezes Kfar Shalem evictions until residents' status is settled
+n251s2,251s2,הצעת חוק רכזי ביטחון שוטף צבאיים,2199898 2239203 2196867 2200838 2199578,+,secondary,2199898,F1-50,not_about,,"Regulates military security coordinators' role, not occupational licensing"
+n251s2,251s2,חוק מכוני כושר (רישוי ופיקוח) (תיקון מס' 4),2222778,−,secondary,2222778,F1-51,borderline,+,Gym business licensing for safety; not entry to a profession
+n251s2,251s2,הצעת חוק הפיקוח על שירותים פיננסיים (ביטוח) (תיקון - כתב שירות ללא מעורבות מבטח) (הוראת שעה),2243325 2236554,+,secondary,2243325,F1-52,borderline,+,"Brings service-warrant firms under supervision; firm regulation, not jobs"
+n251s2,251s2,הצעת חוק רואי חשבון (תיקון - מתן רישיון רואה חשבון לעורך דין שהוא יועץ מס),2228918,−,main,2228918,F1-53,about,−,CPA licence for lawyer tax representatives without exams or internship
+n251s2,251s2,הצעת חוק לשכת עורכי הדין (תיקון - ציון עובר בבחינת ההתמחות) (הוראת שעה),2163471 2164511 2193281,−,main,2163471,F1-54,about,−,Lowers bar-exam pass mark
+n251s2,251s2,"חוק למניעת הפליה ברישוי מחמת מצב בריאותי (תיקוני חקיקה), התשפ""ה–2025",2195779,−,main,2195779,F1-55,borderline,−,Removes health-based licensing bars; disability-rights motivation
+n251s2,251s2,הצעת חוק הפיקוח על שירותים פיננסיים (שירותים פיננסיים מוסדרים) (תיקון - מתן רישיון לנותן שירות זר),2238654,−,main,2238654,F1-56,borderline,−,Licensing path for foreign financial providers; firm-level regulation
+n279s2,279s2,הצעת חוק הרשות הלאומית למאבק בעוני,2156134 2220958 2158463 2197560 2157704 2210261 2201193 2158756 2198672,+,main,2156134,F1-57,about,+,Creates national authority to fight poverty
+n279s2,279s2,הצעת חוק צוותי התערבות במשבר,2191357 2198784 2215660,+,secondary,2191357,F1-58,borderline,+,Creates crisis-intervention teams; service units rather than national body
+n279s2,279s2,הצעת חוק קידום הביטחון התזונתי בישראל,2234642,+,secondary,2234642,F1-59,about,+,Dedicated state framework for food security
+n279s2,279s2,הצעת חוק זכויות ושירותים לילדים ולבני נוער עם קשיים נפשיים,2192501 2197448 2192928 2202687,+,secondary,2192501,F1-60,about,+,Dedicated services framework for children with mental difficulties
+n279s2,279s2,הצעת חוק הרשות לקידום מעמד האישה (תיקון - הרשות לקידום מעמד האישה ושוויון מגדרי),2197483,+,secondary,2197483,F1-61,about,+,Expands authority for women's status into gender equality
+n81s3,81s3,הצעת חוק העונשין (תיקון - החרגת טורניר מהגדרת משחק אסור),2156879,−,secondary,2156879,F2-1,not_about,,"Exempts tournaments from gambling ban; gambling law, not violent or sexual crime"
+n81s3,81s3,הצעת חוק מאבק בארגוני פשיעה (תיקון - הרחבת הענישה על עבירות גניבת רכב כדין ענישה בגין חברות בארגון פשיעה),2227661,+,main,2227661,F2-2,about,+,"Treats car theft like organized-crime membership, harsher punishment for property crime"
+n81s3,81s3,הצעת חוק העונשין (תיקון - עבירות זיוף עמוק),2230300 2236595 2226314,+,main,2230300,F2-3,borderline,+,"New deepfake offences; criminalisation of digital forgery, not clearly violence or sexual crime"
+n81s3,81s3,הצעת חוק העונשין (תיקון - איסור מכירה והחזקה של צעצועים מסוכנים),2223956 2215899,+,main,2223956,F2-4,not_about,,"Bans dangerous toys and fireworks; product safety, not ordinary crime penalties"
+n81s3,81s3,הצעת חוק הגנת הצרכן (תיקון - אחריות מנהל כללי ונושא משרה בשל הפרת הוראות החוק),2204110 2156613 2202724,+,secondary,2204110,F2-5,not_about,,"Officer liability under consumer protection law; consumer regulation, not criminal penalties"
+n81s3,81s3,הצעת חוק העונשין (תיקון - החמרת ענישה בגין אי-חובת דיווח),2197206 2156403 2203734,+,main,2197206,F2-6,about,+,Harsher punishment for not reporting abuse of helpless persons
+n81s3,81s3,הצעת חוק העונשין (תיקון - החמרת הענישה על עבירות כלפי אנשי צוות רפואי),2192677 2196948 2200264 2169661 2156421,+,main,2192677,F2-7,about,+,Harsher punishment for offences against medical staff
+n81s3,81s3,הצעת חוק העונשין (תיקון - איסור על עבירות נלוות לחשפנות לצורך גירוי מיני),2157323,+,main,2157323,F2-8,borderline,+,Criminalises striptease-related acts tied to prostitution; sex-industry morality more than violence
+n81s3,81s3,הצעת חוק לתיקון פקודת הטבק (הגברת האכיפה),2166693,+,main,2166693,F2-9,not_about,,"Tobacco smuggling enforcement; tax and customs, not violent or sexual crime"
+n81s3,81s3,הצעת חוק העונשין (תיקון - עבירת פיתוי קטין),2156612,+,main,2156612,F2-10,about,+,New offence of luring a minor for sexual purposes
+n81s3,81s3,הצעת חוק למניעת הטרדה מינית (תיקון - החמרת הענישה על הטרדה מינית באמצעים טכנולוגיים - הפצת תוכן מיני של קטינים),2201650 2199990,+,main,2201650,F2-11,about,+,Aggravated penalty for distributing sexual content of minors
+n81s3,81s3,הצעת חוק העונשין (תיקון - מעשה מגונה בהסכמה בקטין שמלאו לו ארבע עשרה שנים וטרם מלאו לו שש עשרה שנים),2192828 2163493,+,main,2192828,F2-12,about,+,Adds offence for indecent acts with minors aged fourteen to sixteen
+n81s3,81s3,הצעת חוק החמרת ענישה בעבירות מין על רקע לאומני (תיקוני חקיקה) (תיקון - ביטול החוק),2209801,−,main,2209801,F2-13,borderline,−,Repeals nationalist-motive aggravation of sex offences; milder punishment but really about discrimination
+n1s1,1s1,הצעת חוק אומנה לילדים (תיקון - העברת תשלומים להורה אומנה במקרים מיוחדים),2203630 2203695 2202736 2156343,+,main,2203630,F2-14,borderline,+,Redirects foster-care payments to foster parents; payment routing more than benefit level
+n1s1,1s1,הצעת חוק הביטוח הלאומי (תיקון - תגמולים למתנדב בצוות חירום יישובי או שכונתי),2198922,+,main,2198922,F2-15,borderline,+,"Extends injury benefits to emergency-team volunteers; volunteer coverage, not low-income allowances"
+n1s1,1s1,הצעת חוק נכי רדיפות הנאצים (תיקון - קביעת אחוזי נכות מינימליים),2230023,+,secondary,2230023,F2-16,about,+,Raises minimum disability rates for Holocaust-survivor benefits
+n17s2,17s2,הצעת חוק חובת המכרזים (תיקון - עידוד עסקים להעסקת בני החברה הערבית והחרדית),2199478 2199400 2205842 2157023 2199682 2160845 2209343 2198375,+,secondary,2199478,F2-17,about,+,Tender conditions encouraging businesses to employ Arab and Haredi citizens
+n17s2,17s2,הצעת חוק למניעת הטרדה מינית (תיקון - חובת הדרכה שנתית),2203635,+,secondary,2203635,F2-18,not_about,,"Annual sexual-harassment training duty for employers; harassment prevention, not quotas or discrimination"
+n17s2,17s2,חוק שוויון זכויות לאנשים עם מוגבלות (תיקון מס' 25),2207737,+,secondary,2207737,F2-19,borderline,+,"Disability equal-rights amendment; content unclear, may concern accessibility rather than representation"
+n17s2,17s2,הצעת חוק שוויון ההזדמנויות בעבודה (תיקון - איסור הפליה לפי מקום ביצוע העבודה),2206635,+,secondary,2206635,F2-20,about,+,"Bans employer discrimination by place of work, adds anti-discrimination duty"
+n19s3,19s3,"הצעת חוק איסור הפליה במוצרים, בשירותים ובכניסה למקומות בידור ולמקומות ציבוריים (תיקון - איסור הפליה במוסדות חינוך, החלת אחריות אישית על מנהלי בתי ספר והגדלת סכום הפיצוי ללא הוכחת נזק)",2157440,+,secondary,2157440,F2-21,about,+,"Extends service anti-discrimination ban to schools, easier enforcement and compensation"
+n19s3,19s3,הצעת חוק מניעת סיכון בריאותי מהפעלת פליקרים במקומות ציבוריים,2167622 2196000,+,secondary,2167622,F2-22,not_about,,"Restricts flickering lights for epilepsy health risk; health safety, not discrimination"
+n19s3,19s3,"הצעת חוק איסור הפליה במוצרים, בשירותים ובכניסה למקומות בידור ולמקומות ציבוריים (תיקון - איסור הפרדה)",2157289 2203681 2199912 2157239,+,secondary,2157289,F2-23,about,+,Prohibits gender segregation in services and public places
+n89s2,89s2,הצעת חוק-יסוד: הפרדת רשויות (תיקוני חקיקה),2196600 2158055,+,secondary,2196600,F2-24,not_about,,Norwegian law and separation of powers; not disclosure or ethics duties
+n89s2,89s2,הצעת חוק הממשלה (תיקון - דיווח שר בדבר אי התקנת תקנות במועד),2156502 2197165,+,secondary,2156502,F2-25,about,+,Ministers must report to Knesset on missed regulation deadlines
+n89s2,89s2,הצעת חוק יידוע ודיווח על מינוי יועצים חיצוניים לנושאי משרה ציבורית,2231227,+,secondary,2231227,F2-26,about,+,Reporting duty on external advisers appointed to public office holders
+n122s4,122s4,"חוק הרשויות המקומיות (בחירות) (תיקון מס' 58), התשפ""ו–2026",2198087,+,secondary,2198087,F2-27,about,+,Extends terror-support disqualification and removal to local candidates and council members
+n251s3,251s3,הצעת חוק הכשרות לאנשי מקצוע בתחום החינוך בנושא מגדר ונטייה מינית,2159221 2199085 2158633,+,main,2159221,F2-28,borderline,+,Mandatory gender and sexual-orientation training for educators; really about LGBT education
+n251s3,251s3,חוק לתיקון פקודת הרופאים (מס' 13),2163363,+,main,2163363,F2-29,about,+,Bars physicians convicted of sex offences from treating children
+n110s2,110s2,"חוק הרשויות המקומיות (בחירות) (תיקון מס' 58), התשפ""ו–2026",2198087,+,main,2198087,F2-30,about,+,Bars local candidates and removes council members supporting terror
+n110s3,110s3,הצעת חוק להגבלה לאחר סיום כהונה של שר התקשורת,2201667,+,main,2201667,F2-31,about,+,Post-term restriction for communications minister moving to regulated sector
+n110s3,110s3,הצעת חוק-יסוד: נשיא המדינה (תיקון - תקופת צינון למועמד שהוא חבר הכנסת או חבר ממשלה שאינו חבר הכנסת),2157635,+,main,2157635,F2-32,about,+,Cooling-off period for MKs and ministers running for president
+n344s2,344s2,הצעת חוק להגבלה לאחר סיום כהונה של שר התקשורת,2201667,+,secondary,2201667,F2-33,not_about,,"Post-term cooling-off rule, not ethics limits on serving officials"
+n344s2,344s2,הצעת חוק בתי המשפט (תיקון - הארכת תקופת הצינון והרחבת תחולתה),2198125,+,secondary,2198125,F2-34,not_about,,"Cooling-off for judicial candidates, not gifts, side jobs or foreign payments"
+n309s3,309s3,הצעת חוק אימוץ ילדים (תיקון - כשירות המאמץ),2197664 2157268 2200329,+,main,2197664,F2-35,about,+,"Widens adopter eligibility, grounded in right to family life of all"
+n279s1,279s1,הצעת חוק-יסוד: הממשלה (תיקון - ביטול ממשלת חילופים),2196793,−,main,2196793,F2-36,borderline,−,"Abolishes rotation government; governance structure question, only partly about cabinet size"
+n279s1,279s1,חוק הרשות הלאומית לביטחון קהילתי (תיקון מס' 2),2163229,−,main,2163229,F2-37,not_about,,Transfers community-security authority between ministries; not number of political offices
+n11s2,11s2,הצעת חוק הקמת חדר מיון בקרית שמונה,2192397,+,main,2192397,F2-38,about,+,"Establishes emergency room in Kiryat Shmona, a border town"
+n11s3,11s3,הצעת חוק סיוע לקטינים נפגעי עבירות מין או אלימות (תיקון - טיפול נפשי לילדים שנפגעו מינית),2159072 2163153,+,secondary,2159072,F2-39,about,+,State-funded psychological treatment for sexually abused children
+n11s3,11s3,הצעת חוק הביטוח הלאומי (תיקון - גמלה בשל דיכאון לאחר לידה),2168797 2214653 2157670 2198629 2197298 2167808,+,secondary,2168797,F2-40,borderline,+,"Cash benefit for postpartum depression, not treatment itself"
+n11s3,11s3,הצעת חוק זכויות ושירותים לילדים ובני נוער עם קשיים נפשיים,2159027 2156791,+,secondary,2159027,F2-41,about,+,Rights and services for children and youth with mental difficulties
+n11s3,11s3,הצעת חוק קליטת חיילים משוחררים (תיקון - טיפול פסיכו-סוציאלי לחייל משוחרר),2157653,+,secondary,2157653,F2-42,about,+,Psycho-social treatment for discharged soldiers
+n317s2,317s2,הצעת חוק האזרחים הוותיקים (תיקון - חניה חינם לאזרח ותיק שמלאו לו 75 שנים),2201961 2210438 2202889,+,secondary,2201961,F2-43,about,+,Free parking for senior citizens aged seventy-five and over
+n160s1,160s1,הצעת חוק למניעת אלימות במשפחה (תיקון - מניעת אלימות כלכלית) (הוראת שעה),2199864 2203751 2157619 2203781 2214266 2156154,+,secondary,2199864,F2-44,about,+,Recognises economic violence between spouses as domestic violence
+n160s1,160s1,הצעת חוק העונשין (תיקון - הגדרת בן דוד כאחראי על קטין או על חסר ישע),2206187 2168517,+,secondary,2206187,F2-45,borderline,+,"Adds cousins as responsible persons for minors; child-abuse reporting, partly family violence"
+n160s1,160s1,הצעת חוק הגנה על זכויות ילדים נפגעי עבירת המתה בדירת המשפחה,2203085,+,secondary,2203085,F2-46,about,+,Protects children's rights when one parent killed the other at home
+n22s2,22s2,חוק זכויות הדייר בדיור הציבורי (הוראת שעה – חרבות ברזל) (דייר ממשיך מיוחד),2213429,+,main,2213429,F2-47,about,+,Special continuing-tenant rights in public housing for war-affected families
+n22s3,22s3,הצעת חוק להבטחת פיצוי לתושבי גבעת עמל,2197518 2189505 2198052,+,secondary,2197518,F2-48,about,+,Guarantees compensation for Givat Amal residents facing eviction
+n251s2,251s2,הצעת חוק עובדים בתעשיית הקנאביס,2207021,−,secondary,2207021,F2-49,borderline,−,"Simplifies police approval of cannabis workers; vetting, not professional licensing"
+n251s2,251s2,"הצעת חוק העונשין (תיקון - איסור שיווק ומכירת הימורים בידי מי שאינו בעל היתר, פועל מטעמו או בפיקוחו)",2196633 2156422,+,secondary,2196633,F2-50,not_about,,"Bans unlicensed gambling marketing; gambling enforcement, not occupational licensing"
+n251s2,251s2,חוק לתיקון פקודת בריאות העם (מס' 41),2209987,+,main,2209987,F2-51,not_about,,"Medical gas systems in health institutions; health safety, outside non-health professions"
+n251s2,251s2,הצעת חוק רישוי סוכני אונייה,2196064 2203684 2164498,+,main,2196064,F2-52,about,+,Introduces licensing for shipping agents
+n251s2,251s2,חוק לשכת עורכי הדין (תיקון מס' 41 - הוראת שעה – חרבות ברזל),2212768,−,main,2212768,F2-53,borderline,−,Wartime temporary relief in Bar rules; likely eases exam or internship terms
+n251s2,251s2,הצעת חוק הסדרת העיסוק בקרינה מייננת,2193411 2209493,+,secondary,2193411,F2-54,borderline,+,Licensing of ionising-radiation activities; environmental safety more than occupational entry
+n251s2,251s2,"חוק לשכת עורכי הדין (תיקון מס' 44), התשפ""ד–2024",2208571,−,main,2208571,F2-55,about,−,Eases Hebrew exam requirements for foreign-trained lawyers
+n251s2,251s2,הצעת חוק הסדרת העיסוק בייצוג על ידי יועצי מס (תיקון - היתר ליועץ פנסיוני לייצג לפני רשות מס),2209186,−,main,2209186,F2-56,about,−,Lets pension advisers represent before tax authority
+n279s2,279s2,הצעת חוק חוסן לישראל - הרשות הלאומית לחוסן נפשי ולטראומה,2240442,+,secondary,2240442,F2-57,about,+,Creates national authority for mental resilience and trauma
+n279s2,279s2,הצעת חוק למניעת חרם חברתי בבתי ספר,2220083 2243358 2196427 2209390 2217123,+,secondary,2220083,F2-58,not_about,,"Prevents social boycott in schools; school duties, no dedicated state body evident"
+n279s2,279s2,הצעת חוק הרשות לקידום מעמד האישה (תיקון - הרשות לקידום שוויון מגדרי),2192086,+,secondary,2192086,F2-59,about,+,Expands women's status authority into gender-equality authority
+n279s2,279s2,הצעת חוק הרשות הלאומית למניעה ולמאבק באלימות במשפחה ובאלימות נגד נשים,2157676 2197070,+,secondary,2157676,F2-60,about,+,Creates national authority against domestic violence and violence against women
+n81s3,81s3,הצעת חוק לתיקון פקודת התעבורה (איסור עישון ברכב שנמצא בו קטין שטרם מלאו לו 15 שנים),2199216 2196178 2156117,+,secondary,2199216,F3-1,not_about,,"Smoking ban in cars with minors is public health, not violent crime penalties"
+n81s3,81s3,הצעת חוק העונשין (תיקון מס' 144 והוראת שעה) (החמרת הענישה בעבירות אלימות נגד קטין או חסר ישע),2166051,+,main,2166051,F3-2,about,+,Harsher penalties for violence against minors and helpless persons
+n81s3,81s3,"הצעת חוק העונשין (תיקון מס' 142), התשפ""ב–2022",2157346,+,main,2157346,F3-3,not_about,,"Offence of defacing images of women: exclusion of women, not violent crime"
+n81s3,81s3,הצעת חוק לתיקון סדרי הדין (חקירת עדים) (תיקון - מתן עדות שלא בפני הנאשם בעבירת נטילת דמי חסות),2228624 2192115 2197392 2207388,+,secondary,2228624,F3-4,borderline,+,"Procedural aid prosecuting protection rackets, not penalty level itself"
+n81s3,81s3,הצעת חוק העונשין (תיקון - תקיפת עורך דין כתקיפת עובד ציבור),2203709 2200816 2203065 2207859 2195941 2157162,+,main,2203709,F3-5,about,+,Assault on lawyer punished as assault on public servant: harsher penalty
+n81s3,81s3,הצעת חוק העונשין (תיקון - עבירה כלפי קשיש או חסר ישע),2156218 2196006 2166363,+,main,2156218,F3-6,about,+,New aggravated offence for fraud and exploitation of elderly and helpless
+n81s3,81s3,הצעת חוק השיפוט הצבאי (תיקון - וידוא הריגה),2200369 2157109,+,main,2200369,F3-7,not_about,,"Military justice offence for soldiers, not ordinary civilian crime"
+n81s3,81s3,הצעת חוק העונשין (תיקון - ייצוא חומר הנחשב לסם מסוכן בחוץ לארץ),2218275 2219268,+,main,2218275,F3-8,borderline,+,New drug export offence; drugs are a separate policy question
+n81s3,81s3,הצעת חוק העונשין (תיקון - מניעת קבלת טיפול רפואי במסגרת יחסי ניצול ושליטה),2239230,+,main,2239230,F3-9,about,+,New offence of denying medical care under coercive control of vulnerable people
+n81s3,81s3,הצעת חוק העונשין (תיקון מס' 146) (תקיפת עובד ציבור שהוא מטפל או ממלא תפקיד בארגון חירום והצלה טרום אשפוז או בחדר מיון),2194907,+,main,2194907,F3-10,about,+,Harsher punishment for assaulting emergency and emergency-room medical staff
+n81s3,81s3,הצעת חוק איסור צריכת זנות,2229392 2230613,+,main,2229392,F3-11,about,+,Keeps criminal ban on buying prostitution
+n81s3,81s3,הצעת חוק העונשין (תיקון - החמרת ענישה בגין תקיפת סתם),2156113,+,main,2156113,F3-12,about,+,"Harsher punishment for simple assault, aimed at abuse of helpless persons"
+n81s3,81s3,הצעת חוק הגנת הפרטיות (תיקון - איסור פרסום הקלטה של אדם),2198063,+,secondary,2198063,F3-13,not_about,,"Privacy ban on publishing recordings, not violent or sexual crime"
+n1s1,1s1,הצעת חוק הביטוח הלאומי (תיקון - ביטול מבחני התלות לקבלת גמלת סיעוד),2189707,+,main,2189707,F3-14,about,+,"Removes dependency tests for long-term-care benefit, widening eligibility"
+n1s1,1s1,הצעת חוק פיצוי לנפגעי פוליו (תיקון - הכרה באחוזי נכות של נפגע פוליו לצורך דינים אחרים),2197274 2156647,+,main,2197274,F3-15,borderline,+,Administrative recognition of polio disability percentage across laws; eases access
+n1s1,1s1,הצעת חוק תגמולים לאסירי ציון ולבני משפחותיהם (תיקון - התאמה לאסירי ציון יוצאי אתיופיה ומדינות אפריקה),2233945,+,main,2233945,F3-16,borderline,+,Extends Prisoners of Zion grants to Ethiopian-origin; niche recognition benefit
+n17s2,17s2,הצעת חוק זכויות החולה (תיקון - איסור הפליה בשל מקום מגורים),2156114,+,secondary,2156114,F3-17,not_about,,"Patient service access by residence, not staff or board quotas"
+n17s2,17s2,הצעת חוק הספורט (תיקון - צירוף נציג אוהדים להנהלת קבוצת כדורגל),2196517 2192275,+,secondary,2196517,F3-18,not_about,,"Fan representative on club board, not representation of disadvantaged groups"
+n17s2,17s2,הצעת חוק איסור הפליה מחמת משקל (תיקוני חקיקה),2157442,+,secondary,2157442,F3-19,about,+,"Adds weight as banned discrimination ground, incl. employment"
+n17s2,17s2,הצעת חוק חובת מכרזים (תיקון - עידוד עסקים להעסקת בני החברה הערבית והחרדית),2165403,+,secondary,2165403,F3-20,about,+,Tender conditions favouring businesses employing Arab and Haredi workers
+n19s3,19s3,"הצעת חוק איסור הפליה במוצרים, בשירותים ובכניסה למקומות בידור ולמקומות ציבוריים (תיקון - איסור הפליה בשל הובלת עגלת ילדים)",2165646 2168437 2203055 2161171 2200727 2197251,+,secondary,2165646,F3-21,about,+,Bans refusing entry to customers with baby strollers
+n19s3,19s3,הצעת חוק לתיקון פקודת הרוקחים (כתב ברייל),2205911,+,secondary,2205911,F3-22,not_about,,"Braille labels on medicines: accessibility, not refusal of customers"
+n19s3,19s3,הצעת חוק שידורי טלוויזיה (תיאור קולי),2156825,+,secondary,2156825,F3-23,not_about,,"TV audio description: accessibility of broadcasts, not customer discrimination"
+n89s2,89s2,הצעת חוק הממשלה (תיקון - קיום מסיבת עיתונאים עיתית לגופי התקשורת בישראל),2243018 2211374 2225126,+,secondary,2243018,F3-24,borderline,+,"Periodic press conferences: government accountability, not disclosure of ties"
+n89s2,89s2,הצעת חוק הממשלה (תיקון - דיווח שר בדבר אי-התקנת תקנות במועד),2226203 2196588 2234023,+,secondary,2226203,F3-25,about,+,Minister must report missed deadline for regulations
+n89s2,89s2,הצעת חוק הממשלה (תיקון - חובת עריכת הסכמים בכתב),2222531,+,secondary,2222531,F3-26,about,+,Requires agreements in writing so they must be disclosed
+n251s3,251s3,הצעת חוק מניעת העסקת עובד הוראה בעל תואר אקדמי מהרשות הפלסטינית (תיקוני חקיקה),2223377,+,main,2223377,F3-27,not_about,,"Bars teachers with Palestinian Authority degrees: ideology, not vetting or training"
+n251s3,251s3,הצעת חוק אומנה לילדים (תיקון - העלאת גיל אומן),2233344,−,main,2233344,F3-28,about,−,"Raises maximum foster-parent age, relaxing caregiver requirement"
+n110s2,110s2,הצעת חוק-יסוד: הכנסת (תיקון - מניעת בחירת מועמד שהורשע ברצח או ניסיון רצח כחלק ממעשה טרור),2204222 2158472,+,main,2204222,F3-29,about,+,Bars Knesset candidates convicted of terror murder
+n110s2,110s2,הצעת חוק שירות המדינה (מינויים) (תיקון - הצהרת אמונים),2190684,+,secondary,2190684,F3-30,about,+,Loyalty declaration required for civil service political appointees
+n110s3,110s3,"הצעת חוק שירות הציבור (הגבלות לאחר פרישה) (תיקון מס' 6) (תקופת צינון לעובד ציבור ברשויות פיקוח על גופים פיננסיים), התשפ""ו–2026",2206863,+,main,2206863,F3-31,about,+,Cooling-off period for financial regulators' staff
+n110s3,110s3,הצעת חוק שירות הציבור (הגבלות לאחר פרישה) (תיקון - תקופת צינון לעובד ציבור ברשויות פיננסיות),2221364,+,main,2221364,F3-32,about,+,Cooling-off period for financial regulators' staff
+n344s2,344s2,הצעת חוק שירותי הדת היהודיים (תיקון - דין משמעתי לרבני ערים),2161010 2165618 2198984,+,main,2161010,F3-33,not_about,,"Discipline for city rabbis' racist calls, not gifts or side jobs"
+n344s2,344s2,הצעת חוק בתי המשפט (תיקון - תקופת צינון לפני מינוי),2196799,+,secondary,2196799,F3-34,not_about,,Cooling-off before judicial appointment belongs to cooling-off question
+n309s3,309s3,הצעת חוק אימוץ ילדים (תיקון - אימוץ על ידי הורה יחיד),2156832 2158006 2199917,+,main,2156832,F3-35,about,+,Allows adoption by single parents
+n279s1,279s1,הצעת חוק הרשויות המקומיות (בחירת ראש הרשות וסגניו וכהונתם) (תיקון מס' 40),2218124,+,main,2218124,F3-36,about,+,"Rules on appointing deputy mayors, apparently allowing more deputies"
+n11s2,11s2,הצעת חוק ביטוח בריאות ממלכתי (תיקון - צמצום פערים בין הפריפריה למרכז),2209337 2157222 2199078 2161110 2203114 2197591 2189747 2156445 2195712 2199407 2200161 2157294,+,main,2209337,F3-37,about,+,Obliges health system to reduce periphery-centre gaps
+n11s2,11s2,הצעת חוק ביטוח בריאות ממלכתי (תיקון - יצירת מדד לאומי לשוויון בשירותי בריאות),2162951,+,main,2162951,F3-38,borderline,+,"National health-equality index measures gaps, no funding or facilities"
+n11s3,11s3,"הצעת חוק שיקום, פיצוי וסיוע משפטי לנפגעי עבירות מין",2206449 2203677 2205206 2161136 2205141 2198310 2157476,+,secondary,2206449,F3-39,about,+,Rehabilitation and support for sexual-offence victims
+n11s3,11s3,הצעת חוק צוותי התערבות במשבר,2191357 2198784 2215660,+,secondary,2191357,F3-40,about,+,Creates mental-health crisis-intervention teams
+n11s3,11s3,הצעת חוק הסדרת הבתים המאזנים בישראל,2228656 2234171,+,main,2228656,F3-41,about,+,Regulates residential mental-health crisis houses amid post-war demand
+n11s3,11s3,הצעת חוק סיוע לקטינים נפגעי עבירות מין או אלימות (תיקון - טיפול נפשי לילדים נפגעי אלימות במשפחה או חשופים לאלימות במשפחה),2157791,+,secondary,2157791,F3-42,about,+,Psychological treatment for children exposed to domestic violence
+n317s2,317s2,הצעת חוק האזרחים הוותיקים (תיקון - תור שנקבע בתיאום מראש),2216381,+,main,2216381,F3-43,about,+,Extends no-queue priority for seniors to pre-booked appointments
+n160s1,160s1,הצעת חוק לביטול ההתיישנות בעבירות מין במשפחה (תיקוני חקיקה),2198329 2157672 2233773 2157235 2201259,+,secondary,2198329,F3-44,about,+,Abolishes limitation period for sexual offences in the family
+n160s1,160s1,הצעת חוק העונשין (תיקון - אלימות במשפחה בנוכחות קטין או חסר ישע),2191625,+,secondary,2191625,F3-45,about,+,Aggravated penalty for domestic violence in presence of minors
+n160s1,160s1,"הצעת חוק הגנה על זכויות ילדים נפגעי עבירת המתה בדירת המשפחה, התשפ""ב–2022",2156664,+,secondary,2156664,F3-46,about,+,"Strips spouse-murderer of rights in family home, protects children"
+n22s2,22s2,הצעת חוק זכויות הדייר בדיור הציבורי (תיקון - זכות למגורים בדירה ציבורית לנשים ששהו במקלט לנשים מוכות),2162619 2157931 2195947 2197760 2198265 2161056 2198448,+,main,2162619,F3-47,about,+,Public-housing eligibility for women leaving shelters
+n22s3,22s3,הצעת חוק הגנה על מחזיקים במקרקעין ביהודה ושומרון,2169109,+,secondary,2169109,F3-48,not_about,,Protects West Bank settlement holders from demolition: another conflict
+n251s2,251s2,חוק התקשורת (בזק ושידורים) (תיקון מס' 76),2158478,−,secondary,2158478,F3-49,not_about,,"Telecom company licensing regime, not occupational licensing"
+n251s2,251s2,"חוק לתיקון פקודת העיריות (מס' 151), התשפ""ב–2022",2143625,+,secondary,2143625,F3-50,borderline,+,"Regulates municipal tax-collection companies; contractor regulation, not occupation licensing"
+n251s2,251s2,הצעת חוק סדנה מורשית לשיפור כלי רכב,2215172,+,secondary,2215172,F3-51,about,+,Licensing for vehicle modification workshops
+n251s2,251s2,הצעת חוק הרבנות הראשית לישראל (תיקון - סמכות לעריכת בחינות),2242994,+,secondary,2242994,F3-52,borderline,+,"Rabbinate exam authority: religious credentials, partly religion-state question"
+n251s2,251s2,הצעת חוק לשכת עורכי הדין (תיקון - הנחיות למתן ציונים במבחני הסמכה) (הוראת שעה),2196961 2157632,−,main,2196961,F3-53,about,−,Eases bar exam grading during pandemic
+n251s2,251s2,חוק הספורט (תיקון מס' 17),2192797,+,main,2192797,F3-54,about,−,"Sports coach certification reform; sign uncertain from notes, likely easing"
+n251s2,251s2,הצעת חוק לשכת עורכי הדין (תיקון - הורדת סף המעבר בבחינת ההתמחות של מועד דצמבר 2024),2226947 2226485,−,main,2226947,F3-55,about,−,Lowers bar exam pass mark
+n251s2,251s2,הצעת חוק לשכת עורכי הדין (תיקון - קיצור תקופת ההתמחות),2210075 2210055,−,main,2210075,F3-56,about,−,Shortens lawyers' internship
+n279s2,279s2,הצעת חוק זכויות ושירותים לילדים ובני נוער עם קשיים נפשיים,2209715 2156704 2159027 2156791 2195880,+,secondary,2209715,F3-57,borderline,+,Children's mental-health services across ministries; dedicated body unclear
+n279s2,279s2,הצעת חוק צוותי התערבות במשבר נפשי,2195730,+,secondary,2195730,F3-58,borderline,+,"Crisis teams are a service, not clearly a dedicated authority"
+n279s2,279s2,הצעת חוק מרכזי צעירים,2157299,+,secondary,2157299,F3-59,borderline,+,Statutory youth centres; young people not clearly a vulnerable group
+n279s2,279s2,הצעת חוק הרשות לקידום הורות טובה ומיטיבה ותפקוד הורי ומשפחתי בריא,2214711,+,secondary,2214711,F3-60,about,+,Creates national authority for good parenting and family functioning
+n81s3,81s3,הצעת חוק איסור פרסום הפליה (תיקוני חקיקה),2157237 2200159,+,secondary,2157237,F4-1,not_about,,Bans discriminatory and racist advertising; not penalties for violent or property crime
+n81s3,81s3,הצעת חוק העונשין (תיקון - החמרת ענישה בעבירות ביזה) (הוראת שעה),2214309 2212129 2211047 2216097,+,main,2214309,F4-2,about,+,"Harsher punishment for looting, a property crime"
+n81s3,81s3,הצעת חוק הפיקוח על מעונות יום לפעוטות (תיקון - החמרת ענישה),2196144 2191895 2200284 2196016 2202823 2203916,+,main,2196144,F4-3,borderline,+,"Harsher prison for illegal daycare operation; regulatory offence, child-safety rather than violent crime"
+n81s3,81s3,הצעת חוק העונשין (תיקון - איסור שידול להמרת דת),2157126 2198904,+,main,2157126,F4-4,not_about,,"Soliciting religious conversion offence; religion question, not violent or property crime"
+n81s3,81s3,"הצעת חוק העונשין (תיקון – תקיפת נהג אוטובוס), התשפ""ב–2021",2159950,+,main,2159950,F4-5,about,+,Harsher punishment for assaulting bus drivers
+n81s3,81s3,הצעת חוק שירותי אבטחה,2205642 2237423 2231882,+,secondary,2205642,F4-6,not_about,,"Regulates security-services industry; licensing, not penalties, despite illegal-weapons context"
+n81s3,81s3,הצעת חוק הגבלת השימוש ורישום פעולות בחלקי רכב משומשים (מניעת גניבות) (תיקון - ביטול האיסור על תיקון בשטחי האחריות האזרחית הפלסטינית),2197941,−,main,2197941,F4-7,borderline,−,"Repeals criminal ban on car repair in Palestinian areas; anti-theft law, consumer rationale"
+n81s3,81s3,הצעת חוק העונשין (תיקון - מאבק בפשיעה החקלאית),2205683 2205912 2220956,+,main,2205683,F4-8,about,+,Fights agricultural crime with new offences or harsher penalties
+n81s3,81s3,הצעת חוק העונשין (תיקון - הפקרה אחרי אירוע אלים),2242718,+,main,2242718,F4-9,about,+,"New offence of abandoning victim after violent event, youth violence"
+n81s3,81s3,הצעת חוק העונשין (תיקון - החמרת ענישה ועונש מזערי על גניבה תוך ניצול מצב חירום),2233239,+,main,2233239,F4-10,about,+,Minimum and harsher punishment for theft exploiting emergencies
+n81s3,81s3,הצעת חוק העונשין (תיקון - החמרת הענישה בשל תקיפת צוות רפואי),2193083,+,main,2193083,F4-11,about,+,Harsher punishment for assaulting medical staff
+n81s3,81s3,הצעת חוק העונשין (תיקון - בעילה אסורה בהסכמה ומעשה סדום בנוכחות אחר),2165964,+,main,2165964,F4-12,about,+,Tightens sexual offences against minors committed in presence of another
+n81s3,81s3,הצעת חוק שירותי הובלה (תיקון - אחריות לעבירות תעבורה),2165946,+,main,2165946,F4-13,not_about,,"Liability for traffic offences of overloaded trucks; road safety, not violent crime"
+n1s1,1s1,חוק עדכון סכומי תגמולים לנכי רדיפות הנאצים ולנכי המלחמה בנאצים וביטול המרת תגמולים (תיקוני חקיקה),2217131,+,main,2217131,F4-14,about,+,"Updates and raises benefits for Nazi-persecution disabled, Holocaust survivors"
+n1s1,1s1,"פרק י' (שונות), סעיף 33 (הטבות לניצולי שואה) מתוך הצעת חוק ההתייעלות הכלכלית (תיקוני חקיקה להשגת יעדי התקציב לשנות התקציב 2021 ו-2022)",2162044,+,main,2162044,F4-15,about,+,Budget-law section granting benefits to Holocaust survivors
+n1s1,1s1,הצעת חוק הביטוח הלאומי (תיקון - תשלום דמי קבורה בעת קבורת נפטר שלא לפי מקום מושבו),2230554,+,main,2230554,F4-16,borderline,+,Widens burial grant payment; a minor benefit far from income support
+n17s2,17s2,הצעת חוק למניעת הטרדה מינית (תיקון - הטלת חובות לשם מניעת הטרדה מינית במוסד חינוך),2157693 2197015 2157195 2201296 2157400,+,secondary,2157693,F4-17,not_about,,Sexual-harassment prevention duties in schools; not hiring quotas in companies
+n17s2,17s2,הצעת חוק החברות (תיקון - ייצוג הולם לתושבי הפריפריה בדירקטוריונים של חברות ציבוריות),2159458,+,secondary,2159458,F4-18,about,+,Requires periphery residents' representation on public company boards
+n17s2,17s2,הצעת חוק שוויון ההזדמנויות בעבודה (תיקון - ייצוג הולם לאוכלוסייה הערבית),2198342 2199399,+,secondary,2198342,F4-19,about,+,Adequate representation of Arab citizens in employment
+n34s2,34s2,הצעת חוק הספקת החשמל (הוראת שעה) (תיקון - הארכת תוקף),2157335 2161129 2161481 2160720 2196519,+,main,2157335,F4-20,about,+,Extends temporary law connecting unpermitted homes to electricity
+n19s3,19s3,"הצעת חוק איסור הפליה במוצרים, בשירותים ובכניסה למקומות בידור ולמקומות ציבוריים (תיקון - איסור הפליה בדיור)",2197659 2204203 2200332 2199223 2166058 2199226,+,secondary,2197659,F4-21,about,+,Adds housing to discrimination ban for goods and services
+n19s3,19s3,הצעת חוק חישוב התשלום בעד נסיעה בתחבורה ציבורית (תיקוני חקיקה),2241472,+,secondary,2241472,F4-22,not_about,,Public transport fare calculation method; not customer discrimination
+n19s3,19s3,הצעת חוק שוויון זכויות לאנשים עם מוגבלות (תיקון - הנגשת אוטובוסים בין עירוניים),2161205,+,secondary,2161205,F4-23,borderline,+,Bus accessibility for disabled; accessibility duty rather than ban on refusal
+n89s2,89s2,הצעת חוק יידוע ודיווח על מינוי יועצים חיצוניים לחברי ועדת השרים לענייני ביטחון לאומי ולראש הממשלה,2232502,+,secondary,2232502,F4-24,about,+,Disclosure of external advisers to Prime Minister and security cabinet ministers
+n89s2,89s2,הצעת חוק להגבלה לאחר סיום כהונה של שר התקשורת,2201667,+,secondary,2201667,F4-25,not_about,,Post-term cooling-off for communications minister; not disclosure duties
+n89s2,89s2,הצעת חוק איסור כספים קואליציוניים,2211488,+,secondary,2211488,F4-26,borderline,+,Bans coalition funds; ethics of budget allocations rather than disclosure
+n251s3,251s3,הצעת חוק לתיקון פקודת הרופאים (רופא שהורשע בעבירת מין),2156396,+,main,2156396,F4-27,about,+,Bars doctors convicted of sexual offences from practice
+n251s3,251s3,הצעת חוק הפסיכולוגים (תיקון - פסיכולוג שהורשע בעבירת מין),2199431,+,main,2199431,F4-28,about,+,Bars psychologists convicted of sexual offences from practice
+n110s2,110s2,הצעת חוק הדחת נציג ציבור התומך במאבק מזוין נגד מדינת ישראל (תיקוני חקיקה),2189599 2159757 2156521 2198586 2156331 2198929 2196810 2197205 2212657 2159340,+,main,2189599,F4-29,about,+,Removes public representatives supporting armed struggle against Israel
+n110s3,110s3,הצעת חוק לתיקון פקודת הבנקאות (תקופת צינון למפקח על הבנקים),2197400 2201723 2159418 2156332 2159742 2196842,+,main,2197400,F4-30,about,+,Cooling-off period for banking supervisor
+n110s3,110s3,הצעת חוק שירות הציבור (הגבלות לאחר פרישה) (תיקון - תקופת צינון לנושאי משרה בכירה בשירות הציבור),2199941 2157837,+,main,2199941,F4-31,about,+,Cooling-off period for senior public servants
+n110s3,110s3,חוק הרשויות המקומיות (בחירות) (תיקון מס' 53),2204887,−,main,2204887,F4-32,about,−,Amends restriction on appointed local committee members running; likely relaxes it
+n344s2,344s2,"הצעת חוק שירות הציבור (הגבלות לאחר פרישה) (תיקון מס' 6) (תקופת צינון לעובד ציבור ברשויות פיקוח על גופים פיננסיים), התשפ""ו–2026",2206863,+,secondary,2206863,F4-33,not_about,,"Post-employment cooling-off for regulators; not gifts, foreign payments or side jobs"
+n344s2,344s2,הצעת חוק שירות הציבור (מתנות) (תיקון - תרומה למימון הליך משפטי או טיפול רפואי וחובת דיווח),2200212,+,main,2200212,F4-34,about,−,"Allows officials donations for legal or medical costs, with reporting"
+n309s3,309s3,הצעת חוק אימוץ ילדים (תיקון - ביטול תנאי דת זהה לאימוץ),2166078,+,main,2166078,F4-35,about,+,"Abolishes same-religion requirement for adoption, against religious tradition"
+n279s1,279s1,הצעת חוק-יסוד: ביטול ממשלת החילופים (תיקוני חקיקה),2198577,−,secondary,2198577,F4-36,borderline,−,Abolishes rotation government; government stability more than number of offices
+n11s2,11s2,הצעת חוק ביטוח בריאות ממלכתי (תיקון - הפחתה בדמי ביטוח בריאות לתושבי הפריפריה),2198206 2204237 2241481 2203209 2241153 2156080 2220735 2209391,+,secondary,2198206,F4-37,about,+,Lower health-insurance contributions for periphery residents
+n11s2,11s2,הצעת חוק הקמת בית חולים בעיר סח'נין (תיקוני חקיקה),2159157 2200266 2197639,+,main,2159157,F4-38,about,+,Establishes hospital in Sakhnin
+n11s3,11s3,הצעת חוק משפחות חיילים שנספו במערכה (תגמולים ושיקום) (תיקון - הרחבת הסיוע של התערבות לרווחה רגשית),2230156,+,secondary,2230156,F4-39,about,+,Expands emotional-wellbeing care for bereaved military families
+n11s3,11s3,הצעת חוק צוותי התערבות במשבר נפשי,2195730,+,secondary,2195730,F4-40,about,+,Creates state mental-crisis intervention teams
+n11s3,11s3,הצעת חוק מעונות יום שיקומיים (תיקון - הוספת טיפול רגשי לפעוטות עם מוגבלות),2242925,+,secondary,2242925,F4-41,about,+,Adds emotional therapy for toddlers with disabilities
+n11s3,11s3,הצעת חוק תמיכה במערך הטיפול בחללים (הוראת שעה),2232648,+,secondary,2232648,F4-42,borderline,+,Support for reservists handling fallen soldiers; mental care likely partial
+n317s2,317s2,הצעת חוק לתיקון פקודת התעבורה (חניה במקום ציבורי למשתמשים בעגלת ילדים),2158392 2200252,+,main,2158392,F4-43,about,+,Reserved parking for parents with baby strollers
+n160s1,160s1,הצעת חוק יחסי ממון בין בני זוג (תיקון - הפקעת זכות האיזון מבן זוג שהורשע ברצח בן הזוג השני),2164222 2159317 2197479 2159416,+,secondary,2164222,F4-44,about,+,Strips spouse murderer of marital property rights
+n160s1,160s1,הצעת חוק למניעת אלימות כלכלית בין בני זוג ובני משפחה,2200224 2156930,+,secondary,2200224,F4-45,about,+,Recognises and prevents economic violence between spouses and family
+n22s1,22s1,הצעת חוק המתווכים במקרקעין (תיקון - אחריות לתשלום דמי תיווך),2190517 2234022,+,main,2190517,F4-46,about,+,Shifts broker fee responsibility away from tenants
+n22s2,22s2,הצעת חוק זכויות הדייר בדיור הציבורי (תיקון - זכאות להורה עצמאי המקבל מזונות ילדים מהביטוח הלאומי),2157906,+,secondary,2157906,F4-47,about,+,Public-housing eligibility for single parents receiving child support
+n22s3,22s3,הצעת חוק המקרקעין (חיזוק בתים משותפים מפני רעידות אדמה) (תיקון - פינוי קשישים),2200349 2167774 2158422,+,secondary,2200349,F4-48,about,+,Protects elderly residents from eviction in earthquake-reinforcement projects
+n251s2,251s2,"סעיף 2(10) (הרחבת מסלול רישוי מהיר) מתוך הצעת חוק התוכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנת התקציב 2026), התשפ""ו-2026 [פוצלה לפי סעיף 84(ב) לתקנון]",2240490,−,main,2240490,F4-49,borderline,−,"Expands fast-track licensing; may concern business permits, not occupations"
+n251s2,251s2,הצעת חוק לשכת עורכי הדין (תיקון - הכשרה למקצוע),2157755,+,main,2157755,F4-50,about,−,Reforms lawyers' training amid high bar failure rates; eases entry
+n251s2,251s2,הצעת חוק להסדרת הפיקוח על כלבים (תיקון - הסדרת עיסוק באילוף כלבים),2241297,+,main,2241297,F4-51,about,+,Introduces regulation and certification for dog trainers
+n251s2,251s2,הצעת חוק לשכת עורכי הדין (תיקון - תקופת ההתמחות),2230322,−,main,2230322,F4-52,about,−,Shortens lawyers' internship period
+n251s2,251s2,הצעת חוק לשכת עורכי הדין (תיקון - התמחות ומבחני הסמכה),2207173 2220432,−,main,2207173,F4-53,about,−,"Changes lawyers' internship and bar exams, easing entry"
+n251s2,251s2,הצעת חוק לשכת עורכי הדין (תיקון - קורס הכנה למבחני הלשכה),2168951,−,main,2168951,F4-54,borderline,−,Bar-run preparation course; helps entry without changing requirements
+n251s2,251s2,הצעת חוק לתיקון פקודת התעבורה (שירותי תחבורה שיתופית מקוונת),2231205,−,secondary,2231205,F4-55,borderline,−,Allows online ride-sharing; eases entry to passenger transport
+n251s2,251s2,חוק רישום קבלנים לעבודות הנדסה בנאיות (תיקון מס' 8),2221133,+,secondary,2221133,F4-56,about,+,Amends contractor registration standards; likely tightens entry
+n279s2,279s2,הצעת חוק טיפול בכתות פוגעניות,2230604 2202389 2232811 2233964 2233788,+,secondary,2230604,F4-57,borderline,+,State treatment framework for harmful cults; dedicated body unclear
+n279s2,279s2,הצעת חוק שוויון זכויות לאנשים עם מוגבלות (תיקון - בירור תלונות ופיקוח על שמירת זכויות של אנשים עם מוגבלות במסגרות מגורים),2200008 2156208,+,secondary,2200008,F4-58,borderline,+,"Expands disability commission powers; existing body, not new one"
+n279s2,279s2,הצעת חוק שירות ביטחון (תיקון - מינוי קצינה לקידום נשים לתפקידים בכירים ויצירת מסלולים לקידום קצינות בדרג הבכיר),2157027 2213738,+,secondary,2157027,F4-59,borderline,+,"Dedicated officer for promoting women in army; military, not social welfare"
+n279s2,279s2,הצעת חוק הוועדה לטיפול במשפחות נעדרים וחטופים,2224718,+,secondary,2224718,F4-60,about,+,Creates committee for families of missing persons and hostages
+n81s3,81s3,הצעת חוק איסור אלימות בספורט (תיקון - החמרת ענישה ואיסור הסתרת פנים),2229786 2227840,+,main,2229786,F5-1,about,+,Harsher penalties for violence by sports fans.
+n81s3,81s3,הצעת חוק העונשין (תיקון - השחתת מודעות על רקע מגדר),2243278 2210062 2240064 2241014 2195787 2226483 2220952,+,main,2243278,F5-2,not_about,,"About exclusion of women via poster defacing, not violent or sexual crime."
+n81s3,81s3,הצעת חוק העונשין (תיקון - הוספת עבירת חרם חברתי חמור על קטין),2237920 2239343,+,main,2237920,F5-3,borderline,+,"New offence protecting minors, but psychological boycott rather than violence."
+n81s3,81s3,הצעת חוק למניעת כפייה מינית,2157783 2199940,+,main,2157783,F5-4,about,+,"Comprehensive consent-based redefinition of sexual offences, expanding coverage."
+n81s3,81s3,"הצעת חוק העונשין (תיקון מס' 162) (תקיפת חייל), התשפ""ו–2026",2225118,+,main,2225118,F5-5,about,+,Harsher punishment for civilians assaulting soldiers: assault on public servants.
+n81s3,81s3,"הצעת חוק העונשין (תיקון - הגנת בית מגורים, נכס, בית עסק ומשק חקלאי)",2200216,−,main,2200216,F5-6,borderline,+,Self-defence of home and farm; anti-crime aim but not penalties.
+n81s3,81s3,הצעת חוק העונשין (תיקון - החמרת הענישה בשל תקיפה בכביש),2196048,+,main,2196048,F5-7,about,+,Harsher punishment for road violence.
+n81s3,81s3,הצעת חוק מאבק בארגוני פשיעה (תיקון - הרחבת הנסיבה המחמירה לזיקה בארגון פשיעה),2202385 2217209,+,main,2202385,F5-8,about,+,Widens aggravating circumstance for organized-crime ties.
+n81s3,81s3,הצעת חוק העונשין (תיקון - החמרת הענישה על תקיפת שופט),2244193,+,main,2244193,F5-9,about,+,Harsher punishment for assaulting a judge.
+n81s3,81s3,הצעת חוק העונשין (תיקון - ביטול עבירת מעשה סדום ושינוי מושגי בעבירות בעילה),2226058,+,main,2226058,F5-10,not_about,,Terminology and merger of sexual offences; no change in severity.
+n81s3,81s3,חוק החמרת ענישה בעבירות מין על רקע לאומני (תיקוני חקיקה),2197714,+,main,2197714,F5-11,about,+,Harsher penalties for nationalist-motivated sexual offences.
+n81s3,81s3,הצעת חוק העונשין (תיקון - התחזות לעובד ציבור בכוונה לבצע פשע),2239481,+,main,2239481,F5-12,borderline,+,"Harsher penalty for impersonating security staff to commit crime; fraud, partly terror."
+n1s1,1s1,הצעת חוק להגדלת שיעור ההשתתפות בכוח העבודה ולצמצום פערים חברתיים (מענק עבודה) (תיקון - אוטומציה בקבלת מענק העבודה),2170296 2198748 2198257 2197608,+,main,2170296,F5-13,about,+,Automatic work-grant payment widens who actually receives it.
+n1s1,1s1,הצעת חוק הביטוח הלאומי (תיקון - ביטול מבחני התלות לקבלת גמלת סיעוד לאזרח שמלאו לו 80 שנים),2195801 2198926 2189705,+,secondary,2195801,F5-14,about,+,"Removes dependency tests for nursing benefit at 80+, widening receipt."
+n1s1,1s1,הצעת חוק הביטוח הלאומי (תיקון - פטור מהמצאת אישור מעסיק לעניין גמלה),2158512,+,main,2158512,F5-15,borderline,+,Procedural exemption easing benefit claims; little effect on benefit level.
+n17s2,17s2,הצעת חוק לאי-מתן הטבות מס למוסד המקיים הפליה (תיקוני חקיקה),2200464,+,secondary,2200464,F5-16,borderline,+,"Denies tax benefits to discriminating institutions; admissions, not staff quotas."
+n17s2,17s2,הצעת חוק לאי מתן הטבות מס למוסד המקיים הפליה (תיקוני חקיקה),2157015,+,secondary,2157015,F5-17,borderline,+,"Denies tax benefits to discriminating institutions; admissions, not staff quotas."
+n17s2,17s2,הצעת חוק החברות (תיקון - ייצוג הולם של נשים בדירקטוריונים של חברות ציבוריות),2191515 2200513,+,secondary,2191515,F5-18,about,+,Quota for women on public company boards.
+n17s2,17s2,הצעת חוק שוויון ההזדמנויות בעבודה (תיקון - פרסום שכר במודעה בדבר הצעת עבודה),2169451,+,secondary,2169451,F5-19,about,+,Pay-transparency duty for employers in job ads.
+n34s2,34s2,"הצעת חוק התכנון והבנייה (תיקון - הגבלת הספקת חשמל, מים וטלפון)",2230562,+,secondary,2230562,F5-20,about,−,"Restricts electricity, water and phone connections for unpermitted homes."
+n19s3,19s3,הצעת חוק הגנת הצרכן (תיקון - איסור הפליית מחירים בשל מגדר),2156923 2199931 2160585 2203663 2204138,+,secondary,2156923,F5-21,about,+,Bans gender-based price discrimination by businesses.
+n19s3,19s3,"הצעת חוק איסור הפליה במוצרים, בשירותים ובכניסה למקומות בידור ולמקומות ציבוריים (תיקון - איסור בקשה לשינוי בהסדר במתן השירות)",2157844 2200093,+,secondary,2157844,F5-22,about,+,Bans asking customers to change seats on gender grounds.
+n19s3,19s3,"הצעת חוק איסור הפליה במוצרים, בשירותים ובכניסה למקומות בידור ולמקומות ציבוריים (תיקון - איסור הפליה בשל נשיאת נשק)",2193046 2225686 2164596,+,secondary,2193046,F5-23,borderline,+,"Adds weapon-carrying as protected ground; gun issue, not origin or disability."
+n89s2,89s2,"הצעת חוק חסינות חברי הכנסת, זכויותיהם וחובותיהם (תיקון - כינוס ועדת האתיקה וסמכויותיה בקשר למסירת מידע לכנסת על ידי שרים)",2222432,+,secondary,2222432,F5-24,about,+,Ethics committee powers over ministers' information duties to Knesset.
+n89s2,89s2,"הצעת חוק חסינות חברי הכנסת, זכויותיהם וחובותיהם (תיקון - חובת גילוי של מסחר בניירות ערך לחבר בוועדת הכספים או הכלכלה של הכנסת)",2157094 2226288,+,secondary,2157094,F5-25,about,+,Disclosure of securities trading by committee members.
+n89s2,89s2,הצעת חוק הממשלה (תיקון - דיווח על מצב רפואי של חבר ועדת השרים לענייני ביטחון לאומי),2229758,+,secondary,2229758,F5-26,about,+,Public reporting duty on security cabinet members' health.
+n251s3,251s3,הצעת חוק סייעות במוסדות חינוך,2192858 2200285 2203935 2197963 2156748 2196105,+,main,2192858,F5-27,about,+,Qualification and training requirements for teaching assistants.
+n251s3,251s3,הצעת חוק העובדים הסוציאליים (תיקון - איסור העסקת בוגרי הרשות הפלסטינית),2240408,+,main,2240408,F5-28,borderline,+,Bars Palestinian Authority graduates as social workers; nationality more than qualification.
+n110s2,110s2,הצעת חוק-יסוד: הכנסת (תיקון - תמיכה במדינת אויב בעת מאבק מזוין),2242621,+,main,2242621,F5-29,about,+,Disqualifies candidates supporting an enemy state during armed conflict.
+n110s3,110s3,הצעת חוק הבחירות לכנסת (תיקון - קיצור תקופת צינון לבכירים במערכת הביטחון),2218164,−,main,2218164,F5-30,about,−,Shortens cooling-off for security chiefs running for Knesset.
+n110s3,110s3,הצעת חוק הבחירות לכנסת (תיקון - הארכת תקופת צינון),2198722,+,main,2198722,F5-31,about,+,Lengthens cooling-off for security chiefs before politics.
+n344s2,344s2,הצעת חוק לתיקון פקודת הבנקאות (תקופת צינון למפקח על הבנקים),2197400 2201723 2159418 2156332 2159742 2196842,+,secondary,2197400,F5-32,not_about,,"Post-service cooling-off, not ethics rules for serving officials."
+n344s2,344s2,הצעת חוק-יסוד: הממשלה (תיקון - כשירות משפטית לכהונת ראש ממשלה וראש ממשלה חלופי),2161105,+,secondary,2161105,F5-33,borderline,+,Bars indicted prime minister; integrity rule but distinct from gifts and side jobs.
+n344s2,344s2,הצעת חוק שירות הציבור (הגבלות לאחר פרישה) (תיקון - תקופת צינון של עובדי אגף התקציבים במשרד האוצר במעבר למגזר הפרטי),2159015,+,secondary,2159015,F5-34,not_about,,"Post-service cooling-off, not ethics rules for serving officials."
+n309s3,309s3,חוק השמות (תיקון מס' 9),1046547,+,main,1046547,F5-35,not_about,,Registry name change after adoption; not who may adopt.
+n279s1,279s1,הצעת חוק-יסוד: הממשלה (תיקון - מספר סגני שרים),2210405 2208753,+,main,2210405,F5-36,about,+,Allows more deputy ministers in prime minister's office.
+n11s2,11s2,הצעת חוק הקמת חדר מיון בקריית שמונה,2196870 2203618 2203936 2202560 2238649,+,main,2196870,F5-37,about,+,"Emergency room in Kiryat Shmona, a border town."
+n11s2,11s2,הצעת חוק הקמת חדר מיון בנתיבות,2192396 2196866,+,main,2192396,F5-38,about,+,"Emergency room in Netivot, a peripheral town."
+n11s3,11s3,הצעת חוק הנכים (תגמולים ושיקום) (תיקון - הגדלת זכויות לנכה עם הפרעה בתר-חבלתית שמקבל תגמול מיוחד),2232561,+,secondary,2232561,F5-39,borderline,+,"More rights for PTSD-disabled veterans; likely cash benefits, not care."
+n11s3,11s3,הצעת חוק שירות המילואים (תיקון - שיקום נפשי וטיפול זוגי) (הוראת שעה),2226940,+,secondary,2226940,F5-40,about,+,Funds mental rehabilitation and couples therapy for reservists.
+n11s3,11s3,הצעת חוק תגמולים לבני משפחה של חטופים ונעדרים בפעולת איבה (תיקון - זכאות לאחר חזרת חטוף או נעדר),2228243 2227632,+,secondary,2228243,F5-41,not_about,,"Cash payments to hostages' families, not mental-health care."
+n11s3,11s3,הצעת חוק התגמולים לנפגעי פעולות איבה (תיקון - זכאות לטיפול פסיכולוגי),2221855,+,secondary,2221855,F5-42,about,+,Entitles terror victims to psychological treatment.
+n317s2,317s2,הצעת חוק חניה לנכים (תיקון - תגי נכה),2228403,+,main,2228403,F5-43,borderline,+,Restructures disability parking badges by degree; direction unclear.
+n160s1,160s1,הצעת חוק העונשין (תיקון - עבירות מין במשפחה),2157057 2198604 2159022 2200972,+,secondary,2157057,F5-44,borderline,+,Bans adult incest; family sexual offence but not domestic violence protection.
+n160s1,160s1,הצעת חוק למניעת אלימות במשפחה (תיקון - מתן צו הגנה בהליך פלילי),2225767,+,secondary,2225767,F5-45,about,+,Protective orders within criminal proceedings for domestic violence.
+n22s1,22s1,הצעת חוק השכירות והשאילה (תיקון - הגבלה על העלאת דמי השכירות),2198167 2197557 2157124 2200286 2195963 2193117 2167829,+,main,2198167,F5-46,about,+,Limits rent increases.
+n22s2,22s2,הצעת חוק זכויות הדייר בדיור הציבורי (תיקון - זכאות לאם יחידנית המקבלת תשלומי מזונות מהמוסד לביטוח לאומי),2167894 2157698,+,secondary,2167894,F5-47,about,+,Public housing eligibility for single mothers receiving alimony payments.
+n22s3,22s3,הצעת חוק פיצוי למי שפונה ממבנה בשל סכנה לקריסתו או בשל קריסתו,2199029 2165171,+,secondary,2199029,F5-48,about,+,Compensation for residents evacuated over building collapse danger.
+n251s2,251s2,חוק הסדרת העיסוק בעבודה במערכת קירור או מיזוג אוויר,2195309,+,main,2195309,F5-49,about,+,Licensing for refrigeration and air-conditioning technicians.
+n251s2,251s2,הצעת חוק ההכרה בענף הפוקר,2162836 2196574 2197045,+,secondary,2162836,F5-50,not_about,,Recognizes poker as a sport; not occupational licensing.
+n251s2,251s2,הצעת חוק הספורט (תיקון - הסדרת העיסוק באימון ספורט),2192055 2192741,+,main,2192055,F5-51,about,+,Regulates and licenses sports coaching.
+n251s2,251s2,הצעת חוק שירות התעסוקה (תיקון מס' 23) (ביטול חובת רישוי ללשכה פרטית העוסקת בתיווך עבודה לעובד ישראלי),2231473,−,main,2231473,F5-52,about,−,Removes licensing for private job-placement agencies.
+n251s2,251s2,הצעת חוק להתמודדות עם תופעת דמי החסות (תיקוני חקיקה),2163995,+,secondary,2163995,F5-53,not_about,,"Fights protection rackets; criminal law, not occupational licensing."
+n251s2,251s2,הצעת חוק לשכת עורכי הדין (תיקון - התמחות ומבחני הסמכה) (הוראת שעה - חרבות ברזל),2212352,−,main,2212352,F5-54,borderline,−,Wartime easing of bar internship and exams; reservist relief more than policy.
+n251s2,251s2,הצעת חוק לשכת עורכי הדין (תיקון - מתן ציון מגן לעולים חדשים ולעורכי דין זרים בבחינות ההתמחות),2230659,−,main,2230659,F5-55,about,−,Protective exam grade for immigrants and foreign lawyers eases entry.
+n251s2,251s2,הצעת חוק צער בעלי חיים (הגנה על בעלי חיים) (תיקון - איסור עיסוק ברבייה ובמכירה של כלבים ללא היתר),2242913,+,secondary,2242913,F5-56,borderline,+,Permit for dog breeding and sale; animal welfare more than occupational licensing.
+n279s2,279s2,הצעת חוק הוועדה לטיפול במשפחות נעדרים אזרחיים,2196992 2217024 2203603 2157566 2161695 2210782 2222851 2231396 2162891,+,secondary,2196992,F5-57,about,+,Creates a committee for families of missing civilians.
+n279s2,279s2,הצעת חוק הרשויות המקומיות (יועץ לקידום מעמד אנשים עם מוגבלות),2198355,+,main,2198355,F5-58,about,+,Mandates local disability-status adviser post.
+n279s2,279s2,"הצעת חוק להכרה, לחקר האמת, להנצחה ולפיצוי משפחות הנעדרים מפרשת ילדי תימן, המזרח והבלקן",2219182,+,secondary,2219182,F5-59,not_about,,"Historical Yemenite children affair: recognition and compensation, another question."
+n279s2,279s2,הצעת חוק המועצה הלאומית לשפת הסימנים,2204791 2207865,+,secondary,2204791,F5-60,borderline,+,National sign-language council; language body serving deaf people.
+n81s3,81s3,הצעת חוק העונשין (תיקון - מאסר עולם לאונס קטינים),2205655 2195767 2156107 2165193,+,main,2205655,F6-1,about,+,Life imprisonment for raping minors: harsher punishment for sexual crime
+n81s3,81s3,הצעת חוק העונשין (תיקון - החמרת ענישה בפשיעה חקלאית) (הוראת שעה),2167082 2197594 2198939 2201397,+,main,2167082,F6-2,about,+,"Harsher punishment for agricultural crime, a listed property crime"
+n81s3,81s3,הצעת חוק העונשין (תיקון - תקיפת עובד מערך בריאות),2192588 2189988 2206346 2207855 2198765,+,main,2192588,F6-3,about,+,Harsher punishment for assaulting health-system workers
+n81s3,81s3,הצעת חוק העונשין (תיקון - תקיפת איש כוחות הביטחון וההצלה),2157576 2190017 2200560,+,main,2157576,F6-4,about,+,Harsher punishment for assaulting security and rescue personnel
+n81s3,81s3,"חוק העונשין (תיקון מס' 152), התשפ""ה–2025",2220995,+,main,2220995,F6-5,about,+,"Extends rape offence to male victims, widening sexual-crime punishment"
+n81s3,81s3,הצעת חוק העונשין (תיקון - עבירת תקיפה בנסיבות מחמירות על ידי אחראי על קטין),2157086,+,main,2157086,F6-6,about,+,Aggravated assault offence when a guardian harms a minor or helpless person
+n81s3,81s3,הצעת חוק העונשין (תיקון - הכנת פרסום בדבר שירותי זנות),2197303 2158664,+,main,2197303,F6-7,borderline,+,New offence for preparing prostitution ads; remote from violence and sexual assault
+n81s3,81s3,הצעת חוק העונשין (תיקון - ענישה בגין תקיפת שוטר),2162502,+,main,2162502,F6-8,about,+,Raises penalties for assaulting police officers
+n81s3,81s3,הצעת חוק למניעת מפגעים (תיקון - הגבלת שימוש בזיקוקין די-נור באזורי מגורים),2201052 2203133,+,main,2201052,F6-9,not_about,,"Restricts fireworks in residential areas; nuisance regulation, not crime penalties"
+n81s3,81s3,הצעת חוק העונשין (תיקון - תקיפת עיתונאים),2223265 2243016,+,main,2223265,F6-10,about,+,Harsher punishment for assaulting journalists
+n81s3,81s3,הצעת חוק העונשין (תיקון - הגנה על קטינים מפני עבירות מין),2230227,+,secondary,2230227,F6-11,about,+,Strengthens criminal protection of minors from sexual offences
+n81s3,81s3,הצעת חוק לתיקון פקודת התעבורה (סייגים למתן רישיון נהיגה),2212926,+,main,2212926,F6-12,not_about,,"Driving-licence conditions for road safety, not violent or sexual crime"
+n1s1,1s1,הצעת חוק מדד לזכות לקיום אנושי בכבוד,2159043 2240546 2197086,+,main,2159043,F6-13,borderline,+,"Sets a dignified-subsistence index; indirect basis for benefit levels, no allowance change itself"
+n1s1,1s1,הצעת חוק הביטוח הלאומי (תיקון - תשלום גמלת סיעוד לרווק או אלמן שהגיע לגיל 75),2229189,+,main,2229189,F6-14,about,+,"Grants nursing-care benefit to single or widowed people over 75, widening recipients"
+n1s1,1s1,"הצעת חוק שירותי רווחה (זכויות נשים ששהו במקלט לנשים מוכות) (תיקון מס' 4) (החלפת מונח וסיוע במיצוי זכויות), התשפ""ב–2022",2161388,+,secondary,2161388,F6-15,not_about,,"Support services and rights assistance for women leaving shelters, not allowance levels"
+n17s2,17s2,הצעת חוק שוויון זכויות לאנשים עם מוגבלות (תיקון - מידע בדבר עמידת מעסיקים פרטיים גדולים ביעד הייצוג ההולם),2198764 2199514 2203714 2195970 2156626 2203061 2205862 2206798,+,secondary,2198764,F6-16,about,+,Disclosure of large private employers meeting disability representation targets
+n17s2,17s2,הצעת חוק חובת המכרזים (תיקון - עידוד עסקים להעסקת בני החברה החרדית והערבית),2197269,+,secondary,2197269,F6-17,about,+,Tender conditions encouraging businesses to employ Haredi and Arab citizens
+n17s2,17s2,הצעת חוק זכויות הסטודנט (תיקון - איסור הפליה מחמת נטייה מינית או זהות מגדרית),2242101,+,secondary,2242101,F6-18,borderline,+,Bans sexual-orientation discrimination in student admissions; not staff or board hiring
+n17s2,17s2,הצעת חוק צמצום פערי שכר מגדריים (תיקוני חקיקה),2205913 2192023 2214175,+,secondary,2205913,F6-19,about,+,Gender pay-gap measures and pay-transparency duties for employers
+n34s2,34s2,הצעת חוק התכנון והבנייה (תיקון - חיבור חשמל מטעמים הומניטריים),2161482 2197725 2160927,+,main,2161482,F6-20,about,+,Allows electricity connection on humanitarian grounds for unpermitted homes
+n19s3,19s3,הצעת חוק שוויון זכויות לאנשים עם מוגבלות (תיקון - הנגשת אוטובוסים בין-עירוניים),2234443,+,secondary,2234443,F6-21,borderline,+,Accessibility duty for intercity buses; disability access rather than refusing customers
+n19s3,19s3,הצעת חוק שוויון זכויות לאנשים עם מוגבלות (תיקון - חובת נגישות באוטובוסים בין-עירוניים),2165449 2201751 2200256 2209393,+,secondary,2165449,F6-22,borderline,+,Physical accessibility duty for intercity buses; access rather than refusal of service
+n19s3,19s3,הצעת חוק מתן שירות בשפה הערבית בגופים ציבוריים ובגופים מסחריים,2157281 2196850,+,secondary,2157281,F6-23,borderline,+,"Arabic-language service duty to prevent discrimination; language access, not refusal over origin"
+n89s2,89s2,הצעת חוק הממשלה (תיקון - ועדת שרים לענייני חקיקה),2159202,+,secondary,2159202,F6-24,borderline,+,"Rules for ministerial legislation committee; likely transparency, but disclosure content unclear"
+n89s2,89s2,הצעת חוק המפלגות (תיקון - הגבלת מימון עצמי של נבחרי ציבור),2165373 2161444 2167237,+,secondary,2165373,F6-25,not_about,,"Limits self-financing of politicians' campaigns; campaign finance, not disclosure duties"
+n89s2,89s2,הצעת חוק הממשלה (תיקון - כללי אתיקה לחברי הממשלה),2235469,+,main,2235469,F6-26,about,+,Statutory ethics rules for government ministers
+n251s3,251s3,הצעת חוק למניעת העסקה בתחום החינוך והטיפול של אדם שהורשע או שמואשם בתקיפה או בהתעללות בחסר ישע,2198661 2196129 2201954 2156380,+,main,2198661,F6-27,about,+,Bars people convicted or accused of abusing helpless persons from education and care work
+n251s3,251s3,הצעת חוק למניעת העסקה של עברייני מין במוסדות מסוימים (תיקון - איסור העסקה במוסד אקדמי),2219407,+,main,2219407,F6-28,about,+,Bars convicted sex offenders from employment in academic institutions
+n110s2,110s2,הצעת חוק-יסוד: הכנסת (תיקון - הזכות להיבחר),2236919 2223092 2225788 2198132,+,main,2236919,F6-29,about,+,Amends right to be elected regarding terror and security offence convicts
+n110s3,110s3,הצעת חוק הרשויות המקומיות (בחירות) (תיקון - קיצור תקופת הצינון למנהל כללי),2218615 2219371 2219321,−,main,2218615,F6-30,about,−,Shortens cooling-off period before local director-general may run for council
+n110s3,110s3,הצעת חוק תקופת צינון לבכירים בשירות הציבורי (תיקוני חקיקה),2157064,+,main,2157064,F6-31,about,+,Cooling-off periods for senior public servants before entering Knesset or government
+n344s2,344s2,הצעת חוק התחרות הכלכלית (תיקון - שינוי דרך מינוי הממונה על התחרות וקביעת תקופת צינון),2229738,+,secondary,2229738,F6-32,not_about,,"Competition commissioner appointment and post-service cooling-off, not serving officials' ethics"
+n344s2,344s2,הצעת חוק שירות הציבור (הגבלות לאחר פרישה) (תיקון - תקופת צינון לנושאי משרה בכירה בשירות הציבור),2199941 2157837,+,secondary,2199941,F6-33,not_about,,Post-retirement cooling-off for senior officials; separate question from serving officials' ethics
+n344s2,344s2,הצעת חוק שירות הציבור (הגבלות לאחר פרישה) (תיקון - תקופת צינון לעובד ציבור ברשויות פיננסיות),2221364,+,secondary,2221364,F6-34,not_about,,"Post-employment cooling-off for financial regulators; not gifts, side jobs or foreign payments"
+n279s1,279s1,הצעת חוק-יסוד: הממשלה (תיקון - הגבלת מספר שרים וסגני שרים),2231729 2228967 2231728 2216392 2158962,−,main,2231729,F6-35,about,−,Caps the number of ministers and deputy ministers
+n279s1,279s1,חוק-יסוד: הממשלה (תיקון מס' 10),2159659,+,secondary,2159659,F6-36,borderline,+,Amends alternate-government rules; effect on number of offices unclear
+n11s2,11s2,הצעת חוק מגן דוד אדום (תיקון - פריסת ניידות טיפול נמרץ ברחבי המדינה),2158282 2163041 2208596 2199994 2205050 2156359,+,main,2158282,F6-37,borderline,+,"Deploys intensive-care ambulances nationwide; regional gaps implied, not explicitly periphery"
+n11s2,11s2,הצעת חוק לתיקון בריאות העם (הוספת מכשור רפואי לפריפריה),2199104,+,main,2199104,F6-38,about,+,Adds medical equipment to peripheral hospitals to close gaps
+n11s3,11s3,הצעת חוק סיוע לקטינים נפגעי עבירות מין או אלימות (תיקון - טיפול נפשי לילדים נפגעי אלימות במשפחה),2196085 2198696 2162739 2200289 2157464 2161107,+,secondary,2196085,F6-39,about,+,State-funded psychological treatment for child victims of family violence
+n11s3,11s3,הצעת חוק ליווי בני משפחות של משרתים בגופי ביטחון ששלחו יד בנפשם,2226207 2196863 2193276,+,secondary,2226207,F6-40,about,+,Support for families of security personnel who died by suicide
+n11s3,11s3,הצעת חוק שירות ביטחון (תיקון - סיוע טיפולי לבוגרי השירות הצבאי),2198851 2225190 2237457 2161379,+,secondary,2198851,F6-41,about,+,Therapeutic support for discharged combat soldiers
+n11s3,11s3,הצעת חוק טיפול בחולי נפש (תיקון - התמכרות פסיכוטית לחומרים פסיכו-אקטיביים),2158702,+,secondary,2158702,F6-42,borderline,+,Psychiatric treatment framework for substance-induced psychosis; not trauma care for more people
+n317s2,317s2,הצעת חוק מענה טלפוני אנושי לאזרח ותיק (תיקוני חקיקה),2156970,+,secondary,2156970,F6-43,about,+,Human telephone answer for senior citizens on service lines
+n160s1,160s1,הצעת חוק למניעת אלימות במשפחה (תיקון - הגדרת אלימות במשפחה),2222540 2166435 2238838,+,secondary,2222540,F6-44,about,+,Statutory definition of domestic violence widening protection
+n160s1,160s1,הצעת חוק הרשות הלאומית למניעה ולמאבק באלימות במשפחה ובאלימות נגד נשים,2157676 2197070,+,secondary,2157676,F6-45,about,+,National authority to prevent domestic violence and violence against women
+n22s1,22s1,הצעת חוק המתווכים במקרקעין (תיקון - הטלת דמי תיווך על שוכר),2233598,+,main,2233598,F6-46,about,+,Prevents imposing landlord-ordered broker fees on tenants
+n22s2,22s2,הצעת חוק זכויות הדייר בדיור הציבורי (תיקון - עיגון זכויות דייר ממשיך בדיור הציבורי),2208009 2201418 2159030,+,main,2208009,F6-47,about,+,Entrenches continuing-tenant rights for family members in public housing
+n22s3,22s3,הצעת חוק להגבלת הריסה וענישה על בנייה בלתי חוקית במגזר הערבי (הוראת שעה),2198166 2199401 2196856 2167888 2198634 2157312,+,secondary,2198166,F6-48,not_about,,Limits demolition of unpermitted Arab homes; not redevelopment evictions or compensation
+n251s2,251s2,הצעת חוק מורשי בטיחות באירועים מרובי קהל,1041320,+,secondary,1041320,F6-49,about,+,"Creates licensed safety officers for mass events, a new licensed occupation"
+n251s2,251s2,חוק הקולנוע (תיקון מס' 7),2230475,−,secondary,2230475,F6-50,not_about,,"Cinema law on script readers pool, not occupational licensing"
+n251s2,251s2,הצעת חוק העסקת עובדים על ידי קבלני כוח אדם (תיקון - מגבלות ברישוי קבלני כוח אדם),2157951 2200975,+,main,2157951,F6-51,about,+,Tightens licensing restrictions on manpower contractors
+n251s2,251s2,הצעת חוק שירותי אבטחה,2205642 2237423 2231882,+,secondary,2205642,F6-52,about,+,Regulates and licenses security service firms
+n251s2,251s2,"הצעת חוק הספורט (תיקון - הסדרת העיסוק באימון ספורט), התשפ""ג–2023",2198814,+,main,2198814,F6-53,about,+,Regulates sports coaching as a licensed occupation
+n251s2,251s2,חוק לשכת עורכי הדין (תיקון מס' 46),2230250,−,main,2230250,F6-54,about,−,"Changes lawyers' internship length, easing entry to the bar"
+n251s2,251s2,הצעת חוק הפיקוח על שירותים פיננסיים (ביטוח) (תיקון - חברות זרות),2221933,−,secondary,2221933,F6-55,borderline,−,"Lets foreign insurers sell in Israel; company market entry, not occupational licensing"
+n251s2,251s2,"הצעת חוק שירות התעסוקה (תיקון מס' 24) (הגברת התחרות בסיעוד הביתי), התשפ""ה–2025",2203951,+,secondary,2203951,F6-56,borderline,−,"Opens home-nursing services to more competition; provider entry, not professional licensing"
+n279s2,279s2,הצעת חוק הרשות לגיל הרך,2219618 2224145,+,secondary,2219618,F6-57,about,+,Creates a dedicated national authority for early childhood
+n279s2,279s2,הצעת חוק הרשויות המקומיות (ממונה על בטיחות ילדים),2198338,+,main,2198338,F6-58,borderline,+,"Mandates child-safety officer in local authorities; local post, not national body"
+n279s2,279s2,הצעת חוק הרשות לוועדות רפואיות,2197940,+,secondary,2197940,F6-59,borderline,+,"Separate authority for medical committees; institutional conflict-of-interest fix, not social problem"
+n279s2,279s2,"הצעת חוק הוועדה לטיפול במשפחות אזרחים נעדרים, התשפ""ב–2022",2157656,+,secondary,2157656,F6-60,about,+,Creates a committee for families of missing civilians
+n81s3,81s3,הצעת חוק העונשין (תיקון - עבירות אלימות במתחם הר הבית),2218645 2201416 2192392 2196811 2206282,+,main,2218645,F7-1,borderline,+,"Harsher violence penalties, but tied to Temple Mount security and religious conflict"
+n81s3,81s3,הצעת חוק העונשין (תיקון - תקיפת נהג אוטובוס ציבורי),2157520 2161211 2204217 2199486 2195888 2198047 2166443,+,main,2157520,F7-2,about,+,Harsher punishment for assaulting public bus drivers
+n81s3,81s3,הצעת חוק העונשין (תיקון - עבירות מין על ידי בן משפחה פונקציונאלי),2157004 2200973,+,main,2157004,F7-3,about,+,Harsher treatment of sexual offences by functional family members
+n81s3,81s3,הצעת חוק העונשין (תיקון - בעילה אסורה בהסכמה תוך ניצול מעמד ציבורי מיוחד),2226596 2197561 2192417,+,main,2226596,F7-4,about,+,New sexual offence: exploiting public status to obtain consent
+n81s3,81s3,הצעת חוק העונשין (תיקון - איסור צריכת חומר תועבה),2168286,+,main,2168286,F7-5,about,+,Criminalises consuming child sexual abuse material
+n81s3,81s3,הצעת חוק העונשין (תיקון - תקיפת עיתונאי או איש תקשורת),2225700,+,main,2225700,F7-6,about,+,Harsher punishment for assaulting journalists
+n81s3,81s3,הצעת חוק איסור צריכת זנות (הוראת שעה ותיקון חקיקה) (תיקון - איסור צריכת תוכן מיני מקוון מותאם אישית),2240893,+,main,2240893,F7-7,borderline,+,Extends prostitution-consumption ban to online content; far from violent crime
+n81s3,81s3,"הצעת חוק סמכויות מיוחדות למאבק בארגוני פשיעה (הוראות שעה), התשפ""ו–2026",2233987,+,secondary,2233987,F7-8,borderline,+,"Special enforcement powers against crime organizations, not penalties as such"
+n81s3,81s3,הצעת חוק העונשין (תיקון - איסור ביזוי המת),2230150,+,main,2230150,F7-9,borderline,+,"New offence of desecrating a corpse, prompted by violent crime"
+n81s3,81s3,"חוק העונשין (תיקון מס' 151), התשפ""ה–2024",2215702,+,main,2215702,F7-10,about,+,Penalties for assaulting police officers
+n81s3,81s3,הצעת חוק לתיקון פקודת התעבורה (גרימת נזק למצלמה),2230431,+,main,2230431,F7-11,not_about,,"Traffic-camera vandalism is traffic enforcement, not violent or sexual crime"
+n81s3,81s3,חוק העונשין (תיקון מס' 140 – הוראת שעה) (תיקון),2224755,+,main,2224755,F7-12,about,+,Extends minimum sentences for illegal weapons offences
+n1s1,1s1,הצעת חוק הביטוח הלאומי (תיקון - הכרה בתורם אבר כמתנדב),2163777,+,main,2163777,F7-13,not_about,,Organ-donor insurance status encourages donation; not welfare allowance levels
+n1s1,1s1,הצעת חוק הביטוח הלאומי (תיקון - הקמת מצבה לאדם ערירי),2204099 2206803 2208593,+,main,2204099,F7-14,not_about,,Routes existing tombstone grant to religious council; administrative
+n1s1,1s1,הצעת חוק הגשת תביעה למענקי סיוע בתקופת ההתמודדות עם נגיף הקורונה (תיקוני חקיקה),2168586,+,main,2168586,F7-15,borderline,+,Eases claiming corona grants and work grant; procedural widening
+n17s2,17s2,הצעת חוק החברות (תיקון - ייצוג הולם לבני שני המינים בדירקטוריונים של חברות ציבוריות),2207246 2199095 2162558 2167812 2160609,+,secondary,2207246,F7-16,about,+,Gender representation quota on public company boards
+n17s2,17s2,הצעת חוק חובת המכרזים (תיקון - עידוד העסקת עובדים מאוכלוסיות ייחודיות),2201648 2169778 2197281,+,secondary,2201648,F7-17,about,+,Tender preference for employers hiring disadvantaged groups
+n17s2,17s2,הצעת חוק שכר שווה לעובדת ולעובד (תיקון - חובת מסירת מידע),2234315 2168828 2156819,+,secondary,2234315,F7-18,borderline,+,Pay-transparency duty for employers; not hiring quotas directly
+n17s2,17s2,הצעת חוק שוויון ההזדמנויות בעבודה (תיקון - חשיפת תנאי העבודה בין עובדים),2165308,+,secondary,2165308,F7-19,borderline,+,Lets employees disclose pay to detect discrimination; indirect to quotas
+n34s2,34s2,הצעת חוק התכנון והבנייה (תיקון - חיבור לחשמל) (הוראת שעה),2158318 2159850,+,main,2158318,F7-20,about,+,Allows electricity connection for unpermitted buildings in minority localities
+n19s3,19s3,"הצעת חוק איסור הפליה במוצרים, בשירותים ובכניסה למקומות בידור ולמקומות ציבוריים (תיקון - הפליה מחמת מראה והתניית רישיון עסק באיסור הפליה)",2160649 2161891 2157441 2198327,+,secondary,2160649,F7-21,about,+,Bans entry discrimination by appearance; links business licence to compliance
+n19s3,19s3,הצעת חוק שוויון זכויות לאנשים עם מוגבלות (תיקון - חובת הנגשת אוטובוסים בין-עירוניים),2206788 2205077 2208594,+,secondary,2206788,F7-22,borderline,+,Bus accessibility for disabled; accessibility rather than refusal of customers
+n19s3,19s3,הצעת חוק שידורי טלוויזיה (כתוביות ושפת סימנים) (תיקון - חובת ליווי בכתוביות תכנית ותשדיר פרסומת),2158713,+,secondary,2158713,F7-23,not_about,,"TV subtitling duty is broadcast accessibility, not refusing customers"
+n89s2,89s2,הצעת חוק העונשין (תיקון - שימוש במידע בידי עובד הציבור),2157965,+,secondary,2157965,F7-24,not_about,,"Insider-information offence for public servants, not ministers' disclosure duties"
+n89s2,89s2,הצעת חוק הממשלה (תיקון - נסיעת שר או סגן שר לחוץ לארץ),2237276,+,secondary,2237276,F7-25,about,+,Transparency on ministers' and deputy ministers' trips abroad
+n122s4,122s4,הצעת חוק הדחת נציג ציבור התומך במאבק מזוין נגד מדינת ישראל (תיקוני חקיקה),2189599 2159757 2156521 2198586 2156331 2198929 2196810 2197205 2212657 2159340,+,secondary,2189599,F7-26,about,+,Removing local representatives who support armed struggle against Israel
+n251s3,251s3,הצעת חוק תומכות חינוך במוסדות חינוך,2200637 2167340,+,main,2200637,F7-27,about,+,Sets qualification and training requirements for education aides
+n251s3,251s3,הצעת חוק לתיקון פקודת הרופאים (שלילת רישיון לרופא שהורשע בעבירת מין),2165427,+,main,2165427,F7-28,about,+,Revokes licence of doctors convicted of sexual offences
+n110s2,110s2,הצעת חוק שירות המדינה (מינויים) (תיקון - הגבלה על מינוי דיפלומטים),2190652,+,main,2190652,F7-29,borderline,+,Bars diplomats not recognizing Jewish democratic state; no terror support
+n110s3,110s3,הצעת חוק התחרות הכלכלית (תיקון - שינוי דרך מינוי הממונה על התחרות וקביעת תקופת צינון),2229738,+,secondary,2229738,F7-30,about,+,Adds cooling-off period for competition commissioner
+n110s3,110s3,הצעת חוק לתיקון פקודת הבנקאות (תקופת צינון למפקח על הבנקים והארכת כהונה),2169687,+,main,2169687,F7-31,about,+,Cooling-off period for banking supervisor
+n344s2,344s2,הצעת חוק העונשין (תיקון - שימוש במידע בידי עובד הציבור),2157965,+,secondary,2157965,F7-32,about,+,Criminalises misuse of official information by public servants
+n344s2,344s2,הצעת חוק שירות הציבור (הגבלות לאחר פרישה) (תיקון - תקופת צינון לשוטרים בתפקידי חקירה ומודיעין),2156450,+,main,2156450,F7-33,not_about,,"Post-retirement cooling-off for police, not rules for serving officials"
+n309s3,309s3,הצעת חוק אימוץ ילדים (תיקון - צמצום דרישת דת זהה),2158905,+,main,2158905,F7-34,about,+,Narrows same-religion requirement for adopters
+n279s1,279s1,הצעת חוק הרשויות המקומיות (בחירת ראש הרשות וסגניו וכהונתם) (תיקון - סגני ראש הרשות),2234580,+,main,2234580,F7-35,about,+,More flexibility to appoint additional deputy heads of local authorities
+n279s1,279s1,הצעת חוק הרשויות המקומיות (בחירת ראש הרשות וסגניו וכהונתם) (תיקון - מינוי סגן ראש רשות בשכר),2191222 2159499,+,main,2191222,F7-36,about,+,Eases appointing an additional paid deputy mayor
+n11s2,11s2,הצעת חוק לתיקון פקודת בריאות העם (הוספת מכשור רפואי לפריפריה),2158829 2203206 2198199 2201711,+,main,2158829,F7-37,about,+,Adds advanced medical equipment in peripheral hospitals
+n11s2,11s2,הצעת חוק ביטוח בריאות ממלכתי (תיקון - צמצום הפערים בין הפריפריה למרכז),2189876,+,main,2189876,F7-38,about,+,Obliges health system to close periphery-centre gaps
+n11s3,11s3,הצעת חוק סיוע לבני משפחה של נפטר ממחלה סופנית,2156964,+,secondary,2156964,F7-39,borderline,+,Psychological support for families of terminally ill; not trauma groups named
+n11s3,11s3,הצעת חוק נפגעי תאונות דרכים (סיוע לבני משפחה) (תיקון - הרחבת הסיוע),2208951 2209526 2198980,+,secondary,2208951,F7-40,borderline,+,"Expands aid, including therapy, for road-accident bereaved families"
+n11s3,11s3,הצעת חוק זכויות ושירותים לילדים ולבני נוער עם קשיים נפשיים,2192501,+,secondary,2192501,F7-41,about,+,Rights and services for youth with mental difficulties
+n317s2,317s2,הצעת חוק הגנת הצרכן (תיקון - מענה אנושי בשירות טלפוני לאזרח ותיק),2199355 2197197 2159209 2200027 2202787 2210437 2215378 2156333 2215938 2202598,+,secondary,2199355,F7-42,about,+,Human phone answer for senior citizens
+n317s2,317s2,הצעת חוק הליך טיפול מזורז על ידי גוף ציבורי בחולה הנוטה למות,2157091,+,secondary,2157091,F7-43,not_about,,Expedited public-body handling for terminally ill; not listed priority groups
+n160s1,160s1,הצעת חוק למניעת אלימות במשפחה (תיקון - הארכת תוקף צו הגנה),2164099,+,secondary,2164099,F7-44,about,+,Extends duration of domestic-violence protective orders
+n160s1,160s1,חוק הגנה על זכויות בדירת המשפחה של ילד שהורהו הומת בידי בן זוגו,2196745,+,secondary,2196745,F7-45,about,+,Protects child's home rights when one parent killed the other
+n22s1,22s1,הצעת חוק חכירה הוגנת,2215002 2209243 2192139 2214401 2198740,+,main,2215002,F7-46,borderline,+,"Fair terms for state land long-term leases, not private landlords"
+n22s2,22s2,"הצעת חוק זכויות הדייר בדיור הציבורי (תיקון - זכאות לאם יחידנית המקבלת תשלומי מזונות מהמוסד לביטוח לאומי), ‏",2197493 2202472,+,secondary,2197493,F7-47,about,+,Public-housing eligibility for single mothers receiving child support
+n22s3,22s3,הצעת חוק בינוי ופינוי של אזורי שיקום (כפר שלם),2199070 2163402 2244078 2158817 2157549,+,main,2199070,F7-48,about,+,Protects Kfar Shalem residents facing eviction for redevelopment
+n251s2,251s2,הצעת חוק מרשם שמות מתחם בישראל,2200738 2167141,+,secondary,2200738,F7-49,not_about,,"Internet domain registry regulation, not occupational licensing"
+n251s2,251s2,הצעת חוק איסור הפליה ברישוי מחמת מצב בריאותי (תיקוני חקיקה),2198782 2222966 2190834 2159939,−,main,2198782,F7-50,not_about,,"Disability discrimination in licensing by health condition, not entry standards"
+n251s2,251s2,הצעת חוק בית המשפט לענייני משפחה (תיקון - רשימת כונסי נכסים),2157167 2195946,+,secondary,2157167,F7-51,borderline,+,Criteria-based list of receivers in family court; niche entry regulation
+n251s2,251s2,הצעת חוק שירות מידע פיננסי (תיקון - פטור וגישה למידע לסוכני ביטוח),2237968 2236923,−,secondary,2237968,F7-52,about,−,Exempts insurance agents from financial-information licensing
+n251s2,251s2,הצעת חוק הפיקוח על מוצר ביטוח ארוך טווח,2225276 2237333,+,main,2225276,F7-53,about,+,Requires licensing for insurance company staff selling products
+n251s2,251s2,הצעת חוק לתיקון פקודת התעבורה (מונים למוניות והשכרת רכב),2189805,+,secondary,2189805,F7-54,borderline,+,Regulates taxi meters and car rental; mostly price regulation
+n251s2,251s2,חוק ארגון הפיקוח על העבודה (תיקון מס' 12),2204663,−,main,2204663,F7-55,not_about,,Construction-site safety assistant requirement is workplace safety
+n251s2,251s2,הצעת חוק הקרימינולוגים השיקומיים,2208263,+,main,2208263,F7-56,about,+,Creates regulated profession of rehabilitative criminologists
+n279s2,279s2,הצעת חוק הרשות הלאומית למניעת התאבדויות,2202739 2213734 2156349 2190528,+,main,2202739,F7-57,about,+,Creates national authority for suicide prevention
+n279s2,279s2,הצעת חוק הרשויות המקומיות (יועצת לקידום מעמד האישה) (תיקון - תפקיד וסמכויות),2198512,+,secondary,2198512,F7-58,about,+,Strengthens local advisor post for women's status
+n279s2,279s2,הצעת חוק הקמת המוסד העליון לשפת הסימנים הישראלית,2161078 2159940 2197836 2157489,+,secondary,2161078,F7-59,borderline,+,Creates institute for sign language; cultural more than welfare body
+n279s2,279s2,הצעת חוק הרשות לטיפול בנפגעי פוסט-טראומה והלומי קרב,2236174,+,secondary,2236174,F7-60,about,+,Creates authority for PTSD and combat-stress victims
+n81s3,81s3,הצעת חוק העונשין (תיקון - החמרת ענישה בפשיעה חקלאית),2162359 2156700 2160253 2190537,+,main,2162359,F8-1,about,+,"Harsher punishment for agricultural crime: theft, vandalism, arson, property crime"
+n81s3,81s3,הצעת חוק העונשין (תיקון - חובת דיווח של איש דת או טוען רבני),2167633 2157153,+,secondary,2167633,F8-2,borderline,+,New reporting-duty offence for clergy on child abuse; not a penalty increase itself
+n81s3,81s3,הצעת חוק העונשין (תיקון - תקיפת נהגי אוטובוס בקווי תחבורה ציבורית),2204105 2197040 2196296 2157944 2198695 2198609,+,main,2204105,F8-3,about,+,Harsher punishment for assaulting bus drivers serving the public
+n81s3,81s3,הצעת חוק העונשין (תיקון - עבירות מין בנסיבות של יחסי מטופלת ורופא נשים),2168619 2201664,+,main,2168619,F8-4,about,+,New sexual offence for exploiting gynecologist-patient dependence
+n81s3,81s3,הצעת חוק העונשין (תיקון - אלימות במשפחה בנוכחות קטין או חסר ישע),2167404 2197050 2166587 2191625 2197471 2195938 2162556,+,main,2167404,F8-5,about,+,Aggravated punishment for domestic violence in presence of a minor
+n81s3,81s3,הצעת חוק העונשין (תיקון - תקיפת עובד ציבור מטפל),2204146 2198964,+,main,2204146,F8-6,about,+,Widens aggravated penalty for assaulting public workers giving care
+n81s3,81s3,הצעת חוק העונשין (תיקון - תקיפת עורך דין),2236555,+,main,2236555,F8-7,about,+,Harsher punishment for assaulting lawyers in their professional role
+n81s3,81s3,הצעת חוק למניעת אלימות כלכלית בין בני זוג ובני משפחה,2200224 2156930,+,secondary,2200224,F8-8,borderline,+,"Economic-violence protection law; mostly domestic-violence remedies, not ordinary crime penalties"
+n81s3,81s3,הצעת חוק העונשין (תיקון - הכפלת ענישה בשל פגיעה ברגשי דת ומסורת),2198316,+,main,2198316,F8-9,borderline,+,Doubles punishment for offences against religious feelings and holy sites; hate/religion question
+n81s3,81s3,הצעת חוק העונשין (תיקון - החמרת ענישה על החזקת מכשיר לשיבוש תדרי קליטה),2215813 2224087,+,main,2215813,F8-10,about,+,Harsher punishment for possessing jammers used in car theft
+n81s3,81s3,הצעת חוק העונשין (תיקון - מאסר למשתתף בהתפרעות אלימה בעת מצב חירום),2158442,+,main,2158442,F8-11,about,+,Prison for participants in violent riots damaging people and property
+n81s3,81s3,הצעת חוק העונשין (תיקון - החמרת ענישה על פגיעה בקטין או בחסר ישע),2238166,+,main,2238166,F8-12,about,+,Harsher punishment for harming minors and helpless persons
+n1s1,1s1,"הצעת חוק הדגל, הסמל והמנון המדינה (תיקון - פגיעה בכבוד דגל המדינה או סמלה)",2197176 2158423 2190962,−,main,2197176,F8-13,not_about,,"Flag-desecration sanction; national symbols question, benefit cut only as punishment"
+n1s1,1s1,הצעת חוק הביטוח הלאומי (תיקון - דמי לידה לעצמאיות - מתן זכות לעבודה חלקית),2227059 2238071 2227725,+,secondary,2227059,F8-14,borderline,+,"Lets self-employed mothers work partly on maternity benefit; benefit design, not welfare level"
+n1s1,1s1,"הצעת חוק מענק לחטוף ששב מן השבי או למשפחתו של חטוף שנרצח בשבי וגופתו הושבה בעקבות מתקפת 7 באוקטובר, התשפ""ו–2025",2237451,+,secondary,2237451,F8-15,not_about,,"One-off compensation grant for returned hostages; terror-victim compensation, not welfare allowances"
+n17s2,17s2,הצעת חוק שוויון זכויות לאנשים עם מוגבלות (תיקון - עמידת מעסיקים פרטיים גדולים ביעד הייצוג ההולם),2167981 2192570,+,secondary,2167981,F8-16,about,+,Enforces disability representation target on large private employers
+n17s2,17s2,הצעת חוק החברות (תיקון - מכסות ייצוג לנשים בדירקטוריונים של חברות ציבוריות),2238181 2229983 2229791 2220281 2228451 2208312,+,secondary,2238181,F8-17,about,+,Quotas for women on public company boards
+n17s2,17s2,הצעת חוק חובת המכרזים (תיקון - ייצוג הולם לאוכלוסייה הערבית),2160923,+,secondary,2160923,F8-18,about,+,Tender condition requiring adequate representation of Arab employees
+n17s2,17s2,"הצעת חוק חינוך ממלכתי (תיקון - איסור פעילות שיש בה שנאה בשל נטייה מינית, גזענות והדרת נשים במוסדות חינוך רשמיים)",2201376,+,secondary,2201376,F8-19,not_about,,"Bans hateful activity in state schools; public education, not private hiring"
+n34s2,34s2,הצעת חוק אספקת החשמל,2214117 2244447,+,main,2214117,F8-20,about,+,Electricity supply for homes in Arab localities lacking planning permits
+n19s3,19s3,"הצעת חוק איסור הפליה במוצרים, בשירותים ובכניסה למקומות בידור ולמקומות ציבוריים (תיקון - איסור הפליה בשל אי מסירת מידע אישי)",2157159,+,secondary,2157159,F8-21,about,+,Adds ground to anti-discrimination law: refusing to give personal data
+n19s3,19s3,הצעת חוק השפה הערבית שפה רשמית (מתן שירותים בשפה הערבית),2197418,+,secondary,2197418,F8-22,not_about,,Arabic as official language and services in Arabic; language status question
+n19s3,19s3,הצעת חוק איסור הפליית אנשים עם עיוורון המלווים בכלבי נחייה (תיקון - אנשים עם מוגבלות המלווים בכלבי שירות),2164943,+,secondary,2164943,F8-23,about,+,Extends non-discrimination to people with disabilities accompanied by service dogs
+n89s2,89s2,"הצעת חוק חסינות חברי הכנסת, זכויותיהם וחובותיהם (תיקון - סמכויות ועדת האתיקה בשל הפרעה בבית משפט וסמכויות בית משפט ביחס לחבר הכנסת)",2239193,+,secondary,2239193,F8-24,borderline,+,Ethics committee powers over court disruption by MKs; not disclosure duties
+n89s2,89s2,"הצעת חוק חסינות חברי הכנסת, זכויותיהם וחובותיהם (תיקון - הצהרה על חשבונות בנק בחוץ לארץ)",2157072,+,secondary,2157072,F8-25,about,+,MKs must declare foreign bank accounts
+n122s4,122s4,הצעת חוק-יסוד: הכנסת (תיקון - הצהרה בדבר זהותה של מדינת ישראל),2215192,+,secondary,2215192,F8-26,about,+,Requires declaration recognising state identity as condition for Knesset candidacy/membership
+n251s3,251s3,הצעת חוק הפיקוח על מעונות יום לפעוטות (תיקון - כשירותם של מחנכים-מטפלים),2199694 2203290 2164955 2197798,+,secondary,2199694,F8-27,about,+,"Daycare staff must prove fitness, a qualification requirement for childcare workers"
+n251s3,251s3,חוק למניעת העסקה במוסדות מסוימים של מי שהורשע באלימות כלפי ילדים וחסרי ישע,2197153,+,main,2197153,F8-28,about,+,Bars those convicted of violence against children from working in such institutions
+n110s2,110s2,הצעת חוק-יסוד: הכנסת (תיקון - ביטול הפסקת חברות של חבר הכנסת),2234551 2234201,−,secondary,2234551,F8-29,about,−,Repeals the procedure for ending an MK's membership
+n110s3,110s3,"הצעת חוק מבקר המדינה (תיקון - תקופת צינון למועמדים לכנסת, חברי כנסת ושרים)",2156551,+,main,2156551,F8-30,about,+,Ten-year cooling-off for politicians before becoming State Comptroller
+n110s3,110s3,הצעת חוק הארכת תקופת צינון למשרתים במערכת הביטחון (תיקוני חקיקה),2205715,+,main,2205715,F8-31,about,+,Lengthens cooling-off for security officials before politics
+n344s2,344s2,הצעת חוק לתיקון פקודת העיריות (חיזוק שלטון החוק וטוהר המידות בשלטון המקומי),2157387,+,main,2157387,F8-32,about,+,Conflict-of-interest and integrity procedures for local government officials
+n344s2,344s2,הצעת חוק היועץ המשפטי לראש הממשלה (מינוי וכהונה),2156931 2235104,+,secondary,2156931,F8-33,not_about,,"Creates personal legal adviser post for Prime Minister; legal advice structure, not ethics rules"
+n309s3,309s3,הצעת חוק אימוץ ילדים (תיקון - אימוץ על ידי בני הזוג),2166076 2160071 2204150,+,main,2166076,F8-34,about,+,"Allows adoption by cohabiting couples, not only married man and wife"
+n279s1,279s1,הצעת חוק הרשויות המקומיות (בחירת ראש הרשות וסגניו וכהונתם) (תיקון - מינוי סגן ראש רשות תשיעי בעיריית ירושלים),2156846,+,main,2156846,F8-35,about,+,Adds a ninth deputy mayor in Jerusalem
+n279s1,279s1,הצעת חוק הרשויות המקומיות (בחירת ראש הרשות וסגניו וכהונתם) (תיקון - סגן ראש רשות ברשות מעורבת),2165287 2160773 2197847 2197102,+,secondary,2165287,F8-36,about,+,Allows additional deputy mayor in mixed authorities
+n11s2,11s2,הצעת חוק הקמת חדרי מיון בקרית שמונה ושדרות,2159469,+,main,2159469,F8-37,about,+,Establishes emergency rooms in Kiryat Shmona and Sderot
+n11s2,11s2,הצעת חוק ביטוח בריאות ממלכתי (תיקון - הפחתה בדמי ביטוח בריאות לתושבי העוטף וקו העימות) (הוראת שעה - חרבות ברזל),2224434,+,secondary,2224434,F8-38,about,+,Lowers health-insurance contributions for Gaza-envelope and border residents
+n11s3,11s3,הצעת חוק חוסן לישראל - הרשות הלאומית לחוסן נפשי ולטראומה,2240442,+,secondary,2240442,F8-39,about,+,Creates national authority for mental resilience and trauma
+n11s3,11s3,הצעת חוק ביטוח בריאות ממלכתי (תיקון - העברת שירותי הגמילה לתוספת השנייה),2160740 2159639 2196530,+,secondary,2160740,F8-40,borderline,+,"Moves addiction-rehabilitation services into health fund basket; addiction, not trauma care"
+n11s3,11s3,הצעת חוק משפחות חיילים שנספו במערכה (תגמולים ושיקום) (תיקון - מעטפת שיקומית לאחים שכולים),2218573 2218205,+,secondary,2218573,F8-41,about,+,"Rehabilitation package, including emotional support, for bereaved siblings of fallen soldiers"
+n317s2,317s2,הצעת חוק המקרקעין (תיקון מס' 39) (הצמדת חניות נגישות בבית משותף חדש),1041438,+,secondary,1041438,F8-42,about,+,Accessible parking for people with disabilities attached in new buildings
+n317s2,317s2,הצעת חוק האזרחים הוותיקים (תיקון - גיל המקנה אי-המתנה בתור),2237270,+,main,2237270,F8-43,about,+,"Changes age for senior priority in queues, apparently widening eligibility"
+n160s1,160s1,הצעת חוק למניעת אלימות במשפחה (תיקון - מכשיר מצוקה),2164341,+,secondary,2164341,F8-44,about,+,Distress device for domestic-violence victims under protective orders
+n160s1,160s1,הצעת חוק למניעת אלימות במשפחה (תיקון - תנאים למתן צו הגנה בפיקוח טכנולוגי),2241023,+,secondary,2241023,F8-45,about,+,Conditions for electronically monitored protective orders in domestic violence
+n22s1,22s1,הצעת חוק משבר נגיף הקורונה החדש (הגנה על שוק הדיור) (תיקוני חקיקה),2157699,+,main,2157699,F8-46,about,+,Protects tenants from eviction and rent burden during coronavirus crisis
+n22s2,22s2,הצעת חוק זכויות הדייר בדיור הציבורי (תיקון - התקנת דוד שמש),2157917,+,main,2157917,F8-47,borderline,+,"Solar heater installation for public-housing tenants with debts; apartment improvement, not eligibility"
+n22s3,22s3,הצעת חוק המקרקעין (חיזוק בתים משותפים מפני רעידות אדמה) (תיקון - הגנה על קשישים),2190193,+,secondary,2190193,F8-48,about,+,Protects elderly owners before demolition in earthquake-reinforcement projects
+n251s2,251s2,הצעת חוק ארגון הפיקוח על העבודה (תיקון מס' 12),2167882,−,main,2167882,F8-49,not_about,,"Construction-site safety appointments; workplace safety, not occupational licensing"
+n251s2,251s2,הצעת חוק הגבלת מכירת מוצרי עישון,2231878,+,secondary,2231878,F8-50,not_about,,"Restricts tobacco sale points; public health, not professional licensing"
+n251s2,251s2,הצעת חוק הסדרת העיסוק בייצוג דוגמנים,2201661 2190101 2161355,+,main,2201661,F8-51,about,+,Regulates and licenses model-representation agencies
+n251s2,251s2,הצעת חוק הפיקוח על שירותים פיננסיים (עיסוק בייעוץ מימון דיור),2157900,+,main,2157900,F8-52,about,+,Licensing regime for mortgage advisers
+n251s2,251s2,הצעת חוק העסקת עובדים על ידי קבלני כוח אדם (תיקון מס' 13),2221105,+,secondary,2221105,F8-53,about,+,Amends licensing regime for manpower contractors
+n251s2,251s2,הצעת חוק רישוי שירותים ומקצועות בענף הרכב (תיקון - הסרת מגבלות והרחבת אפשרות יבוא כלי רכב),2234519,−,secondary,2234519,F8-54,about,−,"Removes restrictions in car-industry licensing, easing entry and imports"
+n251s2,251s2,הצעת חוק חברות ניהול בניין מגורים או משרדים,2237073,+,secondary,2237073,F8-55,about,+,"Regulates building management companies, bringing them under licensing"
+n251s2,251s2,"הצעת חוק הספורט (תיקון – הסדרת העיסוק באימון ספורט), התשפ""ג–2023",2201735,+,main,2201735,F8-56,about,+,Regulates sports coaching as licensed occupation
+n279s2,279s2,הצעת חוק זכויות נפגעי עבירה (תיקון - מרכזי טיפול ייעודיים לנפגעות ונפגעי עבירות מין בגירים),2156833 2200461,+,secondary,2156833,F8-57,borderline,+,"Treatment centres for adult sexual-assault victims; service facilities, not a governing authority"
+n279s2,279s2,הצעת חוק הרשות לפיתוח הפריפריה החברתית,2202129 2202285 2199518,+,secondary,2202129,F8-58,about,+,Creates authority for developing the social periphery
+n279s2,279s2,הצעת חוק בטיחות בתעסוקה ובריאות תעסוקתית,2197049 2157661,+,secondary,2197049,F8-59,borderline,+,"Occupational safety law, likely dedicated body; workplace safety rather than welfare"
+n279s2,279s2,הצעת חוק מתאם ממשלתי לזכויות ילדים ונוער,2197750 2190022,+,secondary,2197750,F8-60,about,+,Creates government coordinator post for children's rights
+n81s3,81s3,הצעת חוק העונשין (תיקון - עבירת ביזה),2233186 2234323,+,main,2233186,F9-1,about,+,Creates a looting offence with harsher punishment than ordinary theft.
+n81s3,81s3,הצעת חוק העונשין (תיקון - החמרת ענישה על תקיפת קטין או חסר ישע),2161102 2200281 2196038 2157771,+,main,2161102,F9-2,about,+,Harsher punishment for assaulting minors or helpless persons.
+n81s3,81s3,הצעת חוק העונשין (תיקון - החמרת ענישה בעבירות החזקת נשק שלא כדין),2202108 2198906 2228305,+,main,2202108,F9-3,about,+,Harsher punishment for illegal weapons possession and trade.
+n81s3,81s3,הצעת חוק העונשין (תיקון - פריצה למיתקן ביטחוני),2211334 2214445 2222431,+,main,2211334,F9-4,borderline,+,"Break-ins to military bases; theft of weapons, partly security rather than ordinary crime."
+n81s3,81s3,הצעת חוק העונשין (תיקון - הכרה באינוס גברים),2227746 2190466,+,main,2227746,F9-5,borderline,+,"Redefines rape to cover men; mainly a definitional change, not clearly harsher."
+n81s3,81s3,הצעת חוק מאבק בארגוני פשיעה (תיקון - הרחבת הנסיבה המחמירה לזיקה לארגון פשיעה),2229997 2207259 2193856 2200723 2198958 2202763,+,main,2229997,F9-6,about,+,Widens the aggravating circumstance for offences linked to crime organizations.
+n81s3,81s3,הצעת חוק העונשין (תיקון - הגדרת בן דוד כאחראי על קטין או על חסר ישע),2206187 2168517,+,main,2206187,F9-7,about,+,Extends offences against minors by a responsible person to cousins.
+n81s3,81s3,הצעת חוק העונשין (תיקון - החמרת הענישה בשל תקיפת עובדים סוציאליים),2157730,+,main,2157730,F9-8,about,+,Harsher punishment for assaulting social workers.
+n81s3,81s3,הצעת חוק למניעת הטרדה מינית (תיקון - הטרדת קטין),2156674 2157821,+,main,2156674,F9-9,about,+,Harsher punishment for sexual harassment of a minor.
+n81s3,81s3,הצעת חוק העונשין (תיקון - החמרת ענישה לעובר עבירה נגד קשיש),2191202 2163664,+,main,2191202,F9-10,about,+,Harsher punishment for offences against the elderly.
+n81s3,81s3,הצעת חוק העונשין (תיקון - היזק בזדון לכלי עבודה),2230236,+,main,2230236,F9-11,about,+,"Harsher punishment for agricultural crime, damage to work tools and livestock."
+n81s3,81s3,הצעת חוק העונשין (תיקון - הורדת גיל האחריות הפלילית לילדי מסתננים לעשר שנים),2232801,+,main,2232801,F9-12,borderline,+,Lowers criminal age for migrants' children; harsher treatment but a population-specific question.
+n1s1,1s1,הצעת חוק הבטחת הכנסה (תיקון - הגדרת הכנסה),2157878,+,main,2157878,F9-13,about,+,"Excludes non-state help from income, widening income-support eligibility."
+n1s1,1s1,הצעת חוק הביטוח הלאומי (תיקון - עקר בית),2157221 2200170,+,main,2157221,F9-14,borderline,+,"Extends homemaker insurance status to men; mainly gender equality, slight widening."
+n1s1,1s1,חוק הביטוח הלאומי (תיקון מס' 246 - הוראת שעה),2216814,+,main,2216814,F9-15,borderline,+,Temporary work-injury treatment entitlement; medical rather than cash benefit.
+n17s2,17s2,הצעת חוק למניעת הטרדה מינית (תיקון - הרחבת תחולה על עובדים עצמאים ועובדי כלכלת הפלטפורמה),2238906 2234244,+,secondary,2238906,F9-16,not_about,,"Sexual harassment protection for self-employed, not discrimination or quotas in hiring."
+n17s2,17s2,"הצעת חוק איסור הפליה בשל מין, נטיה מינית או זהות מגדרית (תיקוני חקיקה)",2156842 2200444,+,secondary,2156842,F9-17,about,+,"Bans discrimination by sex, sexual orientation and gender identity across laws."
+n17s2,17s2,הצעת חוק שוויון ההזדמנויות בעבודה (תיקון - איסור הפליה על רקע זהות מגדרית),2203679 2234416,+,secondary,2203679,F9-18,about,+,Bans employment discrimination on gender identity.
+n17s2,17s2,הצעת חוק החברות הממשלתיות (תיקון - ייצוג הולם בקרב עובדי החברות הממשלתיות),2199135,+,secondary,2199135,F9-19,borderline,+,"Representation duty in government companies, which are state-owned, not private."
+n34s2,34s2,הצעת חוק אספקת החשמל (הוראת שעה),2230479,+,main,2230479,F9-20,about,+,Allows electricity supply to buildings in unplanned compounds without waiting for plans.
+n19s3,19s3,הצעת חוק התכנון והבנייה (תיקון - חדרי הנקה בבניינים ציבוריים),2226396,+,secondary,2226396,F9-21,not_about,,"Planning requirement for nursing rooms, not a ban on refusing customers."
+n19s3,19s3,"הצעת חוק איסור הפליה במוצרים, בשירותים ובכניסה למקומות בידור ולמקומות ציבוריים (תיקון - חובת הודעה מוקדמת על אירוע סגור)",2198631 2196925 2156793,+,secondary,2198631,F9-22,about,+,Closes the private-event loophole used to discriminate at entry.
+n19s3,19s3,"הצעת חוק איסור הפליה במוצרים, בשירותים ובכניסה למקומות בידור ולמקומות ציבוריים (תיקון - הפליה בשל מוצא עדתי)",2169497 2197600,+,secondary,2169497,F9-23,about,+,Adds ethnic origin as a banned ground of discrimination in services.
+n89s2,89s2,הצעת חוק לתיקון פקודת העיריות (חיזוק שלטון החוק וטוהר המידות בשלטון המקומי),2157387,+,main,2157387,F9-24,not_about,,"Conflict-of-interest procedure for local elected officials, not ministers or Knesset members."
+n89s2,89s2,"הצעת חוק חסינות חברי הכנסת, זכויותיהם וחובותיהם (תיקון - ועדת האתיקה)",2164510,+,secondary,2164510,F9-25,about,+,Keeps the Knesset ethics committee able to act over Knesset members.
+n122s4,122s4,הצעת חוק-יסוד: הכנסת (תיקון - הזכות להיבחר),2236919 2223092 2225788 2198132,+,secondary,2236919,F9-26,borderline,+,"Widens bar for terror-convicted candidates; conviction-based, not views-based."
+n251s3,251s3,הצעת חוק הפיקוח על מעונות (תיקון - תנאי כשירות לעובדי מעון),2191466 2196080,+,main,2191466,F9-27,about,+,Qualification requirements for staff in residential care facilities.
+n251s3,251s3,הצעת חוק לתיקון פקודת העיריות (קבלת מידע מהמרשם הפלילי) (הוראת שעה),2170262,+,secondary,2170262,F9-28,about,+,Criminal-record checks for local workers in places with minors.
+n110s2,110s2,הצעת חוק-יסוד: הכנסת (תיקון - הצהרת אמונים של חבר הכנסת),2227964,+,main,2227964,F9-29,about,+,Ties Knesset member loyalty declaration to disqualification grounds.
+n110s3,110s3,הצעת חוק לתיקון פקודת העיריות (השתתפות עובדים במשרות אמון במכרזים פומביים לקבלת עובדים),2227544,−,main,2227544,F9-30,borderline,−,Eases one-year restriction on former trust-post employees in local tenders.
+n110s3,110s3,הצעת חוק הכנסת (תיקון - הרחבת תקופת הצינון במעבר לשדלנות בכנסת),2167129,+,main,2167129,F9-31,about,+,Lengthens cooling-off before former officials become Knesset lobbyists.
+n344s2,344s2,הצעת חוק איסור קבלת תמורה וחובת דיווח על קשרים עם מדינה זרה,2239008 2230689,+,secondary,2239008,F9-32,about,+,Bans payments from and requires reporting of ties with foreign states.
+n344s2,344s2,"הצעת חוק איסור עיסוק נוסף לשופטים, חברי הכנסת ושרים",2230763,+,main,2230763,F9-33,about,+,"Bans side occupations for judges, Knesset members and ministers."
+n309s3,309s3,הצעת חוק אימוץ ילדים (תיקון - איסור הפרדה בין אחים בהליך אימוץ),2203602 2158007,+,main,2203602,F9-34,not_about,,"Keeping siblings together, not who may adopt (singles, same-sex couples)."
+n279s1,279s1,חוק-יסוד: הממשלה (תיקון מס' 11),2198130,+,main,2198130,F9-35,about,+,Allows an additional minister within one ministry.
+n279s1,279s1,הצעת חוק-יסוד: הממשלה (תיקון מס' 11) (שר נוסף במשרד),2159953,+,main,2159953,F9-36,about,+,Allows an additional minister within one ministry.
+n11s2,11s2,הצעת חוק לקידום שירותי הרפואה בעיר אילת (תיקוני חקיקה),2157762 2169961 2193632 2163381,+,main,2157762,F9-37,about,+,Legislative measures to improve health services in Eilat.
+n11s2,11s2,הצעת חוק חובת הקמת בית חולים בעיר דימונה,2165027,+,main,2165027,F9-38,about,+,Requires building a hospital in Dimona.
+n11s3,11s3,הצעת חוק טיפול במכורים לסמים קשים ואשפוזם (תיקוני חקיקה),2191513 2209339 2202970,+,secondary,2191513,F9-39,not_about,,"Compulsory treatment of adult drug addicts, not wider state-funded trauma care."
+n11s3,11s3,הצעת חוק סיוע לקטינים נפגעי עבירות מין או אלימות (תיקון - טיפול נפשי לילדים נפגעי עבירות מין או אלימות במשפחה),2165966,+,secondary,2165966,F9-40,about,+,State mental-health treatment for child victims of sexual or family violence.
+n11s3,11s3,הצעת חוק ביטוח בריאות ממלכתי (תיקון - העברת שירותי הגמילה לאחריות קופות החולים),2195647,+,secondary,2195647,F9-41,borderline,+,Moves addiction rehabilitation into the health basket; addiction rather than trauma care.
+n317s2,317s2,הצעת חוק האזרחים הוותיקים (תיקון - הקצאת מקומות חניה במקום ציבורי לאזרח ותיק),2216671 2208597 2204566 2156831,+,main,2216671,F9-42,about,+,Reserved parking for senior citizens in public places.
+n317s2,317s2,"הצעת חוק שוויון זכויות לאנשים עם מוגבלות (תיקון – הרחבת הזכאות למתן שירות בלא המתנה בתור), התשפ""ג–2022",2197175,+,secondary,2197175,F9-43,about,+,Widens entitlement to service without waiting in queue.
+n160s1,160s1,הצעת חוק העונשין (תיקון - סחר בבני אדם למטרות נישואין),2198697 2197567 2157649 2168440,+,secondary,2198697,F9-44,not_about,,"Human trafficking for marriage, a trafficking offence rather than domestic violence."
+n160s1,160s1,הצעת חוק זכויות החולה (תיקון - מסירת מידע למניעת פגיעה),2205468,+,secondary,2205468,F9-45,borderline,+,"Allows medical disclosure to prevent harm, possibly protecting family-violence victims."
+n22s1,22s1,הצעת חוק השכירות והשאילה (תיקון - הארכת תקופת השכירות בעת מצב חירום),2156881 2197150,+,main,2156881,F9-46,about,+,"Extends residential leases during emergencies, protecting tenants."
+n22s2,22s2,הצעת חוק זכויות הדייר בדיור הציבורי (תיקון - זכאות לאימהות יחידניות המקבלות מזונות ילדים),2158883,+,secondary,2158883,F9-47,about,+,Public-housing eligibility for single mothers receiving child support.
+n22s3,22s3,הצעת חוק המכר (דירות) (הבטחת השקעות של רוכשי דירות) (תיקון - התחדשות עירונית),2157428,+,secondary,2157428,F9-48,borderline,+,"Guarantees investments of owners in urban-renewal deals; financial, not eviction conditions."
+n251s2,251s2,הצעת חוק רישוי עסקים (תיקון - פטור מהגשת מסמכים),2156603,−,secondary,2156603,F9-49,not_about,,"Business licensing paperwork, not occupational licensing or entry exams."
+n251s2,251s2,הצעת חוק שירות מידע פיננסי (תיקון - הסדרת מתן שירותים על ידי עמותה),2233168,−,main,2233168,F9-50,borderline,−,"Lets nonprofits obtain financial-information service licences, widening entry."
+n251s2,251s2,הצעת חוק הפיקוח על שירותים פיננסיים (ביטוח) (תיקון - הוספת רישיון הנפקה),2196158 2198806 2159475,+,secondary,2196158,F9-51,borderline,−,New insurance issuance licence category; likely opens entry to new players.
+n251s2,251s2,הצעת חוק הגישור,2200505 2156934,+,main,2200505,F9-52,about,+,"Regulates mediation and mediators, a listed occupation."
+n251s2,251s2,הצעת חוק רישום קבלנים לעבודות הנדסה בנאיות (תיקון - עיצומים כספיים),2238446,+,secondary,2238446,F9-53,about,+,Fines enforce contractor licensing for engineering construction work.
+n251s2,251s2,הצעת חוק מיסוי מקרקעין (שבח ורכישה) (תיקון - ייצוג נישום על ידי רואה חשבון),2156646 2196069,−,main,2156646,F9-54,about,−,Lets accountants do work reserved for lawyers in real-estate tax.
+n251s2,251s2,הצעת חוק הסדרת העיסוק בייצוג על ידי יועצי מס (תיקון - היתר לבעל רישיון פנסיוני לייצג לפני רשות מס),2209557,−,main,2209557,F9-55,about,−,Lets pension licence holders represent taxpayers before the tax authority.
+n251s2,251s2,הצעת חוק לשכת עורכי הדין (תיקון - בחינת ההתמחות בעידן הקורונה),2156651,−,main,2156651,F9-56,about,−,Eases bar exam and internship requirements during the coronavirus period.
+n279s2,279s2,הצעת חוק זכויות נפגעי עבירה (תיקון - הקמת נציבות זכויות נפגעי עבירה),2202928 2156705,+,secondary,2202928,F9-57,about,+,Creates a commission for rights of crime victims.
+n279s2,279s2,הצעת חוק לטיפול בכתות פוגעניות,2243028 2158894,+,secondary,2243028,F9-58,borderline,+,"Framework for harmful cults; may create a dedicated body, unclear from text."
+n279s2,279s2,הצעת חוק זכויות למשפחות של אנשים עם מוגבלות,2158347,+,secondary,2158347,F9-59,borderline,+,Rights for families of disabled people; dedicated body not evident.
+n279s2,279s2,הצעת חוק האזרחים הוותיקים (תיקון - הקמת מרכזי מיצוי זכויות לאזרחים ותיקים),2167477,+,secondary,2167477,F9-60,about,+,Creates centres for realizing senior citizens' rights.
+n81s3,81s3,הצעת חוק העונשין (תיקון - איומים כלפי עובד ציבור),2164298,+,main,2164298,F10-1,about,+,New offence of threats against public servants; harsher criminal law for ordinary crime
+n81s3,81s3,הצעת חוק העונשין (תיקון - החמרת ענישה בשל תקיפת צוות רפואי),2202852 2201186 2203793 2197162 2190871 2193273 2197712,+,main,2202852,F10-2,about,+,Harsher punishment for assaulting medical staff
+n81s3,81s3,הצעת חוק העונשין (תיקון - הגדרת פשע שנאה),2205142,+,main,2205142,F10-3,about,+,"Adds gender as aggravating hate motive, raising penalties for attacks on women"
+n81s3,81s3,הצעת חוק העונשין (תיקון - הגנה עצמית בנסיבות של אלימות במשפחה),2169369 2156243 2162740 2198450,−,main,2169369,F10-4,borderline,−,"Self-defence for abused women who kill partners; milder liability, but a defence question"
+n81s3,81s3,הצעת חוק כלי הירייה (תיקון - איסור השתתפות בהתארגנות חמושה אסורה),2215751,+,main,2215751,F10-5,about,+,New firearms offence: joining an illegal armed organization
+n81s3,81s3,הצעת חוק העונשין (תיקון - סחר בבני אדם למטרות נישואין),2198697 2197567 2157649 2168440,+,main,2198697,F10-6,about,+,Adds human trafficking for marriage as an offence
+n81s3,81s3,הצעת חוק העונשין (תיקון - תקיפת עובדי חירום),2156129 2190959,+,main,2156129,F10-7,about,+,Harsher punishment for assaulting emergency workers
+n81s3,81s3,הצעת חוק העונשין (תיקון - החמרת הענישה בעבירת סחר בנשק של כוחות הביטחון),2214442,+,main,2214442,F10-8,about,+,Harsher penalty for selling security-force weapons to criminals
+n81s3,81s3,הצעת חוק אסדרת חברות שמירה ושירותי אבטחה,2227528,+,secondary,2227528,F10-9,not_about,,"Licensing and ministry oversight of security firms, not criminal penalties"
+n81s3,81s3,הצעת חוק העונשין (תיקון - החמרת ענישה בעבירת הפרת הוראות צו הגנה ובעבירת תקיפת בן זוג),2204582,+,main,2204582,F10-10,about,+,Harsher punishment for breaching protection orders and assaulting a spouse
+n81s3,81s3,הצעת חוק העונשין (תיקון - הוספת עבירת יחסי מין אסורים בין מטפל בריאותי למטופל),2228030,+,main,2228030,F10-11,about,+,New sexual offence between health practitioner and patient
+n81s3,81s3,הצעת חוק האזנת סתר (תיקון - אחריות של הורה לקטין שטרם מלאו לו 10 שנים),2209281,−,main,2209281,F10-12,not_about,,"Wiretap permission for parents of young children; privacy and evidence, not penalties"
+n1s1,1s1,הצעת חוק מענק לחטוף ששב מן השבי או למשפחתו של חטוף שנרצח בשבי וגופתו הושבה בעקבות מתקפת 7 באוקטובר,2237707 2230342,+,secondary,2237707,F10-13,borderline,+,One-off grant for returned hostages; special compensation rather than general welfare allowances
+n1s1,1s1,הצעת חוק הביטוח הלאומי (תיקון - תשלום גמלאות מתקציב מערכת בתי המשפט),2191419,−,main,2191419,F10-14,not_about,,"Benefits of families of minors convicted of security offences; sanction question, not benefit level"
+n1s1,1s1,הצעת חוק הביטוח הלאומי (תיקון - זכות המוסד לתביעה),2156448,+,main,2156448,F10-15,not_about,,"National Insurance subrogation right to sue; financing mechanism, not benefit level"
+n17s2,17s2,הצעת חוק הפיקוח על שירותים פיננסיים (קופות גמל) (תיקון - חישוב מקדם המרה לקצבה),2167881 2160256,+,secondary,2167881,F10-16,borderline,+,Bars gender discrimination in pension conversion factors; not hiring or quotas
+n17s2,17s2,הצעת חוק שוויון ההזדמנויות בעבודה (תיקון - איסור הפליה מחמת מצב כלכלי),2196911 2190706 2200274 2189939,+,secondary,2196911,F10-17,about,+,Bans employer discrimination by economic status
+n17s2,17s2,הצעת חוק שיווי זכויות האישה (תיקון - פנייה שוויונית בשילוט במקום ציבורי),2157475,+,secondary,2157475,F10-18,not_about,,"Gender-neutral wording on public signs; not hiring, quotas or discrimination duties"
+n17s2,17s2,הצעת חוק שוויון הזדמנויות בעבודה (תיקון - איסור הפליה על רקע זהות מגדרית),2158649,+,secondary,2158649,F10-19,about,+,Bans employer discrimination by gender identity
+n34s2,34s2,חוק התכנון והבנייה (תיקון מס' 136),2163108,+,main,2163108,F10-20,about,+,"Allows connecting unpermitted homes, mostly in Arab towns, to electricity"
+n19s3,19s3,הצעת חוק הנגישות הלשונית,2227459 2222698 2225662,+,secondary,2227459,F10-21,borderline,+,Language accessibility of services; equal access but not refusal of customers
+n19s3,19s3,"הצעת חוק איסור הפליה במוצרים, בשירותים ובכניסה למקומות בידור ולמקומות ציבוריים (תיקון - פגיעה באמונה דתית)",2192011 2197435,−,secondary,2192011,F10-22,about,−,Adds religious-belief exception letting businesses refuse service
+n19s3,19s3,"הצעת חוק איסור הפליה במוצרים, בשירותים ובכניסה למקומות בידור ולמקומות ציבוריים (תיקון - איסור הפרעה להנקה בציבור)",2157290,+,secondary,2157290,F10-23,about,+,Bans interfering with breastfeeding in public places
+n89s2,89s2,הצעת חוק איסור קבלת תמורה וחובת דיווח על קשרים עם מדינה זרה,2239008 2230689,+,secondary,2239008,F10-24,about,+,Duty to report foreign-state ties around decision makers (Qatargate)
+n89s2,89s2,הצעת חוק איסור מתן כספים קואליציוניים,2164347,+,secondary,2164347,F10-25,about,+,Bans coalition funds; ethics rule on coalition money explicitly in direction
+n122s4,122s4,הצעת חוק-יסוד: הכנסת (תיקון - החלטה בדבר הפסקת כהונה של חבר הכנסת),2234078,−,secondary,2234078,F10-26,about,+,"Changes who decides MK expulsion; likely eases it, sign somewhat uncertain"
+n251s3,251s3,הצעת חוק הפיקוח על מעונות (תיקון - כשירותם של אנשי צוות),2196081 2165680,+,secondary,2196081,F10-27,about,+,Requires medical fitness certificate for staff of care institutions
+n251s3,251s3,הצעת חוק פיקוח על בתי ספר (תיקון - איסור התחזות לגננת),2202743 2196017 2156265,+,main,2202743,F10-28,borderline,+,"Bans unqualified daycare carers calling themselves kindergarten teachers; title, not requirements"
+n110s2,110s2,הצעת חוק-יסוד: הממשלה (תיקון - איסור מינוי אדם שהורשע בעבירת טרור לשר בעל אחריות ביטחונית),2217155,+,main,2217155,F10-29,about,+,Bars terror convicts from security ministerial posts
+n110s3,110s3,הצעת חוק שירות המדינה (מינויים) (תיקון - תקופת צינון במעבר מהמגזר הפרטי לשירות המדינה),2222704 2157478,+,main,2222704,F10-30,about,+,Adds cooling-off period moving from private sector into civil service
+n110s3,110s3,הצעת חוק שירות הציבור (הגבלות לאחר פרישה) (תיקון - איסור על מתן היתרים או פטורים למשרתים בכוחות הביטחון ובמשרד הביטחון),2157479,+,main,2157479,F10-31,about,+,Bars exemptions from cooling-off for retiring security personnel
+n344s2,344s2,הצעת חוק שירות המדינה (מינויים) (תיקון - תקופת צינון במעבר מהמגזר הפרטי לשירות המדינה),2222704 2157478,+,secondary,2222704,F10-32,not_about,,"Cooling-off period on entry to civil service; not gifts, foreign payments or side jobs"
+n344s2,344s2,הצעת חוק איסור עיסוק נוסף לנושאי משרה בכירה,2234126,+,main,2234126,F10-33,about,+,Bans side occupations for senior officeholders
+n309s3,309s3,הצעת חוק אימוץ ילדים (תיקון - כשירות לאמץ והתאמת מאמצים לילד),2234002 2156455,+,main,2234002,F10-34,about,+,Revises adoption eligibility per Gross committee; widens who may adopt
+n279s1,279s1,הצעת חוק הרשויות המקומיות (בחירת ראש הרשות וסגניו וכהונתם) (תיקון - שכר לסגן ראש רשות),2204722 2206789,+,secondary,2204722,F10-35,about,+,Allows a third paid deputy mayor in smaller large authorities
+n279s1,279s1,הצעת חוק-יסוד: ממשלת חילופים (תיקוני חקיקה),2159188,+,secondary,2159188,F10-36,about,−,"Amends rotation government; likely restricts or repeals it, sign uncertain"
+n11s2,11s2,הצעת חוק הקמת בית חולים ביישוב ערבי (תיקוני חקיקה),2197214,+,main,2197214,F10-37,about,+,Hospital in an Arab locality to close health-service gap
+n11s2,11s2,הצעת חוק הקמת חדרי מיון בשדרות ובקריית שמונה,2209278 2200692,+,main,2209278,F10-38,about,+,Emergency rooms in Sderot and Kiryat Shmona
+n11s3,11s3,הצעת חוק תשלומים לפדויי שבי ולחטופים ששוחררו (תיקון - הרחבת הזכאויות לחטופים ששוחררו),2228324 2230265,+,secondary,2228324,F10-39,borderline,+,Wider entitlements for released hostages; mental care not clearly central
+n11s3,11s3,הצעת חוק הביטוח הלאומי (תיקון - גמלה בשל דיכאון סב לידתי),2222586,+,secondary,2222586,F10-40,borderline,+,"Cash benefit for postpartum depression; support, not treatment itself"
+n11s3,11s3,הצעת חוק שירות המילואים (תיקון - טיפול נפשי וזוגי לבני משפחות משרתי המילואים) (הוראת שעה - חרבות ברזל),2224833,+,secondary,2224833,F10-41,about,+,State-funded mental and couple therapy for reservists' families
+n317s2,317s2,הצעת חוק לתיקון פקודת התעבורה (חניית נשים בהריון והורה לתינוק),2202026 2197116 2158860 2222135 2203670 2202864,+,main,2202026,F10-42,about,+,Reserved parking for pregnant women and parents of infants
+n317s2,317s2,הצעת חוק שוויון זכויות לאנשים עם מוגבלות (תיקון - הרחבת הזכאות למתן שירות בלא המתנה בתור),2199272,+,secondary,2199272,F10-43,about,+,Extends no-queue service priority for people with disabilities
+n160s1,160s1,הצעת חוק מניעת אלימות במשפחה (תיקון - הגדרת אלימות במשפחה),2196055,+,secondary,2196055,F10-44,about,+,Wider definition of domestic violence
+n160s1,160s1,הצעת חוק העונשין (תיקון - החמרת ענישה בעבירת הפרת הוראות צו הגנה ובעבירת תקיפת בן זוג),2204582,+,secondary,2204582,F10-45,about,+,Harsher penalties for protection-order breach and spousal assault
+n22s1,22s1,הצעת חוק השכירות והשאילה (תיקון - איסור הטלת דמי תיווך על השוכר),2234725,+,main,2234725,F10-46,about,+,Bars charging broker's fee to tenant
+n22s3,22s3,"הצעת חוק בינוי ופינוי של אזורי שיקום (כפר שלם), התשפ""ו–2026",2202921,+,main,2202921,F10-47,about,+,Protects Kfar Shalem residents facing evacuation for redevelopment
+n22s3,22s3,הצעת חוק המכר (דירות) (הבטחת השקעות של רוכשי דירות) (תיקון - הבטחת נכסי בעלי דירות בעסקאות מסוג של התחדשות עירונית),2190513,+,secondary,2190513,F10-48,about,+,Secures apartment owners' assets in urban-renewal deals
+n251s2,251s2,הצעת חוק שמאי ביטוח,2209846,+,main,2209846,F10-49,about,+,Regulates and licenses insurance appraisers
+n251s2,251s2,הצעת חוק העסקת עובדים על ידי קבלני כוח אדם (תיקון - קבלן שירות בתחום הסיעוד),2215399,+,secondary,2215399,F10-50,not_about,,Foreign caregiver employment arrangement via nursing contractors; not licensing entry
+n251s2,251s2,הצעת חוק הפיקוח על שירותים פיננסיים (שירותים פיננסיים מוסדרים) (תיקון מס' 18),1042178,−,secondary,1042178,F10-51,borderline,+,"Tightens regulation of currency service providers; licensing of firms, not occupations"
+n251s2,251s2,הצעת חוק לשכת עורכי הדין (תיקון - ציון עובר בבחינת ההתמחות),2160974,−,main,2160974,F10-52,about,−,Lowers bar exam pass mark
+n251s2,251s2,הצעת חוק המועצה לייצור ולשיווק של אגוזי אדמה (תיקון - ביטול החוק),2197032 2191242 2196869,−,secondary,2197032,F10-53,borderline,−,"Repeals peanut production quotas; freedom of occupation, but agricultural quota"
+n251s2,251s2,הצעת חוק אסדרת חברות שמירה ושירותי אבטחה,2227528,+,secondary,2227528,F10-54,about,+,"Licensing for security firms, organizers and guards"
+n251s2,251s2,"הצעת חוק הסדרת העיסוק בייעוץ משכנתאות, התשפ""ו–2026",2220194,+,main,2220194,F10-55,about,+,Brings mortgage advisers under licensing
+n279s2,279s2,הצעת חוק הרשות לטיפול בנפגעי הלם קרב,2166065 2196717 2236170 2236702 2198038 2222442 2156903,+,secondary,2166065,F10-56,about,+,Creates dedicated authority for combat-stress victims
+n279s2,279s2,חוק הרשות הלאומית למאבק בעוני,2195679,+,secondary,2195679,F10-57,about,+,Creates national authority against poverty
+n279s2,279s2,הצעת חוק ביטוח סיעוד ממלכתי (הקמת ועדה ממלכתית),2238541,+,secondary,2238541,F10-58,borderline,+,State committee to design long-term care insurance; temporary design body
+n279s2,279s2,"הצעת חוק למניעת אלימות במוסדות למתן טיפול (תיקון - נציבות מניעת אלימות כלפי אנשי צוות במוסדות רפואיים), התשפ""א-¬2021",2158541,+,secondary,2158541,F10-59,about,+,Creates commission against violence toward medical staff
+n279s2,279s2,הצעת חוק הנכים (תגמולים ושיקום) (תיקון - התאמה של שירותי אגף השיקום לנכים מהציבור הדתי והחרדי),2239594,+,secondary,2239594,F10-60,not_about,,Adapting rehabilitation services for religious disabled; no new dedicated body

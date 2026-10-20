@@ -23,7 +23,9 @@ def irrelevant():
 
 LATER = [(2, 'plan2.json', 'split2_choice.jsonl'), (3, 'plan3.json', 'split3_choice.jsonl'), (4, 'plan4.json', 'split4_choice.jsonl'),
          (5, 'plan5.json', 'split5_choice.jsonl'),
-         (6, 'plan6.json', 'split6_choice.jsonl')]   # later split stages, in order (5, 6: baskets, 2026-10-20; choice and sign by Sonnet)
+         (6, 'plan6.json', 'split6_choice.jsonl'),
+         (7, 'plan7.json', 'split7_choice.jsonl'),
+         (8, 'plan8.json', 'split8_choice.jsonl')]   # later split stages, in order (5, 6: baskets; 7, 8: audit splits of new statements; 2026-10-20; choice and sign by Sonnet)
 
 def later_plans():
     """Plans of the later split stages (2: audit of the statements, 3: audit of the new statements, 4: audit after the label removals,

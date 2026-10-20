@@ -1,0 +1,24 @@
+{
+ "note": "Stage 8 (2026-10-20, [У]): split of the basket directions that pass the selection criteria (SHARED_UNDERSTANDING «Выпавшие законопроекты и направления без вопроса»; local/research/basket_split/). Procedure of 2026-10-16 (Opus proposes parts; a part that is an existing direction is a transfer); the choice is made by Sonnet subagents instead of Jev; sign asked per part.",
+ "parents": {
+  "256s3p2": [
+   "256s3p2q1",
+   "256s3p2q2"
+  ]
+ },
+ "new": {
+  "256s3p2q1": {
+   "name_ru": "School duties against ostracism and harassment",
+   "name_en": "School duties against ostracism and harassment",
+   "plus_en": "More legal duties on schools to prevent and handle social ostracism, bullying and sexual harassment among pupils",
+   "minus_en": "Fewer legal duties; each school handles ostracism and harassment at its own discretion"
+  },
+  "256s3p2q2": {
+   "name_ru": "Teaching gender equality and tolerance",
+   "name_en": "Teaching gender equality and tolerance",
+   "plus_en": "Mandatory school lessons and staff training on gender equality, tolerance, anti-racism and preventing sexual violence",
+   "minus_en": "Such lessons and training are not required and are left to each school"
+  }
+ },
+ "transfers": {}
+}

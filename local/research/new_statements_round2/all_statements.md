@@ -1,0 +1,126 @@
+# Statements (existing and new)
+
+- E2 «Sovereignty in Judea and Samaria»: Israel should apply its sovereignty to parts of Judea and Samaria (the West Bank), even if this harms relations with Israel's allies.
+- E3 «Trade with hostile countries»: Israel should cut economic ties with hostile states, territories and organizations, including trade, money transfers and aid agencies, even if civilians there are harmed.
+- E4 «Jewish character of the state»: The Jewish character of the state should be anchored more firmly in law, even if non-Jewish citizens feel less equal.
+- E5 «Community heritage centers»: The state should not create or fund new heritage centers for particular communities or movements — Tunisian, Moroccan, Chabad — even if their traditions fade.
+- E6 «Revoking citizenship for terrorism»: It should be easier for the state to revoke the citizenship or residency of people convicted of terrorism, even if they are left stateless.
+- E7 «Drafting yeshiva students»: Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.
+- E8 «Compulsory service for everyone»: Every citizen, including groups that are exempt today, should do compulsory military or civilian service, even if the army does not need all of them.
+- E9 «Benefits for those who served»: Tuition aid, daycare, tax breaks and land should go first to those who did military or national service, even if others get less.
+- E10 «Entry of foreigners»: Israel should restrict more strictly the entry and residence of foreigners, including citizens' spouses who come from the Palestinian territories, even if this separates some families.
+- E12 «Rights of foreign workers and asylum seekers»: Israel should make it harder for foreign workers and asylum seekers to stay, work or receive benefits, even if their living conditions worsen.
+- E13 «Foreign states and international organizations in Israel»: Israel should restrict more strictly the activity of foreign states and international organizations on its territory, such as UNRWA, even at the cost of conflict with the UN and allies.
+- E14 «Foreign workers: quotas»: Israel should reduce the number of foreign workers, even if construction, agriculture and elderly care become more expensive.
+- E15 «Payments to reservists and veterans»: Soldiers, reservists, veterans and bereaved military families should receive more payments and benefits from the state, even if this requires raising taxes.
+- E18 «Prison conditions for terrorism convicts»: Conditions for prisoners jailed for terrorism should be harsher — only basic medical care, no Red Cross visits, fewer privileges — even if Israel faces international criticism.
+- E19 «Funding schools without the core curriculum»: Every school should be required to teach core subjects such as math and English, even if schools that refuse lose state funding.
+- E20 «Divorce»: Getting a divorce should be easier, even if one of the spouses objects.
+- E21 «Foreign government funding of non-profits»: The state should tighten control over non-profits funded by foreign governments, for example by taxing such donations, even if this limits independent civil-society groups.
+- E22 «Civil marriage»: Couples should be able to marry in Israel without a religious ceremony, even if the Chief Rabbinate does not recognize such marriages.
+- E24 «Politicians' influence over the courts»: Elected officials should have more say over the courts, for example in appointing judges or overriding rulings, even if the courts become less independent.
+- E25 «Separate spaces for men and women»: Separating men and women should be allowed in state and municipal settings — swimming hours, events, study programs — even if this limits one sex's access at certain times.
+- E33 «Rabbinical courts in civil disputes»: Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.
+- E35 «Public transport funding»: The state should spend more on public transport, such as fare discounts and more bus lines, even if this requires raising taxes.
+- E36 «Settlements»: The state should reduce its support for settlements in Judea and Samaria (the West Bank), even if this makes life there harder for settlers.
+- E37 «Housing construction»: Much more housing construction should be allowed, even at the cost of building on open spaces and greater strain on infrastructure.
+- E38 «Early withdrawal of long-term savings»: Citizens should be allowed to withdraw locked savings, such as pension, study funds or child savings plans, early, even if less remains for the future.
+- E40 «LGBT rights»: The state should expand legal protections and equal rights for LGBT people, even if religious citizens and businesses must sometimes act against their beliefs.
+- E42 «Imports and competition»: The state should lower barriers to imports and new competitors, even if existing local businesses lose income.
+- E45 «Counter-terrorism measures»: Measures against terrorists and their supporters should be harsher, such as the death penalty or revoking citizenship, even if uninvolved people are affected.
+- E47 «Police powers»: The police and security forces should be given broader powers to arrest, search, monitor and use force, even if the risk of abuse grows.
+- E48 «Vetting senior appointments»: Appointments to senior state posts should be vetted by an independent committee, even if it can block candidates chosen by elected politicians.
+- E49 «Rights of suspects»: Suspects and defendants should have fewer legal protections during arrest, questioning and trial, even if the risk of convicting innocent people grows.
+- E51 «Help for new immigrants»: New immigrants (olim) should receive more benefits and assistance, even at the expense of other parts of the budget.
+- E53 «Privatization of public services»: Public services should be run by state bodies rather than handed to private companies or organizations, even if this costs the budget more.
+- E54 «Denying benefits for terrorism»: People involved in terrorism should lose state benefits and rights, such as allowances, prison conditions or state-paid lawyers, even if their families lose income.
+- E55 «Protection of personal data»: Personal information should be better protected by law, even if this makes it harder for the police and the media to obtain it.
+- E59 «Guardianship of violent parents»: Parents charged with serious violence against family members should lose guardianship of their children, even before a court convicts them.
+- E60 «Confiscation of property without conviction»: The state should have broader powers to confiscate property linked to crime or terrorism, even if innocent owners are sometimes harmed.
+- E62 «Ministers' control over senior officials»: Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.
+- E63 «Overriding court rulings»: The Supreme Court should have less power to cancel laws and government decisions, even if citizens have fewer ways to challenge them in court.
+- E68 «Rights of ordinary prisoners»: Prisoners and detainees should get more rights, such as rehabilitation programs and limits on shackling, even if this costs the prison service more.
+- E69 «Minimum sentences»: The law should set minimum sentences for serious crimes, such as weapons offenses, even if judges cannot give lighter sentences in exceptional cases.
+- E70 «Religious rules in public institutions»: Public institutions such as hospitals and army bases should follow Jewish religious rules, like no leavened bread on Passover, even if non-observant people are restricted.
+- E71 «Wartime relief»: In wars and other emergencies, the state should give reservists, evacuees and businesses extra relief, like tax breaks and payment delays, even if deficits grow.
+- E72 «Land purchase in Judea and Samaria»: Israelis, including Jews, should be allowed to buy land in Judea and Samaria (the West Bank), even if this makes a future territorial agreement harder.
+- E74 «Equality in the Basic Laws»: The right to equality should be written into the Basic Laws, including the Nation-State Law, even if this weakens laws favoring the state's Jewish character.
+- E75 «Women's representation»: Party lists and public bodies should be required to include a minimum share of women, even if parties must drop candidates their members chose.
+- E77 «Unemployment benefits»: Unemployment benefits should cover more people, such as the self-employed, medical interns, young workers and people in job training, even if National Insurance spends more.
+- E78 «Support for students»: Students and pupils should get more state support, such as study grants, free school meals and tuition aid, even if this costs the budget more.
+- E80 «Challenging the authorities»: Police, health funds and benefit offices should have to record and explain their decisions so people can challenge them, even at extra cost.
+- E81 «Dismissing employees who support terror»: Teachers, lecturers and public employees who express support for terrorism should be dismissed, even without a criminal conviction.
+- E82 «Access to higher education»: Higher education should be made more accessible — more colleges in the periphery and easier admission rules — even if academic standards may fall.
+- E83 «Withholding Palestinian Authority funds»: Israel should withhold Palestinian Authority tax revenues equal to its payments to people jailed for terrorism and their families, even if the Authority collapses financially.
+- E85 «Survivors' benefits»: Widows, widowers, orphans and bereaved families should get more benefits, for example equal survivors' pensions for widowers, even if this costs the budget more.
+- E86 «Support for farmers»: The state should give farmers more support, such as cheaper water and investment grants, even if taxpayers and consumers pay more.
+- E88 «Access to voting»: Voting should be made easier for people away from home, such as soldiers and students, even if polling becomes harder to supervise.
+- E89 «Health fund services»: Health funds should owe patients more services and rights, such as treatment within a set time and ambulance refunds, even if health insurance costs rise.
+- E90 «Powers of municipalities»: Municipalities should get more powers to set local rules, for example on Shabbat public transport, security and water services, even if rules differ between towns.
+- E92 «Disability and sickness benefits»: More people should qualify for disability, nursing-care and sick-leave benefits, for example homemakers and the self-employed, even if National Insurance and employers pay more.
+- E93 «Environmental regulation»: The state should impose stricter environmental rules, such as a climate law, a levy on plastic bags and protection of trees and coasts, even if this raises costs for businesses and consumers.
+- E95 «Protection of debtors»: Debtors should be better protected — for example no electricity cut-offs for unpaid bills and no travel bans over small debts — even if creditors find it harder to collect.
+- E96 «Oversight of security forces»: Security failures such as October 7 should be investigated by a state commission of inquiry, even if the government cannot choose its members.
+- E99 «Monitoring of violent partners»: People under a protective order for domestic violence should be electronically monitored, even before any conviction.
+- E100 «Pensions for seniors and survivors»: Old-age pensions and benefits for Holocaust survivors should be expanded, even if this costs the budget more.
+- E101 «Free public education»: The state should provide more free education, from early childhood and after-school programs to university, even if this requires more public spending.
+- E103 «Prime minister term limits»: A prime minister should be limited to two consecutive terms, even if voters lose the option to re-elect a popular leader.
+- E105 «Checks on the prime minister's power»: The prime minister should face more checks, such as limits on replacing senior officials, even if elected governments struggle to carry out their policies.
+- E108 «The right to vote»: The right to vote should not depend on military or national service or a prison sentence, even if those who served see this as unfair.
+- N100c «Broadcasting public proceedings»: Public proceedings, such as court hearings and municipal council meetings, should be filmed and broadcast, even if people appearing in them lose privacy.
+- N103a «Immunity of elected officials»: Knesset members, ministers, the prime minister and mayors should have no special protection from criminal investigation or indictment, even if investigations disrupt their work.
+- N103c «Shielding Israelis from international courts»: It should be a crime to help the International Criminal Court act against Israeli soldiers or officials, even if this strains relations with allies.
+- N116b «Barring candidates from elections»: It should be easier to bar candidates and parties from Knesset elections for expressing support for terrorism, even without a criminal conviction.
+- N12a «Conversion therapy for minors»: Therapy that tries to change a minor's sexual orientation should be banned, even if parents want it for their child.
+- N134 «Limits on free expression»: The state should restrict more speech, such as enemy flags, foreign channels deemed a security risk or insulting officials, even if free speech narrows.
+- N139 «Public broadcasting»: The state should stop funding media outlets, such as the public broadcaster Kan and Army Radio, even if fewer news outlets survive.
+- N143 «Animal protection»: Animal protection laws should be stricter, such as a ban on trawl fishing and harsher penalties for cruelty, even if farmers and fishermen lose income.
+- N156 «Recognized conversion to Judaism»: Conversions to Judaism recognized by the state should be performed only under the Chief Rabbinate, even if fewer people manage to convert.
+- N162s2 «Accommodating Jewish observance»: Public bodies and building owners should have to accommodate Jewish religious observance, such as Shabbat water pumps, even if non-observant people share the cost.
+- N162s3 «Holidays of non-Jewish communities»: The state, universities and employers should accommodate Muslim, Christian and Druze religious practice, such as holidays and places of prayer, even if this costs more.
+- N177 «Cooperation with international courts»: Israel should cooperate with international courts, such as the International Criminal Court, even if Israeli soldiers and officials may then be tried abroad.
+- N196 «Status of minority communities»: The status of minority communities, such as Druze and Arab citizens, should be anchored in law, even if the state's Jewish character weighs less.
+- N218 «Power of labor unions»: Labor unions should have less power, such as limits on strikes in essential services, even if workers find it harder to win raises.
+- N24 «Preference for Israeli products»: The state should favor Israeli products and suppliers, for example in government purchasing or TV content quotas, even if taxpayers and consumers pay more.
+- N240s1 «Unlicensed construction»: Homes built without a permit should be legalized or connected to electricity and water, even if this encourages more building without permits.
+- N248s1 «Tobacco restrictions»: Tobacco and smoking products should face stricter limits, such as bans on advertising and flavors, even if adult smokers have fewer choices.
+- N256s4 «Jewish heritage in schools»: Schools should give more room to Jewish and Israeli heritage, such as community histories, memorial days and the flag, even if other subjects lose time.
+- N270 «Use of organs and sperm after death»: After death, a person's organs or sperm may be used for transplants or having children unless they objected, even if they never explicitly agreed.
+- N271a «Cannabis»: Adults should be allowed to buy, grow and use cannabis for personal use, even if more people, including young people, start using it.
+- N274 «Retirement age»: People should be able to retire earlier, such as women and construction workers, even if pension funds and taxpayers pay more.
+- N278 «Conditions on child benefits»: The state should give families with children more support, such as daycare subsidies, tax credits and sick-child leave, even if taxes rise.
+- N290s1 «Minority representation in public bodies»: Arab, Druze and Circassian citizens should be guaranteed jobs and seats in public bodies matching their population share, even if other candidates are passed over.
+- N322 «Cooling-off period for judges»: Prosecutors and the Attorney General should wait several years after leaving office before they can be appointed judges, even if fewer experienced candidates are available.
+- N353 «Protecting the weaker party to a contract»: The law should dictate more terms in contracts with consumers, tenants and borrowers, such as limits on fees, even if this restricts freedom to negotiate.
+- N75 «Rights of the opposition»: The opposition in the Knesset and city councils should get guaranteed rights, such as committee seats and chairs, even if the majority governs less freely.
+- N80b «Checks on police use of force»: Police use of force should face stricter checks, such as body cameras at protests and filming of water-cannon use, even if officers hesitate to act.
+- N85 «Criminal bans on incitement»: More kinds of speech should be criminal, such as denying the October 7 massacre or inciting racism, even if free speech becomes narrower.
+- N88s2 «Supervision of consumer businesses»: Shops, banks and insurers should set prices and terms more freely, with fewer fines from regulators, even if some customers pay more.
+- N8s4 «Fines for harming nature and animals»: Harming nature and animals, such as littering, off-road driving or unlicensed dog breeding, should face stricter bans and penalties, even if more people are fined.
+- N9 «Fees for public services»: Fees for public services, such as hospital parking, water bills and school payments, should be cut, even if taxes must rise to cover them.
+- N96s3 «Sanctions for discrimination»: Businesses and schools that discriminate should pay higher compensation or lose state funding, even if claims can succeed without proof of actual harm.
+- N99s1 «Crimes against children»: Crimes against children should be punished more harshly and be easier to prove, even if accused people find it harder to defend themselves.
+- N99s2 «Child safety in daycare and schools»: Daycare centers and schools should face stricter safety requirements, such as cameras, protected rooms and staff vetting, even if daycare becomes more expensive.
+- N99s3 «Limits on what children can access»: Parents, not the law, should decide what children use, such as smartphones, social media and toy guns, even if children are exposed to more risks.
+- N81s3 «Penalties for violent and sexual crime»: Penalties for crimes such as violence, sexual assault, protection rackets and illegal weapons should be raised, even if more people spend longer in prison.
+- N1s1 «Welfare allowances»: Welfare allowances, such as income support and the work grant for low earners, should be higher, even if this requires raising taxes.
+- N17s2 «Hiring quotas in private companies»: Private companies should choose staff and directors freely, without quotas for women, people with disabilities, Arab or Haredi citizens, even if these groups stay underrepresented.
+- N34s2 «Utilities for unpermitted homes»: Homes built without a permit in Arab and Bedouin towns should not get electricity or water connections, even if families there are left without them.
+- N19s3 «Discrimination by landlords and businesses»: Landlords and businesses should be forbidden to refuse tenants or customers over origin, family status or disability, even if this limits owners' freedom of choice.
+- N89s2 «Ministers' reporting to the Knesset»: Ministers and Knesset members should disclose more to the Knesset and public, such as foreign ties and outside advisers, even if this slows their work.
+- N122s4 «Expelling Knesset members»: Elected officials and candidates should not be removed or barred from running over their views, even if they voice support for armed struggle against Israel.
+- N251s3 «Barring offenders from care jobs»: Staff working with children, patients or the elderly should face stricter requirements, such as training and a clean criminal record, even if hiring gets harder.
+- N110s2 «Disqualifying candidates over terror support»: Candidates and public office holders who support terror against Israel should be barred or removed, even if never convicted of a crime.
+- N110s3 «Cooling-off periods»: Officials should be able to run for office or join private companies soon after leaving their posts, even if this risks conflicts of interest.
+- N309s3 «Who may adopt»: Single people and same-sex couples should be allowed to adopt children on the same terms as married couples, even if this contradicts religious tradition.
+- N279s1 «Number of ministers»: The law should cap the number of ministers, deputy ministers and paid deputy mayors, even if this makes it harder to build coalitions.
+- N11s2 «Health care in outlying towns»: The state should direct more health funding to outlying and border towns, such as new emergency rooms and lower health-insurance fees, even if central regions get less.
+- N11s3 «Mental-health and trauma care»: The state should pay for psychological and trauma care for more people, such as reservists' families, terror victims and abused children, even if this requires raising taxes.
+- N317s2 «Priority in everyday services»: Seniors, people with disabilities and parents of babies should get special treatment, such as human phone answers and reserved parking, even if businesses pay more.
+- N160s1 «Definition of domestic violence»: Domestic-violence victims should get more protection, such as recognising economic abuse and stripping a spouse's killer of property, even if the state intervenes in families.
+- N22s1 «Rent increases»: Landlords should be free to raise rent and end leases as they choose, without legal limits, even if tenants have to move more often.
+- N22s2 «Eligibility for public housing»: More people should be eligible for public housing, such as single mothers and women leaving shelters, even if waiting times grow for those already in line.
+- N22s3 «Clearing old neighborhoods»: Authorities and developers should be able to clear old neighborhoods and unsafe buildings faster, even if residents leave before receiving full compensation or new housing.
+- N251s2 «Entry into licensed professions»: Fewer jobs should need a state license, and licenses should be easier to get, such as through shorter internships, even if professional standards may fall.
+- N279s2 «Dedicated social authorities»: Existing ministries, not new national authorities, should handle social problems such as poverty and trauma, even if no single body is in charge.
+- N163p2 «Funding religious institutions»: The state should give more money and discounts to religious institutions, such as synagogues, mosques, religious councils and religious schools, even if other services get less.
