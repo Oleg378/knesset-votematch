@@ -49,7 +49,8 @@ elif STEP == "final":
     rem0 = (set(pl0["parents"]) - set(pl0["keep"])) | {d for p in LB0.later_plans() for d in p["parents"]}
     tech0 = {"107", "128", "236", "289", "339", "343", "346"}
     # «passes» = can carry a statement: remainders of split themes and technical themes get none by rule, so they count as failing
-    passing = {d for d, x in QS0.criteria().items() if x["base"] and d not in rem0 and d not in tech0}; LB0.load = _o
+    # frozen: the selection BEFORE any nested removal (positions on disk change once the removals are applied)
+    passing = set(json.load(open(f"{O}/passing_before.json"))) - rem0 - tech0; LB0.load = _o
     K["rule_a"] = (K.strategy == 2) & ~K.big_d.isin(passing)
     K.loc[K.rule_a, "strategy"] = 1
     # customer decisions per pair override everything above (nested_customer.csv)

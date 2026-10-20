@@ -55,8 +55,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",146,защита частной жизни и персональных данных,0.3097,0.2909,-0.0052,11,29,117,False,0.024,30,32
 אמת,"HaDemocratim, headed by Yair Golan",147,сбор и передача данных государственными органами,0.801,0.9,0.0043,10,32,75,False,-0.1033,49,32
 אמת,"HaDemocratim, headed by Yair Golan",149,личная свобода и автономия,0.4403,0.5542,0.0283,11,69,61,False,-0.1421,94,60
-אמת,"HaDemocratim, headed by Yair Golan",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",-0.6726,-0.4,-0.0226,10,4,27,False,-0.25,100,20
-אמת,"HaDemocratim, headed by Yair Golan",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,-0.5693,-0.5714,-0.0214,7,18,5,False,0.0235,20,20
+אמת,"HaDemocratim, headed by Yair Golan",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",-0.6658,-0.4,-0.0158,10,4,27,False,-0.25,66,17
+אמת,"HaDemocratim, headed by Yair Golan",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,-0.5498,-0.5714,-0.0018,7,15,2,False,0.0235,20,17
 אמת,"HaDemocratim, headed by Yair Golan",149s4,Принудительные меры к уголовным подозреваемым и правонарушителям (не по безопасности),-0.1099,-0.25,-0.0299,10,12,36,False,0.17,42,23
 אמת,"HaDemocratim, headed by Yair Golan",15,обязанности медицинских учреждений и работников,0.6588,0.8182,0.0007,11,15,52,False,-0.1601,51,19
 אמת,"HaDemocratim, headed by Yair Golan",151,роль религиозных норм в государстве и публичной сфере,-0.3606,-0.1,-0.0106,10,3,6,False,-0.25,24,7
@@ -65,7 +65,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",151c,раздельность мужчин и женщин в публичных местах,-0.35,-0.1,0.0,10,1,0,False,-0.25,22,3
 אמת,"HaDemocratim, headed by Yair Golan",154,полномочия религиозных институтов и судов,-0.75,-0.6,0.0,5,5,0,False,-0.15,14,7
 אמת,"HaDemocratim, headed by Yair Golan",156,доступность признаваемого гиюра,0.0,0.0,0.0,1,0,1,True,0.0,0,1
-אמת,"HaDemocratim, headed by Yair Golan",158,доступность гражданских способов личного статуса,1.0,1.0,0.0,4,4,0,False,0.0,0,1
+אמת,"HaDemocratim, headed by Yair Golan",158,доступность гражданских способов личного статуса,1.0232,1.0,0.0232,6,7,3,False,0.0,0,4
 אמת,"HaDemocratim, headed by Yair Golan",159,доступ к расторжению брака,1.102,1.0,0.0083,8,19,3,False,0.0938,5,11
 אמת,"HaDemocratim, headed by Yair Golan",15s2,Лицензирование медицинских профессий,0.8437,0.625,-0.0,8,7,10,False,0.2188,8,5
 אמת,"HaDemocratim, headed by Yair Golan",16,профессиональные полномочия медработников,0.1389,0.1111,0.0,9,2,18,False,0.0278,3,5
@@ -95,7 +95,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 אמת,"HaDemocratim, headed by Yair Golan",181,права иностранных работников,0.2851,0.0,0.0423,10,0,8,False,0.2429,31,6
 אמת,"HaDemocratim, headed by Yair Golan",182,права иностранцев на социальную помощь,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 אמת,"HaDemocratim, headed by Yair Golan",183,доступ к гражданству и репатриации,0.8113,0.4,0.1613,10,4,8,False,0.25,32,5
-אמת,"HaDemocratim, headed by Yair Golan",184,полномочия лишать гражданства и статуса,0.0994,0.0,0.0994,3,0,3,False,0.0,0,1
+אמת,"HaDemocratim, headed by Yair Golan",184,полномочия лишать гражданства и статуса,-0.2213,0.0,0.0287,10,0,3,False,-0.25,43,4
 אמת,"HaDemocratim, headed by Yair Golan",185,охват воинской обязанности,-0.0525,0.0,0.0309,3,0,6,False,-0.0833,1,3
 אמת,"HaDemocratim, headed by Yair Golan",185a,призыв учащихся ешив,0.1205,0.0,0.1205,3,0,4,False,0.0,24,4
 אמת,"HaDemocratim, headed by Yair Golan",185b,объём общей воинской и резервной повинности,-0.0584,0.0,0.0233,10,2,10,False,-0.0817,28,7
@@ -418,8 +418,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",146,защита частной жизни и персональных данных,-0.6391,-0.4424,-0.0602,6,22,47,False,-0.1365,47,33
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",147,сбор и передача данных государственными органами,0.5345,0.6667,0.0255,6,11,18,False,-0.1577,46,22
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",149,личная свобода и автономия,0.4525,0.3333,0.0313,6,18,65,False,0.0878,67,40
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",0.7385,0.5,0.0021,6,21,119,False,0.2365,73,31
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,0.2043,0.0,-0.004,6,0,10,False,0.2083,12,4
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",0.7366,0.5,0.0006,6,18,116,False,0.236,69,28
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,0.1629,0.0,-0.0037,6,0,10,False,0.1667,4,2
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",149s4,Принудительные меры к уголовным подозреваемым и правонарушителям (не по безопасности),0.2078,-0.0667,0.0466,5,7,31,False,0.2279,52,17
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",15,обязанности медицинских учреждений и работников,0.0662,0.1667,0.0106,6,1,45,False,-0.1111,11,15
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",151,роль религиозных норм в государстве и публичной сфере,0.5981,0.3333,0.0147,6,4,30,False,0.25,11,6
@@ -429,6 +429,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",151d,ортодоксальное определение еврейства,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",154,полномочия религиозных институтов и судов,0.125,0.0,0.0,2,0,1,True,0.125,5,2
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",156,доступность признаваемого гиюра,-0.5833,-0.3333,0.0,3,1,0,False,-0.25,3,2
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",158,доступность гражданских способов личного статуса,-0.25,0.0,0.0,5,0,0,False,-0.25,8,2
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",159,доступ к расторжению брака,-0.25,0.0,0.0,6,0,0,False,-0.25,14,3
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",15s2,Лицензирование медицинских профессий,0.5,0.5,0.0,2,1,1,True,0.0,0,2
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",16,профессиональные полномочия медработников,-0.125,0.0,0.0,2,0,1,True,-0.125,1,2
@@ -460,7 +461,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",181,права иностранных работников,-0.5846,-0.5,-0.0013,6,3,17,False,-0.0833,3,6
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",182,права иностранцев на социальную помощь,-0.1875,0.0,0.0,4,0,0,False,-0.1875,9,2
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",183,доступ к гражданству и репатриации,-0.5433,-0.5,-0.0017,6,6,8,False,-0.0417,20,7
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",184,полномочия лишать гражданства и статуса,0.45,0.2,0.0,5,1,0,False,0.25,24,1
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",184,полномочия лишать гражданства и статуса,0.8582,0.6,0.0082,5,5,9,False,0.25,37,4
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",185,охват воинской обязанности,-0.25,0.0,0.0,6,0,0,False,-0.25,10,3
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",185a,призыв учащихся ешив,-0.2295,0.0,-0.0212,6,0,24,False,-0.2083,10,5
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",185b,объём общей воинской и резервной повинности,0.119,0.3333,0.0357,6,2,1,False,-0.25,22,6
@@ -746,7 +747,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 בי,Tzomet Beit Yisrael,146,защита частной жизни и персональных данных,0.25,0.0,0.0,1,0,2,True,0.25,3,3
 בי,Tzomet Beit Yisrael,147,сбор и передача данных государственными органами,-0.25,0.0,0.0,1,0,2,True,-0.25,1,3
 בי,Tzomet Beit Yisrael,149,личная свобода и автономия,1.116,1.0,0.0326,1,1,5,True,0.0833,3,6
-בי,Tzomet Beit Yisrael,149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",0.0519,0.0,0.0519,1,0,8,True,0.0,0,6
+בי,Tzomet Beit Yisrael,149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",0.0508,0.0,0.0508,1,0,4,True,0.0,0,4
 בי,Tzomet Beit Yisrael,149s4,Принудительные меры к уголовным подозреваемым и правонарушителям (не по безопасности),-0.9905,-1.0,-0.1155,1,2,4,True,0.125,4,4
 בי,Tzomet Beit Yisrael,15,обязанности медицинских учреждений и работников,-0.2383,0.0,0.0117,1,0,3,True,-0.25,5,6
 בי,Tzomet Beit Yisrael,151b,еврейские религиозные правила в государственных учреждениях,0.0377,0.0,0.0377,1,0,2,True,0.0,0,2
@@ -768,6 +769,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 בי,Tzomet Beit Yisrael,18,регулирование финансового сектора,-0.25,0.0,0.0,1,0,1,True,-0.25,1,2
 בי,Tzomet Beit Yisrael,181,права иностранных работников,-0.0517,0.0,-0.0517,1,0,2,True,0.0,0,2
 בי,Tzomet Beit Yisrael,183,доступ к гражданству и репатриации,-0.2855,0.0,-0.0355,1,0,2,True,-0.25,1,1
+בי,Tzomet Beit Yisrael,184,полномочия лишать гражданства и статуса,0.0525,0.0,0.0525,1,0,5,True,0.0,0,2
 בי,Tzomet Beit Yisrael,185,охват воинской обязанности,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
 בי,Tzomet Beit Yisrael,185a,призыв учащихся ешив,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
 בי,Tzomet Beit Yisrael,185b,объём общей воинской и резервной повинности,-0.0359,0.0,0.2141,1,0,1,True,-0.25,3,2
@@ -994,8 +996,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,146,защита частной жизни и персональных данных,0.4128,0.4741,0.013,9,17,18,False,-0.0743,75,30
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,147,сбор и передача данных государственными органами,0.468,0.6667,0.0139,9,40,30,False,-0.2125,45,25
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,149,личная свобода и автономия,0.7697,0.6963,0.0365,9,38,119,False,0.0369,69,47
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",0.763,0.5,0.0219,8,10,97,False,0.2411,78,25
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,0.7069,0.5556,0.0124,9,12,23,False,0.1389,10,8
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",0.7592,0.5,0.0188,8,5,79,False,0.2404,73,21
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,0.6385,0.5556,-0.0004,9,12,20,False,0.0833,5,6
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,149s4,Принудительные меры к уголовным подозреваемым и правонарушителям (не по безопасности),-0.4847,-0.625,0.0286,8,7,34,False,0.1117,45,21
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,15,обязанности медицинских учреждений и работников,0.3885,0.5556,0.0052,9,18,70,False,-0.1722,35,16
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,151,роль религиозных норм в государстве и публичной сфере,1.0465,0.7143,0.0823,7,19,39,False,0.25,11,11
@@ -1005,6 +1007,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,151d,ортодоксальное определение еврейства,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,154,полномочия религиозных институтов и судов,0.5625,0.375,0.0,8,3,5,False,0.1875,38,5
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,156,доступность признаваемого гиюра,-0.375,-0.1667,0.0,6,1,0,False,-0.2083,5,2
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,158,доступность гражданских способов личного статуса,-0.2074,0.0,-0.0289,7,0,3,False,-0.1786,5,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,159,доступ к расторжению брака,0.3695,0.5,-0.0055,8,7,12,False,-0.125,8,5
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,15s2,Лицензирование медицинских профессий,-0.2278,0.0,-0.1778,5,0,5,False,-0.05,4,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,16,профессиональные полномочия медработников,-0.1389,0.0,0.0,6,0,2,False,-0.1389,11,3
@@ -1035,7 +1038,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,181,права иностранных работников,-0.3917,-0.25,-0.0167,8,2,31,False,-0.125,12,8
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,182,права иностранцев на социальную помощь,0.375,0.5,0.0,4,2,0,False,-0.125,4,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,183,доступ к гражданству и репатриации,-0.7364,-0.5,-0.0177,8,10,22,False,-0.2188,9,6
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,184,полномочия лишать гражданства и статуса,0.25,0.0,0.0,8,0,0,False,0.25,32,1
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,184,полномочия лишать гражданства и статуса,0.5272,0.25,0.0272,8,5,31,False,0.25,49,5
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,185,охват воинской обязанности,-0.1877,0.0,-0.0091,7,0,10,False,-0.1786,5,3
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,185a,призыв учащихся ешив,-0.6207,-0.3333,-0.0651,9,10,32,False,-0.2222,14,7
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,185b,объём общей воинской и резервной повинности,-0.4089,0.0,-0.1589,9,0,8,False,-0.25,36,6
@@ -1349,8 +1352,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",146,защита частной жизни и персональных данных,0.2183,0.0,0.0635,4,2,24,False,0.1548,16,21
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",147,сбор и передача данных государственными органами,-0.0846,0.0,0.0252,4,0,27,False,-0.1098,20,18
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",149,личная свобода и автономия,-0.317,-0.25,-0.0161,4,2,36,False,-0.0509,72,28
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",0.1674,0.25,-0.0102,4,1,33,False,-0.0724,30,20
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,-0.1315,0.0,-0.0482,4,0,4,False,-0.0833,10,5
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",0.1535,0.25,-0.0289,4,1,27,False,-0.0676,27,18
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,-0.0849,0.0,-0.0016,4,0,1,False,-0.0833,10,3
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",149s4,Принудительные меры к уголовным подозреваемым и правонарушителям (не по безопасности),-0.1386,0.0,-0.085,4,0,14,False,-0.0536,11,13
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",15,обязанности медицинских учреждений и работников,-0.1228,0.0,0.0156,4,0,12,False,-0.1384,30,13
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",151,роль религиозных норм в государстве и публичной сфере,-0.3113,0.0,-0.0613,2,0,2,True,-0.25,10,4
@@ -1359,6 +1362,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",151c,раздельность мужчин и женщин в публичных местах,-0.225,0.0,0.0,4,0,0,False,-0.225,11,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",154,полномочия религиозных институтов и судов,-0.25,0.0,0.0,3,0,0,False,-0.25,9,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",156,доступность признаваемого гиюра,0.25,0.25,0.0,4,2,4,False,0.0,0,2
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",158,доступность гражданских способов личного статуса,0.0959,0.0,0.0959,2,0,3,True,0.0,0,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",159,доступ к расторжению брака,0.0915,0.0,0.0915,2,0,4,True,0.0,0,3
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",16,профессиональные полномочия медработников,0.25,0.0,0.0,2,0,1,True,0.25,2,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",160,государственное регулирование семейных отношений,0.7233,0.5,0.0046,4,2,32,False,0.2188,15,14
@@ -1388,7 +1392,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",181,права иностранных работников,-0.4365,-0.3333,-0.1865,3,1,3,False,0.0833,7,7
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",182,права иностранцев на социальную помощь,-0.0305,0.0,-0.0305,3,0,3,False,0.0,0,1
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",183,доступ к гражданству и репатриации,0.1605,0.0,0.0355,2,0,2,True,0.125,2,2
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",184,полномочия лишать гражданства и статуса,0.3025,0.25,0.0525,4,1,21,False,0.0,0,1
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",184,полномочия лишать гражданства и статуса,0.4273,0.25,0.0732,4,2,36,False,0.1042,9,3
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",185,охват воинской обязанности,0.0643,0.0,0.0643,2,0,4,True,0.0,0,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",185a,призыв учащихся ешив,0.1956,0.0,0.0706,4,0,3,False,0.125,18,4
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",185b,объём общей воинской и резервной повинности,0.3637,0.25,0.1137,4,2,9,False,0.0,5,6
@@ -1676,8 +1680,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,146,защита частной жизни и персональных данных,0.9048,0.6,0.0632,5,6,29,False,0.2417,96,31
 ודם,The Joint Arab List,147,сбор и передача данных государственными органами,0.675,0.8,-0.0482,5,28,29,False,-0.0769,76,33
 ודם,The Joint Arab List,149,личная свобода и автономия,0.6927,0.7888,0.0029,5,47,71,False,-0.099,91,48
-ודם,The Joint Arab List,149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",-0.5733,0.0,-0.3233,5,0,85,False,-0.25,163,36
-ודם,The Joint Arab List,149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,-0.0524,0.0,0.1476,5,0,6,False,-0.2,8,4
+ודם,The Joint Arab List,149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",-0.5358,0.0,-0.2858,5,0,62,False,-0.25,163,32
+ודם,The Joint Arab List,149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,-0.25,0.0,0.0,4,0,1,False,-0.25,8,2
 ודם,The Joint Arab List,149s4,Принудительные меры к уголовным подозреваемым и правонарушителям (не по безопасности),-0.586,-0.319,-0.0889,5,26,94,False,-0.1781,87,31
 ודם,The Joint Arab List,15,обязанности медицинских учреждений и работников,0.3413,0.46,-0.0192,5,41,24,False,-0.0996,64,26
 ודם,The Joint Arab List,151,роль религиозных норм в государстве и публичной сфере,-0.0354,0.25,-0.0354,4,2,4,False,-0.25,12,5
@@ -1685,6 +1689,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,151b,еврейские религиозные правила в государственных учреждениях,-0.4349,0.0,-0.1849,5,0,4,False,-0.25,32,4
 ודם,The Joint Arab List,151c,раздельность мужчин и женщин в публичных местах,-0.2,0.0,0.0,5,0,4,False,-0.2,11,2
 ודם,The Joint Arab List,154,полномочия религиозных институтов и судов,0.1214,0.0,0.0,5,0,0,False,0.1214,27,2
+ודם,The Joint Arab List,158,доступность гражданских способов личного статуса,-0.1805,0.0,-0.1805,4,0,5,False,0.0,0,2
 ודם,The Joint Arab List,159,доступ к расторжению брака,0.308,0.5,-0.192,4,3,5,False,0.0,0,4
 ודם,The Joint Arab List,15s2,Лицензирование медицинских профессий,0.6648,0.4,0.0148,5,6,13,False,0.25,12,5
 ודם,The Joint Arab List,16,профессиональные полномочия медработников,1.05,0.8,0.0,5,10,7,False,0.25,19,8
@@ -1715,7 +1720,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ודם,The Joint Arab List,181,права иностранных работников,1.1494,0.6,0.2994,5,3,16,False,0.25,26,9
 ודם,The Joint Arab List,182,права иностранцев на социальную помощь,0.353,0.0,0.353,5,0,9,False,0.0,0,1
 ודם,The Joint Arab List,183,доступ к гражданству и репатриации,1.2549,0.8,0.2049,5,11,9,False,0.25,84,6
-ודם,The Joint Arab List,184,полномочия лишать гражданства и статуса,-0.4006,0.0,-0.4006,5,0,28,False,0.0,0,1
+ודם,The Joint Arab List,184,полномочия лишать гражданства и статуса,-0.6659,0.0,-0.4159,5,0,70,False,-0.25,10,5
 ודם,The Joint Arab List,185,охват воинской обязанности,-0.25,0.0,0.0,4,0,0,False,-0.25,8,1
 ודם,The Joint Arab List,185a,призыв учащихся ешив,-0.4099,0.0,-0.3795,5,0,5,False,-0.0305,27,4
 ודם,The Joint Arab List,185b,объём общей воинской и резервной повинности,-1.3883,-0.8,-0.3883,5,9,18,False,-0.2,12,7
@@ -2030,8 +2035,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",146,защита частной жизни и персональных данных,-0.0949,-0.1,0.0074,6,17,37,False,-0.0022,64,32
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",147,сбор и передача данных государственными органами,0.482,0.6667,0.0155,6,10,18,False,-0.2001,52,25
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",149,личная свобода и автономия,0.8167,0.8232,-0.0119,6,34,88,False,0.0053,63,43
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",1.2507,1.0,0.0062,6,25,130,False,0.2444,68,26
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,0.527,0.3333,-0.0147,6,9,10,False,0.2083,14,9
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",1.204,1.0,0.0016,6,17,118,False,0.2024,63,24
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,0.5256,0.3333,-0.016,6,9,10,False,0.2083,5,7
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",149s4,Принудительные меры к уголовным подозреваемым и правонарушителям (не по безопасности),-0.1801,-0.3333,-0.0516,6,4,33,False,0.2048,53,17
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",15,обязанности медицинских учреждений и работников,0.4785,0.6667,0.0028,6,6,48,False,-0.191,28,17
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",151,роль религиозных норм в государстве и публичной сфере,0.8478,0.6,-0.0022,5,4,26,False,0.25,9,6
@@ -2041,6 +2046,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",151d,ортодоксальное определение еврейства,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",154,полномочия религиозных институтов и судов,0.2,0.0,0.0,5,0,4,False,0.2,24,2
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",156,доступность признаваемого гиюра,-0.45,-0.2,0.0,5,1,0,False,-0.25,5,2
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",158,доступность гражданских способов личного статуса,-0.25,0.0,0.0,5,0,0,False,-0.25,9,2
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",159,доступ к расторжению брака,-0.0417,0.1667,0.0,6,1,0,False,-0.2083,14,4
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",15s2,Лицензирование медицинских профессий,0.581,0.5,0.0185,4,2,2,False,0.0625,1,2
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",16,профессиональные полномочия медработников,-0.25,0.0,0.0,4,0,0,False,-0.25,4,1
@@ -2072,7 +2078,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",181,права иностранных работников,-0.5045,-0.3333,-0.0045,6,9,25,False,-0.1667,5,11
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",182,права иностранцев на социальную помощь,-0.25,0.0,0.0,3,0,0,False,-0.25,6,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",183,доступ к гражданству и репатриации,-1.0148,-0.8,-0.0148,5,14,15,False,-0.2,71,6
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",184,полномочия лишать гражданства и статуса,0.5833,0.3333,0.0,6,2,0,False,0.25,29,1
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",184,полномочия лишать гражданства и статуса,1.1031,0.8333,0.0197,6,13,25,False,0.25,49,3
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",185,охват воинской обязанности,-0.25,0.0,0.0,6,0,0,False,-0.25,14,3
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",185a,призыв учащихся ешив,-0.0891,0.1667,-0.0057,6,1,20,False,-0.25,17,6
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",185b,объём общей воинской и резервной повинности,-0.0041,0.1667,0.0792,6,1,5,False,-0.25,31,8
@@ -2374,14 +2380,15 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 י,"Yisrael Techila, headed by Sharren Haskel",146,защита частной жизни и персональных данных,0.9256,1.0,-0.0244,1,2,17,True,-0.05,10,21
 י,"Yisrael Techila, headed by Sharren Haskel",147,сбор и передача данных государственными органами,0.7674,1.0,0.0174,1,2,8,True,-0.25,3,11
 י,"Yisrael Techila, headed by Sharren Haskel",149,личная свобода и автономия,1.1079,1.0,0.0329,1,4,14,True,0.075,20,25
-י,"Yisrael Techila, headed by Sharren Haskel",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",1.124,1.0,0.0799,1,1,14,True,0.0441,17,15
-י,"Yisrael Techila, headed by Sharren Haskel",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,-1.25,-1.0,0.0,1,1,0,True,-0.25,2,2
+י,"Yisrael Techila, headed by Sharren Haskel",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",0.2223,0.0,0.0877,1,0,13,True,0.1346,13,13
+י,"Yisrael Techila, headed by Sharren Haskel",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,-0.25,0.0,0.0,1,0,0,True,-0.25,2,1
 י,"Yisrael Techila, headed by Sharren Haskel",149s4,Принудительные меры к уголовным подозреваемым и правонарушителям (не по безопасности),-0.6583,-1.0,0.0917,1,2,9,True,0.25,6,12
 י,"Yisrael Techila, headed by Sharren Haskel",15,обязанности медицинских учреждений и работников,-0.2,0.0,-0.0,1,0,3,True,-0.2,10,9
 י,"Yisrael Techila, headed by Sharren Haskel",151,роль религиозных норм в государстве и публичной сфере,-0.161,0.0,-0.161,1,0,3,True,0.0,2,4
 י,"Yisrael Techila, headed by Sharren Haskel",151a,полномочия религиозных судов,-1.0,-1.0,0.0,1,1,0,True,0.0,0,1
 י,"Yisrael Techila, headed by Sharren Haskel",151b,еврейские религиозные правила в государственных учреждениях,0.75,1.0,0.0,1,1,0,True,-0.25,8,5
 י,"Yisrael Techila, headed by Sharren Haskel",151c,раздельность мужчин и женщин в публичных местах,-0.25,0.0,0.0,1,0,2,True,-0.25,1,2
+י,"Yisrael Techila, headed by Sharren Haskel",158,доступность гражданских способов личного статуса,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 י,"Yisrael Techila, headed by Sharren Haskel",16,профессиональные полномочия медработников,0.0,0.0,0.0,1,0,3,True,0.0,0,2
 י,"Yisrael Techila, headed by Sharren Haskel",160,государственное регулирование семейных отношений,0.2473,0.0,0.0973,1,0,4,True,0.15,10,7
 י,"Yisrael Techila, headed by Sharren Haskel",161a,автономия религиозных учебных заведений,-0.1162,0.0,-0.3662,1,0,3,True,0.25,2,5
@@ -2408,7 +2415,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 י,"Yisrael Techila, headed by Sharren Haskel",180,приток иностранной рабочей силы,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 י,"Yisrael Techila, headed by Sharren Haskel",181,права иностранных работников,-1.1105,-1.0,-0.1105,1,3,4,True,0.0,4,6
 י,"Yisrael Techila, headed by Sharren Haskel",183,доступ к гражданству и репатриации,0.7591,1.0,-0.1576,1,1,2,True,-0.0833,3,4
-י,"Yisrael Techila, headed by Sharren Haskel",184,полномочия лишать гражданства и статуса,0.9584,1.0,-0.0416,1,1,5,True,0.0,0,1
+י,"Yisrael Techila, headed by Sharren Haskel",184,полномочия лишать гражданства и статуса,0.9247,1.0,0.0318,1,3,9,True,-0.1071,7,3
 י,"Yisrael Techila, headed by Sharren Haskel",185,охват воинской обязанности,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
 י,"Yisrael Techila, headed by Sharren Haskel",185a,призыв учащихся ешив,0.3537,0.0,0.3537,1,0,2,True,0.0,2,3
 י,"Yisrael Techila, headed by Sharren Haskel",185b,объём общей воинской и резервной повинности,0.4358,0.0,0.3108,1,0,2,True,0.125,4,5
@@ -2691,8 +2698,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",146,защита частной жизни и персональных данных,0.2035,0.0833,-0.0257,4,11,45,False,0.1458,13,27
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",147,сбор и передача данных государственными органами,0.6783,0.75,0.0186,4,7,33,False,-0.0903,27,24
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",149,личная свобода и автономия,-0.1549,-0.0625,0.0365,4,12,32,False,-0.1289,81,39
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",0.0867,0.25,-0.0071,4,2,35,False,-0.1562,26,18
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,-0.309,0.0,-0.1146,3,0,5,False,-0.1944,7,5
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",0.0853,0.25,-0.0119,4,1,31,False,-0.1528,19,15
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,-0.2282,0.0,-0.0338,3,0,2,False,-0.1944,7,3
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",149s4,Принудительные меры к уголовным подозреваемым и правонарушителям (не по безопасности),-0.2882,-0.25,-0.1163,4,2,26,False,0.0781,20,14
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",15,обязанности медицинских учреждений и работников,0.329,0.5,0.0138,4,2,13,False,-0.1848,27,12
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",151,роль религиозных норм в государстве и публичной сфере,-0.0374,0.25,-0.0374,4,1,4,False,-0.25,15,5
@@ -2701,6 +2708,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",151c,раздельность мужчин и женщин в публичных местах,-0.25,0.0,0.0,4,0,0,False,-0.25,13,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",154,полномочия религиозных институтов и судов,-0.25,0.0,0.0,3,0,0,False,-0.25,15,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",156,доступность признаваемого гиюра,0.0,0.0,0.0,3,0,3,False,0.0,0,1
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",158,доступность гражданских способов личного статуса,0.1152,0.0,0.1152,2,0,3,True,0.0,0,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",159,доступ к расторжению брака,0.5581,0.5,0.0581,2,2,3,True,0.0,0,3
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",16,профессиональные полномочия медработников,0.5,0.5,0.0,2,1,5,True,0.0,0,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",160,государственное регулирование семейных отношений,0.6178,0.5,-0.028,4,6,29,False,0.1458,15,13
@@ -2728,7 +2736,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",181,права иностранных работников,0.0256,0.0,-0.0994,4,0,3,False,0.125,5,5
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",182,права иностранцев на социальную помощь,0.1414,0.0,-0.0252,3,0,3,False,0.1667,4,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",183,доступ к гражданству и репатриации,-0.0053,0.0,-0.0469,4,0,4,False,0.0417,8,3
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",184,полномочия лишать гражданства и статуса,0.0772,0.0,0.0772,2,0,10,True,0.0,0,1
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",184,полномочия лишать гражданства и статуса,0.2523,0.25,0.0648,4,1,17,False,-0.0625,11,4
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",185,охват воинской обязанности,1.0891,1.0,0.0891,1,1,2,True,0.0,0,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",185a,призыв учащихся ешив,0.0614,0.0,0.0522,3,0,1,False,0.0093,25,4
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",185b,объём общей воинской и резервной повинности,0.7208,0.75,0.0833,4,6,8,False,-0.1125,9,9
@@ -3031,8 +3039,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",146,защита частной жизни и персональных данных,-0.0868,-0.094,-0.0578,8,61,58,False,0.0651,19,35
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",147,сбор и передача данных государственными органами,0.5951,0.75,0.0178,8,39,42,False,-0.1728,48,28
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",149,личная свобода и автономия,-0.4333,-0.2912,-0.0804,8,85,68,False,-0.0617,93,51
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",0.9088,0.75,0.1453,8,55,73,False,0.0135,84,29
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,-0.6326,-0.4623,-0.056,7,27,14,False,-0.1143,15,12
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",0.9384,0.75,0.1594,8,48,67,False,0.029,74,27
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,0.4517,0.5714,-0.0055,7,6,5,False,-0.1143,14,6
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",149s4,Принудительные меры к уголовным подозреваемым и правонарушителям (не по безопасности),0.7757,0.625,0.1247,8,37,32,False,0.026,36,24
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",15,обязанности медицинских учреждений и работников,0.588,0.75,0.0059,8,9,22,False,-0.1679,55,17
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",151,роль религиозных норм в государстве и публичной сфере,-0.7725,-0.5,-0.085,8,6,14,False,-0.1875,29,5
@@ -3041,6 +3049,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",151c,раздельность мужчин и женщин в публичных местах,-0.2188,0.0,0.0,8,0,2,False,-0.2188,21,2
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",154,полномочия религиозных институтов и судов,-1.25,-1.0,0.0,5,5,0,False,-0.25,20,3
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",156,доступность признаваемого гиюра,0.4583,0.5,0.0,6,5,4,False,-0.0417,1,2
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",158,доступность гражданских способов личного статуса,0.8711,0.8571,0.0497,7,21,9,False,-0.0357,1,6
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",159,доступ к расторжению брака,1.0553,1.0,0.0553,6,11,11,False,0.0,3,4
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",15s2,Лицензирование медицинских профессий,1.0,1.0,0.0,1,1,1,True,0.0,0,2
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",16,профессиональные полномочия медработников,0.3333,0.1667,0.0,6,1,5,False,0.1667,7,5
@@ -3072,7 +3081,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",181,права иностранных работников,-0.7158,-0.6667,-0.0387,8,13,5,False,-0.0104,14,9
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",182,права иностранцев на социальную помощь,-0.9975,-0.8333,-0.1225,6,5,15,False,-0.0417,3,1
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",183,доступ к гражданству и репатриации,0.4266,0.4286,-0.0499,8,24,8,False,0.0479,17,9
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",184,полномочия лишать гражданства и статуса,0.9578,0.8333,0.0828,6,5,25,False,0.0417,6,1
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",184,полномочия лишать гражданства и статуса,0.736,0.625,0.0589,8,12,48,False,0.0521,32,3
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",185,охват воинской обязанности,0.4841,0.5,0.0257,6,3,5,False,-0.0417,1,4
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",185a,призыв учащихся ешив,0.978,0.8571,0.1565,7,14,9,False,-0.0357,42,7
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",185b,объём общей воинской и резервной повинности,0.6235,0.75,0.0485,8,26,19,False,-0.175,26,9
@@ -3393,8 +3402,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",146,защита частной жизни и персональных данных,-0.102,-0.0664,-0.0007,33,70,207,False,-0.0349,248,51
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",147,сбор и передача данных государственными органами,0.484,0.6061,0.0087,33,37,110,False,-0.1307,216,43
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",149,личная свобода и автономия,0.1843,0.2146,-0.0061,33,71,363,False,-0.0242,350,72
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",1.0014,0.7879,0.0175,33,104,556,False,0.196,276,44
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,0.0679,-0.0741,-0.0216,27,8,46,False,0.1636,52,8
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",0.8323,0.6364,0.0143,33,81,493,False,0.1816,254,38
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,0.0235,-0.0741,-0.0136,27,8,45,False,0.1111,18,6
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",149s4,Принудительные меры к уголовным подозреваемым и правонарушителям (не по безопасности),0.115,-0.0354,-0.0248,33,16,199,False,0.1751,256,28
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",15,обязанности медицинских учреждений и работников,0.0609,0.1879,0.0046,33,14,220,False,-0.1316,161,25
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",151,роль религиозных норм в государстве и публичной сфере,0.5133,0.3333,0.0041,27,12,113,False,0.1759,37,8
@@ -3404,6 +3413,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",151d,ортодоксальное определение еврейства,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",154,полномочия религиозных институтов и судов,0.1552,0.0,0.0,29,2,16,False,0.1552,101,4
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",156,доступность признаваемого гиюра,-0.2778,-0.0556,0.0,18,1,2,False,-0.2222,16,2
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",158,доступность гражданских способов личного статуса,-0.2052,0.0,0.0122,23,0,1,False,-0.2174,34,2
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",159,доступ к расторжению брака,-0.1623,0.0435,0.0116,23,1,4,False,-0.2174,45,5
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",15s2,Лицензирование медицинских профессий,0.1667,0.0769,0.0128,13,1,16,False,0.0769,4,3
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",16,профессиональные полномочия медработников,-0.0717,0.04,0.0,25,1,12,False,-0.1117,26,5
@@ -3435,7 +3445,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",181,права иностранных работников,-0.3917,-0.2031,-0.0167,32,17,113,False,-0.1719,36,14
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",182,права иностранцев на социальную помощь,-0.3409,-0.0909,0.0,11,1,0,False,-0.25,20,2
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",183,доступ к гражданству и репатриации,-0.5476,-0.4833,-0.0198,30,33,55,False,-0.0444,50,9
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",184,полномочия лишать гражданства и статуса,0.4252,0.2,-0.0014,25,5,12,False,0.2267,120,1
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",184,полномочия лишать гражданства и статуса,0.8273,0.5862,0.0273,29,32,126,False,0.2138,196,7
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",185,охват воинской обязанности,-0.25,0.0,0.0,28,0,0,False,-0.25,53,3
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",185a,призыв учащихся ешив,-0.2351,0.0,-0.0093,31,0,86,False,-0.2258,65,5
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",185b,объём общей воинской и резервной повинности,-0.0285,0.0625,0.1173,32,3,21,False,-0.2083,132,8
@@ -3750,8 +3760,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",146,защита частной жизни и персональных данных,0.1463,0.0,0.1463,1,0,2,True,0.0,6,8
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",147,сбор и передача данных государственными органами,0.9375,1.0,0.0,1,1,1,True,-0.0625,8,7
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",149,личная свобода и автономия,-0.196,0.0,-0.0369,1,4,14,True,-0.1591,11,24
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",1.3351,1.0,0.0851,1,1,14,True,0.25,6,12
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,1.3584,1.0,0.1084,1,3,4,True,0.25,1,6
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",1.3511,1.0,0.1011,1,1,11,True,0.25,5,11
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,1.1261,1.0,0.1261,1,3,4,True,0.0,0,5
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",149s4,Принудительные меры к уголовным подозреваемым и правонарушителям (не по безопасности),-0.0442,0.0,-0.0942,1,0,7,True,0.05,5,7
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",15,обязанности медицинских учреждений и работников,0.9398,1.0,-0.0325,1,1,8,True,-0.0278,9,10
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",151,роль религиозных норм в государстве и публичной сфере,1.4131,1.0,0.1631,1,5,3,True,0.25,4,7
@@ -3761,6 +3771,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",151d,ортодоксальное определение еврейства,1.0,1.0,0.0,1,2,0,True,0.0,0,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",154,полномочия религиозных институтов и судов,0.25,0.0,0.0,1,0,0,True,0.25,6,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",156,доступность признаваемого гиюра,-1.0,-1.0,0.0,1,1,0,True,0.0,0,1
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",158,доступность гражданских способов личного статуса,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",159,доступ к расторжению брака,-0.25,0.0,0.0,1,0,2,True,-0.25,1,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",15s2,Лицензирование медицинских профессий,0.037,0.0,0.037,1,0,1,True,0.0,0,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",16,профессиональные полномочия медработников,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
@@ -3786,7 +3797,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",18,регулирование финансового сектора,0.15,0.0,0.0,1,0,0,True,0.15,5,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",181,права иностранных работников,-0.3584,0.0,-0.1084,1,0,4,True,-0.25,1,4
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",183,доступ к гражданству и репатриации,-1.3391,-1.0,-0.0891,1,6,4,True,-0.25,1,5
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",184,полномочия лишать гражданства и статуса,0.25,0.0,0.0,1,0,0,True,0.25,6,1
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",184,полномочия лишать гражданства и статуса,0.3009,0.0,0.0509,1,0,6,True,0.25,10,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",185,охват воинской обязанности,-0.25,0.0,0.0,1,0,0,True,-0.25,1,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",185a,призыв учащихся ешив,-1.05,-1.0,0.0,1,1,0,True,-0.05,10,5
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",185b,объём общей воинской и резервной повинности,-0.1896,0.0,0.0604,1,0,3,True,-0.25,3,6
@@ -4048,8 +4059,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",146,защита частной жизни и персональных данных,0.9906,0.8333,0.0133,6,13,41,False,0.1439,65,27
 עם,"Ra’am, the United Arab List",147,сбор и передача данных государственными органами,0.1922,0.3333,0.016,6,4,38,False,-0.1571,74,25
 עם,"Ra’am, the United Arab List",149,личная свобода и автономия,0.6993,0.7917,-0.014,6,19,63,False,-0.0783,108,45
-עם,"Ra’am, the United Arab List",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",-0.4409,0.0,-0.1958,6,0,41,False,-0.2451,188,35
-עם,"Ra’am, the United Arab List",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,0.168,0.0,0.3252,5,0,6,False,-0.1571,12,6
+עם,"Ra’am, the United Arab List",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",-0.4204,0.0,-0.1768,6,0,37,False,-0.2436,171,32
+עם,"Ra’am, the United Arab List",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,-0.198,0.0,-0.0016,4,0,1,False,-0.1964,12,4
 עם,"Ra’am, the United Arab List",149s4,Принудительные меры к уголовным подозреваемым и правонарушителям (не по безопасности),-0.5448,-0.5556,0.1149,6,14,68,False,-0.1042,84,27
 עם,"Ra’am, the United Arab List",15,обязанности медицинских учреждений и работников,0.8497,1.0,0.0105,6,13,30,False,-0.1608,41,15
 עם,"Ra’am, the United Arab List",151,роль религиозных норм в государстве и публичной сфере,-0.2736,0.0,-0.0236,6,0,5,False,-0.25,18,4
@@ -4058,6 +4069,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",151c,раздельность мужчин и женщин в публичных местах,0.4167,0.6667,0.0,6,4,0,False,-0.25,15,3
 עם,"Ra’am, the United Arab List",154,полномочия религиозных институтов и судов,-0.25,0.0,0.0,2,0,0,True,-0.25,6,2
 עם,"Ra’am, the United Arab List",156,доступность признаваемого гиюра,0.0,0.0,0.0,1,0,1,True,0.0,0,1
+עם,"Ra’am, the United Arab List",158,доступность гражданских способов личного статуса,-0.3305,0.0,-0.3305,5,0,5,False,0.0,0,2
 עם,"Ra’am, the United Arab List",159,доступ к расторжению брака,-0.2837,0.0,-0.3337,5,0,6,False,0.05,2,4
 עם,"Ra’am, the United Arab List",15s2,Лицензирование медицинских профессий,0.875,0.6667,-0.0,6,10,12,False,0.2083,7,3
 עם,"Ra’am, the United Arab List",16,профессиональные полномочия медработников,0.625,0.5,0.0,6,3,11,False,0.125,5,5
@@ -4088,7 +4100,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 עם,"Ra’am, the United Arab List",181,права иностранных работников,0.2741,0.0,0.0658,6,0,9,False,0.2083,19,8
 עם,"Ra’am, the United Arab List",182,права иностранцев на социальную помощь,0.228,0.0,0.228,4,0,11,False,0.0,0,1
 עם,"Ra’am, the United Arab List",183,доступ к гражданству и репатриации,1.2642,0.8,0.2142,5,11,4,False,0.25,17,5
-עם,"Ra’am, the United Arab List",184,полномочия лишать гражданства и статуса,-0.0256,0.25,-0.2756,4,1,22,False,0.0,0,1
+עם,"Ra’am, the United Arab List",184,полномочия лишать гражданства и статуса,-0.337,0.1667,-0.2537,6,2,36,False,-0.25,28,4
 עם,"Ra’am, the United Arab List",185,охват воинской обязанности,-0.1096,0.0,0.0154,2,0,2,True,-0.125,1,3
 עם,"Ra’am, the United Arab List",185a,призыв учащихся ешив,-0.2086,0.0,-0.2036,5,0,4,False,-0.005,23,4
 עם,"Ra’am, the United Arab List",185b,объём общей воинской и резервной повинности,-0.352,0.0,-0.2687,6,0,13,False,-0.0833,9,7
@@ -4399,8 +4411,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",146,защита частной жизни и персональных данных,-0.07,-0.1146,0.0008,16,30,169,False,0.0438,120,48
 רק,"Be’Yahad, headed by Naftali Bennett",147,сбор и передача данных государственными органами,0.8795,0.8667,0.0214,15,47,160,False,-0.0086,217,53
 רק,"Be’Yahad, headed by Naftali Bennett",149,личная свобода и автономия,-0.1177,0.0066,-0.0688,16,107,185,False,-0.0555,306,67
-רק,"Be’Yahad, headed by Naftali Bennett",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",0.1051,0.25,0.0008,16,4,124,False,-0.1458,200,27
-רק,"Be’Yahad, headed by Naftali Bennett",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,-0.7141,-0.581,-0.0748,14,37,34,False,-0.0583,44,14
+רק,"Be’Yahad, headed by Naftali Bennett",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",0.0461,0.1875,-0.0037,16,3,110,False,-0.1377,169,24
+רק,"Be’Yahad, headed by Naftali Bennett",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,0.0092,0.0769,-0.0049,13,13,10,False,-0.0628,44,11
 רק,"Be’Yahad, headed by Naftali Bennett",149s4,Принудительные меры к уголовным подозреваемым и правонарушителям (не по безопасности),-0.1078,-0.1,-0.0217,15,14,76,False,0.0139,84,25
 רק,"Be’Yahad, headed by Naftali Bennett",15,обязанности медицинских учреждений и работников,0.5456,0.6622,0.0098,15,27,76,False,-0.1264,146,23
 רק,"Be’Yahad, headed by Naftali Bennett",151,роль религиозных норм в государстве и публичной сфере,-0.2164,0.0667,-0.0331,15,1,27,False,-0.25,79,5
@@ -4409,6 +4421,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",151c,раздельность мужчин и женщин в публичных местах,-0.25,0.0,0.0,16,0,0,False,-0.25,63,2
 רק,"Be’Yahad, headed by Naftali Bennett",154,полномочия религиозных институтов и судов,-0.6071,-0.3571,0.0,14,6,0,False,-0.25,60,5
 רק,"Be’Yahad, headed by Naftali Bennett",156,доступность признаваемого гиюра,0.2727,0.2727,0.0,11,4,9,False,0.0,0,1
+רק,"Be’Yahad, headed by Naftali Bennett",158,доступность гражданских способов личного статуса,0.7838,0.7143,0.0695,14,24,24,False,0.0,0,3
 רק,"Be’Yahad, headed by Naftali Bennett",159,доступ к расторжению брака,0.602,0.5,0.0663,14,29,33,False,0.0357,3,11
 רק,"Be’Yahad, headed by Naftali Bennett",15s2,Лицензирование медицинских профессий,0.7143,0.5714,-0.0,7,4,6,False,0.1429,9,6
 רק,"Be’Yahad, headed by Naftali Bennett",16,профессиональные полномочия медработников,0.2308,0.0769,0.0,13,1,18,False,0.1538,17,6
@@ -4440,7 +4453,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 רק,"Be’Yahad, headed by Naftali Bennett",181,права иностранных работников,0.3399,0.0769,0.013,13,1,3,False,0.25,42,6
 רק,"Be’Yahad, headed by Naftali Bennett",182,права иностранцев на социальную помощь,-0.1113,0.0,-0.147,7,0,13,False,0.0357,1,2
 רק,"Be’Yahad, headed by Naftali Bennett",183,доступ к гражданству и репатриации,0.4846,0.2857,0.0025,14,4,15,False,0.1964,34,6
-רק,"Be’Yahad, headed by Naftali Bennett",184,полномочия лишать гражданства и статуса,0.516,0.4167,0.0994,12,5,59,False,0.0,0,1
+רק,"Be’Yahad, headed by Naftali Bennett",184,полномочия лишать гражданства и статуса,0.3767,0.3846,0.0882,13,11,101,False,-0.0962,47,4
 רק,"Be’Yahad, headed by Naftali Bennett",185,охват воинской обязанности,0.1023,0.0714,0.0309,14,2,26,False,0.0,0,2
 רק,"Be’Yahad, headed by Naftali Bennett",185a,призыв учащихся ешив,0.9021,0.8,0.1045,15,30,25,False,-0.0024,119,7
 רק,"Be’Yahad, headed by Naftali Bennett",185b,объём общей воинской и резервной повинности,0.0465,0.0667,0.0776,15,1,47,False,-0.0978,38,7
@@ -4762,8 +4775,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",146,защита частной жизни и персональных данных,0.176,0.1528,0.0383,12,19,81,False,-0.015,111,44
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",147,сбор и передача данных государственными органами,0.7138,0.8333,-0.1283,12,33,90,False,0.0087,112,35
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",149,личная свобода и автономия,0.569,0.5607,0.0494,12,35,208,False,-0.0411,137,56
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",1.1559,0.9167,0.0516,12,22,197,False,0.1877,106,31
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,0.6881,0.4,0.0881,10,10,30,False,0.2,14,10
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",149s1,"Ограничения в отношении лиц, связанных с террором и враждебными образованиями",0.6707,0.4167,0.0672,12,11,166,False,0.1868,104,27
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",149s3,Место еврейского религиозного закона и соблюдения заповедей в общественной жизни,0.604,0.4,0.054,10,10,24,False,0.15,6,8
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",149s4,Принудительные меры к уголовным подозреваемым и правонарушителям (не по безопасности),-0.067,-0.287,0.0474,12,19,96,False,0.1726,127,32
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",15,обязанности медицинских учреждений и работников,0.2693,0.4167,-0.0257,12,18,116,False,-0.1217,63,19
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",151,роль религиозных норм в государстве и публичной сфере,1.39,1.0,0.14,11,32,24,False,0.25,51,15
@@ -4773,6 +4786,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",151d,ортодоксальное определение еврейства,1.0,1.0,0.0,1,1,0,True,0.0,0,1
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",154,полномочия религиозных институтов и судов,0.375,0.1667,0.0,12,6,8,False,0.2083,68,7
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",156,доступность признаваемого гиюра,-0.375,-0.125,0.0,8,2,0,False,-0.25,8,2
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",158,доступность гражданских способов личного статуса,-0.2861,0.0,-0.0639,9,0,6,False,-0.2222,8,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",159,доступ к расторжению брака,-0.2382,0.0,-0.0159,9,0,16,False,-0.2222,8,4
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",15s2,Лицензирование медицинских профессий,0.7157,0.5556,0.0213,9,5,12,False,0.1389,7,3
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",16,профессиональные полномочия медработников,0.1092,0.1,0.0,10,2,5,False,0.0092,21,4
@@ -4804,7 +4818,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,n
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",181,права иностранных работников,-0.2159,0.0,-0.0492,12,2,43,False,-0.1667,13,8
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",182,права иностранцев на социальную помощь,-0.25,0.0,0.0,4,0,0,False,-0.25,10,1
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",183,доступ к гражданству и репатриации,-0.7727,-0.5,-0.0436,12,12,36,False,-0.2292,16,6
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",184,полномочия лишать гражданства и статуса,0.3611,0.1111,0.0,9,1,0,False,0.25,39,1
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",184,полномочия лишать гражданства и статуса,0.8019,0.5833,0.0311,12,13,38,False,0.1875,41,5
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",185,охват воинской обязанности,-0.2366,0.0,-0.1491,10,0,17,False,-0.0875,14,4
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",185a,призыв учащихся ешив,-1.1265,-0.9167,-0.1442,12,12,9,False,-0.0657,111,7
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",185b,объём общей воинской и резервной повинности,-0.3529,0.0,-0.2065,12,0,23,False,-0.1464,59,7
