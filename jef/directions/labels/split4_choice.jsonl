@@ -1174,3 +1174,123 @@
 {"bill_id": "2234655", "parent": "117", "role": "main", "parent_sign": "+", "assigned": [{"n": "117a", "sign": "+", "role": "main", "p_choice": 0.97}], "choice": {"117a": 0.97, "117b": 0.0, "none": 0.03}, "tokens": 2859}
 {"bill_id": "2198917", "parent": "117", "role": "main", "parent_sign": "+", "assigned": [{"n": "117a", "sign": "+", "role": "main", "p_choice": 0.79}], "choice": {"117a": 0.79, "117b": 0.08, "none": 0.13}, "tokens": 1284}
 {"bill_id": "2162316", "parent": "117", "role": "main", "parent_sign": "+", "assigned": [{"n": "117b", "sign": "+", "role": "main", "p_choice": 0.98}], "choice": {"117a": 0.02, "117b": 0.98, "none": 0.0}, "tokens": 2961}
+{"bill_id": "2202670", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.49, "80b": 0.0, "none": 0.51}, "tokens": 1440}
+{"bill_id": "2156385", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "main", "p_choice": 1.0}], "choice": {"80a": 0.0, "80b": 1.0, "none": 0.0}, "tokens": 2937}
+{"bill_id": "2196986", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "main", "p_choice": 1.0}], "choice": {"80a": 0.0, "80b": 1.0, "none": 0.0}, "tokens": 1568}
+{"bill_id": "2198606", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "main", "p_choice": 1.0}], "choice": {"80a": 0.0, "80b": 1.0, "none": 0.0}, "tokens": 2953}
+{"bill_id": "2209033", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "main", "p_choice": 0.85}], "choice": {"80a": 0.01, "80b": 0.85, "none": 0.14}, "tokens": 2923}
+{"bill_id": "2156675", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.03, "80b": 0.01, "none": 0.96}, "tokens": 2888}
+{"bill_id": "2168171", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "secondary", "p_choice": 0.99}], "choice": {"80a": 0.0, "80b": 0.99, "none": 0.01}, "tokens": 2538}
+{"bill_id": "2213879", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.0, "none": 1.0}, "tokens": 1979}
+{"bill_id": "2218896", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [{"n": "80a", "sign": "+", "role": "main", "p_choice": 0.99}], "choice": {"80a": 0.99, "80b": 0.0, "none": 0.01}, "tokens": 1444}
+{"bill_id": "2156492", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.02, "none": 0.98}, "tokens": 1442}
+{"bill_id": "2197249", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "main", "p_choice": 1.0}], "choice": {"80a": 0.0, "80b": 1.0, "none": 0.0}, "tokens": 1617}
+{"bill_id": "2237274", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80a", "sign": "+", "role": "secondary", "p_choice": 0.99}], "choice": {"80a": 0.99, "80b": 0.0, "none": 0.01}, "tokens": 1967}
+{"bill_id": "2167560", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "secondary", "p_choice": 1.0}], "choice": {"80a": 0.0, "80b": 1.0, "none": 0.0}, "tokens": 2687}
+{"bill_id": "2168222", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80a", "sign": "+", "role": "secondary", "p_choice": 0.95}], "choice": {"80a": 0.95, "80b": 0.0, "none": 0.05}, "tokens": 2933}
+{"bill_id": "2234007", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "main", "p_choice": 1.0}], "choice": {"80a": 0.0, "80b": 1.0, "none": 0.0}, "tokens": 1667}
+{"bill_id": "2167645", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "main", "p_choice": 1.0}], "choice": {"80a": 0.0, "80b": 1.0, "none": 0.0}, "tokens": 1506}
+{"bill_id": "2156531", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.18, "none": 0.82}, "tokens": 2133}
+{"bill_id": "2238129", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.01, "none": 0.99}, "tokens": 1849}
+{"bill_id": "2159331", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.01, "none": 0.99}, "tokens": 2440}
+{"bill_id": "2167095", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.01, "80b": 0.18, "none": 0.81}, "tokens": 2544}
+{"bill_id": "2236693", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80a", "sign": "+", "role": "secondary", "p_choice": 0.99}], "choice": {"80a": 0.99, "80b": 0.0, "none": 0.01}, "tokens": 2879}
+{"bill_id": "2209232", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.06, "none": 0.94}, "tokens": 2832}
+{"bill_id": "2232685", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "secondary", "p_choice": 1.0}], "choice": {"80a": 0.0, "80b": 1.0, "none": 0.0}, "tokens": 2022}
+{"bill_id": "2202658", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.01, "none": 0.99}, "tokens": 1334}
+{"bill_id": "2196915", "parent": "80", "role": "main", "parent_sign": "−", "assigned": [{"n": "80b", "sign": "−", "role": "main", "p_choice": 0.77}], "choice": {"80a": 0.09, "80b": 0.77, "none": 0.14}, "tokens": 1808}
+{"bill_id": "2196851", "parent": "80", "role": "secondary", "parent_sign": "−", "assigned": [], "choice": {"80a": 0.02, "80b": 0.06, "none": 0.92}, "tokens": 2871}
+{"bill_id": "2229785", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.02, "none": 0.98}, "tokens": 2834}
+{"bill_id": "2196953", "parent": "80", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "80b", "sign": "−", "role": "secondary", "p_choice": 0.66}], "choice": {"80a": 0.01, "80b": 0.66, "none": 0.33}, "tokens": 2878}
+{"bill_id": "2199310", "parent": "80", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "80b", "sign": "−", "role": "secondary", "p_choice": 0.7}], "choice": {"80a": 0.01, "80b": 0.7, "none": 0.29}, "tokens": 2894}
+{"bill_id": "2206960", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.01, "80b": 0.3, "none": 0.69}, "tokens": 1245}
+{"bill_id": "2219199", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "secondary", "p_choice": 1.0}], "choice": {"80a": 0.0, "80b": 1.0, "none": 0.0}, "tokens": 1690}
+{"bill_id": "2216448", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.09, "80b": 0.17, "none": 0.74}, "tokens": 1711}
+{"bill_id": "2228549", "parent": "80", "role": "secondary", "parent_sign": "−", "assigned": [], "choice": {"80a": 0.01, "80b": 0.08, "none": 0.91}, "tokens": 2874}
+{"bill_id": "2226911", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80a", "sign": "+", "role": "secondary", "p_choice": 0.99}], "choice": {"80a": 0.99, "80b": 0.0, "none": 0.01}, "tokens": 2876}
+{"bill_id": "2157922", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.01, "80b": 0.05, "none": 0.94}, "tokens": 2456}
+{"bill_id": "2222804", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.15, "80b": 0.0, "none": 0.85}, "tokens": 1732}
+{"bill_id": "2190926", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "main", "p_choice": 1.0}], "choice": {"80a": 0.0, "80b": 1.0, "none": 0.0}, "tokens": 1676}
+{"bill_id": "2219454", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [{"n": "80a", "sign": "+", "role": "main", "p_choice": 0.98}], "choice": {"80a": 0.98, "80b": 0.0, "none": 0.02}, "tokens": 2590}
+{"bill_id": "2234009", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "secondary", "p_choice": 1.0}], "choice": {"80a": 0.0, "80b": 1.0, "none": 0.0}, "tokens": 1898}
+{"bill_id": "2164152", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.47, "80b": 0.0, "none": 0.53}, "tokens": 1321}
+{"bill_id": "2201546", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.01, "80b": 0.05, "none": 0.94}, "tokens": 2533}
+{"bill_id": "2159234", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "secondary", "p_choice": 0.76}], "choice": {"80a": 0.03, "80b": 0.76, "none": 0.21}, "tokens": 1249}
+{"bill_id": "2231612", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80a", "sign": "+", "role": "secondary", "p_choice": 1.0}], "choice": {"80a": 1.0, "80b": 0.0, "none": 0.0}, "tokens": 2125}
+{"bill_id": "2156244", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "secondary", "p_choice": 1.0}], "choice": {"80a": 0.0, "80b": 1.0, "none": 0.0}, "tokens": 2695}
+{"bill_id": "2231299", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80a", "sign": "+", "role": "secondary", "p_choice": 0.91}], "choice": {"80a": 0.91, "80b": 0.0, "none": 0.09}, "tokens": 1716}
+{"bill_id": "2196637", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "secondary", "p_choice": 1.0}], "choice": {"80a": 0.0, "80b": 1.0, "none": 0.0}, "tokens": 1406}
+{"bill_id": "2166687", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.07, "none": 0.93}, "tokens": 1405}
+{"bill_id": "2208645", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.01, "none": 0.99}, "tokens": 1952}
+{"bill_id": "2190692", "parent": "80", "role": "main", "parent_sign": "−", "assigned": [{"n": "80b", "sign": "−", "role": "main", "p_choice": 0.75}], "choice": {"80a": 0.08, "80b": 0.75, "none": 0.17}, "tokens": 1688}
+{"bill_id": "2218678", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "secondary", "p_choice": 0.99}], "choice": {"80a": 0.0, "80b": 0.99, "none": 0.01}, "tokens": 1690}
+{"bill_id": "2160204", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.02, "80b": 0.02, "none": 0.96}, "tokens": 2947}
+{"bill_id": "2230356", "parent": "80", "role": "secondary", "parent_sign": "−", "assigned": [], "choice": {"80a": 0.02, "80b": 0.09, "none": 0.89}, "tokens": 1744}
+{"bill_id": "2190709", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "main", "p_choice": 1.0}], "choice": {"80a": 0.0, "80b": 1.0, "none": 0.0}, "tokens": 1312}
+{"bill_id": "2232348", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.23, "80b": 0.0, "none": 0.77}, "tokens": 2373}
+{"bill_id": "2190758", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [{"n": "80a", "sign": "+", "role": "main", "p_choice": 0.76}], "choice": {"80a": 0.76, "80b": 0.02, "none": 0.22}, "tokens": 2907}
+{"bill_id": "2223622", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.16, "80b": 0.0, "none": 0.84}, "tokens": 1763}
+{"bill_id": "2201957", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.01, "80b": 0.05, "none": 0.94}, "tokens": 2592}
+{"bill_id": "2190524", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.01, "none": 0.99}, "tokens": 1283}
+{"bill_id": "2197489", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "main", "p_choice": 0.74}], "choice": {"80a": 0.03, "80b": 0.74, "none": 0.23}, "tokens": 1308}
+{"bill_id": "2170055", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.01, "80b": 0.34, "none": 0.65}, "tokens": 1150}
+{"bill_id": "2227529", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [{"n": "80a", "sign": "+", "role": "main", "p_choice": 0.97}], "choice": {"80a": 0.97, "80b": 0.0, "none": 0.03}, "tokens": 2553}
+{"bill_id": "2196934", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.02, "80b": 0.45, "none": 0.53}, "tokens": 1171}
+{"bill_id": "2234005", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "main", "p_choice": 0.84}], "choice": {"80a": 0.0, "80b": 0.84, "none": 0.16}, "tokens": 1595}
+{"bill_id": "2224720", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.26, "none": 0.74}, "tokens": 1539}
+{"bill_id": "2164151", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.42, "80b": 0.0, "none": 0.58}, "tokens": 1220}
+{"bill_id": "2196818", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.02, "none": 0.98}, "tokens": 1443}
+{"bill_id": "2170016", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.01, "80b": 0.31, "none": 0.68}, "tokens": 1031}
+{"bill_id": "2220510", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "secondary", "p_choice": 1.0}], "choice": {"80a": 0.0, "80b": 1.0, "none": 0.0}, "tokens": 2885}
+{"bill_id": "2159123", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.01, "80b": 0.05, "none": 0.94}, "tokens": 2515}
+{"bill_id": "2159518", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "secondary", "p_choice": 1.0}], "choice": {"80a": 0.0, "80b": 1.0, "none": 0.0}, "tokens": 2495}
+{"bill_id": "2196051", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "secondary", "p_choice": 1.0}], "choice": {"80a": 0.0, "80b": 1.0, "none": 0.0}, "tokens": 2594}
+{"bill_id": "2157197", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.01, "none": 0.99}, "tokens": 1877}
+{"bill_id": "2224184", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.02, "80b": 0.0, "none": 0.98}, "tokens": 2762}
+{"bill_id": "2157976", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.0, "none": 1.0}, "tokens": 2962}
+{"bill_id": "2209053", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "main", "p_choice": 1.0}], "choice": {"80a": 0.0, "80b": 1.0, "none": 0.0}, "tokens": 1770}
+{"bill_id": "2225666", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.01, "none": 0.99}, "tokens": 2609}
+{"bill_id": "2209032", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "secondary", "p_choice": 0.65}], "choice": {"80a": 0.0, "80b": 0.65, "none": 0.35}, "tokens": 2923}
+{"bill_id": "2215901", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80a", "sign": "+", "role": "secondary", "p_choice": 0.9}], "choice": {"80a": 0.9, "80b": 0.0, "none": 0.1}, "tokens": 1658}
+{"bill_id": "2236541", "parent": "80", "role": "secondary", "parent_sign": "−", "assigned": [], "choice": {"80a": 0.0, "80b": 0.0, "none": 1.0}, "tokens": 838}
+{"bill_id": "2202665", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.05, "none": 0.95}, "tokens": 1525}
+{"bill_id": "2196801", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.02, "80b": 0.02, "none": 0.96}, "tokens": 2947}
+{"bill_id": "2159225", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.01, "80b": 0.0, "none": 0.99}, "tokens": 2759}
+{"bill_id": "2190174", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "main", "p_choice": 1.0}], "choice": {"80a": 0.0, "80b": 1.0, "none": 0.0}, "tokens": 1628}
+{"bill_id": "2243006", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80a", "sign": "+", "role": "secondary", "p_choice": 0.98}], "choice": {"80a": 0.98, "80b": 0.0, "none": 0.02}, "tokens": 2041}
+{"bill_id": "2197949", "parent": "80", "role": "secondary", "parent_sign": "−", "assigned": [], "choice": {"80a": 0.02, "80b": 0.25, "none": 0.73}, "tokens": 2883}
+{"bill_id": "2192354", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80a", "sign": "+", "role": "secondary", "p_choice": 0.62}], "choice": {"80a": 0.62, "80b": 0.01, "none": 0.37}, "tokens": 1190}
+{"bill_id": "2221106", "parent": "80", "role": "secondary", "parent_sign": "−", "assigned": [], "choice": {"80a": 0.04, "80b": 0.23, "none": 0.73}, "tokens": 1821}
+{"bill_id": "2160475", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.1, "none": 0.9}, "tokens": 2620}
+{"bill_id": "2232517", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80a", "sign": "+", "role": "secondary", "p_choice": 1.0}], "choice": {"80a": 1.0, "80b": 0.0, "none": 0.0}, "tokens": 2372}
+{"bill_id": "2221692", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.11, "80b": 0.0, "none": 0.89}, "tokens": 1638}
+{"bill_id": "2159687", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.02, "80b": 0.02, "none": 0.96}, "tokens": 2947}
+{"bill_id": "2198636", "parent": "80", "role": "secondary", "parent_sign": "−", "assigned": [], "choice": {"80a": 0.01, "80b": 0.08, "none": 0.91}, "tokens": 2869}
+{"bill_id": "2226667", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80a", "sign": "+", "role": "secondary", "p_choice": 1.0}], "choice": {"80a": 1.0, "80b": 0.0, "none": 0.0}, "tokens": 1942}
+{"bill_id": "2229800", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "secondary", "p_choice": 1.0}], "choice": {"80a": 0.0, "80b": 1.0, "none": 0.0}, "tokens": 1864}
+{"bill_id": "2218675", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.09, "none": 0.91}, "tokens": 2796}
+{"bill_id": "2198216", "parent": "80", "role": "secondary", "parent_sign": "−", "assigned": [], "choice": {"80a": 0.01, "80b": 0.07, "none": 0.92}, "tokens": 2871}
+{"bill_id": "2198024", "parent": "80", "role": "secondary", "parent_sign": "−", "assigned": [], "choice": {"80a": 0.0, "80b": 0.27, "none": 0.73}, "tokens": 1500}
+{"bill_id": "2202672", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.47, "80b": 0.0, "none": 0.53}, "tokens": 1339}
+{"bill_id": "2169463", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.0, "none": 1.0}, "tokens": 1806}
+{"bill_id": "2229646", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "secondary", "p_choice": 1.0}], "choice": {"80a": 0.0, "80b": 1.0, "none": 0.0}, "tokens": 2884}
+{"bill_id": "2225586", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.01, "none": 0.99}, "tokens": 2528}
+{"bill_id": "2223191", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [{"n": "80a", "sign": "+", "role": "main", "p_choice": 0.97}], "choice": {"80a": 0.97, "80b": 0.0, "none": 0.03}, "tokens": 2555}
+{"bill_id": "2200463", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.0, "none": 1.0}, "tokens": 2987}
+{"bill_id": "2198425", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "secondary", "p_choice": 0.67}], "choice": {"80a": 0.04, "80b": 0.67, "none": 0.29}, "tokens": 1383}
+{"bill_id": "2218567", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80a", "sign": "+", "role": "secondary", "p_choice": 0.99}], "choice": {"80a": 0.99, "80b": 0.0, "none": 0.01}, "tokens": 1352}
+{"bill_id": "2235692", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80a", "sign": "+", "role": "secondary", "p_choice": 0.99}], "choice": {"80a": 0.99, "80b": 0.0, "none": 0.01}, "tokens": 2872}
+{"bill_id": "2200576", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.0, "none": 1.0}, "tokens": 1935}
+{"bill_id": "2205431", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.03, "none": 0.97}, "tokens": 2130}
+{"bill_id": "2237628", "parent": "80", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "80a", "sign": "−", "role": "secondary", "p_choice": 0.93}], "choice": {"80a": 0.93, "80b": 0.0, "none": 0.07}, "tokens": 2662}
+{"bill_id": "2205473", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.08, "none": 0.92}, "tokens": 2744}
+{"bill_id": "2236312", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [{"n": "80a", "sign": "+", "role": "main", "p_choice": 0.99}], "choice": {"80a": 0.99, "80b": 0.0, "none": 0.01}, "tokens": 2010}
+{"bill_id": "2162587", "parent": "80", "role": "secondary", "parent_sign": "−", "assigned": [], "choice": {"80a": 0.01, "80b": 0.06, "none": 0.93}, "tokens": 2871}
+{"bill_id": "2156817", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "secondary", "p_choice": 0.99}], "choice": {"80a": 0.0, "80b": 0.99, "none": 0.01}, "tokens": 2695}
+{"bill_id": "2243014", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.0, "80b": 0.01, "none": 0.99}, "tokens": 1403}
+{"bill_id": "2218628", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80a", "sign": "+", "role": "secondary", "p_choice": 0.98}], "choice": {"80a": 0.98, "80b": 0.0, "none": 0.02}, "tokens": 2384}
+{"bill_id": "2197077", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.02, "80b": 0.02, "none": 0.96}, "tokens": 2947}
+{"bill_id": "2235553", "parent": "80", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "80a", "sign": "+", "role": "secondary", "p_choice": 0.99}], "choice": {"80a": 0.99, "80b": 0.0, "none": 0.01}, "tokens": 1725}
+{"bill_id": "2209538", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [{"n": "80b", "sign": "+", "role": "main", "p_choice": 1.0}], "choice": {"80a": 0.0, "80b": 1.0, "none": 0.0}, "tokens": 1909}
+{"bill_id": "2196997", "parent": "80", "role": "main", "parent_sign": "+", "assigned": [], "choice": {"80a": 0.01, "80b": 0.07, "none": 0.92}, "tokens": 2352}
+{"bill_id": "2229582", "parent": "80", "role": "secondary", "parent_sign": "−", "assigned": [], "choice": {"80a": 0.0, "80b": 0.04, "none": 0.96}, "tokens": 2423}
