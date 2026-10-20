@@ -6,9 +6,10 @@ checked (docs/LABEL_CHECK.md), and these are new there. Same material as core_fu
 import csv, json, os, re, sys, collections
 import pandas as pd, duckdb
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-OUT = f"{ROOT}/local/research/label_check_qt5"; os.makedirs(OUT, exist_ok=True)
+STAGE = int(os.environ.get("STAGE", 5))
+OUT = f"{ROOT}/local/research/label_check_qt{STAGE}"; os.makedirs(OUT, exist_ok=True)
 sys.path.insert(0, f"{ROOT}/pipeline"); import labels as LB
-lab = LB.load(); bl = lab["bill_lab"]; bl4 = LB.load(stages=4)["bill_lab"]; plan = lab["split_plan"]["new"]
+lab = LB.load(); bl = lab["bill_lab"]; bl4 = LB.load(stages=STAGE - 1)["bill_lab"]; plan = lab["split_plan"]["new"]
 D = {r["n"]: (r["name_en"], r["plus"], r["minus"]) for r in csv.DictReader(open(f"{ROOT}/jef/directions/DIRECTIONS_LIST.csv"))}
 for k, v in plan.items(): D[k] = (v["name_en"], v.get("plus_en", ""), v.get("minus_en", ""))
 st = {r["d"]: r for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements_v4.csv")) if r["status"] == "ok"}

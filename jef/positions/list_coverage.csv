@@ -1,20 +1,20 @@
 letters,list_name,candidates,ex_mks,ex_mks_top10,status,dirs_nmk_ge1,dirs_nmk_ge3,median_nA_per_exmk
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",120,34,9,ok,377,355,97.5
-רק,"Be’Yahad, headed by Naftali Bennett",118,19,5,ok,367,342,158.0
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",119,12,9,ok,365,349,166.5
-אמת,"HaDemocratim, headed by Yair Golan",119,11,6,ok,357,330,141.0
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,118,9,5,ok,354,329,82.0
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",34,8,6,ok,357,330,305.0
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",33,6,4,ok,354,325,163.5
-עם,"Ra’am, the United Arab List",73,6,5,ok,348,315,235.5
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",35,6,6,ok,358,292,95.0
-ודם,The Joint Arab List,118,5,3,ok,354,331,457.0
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",39,4,4,ok,338,275,104.0
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",120,4,3,ok,323,243,40.0
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",120,34,9,ok,430,404,97.5
+רק,"Be’Yahad, headed by Naftali Bennett",118,19,5,ok,419,394,158.0
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",119,12,9,ok,417,398,166.5
+אמת,"HaDemocratim, headed by Yair Golan",119,11,6,ok,405,374,141.0
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,118,9,5,ok,405,378,82.0
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",34,8,6,ok,408,373,305.0
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",33,6,4,ok,404,371,163.5
+עם,"Ra’am, the United Arab List",73,6,5,ok,396,355,235.5
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",35,6,6,ok,403,329,95.0
+ודם,The Joint Arab List,118,5,3,ok,404,374,457.0
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",39,4,4,ok,386,308,104.0
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",120,4,3,ok,371,271,40.0
 די,"HaMiluimnikim v’haCalcalit, headed by Yoaz Hendel and Yaron Zelekha",36,1,1,warning,8,0,3.0
-בי,Tzomet Beit Yisrael,12,1,1,warning,223,0,35.0
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",16,1,1,warning,288,0,97.0
-י,"Yisrael Techila, headed by Sharren Haskel",12,1,1,warning,311,0,145.0
+בי,Tzomet Beit Yisrael,12,1,1,warning,245,0,35.0
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",16,1,1,warning,324,0,97.0
+י,"Yisrael Techila, headed by Sharren Haskel",12,1,1,warning,354,0,145.0
 קך,"Seder Hadash for a Constitution, Separation of Powers and Personal Elections",25,0,0,not_evaluated,0,0,
 נר,"Tzeva Shahor, Magen Olam haTorah",18,0,0,not_evaluated,0,0,
 צדק,Sharshar l’Ahava v’Ahdut Ha”am,12,0,0,not_evaluated,0,0,
