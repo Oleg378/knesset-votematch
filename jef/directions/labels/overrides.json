@@ -8486,6 +8486,54 @@
     "role": "main",
     "source": "label check q94 (2026-10-19): 2 of 3 blind checks «not about»",
     "reason": "Government property tax in Judea and Samaria"
+   },
+   {
+    "bill_id": "2235832",
+    "d": "226",
+    "q": "95",
+    "role": "secondary",
+    "source": "label check q95 (2026-10-19): two blind checks «not about»",
+    "reason": "Terror victims enforcing judgments against Palestinian Authority"
+   },
+   {
+    "bill_id": "2163670",
+    "d": "226",
+    "q": "95",
+    "role": "secondary",
+    "source": "label check q95 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Mortgage early-repayment fee; lending cost, not collection"
+   },
+   {
+    "bill_id": "2161914",
+    "d": "226",
+    "q": "95",
+    "role": "secondary",
+    "source": "label check q95 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Mortgage early-repayment fee; lending cost, not collection"
+   },
+   {
+    "bill_id": "2156238",
+    "d": "226",
+    "q": "95",
+    "role": "secondary",
+    "source": "label check q95 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Mortgage early-repayment fee; lending cost, not collection"
+   },
+   {
+    "bill_id": "2196839",
+    "d": "226",
+    "q": "95",
+    "role": "secondary",
+    "source": "label check q95 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Mortgage early-repayment fee; lending cost, not collection"
+   },
+   {
+    "bill_id": "2230725",
+    "d": "226",
+    "q": "95",
+    "role": "secondary",
+    "source": "label check q95 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Party chair liability for party debts; party finance"
    }
   ]
  },
@@ -8880,6 +8928,33 @@
     "role": "main",
     "source": "label check q94 (2026-10-19): first check and the check on the full notes agree on the sign",
     "reason": "Economic plan narrows arnona exemption for ruined property; owners pay, councils collect more (notes empty)."
+   },
+   {
+    "bill_id": "2220839",
+    "d": "226",
+    "q": "95",
+    "sign": "−",
+    "role": "secondary",
+    "source": "label check q95 (2026-10-19): first check and the check on the full notes agree on the sign",
+    "reason": "Obliges municipalities to notify property-tax debtors by voice and digital channels before interest accrues; debtor-protective procedural duty."
+   },
+   {
+    "bill_id": "2156231",
+    "d": "226",
+    "q": "95",
+    "sign": "−",
+    "role": "main",
+    "source": "label check q95 (2026-10-19): first check and the check on the full notes agree on the sign",
+    "reason": "Requires registered mail and photo documentation of posted notices to debtors; extra procedural burden ensuring debtor notice."
+   },
+   {
+    "bill_id": "2196486",
+    "d": "226",
+    "q": "95",
+    "sign": "−",
+    "role": "main",
+    "source": "label check q95 (2026-10-19): first check and the check on the full notes agree on the sign",
+    "reason": "Requires registered mail and photo documentation of posted notices to debtors; extra procedural burden ensuring debtor notice."
    }
   ]
  }
