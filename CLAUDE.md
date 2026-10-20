@@ -62,5 +62,5 @@ Python deps: `requirements.txt` (pinned). Node: `web/package-lock.json`.
 ## Working rules
 - Small tasks with a checkable result (one screen, one component, one test against the reference).
 - Do not delete user data: `jef/quiz/sessions/` (gitignored; use `--no-save` for test runs).
-- Budget: the customer is on a $20 subscription; Jev labeling budget is tracked in `docs/PROGRESS.md`. Do not launch many agents.
+- Budget: the customer is on the Max subscription (since 2026-10-20). Jev is out of credits: labeling goes to Sonnet subagents, each task type checked first on a benchmark with a known Jev score. Batch agent work (4–5 themes per agent).
 - Commit only when asked or at the end of an agreed step; one topic per commit.
