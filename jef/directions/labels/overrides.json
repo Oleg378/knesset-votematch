@@ -8782,6 +8782,158 @@
     "role": "secondary",
     "source": "label check q96 (2026-10-19): 2 of 3 blind checks «not about»",
     "reason": "Polygraphs against leaks; internal integrity"
+   },
+   {
+    "bill_id": "2163917",
+    "d": "98",
+    "q": "99",
+    "role": "secondary",
+    "source": "label check q99 (2026-10-19): two blind checks «not about»",
+    "reason": "Convicted juvenile sex offender restrictions"
+   },
+   {
+    "bill_id": "2159054",
+    "d": "98",
+    "q": "99",
+    "role": "secondary",
+    "source": "label check q99 (2026-10-19): two blind checks «not about»",
+    "reason": "Welfare wards definition; unrelated"
+   },
+   {
+    "bill_id": "2197033",
+    "d": "98",
+    "q": "99",
+    "role": "secondary",
+    "source": "label check q99 (2026-10-19): two blind checks «not about»",
+    "reason": "Convicted sex offender restrictions regarding minors"
+   },
+   {
+    "bill_id": "2163356",
+    "d": "98",
+    "q": "99",
+    "role": "secondary",
+    "source": "label check q99 (2026-10-19): two blind checks «not about»",
+    "reason": "Post-conviction sex offender restrictions, not protective-order monitoring"
+   },
+   {
+    "bill_id": "2208397",
+    "d": "98",
+    "q": "99",
+    "role": "secondary",
+    "source": "label check q99 (2026-10-19): two blind checks «not about»",
+    "reason": "Post-conviction sex offender restrictions, not protective-order monitoring"
+   },
+   {
+    "bill_id": "2159325",
+    "d": "98",
+    "q": "99",
+    "role": "secondary",
+    "source": "label check q99 (2026-10-19): two blind checks «not about»",
+    "reason": "Post-conviction sex offender restrictions, not protective-order monitoring"
+   },
+   {
+    "bill_id": "2156398",
+    "d": "98",
+    "q": "99",
+    "role": "main",
+    "source": "label check q99 (2026-10-19): two blind checks «not about»",
+    "reason": "Supervision orders for convicted sex offenders"
+   },
+   {
+    "bill_id": "2214419",
+    "d": "98",
+    "q": "99",
+    "role": "secondary",
+    "source": "label check q99 (2026-10-19): two blind checks «not about»",
+    "reason": "Organized crime measures; unrelated"
+   },
+   {
+    "bill_id": "2190518",
+    "d": "98",
+    "q": "99",
+    "role": "main",
+    "source": "label check q99 (2026-10-19): two blind checks «not about»",
+    "reason": "Rabbinical sanctions on divorce refusers"
+   },
+   {
+    "bill_id": "2203426",
+    "d": "98",
+    "q": "99",
+    "role": "secondary",
+    "source": "label check q99 (2026-10-19): two blind checks «not about»",
+    "reason": "Restrictions on convicted terrorists, not protective orders"
+   },
+   {
+    "bill_id": "2164218",
+    "d": "98",
+    "q": "99",
+    "role": "secondary",
+    "source": "label check q99 (2026-10-19): two blind checks «not about»",
+    "reason": "Convicted sex offender residence limits"
+   },
+   {
+    "bill_id": "2206205",
+    "d": "98",
+    "q": "99",
+    "role": "secondary",
+    "source": "label check q99 (2026-10-19): two blind checks «not about»",
+    "reason": "Rabbinical sanctions on divorce refusers"
+   },
+   {
+    "bill_id": "2161854",
+    "d": "98",
+    "q": "99",
+    "role": "secondary",
+    "source": "label check q99 (2026-10-19): two blind checks «not about»",
+    "reason": "Corona emergency powers; unrelated"
+   },
+   {
+    "bill_id": "2198050",
+    "d": "98",
+    "q": "99",
+    "role": "secondary",
+    "source": "label check q99 (2026-10-19): two blind checks «not about»",
+    "reason": "Removing elderly wards from home; unrelated"
+   },
+   {
+    "bill_id": "2164300",
+    "d": "98",
+    "q": "99",
+    "role": "secondary",
+    "source": "label check q99 (2026-10-19): two blind checks «not about»",
+    "reason": "Removing elderly wards from home; unrelated"
+   },
+   {
+    "bill_id": "2224164",
+    "d": "98",
+    "q": "99",
+    "role": "secondary",
+    "source": "label check q99 (2026-10-19): two blind checks «not about»",
+    "reason": "Restrictions on convicted violent offenders after release"
+   },
+   {
+    "bill_id": "2190563",
+    "d": "277e",
+    "q": "100",
+    "role": "secondary",
+    "source": "label check q100 (2026-10-19): two blind checks «not about»",
+    "reason": "Military career retirement age; not old-age benefits"
+   },
+   {
+    "bill_id": "2215018",
+    "d": "277e",
+    "q": "100",
+    "role": "secondary",
+    "source": "label check q100 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Legal aid eligibility; unrelated to pensions"
+   },
+   {
+    "bill_id": "2198815",
+    "d": "58b",
+    "q": "105",
+    "role": "secondary",
+    "source": "label check q105 (2026-10-19): 2 of 3 blind checks «not about»",
+    "reason": "Removal for broken election promises; accountability, not appointment powers"
    }
   ]
  },
