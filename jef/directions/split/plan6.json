@@ -1,0 +1,473 @@
+{
+ "note": "Stage 6 (2026-10-20, [У]): split of the basket directions that pass the selection criteria (SHARED_UNDERSTANDING «Выпавшие законопроекты и направления без вопроса»; local/research/basket_split/). Procedure of 2026-10-16 (Opus proposes parts; a part that is an existing direction is a transfer); the choice is made by Sonnet subagents instead of Jev; sign asked per part.",
+ "parents": {
+  "81": [
+   "81s1",
+   "81s2",
+   "81s3",
+   "149s4"
+  ],
+  "1": [
+   "1s1",
+   "3"
+  ],
+  "142": [
+   "137",
+   "142s2",
+   "142s3"
+  ],
+  "119": [
+   "119s1",
+   "116b"
+  ],
+  "17": [
+   "211",
+   "17s2",
+   "171",
+   "40s2"
+  ],
+  "130b2": [
+   "149s1",
+   "130b2s2",
+   "92",
+   "130b2s4"
+  ],
+  "95": [
+   "4",
+   "95s2"
+  ],
+  "34": [
+   "34s1",
+   "34s2",
+   "34s3"
+  ],
+  "19": [
+   "19s1",
+   "12b",
+   "19s3",
+   "99s3"
+  ],
+  "89": [
+   "89s1",
+   "89s2",
+   "53c"
+  ],
+  "122": [
+   "122s1",
+   "122s2",
+   "122s3",
+   "122s4"
+  ],
+  "40s2": [
+   "40s2s1",
+   "240s3",
+   "40s2s3"
+  ],
+  "251": [
+   "15s2",
+   "251s2",
+   "251s3",
+   "88s3"
+  ],
+  "110": [
+   "110s1",
+   "110s2",
+   "110s3",
+   "124"
+  ],
+  "344": [
+   "44",
+   "344s2",
+   "344s3",
+   "344s4"
+  ],
+  "309": [
+   "165b",
+   "40s4",
+   "309s3"
+  ],
+  "279": [
+   "279s1",
+   "279s2",
+   "32s2",
+   "295"
+  ],
+  "147": [
+   "147s1",
+   "147s2"
+  ],
+  "40s1": [
+   "1"
+  ],
+  "8s3": [
+   "250b",
+   "8s3s2",
+   "8s3s3",
+   "8s3s4"
+  ],
+  "11": [
+   "11s1",
+   "11s2",
+   "11s3",
+   "11s4"
+  ],
+  "317": [
+   "187",
+   "317s2",
+   "317s3",
+   "33"
+  ],
+  "160": [
+   "160s1",
+   "160s2",
+   "160s3"
+  ],
+  "22": [
+   "22s1",
+   "22s2",
+   "22s3"
+  ]
+ },
+ "new": {
+  "81s1": {
+   "name_ru": "Уголовные санкции за террор, помощь врагу и преступления против государства",
+   "name_en": "Criminal penalties for terrorism, aid to enemies and offences against the state",
+   "plus_en": "Adds criminal offences or harsher punishments for terrorism, support for or identification with terrorist organizations or enemy states, acting as a foreign agent, illegal entry and infiltration, insulting, filming or obstructing soldiers and security forces, desecrating national symbols or displaying enemy flags; or makes a national or nationalist motive an aggravating circumstance.",
+   "minus_en": "Repeals or narrows such offences and aggravations: abolishes the death penalty, repeals nationalist-motive aggravations, lifts bans on flags or on filming soldiers, so that these acts are handled under ordinary criminal law."
+  },
+  "81s2": {
+   "name_ru": "Уголовная ответственность должностных лиц за злоупотребление должностью",
+   "name_en": "Criminal liability of public officials for abuse of office",
+   "plus_en": "Widens offences or raises punishments for abuse of office by public officials and elected representatives: fraud and breach of trust, misuse of official information, election fraud, false testimony or failure to appear before Knesset committees.",
+   "minus_en": "Narrows such offences (e.g. narrows the offence of breach of trust) or exempts officials, and people who pass them information, from criminal liability."
+  },
+  "81s3": {
+   "name_ru": "Наказания за насильственные, сексуальные и имущественные преступления",
+   "name_en": "Penalties for violent, sexual and property crime",
+   "plus_en": "Adds offences or harsher punishments for ordinary (non-security) crime: violence and sexual offences, including against minors, partners, the elderly and helpless persons; assaults on workers who serve the public (medical staff, bus drivers, lawyers, social workers, police officers, journalists); prostitution and human trafficking; organized crime, protection rackets, illegal weapons, agricultural crime, theft and looting.",
+   "minus_en": "Removes such offences or makes their punishment milder."
+  },
+  "1s1": {
+   "name_ru": "Размер социальных денежных пособий",
+   "name_en": "Level of social-security and welfare cash benefits",
+   "plus_en": "Raises social-security and welfare cash benefits (national insurance allowances, income support, work grant, foster-care payments, burial and death grants, benefits for Holocaust survivors and other groups) or widens who receives them.",
+   "minus_en": "Lowers such benefits or narrows who receives them (e.g. cuts in budget-arrangements laws)."
+  },
+  "142s2": {
+   "name_ru": "Публикация опознавательных данных и судебных материалов",
+   "name_en": "Publication of identifying details and court proceedings",
+   "plus_en": "Allows more publication of court rulings and proceedings and of identifying details of people: anonymized family-court rulings, transparency of petitions in public matters, narrower gag orders.",
+   "minus_en": "Adds publication bans to protect privacy: names of victims and casualties before their families are notified, recordings of a person, identifying details of soldiers on duty, minors in psychiatric care."
+  },
+  "142s3": {
+   "name_ru": "Бесплатная доступность эфирного контента",
+   "name_en": "Free-to-air availability of broadcast content",
+   "plus_en": "Makes more broadcast content available free of charge or nationwide: free-to-air broadcasting of major sports events, digital terrestrial broadcasting, nationwide Arabic-language radio, more open broadcasting licences.",
+   "minus_en": "Makes less broadcast content freely available (e.g. closing a public broadcaster, selling exclusive rights to paid channels)."
+  },
+  "119s1": {
+   "name_ru": "Правила методов и содержания предвыборной агитации",
+   "name_en": "Rules on campaign methods and content",
+   "plus_en": "Adds limits or transparency duties on how parties and candidates campaign: bans on racist propaganda, rules on digital and AI-based propaganda and bots, disclosure of who paid for online ads, limits on publishing polls or referring to deceased people in campaign material.",
+   "minus_en": "Removes such limits or duties (e.g. lifts the ban on campaigning from aircraft and boats)."
+  },
+  "17s2": {
+   "name_ru": "Обязанности частных организаций по недискриминации и представительству",
+   "name_en": "Anti-discrimination and representation duties of private organizations",
+   "plus_en": "Requires businesses, employers, educational institutions and other private organizations to avoid discrimination (by gender, gender identity, sexual orientation, disability, ethnicity, economic status, place of residence) or to ensure adequate representation of women, people with disabilities, Arab or Haredi citizens and residents of the periphery (e.g. board quotas, hiring targets, conditions in tenders, pay-transparency duties).",
+   "minus_en": "Removes or relaxes such anti-discrimination, representation or pay-transparency duties for private organizations."
+  },
+  "130b2s2": {
+   "name_ru": "Чрезвычайные полномочия слежки, киберзащиты и контроля над вещанием",
+   "name_en": "Emergency surveillance, cyber and broadcasting powers",
+   "plus_en": "Gives or prolongs temporary emergency or wartime powers for security agencies and the government to penetrate computers and cameras, act inside digital and hosting services against cyber attacks, transfer personal data for identification, or shut down foreign broadcasters deemed harmful to state security.",
+   "minus_en": "Ends, shortens or narrows such temporary powers, or adds safeguards and oversight to them."
+  },
+  "130b2s4": {
+   "name_ru": "Продление сроков и процедурные послабления в чрезвычайной ситуации",
+   "name_en": "Deadline extensions and procedural adjustments during emergencies",
+   "plus_en": "Extends statutory deadlines, licences, terms of office, limitation periods or insolvency and labour protections, or allows remote hearings and special court procedures, because of a war or declared emergency.",
+   "minus_en": "Ends such extensions and special procedures and returns to the ordinary deadlines and procedures."
+  },
+  "95s2": {
+   "name_ru": "Компенсация государством за незаконный арест, преследование и полицейское насилие",
+   "name_en": "State compensation for wrongful detention, prosecution and police misconduct",
+   "plus_en": "Makes the state pay compensation or defence costs to people who were detained, shackled, prosecuted or imprisoned and later released, acquitted or had charges dropped, or creates civil claims against the state for unlawful police force.",
+   "minus_en": "Narrows or removes such compensation and claims against the state."
+  },
+  "34s1": {
+   "name_ru": "Защита потребителей от отключения коммунальных услуг",
+   "name_en": "Protection of consumers from utility disconnection",
+   "plus_en": "Bans or limits cutting off electricity, water or gas to households, educational institutions or local authorities over unpaid bills, protects funds needed for basic needs from seizure, or requires compensation for prolonged outages.",
+   "minus_en": "Allows suppliers to disconnect such services for debt more easily, or removes compensation for outages."
+  },
+  "34s2": {
+   "name_ru": "Подключение к коммунальным сетям домов без разрешения в арабских населённых пунктах",
+   "name_en": "Utility connection for unpermitted homes in Arab and Bedouin localities",
+   "plus_en": "Allows or extends connecting homes built without a permit in Arab and Bedouin localities and unrecognized villages to electricity, water or telephone lines (temporary electricity-supply orders, humanitarian connection).",
+   "minus_en": "Bars or restricts connecting such unpermitted homes to utilities."
+  },
+  "34s3": {
+   "name_ru": "Надёжность связи и цифровой инфраструктуры",
+   "name_en": "Reliability of communications and digital infrastructure",
+   "plus_en": "Improves coverage and resilience of mobile, internet and digital services: requires cellular reception everywhere, eases building transmission antennas, provides internet in shelters, or strengthens protection of digital and hosting services against cyber attacks.",
+   "minus_en": "Removes such coverage or resilience requirements, or restricts building of communications infrastructure."
+  },
+  "19s1": {
+   "name_ru": "Обязанности продавцов и поставщиков услуг по информированию и обслуживанию потребителей",
+   "name_en": "Disclosure and customer-service duties of sellers and service providers",
+   "plus_en": "Imposes more duties on sellers and service providers toward customers: product and price labeling, disclosure of terms and manufacturer data, human telephone service and waiting-time limits, recording and handing over calls, easy cancellation, invoices, and statutory compensation for delays or poor service.",
+   "minus_en": "Removes or relaxes such disclosure and customer-service duties, or limits customers' remedies against sellers and service providers (e.g. class actions)."
+  },
+  "19s3": {
+   "name_ru": "Запрет дискриминации при доступе к товарам, услугам и общественным местам",
+   "name_en": "Non-discrimination in access to goods, services and public places",
+   "plus_en": "Adds grounds or situations in which businesses, landlords, schools and places open to the public may not discriminate or segregate customers (e.g. by gender, ethnic origin, appearance, family status, disability, breastfeeding, refusal to give personal data), or makes such bans easier to enforce.",
+   "minus_en": "Removes grounds or situations covered by such bans, or allows service providers to refuse, separate or treat customers differently."
+  },
+  "89s1": {
+   "name_ru": "Ограничения на должность для избранных лиц под следствием, обвиняемых или осуждённых",
+   "name_en": "Office restrictions on elected officials facing criminal proceedings",
+   "plus_en": "Bars, suspends or removes elected officials (prime minister, ministers, Knesset members, the President, heads of local authorities) who are under investigation, indicted or convicted, bars them from forming a government, or lengthens their disqualification after a conviction involving moral turpitude.",
+   "minus_en": "Lets such officials run for or stay in office, shortens or abolishes disqualification after conviction (e.g. abolishing moral turpitude), or delays their suspension."
+  },
+  "89s2": {
+   "name_ru": "Правила этики, раскрытия и отчётности министров и депутатов",
+   "name_en": "Ethics, disclosure and reporting duties of ministers and Knesset members",
+   "plus_en": "Imposes more ethics rules, disclosure or reporting duties on ministers, Knesset members and party leaders (external advisers, foreign ties and accounts, securities trading, coalition agreements and coalition funds, missed deadlines for regulations or the budget), or gives ethics bodies more powers over them.",
+   "minus_en": "Removes or relaxes such ethics, disclosure and reporting duties, or reduces the powers of ethics bodies over them."
+  },
+  "122s1": {
+   "name_ru": "Правила проведения и подсчёта выборов",
+   "name_en": "Safeguards in the conduct and counting of elections",
+   "plus_en": "Adds safeguards in how elections are run and counted: penalties for election offences, rules against deepfakes and undisclosed AI content in campaigns, independence of the election committee chair, counting procedures, accessible polling stations, limits on postponing elections.",
+   "minus_en": "Removes or relaxes such safeguards (e.g. lets voters vote outside their assigned polling station, lets a minister postpone elections)."
+  },
+  "122s2": {
+   "name_ru": "Сроки охлаждения для высокопоставленных лиц перед выдвижением",
+   "name_en": "Cooling-off periods before running for office",
+   "plus_en": "Lengthens or adds cooling-off periods that senior security officers, civil servants and local-authority directors must wait before running for elected office.",
+   "minus_en": "Shortens or removes such cooling-off periods."
+  },
+  "122s3": {
+   "name_ru": "Ограничения на должность для избранных лиц под следствием, обвиняемых или осуждённых",
+   "name_en": "Office restrictions on elected officials facing criminal proceedings",
+   "plus_en": "Bars, suspends or removes elected officials (prime minister, ministers, Knesset members, the President, heads of local authorities) who are under investigation, indicted or convicted, bars them from forming a government, or lengthens their disqualification after a conviction involving moral turpitude.",
+   "minus_en": "Lets such officials run for or stay in office, shortens or abolishes disqualification after conviction (e.g. abolishing moral turpitude), or delays their suspension."
+  },
+  "122s4": {
+   "name_ru": "Исключение депутатов и кандидатов за поддержку террора или непризнание характера государства",
+   "name_en": "Exclusion of MKs and candidates over support for terror or rejection of the state's identity",
+   "plus_en": "Makes it easier to expel Knesset members or bar candidates and lists for supporting armed struggle or terror against Israel, or for refusing to declare recognition of the state's identity.",
+   "minus_en": "Repeals or narrows such grounds for expulsion or disqualification (e.g. repeal of the MK expulsion procedure)."
+  },
+  "40s2s1": {
+   "name_ru": "Налоговая и финансовая отчётность бизнеса",
+   "name_en": "Tax and financial reporting duties of businesses",
+   "plus_en": "Businesses, self-employed people and partnerships must file more or more frequent tax reports, or document more transactions and payment details.",
+   "minus_en": "They file fewer or less frequent tax reports, or get simplified regimes (e.g. a micro-business track, deferred first report, semi-annual reporting)."
+  },
+  "40s2s3": {
+   "name_ru": "Лицензии и разрешения на деятельность бизнеса",
+   "name_en": "Licences and permits for business activities",
+   "plus_en": "Requires a licence, permit or registration for more business activities (e.g. events, animal export or breeding, sale of smoking products, drones, e-bikes, child performers), or adds documents needed to get one.",
+   "minus_en": "Exempts activities from licences or permits, extends their validity, or reduces the documents needed (e.g. short-term foreign experts, notaries, radiation sources, import procedures)."
+  },
+  "251s2": {
+   "name_ru": "Лицензирование и вступительные экзамены немедицинских профессий и промыслов",
+   "name_en": "Licensing and entry exams for non-health professions and trades",
+   "plus_en": "Brings more non-health occupations and service providers under licensing or tightens their entry requirements: bar exams and internship for lawyers, accountants, notaries, tax representatives, mortgage and financial advisers, insurance appraisers, technicians, sports coaches, dog trainers, mediators, security firms, manpower contractors, car-service businesses.",
+   "minus_en": "Removes licensing for such occupations or eases entry: lower pass marks or shorter internships, recognition of foreign licences, fast-track licensing, letting other licensed professionals (e.g. lawyers, pension advisers) do the work."
+  },
+  "251s3": {
+   "name_ru": "Квалификация и проверка судимости персонала, работающего с детьми и уязвимыми",
+   "name_en": "Qualification and criminal-record requirements for staff working with children and vulnerable people",
+   "plus_en": "Requires training or qualifications for daycare, kindergarten, school and care staff, or bars people convicted or accused of sexual or violent offences from working in education, childcare, academia, medicine or therapy.",
+   "minus_en": "Relaxes such qualification or vetting requirements (e.g. lets older or less qualified people work as caregivers or foster parents)."
+  },
+  "110s1": {
+   "name_ru": "Допуск лиц под уголовным преследованием к высшим должностям",
+   "name_en": "Eligibility of persons under criminal proceedings for senior office",
+   "plus_en": "Bars persons who are under investigation, indicted or convicted (e.g. of bribery, fraud or offences of moral turpitude) from forming a government or serving as prime minister, minister, President, head or member of a local authority, or requires their suspension.",
+   "minus_en": "Lets such persons run for or hold these offices (e.g. abolishing moral turpitude, letting a person with a suspended sentence serve as minister)."
+  },
+  "110s2": {
+   "name_ru": "Отстранение кандидатов и должностных лиц за поддержку террора или врага",
+   "name_en": "Barring candidates and office holders over support for terror or enemies",
+   "plus_en": "Bars from running for or holding Knesset, local-council, ministerial or other public office, or removes from it, people who support armed struggle or terror against Israel, back an enemy state during conflict, were convicted of terror, or refuse a loyalty declaration.",
+   "minus_en": "Repeals or narrows such grounds for disqualification or removal (e.g. cancelling the procedure for ending an MK's membership)."
+  },
+  "110s3": {
+   "name_ru": "Периоды охлаждения для должностных лиц",
+   "name_en": "Cooling-off periods for officials",
+   "plus_en": "Requires or lengthens cooling-off periods before senior officials, regulators, judges, security officers or politicians may move to the private sector, lobbying, politics or another senior post, or from the private sector into the civil service.",
+   "minus_en": "Shortens or removes such cooling-off periods."
+  },
+  "344s2": {
+   "name_ru": "Этические правила для действующих должностных лиц",
+   "name_en": "Ethics rules for serving public officials",
+   "plus_en": "Adds ethics and conflict-of-interest rules for serving officials: limits on gifts and donations (incl. for legal or medical costs) and reporting duties, bans on side occupations, misuse of official information, payments from or undeclared ties with foreign states, integrity rules in local government.",
+   "minus_en": "Relaxes or removes such ethics and conflict-of-interest rules."
+  },
+  "344s3": {
+   "name_ru": "Проверка лояльности и благонадёжности госслужащих",
+   "name_en": "Loyalty and security vetting of public employees",
+   "plus_en": "Subjects public employees or officials to loyalty declarations or periodic polygraph tests (e.g. law-enforcement staff, participants in security-cabinet meetings), or mandates dismissal of employees and teachers who support terror.",
+   "minus_en": "Removes such declarations, tests or mandatory dismissals."
+  },
+  "344s4": {
+   "name_ru": "Подотчётность отдельных служащих гражданам",
+   "name_en": "Accountability of individual public servants toward citizens",
+   "plus_en": "Requires public servants and police officers to identify themselves to the public (badges, uniforms at protests), answer citizens on time and treat them properly, with sanctions for mistreating citizens or businesses or for unjustified detentions.",
+   "minus_en": "Removes or relaxes such duties and sanctions."
+  },
+  "309s3": {
+   "name_ru": "Кто и на каких условиях может усыновлять",
+   "name_en": "Eligibility and conditions for adoption",
+   "plus_en": "Widens who may adopt and removes obstacles in adoption: adoption by single parents or by couples (including same-sex couples), removal or narrowing of the requirement that adopters share the child's religion, keeping siblings together, revised suitability criteria.",
+   "minus_en": "Narrows who may adopt or adds conditions on adopters (e.g. keeps or tightens the same-religion requirement)."
+  },
+  "279s1": {
+   "name_ru": "Число политических должностей в правительстве и местной власти",
+   "name_en": "Number of political offices in national and local government",
+   "plus_en": "Adds or allows more ministers, deputy ministers, additional ministers within one ministry, an alternate prime minister, or more (including paid) deputy heads of local authorities.",
+   "minus_en": "Caps the number of ministers and deputy ministers, abolishes or merges ministries, abolishes the alternate (rotation) government, or limits the number of deputy heads of local authorities."
+  },
+  "279s2": {
+   "name_ru": "Специальные государственные органы для социальных проблем и уязвимых групп",
+   "name_en": "Dedicated state bodies for social, health and welfare problems",
+   "plus_en": "Creates a state authority, commission, committee, centre or official post dedicated to a social, health or welfare problem or a vulnerable group (poverty, suicide prevention, trauma and mental health, early childhood, domestic violence, families of missing persons, women's status, people with disabilities, senior citizens, children).",
+   "minus_en": "Abolishes or merges such dedicated bodies or posts, or leaves the problem to general ministries without a dedicated body."
+  },
+  "147s1": {
+   "name_ru": "Полномочия силовых и правоохранительных органов по сбору данных о людях",
+   "name_en": "Surveillance and data powers of security and law-enforcement bodies",
+   "plus_en": "Lets the police, the Shin Bet, the army, the prison service or other enforcement and anti-money-laundering bodies collect biometric data, install biometric cameras, hack or intercept devices and cameras, obtain communications, travel or SIM-card data, use polygraphs, or receive personal information from other bodies for policing, security or counter-terrorism.",
+   "minus_en": "Restricts such collection, interception and access by security and law-enforcement bodies, or abolishes their databases (e.g. cancelling the biometric database, barring searches of computers on mere consent)."
+  },
+  "147s2": {
+   "name_ru": "Административные реестры, статистика и обмен данными для государственных услуг",
+   "name_en": "Administrative registries, statistics and data sharing for public services",
+   "plus_en": "Creates state registries, databases, statistical breakdowns or reporting duties, or lets agencies share data among themselves, for administrative, health, transport, environmental, consumer or welfare purposes (not policing or security), e.g. medical data portability, inter-agency data transfer, registries of suicides, rare diseases or dogs' DNA, gender statistics.",
+   "minus_en": "Abolishes such registries, statistics or reporting duties, or restricts data sharing between civilian agencies."
+  },
+  "8s3s2": {
+   "name_ru": "Наказания за рэкет (поборы за «защиту»)",
+   "name_en": "Penalties for protection rackets",
+   "plus_en": "Adds or raises penalties, forfeiture, compensation to victims or enforcement tools against extortion of protection money and unlicensed collection of guarding fees.",
+   "minus_en": "Reduces or removes such penalties and enforcement tools."
+  },
+  "8s3s3": {
+   "name_ru": "Наказания за террор и связь с враждебными государствами",
+   "name_en": "Penalties for terror and contact with hostile states",
+   "plus_en": "Adds or raises fines and other penalties for terror offences, identification with or flying flags of terror organizations, financing terror, contact with agents of hostile states, or accepting donations from enemy or terror-supporting states.",
+   "minus_en": "Reduces or removes such fines and penalties."
+  },
+  "8s3s4": {
+   "name_ru": "Наказания за нарушения общественного порядка и посягательства на госслужащих и символы",
+   "name_en": "Penalties for public-order offences and affronts to officials and symbols",
+   "plus_en": "Adds or raises penalties for blocking roads, gathering outside officials' homes, insulting or assaulting public servants and security personnel, violence at sports events, in schools or in care institutions, or harming holy sites and memorial symbols.",
+   "minus_en": "Reduces or removes such penalties."
+  },
+  "11s1": {
+   "name_ru": "Покрытие общей медицины и расходы пациента",
+   "name_en": "Public coverage and patient costs of general health care",
+   "plus_en": "Widens what public health insurance covers or lowers what patients pay for medical care for the general population or broad groups (children, the elderly, people with rare diseases, residents returning from abroad): additions to the health basket, VAT exemptions on medicines, subsidised medicines and dental care, ambulance refunds, home hospitalisation, exemptions from health-insurance contributions.",
+   "minus_en": "Narrows such coverage, adds conditions, or raises what patients pay for medical care, medicines, dental care or ambulances."
+  },
+  "11s2": {
+   "name_ru": "Больницы и медуслуги в периферийных населённых пунктах",
+   "name_en": "Health facilities and services in peripheral localities",
+   "plus_en": "Requires or funds hospitals, emergency rooms, medical equipment or lower health-insurance contributions specifically in peripheral, border or minority localities (e.g. Kiryat Shmona, Sderot, Netivot, Dimona, Eilat, Sakhnin), or obliges the health system to close gaps between the periphery and the centre.",
+   "minus_en": "Reduces or removes such region-specific health facilities, funding or obligations."
+  },
+  "11s3": {
+   "name_ru": "Государственная психиатрическая и травматологическая помощь",
+   "name_en": "Public mental-health and trauma care",
+   "plus_en": "Gives more people state-funded psychological or psychiatric treatment and trauma care: soldiers, reservists and their families, people with combat stress or PTSD, victims of terror, war and sexual or family violence, children and youth with mental difficulties, mothers with postpartum depression; creates crisis-intervention teams or a national trauma authority.",
+   "minus_en": "Reduces such state-funded mental-health and trauma care or narrows who receives it."
+  },
+  "11s4": {
+   "name_ru": "Медпомощь террористам и заключённым по делам безопасности",
+   "name_en": "Public health care for terrorists and security prisoners",
+   "plus_en": "Keeps or gives terrorists and security prisoners the same access to public health care and hospital treatment as anyone else.",
+   "minus_en": "Denies or restricts public health care, hospital treatment or its funding for terrorists and security prisoners (e.g. no quality-of-life treatments for security prisoners, no treatment of terrorists in public hospitals, deducting the cost of their treatment from Palestinian Authority funds)."
+  },
+  "317s2": {
+   "name_ru": "Приоритет пожилым, инвалидам и родителям младенцев в повседневных услугах",
+   "name_en": "Priority for senior citizens, people with disabilities and parents of infants in everyday services",
+   "plus_en": "Gives senior citizens, people with disabilities, pregnant women or parents with infants priority in queues, a human answer on telephone service lines, or reserved or free parking.",
+   "minus_en": "Removes or narrows such priority."
+  },
+  "317s3": {
+   "name_ru": "Предпочтение отдельным поставщикам в госзакупках",
+   "name_en": "Preference for particular suppliers in public procurement",
+   "plus_en": "Requires public tenders to prefer Israeli-made goods and services, small and medium businesses, green-standard products or sheltered factories, or gives small businesses priority as creditors in insolvency.",
+   "minus_en": "Requires equal treatment of all suppliers in public tenders and insolvency, removing such preferences."
+  },
+  "160s1": {
+   "name_ru": "Защита от насилия в семье",
+   "name_en": "Protection from domestic violence",
+   "plus_en": "Adds protection and remedies for victims of violence within the family: a wider definition of domestic violence (economic, psychological), easier and longer protective orders and their electronic enforcement, harsher penalties and abolished limitation periods for sexual offences in the family, treatment centres and a national authority, protection of the home and rights of children whose parent was killed by the other parent, loss of marital property rights by a spouse who murdered the other.",
+   "minus_en": "Reduces such protection or remedies for victims of domestic violence."
+  },
+  "160s2": {
+   "name_ru": "Проживание в Израиле супругов и родственников (воссоединение семей)",
+   "name_en": "Residence of spouses and relatives in Israel",
+   "plus_en": "Restricts the entry, residence or status in Israel of family members: limits on family unification with spouses from the Palestinian territories or hostile states, supervision of spouse-status applicants, deportation of terrorists' relatives or bans on their residence.",
+   "minus_en": "Eases family unification and residence of such relatives, e.g. repeals the Citizenship and Entry into Israel (Temporary Provision) Law."
+  },
+  "160s3": {
+   "name_ru": "Санкции против многожёнства",
+   "name_en": "Sanctions against polygamy",
+   "plus_en": "Adds criminal, benefit or immigration sanctions against polygamy: narrower exceptions to the bigamy offence, denial of child allowances or other benefits arising from multiple spouses, entry bans for additional spouses.",
+   "minus_en": "Eases or removes such sanctions against polygamy."
+  },
+  "22s1": {
+   "name_ru": "Права арендаторов на частном рынке жилья",
+   "name_en": "Rights of tenants in the private rental market",
+   "plus_en": "Strengthens renters and long-term lessees against landlords: limits on rent increases, the landlord rather than the tenant pays the broker's fee, longer leases or lease extensions during emergencies, renewal of long-term leases.",
+   "minus_en": "Weakens renters and lessees against landlords: freer rent setting, the tenant bears the broker's fee, shorter or no lease protection."
+  },
+  "22s2": {
+   "name_ru": "Права жильцов государственного жилья",
+   "name_en": "Rights of public-housing tenants",
+   "plus_en": "Widens who is entitled to public housing or strengthens tenants' rights in it: continuing-tenant rights for family members, eligibility for single mothers receiving child support and for women leaving shelters, improvements in the apartments.",
+   "minus_en": "Narrows eligibility for public housing or tenants' rights in it."
+  },
+  "22s3": {
+   "name_ru": "Защита жителей, выселяемых из-за реконструкции или опасности зданий",
+   "name_en": "Protection of residents removed from their homes by redevelopment or building hazards",
+   "plus_en": "Guarantees compensation, rehousing or conditions before residents are evicted from long-held urban neighbourhoods (e.g. Kfar Shalem, Givat Amal, Abu Kabir) or removed for demolition, structural reinforcement or collapse danger, including protection of elderly residents and of apartment owners in urban-renewal deals.",
+   "minus_en": "Reduces such compensation, rehousing or conditions, making it easier to remove residents."
+  }
+ },
+ "transfers": {
+  "81s4": "149s4",
+  "1s2": "3",
+  "142s1": "137",
+  "119s2": "116b",
+  "17s1": "211",
+  "17s3": "171",
+  "17s4": "40s2",
+  "130b2s1": "149s1",
+  "130b2s3": "92",
+  "95s1": "4",
+  "19s2": "12b",
+  "19s4": "99s3",
+  "89s3": "53c",
+  "40s2s2": "240s3",
+  "251s1": "15s2",
+  "251s4": "88s3",
+  "110s4": "124",
+  "344s1": "44",
+  "309s1": "165b",
+  "309s2": "40s4",
+  "279s3": "32s2",
+  "279s4": "295",
+  "40s1s2": "1",
+  "8s3s1": "250b",
+  "317s1": "187",
+  "317s4": "33"
+ }
+}

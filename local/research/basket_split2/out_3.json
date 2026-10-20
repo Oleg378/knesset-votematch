@@ -1,0 +1,190 @@
+{
+ "19": {
+  "decision": "split",
+  "reason": "Корзина: под «обязанности компаний перед клиентами» попали законы о совсем разных предметах и адресатах. Ядро — классическая защита потребителя (маркировка, показ цен, телефонное обслуживание, записи разговоров, компенсации за ожидание и опоздание автобуса) — широкий межлагерный консенсус. Отдельно: обязанности больничных касс перед пациентами (другой предмет — здравоохранение; совпадает с 12b); запреты дискриминации в товарах, услугах и общественных местах (в основном продвигают левые, арабские и светские фракции — запрет раздельного обслуживания, дискриминация по происхождению, в жилье, по полу; но есть и правые — дискриминация носящих оружие); защита несовершеннолетних от вредного контента в сети (фильтрация, возрастные ограничения в соцсетях — в основном религиозные и правые; совпадает с 99s3). Знаки «+» у этих групп продвигаются по разным причинам и разными лагерями. Остаток (~120 названий) разнороден и остаётся только в 19: доступность для людей с инвалидностью и пожилых (~18, по сути 206), обслуживание на арабском и других языках (~9), запрет отключения воды и электричества и льготы на воду (~13), табак (~6, по сути 248s1), безопасность в заведениях (адреналин, дефибрилляторы, ~17), прочие единичные законы (азартные игры, кашрут, лицензирование отдельных профессий, приватность, товары из Палестинской автономии, Песах и др.).",
+  "subs": [
+   {
+    "key": "19s1",
+    "same_as": null,
+    "name_ru": "Обязанности продавцов и поставщиков услуг по информированию и обслуживанию потребителей",
+    "name_en": "Disclosure and customer-service duties of sellers and service providers",
+    "plus_en": "Imposes more duties on sellers and service providers toward customers: product and price labeling, disclosure of terms and manufacturer data, human telephone service and waiting-time limits, recording and handing over calls, easy cancellation, invoices, and statutory compensation for delays or poor service.",
+    "minus_en": "Removes or relaxes such disclosure and customer-service duties, or limits customers' remedies against sellers and service providers (e.g. class actions).",
+    "camp_note": "Межлагерный консенсус: «+» вносят депутаты почти всех фракций (Йеш Атид, Ликуд, Наш дом Израиль, ШАС и др.); «−» — редкие законы в интересах бизнеса (ограничение коллективных исков, смягчение компенсаций авиакомпаний в войну), обычно от коалиции/правительства.",
+    "example_bill_ids": ["2165107", "2200507", "2157120", "2203243", "2199438", "2213094"],
+    "approx_names": 55
+   },
+   {
+    "key": "19s2",
+    "same_as": "12b",
+    "name_ru": "Обязанности больничных касс перед пациентами",
+    "name_en": "Patients' entitlements from health funds",
+    "plus_en": "Health funds and providers owe patients more services and rights (treatment times, refunds, coverage).",
+    "minus_en": "They owe fewer.",
+    "camp_note": "В основном межлагерно; чаще вносят оппозиционные и периферийные депутаты (перенос медкарты между кассами, сроки ожидания, выбор поставщика, возмещение поездок).",
+    "example_bill_ids": ["2196575", "2198933", "2156171", "2217565", "2205582", "2158924"],
+    "approx_names": 26
+   },
+   {
+    "key": "19s3",
+    "same_as": null,
+    "name_ru": "Запрет дискриминации при доступе к товарам, услугам и общественным местам",
+    "name_en": "Non-discrimination in access to goods, services and public places",
+    "plus_en": "Adds grounds or situations in which businesses, landlords, schools and places open to the public may not discriminate or segregate customers (e.g. by gender, ethnic origin, appearance, family status, disability, breastfeeding, refusal to give personal data), or makes such bans easier to enforce.",
+    "minus_en": "Removes grounds or situations covered by such bans, or allows service providers to refuse, separate or treat customers differently.",
+    "camp_note": "«+» в основном левые, арабские и светские центристские фракции (запрет раздельного обслуживания, дискриминация по происхождению, в жилье, ценовая дискриминация по полу); исключения — правые законы о дискриминации носящих оружие и религиозные — о «оскорблении религиозных чувств».",
+    "example_bill_ids": ["2197659", "2156923", "2157289", "2169497", "2165646", "2193046"],
+    "approx_names": 15
+   },
+   {
+    "key": "19s4",
+    "same_as": "99s3",
+    "name_ru": "Защита несовершеннолетних от вредного контента и продуктов",
+    "name_en": "Shielding minors from harmful content and products",
+    "plus_en": "Restricts minors' access or exposure to harmful content and consumer products: internet filtering, age verification and age limits on social networks, removal of harmful online content, bans on selling or advertising tobacco, energy drinks, nitrous oxide, cannabis, gambling machines or toy weapons to or near minors.",
+    "minus_en": "Lifts such restrictions; minors and their families decide for themselves what content and products to use.",
+    "camp_note": "«+» чаще религиозные и правые фракции (обязательная фильтрация, фильтрация в общественных местах), а также межлагерно — возрастные ограничения в соцсетях; «−» — сторонники свободы интернета и приватности.",
+    "example_bill_ids": ["2199882", "2213530", "2190333", "2159056", "2237519", "2226372"],
+    "approx_names": 9
+   }
+  ],
+  "leftover_names": 120
+ },
+ "89": {
+  "decision": "split",
+  "reason": "Корзина: «последствия для избранных лиц, нарушающих правила» объединяет противоположные лагеря. Оппозиция 25-го созыва (центр-левые) продвигает отстранение и запрет на должность для лиц под следствием, обвиняемых и осуждённых (премьер, министры, депутаты, главы местных властей, позорящее деяние), а коалиция — обратное (иммунитет глав местных властей, отмена позорящего деяния). Отдельный предмет — правила этики, раскрытия и отчётности министров и депутатов (советники, сделки с ценными бумагами, коалиционные деньги, этическая комиссия). Отдельно — партийная дисциплина и предвыборные обещания (совпадает с 53c). Правый блок об исключении депутатов и списков за поддержку террора (закон об отстранении депутата, лишение финансирования за призыв к бойкоту, расширение оснований для недопуска к выборам) — всего 4 названия (18 законопроектов), меньше порога в 5; по смыслу это уже 53a/114b/116b. Остаток (~25 названий) остаётся только в 89: эти 4 названия, иммунитет (2–3), расширение определения расизма, разделение властей, лишение льгот бывших премьеров, условия членства в кабинете безопасности, главный раввин, язык выступлений в Кнессете и др.",
+  "subs": [
+   {
+    "key": "89s1",
+    "same_as": null,
+    "name_ru": "Ограничения на должность для избранных лиц под следствием, обвиняемых или осуждённых",
+    "name_en": "Office restrictions on elected officials facing criminal proceedings",
+    "plus_en": "Bars, suspends or removes elected officials (prime minister, ministers, Knesset members, the President, heads of local authorities) who are under investigation, indicted or convicted, bars them from forming a government, or lengthens their disqualification after a conviction involving moral turpitude.",
+    "minus_en": "Lets such officials run for or stay in office, shortens or abolishes disqualification after conviction (e.g. abolishing moral turpitude), or delays their suspension.",
+    "camp_note": "«+» — центр-левая оппозиция 25-го созыва (Йеш Атид, Государственный лагерь, Наш дом Израиль, Демократы); «−» — коалиция (Ликуд, ШАС, Еврейство Торы и др.).",
+    "example_bill_ids": ["2156435", "2234308", "2204039", "2169599", "2157407", "2189569"],
+    "approx_names": 20
+   },
+   {
+    "key": "89s2",
+    "same_as": null,
+    "name_ru": "Правила этики, раскрытия и отчётности министров и депутатов",
+    "name_en": "Ethics, disclosure and reporting duties of ministers and Knesset members",
+    "plus_en": "Imposes more ethics rules, disclosure or reporting duties on ministers, Knesset members and party leaders (external advisers, foreign ties and accounts, securities trading, coalition agreements and coalition funds, missed deadlines for regulations or the budget), or gives ethics bodies more powers over them.",
+    "minus_en": "Removes or relaxes such ethics, disclosure and reporting duties, or reduces the powers of ethics bodies over them.",
+    "camp_note": "«+» в основном оппозиция (центр-левые) в адрес действующего правительства; «−» — коалиция.",
+    "example_bill_ids": ["2235469", "2232502", "2157094", "2164347", "2156502", "2239008"],
+    "approx_names": 25
+   },
+   {
+    "key": "89s3",
+    "same_as": "53c",
+    "name_ru": "Партийный контроль над депутатами (расколы и предвыборные обещания)",
+    "name_en": "Party control over MKs (splits and election promises)",
+    "plus_en": "Penalizes MKs who leave their faction or break election promises (harder splits, loss of seat).",
+    "minus_en": "Makes it easier for MKs to leave or split from their faction without penalty.",
+    "camp_note": "«+» — фракции, пострадавшие от перебежчиков (после распада правительства 24-го созыва — правые; также центр); «−» — те, кому нужен раскол для смены коалиции.",
+    "example_bill_ids": ["2164290", "2198815", "2159092", "2167479", "2159192"],
+    "approx_names": 5
+   }
+  ],
+  "leftover_names": 25
+ },
+ "122": {
+  "decision": "split",
+  "reason": "Корзина: «защита избирательного процесса» собрала законы о самих выборах и множество законов о правилах допуска к должностям, о формировании правительства, о профсоюзных выборах, о праве обращения в суд. Внутри разные лагеря: исключение депутатов и кандидатов за поддержку террора или непризнание характера государства (правые «+») против отмены закона об отстранении (арабские фракции); запрет кандидатуры обвиняемым (центр-левые «+») — тот же предмет, что 89s1 (одинаковые определения, чтобы объединить); сроки охлаждения для силовиков (продление — правые, сокращение — центр). Ядро — правила проведения и подсчёта выборов — межлагерно. Остаток (~38 названий) остаётся только в 122: технические законы о местных выборах (~8), формирование правительства и роспуск Кнессета (~6), выход из фракции (4, по смыслу 53c, ниже порога), профсоюзные выборы и представительство (3), ограничение права обращения в суд, выходной день при условии голосования, прозрачность объединений, иммунитет глав местных властей и др.",
+  "subs": [
+   {
+    "key": "122s1",
+    "same_as": null,
+    "name_ru": "Правила проведения и подсчёта выборов",
+    "name_en": "Safeguards in the conduct and counting of elections",
+    "plus_en": "Adds safeguards in how elections are run and counted: penalties for election offences, rules against deepfakes and undisclosed AI content in campaigns, independence of the election committee chair, counting procedures, accessible polling stations, limits on postponing elections.",
+    "minus_en": "Removes or relaxes such safeguards (e.g. lets voters vote outside their assigned polling station, lets a minister postpone elections).",
+    "camp_note": "В основном межлагерно; законы о дипфейках и ИИ — все фракции; полномочие министра откладывать местные выборы — коалиция.",
+    "example_bill_ids": ["2167513", "2230300", "2156552", "2157809", "2213712", "2214759"],
+    "approx_names": 8
+   },
+   {
+    "key": "122s2",
+    "same_as": null,
+    "name_ru": "Сроки охлаждения для высокопоставленных лиц перед выдвижением",
+    "name_en": "Cooling-off periods before running for office",
+    "plus_en": "Lengthens or adds cooling-off periods that senior security officers, civil servants and local-authority directors must wait before running for elected office.",
+    "minus_en": "Shortens or removes such cooling-off periods.",
+    "camp_note": "Продление для силовиков («+») — правые фракции против прихода генералов в центристские партии; сокращение («−») — центр.",
+    "example_bill_ids": ["2205715", "2198722", "2157064", "2218164", "2218615"],
+    "approx_names": 5
+   },
+   {
+    "key": "122s3",
+    "same_as": null,
+    "name_ru": "Ограничения на должность для избранных лиц под следствием, обвиняемых или осуждённых",
+    "name_en": "Office restrictions on elected officials facing criminal proceedings",
+    "plus_en": "Bars, suspends or removes elected officials (prime minister, ministers, Knesset members, the President, heads of local authorities) who are under investigation, indicted or convicted, bars them from forming a government, or lengthens their disqualification after a conviction involving moral turpitude.",
+    "minus_en": "Lets such officials run for or stay in office, shortens or abolishes disqualification after conviction (e.g. abolishing moral turpitude), or delays their suspension.",
+    "camp_note": "Та же величина, что 89s1. «+» — центр-левая оппозиция; «−» — коалиция.",
+    "example_bill_ids": ["2190503", "2169599", "2167466", "2157396", "2189569"],
+    "approx_names": 7
+   },
+   {
+    "key": "122s4",
+    "same_as": null,
+    "name_ru": "Исключение депутатов и кандидатов за поддержку террора или непризнание характера государства",
+    "name_en": "Exclusion of MKs and candidates over support for terror or rejection of the state's identity",
+    "plus_en": "Makes it easier to expel Knesset members or bar candidates and lists for supporting armed struggle or terror against Israel, or for refusing to declare recognition of the state's identity.",
+    "minus_en": "Repeals or narrows such grounds for expulsion or disqualification (e.g. repeal of the MK expulsion procedure).",
+    "camp_note": "«+» — правые фракции (Ликуд, Религиозный сионизм, Еврейская сила, Наш дом Израиль); «−» — арабские фракции и левые. Близко к 53a и 116b, но объединяет оба.",
+    "example_bill_ids": ["2189599", "2234078", "2234551", "2236919", "2215192"],
+    "approx_names": 5
+   }
+  ],
+  "leftover_names": 38
+ },
+ "40s2": {
+  "decision": "split",
+  "reason": "«−» связен (упрощение для мелкого бизнеса и собственников), но «+» — корзина: требования разрешений вносятся по разным причинам (защита животных, экология, безопасность, табак, раздельные режимы для религиозных мероприятий), а сами законы относятся к трём разным режимам: налоговая и финансовая отчётность бизнеса, разрешения на строительство, лицензии на деятельность. Делим по предмету. Строительные разрешения совпадают с 240s3. Остаток (~7 названий): регистрация в земельном кадастре, отчёт о разрыве в оплате по полу, укрытие как условие лицензии яслей, полномочия опекуна, подключение незаконных строений к коммуникациям (2, по смыслу 240s1), сбор дождевой воды.",
+  "subs": [
+   {
+    "key": "40s2s1",
+    "same_as": null,
+    "name_ru": "Налоговая и финансовая отчётность бизнеса",
+    "name_en": "Tax and financial reporting duties of businesses",
+    "plus_en": "Businesses, self-employed people and partnerships must file more or more frequent tax reports, or document more transactions and payment details.",
+    "minus_en": "They file fewer or less frequent tax reports, or get simplified regimes (e.g. a micro-business track, deferred first report, semi-annual reporting).",
+    "camp_note": "«−» межлагерно (законы о «мелком предпринимателе» вносят депутаты почти всех фракций); «+» — правительство и Минфин (борьба с уклонением).",
+    "example_bill_ids": ["2201041", "2165410", "2165649", "2167883", "2233596", "2160106"],
+    "approx_names": 7
+   },
+   {
+    "key": "40s2s2",
+    "same_as": "240s3",
+    "name_ru": "Процедуры получения разрешений на строительство",
+    "name_en": "Building permit procedures",
+    "plus_en": "Adds conditions, approvals or procedural steps for obtaining building permits and approving plans.",
+    "minus_en": "Speeds up or simplifies building permits and plan approval: exemptions, fast-track procedures, relief for existing buildings, urban renewal, apartment splitting, temporary uses.",
+    "camp_note": "«−» — коалиция и периферийные депутаты (восстановление приграничья, дробление квартир, продажа фермерской продукции); «+» — экологические депутаты (оценка воздействия на среду и здоровье).",
+    "example_bill_ids": ["2210349", "2221110", "2226356", "2198847", "2159223"],
+    "approx_names": 7
+   },
+   {
+    "key": "40s2s3",
+    "same_as": null,
+    "name_ru": "Лицензии и разрешения на деятельность бизнеса",
+    "name_en": "Licences and permits for business activities",
+    "plus_en": "Requires a licence, permit or registration for more business activities (e.g. events, animal export or breeding, sale of smoking products, drones, e-bikes, child performers), or adds documents needed to get one.",
+    "minus_en": "Exempts activities from licences or permits, extends their validity, or reduces the documents needed (e.g. short-term foreign experts, notaries, radiation sources, import procedures).",
+    "camp_note": "«−» — коалиция и правительство (дерегуляция); «+» — разные депутаты по предметным причинам (защита животных — левые и центр, лицензирование религиозных мероприятий после Мерона — центр-левые, табак — врачебное лобби).",
+    "example_bill_ids": ["2156603", "2201167", "2242913", "2231878", "2156710", "2232915"],
+    "approx_names": 15
+   }
+  ],
+  "leftover_names": 7
+ },
+ "235": {
+  "decision": "keep",
+  "reason": "Связное направление: почти все законы — о праве отдельного собственника квартиры в многоквартирном доме сделать что-то без согласия большинства (зарядка электромобиля, лифт, защищённая комната для человека с инвалидностью, шаббатний механизм двери и насоса, коммуникационная инфраструктура, укрепление дома) или о балансе между большинством и несогласными при обновлении жилья (опасное здание). Причина одна — права отдельного владельца против большинства. Шаббатние механизмы (3 названия) имеют религиозный оттенок, но величина та же; для отдельного направления их меньше 5. Вне темы 4 названия о лишении супруга-убийцы прав на семейное имущество и защите квартиры детей жертвы (знак «−») — это не совместная собственность, а семейное право; их стоит пересмотреть отдельно (для своего направления меньше 5).",
+  "subs": [],
+  "leftover_names": 0
+ }
+}

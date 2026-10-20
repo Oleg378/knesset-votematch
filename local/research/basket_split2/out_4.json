@@ -1,0 +1,207 @@
+{
+ "251": {
+  "decision": "split",
+  "reason": "Корзина. Под одним знаком «+» собраны: лицензирование медицинских профессий (лоббирование профессиональных групп, межлагерное), экзамены адвокатской палаты и прочие профессии и промыслы (экономическое регулирование), требования и проверка судимости у персонала, работающего с детьми и уязвимыми (консенсус), запреты на работу для сторонников террора и выпускников палестинских учреждений (правый лагерь, по соображениям безопасности), а также вторичные метки из других тем: периоды охлаждения и цензы для высших должностей (уже в 110), квалификация госслужащих (признание ешивного образования против академической степени), отмена сельскохозяйственных советов, приём в вузы, азартные игры, кашрут, финансовые лицензии. Одинаковый знак продвигают разные лагеря по разным причинам.",
+  "subs": [
+   {
+    "key": "251s1",
+    "same_as": "15s2",
+    "name_ru": "Лицензирование медицинских профессий",
+    "name_en": "Licensing of health professions",
+    "plus_en": "Brings more health professions under statutory licensing or tightens entry requirements for them (e.g. radiographers, physician assistants, therapists).",
+    "minus_en": "Removes health professions from licensing or eases entry requirements for them.",
+    "camp_note": "«+» продвигают профессиональные объединения терапевтов (арт-терапия, анализ поведения, подология, медицинские клоуны) через депутатов разных лагерей; «−» (признание иностранных дипломов, сертификаты по профессиональной подготовке, экзамены для стажёров) продвигают депутаты, представляющие репатриантов, и сторонники снятия барьеров. Лагерного раскола почти нет.",
+    "example_bill_ids": ["2198893", "2170137", "2198977", "2200449", "2210334", "2241882"],
+    "approx_names": 20
+   },
+   {
+    "key": "251s2",
+    "same_as": null,
+    "name_ru": "Лицензирование и вступительные экзамены немедицинских профессий и промыслов",
+    "name_en": "Licensing and entry exams for non-health professions and trades",
+    "plus_en": "Brings more non-health occupations and service providers under licensing or tightens their entry requirements: bar exams and internship for lawyers, accountants, notaries, tax representatives, mortgage and financial advisers, insurance appraisers, technicians, sports coaches, dog trainers, mediators, security firms, manpower contractors, car-service businesses.",
+    "minus_en": "Removes licensing for such occupations or eases entry: lower pass marks or shorter internships, recognition of foreign licences, fast-track licensing, letting other licensed professionals (e.g. lawyers, pension advisers) do the work.",
+    "camp_note": "«−» (облегчение экзамена адвокатской палаты, признание лицензий Европейского союза, ускоренное лицензирование в законах об экономической программе) продвигают сторонники дерегулирования и популистские инициативы из разных лагерей; «+» — отраслевые профессиональные лобби. Раскол скорее экономический (рынок против цехового регулирования), чем лагерный.",
+    "example_bill_ids": ["2157755", "2160974", "2228918", "2195309", "2196064", "2200336"],
+    "approx_names": 46
+   },
+   {
+    "key": "251s3",
+    "same_as": null,
+    "name_ru": "Квалификация и проверка судимости персонала, работающего с детьми и уязвимыми",
+    "name_en": "Qualification and criminal-record requirements for staff working with children and vulnerable people",
+    "plus_en": "Requires training or qualifications for daycare, kindergarten, school and care staff, or bars people convicted or accused of sexual or violent offences from working in education, childcare, academia, medicine or therapy.",
+    "minus_en": "Relaxes such qualification or vetting requirements (e.g. lets older or less qualified people work as caregivers or foster parents).",
+    "camp_note": "В основном консенсус: «+» вносят депутаты всех лагерей (запрет работы осуждённым за насилие над детьми, лишение лицензии врача или психолога за сексуальные преступления, квалификация воспитателей). Исключение — обучение педагогов по теме гендера и сексуальной ориентации, его продвигает левый лагерь.",
+    "example_bill_ids": ["2191466", "2192858", "2198661", "2219407", "2156396"],
+    "approx_names": 16
+   },
+   {
+    "key": "251s4",
+    "same_as": "88s3",
+    "name_ru": "Санкции государства за поддержку террора или враждебность государству",
+    "name_en": "State sanctions for support of terror or hostility to the state",
+    "plus_en": "Gives the state more power to deny funding, licences, employment, broadcasting rights or status to persons and institutions over support for terror, incitement, boycott of Israel or hostility to the state (e.g. defunding schools, dismissing teachers or lecturers, banning foreign broadcasters, freezing allowances).",
+    "minus_en": "Narrows such powers or adds safeguards for the persons and institutions affected.",
+    "camp_note": "«+» продвигает правый лагерь: запрет работы учителям, поддерживающим террор, учителям, врачам и социальным работникам с дипломами палестинских учреждений или учреждений, финансируемых государствами, поддерживающими террор, освобождённым террористам, сторонникам террора на госслужбе. Против — арабские партии и часть левых.",
+    "example_bill_ids": ["2203345", "2202746", "2223377", "2240408", "2228032"],
+    "approx_names": 11
+   }
+  ],
+  "leftover_names": 120
+ },
+ "110": {
+  "decision": "split",
+  "reason": "Корзина. Под «добавляет ограничения на занятие должностей» сведены противоположные по лагерям вещи: запрет обвиняемым и осуждённым возглавлять правительство (продвигает оппозиция, против — коалиция, ср. «закон Дери» и отмену института позора с «−»), отстранение кандидатов и депутатов за поддержку террора и вражеских государств (продвигает правый лагерь против арабских партий), периоды охлаждения против «вращающейся двери» (вопросы чистоты управления) и ограничение сроков полномочий (мэры, судьи Верховного суда, председатели рабочих комитетов). Один знак — разные цели и разные лагеря.",
+  "subs": [
+   {
+    "key": "110s1",
+    "same_as": null,
+    "name_ru": "Допуск лиц под уголовным преследованием к высшим должностям",
+    "name_en": "Eligibility of persons under criminal proceedings for senior office",
+    "plus_en": "Bars persons who are under investigation, indicted or convicted (e.g. of bribery, fraud or offences of moral turpitude) from forming a government or serving as prime minister, minister, President, head or member of a local authority, or requires their suspension.",
+    "minus_en": "Lets such persons run for or hold these offices (e.g. abolishing moral turpitude, letting a person with a suspended sentence serve as minister).",
+    "camp_note": "«+» продвигает оппозиция (Еш Атид, Наш дом Израиль, Аводa и др.) — запрет обвиняемому формировать правительство; «−» — коалиция (Ликуд, ШАС): поправка 11 к Основному закону о правительстве, отмена института позора. Близко к 58a, но шире (Президент, местная власть, кандидаты), поэтому не то же самое.",
+    "example_bill_ids": ["2156435", "2168415", "2156387", "2159388", "2198130", "2189569"],
+    "approx_names": 13
+   },
+   {
+    "key": "110s2",
+    "same_as": null,
+    "name_ru": "Отстранение кандидатов и должностных лиц за поддержку террора или врага",
+    "name_en": "Barring candidates and office holders over support for terror or enemies",
+    "plus_en": "Bars from running for or holding Knesset, local-council, ministerial or other public office, or removes from it, people who support armed struggle or terror against Israel, back an enemy state during conflict, were convicted of terror, or refuse a loyalty declaration.",
+    "minus_en": "Repeals or narrows such grounds for disqualification or removal (e.g. cancelling the procedure for ending an MK's membership).",
+    "camp_note": "«+» продвигает правый лагерь (Ликуд, Религиозный сионизм, Сила еврейская); против — арабские партии и левые. Пересекается с 116b (основания отстранения списков и кандидатов, знак там обратный) и 53a (исключение депутатов), но охватывает и министров, местную власть и госслужбу, поэтому не равно ни одному из них.",
+    "example_bill_ids": ["2189599", "2204222", "2242621", "2217155", "2234551"],
+    "approx_names": 10
+   },
+   {
+    "key": "110s3",
+    "same_as": null,
+    "name_ru": "Периоды охлаждения для должностных лиц",
+    "name_en": "Cooling-off periods for officials",
+    "plus_en": "Requires or lengthens cooling-off periods before senior officials, regulators, judges, security officers or politicians may move to the private sector, lobbying, politics or another senior post, or from the private sector into the civil service.",
+    "minus_en": "Shortens or removes such cooling-off periods.",
+    "camp_note": "«+» в основном продвигают партии повестки чистоты управления (Еш Атид, Наш дом Израиль) — против «вращающейся двери» у регуляторов финансового рынка и чиновников Министерства финансов. Особый случай — охлаждение для генералов, идущих в политику: удлинение продвигает правый лагерь, сокращение — центр; таких законопроектов меньше 5, поэтому они остаются здесь.",
+    "example_bill_ids": ["2197400", "2206863", "2157837", "2198722", "2218164"],
+    "approx_names": 19
+   },
+   {
+    "key": "110s4",
+    "same_as": "124",
+    "name_ru": "Ограничение сроков пребывания в должности",
+    "name_en": "Term limits in public office",
+    "plus_en": "Adds term limits or shortens how long a person may hold a public office (heads of local authorities, Supreme Court justices, chairs of workers' committees, city rabbis, district supervisors, hospital department heads, senior officials).",
+    "minus_en": "Lets a person hold such an office longer or removes term limits.",
+    "camp_note": "ВНИМАНИЕ: та же величина, что 124, но знак обратный: «+» здесь = «−» в 124. Ограничение сроков мэров и председателей рабочих комитетов — межлагерно; ограничение срока судей Верховного суда продвигает правый лагерь.",
+    "example_bill_ids": ["2157177", "2198028", "2160619", "2166414", "2200231"],
+    "approx_names": 13
+   }
+  ],
+  "leftover_names": 38
+ },
+ "344": {
+  "decision": "split",
+  "reason": "Корзина. Под «личные обязанности и дисциплина госслужащих» попали: обязанность чиновников являться в комиссии Кнессета (надзор Кнессета за исполнительной властью), этические правила (подарки, побочная занятость, иностранные выплаты), проверка лояльности (полиграф, декларация верности, увольнение сторонников террора — правая повестка), подотчётность служащих гражданам (жетоны, форма полиции на демонстрациях, обращение с гражданами), а также случайные вторичные метки: периоды охлаждения (уже в 110), служебные машины министров в субботу, психиатрические комиссии, задержание людей с инвалидностью, нагрузка социальных работников, дисциплина городских раввинов.",
+  "subs": [
+   {
+    "key": "344s1",
+    "same_as": "44",
+    "name_ru": "Надзор Кнессета за исполнительной властью",
+    "name_en": "Knesset oversight of the executive",
+    "plus_en": "Gives the Knesset more tools to oversee the executive, or sets norms in primary legislation rather than ministry regulations.",
+    "minus_en": "Gives the Knesset fewer oversight tools, or leaves more to ministry regulation.",
+    "camp_note": "Сюда относятся законопроекты об обязанности чиновников являться и говорить правду в комиссиях Кнессета и закон о парламентском надзоре. Продвигают депутаты обоих лагерей; в 25-м Кнессете коалиция — в том числе чтобы обойти указание юридического советника правительства о явке чиновников только с разрешения.",
+    "example_bill_ids": ["2158912", "2220680", "2225392", "2220433"],
+    "approx_names": 6
+   },
+   {
+    "key": "344s2",
+    "same_as": null,
+    "name_ru": "Этические правила для действующих должностных лиц",
+    "name_en": "Ethics rules for serving public officials",
+    "plus_en": "Adds ethics and conflict-of-interest rules for serving officials: limits on gifts and donations (incl. for legal or medical costs) and reporting duties, bans on side occupations, misuse of official information, payments from or undeclared ties with foreign states, integrity rules in local government.",
+    "minus_en": "Relaxes or removes such ethics and conflict-of-interest rules.",
+    "camp_note": "«+» продвигают в основном партии повестки чистоты управления (оппозиция), часть — межлагерно (связи с иностранными государствами). Периоды охлаждения сюда не входят — они в 110s3.",
+    "example_bill_ids": ["2200212", "2234126", "2239008", "2157965"],
+    "approx_names": 6
+   },
+   {
+    "key": "344s3",
+    "same_as": null,
+    "name_ru": "Проверка лояльности и благонадёжности госслужащих",
+    "name_en": "Loyalty and security vetting of public employees",
+    "plus_en": "Subjects public employees or officials to loyalty declarations or periodic polygraph tests (e.g. law-enforcement staff, participants in security-cabinet meetings), or mandates dismissal of employees and teachers who support terror.",
+    "minus_en": "Removes such declarations, tests or mandatory dismissals.",
+    "camp_note": "«+» продвигает правый лагерь (Сила еврейская, Религиозный сионизм, Ликуд) — против «утечек» и сторонников террора в госаппарате и школах; против — арабские партии и левые. Увольнение за поддержку террора частично совпадает с 195a, но таких законопроектов меньше 5.",
+    "example_bill_ids": ["2219047", "2224430", "2215695", "2203347"],
+    "approx_names": 7
+   },
+   {
+    "key": "344s4",
+    "same_as": null,
+    "name_ru": "Подотчётность отдельных служащих гражданам",
+    "name_en": "Accountability of individual public servants toward citizens",
+    "plus_en": "Requires public servants and police officers to identify themselves to the public (badges, uniforms at protests), answer citizens on time and treat them properly, with sanctions for mistreating citizens or businesses or for unjustified detentions.",
+    "minus_en": "Removes or relaxes such duties and sanctions.",
+    "camp_note": "Смешанно: идентификацию полицейских на демонстрациях и борьбу с необоснованными задержаниями продвигают левые и центр; закон против «издевательств» чиновников над гражданами и бизнесом — правые сторонники сокращения бюрократии. Общая цель — защита гражданина от отдельного служащего.",
+    "example_bill_ids": ["2198918", "2199466", "2157370", "2159419"],
+    "approx_names": 6
+   }
+  ],
+  "leftover_names": 44
+ },
+ "309": {
+  "decision": "split",
+  "reason": "Корзина. «Право на семейную жизнь» объединяет: закон о гражданстве и въезде (воссоединение семей палестинцев — главный лагерный раскол: отмена — арабские партии и левые, продление — правые и центр), признание однополых и нетрадиционных родителей (левые и ЛГБТ против религиозных партий), условия усыновления (в том числе требование одной религии) и случайные вторичные метки: гражданский брак, лишение опекунства родителей-насильников, пенсии вдовам, суррогатное материнство, донорство яйцеклеток.",
+  "subs": [
+   {
+    "key": "309s1",
+    "same_as": "165b",
+    "name_ru": "Въезд и воссоединение семей неевреев (закон о гражданстве и въезде)",
+    "name_en": "Entry and family unification of non-Jewish foreigners",
+    "plus_en": "Lifts limits on entry, residence and family unification of spouses and relatives from the Palestinian territories and other non-Jewish foreigners (e.g. repeal of the Citizenship and Entry into Israel temporary provision, permits for spouses).",
+    "minus_en": "Adds or extends such limits (e.g. extending the temporary provision or making it permanent, barring relatives of terror activists, limits tied to age, polygamy or wartime).",
+    "camp_note": "ВНИМАНИЕ: та же величина, что 165b, но знак обратный: «+» здесь = «−» в 165b. «+» — арабские партии и Мерец; «−» — правый лагерь и центр (Ликуд, Религиозный сионизм, Наш дом Израиль, Новая надежда).",
+    "example_bill_ids": ["2157093", "2196940", "2223703", "2169827", "2235026"],
+    "approx_names": 9
+   },
+   {
+    "key": "309s2",
+    "same_as": "40s4",
+    "name_ru": "Юридическое признание однополых и нетрадиционных родителей и пар",
+    "name_en": "Legal recognition of same-sex and non-traditional parents and couples",
+    "plus_en": "Lets same-sex partners, second parents and unmarried couples be registered and recognised as parents or couples without extra court procedures.",
+    "minus_en": "Restricts such registration and recognition, or requires a court order or other additional proof.",
+    "camp_note": "«+» — Мерец, Авода, Еш Атид, депутаты ЛГБТ; против — религиозные и правые партии.",
+    "example_bill_ids": ["2200466", "2157831", "2234008", "2195751"],
+    "approx_names": 5
+   },
+   {
+    "key": "309s3",
+    "same_as": null,
+    "name_ru": "Кто и на каких условиях может усыновлять",
+    "name_en": "Eligibility and conditions for adoption",
+    "plus_en": "Widens who may adopt and removes obstacles in adoption: adoption by single parents or by couples (including same-sex couples), removal or narrowing of the requirement that adopters share the child's religion, keeping siblings together, revised suitability criteria.",
+    "minus_en": "Narrows who may adopt or adds conditions on adopters (e.g. keeps or tightens the same-religion requirement).",
+    "camp_note": "«+» — светские и левые партии и депутаты ЛГБТ (особенно отмена требования одной религии и усыновление парами); религиозные партии защищают требование одной религии. Законопроекты о неразлучении братьев и сестёр — межлагерные.",
+    "example_bill_ids": ["2158905", "2166078", "2166076", "2156832", "2203602"],
+    "approx_names": 8
+   }
+  ],
+  "leftover_names": 12
+ },
+ "314": {
+  "decision": "keep",
+  "reason": "Основные законопроекты (role main) связны: право семей узнать судьбу пропавших родственников — дело йеменских, восточных и балканских детей (вскрытие могил, генетическая проверка), признание братьев и сестёр погибших. Это межлагерный консенсус с низкой различающей силой. Вторичные метки разнородны (уведомления заключённым, уведомление родителей об отсутствии ребёнка, Тантура, прослушивание при подозрении на насилие над детьми), но ни одна подтема не набирает 5 разных названий, поэтому разделить по правилам нельзя; вторичные метки — шум, их стоит проверить при чистке меток.",
+  "subs": [],
+  "leftover_names": 0
+ },
+ "39": {
+  "decision": "keep",
+  "reason": "Связно: основные законопроекты — закон о сокращении использования наличных (ограничения на наличные займы, обмен банкнот, подтверждение средств платежа) и одно смягчение (сделки с жителями Палестинской автономии). «+» продвигает Министерство финансов в законах об экономической программе (борьба с теневой экономикой), «−» — противники контроля над наличными. Вторичные метки (замораживание переводов Палестинской автономии, вывоз денег нелегалами, защита пожилых репатриантов в банках) — шум, менее 5 названий, отдельной подтемы не образуют.",
+  "subs": [],
+  "leftover_names": 0
+ }
+}

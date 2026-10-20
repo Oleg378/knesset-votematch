@@ -7,7 +7,7 @@ names (fresh context, no tools; the data go in the prompt), PAR in parallel; res
 import glob, json, os, re, subprocess, sys
 from concurrent.futures import ThreadPoolExecutor
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-B = f"{ROOT}/local/research/basket_split"
+B = f"{ROOT}/local/research/{os.environ.get('TAG', 'basket_split')}"
 PAR = int(os.environ.get("PAR", 6))
 INSTR = """Ниже — законопроекты Кнессета (JSON): название и начало пояснительной записки на иврите, широкое направление (parent), к которому законопроект отнесён, и более узкие кандидаты (candidates) с определениями «+» и «−». Направление — величина, которую закон увеличивает («+») или уменьшает («−»).
 

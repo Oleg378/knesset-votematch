@@ -10,7 +10,8 @@ Unlike stages 2–4 the sign is asked per candidate: parts may be oriented again
 import csv, json, os, re, sys, collections, glob
 import duckdb
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-B = f"{ROOT}/local/research/basket_split"
+B = f"{ROOT}/local/research/{os.environ.get('TAG', 'basket_split')}"
+STAGE = int(os.environ.get("STAGE", 5))
 CHUNK = int(os.environ.get("CHUNK", 90))
 sys.path.insert(0, f"{ROOT}/pipeline"); import labels as LB
 lab = LB.load()
@@ -18,13 +19,14 @@ D = {r["n"]: {"name": r["name_en"], "plus": r["plus"], "minus": r["minus"]} for 
 for k, v in lab["split_plan"]["new"].items(): D[k] = {"name": v["name_en"], "plus": v.get("plus_en", ""), "minus": v.get("minus_en", "")}
 out = {}
 for f in sorted(glob.glob(f"{B}/out_*.json")): out.update(json.load(open(f)))
-plan = {"note": "Stage 5 (2026-10-20, [У]): split of the 24 basket directions that pass the selection criteria (SHARED_UNDERSTANDING «Выпавшие "
+plan = {"note": f"Stage {STAGE} (2026-10-20, [У]): split of the basket directions that pass the selection criteria (SHARED_UNDERSTANDING «Выпавшие "
         "законопроекты и направления без вопроса»; local/research/basket_split/). Procedure of 2026-10-16 (Opus proposes parts; a part that is "
         "an existing direction is a transfer); the choice is made by Sonnet subagents instead of Jev; sign asked per part.",
         "parents": {}, "new": {}, "transfers": {}}
 cands = {}
 for d, r in out.items():
     if r["decision"] != "split": continue
+    r["subs"] = [x for x in r["subs"] if (x.get("same_as") or "").strip() != d]   # a part «same as» its own basket = the basket keeps those bills
     plan["parents"][d] = []; cands[d] = {}
     for s in r["subs"]:
         t = (s.get("same_as") or "").strip() or None
@@ -48,7 +50,7 @@ for d in cands:
         for x in (parts(k) if k in plan["transfers"].values() else [k]):
             if x in D or x in plan["new"]: exp[x] = D.get(x) or {"name": plan["new"][x]["name_en"], "plus": plan["new"][x]["plus_en"], "minus": plan["new"][x]["minus_en"]}
     cands[d] = exp
-json.dump(plan, open(f"{ROOT}/jef/directions/split/plan5.json", "w"), ensure_ascii=False, indent=1)
+json.dump(plan, open(f"{ROOT}/jef/directions/split/plan{STAGE}.json", "w"), ensure_ascii=False, indent=1)
 con = duckdb.connect(f"{ROOT}/knesset.duckdb", read_only=True)
 bname = dict(con.execute("select bill_id, name from bills").fetchall())
 def notes(b, n=3000):

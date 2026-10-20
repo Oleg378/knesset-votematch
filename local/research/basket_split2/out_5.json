@@ -1,0 +1,174 @@
+{
+ "279": {
+  "decision": "split",
+  "reason": "Корзина. Одним знаком «+» помечены законы с несвязанными предметами и разными мотивами: (1) число политических должностей — министры, замминистры, «ещё один министр в министерстве», ротационное правительство, заместители глав местных властей (коалиция добавляет, оппозиция ограничивает — здесь знак разделяет лагеря); (2) новые государственные органы под социальные проблемы (борьба с бедностью, профилактика самоубийств, посттравма, раннее детство, насилие в семье) — в основном социально-демократическая и арабская оппозиция; (3) государственные центры памяти и наследия конкретных общин и фигур (7 октября, дети Йемена, арабское наследие, Давид Леви, Ицхак Навон, рабби Нахман, арамейская культура) — это ровно направление 32s2; (4) омбудсмены, комиссии по жалобам и комиссии расследования (жалобы заключённых, на даянов/кади, на раввинов, на соцработников; Мерон, дело Харпаза, «Пятое измерение», спецпрокурор) — это направление 295. Минусовые законы тоже про разное: отмена Гражданской администрации (правые), отмена Главного раввината (светские), отмена Совета по растениям (рынок), слияния ради экономии. Остаток (около 115 названий) — разрозненные административные органы (транспортные управления, ведомство по отходам, горячие линии экстренных служб, академия языка жестов, офицеры безопасности поселений, органы по нелегальным мигрантам, слияния советов) без общего лагеря; после выделения подразделов в исходном направлении остаётся по сути технический остаток.",
+  "subs": [
+   {
+    "key": "279s1",
+    "same_as": null,
+    "name_ru": "Число политических должностей в правительстве и местной власти",
+    "name_en": "Number of political offices in national and local government",
+    "plus_en": "Adds or allows more ministers, deputy ministers, additional ministers within one ministry, an alternate prime minister, or more (including paid) deputy heads of local authorities.",
+    "minus_en": "Caps the number of ministers and deputy ministers, abolishes or merges ministries, abolishes the alternate (rotation) government, or limits the number of deputy heads of local authorities.",
+    "camp_note": "«+» чаще продвигает коалиция (Ликуд, ШАС, Яадут ха-Тора, Религиозный сионизм) — расширение правительства и посты заместителей мэров; «−» — оппозиция (Еш Атид, Наш дом Израиль, Аавода): ограничение числа министров, сокращение министерств в войну. Отмена ротационного правительства — инициатива противников правительства Беннета–Лапида.",
+    "example_bill_ids": ["2231729", "2210405", "2159953", "2232599", "2191222", "2211131"],
+    "approx_names": 16
+   },
+   {
+    "key": "279s2",
+    "same_as": null,
+    "name_ru": "Специальные государственные органы для социальных проблем и уязвимых групп",
+    "name_en": "Dedicated state bodies for social, health and welfare problems",
+    "plus_en": "Creates a state authority, commission, committee, centre or official post dedicated to a social, health or welfare problem or a vulnerable group (poverty, suicide prevention, trauma and mental health, early childhood, domestic violence, families of missing persons, women's status, people with disabilities, senior citizens, children).",
+    "minus_en": "Abolishes or merges such dedicated bodies or posts, or leaves the problem to general ministries without a dedicated body.",
+    "camp_note": "«+» в основном социально-демократическая и арабская оппозиция (Аавода, Мерец, Хадаш–Тааль, РААМ), частично Еш Атид; отдельные законы (посттравма, семьи пропавших) — межпартийные. Противоположный знак почти не представлен: правые чаще не вносят такие законы, чем вносят обратные.",
+    "example_bill_ids": ["2156134", "2202739", "2166065", "2219618", "2157676", "2214711"],
+    "approx_names": 29
+   },
+   {
+    "key": "279s3",
+    "same_as": "32s2",
+    "name_ru": "Государственные учреждения наследия и памяти конкретных общин и фигур",
+    "name_en": "State-funded heritage institutions for specific communities and figures",
+    "plus_en": "Creates or funds state heritage and memorial institutions dedicated to a specific community, movement, event or historical figure (e.g. October 7 memory, the Yemenite children affair, Arab heritage, Sephardi and North African Jewish heritage, Aramaic culture, David Levy, Yitzhak Navon, Rabbi Nachman).",
+    "minus_en": "Reduces or abolishes such institutions or their funding.",
+    "camp_note": "Центры еврейских общин и религиозных фигур — Ликуд, ШАС, Религиозный сионизм; центры арабского наследия — арабские партии; память 7 октября — межпартийно. Совпадает с 32s2 по его определению.",
+    "example_bill_ids": ["2221334", "2192131", "2157827", "2220210", "2208258", "2202975"],
+    "approx_names": 19
+   },
+   {
+    "key": "279s4",
+    "same_as": "295",
+    "name_ru": "Внешний надзор и расследование деятельности государственных органов",
+    "name_en": "External oversight and investigation of government bodies",
+    "plus_en": "Creates ombudsmen, complaint commissions, state commissions of inquiry or special prosecutors that oversee or investigate state authorities (prisons, religious judges and rabbis, social workers, security failures).",
+    "minus_en": "Abolishes or narrows such oversight, complaint and inquiry bodies.",
+    "camp_note": "Комиссии расследования и спецпрокурор — оппозиция; омбудсмены по раввинам, даянам и кади — светские партии (Наш дом Израиль, Еш Атид); жалобы заключённых и права человека — левые и арабские партии. Совпадает с 295 по его определению.",
+    "example_bill_ids": ["2157922", "2217179", "2197068", "2164152", "2236669", "2158374"],
+    "approx_names": 11
+   }
+  ],
+  "leftover_names": 115
+ },
+ "147": {
+  "decision": "split",
+  "reason": "Корзина. Под «+» смешаны две разные вещи. (1) Слежка и сбор данных силовыми и правоохранительными органами о людях: биометрические базы и камеры, взлом камер и компьютеров армией, ШАБАКом и полицией, данные связи и анонимные SIM-карты, данные пассажиров, полиграф, передача сведений для борьбы с отмыванием денег и террором, электронный контроль по охранным ордерам. Здесь лагеря расходятся: безопасность против приватности (правые и коалиция за, арабские и гражданско-либеральные партии против; есть и «−»: отмена биометрической базы, запрет обыска компьютера по согласию). (2) Административные реестры, статистика и обмен данными ради услуг: перенос медицинских данных, обмен между ведомствами, базы ДНК собак, штрафов за парковку, профессиональных курсов, реестры самоубийств и редких болезней, статистика по полу, отчёты о природе — консенсусные и почти без идеологии. Остаток (около 33 названий) — законы, где сбор данных побочен (дефибрилляторы, пчеловодство, выборы, усыновление, отчёты в Кнессет).",
+  "subs": [
+   {
+    "key": "147s1",
+    "same_as": null,
+    "name_ru": "Полномочия силовых и правоохранительных органов по сбору данных о людях",
+    "name_en": "Surveillance and data powers of security and law-enforcement bodies",
+    "plus_en": "Lets the police, the Shin Bet, the army, the prison service or other enforcement and anti-money-laundering bodies collect biometric data, install biometric cameras, hack or intercept devices and cameras, obtain communications, travel or SIM-card data, use polygraphs, or receive personal information from other bodies for policing, security or counter-terrorism.",
+    "minus_en": "Restricts such collection, interception and access by security and law-enforcement bodies, or abolishes their databases (e.g. cancelling the biometric database, barring searches of computers on mere consent).",
+    "camp_note": "«+» — коалиция и правые (Ликуд, Оцма Иегудит, Религиозный сионизм), силовики, частично центр в военное время; «−» — арабские партии, Мерец и сторонники приватности. Близко к 103b2, но 103b2 шире (включает обыски и прочие полномочия), поэтому same_as не указан.",
+    "example_bill_ids": ["2164124", "2211682", "2195431", "2232351", "2219225", "2221059", "2156805"],
+    "approx_names": 43
+   },
+   {
+    "key": "147s2",
+    "same_as": null,
+    "name_ru": "Административные реестры, статистика и обмен данными для государственных услуг",
+    "name_en": "Administrative registries, statistics and data sharing for public services",
+    "plus_en": "Creates state registries, databases, statistical breakdowns or reporting duties, or lets agencies share data among themselves, for administrative, health, transport, environmental, consumer or welfare purposes (not policing or security), e.g. medical data portability, inter-agency data transfer, registries of suicides, rare diseases or dogs' DNA, gender statistics.",
+    "minus_en": "Abolishes such registries, statistics or reporting duties, or restricts data sharing between civilian agencies.",
+    "camp_note": "Межпартийно и в основном консенсусно; чаще вносят депутаты с социальной или профессиональной повесткой из разных партий. Лагеря почти не различает — ценность для выбора избирателя низкая.",
+    "example_bill_ids": ["2209529", "2222372", "2197953", "2156263", "2157040", "1045808"],
+    "approx_names": 49
+   }
+  ],
+  "leftover_names": 33
+ },
+ "40s1": {
+  "decision": "split",
+  "reason": "Ядро направления связное (автоматическое продление, обмен данными между ведомствами, перенос медицинской карты, отказ от справок), но больше половины названий не о бумагах, а о самих льготах и праве на них: отмена проверок зависимости для пособия по уходу, пособие одиноким с 75 лет, признание инвалидности пострадавших от полиомиелита, жертв нацистских преследований, бывших пленных, налоговые льготы, скидки на арнону, выплаты вернувшимся из плена — помечены «−», хотя это расширение пособий. Лагеря не противопоставлены (всё «за заявителя»), но смесь искажает смысл: список с такими законами выглядит «за меньше бумаг», хотя вносил расширение льгот. Предлагаю: ядро остаётся в 40s1 (s1 = само 40s1), законы о льготах и праве на них — в направление 1 (знак при переносе меняется: «−» здесь = «+» в 1). Остаток (около 16) не подходит ни туда, ни туда: регистрация арамейской национальности, смена имени, приказ о родительстве в реестре, паспорт для 16-летних, условие службы для помощи учащимся ешив, пени, сроки для резервистов, юридическая помощь.",
+  "subs": [
+   {
+    "key": "40s1s1",
+    "same_as": "40s1",
+    "name_ru": "Автоматическое получение льгот и услуг без лишних документов",
+    "name_en": "Paperwork to obtain benefits and public services",
+    "plus_en": "Individuals must file more forms, certificates or applications, or renew them more often, to receive benefits, health services or other entitlements from the state.",
+    "minus_en": "Entitlements are granted automatically or with fewer documents: agencies share data among themselves, renewals happen automatically, medical records move between health funds without the patient having to request them.",
+    "camp_note": "Межпартийно; «−» вносят и коалиция, и оппозиция, «+» практически нет. Это ядро исходного направления, оно остаётся в 40s1.",
+    "example_bill_ids": ["2170296", "2157000", "2158924", "2209529", "2158512", "2156565"],
+    "approx_names": 22
+   },
+   {
+    "key": "40s1s2",
+    "same_as": "1",
+    "name_ru": "Социальные пособия, льготы и круг получателей",
+    "name_en": "Social benefits, allowances and concessions",
+    "plus_en": "Increases benefits, allowances, concessions or state compensation, or widens the circle of eligible recipients.",
+    "minus_en": "Reduces benefits, allowances, concessions or state compensation, or narrows eligibility.",
+    "camp_note": "Межпартийно (ветеранские и пенсионерские льготы — коалиция и Наш дом Израиль, пособия по инвалидности и уходу — оппозиция и ШАС). Совпадает с 1 по его определению; при переносе знак инвертируется (здесь помечено «−»).",
+    "example_bill_ids": ["2189707", "2229189", "2197274", "2163248", "2237707", "2216633"],
+    "approx_names": 19
+   }
+  ],
+  "leftover_names": 16
+ },
+ "8s3": {
+  "decision": "split",
+  "reason": "Корзина по поводу наказаний: одним «+» помечены (1) незаконное оружие и торговля им — борьба с преступностью в арабском обществе, поддерживают и арабские партии, и коалиция, и центр (это направление 250b); (2) рэкет («дмей хасут») — та же криминальная повестка; (3) террор и связь с враждебными государствами (флаги террористических организаций, отождествление с террором, санкции против банков, агенты Ирана, пожертвования из враждебных стран) — правый лагерь; (4) общественный порядок и протест (перекрытие дорог, собрания у домов чиновников, оскорбление госслужащего, насилие на стадионах, святые места) — перекрытие дорог и собрания у домов вносила коалиция на фоне протестов, оппозиция против; насилие на стадионах и против медиков консенсусно. Мотивы и лагеря у этих групп разные. Остаток (около 7) — нелегальные жители и контрабанда, игрушечное оружие, дроны, обыски в зонах насильственной преступности.",
+  "subs": [
+   {
+    "key": "8s3s1",
+    "same_as": "250b",
+    "name_ru": "Наказания за незаконное оружие",
+    "name_en": "Penalties for illegal weapons",
+    "plus_en": "Toughens penalties and enforcement against illegal weapons and arms trading.",
+    "minus_en": "Softens them.",
+    "camp_note": "«+» межпартийно: арабские партии (РААМ, Хадаш–Тааль), коалиция (Оцма Иегудит, Ликуд) и центр; минимальные сроки чаще у правых, конфискация без обвинения спорна для гражданско-либеральных партий. Совпадает с 250b.",
+    "example_bill_ids": ["2192074", "2210489", "2198704", "2230845", "2158764"],
+    "approx_names": 10
+   },
+   {
+    "key": "8s3s2",
+    "same_as": null,
+    "name_ru": "Наказания за рэкет (поборы за «защиту»)",
+    "name_en": "Penalties for protection rackets",
+    "plus_en": "Adds or raises penalties, forfeiture, compensation to victims or enforcement tools against extortion of protection money and unlicensed collection of guarding fees.",
+    "minus_en": "Reduces or removes such penalties and enforcement tools.",
+    "camp_note": "Межпартийно: коалиция (Министерство национальной безопасности, Ликуд), арабские партии и центр — в рамках борьбы с организованной преступностью.",
+    "example_bill_ids": ["2189833", "2209383", "2195760", "2163995", "2232480"],
+    "approx_names": 5
+   },
+   {
+    "key": "8s3s3",
+    "same_as": null,
+    "name_ru": "Наказания за террор и связь с враждебными государствами",
+    "name_en": "Penalties for terror and contact with hostile states",
+    "plus_en": "Adds or raises fines and other penalties for terror offences, identification with or flying flags of terror organizations, financing terror, contact with agents of hostile states, or accepting donations from enemy or terror-supporting states.",
+    "minus_en": "Reduces or removes such fines and penalties.",
+    "camp_note": "«+» — правый лагерь (Оцма Иегудит, Религиозный сионизм, Ликуд, Наш дом Израиль); арабские партии и левые обычно против, особенно за наказания за выражение взглядов (флаги, отождествление). Близко к 178, но 178 шире (все меры против террора), поэтому same_as не указан.",
+    "example_bill_ids": ["2214308", "2211016", "2202048", "2162142", "2242372"],
+    "approx_names": 8
+   },
+   {
+    "key": "8s3s4",
+    "same_as": null,
+    "name_ru": "Наказания за нарушения общественного порядка и посягательства на госслужащих и символы",
+    "name_en": "Penalties for public-order offences and affronts to officials and symbols",
+    "plus_en": "Adds or raises penalties for blocking roads, gathering outside officials' homes, insulting or assaulting public servants and security personnel, violence at sports events, in schools or in care institutions, or harming holy sites and memorial symbols.",
+    "minus_en": "Reduces or removes such penalties.",
+    "camp_note": "Перекрытие дорог, собрания у домов чиновников, оскорбление госслужащих — коалиция (Ликуд, Оцма Иегудит) на фоне протестов, оппозиция против; насилие на стадионах и против медиков — межпартийно.",
+    "example_bill_ids": ["2236167", "2207027", "2201410", "2206073", "2165200"],
+    "approx_names": 11
+   }
+  ],
+  "leftover_names": 7
+ },
+ "238": {
+  "decision": "technical",
+  "reason": "Наследственное право — техническая гражданско-правовая область без лагерного противостояния. Знак не выражает позицию: законы с одной и той же целью (защита детей, чьего родителя убил супруг) разнесены по противоположным знакам — лишение убийцы права наследовать помечено «−», сохранение квартиры за детьми и лишение убийцы права на раздел имущества — «+». Остальное — частные поправки (права супругов, старые завещания, доступ к цифровому контенту, наследование людьми с психическими расстройствами, продолжающий жилец в государственном жилье), консенсусные. Всего около 15 названий; кластер про убийство в семье (около 7) по смыслу относится к защите жертв (94/97), а не к объёму наследства.",
+  "subs": [],
+  "leftover_names": 15
+ },
+ "342": {
+  "decision": "keep",
+  "reason": "Предметы различаются (помилование, поручение сформировать правительство, Премия Израиля, запрет совмещения должностей), но каждая группа меньше 5 названий, а сама величина — полномочия президента — единая конституционная величина, и знак в основном разделяет лагеря одинаково: «−» вносят правые (лишить президента права миловать осуждённых пожизненно за террор, убрать его роль в поручении сформировать правительство), «+» — оппозиция (передать Премию Израиля от министра к президенту после вмешательства министра образования). Шум: побочные метки у законов о преследовании за военные преступления и о комиссии по выбору генерального инспектора полиции, а «ייחוד כהונה» относится скорее к 50s2.",
+  "subs": [],
+  "leftover_names": 0
+ }
+}
