@@ -672,3 +672,6 @@ label check qr3,n279s2,279s2,2243358,secondary,not about,borderline,School socia
 label check qr3,n279s2,279s2,2196427,secondary,not about,borderline,School social boycott prevention; unclear whether a dedicated body is created,not_about,removed (2 of 3 «not about»)
 label check qr3,n279s2,279s2,2209390,secondary,not about,borderline,School social boycott prevention; unclear whether a dedicated body is created,not_about,removed (2 of 3 «not about»)
 label check qr3,n279s2,279s2,2217123,secondary,not about,borderline,School social boycott prevention; unclear whether a dedicated body is created,not_about,removed (2 of 3 «not about»)
+label check qr5,n276,276,2157208,secondary,not about,borderline,"Cuts public-sector budgetary pensions; pensions touched, but mainly corona burden-sharing",not_about,removed (2 of 3 «not about»)
+label check qr5,n240s3,240s3,2213882,main,not about,borderline,"Shelter protection for threatened towns, likely easing permits; mainly security question",not_about,removed (2 of 3 «not about»)
+label check qr5,n276,276,2190690,secondary,not about,borderline,"Tax credits for reservists match statement example, but not pension savings",borderline,kept (majority not «not about»)

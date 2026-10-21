@@ -1,0 +1,26 @@
+{
+ "276": {
+  "d": "276",
+  "title_en": "Support for long-term savings",
+  "statement_en": "The state should add more to people's pension and savings funds, such as tax breaks and deposits for reservists, even if taxes rise.",
+  "key": "+"
+ },
+ "292": {
+  "d": "292",
+  "title_en": "Changing the Basic Laws",
+  "statement_en": "A regular Knesset majority should be able to change Basic Laws or override them with ordinary laws, even if basic rights become easier to change.",
+  "key": "−"
+ },
+ "342": {
+  "d": "342",
+  "title_en": "Powers of the President",
+  "statement_en": "Decisions like who forms the government or wins the Israel Prize should rest with elected politicians, not the President, even if the presidency becomes ceremonial.",
+  "key": "−"
+ },
+ "240s3": {
+  "d": "240s3",
+  "title_en": "Building permit procedures",
+  "statement_en": "Planning authorities should check every building permit in full, without fast-track exemptions for new towns, farm homes or renovations, even if building takes much longer.",
+  "key": "+"
+ }
+}
