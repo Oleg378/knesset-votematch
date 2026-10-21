@@ -60,9 +60,6 @@ d,status,q,reason,source,date
 113,no_statement,,one law carries the weight; no honest statement,local/research/new_statements_round2/drafts_1.json,2026-10-20
 147s2s1,no_statement,,round 6: failed the selection after the label check (SD 0.23),local/research/new_statements_round6/,2026-10-21
 342,no_statement,,round 5: failed the selection after the label check,local/research/new_statements_round5/,2026-10-21
-240s3,pending,,"new-statement procedure, round 5",local/research/new_statements_round5/,2026-10-21
-276,pending,,"new-statement procedure, round 5",local/research/new_statements_round5/,2026-10-21
-292,pending,,"new-statement procedure, round 5",local/research/new_statements_round5/,2026-10-21
 100c,quiz,112,Broadcasting public proceedings,jef/quiz/statements_v4.csv,
 101b1,quiz,59,Guardianship of violent parents,jef/quiz/statements_v4.csv,
 103a,quiz,64,Immunity of elected officials,jef/quiz/statements_v4.csv,
@@ -122,6 +119,7 @@ d,status,q,reason,source,date
 231d,quiz,72,Land purchase in Judea and Samaria,jef/quiz/statements_v4.csv,
 231e,quiz,60,Confiscation of property without conviction,jef/quiz/statements_v4.csv,
 240s1,quiz,151,Unlicensed construction,jef/quiz/statements_v4.csv,
+240s3,quiz,157,Building permit procedures,jef/quiz/statements_v4.csv,2026-10-21
 241,quiz,37,Housing construction,jef/quiz/statements_v4.csv,
 248s1,quiz,150,Tobacco restrictions,jef/quiz/statements_v4.csv,
 251s2,quiz,128,Entry into licensed professions,jef/quiz/statements_v4.csv,
@@ -135,6 +133,7 @@ d,status,q,reason,source,date
 271a,quiz,113,Cannabis,jef/quiz/statements_v4.csv,
 274,quiz,147,Retirement age,jef/quiz/statements_v4.csv,
 275,quiz,38,Early withdrawal of long-term savings,jef/quiz/statements_v4.csv,
+276,quiz,155,Support for long-term savings,jef/quiz/statements_v4.csv,2026-10-21
 277a,quiz,54,Denying benefits for terrorism,jef/quiz/statements_v4.csv,
 277b,quiz,92,Disability and sickness benefits,jef/quiz/statements_v4.csv,
 277d,quiz,77,Unemployment benefits,jef/quiz/statements_v4.csv,
@@ -148,6 +147,7 @@ d,status,q,reason,source,date
 283a,quiz,53,Privatization of public services,jef/quiz/statements_v4.csv,
 290s1,quiz,139,Minority representation in public bodies,jef/quiz/statements_v4.csv,
 291,quiz,74,Equality in the Basic Laws,jef/quiz/statements_v4.csv,
+292,quiz,156,Changing the Basic Laws,jef/quiz/statements_v4.csv,2026-10-21
 3,quiz,15,Payments to reservists and veterans,jef/quiz/statements_v4.csv,
 300,quiz,21,Foreign government funding of non-profits,jef/quiz/statements_v4.csv,
 309s3,quiz,154,Who may adopt,jef/quiz/statements_v4.csv,
