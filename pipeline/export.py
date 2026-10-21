@@ -47,6 +47,7 @@ def build_data(ctx):
         x = plan.get(d) or final[d]
         return {"name_en": x["name_en"], "plus_en": x["plus_en"], "minus_en": x["minus_en"]}
     nv = ctx["nv"]
+    meta = qf.load_meta()
     lists = []
     for L, c in cov.items():   # order of jef/positions/list_coverage.csv: the tie order of the ranking
         P = {}
@@ -81,8 +82,10 @@ def build_data(ctx):
                    "BILL_URL": qr.LINK.replace("{}", "{id}")},
         "flow": dict(qf.FLOW),
         "core": qf.core(),
+        # interest / area / sim_group [У] 2026-10-21: metadata for the ORDER of questions only (jef/quiz/statement_meta.csv)
         "statements": [{"q": r["q"], "title_en": r["title_en"], "statement_en": r["statement_en"], "key": r["key_s"],
-                        "d": r["d"], "w": r["w"]} for r in st],
+                        "d": r["d"], "w": r["w"], "interest": meta[r["q"]]["interest"], "area": meta[r["q"]]["area"],
+                        "sim_group": meta[r["q"]]["sim_group"] or None} for r in st],
         "directions": {d: ddesc(d) for d in quiz_d},
         "lists": lists,
         "mks": dict(sorted(mks.items(), key=lambda x: int(x[0]))),
@@ -119,7 +122,7 @@ def flow_case(ctx, name, full):
     from the answers given so far (quiz_flow.next_clarify), the trade-off pairs at the end, and the ranking."""
     fctx = qf._ctx(); asked = qf.core(ctx=fctx); ans = {q: full[q] for q in asked if q in full}; steps = []
     while not qf.should_stop(ans, len(asked)):
-        q = qf.next_clarify(ans, set(asked), ctx=fctx)
+        q = qf.next_clarify(ans, asked, ctx=fctx)
         if q is None: break
         asked.append(q)
         if q in full: ans[q] = full[q]

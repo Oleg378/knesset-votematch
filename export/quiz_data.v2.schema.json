@@ -138,7 +138,10 @@
           "statement_en",
           "key",
           "d",
-          "w"
+          "w",
+          "interest",
+          "area",
+          "sim_group"
         ],
         "properties": {
           "q": {
@@ -161,6 +164,23 @@
           "w": {
             "type": "number",
             "description": "1, or 1/n when n statements share a direction."
+          },
+          "interest": {
+            "type": "number",
+            "minimum": 1,
+            "maximum": 5,
+            "description": "How much an ordinary voter cares (1–5, mean of two blind ratings). Used only for the order of questions."
+          },
+          "area": {
+            "type": "string",
+            "description": "Broad area of the statement (13 codes). Used only for the order of questions."
+          },
+          "sim_group": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Statements that feel like one question to a voter share a group; null = none. No two of one group are asked among the first core + clarify questions."
           }
         }
       }
@@ -370,19 +390,29 @@
     "flow": {
       "type": "object",
       "additionalProperties": false,
-      "description": "Order of questions (pipeline/quiz_flow.py FLOW): core statements, then clarifying ones chosen one by one, then trade-offs.",
+      "description": "Order of questions (pipeline/quiz_flow.py FLOW): core statements (markers of the axes, exported in `core`), then clarifying ones chosen one by one (contending pair), then trade-offs.",
       "required": [
-        "core",
         "clarify",
-        "trade",
-        "core_r_max",
-        "core_gov_share",
-        "gov_r",
         "clarify_top",
-        "stop_gap",
-        "min_questions",
+        "core",
+        "core_area_cap",
+        "core_axes",
+        "core_gov_share",
+        "core_min_interest",
+        "core_one_sided",
+        "core_r_max",
+        "core_slots",
+        "gov_r",
+        "interest_alpha",
         "max_questions",
-        "core_one_sided"
+        "min_questions",
+        "near_dup_r",
+        "pair_eps",
+        "pair_gap",
+        "same_area_in_row",
+        "sim_groups",
+        "stop_gap",
+        "trade"
       ],
       "properties": {
         "core": {
@@ -415,7 +445,7 @@
         "clarify_top": {
           "type": "integer",
           "minimum": 0,
-          "description": "How many lists of the current ranking are compared when choosing the next clarifying statement."
+          "description": "Clarifying: the leader and up to clarify_top − 1 contenders are compared; the two-sided filter looks at the top clarify_top ranked lists."
         },
         "stop_gap": {
           "type": [
@@ -437,6 +467,49 @@
         "core_one_sided": {
           "type": "boolean",
           "description": "false: statements on which every evaluated list with a clear position is on the same side are not in the core (2026-10-18)."
+        },
+        "core_axes": {
+          "type": "integer",
+          "description": "Used to build the core (already applied in `core`)."
+        },
+        "core_slots": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "description": "Used to build the core (already applied in `core`)."
+        },
+        "core_min_interest": {
+          "type": "number",
+          "description": "Used to build the core (already applied in `core`)."
+        },
+        "core_area_cap": {
+          "type": "integer",
+          "description": "Used to build the core (already applied in `core`)."
+        },
+        "interest_alpha": {
+          "type": "number",
+          "description": "Clarifying: a candidate's score is multiplied by (interest / 5) ** interest_alpha."
+        },
+        "pair_gap": {
+          "type": "number",
+          "description": "Clarifying: a ranked list is a contender if its closeness is within pair_gap of the leader's."
+        },
+        "pair_eps": {
+          "type": "number",
+          "description": "Clarifying: weight of a contender = 1 / (leader's closeness − its closeness + pair_eps)."
+        },
+        "near_dup_r": {
+          "type": "number",
+          "description": "Clarifying: a candidate whose |r| with a shown statement is >= near_dup_r is skipped (if anything else is left)."
+        },
+        "same_area_in_row": {
+          "type": "boolean",
+          "description": "Clarifying: false = the previous question's area is skipped (if anything else is left)."
+        },
+        "sim_groups": {
+          "type": "boolean",
+          "description": "Clarifying and core: no two statements of one sim_group among the shown ones."
         }
       }
     },
