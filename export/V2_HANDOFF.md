@@ -1,17 +1,26 @@
 # v2 for the web: what changes and how results are explained
 
-Data side → web, 2026-10-18. The v2 export is **generated** as three files (section 5 «Loading»): `quiz_core.v2.json`,
+Data side → web, 2026-10-18; updated 2026-10-21 (section 0). The v2 export is **generated** as three files (section 5 «Loading»): `quiz_core.v2.json`,
 `quiz_data.v2.json`, `quiz_bills.v2.json`; one schema for their merge (`quiz_data.v2.schema.json`); `golden.v2.json` (34 cases,
 6 of them «flow N» with `flow.core` and `flow.clarifying`) — tests only, never shipped. v1 files are left as they were. Python stays the reference: `pipeline/quiz_match.py` (closeness, trade-offs),
 `pipeline/quiz_flow.py` (order of questions), `pipeline/quiz_report.py` (explanations); `pipeline/quiz_cli.py` runs the whole
 flow in the terminal. Decisions are in `docs/SHARED_UNDERSTANDING.md` (Russian).
+
+## 0. Update 2026-10-21 (data only; schema, files and algorithms unchanged)
+
+- **116 statements** (was 74 in the previous export): new `q` ids **q109–q154**; removed q1, q16, q61, q107 (gone from the export). `q` stays stable — never map by position.
+- Changed texts (and keys where noted) of kept ids: **q52** (key +), **q64** — new title «Immunity of elected officials», **q66** — new title «Support for families with children» (key +). Take texts, titles and keys only from the export.
+- **Core changed** (`core` in `quiz_core.v2.json`): 2, 3, 63, 14, 7, 20, 81, 117. Read it from the export; do not hard-code.
+- New direction ids have suffixes such as `1s1`, `163p2`, `256s3p2` — treat `d` as an opaque string.
+- Sizes: `quiz_data.v2.json` ≈ 217 KB, `quiz_bills.v2.json` ≈ 1.8 MB (6 131 bills). `golden.v2.json` regenerated (34 cases); the TS port must match it again.
+- Methodology page (section 6): the lists of topics not in the quiz were updated.
 
 ## 1. What changes
 
 | Area | v1 | v2 |
 |---|---|---|
 | Files | one `quiz_data.v1.json` (1.6 MB), bundled | three files fetched in order (section 5); bills lose `url` (built from `params.BILL_URL`) and `summary_en` |
-| Statements | 65 | 76 (`q` ids stable, gaps allowed; removed ones are gone, new ones up to q105). Texts and titles changed for many |
+| Statements | 65 | 116 (`q` ids stable, gaps allowed; removed ones are gone, new ones up to q154). Texts and titles changed for many |
 | List position P | (A + 0.25 V) / weights, A centered | P = A + 0.25 V + 0.25 O; A (sponsored bills) is **not centered**; O = votes against the other camp's bills (2026-10-18). Comes ready in `lists[].positions` — the web only reads P |
 | Ranking | coverage ≥ MIN_COVERAGE | also `ex_mks ≥ params.MIN_EX_MKS` (2): a list with one former MK goes to «Not ranked» with its note (2026-10-18) |
 | Shrinkage | p = P · e / (e + K), K = 2 | **K = 0: p = P**. Keep the formula generic and read K from `params` |
@@ -95,8 +104,8 @@ Goal: the start page never waits for data, and a loader almost never appears.
 | File | Size (gzip) | Contents | Needed by |
 |---|---|---|---|
 | `quiz_core.v2.json` | ~2 KB (1 KB) | `flow`, `core`, the core statements | the first `flow.core` questions |
-| `quiz_data.v2.json` | ~120 KB (27 KB) | `params`, all statements, `directions`, `lists` with positions | clarifying questions, trade-offs, Results |
-| `quiz_bills.v2.json` | ~1.2 MB (180 KB) | `mks`, `by_direction`, `bills` | List details and «Bills of one statement» only |
+| `quiz_data.v2.json` | ~217 KB | `params`, all statements, `directions`, `lists` with positions | clarifying questions, trade-offs, Results |
+| `quiz_bills.v2.json` | ~1.8 MB | `mks`, `by_direction`, `bills` | List details and «Bills of one statement» only |
 
 - The data is **not bundled** into the JS: the app shell (start page, styles, fonts) loads alone; the three files are fetched
   as static files from the site itself (CSP `connect-src 'self'` already allows it).
@@ -119,13 +128,12 @@ distinct bills (a re-submitted bill counts once) sponsored by them. These thresh
 did the same, or where too few bills exist, are left out — even when they are important.
 
 **Important topics that are not in the quiz, and why.**
-- *The lists' records hardly differ (nearly everyone pushed the same way):* animal protection; credit and mortgages; state power to
-  ban harmful content; public broadcasting (Kan, Galei Tzahal); tax enforcement; cannabis; state support for long-term savings;
-  support for charities.
-- *Too few bills by the candidates to place the lists:* abortion; who is registered as a Jew; rights of the parliamentary
-  opposition; gun licensing; immunity for soldiers; the death penalty for terrorists; immigration rights of grandchildren of Jews
-  (Law of Return); laws tied to a state of emergency; a shorter working week; the Yemenite children affair; adoption rules.
-- *Covered by another statement:* immunity of elected officials (in «A prime minister under indictment»); civil marriage and divorce
+- *The lists' records hardly differ (nearly everyone pushed the same way):* credit and mortgages; tax enforcement; support for
+  charities.
+- *Too few bills by the candidates to place the lists:* abortion; who is registered as a Jew; gun licensing; immunity for
+  soldiers; the death penalty for terrorists; immigration rights of grandchildren of Jews (Law of Return); laws tied to a state of
+  emergency; a shorter working week.
+- *Covered by another statement:* civil marriage and divorce
   (in «Civil marriage» and «Divorce»); conditions on funding religious schools (in «Funding schools without the core curriculum»);
   alternatives to military service (in «Drafting yeshiva students»); international law and UNRWA (in «Foreign states and
   international organizations in Israel»).

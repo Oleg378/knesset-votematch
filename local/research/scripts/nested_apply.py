@@ -6,7 +6,9 @@ two agreeing checks decide, otherwise the majority of three; three-way split or 
 All removals are computed on the ORIGINAL bill sets (not sequentially) and are per bill id × theme.
 
 Usage: python3 nested_apply.py merge   -> nested_merged.csv, nested_items_C.md (pairs for the third check)
-       python3 nested_apply.py final   -> nested_decision.csv, jef/directions/labels/nested_removals.json (read by pipeline/labels.py)
+       python3 nested_apply.py final   -> nested_decision.csv, nested_removals.computed.json (APPLY=1 writes jef/directions/labels/nested_removals.json,
+                                          read by pipeline/labels.py). Do not re-apply: the removals were computed on the labels of 2026-10-20
+                                          (before stages 6–8 and the new-theme label checks); the applied file is the source of truth.
 """
 import csv, json, os, re, sys, collections
 import pandas as pd, duckdb
@@ -82,5 +84,5 @@ elif STEP == "final":
     json.dump({"_doc": "Nested themes, global audit (SHARED_UNDERSTANDING «Вложенные темы — глобальный аудит», [У] 2026-10-20): a bill's "
                "label on the theme that loses the double count is removed (strategy 1: the broad theme, 2: the narrow theme). Pairs: "
                "local/research/theme_overlap/nested_decision.csv. Applied by pipeline/labels.py after all other corrections.", "items": items},
-              open(f"{ROOT}/jef/directions/labels/nested_removals.json", "w"), ensure_ascii=False, indent=1)
+              open(f"{ROOT}/jef/directions/labels/nested_removals.json" if os.environ.get("APPLY") == "1" else f"{O}/nested_removals.computed.json", "w"), ensure_ascii=False, indent=1)
     print(len({(i['bill_id'], i['d']) for i in items}), "bill × theme labels removed;", len({i['d'] for i in items}), "themes touched")
