@@ -132520,6 +132520,46 @@
    "bill_id": "2169590",
    "d": "353",
    "pair": "post-stage6: 22s1 in 353 (88%), strategy 1, customer 2026-10-21"
+  },
+  {
+   "bill_id": "2159280",
+   "d": "71",
+   "pair": "post-round5: 292 in 71 (56%), strategy 1 (final duplicate check: different questions), 2026-10-21"
+  },
+  {
+   "bill_id": "2197114",
+   "d": "71",
+   "pair": "post-round5: 292 in 71 (56%), strategy 1 (final duplicate check: different questions), 2026-10-21"
+  },
+  {
+   "bill_id": "2161289",
+   "d": "71",
+   "pair": "post-round5: 292 in 71 (56%), strategy 1 (final duplicate check: different questions), 2026-10-21"
+  },
+  {
+   "bill_id": "2210152",
+   "d": "71",
+   "pair": "post-round5: 292 in 71 (56%), strategy 1 (final duplicate check: different questions), 2026-10-21"
+  },
+  {
+   "bill_id": "2156372",
+   "d": "71",
+   "pair": "post-round5: 292 in 71 (56%), strategy 1 (final duplicate check: different questions), 2026-10-21"
+  },
+  {
+   "bill_id": "2156094",
+   "d": "71",
+   "pair": "post-round5: 292 in 71 (56%), strategy 1 (final duplicate check: different questions), 2026-10-21"
+  },
+  {
+   "bill_id": "2196972",
+   "d": "71",
+   "pair": "post-round5: 292 in 71 (56%), strategy 1 (final duplicate check: different questions), 2026-10-21"
+  },
+  {
+   "bill_id": "2157247",
+   "d": "71",
+   "pair": "post-round5: 292 in 71 (56%), strategy 1 (final duplicate check: different questions), 2026-10-21"
   }
  ]
 }
