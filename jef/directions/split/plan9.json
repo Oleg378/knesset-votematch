@@ -1,0 +1,66 @@
+{
+ "note": "Stage 9 (2026-10-20, [У]): split of the basket directions that pass the selection criteria (SHARED_UNDERSTANDING «Выпавшие законопроекты и направления без вопроса»; local/research/basket_split/). Procedure of 2026-10-16 (Opus proposes parts; a part that is an existing direction is a transfer); the choice is made by Sonnet subagents instead of Jev; sign asked per part.",
+ "parents": {
+  "147s2": [
+   "147s2s1",
+   "147s2s2"
+  ],
+  "40s2s3": [
+   "40s2s3s1",
+   "251s2",
+   "40s2s3s3",
+   "40s2s3s4"
+  ],
+  "142s2": [
+   "142s2s1",
+   "142s2s2"
+  ]
+ },
+ "new": {
+  "147s2s1": {
+   "name_ru": "Медицинские регистры и обмен медицинскими данными",
+   "name_en": "Health registries and sharing of medical data",
+   "plus_en": "Creates health registries or monitoring (e.g. suicides, rare diseases, vaccinations, sperm donors, availability of medical services), or lets medical records and health information move between health funds, hospitals, public bodies and the patient.",
+   "minus_en": "Abolishes such health registries or monitoring, or restricts the transfer of medical records and health information between providers and public bodies."
+  },
+  "147s2s2": {
+   "name_ru": "Статистика и отчётность о равенстве и дискриминации",
+   "name_en": "Statistics and reporting on equality and discrimination",
+   "plus_en": "Requires state bodies, schools or large employers to collect, break down or publish data on gender, disability or racially motivated incidents, e.g. statistics and budget breakdowns by gender, reports on employers' compliance with disability representation targets, reporting of racist violence in schools.",
+   "minus_en": "Removes such gender, disability or discrimination breakdowns and reporting duties."
+  },
+  "40s2s3s1": {
+   "name_ru": "Экологические разрешения",
+   "name_en": "Environmental permits",
+   "plus_en": "Requires environmental permits for more activities or tightens the conditions and procedures for issuing them (emissions, hazardous substances, marine pollution, water use, radiation sources).",
+   "minus_en": "Streamlines environmental licensing: merges or shortens permit procedures, or exempts activities from environmental permits (e.g. some radiation sources, rainwater collection)."
+  },
+  "40s2s3s3": {
+   "name_ru": "Лицензирование опасных мероприятий, устройств и учреждений ради безопасности",
+   "name_en": "Safety licensing of risky events, devices and facilities",
+   "plus_en": "Requires a licence, permit, registration or safety condition for activities and devices that endanger public safety: mass and religious events, load-carrying drones, electric bicycles, daycare centres without standard protected space.",
+   "minus_en": "Exempts such events, devices or facilities from licensing or safety conditions, or lets civilians obtain such items more freely (e.g. repellent sprays)."
+  },
+  "40s2s3s4": {
+   "name_ru": "Административные процедуры лицензирования бизнеса",
+   "name_en": "Administrative licensing procedures for businesses",
+   "plus_en": "Adds procedural steps, documents or approvals needed to obtain or renew a business licence or permit, or shortens the validity of such licences.",
+   "minus_en": "Simplifies business licensing: fewer documents, exemptions from permits (e.g. for short-term foreign experts or import procedures), longer validity or automatic extension of licences, including relief for businesses in war-affected areas."
+  },
+  "142s2s1": {
+   "name_ru": "Публичность судебных решений и процессов",
+   "name_en": "Publicity of court rulings and proceedings",
+   "plus_en": "Allows or requires more publication of court rulings and proceedings: anonymized family-court rulings, transparency of hearings on petitions in public matters, narrower or harder-to-obtain gag orders.",
+   "minus_en": "Restricts publication of court rulings and proceedings, widens gag orders or adds confidentiality to hearings (e.g. on minors in psychiatric care)."
+  },
+  "142s2s2": {
+   "name_ru": "Запреты на публикацию личных данных пострадавших и частных лиц",
+   "name_en": "Bans on publishing identifying details of victims and private individuals",
+   "plus_en": "Allows publication of names, images or recordings of victims, casualties and private individuals without restriction.",
+   "minus_en": "Bans publishing names or identifying details of casualties and victims before their families are notified or without consent, or bans publishing recordings of a person."
+  }
+ },
+ "transfers": {
+  "40s2s3s2": "251s2"
+ }
+}

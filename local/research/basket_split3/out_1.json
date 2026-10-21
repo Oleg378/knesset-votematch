@@ -1,0 +1,123 @@
+{
+ "147s2": {
+  "decision": "split",
+  "reason": "Корзина несвязанных предметов: медицинские данные и регистры (переносимость медицинской информации, регистры суицидов и редких болезней, прививки), транспортные базы (штрафы за парковку, пробег, группа крови в правах, данные общественного транспорта), генетическая база собак, финансовые и налоговые реестры, отчёты о природе, а также политически окрашенные блоки: статистика по полу и инвалидности/расизму (продвигают центр-левые и арабские партии) и отчётность о терроре учеников (правые). Знак + у этих групп продвигается по разным причинам и разными лагерями. Выделены два содержательных поддиректирования с ≥5 названиями; транспорт, собаки, финансы/налоги, стройка, природа — технические и остаются в исходном; 3 названия о терроре (2229311, 2227150, 2167551) ближе к безопасности, но не набирают 5.",
+  "subs": [
+   {
+    "key": "147s2s1",
+    "same_as": null,
+    "name_ru": "Медицинские регистры и обмен медицинскими данными",
+    "name_en": "Health registries and sharing of medical data",
+    "plus_en": "Creates health registries or monitoring (e.g. suicides, rare diseases, vaccinations, sperm donors, availability of medical services), or lets medical records and health information move between health funds, hospitals, public bodies and the patient.",
+    "minus_en": "Abolishes such health registries or monitoring, or restricts the transfer of medical records and health information between providers and public bodies.",
+    "camp_note": "В основном консенсусные законы: правительственные (Минздрав) и частные законопроекты депутатов разных лагерей; явного противостояния лагерей нет, но это цельный предмет (здравоохранение), который не должен смешиваться со статистикой равенства или транспортом.",
+    "example_bill_ids": ["2226156", "2222372", "2156263", "2189572", "2215274", "2214554"],
+    "approx_names": 11
+   },
+   {
+    "key": "147s2s2",
+    "same_as": null,
+    "name_ru": "Статистика и отчётность о равенстве и дискриминации",
+    "name_en": "Statistics and reporting on equality and discrimination",
+    "plus_en": "Requires state bodies, schools or large employers to collect, break down or publish data on gender, disability or racially motivated incidents, e.g. statistics and budget breakdowns by gender, reports on employers' compliance with disability representation targets, reporting of racist violence in schools.",
+    "minus_en": "Removes such gender, disability or discrimination breakdowns and reporting duties.",
+    "camp_note": "+ продвигают центр-левые, арабские партии и депутаты, занимающиеся правами женщин и людей с инвалидностью; правые и харедимные партии такие законопроекты обычно не инициируют.",
+    "example_bill_ids": ["2198764", "2167981", "2157040", "2191732", "2240689"],
+    "approx_names": 5
+   }
+  ],
+  "leftover_names": 44
+ },
+ "40s2s3": {
+  "decision": "split",
+  "reason": "Под одним знаком смешаны разные мотивы. «−»: экологическое лицензирование упрощают правительственные экономические программы (против этого выступают экологи), отдельно — общая разгрузка бизнеса от разрешений и продление сроков, отдельно — профессиональные лицензии (нотариусы, бухгалтеры). «+»: лицензирование как мера безопасности (религиозные мероприятия после Мерона, дроны, электровелосипеды, укрытия в яслях) — это другая причина, чем бюрократическая нагрузка. Профессиональное лицензирование совпадает с 251s2 по его собственным определениям (там прямо названы нотариусы, охранные фирмы, кадровые подрядчики, допуск юристов к работе бухгалтеров). Остаются в исходном ~13 разрозненных названий: каннабис (2), защита животных (3), продажа табака, дети-артисты, ставки на спорт, религиозные лотки, реестр доменов, лицензии на медоборудование в периферии (2), Второе управление телерадиовещания.",
+  "subs": [
+   {
+    "key": "40s2s3s1",
+    "same_as": null,
+    "name_ru": "Экологические разрешения",
+    "name_en": "Environmental permits",
+    "plus_en": "Requires environmental permits for more activities or tightens the conditions and procedures for issuing them (emissions, hazardous substances, marine pollution, water use, radiation sources).",
+    "minus_en": "Streamlines environmental licensing: merges or shortens permit procedures, or exempts activities from environmental permits (e.g. some radiation sources, rainwater collection).",
+    "camp_note": "«−» продвигают правительства через законы об экономической программе и министерства экономики; «+» и сопротивление упрощению — депутаты, ориентированные на экологию (центр-левые, «зелёные»).",
+    "example_bill_ids": ["2204149", "2217192", "2204243", "2157662", "2190526"],
+    "approx_names": 5
+   },
+   {
+    "key": "40s2s3s2",
+    "same_as": "251s2",
+    "name_ru": "Лицензирование немедицинских профессий",
+    "name_en": "Licensing and entry requirements for non-health occupations",
+    "plus_en": "Brings more non-health occupations and service providers under licensing or tightens their entry requirements (e.g. notaries, accountants, security firms, manpower contractors).",
+    "minus_en": "Removes licensing for such occupations or eases entry, or lets other licensed professionals (e.g. lawyers who are tax advisers) do the work.",
+    "camp_note": "«−» — либерализация доступа к профессиям (правительство, экономические либералы); «+» — защита работников и потребителей (рабочие и социальные депутаты, ограничение кадровых подрядчиков).",
+    "example_bill_ids": ["2232915", "2218542", "2228918", "2227528", "2157951"],
+    "approx_names": 5
+   },
+   {
+    "key": "40s2s3s3",
+    "same_as": null,
+    "name_ru": "Лицензирование опасных мероприятий, устройств и учреждений ради безопасности",
+    "name_en": "Safety licensing of risky events, devices and facilities",
+    "plus_en": "Requires a licence, permit, registration or safety condition for activities and devices that endanger public safety: mass and religious events, load-carrying drones, electric bicycles, daycare centres without standard protected space.",
+    "minus_en": "Exempts such events, devices or facilities from licensing or safety conditions, or lets civilians obtain such items more freely (e.g. repellent sprays).",
+    "camp_note": "Лицензирование религиозных мероприятий (после катастрофы на Мероне) продвигает светская оппозиция, харедимные партии против; дроны и укрытия — мотив безопасности (часто правые и депутаты от приграничья); прямой экономической нагрузки на бизнес здесь нет.",
+    "example_bill_ids": ["2201167", "2239766", "2156979", "2243346", "2241476"],
+    "approx_names": 6
+   },
+   {
+    "key": "40s2s3s4",
+    "same_as": null,
+    "name_ru": "Административные процедуры лицензирования бизнеса",
+    "name_en": "Administrative licensing procedures for businesses",
+    "plus_en": "Adds procedural steps, documents or approvals needed to obtain or renew a business licence or permit, or shortens the validity of such licences.",
+    "minus_en": "Simplifies business licensing: fewer documents, exemptions from permits (e.g. for short-term foreign experts or import procedures), longer validity or automatic extension of licences, including relief for businesses in war-affected areas.",
+    "camp_note": "«−» — общая дерегуляция, в основном правительственные законы об экономической программе и временные льготы бизнесу на юге и севере; противостояние лагерей слабое.",
+    "example_bill_ids": ["2162018", "2156603", "2209401", "2156710", "2196596", "2233027"],
+    "approx_names": 14
+   }
+  ],
+  "leftover_names": 13
+ },
+ "142s2": {
+  "decision": "split",
+  "reason": "Два разных предмета под одним названием. «+» в основном — открытость судов (публикация решений семейных судов, прозрачность процессов по общественным петициям, сужение запретов на публикацию); «−» в основном — защита личности пострадавших и частных лиц (имена погибших до уведомления семьи, имена жертв, записи человека). Это разные величины: суды и личная приватность. Отдельный политически окрашенный блок — запрет фотографировать солдат и публикация личности освобождённых заключённых по безопасности (правые) — набирает только 3 названия, остаётся в исходном вместе с законом о правах пациента (передача медицинской информации), который сюда не относится.",
+  "subs": [
+   {
+    "key": "142s2s1",
+    "same_as": null,
+    "name_ru": "Публичность судебных решений и процессов",
+    "name_en": "Publicity of court rulings and proceedings",
+    "plus_en": "Allows or requires more publication of court rulings and proceedings: anonymized family-court rulings, transparency of hearings on petitions in public matters, narrower or harder-to-obtain gag orders.",
+    "minus_en": "Restricts publication of court rulings and proceedings, widens gag orders or adds confidentiality to hearings (e.g. on minors in psychiatric care).",
+    "camp_note": "Прозрачность процессов по общественным петициям продвигают критики судебной системы (правые); публикацию решений семейных судов поддерживают разные лагеря, включая организации отцов; сужение запретов на публикацию — свобода прессы.",
+    "example_bill_ids": ["2220892", "2156669", "2157001", "2166687", "2202665", "2242922"],
+    "approx_names": 8
+   },
+   {
+    "key": "142s2s2",
+    "same_as": null,
+    "name_ru": "Запреты на публикацию личных данных пострадавших и частных лиц",
+    "name_en": "Bans on publishing identifying details of victims and private individuals",
+    "plus_en": "Allows publication of names, images or recordings of victims, casualties and private individuals without restriction.",
+    "minus_en": "Bans publishing names or identifying details of casualties and victims before their families are notified or without consent, or bans publishing recordings of a person.",
+    "camp_note": "Широкий консенсус: запреты продвигают депутаты разных лагерей после терактов и войны; сопротивление — со стороны свободы прессы, но законопроектов со знаком «+» почти нет.",
+    "example_bill_ids": ["2167942", "2199737", "2156082", "2156330", "2198063"],
+    "approx_names": 5
+   }
+  ],
+  "leftover_names": 4
+ },
+ "81s2": {
+  "decision": "keep",
+  "reason": "Предмет единый: уголовная ответственность чиновников и избранных лиц за злоупотребление должностью (мошенничество и нарушение доверия, использование служебной информации, оплата от иностранных государств, фальсификации на выборах, ложные показания и неявка в комиссии Кнессета). Лагеря разделены по знаку, а не внутри знака: «+» продвигает оппозиция (антикоррупция, «Катаргейт», явка в комиссии), «−» — коалиция (сужение нарушения доверия, освобождение передающих секретную информацию премьеру). Периферийные названия — запрет пыток и насилие полиции (2), ограничение самофинансирования избранных лиц (2), явка в комиссии (2) — по отдельности не набирают 5 и по мотиву (расширить ответственность должностных лиц) совпадают с ядром.",
+  "subs": [],
+  "leftover_names": 0
+ },
+ "344s4": {
+  "decision": "keep",
+  "reason": "Все 9 названий со знаком «+» и продвигаются по одной причине: защитить гражданина от неправомерного поведения конкретного должностного лица (идентификация, своевременный ответ, санкции за издевательство, необоснованные задержания). Внутри есть две подгруппы — поведение полиции при задержаниях и на протестах (5 названий: форма на демонстрациях, незаконное заковывание, задержание людей с инвалидностью ×2, ложные задержания) и обслуживание в госслужбе (4 названия) — но вторая не набирает 5, а разделение на 2–4 поднаправления требует минимум двух. Противоположных лагерей с одинаковым знаком нет.",
+  "subs": [],
+  "leftover_names": 0
+ }
+}

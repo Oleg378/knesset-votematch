@@ -1,8 +1,11 @@
 d,status,q,reason,source,date
+142s2s2,basket,,"step 2 basket (round 6, both checks); no split into parts of ≥ 5 names possible",local/research/new_statements_round6/,2026-10-21
 233c,basket,,step 2 basket; split agent found no part ≥ 5 names,local/research/new_statements_round5/ (step 2),2026-10-21
 235,basket,,step 2 basket; split agent found no part ≥ 5 names,local/research/new_statements_round5/ (step 2),2026-10-21
 314,basket,,step 2 basket; split agent found no part ≥ 5 names,local/research/new_statements_round5/ (step 2),2026-10-21
+344s4,basket,,"step 2 basket (round 6, both checks); no split into parts of ≥ 5 names possible",local/research/new_statements_round6/,2026-10-21
 39,basket,,step 2 basket; split agent found no part ≥ 5 names,local/research/new_statements_round5/ (step 2),2026-10-21
+81s2,basket,,"step 2 basket (round 6, both checks); no split into parts of ≥ 5 names possible",local/research/new_statements_round6/,2026-10-21
 103c,dropped_dup,,final duplicate check 2026-10-21: another statement asks the same,local/research/new_statements_round2/dups_*.csv,2026-10-21
 116b,dropped_dup,,final duplicate check 2026-10-21: another statement asks the same,local/research/new_statements_round2/dups_*.csv,2026-10-21
 122s4,dropped_dup,,final duplicate check 2026-10-21: another statement asks the same,local/research/new_statements_round2/dups_*.csv,2026-10-21
@@ -55,10 +58,11 @@ d,status,q,reason,source,date
 92a,duplicate,45,step 2: same question for voters,local/research/new_statements_round2/ (step 2),2026-10-20/21
 96s4,duplicate,45,decided 2026-10-17/18/20 (earlier rounds),SHARED_UNDERSTANDING,
 113,no_statement,,one law carries the weight; no honest statement,local/research/new_statements_round2/drafts_1.json,2026-10-20
+147s2s1,no_statement,,round 6: failed the selection after the label check (SD 0.23),local/research/new_statements_round6/,2026-10-21
+342,no_statement,,round 5: failed the selection after the label check,local/research/new_statements_round5/,2026-10-21
 240s3,pending,,"new-statement procedure, round 5",local/research/new_statements_round5/,2026-10-21
 276,pending,,"new-statement procedure, round 5",local/research/new_statements_round5/,2026-10-21
 292,pending,,"new-statement procedure, round 5",local/research/new_statements_round5/,2026-10-21
-342,pending,,"new-statement procedure, round 5",local/research/new_statements_round5/,2026-10-21
 100c,quiz,112,Broadcasting public proceedings,jef/quiz/statements_v4.csv,
 101b1,quiz,59,Guardianship of violent parents,jef/quiz/statements_v4.csv,
 103a,quiz,64,Immunity of elected officials,jef/quiz/statements_v4.csv,
@@ -196,7 +200,9 @@ d,status,q,reason,source,date
 130b2,split,,,jef/directions/split/plan6.json,
 133,split,,,jef/directions/split/plan5.json,
 142,split,,,jef/directions/split/plan6.json,
+142s2,split,,"basket (round 3 step 2), split as stage 9",jef/directions/split/plan9.json,2026-10-21
 147,split,,,jef/directions/split/plan6.json,
+147s2,split,,"basket (round 3 step 2), split as stage 9",jef/directions/split/plan9.json,2026-10-21
 149,split,,,jef/directions/split/plan5.json,
 15,split,,,jef/directions/split/plan5.json,
 151,split,,,jef/directions/split/plan2.json,
@@ -258,6 +264,7 @@ d,status,q,reason,source,date
 40,split,,,jef/directions/split/plan5.json,
 40s1,split,,,jef/directions/split/plan6.json,
 40s2,split,,,jef/directions/split/plan6.json,
+40s2s3,split,,"basket (round 3 step 2), split as stage 9",jef/directions/split/plan9.json,2026-10-21
 50,split,,,jef/directions/split/plan5.json,
 53,split,,,jef/directions/split/plan.json,2026-10-16
 58,split,,,jef/directions/split/plan4.json,
