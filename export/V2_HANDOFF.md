@@ -8,11 +8,11 @@ flow in the terminal. Decisions are in `docs/SHARED_UNDERSTANDING.md` (Russian).
 
 ## 0. Update 2026-10-21 (data only; schema, files and algorithms unchanged)
 
-- **116 statements** (was 74 in the previous export): new `q` ids **q109–q154**; removed q1, q16, q61, q107 (gone from the export). `q` stays stable — never map by position.
+- **119 statements** (was 74 in the previous export): new `q` ids **q109–q157**; removed q1, q16, q61, q107 (gone from the export). `q` stays stable — never map by position.
 - Changed texts (and keys where noted) of kept ids: **q52** (key +), **q64** — new title «Immunity of elected officials», **q66** — new title «Support for families with children» (key +). Take texts, titles and keys only from the export.
 - **Core changed** (`core` in `quiz_core.v2.json`): 2, 3, 63, 14, 7, 20, 81, 117. Read it from the export; do not hard-code.
 - New direction ids have suffixes such as `1s1`, `163p2`, `256s3p2` — treat `d` as an opaque string.
-- Sizes: `quiz_data.v2.json` ≈ 217 KB, `quiz_bills.v2.json` ≈ 1.8 MB (6 131 bills). `golden.v2.json` regenerated (34 cases); the TS port must match it again.
+- Sizes: `quiz_data.v2.json` ≈ 217 KB, `quiz_bills.v2.json` ≈ 1.8 MB (6 422 bills). `golden.v2.json` regenerated (34 cases); the TS port must match it again.
 - Methodology page (section 6): the lists of topics not in the quiz were updated.
 
 ## 1. What changes
@@ -20,7 +20,7 @@ flow in the terminal. Decisions are in `docs/SHARED_UNDERSTANDING.md` (Russian).
 | Area | v1 | v2 |
 |---|---|---|
 | Files | one `quiz_data.v1.json` (1.6 MB), bundled | three files fetched in order (section 5); bills lose `url` (built from `params.BILL_URL`) and `summary_en` |
-| Statements | 65 | 116 (`q` ids stable, gaps allowed; removed ones are gone, new ones up to q154). Texts and titles changed for many |
+| Statements | 65 | 119 (`q` ids stable, gaps allowed; removed ones are gone, new ones up to q157). Texts and titles changed for many |
 | List position P | (A + 0.25 V) / weights, A centered | P = A + 0.25 V + 0.25 O; A (sponsored bills) is **not centered**; O = votes against the other camp's bills (2026-10-18). Comes ready in `lists[].positions` — the web only reads P |
 | Ranking | coverage ≥ MIN_COVERAGE | also `ex_mks ≥ params.MIN_EX_MKS` (2): a list with one former MK goes to «Not ranked» with its note (2026-10-18) |
 | Shrinkage | p = P · e / (e + K), K = 2 | **K = 0: p = P**. Keep the formula generic and read K from `params` |

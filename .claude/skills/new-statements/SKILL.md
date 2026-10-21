@@ -29,7 +29,8 @@ Input: themes that pass `quiz_select.py`, are not remainders / technical, have n
    disagreements → a 3rd. Per pair keep one: an existing statement wins; between new ones the theme with more bills.
 8. **Customer** — show every text verbatim (English as stored), grouped, with the duplicate choices; name statements by title.
 9. **Write** into `jef/quiz/statements_v4.csv` (next free `q`, `source`, `status=ok`, dated `change`; RU text from the draft if the
-   audit did not rewrite it), registry `quiz`, then `release`.
+   audit did not rewrite it), registry `quiz`, then `release`. A new statement can create a nested pair with an existing one
+   (`make check` I5) → `nested-themes`; the final duplicate check already answers the meaning question for that pair.
 
 ## Moving a statement (rule (б) of nested-themes)
 

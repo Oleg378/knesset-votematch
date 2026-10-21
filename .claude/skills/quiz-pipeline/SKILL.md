@@ -28,7 +28,7 @@ statement or have a decision in `jef/directions/registry.csv` (duplicate / split
 - a split agent marks a basket «keep» → the theme goes to `new-statements`, it does not stop there;
 - transfers of a split make *other* themes pass the selection → they go to `new-statements` too;
 - step 2 of `new-statements` marks a theme «basket» → `split-themes`, then its parts back to `new-statements`;
-- a later split creates nested pairs → `nested-themes` again for the new themes;
+- a later split or a new statement creates nested pairs → `nested-themes` again for the new themes;
 - a theme that was a duplicate keeps its bills out of the quiz until its bills are add-checked into the duplicated statement.
 
 ## Order and state

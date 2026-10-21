@@ -7,7 +7,7 @@ finds the root as the parent of its own folder. Modules import each other by bar
 1. Fetch: `export_votes.py`, `fetch_bills.py`, `bill_texts.py` (Knesset OData, Israeli IP only), `cec_parse.py`, `cec_match.py`.
 2. Build: `build/build.py` → `knesset.duckdb` (SQL layers in `build/`).
 3. Label: Jev runs (`jev_label.py`, `jev_packages.py`, `jev_split.py`, stages 1–4) → `jef/directions/labels/`. Jev credits are gone
-   (2026-10-20): later split stages (5–8, `plan5…8.json`) were assigned by Sonnet (`local/research/scripts/basket_choice_run.py`,
+   (2026-10-20): later split stages (5–9, `plan5…9.json`) were assigned by Sonnet (`local/research/scripts/basket_choice_run.py`,
    skill `split-themes`). `labels.py` applies, in order: Jev labels → split stages (`LATER`, append only) → overrides labels → remove →
    flip → add → `nested_removals.json`.
 4. Positions: `positions.py` → `jef/positions/`.
