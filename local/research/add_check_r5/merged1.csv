@@ -1,0 +1,41 @@
+q,d,src,bills,name,rep,role,id,verdict,sign1,reason1
+135,134,137,2231611,חוק מניעת פגיעת גוף שידורים זר בביטחון המדינה (הוראה שעה - חרבות ברזל) (תיקון מס' 3),2231611,secondary,F1-1,about,−,Amends foreign broadcaster ban on security grounds; restricts foreign channels.
+135,134,137,2157495,"חוק איסור פרסומת והגבלת השיווק של מוצרי טבק ועישון (תיקון מס' 8), התשפ""ב–2022",2157495,secondary,F1-2,not_about,,"Tobacco advertising restriction; public health, not political or security speech."
+135,134,137,2236166 2239530,הצעת חוק סמכויות לשם מניעת ביצוע עבירות באמצעות אתר אינטרנט (תיקון - מניעת הונאות באמצעי תשלום),2239530,secondary,F1-3,not_about,,"Blocking fraud and phishing websites; financial crime, not speech."
+135,134,137,2215060,הצעת חוק המאבק בטרור (תיקון - הסתה לטרור ברשתות חברתיות),2215060,secondary,F1-4,about,−,Criminalizes terror incitement on social networks; security-based speech restriction.
+135,134,137,2190333 2197348 2199833,הצעת חוק סינון אתרים פוגעניים במקומות ציבוריים,2190333,secondary,F1-5,not_about,,Filtering harmful sites in public places to protect children; not political speech.
+135,134,137,2213530,הצעת חוק התקשורת (בזק ושידורים) (תיקון - הגנה על קטינים מפני תוכן פוגעני באינטרנט באמצעות אומדן גיל),2213530,secondary,F1-6,not_about,,"Age verification to protect minors online; child protection, not speech question."
+135,134,137,2160104 2190769 2234016,הצעת חוק הבחירות (דרכי תעמולה) (תיקון - תעמולה דיגיטלית),2160104,secondary,F1-7,not_about,,"Updates election propaganda rules for digital ads; campaign regulation, not speech restriction."
+135,134,137,2168286,הצעת חוק העונשין (תיקון - איסור צריכת חומר תועבה),2168286,secondary,F1-8,not_about,,Criminalizes consuming child sexual abuse material; child protection offence.
+135,134,137,2158997,הצעת חוק איסור פרסומת והגבלת השיווק של מוצרי טבק ועישון (תיקון - ביטול החרגת העיתונות המודפסת),2158997,secondary,F1-9,not_about,,"Extends tobacco ad ban to print press; public health, not speech politics."
+135,134,137,2166826,הצעת חוק העונשין (תיקון - הוספת עילות לעבירות הסתה ופשע שנאה),2166826,secondary,F1-10,borderline,−,Expands incitement and hate-crime offences; restricts speech but for another protected group.
+135,134,137,2236720 2237397,הצעת חוק הסרת תכנים מיניים שמפורסמים ללא הסכמה מרשת חברתית,2237397,secondary,F1-11,not_about,,"Removal of non-consensual sexual content; privacy protection, not speech politics."
+135,134,137,2218879,הצעת חוק מניעת פגיעת גוף שידורים זר בביטחון המדינה (הוראת שעה - חרבות ברזל) (תיקון - הארכת תוקף),2218879,secondary,F1-12,about,−,Extends foreign broadcaster ban; restricts foreign channels deemed security risk.
+135,134,137,2242922,הצעת חוק בתי המשפט (תיקון - חוות דעת פסיכיאטר לעניין איסור פרסומים),2242922,secondary,F1-13,not_about,,Evidence rules for gag orders on sex-offence suspects; court procedure.
+135,134,137,2162653,הצעת חוק למניעת ביצוע עבירות באמצעות פרסום באינטרנט (הסרת תוכן),2162653,secondary,F1-14,about,−,"Court orders to remove online content, including state-security grounds; restricts speech."
+135,134,137,2223554,חוק מניעת פגיעת גוף שידורים זר בביטחון המדינה (הוראת שעה – חרבות ברזל) (תיקון מס' 2),2223554,secondary,F1-15,about,−,Amends foreign broadcaster ban on security grounds; restricts foreign channels.
+141,81s3,250b,2192074 2198666 2224653,הצעת חוק העונשין (תיקון - קנס על החזקת נשק בלתי חוקי),2192074,secondary,F1-16,about,+,Adds fine for illegal weapon possession; harsher punishment.
+141,81s3,250b,2190418,חוק כלי הירייה (תיקון מס' 24),2190418,secondary,F1-17,about,+,"Regulates imitation firearms, adding offences as part of illegal weapons crackdown."
+141,81s3,250b,2198704,הצעת חוק העונשין (תיקון - הסדר חילוט לרכושו של סוחר נשק),2198704,secondary,F1-18,about,+,Forfeiture of arms dealers' property; additional sanction for weapons trade.
+141,81s3,250b,2165091,הצעת חוק העונשין (תיקון מס' 143) (עבירות בנשק),2165091,secondary,F1-19,about,+,Amends weapons offences in penal law; harsher treatment of illegal weapons.
+141,81s3,250b,2205477,הצעת חוק העונשין (תיקון - עבירות בנשק),2205477,secondary,F1-20,about,+,Toughens weapons offences amid crime wave; harsher punishment.
+141,81s3,250b,2197938 2214306,הצעת חוק העונשין (תיקון - חילוט בעבירות החזקת נשק בלתי חוקי ללא אישום או הרשעה),2197938,secondary,F1-21,about,+,Forfeiture for illegal weapon possession even without conviction; harsher sanction.
+141,81s3,250b,2165980,הצעת חוק העונשין (תיקון - הסדר חילוט בעבירת סחר בנשק),2165980,secondary,F1-22,about,+,Forfeiture arrangement for weapons trade offence; additional sanction.
+141,81s3,250b,2239791,הצעת חוק לתיקון פקודת המשטרה (מערכת דיווח מאובטחת לקבלת מידע על מחזיקי אמצעי לחימה בלתי חוקיים),2239791,secondary,F1-23,borderline,+,"Police informant reporting system on illegal weapons; enforcement tool, not penalty."
+141,81s3,250b,2208110 2215996,הצעת חוק המשטרה (סמכויות),2215996,secondary,F1-24,borderline,+,Evidentiary presumption of weapon possession; eases conviction rather than raising penalties.
+141,81s3,250b,2215713,הצעת חוק העונשין (תיקון - נשק לפגיעה המונית),2215713,secondary,F1-25,about,+,New offence for mass-casualty weapons; harsher punishment.
+141,81s3,250b,2189993 2207619,הצעת חוק העונשין (תיקון - חזקת סוחר בכלי נשק),2207619,secondary,F1-26,borderline,+,"Presumption of arms dealing; evidentiary rule easing conviction, not penalty itself."
+141,81s3,250b,2230845 2237941,הצעת חוק למאבק בהברחות נשק (תיקוני חקיקה),2230845,secondary,F1-27,borderline,+,"Weapons smuggling at borders, framed as security threat; direction excludes security crime."
+141,81s3,250b,2201902,הצעת חוק העונשין (תיקון - עונשי מינימום בעבירות נשק),2201902,secondary,F1-28,about,+,Minimum sentences for weapons offences; harsher punishment.
+141,81s3,250b,2199805 2210489 2228557,הצעת חוק העונשין (תיקון - עונש מינימום וקנס על החזקת נשק בלתי חוקי),2210489,secondary,F1-29,about,+,Minimum sentence and fine for illegal weapon possession; harsher punishment.
+141,81s3,250b,2204484,"הצעת חוק העונשין (תיקון מס' 153) (החזקה, נשיאה והובלה של כמה כלי נשק), התשפ""ד–2024",2204484,secondary,F1-30,about,+,Offence for possessing several weapons; harsher punishment.
+141,81s3,250b,2210650,הצעת חוק העונשין (תיקון - ניקוי ישראל מנשק לא חוקי),2210650,secondary,F1-31,borderline,−,Likely legalization or amnesty path for illegal weapons; content unclear from notes.
+141,81s3,250b,2201865 2203263,הצעת חוק כלי הירייה (תיקון - דמויי כלי ירייה),2203263,secondary,F1-32,about,+,"Regulates imitation firearms against crime, adding offences; illegal weapons crackdown."
+141,81s3,250b,2230446 2231300,הצעת חוק חיפוש במקום שהוכרז כאזור מועד לפשיעה אלימה (תיקוני חקיקה),2231300,secondary,F1-33,borderline,+,"Search powers in high-crime zones; enforcement power, not penalty."
+141,81s3,250b,2158764,הצעת חוק העונשין (תיקון - עונש מינימום על החזקת נשק בלתי חוקי),2158764,secondary,F1-34,about,+,Minimum sentence for illegal weapon possession; harsher punishment.
+141,81s3,250b,2210487,הצעת חוק העונשין (תיקון - קנס בעבירת גניבת נשק),2210487,secondary,F1-35,about,+,Fine for weapon theft offence; harsher punishment.
+141,81s3,250b,2230634,הצעת חוק התמודדות עם תופעת עבירות נשק (תיקוני חקיקה והוראת שעה),2230634,secondary,F1-36,about,+,Legislative package against weapons offences; harsher treatment of illegal weapons.
+141,81s3,250b,2219766,הצעת חוק העונשין (תיקון מס' 140 - הוראת שעה) (תיקון - הארכת תוקף ושינוי הוועדה המפקחת),2219766,secondary,F1-37,about,+,Extends temporary minimum sentences for weapons offences; keeps harsher punishment.
+40,204,40s4,2156641 2199063,הצעת חוק ידועים בציבור,2199063,secondary,F1-38,borderline,+,"Recognizes cohabiting couples; non-traditional families, not specifically LGBT."
+40,204,40s4,2229632,הצעת חוק מרשם האוכלוסין (תיקון - הוספת צו הורות לרשימת מסירת העתקים של פסקי דין והצהרות),2229632,secondary,F1-39,borderline,+,"Registry procedure for surrogacy parenthood orders; administrative, relevant to non-traditional families."
+40,204,40s4,2201444,הצעת חוק לקביעת מעמדם של בני זוג שבאו בהסכם הזוגיות,2201444,secondary,F1-40,not_about,,"Civil union for a man and woman; civil marriage, not LGBT rights."

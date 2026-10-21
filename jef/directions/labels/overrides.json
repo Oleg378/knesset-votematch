@@ -12788,6 +12788,4119 @@
     "role": "main",
     "source": "external label audit (blind) + independent second check, 2026-10-18",
     "reason": "Reinstates permanent minimum sentence for throwing stones at vehicles"
+   },
+   {
+    "bill_id": "2157257",
+    "d": "204",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans conversion therapy for minors; protects LGBT youth",
+    "from_theme": "12a"
+   },
+   {
+    "bill_id": "2157923",
+    "d": "204",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans conversion therapy for minors; protects LGBT youth",
+    "from_theme": "12a"
+   },
+   {
+    "bill_id": "2160624",
+    "d": "204",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans conversion therapy for minors; protects LGBT youth",
+    "from_theme": "12a"
+   },
+   {
+    "bill_id": "2197656",
+    "d": "204",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans conversion therapy for minors; protects LGBT youth",
+    "from_theme": "12a"
+   },
+   {
+    "bill_id": "2199224",
+    "d": "204",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans conversion therapy for minors; protects LGBT youth",
+    "from_theme": "12a"
+   },
+   {
+    "bill_id": "2199914",
+    "d": "204",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans conversion therapy for minors; protects LGBT youth",
+    "from_theme": "12a"
+   },
+   {
+    "bill_id": "2200328",
+    "d": "204",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans conversion therapy for minors; protects LGBT youth",
+    "from_theme": "12a"
+   },
+   {
+    "bill_id": "2209838",
+    "d": "204",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans conversion therapy for minors; protects LGBT youth",
+    "from_theme": "12a"
+   },
+   {
+    "bill_id": "2242559",
+    "d": "204",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans conversion therapy for minors; protects LGBT youth",
+    "from_theme": "12a"
+   },
+   {
+    "bill_id": "2220054",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Extends detention of security-offence suspects; a direct counter-terror measure",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2166028",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Lowers municipal late-payment interest; less burden on debtors",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2197444",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Lowers municipal late-payment interest; less burden on debtors",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2199549",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Lowers municipal late-payment interest; less burden on debtors",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2203089",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Lowers municipal late-payment interest; less burden on debtors",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2208140",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Lowers municipal late-payment interest; less burden on debtors",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2156602",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Lets consumers stop payments obtained by unfair influence",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2199160",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Deal summary in marketing language; mandatory contract disclosure to consumer",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2157160",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Exempts pandemic bounced checks from account restriction; limits creditor sanction",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2216967",
+    "d": "77a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bars approaching police officers within two meters; strengthens police against interference.",
+    "from_theme": "149s4"
+   },
+   {
+    "bill_id": "2156345",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Compensation for debtors harmed by mistaken tax collection",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2197026",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Compensation for debtors harmed by mistaken tax collection",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2201936",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Compensation for debtors harmed by mistaken tax collection",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2234330",
+    "d": "90a",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Video hearings for security prisoners; fewer safeguards for detainees",
+    "from_theme": "dropped:B372"
+   },
+   {
+    "bill_id": "2235367",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Delays credit-rating harm from temporary bank account attachments for small debts",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2228807",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Defense minister's power to appoint and dismiss army officers",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2197901",
+    "d": "154",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Anchors rabbinical court arbitration in civil disputes by consent",
+    "from_theme": "297"
+   },
+   {
+    "bill_id": "2189699",
+    "d": "66a",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Restricts standing in High Court; courts review less",
+    "from_theme": "69a"
+   },
+   {
+    "bill_id": "2198793",
+    "d": "66a",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Restricts standing in High Court; courts review less",
+    "from_theme": "69a"
+   },
+   {
+    "bill_id": "2221689",
+    "d": "66a",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Restricts standing in High Court; courts review less",
+    "from_theme": "69a"
+   },
+   {
+    "bill_id": "2196327",
+    "d": "166",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Applies Israeli sovereignty to the Jordan Valley",
+    "from_theme": "167"
+   },
+   {
+    "bill_id": "2198938",
+    "d": "166",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Applies Israeli sovereignty to the Jordan Valley",
+    "from_theme": "167"
+   },
+   {
+    "bill_id": "2201430",
+    "d": "166",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Applies Israeli sovereignty to the Jordan Valley",
+    "from_theme": "167"
+   },
+   {
+    "bill_id": "2202734",
+    "d": "166",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Applies Israeli sovereignty to the Jordan Valley",
+    "from_theme": "167"
+   },
+   {
+    "bill_id": "2203397",
+    "d": "166",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Applies Israeli sovereignty to the Jordan Valley",
+    "from_theme": "167"
+   },
+   {
+    "bill_id": "2156971",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Shields exploited elderly from enforcement proceedings over illegal debts",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2168819",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Requires notifying debtor in tax collection; limits collector's tools",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2192450",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Requires notifying debtor in tax collection; limits collector's tools",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2197751",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Requires notifying debtor in tax collection; limits collector's tools",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2198482",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Restricts convicted terrorists from returning near victims; added sanction",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2167620",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Interest-free debt instalments at public bodies; protects debtors against creditors",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2197028",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Interest-free debt instalments at public bodies; protects debtors against creditors",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2198896",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Interest-free debt instalments at public bodies; protects debtors against creditors",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2200152",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Interest-free debt instalments at public bodies; protects debtors against creditors",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2204104",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Interest-free debt instalments at public bodies; protects debtors against creditors",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2223555",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Lets debtors seek stay during debt arrangements; weakens creditors' insolvency rights",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2228551",
+    "d": "166",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Applies Israeli legislation in Judea and Samaria by order",
+    "from_theme": "167"
+   },
+   {
+    "bill_id": "1057405",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Extends detention of security suspects; harsher counter-terror measure",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2156356",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Changes appointment of ministry legal advisers toward ministers",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2156878",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Changes appointment of ministry legal advisers toward ministers",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2158979",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Changes appointment of ministry legal advisers toward ministers",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2159245",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Changes appointment of ministry legal advisers toward ministers",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2159360",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Changes appointment of ministry legal advisers toward ministers",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2159465",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Changes appointment of ministry legal advisers toward ministers",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2159711",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Changes appointment of ministry legal advisers toward ministers",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2162773",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Changes appointment of ministry legal advisers toward ministers",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2191619",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Changes appointment of ministry legal advisers toward ministers",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2196872",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Changes appointment of ministry legal advisers toward ministers",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2196945",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Changes appointment of ministry legal advisers toward ministers",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2197910",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Changes appointment of ministry legal advisers toward ministers",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2198420",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Changes appointment of ministry legal advisers toward ministers",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2198895",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Changes appointment of ministry legal advisers toward ministers",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2199838",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Changes appointment of ministry legal advisers toward ministers",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2157112",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Requires notice before National Insurance debt collection",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2168781",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Requires notice before National Insurance debt collection",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2196719",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Requires notice before National Insurance debt collection",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2234018",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Requires notice before National Insurance debt collection",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2200128",
+    "d": "154",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Time-limits rabbinical courts joining property and custody; narrows their jurisdiction",
+    "from_theme": "297"
+   },
+   {
+    "bill_id": "2205960",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Municipalities must notify debtors before collection; protects debtors",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2214085",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Extends detention of security-offense suspects after October 7 terror attack",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2156258",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Electricity bills in installments; eases debtors' position toward supplier",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2158880",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Electricity bills in installments; eases debtors' position toward supplier",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2197262",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Electricity bills in installments; eases debtors' position toward supplier",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2198819",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Electricity bills in installments; eases debtors' position toward supplier",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2198849",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Electricity bills in installments; eases debtors' position toward supplier",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2200522",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Electricity bills in installments; eases debtors' position toward supplier",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2202189",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Electricity bills in installments; eases debtors' position toward supplier",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2210558",
+    "d": "92b",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bars public hospital treatment for terrorists; harsher conditions",
+    "from_theme": "11s4"
+   },
+   {
+    "bill_id": "2230805",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Removes advisory committee from senior appointments; more government control",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2206205",
+    "d": "159",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Strengthens rabbinical court sanctions against divorce refusers",
+    "from_theme": "dropped:B244"
+   },
+   {
+    "bill_id": "2156196",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Deporting terrorists' families is a harsh measure affecting uninvolved people",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2156307",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Deporting terrorists' families is a harsh measure affecting uninvolved people",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2159472",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Deporting terrorists' families is a harsh measure affecting uninvolved people",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2159755",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Deporting terrorists' families is a harsh measure affecting uninvolved people",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2161059",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Deporting terrorists' families is a harsh measure affecting uninvolved people",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2197406",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Deporting terrorists' families is a harsh measure affecting uninvolved people",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2197893",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Deporting terrorists' families is a harsh measure affecting uninvolved people",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2198970",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Deporting terrorists' families is a harsh measure affecting uninvolved people",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2212130",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Deporting terrorists' families is a harsh measure affecting uninvolved people",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2166691",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Changes appointment of ministry legal advisers, Attorney General, State Attorney toward ministers",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2156950",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Eases bounced-check sanctions on account holders; protects debtors",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2196998",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Eases bounced-check sanctions on account holders; protects debtors",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2235556",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Adds dental services to health fund obligations",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2202644",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Harsher treatment of minors convicted of terror offences",
+    "from_theme": "77b"
+   },
+   {
+    "bill_id": "2234001",
+    "d": "60",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Removes police subordination to the minister; more police independence",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2231610",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Government appoints civil service commissioner without tender; more ministerial control",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2219400",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Total closure of Gaza crossings; harsh counter-terror measure affecting uninvolved",
+    "from_theme": "81s1"
+   },
+   {
+    "bill_id": "2233919",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Extends restriction on lawyer meetings for security detainees; harsher counter-terror measure",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2216336",
+    "d": "3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Licensing exam accommodations for reservists; preference for those who served",
+    "from_theme": "211s2"
+   },
+   {
+    "bill_id": "2191238",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Contract document must be in marketing language, protecting weaker side",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2209512",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Defines ambulance for health fund travel refunds",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2156458",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Annual expansion of the health services basket",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2214514",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Death penalty for terror murder",
+    "from_theme": "92a"
+   },
+   {
+    "bill_id": "2243541",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Health insurance covers speech therapy in kindergartens",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2229709",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Extends detention powers over unlawful combatants during the war",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2156053",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Health funds must provide home hospitalization",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2196311",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Health funds must provide home hospitalization",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2200337",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Health funds must provide home hospitalization",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2201558",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Health funds must provide home hospitalization",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2159326",
+    "d": "166",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Applies Israeli law to settlements in Judea and Samaria",
+    "from_theme": "167"
+   },
+   {
+    "bill_id": "2156351",
+    "d": "179",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Basic Law to prohibit illegal immigration to Israel",
+    "from_theme": "165b"
+   },
+   {
+    "bill_id": "2157408",
+    "d": "179",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Basic Law to prohibit illegal immigration to Israel",
+    "from_theme": "165b"
+   },
+   {
+    "bill_id": "2197103",
+    "d": "179",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Basic Law to prohibit illegal immigration to Israel",
+    "from_theme": "165b"
+   },
+   {
+    "bill_id": "2197411",
+    "d": "179",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Basic Law to prohibit illegal immigration to Israel",
+    "from_theme": "165b"
+   },
+   {
+    "bill_id": "2234650",
+    "d": "179",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Basic Law to prohibit illegal immigration to Israel",
+    "from_theme": "165b"
+   },
+   {
+    "bill_id": "2189627",
+    "d": "77a",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans shackling prisoners in hospitals; limits prison service use of force",
+    "from_theme": "149s4"
+   },
+   {
+    "bill_id": "2157163",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Eases health coverage for returning residents without relatives",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2195949",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Eases health coverage for returning residents without relatives",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2197840",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Deports families of terrorists; harsh measure affecting uninvolved relatives",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2157558",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Ambulance refund for anaphylaxis from school; directly in statement",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2201634",
+    "d": "255a",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Mandates core studies and abolishes exempt institutions",
+    "from_theme": "161a"
+   },
+   {
+    "bill_id": "2206373",
+    "d": "255a",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Mandates core studies and abolishes exempt institutions",
+    "from_theme": "161a"
+   },
+   {
+    "bill_id": "2232229",
+    "d": "255a",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Mandates core studies and abolishes exempt institutions",
+    "from_theme": "161a"
+   },
+   {
+    "bill_id": "2164889",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Health insurance amendment for rare disease patients' entitlements",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2234003",
+    "d": "60",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Limits political involvement in appointing senior police officers",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2156636",
+    "d": "204",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans conversion therapy for minors, protecting LGBT youth",
+    "from_theme": "12a"
+   },
+   {
+    "bill_id": "2222852",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Special prosecution of October 7 massacre perpetrators; harsher treatment of terrorists",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2201921",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Fixed ambulance fee to nearest hospital; patient entitlement, ambulance costs",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2164318",
+    "d": "179",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Basic Law barring illegal immigration; harder entry and residence",
+    "from_theme": "165b"
+   },
+   {
+    "bill_id": "2210555",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Special legal tools to prosecute October 7 massacre perpetrators.",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2222538",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Special legal tools to prosecute October 7 massacre perpetrators.",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2157784",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Longer limitation period protects insured beneficiaries in life insurance contracts",
+    "from_theme": "133s3"
+   },
+   {
+    "bill_id": "2201257",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Longer limitation period protects insured beneficiaries in life insurance contracts",
+    "from_theme": "133s3"
+   },
+   {
+    "bill_id": "2219438",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Changes appointment of judges' complaints ombudsman, increasing political say",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2209469",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Exception to travel bans on debtors; directly in statement",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2218801",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Extends detention of security-offense suspects after October 7 terror attack",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2157776",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Statutory compensation for long call-center waits; mandatory consumer protection",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2159342",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Statutory compensation for long call-center waits; mandatory consumer protection",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2200507",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Statutory compensation for long call-center waits; mandatory consumer protection",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2169472",
+    "d": "179",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Basic Law change to allow detaining and deporting infiltrators",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2196860",
+    "d": "179",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Basic Law change to allow detaining and deporting infiltrators",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2197671",
+    "d": "179",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Basic Law change to allow detaining and deporting infiltrators",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2169827",
+    "d": "179",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Citizenship and Entry Law restricting Palestinian spouses' residence",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2190518",
+    "d": "159",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Strengthens sanctions against divorce refusers; makes divorce easier to obtain",
+    "from_theme": "dropped:B161"
+   },
+   {
+    "bill_id": "2159106",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bars people convicted of terror offenses from speaking in schools",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2200657",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bars people convicted of terror offenses from speaking in schools",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2159107",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Holding prisoners as leverage against terror organizations",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2202760",
+    "d": "164",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "State commemoration of two religious-Zionist chief rabbis; funding heritage of a movement",
+    "from_theme": "32s2"
+   },
+   {
+    "bill_id": "2226337",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Separate, harsher incarceration regime for security prisoners",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "1056881",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Extends detention powers over unlawful combatants; stronger counter-terror measure",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2229156",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Publishing names of released security prisoners is an added anti-terror measure",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2196873",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Death penalty for terrorists, as in the statement",
+    "from_theme": "92a"
+   },
+   {
+    "bill_id": "2198443",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Death penalty for terrorists, as in the statement",
+    "from_theme": "92a"
+   },
+   {
+    "bill_id": "2191249",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Requires businesses to record calls and give them to consumers",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2166084",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Prior consent before telemarketing distance sales; consumer protection term",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2197341",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Prior consent before telemarketing distance sales; consumer protection term",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2204107",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Prior consent before telemarketing distance sales; consumer protection term",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2156389",
+    "d": "60",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Anchors senior appointments committee in law; appointments bound by criteria",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2196812",
+    "d": "60",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Anchors senior appointments committee in law; appointments bound by criteria",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2208795",
+    "d": "60",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Anchors senior appointments committee in law; appointments bound by criteria",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2159382",
+    "d": "179",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Basic Law on immigration and status against infiltration; restricts foreigners' entry",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2169574",
+    "d": "179",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Basic Law on immigration and status against infiltration; restricts foreigners' entry",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2196908",
+    "d": "179",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Basic Law on immigration and status against infiltration; restricts foreigners' entry",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2210157",
+    "d": "179",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Basic Law on immigration and status against infiltration; restricts foreigners' entry",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2199654",
+    "d": "66a",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Judicial reform limiting court review and allowing override",
+    "from_theme": "69a"
+   },
+   {
+    "bill_id": "2162656",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Consumer agreements must be accessible to non-Hebrew speakers",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2156580",
+    "d": "255a",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Mandates core subjects in all schools",
+    "from_theme": "161a"
+   },
+   {
+    "bill_id": "2157950",
+    "d": "255a",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Mandates core subjects in all schools",
+    "from_theme": "161a"
+   },
+   {
+    "bill_id": "2159303",
+    "d": "255a",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Mandates core subjects in all schools",
+    "from_theme": "161a"
+   },
+   {
+    "bill_id": "2201132",
+    "d": "255a",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Mandates core subjects in all schools",
+    "from_theme": "161a"
+   },
+   {
+    "bill_id": "2224518",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bank must notify customer of account lien; protects debtors",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2227677",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bank must notify customer of account lien; protects debtors",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2156086",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Requires collectors to refund over-collection with matching interest",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2195861",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Requires collectors to refund over-collection with matching interest",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2234472",
+    "d": "179",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Grants residency to Druze from southern Syria, easing foreigners' entry",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2158252",
+    "d": "154",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Rabbinical courts hear civil disputes by consent; exactly the statement",
+    "from_theme": "297"
+   },
+   {
+    "bill_id": "2166234",
+    "d": "154",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Rabbinical courts hear civil disputes by consent; exactly the statement",
+    "from_theme": "297"
+   },
+   {
+    "bill_id": "2196475",
+    "d": "154",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Rabbinical courts hear civil disputes by consent; exactly the statement",
+    "from_theme": "297"
+   },
+   {
+    "bill_id": "2197753",
+    "d": "154",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Rabbinical courts hear civil disputes by consent; exactly the statement",
+    "from_theme": "297"
+   },
+   {
+    "bill_id": "2235652",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Detention and prosecution of October 7 attackers",
+    "from_theme": "77b"
+   },
+   {
+    "bill_id": "2236997",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Detention and prosecution of October 7 attackers",
+    "from_theme": "77b"
+   },
+   {
+    "bill_id": "2223239",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Demolition of terrorists' homes is a harsher counter-terror measure.",
+    "from_theme": "77b"
+   },
+   {
+    "bill_id": "2204039",
+    "d": "103a",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Suspends Knesset members indicted for crimes",
+    "from_theme": "89s1"
+   },
+   {
+    "bill_id": "2200261",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Mandatory phone channel for cancelling airline transactions",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2198297",
+    "d": "164",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Raises funding for Jabotinsky institute; movement heritage center funding",
+    "from_theme": "32s2"
+   },
+   {
+    "bill_id": "2232635",
+    "d": "164",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Raises funding for Jabotinsky institute; movement heritage center funding",
+    "from_theme": "32s2"
+   },
+   {
+    "bill_id": "2157120",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Businesses must record consumer calls and give recordings to consumers",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2168605",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Businesses must record consumer calls and give recordings to consumers",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2197388",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Businesses must record consumer calls and give recordings to consumers",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2230568",
+    "d": "164",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "State center commemorating Rabbi Nachman of Breslov; movement heritage center",
+    "from_theme": "32s2"
+   },
+   {
+    "bill_id": "2239034",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Fixed terms for municipal legal advisers make them more dependent on politicians.",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2192131",
+    "d": "164",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Creates state authority for Aramaic Jewish heritage culture.",
+    "from_theme": "32s2"
+   },
+   {
+    "bill_id": "2198714",
+    "d": "164",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Creates state authority for Aramaic Jewish heritage culture.",
+    "from_theme": "32s2"
+   },
+   {
+    "bill_id": "2190785",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Protects soldiers' payments from seizure by creditors",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2191511",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Health insurance funds mobility scooters for people with somatic disabilities",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2229752",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "New government may dismiss senior officials in first 100 days",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2240916",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "New government may dismiss senior officials in first 100 days",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2202664",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Changes appointment of legal advisers, Attorney General and State Attorney",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2196177",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Ministers gain control over appointing ministry legal advisers",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2168627",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Harsher prison conditions for security prisoners; tougher measures against terrorists",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2197023",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Harsher prison conditions for security prisoners; tougher measures against terrorists",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2203842",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Makes legal advice to government non-binding",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2223703",
+    "d": "179",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Makes family-unification ban for Palestinians permanent; harder entry and residence",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2228830",
+    "d": "164",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "State commemoration of a specific immigrant community's heritage",
+    "from_theme": "32s2"
+   },
+   {
+    "bill_id": "2218696",
+    "d": "3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Paid sick leave to care for wounded soldiers; benefit to soldiers' families",
+    "from_theme": "211s2"
+   },
+   {
+    "bill_id": "2224063",
+    "d": "60",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Removes minister's policy power over police; police more independent",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2239505",
+    "d": "60",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Removes minister's policy power over police; police more independent",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2227641",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Publishes identities of released security prisoners; added sanction",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2166118",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Adds rare-disease coverage obligations under national health insurance",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2193682",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Adds rare-disease coverage obligations under national health insurance",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2197243",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Adds rare-disease coverage obligations under national health insurance",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2197315",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Adds rare-disease coverage obligations under national health insurance",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2197514",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Adds rare-disease coverage obligations under national health insurance",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2198996",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Adds rare-disease coverage obligations under national health insurance",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2203219",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Adds rare-disease coverage obligations under national health insurance",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2203792",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Adds rare-disease coverage obligations under national health insurance",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2168038",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Mandatory online invoice delivery to consumers; consumer protection obligation",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2197968",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Mandatory online invoice delivery to consumers; consumer protection obligation",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2204144",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Mandatory online invoice delivery to consumers; consumer protection obligation",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2157741",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Funds egg freezing for fertility; adds covered service",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2197495",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Funds egg freezing for fertility; adds covered service",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2192649",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Reforms execution interest and arrears fees; likely lowers debtor burden",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2156348",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Death penalty for terror murder",
+    "from_theme": "92a"
+   },
+   {
+    "bill_id": "2156604",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Death penalty for terror murder",
+    "from_theme": "92a"
+   },
+   {
+    "bill_id": "2159324",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Death penalty for terror murder",
+    "from_theme": "92a"
+   },
+   {
+    "bill_id": "2162774",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Death penalty for terror murder",
+    "from_theme": "92a"
+   },
+   {
+    "bill_id": "2166134",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Death penalty for terror murder",
+    "from_theme": "92a"
+   },
+   {
+    "bill_id": "2196809",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Death penalty for terror murder",
+    "from_theme": "92a"
+   },
+   {
+    "bill_id": "2197423",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Death penalty for terror murder",
+    "from_theme": "92a"
+   },
+   {
+    "bill_id": "2165666",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Consumer right to cancel food purchases after Passover",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2195857",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Consumer right to cancel food purchases after Passover",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2157016",
+    "d": "179",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Limits extension of spouse-restriction law and changes criteria; eases entry",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2161175",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Health insurance covers dental care for cerebral palsy patients",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2197327",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Health insurance covers dental care for cerebral palsy patients",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2156957",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Reduces late surcharge on toll road debts; weaker collection tool",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2161329",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Reduces late surcharge on toll road debts; weaker collection tool",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2163464",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Reduces late surcharge on toll road debts; weaker collection tool",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2167874",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Reduces late surcharge on toll road debts; weaker collection tool",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2196978",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Reduces late surcharge on toll road debts; weaker collection tool",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2197616",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Reduces late surcharge on toll road debts; weaker collection tool",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2212298",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Wartime detention of unlawful combatants; counter-terror measure",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2206815",
+    "d": "66a",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Limits court standing for foreign-funded groups; reduces judicial review",
+    "from_theme": "69a"
+   },
+   {
+    "bill_id": "2156812",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Delays mortgage foreclosure on homes; protects debtors",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2159765",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans donations from enemy or terror-supporting states",
+    "from_theme": "8s3s3"
+   },
+   {
+    "bill_id": "2202972",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans donations from enemy or terror-supporting states",
+    "from_theme": "8s3s3"
+   },
+   {
+    "bill_id": "2206261",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Mandatory tuition refunds to students for strikes",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2235558",
+    "d": "3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Protects reservist students' studies; more benefits for those who serve",
+    "from_theme": "211s2"
+   },
+   {
+    "bill_id": "2194530",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Insurance contract law: interest and limitation period protecting insured persons",
+    "from_theme": "133s3"
+   },
+   {
+    "bill_id": "2212133",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Restricts convicted terrorists from returning near victims; sanction on terrorists",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2240737",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Requires locating debtors and minimum time before fine collection measures.",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2232179",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Used-car buyer right to information before purchase; mandatory consumer protection",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2203426",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Restricts convicted terrorists from returning near victims; added sanction",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2156844",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Adds dental care for over-60s to national health basket",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2159468",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Adds dental care for over-60s to national health basket",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2196155",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Adds dental care for over-60s to national health basket",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2198197",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Adds dental care for over-60s to national health basket",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2221001",
+    "d": "159",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Denies legal aid to divorce refusers; pressures refusal, easier divorce",
+    "from_theme": "dropped:B316"
+   },
+   {
+    "bill_id": "2189889",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Coronavirus relief in enforcement proceedings; fewer collection tools",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2156118",
+    "d": "166",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Abolishing Civil Administration moves West Bank under ministries; de facto sovereignty",
+    "from_theme": "167"
+   },
+   {
+    "bill_id": "2156891",
+    "d": "166",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Abolishing Civil Administration moves West Bank under ministries; de facto sovereignty",
+    "from_theme": "167"
+   },
+   {
+    "bill_id": "2156969",
+    "d": "166",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Abolishing Civil Administration moves West Bank under ministries; de facto sovereignty",
+    "from_theme": "167"
+   },
+   {
+    "bill_id": "2165903",
+    "d": "166",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Abolishing Civil Administration moves West Bank under ministries; de facto sovereignty",
+    "from_theme": "167"
+   },
+   {
+    "bill_id": "2202986",
+    "d": "166",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Abolishing Civil Administration moves West Bank under ministries; de facto sovereignty",
+    "from_theme": "167"
+   },
+   {
+    "bill_id": "2203242",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Limits arrears interest on unpaid parking fines; eases debt surcharges",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2243845",
+    "d": "255a",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Public funding only for schools teaching a uniform core curriculum",
+    "from_theme": "161a"
+   },
+   {
+    "bill_id": "2242444",
+    "d": "3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Work absence right for reservists' partners; benefit for reservist families",
+    "from_theme": "211s2"
+   },
+   {
+    "bill_id": "2166070",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Mandatory price display at checkout protects consumers",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2197335",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Mandatory price display at checkout protects consumers",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2199646",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Mandatory price display at checkout protects consumers",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2192912",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Compensates debtors for delayed lifting of enforcement measures",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2197749",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Compensates debtors for delayed lifting of enforcement measures",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2156853",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Fully subsidized medicines for World War II veterans under health insurance",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2196164",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Fully subsidized medicines for World War II veterans under health insurance",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2217493",
+    "d": "3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Dismissal protection for bereaved military families.",
+    "from_theme": "211s2"
+   },
+   {
+    "bill_id": "2219079",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Special military court for terror crimes against Jews; harsher counter-terror measure",
+    "from_theme": "81s1"
+   },
+   {
+    "bill_id": "2215100",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Immediate insolvency discharge for elderly debtors; weaker creditor rights",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2166212",
+    "d": "204",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Warning on conversion therapy ads protects LGBT people",
+    "from_theme": "12a"
+   },
+   {
+    "bill_id": "2168414",
+    "d": "204",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Warning on conversion therapy ads protects LGBT people",
+    "from_theme": "12a"
+   },
+   {
+    "bill_id": "2211485",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Harsher punishment and citizenship revocation for terrorists",
+    "from_theme": "81s1"
+   },
+   {
+    "bill_id": "2240082",
+    "d": "204",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans conversion therapy for minors, protecting LGBT youth",
+    "from_theme": "12a"
+   },
+   {
+    "bill_id": "2229920",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans trade with Gaza as hostile area; terror financing measure",
+    "from_theme": "81s1"
+   },
+   {
+    "bill_id": "2233991",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans trade with Gaza as hostile area; terror financing measure",
+    "from_theme": "81s1"
+   },
+   {
+    "bill_id": "2240826",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans trade with Gaza as hostile area; terror financing measure",
+    "from_theme": "81s1"
+   },
+   {
+    "bill_id": "2156189",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Removes waiting restriction on health services for returning residents",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2199995",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Removes waiting restriction on health services for returning residents",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2227498",
+    "d": "179",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Denies citizenship to children of illegal entrants; harder to stay",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2229111",
+    "d": "179",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Denies citizenship to children of illegal entrants; harder to stay",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2200663",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Death penalty for terrorists; exactly the statement",
+    "from_theme": "92a"
+   },
+   {
+    "bill_id": "2159930",
+    "d": "166",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Applies Israeli sovereignty to western Samaria bloc",
+    "from_theme": "167"
+   },
+   {
+    "bill_id": "2202640",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Reduces late surcharges on unpaid fines; eases debtors' burden",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2165350",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Requires notice to debtor before mortgage enforcement",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2198030",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Requires notice to debtor before mortgage enforcement",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2156437",
+    "d": "154",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Rabbinical courts hear civil matters by consent; exactly the statement",
+    "from_theme": "297"
+   },
+   {
+    "bill_id": "2196192",
+    "d": "154",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Rabbinical courts hear civil matters by consent; exactly the statement",
+    "from_theme": "297"
+   },
+   {
+    "bill_id": "2156597",
+    "d": "179",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Eases residence permits for Palestinian spouses of citizens",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2196940",
+    "d": "179",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Eases residence permits for Palestinian spouses of citizens",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2198682",
+    "d": "179",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Eases residence permits for Palestinian spouses of citizens",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2156136",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Limits arrears surcharge on unpaid parking fines",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2229802",
+    "d": "60",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Strengthens independence of ministry legal advisers",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2166404",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Adds children's dental care to health basket",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2220841",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Collection centre must locate and notify debtors before arrears grow",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2223950",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Collection centre must locate and notify debtors before arrears grow",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2224146",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Collection centre must locate and notify debtors before arrears grow",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2158884",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Funds supplementary health services for certain populations; more coverage",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2221549",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Prosecutes Hamas terrorists and helpers under harsh special norms",
+    "from_theme": "81s1"
+   },
+   {
+    "bill_id": "2193508",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Statutory compensation for excessive phone wait times; mandatory consumer term",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2157319",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Cuts late surcharges on state-collected fines; eases debtors' burden",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2157354",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Cuts late surcharges on state-collected fines; eases debtors' burden",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2159826",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Cuts late surcharges on state-collected fines; eases debtors' burden",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2197174",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Cuts late surcharges on state-collected fines; eases debtors' burden",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2202738",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Cuts late surcharges on state-collected fines; eases debtors' burden",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2241438",
+    "d": "166",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Applies Israeli sovereignty to four cities in Judea and Samaria",
+    "from_theme": "167"
+   },
+   {
+    "bill_id": "2159327",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Removes Government Companies Authority from director appointments; ministers freer",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2202674",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Removes Government Companies Authority from director appointments; ministers freer",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2198175",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Ministers appoint deputy directors-general as positions of trust",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2156786",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Eases bounced-check account restrictions during pandemic",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2197161",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Eases bounced-check account restrictions during pandemic",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2192832",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Ambulance cost refunds for elderly on income support",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2190620",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Dedicated basket funding for orphan disease drugs; more coverage for patients",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2223724",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Denies visits to prisoners belonging to terror organizations",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2156501",
+    "d": "204",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans conversion therapy for minors; protects LGBT youth",
+    "from_theme": "12a"
+   },
+   {
+    "bill_id": "2234004",
+    "d": "204",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans conversion therapy for minors; protects LGBT youth",
+    "from_theme": "12a"
+   },
+   {
+    "bill_id": "2239384",
+    "d": "204",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans conversion therapy for minors; protects LGBT youth",
+    "from_theme": "12a"
+   },
+   {
+    "bill_id": "2223518",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Government chooses its court representation, bypassing attorney general",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2220437",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Banks must write off debts of small businesses and insolvent citizens",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2237905",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Banks must write off debts of small businesses and insolvent citizens",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2157650",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Protected debtors in enforcement proceedings; fewer collection tools",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2190341",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bus operators must offer human phone service; mandatory consumer obligation",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2197339",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bus operators must offer human phone service; mandatory consumer obligation",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2211937",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Keeps wartime defaults out of credit data; less creditor information",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2156124",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Exceptions committee for poor consumers unable to pay water bills",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2170267",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Exceptions committee for poor consumers unable to pay water bills",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2196083",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Exceptions committee for poor consumers unable to pay water bills",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2230442",
+    "d": "166",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Applies Israeli law and sovereignty to Land of Israel areas",
+    "from_theme": "167"
+   },
+   {
+    "bill_id": "2235254",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Banks must promptly lift cancelled liens; protects debtors",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2215178",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Sanctions on terror supporters and payments to terrorists",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2223489",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Harsher punishment for aiding enemy in war",
+    "from_theme": "81s1"
+   },
+   {
+    "bill_id": "2224641",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Harsher punishment for aiding enemy in war",
+    "from_theme": "81s1"
+   },
+   {
+    "bill_id": "2198191",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Minister sets policy and directs the police.",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2157244",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Relaxes bounced-check account restrictions on debtors during COVID crisis.",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2167470",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Mandatory dedicated phone line for cancelling transactions",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2209004",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Mandatory dedicated phone line for cancelling transactions",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2157225",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Suspends bounced-check account restrictions in pandemic; eases debtor sanctions",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2167642",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Suspends bounced-check account restrictions in pandemic; eases debtor sanctions",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2160030",
+    "d": "179",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Citizenship and Entry law blocking Palestinian spouses' residence",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2162396",
+    "d": "179",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Citizenship and Entry law blocking Palestinian spouses' residence",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2167826",
+    "d": "179",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Citizenship and Entry law blocking Palestinian spouses' residence",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2164167",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Eases bank account restriction sanction for bounced checks",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2167823",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Eases bank account restriction sanction for bounced checks",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2198000",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Eases bank account restriction sanction for bounced checks",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2198169",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Eases bank account restriction sanction for bounced checks",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2198303",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Eases bank account restriction sanction for bounced checks",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2198983",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Restricts convicted terrorists from living near victims; added sanction",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2212656",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Restricts convicted terrorists from living near victims; added sanction",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2231725",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Coalition-chosen members on committee vetting Knesset legal adviser",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2165639",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Weakens Attorney General's monopoly on representing the state; more government control",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2220813",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Requires tax collector to notify debtors before debts accrue penalties",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2224667",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Requires tax collector to notify debtors before debts accrue penalties",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2157673",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Waives health-insurance waiting period for returning students; more entitlement",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2161323",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Waives health-insurance waiting period for returning students; more entitlement",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2163454",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Waives health-insurance waiting period for returning students; more entitlement",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2197461",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Waives health-insurance waiting period for returning students; more entitlement",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2197491",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Waives health-insurance waiting period for returning students; more entitlement",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2205936",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Waives health-insurance waiting period for returning students; more entitlement",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2237802",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Declares Islamist movements terror organisations, removes supporting parties",
+    "from_theme": "81s1"
+   },
+   {
+    "bill_id": "2227993",
+    "d": "3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Tender preference for employers of reservists",
+    "from_theme": "211s2"
+   },
+   {
+    "bill_id": "2232198",
+    "d": "3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Tender preference for employers of reservists",
+    "from_theme": "211s2"
+   },
+   {
+    "bill_id": "2239356",
+    "d": "3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Tender preference for employers of reservists",
+    "from_theme": "211s2"
+   },
+   {
+    "bill_id": "2157111",
+    "d": "178",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Abolishes the death penalty",
+    "from_theme": "81s1"
+   },
+   {
+    "bill_id": "2158014",
+    "d": "178",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Abolishes the death penalty",
+    "from_theme": "81s1"
+   },
+   {
+    "bill_id": "2200389",
+    "d": "178",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Abolishes the death penalty",
+    "from_theme": "81s1"
+   },
+   {
+    "bill_id": "2167584",
+    "d": "66a",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Restricts standing before High Court, reducing judicial review",
+    "from_theme": "69a"
+   },
+   {
+    "bill_id": "2159803",
+    "d": "77a",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Limits pretrial detention for minor offences; fewer arrest powers",
+    "from_theme": "149s4"
+   },
+   {
+    "bill_id": "2205472",
+    "d": "77a",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Limits pretrial detention for minor offences; fewer arrest powers",
+    "from_theme": "149s4"
+   },
+   {
+    "bill_id": "2222951",
+    "d": "253a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans parental payments in compulsory education; more free education",
+    "from_theme": "dropped:B327"
+   },
+   {
+    "bill_id": "2212215",
+    "d": "3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Tuition funding for reservists; more benefits for those who served",
+    "from_theme": "211s2"
+   },
+   {
+    "bill_id": "2156681",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Fixed annual addition to health basket; more coverage owed to patients",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2190597",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Ministry legal advisers appointed on minister's proposal without tender",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2157093",
+    "d": "179",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Repeals family-unification restriction; eases entry of Palestinian spouses",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2158665",
+    "d": "179",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Repeals family-unification restriction; eases entry of Palestinian spouses",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2191021",
+    "d": "179",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Repeals family-unification restriction; eases entry of Palestinian spouses",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2191022",
+    "d": "179",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Repeals family-unification restriction; eases entry of Palestinian spouses",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2191031",
+    "d": "179",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Repeals family-unification restriction; eases entry of Palestinian spouses",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2196334",
+    "d": "179",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Repeals family-unification restriction; eases entry of Palestinian spouses",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2197387",
+    "d": "179",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Repeals family-unification restriction; eases entry of Palestinian spouses",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2197485",
+    "d": "179",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Repeals family-unification restriction; eases entry of Palestinian spouses",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2220950",
+    "d": "3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Job protection for bereaved military families, a benefit",
+    "from_theme": "211s2"
+   },
+   {
+    "bill_id": "2158530",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Death penalty for terrorists; directly the statement",
+    "from_theme": "92a"
+   },
+   {
+    "bill_id": "2157699",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Corona protection of tenants and mortgage holders from eviction or foreclosure",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2230303",
+    "d": "187",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Credits military or national service in higher education and civil service tenders",
+    "from_theme": "dropped:B358"
+   },
+   {
+    "bill_id": "2229959",
+    "d": "179",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Tightens citizenship temporary order on ages and wartime; harder residence",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2158490",
+    "d": "179",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Eases naturalization procedure for foreign spouses of citizens",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2195849",
+    "d": "179",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Eases naturalization procedure for foreign spouses of citizens",
+    "from_theme": "183"
+   },
+   {
+    "bill_id": "2207172",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Government governs, legal adviser only advises",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2158067",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans electricity and water cut-offs; removes a creditor collection tool",
+    "from_theme": "34s1"
+   },
+   {
+    "bill_id": "2197786",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans electricity and water cut-offs; removes a creditor collection tool",
+    "from_theme": "34s1"
+   },
+   {
+    "bill_id": "2157245",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Includes punitive debts in bankruptcy discharge; weakens creditors",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2197048",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Includes punitive debts in bankruptcy discharge; weakens creditors",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2198836",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Includes punitive debts in bankruptcy discharge; weakens creditors",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2161223",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Fully subsidized services and drugs for seniors",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2197191",
+    "d": "166",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Applies Israeli law to western Samaria bloc",
+    "from_theme": "167"
+   },
+   {
+    "bill_id": "2167118",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Changes government companies appointments committee to strengthen elected officials' control.",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2239981",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Debt discharge for debtors with limited means in enforcement.",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2191396",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Insurance contract: limitation and special interest protect insured persons against insurers",
+    "from_theme": "133s3"
+   },
+   {
+    "bill_id": "2197021",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Insurance contract: limitation and special interest protect insured persons against insurers",
+    "from_theme": "133s3"
+   },
+   {
+    "bill_id": "2199165",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Insurance contract: limitation and special interest protect insured persons against insurers",
+    "from_theme": "133s3"
+   },
+   {
+    "bill_id": "2202099",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Insurance contract: limitation and special interest protect insured persons against insurers",
+    "from_theme": "133s3"
+   },
+   {
+    "bill_id": "2156929",
+    "d": "204",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Banning conversion therapy protects LGBT people.",
+    "from_theme": "12a"
+   },
+   {
+    "bill_id": "2156429",
+    "d": "204",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans conversion therapy, protecting LGBT people",
+    "from_theme": "12a"
+   },
+   {
+    "bill_id": "2200900",
+    "d": "204",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans conversion therapy, protecting LGBT people",
+    "from_theme": "12a"
+   },
+   {
+    "bill_id": "2204131",
+    "d": "204",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans conversion therapy, protecting LGBT people",
+    "from_theme": "12a"
+   },
+   {
+    "bill_id": "2239531",
+    "d": "60",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Government appoints senior civil servants at its discretion.",
+    "from_theme": "46"
+   },
+   {
+    "bill_id": "2229183",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Declares a jihadist group a terror organization",
+    "from_theme": "81s1"
+   },
+   {
+    "bill_id": "2203913",
+    "d": "277g1",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Rights for students studying abroad; more student support",
+    "from_theme": "dropped:B227"
+   },
+   {
+    "bill_id": "2156848",
+    "d": "154",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Anchors religious courts' power to arbitrate civil disputes by consent",
+    "from_theme": "297"
+   },
+   {
+    "bill_id": "2166235",
+    "d": "154",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Anchors religious courts' power to arbitrate civil disputes by consent",
+    "from_theme": "297"
+   },
+   {
+    "bill_id": "2166386",
+    "d": "154",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Anchors religious courts' power to arbitrate civil disputes by consent",
+    "from_theme": "297"
+   },
+   {
+    "bill_id": "2191996",
+    "d": "154",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Anchors religious courts' power to arbitrate civil disputes by consent",
+    "from_theme": "297"
+   },
+   {
+    "bill_id": "2227588",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans essential services to hostile entities; added counter-terror measure",
+    "from_theme": "81s1"
+   },
+   {
+    "bill_id": "2234368",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans essential services to hostile entities; added counter-terror measure",
+    "from_theme": "81s1"
+   },
+   {
+    "bill_id": "2197097",
+    "d": "226",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Abolishes travel bans over small debts, as in the statement",
+    "from_theme": "227"
+   },
+   {
+    "bill_id": "2157277",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Fixed annual health basket increase; more coverage owed to patients",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2201888",
+    "d": "12b",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Fixed annual health basket increase; more coverage owed to patients",
+    "from_theme": "11s1"
+   },
+   {
+    "bill_id": "2215060",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Counter-terror law against incitement on social networks",
+    "from_theme": "77b"
+   },
+   {
+    "bill_id": "2203345",
+    "d": "195a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bars employing terror supporters in civil service",
+    "from_theme": "88s3"
+   },
+   {
+    "bill_id": "2163378",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bans murals commemorating terrorists, a sanction on terror supporters",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2199298",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Death penalty for terrorists; exactly the statement's example",
+    "from_theme": "92a"
+   },
+   {
+    "bill_id": "2211922",
+    "d": "178",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Bars Red Cross access to terror prisoners; harsher treatment of terrorists",
+    "from_theme": "149s1"
+   },
+   {
+    "bill_id": "2160584",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Mandatory monthly billing for water and electricity consumers",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "1046169",
+    "d": "179",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Supervision powers over spouse status applicants tighten residence",
+    "from_theme": "160s2"
+   },
+   {
+    "bill_id": "2218572",
+    "d": "353",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes (2026-10-21): two blind checks «about», same sign",
+    "reason": "Wartime amendment to flight cancellation compensation; likely eases airline duties",
+    "from_theme": "19s1"
+   },
+   {
+    "bill_id": "2215060",
+    "d": "134",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Criminalizes terror incitement on social networks; security-based speech restriction.",
+    "from_theme": "137"
+   },
+   {
+    "bill_id": "2219766",
+    "d": "81s3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Extends temporary minimum sentences for weapons offences; keeps harsher punishment.",
+    "from_theme": "250b"
+   },
+   {
+    "bill_id": "2192074",
+    "d": "81s3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Adds fine for illegal weapon possession; harsher punishment.",
+    "from_theme": "250b"
+   },
+   {
+    "bill_id": "2198666",
+    "d": "81s3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Adds fine for illegal weapon possession; harsher punishment.",
+    "from_theme": "250b"
+   },
+   {
+    "bill_id": "2224653",
+    "d": "81s3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Adds fine for illegal weapon possession; harsher punishment.",
+    "from_theme": "250b"
+   },
+   {
+    "bill_id": "2198704",
+    "d": "81s3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Forfeiture of arms dealers' property; additional sanction for weapons trade.",
+    "from_theme": "250b"
+   },
+   {
+    "bill_id": "2230634",
+    "d": "81s3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Legislative package against weapons offences; harsher treatment of illegal weapons.",
+    "from_theme": "250b"
+   },
+   {
+    "bill_id": "2165980",
+    "d": "81s3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Forfeiture arrangement for weapons trade offence; additional sanction.",
+    "from_theme": "250b"
+   },
+   {
+    "bill_id": "2231611",
+    "d": "134",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Amends foreign broadcaster ban on security grounds; restricts foreign channels.",
+    "from_theme": "137"
+   },
+   {
+    "bill_id": "2210487",
+    "d": "81s3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Fine for weapon theft offence; harsher punishment.",
+    "from_theme": "250b"
+   },
+   {
+    "bill_id": "2190418",
+    "d": "81s3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Regulates imitation firearms, adding offences as part of illegal weapons crackdown.",
+    "from_theme": "250b"
+   },
+   {
+    "bill_id": "2201902",
+    "d": "81s3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Minimum sentences for weapons offences; harsher punishment.",
+    "from_theme": "250b"
+   },
+   {
+    "bill_id": "2215713",
+    "d": "81s3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "New offence for mass-casualty weapons; harsher punishment.",
+    "from_theme": "250b"
+   },
+   {
+    "bill_id": "2199805",
+    "d": "81s3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Minimum sentence and fine for illegal weapon possession; harsher punishment.",
+    "from_theme": "250b"
+   },
+   {
+    "bill_id": "2210489",
+    "d": "81s3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Minimum sentence and fine for illegal weapon possession; harsher punishment.",
+    "from_theme": "250b"
+   },
+   {
+    "bill_id": "2228557",
+    "d": "81s3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Minimum sentence and fine for illegal weapon possession; harsher punishment.",
+    "from_theme": "250b"
+   },
+   {
+    "bill_id": "2165091",
+    "d": "81s3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Amends weapons offences in penal law; harsher treatment of illegal weapons.",
+    "from_theme": "250b"
+   },
+   {
+    "bill_id": "2197938",
+    "d": "81s3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Forfeiture for illegal weapon possession even without conviction; harsher sanction.",
+    "from_theme": "250b"
+   },
+   {
+    "bill_id": "2214306",
+    "d": "81s3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Forfeiture for illegal weapon possession even without conviction; harsher sanction.",
+    "from_theme": "250b"
+   },
+   {
+    "bill_id": "2158764",
+    "d": "81s3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Minimum sentence for illegal weapon possession; harsher punishment.",
+    "from_theme": "250b"
+   },
+   {
+    "bill_id": "2218879",
+    "d": "134",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Extends foreign broadcaster ban; restricts foreign channels deemed security risk.",
+    "from_theme": "137"
+   },
+   {
+    "bill_id": "2162653",
+    "d": "134",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Court orders to remove online content, including state-security grounds; restricts speech.",
+    "from_theme": "137"
+   },
+   {
+    "bill_id": "2201865",
+    "d": "81s3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Regulates imitation firearms against crime, adding offences; illegal weapons crackdown.",
+    "from_theme": "250b"
+   },
+   {
+    "bill_id": "2203263",
+    "d": "81s3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Regulates imitation firearms against crime, adding offences; illegal weapons crackdown.",
+    "from_theme": "250b"
+   },
+   {
+    "bill_id": "2223554",
+    "d": "134",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Amends foreign broadcaster ban on security grounds; restricts foreign channels.",
+    "from_theme": "137"
+   },
+   {
+    "bill_id": "2204484",
+    "d": "81s3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Offence for possessing several weapons; harsher punishment.",
+    "from_theme": "250b"
+   },
+   {
+    "bill_id": "2205477",
+    "d": "81s3",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
+    "reason": "Toughens weapons offences amid crime wave; harsher punishment.",
+    "from_theme": "250b"
    }
   ]
  },

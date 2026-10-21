@@ -132435,6 +132435,91 @@
    "bill_id": "2244742",
    "d": "307",
    "pair": "P320"
+  },
+  {
+   "bill_id": "2190517",
+   "d": "353",
+   "pair": "post-stage6: 22s1 in 353 (88%), strategy 1, customer 2026-10-21"
+  },
+  {
+   "bill_id": "2197557",
+   "d": "353",
+   "pair": "post-stage6: 22s1 in 353 (88%), strategy 1, customer 2026-10-21"
+  },
+  {
+   "bill_id": "2233598",
+   "d": "353",
+   "pair": "post-stage6: 22s1 in 353 (88%), strategy 1, customer 2026-10-21"
+  },
+  {
+   "bill_id": "2200286",
+   "d": "353",
+   "pair": "post-stage6: 22s1 in 353 (88%), strategy 1, customer 2026-10-21"
+  },
+  {
+   "bill_id": "2195963",
+   "d": "353",
+   "pair": "post-stage6: 22s1 in 353 (88%), strategy 1, customer 2026-10-21"
+  },
+  {
+   "bill_id": "2215002",
+   "d": "353",
+   "pair": "post-stage6: 22s1 in 353 (88%), strategy 1, customer 2026-10-21"
+  },
+  {
+   "bill_id": "2234022",
+   "d": "353",
+   "pair": "post-stage6: 22s1 in 353 (88%), strategy 1, customer 2026-10-21"
+  },
+  {
+   "bill_id": "2193117",
+   "d": "353",
+   "pair": "post-stage6: 22s1 in 353 (88%), strategy 1, customer 2026-10-21"
+  },
+  {
+   "bill_id": "2156881",
+   "d": "353",
+   "pair": "post-stage6: 22s1 in 353 (88%), strategy 1, customer 2026-10-21"
+  },
+  {
+   "bill_id": "2192139",
+   "d": "353",
+   "pair": "post-stage6: 22s1 in 353 (88%), strategy 1, customer 2026-10-21"
+  },
+  {
+   "bill_id": "2234725",
+   "d": "353",
+   "pair": "post-stage6: 22s1 in 353 (88%), strategy 1, customer 2026-10-21"
+  },
+  {
+   "bill_id": "2214401",
+   "d": "353",
+   "pair": "post-stage6: 22s1 in 353 (88%), strategy 1, customer 2026-10-21"
+  },
+  {
+   "bill_id": "2226093",
+   "d": "353",
+   "pair": "post-stage6: 22s1 in 353 (88%), strategy 1, customer 2026-10-21"
+  },
+  {
+   "bill_id": "2197150",
+   "d": "353",
+   "pair": "post-stage6: 22s1 in 353 (88%), strategy 1, customer 2026-10-21"
+  },
+  {
+   "bill_id": "2198740",
+   "d": "353",
+   "pair": "post-stage6: 22s1 in 353 (88%), strategy 1, customer 2026-10-21"
+  },
+  {
+   "bill_id": "2167829",
+   "d": "353",
+   "pair": "post-stage6: 22s1 in 353 (88%), strategy 1, customer 2026-10-21"
+  },
+  {
+   "bill_id": "2169590",
+   "d": "353",
+   "pair": "post-stage6: 22s1 in 353 (88%), strategy 1, customer 2026-10-21"
   }
  ]
 }

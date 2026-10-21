@@ -125,7 +125,7 @@ Texts for the methodology / FAQ page, English as shown. Numbers come from the ex
 **How topics are chosen.** A topic gets a statement only if the parties' former MKs actually differ on it in the Knesset record:
 at least 8 evaluated lists with 3 or more former MKs on the topic, a spread of their positions of at least 0.25, and at least 5
 distinct bills (a re-submitted bill counts once) sponsored by them. These thresholds were fixed in advance and are the same for every topic. Topics where all lists
-did the same, or where too few bills exist, are left out — even when they are important.
+did the same, or where too few bills exist, are left out — even when they are important. When one topic lies almost entirely inside another, a shared bill counts toward only one of them, chosen by whether voters would see two different questions.
 
 **Important topics that are not in the quiz, and why.**
 - *The lists' records hardly differ (nearly everyone pushed the same way):* credit and mortgages; tax enforcement; support for
