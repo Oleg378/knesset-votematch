@@ -26,7 +26,8 @@ LATER = [(2, 'plan2.json', 'split2_choice.jsonl'), (3, 'plan3.json', 'split3_cho
          (6, 'plan6.json', 'split6_choice.jsonl'),
          (7, 'plan7.json', 'split7_choice.jsonl'),
          (8, 'plan8.json', 'split8_choice.jsonl'),
-         (9, 'plan9.json', 'split9_choice.jsonl')]   # later split stages, in order (5, 6: baskets; 7, 8: audit splits of new statements; 2026-10-20; choice and sign by Sonnet)
+         (9, 'plan9.json', 'split9_choice.jsonl'),
+         (10, 'plan10.json', 'split10_choice.jsonl')]   # later split stages, in order (5, 6: baskets; 7, 8: audit splits of new statements; 2026-10-20; choice and sign by Sonnet; 10: baskets 230 credit and 311 legal aid, 2026-10-22)
 
 def later_plans():
     """Plans of the later split stages (2: audit of the statements, 3: audit of the new statements, 4: audit after the label removals,

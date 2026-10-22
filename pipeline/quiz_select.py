@@ -1,4 +1,4 @@
-"""Quiz direction selection criteria, exactly as in the original selection of the 74 directions (2026-10-15, METHOD_AUDIT п. 7).
+"""Quiz direction selection criteria, exactly as in the original selection of the 74 directions (2026-10-15, TECHNICAL.md п. 7).
 
 Over evaluated lists (status ok) whose position on the direction rests on >= 3 ex-MKs:
   coverage   — at least 8 such lists;

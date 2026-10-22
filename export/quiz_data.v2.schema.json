@@ -222,7 +222,8 @@
           "name_en",
           "status",
           "ex_mks",
-          "positions"
+          "positions",
+          "composition"
         ],
         "properties": {
           "id": {
@@ -259,7 +260,8 @@
                 "n_mk",
                 "n_votes",
                 "n_other",
-                "n_names"
+                "n_names",
+                "n_gov"
               ],
               "properties": {
                 "P": {
@@ -273,7 +275,7 @@
                 "e": {
                   "type": "number",
                   "minimum": 0,
-                  "description": "Evidence: sponsored bills + 0.25 * votes."
+                  "description": "Evidence: sponsored bills + 0.25 * votes (V + O + G)."
                 },
                 "n_mk": {
                   "type": "integer"
@@ -291,6 +293,32 @@
                   "type": "integer",
                   "minimum": 0,
                   "description": "Distinct bills (by name, sponsored or voted) behind the position; a clear position needs >= params.MIN_CLEAR_BILLS and n_mk >= params.MIN_CLEAR_MKS (2026-10-18)."
+                },
+                "n_gov": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "description": "Votes of the list's ex-MKs on the coalition's own government bills on this direction (G, 2026-10-22; basis line)."
+                }
+              }
+            }
+          },
+          "composition": {
+            "type": "array",
+            "description": "Former MKs of the list by component party, most first (2026-10-22): «Based on N former MKs: 17 from Yesh Atid, 2 from …».",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "party_en",
+                "ex_mks"
+              ],
+              "properties": {
+                "party_en": {
+                  "type": "string"
+                },
+                "ex_mks": {
+                  "type": "integer",
+                  "minimum": 1
                 }
               }
             }
@@ -310,7 +338,8 @@
         "required": [
           "name_en",
           "list",
-          "list_position"
+          "list_position",
+          "party_en"
         ],
         "properties": {
           "name_en": {
@@ -323,6 +352,13 @@
           "list_position": {
             "type": "integer",
             "minimum": 1
+          },
+          "party_en": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Component party of the 2026 list the former MK runs with (Central Elections Committee list; English via a manual table); null = the list itself (no component party shown)."
           }
         }
       }
@@ -522,7 +558,7 @@
     },
     "votes": {
       "type": "object",
-      "description": "How each list's former MKs voted on the bills of a quiz direction (2026-10-19): votes[list][direction] = [[bill id, sign (+1 raises / −1 lowers the direction), «own» | «other» (the bill's camp relative to the MK), votes for, votes against], ...]. Exactly the votes behind the position (V: own camp's private bills; O: the other camp's bills). Bill name and Knesset: bills.",
+      "description": "How each list's former MKs voted on the bills of a quiz direction (2026-10-19): votes[list][direction] = [[bill id, sign (+1 raises / −1 lowers the direction), «own» | «other» (the bill's camp relative to the MK), votes for, votes against], ...]. Exactly the votes behind the position (V: own camp's private bills; O: the other camp's bills; G: the coalition's own government bills, also «own», 2026-10-22). Bill name and Knesset: bills.",
       "additionalProperties": {
         "type": "object",
         "additionalProperties": {

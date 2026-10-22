@@ -118,3 +118,10 @@ q,interest,area,form,sim_group
 155,2.0,welfare,MORE_SPENDING,
 156,4.5,courts_government,INSTITUTIONS,judicial-power
 157,1.5,housing,MORE_RULES,build-faster
+158,3.0,civil_rights,MORE_RULES,
+159,3.0,economy,MORE_RULES,
+160,3.5,economy,OTHER,
+161,2.0,housing,INSTITUTIONS,
+162,4.0,welfare,MORE_SPENDING,welfare-benefits
+163,2.5,economy,MORE_SPENDING,public-fees
+164,2.0,police_justice,MORE_SPENDING,

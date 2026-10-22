@@ -27,7 +27,7 @@ pl = json.load(open(f"{ROOT}/jef/directions/split/plan.json"))
 for p in sorted(set(pl["parents"]) - set(pl["keep"])): put(p, "split", source="jef/directions/split/plan.json", date="2026-10-16")
 for k, (_, f, _) in enumerate(LB.LATER, 2):
     for p in json.load(open(f"{ROOT}/jef/directions/split/{f}"))["parents"]: put(p, "split", source=f"jef/directions/split/{f}")
-for d in ("107", "128", "236", "289", "339", "343", "346"): put(d, "technical", reason="statement audit 2026-10-15/17", source="METHOD_AUDIT §7")
+for d in ("107", "128", "236", "289", "339", "343", "346"): put(d, "technical", reason="statement audit 2026-10-15/17", source="TECHNICAL.md §7")
 for d, q in {"24": "42", "239": "60", "353": "52", "46": "62", "317": "9", "89": "64", "163": "33", "114a": "75", "112": "75", "196": "74",
              "344": "81", "29": "93", "103a": "64", "296a": "13", "161a": "19", "69a": "63", "80b": "47", "165b": "10", "77b": "45",
              "169b": "2", "151a": "33", "90b": "45", "211s2": "15", "96s4": "45", "8s4": "93"}.items():

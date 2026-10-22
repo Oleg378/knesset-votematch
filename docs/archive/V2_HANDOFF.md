@@ -6,6 +6,29 @@ Data side → web, 2026-10-18; updated 2026-10-21 (section 0). The v2 export is 
 `pipeline/quiz_flow.py` (order of questions), `pipeline/quiz_report.py` (explanations); `pipeline/quiz_cli.py` runs the whole
 flow in the terminal. Decisions are in `docs/SHARED_UNDERSTANDING.md` (Russian).
 
+## 0c. Update 2026-10-22, later — seven new statements, one removed
+
+- **Statements: 123** — new **q158–q164** (Closing gender gaps; Limits on working hours; Public sector pay; Who approves building
+  plans; Targeting help to the poor; Municipal tax discounts; State-funded legal aid); removed **q71 «Wartime relief»** (fails the
+  selection after bills of a duplicate theme were added). `q` stays stable — never map by position.
+- **Core changed**: 45, 7, 37, 63, **15**, 40, **49**, 4 (order of two statements swapped). Read it from the export.
+- Statement metadata (`interest`, `area`, `sim_group`) filled for the new ids; `golden.v2.json` regenerated.
+- Methodology page (section 6): «Wartime relief» → topics where the lists' records hardly differ (aid to war and terror victims).
+
+## 0b. Update 2026-10-22 — position formula: government bills count for both camps (V4)
+
+- **Formula**: P = A + 0.25 V + 0.25 O + **0.25 G**; G = a coalition MK's votes on the government's own bills (mirror of O); votes on
+  the budget packages (חוק ההסדרים) count for nobody. The web only reads P — nothing to compute; `e` now includes G votes.
+- **Statements: 117** — removed q66 «Support for families with children» and q142 «Power of labor unions» (fail the selection
+  after the change). **Core changed**: 45, 7, 37, 63, 49, 40, **15**, 4 (q9 → q15). Read both from the export.
+- `lists[].positions[d]` has a new required field **`n_gov`** (votes on the coalition's own government bills); `votes` «own» now
+  includes government bills of the MK's camp (a bill with no `sponsors` is a government bill).
+- Explanation basis line (section 3, golden `details[].items[].lines`): «M votes on private bills, K votes on the other camp's bills
+  and J votes on the government's own bills on this topic» — the last clause only when J > 0.
+- Methodology page (section 6): the sentence on government bills; «Power of labor unions» and «Support for families with children»
+  move to the topics outside the quiz. 13 topics newly pass the selection and are in the new-statements procedure.
+- `golden.v2.json` regenerated.
+
 ## 0a. Update 2026-10-21, evening — question order changed (`pipeline/quiz_flow.py`, section 2; schema extended)
 
 - **Core changed** (`core` in `quiz_core.v2.json`): 45, 7, 37, 63, 49, 40, 9, 4 — markers of the main axes of the list × statement
@@ -39,7 +62,7 @@ flow in the terminal. Decisions are in `docs/SHARED_UNDERSTANDING.md` (Russian).
 |---|---|---|
 | Files | one `quiz_data.v1.json` (1.6 MB), bundled | three files fetched in order (section 5); bills lose `url` (built from `params.BILL_URL`) and `summary_en` |
 | Statements | 65 | 119 (`q` ids stable, gaps allowed; removed ones are gone, new ones up to q157). Texts and titles changed for many |
-| List position P | (A + 0.25 V) / weights, A centered | P = A + 0.25 V + 0.25 O; A (sponsored bills) is **not centered**; O = votes against the other camp's bills (2026-10-18). Comes ready in `lists[].positions` — the web only reads P |
+| List position P | (A + 0.25 V) / weights, A centered | P = A + 0.25 V + 0.25 O + 0.25 G; A (sponsored bills) is **not centered**; O = votes on the other camp's bills (2026-10-18); G = the coalition's votes on its own government bills (2026-10-22); budget packages count for nobody. Comes ready in `lists[].positions` — the web only reads P |
 | Ranking | coverage ≥ MIN_COVERAGE | also `ex_mks ≥ params.MIN_EX_MKS` (2): a list with one former MK goes to «Not ranked» with its note (2026-10-18) |
 | Shrinkage | p = P · e / (e + K), K = 2 | **K = 0: p = P**. Keep the formula generic and read K from `params` |
 | Question order | every statement in file order | **core → clarifying → trade-offs** (section 2) |
@@ -101,8 +124,8 @@ Per list, everything comes from `quiz_report.contributions()` and `explain()`; g
   1. the statement in quotes;
   2. `Your answer: <agree / strongly agree / …>. The record of the list's former MKs <points toward this statement | points against this statement | shows no clear position on this statement>.`
      (the third variant when the position is not clear: |p| < `params.CLOSE` (0.2), or fewer than `params.MIN_CLEAR_MKS` former MKs, or fewer than `params.MIN_CLEAR_BILLS` distinct bills (`n_names`); wording changed 2026-10-18);
-  3. basis: `Basis: N bills sponsored by the list's former MKs — X your way, Y the other way; M votes on private bills and K votes on the other camp's bills on this topic.`
-     or `Basis: no bills of their own on this topic, only M votes on private bills and K votes on the other camp's bills on this topic.`
+  3. basis: `Basis: N bills sponsored by the list's former MKs — X your way, Y the other way; M votes on private bills, K votes on the other camp's bills[ and J votes on the government's own bills] on this topic.`
+     or `Basis: no bills of their own on this topic, only M votes on private bills, K votes on the other camp's bills[ and J votes on the government's own bills] on this topic.`
      (M = `n_votes`, K = `n_other` of the list's position);
   4. optional: `Weight ×2: you chose this topic in a trade-off question.`;
   5. optional: `The list's side comes from how its former MKs voted, not from the bills they sponsored.`
@@ -153,40 +176,67 @@ Goal: the start page never waits for data, and a loader almost never appears.
 - Caching: give the files content-hashed names at build time (or short cache + revalidation); never `immutable` under a
   fixed name.
 
-## 6. Methodology page texts (customer, 2026-10-18)
+## 6. Methodology page texts (customer, 2026-10-18; rewritten 2026-10-22 after external audit №3)
 
 Texts for the methodology / FAQ page, English as shown. Numbers come from the export where noted; the rest is fixed text.
 
 **How topics are chosen.** A topic gets a statement only if the parties' former MKs actually differ on it in the Knesset record:
 at least 8 evaluated lists with 3 or more former MKs on the topic, a spread of their positions of at least 0.25, and at least 5
-distinct bills (a re-submitted bill counts once) sponsored by them. These thresholds were fixed in advance and are the same for every topic. Topics where all lists
-did the same, or where too few bills exist, are left out — even when they are important. When one topic lies almost entirely inside another, a shared bill counts toward only one of them, chosen by whether voters would see two different questions.
+distinct bills (a re-submitted bill counts once) sponsored by them. The thresholds were chosen in October 2026 by testing which
+values gave positions that held between the 24th and 25th Knesset, and were frozen on 18 October 2026; the same thresholds apply to
+every topic, and the full history of the choices is in the project's decision log (open source). Topics where all lists did the same,
+or where too few bills exist, are left out — even when they are important. When one topic lies almost entirely inside another, a
+shared bill counts toward only one of them, chosen by whether voters would see two different questions.
 
-**Important topics that are not in the quiz, and why.**
-- *The lists' records hardly differ (nearly everyone pushed the same way):* credit and mortgages; tax enforcement; support for
-  charities.
-- *Too few bills by the candidates to place the lists:* abortion; who is registered as a Jew; gun licensing; immunity for
-  soldiers; the death penalty for terrorists; immigration rights of grandchildren of Jews (Law of Return); laws tied to a state of
-  emergency; a shorter working week.
-- *Covered by another statement:* civil marriage and divorce
-  (in «Civil marriage» and «Divorce»); conditions on funding religious schools (in «Funding schools without the core curriculum»);
-  alternatives to military service (in «Drafting yeshiva students»); international law and UNRWA (in «Foreign states and
-  international organizations in Israel»).
+**Important topics that are not in the quiz, and why** (state as of 22 October 2026).
+- *The lists' records hardly differ — nearly everyone pushed the same way:* relief for war and terror victims; support for families
+  with children; credit and mortgages (credit for households falls just below the spread threshold); tax enforcement; support for
+  charities; public broadcasting (Kan and Army Radio); banning harmful online and broadcast content.
+- *Too few lists have a record once budget votes are set aside:* the power of labor unions; defamation law; assisted reproduction.
+- *Too few bills by the candidates to place the lists:* abortion; who is registered as a Jew; the Law of Return for grandchildren of
+  Jews; gun licensing; immunity for soldiers; laws tied to a state of emergency; the Yemenite children affair; the autonomy of minors;
+  cameras in kindergartens and institutions; the term of Supreme Court justices; sports on free channels.
+- *Asked by another statement:* selecting judges (in «Politicians' influence over the courts»); the weight of the Attorney General
+  (in «Ministers' control over senior officials»); civil marriage and divorce (in «Civil marriage» and «Divorce»); conditions on
+  funding religious schools (in «Funding schools without the core curriculum»); alternatives to military service (in «Drafting yeshiva
+  students»); international law and UNRWA (in «Foreign states and international organizations in Israel»); the death penalty and
+  sanctions on terrorists' families (in «Counter-terrorism measures»); judicial review of government decisions (in «Overriding court
+  rulings»); preferences for underrepresented groups (in «Benefits for those who served»); surveillance powers of the security
+  services (in «Protection of personal data»); bank fees and duties (in «Protecting the weaker party to a contract»); local preference
+  in government purchasing (the mirror of «Imports and competition»).
+- *Bills on unrelated subjects, no single honest question:* bans on publishing victims' details; state ownership of disputed property;
+  co-owners' rights in apartment buildings; accountability of individual officials; criminal liability of officials for abuse of office.
+- *Administrative matters with no position a voter would hold:* licensing procedures for businesses and professions; terms and
+  deadlines; the size of public bodies; inheritance law; state awards.
+Not present at all, because no bill of a former MK carries the topic in a way that separates the lists: the Gaza war and the
+hostages, a Palestinian state, the cost of living as such. The quiz measures legislation, not campaigns.
 
 **Where a list's position comes from.** Only from what its candidates who were MKs in the 24th–25th Knesset did: the bills they
-sponsored, their votes on private bills, and their votes on the other camp's bills. Promises and speeches are not used. Positions
-that coincide with the coalition line are read mostly from the votes on the other camp's bills.
+sponsored, their votes on private bills, their votes on the other camp's bills and, for coalition parties, their votes on the government's
+own bills. A government bill counts for both camps the same way; votes on the omnibus budget laws count for nobody, because a vote for
+or against the whole budget says nothing about its hundred separate articles. Promises and speeches are not used. Sponsoring a bill
+counts four times more than a vote on it: the record of a party that pushed for a change is louder than the record of a party that
+only voted against it — a deliberate choice, stated here so that it can be judged.
+
+**Whose record a list carries.** A list's record is the record of its candidates who were MKs — for a joint list that can be mostly
+the former MKs of one partner. The List details screen says how many former MKs stand behind each list and which parties they came
+from. A former MK who moved to another list counts for the list they run with in 2026: it is the same person and their own votes.
 
 **Leaders with few bills of their own.** Ministers and prime ministers rarely sponsor bills, so a list's position rests mostly on
 its other former MKs and on votes.
 
-**Candidates who moved to another list.** A former MK's record counts for the list they run with in 2026: it is the same person and
-their own votes.
-
 **Lists with one former MK** are shown but not ranked: one person's record is too thin to call a list the closest.
 
+**The order of questions.** The first eight statements are the same for everyone: markers of the main axes along which the lists
+differ. The next seven are chosen one at a time to tell apart the lists closest to you so far; a list that fell behind early is not
+probed further — «Answer more questions» continues until the pool is exhausted. Which statements are asked also depends on a rating,
+made by a language model, of how much a typical voter cares about each topic; it affects only which questions you see, never the
+closeness.
+
 **The answer scale.** Closeness compares directions, not intensity: if you answer «strongly agree» to everything, the result is the
-same as «agree» to everything; the strength of an answer matters when your answers are mixed.
+same as «agree» to everything; the strength of an answer matters when your answers are mixed. If you answer at random, lists without
+a close neighbour (the Arab lists, for example) come first more often than others — the result means something only for considered
+answers.
 
 **«No clear position».** A list is marked so when its position is weaker than 0.2 (`params.CLOSE`) — below that, the side of the
 same list did not hold between the two Knessets in most cases — or when it rests on a single former MK or a single bill.
@@ -195,14 +245,44 @@ same list did not hold between the two Knessets in most cases — or when it res
 where the data and the analysis are noisy:
 - *Only the Knesset record of former MKs* (24th–25th Knesset) is used. New candidates, platforms and statements are not seen. 12 of
   38 lists can be evaluated; 4 lists with a single former MK are shown but not ranked; 22 lists have no record.
-- *Bloc discipline.* About 98 % of votes follow the voter's bloc. A party's opposition to the other camp's laws is read from its votes
-  against them — partly party discipline, not only conviction.
+- *Bloc discipline.* About 98 % of votes follow the voter's bloc. A party's votes on the other camp's laws, and a coalition party's
+  votes on the government's laws, are partly party discipline, not only conviction; that is why a vote weighs a quarter of a sponsored bill.
 - *Leaders and ministers sponsor few bills,* so a list's position rests mostly on its other former MKs and on votes.
-- *Topic labels were made by a language model.* Independent model checks found main topics right in about 93 % and secondary topics
-  in about 80 % of cases; individual mistakes remain. Labels were corrected only where two independent checks agreed.
-- *Checks so far were done by models, not by people.* Agreement figures measure consistency, not accuracy for real voters. A human
-  check is planned.
+- *Topic labels were made by a language model* and corrected by other models: on samples checked blind, main topics were right in
+  about 93 % and secondary topics in about 80 % of cases. The systematic checks that followed removed 1 607 labels, added 632 and
+  changed 52 signs — each change only where two independent checks agreed; a further 26 522 double counts between nested topics were
+  removed. Individual mistakes remain.
+- *Checks so far were done by models, not by people.* Agreement figures measure consistency between models, not accuracy for real
+  voters; no list's position has yet been confirmed by a person who knows the Knesset.
 - *Closeness is approximate.* Lists with close values cannot be told apart reliably, so values are shown rounded and should be read
   as «about as close». «No clear position» means the record is weak or rests on a single former MK or a single bill.
 - *The price in a statement* («even if …») is not measured: the record shows what a list's bills and votes pushed for, not whether
   it accepts that price.
+- *A vote against a bill can mean the opposite of what the topic sign says* — a party may vote against a draft law because it is too
+  lenient, not because it opposes the draft. The method cannot see the reason for a vote.
+
+## 7. Positions table and the right to contest (customer, 2026-10-22; external audit №3, п. 5)
+
+Established voting advice applications let parties see and dispute their coded positions before publication. Our equivalent is a
+public, complete table of what the quiz holds about every list, built only from data already in the export — no new fields.
+
+**Page «Positions of the lists»** (linked from Methodology and from Results; English):
+- Rows: the 123 statements (title_en, grouped by `area` from `statements[]`, in the quiz's area order). Columns: the 12 evaluated
+  lists (`status == "ok"`), then the 4 ranked-with-warning lists in a second block; lists without a record are not columns.
+- Cell: the list's measured side on the statement — «toward» / «against» / «no clear position» — by the same rule as the
+  explanations (`params.CLOSE`, `MIN_CLEAR_MKS`, `MIN_CLEAR_BILLS` on `lists[].positions[d]`); a small marker when the side comes
+  from votes only (`P_bills` is 0 or opposite to `P`, as in the «side comes from votes» line). No numbers in the cell.
+- Click on a cell → the same bill list as the List details screen for that statement (bills toward / against, votes), so the
+  claim is checkable down to the Knesset record.
+- Header text (fixed): «This is everything the quiz holds about each list, measured from the bills its candidates who were MKs
+  sponsored and how they voted in the 24th–25th Knesset. If you represent a list and believe a cell is wrong, the bills behind
+  it are listed — open an issue at https://github.com/Oleg378/knesset-votematch/issues with the bill and the reason; corrections
+  are published here.» (customer, 2026-10-22: contact = GitHub issues).
+- Export: `quiz_data.v2.json` + `quiz_bills.v2.json` only; the page is static like the rest.
+
+**Composition of the list's record** (external audit №3, п. 1.4; data exported 2026-10-22, how to display is the customer's
+separate decision): `mks[].party_en` — the component party of the 2026 list the former MK runs with (Central Elections Committee
+candidate list; English names `manual/party_names_en.csv`; null = the list itself), and `lists[].composition` — the same
+aggregated: `[{"party_en": "Yesh Atid", "ex_mks": 17}, {"party_en": "Be’Yahad (Bennett)", "ex_mks": 2}]`, most first. Proposed
+line on the List details screen, under the header: «Based on 19 former MKs: 17 from Yesh Atid, 2 from Be’Yahad». The methodology
+text (section 6, «Whose record a list carries») already refers to it.

@@ -14,7 +14,8 @@ React + Vite + TypeScript, static SPA (no server, no Next.js). Talk to the custo
 - Missing or wrong data → write it in `DATA_REQUESTS.md` and tell the customer. Never patch `../export/*` by hand.
 - Data: the v2 contract in `../export/` only — `quiz_core.v2.json`, `quiz_data.v2.json`, `quiz_bills.v2.json`, fetched
   at run time in this order by `src/data.ts` (never bundled; content-hashed, never inlined — CSP `connect-src 'self'`).
-  Start with `../export/README.md` and `../export/V2_HANDOFF.md`. v1 files stay only for the data side.
+  Contract and loading order: `../export/WEB_CONTRACT.md`; page texts: `../export/METHODOLOGY_PAGE.md`; overview:
+  `../export/README.md`. v1 files stay only for the data side.
 - A screen renders only when its file has arrived (App shows a loader for that screen only): Start — nothing; questions —
   quiz_core, clarifying ones and everything after — quiz_data; List details, Bills, Methodology — quiz_bills.
 - **The start page loads first** (DECISIONS.md G): `index.html` preloads its fonts, quiz_core and the hero

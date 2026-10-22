@@ -1,9 +1,10 @@
 # web/ — product spec (v2)
 
 Static SPA. Input: the v2 data contract — three files fetched at run time (`export/quiz_core.v2.json`,
-`quiz_data.v2.json`, `quiz_bills.v2.json`; one schema for their merge). What changed from v1 and why:
-`export/V2_HANDOFF.md`. Reference behaviour: `pipeline/quiz_cli.py` (run it to see the flow), `pipeline/quiz_flow.py`
-(order of questions), `pipeline/quiz_report.py` (explanations). Formulas: `docs/QUIZ_MATCHING.md`.
+`quiz_data.v2.json`, `quiz_bills.v2.json`; one schema for their merge). Contract and loading order:
+`export/WEB_CONTRACT.md`; page texts: `export/METHODOLOGY_PAGE.md`. Reference behaviour: `pipeline/quiz_cli.py` (run it to
+see the flow), `pipeline/quiz_flow.py` (order of questions), `pipeline/quiz_report.py` (explanations). How everything is
+computed: `docs/TECHNICAL.md`.
 
 **Mobile first.** Design for 360–430 px wide screens. Desktop adaptation is out of scope for now: on wide screens show the
 mobile layout centered with a max width (≈ 480 px). Base components: Figma
@@ -15,8 +16,10 @@ https://www.figma.com/design/TTgHWki3flpBiQ6U9XQF7I/CSS (see «Design» below).
 Start → Core statements (flow.core) → Clarifying statements (flow.clarify, chosen one at a time) → Trade-offs
 (0–flow.trade) → Results (full leaderboard) ⇄ List details → Bills of one statement
             └→ «Answer more questions»: clarifying statements until the pool ends → Results
-Methodology: reachable from Start, Results and the menu.
+Methodology: reachable from Start, Results and the menu. Positions of the lists (§7): not built yet.
 ```
+Numbers of questions come from `flow` in the export; the clarifying statement after each answer — `nextClarify` in
+`src/engine/flow.ts` (port of `pipeline/quiz_flow.py`, golden «flow N» cases).
 
 **Screens with a Figma mockup follow the mockup** (Home, Questions, Clarifying question, Menu) — texts, controls and
 interaction; the statement count comes from the data. Customer, 2026-10-18. Open points: `DECISIONS.md` section D.
@@ -82,10 +85,9 @@ Every screen: header with the menu button (Figma «Menu»: Start over · My resu
   raises/lowers “direction name”», «Sponsored by: Name (#p on the list)» (first two by list position), link to the Knesset page.
 - No per-bill English summary [У 2026-10-17]: bill names are not translated; the direction line above is the English context. `summary_en` is always null and not rendered.
 
-### 7. Methodology (generated from the same JSON, not hand-written)
-- Short text: where positions come from, what closeness means, the two notes, relative positions (vs the average MK).
-- Table per statement (accordion): statement → direction (`name_en`, plus/minus meaning) → bills (`by_direction`) with sign,
-  sponsoring lists (from `sponsors` → `mks[].list`). No votes by list [У 2026-10-17]. Virtualize or paginate: ~4,000 bills.
+### 7. Methodology and Positions of the lists
+- Methodology: the texts of `export/METHODOLOGY_PAGE.md` as written (fixed text; numbers marked «from the export» are read from the data).
+- Positions of the lists: the table described in `METHODOLOGY_PAGE.md` («Positions of the lists page») — statements × evaluated lists, cell = the measured side, click → the bills, the right-to-contest text.
 
 ## Computation (TypeScript port; Python is the reference)
 Port `pipeline/quiz_match.py` (`list_vec`, `score`, `match`, `ranked_top`, `tradeoffs`) and from `pipeline/quiz_report.py`

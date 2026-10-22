@@ -4,13 +4,30 @@ A voter quiz: the user answers statements, the site shows which 2026 lists are c
 what its candidates who are former MKs did in Knessets 24–25: bills they sponsored and how they voted.
 
 ## Read first
-- `docs/SHARED_UNDERSTANDING.md` (SU) — terms and decisions with status: [У] approved by the customer, [А] agent's proposal,
-  [О] open. Decisions are referred to as «SU п. N».
+- `docs/METHODOLOGY.md` — the concept: what we do, principles, limitations. The customer's document.
+- `docs/SHARED_UNDERSTANDING.md` (SU) — the contract: terms, the rules in force, open questions; statuses [У] approved by the
+  customer, [А] agent's proposal, [О] open. Referred to as «SU п. N».
+- `docs/TECHNICAL.md` — how it is implemented, with the current numbers.
+- `docs/WORKLOG.md` — what was done, «Открыто», «Что дальше».
 - `.claude/skills/quiz-pipeline/` — the map of the theme → statement cycle and its exit checks; each step is a skill
   (`label-check`, `split-themes`, `nested-themes`, `new-statements`, `subagents`, `release`) with its canonical prompts.
-- `docs/LABEL_CHECK_PROGRESS.md` — the work log (what was done, numbers, «Открыто»).
-- `docs/QUIZ_MATCHING.md` — how answers become closeness (the formula the web reproduces).
-- `docs/METHOD_AUDIT.md` — the whole chain from raw data to the quiz, with numbers.
+
+## Documentation: one place for each kind of content
+| Kind | Where | Not there |
+|---|---|---|
+| Concept, principles, limitations in plain words | `docs/METHODOLOGY.md` | numbers, file names, history |
+| Terms, rules in force, open questions **of the method** | `docs/SHARED_UNDERSTANDING.md` | numbers, statistics, reasoning, history, dated entries, tasks and to-do items |
+| Implementation, formulas, thresholds, current numbers | `docs/TECHNICAL.md` | history («was 0.3, now 0.25») — only the current state |
+| What happened, with numbers; **tasks**, open items, plan | `docs/WORKLOG.md` | rules (they live in SU) |
+| Data contract and what the web computes and shows | `export/WEB_CONTRACT.md` | history, reasoning, version labels |
+| Texts the user reads on the site (English) | `export/METHODOLOGY_PAGE.md` | — |
+| Agent procedures | `.claude/skills/*/SKILL.md` + `prompts/` | project state |
+| Closed documents, old logs | `docs/archive/` (with a line in its README) | — |
+Rules: a decision goes into SU as one line (rule + status + pointer), its numbers into TECHNICAL, its story into WORKLOG; a task
+or a review request goes into WORKLOG «Открыто» only, never into SU (an open question in SU is a question about the method, not a
+to-do); an item marked «closed only by the customer» stays open until the customer says so, whatever an agent edits; never
+introduce version names («V1», «V4») — describe the rule itself; when a document is superseded, move it to `docs/archive/` and
+fix every reference (`grep` the old name); research notes and people's answers stay in `local/` or the session scratchpad.
 
 ## Principles (mandatory)
 - **P0 — uniformity.** One rule for all lists, directions and statements. No exceptions for a single case.
@@ -23,8 +40,8 @@ what its candidates who are former MKs did in Knessets 24–25: bills they spons
 | Path | What |
 |---|---|
 | `pipeline/` | Python: fetch (OData, CEC), `build/` → `knesset.duckdb`, Jev labeling, positions, quiz selection/matching, **export** |
-| `web/` | Front end: React + Vite + TypeScript static SPA. Reads only `export/` (v1 now; moving to v2) |
-| `export/` | **The data contract** (in git): v2 = `quiz_core / quiz_data / quiz_bills.v2.json`, one schema, `golden.v2.json`, `V2_HANDOFF.md`; v1 kept until the web moves |
+| `web/` | Front end: React + Vite + TypeScript static SPA. Reads only `export/` |
+| `export/` | **The data contract** (in git): `quiz_core / quiz_data / quiz_bills.v2.json`, one schema, `golden.v2.json`, `WEB_CONTRACT.md`, `METHODOLOGY_PAGE.md`; the `.v1` files stay until the web moves |
 | `jef/` | Production data: directions and labels (`jef/directions/`), theme registry (`jef/directions/registry.csv`), positions (`jef/positions/`), statements (`jef/quiz/`) |
 | `manual/` | Tables kept by hand: CEC lists and candidates, candidate ↔ MK matching, English MK names |
 | `local/` | Research behind the decisions: experiments, checks, early approaches (`local/README.md`). Published selectively (scripts, texts, small result tables; no people's answers) — `local/` stays ignored, add new files with `git add -f`. **Not production**: do not import from it; the procedure scripts in `local/research/scripts/` named by the skills are run, never imported |
@@ -45,14 +62,15 @@ Python deps: `requirements.txt` (pinned). Node: `web/package-lock.json`.
 ## Data contract
 - `pipeline/export.py` writes the v2 files (`quiz_core`, `quiz_data`, `quiz_bills`), validated together against `export/quiz_data.v2.schema.json`.
 - The front end never reads raw data and never calls Python.
-- Changing the formula or the structure → bump the version (`v2`, new schema, new golden file). Never change v1 silently.
-- `export/golden.v2.json` (v1 until the web moves): answer sets → expected ranking, question order (flow cases), coverage, notes, trade-off pairs, explanations and evidence order,
+- Changing the formula or the structure → new schema and golden file, and the web contract updated in the same step; the files the live site reads are never changed silently.
+- `export/golden.v2.json`: answer sets → expected ranking, question order (flow cases), coverage, notes, trade-off pairs, explanations and evidence order,
   computed by `pipeline/quiz_match.py` + `pipeline/quiz_report.py`. Python is the reference; the TS port must match (1e-9).
 
 ## Do not change without a customer decision
-- The position formula (SU п. 27.2–27.3: A = mean sign of sponsored bills, not centered, V = vote residual weight 0.25, list = mean of ex-MKs).
+- The position formula (SU п. 27.2–27.3: A = mean sign of sponsored bills, not centered, V = vote residual weight 0.25, O and G = votes on
+  the other camp's bills / the coalition's own government bills, weight 0.25, budget packages excluded; list = mean of ex-MKs).
 - Matching: cosine, K = 0 (no shrinkage), weights 1/n per shared direction, coverage threshold 0.5, trade-offs (≤5, ×2, one per list, only if
-  they change the top 5) — `docs/QUIZ_MATCHING.md`.
+  they change the top 5) — SU п. 41, `docs/TECHNICAL.md`.
 - Statement texts and keys (`jef/quiz/statements_v4.csv`), statement numbers (stable; gaps allowed).
 - Question order (`pipeline/quiz_flow.py` FLOW, [У] 2026-10-21): core = axis markers × interest, one per area; clarifying = contending pair;
   statement metadata `jef/quiz/statement_meta.csv` (interest, area, sim_group) is used only for the order of questions.
@@ -76,5 +94,7 @@ Python deps: `requirements.txt` (pinned). Node: `web/package-lock.json`.
 ## Working rules
 - Small tasks with a checkable result (one screen, one component, one test against the reference).
 - Do not delete user data: `jef/quiz/sessions/` (gitignored; use `--no-save` for test runs).
+- The sandbox is never committed: `local/` stays ignored, and people's answers (the customer's pilot runs included) are never written
+  into the repository — not even under `local/`; keep them in the session scratchpad or `jef/quiz/sessions/`.
 - Budget: the customer is on the Max subscription (since 2026-10-20). Jev is out of credits: labeling goes to Sonnet subagents, each task type checked first on a benchmark with a known Jev score. Batch agent work (4–5 themes per agent).
 - Commit only when asked or at the end of an agreed step; one topic per commit.

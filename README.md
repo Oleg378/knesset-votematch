@@ -1,50 +1,37 @@
 # elections-research
 
-Исследование открытых данных Кнессета для квиза, который сопоставляет взгляды пользователя с позициями партий.
+Квиз к выборам в Кнессет 26-го созыва (27.10.2026): пользователь отвечает на утверждения, сайт показывает, какие списки ближе. Позиция списка берётся только из того, что его кандидаты — бывшие депутаты — делали в Кнессете 24–25 созывов: какие законопроекты вносили и как голосовали.
 
-## С чего начать
+## Документы
 
-1. **[docs/METHODOLOGY.md](docs/METHODOLOGY.md)** — коротко: что делаем и каким принципам следуем.
-2. **[docs/SHARED_UNDERSTANDING.md](docs/SHARED_UNDERSTANDING.md)** — рабочий документ: термины, решения со статусами (утверждено / предложение агента / открыто), открытые вопросы.
-3. **[docs/PROGRESS.md](docs/PROGRESS.md)** — что сделано, что делаем сейчас, что дальше. Принципы P0 (единообразие) и P1 (агент не решает сам при неоднозначности) обязательны.
-
-## Документы (`docs/`)
-
-| Файл | Что внутри |
-| --- | --- |
-| [SHARED_UNDERSTANDING.md](docs/SHARED_UNDERSTANDING.md) | Рабочий документ: термины, решения со статусами, открытые вопросы |
-| [PROGRESS.md](docs/PROGRESS.md) | Что сделано, что делаем сейчас, что дальше |
-| [knesset-data-research.md](local/docs/knesset-data-research.md) | Постановка задачи |
-| [report.md](local/docs/report.md) | Результаты: что проверено, цифры, как выгружать |
-| [METHODOLOGY.md](docs/METHODOLOGY.md) | Методология: что делаем и принципы (1 страница) |
-| [TECHNICAL.md](docs/TECHNICAL.md) | Технический справочник: конвейер, формулы, ограничения данных |
-| [archive/](local/docs/archive/) | Архив реестра решений с обоснованиями по ID |
-| [knesset-vote-attribution-hypothesis.md](local/docs/knesset-vote-attribution-hypothesis.md) | Гипотеза об атрибутах голосований |
-| [jef-task.md](local/docs/jef-task.md) | Разметка через jef (TypeSafe Jev): задание и журнал экспериментов |
-| [VERIFICATION.md](docs/VERIFICATION.md) | Протокол проверок: что, когда и кем проверяется |
+| Файл | Роль |
+|---|---|
+| [docs/METHODOLOGY.md](docs/METHODOLOGY.md) | концепция: что делаем, принципы, ограничения |
+| [docs/SHARED_UNDERSTANDING.md](docs/SHARED_UNDERSTANDING.md) | контракт заказчика и агента: термины, действующие правила, открытые вопросы |
+| [docs/TECHNICAL.md](docs/TECHNICAL.md) | реализация и числа: конвейер, метки, формулы, отбор, порядок вопросов, экспорт |
+| [docs/WORKLOG.md](docs/WORKLOG.md) | журнал работ, «Открыто», «Что дальше» |
+| [export/WEB_CONTRACT.md](export/WEB_CONTRACT.md), [export/METHODOLOGY_PAGE.md](export/METHODOLOGY_PAGE.md) | контракт данных для фронта и тексты страниц |
+| [CLAUDE.md](CLAUDE.md) | правила работы агентов, структура, документация |
+| [docs/archive/](docs/archive/) | закрытые документы и журнал прежних решений |
 
 ## Структура
 
-Правила и структура для агентов — [CLAUDE.md](CLAUDE.md).
-
 | Папка | Что внутри |
-| --- | --- |
-| `pipeline/` | Python: выгрузка из OData Кнессета (только с израильского IP), `build/` → `knesset.duckdb`, разметка Jev, позиции, квиз, экспорт |
-| `export/` | Контракт данных для фронта: `quiz_data.v1.json`, JSON Schema, золотые тест-кейсы |
-| `web/` | Фронт: React + Vite + TypeScript, статическая сборка. Спецификация — `web/SPEC.md` |
-| `jef/` | Направления, разметка, позиции, утверждения квиза |
-| `manual/` | Таблицы, которые ведёт человек (списки ЦИК, сопоставление кандидатов, английские имена) |
-| `local/research/` | Эксперименты и ранние подходы; не продакшен |
-| `local/evidence/` | Схемы сервисов и выборки ответов, подтверждающие выводы |
-| `data/`, `knesset.duckdb` | Выгрузки и база (не в git, воспроизводятся скриптами) |
+|---|---|
+| `pipeline/` | Python: выгрузка (OData Кнессета, только с израильского IP), `build/` → `knesset.duckdb`, метки, позиции, квиз, экспорт |
+| `export/` | контракт данных для фронта (генерируется `make data`) |
+| `web/` | фронт: React + Vite + TypeScript, статическая сборка; `web/SPEC.md` |
+| `jef/` | темы и метки (`directions/`), позиции (`positions/`), утверждения (`quiz/`) |
+| `manual/` | таблицы, которые ведёт человек: списки и кандидаты ЦИК, сопоставление с депутатами, английские имена и названия партий |
+| `local/` | исследования, не production, не в git |
+| `data/`, `knesset.duckdb` | выгрузки и база (не в git, воспроизводятся скриптами) |
 
-## Быстрый старт
+## Команды
 
 ```bash
-python3 pipeline/export_votes.py 2021-04-06 2026-11-10 data/export   # ~30 мин, нужен израильский IP
-(cd pipeline && python3 fetch_bills.py)                              # законопроекты, инициаторы, комиссии
-python3 pipeline/build/build.py                                      # база knesset.duckdb, 2–3 с
-# Jev (ключ в .env): pipeline/jev_label.py, pipeline/jev_packages.py, pipeline/jev_split.py; тексты: pipeline/bill_texts.py
-# Списки 2026: pipeline/cec_parse.py, pipeline/cec_match.py (страницы комиссии — local/evidence/cec/raw/)
-make data                                                            # позиции и экспорт для фронта
+make data      # позиции + экспорт
+make check     # инварианты данных
+make test      # тесты фронта, включая эталонные случаи
+make web-dev   # локальный сервер
+python3 pipeline/quiz_cli.py --no-save   # квиз в терминале (референс)
 ```

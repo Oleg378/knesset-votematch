@@ -7,7 +7,7 @@ description: Map of the theme → statement cycle of this project (labels, theme
 
 Terms (use them, do not invent others): **законопроект** (bill), **тема** (theme = direction, a quantity a bill moves «+»/«−»),
 **основная / второстепенная тема** (main / secondary label), **вопрос по теме** (statement). Bills are counted **by name without the
-year** (a re-submission is one bill). Decisions live in `docs/SHARED_UNDERSTANDING.md`; the work log in `docs/LABEL_CHECK_PROGRESS.md`.
+year** (a re-submission is one bill). Decisions live in `docs/SHARED_UNDERSTANDING.md`; the work log in `docs/WORKLOG.md`.
 
 ## The cycle (each step is a skill)
 

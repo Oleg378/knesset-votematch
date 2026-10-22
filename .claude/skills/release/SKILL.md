@@ -13,9 +13,9 @@ description: Rebuilding and publishing the quiz data after any change — make d
 5. Commit `export/` and `jef/positions/` separately («Export rebuilt: …»).
 6. **Docs, only what changed**:
    - `docs/SHARED_UNDERSTANDING.md` — the decision (one line, date, [У]/[А]);
-   - `docs/LABEL_CHECK_PROGRESS.md` — the step's outcome with numbers; open items under «Открыто»;
-   - `docs/METHOD_AUDIT.md` — the funnel / method if the method changed;
-   - `export/V2_HANDOFF.md` §0 — a short dated note for the web (ids added/removed, changed texts/titles/keys, core, sizes; facts only);
+   - `docs/WORKLOG.md` — the step's outcome with numbers; open items under «Открыто»;
+   - `docs/TECHNICAL.md` — the funnel / method if the method changed;
+   - `export/WEB_CONTRACT.md` §0 — a short dated note for the web (ids added/removed, changed texts/titles/keys, core, sizes; facts only);
      §6 methodology texts if a listed topic changed status.
 7. Report to the customer: what changed, statements removed (by title), what needs their decision. Never present a step as done while
    `make check` fails.

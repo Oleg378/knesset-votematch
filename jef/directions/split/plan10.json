@@ -1,0 +1,45 @@
+{
+ "note": "Stage 10 (2026-10-20, [У]): split of the basket directions that pass the selection criteria (SHARED_UNDERSTANDING «Выпавшие законопроекты и направления без вопроса»; local/research/basket_split/). Procedure of 2026-10-16 (Opus proposes parts; a part that is an existing direction is a transfer); the choice is made by Sonnet subagents instead of Jev; sign asked per part.",
+ "parents": {
+  "311": [
+   "311s1",
+   "311s2",
+   "69a",
+   "90a"
+  ],
+  "230": [
+   "230s1",
+   "230s2"
+  ]
+ },
+ "new": {
+  "311s1": {
+   "name_ru": "Государственная юридическая помощь и расходы на судебные процессы для граждан",
+   "name_en": "State-funded legal aid and court costs for individuals",
+   "plus_en": "Widens who receives state-funded legal aid or lowers what individuals pay to go to court: legal aid for victims of sexual offences, domestic violence, fraud, hostile acts and other crimes, for nursing-care patients and for plaintiffs in discrimination or civil cases, state funding of experts, guardians' fees and family-court proceedings, exemptions from court fees, longer or extended legal-aid temporary provisions.",
+   "minus_en": "Narrows who receives state-funded legal aid or raises what individuals pay to go to court (e.g. denies legal aid to husbands who refuse to grant a divorce)."
+  },
+  "311s2": {
+   "name_ru": "Доступ к адвокату и государственное представительство для задержанных и обвиняемых по делам безопасности и террора",
+   "name_en": "Access to a lawyer and state-funded representation for security and terror detainees",
+   "plus_en": "Gives people detained, suspected, accused or convicted of terror or security offences (including unlawful combatants) more access to a lawyer, shorter periods in which a meeting with a lawyer may be withheld, or state-funded legal representation.",
+   "minus_en": "Lets the authorities withhold or postpone meetings with a lawyer for such detainees, extends emergency regulations that allow this, or bars state funding of legal representation for terrorists and security-offence suspects."
+  },
+  "230s1": {
+   "name_ru": "Доступность кредита для домохозяйств",
+   "name_en": "Availability of credit for households",
+   "plus_en": "Makes loans easier or cheaper for individuals and families: easier mortgage terms and higher financing ratios, state guarantees or loans for a first or only home, interest-free or state loans for tuition, driving lessons, home protection or bereaved families, cheaper overdraft loans, social lending services, shorter retention or exclusion of negative data in credit-data registries.",
+   "minus_en": "Makes loans harder or more expensive for individuals and families: stricter mortgage terms or financing caps, fewer state loans or guarantees for households, longer retention of negative credit data."
+  },
+  "230s2": {
+   "name_ru": "Финансирование бизнеса и рынок капитала",
+   "name_en": "Credit and financing for businesses and the capital market",
+   "plus_en": "Makes credit and financing easier to obtain for businesses: securitization and factoring rules, more competition among lenders and licences for non-bank and foreign providers, measures to encourage capital-market activity, financial backing of developers by payment-service providers, state-guaranteed business loans in emergencies.",
+   "minus_en": "Makes business credit and financing harder to obtain: more barriers for non-bank and foreign lenders, fewer financing instruments, no state guarantees for business loans."
+  }
+ },
+ "transfers": {
+  "311s3": "69a",
+  "311s4": "90a"
+ }
+}
