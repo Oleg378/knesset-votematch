@@ -1,4 +1,4 @@
-"""Quiz matching: user answers -> closeness to 2026 lists (decision of the customer, 2026-10-17; docs/QUIZ_MATCHING.md).
+"""Quiz matching: user answers -> closeness to 2026 lists (decision of the customer, 2026-10-17; docs/TECHNICAL.md).
 
 Answer scale: 2 полностью согласен, 1 скорее согласен, 0 нейтрально, -1 скорее не согласен, -2 полностью не согласен,
 "dk" не знаю (skipped). User value on a statement u = answer/2 × key (key «+» = +1, «−» = −1).

@@ -1,6 +1,6 @@
 """Export for the web quiz: the only link between pipeline/ and web/ (CLAUDE.md «Data contract»).
 
-Writes to export/ (v2: three files loaded in order, see export/V2_HANDOFF.md «Loading»):
+Writes to export/ (v2: three files loaded in order, see export/WEB_CONTRACT.md «Loading»):
   quiz_core.v2.json         the core statements and the flow numbers — enough to start answering;
   quiz_data.v2.json         everything for matching: params, all statements, directions, lists with positions;
   quiz_bills.v2.json        what only the list details need: bills, sponsors, bills by direction, the lists' votes;
@@ -23,7 +23,7 @@ import quiz_flow as qf
 
 ROOT = qm.ROOT
 OUT = os.path.join(ROOT, "export")
-VERSION = 2   # v2 (2026-10-18): P = A + 0.25 V with A not centered, K = 0, P_bills, CLOSE, question order (export/V2_HANDOFF.md)
+VERSION = 2   # v2 (2026-10-18): P = A + 0.25 V with A not centered, K = 0, P_bills, CLOSE, question order (export/WEB_CONTRACT.md)
 
 def num(x):
     """JSON has no NaN: a closeness that cannot be computed is null."""

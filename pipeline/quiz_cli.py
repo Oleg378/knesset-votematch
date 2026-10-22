@@ -1,7 +1,7 @@
 """Terminal quiz (no UI yet): start -> core questions -> clarifying questions -> trade-off questions -> leaderboard
 (-> more questions) -> list details -> leaderboard.
 
-Same computation as pipeline/quiz_match.py and pipeline/quiz_report.py (docs/QUIZ_MATCHING.md):
+Same computation as pipeline/quiz_match.py and pipeline/quiz_report.py (docs/TECHNICAL.md):
   - question order [У] 2026-10-18 (pipeline/quiz_flow.py, parameters in quiz_flow.FLOW): the core statements (the same for
     everyone), then clarifying ones chosen one at a time from the answers so far, then trade-offs; «m» on the results screen
     asks more clarifying questions; --all asks every statement in file order (the old flow);

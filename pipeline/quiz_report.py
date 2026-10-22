@@ -162,7 +162,7 @@ def main(f):
            f"_Answers file: `{os.path.basename(f)}`. Answered: {sum(1 for v in ans.values() if v != 'dk')}, “don't know”: "
            f"{sum(1 for v in ans.values() if v == 'dk')}. Trade-off questions: "
            f"{'applied, ' + ', '.join(f'#{q} ×{m:g}' for q, m in mult.items()) if mult else ('not filled in — `' + os.path.basename(tf) + '`')}. "
-           f"How closeness is computed — `docs/QUIZ_MATCHING.md`._", "",
+           f"How closeness is computed — `docs/TECHNICAL.md`._", "",
            "## Result", "", "| Rank | List | Closeness | Note |", "|---|---|---|---|"]
     place = 0
     for r in ranking:
