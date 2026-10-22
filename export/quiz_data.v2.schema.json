@@ -222,7 +222,8 @@
           "name_en",
           "status",
           "ex_mks",
-          "positions"
+          "positions",
+          "composition"
         ],
         "properties": {
           "id": {
@@ -300,6 +301,27 @@
                 }
               }
             }
+          },
+          "composition": {
+            "type": "array",
+            "description": "Former MKs of the list by component party, most first (2026-10-22): «Based on N former MKs: 17 from Yesh Atid, 2 from …».",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "party_en",
+                "ex_mks"
+              ],
+              "properties": {
+                "party_en": {
+                  "type": "string"
+                },
+                "ex_mks": {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              }
+            }
           }
         }
       }
@@ -316,7 +338,8 @@
         "required": [
           "name_en",
           "list",
-          "list_position"
+          "list_position",
+          "party_en"
         ],
         "properties": {
           "name_en": {
@@ -329,6 +352,13 @@
           "list_position": {
             "type": "integer",
             "minimum": 1
+          },
+          "party_en": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Component party of the 2026 list the former MK runs with (Central Elections Committee list; English via a manual table); null = the list itself (no component party shown)."
           }
         }
       }

@@ -55,11 +55,20 @@ def build_data(ctx):
             x = pos.get(L, {}).get(d)
             if x: P[d] = {"P": x[0], "P_bills": x[3], "e": x[1], "n_mk": x[2], "n_votes": nv.get((L, d), 0), "n_other": ctx["no"].get((L, d), 0), "n_gov": ctx["ng"].get((L, d), 0), "n_names": x[4]}
         lists.append({"id": L, "name_en": c["list_name"], "status": c["status"], "ex_mks": int(c["ex_mks"]), "positions": P})
+    # [У] 2026-10-22 (external audit №3 п. 1.4): which component party of the 2026 list each former MK comes from (Central Elections
+    # Committee candidate list, manual/candidate_mk_26.csv «party»; English names manual/party_names_en.csv). Empty on the CEC page
+    # = the list itself. lists[].composition summarises it for «Based on N former MKs: 17 from Yesh Atid, 2 from …».
+    party_en = {r["party_he"]: r["party_en"] for r in csv.DictReader(open(os.path.join(ROOT, "manual/party_names_en.csv")))}
+    mk_party = {int(r["mk_id"]): party_en.get(r["party"], r["party"]) or None for r in csv.DictReader(open(os.path.join(ROOT, "manual/candidate_mk_26.csv")))
+                if r["match"] in ("exact", "manual")}
     cand_list, mks = {}, {}
     for L, ms in ctx["cand"].items():
         for m, (p, name) in ms.items():
             cand_list[m] = L
-            mks[m] = {"name_en": name, "list": L, "list_position": p}
+            mks[m] = {"name_en": name, "list": L, "list_position": p, "party_en": mk_party.get(int(m))}
+    for l in lists:
+        c = collections.Counter(mks[m]["party_en"] or l["name_en"].split(",")[0].strip() for m, x in mks.items() if x["list"] == l["id"])
+        l["composition"] = [{"party_en": k, "ex_mks": n} for k, n in c.most_common()]
     by_direction = {d: [[b, s, role] for b, s, role in ctx["by_d"].get(d, [])] for d in quiz_d}
     # [У] 2026-10-19: how the list's former MKs voted on each bill of a quiz direction (jef/positions/list_topic_votes.csv):
     # votes[list][direction] = [[bill, sign (+1 raises / −1 lowers the direction), camp («own» / «other»), for, against], ...];
