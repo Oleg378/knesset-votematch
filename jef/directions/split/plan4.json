@@ -1,5 +1,5 @@
 {
- "note": "Stage 4 (2026-10-18, [У]): split by the standard statement audit of the 26 statements touched by the label removals (local/research/statement_audit_removals/). Same method as stages 2-3: applied after stage 3, parts keep the parent's orientation and sign, Jev only chooses the part. Extended the same day: 130b (q56) split by the standard audit after the volume threshold was lowered to 25 (local/research/statement_audit_t25/). Extended again: 195 (q81) split by the standard audit after external audit №2 (local/research/statement_audit_q81/). Extended 2026-10-19: 25 (q42) split by the standard audit after a full label check (local/research/statement_audit_q42/, label_check_q42/). Extended 2026-10-19: 165 (q4) split by the standard audit after a full label check (local/research/statement_audit_q4/, label_check_q4/); q4 moves to 165a; 165b gets no statement (its bills already count under 179, q10 — customer 2026-10-19).",
+ "note": "Stage 4 (2026-10-18, [У]): split by the standard statement audit of the 26 statements touched by the label removals (local/research/statement_audit_removals/). Same method as stages 2-3: applied after stage 3, parts keep the parent's orientation and sign, Jev only chooses the part. Extended the same day: 130b (q56) split by the standard audit after the volume threshold was lowered to 25 (local/research/statement_audit_t25/). Extended again: 195 (q81) split by the standard audit after external audit №2 (local/research/statement_audit_q81/). Extended 2026-10-19: 25 (q42) split by the standard audit after a full label check (local/research/statement_audit_q42/, label_check_q42/). Extended 2026-10-19: 165 (q4) split by the standard audit after a full label check (local/research/statement_audit_q4/, label_check_q4/); q4 moves to 165a; 165b gets no statement (its bills already count under 179, q10 — customer 2026-10-19). Extended 2026-10-19: 265 (q41) split by the standard audit after a full label check (local/research/statement_audit_q41/, label_check_q41/). Extended 2026-10-19: 77 (q47) split by the standard audit after a full label check (local/research/statement_audit_q47/, label_check_q47/); q47 moves to 77a; 77b gets no statement (its bills already count under 178, q45 — customer 2026-10-19). Extended 2026-10-19: 283 (q53) split by the standard audit after a full label check (local/research/statement_audit_q53/, label_check_q53/). Extended 2026-10-20: 277g (q78) split by the standard audit after a full label check; q78 moves to 277g1; 277g2 gets no statement (its bills already count under 187/3, q9/q15 — same handling as 165b and 77b). Extended 2026-10-20: 69 (q80) split by the standard audit after a full label check (local/research/statement_audit_q80/, label_check_q80/). q80 on 69b; 69a gets no statement (36 of its 48 bills already count under 66a, q63 — customer 2026-10-20). Extended 2026-10-20: 117 (q88) split by the standard audit after a full label check (local/research/statement_audit_q88/, label_check_q88/). Extended 2026-10-20: 80 (q96) split by the standard audit after a full label check (local/research/statement_audit_q96/, label_check_q96/). q96 on 80a; 80b gets no statement (close to q47 and q80 — customer 2026-10-20).",
  "parents": {
   "58": [
    "58a",
@@ -28,6 +28,34 @@
   "165": [
    "165a",
    "165b"
+  ],
+  "265": [
+   "265a",
+   "265b"
+  ],
+  "77": [
+   "77a",
+   "77b"
+  ],
+  "283": [
+   "283a",
+   "283b"
+  ],
+  "277g": [
+   "277g1",
+   "277g2"
+  ],
+  "69": [
+   "69a",
+   "69b"
+  ],
+  "117": [
+   "117a",
+   "117b"
+  ],
+  "80": [
+   "80a",
+   "80b"
   ]
  },
  "new": {
@@ -114,6 +142,90 @@
    "name_en": "Immigration and the Jewish majority",
    "plus_en": "Limits entry, residence or status of non-Jews to keep a Jewish majority (immigration Basic Laws, a narrower Law of Return).",
    "minus_en": "Fewer limits on immigration, residence and family unification of non-Jews."
+  },
+  "265a": {
+   "name_ru": "личные решения несовершеннолетних без согласия родителей",
+   "name_en": "Minors' personal decisions without parental consent",
+   "plus_en": "Minors can decide more on their own without a parent (medical care, personal data, documents).",
+   "minus_en": "Parents' consent is required for more of minors' decisions."
+  },
+  "265b": {
+   "name_ru": "возраст политического участия",
+   "name_en": "Age of political participation",
+   "plus_en": "Lower minimum age to vote or to join a party.",
+   "minus_en": "Keep or raise the minimum age to vote or to join a party."
+  },
+  "77a": {
+   "name_ru": "полномочия полиции и силовых органов",
+   "name_en": "Police and enforcement powers",
+   "plus_en": "Broader powers for police, prison service and security forces to arrest, detain, search, monitor and use force; fewer limits on them.",
+   "minus_en": "More limits and oversight on police force, searches and dispersal of protests."
+  },
+  "77b": {
+   "name_ru": "санкции против террористов и их семей",
+   "name_en": "Punitive measures against terrorists and their families",
+   "plus_en": "Deportation of terrorists' families, demolition of their homes, loss of residency, prison for minors convicted of terror, new terror-incitement offences.",
+   "minus_en": "No collective or added sanctions beyond the ordinary criminal process."
+  },
+  "283a": {
+   "name_ru": "передача публичных услуг частным",
+   "name_en": "Private provision of public services",
+   "plus_en": "Hands public services or their staffing to private companies or organizations (outsourcing, vouchers, contract employment, privatization).",
+   "minus_en": "Keeps or returns public services to state bodies and direct public employment."
+  },
+  "283b": {
+   "name_ru": "частные перевозки через приложения",
+   "name_en": "App-based ride-sharing by private drivers",
+   "plus_en": "Lets private drivers offer paid rides through apps.",
+   "minus_en": "Keeps paid passenger transport limited to licensed taxis and operators."
+  },
+  "277g1": {
+   "name_ru": "государственная поддержка студентов и учащихся",
+   "name_en": "General state support for students and pupils",
+   "plus_en": "More state support for students and pupils (grants, free meals, tuition aid, fares).",
+   "minus_en": "Less such support."
+  },
+  "277g2": {
+   "name_ru": "льготы на учёбу служившим",
+   "name_en": "Study benefits for soldiers and reservists",
+   "plus_en": "Extra study benefits for those who served in the army or reserves (tuition funding, exam accommodations).",
+   "minus_en": "Fewer such benefits."
+  },
+  "69a": {
+   "name_ru": "судебный контроль над решениями правительства",
+   "name_en": "Court review of government decisions",
+   "plus_en": "Courts can review and overturn government decisions and laws when citizens challenge them (standing, review grounds).",
+   "minus_en": "Limits court review of government decisions and laws."
+  },
+  "69b": {
+   "name_ru": "обжалование решений государственных органов",
+   "name_en": "Appeals against decisions of public bodies",
+   "plus_en": "People get more ways to appeal or challenge decisions of police, health funds, benefit offices and other public bodies (reasons, records, appeal periods).",
+   "minus_en": "Fewer such ways."
+  },
+  "117a": {
+   "name_ru": "кто имеет право голоса",
+   "name_en": "Who has the right to vote",
+   "plus_en": "Keeps or widens the right to vote (no service or other conditions).",
+   "minus_en": "Conditions or removes the right to vote (military or national service, prisoners)."
+  },
+  "117b": {
+   "name_ru": "доступность голосования вне дома",
+   "name_en": "Voting access for people away from home",
+   "plus_en": "Makes voting easier for people away from home or with limited mobility (soldiers, students, absentee and accessible polling).",
+   "minus_en": "Makes such voting harder."
+  },
+  "80a": {
+   "name_ru": "независимое расследование провалов безопасности",
+   "name_en": "Independent state inquiry into security failures",
+   "plus_en": "Security failures are investigated by an independent state commission of inquiry.",
+   "minus_en": "Inquiry is avoided or run by a body chosen by politicians."
+  },
+  "80b": {
+   "name_ru": "контроль за применением силы полицией",
+   "name_en": "Checks on police use of force",
+   "plus_en": "Stricter checks on police use of force (filming, body cameras, complaint handling, protest-dispersal rules).",
+   "minus_en": "Fewer such checks."
   }
  }
 }

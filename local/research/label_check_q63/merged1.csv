@@ -1,0 +1,36 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason
+63,66a,הצעת חוק-יסוד: כבוד האדם וחירותו (תיקון - שוויון בפני החוק ואיסור הפליה),2211369 2195990,+,secondary,2211369,F1-1,not_about,,Adds equality right to Basic Law; not override or court access
+63,66a,חוק-יסוד: השפיטה (תיקון מס' 4),2201200,−,secondary,2201200,F1-2,borderline,−,Mainly judge selection; also removes some court review authority
+63,66a,הצעת חוק-יסוד: ההתגברות (תיקוני חקיקה),2156366 2165250 2197393 2156570 2196154 2190584,−,main,2156366,F1-3,about,−,Override clause lets Knesset re-enact laws struck down
+63,66a,חוק-יסוד: השפיטה (תיקון מס' 3),2207472,−,main,2207472,F1-4,borderline,−,"Cancels reasonableness review of government decisions, not laws"
+63,66a,הצעת חוק-יסוד: כבוד האדם וחירותו (תיקון - תוקפו של חוק חורג),2160910 2198892 2196131 2162870 2156495 2156372,−,main,2160910,F1-5,about,−,"Override for Human Dignity Basic Law, re-enact invalidated laws"
+63,66a,הצעת חוק-יסוד: השפיטה (תיקון מס' 4) (ביקורת שיפוטית בעניין תוקפו של חוק),2201660,−,main,2201660,F1-6,about,−,Restricts and conditions judicial review of Knesset laws
+63,66a,הצעת חוק-יסוד: מניעת חקיקה למטרות יחיד או קבוצות קטנות,2208972,+,main,2208972,F1-7,not_about,,Bans personal legislation; not about override or court challenges
+63,66a,"הצעת חוק-יסוד: כניסה, הגירה ומעמד בישראל",2159382 2196908,−,secondary,2159382,F1-8,not_about,,Immigration policy Basic Law; notes show no court-review substance
+63,66a,הצעת חוק-יסוד: השפיטה (תיקון - עילת הסבירות),2209457,+,main,2209457,F1-9,borderline,−,"Abolishes reasonableness review of administrative decisions, not laws"
+63,66a,הצעת חוק-יסוד: פסקת ההתגברות (תיקוני חקיקה),2197119 2156620,−,main,2197119,F1-10,about,−,Override clause lets Knesset re-enact laws struck down
+63,66a,הצעת חוק-יסוד: השפיטה (תיקון - הגבלת זכות העמידה),2196792 2196708 2197668 2159037 2165244 2196169 2198417 2206632 2156948 2156272 2166158,−,secondary,2196792,F1-11,about,−,"Restricts standing, fewer ways to challenge in court"
+63,66a,הצעת חוק יסוד: השפיטה (תיקון - הגבלת זכות העמידה),2157182,−,secondary,2157182,F1-12,about,−,"Restricts standing, fewer ways to challenge in court"
+63,66a,הצעת חוק-יסוד: הכנסת (תיקון - הרוב הנדרש למניעת השתתפות בבחירות),2196734 2156489,−,secondary,2196734,F1-13,not_about,,Candidate disqualification majority; not override or law challenges
+63,66a,הצעת חוק הביטוח הלאומי (תיקון - ערעור על החלטת ועדה לעררים),2199184 2197323 2162474 2203287,+,secondary,2199184,F1-14,not_about,,Social security appeals procedure; unrelated to override question
+63,66a,הצעת חוק-יסוד: ההגירה לישראל,2156351 2157408 2234650 2197103 2197411,−,secondary,2156351,F1-15,borderline,−,Constitutional immigration shield aimed at overcoming court rulings
+63,66a,הצעת חוק-יסוד: כבוד האדם וחירותו (תיקון - הזכות לשוויון),2198951,+,secondary,2198951,F1-16,not_about,,Adds equality right to Basic Law; not override or court access
+63,66a,הצעת חוק-יסוד: השפיטה (תיקון - שלילת זכות עמידה למתגמל טרור),2224247,−,secondary,2224247,F1-17,borderline,−,Denies standing to terror supporters; narrow access restriction
+63,66a,הצעת חוק הריסת בתי מחבלים,2223239,−,secondary,2223239,F1-18,not_about,,Terrorist home demolitions; not about override of struck laws
+63,66a,הצעת חוק-יסוד: כבוד האדם וחירותו (תיקון - תוקפו של חוק חורג בעניין מסתננים),2197114 2210152 2157247,−,main,2197114,F1-19,about,−,Override protecting infiltrator law struck down by High Court
+63,66a,הצעת חוק-יסוד: הממשלה (תיקון מס' 13),2200701,−,main,2200701,F1-20,borderline,−,"Shields minister appointments from review; decisions, not laws"
+63,66a,חוק־יסוד: הממשלה (תיקון מס' 12),2201424,−,main,2201424,F1-21,borderline,−,Limits court role in PM incapacity; not about laws
+63,66a,הצעת חוק-יסוד: הגירה לישראל,2164318,−,secondary,2164318,F1-22,borderline,−,Constitutional immigration shield aimed at overcoming court rulings
+63,66a,הצעת חוק-יסוד: השפיטה (תיקון - פסקת התגברות),2206636 2158384 2197908 2156374,−,main,2206636,F1-23,about,−,Override clause lets Knesset re-enact laws struck down
+63,66a,הצעת חוק-יסוד: החקיקה והגבלת ביקורת שיפוטית על חוקים,2161289,−,main,2161289,F1-24,about,−,Limits judicial review of laws explicitly
+63,66a,הצעת חוק-יסוד: כבוד האדם וחירותו (תיקון - פגיעה בזכויות),2169472 2196860 2197671 2197126,−,main,2169472,F1-25,about,−,Narrows rights clause after court struck infiltrator laws
+63,66a,הצעת חוק-יסוד: הכנסת (תיקון - שלילת סמכותו של בית המשפט העליון מלהתערב בהחלטות ועדת הבחירות המרכזית לעניין אישור או פסילה של מועמד או רשימה מלהשתתף בבחירות),2206649,−,main,2206649,F1-26,borderline,−,Bars Supreme Court review of election committee decisions
+63,66a,הצעת חוק-יסוד: הגנת הסביבה,2190775 2216972,+,secondary,2190775,F1-27,not_about,,Environmental rights Basic Law; unrelated to override
+63,66a,הצעת חוק-יסוד: השפיטה (תיקון - הפרדת רשויות),2198419 2206652,−,main,2198419,F1-28,borderline,−,Limits High Court remedial powers; mainly administrative review
+63,66a,הצעת חוק-יסוד: הממשלה (תיקון - הפסקת כהונה של שר וסגן שר בשל חשד לפלילים),2196938 2156884,−,main,2196938,F1-29,not_about,,Minister removal on criminal suspicion; not court review of laws
+63,66a,הצעת חוק-יסוד: השפיטה (תיקון - סמכות להכרזה על אי-התאמה בין הוראות חוק רגיל ובין הוראות חוק-יסוד),2206650,−,main,2206650,F1-30,about,−,Replaces striking down with declaration of incompatibility
+63,66a,הצעת חוק לתיקון סדרי המינהל (החלטות והנמקות) (תיקון - השהיית תוקפן וביטולן של פעולה או החלטה מנהלית שהתקבלו בניגוד להוראות החוק),2167058,+,secondary,2167058,F1-31,not_about,,Administrative decision validity procedure; not override question
+63,66a,הצעת חוק-יסוד: כבוד האדם וחירותו (תיקון - פסקת התגברות),2156094 2196972,−,main,2156094,F1-32,about,−,Override clause for Human Dignity Basic Law
+63,66a,הצעת חוק השיפוט הצבאי (תיקון - עתירות אסיר),2200576,+,secondary,2200576,F1-33,not_about,,Prisoner petitions jurisdiction in military courts; not override
+63,66a,הצעת חוק-יסוד: השפיטה (תיקון - מניעת התערבות בית המשפט בסמכות החקיקה של הכנסת),2240180,−,main,2240180,F1-34,about,−,Bars court intervention in Knesset legislation
+63,66a,הצעת חוק-יסוד: הממשלה (תיקון - כשירות שר וסגן שר),2241157,−,main,2241157,F1-35,not_about,,Minister minimum age qualification; unrelated to override

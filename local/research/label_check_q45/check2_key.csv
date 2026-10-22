@@ -1,0 +1,5 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason,kind,cid
+45,178,הצעת חוק העברת אמצעי לחימה רוסיים שנתפסו בלבנון וברשות הפלסטינית לטובת חימוש אוקראינה,2222700,+,main,2222700,F1-43,not_about,,Transferring captured weapons to Ukraine; foreign policy,candidate,C1
+45,178,הצעת חוק זכויות הסטודנט (תיקון - הרחקת סטודנטים תומכי טרור ממוסד לימוד ופירוק תאים תומכי טרור),2220954,+,secondary,2220954,F1-55,about,+,"Expels terror-supporting students, dismantles cells",control,C2
+45,178,הצעת חוק הביטוח הלאומי (תיקון - שלילת קצבה בשל מעשה טרור),2156225,+,secondary,2156225,F2-44,about,+,Denies allowances to terrorists' families,control,C3
+45,178,"הצעת חוק סמכויות מיוחדות למאבק בארגוני פשיעה (הוראות שעה), התשפ""ו–2026",2233987,+,main,2233987,F2-33,not_about,,"Organized crime powers, not terrorism or its financing",candidate,C4

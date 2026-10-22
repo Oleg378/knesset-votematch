@@ -1,0 +1,7 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason,kind,cid
+101,253a,הצעת חוק להקמת אוניברסיטה במחוז הצפון,2199019,+,secondary,2199019,F1-14,not_about,,Founding a northern university; not free education,candidate,C1
+101,253a,הצעת חוק המועצה להשכלה גבוהה (תיקון - פטור משכר לימוד לסטודנטים מתחת לקו העוני),2197673,+,secondary,2197673,F1-17,about,+,Tuition exemption for students below poverty line,control,C2
+101,253a,הצעת חוק הזדמנות שווה בחינוך היסודי וביטול ההפליה (תיקוני חקיקה),2190645,+,secondary,2190645,F1-19,not_about,,"Equal opportunity rules, not scope of free services",candidate,C3
+101,253a,הצעת חוק להקמת אוניברסיטה ערבית ביישוב ערבי,2196664,+,secondary,2196664,F1-2,not_about,,Founding an Arab university; not free education,candidate,C4
+101,253a,הצעת חוק להקמת אוניברסיטה בעיר אשדוד,2222446,+,secondary,2222446,F1-15,not_about,,Founding an Ashdod university; not free education,candidate,C5
+101,253a,הצעת חוק לימוד חובה (תיקון - חינוך חינם לפעוטות ולילדים),2159062 2164352 2196979 2196679 2197857 2199923 2156637 2164582 2199527 2198694 2156542 2158284 2198720 2198276,+,main,2159062,F1-9,about,+,Free education for toddlers and children,control,C6

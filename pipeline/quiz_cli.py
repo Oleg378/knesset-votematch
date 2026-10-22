@@ -85,7 +85,7 @@ def flow(ctx, ans, shown, until, fctx):
         if rest: nq = rest[0]
         elif until == "rule" and qf.should_stop(ans, len(shown), qf.FLOW): return
         else:
-            nq = qf.next_clarify(ans, set(shown) | set(ans), ctx=fctx["ctx"])
+            nq = qf.next_clarify(ans, list(shown) + [q for q in ans if q not in shown], ctx=fctx["ctx"])   # in order shown (area rule)
             if nq is None: say("\nNo more questions."); return
         a = ask_one(ctx["title"][nq], len(shown) + 1, total)
         if a == "<":

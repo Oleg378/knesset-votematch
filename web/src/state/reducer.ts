@@ -84,6 +84,11 @@ export function isAnswerValue(v: Answer): v is AnswerValue {
   return v !== 'dk';
 }
 
+/** quiz_flow `shown`: the statements shown so far, in order (the last one's area is skipped next); an answer counts too. */
+export function shownSoFar(s: Pick<State, 'answers' | 'shown'>): string[] {
+  return [...Object.keys(s.answers).filter((q) => !s.shown.includes(q)), ...s.shown];
+}
+
 /** What the reducer can use: the core file (flow, core order) and, once it has arrived, the data file. */
 export interface FlowSources {
   core: QuizCore | null;
@@ -101,7 +106,7 @@ export function nextQuestion(src: FlowSources, s: Pick<State, 'answers' | 'shown
     if (shouldStop(flow, src.data, s.answers, s.shown.length)) return null;
   }
   if (!src.data) return 'wait';
-  return nextClarify(src.data, s.answers, new Set([...s.shown, ...Object.keys(s.answers)]));
+  return nextClarify(src.data, s.answers, shownSoFar(s));
 }
 
 export function createReducer(src: FlowSources) {

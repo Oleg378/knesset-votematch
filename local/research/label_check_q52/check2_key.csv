@@ -1,0 +1,9 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason,kind,cid
+52,352,הצעת חוק התחרות הכלכלית (תיקון - תוצרת חקלאית גולמית),2160370,−,secondary,2160370,F1-12,not_about,,"Antitrust exemption for agricultural produce, not weaker-party contract terms",candidate,C1
+52,352,הצעת חוק שוויון הזדמנויות במקום מגורים,2158074,−,secondary,2158074,F1-30,not_about,,"Anti-discrimination in housing admission, not contract terms",candidate,C2
+52,352,הצעת חוק זכות יוצרים (תיקון - תשלום תמלוגים),2160322,−,secondary,2160322,F1-24,not_about,,"Copyright royalty collection arrangements, not weaker-party contract terms",candidate,C3
+52,352,חוק הבוררות המסחרית הבין-לאומית,2209386,+,secondary,2209386,F1-7,not_about,,Commercial arbitration procedure; no weaker-party protection question,candidate,C4
+52,352,הצעת חוק הנגישות הלשונית,2227459,−,secondary,2227459,F1-22,not_about,,Language accessibility of documents and services,candidate,C5
+52,352,הצעת חוק העסקת עובדים על ידי קבלני כוח אדם (תיקון - מניעת סיום העסקה לשם הימנעות מהעסקה ישירה),2189714,−,secondary,2189714,F1-17,about,−,Prevents dismissal of agency workers to avoid direct employment,control,C6
+52,352,הצעת חוק הסכמים קיבוציים (תיקון - אי-תחולה על עובד זר בענף החקלאות),2198972 2210318,+,secondary,2198972,F1-33,about,+,Exempts foreign farm workers from collective agreement protections,control,C7
+52,352,הצעת חוק זכויות החולה (תיקון - מסירת מידע רפואי לאחר בידי מטופל),2169731,−,secondary,2169731,F1-40,not_about,,"Patient medical information transfer, not contract terms",candidate,C8

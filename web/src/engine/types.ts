@@ -30,12 +30,28 @@ export interface Flow {
   core: number;
   clarify: number;
   trade: number;
+  /** How the core was built — already applied in `core`, informational. */
+  core_axes: number;
+  core_slots: number[];
   core_r_max: number;
   core_gov_share: number;
   gov_r: number;
-  clarify_top: number;
+  core_min_interest: number;
+  core_area_cap: number;
   /** false: a statement on which every clear list position is on one side is not in the core (precomputed in `core`). */
   core_one_sided: boolean;
+  /** Clarifying (quiz_flow.next_clarify): a candidate's score × (interest / 5) ** interest_alpha. */
+  interest_alpha: number;
+  clarify_top: number;
+  /** A ranked list is a contender of the leader within pair_gap; its weight is 1 / (gap + pair_eps). */
+  pair_gap: number;
+  pair_eps: number;
+  /** A candidate with |r| ≥ near_dup_r to a shown statement is skipped (if anything else is left). */
+  near_dup_r: number;
+  /** false: the previous question's area is skipped (if anything else is left). */
+  same_area_in_row: boolean;
+  /** No two statements of one sim_group among the shown ones. */
+  sim_groups: boolean;
   /** null: a fixed number of clarifying questions; a number: the optional stopping rule. */
   stop_gap: number | null;
   min_questions: number;
@@ -49,6 +65,10 @@ export interface Statement {
   key: Sign;
   d: string;
   w: number;
+  /** How much a voter cares (1–5), the broad area, statements that feel like one question: only for the order of questions. */
+  interest: number;
+  area: string;
+  sim_group: string | null;
 }
 
 export interface Direction {

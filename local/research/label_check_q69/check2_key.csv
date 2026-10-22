@@ -1,0 +1,4 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason,kind,cid
+69,66b2,הצעת חוק העונשין (תיקון - עונשי מינימום בעבירות בחוק העונשין),2217046,−,main,2217046,F1-15,about,−,Minimum sentences across Penal Law offenses,control,C1
+69,66b2,הצעת חוק העונשין (תיקון - איומים כלפי עובד ציבור),2164298,+,secondary,2164298,F1-3,not_about,,Penalty for threats to public servants; no minimum sentence,candidate,C2
+69,66b2,הצעת חוק העונשין (תיקון - עונש מינימום בעבירת גניבת נשק),2206769,−,secondary,2206769,F1-23,about,−,Minimum sentence for weapon theft,control,C3

@@ -4,7 +4,7 @@ import { Button } from '../components/Button';
 import { ListRow } from '../components/ListRow';
 import { nextClarify } from '../engine/flow';
 import { match } from '../engine/match';
-import { answeredCount } from '../state/reducer';
+import { answeredCount, shownSoFar } from '../state/reducer';
 import { S } from '../strings';
 import type { ScreenProps } from './types';
 
@@ -14,7 +14,7 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
   const low = rows.filter((r) => !r.ranked && r.evaluated);
   const none = rows.filter((r) => !r.evaluated);
   // «Answer more questions» only while the pool has a statement left (quiz_flow.next_clarify).
-  const more = useMemo(() => nextClarify(data, state.answers, new Set([...state.shown, ...Object.keys(state.answers)])),
+  const more = useMemo(() => nextClarify(data, state.answers, shownSoFar(state)),
     [data, state.answers, state.shown]) !== null;
   const open = (id: string) => () => dispatch({ type: 'OPEN_DETAILS', list: id });
   return (

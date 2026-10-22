@@ -1,0 +1,8 @@
+id,verdict,sign,reason
+C1,not_about,,"Replaces Supreme Court justice as Central Elections Committee chair; concerns election administration, not political control over courts"
+C2,not_about,,"Defines recognized conversion for Law of Return; religion/immigration substance, merely legislates around past court rulings"
+C3,not_about,,"Mandatory minimum sentence for rape; criminal sentencing policy, not appointment of judges or overriding rulings"
+C4,borderline,-,"Ombudsman for judges must publish names of complained-about judges; more external scrutiny of judges, not appointments/overrides"
+C5,not_about,,"Mandatory minimum sentence for sexual harassment offenses; criminal sentencing policy, not institutional control over courts"
+C6,about,-,"Basic Law restricting judicial review of statutes (thresholds/limits on striking laws); shifts power from courts to Knesset"
+C7,about,-,"Adds override clause to Basic Law: Human Dignity and Liberty, letting Knesset re-enact laws struck down by courts"

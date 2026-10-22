@@ -1,0 +1,9 @@
+id,verdict,reason
+T1,not_about,"Administrative procedure for unlawful decisions; not override or court powers"
+T2,not_about,"Constitutional environmental right; substance is environment, not Knesset-court balance"
+T3,not_about,"Procedure for prisoner petitions in military courts; unrelated to override"
+T4,borderline,"Limits Knesset legislative power, but about personal laws, not override"
+T5,borderline,"Entrenches equality, widening review grounds indirectly; substance is rights"
+T6,not_about,"Benefit appeal procedure in National Insurance; not judicial review of laws"
+T7,borderline,"Immigration Basic Law partly aimed at shielding infiltrator laws from court"
+T8,borderline,"Adds equality right to Basic Law; indirect effect on judicial review"

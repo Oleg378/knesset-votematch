@@ -91,7 +91,7 @@ describe('golden.v2.json', () => {
           for (const q of asked) if (gc.answers[q] !== undefined) ans[q] = gc.answers[q]!;
           const steps: string[] = [];
           while (!shouldStop(data.flow, data, ans, asked.length)) {
-            const q = nextClarify(data, ans, new Set(asked));
+            const q = nextClarify(data, ans, asked);
             if (q === null) break;
             asked.push(q);
             if (gc.answers[q] !== undefined) ans[q] = gc.answers[q]!;

@@ -1,6 +1,9 @@
 # Data: knesset.duckdb and data/ are not in git (rebuilt by pipeline/fetch_* and pipeline/build/build.py, Israeli IP needed).
 .PHONY: data positions export test web-dev web-build
 
+check:                    ## invariants of the quiz data (run after every stage and before release)
+	python3 pipeline/check_invariants.py
+
 data: positions export          ## positions -> export/quiz_{core,data,bills}.v2.json + golden.v2.json
 
 positions:

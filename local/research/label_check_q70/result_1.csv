@@ -1,0 +1,13 @@
+id,verdict,sign,reason
+F1-1,about,+,"Bans displaying leavened bread in hospitals on Passover"
+F1-2,about,+,"Enforces Passover observance in army bases"
+F1-3,about,+,"Regulates bringing food into hospitals on Passover"
+F1-4,borderline,+,"Religious soldiers' observance rights in army; individual accommodation"
+F1-5,not_about,,"Shabbat mechanism in residential water pumps, not institutions"
+F1-6,about,+,"Lets hospitals restrict food items brought in, Passover"
+F1-7,borderline,−,"Repeals leavened bread law; public places, not institutions"
+F1-8,about,+,"Exempts municipal bodies from operating on Shabbat"
+F1-9,about,+,"Bans bringing leavened bread into army bases"
+F1-10,about,+,"Regulates bringing food into hospitals on Passover"
+F1-11,about,+,"Enacted hospital leavened bread restriction law"
+F1-12,borderline,+,"Widens leavened bread sale ban for businesses, not institutions"

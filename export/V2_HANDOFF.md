@@ -1,17 +1,44 @@
 # v2 for the web: what changes and how results are explained
 
-Data side → web, 2026-10-18. The v2 export is **generated** as three files (section 5 «Loading»): `quiz_core.v2.json`,
+Data side → web, 2026-10-18; updated 2026-10-21 (section 0). The v2 export is **generated** as three files (section 5 «Loading»): `quiz_core.v2.json`,
 `quiz_data.v2.json`, `quiz_bills.v2.json`; one schema for their merge (`quiz_data.v2.schema.json`); `golden.v2.json` (34 cases,
 6 of them «flow N» with `flow.core` and `flow.clarifying`) — tests only, never shipped. v1 files are left as they were. Python stays the reference: `pipeline/quiz_match.py` (closeness, trade-offs),
 `pipeline/quiz_flow.py` (order of questions), `pipeline/quiz_report.py` (explanations); `pipeline/quiz_cli.py` runs the whole
 flow in the terminal. Decisions are in `docs/SHARED_UNDERSTANDING.md` (Russian).
+
+## 0a. Update 2026-10-21, evening — question order changed (`pipeline/quiz_flow.py`, section 2; schema extended)
+
+- **Core changed** (`core` in `quiz_core.v2.json`): 45, 7, 37, 63, 49, 40, 9, 4 — markers of the main axes of the list × statement
+  matrix, weighted by voter interest, one per area. Read it from the export; do not hard-code.
+- **Clarifying questions: new rule** (section 2): the candidate that best separates the current leader from the lists close behind
+  it, among statements on which the compared lists stand on both sides, weighted by interest, skipping the previous question's
+  area and any statement that feels like one already asked (`sim_group`). The old «max SD among the top 4» is gone.
+- **Statements carry three new fields** (`quiz_data.v2.json` `statements[]`, required): `interest` (1–5), `area` (string),
+  `sim_group` (string or null). They are used only for the order of questions, never for closeness.
+- **`flow` has new keys** (`core_axes`, `core_slots`, `core_min_interest`, `core_area_cap`, `interest_alpha`, `pair_gap`,
+  `pair_eps`, `near_dup_r`, `same_area_in_row`, `sim_groups`); `core_r_max`, `core_gov_share`, `gov_r`, `core_one_sided`,
+  `core_axes`, `core_slots`, `core_min_interest`, `core_area_cap` are informational (already applied in `core`).
+- `golden.v2.json` regenerated: the 6 «flow N» cases now follow the new rule (same core for all, different clarifying sequences).
+- Trade-offs, closeness, explanations, the «answer more» button: unchanged.
+- **TypeScript port already written by the data side:** `web/src/engine/flow.ts` (`nextClarify`, `shouldStop`, `rankedLists` on
+  the v2 shape; self-contained, the v1 engine is untouched) with `web/src/engine/flow.test.ts` — the six flow cases and the
+  v2 ranking of all 34 cases pass. Wire it into the screens when the web moves to v2; do not re-port.
+
+## 0. Update 2026-10-21 (data only; schema, files and algorithms unchanged)
+
+- **119 statements** (was 74 in the previous export): new `q` ids **q109–q157**; removed q1, q16, q61, q107 (gone from the export). `q` stays stable — never map by position.
+- Changed texts (and keys where noted) of kept ids: **q52** (key +), **q64** — new title «Immunity of elected officials», **q66** — new title «Support for families with children» (key +). Take texts, titles and keys only from the export.
+- **Core changed** (`core` in `quiz_core.v2.json`): 2, 3, 63, 14, 7, 20, 81, 117. Read it from the export; do not hard-code.
+- New direction ids have suffixes such as `1s1`, `163p2`, `256s3p2` — treat `d` as an opaque string.
+- Sizes: `quiz_data.v2.json` ≈ 217 KB, `quiz_bills.v2.json` ≈ 1.8 MB (6 422 bills). `golden.v2.json` regenerated (34 cases); the TS port must match it again.
+- Methodology page (section 6): the lists of topics not in the quiz were updated.
 
 ## 1. What changes
 
 | Area | v1 | v2 |
 |---|---|---|
 | Files | one `quiz_data.v1.json` (1.6 MB), bundled | three files fetched in order (section 5); bills lose `url` (built from `params.BILL_URL`) and `summary_en` |
-| Statements | 65 | 76 (`q` ids stable, gaps allowed; removed ones are gone, new ones up to q105). Texts and titles changed for many |
+| Statements | 65 | 119 (`q` ids stable, gaps allowed; removed ones are gone, new ones up to q157). Texts and titles changed for many |
 | List position P | (A + 0.25 V) / weights, A centered | P = A + 0.25 V + 0.25 O; A (sponsored bills) is **not centered**; O = votes against the other camp's bills (2026-10-18). Comes ready in `lists[].positions` — the web only reads P |
 | Ranking | coverage ≥ MIN_COVERAGE | also `ex_mks ≥ params.MIN_EX_MKS` (2): a list with one former MK goes to «Not ranked» with its note (2026-10-18) |
 | Shrinkage | p = P · e / (e + K), K = 2 | **K = 0: p = P**. Keep the formula generic and read K from `params` |
@@ -24,17 +51,33 @@ flow in the terminal. Decisions are in `docs/SHARED_UNDERSTANDING.md` (Russian).
 Nothing changes in: cosine closeness, weights 1/n per direction (a/b pairs), coverage threshold 0.5 and the «Not ranked» block,
 the two notes, what is not shown (no coalition/opposition, no number of MKs).
 
-## 2. Order of questions (`pipeline/quiz_flow.py`)
+## 2. Order of questions (`pipeline/quiz_flow.py`, rule of 2026-10-21)
 
 All numbers come from `flow` in the export (now `core 8, clarify 7, trade 5`); **never hard-code them**.
 
-1. **Core** — the same statements for everyone, in the exported order (`core`: list of `q`). Asked first.
-2. **Clarifying** — one at a time, chosen after each answer (`next_clarify`):
-   - candidates: statements not shown yet (answered, skipped or «don't know» all count as shown);
-   - compare lists: the top `clarify_top` (4) lists of the current ranking (ranked lists only, as in Results); if fewer than 2
-     are ranked (e.g. nothing answered yet), all lists with status `ok`;
-   - pick the candidate with the largest population SD of the compared lists' values p on it (only lists that have a position;
-     at least 2); ties → the lower statement number; none left → stop.
+1. **Core** — the same statements for everyone, in the exported order (`core`: list of `q`). Asked first. (How it was built —
+   axes of the list × statement matrix, interest, one per area — is already applied; the web only reads the list.)
+2. **Clarifying** — one at a time, chosen after each answer (`next_clarify(answers, shown)`; `shown` = statements already shown,
+   **in order**, answered, skipped or «don't know»):
+   - **ranking**: the ranked lists by closeness, exactly as on the Results screen (`match`, `ranked`), with `mult` = {} during
+     the questions; only lists with `status == "ok"` take part below («evaluated lists»);
+   - **candidates** = statements not shown yet, filtered in this order, each filter relaxed (ignored) if it would leave nothing:
+     (a) `flow.sim_groups`: drop a candidate whose `sim_group` equals the `sim_group` of any shown statement (null never matches);
+     (b) drop a candidate whose `area` equals the area of the **last shown** statement, or whose |r| with any shown statement is
+         ≥ `flow.near_dup_r` — if that leaves nothing, keep only the area rule; if still nothing, skip both;
+         (|r| = absolute Pearson correlation of the two statements' list values p over evaluated lists that have both, 0 if
+         fewer than 3 such lists or a constant column — a 119 × 119 table the web can compute once from `lists[].positions`);
+     (c) two-sided: take the top `flow.clarify_top` ranked lists that are evaluated; if at least 2 — keep candidates on which
+         those lists have **clear** positions (|p| ≥ `params.CLOSE`, `n_mk` ≥ `MIN_CLEAR_MKS`, `n_names` ≥ `MIN_CLEAR_BILLS`)
+         on both sides (some p > 0 and some p < 0); if that leaves nothing, keep all;
+   - **score** of a candidate q (evaluated ranked lists only): leader = the first; contenders = the next up to `clarify_top − 1`
+     lists whose closeness is within `flow.pair_gap` of the leader's; if none, the runner-up alone;
+     `score = Σ_contenders |p_leader(q) − p_contender(q)| / (closeness_leader − closeness_contender + flow.pair_eps)` over
+     contenders that have a position on q; the candidate needs a leader position and a score > 0;
+     then `score ×= (interest / 5) ** flow.interest_alpha`;
+     **before any ranking exists** (fewer than 2 evaluated ranked lists, e.g. nothing answered): score = population SD of p over
+     all evaluated lists with a position (at least 2), times the same interest factor;
+   - pick the highest score; ties → the lower statement number; no finite score → stop.
 3. **Stop** after `clarify` clarifying questions (`flow.stop_gap` is null). An optional stopping rule exists (`should_stop`:
    stop when the leader is ahead of the second list by `stop_gap` after at least `min_questions`, at most `max_questions`);
    it is off — implement it only if `stop_gap` is not null.
@@ -42,6 +85,7 @@ All numbers come from `flow` in the export (now `core 8, clarify 7, trade 5`); *
 5. **Results.** A button «Answer more questions» continues clarifying questions (same rule) until the pool ends, then Results again.
 
 The counter on the question screen: `n / (core + clarify)` while the fixed number is used.
+The 6 «flow N» golden cases give the exact sequences for six full answer sets: port `next_clarify` and check them first.
 
 ## 3. List details: what the result explains and in which format
 
@@ -95,8 +139,8 @@ Goal: the start page never waits for data, and a loader almost never appears.
 | File | Size (gzip) | Contents | Needed by |
 |---|---|---|---|
 | `quiz_core.v2.json` | ~2 KB (1 KB) | `flow`, `core`, the core statements | the first `flow.core` questions |
-| `quiz_data.v2.json` | ~120 KB (27 KB) | `params`, all statements, `directions`, `lists` with positions | clarifying questions, trade-offs, Results |
-| `quiz_bills.v2.json` | ~1.2 MB (180 KB) | `mks`, `by_direction`, `bills` | List details and «Bills of one statement» only |
+| `quiz_data.v2.json` | ~217 KB | `params`, all statements, `directions`, `lists` with positions | clarifying questions, trade-offs, Results |
+| `quiz_bills.v2.json` | ~1.8 MB | `mks`, `by_direction`, `bills` | List details and «Bills of one statement» only |
 
 - The data is **not bundled** into the JS: the app shell (start page, styles, fonts) loads alone; the three files are fetched
   as static files from the site itself (CSP `connect-src 'self'` already allows it).
@@ -116,16 +160,15 @@ Texts for the methodology / FAQ page, English as shown. Numbers come from the ex
 **How topics are chosen.** A topic gets a statement only if the parties' former MKs actually differ on it in the Knesset record:
 at least 8 evaluated lists with 3 or more former MKs on the topic, a spread of their positions of at least 0.25, and at least 5
 distinct bills (a re-submitted bill counts once) sponsored by them. These thresholds were fixed in advance and are the same for every topic. Topics where all lists
-did the same, or where too few bills exist, are left out — even when they are important.
+did the same, or where too few bills exist, are left out — even when they are important. When one topic lies almost entirely inside another, a shared bill counts toward only one of them, chosen by whether voters would see two different questions.
 
 **Important topics that are not in the quiz, and why.**
-- *The lists' records hardly differ (nearly everyone pushed the same way):* animal protection; credit and mortgages; state power to
-  ban harmful content; public broadcasting (Kan, Galei Tzahal); tax enforcement; cannabis; state support for long-term savings;
-  support for charities.
-- *Too few bills by the candidates to place the lists:* abortion; who is registered as a Jew; rights of the parliamentary
-  opposition; gun licensing; immunity for soldiers; the death penalty for terrorists; immigration rights of grandchildren of Jews
-  (Law of Return); laws tied to a state of emergency; a shorter working week; the Yemenite children affair; adoption rules.
-- *Covered by another statement:* immunity of elected officials (in «A prime minister under indictment»); civil marriage and divorce
+- *The lists' records hardly differ (nearly everyone pushed the same way):* credit and mortgages; tax enforcement; support for
+  charities.
+- *Too few bills by the candidates to place the lists:* abortion; who is registered as a Jew; gun licensing; immunity for
+  soldiers; the death penalty for terrorists; immigration rights of grandchildren of Jews (Law of Return); laws tied to a state of
+  emergency; a shorter working week.
+- *Covered by another statement:* civil marriage and divorce
   (in «Civil marriage» and «Divorce»); conditions on funding religious schools (in «Funding schools without the core curriculum»);
   alternatives to military service (in «Drafting yeshiva students»); international law and UNRWA (in «Foreign states and
   international organizations in Israel»).

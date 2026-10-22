@@ -1,0 +1,90 @@
+{
+ "163": {
+  "decision": "split",
+  "reason": "standard audit (2026-10-20): The heaviest bills are about religious-court jurisdiction (arbitration), not funding; funding bills form a second group. Off: hametz in hospitals and prayer space (accommodation, as in 162s2), Druze law, marriage, tombstones, COVID.",
+  "subs": [
+   {
+    "key": "163p1",
+    "same_as": null,
+    "name_ru": "Powers of religious courts",
+    "name_en": "Powers of religious courts",
+    "plus_en": "Religious courts get wider powers, such as arbitrating civil disputes or ruling by consent of the parties",
+    "minus_en": "Religious courts' powers stay limited to their current areas or shrink"
+   },
+   {
+    "key": "163p2",
+    "same_as": null,
+    "name_ru": "State funding of religious institutions",
+    "name_en": "State funding of religious institutions",
+    "plus_en": "More state money and discounts for yeshivas, Haredi schools, religious councils, houses of prayer and holy sites",
+    "minus_en": "Less state funding and fewer discounts for religious institutions and schools"
+   }
+  ]
+ },
+ "256s3": {
+  "decision": "split",
+  "reason": "standard audit (2026-10-20): Language bills are under half the weight; gender-equality and tolerance curricula are a separate group a voter can judge differently. Off: school social-boycott (bullying) bills, as in 99s2, and Arabic signage for students.",
+  "subs": [
+   {
+    "key": "256s3p1",
+    "same_as": null,
+    "name_ru": "Arabic and Hebrew in schools",
+    "name_en": "Arabic and Hebrew in schools",
+    "plus_en": "Schools must teach Arabic to Jewish pupils and Hebrew to Arab pupils",
+    "minus_en": "Schools have no duty to teach the other national language"
+   },
+   {
+    "key": "256s3p2",
+    "same_as": null,
+    "name_ru": "Teaching gender equality and tolerance",
+    "name_en": "Teaching gender equality and tolerance",
+    "plus_en": "Schools must teach gender equality, tolerance and prevention of sexual harassment, and train staff on these topics",
+    "minus_en": "Such programs stay optional for schools"
+   }
+  ]
+ },
+ "122s1": {
+  "decision": "split",
+  "reason": "standard audit (2026-10-20): Over half the weight is the 2024 local-elections temporary orders and postponement powers, not penalties; the statement matches only deepfake and fraud-penalty bills. Content of the temporary orders is unclear from titles alone.",
+  "subs": [
+   {
+    "key": "122s1p1",
+    "same_as": null,
+    "name_ru": "Penalties for election fraud and deepfakes",
+    "name_en": "Penalties for election fraud and deepfakes",
+    "plus_en": "Harsher penalties and disclosure duties for ballot fraud and AI-made fake content in election campaigns",
+    "minus_en": "Current penalties and fewer restrictions on campaign content"
+   },
+   {
+    "key": "122s1p2",
+    "same_as": null,
+    "name_ru": "Special arrangements for local elections in emergencies",
+    "name_en": "Special arrangements for local elections in emergencies",
+    "plus_en": "Local-election dates and rules may be changed or postponed by temporary orders or ministerial decision in emergencies",
+    "minus_en": "Local elections held on schedule under the standard rules"
+   }
+  ]
+ },
+ "95s2": {
+  "decision": "split",
+  "reason": "standard audit (2026-10-20): About 60% of the weight limits police force at protests (dispersal rules, body cameras, police violence), not compensation; compensation bills are about 30%. These are different positions. Kafr Qasim recognition is off.",
+  "subs": [
+   {
+    "key": "95s2p1",
+    "same_as": null,
+    "name_ru": "Limits on police force at protests",
+    "name_en": "Limits on police force at protests",
+    "plus_en": "Stricter rules on how police disperse protests and use force, with body cameras and accountability for police violence",
+    "minus_en": "Police keep broad discretion to disperse assemblies and use force"
+   },
+   {
+    "key": "95s2p2",
+    "same_as": null,
+    "name_ru": "State compensation for wrongful detention and prosecution",
+    "name_en": "State compensation for wrongful detention and prosecution",
+    "plus_en": "Wider state liability to compensate people wrongly detained, shackled, prosecuted or later acquitted",
+    "minus_en": "Narrower state liability for such compensation"
+   }
+  ]
+ }
+}

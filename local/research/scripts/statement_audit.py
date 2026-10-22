@@ -19,6 +19,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.a
 NEW = os.environ.get("NEW") == "1"
 # QS=12,16,...: audit only these statements (after the label removals, customer 2026-10-18) into statement_audit_<TAG or "qs">/
 QS = set(os.environ["QS"].split(",")) if os.environ.get("QS") else None
+# DRAFTS=a.json,b.json: audit draft statements (new-statement procedure, round 2, 2026-10-20) instead of quiz statements; q = "n<theme id>"
+DRAFTS = os.environ.get("DRAFTS")
+if DRAFTS and not QS: QS = {"_drafts"}
 OUT = os.path.join(ROOT, f"local/research/statement_audit_{os.environ.get('TAG', 'qs')}" if QS else
                    "local/research/statement_audit_new" if NEW else "local/research/statement_audit"); os.makedirs(OUT, exist_ok=True)
 PARTS = int(os.environ.get("PARTS", 1)) if QS else 2 if NEW else 3
@@ -28,8 +31,14 @@ import labels
 def build():
     lab = labels.load(relevance=False)["bill_lab"]
     st = collections.defaultdict(list)
-    for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements_v4.csv")):
-        if r["status"] == "ok" and (not NEW or int(r["q"]) >= 72) and (QS is None or r["q"] in QS): st[r["d"]].append(r)
+    if DRAFTS:
+        for f in DRAFTS.split(","):
+            for x in json.load(open(f)):
+                if not x.get("no_statement"):
+                    st[x["d"]].append(dict(q="n" + x["d"], d=x["d"], title_en=x["title_en"], statement_en=x["statement_en"], agree_key=x["key"].replace("-", "−")))
+    else:
+        for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements_v4.csv")):
+            if r["status"] == "ok" and (not NEW or int(r["q"]) >= 72) and (QS is None or r["q"] in QS): st[r["d"]].append(r)
     dirs = pd.read_csv(f"{ROOT}/jef/directions/DIRECTIONS_LIST.csv", dtype={"n": str})
     dname = dict(zip(dirs.n, dirs.get("name_en", dirs.name_ru)))
     for p in [json.load(open(f"{ROOT}/jef/directions/split/plan.json"))] + labels.later_plans():   # all split stages
@@ -61,7 +70,7 @@ def build():
         tot = sum(a[0] for a in agg.values())
         top = sorted(agg.items(), key=lambda kv: -kv[1][0])[:40]
         items.append(dict(d=d, sts=sts, top=top, tot=tot, n=len(agg), share=sum(a[0] for _, a in top) / tot if tot else 0))
-    items.sort(key=lambda it: int(it["sts"][0]["q"]))
+    items.sort(key=lambda it: str(it["sts"][0]["q"]).zfill(6))
     parts = [items[i::PARTS] for i in range(PARTS)]
     for k, part in enumerate(parts, 1):
         L = []

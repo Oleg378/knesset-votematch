@@ -1,0 +1,179 @@
+{"bill_id": "2199481", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "147s2s1", "sign": "+", "role": "secondary"}], "note": "Публикация мест дефибрилляторов и реестр, передача надзора Минздраву"}
+{"bill_id": "2200355", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "147s2s1", "sign": "+", "role": "secondary"}], "note": "Публикация мест дефибрилляторов и реестр, передача надзора Минздраву"}
+{"bill_id": "2197266", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "147s2s1", "sign": "+", "role": "secondary"}], "note": "Публикация мест дефибрилляторов и реестр, передача надзора Минздраву"}
+{"bill_id": "2170230", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "147s2s1", "sign": "+", "role": "secondary"}], "note": "Публикация мест дефибрилляторов и реестр, передача надзора Минздраву"}
+{"bill_id": "2168902", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "147s2s1", "sign": "+", "role": "secondary"}], "note": "Публикация мест дефибрилляторов и реестр, передача надзора Минздраву"}
+{"bill_id": "1042240", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Данные о безопасности в авиации, не здравоохранение и не равенство"}
+{"bill_id": "2198764", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [{"n": "147s2s2", "sign": "+", "role": "main"}], "note": "Публикация данных о соблюдении квоты работников с инвалидностью"}
+{"bill_id": "2199514", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [{"n": "147s2s2", "sign": "+", "role": "main"}], "note": "Публикация данных о соблюдении квоты работников с инвалидностью"}
+{"bill_id": "2203714", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [{"n": "147s2s2", "sign": "+", "role": "main"}], "note": "Публикация данных о соблюдении квоты работников с инвалидностью"}
+{"bill_id": "2195970", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [{"n": "147s2s2", "sign": "+", "role": "main"}], "note": "Публикация данных о соблюдении квоты работников с инвалидностью"}
+{"bill_id": "2156626", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [{"n": "147s2s2", "sign": "+", "role": "main"}], "note": "Публикация данных о соблюдении квоты работников с инвалидностью"}
+{"bill_id": "2203061", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [{"n": "147s2s2", "sign": "+", "role": "main"}], "note": "Публикация данных о соблюдении квоты работников с инвалидностью"}
+{"bill_id": "2205862", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [{"n": "147s2s2", "sign": "+", "role": "main"}], "note": "Публикация данных о соблюдении квоты работников с инвалидностью"}
+{"bill_id": "2206798", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [{"n": "147s2s2", "sign": "+", "role": "main"}], "note": "Публикация данных о соблюдении квоты работников с инвалидностью"}
+{"bill_id": "2209529", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Общая передача данных между ведомствами по социальным правам"}
+{"bill_id": "2206938", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Общая передача данных между ведомствами по социальным правам"}
+{"bill_id": "2222699", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Общая передача данных между ведомствами по социальным правам"}
+{"bill_id": "2212126", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [{"n": "147s2s1", "sign": "+", "role": "main"}], "note": "Разрешает передачу медицинских записей для опознания и причины смерти"}
+{"bill_id": "2167981", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "147s2s2", "sign": "+", "role": "secondary"}], "note": "Проверка и публикация соблюдения квоты работников с инвалидностью"}
+{"bill_id": "2192570", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "147s2s2", "sign": "+", "role": "secondary"}], "note": "Проверка и публикация соблюдения квоты работников с инвалидностью"}
+{"bill_id": "2156935", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Реестр ульев и тендеры на пасеки, не здравоохранение"}
+{"bill_id": "2195829", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Национальный медицинский call-центр, реестр дежурных, не медицинские данные"}
+{"bill_id": "2199573", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Национальный медицинский call-центр, реестр дежурных, не медицинские данные"}
+{"bill_id": "2229311", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [], "note": "Передача данных о терроре учеников в Минобразования, не равенство"}
+{"bill_id": "2209494", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Передача налоговых данных в госорганы по просьбе налогоплательщика"}
+{"bill_id": "2226156", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [{"n": "147s2s1", "sign": "+", "role": "main"}], "note": "Расширяет круг органов в законе о передаче медицинской информации"}
+{"bill_id": "2215274", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "147s2s1", "sign": "+", "role": "secondary"}], "note": "Единая база прививок с доступом для гражданина"}
+{"bill_id": "2217068", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "147s2s1", "sign": "+", "role": "secondary"}], "note": "Единая база прививок с доступом для гражданина"}
+{"bill_id": "2156379", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [], "note": "База данных о профессиональном обучении и рынке труда"}
+{"bill_id": "2195810", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [], "note": "База данных о профессиональном обучении и рынке труда"}
+{"bill_id": "2199954", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [], "note": "База данных о профессиональном обучении и рынке труда"}
+{"bill_id": "2164188", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [], "note": "База данных о профессиональном обучении и рынке труда"}
+{"bill_id": "2159153", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [], "note": "База данных о профессиональном обучении и рынке труда"}
+{"bill_id": "2197953", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [], "note": "Генетическая база собак для штрафов за экскременты"}
+{"bill_id": "2204070", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "База штрафов за парковку"}
+{"bill_id": "2197548", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "База штрафов за парковку"}
+{"bill_id": "2198076", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "База штрафов за парковку"}
+{"bill_id": "2192706", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "База штрафов за парковку"}
+{"bill_id": "2203731", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "База штрафов за парковку"}
+{"bill_id": "2216026", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [], "note": "Налоговая прозрачность и обмен информацией, не здоровье и не равенство"}
+{"bill_id": "2157702", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Отчётность о нарушениях безопасности подрядчиками на стройке"}
+{"bill_id": "2159201", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Передача данных о ДТП местным властям"}
+{"bill_id": "2200165", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "База невостребованных средств в финансовых учреждениях"}
+{"bill_id": "2157029", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "База невостребованных средств в финансовых учреждениях"}
+{"bill_id": "2158763", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "База невостребованных средств в финансовых учреждениях"}
+{"bill_id": "2160025", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Ежегодный отчёт о состоянии природы"}
+{"bill_id": "2227150", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [], "note": "Передача данных о терроре учеников в Минобразования, не равенство"}
+{"bill_id": "2239504", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Обязательный отчёт о состоянии природы и биоразнообразии"}
+{"bill_id": "2157301", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Обязательный отчёт о состоянии природы и биоразнообразии"}
+{"bill_id": "2200323", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Обязательный отчёт о состоянии природы и биоразнообразии"}
+{"bill_id": "2201556", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "147s2s1", "sign": "+", "role": "secondary"}], "note": "Центральный реестр доноров спермы и надзор Минздрава"}
+{"bill_id": "2201904", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Обследование опасных зданий муниципалитетами"}
+{"bill_id": "2204325", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Обследование опасных зданий муниципалитетами"}
+{"bill_id": "2201342", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [], "note": "Генетическая база собак для штрафов за экскременты"}
+{"bill_id": "2190866", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [], "note": "Генетическая база собак для штрафов за экскременты"}
+{"bill_id": "2197367", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Информационный центр о забастовках"}
+{"bill_id": "2190011", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Информационный центр о забастовках"}
+{"bill_id": "2157703", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Реестр договоров аренды жилья"}
+{"bill_id": "2197792", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Реестр договоров аренды жилья"}
+{"bill_id": "2191507", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Контроль устойчивости старых зданий"}
+{"bill_id": "2159412", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Бюджетная прозрачность школ, не по полу, инвалидности или дискриминации"}
+{"bill_id": "2190204", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Бюджетная прозрачность школ, не по полу, инвалидности или дискриминации"}
+{"bill_id": "2156263", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [{"n": "147s2s1", "sign": "+", "role": "main"}], "note": "Реестр случаев самоубийств в Минздраве"}
+{"bill_id": "2196091", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "база баллов опасности водителей для работодателей — не здравоохранение и не равенство"}
+{"bill_id": "2156357", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "база баллов опасности водителей для работодателей — не здравоохранение и не равенство"}
+{"bill_id": "2243083", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "тревожные кнопки для инвалидов и пожилых — ни одно из определений"}
+{"bill_id": "2222372", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [{"n": "147s2s1", "sign": "+", "role": "main"}], "note": "расширяет передачу медицинской информации между организациями"}
+{"bill_id": "2189572", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "147s2s1", "sign": "+", "role": "secondary"}], "note": "создаёт регистр редких болезней"}
+{"bill_id": "2190558", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "регистрация показаний одометра — не подходит"}
+{"bill_id": "2204098", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "регистрация показаний одометра — не подходит"}
+{"bill_id": "2240689", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "147s2s2", "sign": "+", "role": "secondary"}], "note": "обязанность школ сообщать о насилии на расовой почве"}
+{"bill_id": "2190343", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "ДНК-база для поиска родственников — не медицинский регистр и не равенство"}
+{"bill_id": "2197360", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "ДНК-база для поиска родственников — не медицинский регистр и не равенство"}
+{"bill_id": "2156979", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [], "note": "регистр электровелосипедов — не подходит"}
+{"bill_id": "2157040", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "147s2s2", "sign": "+", "role": "secondary"}], "note": "гендерная статистика Центрального бюро статистики"}
+{"bill_id": "2199924", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "147s2s2", "sign": "+", "role": "secondary"}], "note": "гендерная статистика Центрального бюро статистики"}
+{"bill_id": "2156203", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "спутниковое слежение за рыболовными судами — не подходит"}
+{"bill_id": "1045808", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [], "note": "реестр бенефициаров корпораций — не подходит"}
+{"bill_id": "2164317", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "финансовая база данных страхования — не подходит"}
+{"bill_id": "2167468", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "финансовая база данных страхования — не подходит"}
+{"bill_id": "2156292", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [], "note": "данные об общественном транспорте — не подходит"}
+{"bill_id": "2196025", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [], "note": "данные об общественном транспорте — не подходит"}
+{"bill_id": "2167551", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [], "note": "обмен информацией с жертвами террора — не подходит"}
+{"bill_id": "1043724", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [], "note": "отчётность о запасах зерна и корма — не подходит"}
+{"bill_id": "2234005", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "отчёт полиции Кнессету о преступности и силе — не равенство и не здоровье"}
+{"bill_id": "2198690", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [], "note": "группа крови в водительских правах — не регистр и не передача медданных между организациями"}
+{"bill_id": "2190763", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [], "note": "группа крови в водительских правах — не регистр и не передача медданных между организациями"}
+{"bill_id": "2196373", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [], "note": "группа крови в водительских правах — не регистр и не передача медданных между организациями"}
+{"bill_id": "2159955", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "отчётность по трансфертным ценам — не подходит"}
+{"bill_id": "2214554", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "147s2s1", "sign": "+", "role": "secondary"}], "note": "мониторинг доступности медицинских услуг"}
+{"bill_id": "2206374", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "147s2s2", "sign": "+", "role": "secondary"}], "note": "отчёты Кнессету о насилии против людей с инвалидностью, с гендерной разбивкой"}
+{"bill_id": "2205470", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "147s2s2", "sign": "+", "role": "secondary"}], "note": "отчёты Кнессету о насилии против людей с инвалидностью, с гендерной разбивкой"}
+{"bill_id": "2169631", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "147s2s2", "sign": "+", "role": "secondary"}], "note": "отчёты Кнессету о насилии против людей с инвалидностью, с гендерной разбивкой"}
+{"bill_id": "2228924", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "адрес по координатам в реестре населения — не подходит"}
+{"bill_id": "2216839", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "защита потребителей от недобросовестных продавцов — не подходит"}
+{"bill_id": "2227024", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "передача уведомлений о смерти ведомствам — не подходит"}
+{"bill_id": "2224798", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "передача уведомлений о смерти ведомствам — не подходит"}
+{"bill_id": "2234101", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "регистратор семейных связей и генетические тесты — не подходит"}
+{"bill_id": "2199389", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "отчёты о финансовой эксплуатации пожилых — не равенство в смысле определения"}
+{"bill_id": "2164629", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [{"n": "147s2s1", "sign": "+", "role": "main"}], "note": "создаёт регистр случаев самоубийств"}
+{"bill_id": "2156814", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [], "note": "передача данных о неотчислении пенсионных взносов — не подходит"}
+{"bill_id": "2157665", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [], "note": "генетическая база собак — не подходит"}
+{"bill_id": "2191732", "parent": "147s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "147s2s2", "sign": "+", "role": "secondary"}], "note": "гендерная разбивка данных бюджета"}
+{"bill_id": "2210642", "parent": "147s2", "role": "main", "parent_sign": "+", "assigned": [{"n": "147s2s1", "sign": "+", "role": "main"}], "note": "единая база прививок с доступом для пациента"}
+{"bill_id": "2207021", "parent": "40s2s3", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "40s2s3s4", "sign": "−", "role": "secondary"}], "note": "Упрощает процедуру утверждения работников каннабис-бизнеса (только справка полиции, сжатые сроки)"}
+{"bill_id": "2157662", "parent": "40s2s3", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "40s2s3s1", "sign": "−", "role": "secondary"}], "note": "Освобождает от разрешения домашние фотоэлектрические установки, накопители и зарядки (источники излучения)"}
+{"bill_id": "2162018", "parent": "40s2s3", "role": "main", "parent_sign": "−", "assigned": [{"n": "40s2s3s4", "sign": "−", "role": "main"}], "note": "Глава о лицензировании бизнеса в экономическом плане; текста нет, судя по названию — упрощение процедур"}
+{"bill_id": "2200738", "parent": "40s2s3", "role": "main", "parent_sign": "+", "assigned": [], "note": "Вводит разрешение на реестры доменных имён — ни один кандидат не подходит"}
+{"bill_id": "2167141", "parent": "40s2s3", "role": "main", "parent_sign": "+", "assigned": [], "note": "Вводит разрешение на реестры доменных имён — ни один кандидат не подходит"}
+{"bill_id": "2156603", "parent": "40s2s3", "role": "main", "parent_sign": "−", "assigned": [{"n": "40s2s3s4", "sign": "−", "role": "main"}], "note": "Освобождает от подачи плана бизнеса при наличии разрешения на строительство"}
+{"bill_id": "2218977", "parent": "40s2s3", "role": "main", "parent_sign": "−", "assigned": [], "note": "Регулирование косметики (импорт, регистрация) — не подходит ни один кандидат"}
+{"bill_id": "2232813", "parent": "40s2s3", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "40s2s3s4", "sign": "−", "role": "secondary"}], "note": "Упрощает выдачу лицензий бизнесу в районах, пострадавших от войны (единая проверка)"}
+{"bill_id": "2203406", "parent": "40s2s3", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Разрешение на экспорт животных — не подходит ни один кандидат"}
+{"bill_id": "2204149", "parent": "40s2s3", "role": "main", "parent_sign": "−", "assigned": [{"n": "40s2s3s1", "sign": "−", "role": "main"}], "note": "Ускоряет и упрощает экологическое лицензирование"}
+{"bill_id": "2207002", "parent": "40s2s3", "role": "main", "parent_sign": "−", "assigned": [], "note": "Лицензия на исследования каннабиса вместо одобрения министерства здравоохранения — не подходит ни один кандидат"}
+{"bill_id": "2232915", "parent": "40s2s3", "role": "main", "parent_sign": "−", "assigned": [], "note": "Отмена нотариальной доверенности при ипотеке — это не лицензирование профессии"}
+{"bill_id": "2202783", "parent": "40s2s3", "role": "main", "parent_sign": "−", "assigned": [{"n": "40s2s3s4", "sign": "−", "role": "main"}], "note": "Упрощает получение лицензии школы: проверку может дать санитарный специалист"}
+{"bill_id": "2156578", "parent": "40s2s3", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "40s2s3s4", "sign": "−", "role": "secondary"}], "note": "Лицензия школы на пять лет вместо ежегодного обновления"}
+{"bill_id": "2196596", "parent": "40s2s3", "role": "main", "parent_sign": "−", "assigned": [{"n": "40s2s3s4", "sign": "−", "role": "main"}], "note": "Лицензия школы на пять лет вместо ежегодного обновления"}
+{"bill_id": "2231878", "parent": "40s2s3", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "40s2s3s3", "sign": "+", "role": "secondary"}], "note": "Вводит разрешение на продажу курительных продуктов (ближе всего к лицензированию по соображениям общественного вреда)"}
+{"bill_id": "2157951", "parent": "40s2s3", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "251s2", "sign": "+", "role": "secondary"}], "note": "Ужесточает условия лицензии подрядчика по персоналу"}
+{"bill_id": "2200975", "parent": "40s2s3", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "251s2", "sign": "+", "role": "secondary"}], "note": "Ужесточает условия лицензии подрядчика по персоналу"}
+{"bill_id": "2217192", "parent": "40s2s3", "role": "main", "parent_sign": "−", "assigned": [{"n": "40s2s3s1", "sign": "−", "role": "main"}], "note": "Часть закона об упрощении экологического лицензирования"}
+{"bill_id": "2156170", "parent": "40s2s3", "role": "main", "parent_sign": "−", "assigned": [], "note": "Освобождение периферии от одобрения закупки медоборудования — не подходит ни один кандидат"}
+{"bill_id": "2199801", "parent": "40s2s3", "role": "main", "parent_sign": "−", "assigned": [], "note": "Уточнение понятия держателя собаки при стерилизации бродячих — не подходит ни один кандидат"}
+{"bill_id": "2196168", "parent": "40s2s3", "role": "main", "parent_sign": "−", "assigned": [], "note": "Уточнение понятия держателя собаки при стерилизации бродячих — не подходит ни один кандидат"}
+{"bill_id": "2206752", "parent": "40s2s3", "role": "main", "parent_sign": "−", "assigned": [], "note": "Уточнение понятия держателя собаки при стерилизации бродячих — не подходит ни один кандидат"}
+{"bill_id": "2164192", "parent": "40s2s3", "role": "main", "parent_sign": "−", "assigned": [], "note": "Уточнение понятия держателя собаки при стерилизации бродячих — не подходит ни один кандидат"}
+{"bill_id": "2156790", "parent": "40s2s3", "role": "main", "parent_sign": "−", "assigned": [], "note": "Размещение религиозных стендов в городах — не подходит ни один кандидат"}
+{"bill_id": "2243346", "parent": "40s2s3", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "40s2s3s3", "sign": "+", "role": "secondary"}], "note": "Делает стандартное укрытие условием лицензии детского сада (прямо в описании «+»)"}
+{"bill_id": "2156979", "parent": "40s2s3", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "40s2s3s3", "sign": "+", "role": "secondary"}], "note": "Обязательная регистрация электровелосипедов"}
+{"bill_id": "2239766", "parent": "40s2s3", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "40s2s3s3", "sign": "+", "role": "secondary"}], "note": "Лицензия на продажу и покупку грузовых дронов"}
+{"bill_id": "2210752", "parent": "40s2s3", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "40s2s3s4", "sign": "−", "role": "secondary"}], "note": "Автоматическое продление регуляторных разрешений на время войны"}
+{"bill_id": "2201167", "parent": "40s2s3", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "40s2s3s3", "sign": "+", "role": "secondary"}], "note": "Требует лицензию для религиозных массовых мероприятий"}
+{"bill_id": "2205102", "parent": "40s2s3", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "40s2s3s3", "sign": "+", "role": "secondary"}], "note": "Требует лицензию для религиозных массовых мероприятий"}
+{"bill_id": "2158479", "parent": "40s2s3", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "40s2s3s3", "sign": "+", "role": "secondary"}], "note": "Требует лицензию для религиозных массовых мероприятий"}
+{"bill_id": "2228918", "parent": "40s2s3", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "251s2", "sign": "−", "role": "secondary"}], "note": "Юрист-налоговый консультант получает лицензию бухгалтера без экзаменов и стажировки"}
+{"bill_id": "2161538", "parent": "40s2s3", "role": "main", "parent_sign": "+", "assigned": [], "note": "Регулирование автономных автомобилей — не подходит ни один кандидат"}
+{"bill_id": "2157547", "parent": "40s2s3", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Территориальное распределение лицензий на медоборудование — не подходит ни один кандидат"}
+{"bill_id": "2201068", "parent": "40s2s3", "role": "main", "parent_sign": "−", "assigned": [], "note": "Послабления для малых телеканалов — не подходит ни один кандидат"}
+{"bill_id": "2194350", "parent": "40s2s3", "role": "main", "parent_sign": "+", "assigned": [], "note": "Проверка судимости концессионеров ставок на спорт — не подходит ни один кандидат"}
+{"bill_id": "2161404", "parent": "40s2s3", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Разрешение на работу несовершеннолетних в представлениях — ни один кандидат не подходит"}
+{"bill_id": "2227213", "parent": "40s2s3", "role": "main", "parent_sign": "−", "assigned": [{"n": "40s2s3s4", "sign": "−", "role": "main"}], "note": "Продлевает срок действия истёкших разрешений"}
+{"bill_id": "2218542", "parent": "40s2s3", "role": "main", "parent_sign": "−", "assigned": [{"n": "251s2", "sign": "−", "role": "main"}], "note": "Позволяет нотариусу приостановить лицензию, облегчая условия профессии"}
+{"bill_id": "2190526", "parent": "40s2s3", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "40s2s3s1", "sign": "−", "role": "secondary"}], "note": "Освобождает сбор дождевой воды от лицензии"}
+{"bill_id": "2161820", "parent": "40s2s3", "role": "main", "parent_sign": "−", "assigned": [{"n": "40s2s3s4", "sign": "−", "role": "main"}], "note": "Единый перечень требований и упорядочение лицензирования бизнеса"}
+{"bill_id": "2233027", "parent": "40s2s3", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "40s2s3s4", "sign": "−", "role": "secondary"}], "note": "Упрощает выдачу лицензии бизнесу в районе Хевель Тькума"}
+{"bill_id": "2156710", "parent": "40s2s3", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "40s2s3s4", "sign": "−", "role": "secondary"}], "note": "Отменяет разрешение для иностранного эксперта на короткий срок"}
+{"bill_id": "2227528", "parent": "40s2s3", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "251s2", "sign": "+", "role": "secondary"}], "note": "Вводит лицензирование охранных компаний и охранников"}
+{"bill_id": "2204243", "parent": "40s2s3", "role": "main", "parent_sign": "−", "assigned": [{"n": "40s2s3s1", "sign": "−", "role": "main"}], "note": "Ускоряет экологическое лицензирование"}
+{"bill_id": "2209401", "parent": "40s2s3", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "40s2s3s4", "sign": "−", "role": "secondary"}], "note": "Отменяет предварительное разрешение на импорт для большинства товаров"}
+{"bill_id": "2152001", "parent": "40s2s3", "role": "main", "parent_sign": "−", "assigned": [{"n": "40s2s3s4", "sign": "−", "role": "main"}], "note": "Смягчённое регулирование для финтех-компаний"}
+{"bill_id": "2242913", "parent": "40s2s3", "role": "secondary", "parent_sign": "+", "assigned": [], "note": "Разрешение на разведение собак — не подходит ни один кандидат"}
+{"bill_id": "2241476", "parent": "40s2s3", "role": "main", "parent_sign": "−", "assigned": [{"n": "40s2s3s3", "sign": "−", "role": "main"}], "note": "Освобождает исследовательские учреждения от разрешений на метательные вещества"}
+{"bill_id": "2167942", "parent": "142s2", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "142s2s2", "sign": "−", "role": "secondary"}], "note": "Запрет публиковать имена пострадавших до уведомления семьи"}
+{"bill_id": "2189748", "parent": "142s2", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "142s2s2", "sign": "−", "role": "secondary"}], "note": "Запрет публиковать имена пострадавших до уведомления семьи"}
+{"bill_id": "2220892", "parent": "142s2", "role": "main", "parent_sign": "+", "assigned": [{"n": "142s2s1", "sign": "+", "role": "main"}], "note": "Обязывает публиковать решения по семейным делам"}
+{"bill_id": "2211915", "parent": "142s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "142s2s1", "sign": "+", "role": "secondary"}], "note": "Отменяет запрет публикаций о психиатрическом лечении несовершеннолетних"}
+{"bill_id": "2197437", "parent": "142s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "142s2s1", "sign": "+", "role": "secondary"}], "note": "Отменяет запрет публикаций о психиатрическом лечении несовершеннолетних"}
+{"bill_id": "2199737", "parent": "142s2", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "142s2s2", "sign": "−", "role": "secondary"}], "note": "Публикация данных пострадавшего до уведомления семьи — нарушение приватности"}
+{"bill_id": "2197183", "parent": "142s2", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "142s2s2", "sign": "−", "role": "secondary"}], "note": "Публикация данных пострадавшего до уведомления семьи — нарушение приватности"}
+{"bill_id": "2157001", "parent": "142s2", "role": "main", "parent_sign": "+", "assigned": [{"n": "142s2s1", "sign": "+", "role": "main"}], "note": "Разрешает трансляцию заседаний по публичным петициям"}
+{"bill_id": "2159102", "parent": "142s2", "role": "main", "parent_sign": "+", "assigned": [{"n": "142s2s1", "sign": "+", "role": "main"}], "note": "Разрешает трансляцию заседаний по публичным петициям"}
+{"bill_id": "2205172", "parent": "142s2", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "142s2s2", "sign": "−", "role": "secondary"}], "note": "Запрет публиковать данные и лица солдат"}
+{"bill_id": "2209874", "parent": "142s2", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "142s2s2", "sign": "−", "role": "secondary"}], "note": "Запрет публиковать данные и лица солдат"}
+{"bill_id": "2156082", "parent": "142s2", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "142s2s2", "sign": "−", "role": "secondary"}], "note": "Запрет публиковать данные пострадавших до уведомления семьи"}
+{"bill_id": "2166687", "parent": "142s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "142s2s1", "sign": "+", "role": "secondary"}], "note": "Сужает основания для запретов на публикацию"}
+{"bill_id": "2192117", "parent": "142s2", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "142s2s2", "sign": "−", "role": "secondary"}], "note": "Ограничивает съёмку и публикацию фото подозреваемых"}
+{"bill_id": "2156330", "parent": "142s2", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "142s2s2", "sign": "−", "role": "secondary"}], "note": "Запрет публиковать имя пострадавшего до уведомления семьи"}
+{"bill_id": "2226205", "parent": "142s2", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "142s2s2", "sign": "−", "role": "secondary"}], "note": "Запрет публиковать имя пострадавшего до уведомления семьи"}
+{"bill_id": "2202665", "parent": "142s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "142s2s1", "sign": "+", "role": "secondary"}], "note": "Сужает основания для запретов на публикацию"}
+{"bill_id": "2242922", "parent": "142s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "142s2s1", "sign": "+", "role": "secondary"}], "note": "Затрудняет запрет публикации имени подозреваемого в сексуальных преступлениях"}
+{"bill_id": "2227641", "parent": "142s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "142s2s2", "sign": "+", "role": "secondary"}], "note": "Обязывает публиковать имена и фото освобождённых заключённых"}
+{"bill_id": "2156669", "parent": "142s2", "role": "main", "parent_sign": "+", "assigned": [{"n": "142s2s1", "sign": "+", "role": "main"}], "note": "Обязывает публиковать решения по семейным делам"}
+{"bill_id": "2222708", "parent": "142s2", "role": "main", "parent_sign": "+", "assigned": [{"n": "142s2s1", "sign": "+", "role": "main"}], "note": "Обязывает публиковать решения по семейным делам"}
+{"bill_id": "2166440", "parent": "142s2", "role": "main", "parent_sign": "+", "assigned": [{"n": "142s2s1", "sign": "+", "role": "main"}], "note": "Обязывает публиковать решения по семейным делам"}
+{"bill_id": "2198024", "parent": "142s2", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "142s2s2", "sign": "−", "role": "secondary"}], "note": "Запрет документировать и распространять съёмку солдат"}
+{"bill_id": "2169731", "parent": "142s2", "role": "secondary", "parent_sign": "+", "assigned": [{"n": "142s2s2", "sign": "+", "role": "secondary"}], "note": "Отменяет соглашения о молчании, позволяя пациентам публиковать данные о случае"}
+{"bill_id": "2198063", "parent": "142s2", "role": "secondary", "parent_sign": "−", "assigned": [{"n": "142s2s2", "sign": "−", "role": "secondary"}], "note": "Запрет публиковать запись человека без согласия"}

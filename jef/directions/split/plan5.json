@@ -1,0 +1,442 @@
+{
+ "note": "Stage 5 (2026-10-20, [У]): split of the 24 basket directions that pass the selection criteria (SHARED_UNDERSTANDING «Выпавшие законопроекты и направления без вопроса»; local/research/basket_split/). Procedure of 2026-10-16 (Opus proposes parts; a part that is an existing direction is a transfer); the choice is made by Sonnet subagents instead of Jev; sign asked per part.",
+ "parents": {
+  "149": [
+   "149s1",
+   "179",
+   "149s3",
+   "149s4"
+  ],
+  "349": [
+   "19",
+   "211",
+   "103",
+   "99"
+  ],
+  "285": [
+   "283a",
+   "285s2",
+   "285s3"
+  ],
+  "50": [
+   "44",
+   "50s2"
+  ],
+  "358": [
+   "19",
+   "21",
+   "27",
+   "211"
+  ],
+  "256": [
+   "256s1",
+   "161a",
+   "256s3",
+   "256s4"
+  ],
+  "162": [
+   "162s1",
+   "162s2",
+   "162s3"
+  ],
+  "211": [
+   "208",
+   "211s2",
+   "211s3",
+   "200"
+  ],
+  "240": [
+   "240s1",
+   "240s2",
+   "240s3",
+   "240s4"
+  ],
+  "15": [
+   "12b",
+   "15s2"
+  ],
+  "133": [
+   "133s1",
+   "133s2",
+   "133s3"
+  ],
+  "88": [
+   "240",
+   "88s2",
+   "88s3",
+   "151"
+  ],
+  "40": [
+   "40s1",
+   "40s2",
+   "251",
+   "40s4"
+  ],
+  "290": [
+   "290s1",
+   "290s2",
+   "201",
+   "290s4"
+  ],
+  "366": [
+   "366s1",
+   "300",
+   "366s3"
+  ],
+  "96": [
+   "231e",
+   "8",
+   "96s3",
+   "96s4"
+  ],
+  "64": [
+   "90a",
+   "103a",
+   "77a",
+   "103b1"
+  ],
+  "248": [
+   "248s1",
+   "12a",
+   "271",
+   "248s4"
+  ],
+  "354": [
+   "151a",
+   "295"
+  ],
+  "32": [
+   "32s1",
+   "32s2"
+  ],
+  "99": [
+   "99s1",
+   "99s2",
+   "99s3",
+   "101b1"
+  ],
+  "8": [
+   "227",
+   "8s2",
+   "8s3",
+   "8s4"
+  ],
+  "280": [
+   "279",
+   "63"
+  ],
+  "260": [
+   "161a",
+   "260s2"
+  ]
+ },
+ "new": {
+  "149s1": {
+   "name_ru": "Ограничения в отношении лиц, связанных с террором и враждебными образованиями",
+   "name_en": "Security restrictions on people linked to terrorism or hostile entities",
+   "plus_en": "Adds or extends restrictions on people suspected of, convicted of or linked to terrorism or to hostile entities: detention without trial or longer detention before charge, harsher conditions for security prisoners, deportation of terrorists' families, revocation of citizenship or residency, bans on enemy flags and on expressions of support for terror, limits on their work, study, movement or public role. Rules on the entry and residence of foreigners in general do not count.",
+   "minus_en": "Removes, shortens or limits such restrictions, so that these people are handled under the ordinary rules that apply to everyone."
+  },
+  "149s3": {
+   "name_ru": "Место еврейского религиозного закона и соблюдения заповедей в общественной жизни",
+   "name_en": "Jewish religious law and observance in public life",
+   "plus_en": "Gives Jewish religious law and observance more room in the state and public sphere: Shabbat, Passover and Yom Kippur rules in public places, Orthodox control of marriage, divorce, burial, conversion and adoption, accommodation of religious practice in the army, prisons, schools and at holy sites.",
+   "minus_en": "Gives religious rules less room in the state and public sphere: civil marriage, divorce, partnership and burial, public transport on Shabbat, repeal of the ban on leavened bread, pluralistic (non-Orthodox) prayer at holy sites, fewer religious requirements in state procedures."
+  },
+  "149s4": {
+   "name_ru": "Принудительные меры к уголовным подозреваемым и правонарушителям (не по безопасности)",
+   "name_en": "Coercive measures against criminal suspects and offenders",
+   "plus_en": "Adds or extends coercive measures against ordinary criminal suspects, defendants and offenders: arrest and detention until the end of proceedings, stricter bail, searches without a warrant, police powers over the public, prison for unpaid fines, harsher prison conditions, restrictions on released offenders (place of residence, employment, registries). Terrorism and security offences do not count.",
+   "minus_en": "Limits such measures: release from detention, shorter maximum detention, parole, ending prison for unpaid fines, better conditions for prisoners, erasing criminal and police records, repealing minor public-order offences."
+  },
+  "285s2": {
+   "name_ru": "Потолки гонораров посредников и представителей",
+   "name_en": "Caps on fees of intermediaries and claim representatives",
+   "plus_en": "Caps, limits or bans fees that intermediaries and representatives may charge clients: lawyers and agents handling benefit or insurance claims, real-estate brokers, receivers, pension distributors.",
+   "minus_en": "Lifts or raises such caps, or lets intermediaries charge clients more (e.g. paying a representative out of a benefit)."
+  },
+  "285s3": {
+   "name_ru": "Доступ к рынку страховых агентов и финансовых и налоговых представителей",
+   "name_en": "Market access of insurance agents and financial and tax representatives",
+   "plus_en": "Gives insurance agents, pension advisers, accountants, tax and securities intermediaries more access to clients, data or markets, or more rights to represent clients before authorities and insurers.",
+   "minus_en": "Gives them less access or fewer rights (e.g. new licences for insurers that bypass agents, limits on who may represent taxpayers)."
+  },
+  "50s2": {
+   "name_ru": "Несовместимость должностей в разных ветвях и институтах",
+   "name_en": "Incompatibility of offices across branches",
+   "plus_en": "Bars one person from holding posts in two branches or state institutions at the same time (e.g. minister and Knesset member, President and another office, Chief Rabbi and religious-court judge), or requires resignation from one of them.",
+   "minus_en": "Allows one person to hold such posts at the same time, or removes such incompatibility rules."
+  },
+  "256s1": {
+   "name_ru": "Условия лояльности и санкции за подстрекательство в образовании",
+   "name_en": "Loyalty conditions and incitement sanctions in education",
+   "plus_en": "Ties funding, employment or enrolment in schools and universities to conduct toward the state: dismissing teachers or lecturers, expelling students or revoking degrees for support of terror or incitement, cutting funds of institutions that teach incitement, cooperate with organizations acting against Israel, or refuse to fly the flag.",
+   "minus_en": "Removes or narrows such conditions and sanctions; institutions and staff are not penalized for such expression beyond ordinary criminal law."
+  },
+  "256s3": {
+   "name_ru": "Обязательное обучение равенству, толерантности и общей гражданственности",
+   "name_en": "Mandatory teaching of equality, tolerance and shared citizenship",
+   "plus_en": "Requires schools to teach or run programs on gender equality, prevention of sexual harassment and violence, tolerance and anti-racism, the principles of the Declaration of Independence, or Arabic language and culture for Jewish pupils (and Hebrew for Arab pupils); bans hateful or exclusionary activity in schools.",
+   "minus_en": "Removes or reduces such mandatory teaching and programs."
+  },
+  "256s4": {
+   "name_ru": "Еврейское и национальное наследие, память и символы в школах",
+   "name_en": "Jewish and national heritage, commemoration and symbols in schools",
+   "plus_en": "Requires schools and universities to teach Jewish and Israeli history and the heritage of specific Jewish communities, to mark commemoration days or run memorial programs (e.g. October 7), or to display the national flag and use the anthem.",
+   "minus_en": "Removes or reduces such mandatory heritage teaching, commemoration and national symbols in education."
+  },
+  "162s1": {
+   "name_ru": "Нерелигиозные и неортодоксальные альтернативы",
+   "name_en": "Secular and non-Orthodox alternatives in religious matters",
+   "plus_en": "Gives individuals more options outside Orthodox religious rules: civil marriage, divorce, partnership and burial, non-Orthodox prayer at the Western Wall, kashrut certification outside the Rabbinate, conversion outside the Chief Rabbinate, exemption from religious bans (e.g. leavened bread), limits on religious outreach in schools and the army.",
+   "minus_en": "Keeps or extends Orthodox rules and the Rabbinate's monopoly for everyone: no civil options, Orthodox-only arrangements at holy sites, religious bans that apply to all."
+  },
+  "162s2": {
+   "name_ru": "Условия для соблюдения еврейской религии",
+   "name_en": "Accommodation of Jewish religious observance",
+   "plus_en": "Obliges or allows the state, employers, landlords and public bodies to accommodate observant Jews: Shabbat mechanisms in buildings, prayer and religious conditions for prisoners and soldiers, religious exemptions or tracks in military service, gender-separated bathing, events or study tracks, Jewish prayer at holy sites, free parking on Shabbat, protection from offending religious belief.",
+   "minus_en": "Removes or narrows such accommodations and religious exemptions."
+  },
+  "162s3": {
+   "name_ru": "Религиозная практика мусульман и других меньшинств",
+   "name_en": "Religious practice of Muslims and other non-Jewish communities",
+   "plus_en": "Gives Muslim, Christian, Druze and other non-Jewish believers more room to practice: prayer rooms in hospitals, a shorter working day in Ramadan, study adjustments for their holidays, development of Muslim holy places; fewer limits on the call to prayer or on religious outreach.",
+   "minus_en": "Restricts such practice: limits on the muezzin's call to prayer, bans on proselytizing, fewer accommodations."
+  },
+  "211s2": {
+   "name_ru": "Трудовые гарантии резервистов, их супругов и семей погибших",
+   "name_en": "Job protection for reservists and their families",
+   "plus_en": "Gives employees who serve in the reserves, their spouses, and bereaved or wounded soldiers' families more protection from dismissal, more leave or other workplace rights.",
+   "minus_en": "Gives them less such protection, leave or workplace rights."
+  },
+  "211s3": {
+   "name_ru": "Стоимость найма иностранных рабочих",
+   "name_en": "Cost of employing foreign workers",
+   "plus_en": "Raises employers' costs of employing foreign workers: fees, levies, deposits, mandatory pension contributions or coverage by collective agreements.",
+   "minus_en": "Lowers or waives such fees, levies, deposits or mandatory contributions for employers of foreign workers."
+  },
+  "240s1": {
+   "name_ru": "Принуждение против незаконного строительства",
+   "name_en": "Enforcement against unlicensed construction",
+   "plus_en": "Strengthens enforcement against building without a permit: demolitions, penalties, bans on connecting unlicensed buildings to utilities, or measures against unlicensed construction in Area C.",
+   "minus_en": "Limits demolitions and penalties for unlicensed construction, freezes enforcement, or regularizes unlicensed housing (e.g. in minority localities or on grazing land)."
+  },
+  "240s2": {
+   "name_ru": "Экологические и энергетические требования к зданиям",
+   "name_en": "Environmental and energy requirements for buildings",
+   "plus_en": "Requires buildings, developers or plans to meet environmental or energy standards: solar panels, electric-vehicle charging infrastructure, greywater and condensate reuse, sustainable construction, environmental and health impact assessments, coastal and tree protection.",
+   "minus_en": "Removes or relaxes such environmental or energy requirements for buildings and plans."
+  },
+  "240s3": {
+   "name_ru": "Процедура получения разрешений на строительство",
+   "name_en": "Building permit procedures",
+   "plus_en": "Adds conditions, approvals or procedural steps for obtaining building permits and approving plans.",
+   "minus_en": "Speeds up or simplifies building permits and plan approval: exemptions, fast-track procedures, relief for existing buildings, urban renewal, apartment splitting, temporary uses."
+  },
+  "240s4": {
+   "name_ru": "Требования безопасности и защиты в зданиях",
+   "name_en": "Safety and shelter requirements in buildings",
+   "plus_en": "Adds safety and civil-protection requirements in buildings: safe rooms and shelters, smoke detectors, structural stability checks, dangerous-building surveys, pool fencing, defibrillators.",
+   "minus_en": "Relaxes or grants exemptions from such safety and shelter requirements."
+  },
+  "15s2": {
+   "name_ru": "Лицензирование медицинских профессий",
+   "name_en": "Licensing of health professions",
+   "plus_en": "Brings more health professions under statutory licensing or tightens entry requirements for them (e.g. radiographers, physician assistants, therapists).",
+   "minus_en": "Removes health professions from licensing or eases entry requirements for them."
+  },
+  "133s1": {
+   "name_ru": "Сроки подачи на государственные пособия",
+   "name_en": "Deadlines for claiming state benefits",
+   "plus_en": "Gives people more time to claim social security, disability, hostile-action or other state benefits, to appeal decisions on them, or pays benefits for a longer period before the claim was filed.",
+   "minus_en": "Gives less time to claim or appeal, or limits payment for the period before the claim."
+  },
+  "133s2": {
+   "name_ru": "Давность по сексуальным и насильственным преступлениям",
+   "name_en": "Limitation periods for sexual and violent crimes",
+   "plus_en": "Lengthens or abolishes limitation periods for prosecuting, or suing over, sexual offences, abuse and other violent or terror crimes.",
+   "minus_en": "Shortens such limitation periods."
+  },
+  "133s3": {
+   "name_ru": "Давность по трудовым и страховым искам",
+   "name_en": "Limitation periods for employee and policyholder claims",
+   "plus_en": "Lengthens limitation periods for claims by employees against employers (wages, leave, discrimination, whistleblower protection) or by policyholders against insurers, and for privacy claims.",
+   "minus_en": "Shortens such limitation periods."
+  },
+  "88s2": {
+   "name_ru": "Надзор за бизнесом на потребительском и финансовом рынках",
+   "name_en": "Supervision of businesses in consumer and financial markets",
+   "plus_en": "Gives regulators more powers over businesses that serve consumers (retailers, banks, insurers, other financial service providers): more duties toward customers, price controls, and administrative sanctions for violations.",
+   "minus_en": "Gives such regulators fewer powers: fewer duties toward customers, freer prices, milder or fewer administrative sanctions."
+  },
+  "88s3": {
+   "name_ru": "Санкции государства за поддержку террора и враждебность к государству",
+   "name_en": "State sanctions for support of terror or hostility to the state",
+   "plus_en": "Gives the state more power to deny funding, licences, employment, broadcasting rights or status to persons and institutions over support for terror, incitement, boycott of Israel or hostility to the state (e.g. defunding schools, dismissing teachers or lecturers, banning foreign broadcasters, freezing allowances).",
+   "minus_en": "Narrows such powers or adds safeguards for the persons and institutions affected."
+  },
+  "40s1": {
+   "name_ru": "Бюрократическое бремя при получении пособий и госуслуг",
+   "name_en": "Paperwork to obtain benefits and public services",
+   "plus_en": "Individuals must file more forms, certificates or applications, or renew them more often, to receive benefits, health services or other entitlements from the state.",
+   "minus_en": "Entitlements are granted automatically or with fewer documents: agencies share data among themselves, renewals happen automatically, medical records move between health funds without the patient having to request them."
+  },
+  "40s2": {
+   "name_ru": "Отчётность и разрешения для бизнеса и владельцев недвижимости",
+   "name_en": "Reporting and permit duties of businesses and property owners",
+   "plus_en": "Businesses, self-employed people and property owners must file more reports, obtain more permits or licences, or document more transactions.",
+   "minus_en": "They file fewer reports, need fewer permits or licences, or get simplified regimes (e.g. a small-business tax track, permit exemptions, lighter land-registry procedures)."
+  },
+  "40s4": {
+   "name_ru": "Признание однополых и нетрадиционных родителей и пар",
+   "name_en": "Legal recognition of same-sex and non-traditional parents and couples",
+   "plus_en": "Lets same-sex partners, second parents and unmarried couples be registered and recognised as parents or couples without extra court procedures.",
+   "minus_en": "Restricts such registration and recognition, or requires a court order or other additional proof."
+  },
+  "290s1": {
+   "name_ru": "Представительство арабских граждан в государственных органах",
+   "name_en": "Representation of Arab citizens in public bodies",
+   "plus_en": "Guarantees Arab, Druze or Circassian citizens seats or adequate representation in planning bodies, municipalities, the civil service, government companies, sports bodies and other public bodies.",
+   "minus_en": "Removes or reduces such guarantees."
+  },
+  "290s2": {
+   "name_ru": "Представительство харедим в государственных органах",
+   "name_en": "Representation of the Haredi population in public bodies",
+   "plus_en": "Guarantees Haredi citizens seats or adequate representation in planning bodies, the Israel Land Authority council, housing committees and other public bodies.",
+   "minus_en": "Removes or reduces such guarantees."
+  },
+  "290s4": {
+   "name_ru": "Места для экологических и общественных организаций в регулирующих органах",
+   "name_en": "Seats for environmental and public-interest organizations in regulatory bodies",
+   "plus_en": "Gives environmental organizations and public representatives seats or a voice in planning committees, the Water Authority council and animal-experiment committees.",
+   "minus_en": "Removes such seats or their voice."
+  },
+  "366s1": {
+   "name_ru": "Надзор за безопасностью яслей и молодёжных рамок",
+   "name_en": "Safety supervision of daycare and youth frameworks",
+   "plus_en": "Adds licensing, safety and supervision requirements for daycare centres, youth camps and pre-army programmes (inspections, cameras, protected rooms, first-aid kits).",
+   "minus_en": "Removes such requirements or exempts these frameworks from licensing."
+  },
+  "366s3": {
+   "name_ru": "Внешний надзор за государственными органами социальных услуг",
+   "name_en": "External oversight of public social-service bodies",
+   "plus_en": "Adds parliamentary or other external oversight and complaint mechanisms for public bodies providing social services (Employment Service, Prisoner Rehabilitation Authority, Magen David Adom, social workers, religious councils, emergency medical organizations).",
+   "minus_en": "Reduces such oversight and complaint mechanisms."
+  },
+  "96s3": {
+   "name_ru": "Санкции за дискриминацию",
+   "name_en": "Sanctions for discrimination",
+   "plus_en": "Raises compensation, fines or funding cuts for those who discriminate in services, education, housing or employment, or who publish racist content.",
+   "minus_en": "Lowers or removes such sanctions."
+  },
+  "96s4": {
+   "name_ru": "Финансовая ответственность за террор перед жертвами и государством",
+   "name_en": "Financial liability for terrorism",
+   "plus_en": "Terror victims or the state can claim more money from terrorists, terror organizations, their supporters or the Palestinian Authority (punitive damages, enforcement of judgments, mandatory fines, indemnification).",
+   "minus_en": "Narrows such claims or financial sanctions."
+  },
+  "248s1": {
+   "name_ru": "Ограничения табака и курения",
+   "name_en": "Restrictions on tobacco and smoking",
+   "plus_en": "Adds restrictions on tobacco and smoking products: advertising and flavor bans, content limits, sales limits, smoke-free places, higher tobacco tax.",
+   "minus_en": "Eases such restrictions."
+  },
+  "248s4": {
+   "name_ru": "Санитарные требования к еде и потребительским товарам",
+   "name_en": "Health requirements for food and consumer products",
+   "plus_en": "Adds health-motivated requirements on food and consumer products: labeling of allergens and nutrition, limits on trans fats and pesticide residues, restrictions on energy drinks and baby formula marketing.",
+   "minus_en": "Removes or relaxes such requirements."
+  },
+  "32s1": {
+   "name_ru": "Общее финансирование культуры и спорта",
+   "name_en": "General public funding of culture and sport",
+   "plus_en": "Allocates more public money to culture, the arts, music education and sport in general (annual budgets, equal allocation, grants to athletes and amateur clubs).",
+   "minus_en": "Allocates less such money."
+  },
+  "32s2": {
+   "name_ru": "Государственные центры наследия общин и исторических фигур",
+   "name_en": "State-funded heritage institutions for specific communities and figures",
+   "plus_en": "Creates or funds state heritage and memorial institutions dedicated to a specific community, movement or historical figure (e.g. Moroccan Jewish culture, Chabad, Jabotinsky, October 7 memory).",
+   "minus_en": "Reduces or abolishes such institutions or their funding."
+  },
+  "99s1": {
+   "name_ru": "Уголовно-правовая защита несовершеннолетних от насилия и сексуальных преступлений",
+   "name_en": "Criminal-law protection of minors from abuse",
+   "plus_en": "Toughens criminal law on violence and sexual offences against minors: harsher or minimum penalties, new offences, longer or abolished limitation periods, wider mandatory reporting, easier investigation and testimony of child victims, offender registries and monitoring.",
+   "minus_en": "Softens such criminal law: milder penalties, shorter limitation periods, fewer reporting duties or fewer special procedures for child victims."
+  },
+  "99s2": {
+   "name_ru": "Безопасность и надзор в учреждениях для детей и в их окружении",
+   "name_en": "Safety and supervision of children's care, schooling and surroundings",
+   "plus_en": "Adds safety and supervision requirements where children are cared for, taught or transported: daycare licensing and inspection, cameras, vetting and dismissal of staff accused or convicted of abuse, school security and anti-bullying duties, protected spaces, traffic safety near schools and devices against leaving children in cars, dangerous toys and pools.",
+   "minus_en": "Removes or relaxes such safety and supervision requirements for children's institutions and surroundings."
+  },
+  "99s3": {
+   "name_ru": "Ограждение несовершеннолетних от вредного контента и продуктов",
+   "name_en": "Shielding minors from harmful content and products",
+   "plus_en": "Restricts minors' access or exposure to harmful content and consumer products: internet filtering, age verification and age limits on social networks, removal of harmful online content, bans on selling or advertising tobacco, energy drinks, nitrous oxide, cannabis, gambling machines or toy weapons to or near minors.",
+   "minus_en": "Lifts such restrictions; minors and their families decide for themselves what content and products to use."
+  },
+  "8s2": {
+   "name_ru": "Денежные санкции против бизнеса за нарушение прав потребителей и работников",
+   "name_en": "Financial sanctions on businesses for violating consumer and employee rights",
+   "plus_en": "Adds or raises fines, administrative monetary sanctions or statutory compensation without proof of damage that businesses, employers and insurers pay for breaching consumer, employee or policyholder rights.",
+   "minus_en": "Reduces or removes such fines, sanctions and statutory compensation for businesses."
+  },
+  "8s3": {
+   "name_ru": "Наказания за оружейные, террористические и нарушающие общественный порядок преступления",
+   "name_en": "Penalties for weapons, terror and public-order offences",
+   "plus_en": "Adds or raises fines and other penalties for illegal weapons, terror and terror financing, protection rackets, violence at sports events, blocking roads, gatherings outside officials' homes, insulting public servants or harming holy sites.",
+   "minus_en": "Reduces or removes such fines and penalties."
+  },
+  "8s4": {
+   "name_ru": "Санкции за загрязнение среды и жестокое обращение с животными",
+   "name_en": "Sanctions for environmental harm and animal cruelty",
+   "plus_en": "Adds or raises fines, levies and penalties for pollution, waste and packaging, polluting stoves and fireplaces, harming water sources, and for cruelty to animals (trapping, unlicensed breeding, stray dogs, kaparot with chickens).",
+   "minus_en": "Reduces or removes such environmental and animal-welfare fines and levies."
+  },
+  "260s2": {
+   "name_ru": "Политико-идеологические условия для учреждений на госфинансировании",
+   "name_en": "Political conditions on state-funded institutions",
+   "plus_en": "State-funded schools, universities, cultural bodies and pre-military academies keep funding and freedom regardless of political content (positions against the state's principles, criticism of the army, political strikes, not using the anthem, hosting people convicted of security offences).",
+   "minus_en": "The state cuts or conditions funding of such institutions, or bans such activity in them, over activity against the state's principles, incitement, support for terror, calls to refuse military service or cooperation with organizations acting against Israel."
+  }
+ },
+ "transfers": {
+  "149s2": "179",
+  "349s1": "19",
+  "349s2": "211",
+  "349s3": "103",
+  "349s4": "99",
+  "285s1": "283a",
+  "50s1": "44",
+  "358s1": "19",
+  "358s2": "21",
+  "358s3": "27",
+  "358s4": "211",
+  "256s2": "161a",
+  "211s1": "208",
+  "211s4": "200",
+  "15s1": "12b",
+  "88s1": "240",
+  "88s4": "151",
+  "40s3": "251",
+  "290s3": "201",
+  "366s2": "300",
+  "96s1": "231e",
+  "96s2": "8",
+  "64s1": "90a",
+  "64s2": "103a",
+  "64s3": "77a",
+  "64s4": "103b1",
+  "248s2": "12a",
+  "248s3": "271",
+  "354s1": "151a",
+  "354s2": "295",
+  "99s4": "101b1",
+  "8s1": "227",
+  "280s1": "279",
+  "280s2": "63",
+  "260s1": "161a"
+ }
+}

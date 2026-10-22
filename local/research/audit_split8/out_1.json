@@ -1,0 +1,24 @@
+{
+ "256s3p2": {
+  "decision": "split",
+  "reason": "standard audit (2026-10-20): About half the weight is anti-ostracism (social boycott) duties in schools, a pupil-protection issue with broad support, unlike contested gender-equality and tolerance curricula; one statement would mix positions voters hold separately.",
+  "subs": [
+   {
+    "key": "256s3p2q1",
+    "same_as": null,
+    "name_ru": "School duties against ostracism and harassment",
+    "name_en": "School duties against ostracism and harassment",
+    "plus_en": "More legal duties on schools to prevent and handle social ostracism, bullying and sexual harassment among pupils",
+    "minus_en": "Fewer legal duties; each school handles ostracism and harassment at its own discretion"
+   },
+   {
+    "key": "256s3p2q2",
+    "same_as": null,
+    "name_ru": "Teaching gender equality and tolerance",
+    "name_en": "Teaching gender equality and tolerance",
+    "plus_en": "Mandatory school lessons and staff training on gender equality, tolerance, anti-racism and preventing sexual violence",
+    "minus_en": "Such lessons and training are not required and are left to each school"
+   }
+  ]
+ }
+}

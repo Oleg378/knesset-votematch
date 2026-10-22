@@ -1,0 +1,14 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason
+105,58b,הצעת חוק עסקאות למכירת נשק או ציוד צבאי של מדינה זרה,2156168,−,main,2156168,F1-1,borderline,−,Requires approval for prime minister's arms-sale commitments; not appointments
+105,58b,הצעת חוק שירות המדינה (מינויים) (תיקון - מינוי נציב והטלת תפקיד זמני),2231610,+,secondary,2231610,F1-2,about,+,Strengthens government control over civil service commissioner appointment
+105,58b,הצעת חוק הפסקת כהונה של נושאי משרה בכירים בתקופת הכהונה הראשונית של ממשלה חדשה,2240916 2229752,+,secondary,2240916,F1-3,about,+,Lets new government dismiss senior officials in first 100 days
+105,58b,הצעת חוק-יסוד: הממשלה (תיקון - חובת מינוי ממלא מקום ראש הממשלה),2222047 2212237,−,main,2222047,F1-4,borderline,−,"Forces prime minister to appoint acting deputy; succession, not dismissals"
+105,58b,הצעת חוק-יסוד: הממשלה (תיקון מס' 13),2200701,+,secondary,2200701,F1-5,about,+,Shields prime minister's minister appointments from added eligibility conditions
+105,58b,הצעת חוק-יסוד: משאל עם (תיקון - יישובים באזור יהודה ושומרון),2159549,−,secondary,2159549,F1-6,borderline,−,"Referendum before ceding settlements; territorial check, not personnel"
+105,58b,הצעת חוק ועדות חקירה (תיקון - אירועי חובה להקמת ועדת חקירה ממלכתית),2231612 2232517 2226667,−,secondary,2231612,F1-7,borderline,−,"Mandates state inquiry commissions, removing government discretion"
+105,58b,חוק-יסוד: הממשלה (תיקון מס' 10),2159659,+,main,2159659,F1-8,not_about,,"Rotation government bloc mechanics, not prime minister's solo power"
+105,58b,הצעת חוק הממשלה (תיקון - אישור הכנסת להסכם מדיני),2159108,−,secondary,2159108,F1-9,borderline,−,Requires Knesset approval for diplomatic agreements
+105,58b,הצעת חוק-יסוד: ממשלת חילופים (תיקוני חקיקה),2159188,+,secondary,2159188,F1-10,not_about,,"Amends rotation government mechanism, not prime minister's solo power"
+105,58b,הצעת חוק שירות המדינה (מינויים) (תיקון - ועדת איתור למינוי נציב שירות המדינה),2218162,−,secondary,2218162,F1-11,about,−,Search committee constrains appointing civil service commissioner
+105,58b,הצעת חוק הוועדה המייעצת למינויים בכירים,2243263,−,secondary,2243263,F1-12,about,−,Advisory vetting committee for top security appointments
+105,58b,הצעת חוק-יסוד: הפסקת חברות של חבר כנסת והעברת שר וראש ממשלה מכהונתם מחמת הפרת הבטחת בחירות (תיקוני חקיקה),2198815,−,secondary,2198815,F1-13,not_about,,"Removal for broken election promises; accountability, not appointment powers"

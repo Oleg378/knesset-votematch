@@ -1,0 +1,6 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason,kind,cid
+105,58b,הצעת חוק-יסוד: ממשלת חילופים (תיקוני חקיקה),2159188,+,secondary,2159188,F1-10,not_about,,"Amends rotation government mechanism, not prime minister's solo power",candidate,C1
+105,58b,הצעת חוק-יסוד: הממשלה (תיקון מס' 13),2200701,+,secondary,2200701,F1-5,about,+,Shields prime minister's minister appointments from added eligibility conditions,control,C2
+105,58b,הצעת חוק הוועדה המייעצת למינויים בכירים,2243263,−,secondary,2243263,F1-12,about,−,Advisory vetting committee for top security appointments,control,C3
+105,58b,חוק-יסוד: הממשלה (תיקון מס' 10),2159659,+,main,2159659,F1-8,not_about,,"Rotation government bloc mechanics, not prime minister's solo power",candidate,C4
+105,58b,הצעת חוק-יסוד: הפסקת חברות של חבר כנסת והעברת שר וראש ממשלה מכהונתם מחמת הפרת הבטחת בחירות (תיקוני חקיקה),2198815,−,secondary,2198815,F1-13,not_about,,"Removal for broken election promises; accountability, not appointment powers",candidate,C5

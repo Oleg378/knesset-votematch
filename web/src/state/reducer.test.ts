@@ -4,7 +4,7 @@ import { nextClarify } from '../engine/flow';
 import { tradeoffs } from '../engine/match';
 import type { Answer, Answers, Mult, TradePair } from '../engine/types';
 import { core, data } from '../testSources';
-import { createReducer, initialState, type Action, type State } from './reducer';
+import { createReducer, initialState, shownSoFar, type Action, type State } from './reducer';
 
 const reducer = createReducer({ core, data });
 const run = (s: State, ...actions: Action[]) => actions.reduce(reducer, s);
@@ -59,7 +59,7 @@ describe('reducer: order of questions (core → clarifying, quiz_flow)', () => {
     expect(s.screen).toEqual({ name: 'wait', then: 'next' });
     s = reducer(s, { type: 'DATA_READY' });
     expect(s.screen).toEqual({ name: 'question', i: C.length });
-    expect(s.shown[C.length]).toBe(nextClarify(data, s.answers, new Set(C)));
+    expect(s.shown[C.length]).toBe(nextClarify(data, s.answers, [...C]));
     expect(reducer(s, { type: 'DATA_READY' })).toBe(s); // nothing to resume
   });
 
@@ -186,7 +186,7 @@ describe('reducer: «Answer more questions»', () => {
     const m = run(r, { type: 'MORE' });
     expect(m.more).toBe(true);
     expect(m.screen).toEqual({ name: 'question', i: planned });
-    expect(m.shown[planned]).toBe(nextClarify(data, r.answers, new Set([...r.shown, ...Object.keys(r.answers)])));
+    expect(m.shown[planned]).toBe(nextClarify(data, r.answers, shownSoFar(r)));
     const back = run(m, { type: 'ANSWER', value: 2 }, { type: 'FINISH' });
     expect(back.screen).toEqual({ name: 'results' });
     expect(back.more).toBe(false);
@@ -198,7 +198,7 @@ describe('reducer: «Answer more questions»', () => {
     let guard = 0;
     while (s.screen.name === 'question' && guard++ < 200) s = run(s, { type: 'SKIP' });
     expect(s.screen).toEqual({ name: 'results' });
-    expect(nextClarify(data, s.answers, new Set([...s.shown, ...Object.keys(s.answers)]))).toBeNull();
+    expect(nextClarify(data, s.answers, shownSoFar(s))).toBeNull();
     expect(s.shown.length).toBeLessThanOrEqual(data.statements.length);
   });
 });

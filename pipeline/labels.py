@@ -21,13 +21,19 @@ def irrelevant():
     if REL_T is None or not os.path.exists(REL_FILE): return set()
     return {(r['bill_id'], r['d']) for r in map(json.loads, open(REL_FILE)) if r['p'] < REL_T}
 
-LATER = [(2, 'plan2.json', 'split2_choice.jsonl'), (3, 'plan3.json', 'split3_choice.jsonl'), (4, 'plan4.json', 'split4_choice.jsonl')]   # later split stages, in order
+LATER = [(2, 'plan2.json', 'split2_choice.jsonl'), (3, 'plan3.json', 'split3_choice.jsonl'), (4, 'plan4.json', 'split4_choice.jsonl'),
+         (5, 'plan5.json', 'split5_choice.jsonl'),
+         (6, 'plan6.json', 'split6_choice.jsonl'),
+         (7, 'plan7.json', 'split7_choice.jsonl'),
+         (8, 'plan8.json', 'split8_choice.jsonl'),
+         (9, 'plan9.json', 'split9_choice.jsonl')]   # later split stages, in order (5, 6: baskets; 7, 8: audit splits of new statements; 2026-10-20; choice and sign by Sonnet)
 
 def later_plans():
-    """Plans of the later split stages (2: audit of the statements, 3: audit of the new statements, 4: audit after the label removals), in order."""
+    """Plans of the later split stages (2: audit of the statements, 3: audit of the new statements, 4: audit after the label removals,
+    5: the basket directions that pass the selection criteria), in order."""
     return [json.load(open(f'{ROOT}/jef/directions/split/{p}')) for _, p, _ in LATER]
 
-def load(relevance=True, stages=99):
+def load(relevance=True, stages=99, nested=True):
     technical = set()
     for v in json.load(open(f'{LAB}/overrides.json'))['technical'].values():
         technical |= set(v['bill_ids'])
@@ -94,6 +100,14 @@ def load(relevance=True, stages=99):
             main, sec = [list(x) for x in bill_lab[b]]
             (main if r.get('role') == 'main' else sec).append({'n': str(r['d']), 'sign': r['sign']})
             bill_lab[b] = (main, sec)
+    # nested themes (global audit, [У] 2026-10-20): where ≥ 50 % of a narrow theme's bills are also in a broad theme, the shared bills
+    # count in only one of them, chosen by meaning (nested_removals.json; local/research/theme_overlap/). Applied last, on the result above.
+    nf = f'{LAB}/nested_removals.json'
+    if nested and os.path.exists(nf):
+        nr = {(str(r['bill_id']), str(r['d'])) for r in json.load(open(nf))['items']}
+        for b, (main, sec) in list(bill_lab.items()):
+            if any((str(b), str(t['n'])) in nr for t in main + sec):
+                bill_lab[b] = ([t for t in main if (str(b), str(t['n'])) not in nr], [t for t in sec if (str(b), str(t['n'])) not in nr])
     if relevance:
         drop = irrelevant()
         for b, (main, sec) in list(bill_lab.items()):

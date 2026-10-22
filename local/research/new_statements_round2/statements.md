@@ -1,0 +1,76 @@
+# Current quiz statements
+
+- q1 «Selecting judges»: Judges and lawyers should hold the majority on the committee that selects judges, even if elected officials have little say over who becomes a judge.
+- q2 «Sovereignty in Judea and Samaria»: Israel should apply its sovereignty to parts of Judea and Samaria (the West Bank), even if this harms relations with Israel's allies.
+- q3 «Trade with hostile countries»: Israel should cut economic ties with hostile states, territories and organizations, including trade, money transfers and aid agencies, even if civilians there are harmed.
+- q4 «Jewish character of the state»: The Jewish character of the state should be anchored more firmly in law, even if non-Jewish citizens feel less equal.
+- q5 «Community heritage centers»: The state should not create or fund new heritage centers for particular communities or movements — Tunisian, Moroccan, Chabad — even if their traditions fade.
+- q6 «Revoking citizenship for terrorism»: It should be easier for the state to revoke the citizenship or residency of people convicted of terrorism, even if they are left stateless.
+- q7 «Drafting yeshiva students»: Yeshiva students should be drafted into the army or civilian service, even if this forces them to give up full-time Torah study.
+- q8 «Compulsory service for everyone»: Every citizen, including groups that are exempt today, should do compulsory military or civilian service, even if the army does not need all of them.
+- q9 «Benefits for those who served»: Tuition aid, daycare, tax breaks and land should go first to those who did military or national service, even if others get less.
+- q10 «Entry of foreigners»: Israel should restrict more strictly the entry and residence of foreigners, including citizens' spouses who come from the Palestinian territories, even if this separates some families.
+- q12 «Rights of foreign workers and asylum seekers»: Israel should make it harder for foreign workers and asylum seekers to stay, work or receive benefits, even if their living conditions worsen.
+- q13 «Foreign states and international organizations in Israel»: Israel should restrict more strictly the activity of foreign states and international organizations on its territory, such as UNRWA, even at the cost of conflict with the UN and allies.
+- q14 «Foreign workers: quotas»: Israel should reduce the number of foreign workers, even if construction, agriculture and elderly care become more expensive.
+- q15 «Payments to reservists and veterans»: Soldiers, reservists, veterans and bereaved military families should receive more payments and benefits from the state, even if this requires raising taxes.
+- q16 «Assisted reproduction»: The law should widen access to fertility treatments, surrogacy, egg donation and use of a deceased man's sperm, even if this contradicts Jewish religious law.
+- q18 «Prison conditions for terrorism convicts»: Conditions for prisoners jailed for terrorism should be harsher — only basic medical care, no Red Cross visits, fewer privileges — even if Israel faces international criticism.
+- q19 «Funding schools without the core curriculum»: Every school should be required to teach core subjects such as math and English, even if schools that refuse lose state funding.
+- q20 «Divorce»: Getting a divorce should be easier, even if one of the spouses objects.
+- q21 «Foreign government funding of non-profits»: The state should tighten control over non-profits funded by foreign governments, for example by taxing such donations, even if this limits independent civil-society groups.
+- q22 «Civil marriage»: Couples should be able to marry in Israel without a religious ceremony, even if the Chief Rabbinate does not recognize such marriages.
+- q24 «Politicians' influence over the courts»: Elected officials should have more say over the courts, for example in appointing judges or overriding rulings, even if the courts become less independent.
+- q25 «Separate spaces for men and women»: Separating men and women should be allowed in state and municipal settings — swimming hours, events, study programs — even if this limits one sex's access at certain times.
+- q33 «Rabbinical courts in civil disputes»: Rabbinical courts should be allowed to hear civil and property disputes when both sides agree, even if this weakens the role of state courts.
+- q35 «Public transport funding»: The state should spend more on public transport, such as fare discounts and more bus lines, even if this requires raising taxes.
+- q36 «Settlements»: The state should reduce its support for settlements in Judea and Samaria (the West Bank), even if this makes life there harder for settlers.
+- q37 «Housing construction»: Much more housing construction should be allowed, even at the cost of building on open spaces and greater strain on infrastructure.
+- q38 «Early withdrawal of long-term savings»: Citizens should be allowed to withdraw locked savings, such as pension, study funds or child savings plans, early, even if less remains for the future.
+- q40 «LGBT rights»: The state should expand legal protections and equal rights for LGBT people, even if religious citizens and businesses must sometimes act against their beliefs.
+- q42 «Imports and competition»: The state should lower barriers to imports and new competitors, even if existing local businesses lose income.
+- q45 «Counter-terrorism measures»: Measures against terrorists and their supporters should be harsher, such as the death penalty or revoking citizenship, even if uninvolved people are affected.
+- q47 «Police powers»: The police and security forces should be given broader powers to arrest, search, monitor and use force, even if the risk of abuse grows.
+- q48 «Vetting senior appointments»: Appointments to senior state posts should be vetted by an independent committee, even if it can block candidates chosen by elected politicians.
+- q49 «Rights of suspects»: Suspects and defendants should have fewer legal protections during arrest, questioning and trial, even if the risk of convicting innocent people grows.
+- q51 «Help for new immigrants»: New immigrants (olim) should receive more benefits and assistance, even at the expense of other parts of the budget.
+- q52 «Protecting the weaker party to a contract»: The state should intervene in contract terms to protect the weaker party — the consumer or the worker — even if this limits the parties' freedom to negotiate.
+- q53 «Privatization of public services»: Public services should be run by state bodies rather than handed to private companies or organizations, even if this costs the budget more.
+- q54 «Denying benefits for terrorism»: People involved in terrorism should lose state benefits and rights, such as allowances, prison conditions or state-paid lawyers, even if their families lose income.
+- q55 «Protection of personal data»: Personal information should be better protected by law, even if this makes it harder for the police and the media to obtain it.
+- q59 «Guardianship of violent parents»: Parents charged with serious violence against family members should lose guardianship of their children, even before a court convicts them.
+- q60 «Confiscation of property without conviction»: The state should have broader powers to confiscate property linked to crime or terrorism, even if innocent owners are sometimes harmed.
+- q61 «Weight of the Attorney General»: Ministers should be allowed to act against the opinion of the government's Attorney General, even if their decisions undergo less legal review.
+- q62 «Ministers' control over senior officials»: Ministers should have more control over appointing and directing senior officials, such as legal advisers and police chiefs, even if those officials become less independent.
+- q63 «Overriding court rulings»: The Supreme Court should have less power to cancel laws and government decisions, even if citizens have fewer ways to challenge them in court.
+- q64 «A prime minister under indictment»: A prime minister or minister facing criminal charges should get no special protection from investigation, trial or removal, even if this disrupts an elected government.
+- q66 «Conditions on child benefits»: Child, pregnancy and parental benefits should come with stricter conditions, even if some children and parents lose assistance.
+- q68 «Rights of ordinary prisoners»: Prisoners and detainees should get more rights, such as rehabilitation programs and limits on shackling, even if this costs the prison service more.
+- q69 «Minimum sentences»: The law should set minimum sentences for serious crimes, such as weapons offenses, even if judges cannot give lighter sentences in exceptional cases.
+- q70 «Religious rules in public institutions»: Public institutions such as hospitals and army bases should follow Jewish religious rules, like no leavened bread on Passover, even if non-observant people are restricted.
+- q71 «Wartime relief»: In wars and other emergencies, the state should give reservists, evacuees and businesses extra relief, like tax breaks and payment delays, even if deficits grow.
+- q72 «Land purchase in Judea and Samaria»: Israelis, including Jews, should be allowed to buy land in Judea and Samaria (the West Bank), even if this makes a future territorial agreement harder.
+- q74 «Equality in the Basic Laws»: The right to equality should be written into the Basic Laws, including the Nation-State Law, even if this weakens laws favoring the state's Jewish character.
+- q75 «Women's representation»: Party lists and public bodies should be required to include a minimum share of women, even if parties must drop candidates their members chose.
+- q77 «Unemployment benefits»: Unemployment benefits should cover more people, such as the self-employed, medical interns, young workers and people in job training, even if National Insurance spends more.
+- q78 «Support for students»: Students and pupils should get more state support, such as study grants, free school meals and tuition aid, even if this costs the budget more.
+- q80 «Challenging the authorities»: Police, health funds and benefit offices should have to record and explain their decisions so people can challenge them, even at extra cost.
+- q81 «Dismissing employees who support terror»: Teachers, lecturers and public employees who express support for terrorism should be dismissed, even without a criminal conviction.
+- q82 «Access to higher education»: Higher education should be made more accessible — more colleges in the periphery and easier admission rules — even if academic standards may fall.
+- q83 «Withholding Palestinian Authority funds»: Israel should withhold Palestinian Authority tax revenues equal to its payments to people jailed for terrorism and their families, even if the Authority collapses financially.
+- q85 «Survivors' benefits»: Widows, widowers, orphans and bereaved families should get more benefits, for example equal survivors' pensions for widowers, even if this costs the budget more.
+- q86 «Support for farmers»: The state should give farmers more support, such as cheaper water and investment grants, even if taxpayers and consumers pay more.
+- q88 «Access to voting»: Voting should be made easier for people away from home, such as soldiers and students, even if polling becomes harder to supervise.
+- q89 «Health fund services»: Health funds should owe patients more services and rights, such as treatment within a set time and ambulance refunds, even if health insurance costs rise.
+- q90 «Powers of municipalities»: Municipalities should get more powers to set local rules, for example on Shabbat public transport, security and water services, even if rules differ between towns.
+- q92 «Disability and sickness benefits»: More people should qualify for disability, nursing-care and sick-leave benefits, for example homemakers and the self-employed, even if National Insurance and employers pay more.
+- q93 «Environmental regulation»: The state should impose stricter environmental rules, such as a climate law, a levy on plastic bags and protection of trees and coasts, even if this raises costs for businesses and consumers.
+- q95 «Protection of debtors»: Debtors should be better protected — for example no electricity cut-offs for unpaid bills and no travel bans over small debts — even if creditors find it harder to collect.
+- q96 «Oversight of security forces»: Security failures such as October 7 should be investigated by a state commission of inquiry, even if the government cannot choose its members.
+- q99 «Monitoring of violent partners»: People under a protective order for domestic violence should be electronically monitored, even before any conviction.
+- q100 «Pensions for seniors and survivors»: Old-age pensions and benefits for Holocaust survivors should be expanded, even if this costs the budget more.
+- q101 «Free public education»: The state should provide more free education, from early childhood and after-school programs to university, even if this requires more public spending.
+- q103 «Prime minister term limits»: A prime minister should be limited to two consecutive terms, even if voters lose the option to re-elect a popular leader.
+- q105 «Checks on the prime minister's power»: The prime minister should face more checks, such as limits on replacing senior officials, even if elected governments struggle to carry out their policies.
+- q107 «Local preference in government purchasing»: When the government buys goods and services, it should prefer Israeli and local suppliers, even if it pays more.
+- q108 «The right to vote»: The right to vote should not depend on military or national service or a prison sentence, even if those who served see this as unfair.

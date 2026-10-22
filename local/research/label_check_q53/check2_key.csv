@@ -1,0 +1,48 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason,kind,cid
+53,283,הצעת חוק הפסקת שיטת ההעסקה הקבלנית,2198331 2157790,−,secondary,2198331,F1-21,about,−,Ends contractor employment system in public services,control,C1
+53,283,"חוק להסדרה של הצבת כוורות, האבקה וייצור דבש, התשפ""ה–2025",2205489,−,main,2205489,F2-6,not_about,,Beekeeping and pollination regulation; unrelated,candidate,C2
+53,283,הצעת חוק ביטוח בריאות ממלכתי (תיקון - קציבת מועדים לקבלת טיפול רפואי או פארא-רפואי),2156091,+,secondary,2156091,F2-4,not_about,,Waiting-time limits in public health care; no state-private shift,candidate,C3
+53,283,הצעת חוק משמר מקומי,2198183,+,secondary,2198183,F1-29,not_about,,Local civilian guard for emergencies; not privatization,candidate,C4
+53,283,הצעת חוק התגמולים לנפגעי פעולות איבה (תיקון - משפחה מלווה ליתומים בגירים),2223726 2221268 2224879,+,secondary,2223726,F2-9,not_about,,Benefits for adult orphans of terror victims; unrelated,candidate,C5
+53,283,הצעת חוק התקשורת (בזק ושידורים) (תיקון - חובת סינון אתרים פוגעניים),2159056,+,secondary,2159056,F2-27,not_about,,Internet providers' mandatory content filtering; unrelated,candidate,C6
+53,283,הצעת חוק הסדרת שוק הכשרות בישראל,2158015,+,secondary,2158015,F2-11,about,+,Opens kashrut certification beyond Chief Rabbinate to private bodies,control,C7
+53,283,הצעת חוק חישוב התשלום בעד נסיעה בתחבורה ציבורית (תיקוני חקיקה),2241472,+,secondary,2241472,F2-20,not_about,,Public transport fare calculation method; no ownership change,candidate,C8
+53,283,הצעת חוק הגבלת אספקת שירותים ומוצרים לגורמי ביטחון,2215762,−,secondary,2215762,F1-30,not_about,,Restricts businesses refusing service to security forces,candidate,C9
+53,283,הצעת חוק לתיקון פקודת הרוקחים (חובת איסוף סמי מרפא),2157457,+,secondary,2157457,F2-22,not_about,,Pharmacies must collect unused medicines; environmental regulation,candidate,C10
+53,283,הצעת חוק העסקת עובדי הוראה,2156747 2157969 2200974,−,secondary,2156747,F1-9,about,−,"Teachers employed directly by state, not through intermediaries",control,C11
+53,283,הצעת חוק כלי הירייה (תיקון - זכאות לרישיון כלי ירייה למי ששירת כלוחם וכשוטר),2196965,+,secondary,2196965,F1-31,not_about,,Gun license eligibility; unrelated,candidate,C12
+53,283,הצעת חוק להסדרת הצבה של כוורות וייצור דבש,2189801,−,main,2189801,F1-14,not_about,,Beekeeping regulation; unrelated,candidate,C13
+53,283,הצעת חוק לקידום שירותים פיננסיים חברתיים (תיקוני חקיקה),2190821 2197688,+,secondary,2190821,F2-16,not_about,,Social finance lending for small businesses; not public services,candidate,C14
+53,283,הצעת חוק למניעת הטרדה מינית (תיקון - נקיטת אמצעים למניעת הטרדה מינית במקומות בילוי),2157402 2198344,+,secondary,2157402,F1-6,not_about,,"Harassment prevention duties for venues, not service delivery",candidate,C15
+53,283,חוק לפינוי שדות מוקשים ושטחי נפלים (תיקון מס' 2),2199718,+,main,2199718,F1-3,not_about,,Mine clearance authority procedure; no state-versus-private question,candidate,C16
+53,283,הצעת חוק איסור הלבנת הון (תיקון מס' 37) (הטלת חובות על מתווך במקרקעין),2234536,+,secondary,2234536,F2-15,not_about,,Anti-money-laundering duties on real estate brokers; regulation,candidate,C17
+53,283,הצעת חוק כלי היריה (תיקון - זכאות לרישיון כלי יריה למי ששירת כלוחם וכשוטר),2191296,+,secondary,2191296,F2-13,not_about,,"Gun licensing for veterans; firearms policy, not service provision",candidate,C18
+53,283,הצעת חוק שירות לאומי-אזרחי (תיקון מס' 4),2167379,+,secondary,2167379,F1-20,not_about,,National-civil service linked to draft arrangements; unrelated,candidate,C19
+53,283,הצעת חוק סמכויות לשם שמירה על ביטחון הציבור (תיקון - הסדרת סיירות ביטחון ברשויות המקומיות),2237496,+,secondary,2237496,F1-8,not_about,,Municipal security patrols regulation; not privatization question,candidate,C20
+53,283,"פרק י""ד (שדות תעופה בשיתוף המגזר הפרטי) מתוך הצעת חוק התוכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנת התקציב 2026), התשפ""ו-2026 [פוצלה לפי סעיף 84(ב) לתקנון]",2240507,+,main,2240507,F2-19,about,+,Airports built and run in partnership with private sector,control,C21
+53,283,"הצעת חוק משכן הכנסת, רחבתו ומשמר הכנסת (תיקון - איסור העסקה קבלנית)",2190696 2198660 2197848 2160289,−,main,2190696,F1-15,about,−,Bans contractor employment in Knesset services,control,C22
+53,283,הצעת חוק חיוב ספק תכנים בהשקעה בהפקות מקומיות,2224785,+,secondary,2224785,F2-3,not_about,,Content providers' local production investment duty; not public services,candidate,C23
+53,283,הצעת חוק כלי הירייה (תיקון - זכאות לרישיון כלי ירייה למי ששירת כלוחם ושוטר),2198186,+,secondary,2198186,F2-25,not_about,,"Gun licensing for veterans; firearms policy, not service provision",candidate,C24
+53,283,"הצעת חוק הפרטת גלי צה""ל",2170242 2196970 2156141 2196802,+,secondary,2170242,F1-11,about,+,"Privatizes Army Radio, a state-run broadcaster",control,C25
+53,283,חוק זכויות החולה (תיקון מס' 16),2212299,+,secondary,2212299,F2-7,not_about,,Temporary medical decision-maker for patients; unrelated to provision,candidate,C26
+53,283,הצעת חוק שירות מידע פיננסי (תיקון - הסדרת מתן שירותים על ידי עמותה),2233168,+,secondary,2233168,F1-10,not_about,,"Licensing nonprofits in financial data market, not public services",candidate,C27
+53,283,הצעת חוק מוסדות חינוך עצמאיים,2169875,+,secondary,2169875,F1-25,about,+,Regulates private schools outside state-funded education system,control,C28
+53,283,"הצעת חוק תובענות ייצוגיות (תיקון מס' 14) (מעמדם של ארגוני סביבה), התשפ""ב–2022",2160021,+,secondary,2160021,F1-28,not_about,,"Class action standing for environmental groups; litigation, not services",candidate,C29
+53,283,הצעת חוק חינוך מיוחד (תיקון - שילוב בתנועות נוער),2210668,+,secondary,2210668,F1-22,not_about,,Special-needs inclusion in youth movements; unrelated,candidate,C30
+53,283,הצעת חוק עסקאות גופים ציבוריים (תיקון - מניעת העסקה במיקור חוץ בשירות הציבורי),2157468,−,main,2157468,F1-12,about,−,"Prevents outsourcing, mandates direct employment in public service",control,C31
+53,283,הצעת חוק שנת שירות,2231103,+,secondary,2231103,F1-16,not_about,,Recognition of pre-army volunteer year programs; not service provision,candidate,C32
+53,283,הצעת חוק רישום נישואין אזרחיים בעיר אילת (תיקוני חקיקה),2199059,+,secondary,2199059,F1-34,not_about,,Civil marriage registration in Eilat; unrelated,candidate,C33
+53,283,הצעת חוק ייסוד כיתות כוננות ביישובים,2211909,+,secondary,2211909,F1-33,not_about,,"Settlement standby squads; security organization, not privatization",candidate,C34
+53,283,"הצעת חוק זיהוי קורבנות אסון (זק""א)",2222216,+,main,2222216,F1-32,about,+,Grants ZAKA nonprofits statutory role in disaster victim identification,control,C35
+53,283,הצעת חוק איסור הפרטת שיקול דעת שלטוני (הסדרת מעמדה של החטיבה להתיישבות),2158188,−,main,2158188,F2-18,about,−,Prohibits privatizing governmental discretion to Settlement Division,control,C36
+53,283,"הצעת חוק לתיקון פקודת בתי הסוהר (מס' 69), התשפ""ה–2025",2221002,+,secondary,2221002,F2-30,not_about,,"Former prison staff volunteering; individuals, not private organizations",candidate,C37
+53,283,הצעת חוק העברת עודפי מזון שנותר ברשות בית חולים ציבורי כללי לארגון לחלוקת מזון,2219164,+,secondary,2219164,F1-13,not_about,,"Hospital food surplus donation, not handing over a public service",candidate,C38
+53,283,הצעת חוק עסקאות גופים ציבוריים (תיקון - איסור על התקשרות קבלנית להעסקת עובדים),2157574 2198404 2160966,−,main,2157574,F2-10,about,−,Bans public bodies contracting manpower and service contractors,control,C39
+53,283,הצעת חוק הכשרות המשפטית והאפוטרופסות (תיקון - צמצום סמכותו של בית המשפט להטיל את ההכרעה בעניינו של קטין על עובד סוציאלי וגורמים אחרים),2220895,−,secondary,2220895,F2-8,not_about,,Court delegation to social workers; not state versus private,candidate,C40
+53,283,הצעת חוק אומנה לילדים (תיקון מס' 3) (אומנת חירום),2189559,+,secondary,2189559,F1-7,not_about,,"Emergency foster care arrangements, not public-versus-private provision",candidate,C41
+53,283,הצעת חוק קופת חולים (עידוד תרומת תרופות),2240227,+,secondary,2240227,F2-26,not_about,,Health fund medicine donation; not provision ownership,candidate,C42
+53,283,הצעת חוק פרס כספי בעבור לכידת מחבל,2196562 2191777,+,secondary,2196562,F1-26,not_about,,Reward for capturing terrorists; unrelated,candidate,C43
+53,283,הצעת חוק למניעת אלימות במשפחה (תיקון - ממונה על נושא האלימות במשפחה במקומות עבודה גדולים),2205561 2203995,+,secondary,2205561,F2-5,not_about,,Domestic violence contact person at employers; not outsourcing public services,candidate,C44
+53,283,הצעת חוק התכנון והבנייה (תיקון - מורשה להיתר),2236029,+,secondary,2236029,F1-18,about,+,Private permit authorizers take over planning permit functions,control,C45
+53,283,הצעת חוק התכנון והבניה (תיקון מס' 169- הוראת שעה),1057055,+,secondary,1057055,F2-32,not_about,,Planning temporary provision for artificial intelligence infrastructure; unrelated,candidate,C46
+53,283,הצעת חוק אומנה לילדים (תיקון - אומנת חירום),2199820,+,secondary,2199820,F2-23,not_about,,Emergency foster care arrangements; no state-private shift,candidate,C47

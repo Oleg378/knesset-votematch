@@ -1,0 +1,11 @@
+id,verdict,sign,reason
+F1-1,about,+,"Revokes citizenship of those convicted of nationalist murder or attempt"
+F1-2,about,+,"Revokes citizenship or residency of paid convicted terrorists"
+F1-3,not_about,,"Denies social benefits and health services, not citizenship"
+F1-4,borderline,+,"Revokes status for living in Gaza, not terror conviction"
+F1-5,about,+,"Enacted law revoking status of terrorists receiving payment"
+F1-6,not_about,,"Foreign worker visa cancellation timing, unrelated to terrorism"
+F1-7,about,+,"Harsher punishment and citizenship revocation after October 7 attack"
+F1-8,borderline,+,"Revocation for violent rioting during emergency, not strictly terrorism"
+F1-9,borderline,+,"Deporting terrorists' family members, not convicts themselves"
+F1-10,borderline,+,"Revocation for violent rioting during emergency, not strictly terrorism"

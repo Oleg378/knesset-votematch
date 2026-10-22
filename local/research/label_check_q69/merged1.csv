@@ -1,0 +1,34 @@
+q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason
+69,66b2,הצעת חוק צער בעלי חיים (הגנה על בעלי חיים) (תיקון - ענישה מזערית),2196039 2156415 2193099 2203834,−,secondary,2196039,F1-1,about,−,Sets minimum punishment for animal cruelty offenses
+69,66b2,הצעת חוק העונשין (תיקון - עונש מינימום למתעלל בקטין או חסר ישע),2218704,−,secondary,2218704,F1-2,about,−,Minimum sentence for abusing minors or helpless persons
+69,66b2,הצעת חוק העונשין (תיקון - איומים כלפי עובד ציבור),2164298,+,secondary,2164298,F1-3,not_about,,Penalty for threats to public servants; no minimum sentence
+69,66b2,הצעת חוק העונשין (תיקון - קביעת עונש מינימום לעבירות יידוי אבנים),2198611 2197599 2200287 2169594 2196072 2204871 2200302 2207077,−,main,2198611,F1-4,about,−,Minimum sentence for stone-throwing offenses
+69,66b2,הצעת חוק העונשין (תיקון - קביעת עונשים מזעריים לעבירות מין),2201593,−,secondary,2201593,F1-5,about,−,Minimum sentences for sexual offenses
+69,66b2,"הצעת חוק העונשין (תיקון – נשיאת מאסר במשמורת בקהילה), התשפ""ה–2024",2221136,+,secondary,2221136,F1-6,borderline,+,Adds community custody alternative to prison; widens sentencing options
+69,66b2,הצעת חוק העונשין (תיקון - עונש מזערי לעבירות ממניע גזענות או עוינות כלפי ציבור),2201597,−,secondary,2201597,F1-7,about,−,Minimum sentence for racially motivated offenses
+69,66b2,הצעת חוק העונשין (תיקון - עונש מינימום למצית נכס ציבורי),2197588 2196950 2161745,−,secondary,2197588,F1-8,about,−,Minimum sentence for arson of public property
+69,66b2,הצעת חוק העונשין (תיקון - עונש מינימום על עבירות ירי בנשק חם),2206744,−,secondary,2206744,F1-9,about,−,Minimum sentence for firearm shooting offenses
+69,66b2,הצעת חוק העונשין (תיקון מס' 140 - הוראת שעה) (תיקון - הארכת תוקף והגדלת עונש המינימום),2198638,−,secondary,2198638,F1-10,about,−,Extends and raises minimum sentence for weapons offenses
+69,66b2,הצעת חוק העונשין (תיקון - החמרת ענישה בגין ירי מנשק חם שלא כדין),2198676 2205932 2197201 2156186,−,secondary,2198676,F1-11,borderline,−,Harsher firearm penalties; unclear whether a minimum is fixed
+69,66b2,הצעת חוק העונשין (תיקון - עונש מזערי בגין יידוי או ירי של אבן או חפץ אחר לעבר כלי תחבורה),2190958 2196949 2158383,−,secondary,2190958,F1-12,about,−,Minimum sentence for throwing stones at vehicles
+69,66b2,הצעת חוק העונשין (תיקון - החמרת ענישה בעבירות אלימות),2203733,−,secondary,2203733,F1-13,borderline,−,General harsher violence penalties; minimum not explicit
+69,66b2,הצעת חוק העונשין (תיקון - עונש מינימום למצית נכס ציבורי) (הוראת שעה),2198612 2200548 2231073,−,secondary,2198612,F1-14,about,−,Temporary minimum sentence for arson of public property
+69,66b2,הצעת חוק העונשין (תיקון - עונשי מינימום בעבירות בחוק העונשין),2217046,−,main,2217046,F1-15,about,−,Minimum sentences across Penal Law offenses
+69,66b2,הצעת חוק העונשין (תיקון - עונש מינימום בעבירות כניסה והתפרצות),2206735,−,secondary,2206735,F1-16,about,−,Minimum sentence for burglary offenses
+69,66b2,הצעת חוק למניעת הטרדה מינית (תיקון - עונש מינימום),2206733,−,main,2206733,F1-17,about,−,Obliges judges to impose minimum for sexual harassment offenses
+69,66b2,הצעת חוק העונשין (תיקון - עונש מינימום על עבירת החזקת נשק בלתי חוקי),2206738,−,secondary,2206738,F1-18,about,−,Minimum sentence for illegal weapon possession
+69,66b2,הצעת חוק העונשין (תיקון - החמרת ענישה בריגול חמור ומגע עם סוכן חוץ),2233011,−,secondary,2233011,F1-19,about,−,"Harsher espionage punishment, introducing mandatory minimum"
+69,66b2,הצעת חוק העונשין (תיקון - עונשי מינימום בעבירות נשק),2201902 2169951,−,secondary,2201902,F1-20,about,−,Minimum sentences for weapons offenses
+69,66b2,הצעת חוק העונשין (תיקון - עונש מינימום וקנס על החזקת נשק בלתי חוקי),2210489 2199805 2228557,−,secondary,2210489,F1-21,about,−,Minimum sentence and fine for illegal weapon possession
+69,66b2,הצעת חוק העונשין (תיקון - עונש מינימום על עבירת אונס),2206772,−,secondary,2206772,F1-22,about,−,Raises minimum sentence for rape
+69,66b2,הצעת חוק העונשין (תיקון - עונש מינימום בעבירת גניבת נשק),2206769,−,secondary,2206769,F1-23,about,−,Minimum sentence for weapon theft
+69,66b2,הצעת חוק העונשין (תיקון - עונש מינימום על החזקת נשק בלתי חוקי),2159759 2158764 2159150 2198587,−,secondary,2159759,F1-24,about,−,Minimum sentence for illegal weapon possession
+69,66b2,הצעת חוק העונשין (תיקון - קביעת עונש מינימום בגין נטילת דמי חסות),2207067 2164335 2201401,−,secondary,2207067,F1-25,about,−,Minimum sentence for protection racket extortion
+69,66b2,"חוק העונשין (תיקון מס' 143 והוראת שעה), התשפ""ב–2022",2086198,−,secondary,2086198,F1-26,about,−,Enacted minimum sentences for abuse of toddlers and helpless
+69,66b2,הצעת חוק העונשין (תיקון - עונש מינימום על עבירת אונס וביטול סייג הקלה מטעמים מיוחדים),2225581,−,secondary,2225581,F1-27,about,−,Rape minimum sentence and removes special-reasons leniency exception
+69,66b2,הצעת חוק העונשין (תיקון - עונש מינימום על תקיפת שוטר),2206770,−,secondary,2206770,F1-28,about,−,Minimum sentence for assaulting a police officer
+69,66b2,הצעת חוק העונשין (תיקון - נשיאת מאסר בעבודת שירות),2156813 2196919,+,secondary,2156813,F1-29,borderline,+,Expands community service in lieu of prison; more judicial options
+69,66b2,הצעת חוק העונשין (תיקון - עונש מינימום בעבירות גניבה מרכב),2206777,−,secondary,2206777,F1-30,about,−,Minimum sentence for vehicle theft offenses
+69,66b2,הצעת חוק לתיקון פקודת התעבורה (מאסר מינימום למי שהפקיר אדם שנפגע בתאונה),2199451,−,secondary,2199451,F1-31,about,−,Minimum prison for hit-and-run drivers abandoning victims
+69,66b2,חוק העונשין (תיקון מס' 140 – הוראת שעה),2156595,−,secondary,2156595,F1-32,about,−,Enacted temporary minimum sentences for weapons offenses
+69,66b2,הצעת חוק העונשין (תיקון - עונש מינימום על עבירת הפרעה לשוטר),2206739,−,secondary,2206739,F1-33,about,−,Minimum sentence for obstructing a police officer
