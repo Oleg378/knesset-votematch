@@ -132560,6 +132560,56 @@
    "bill_id": "2157247",
    "d": "71",
    "pair": "post-round5: 292 in 71 (56%), strategy 1 (final duplicate check: different questions), 2026-10-21"
+  },
+  {
+   "bill_id": "2157698",
+   "d": "377",
+   "pair": "P-r7-1 (22s2 in 377, strategy 1, 2026-10-22: final duplicate check of round 7 saw two different questions)"
+  },
+  {
+   "bill_id": "2157906",
+   "d": "377",
+   "pair": "P-r7-1 (22s2 in 377, strategy 1, 2026-10-22: final duplicate check of round 7 saw two different questions)"
+  },
+  {
+   "bill_id": "2159030",
+   "d": "377",
+   "pair": "P-r7-1 (22s2 in 377, strategy 1, 2026-10-22: final duplicate check of round 7 saw two different questions)"
+  },
+  {
+   "bill_id": "2167894",
+   "d": "377",
+   "pair": "P-r7-1 (22s2 in 377, strategy 1, 2026-10-22: final duplicate check of round 7 saw two different questions)"
+  },
+  {
+   "bill_id": "2199117",
+   "d": "377",
+   "pair": "P-r7-1 (22s2 in 377, strategy 1, 2026-10-22: final duplicate check of round 7 saw two different questions)"
+  },
+  {
+   "bill_id": "2200514",
+   "d": "377",
+   "pair": "P-r7-1 (22s2 in 377, strategy 1, 2026-10-22: final duplicate check of round 7 saw two different questions)"
+  },
+  {
+   "bill_id": "2201418",
+   "d": "377",
+   "pair": "P-r7-1 (22s2 in 377, strategy 1, 2026-10-22: final duplicate check of round 7 saw two different questions)"
+  },
+  {
+   "bill_id": "2201420",
+   "d": "377",
+   "pair": "P-r7-1 (22s2 in 377, strategy 1, 2026-10-22: final duplicate check of round 7 saw two different questions)"
+  },
+  {
+   "bill_id": "2202472",
+   "d": "377",
+   "pair": "P-r7-1 (22s2 in 377, strategy 1, 2026-10-22: final duplicate check of round 7 saw two different questions)"
+  },
+  {
+   "bill_id": "2208009",
+   "d": "377",
+   "pair": "P-r7-1 (22s2 in 377, strategy 1, 2026-10-22: final duplicate check of round 7 saw two different questions)"
   }
  ]
 }

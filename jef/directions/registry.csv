@@ -73,7 +73,7 @@ d,status,q,reason,source,date
 124a,quiz,103,Prime minister term limits,jef/quiz/statements_v4.csv,
 12a,quiz,117,Conversion therapy for minors,jef/quiz/statements_v4.csv,
 12b,quiz,89,Health fund services,jef/quiz/statements_v4.csv,
-130a,quiz,71,Wartime relief,jef/quiz/statements_v4.csv,
+130a,no_statement,,statement Wartime relief removed 2026-10-22: fails the selection (SD 0.24) after the add check of duplicate theme 4,local/research/add_check_round7_add/,2026-10-22
 134,quiz,135,Limits on free expression,jef/quiz/statements_v4.csv,
 139,quiz,144,Public broadcasting,jef/quiz/statements_v4.csv,
 143,quiz,110,Animal protection,jef/quiz/statements_v4.csv,
@@ -300,16 +300,17 @@ d,status,q,reason,source,date
 341,technical,,"basket split round 2: Всего 8 названий, ни одна тема не набирает 5. Сама величина «лицензии через тенд",local/research/basket_split2/,2026-10-20
 343,technical,,statement audit 2026-10-15/17,METHOD_AUDIT §7,
 346,technical,,statement audit 2026-10-15/17,METHOD_AUDIT §7,
-200,pending,,passes the selection after V4 (2026-10-22); new-statements procedure,local/research/gov_bills/REPORT.md,2026-10-22
-202,pending,,passes the selection after V4 (2026-10-22); new-statements procedure,local/research/gov_bills/REPORT.md,2026-10-22
-209a,pending,,passes the selection after V4 (2026-10-22); new-statements procedure,local/research/gov_bills/REPORT.md,2026-10-22
-215,pending,,passes the selection after V4 (2026-10-22); new-statements procedure,local/research/gov_bills/REPORT.md,2026-10-22
-230,pending,,passes the selection after V4 (2026-10-22); new-statements procedure,local/research/gov_bills/REPORT.md,2026-10-22
-244,pending,,passes the selection after V4 (2026-10-22); new-statements procedure,local/research/gov_bills/REPORT.md,2026-10-22
-311,pending,,passes the selection after V4 (2026-10-22); new-statements procedure,local/research/gov_bills/REPORT.md,2026-10-22
-377,pending,,passes the selection after V4 (2026-10-22); new-statements procedure,local/research/gov_bills/REPORT.md,2026-10-22
-4,pending,,passes the selection after V4 (2026-10-22); new-statements procedure,local/research/gov_bills/REPORT.md,2026-10-22
-40s2s3s4,pending,,passes the selection after V4 (2026-10-22); new-statements procedure,local/research/gov_bills/REPORT.md,2026-10-22
-108,pending,,passes the selection after V4 (2026-10-22); new-statements procedure,local/research/gov_bills/REPORT.md,2026-10-22
-147s1,pending,,passes the selection after V4 (2026-10-22); new-statements procedure,local/research/gov_bills/REPORT.md,2026-10-22
-18,pending,,passes the selection after V4 (2026-10-22); new-statements procedure,local/research/gov_bills/REPORT.md,2026-10-22
+200,duplicate,,"duplicate of q9 (step 2, round 7, majority of three blind checks); bills -> add check of label-check",local/research/new_statements_round7/check_*.csv,2026-10-22
+202,quiz,158,"q158 Closing gender gaps (new-statements round 7, customer approved 2026-10-22)",jef/quiz/statements_v4.csv,2026-10-22
+209a,quiz,159,"q159 Limits on working hours (new-statements round 7, customer approved 2026-10-22)",jef/quiz/statements_v4.csv,2026-10-22
+215,quiz,160,"q160 Public sector pay (new-statements round 7, customer approved 2026-10-22)",jef/quiz/statements_v4.csv,2026-10-22
+230,split,,"basket (step 2, round 7) split as stage 10: 230s1 households credit (fails: SD 0.245), 230s2 business finance (fails: 4 names)",local/research/basket_split4/,2026-10-22
+244,quiz,161,"q161 Who approves building plans (new-statements round 7, customer approved 2026-10-22)",jef/quiz/statements_v4.csv,2026-10-22
+311,split,,"basket (step 2, round 7) split as stage 10: 311s1 legal aid (passes -> new-statements), 311s2 security detainees counsel (fails: 2 names), transfers to 69a and 90a",local/research/basket_split4/,2026-10-22
+377,quiz,162,"q162 Targeting help to the poor (new-statements round 7, customer approved 2026-10-22)",jef/quiz/statements_v4.csv,2026-10-22
+4,duplicate,,"duplicate of q71 Wartime relief (step 2, round 7, two blind checks agree); bills -> add check of label-check ; add check applied 2026-10-22 (110 labels into 130a), after which q71 fails the threshold",local/research/new_statements_round7/check_*.csv,2026-10-22
+40s2s3s4,technical,,"step 2, round 7: administrative licence validity and permit paperwork, no voter position (two blind checks agree)",local/research/new_statements_round7/check_*.csv,2026-10-22
+108,quiz,163,"q163 Municipal tax discounts (new-statements round 7, customer approved 2026-10-22)",jef/quiz/statements_v4.csv,2026-10-22
+147s1,duplicate,,"duplicate of q55 (step 2, round 7, majority of three blind checks); bills -> add check of label-check",local/research/new_statements_round7/check_*.csv,2026-10-22
+18,duplicate,,"duplicate of q52 (step 2, round 7, majority of three blind checks); bills -> add check of label-check",local/research/new_statements_round7/check_*.csv,2026-10-22
+311s1,quiz,164,"q164 State-funded legal aid (new-statements round 7, customer approved 2026-10-22)",jef/quiz/statements_v4.csv,2026-10-22

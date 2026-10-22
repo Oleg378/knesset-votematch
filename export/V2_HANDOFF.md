@@ -6,6 +6,15 @@ Data side → web, 2026-10-18; updated 2026-10-21 (section 0). The v2 export is 
 `pipeline/quiz_flow.py` (order of questions), `pipeline/quiz_report.py` (explanations); `pipeline/quiz_cli.py` runs the whole
 flow in the terminal. Decisions are in `docs/SHARED_UNDERSTANDING.md` (Russian).
 
+## 0c. Update 2026-10-22, later — seven new statements, one removed
+
+- **Statements: 123** — new **q158–q164** (Closing gender gaps; Limits on working hours; Public sector pay; Who approves building
+  plans; Targeting help to the poor; Municipal tax discounts; State-funded legal aid); removed **q71 «Wartime relief»** (fails the
+  selection after bills of a duplicate theme were added). `q` stays stable — never map by position.
+- **Core changed**: 45, 7, 37, 63, **15**, 40, **49**, 4 (order of two statements swapped). Read it from the export.
+- Statement metadata (`interest`, `area`, `sim_group`) filled for the new ids; `golden.v2.json` regenerated.
+- Methodology page (section 6): «Wartime relief» → topics where the lists' records hardly differ (aid to war and terror victims).
+
 ## 0b. Update 2026-10-22 — position formula: government bills count for both camps (V4)
 
 - **Formula**: P = A + 0.25 V + 0.25 O + **0.25 G**; G = a coalition MK's votes on the government's own bills (mirror of O); votes on
@@ -178,7 +187,7 @@ did the same, or where too few bills exist, are left out — even when they are 
 
 **Important topics that are not in the quiz, and why.**
 - *The lists' records hardly differ (nearly everyone pushed the same way):* tax enforcement; support for charities; support for
-  families with children.
+  families with children; relief for war and terror victims; credit for households (just below the spread threshold).
 - *Too few lists with a record once budget votes are set aside:* the power of labor unions.
 - *Too few bills by the candidates to place the lists:* abortion; who is registered as a Jew; gun licensing; immunity for
   soldiers; the death penalty for terrorists; immigration rights of grandchildren of Jews (Law of Return); laws tied to a state of
@@ -222,3 +231,27 @@ where the data and the analysis are noisy:
   as «about as close». «No clear position» means the record is weak or rests on a single former MK or a single bill.
 - *The price in a statement* («even if …») is not measured: the record shows what a list's bills and votes pushed for, not whether
   it accepts that price.
+
+## 7. Positions table and the right to contest (customer, 2026-10-22; external audit №3, п. 5)
+
+Established voting advice applications let parties see and dispute their coded positions before publication. Our equivalent is a
+public, complete table of what the quiz holds about every list, built only from data already in the export — no new fields.
+
+**Page «Positions of the lists»** (linked from Methodology and from Results; English):
+- Rows: the 117 statements (title_en, grouped by `area` from `statements[]`, in the quiz's area order). Columns: the 12 evaluated
+  lists (`status == "ok"`), then the 4 ranked-with-warning lists in a second block; lists without a record are not columns.
+- Cell: the list's measured side on the statement — «toward» / «against» / «no clear position» — by the same rule as the
+  explanations (`params.CLOSE`, `MIN_CLEAR_MKS`, `MIN_CLEAR_BILLS` on `lists[].positions[d]`); a small marker when the side comes
+  from votes only (`P_bills` is 0 or opposite to `P`, as in the «side comes from votes» line). No numbers in the cell.
+- Click on a cell → the same bill list as the List details screen for that statement (bills toward / against, votes), so the
+  claim is checkable down to the Knesset record.
+- Header text (fixed): «This is everything the quiz holds about each list, measured from the bills its candidates who were MKs
+  sponsored and how they voted in the 24th–25th Knesset. If you represent a list and believe a cell is wrong, the bills behind
+  it are listed — write to <contact> with the bill and the reason; corrections are published here.» `<contact>` — customer to
+  provide (an e-mail or a GitHub issues link); until then the sentence ends at «are listed».
+- Export: `quiz_data.v2.json` + `quiz_bills.v2.json` only; the page is static like the rest.
+
+**Composition of the list's record** (external audit №3, п. 1.4 — proposed, awaiting the customer's decision): on the List
+details screen, under the header: «Based on N former MKs: 17 from Yesh Atid, 2 from Yamina». Needs one new field per MK in
+`mks` — `party_en` (the component party of the 2026 list, from the Central Elections Committee candidate list, English via a
+manual table like `manual/mk_names_en.csv`). Not exported yet.

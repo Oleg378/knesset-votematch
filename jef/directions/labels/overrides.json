@@ -12950,6 +12950,798 @@
     "role": "secondary",
     "source": "label check of new-statement themes, round 6 (2026-10-21): 2 of 3 blind checks «not about»",
     "reason": "Monitors availability and waiting times of health services, not patients' medical data."
+   },
+   {
+    "bill_id": "2201548",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Gender-neutral single-parent assistance eligibility"
+   },
+   {
+    "bill_id": "2156921",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Gender-neutral single-parent assistance eligibility"
+   },
+   {
+    "bill_id": "2196576",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Childcare tax deduction for low-income families; gender-neutral"
+   },
+   {
+    "bill_id": "2163968",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Childcare tax deduction for low-income families; gender-neutral"
+   },
+   {
+    "bill_id": "2196903",
+    "d": "377",
+    "q": "n377",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Legal aid for domestic violence victims; not income-targeted"
+   },
+   {
+    "bill_id": "2159833",
+    "d": "377",
+    "q": "n377",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Legal aid for domestic violence victims; not income-targeted"
+   },
+   {
+    "bill_id": "2200687",
+    "d": "377",
+    "q": "n377",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Legal aid for domestic violence victims; not income-targeted"
+   },
+   {
+    "bill_id": "2189758",
+    "d": "377",
+    "q": "n377",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Legal aid for domestic violence victims; not income-targeted"
+   },
+   {
+    "bill_id": "2161889",
+    "d": "377",
+    "q": "n377",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Legal aid for domestic violence victims; not income-targeted"
+   },
+   {
+    "bill_id": "2167385",
+    "d": "377",
+    "q": "n377",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Legal aid for domestic violence victims; not income-targeted"
+   },
+   {
+    "bill_id": "2197275",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Crime victims' family rights; gender-neutral"
+   },
+   {
+    "bill_id": "2158642",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Crime victims' family rights; gender-neutral"
+   },
+   {
+    "bill_id": "2209387",
+    "d": "377",
+    "q": "n377",
+    "role": "main",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Landfill levy fund allocation; environmental, no socio-economic targeting evident"
+   },
+   {
+    "bill_id": "2200222",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Domestic violence procedure; gender-neutral rule, not pay, benefits or budgets"
+   },
+   {
+    "bill_id": "2157214",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Domestic violence procedure; gender-neutral rule, not pay, benefits or budgets"
+   },
+   {
+    "bill_id": "2200906",
+    "d": "377",
+    "q": "n377",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Dispersal of infiltrators from south Tel Aviv; migration issue"
+   },
+   {
+    "bill_id": "2167171",
+    "d": "377",
+    "q": "n377",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Pandemic unemployment rules; crisis measure, not low-income targeting"
+   },
+   {
+    "bill_id": "2203221",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Employment terms of family daycare caregivers; occupational labor issue"
+   },
+   {
+    "bill_id": "2157783",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Recodifies sexual offences; gender-neutral criminal law"
+   },
+   {
+    "bill_id": "2199940",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Recodifies sexual offences; gender-neutral criminal law"
+   },
+   {
+    "bill_id": "2239156",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Fertility preservation for widows of fallen soldiers; bereavement"
+   },
+   {
+    "bill_id": "2197410",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Sports broadcasting rights; unrelated to gender"
+   },
+   {
+    "bill_id": "2196500",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Employment terms of family daycare caregivers; occupational labor issue"
+   },
+   {
+    "bill_id": "2198889",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Employment terms of family daycare caregivers; occupational labor issue"
+   },
+   {
+    "bill_id": "2165015",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Employment terms of family daycare caregivers; occupational labor issue"
+   },
+   {
+    "bill_id": "2159004",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Gender-neutral alimony means-test rule; recipients' sex incidental"
+   },
+   {
+    "bill_id": "2198261",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Gender-neutral alimony means-test rule; recipients' sex incidental"
+   },
+   {
+    "bill_id": "2200530",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Gender-neutral alimony means-test rule; recipients' sex incidental"
+   },
+   {
+    "bill_id": "2197933",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Gender-neutral alimony means-test rule; recipients' sex incidental"
+   },
+   {
+    "bill_id": "2195983",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Gender-neutral alimony means-test rule; recipients' sex incidental"
+   },
+   {
+    "bill_id": "2157230",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Gender-neutral alimony means-test rule; recipients' sex incidental"
+   },
+   {
+    "bill_id": "2169471",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Gender-neutral alimony means-test rule; recipients' sex incidental"
+   },
+   {
+    "bill_id": "2156337",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Disability pension after retirement age; not gender"
+   },
+   {
+    "bill_id": "2204302",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Disability pension after retirement age; not gender"
+   },
+   {
+    "bill_id": "2156577",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Sports broadcasting rights; no gender gap content"
+   },
+   {
+    "bill_id": "2219934",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Fallen soldiers' families compensation after October 7"
+   },
+   {
+    "bill_id": "2213729",
+    "d": "377",
+    "q": "n377",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Dispersal of infiltrators from south Tel Aviv; migration issue"
+   },
+   {
+    "bill_id": "2220206",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Benefits for bereaved military families; not a gender-gap question"
+   },
+   {
+    "bill_id": "2220232",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Benefits for bereaved military families; not a gender-gap question"
+   },
+   {
+    "bill_id": "2220285",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Benefits for bereaved military families; not a gender-gap question"
+   },
+   {
+    "bill_id": "2234025",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Surrogacy eligibility expansion; fertility and family law, not women-men gaps"
+   },
+   {
+    "bill_id": "2196102",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Surrogacy eligibility expansion; fertility and family law, not women-men gaps"
+   },
+   {
+    "bill_id": "2156056",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Surrogacy eligibility expansion; fertility and family law, not women-men gaps"
+   },
+   {
+    "bill_id": "2159259",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Surrogacy eligibility expansion; fertility and family law, not women-men gaps"
+   },
+   {
+    "bill_id": "2198682",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Family reunification permits for West Bank residents; citizenship conflict"
+   },
+   {
+    "bill_id": "2200984",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Religious pluralism at holy places"
+   },
+   {
+    "bill_id": "2157939",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Religious pluralism at holy places"
+   },
+   {
+    "bill_id": "2168619",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Criminal sex offense by gynecologists; criminal law, not gender gaps"
+   },
+   {
+    "bill_id": "2201664",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Criminal sex offense by gynecologists; criminal law, not gender gaps"
+   },
+   {
+    "bill_id": "2161104",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Gender-neutral public housing eligibility for single parents"
+   },
+   {
+    "bill_id": "2156385",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Police violence and investigation unit; unrelated to gender"
+   },
+   {
+    "bill_id": "2197995",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Statute of limitations for police offenses; not about gaps between women and men"
+   },
+   {
+    "bill_id": "2195873",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Statute of limitations for police offenses; not about gaps between women and men"
+   },
+   {
+    "bill_id": "2167037",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Statute of limitations for police offenses; not about gaps between women and men"
+   },
+   {
+    "bill_id": "2242066",
+    "d": "377",
+    "q": "n377",
+    "role": "main",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Universal class size cap; periphery mentioned only as context"
+   },
+   {
+    "bill_id": "2224659",
+    "d": "377",
+    "q": "n377",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Aid to towns under rocket threat; security, not socio-economic"
+   },
+   {
+    "bill_id": "2219180",
+    "d": "377",
+    "q": "n377",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Aid to towns under rocket threat; security, not socio-economic"
+   },
+   {
+    "bill_id": "2161400",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Gender-neutral single-parent definition"
+   },
+   {
+    "bill_id": "2158887",
+    "d": "377",
+    "q": "n377",
+    "role": "main",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Earmarking local funds for child foster placement"
+   },
+   {
+    "bill_id": "2198902",
+    "d": "377",
+    "q": "n377",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Metro project arrangements; transport infrastructure"
+   },
+   {
+    "bill_id": "2219403",
+    "d": "377",
+    "q": "n377",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Metro project arrangements; transport infrastructure"
+   },
+   {
+    "bill_id": "2162552",
+    "d": "377",
+    "q": "n377",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Tax benefits for threatened border towns; security criteria"
+   },
+   {
+    "bill_id": "2198606",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Police violence complaints procedure; no gender gap issue"
+   },
+   {
+    "bill_id": "2159308",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Same-sex partner parental registration; LGBT question, not women and men"
+   },
+   {
+    "bill_id": "2156520",
+    "d": "377",
+    "q": "n377",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Dispersing migrants from south Tel Aviv; migration policy"
+   },
+   {
+    "bill_id": "2159237",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Employment terms of family daycare caregivers; labor issue, not gender gap"
+   },
+   {
+    "bill_id": "2215236",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Leave for foster families; parental, not a women-men gap"
+   },
+   {
+    "bill_id": "2160287",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Western Wall prayer arrangements; religion and state question"
+   },
+   {
+    "bill_id": "2157966",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Western Wall prayer arrangements; religion and state question"
+   },
+   {
+    "bill_id": "2191847",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Term limit for religious council appointees"
+   },
+   {
+    "bill_id": "2219626",
+    "d": "377",
+    "q": "n377",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Betterment levy replacement for local authorities; not poverty targeting"
+   },
+   {
+    "bill_id": "2156533",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Egg donation between female partners; fertility and same-sex couples"
+   },
+   {
+    "bill_id": "2234073",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Egg donation between female partners; fertility and same-sex couples"
+   },
+   {
+    "bill_id": "2213439",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Egg donation between female partners; fertility and same-sex couples"
+   },
+   {
+    "bill_id": "2159553",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Recognizes fiancées of fallen soldiers; bereaved families policy"
+   },
+   {
+    "bill_id": "2203305",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Recognizes fiancées of fallen soldiers; bereaved families policy"
+   },
+   {
+    "bill_id": "2190215",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Recognizes fiancées of fallen soldiers; bereaved families policy"
+   },
+   {
+    "bill_id": "2197098",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Employment terms of family daycare caregivers; occupational labor issue"
+   },
+   {
+    "bill_id": "2165059",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Employment terms of family daycare caregivers; occupational labor issue"
+   },
+   {
+    "bill_id": "2209180",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Pension fund withdrawal rules; gender-neutral"
+   },
+   {
+    "bill_id": "2162700",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Reduced insurance fees for early retirees; gender-neutral"
+   },
+   {
+    "bill_id": "2197563",
+    "d": "209a",
+    "q": "n209a",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Women's Day holiday; gender symbolism, not working-time limits"
+   },
+   {
+    "bill_id": "2156854",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Employment terms of family daycare caregivers; occupational labor issue"
+   },
+   {
+    "bill_id": "2156242",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Employment terms of family daycare caregivers; occupational labor issue"
+   },
+   {
+    "bill_id": "2160324",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Evidence rules for sexual offense victims; criminal procedure"
+   },
+   {
+    "bill_id": "2157236",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Evidence rules for sexual offense victims; criminal procedure"
+   },
+   {
+    "bill_id": "2203650",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Same-sex couples parental leave; LGBT equality, not women versus men"
+   },
+   {
+    "bill_id": "2160840",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Same-sex couples parental leave; LGBT equality, not women versus men"
+   },
+   {
+    "bill_id": "2157316",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Reduced insurance fees for early retirees; gender-neutral"
+   },
+   {
+    "bill_id": "2197076",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Repeals prostitution nuisance offense; criminal law, not gender gaps"
+   },
+   {
+    "bill_id": "2189628",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Repeals prostitution nuisance offense; criminal law, not gender gaps"
+   },
+   {
+    "bill_id": "2159662",
+    "d": "377",
+    "q": "n377",
+    "role": "main",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Landfill levy fund accounting; environmental, not redistribution"
+   },
+   {
+    "bill_id": "2223059",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: two blind checks «not about»",
+    "reason": "Benefits for divorcees of fallen soldiers; bereaved families issue"
+   },
+   {
+    "bill_id": "2201074",
+    "d": "202",
+    "q": "n202",
+    "role": "secondary",
+    "source": "label check of new statements round 7 (drafts), 2026-10-22: 2 of 3 blind checks «not about»",
+    "reason": "Abortion grounds; reproductive rights, not women-men gaps"
+   },
+   {
+    "bill_id": "2200656",
+    "d": "311s1",
+    "q": "n311s1",
+    "role": "main",
+    "source": "label check of new statement 311s1 (round 7b), 2026-10-22: two blind checks «not about»",
+    "reason": "Claims by conflict-area residents against the state; security conflict issue."
+   },
+   {
+    "bill_id": "2159144",
+    "d": "311s1",
+    "q": "n311s1",
+    "role": "main",
+    "source": "label check of new statement 311s1 (round 7b), 2026-10-22: two blind checks «not about»",
+    "reason": "Claims by conflict-area residents against the state; security conflict issue."
+   },
+   {
+    "bill_id": "2238842",
+    "d": "311s1",
+    "q": "n311s1",
+    "role": "secondary",
+    "source": "label check of new statement 311s1 (round 7b), 2026-10-22: 2 of 3 blind checks «not about»",
+    "reason": "Victims' rights in criminal process definition, not state-funded legal aid."
+   },
+   {
+    "bill_id": "2240953",
+    "d": "311s1",
+    "q": "n311s1",
+    "role": "secondary",
+    "source": "label check of new statement 311s1 (round 7b), 2026-10-22: 2 of 3 blind checks «not about»",
+    "reason": "Victims' rights in criminal process definition, not state-funded legal aid."
+   },
+   {
+    "bill_id": "2239958",
+    "d": "311s1",
+    "q": "n311s1",
+    "role": "secondary",
+    "source": "label check of new statement 311s1 (round 7b), 2026-10-22: 2 of 3 blind checks «not about»",
+    "reason": "Victims' rights in criminal process definition, not state-funded legal aid."
    }
   ]
  },
@@ -17101,6 +17893,1545 @@
     "source": "add check of duplicate themes, round 5 (2026-10-21): two blind checks «about», same sign",
     "reason": "Toughens weapons offences amid crime wave; harsher punishment.",
     "from_theme": "250b"
+   },
+   {
+    "bill_id": "2215329",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Mandatory interest rate disclosure in credit offers protects borrowers",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2213756",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Wartime tax credit points for spouses of reservists",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2232754",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Grant for income loss to self-employed reservists in the war",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2233646",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Grant for income loss to self-employed reservists in the war",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2165687",
+    "d": "146",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Shin Bet location tracking of Omicron patients; less privacy",
+    "from_theme": "147s1"
+   },
+   {
+    "bill_id": "2157512",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Exempts businesses from rent on workplaces closed during coronavirus emergency",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2216756",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Tax-free study fund withdrawal for evacuated residents during the war",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2214630",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary war-time tuition funding for students living in war zones",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2220537",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary war-time tuition funding for students living in war zones",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2159135",
+    "d": "187",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Tender preference for disabled IDF veterans ties benefits to service",
+    "from_theme": "200"
+   },
+   {
+    "bill_id": "2202134",
+    "d": "187",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Tender preference for disabled IDF veterans ties benefits to service",
+    "from_theme": "200"
+   },
+   {
+    "bill_id": "2232422",
+    "d": "187",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Tender preference for disabled IDF veterans ties benefits to service",
+    "from_theme": "200"
+   },
+   {
+    "bill_id": "2222939",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary tax-free study fund withdrawal tied to Swords of Iron war",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2224518",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Obliges banks to notify customers of account liens",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2227677",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Obliges banks to notify customers of account liens",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2235423",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Forces car insurers to refund excess profits to policyholders",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2213848",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary municipal tax exemption for businesses of active reservists during the war",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2197916",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Mandates bank disclosure of fees and interest to customers",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2200758",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Mandates bank disclosure of fees and interest to customers",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2203054",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Mandates bank disclosure of fees and interest to customers",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2203718",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Mandates bank disclosure of fees and interest to customers",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2220445",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Bans bank fees on inactive deposits",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2156809",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "VAT payment deferral for businesses during emergency periods",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2156859",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Compensation mechanism for natural disaster damage, an emergency relief",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2157345",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Compensation mechanism for natural disaster damage, an emergency relief",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2197178",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Compensation mechanism for natural disaster damage, an emergency relief",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2198046",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Compensation mechanism for natural disaster damage, an emergency relief",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2198628",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Compensation mechanism for natural disaster damage, an emergency relief",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2231783",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Payments to released hostages and captives of the war",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2217762",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Wartime temporary severance pay provision easing hardship from the war",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2215539",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Aid to families of October 7 victims; relief tied to the war",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2216346",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Aid to families of October 7 victims; relief tied to the war",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2157699",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Pandemic emergency protection for tenants and mortgage payers",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2156684",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "State compensation for natural disaster damage, an emergency relief",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2157830",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "State compensation for natural disaster damage, an emergency relief",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2201164",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "State compensation for natural disaster damage, an emergency relief",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2212318",
+    "d": "146",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Creates unit sharing information between security bodies and civil authorities",
+    "from_theme": "147s1"
+   },
+   {
+    "bill_id": "2195431",
+    "d": "146",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Expands state powers to collect and analyse passenger data",
+    "from_theme": "147s1"
+   },
+   {
+    "bill_id": "2157974",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Compensation for citizens harmed economically by the coronavirus emergency",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2157114",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Pays workers absent due to emergency school closures; emergency relief",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2225520",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Rehabilitation and aid for war-hit region and evacuee communities",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2225201",
+    "d": "146",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Expands wiretapping through technological tools, less privacy",
+    "from_theme": "147s1"
+   },
+   {
+    "bill_id": "2199817",
+    "d": "146",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Lets Shin Bet assist police against crime, expanding surveillance of citizens",
+    "from_theme": "147s1"
+   },
+   {
+    "bill_id": "2204021",
+    "d": "146",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Lets Shin Bet assist police against crime, expanding surveillance of citizens",
+    "from_theme": "147s1"
+   },
+   {
+    "bill_id": "2228801",
+    "d": "146",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Police biometric cameras at sports events reduce privacy",
+    "from_theme": "147s1"
+   },
+   {
+    "bill_id": "2230836",
+    "d": "146",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Police biometric cameras at sports events reduce privacy",
+    "from_theme": "147s1"
+   },
+   {
+    "bill_id": "2231485",
+    "d": "146",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Police biometric cameras at sports events reduce privacy",
+    "from_theme": "147s1"
+   },
+   {
+    "bill_id": "2236155",
+    "d": "146",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Police biometric cameras at sports events reduce privacy",
+    "from_theme": "147s1"
+   },
+   {
+    "bill_id": "2233028",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Real estate tax relief for homes destroyed in the October 7 attack",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2233056",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Real estate tax relief for homes destroyed in the October 7 attack",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2169910",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Compensation fund for businesses hit by pandemic or natural disasters",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2211937",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Keeps home-front emergency period data out of credit records; financial relief",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2192083",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Widens war and emergency damage compensation for self-employed and businesses",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2197752",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Widens war and emergency damage compensation for self-employed and businesses",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2199334",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Widens war and emergency damage compensation for self-employed and businesses",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2169867",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Exempts businesses from repaying COVID crisis grants; emergency relief extended",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2198675",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Exempts businesses from repaying COVID crisis grants; emergency relief extended",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2166059",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Compensates lost workdays during home-front emergency situations",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2197343",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Compensates lost workdays during home-front emergency situations",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2211559",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Compensates lost workdays during home-front emergency situations",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2190700",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Eases repayment of overpaid coronavirus business grants; emergency relief for businesses",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2203719",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Requires banks to pass rate rises to depositors; mandatory pricing terms",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2222052",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Banking amendment on deposit and loan interest protecting customers",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2206821",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Rules on interest rates banks must give clients",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "1046710",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "National Insurance relief tied to the wartime special home-front situation",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2221681",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary rights for those raising October 7 orphans; war-tied relief",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2225066",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Compensation and benefits for residents of Oct 7 attacked region",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2218944",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Mandatory property tax discount for northern businesses hurt by the war",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2163188",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Compensates small businesses for prolonged hostilities or economic emergency",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2199477",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Compensates small businesses for prolonged hostilities or economic emergency",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2237451",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Grant to returned hostages or their families after the October 7 attack",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2214546",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Tax benefit deadline extension for self-employed reservists during the war",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2206852",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Mandatory bank information to customers on balances and investment options",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2237107",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Improves reserve-duty compensation calculation during emergency periods",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2239579",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Improves reserve-duty compensation calculation during emergency periods",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2213789",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary subsistence payments for self-employed during Swords of Iron war",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2210669",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Payments to families of hostages and missing in the war",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2235778",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Economic adjustment payment to families of hostages",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2236620",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Economic adjustment payment to families of hostages",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2229093",
+    "d": "187",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Bars disadvantaging those who served relative to affirmative action groups",
+    "from_theme": "200"
+   },
+   {
+    "bill_id": "2231553",
+    "d": "187",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Bars disadvantaging those who served relative to affirmative action groups",
+    "from_theme": "200"
+   },
+   {
+    "bill_id": "2236018",
+    "d": "187",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Bars disadvantaging those who served relative to affirmative action groups",
+    "from_theme": "200"
+   },
+   {
+    "bill_id": "2232351",
+    "d": "146",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Requires identification records for SIM sales, reduces anonymity for police",
+    "from_theme": "147s1"
+   },
+   {
+    "bill_id": "2217241",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Price control on car insurance, limiting what insurers charge consumers",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2213030",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Wartime temporary order extending property tax compensation for damaged communities",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2233694",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Economic assistance program for war with Iran",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2213821",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Wartime temporary unemployment benefits for women on unpaid leave after birth",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2220569",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Banks must disclose mortgage insurance costs to customers",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2225250",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Banks must disclose mortgage insurance costs to customers",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2212215",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Wartime temporary tuition funding for reservists",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2165350",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Requires notice to mortgage borrower before enforcement proceedings",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2198030",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Requires notice to mortgage borrower before enforcement proceedings",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2236279",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary compensation for reservists injured during Swords of Iron service",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2222860",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary rehabilitation and development of war-hit region for evacuees and residents",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2213757",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Income support for spouse of reservist serving in emergency",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2212317",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary state indemnity to employers for reservists' pension contributions in war",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2212371",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary state indemnity to employers for reservists' pension contributions in war",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2213797",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary state indemnity to employers for reservists' pension contributions in war",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2229355",
+    "d": "146",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Police biometric cameras in public space; more surveillance, less privacy",
+    "from_theme": "147s1"
+   },
+   {
+    "bill_id": "2197541",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Limits distribution fees charged by pension advisers",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2228535",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Limits distribution fees charged by pension advisers",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2156978",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary tax relief for residents of towns under immediate rocket threat",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2159229",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary tax relief for residents of towns under immediate rocket threat",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2159646",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary tax relief for residents of towns under immediate rocket threat",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2162660",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary tax relief for residents of towns under immediate rocket threat",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2194105",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary tax relief for residents of towns under immediate rocket threat",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2196824",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary tax relief for residents of towns under immediate rocket threat",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2200257",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary tax relief for residents of towns under immediate rocket threat",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2200733",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary tax relief for residents of towns under immediate rocket threat",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2202861",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary tax relief for residents of towns under immediate rocket threat",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2219180",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary tax relief for residents of towns under immediate rocket threat",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2224659",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary tax relief for residents of towns under immediate rocket threat",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2216747",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Mandates fee and interest disclosure by financial service providers",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2219682",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Mandates fee and interest disclosure by financial service providers",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2201089",
+    "d": "146",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Expands police collection of body searches and biometric identification data",
+    "from_theme": "147s1"
+   },
+   {
+    "bill_id": "2156125",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Compensation for victims of large fires, an emergency with evacuations",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2232275",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Compensation for victims of large fires, an emergency with evacuations",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2222925",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary reserve-duty compensation for self-employed during Swords of Iron war",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2223693",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary reserve-duty compensation for self-employed during Swords of Iron war",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2224622",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Monthly grant to northern residents under fire who were not evacuated",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2206362",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Obliges banks to inform customers about deposit alternatives",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2190015",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Mandatory disclosure duty on card issuers toward consumers",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2197277",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Mandatory disclosure duty on card issuers toward consumers",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2221064",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Social security support for families of 7 October hostages and missing",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2226851",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "National insurance amendment responding to October 7 attack; war-tied benefits",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2156888",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Spreads income tax payments due to COVID crisis: emergency payment delay",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2222122",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Right to wages for workers absent during an emergency",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2166410",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Obliges provident funds to pay interest on delayed payouts to members",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2198285",
+    "d": "146",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Lets public bodies transfer information to anti-money-laundering authority",
+    "from_theme": "147s1"
+   },
+   {
+    "bill_id": "2157983",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Caps pension fund management fees for members who left work",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2200978",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Caps pension fund management fees for members who left work",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2197151",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Mandatory short deadline for banks to remove mortgage liens for borrowers",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2199962",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Mandatory short deadline for banks to remove mortgage liens for borrowers",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2240121",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Mandatory short deadline for banks to remove mortgage liens for borrowers",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2213429",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Wartime temporary order easing public housing tenancy rights for families hit by attack",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2164307",
+    "d": "187",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Adds benefit for discharged soldiers working as youth coordinators",
+    "from_theme": "200"
+   },
+   {
+    "bill_id": "2197861",
+    "d": "187",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Adds benefit for discharged soldiers working as youth coordinators",
+    "from_theme": "200"
+   },
+   {
+    "bill_id": "2196630",
+    "d": "187",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Cancels preferred-work grant for discharged soldiers, weakening a service-linked benefit",
+    "from_theme": "200"
+   },
+   {
+    "bill_id": "2215336",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary rehabilitation and development of war-hit communities after October 7",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2212972",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Expands grants to families of hostages and missing, wartime relief",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2210979",
+    "d": "146",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Lets anti-money-laundering authority pass personal data directly to a security body",
+    "from_theme": "147s1"
+   },
+   {
+    "bill_id": "2190216",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Exempts small businesses from repaying coronavirus relief grants",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2211249",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Municipal tax exemption for property evacuated during the war",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2214286",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Aid to families of reservists and security personnel in emergencies",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2214295",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Aid to families of reservists and security personnel in emergencies",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2243769",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Applies consumer protection law to banks and insurers",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2229613",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Benefits for northern residents staying under fire; wartime relief",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2158930",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Wages for workers absent due to emergency school closures",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2160497",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Tax credit for residents of towns under immediate rocket threat",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "1056982",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Economic aid program for businesses and public institutions during Iran campaign",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2156916",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Strengthens insured persons against insurers: reasonableness review, burden shift, fines",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2196634",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Strengthens insured persons against insurers: reasonableness review, burden shift, fines",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2211110",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Economic assistance program for the Swords of Iron war",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2157006",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Limits bank interest rate spreads for borrowers",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2200213",
+    "d": "353",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Limits bank interest rate spreads for borrowers",
+    "from_theme": "18"
+   },
+   {
+    "bill_id": "2157244",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Eases bounced-check restrictions because of coronavirus crisis; payment relief",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2233093",
+    "d": "146",
+    "sign": "−",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Authorizes army and security service to hack cameras; expands surveillance",
+    "from_theme": "147s1"
+   },
+   {
+    "bill_id": "2227632",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Extends war-related payments to hostage families after return",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2228243",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Extends war-related payments to hostage families after return",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2157678",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Compensation to businesses for pandemic emergency damage from compensation fund",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2191688",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Extends Sderot and western Negev aid to southern confrontation line",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2234107",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Raises grants to single parents of hostages",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2156541",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Compensates businesses closed by state order in emergencies",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2166714",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Compensates businesses closed by state order in emergencies",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2210664",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Wartime deferral of deadlines for contracts, judgments and payments to authorities",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2214885",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Wartime temporary extra child-savings deposits for reservists",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2213788",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "One-time grant to victims of October 7 attack",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2225064",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "National rehabilitation plan for the war-hit Tkuma region",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2157980",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Temporary aid to small and medium businesses during coronavirus crisis",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2228324",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Expands payments to released hostages, war-specific relief to victims",
+    "from_theme": "4"
+   },
+   {
+    "bill_id": "2230265",
+    "d": "130a",
+    "sign": "+",
+    "role": "secondary",
+    "source": "add check of duplicate themes 4, 200, 147s1, 18 into q71, q9, q55, q52 (new-statements round 7, 2026-10-22): two blind checks «about», same sign",
+    "reason": "Expands payments to released hostages, war-specific relief to victims",
+    "from_theme": "4"
    }
   ]
  },
