@@ -267,7 +267,7 @@ Established voting advice applications let parties see and dispute their coded p
 public, complete table of what the quiz holds about every list, built only from data already in the export — no new fields.
 
 **Page «Positions of the lists»** (linked from Methodology and from Results; English):
-- Rows: the 117 statements (title_en, grouped by `area` from `statements[]`, in the quiz's area order). Columns: the 12 evaluated
+- Rows: the 123 statements (title_en, grouped by `area` from `statements[]`, in the quiz's area order). Columns: the 12 evaluated
   lists (`status == "ok"`), then the 4 ranked-with-warning lists in a second block; lists without a record are not columns.
 - Cell: the list's measured side on the statement — «toward» / «against» / «no clear position» — by the same rule as the
   explanations (`params.CLOSE`, `MIN_CLEAR_MKS`, `MIN_CLEAR_BILLS` on `lists[].positions[d]`); a small marker when the side comes
