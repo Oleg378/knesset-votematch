@@ -2,6 +2,8 @@
 
 Requests from the front end to the data side (pipeline/, export/). The web session never edits export/ itself.
 
+**Status 2026-10-22:** everything below is answered or superseded by `export/WEB_CONTRACT.md` and `export/METHODOLOGY_PAGE.md`; the next step for the web is to move to the three current data files (contract §1). New requests go above this line.
+
 ## 1. Stray space in a list name (2026-10-17) [answered]
 `lists[].name_en` for Likud: `"Likud , headed by Binyamin Netanyahu for Prime Minister"` — space before the comma. The web
 shows `name_en` as given. If the CEC original has no such space, please fix it in `manual/` and re-export; if it does,

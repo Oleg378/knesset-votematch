@@ -1,7 +1,11 @@
-# web/ — product spec (v1)
+# web/ — product spec
 
-Static SPA. Input: `export/quiz_data.v1.json` (schema next to it). Reference behaviour: `pipeline/quiz_cli.py`
-(run it to see the flow) and `pipeline/quiz_report.py` (explanations). Formulas: `docs/QUIZ_MATCHING.md`.
+Static SPA. Input: the three data files of `export/` (`quiz_core`, `quiz_data`, `quiz_bills`; contract and loading order —
+`export/WEB_CONTRACT.md`; page texts — `export/METHODOLOGY_PAGE.md`). Reference behaviour: `pipeline/quiz_cli.py` (run it to
+see the flow) and `pipeline/quiz_report.py` (explanations). How everything is computed: `docs/TECHNICAL.md`.
+
+_The live site still reads `quiz_data.v1.json` (every statement in file order); the sections below describe the target behaviour
+of the current contract — the migration is the web's next step._
 
 **Mobile first.** Design for 360–430 px wide screens. Desktop adaptation is out of scope for now: on wide screens show the
 mobile layout centered with a max width (≈ 480 px). Base components: Figma
@@ -10,9 +14,12 @@ https://www.figma.com/design/TTgHWki3flpBiQ6U9XQF7I/CSS (see «Design» below).
 ## Flow (approved, SU; same as quiz_cli.py)
 
 ```
-Start → Statements (65) → Trade-offs (0–5) → Results (full leaderboard) ⇄ List details → Bills of one statement
-                                                         └→ Methodology (also reachable from Start and Results)
+Start → Core statements (flow.core) → Clarifying statements (flow.clarify, chosen one at a time) → Trade-offs (0–flow.trade)
+      → Results (full leaderboard) ⇄ List details → Bills of one statement; «Answer more questions» continues the clarifying ones
+      └→ Methodology · Positions of the lists (also reachable from Start and Results)
 ```
+Numbers of questions come from `flow` in the export; the clarifying statement after each answer — `nextClarify` in
+`src/engine/flow.ts` (port of `pipeline/quiz_flow.py`, golden «flow N» cases).
 
 **Screens with a Figma mockup follow the mockup** (Home, Questions, Clarifying question, Menu) — texts, controls and
 interaction; the statement count comes from the data. Customer, 2026-10-18. Open points: `DECISIONS.md` section D.
@@ -24,7 +31,7 @@ Every screen: header with the menu button (Figma «Menu»: Start over · My resu
 - «Start the quiz». «Behind the results» → Methodology.
 
 ### 2. Statements (Figma «Questions»)
-- Header: progress track and `n/65`. One statement per screen: `statement_en`.
+- Header: progress track and `n / (core + clarify)`. One statement per screen: `statement_en`.
 - Answers: Strongly agree (2) · Agree (1) · Disagree (−1) · Strongly disagree (−2). A tap selects; «Next» (inactive until
   an answer is selected) moves on; round «Back». «Not sure — skip this question» = no answer, moves on.
 - Finishing early: menu «My results» (trade-offs follow). Going back shows the previous answer selected.
@@ -42,7 +49,7 @@ Every screen: header with the menu button (Figma «Menu»: Start over · My resu
 - If no pair at all: skip the screen silently (no message needed on the web).
 
 ### 4. Results
-- «All lists by closeness to your answers (from −1 to +1). Based on N of 65 answers[, including trade-offs].»
+- «All lists by closeness to your answers (from −1 to +1). Based on N answers[, including trade-offs].» Closeness is shown with one decimal; the order uses exact values.
 - Rows: rank, list name (`name_en`), closeness formatted `+0.35`, note. A simple bar (−1…+1, centered at 0) is welcome.
 - Ranked lists first; then a «Not ranked» divider with lists below the coverage threshold (no rank number); then one collapsed
   line «No record in the Knesset (N)» listing lists with status `not_evaluated`.
@@ -65,10 +72,9 @@ Every screen: header with the menu button (Figma «Menu»: Start over · My resu
   raises/lowers “direction name”», «Sponsored by: Name (#p on the list)» (first two by list position), link to the Knesset page.
 - No per-bill English summary [У 2026-10-17]: bill names are not translated; the direction line above is the English context. `summary_en` is always null and not rendered.
 
-### 7. Methodology (generated from the same JSON, not hand-written)
-- Short text: where positions come from, what closeness means, the two notes, relative positions (vs the average MK).
-- Table per statement (accordion): statement → direction (`name_en`, plus/minus meaning) → bills (`by_direction`) with sign,
-  sponsoring lists (from `sponsors` → `mks[].list`). No votes by list [У 2026-10-17]. Virtualize or paginate: ~4,000 bills.
+### 7. Methodology and Positions of the lists
+- Methodology: the texts of `export/METHODOLOGY_PAGE.md` as written (fixed text; numbers marked «from the export» are read from the data).
+- Positions of the lists: the table described in `METHODOLOGY_PAGE.md` («Positions of the lists page») — statements × evaluated lists, cell = the measured side, click → the bills, the right-to-contest text.
 
 ## Computation (TypeScript port; Python is the reference)
 Port `pipeline/quiz_match.py` (`list_vec`, `score`, `match`, `ranked_top`, `tradeoffs`) and from `pipeline/quiz_report.py`
@@ -98,7 +104,7 @@ exact equality with the golden cases:
   all neutral, one answer, rare topics). For every case assert: ranking ids in order, closeness and coverage within
   `tolerance`, notes, ranked flags; trade-off pairs; for each `details[]` list: item order, contribution, p, `lines` (exact
   strings), evidence order (`bill`, `same`, `role`, `sign`, authors).
-- Schema test: `quiz_data.v1.json` validates against the schema (ajv).
+- Schema test: the merged data files validate against `quiz_data.v2.schema.json` (ajv); `golden.v2.json` — ranking, details and the «flow N» question order (`src/engine/flow.test.ts`).
 - Reducer tests for the state machine (transitions, back/skip, start over).
 - Python stays the reference: if a golden case fails, the TS code is wrong unless the customer changed the formula (then a
   new export and, for structural changes, v2).
