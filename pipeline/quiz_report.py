@@ -71,13 +71,13 @@ def context():
         for role, ms in (("main", v["main"]), ("secondary", v["sec"])):
             for m in ms:
                 if m["sign"] in SGN: by_d[m["n"]].append((b, SGN[m["sign"]], role))
-    nv, no = {}, {}
+    nv, no, ng = {}, {}, {}
     for r in csv.DictReader(open(os.path.join(qm.POS, "list_topic_positions.csv"))):
-        nv[(r["letters"], r["d"])] = int(r["sum_nV"]); no[(r["letters"], r["d"])] = int(r.get("sum_nO") or 0)
+        nv[(r["letters"], r["d"])] = int(r["sum_nV"]); no[(r["letters"], r["d"])] = int(r.get("sum_nO") or 0); ng[(r["letters"], r["d"])] = int(r.get("sum_nG") or 0)
     dir_en = {d["key"]: d["name_en"] for d in json.load(open(os.path.join(ROOT, "jef/directions/merge3/directions_final.json")))}
     for p in [json.load(open(os.path.join(ROOT, "jef/directions/split/plan.json")))] + L.later_plans():   # all split stages (labels.LATER)
         dir_en.update({k: v["name_en"] for k, v in p["new"].items()})
-    return dict(st=st, pos=pos, cov=cov, info=info, init=init, cand=cand, by_d=by_d, nv=nv, no=no, dir_en=dir_en,
+    return dict(st=st, pos=pos, cov=cov, info=info, init=init, cand=cand, by_d=by_d, nv=nv, no=no, ng=ng, dir_en=dir_en,
                 title={r["q"]: r for r in st})
 
 def contributions(ctx, L, ans, mult=None):
@@ -118,7 +118,7 @@ def explain(ctx, L, q, a, p, contrib, mult=None):
     side (п. 7). [У] 2026-10-18: the caveat «positions are relative to the average MK» is gone — authorship is no longer centered."""
     ev = evidence(ctx, L, q, a / 2 * q["key_s"], contrib)
     n_same = sum(1 for e in ev if e[6]); n_opp = len(ev) - n_same
-    nvotes = ctx["nv"].get((L, q["d"]), 0); nother = ctx["no"].get((L, q["d"]), 0)
+    nvotes = ctx["nv"].get((L, q["d"]), 0); nother = ctx["no"].get((L, q["d"]), 0); ngov = ctx["ng"].get((L, q["d"]), 0)
     x = ctx["pos"][L][q["d"]]
     close = not is_clear(p, x[2], x[4])
     toward = not close and p * q["key_s"] > 0
@@ -126,7 +126,9 @@ def explain(ctx, L, q, a, p, contrib, mult=None):
     # votes — not that the list accepts the statement, whose «even if» price the data does not measure.
     side = ("shows no clear position on this statement" if close else
             "points toward this statement" if toward else "points against this statement")
-    votes = f"{plural(nvotes, 'vote')} on private bills and {plural(nother, 'vote')} on the other camp's bills on this topic"
+    # [У] 2026-10-22: G — votes on the coalition's own government bills (named only when the list has any)
+    votes = (f"{plural(nvotes, 'vote')} on private bills, {plural(nother, 'vote')} on the other camp's bills"
+             + (f" and {plural(ngov, 'vote')} on the government's own bills" if ngov else "") + " on this topic")
     lines = [f"“{q['statement_en']}”",
              f"Your answer: {ANS[a]}. The record of the list's former MKs {side}.",
              (f"Basis: {plural(len(ev), 'bill')} sponsored by the list's former MKs — {n_same} your way, {n_opp} the other way; "

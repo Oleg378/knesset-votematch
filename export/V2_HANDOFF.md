@@ -6,6 +6,20 @@ Data side → web, 2026-10-18; updated 2026-10-21 (section 0). The v2 export is 
 `pipeline/quiz_flow.py` (order of questions), `pipeline/quiz_report.py` (explanations); `pipeline/quiz_cli.py` runs the whole
 flow in the terminal. Decisions are in `docs/SHARED_UNDERSTANDING.md` (Russian).
 
+## 0b. Update 2026-10-22 — position formula: government bills count for both camps (V4)
+
+- **Formula**: P = A + 0.25 V + 0.25 O + **0.25 G**; G = a coalition MK's votes on the government's own bills (mirror of O); votes on
+  the budget packages (חוק ההסדרים) count for nobody. The web only reads P — nothing to compute; `e` now includes G votes.
+- **Statements: 117** — removed q66 «Support for families with children» and q142 «Power of labor unions» (fail the selection
+  after the change). **Core changed**: 45, 7, 37, 63, 49, 40, **15**, 4 (q9 → q15). Read both from the export.
+- `lists[].positions[d]` has a new required field **`n_gov`** (votes on the coalition's own government bills); `votes` «own» now
+  includes government bills of the MK's camp (a bill with no `sponsors` is a government bill).
+- Explanation basis line (section 3, golden `details[].items[].lines`): «M votes on private bills, K votes on the other camp's bills
+  and J votes on the government's own bills on this topic» — the last clause only when J > 0.
+- Methodology page (section 6): the sentence on government bills; «Power of labor unions» and «Support for families with children»
+  move to the topics outside the quiz. 13 topics newly pass the selection and are in the new-statements procedure.
+- `golden.v2.json` regenerated.
+
 ## 0a. Update 2026-10-21, evening — question order changed (`pipeline/quiz_flow.py`, section 2; schema extended)
 
 - **Core changed** (`core` in `quiz_core.v2.json`): 45, 7, 37, 63, 49, 40, 9, 4 — markers of the main axes of the list × statement
@@ -39,7 +53,7 @@ flow in the terminal. Decisions are in `docs/SHARED_UNDERSTANDING.md` (Russian).
 |---|---|---|
 | Files | one `quiz_data.v1.json` (1.6 MB), bundled | three files fetched in order (section 5); bills lose `url` (built from `params.BILL_URL`) and `summary_en` |
 | Statements | 65 | 119 (`q` ids stable, gaps allowed; removed ones are gone, new ones up to q157). Texts and titles changed for many |
-| List position P | (A + 0.25 V) / weights, A centered | P = A + 0.25 V + 0.25 O; A (sponsored bills) is **not centered**; O = votes against the other camp's bills (2026-10-18). Comes ready in `lists[].positions` — the web only reads P |
+| List position P | (A + 0.25 V) / weights, A centered | P = A + 0.25 V + 0.25 O + 0.25 G; A (sponsored bills) is **not centered**; O = votes on the other camp's bills (2026-10-18); G = the coalition's votes on its own government bills (2026-10-22); budget packages count for nobody. Comes ready in `lists[].positions` — the web only reads P |
 | Ranking | coverage ≥ MIN_COVERAGE | also `ex_mks ≥ params.MIN_EX_MKS` (2): a list with one former MK goes to «Not ranked» with its note (2026-10-18) |
 | Shrinkage | p = P · e / (e + K), K = 2 | **K = 0: p = P**. Keep the formula generic and read K from `params` |
 | Question order | every statement in file order | **core → clarifying → trade-offs** (section 2) |
@@ -101,8 +115,8 @@ Per list, everything comes from `quiz_report.contributions()` and `explain()`; g
   1. the statement in quotes;
   2. `Your answer: <agree / strongly agree / …>. The record of the list's former MKs <points toward this statement | points against this statement | shows no clear position on this statement>.`
      (the third variant when the position is not clear: |p| < `params.CLOSE` (0.2), or fewer than `params.MIN_CLEAR_MKS` former MKs, or fewer than `params.MIN_CLEAR_BILLS` distinct bills (`n_names`); wording changed 2026-10-18);
-  3. basis: `Basis: N bills sponsored by the list's former MKs — X your way, Y the other way; M votes on private bills and K votes on the other camp's bills on this topic.`
-     or `Basis: no bills of their own on this topic, only M votes on private bills and K votes on the other camp's bills on this topic.`
+  3. basis: `Basis: N bills sponsored by the list's former MKs — X your way, Y the other way; M votes on private bills, K votes on the other camp's bills[ and J votes on the government's own bills] on this topic.`
+     or `Basis: no bills of their own on this topic, only M votes on private bills, K votes on the other camp's bills[ and J votes on the government's own bills] on this topic.`
      (M = `n_votes`, K = `n_other` of the list's position);
   4. optional: `Weight ×2: you chose this topic in a trade-off question.`;
   5. optional: `The list's side comes from how its former MKs voted, not from the bills they sponsored.`
@@ -163,8 +177,9 @@ distinct bills (a re-submitted bill counts once) sponsored by them. These thresh
 did the same, or where too few bills exist, are left out — even when they are important. When one topic lies almost entirely inside another, a shared bill counts toward only one of them, chosen by whether voters would see two different questions.
 
 **Important topics that are not in the quiz, and why.**
-- *The lists' records hardly differ (nearly everyone pushed the same way):* credit and mortgages; tax enforcement; support for
-  charities.
+- *The lists' records hardly differ (nearly everyone pushed the same way):* tax enforcement; support for charities; support for
+  families with children.
+- *Too few lists with a record once budget votes are set aside:* the power of labor unions.
 - *Too few bills by the candidates to place the lists:* abortion; who is registered as a Jew; gun licensing; immunity for
   soldiers; the death penalty for terrorists; immigration rights of grandchildren of Jews (Law of Return); laws tied to a state of
   emergency; a shorter working week.
@@ -174,8 +189,9 @@ did the same, or where too few bills exist, are left out — even when they are 
   international organizations in Israel»).
 
 **Where a list's position comes from.** Only from what its candidates who were MKs in the 24th–25th Knesset did: the bills they
-sponsored, their votes on private bills, and their votes on the other camp's bills. Promises and speeches are not used. Positions
-that coincide with the coalition line are read mostly from the votes on the other camp's bills.
+sponsored, their votes on private bills, their votes on the other camp's bills and, for coalition parties, their votes on the government's
+own bills. A government bill counts for both camps the same way; votes on the omnibus budget laws count for nobody, because a vote for
+or against the whole budget says nothing about its hundred separate articles. Promises and speeches are not used.
 
 **Leaders with few bills of their own.** Ministers and prime ministers rarely sponsor bills, so a list's position rests mostly on
 its other former MKs and on votes.

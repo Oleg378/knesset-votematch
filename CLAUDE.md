@@ -50,7 +50,8 @@ Python deps: `requirements.txt` (pinned). Node: `web/package-lock.json`.
   computed by `pipeline/quiz_match.py` + `pipeline/quiz_report.py`. Python is the reference; the TS port must match (1e-9).
 
 ## Do not change without a customer decision
-- The position formula (SU п. 27.2–27.3: A = mean sign of sponsored bills, not centered, V = vote residual weight 0.25, list = mean of ex-MKs).
+- The position formula (SU п. 27.2–27.3: A = mean sign of sponsored bills, not centered, V = vote residual weight 0.25, O and G = votes on
+  the other camp's bills / the coalition's own government bills, weight 0.25, budget packages excluded; list = mean of ex-MKs).
 - Matching: cosine, K = 0 (no shrinkage), weights 1/n per shared direction, coverage threshold 0.5, trade-offs (≤5, ×2, one per list, only if
   they change the top 5) — `docs/QUIZ_MATCHING.md`.
 - Statement texts and keys (`jef/quiz/statements_v4.csv`), statement numbers (stable; gaps allowed).

@@ -3,7 +3,7 @@
 Answer scale: 2 полностью согласен, 1 скорее согласен, 0 нейтрально, -1 скорее не согласен, -2 полностью не согласен,
 "dk" не знаю (skipped). User value on a statement u = answer/2 × key (key «+» = +1, «−» = −1).
 List value p = the list's position P on the statement's direction (jef/positions/list_topic_positions.csv), shrunk toward 0:
-p = P × e/(e + K), e = sum_nA + 0.25·(sum_nV + sum_nO) (the evidence behind P, same weights as the position); K = 0: p = P.
+p = P × e/(e + K), e = sum_nA + 0.25·(sum_nV + sum_nO + sum_nG) (the evidence behind P, same weights as the position); K = 0: p = P.
 Weight w = 1, or 1/2 for each statement of an a/b pair on the same direction.
 Closeness = cosine over statements the user answered and the list has a position on:
   Σ w·u·p / sqrt(Σ w·u²) / sqrt(Σ w·p²); with the share of answered weight covered by the list.
@@ -35,7 +35,7 @@ def load():
         r["w"] = 1 / per_d[r["d"]]
     pos = collections.defaultdict(dict)
     for r in csv.DictReader(open(os.path.join(POS, "list_topic_positions.csv"))):
-        e = float(r["sum_nA"]) + 0.25 * (float(r["sum_nV"]) + float(r.get("sum_nO") or 0))   # O: votes on the other camp's bills (2026-10-18)
+        e = float(r["sum_nA"]) + 0.25 * (float(r["sum_nV"]) + float(r.get("sum_nO") or 0) + float(r.get("sum_nG") or 0))   # O: other camp's bills (2026-10-18); G: own camp's government bills (2026-10-22)
         pos[r["letters"]][r["d"]] = (float(r["P"]), e, int(r["n_mk"]), float(r["P_A"]), int(r.get("n_names") or 0))   # P_A: own bills; n_names: distinct bills
     cov = {r["letters"]: r for r in csv.DictReader(open(os.path.join(POS, "list_coverage.csv")))}
     return st, pos, cov

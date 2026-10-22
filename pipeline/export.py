@@ -53,7 +53,7 @@ def build_data(ctx):
         P = {}
         for d in quiz_d:
             x = pos.get(L, {}).get(d)
-            if x: P[d] = {"P": x[0], "P_bills": x[3], "e": x[1], "n_mk": x[2], "n_votes": nv.get((L, d), 0), "n_other": ctx["no"].get((L, d), 0), "n_names": x[4]}
+            if x: P[d] = {"P": x[0], "P_bills": x[3], "e": x[1], "n_mk": x[2], "n_votes": nv.get((L, d), 0), "n_other": ctx["no"].get((L, d), 0), "n_gov": ctx["ng"].get((L, d), 0), "n_names": x[4]}
         lists.append({"id": L, "name_en": c["list_name"], "status": c["status"], "ex_mks": int(c["ex_mks"]), "positions": P})
     cand_list, mks = {}, {}
     for L, ms in ctx["cand"].items():
@@ -62,7 +62,8 @@ def build_data(ctx):
             mks[m] = {"name_en": name, "list": L, "list_position": p}
     by_direction = {d: [[b, s, role] for b, s, role in ctx["by_d"].get(d, [])] for d in quiz_d}
     # [У] 2026-10-19: how the list's former MKs voted on each bill of a quiz direction (jef/positions/list_topic_votes.csv):
-    # votes[list][direction] = [[bill, sign (+1 raises / −1 lowers the direction), camp («own» / «other»), for, against], ...].
+    # votes[list][direction] = [[bill, sign (+1 raises / −1 lowers the direction), camp («own» / «other»), for, against], ...];
+    # «own» covers both V (private bills of the MK's camp) and, since 2026-10-22, G (the coalition's own government bills).
     votes = {}
     for r in csv.DictReader(open(os.path.join(qm.POS, "list_topic_votes.csv"))):
         if r["d"] in by_direction and cov.get(r["letters"], {}).get("status") != "not_evaluated":
