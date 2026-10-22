@@ -16,14 +16,16 @@ what its candidates who are former MKs did in Knessets 24–25: bills they spons
 | Kind | Where | Not there |
 |---|---|---|
 | Concept, principles, limitations in plain words | `docs/METHODOLOGY.md` | numbers, file names, history |
-| Terms, rules in force, open questions | `docs/SHARED_UNDERSTANDING.md` | numbers, statistics, reasoning, history, dated entries |
+| Terms, rules in force, open questions **of the method** | `docs/SHARED_UNDERSTANDING.md` | numbers, statistics, reasoning, history, dated entries, tasks and to-do items |
 | Implementation, formulas, thresholds, current numbers | `docs/TECHNICAL.md` | history («was 0.3, now 0.25») — only the current state |
-| What happened, with numbers; open items; plan | `docs/WORKLOG.md` | rules (they live in SU) |
+| What happened, with numbers; **tasks**, open items, plan | `docs/WORKLOG.md` | rules (they live in SU) |
 | Data contract and what the web computes and shows | `export/WEB_CONTRACT.md` | history, reasoning, version labels |
 | Texts the user reads on the site (English) | `export/METHODOLOGY_PAGE.md` | — |
 | Agent procedures | `.claude/skills/*/SKILL.md` + `prompts/` | project state |
 | Closed documents, old logs | `docs/archive/` (with a line in its README) | — |
-Rules: a decision goes into SU as one line (rule + status + pointer), its numbers into TECHNICAL, its story into WORKLOG; never
+Rules: a decision goes into SU as one line (rule + status + pointer), its numbers into TECHNICAL, its story into WORKLOG; a task
+or a review request goes into WORKLOG «Открыто» only, never into SU (an open question in SU is a question about the method, not a
+to-do); an item marked «closed only by the customer» stays open until the customer says so, whatever an agent edits; never
 introduce version names («V1», «V4») — describe the rule itself; when a document is superseded, move it to `docs/archive/` and
 fix every reference (`grep` the old name); research notes and people's answers stay in `local/` or the session scratchpad.
 
