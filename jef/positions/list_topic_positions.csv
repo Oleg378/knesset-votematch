@@ -49,7 +49,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 אמת,"HaDemocratim, headed by Yair Golan",12b,услуги больничных касс пациентам,0.8357,0.9,0.0091,10,27,22,False,-0.0733,30,0.0,0,23
 אמת,"HaDemocratim, headed by Yair Golan",12c,еда в больницах в Песах,0.25,0.0,0.0,9,0,0,False,0.25,18,0.0,0,2
 אמת,"HaDemocratim, headed by Yair Golan",130,режим чрезвычайного положения,1.0,1.0,0.0,2,3,1,True,0.0,4,0.0,0,6
-אמת,"HaDemocratim, headed by Yair Golan",130a,льготы гражданам в войну и чрезвычайное положение,-0.0548,0.1111,0.0146,9,1,2,False,-0.1806,26,0.0,0,9
+אמת,"HaDemocratim, headed by Yair Golan",130a,льготы гражданам в войну и чрезвычайное положение,0.3567,0.5,0.0134,10,22,7,False,-0.1567,68,0.0,0,32
 אמת,"HaDemocratim, headed by Yair Golan",130b1,послабления по возвращённым чекам в чрезвычайной ситуации,-0.25,0.0,0.0,8,0,0,False,-0.25,8,0.0,0,1
 אמת,"HaDemocratim, headed by Yair Golan",130b2,"законы и полномочия, привязанные к чрезвычайному положению",-0.2222,-0.2222,0.0,9,2,0,False,-0.2222,21,0.2222,17,7
 אמת,"HaDemocratim, headed by Yair Golan",130b2s2,"Чрезвычайные полномочия слежки, киберзащиты и контроля над вещанием",0.0833,0.0,0.0,1,0,0,True,0.0833,3,0.0,0,3
@@ -71,7 +71,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 אמת,"HaDemocratim, headed by Yair Golan",142s3,Бесплатная доступность эфирного контента,-0.25,0.0,0.0,3,0,1,False,-0.25,100,0.0,0,3
 אמת,"HaDemocratim, headed by Yair Golan",143,защита животных,0.6308,0.6364,0.0058,11,36,24,False,-0.0114,11,0.0,0,22
 אמת,"HaDemocratim, headed by Yair Golan",144,экологическое регулирование,0.8602,0.9091,0.0003,11,121,45,False,-0.1174,25,0.0682,3,45
-אמת,"HaDemocratim, headed by Yair Golan",146,защита частной жизни и персональных данных,0.2112,0.2909,-0.0052,11,29,117,False,0.024,30,-0.0985,17,35
+אמת,"HaDemocratim, headed by Yair Golan",146,защита частной жизни и персональных данных,0.2013,0.2909,-0.004,11,29,119,False,0.0205,31,-0.1061,19,39
 אמת,"HaDemocratim, headed by Yair Golan",147,сбор и передача данных государственными органами,0.076,0.2,0.001,10,2,46,False,-0.225,9,0.1,6,7
 אמת,"HaDemocratim, headed by Yair Golan",147s1,Полномочия силовых и правоохранительных органов по сбору данных о людях,0.8147,0.6667,0.0084,9,10,21,False,0.0008,25,0.1389,7,13
 אמת,"HaDemocratim, headed by Yair Golan",147s2,"Административные реестры, статистика и обмен данными для государственных услуг",0.6667,0.5556,0.0,9,7,8,False,0.0278,3,0.0833,3,7
@@ -130,7 +130,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 אמת,"HaDemocratim, headed by Yair Golan",186,доступность альтернатив военной службе,-0.25,0.0,0.0,3,0,0,False,-0.25,6,0.0,0,1
 אמת,"HaDemocratim, headed by Yair Golan",186a,изучение Торы как альтернатива службе,-0.25,0.0,0.0,3,0,0,False,-0.25,12,0.0,0,1
 אמת,"HaDemocratim, headed by Yair Golan",186b,гражданская служба и отказ по убеждениям,0.475,0.3,0.0,10,3,0,False,-0.075,3,0.25,10,3
-אמת,"HaDemocratim, headed by Yair Golan",187,привязка прав и льгот к службе,0.2575,0.4,0.0317,10,25,105,False,-0.1742,91,0.0,0,69
+אמת,"HaDemocratim, headed by Yair Golan",187,привязка прав и льгот к службе,0.262,0.4,0.0314,10,27,105,False,-0.1694,94,0.0,0,71
 אמת,"HaDemocratim, headed by Yair Golan",188c,прикомандирование срочников к полиции и ШАБАС,0.125,-0.1,0.0,10,1,0,False,-0.025,1,0.25,50,4
 אמת,"HaDemocratim, headed by Yair Golan",19,обязанности бизнеса перед потребителями,0.6557,0.7273,0.0055,11,30,52,False,-0.0771,166,0.0,0,20
 אמת,"HaDemocratim, headed by Yair Golan",195,дисциплинарный контроль над работниками госсектора,0.1667,0.3333,0.0,3,1,0,False,-0.1667,2,0.0,0,2
@@ -145,7 +145,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 אמת,"HaDemocratim, headed by Yair Golan",20,права и защита потребителей,0.9025,0.9091,0.0088,11,58,120,False,-0.1063,136,0.0909,6,59
 אמת,"HaDemocratim, headed by Yair Golan",200,квоты и преференции для недопредставленных групп,0.5294,0.8,0.0285,10,25,10,False,-0.0492,38,-0.25,76,29
 אמת,"HaDemocratim, headed by Yair Golan",201,представительство женщин в публичных органах,0.7278,0.8,0.0028,10,22,52,False,-0.075,9,0.0,0,15
-אמת,"HaDemocratim, headed by Yair Golan",202,гендерное равенство и права женщин,0.9825,1.0,0.0135,11,129,111,False,-0.0538,69,0.0227,4,98
+אמת,"HaDemocratim, headed by Yair Golan",202,гендерное равенство и права женщин,0.9522,1.0,0.0142,11,119,94,False,-0.0847,41,0.0227,4,83
 אמת,"HaDemocratim, headed by Yair Golan",204,права ЛГБТ и признание нетрадиционных семей,0.8348,0.8182,0.0166,11,61,21,False,0.0,0,0.0,0,34
 אמת,"HaDemocratim, headed by Yair Golan",206,права людей с инвалидностью и пожилых,0.9989,0.9091,0.0073,11,102,85,False,-0.122,138,0.2045,24,102
 אמת,"HaDemocratim, headed by Yair Golan",208,права и защита работников,1.1155,0.8975,0.0154,11,164,104,False,-0.0247,120,0.2273,49,131
@@ -168,7 +168,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 אמת,"HaDemocratim, headed by Yair Golan",22s1,Права арендаторов на частном рынке жилья,1.0,1.0,0.0,7,12,0,False,0.0,0,0.0,0,3
 אמת,"HaDemocratim, headed by Yair Golan",22s2,Права жильцов государственного жилья,0.2273,0.4545,0.0,11,5,0,False,-0.2273,10,0.0,0,3
 אמת,"HaDemocratim, headed by Yair Golan",22s3,"Защита жителей, выселяемых из-за реконструкции или опасности зданий",0.1,0.3,0.0,10,5,3,False,-0.2,12,0.0,0,4
-אמת,"HaDemocratim, headed by Yair Golan",230,доступность кредита,0.6333,0.5,0.0083,4,4,2,False,0.125,2,0.0,0,4
+אמת,"HaDemocratim, headed by Yair Golan",230,доступность кредита,1.0,1.0,0.0,2,3,0,True,0.0,0,0.0,0,1
+אמת,"HaDemocratim, headed by Yair Golan",230s1,Доступность кредита для домохозяйств,0.5,0.3333,0.0,3,1,2,False,0.1667,2,0.0,0,3
+אמת,"HaDemocratim, headed by Yair Golan",230s2,Финансирование бизнеса и рынок капитала,0.0065,0.0,0.0065,2,0,2,True,0.0,0,0.0,0,1
 אמת,"HaDemocratim, headed by Yair Golan",231,защита собственности и свобода распоряжения ею,-0.1115,-0.1,-0.0115,10,8,22,False,0.0,4,0.0,0,8
 אמת,"HaDemocratim, headed by Yair Golan",231b,ограничения планирования и изъятия земли,0.3333,0.3333,0.0,3,3,0,False,0.0,0,0.0,0,3
 אמת,"HaDemocratim, headed by Yair Golan",231c,земельные и имущественные права арабских граждан,1.0,1.0,0.0,4,5,0,False,0.0,0,0.0,0,2
@@ -282,7 +284,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 אמת,"HaDemocratim, headed by Yair Golan",309,право на семейную жизнь и усыновление,0.0,0.0,0.0,2,0,3,True,0.0,0,0.0,0,2
 אמת,"HaDemocratim, headed by Yair Golan",309s3,Кто и на каких условиях может усыновлять,1.0165,1.0,0.0165,7,10,2,False,0.0,0,0.0,0,4
 אמת,"HaDemocratim, headed by Yair Golan",31,поддержка репатриации и репатриантов,0.625,0.5,0.0,2,2,2,True,0.125,2,0.0,0,2
-אמת,"HaDemocratim, headed by Yair Golan",311,доступ к юридической помощи и правосудию,0.8992,0.9,0.0062,10,69,76,False,-0.0821,33,0.075,6,69
+אמת,"HaDemocratim, headed by Yair Golan",311,доступ к юридической помощи и правосудию,0.7583,0.9,0.0033,10,53,63,False,-0.17,25,0.025,4,49
+אמת,"HaDemocratim, headed by Yair Golan",311s1,Государственная юридическая помощь и расходы на судебные процессы для граждан,0.75,0.5714,0.0,7,6,11,False,0.1071,3,0.0714,2,10
+אמת,"HaDemocratim, headed by Yair Golan",311s2,Доступ к адвокату и государственное представительство для задержанных и обвиняемых по делам безопасности и террора,0.25,0.0,0.0,1,0,0,True,0.25,2,0.0,0,1
 אמת,"HaDemocratim, headed by Yair Golan",312,обязанности госорганов перед гражданами,0.691,1.0,0.0045,10,113,195,False,-0.2134,103,-0.1,18,99
 אמת,"HaDemocratim, headed by Yair Golan",313,полномочия государства в сфере кибербезопасности,-0.25,0.0,0.0,3,0,0,False,-0.25,12,0.0,0,2
 אמת,"HaDemocratim, headed by Yair Golan",314,права семей выяснять судьбу родственников,-0.15,0.1,-0.0,10,4,11,False,-0.25,10,0.0,0,4
@@ -314,7 +318,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 אמת,"HaDemocratim, headed by Yair Golan",34s3,Надёжность связи и цифровой инфраструктуры,1.0,1.0,0.0,1,2,0,True,0.0,0,0.0,0,1
 אמת,"HaDemocratim, headed by Yair Golan",35,государственные расходы,0.9279,0.7992,0.0194,10,51,74,False,-0.135,648,0.2444,799,87
 אמת,"HaDemocratim, headed by Yair Golan",352,свобода договора,-0.7917,-0.6667,0.0,6,6,0,False,-0.125,9,0.0,0,5
-אמת,"HaDemocratim, headed by Yair Golan",353,защита слабой стороны в договорных отношениях,0.5871,0.5,0.0196,10,21,47,False,-0.0825,44,0.15,13,32
+אמת,"HaDemocratim, headed by Yair Golan",353,защита слабой стороны в договорных отношениях,0.5888,0.5,0.0196,10,24,47,False,-0.0808,45,0.15,13,35
 אמת,"HaDemocratim, headed by Yair Golan",354,статус и независимость квазисудебных органов,0.0514,0.3,0.0,10,3,0,False,-0.2486,120,0.0,0,6
 אמת,"HaDemocratim, headed by Yair Golan",355,интересы будущих поколений в принятии решений,0.9233,1.0,0.0016,10,108,16,False,-0.1533,20,0.075,3,43
 אמת,"HaDemocratim, headed by Yair Golan",356,поддержка общественного транспорта,1.0,1.0,0.0,4,5,0,False,0.0,0,0.0,0,3
@@ -332,7 +336,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 אמת,"HaDemocratim, headed by Yair Golan",37,строгость фискальных ограничений,-0.619,-0.4,0.0,10,5,0,False,0.031,82,-0.25,50,10
 אמת,"HaDemocratim, headed by Yair Golan",370,объём и доступность публичных услуг (широкое),0.5833,0.55,-0.0,10,14,27,False,0.0333,23,0.0,0,9
 אמת,"HaDemocratim, headed by Yair Golan",375,бюджетная свобода правительства,-0.7956,-0.6889,-0.0257,10,55,54,False,0.1683,452,-0.2493,739,71
-אמת,"HaDemocratim, headed by Yair Golan",377,перераспределение в пользу слабых групп и районов,1.0144,0.9,0.0086,10,67,37,False,-0.1441,78,0.25,57,50
+אמת,"HaDemocratim, headed by Yair Golan",377,перераспределение в пользу слабых групп и районов,0.9894,0.9,0.0086,10,53,37,False,-0.1441,78,0.225,28,43
 אמת,"HaDemocratim, headed by Yair Golan",38,налоговый контроль и полномочия налоговых органов,0.225,0.0,0.0,10,0,1,False,0.15,10,0.075,3,4
 אמת,"HaDemocratim, headed by Yair Golan",4,"помощь пострадавшим от войны, терроризма и катастроф",0.5992,0.7,0.0178,10,62,60,False,-0.1186,73,0.0,0,71
 אמת,"HaDemocratim, headed by Yair Golan",40,административная нагрузка на граждан,0.5844,0.4833,-0.0048,10,16,24,False,0.1058,32,0.0,0,23
@@ -365,6 +369,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 אמת,"HaDemocratim, headed by Yair Golan",66b1,смертная казнь для террористов,0.281,0.0,0.031,10,0,2,False,0.25,42,0.0,0,4
 אמת,"HaDemocratim, headed by Yair Golan",66b2,минимальные наказания,0.0334,-0.2,0.0,10,2,5,False,0.2333,17,0.0,0,6
 אמת,"HaDemocratim, headed by Yair Golan",69,возможность оспорить решения властей,1.0,1.0,0.0,5,6,0,False,0.0,0,0.0,0,6
+אמת,"HaDemocratim, headed by Yair Golan",69a,судебный контроль над решениями правительства,1.0,1.0,0.0,3,3,0,False,0.0,0,0.0,0,1
 אמת,"HaDemocratim, headed by Yair Golan",69b,обжалование решений государственных органов,0.9,0.9091,0.0,11,25,27,False,-0.0091,34,0.0,0,15
 אמת,"HaDemocratim, headed by Yair Golan",71,автономия судебной системы,0.15,-0.1,0.0,10,1,0,False,0.25,32,0.0,0,4
 אמת,"HaDemocratim, headed by Yair Golan",75,права парламентской оппозиции,0.0515,0.2727,0.006,11,5,2,False,-0.2273,19,0.0,0,6
@@ -394,7 +399,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 אמת,"HaDemocratim, headed by Yair Golan",8s4,Санкции за загрязнение среды и жестокое обращение с животными,0.6667,0.6667,0.0,6,4,5,False,0.0,0,0.0,0,4
 אמת,"HaDemocratim, headed by Yair Golan",9,плата граждан за государственные и общественные услуги,-0.5106,-0.7,-0.0089,10,22,21,False,0.1983,46,0.0,0,24
 אמת,"HaDemocratim, headed by Yair Golan",90,процессуальные права подозреваемых и обвиняемых,0.6027,0.3,0.0277,10,3,11,False,0.05,4,0.225,19,9
-אמת,"HaDemocratim, headed by Yair Golan",90a,процессуальные права подозреваемых и обвиняемых,0.2035,0.45,-0.0683,10,20,82,False,-0.1449,71,-0.0333,22,37
+אמת,"HaDemocratim, headed by Yair Golan",90a,процессуальные права подозреваемых и обвиняемых,0.2335,0.48,-0.0683,10,22,82,False,-0.1449,71,-0.0333,22,38
 אמת,"HaDemocratim, headed by Yair Golan",90b,строгость наказаний за терроризм,0.25,0.0,0.0,3,0,0,False,0.25,9,0.0,0,1
 אמת,"HaDemocratim, headed by Yair Golan",91b,привилегии в политико-медийной сфере,1.0,1.0,0.0,2,2,0,True,0.0,0,0.0,0,1
 אמת,"HaDemocratim, headed by Yair Golan",92,права и условия содержания заключённых и осуждённых,0.3611,0.1111,0.0,3,3,0,False,0.25,15,0.0,0,4
@@ -469,7 +474,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",12b,услуги больничных касс пациентам,0.6261,0.6667,0.008,6,8,12,False,-0.0486,22,0.0,0,21
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",12c,еда в больницах в Песах,-0.0377,0.0,-0.0377,1,0,2,True,0.0,0,0.0,0,2
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",130,режим чрезвычайного положения,0.2881,0.6,0.0,5,5,2,False,-0.25,5,-0.0619,12,9
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",130a,льготы гражданам в войну и чрезвычайное положение,0.3485,0.1667,0.0346,6,1,6,False,-0.0611,12,0.2083,39,15
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",130a,льготы гражданам в войну и чрезвычайное положение,0.6647,0.5,0.0231,6,18,20,False,-0.1083,27,0.25,106,44
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",130b1,послабления по возвращённым чекам в чрезвычайной ситуации,0.0,0.0,0.0,1,0,1,True,0.0,0,0.0,0,1
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",130b2,"законы и полномочия, привязанные к чрезвычайному положению",0.15,0.0,0.0,5,0,0,False,-0.05,1,0.2,28,4
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",130b2s2,"Чрезвычайные полномочия слежки, киберзащиты и контроля над вещанием",0.25,0.0,0.0,6,0,0,False,0.0,0,0.25,43,9
@@ -491,7 +496,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",142s3,Бесплатная доступность эфирного контента,0.0417,-0.1667,0.0,6,1,11,False,-0.0417,1,0.25,178,4
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",143,защита животных,-0.0389,0.3333,0.0,6,4,0,False,-0.2056,22,-0.1667,14,12
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",144,экологическое регулирование,0.1582,0.1667,0.0124,6,2,1,False,-0.1458,17,0.125,7,9
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",146,защита частной жизни и персональных данных,-0.7641,-0.4424,-0.0602,6,22,47,False,-0.1365,47,-0.125,17,41
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",146,защита частной жизни и персональных данных,-0.7071,-0.45,-0.0628,6,24,47,False,-0.0693,55,-0.125,25,47
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",147,сбор и передача данных государственными органами,0.2083,0.3333,0.0,6,2,1,False,-0.25,16,0.125,11,7
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",147s1,Полномочия силовых и правоохранительных органов по сбору данных о людях,0.8297,0.6667,0.042,6,7,5,False,-0.129,28,0.25,44,22
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",147s2,"Административные реестры, статистика и обмен данными для государственных услуг",0.6875,0.5,0.0,4,2,3,False,0.0625,2,0.125,5,6
@@ -552,7 +557,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",186,доступность альтернатив военной службе,0.25,0.0,0.0,5,0,0,False,0.0,0,0.25,10,1
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",186a,изучение Торы как альтернатива службе,0.0302,0.0,0.0302,6,0,24,False,0.0,0,0.0,0,1
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",186b,гражданская служба и отказ по убеждениям,0.2917,0.0,0.0,6,0,1,False,0.0417,3,0.25,18,6
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",187,привязка прав и льгот к службе,0.7481,0.6667,0.0736,6,38,86,False,-0.1588,225,0.1667,18,94
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",187,привязка прав и льгот к службе,0.7677,0.6667,0.0931,6,40,90,False,-0.1588,225,0.1667,18,95
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",188,использование военных в гражданских функциях,-1.0,-1.0,0.0,1,1,0,True,0.0,0,0.0,0,1
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",188c,прикомандирование срочников к полиции и ШАБАС,0.2083,0.0,0.0,6,0,0,False,-0.0417,4,0.25,16,5
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",189,автономия армии от политиков и законодателя,0.3333,0.3333,0.0,3,3,0,False,0.0,0,0.0,0,2
@@ -570,7 +575,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",20,права и защита потребителей,0.4509,0.5,0.0174,6,12,50,False,-0.1498,45,0.0833,5,46
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",200,квоты и преференции для недопредставленных групп,0.6505,0.5,0.1139,6,15,31,False,-0.0468,30,0.0833,3,22
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",201,представительство женщин в публичных органах,-0.125,0.0,0.0,6,0,0,False,-0.25,42,0.125,6,9
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",202,гендерное равенство и права женщин,0.6051,0.6667,0.053,6,10,17,False,-0.2396,76,0.125,7,28
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",202,гендерное равенство и права женщин,0.613,0.6667,0.0603,6,9,13,False,-0.2389,71,0.125,7,23
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",204,права ЛГБТ и признание нетрадиционных семей,-0.4167,-0.1667,0.0,6,1,0,False,-0.25,39,0.0,0,8
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",206,права людей с инвалидностью и пожилых,0.7406,0.6667,0.0277,6,37,42,False,-0.0788,66,0.125,15,66
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",208,права и защита работников,0.7984,0.5275,0.1325,6,31,47,False,-0.0308,65,0.1693,77,66
@@ -592,7 +597,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",22s1,Права арендаторов на частном рынке жилья,-0.25,0.0,0.0,4,0,0,False,-0.25,4,0.0,0,1
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",22s2,Права жильцов государственного жилья,0.125,0.0,0.0,2,0,1,True,0.0,0,0.125,2,2
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",22s3,"Защита жителей, выселяемых из-за реконструкции или опасности зданий",0.0,0.0,0.0,2,0,2,True,0.0,0,0.0,0,2
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",230,доступность кредита,-0.1211,0.0,0.0039,6,0,1,False,-0.25,7,0.125,9,6
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",230s1,Доступность кредита для домохозяйств,-0.1,0.0,0.0,5,0,1,False,-0.25,5,0.15,7,3
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",230s2,Финансирование бизнеса и рынок капитала,-0.1667,0.0,0.0,6,0,0,False,-0.25,7,0.0833,2,4
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",231,защита собственности и свобода распоряжения ею,0.2465,0.25,-0.0035,4,3,10,False,0.0,2,0.0,0,11
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",231b,ограничения планирования и изъятия земли,1.0,1.0,0.0,1,1,0,True,0.0,0,0.0,0,1
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",231d,земельные права евреев в Иудее и Самарии,0.5889,0.75,0.0056,4,6,2,False,-0.1667,6,0.0,0,3
@@ -699,7 +705,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",309,право на семейную жизнь и усыновление,0.0,0.0,0.0,2,0,0,True,0.0,2,0.0,0,2
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",309s3,Кто и на каких условиях может усыновлять,-0.25,0.0,0.0,4,0,0,False,-0.25,4,0.0,0,1
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",31,поддержка репатриации и репатриантов,0.1,0.0,0.0,5,0,8,False,0.1,4,0.0,0,2
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",311,доступ к юридической помощи и правосудию,0.4442,0.6667,0.0541,6,14,50,False,-0.1396,54,-0.137,37,49
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",311,доступ к юридической помощи и правосудию,0.4173,0.5,0.0551,6,11,33,False,-0.1629,34,0.025,12,28
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",311s1,Государственная юридическая помощь и расходы на судебные процессы для граждан,-0.1389,0.0,0.0,6,0,2,False,-0.1389,10,0.0,0,5
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",311s2,Доступ к адвокату и государственное представительство для задержанных и обвиняемых по делам безопасности и террора,-0.35,0.0,0.0,5,0,8,False,-0.1,2,-0.25,25,9
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",312,обязанности госорганов перед гражданами,0.5283,0.6667,0.0282,6,23,52,False,-0.1666,108,0.0,0,69
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",313,полномочия государства в сфере кибербезопасности,0.25,0.0,0.0,6,0,20,False,0.0,0,0.25,38,10
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",314,права семей выяснять судьбу родственников,0.2544,0.4,0.0044,5,2,2,False,-0.15,6,0.0,0,6
@@ -728,7 +736,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",34s3,Надёжность связи и цифровой инфраструктуры,0.25,0.0,0.0,4,0,6,False,0.0,0,0.25,9,4
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",35,государственные расходы,0.4107,0.2354,0.0586,6,25,56,False,-0.1265,171,0.2431,1017,71
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",352,свобода договора,-0.5833,-0.6667,0.0,3,2,0,False,0.0,0,0.0833,1,2
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",353,защита слабой стороны в договорных отношениях,-0.0158,0.0,-0.0436,6,3,28,False,0.1389,16,-0.1111,6,21
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",353,защита слабой стороны в договорных отношениях,-0.0088,0.0,-0.0366,6,3,34,False,0.1389,16,-0.1111,6,24
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",354,статус и независимость квазисудебных органов,0.7924,0.5,0.0007,6,4,153,False,0.2083,30,0.0833,3,7
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",355,интересы будущих поколений в принятии решений,0.3024,0.2,0.019,5,5,12,False,-0.0667,11,0.15,7,9
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",356a,общественный транспорт в шаббат,-0.25,0.0,0.0,5,0,0,False,-0.25,10,0.0,0,1
@@ -745,7 +753,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",37,строгость фискальных ограничений,-0.0885,0.0,0.0,6,0,0,False,0.0417,4,-0.1302,152,9
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",370,объём и доступность публичных услуг (широкое),0.1908,0.0,0.0033,4,0,1,False,0.1875,3,0.0,0,2
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",375,бюджетная свобода правительства,-0.9817,-0.8333,-0.0335,6,33,34,False,0.1351,152,-0.25,682,68
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",377,перераспределение в пользу слабых групп и районов,0.5449,0.6667,0.0358,6,10,9,False,-0.1992,51,0.0417,3,32
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",377,перераспределение в пользу слабых групп и районов,0.5449,0.6667,0.0358,6,8,9,False,-0.1992,49,0.0417,1,28
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",38,налоговый контроль и полномочия налоговых органов,0.25,0.1667,0.0,6,1,0,False,-0.1667,8,0.25,22,6
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",39,ограничения на наличные расчёты,0.5,0.5,0.0,4,4,2,False,0.0,0,0.0,0,4
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",4,"помощь пострадавшим от войны, терроризма и катастроф",0.8553,0.6444,0.0367,6,53,34,False,-0.0759,87,0.25,78,81
@@ -776,7 +784,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",66b1,смертная казнь для террористов,-0.6149,-0.3333,-0.0316,6,2,72,False,-0.25,11,0.0,0,4
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",66b2,минимальные наказания,-0.5903,-0.6667,-0.007,3,3,2,False,0.0833,1,0.0,0,4
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",69,возможность оспорить решения властей,1.25,1.0,0.0,1,1,0,True,0.0,0,0.25,1,2
-ב,"Otzma Yehudit, headed by Itamar Ben Gvir",69a,судебный контроль над решениями правительства,0.0,0.0,0.0,3,0,5,False,0.0,0,0.0,0,2
+ב,"Otzma Yehudit, headed by Itamar Ben Gvir",69a,судебный контроль над решениями правительства,0.3333,0.3333,0.0,3,1,5,False,0.0,0,0.0,0,3
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",69b,обжалование решений государственных органов,0.55,0.6,0.0,5,4,6,False,0.05,1,-0.1,4,9
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",71,автономия судебной системы,-0.6077,-0.6,-0.0077,5,5,9,False,0.0,0,0.0,0,8
 ב,"Otzma Yehudit, headed by Itamar Ben Gvir",72,влияние политиков на назначение судей,1.0,1.0,0.0,1,1,0,True,0.0,0,0.0,0,1
@@ -855,6 +863,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 בי,Tzomet Beit Yisrael,129,барьеры досрочного роспуска Кнессета,-0.25,0.0,0.0,1,0,0,True,-0.25,4,0.0,0,1
 בי,Tzomet Beit Yisrael,12b,услуги больничных касс пациентам,1.0,1.0,-0.0,1,1,1,True,0.0,0,0.0,0,2
 בי,Tzomet Beit Yisrael,12c,еда в больницах в Песах,-0.0377,0.0,-0.0377,1,0,2,True,0.0,0,0.0,0,2
+בי,Tzomet Beit Yisrael,130a,льготы гражданам в войну и чрезвычайное положение,1.0,1.0,0.0,1,1,3,True,0.0,0,0.0,0,3
 בי,Tzomet Beit Yisrael,130b2,"законы и полномочия, привязанные к чрезвычайному положению",-0.25,0.0,0.0,1,0,0,True,-0.25,1,0.0,0,1
 בי,Tzomet Beit Yisrael,130b2s4,Продление сроков и процедурные послабления в чрезвычайной ситуации,-0.25,0.0,0.0,1,0,0,True,-0.25,1,0.0,0,1
 בי,Tzomet Beit Yisrael,132,продолжительность установленных законом сроков процедур,-0.0836,0.0,0.137,1,0,2,True,-0.2206,17,0.0,0,12
@@ -908,7 +917,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 בי,Tzomet Beit Yisrael,2,объём и стандарты государственных социальных услуг,1.0012,1.0,0.0012,1,1,5,True,0.0,0,0.0,0,6
 בי,Tzomet Beit Yisrael,20,права и защита потребителей,0.8761,1.0,0.0011,1,1,13,True,-0.125,4,0.0,0,12
 בי,Tzomet Beit Yisrael,200,квоты и преференции для недопредставленных групп,0.3208,0.0,0.0708,1,0,2,True,0.25,8,0.0,0,4
-בי,Tzomet Beit Yisrael,202,гендерное равенство и права женщин,0.2515,0.0,0.0015,1,0,2,True,0.25,1,0.0,0,3
+בי,Tzomet Beit Yisrael,202,гендерное равенство и права женщин,0.25,0.0,0.0,1,0,0,True,0.25,1,0.0,0,1
 בי,Tzomet Beit Yisrael,206,права людей с инвалидностью и пожилых,1.0009,1.0,0.0009,1,2,12,True,0.0,2,0.0,0,15
 בי,Tzomet Beit Yisrael,208,права и защита работников,1.0298,1.0,-0.0202,1,3,8,True,0.05,5,0.0,0,13
 בי,Tzomet Beit Yisrael,209,продолжительность рабочего времени,-0.25,0.0,0.0,1,0,0,True,-0.25,1,0.0,0,1
@@ -977,7 +986,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 בי,Tzomet Beit Yisrael,301b,иностранное государственное финансирование НКО,-0.0417,0.0,-0.0417,1,0,1,True,0.0,0,0.0,0,1
 בי,Tzomet Beit Yisrael,307,увековечение памяти и национальная символика,-0.2217,0.0,0.0283,1,0,1,True,-0.25,1,0.0,0,2
 בי,Tzomet Beit Yisrael,31,поддержка репатриации и репатриантов,1.0,1.0,0.0,1,1,0,True,0.0,0,0.0,0,1
-בי,Tzomet Beit Yisrael,311,доступ к юридической помощи и правосудию,-0.2212,0.0,0.0288,1,0,2,True,-0.25,1,0.0,0,3
+בי,Tzomet Beit Yisrael,311,доступ к юридической помощи и правосудию,-0.2163,0.0,0.0337,1,0,2,True,-0.25,1,0.0,0,3
 בי,Tzomet Beit Yisrael,312,обязанности госорганов перед гражданами,0.876,1.0,0.001,1,1,10,True,-0.125,4,0.0,0,13
 בי,Tzomet Beit Yisrael,314,права семей выяснять судьбу родственников,0.2719,0.0,0.0219,1,0,2,True,0.25,1,0.0,0,3
 בי,Tzomet Beit Yisrael,317,приоритет групп в распределении госресурсов,0.0326,0.0,0.0326,1,0,2,True,0.0,0,0.0,0,2
@@ -1005,7 +1014,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 בי,Tzomet Beit Yisrael,37,строгость фискальных ограничений,0.25,0.0,0.0,1,0,0,True,0.25,5,0.0,0,1
 בי,Tzomet Beit Yisrael,370,объём и доступность публичных услуг (широкое),0.2632,0.0,0.0132,1,0,2,True,0.25,1,0.0,0,2
 בי,Tzomet Beit Yisrael,375,бюджетная свобода правительства,-0.7603,-1.0,-0.0035,1,3,4,True,0.2432,73,0.0,0,9
-בי,Tzomet Beit Yisrael,377,перераспределение в пользу слабых групп и районов,0.75,1.0,0.0,1,4,5,True,-0.25,5,0.0,0,10
+בי,Tzomet Beit Yisrael,377,перераспределение в пользу слабых групп и районов,0.75,1.0,0.0,1,4,5,True,-0.25,3,0.0,0,9
 בי,Tzomet Beit Yisrael,38,налоговый контроль и полномочия налоговых органов,-1.0,-1.0,0.0,1,1,0,True,0.0,0,0.0,0,1
 בי,Tzomet Beit Yisrael,4,"помощь пострадавшим от войны, терроризма и катастроф",1.0,1.0,0.0,1,1,4,True,0.0,0,0.0,0,4
 בי,Tzomet Beit Yisrael,40,административная нагрузка на граждан,1.25,1.0,0.0,1,1,0,True,0.25,2,0.0,0,3
@@ -1109,7 +1118,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,12b,услуги больничных касс пациентам,0.6365,0.6667,0.0021,9,52,19,False,-0.0323,33,0.0,0,30
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,12c,еда в больницах в Песах,-0.8377,-0.8,-0.0377,5,7,10,False,0.0,0,0.0,0,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,130,режим чрезвычайного положения,0.2917,0.5,0.0,6,4,0,False,-0.1667,4,-0.0417,9,7
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,130a,льготы гражданам в войну и чрезвычайное положение,-0.0778,0.0,-0.1403,8,0,12,False,-0.1562,5,0.2188,22,13
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,130a,льготы гражданам в войну и чрезвычайное положение,0.8091,0.6667,-0.0617,9,32,46,False,-0.0181,42,0.2222,67,40
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,130b1,послабления по возвращённым чекам в чрезвычайной ситуации,0.0,0.0,0.0,3,0,3,False,0.0,0,0.0,0,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,130b2,"законы и полномочия, привязанные к чрезвычайному положению",0.1066,0.0,0.0441,8,0,2,False,-0.1562,7,0.2188,25,5
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,130b2s2,"Чрезвычайные полномочия слежки, киберзащиты и контроля над вещанием",0.2435,0.0,0.0,7,0,0,False,0.0714,4,0.1721,50,6
@@ -1130,7 +1139,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,142s3,Бесплатная доступность эфирного контента,0.15,0.0,0.0,5,0,8,False,0.15,3,0.0,0,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,143,защита животных,-0.4771,0.0,-0.153,9,0,7,False,-0.2222,31,-0.1019,14,12
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,144,экологическое регулирование,0.3874,0.5,-0.0345,8,13,23,False,-0.2031,23,0.125,6,16
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,146,защита частной жизни и персональных данных,0.3572,0.4741,0.013,9,17,18,False,-0.0743,75,-0.0556,14,35
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,146,защита частной жизни и персональных данных,0.4156,0.4741,0.0135,9,17,18,False,-0.0258,82,-0.0463,18,39
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,147,сбор и передача данных государственными органами,0.0556,0.1111,0.0,9,1,5,False,-0.2222,21,0.1667,16,6
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,147s1,Полномочия силовых и правоохранительных органов по сбору данных о людях,0.4577,0.5556,0.0194,9,9,10,False,-0.2222,22,0.1049,29,15
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,147s2,"Административные реестры, статистика и обмен данными для государственных услуг",0.5714,0.5714,0.0,7,25,5,False,0.0,0,0.0,0,6
@@ -1191,7 +1200,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,186,доступность альтернатив военной службе,0.25,0.0,0.0,3,0,0,False,0.0,0,0.25,5,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,186a,изучение Торы как альтернатива службе,0.4858,0.4286,0.0572,7,5,28,False,0.0,0,0.0,0,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,186b,гражданская служба и отказ по убеждениям,0.0312,0.0,0.0,8,0,2,False,-0.125,7,0.1562,16,6
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,187,привязка прав и льгот к службе,0.2547,0.5556,-0.176,9,15,172,False,-0.236,156,0.1111,5,69
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,187,привязка прав и льгот к службе,0.2588,0.5556,-0.1719,9,15,178,False,-0.236,156,0.1111,5,70
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,188,использование военных в гражданских функциях,1.0,1.0,0.0,1,1,0,True,0.0,0,0.0,0,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,188c,прикомандирование срочников к полиции и ШАБАС,-0.0714,0.0,0.0,7,0,0,False,-0.1786,25,0.1071,5,4
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,189,автономия армии от политиков и законодателя,-1.0,-1.0,0.0,5,5,0,False,0.0,0,0.0,0,1
@@ -1207,7 +1216,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,20,права и защита потребителей,0.916,1.0,-0.0191,9,131,142,False,-0.0927,78,0.0278,2,80
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,200,квоты и преференции для недопредставленных групп,0.6729,0.75,-0.1849,8,20,30,False,0.0453,55,0.0625,3,18
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,201,представительство женщин в публичных органах,-0.2117,0.0,-0.0464,9,0,15,False,-0.1931,58,0.0278,3,11
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,202,гендерное равенство и права женщин,0.4075,0.5556,-0.061,9,43,50,False,-0.087,97,0.0,0,44
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,202,гендерное равенство и права женщин,0.3968,0.5556,-0.066,9,33,37,False,-0.0927,89,0.0,0,35
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,204,права ЛГБТ и признание нетрадиционных семей,-0.5987,-0.3333,-0.0432,9,4,12,False,-0.2222,28,0.0,0,8
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,206,права людей с инвалидностью и пожилых,0.8644,0.7778,-0.0119,9,134,121,False,-0.0403,98,0.1389,18,100
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,208,права и защита работников,0.7517,0.6667,-0.0137,9,111,103,False,0.0163,133,0.0824,41,90
@@ -1229,7 +1238,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,22s1,Права арендаторов на частном рынке жилья,0.0,0.2,0.0,5,1,0,False,-0.2,4,0.0,0,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,22s2,Права жильцов государственного жилья,0.15,0.0,0.0,5,0,3,False,0.0,0,0.15,4,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,22s3,"Защита жителей, выселяемых из-за реконструкции или опасности зданий",0.4583,0.3333,0.0,6,3,6,False,0.125,3,0.0,0,4
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,230,доступность кредита,0.2991,0.4286,0.0134,7,9,7,False,-0.1786,5,0.0357,1,9
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,230,доступность кредита,1.0,1.0,0.0,1,2,0,True,0.0,0,0.0,0,2
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,230s1,Доступность кредита для домохозяйств,0.3333,0.5,0.0,6,7,7,False,-0.1667,4,0.0,0,5
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,230s2,Финансирование бизнеса и рынок капитала,-0.2,0.0,0.0,5,0,0,False,-0.25,5,0.05,1,3
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,231,защита собственности и свобода распоряжения ею,0.4718,0.4583,0.0135,8,13,6,False,0.0,7,0.0,0,11
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,231b,ограничения планирования и изъятия земли,1.0,1.0,0.0,4,11,0,False,0.0,0,0.0,0,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,231d,земельные права евреев в Иудее и Самарии,0.1775,0.2857,-0.1082,7,2,9,False,0.0,0,0.0,0,3
@@ -1342,7 +1353,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,309,право на семейную жизнь и усыновление,0.6667,0.5714,0.0,7,7,0,False,0.0952,8,0.0,0,4
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,309s3,Кто и на каких условиях может усыновлять,-0.25,0.0,0.0,5,0,0,False,-0.25,5,0.0,0,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,31,поддержка репатриации и репатриантов,0.6667,0.6667,0.0,3,2,1,False,0.0,0,0.0,0,2
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,311,доступ к юридической помощи и правосудию,0.3807,0.6536,-0.0479,9,58,45,False,-0.1353,94,-0.0897,33,55
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,311,доступ к юридической помощи и правосудию,0.4098,0.6667,-0.0435,9,44,33,False,-0.167,61,-0.0463,8,32
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,311s1,Государственная юридическая помощь и расходы на судебные процессы для граждан,-0.0429,0.0,0.0,7,0,0,False,-0.15,16,0.1071,5,7
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,311s2,Доступ к адвокату и государственное представительство для задержанных и обвиняемых по делам безопасности и террора,-0.4375,-0.125,0.0,8,1,3,False,-0.125,8,-0.1875,20,9
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,312,обязанности госорганов перед гражданами,0.6832,0.8889,-0.092,9,114,123,False,-0.1137,131,0.0,0,103
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,313,полномочия государства в сфере кибербезопасности,0.2222,0.0,0.0,9,0,5,False,0.0833,6,0.1389,26,6
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,314,права семей выяснять судьбу родственников,0.3177,0.4444,0.0122,9,7,7,False,-0.1389,9,0.0,0,5
@@ -1372,7 +1385,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,34s3,Надёжность связи и цифровой инфраструктуры,0.125,0.0,0.0,4,0,4,False,0.0,0,0.125,4,3
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,35,государственные расходы,0.364,0.4339,-0.039,9,34,93,False,-0.1957,549,0.1648,1078,80
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,352,свобода договора,0.25,0.0,0.0,1,0,0,True,0.0,0,0.25,1,1
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,353,защита слабой стороны в договорных отношениях,0.6678,0.6667,0.0064,9,120,70,False,0.078,35,-0.0833,4,53
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,353,защита слабой стороны в договорных отношениях,0.7158,0.6667,0.0054,9,132,76,False,0.127,38,-0.0833,4,59
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,354,статус и независимость квазисудебных органов,0.641,0.4444,0.0021,9,6,192,False,0.1944,19,0.0,0,6
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,355,интересы будущих поколений в принятии решений,0.3944,0.375,-0.0327,8,5,26,False,-0.0729,11,0.125,4,11
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,356a,общественный транспорт в шаббат,-0.0033,0.0,-0.0033,6,0,12,False,0.0,0,0.0,0,1
@@ -1388,7 +1401,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,37,строгость фискальных ограничений,0.173,0.0,0.0,9,0,0,False,0.1806,41,-0.0075,139,9
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,370,объём и доступность публичных услуг (широкое),0.477,0.25,0.0082,8,2,11,False,0.2188,12,0.0,0,4
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,375,бюджетная свобода правительства,-0.4923,-0.6281,0.1346,9,52,78,False,0.1956,439,-0.1944,806,70
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,377,перераспределение в пользу слабых групп и районов,0.6322,0.7778,-0.0261,9,56,71,False,-0.175,75,0.0556,3,43
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,377,перераспределение в пользу слабых групп и районов,0.6146,0.7778,-0.0261,9,55,71,False,-0.1648,64,0.0278,2,40
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,38,налоговый контроль и полномочия налоговых органов,-0.0312,0.0,0.0,8,0,4,False,-0.1562,11,0.125,11,5
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,39,ограничения на наличные расчёты,0.0,0.0,0.0,1,0,1,True,0.0,0,0.0,0,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,4,"помощь пострадавшим от войны, терроризма и катастроф",0.7091,0.6667,-0.1435,9,54,69,False,-0.0085,108,0.1944,55,67
@@ -1419,7 +1432,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,66b1,смертная казнь для террористов,0.5363,0.0,0.4363,5,0,38,False,0.1,4,0.0,0,3
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,66b2,минимальные наказания,0.0381,0.0,-0.0244,8,0,15,False,0.0625,6,0.0,0,3
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,69,возможность оспорить решения властей,0.3125,0.25,0.0,4,1,4,False,0.0,0,0.0625,2,3
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,69a,судебный контроль над решениями правительства,0.0,0.0,0.0,4,0,6,False,0.0,0,0.0,0,2
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,69a,судебный контроль над решениями правительства,0.6667,0.6667,0.0,6,6,6,False,0.0,0,0.0,0,3
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,69b,обжалование решений государственных органов,0.7188,0.5,0.0,8,36,25,False,0.2188,15,0.0,0,15
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,71,автономия судебной системы,-0.5298,-0.5,-0.0298,8,8,25,False,0.0,0,0.0,0,5
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,75,права парламентской оппозиции,-0.1786,0.0,0.0,7,0,8,False,-0.1786,5,0.0,0,3
@@ -1450,7 +1463,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,8s4,Санкции за загрязнение среды и жестокое обращение с животными,-0.25,0.0,0.0,3,0,0,False,-0.25,3,0.0,0,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,9,плата граждан за государственные и общественные услуги,-0.3576,-0.598,0.0183,9,45,43,False,0.2222,40,0.0,0,33
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,90,процессуальные права подозреваемых и обвиняемых,0.188,0.375,0.0005,8,3,19,False,-0.1875,14,0.0,0,8
-ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,90a,процессуальные права подозреваемых и обвиняемых,0.3524,0.5556,0.0071,9,15,40,False,-0.0436,75,-0.1667,35,43
+ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,90a,процессуальные права подозреваемых и обвиняемых,0.3524,0.5556,0.0071,9,16,40,False,-0.0436,75,-0.1667,35,44
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,90b,строгость наказаний за терроризм,-0.2,-0.2,0.0,5,1,13,False,0.0,0,0.0,0,1
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,91a,профессиональные и терапевтические привилегии,1.0,1.0,0.0,4,6,1,False,0.0,0,0.0,0,2
 ג,Yahadut HaTorah v’ha’Shabbat (United Torah Judaism) – Agudat Yisrael and Degel HaTorah,91b,привилегии в политико-медийной сфере,-0.0373,0.0,-0.0373,3,0,3,False,0.0,0,0.0,0,1
@@ -1525,7 +1538,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",12b,услуги больничных касс пациентам,0.4739,0.3333,0.0017,3,1,12,False,0.1389,6,0.0,0,14
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",12c,еда в больницах в Песах,0.25,0.0,0.0,1,0,0,True,0.25,2,0.0,0,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",130,режим чрезвычайного положения,0.3333,0.3333,0.0,3,1,2,False,0.0,3,0.0,0,5
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",130a,льготы гражданам в войну и чрезвычайное положение,0.5251,0.25,0.0662,4,1,6,False,0.1464,14,0.0625,2,10
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",130a,льготы гражданам в войну и чрезвычайное положение,1.0371,0.75,0.0624,4,9,22,False,0.1622,30,0.0625,6,24
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",130b1,послабления по возвращённым чекам в чрезвычайной ситуации,-0.25,0.0,0.0,1,0,0,True,-0.25,1,0.0,0,1
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",130b2,"законы и полномочия, привязанные к чрезвычайному положению",-0.0625,0.0,0.0,4,0,0,False,-0.125,6,0.0625,1,3
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",130b2s2,"Чрезвычайные полномочия слежки, киберзащиты и контроля над вещанием",0.3125,0.0,0.0,4,0,0,False,0.1875,10,0.125,8,4
@@ -1545,7 +1558,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",142s3,Бесплатная доступность эфирного контента,-0.25,0.0,0.0,2,0,1,True,-0.25,59,0.0,0,3
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",143,защита животных,0.2585,0.0,0.0501,4,0,14,False,0.2083,6,0.0,0,11
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",144,экологическое регулирование,-0.0169,0.0,0.0456,4,0,17,False,-0.0625,3,0.0,0,10
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",146,защита частной жизни и персональных данных,0.0308,0.0,0.0635,4,2,24,False,0.1548,16,-0.1875,7,25
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",146,защита частной жизни и персональных данных,0.0347,0.0,0.0674,4,2,27,False,0.1548,16,-0.1875,7,27
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",147,сбор и передача данных государственными органами,-0.0232,0.0,0.0601,3,0,12,False,-0.0833,1,0.0,0,4
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",147s1,Полномочия силовых и правоохранительных органов по сбору данных о людях,0.2193,0.0,0.0318,4,0,13,False,0.0625,2,0.125,4,8
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",147s2,"Административные реестры, статистика и обмен данными для государственных услуг",0.25,0.0,0.0,2,0,1,True,0.125,2,0.125,1,4
@@ -1605,7 +1618,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",186,доступность альтернатив военной службе,-0.25,0.0,0.0,2,0,0,True,-0.25,4,0.0,0,1
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",186a,изучение Торы как альтернатива службе,-0.25,0.0,0.0,2,0,0,True,-0.25,8,0.0,0,1
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",186b,гражданская служба и отказ по убеждениям,0.375,0.5,0.0,2,1,0,True,-0.25,4,0.125,1,5
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",187,привязка прав и льгот к службе,1.3448,1.0,0.1273,4,27,122,False,0.0301,54,0.1875,5,80
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",187,привязка прав и льгот к службе,1.3701,1.0,0.1286,4,27,122,False,0.0539,57,0.1875,5,81
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",188c,прикомандирование срочников к полиции и ШАБАС,0.25,0.0,0.0,1,0,0,True,0.0,0,0.25,5,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",19,обязанности бизнеса перед потребителями,0.0089,0.0,0.0451,4,0,21,False,-0.0363,97,0.0,0,11
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",193,допустимая цена сделок по освобождению пленных,-0.25,0.0,0.0,1,0,0,True,-0.25,1,0.0,0,1
@@ -1620,7 +1633,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",20,права и защита потребителей,0.2891,0.25,0.0252,4,1,33,False,-0.0486,28,0.0625,3,33
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",200,квоты и преференции для недопредставленных групп,1.1637,0.75,0.1012,4,4,14,False,0.1875,12,0.125,13,17
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",201,представительство женщин в публичных органах,0.5668,0.5,0.0668,4,6,26,False,0.0,0,0.0,0,12
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",202,гендерное равенство и права женщин,0.2277,0.25,0.0402,4,1,49,False,-0.0625,10,0.0,0,21
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",202,гендерное равенство и права женщин,0.103,0.25,0.0405,4,1,48,False,-0.1875,7,0.0,0,19
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",204,права ЛГБТ и признание нетрадиционных семей,0.3426,0.25,0.0926,4,1,16,False,0.0,0,0.0,0,7
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",206,права людей с инвалидностью и пожилых,0.8463,0.5,0.025,4,3,34,False,0.1338,27,0.1875,6,42
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",208,права и защита работников,0.7705,0.4405,0.0401,4,11,53,False,0.0399,34,0.25,14,53
@@ -1640,7 +1653,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",22s1,Права арендаторов на частном рынке жилья,0.5,0.5,0.0,2,1,1,True,0.0,0,0.0,0,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",22s2,Права жильцов государственного жилья,-0.25,0.0,0.0,1,0,0,True,-0.25,1,0.0,0,1
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",22s3,"Защита жителей, выселяемых из-за реконструкции или опасности зданий",-0.25,0.0,0.0,1,0,0,True,-0.25,1,0.0,0,1
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",230,доступность кредита,0.3504,0.3333,0.017,3,1,3,False,0.0,0,0.0,0,3
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",230s1,Доступность кредита для домохозяйств,0.5,0.5,0.0,2,1,2,True,0.0,0,0.0,0,2
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",230s2,Финансирование бизнеса и рынок капитала,0.0431,0.0,0.0431,3,0,3,False,0.0,0,0.0,0,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",231,защита собственности и свобода распоряжения ею,-0.1812,-0.25,0.0688,4,1,8,False,0.0,2,0.0,0,6
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",231d,земельные права евреев в Иудее и Самарии,0.0,0.0,0.0,2,0,0,True,0.0,4,0.0,0,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",231e,конфискация имущества преступников и террористов,0.0416,0.0,-0.0417,4,0,5,False,0.0833,4,0.0,0,6
@@ -1737,7 +1751,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",309,право на семейную жизнь и усыновление,-0.5,-0.5,0.0,2,1,2,True,0.0,0,0.0,0,2
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",309s3,Кто и на каких условиях может усыновлять,0.0514,0.0,0.0514,2,0,2,True,0.0,0,0.0,0,1
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",31,поддержка репатриации и репатриантов,0.0,0.0,0.0,3,0,6,False,0.0,0,0.0,0,1
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",311,доступ к юридической помощи и правосудию,0.2911,0.25,0.064,4,3,51,False,-0.0229,25,0.0,0,33
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",311,доступ к юридической помощи и правосудию,0.409,0.5,0.0674,4,2,31,False,-0.1583,11,0.0,0,20
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",311s1,Государственная юридическая помощь и расходы на судебные процессы для граждан,0.0,0.0,0.0,4,0,15,False,0.0,0,0.0,0,6
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",311s2,Доступ к адвокату и государственное представительство для задержанных и обвиняемых по делам безопасности и террора,-0.3889,-0.3333,0.0,3,1,0,False,-0.0556,8,0.0,0,4
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",312,обязанности госорганов перед гражданами,0.5229,0.5,0.0401,4,3,59,False,-0.0484,28,0.0312,4,51
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",313,полномочия государства в сфере кибербезопасности,0.4375,0.25,0.0,4,1,0,False,0.0625,8,0.125,4,5
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",314,права семей выяснять судьбу родственников,0.0782,0.0,0.1407,4,0,4,False,-0.0625,1,0.0,0,3
@@ -1764,7 +1780,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",34s2,Подключение к коммунальным сетям домов без разрешения в арабских населённых пунктах,-0.1254,0.0,-0.0004,2,0,5,True,-0.125,1,0.0,0,3
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",34s3,Надёжность связи и цифровой инфраструктуры,0.375,0.0,0.0,4,0,0,False,0.25,6,0.125,2,3
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",35,государственные расходы,0.1933,0.5,0.0363,4,4,60,False,-0.2266,540,-0.1164,263,60
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",353,защита слабой стороны в договорных отношениях,0.3699,0.25,-0.0086,4,3,25,False,0.066,19,0.0625,2,23
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",353,защита слабой стороны в договорных отношениях,0.3697,0.25,-0.0087,4,4,25,False,0.066,19,0.0625,2,24
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",354,статус и независимость квазисудебных органов,0.0,0.25,0.0,4,1,0,False,-0.25,88,0.0,0,5
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",355,интересы будущих поколений в принятии решений,0.572,0.5,0.0095,4,2,18,False,0.0625,5,0.0,0,7
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",356a,общественный транспорт в шаббат,0.0636,0.0,0.0636,2,0,4,True,0.0,0,0.0,0,1
@@ -1779,7 +1795,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",37,строгость фискальных ограничений,0.1046,0.0,0.0,4,0,0,False,-0.0204,67,0.125,21,9
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",370,объём и доступность публичных услуг (широкое),-0.0,0.0,-0.0,2,2,3,True,0.0,2,0.0,0,4
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",375,бюджетная свобода правительства,-0.7643,-0.75,-0.0601,4,9,56,False,0.2333,537,-0.1875,77,41
-דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",377,перераспределение в пользу слабых групп и районов,0.4024,0.25,0.0363,4,1,32,False,-0.0089,10,0.125,7,20
+דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",377,перераспределение в пользу слабых групп и районов,0.4024,0.25,0.0363,4,1,32,False,-0.0089,10,0.125,6,19
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",38,налоговый контроль и полномочия налоговых органов,0.0278,0.0,0.0,3,0,2,False,0.0278,6,0.0,0,5
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",4,"помощь пострадавшим от войны, терроризма и катастроф",1.1699,0.75,0.0918,4,19,58,False,0.2031,28,0.125,7,46
 דרך,"Yashar! With Eizenkot for Prime Minister, Uniting Israel",40,административная нагрузка на граждан,0.8193,0.5,0.1318,4,2,6,False,0.1875,7,0.0,0,9
@@ -1906,7 +1922,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ודם,The Joint Arab List,12b,услуги больничных касс пациентам,1.25,1.0,0.0,5,58,53,False,0.25,16,0.0,0,37
 ודם,The Joint Arab List,12c,еда в больницах в Песах,0.4623,0.0,0.4623,2,0,4,True,0.0,0,0.0,0,2
 ודם,The Joint Arab List,130,режим чрезвычайного положения,-0.5625,-0.75,0.0,4,3,0,False,0.1875,4,0.0,0,3
-ודם,The Joint Arab List,130a,льготы гражданам в войну и чрезвычайное положение,0.3566,0.2,-0.0434,5,7,5,False,0.2,24,0.0,0,14
+ודם,The Joint Arab List,130a,льготы гражданам в войну и чрезвычайное положение,0.9681,0.8,-0.0216,5,21,10,False,0.1897,65,0.0,0,32
 ודם,The Joint Arab List,130b1,послабления по возвращённым чекам в чрезвычайной ситуации,0.25,0.25,0.0,4,2,4,False,0.0,0,0.0,0,2
 ודם,The Joint Arab List,130b2,"законы и полномочия, привязанные к чрезвычайному положению",-1.3088,-0.8,-0.2588,5,4,4,False,-0.25,22,0.0,0,5
 ודם,The Joint Arab List,130b2s2,"Чрезвычайные полномочия слежки, киберзащиты и контроля над вещанием",-0.2208,0.0,0.0,5,0,0,False,-0.2208,40,0.0,0,6
@@ -1926,7 +1942,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ודם,The Joint Arab List,142s3,Бесплатная доступность эфирного контента,-0.05,0.2,0.0,5,1,3,False,-0.25,121,0.0,0,3
 ודם,The Joint Arab List,143,защита животных,0.3921,0.2,0.0255,5,4,8,False,0.1667,11,0.0,0,11
 ודם,The Joint Arab List,144,экологическое регулирование,0.6212,0.8,-0.0488,5,43,16,False,-0.13,17,0.0,0,26
-ודם,The Joint Arab List,146,защита частной жизни и персональных данных,0.9048,0.6,0.0632,5,6,29,False,0.2417,96,0.0,0,31
+ודם,The Joint Arab List,146,защита частной жизни и персональных данных,0.9449,0.6,0.1026,5,6,35,False,0.2423,102,0.0,0,35
 ודם,The Joint Arab List,147,сбор и передача данных государственными органами,0.5,0.25,0.0,4,1,1,False,0.25,10,0.0,0,2
 ודם,The Joint Arab List,147s1,Полномочия силовых и правоохранительных органов по сбору данных о людях,0.6112,0.8,-0.0593,5,8,25,False,-0.1294,35,0.0,0,16
 ודם,The Joint Arab List,147s2,"Административные реестры, статистика и обмен данными для государственных услуг",1.125,1.0,0.0,4,13,0,False,0.125,4,0.0,0,6
@@ -1984,7 +2000,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ודם,The Joint Arab List,185b,объём общей воинской и резервной повинности,-1.3883,-0.8,-0.3883,5,9,18,False,-0.2,12,0.0,0,7
 ודם,The Joint Arab List,186a,изучение Торы как альтернатива службе,-0.25,0.0,0.0,4,0,0,False,-0.25,11,0.0,0,1
 ודם,The Joint Arab List,186b,гражданская служба и отказ по убеждениям,0.6,0.8,0.0,5,9,0,False,-0.2,13,0.0,0,4
-ודם,The Joint Arab List,187,привязка прав и льгот к службе,-1.2212,-0.6,-0.3789,5,9,95,False,-0.2423,82,0.0,0,49
+ודם,The Joint Arab List,187,привязка прав и льгот к службе,-1.2227,-0.6,-0.3798,5,9,95,False,-0.2429,87,0.0,0,50
 ודם,The Joint Arab List,188c,прикомандирование срочников к полиции и ШАБАС,-0.25,0.0,0.0,5,0,0,False,-0.25,30,0.0,0,4
 ודם,The Joint Arab List,19,обязанности бизнеса перед потребителями,0.9023,1.0,0.0147,5,50,26,False,-0.1125,133,0.0,0,30
 ודם,The Joint Arab List,192,военные меры охраны границы,-1.0,-1.0,0.0,4,4,0,False,0.0,0,0.0,0,1
@@ -2001,12 +2017,12 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ודם,The Joint Arab List,20,права и защита потребителей,1.1843,1.0,-0.002,5,82,75,False,0.1863,60,0.0,0,59
 ודם,The Joint Arab List,200,квоты и преференции для недопредставленных групп,0.453,1.0,-0.3603,5,41,25,False,-0.1867,51,0.0,0,32
 ודם,The Joint Arab List,201,представительство женщин в публичных органах,1.2147,1.0,0.0147,5,19,22,False,0.2,12,0.0,0,11
-ודם,The Joint Arab List,202,гендерное равенство и права женщин,1.1311,1.0,0.0268,5,209,90,False,0.1043,39,0.0,0,75
+ודם,The Joint Arab List,202,гендерное равенство и права женщин,1.1188,1.0,0.0297,5,183,71,False,0.0892,31,0.0,0,65
 ודם,The Joint Arab List,204,права ЛГБТ и признание нетрадиционных семей,0.5922,0.4,0.0422,5,2,12,False,0.15,3,0.0,0,7
 ודם,The Joint Arab List,206,права людей с инвалидностью и пожилых,1.2239,0.9915,0.0142,5,176,102,False,0.2182,56,0.0,0,110
 ודם,The Joint Arab List,208,права и защита работников,1.1933,1.0,0.0066,5,167,151,False,0.1867,105,0.0,0,105
 ודם,The Joint Arab List,209,продолжительность рабочего времени,-0.4474,-0.6,-0.0974,5,3,1,False,0.25,6,0.0,0,4
-ודם,The Joint Arab List,209a,законные ограничения рабочего времени,-0.85,-0.8,0.0,5,20,0,False,-0.05,11,0.0,0,7
+ודם,The Joint Arab List,209a,законные ограничения рабочего времени,-0.85,-0.8,0.0,5,16,0,False,-0.05,11,0.0,0,6
 ודם,The Joint Arab List,209b,гибкая работа для родителей,-0.75,-0.75,0.0,4,3,5,False,0.0,0,0.0,0,2
 ודם,The Joint Arab List,21,государственное регулирование цен и тарифов,0.8941,0.9667,0.0159,5,73,76,False,-0.0885,65,0.0,0,38
 ודם,The Joint Arab List,211,обязанности и расходы работодателей,0.777,1.0,-0.0989,5,47,49,False,-0.1242,47,0.0,0,32
@@ -2024,7 +2040,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ודם,The Joint Arab List,22s1,Права арендаторов на частном рынке жилья,0.8,0.8,0.0,5,11,1,False,0.0,0,0.0,0,3
 ודם,The Joint Arab List,22s2,Права жильцов государственного жилья,1.0,0.8,0.0,5,7,1,False,0.2,7,0.0,0,4
 ודם,The Joint Arab List,22s3,"Защита жителей, выселяемых из-за реконструкции или опасности зданий",0.95,0.8,0.0,5,8,3,False,0.15,4,0.0,0,5
-ודם,The Joint Arab List,230,доступность кредита,0.7583,0.5,0.0083,4,8,2,False,0.25,7,0.0,0,7
+ודם,The Joint Arab List,230,доступность кредита,1.0,1.0,0.0,1,2,0,True,0.0,0,0.0,0,1
+ודם,The Joint Arab List,230s1,Доступность кредита для домохозяйств,0.75,0.5,0.0,4,6,2,False,0.25,7,0.0,0,6
+ודם,The Joint Arab List,230s2,Финансирование бизнеса и рынок капитала,0.5065,0.5,0.0065,2,2,2,True,0.0,0,0.0,0,2
 ודם,The Joint Arab List,231,защита собственности и свобода распоряжения ею,0.8288,0.6667,0.0205,5,11,7,False,0.1417,23,0.0,0,11
 ודם,The Joint Arab List,231b,ограничения планирования и изъятия земли,1.0,1.0,0.0,5,21,0,False,0.0,0,0.0,0,5
 ודם,The Joint Arab List,231c,земельные и имущественные права арабских граждан,1.0,1.0,0.0,4,28,0,False,0.0,0,0.0,0,6
@@ -2136,7 +2154,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ודם,The Joint Arab List,307,увековечение памяти и национальная символика,0.4601,0.6769,-0.0229,5,51,29,False,-0.1939,25,0.0,0,25
 ודם,The Joint Arab List,309,право на семейную жизнь и усыновление,-0.5,-0.5,0.0,2,1,3,True,0.0,0,0.0,0,2
 ודם,The Joint Arab List,31,поддержка репатриации и репатриантов,0.1,0.0,0.0,5,0,10,False,0.1,2,0.0,0,1
-ודם,The Joint Arab List,311,доступ к юридической помощи и правосудию,1.08,1.0,-0.0856,5,43,64,False,0.1656,115,0.0,0,56
+ודם,The Joint Arab List,311,доступ к юридической помощи и правосудию,0.9819,1.0,-0.1149,5,30,48,False,0.0968,63,0.0,0,34
+ודם,The Joint Arab List,311s1,Государственная юридическая помощь и расходы на судебные процессы для граждан,0.95,0.8,0.0,5,12,12,False,0.15,3,0.0,0,10
+ודם,The Joint Arab List,311s2,Доступ к адвокату и государственное представительство для задержанных и обвиняемых по делам безопасности и террора,0.25,0.0,0.0,5,0,0,False,0.25,38,0.0,0,8
 ודם,The Joint Arab List,312,обязанности госорганов перед гражданами,1.2031,1.0,0.0128,5,134,100,False,0.1903,67,0.0,0,93
 ודם,The Joint Arab List,313,полномочия государства в сфере кибербезопасности,-0.25,0.0,0.0,5,0,0,False,-0.25,46,0.0,0,6
 ודם,The Joint Arab List,314,права семей выяснять судьбу родственников,0.4548,0.6,-0.1452,5,4,9,False,0.0,0,0.0,0,4
@@ -2166,7 +2186,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ודם,The Joint Arab List,34s3,Надёжность связи и цифровой инфраструктуры,-0.1,0.0,0.0,5,0,0,False,-0.1,6,0.0,0,3
 ודם,The Joint Arab List,35,государственные расходы,0.4753,0.7355,-0.0316,5,54,83,False,-0.2286,1165,0.0,0,75
 ודם,The Joint Arab List,352,свобода договора,-0.625,-0.5,0.0,2,1,0,True,-0.125,1,0.0,0,2
-ודם,The Joint Arab List,353,защита слабой стороны в договорных отношениях,0.9401,0.8,-0.0099,5,24,42,False,0.15,58,0.0,0,39
+ודם,The Joint Arab List,353,защита слабой стороны в договорных отношениях,0.9571,0.8,-0.0099,5,29,42,False,0.167,65,0.0,0,45
 ודם,The Joint Arab List,354,статус и независимость квазисудебных органов,-0.0121,0.6,-0.3621,5,4,7,False,-0.25,128,0.0,0,7
 ודם,The Joint Arab List,355,интересы будущих поколений в принятии решений,0.3702,0.4,0.0036,5,10,8,False,-0.0333,9,0.0,0,15
 ודם,The Joint Arab List,356a,общественный транспорт в шаббат,0.0295,0.0,0.0295,3,0,3,False,0.0,0,0.0,0,1
@@ -2182,7 +2202,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ודם,The Joint Arab List,37,строгость фискальных ограничений,-0.0804,-0.2,0.0,5,1,0,False,0.1196,144,0.0,0,10
 ודם,The Joint Arab List,370,объём и доступность публичных услуг (широкое),1.0,1.0,0.0,3,3,0,False,0.0,0,0.0,0,1
 ודם,The Joint Arab List,375,бюджетная свобода правительства,-0.6236,-0.9826,0.1279,5,113,68,False,0.2312,921,0.0,0,65
-ודם,The Joint Arab List,377,перераспределение в пользу слабых групп и районов,1.2649,1.0,0.0149,5,113,88,False,0.25,20,0.0,0,58
+ודם,The Joint Arab List,377,перераспределение в пользу слабых групп и районов,1.2649,1.0,0.0149,5,105,88,False,0.25,15,0.0,0,54
 ודם,The Joint Arab List,38,налоговый контроль и полномочия налоговых органов,-0.25,-0.2,0.0,5,1,9,False,-0.05,2,0.0,0,3
 ודם,The Joint Arab List,39,ограничения на наличные расчёты,-0.25,0.0,0.0,4,0,0,False,-0.25,5,0.0,0,2
 ודם,The Joint Arab List,4,"помощь пострадавшим от войны, терроризма и катастроф",0.7193,0.8,-0.1964,5,16,45,False,0.1157,58,0.0,0,35
@@ -2319,7 +2339,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",12b,услуги больничных касс пациентам,0.7506,0.8333,0.0059,6,18,17,False,-0.0887,31,0.0,0,19
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",12c,еда в больницах в Песах,-0.0377,0.0,-0.0377,4,0,8,False,0.0,0,0.0,0,2
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",130,режим чрезвычайного положения,-0.2167,0.2,0.0,5,1,0,False,-0.25,5,-0.1667,7,6
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",130a,льготы гражданам в войну и чрезвычайное положение,0.0481,0.0,0.0481,6,0,9,False,-0.2083,9,0.2083,43,14
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",130a,льготы гражданам в войну и чрезвычайное положение,1.038,1.0,0.0241,6,9,28,False,-0.1944,29,0.2083,93,37
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",130b1,послабления по возвращённым чекам в чрезвычайной ситуации,0.0,0.0,0.0,3,0,3,False,0.0,0,0.0,0,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",130b2,"законы и полномочия, привязанные к чрезвычайному положению",0.0833,0.0,0.0,6,0,0,False,-0.1667,4,0.25,27,4
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",130b2s2,"Чрезвычайные полномочия слежки, киберзащиты и контроля над вещанием",0.45,0.2,0.0,5,1,0,False,0.0,0,0.25,55,10
@@ -2341,7 +2361,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",142s3,Бесплатная доступность эфирного контента,0.25,0.0,0.0,5,0,17,False,0.0,0,0.25,149,2
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",143,защита животных,-0.26,0.1667,0.0317,6,1,3,False,-0.25,22,-0.2083,15,9
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",144,экологическое регулирование,0.664,0.6667,0.1223,6,4,5,False,-0.25,18,0.125,3,9
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",146,защита частной жизни и персональных данных,-0.2627,-0.1,0.0074,6,17,37,False,-0.0022,64,-0.1679,27,42
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",146,защита частной жизни и персональных данных,-0.2279,-0.1,0.0039,6,17,37,False,0.0414,74,-0.1731,32,46
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",147,сбор и передача данных государственными органами,0.0833,0.1667,0.0,6,3,3,False,-0.2083,24,0.125,10,9
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",147s1,Полномочия силовых и правоохранительных органов по сбору данных о людях,0.538,0.5,0.0241,6,4,9,False,-0.1944,26,0.2083,38,20
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",147s2,"Административные реестры, статистика и обмен данными для государственных услуг",0.4,0.2,0.0,5,1,4,False,0.05,1,0.15,7,5
@@ -2404,7 +2424,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",186,доступность альтернатив военной службе,0.25,0.0,0.0,5,0,0,False,0.0,0,0.25,10,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",186a,изучение Торы как альтернатива службе,0.024,0.0,0.024,5,0,20,False,0.0,0,0.0,0,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",186b,гражданская служба и отказ по убеждениям,0.9167,0.8333,0.0,6,8,2,False,-0.125,3,0.2083,31,6
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",187,привязка прав и льгот к службе,1.0726,1.0,0.0538,6,48,95,False,-0.1895,245,0.2083,26,89
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",187,привязка прав и льгот к службе,1.0683,1.0,0.0495,6,48,100,False,-0.1895,245,0.2083,26,90
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",188,использование военных в гражданских функциях,1.0,1.0,0.0,4,7,0,False,0.0,0,0.0,0,3
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",188c,прикомандирование срочников к полиции и ШАБАС,0.0583,0.0,0.0,6,0,0,False,-0.15,18,0.2083,8,5
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",189,автономия армии от политиков и законодателя,-0.4,-0.4,0.0,5,6,0,False,0.0,0,0.0,0,2
@@ -2422,7 +2442,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",20,права и защита потребителей,0.8254,0.8333,0.0116,6,20,67,False,-0.1862,70,0.1667,12,49
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",200,квоты и преференции для недопредставленных групп,1.0708,0.8333,0.0578,6,12,34,False,0.0546,50,0.125,3,21
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",201,представительство женщин в публичных органах,0.4167,0.5,0.0,6,6,0,False,-0.25,52,0.1667,10,13
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",202,гендерное равенство и права женщин,0.3661,0.5,0.0223,6,12,24,False,-0.1978,84,0.0417,2,34
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",202,гендерное равенство и права женщин,0.368,0.5,0.0234,6,9,14,False,-0.1971,81,0.0417,2,27
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",204,права ЛГБТ и признание нетрадиционных семей,-0.25,0.0,0.0,6,0,0,False,-0.25,43,0.0,0,7
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",206,права людей с инвалидностью и пожилых,1.0654,1.0,0.0176,6,60,78,False,-0.1189,75,0.1667,21,80
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",208,права и защита работников,0.9992,0.9697,-0.0502,6,52,57,False,-0.0692,79,0.1489,74,79
@@ -2443,7 +2463,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",22s1,Права арендаторов на частном рынке жилья,-0.05,0.2,0.0,5,1,0,False,-0.25,5,0.0,0,2
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",22s2,Права жильцов государственного жилья,0.0625,0.0,0.0,4,0,3,False,0.0,0,0.0625,1,2
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",22s3,"Защита жителей, выселяемых из-за реконструкции или опасности зданий",0.0,0.0,0.0,3,0,3,False,0.0,0,0.0,0,1
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",230,доступность кредита,0.4047,0.4,0.0047,5,3,1,False,-0.25,8,0.25,12,9
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",230,доступность кредита,1.0,1.0,0.0,1,2,0,True,0.0,0,0.0,0,2
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",230s1,Доступность кредита для домохозяйств,-0.0625,0.0,0.0,4,0,1,False,-0.25,4,0.1875,5,3
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",230s2,Финансирование бизнеса и рынок капитала,0.15,0.2,0.0,5,1,0,False,-0.25,8,0.2,7,5
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",231,защита собственности и свобода распоряжения ею,0.3886,0.3333,0.0344,6,5,9,False,0.0208,10,0.0,0,10
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",231d,земельные права евреев в Иудее и Самарии,0.8899,1.0,0.0149,6,17,8,False,-0.125,3,0.0,0,7
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",231e,конфискация имущества преступников и террористов,0.6706,0.3333,0.004,6,3,11,False,0.1667,6,0.1667,7,9
@@ -2551,7 +2573,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",309,право на семейную жизнь и усыновление,0.1917,0.2,0.0,5,1,0,False,-0.0083,13,0.0,0,3
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",309s3,Кто и на каких условиях может усыновлять,-0.25,0.0,0.0,4,0,0,False,-0.25,4,0.0,0,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",31,поддержка репатриации и репатриантов,0.75,0.75,0.0,4,6,6,False,0.0,0,0.0,0,2
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",311,доступ к юридической помощи и правосудию,0.1304,0.4295,0.0066,6,43,54,False,-0.1888,65,-0.1168,71,56
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",311,доступ к юридической помощи и правосудию,0.7701,0.9444,0.0286,6,17,32,False,-0.2169,43,0.0139,14,27
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",311s1,Государственная юридическая помощь и расходы на судебные процессы для граждан,0.8194,0.8333,0.0,6,6,0,False,-0.1389,16,0.125,9,10
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",311s2,Доступ к адвокату и государственное представительство для задержанных и обвиняемых по делам безопасности и террора,-0.45,-0.2,0.0,5,1,11,False,0.0,0,-0.25,45,10
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",312,обязанности госорганов перед гражданами,0.8718,0.9762,0.0123,6,68,65,False,-0.1583,145,0.0417,2,84
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",313,полномочия государства в сфере кибербезопасности,0.25,0.0,0.0,5,0,23,False,0.0,0,0.25,36,8
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",314,права семей выяснять судьбу родственников,0.3896,0.5,0.0146,6,5,5,False,-0.125,8,0.0,0,5
@@ -2580,7 +2604,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",34s3,Надёжность связи и цифровой инфраструктуры,0.1875,0.0,0.0,4,0,2,False,0.0,0,0.1875,5,3
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",35,государственные расходы,0.374,0.3424,0.0156,6,34,81,False,-0.1887,424,0.2046,915,81
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",352,свобода договора,0.25,0.0,0.0,2,0,0,True,0.0,0,0.25,6,1
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",353,защита слабой стороны в договорных отношениях,0.4075,0.5,0.0051,6,6,49,False,0.069,26,-0.1667,9,29
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",353,защита слабой стороны в договорных отношениях,0.573,0.6667,0.004,6,7,57,False,0.069,26,-0.1667,9,33
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",354,статус и независимость квазисудебных органов,0.9676,0.8333,0.0092,6,12,166,False,0.0,0,0.125,6,7
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",355,интересы будущих поколений в принятии решений,0.8893,0.8333,0.0143,6,7,11,False,-0.0833,10,0.125,5,11
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",356a,общественный транспорт в шаббат,-0.25,0.0,0.0,4,0,0,False,-0.25,8,0.0,0,1
@@ -2597,7 +2621,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",37,строгость фискальных ограничений,0.0697,0.0,0.0,6,0,0,False,0.1667,20,-0.0969,138,9
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",370,объём и доступность публичных услуг (широкое),0.1605,0.0,0.0105,5,2,7,False,0.15,6,0.0,0,6
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",375,бюджетная свобода правительства,-1.016,-1.0,-0.0074,6,14,37,False,0.1997,376,-0.2083,681,50
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",377,перераспределение в пользу слабых групп и районов,0.394,0.5,0.0023,6,7,30,False,-0.1916,75,0.0833,7,30
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",377,перераспределение в пользу слабых групп и районов,0.396,0.5,0.0023,6,7,30,False,-0.1896,67,0.0833,7,29
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",38,налоговый контроль и полномочия налоговых органов,0.4583,0.5,0.0,6,4,0,False,-0.2083,8,0.1667,14,5
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",39,ограничения на наличные расчёты,0.75,0.75,0.0,4,4,1,False,0.0,0,0.0,0,2
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",4,"помощь пострадавшим от войны, терроризма и катастроф",1.0922,1.0,0.0313,6,44,42,False,-0.1475,92,0.2083,58,62
@@ -2660,7 +2684,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",8s4,Санкции за загрязнение среды и жестокое обращение с животными,-0.25,0.0,0.0,4,0,0,False,-0.25,4,0.0,0,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",9,плата граждан за государственные и общественные услуги,-0.7021,-0.8333,-0.0342,6,12,30,False,0.1654,51,0.0,0,24
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",90,процессуальные права подозреваемых и обвиняемых,-0.164,0.1333,0.0027,5,11,9,False,-0.25,7,-0.05,1,10
-ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",90a,процессуальные права подозреваемых и обвиняемых,0.1679,0.4167,0.0104,6,21,52,False,-0.0608,92,-0.1983,71,51
+ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",90a,процессуальные права подозреваемых и обвиняемых,0.1679,0.4167,0.0104,6,22,52,False,-0.0608,92,-0.1983,71,52
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",90b,строгость наказаний за терроризм,0.0,0.0,0.0,5,0,13,False,0.0,0,0.0,0,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",91a,профессиональные и терапевтические привилегии,0.0,0.0,0.0,1,0,1,True,0.0,0,0.0,0,1
 ט,"Zionut Datit, headed by Bezelel Smotrich, and Zehut, headed by Moshe Feiglin",91b,привилегии в политико-медийной сфере,-0.25,0.0,0.0,5,0,0,False,-0.25,5,0.0,0,1
@@ -2728,7 +2752,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 י,"Yisrael Techila, headed by Sharren Haskel",12b,услуги больничных касс пациентам,0.76,1.0,0.01,1,1,1,True,-0.25,5,0.0,0,7
 י,"Yisrael Techila, headed by Sharren Haskel",12c,еда в больницах в Песах,0.25,0.0,0.0,1,0,0,True,0.25,2,0.0,0,2
 י,"Yisrael Techila, headed by Sharren Haskel",130,режим чрезвычайного положения,0.0,0.0,0.0,1,0,0,True,0.0,2,0.0,0,2
-י,"Yisrael Techila, headed by Sharren Haskel",130a,льготы гражданам в войну и чрезвычайное положение,-0.182,0.0,0.068,1,0,1,True,-0.25,2,0.0,0,3
+י,"Yisrael Techila, headed by Sharren Haskel",130a,льготы гражданам в войну и чрезвычайное положение,1.0391,1.0,0.0391,1,2,4,True,-0.25,6,0.25,9,13
 י,"Yisrael Techila, headed by Sharren Haskel",130b2,"законы и полномочия, привязанные к чрезвычайному положению",0.5,0.0,0.0,1,0,0,True,0.25,1,0.25,6,3
 י,"Yisrael Techila, headed by Sharren Haskel",130b2s2,"Чрезвычайные полномочия слежки, киберзащиты и контроля над вещанием",0.5,0.0,0.0,1,0,0,True,0.25,5,0.25,1,2
 י,"Yisrael Techila, headed by Sharren Haskel",130b2s4,Продление сроков и процедурные послабления в чрезвычайной ситуации,0.25,0.0,0.0,1,0,0,True,0.0,0,0.25,3,2
@@ -2744,7 +2768,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 י,"Yisrael Techila, headed by Sharren Haskel",142s3,Бесплатная доступность эфирного контента,0.25,0.0,0.0,1,0,0,True,0.0,0,0.25,1,1
 י,"Yisrael Techila, headed by Sharren Haskel",143,защита животных,0.5663,1.0,0.0663,1,9,2,True,-0.25,3,-0.25,3,14
 י,"Yisrael Techila, headed by Sharren Haskel",144,экологическое регулирование,0.8499,1.0,-0.0001,1,3,5,True,-0.15,5,0.0,0,9
-י,"Yisrael Techila, headed by Sharren Haskel",146,защита частной жизни и персональных данных,0.9256,1.0,-0.0244,1,2,17,True,-0.05,10,0.0,2,22
+י,"Yisrael Techila, headed by Sharren Haskel",146,защита частной жизни и персональных данных,0.2017,0.3333,-0.0256,1,3,18,True,-0.0227,11,-0.0833,3,25
 י,"Yisrael Techila, headed by Sharren Haskel",147,сбор и передача данных государственными органами,-0.1306,0.0,0.1194,1,0,3,True,-0.25,1,0.0,0,3
 י,"Yisrael Techila, headed by Sharren Haskel",147s1,Полномочия силовых и правоохранительных органов по сбору данных о людях,1.0437,1.0,0.0437,1,1,4,True,-0.25,1,0.25,2,7
 י,"Yisrael Techila, headed by Sharren Haskel",147s2,"Административные реестры, статистика и обмен данными для государственных услуг",1.0,1.0,0.0,1,1,1,True,0.0,0,0.0,0,2
@@ -2799,7 +2823,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 י,"Yisrael Techila, headed by Sharren Haskel",185b,объём общей воинской и резервной повинности,0.6858,0.0,0.3108,1,0,2,True,0.125,4,0.25,5,6
 י,"Yisrael Techila, headed by Sharren Haskel",186a,изучение Торы как альтернатива службе,-0.4157,0.0,-0.4157,1,0,2,True,0.0,0,0.0,0,1
 י,"Yisrael Techila, headed by Sharren Haskel",186b,гражданская служба и отказ по убеждениям,0.25,0.0,0.0,1,0,0,True,0.0,0,0.25,1,1
-י,"Yisrael Techila, headed by Sharren Haskel",187,привязка прав и льгот к службе,0.905,1.0,0.0696,1,2,16,True,-0.1646,41,0.0,0,47
+י,"Yisrael Techila, headed by Sharren Haskel",187,привязка прав и льгот к службе,0.9205,1.0,0.0851,1,2,16,True,-0.1646,41,0.0,0,47
 י,"Yisrael Techila, headed by Sharren Haskel",188,использование военных в гражданских функциях,1.0,1.0,0.0,1,1,0,True,0.0,0,0.0,0,1
 י,"Yisrael Techila, headed by Sharren Haskel",188c,прикомандирование срочников к полиции и ШАБАС,0.25,0.0,0.0,1,0,0,True,0.0,0,0.25,5,2
 י,"Yisrael Techila, headed by Sharren Haskel",189,автономия армии от политиков и законодателя,-1.0,-1.0,0.0,1,1,0,True,0.0,0,0.0,0,1
@@ -2816,7 +2840,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 י,"Yisrael Techila, headed by Sharren Haskel",20,права и защита потребителей,1.1722,1.0,0.0122,1,2,15,True,-0.09,25,0.25,1,22
 י,"Yisrael Techila, headed by Sharren Haskel",200,квоты и преференции для недопредставленных групп,0.9916,1.0,0.1344,1,1,2,True,0.1071,7,-0.25,8,9
 י,"Yisrael Techila, headed by Sharren Haskel",201,представительство женщин в публичных органах,0.2041,0.0,0.2041,1,0,7,True,-0.25,3,0.25,2,8
-י,"Yisrael Techila, headed by Sharren Haskel",202,гендерное равенство и права женщин,0.8788,1.0,-0.0141,1,2,13,True,-0.1071,7,0.0,0,19
+י,"Yisrael Techila, headed by Sharren Haskel",202,гендерное равенство и права женщин,0.7268,1.0,-0.0232,1,1,10,True,-0.25,5,0.0,0,15
 י,"Yisrael Techila, headed by Sharren Haskel",204,права ЛГБТ и признание нетрадиционных семей,1.002,1.0,0.252,1,1,3,True,-0.25,2,0.0,0,5
 י,"Yisrael Techila, headed by Sharren Haskel",206,права людей с инвалидностью и пожилых,1.0505,1.0,0.0193,1,5,10,True,-0.2188,16,0.25,1,27
 י,"Yisrael Techila, headed by Sharren Haskel",208,права и защита работников,0.3706,0.2727,-0.0271,1,11,25,True,-0.125,12,0.25,14,41
@@ -2836,7 +2860,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 י,"Yisrael Techila, headed by Sharren Haskel",227,защита должников,0.2546,0.3333,0.0046,1,3,3,True,-0.0833,6,0.0,0,12
 י,"Yisrael Techila, headed by Sharren Haskel",22s2,Права жильцов государственного жилья,-0.25,0.0,0.0,1,0,0,True,-0.25,1,0.0,0,1
 י,"Yisrael Techila, headed by Sharren Haskel",22s3,"Защита жителей, выселяемых из-за реконструкции или опасности зданий",0.0833,0.0,0.0,1,0,0,True,0.0833,3,0.0,0,3
-י,"Yisrael Techila, headed by Sharren Haskel",230,доступность кредита,1.0,1.0,0.0,1,1,0,True,0.0,0,0.0,0,1
+י,"Yisrael Techila, headed by Sharren Haskel",230s1,Доступность кредита для домохозяйств,1.0,1.0,0.0,1,1,0,True,0.0,0,0.0,0,1
 י,"Yisrael Techila, headed by Sharren Haskel",231,защита собственности и свобода распоряжения ею,1.1705,1.0,-0.0795,1,3,1,True,0.25,2,0.0,0,6
 י,"Yisrael Techila, headed by Sharren Haskel",231d,земельные права евреев в Иудее и Самарии,-0.1097,0.0,0.1403,1,0,2,True,-0.25,1,0.0,0,3
 י,"Yisrael Techila, headed by Sharren Haskel",231e,конфискация имущества преступников и террористов,1.0209,1.0,0.0209,1,1,3,True,0.25,2,-0.25,2,6
@@ -2927,7 +2951,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 י,"Yisrael Techila, headed by Sharren Haskel",307,увековечение памяти и национальная символика,1.243,1.0,0.0157,1,3,7,True,-0.0227,11,0.25,2,17
 י,"Yisrael Techila, headed by Sharren Haskel",309s3,Кто и на каких условиях может усыновлять,-0.0243,0.0,-0.0243,1,0,1,True,0.0,0,0.0,0,1
 י,"Yisrael Techila, headed by Sharren Haskel",31,поддержка репатриации и репатриантов,1.25,1.0,0.0,1,1,2,True,0.25,1,0.0,0,2
-י,"Yisrael Techila, headed by Sharren Haskel",311,доступ к юридической помощи и правосудию,0.5533,0.75,0.0533,1,8,20,True,-0.125,8,-0.125,4,31
+י,"Yisrael Techila, headed by Sharren Haskel",311,доступ к юридической помощи и правосудию,0.7912,1.0,0.0412,1,5,15,True,-0.25,5,0.0,0,19
+י,"Yisrael Techila, headed by Sharren Haskel",311s1,Государственная юридическая помощь и расходы на судебные процессы для граждан,0.25,0.0,0.0,1,0,2,True,0.0,2,0.25,1,5
+י,"Yisrael Techila, headed by Sharren Haskel",311s2,Доступ к адвокату и государственное представительство для задержанных и обвиняемых по делам безопасности и террора,-0.25,0.0,0.0,1,0,0,True,0.0,0,-0.25,3,2
 י,"Yisrael Techila, headed by Sharren Haskel",312,обязанности госорганов перед гражданами,0.5748,1.0,0.0248,1,5,17,True,-0.2,30,-0.25,1,45
 י,"Yisrael Techila, headed by Sharren Haskel",313,полномочия государства в сфере кибербезопасности,0.5,0.0,0.0,1,0,0,True,0.25,1,0.25,1,2
 י,"Yisrael Techila, headed by Sharren Haskel",314,права семей выяснять судьбу родственников,0.9025,1.0,0.1525,1,2,2,True,-0.25,2,0.0,0,5
@@ -2956,7 +2982,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 י,"Yisrael Techila, headed by Sharren Haskel",34s2,Подключение к коммунальным сетям домов без разрешения в арабских населённых пунктах,-0.0009,0.0,-0.0009,1,0,5,True,0.0,0,0.0,0,1
 י,"Yisrael Techila, headed by Sharren Haskel",35,государственные расходы,0.4375,0.5,0.0507,1,4,17,True,-0.2127,67,0.0995,196,45
 י,"Yisrael Techila, headed by Sharren Haskel",352,свобода договора,1.0,1.0,0.0,1,2,0,True,0.0,0,0.0,0,2
-י,"Yisrael Techila, headed by Sharren Haskel",353,защита слабой стороны в договорных отношениях,0.38,0.3333,-0.0366,1,3,8,True,0.0833,6,0.0,0,14
+י,"Yisrael Techila, headed by Sharren Haskel",353,защита слабой стороны в договорных отношениях,0.5567,0.5,-0.0267,1,4,10,True,0.0833,6,0.0,0,17
 י,"Yisrael Techila, headed by Sharren Haskel",354,статус и независимость квазисудебных органов,0.75,1.0,0.0,1,1,22,True,-0.25,4,0.0,0,5
 י,"Yisrael Techila, headed by Sharren Haskel",355,интересы будущих поколений в принятии решений,0.75,1.0,-0.0,1,2,1,True,-0.25,2,0.0,0,4
 י,"Yisrael Techila, headed by Sharren Haskel",356a,общественный транспорт в шаббат,-0.25,0.0,0.0,1,0,0,True,-0.25,2,0.0,0,1
@@ -2971,7 +2997,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 י,"Yisrael Techila, headed by Sharren Haskel",37,строгость фискальных ограничений,0.0083,0.0,0.0,1,0,0,True,0.05,5,-0.0417,24,9
 י,"Yisrael Techila, headed by Sharren Haskel",370,объём и доступность публичных услуг (широкое),-0.0,0.0,-0.0,1,0,1,True,0.0,0,0.0,0,1
 י,"Yisrael Techila, headed by Sharren Haskel",375,бюджетная свобода правительства,-1.0266,-1.0,-0.0128,1,1,8,True,0.2362,145,-0.25,74,23
-י,"Yisrael Techila, headed by Sharren Haskel",377,перераспределение в пользу слабых групп и районов,0.0789,0.0,0.0789,1,0,3,True,-0.25,14,0.25,3,14
+י,"Yisrael Techila, headed by Sharren Haskel",377,перераспределение в пользу слабых групп и районов,-0.1711,0.0,0.0789,1,0,3,True,-0.25,14,0.0,0,13
 י,"Yisrael Techila, headed by Sharren Haskel",38,налоговый контроль и полномочия налоговых органов,-0.25,0.0,0.0,1,0,0,True,-0.25,1,0.0,0,1
 י,"Yisrael Techila, headed by Sharren Haskel",4,"помощь пострадавшим от войны, терроризма и катастроф",1.2134,1.0,0.0943,1,7,10,True,-0.131,21,0.25,9,30
 י,"Yisrael Techila, headed by Sharren Haskel",40,административная нагрузка на граждан,1.25,1.0,-0.0,1,1,3,True,0.25,2,0.0,0,5
@@ -3095,7 +3121,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",12b,услуги больничных касс пациентам,0.0829,0.0,0.0038,4,0,6,False,0.0792,14,0.0,0,11
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",12c,еда в больницах в Песах,0.25,0.0,0.0,2,0,0,True,0.25,4,0.0,0,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",130,режим чрезвычайного положения,0.7917,1.0,0.0,2,3,1,True,-0.2083,13,0.0,0,6
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",130a,льготы гражданам в войну и чрезвычайное положение,0.181,0.25,0.0331,4,1,4,False,-0.1021,13,0.0,0,7
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",130a,льготы гражданам в войну и чрезвычайное положение,0.5725,0.5,0.0487,4,18,16,False,0.0238,36,0.0,0,28
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",130b1,послабления по возвращённым чекам в чрезвычайной ситуации,-0.25,0.0,0.0,2,0,0,True,-0.25,2,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",130b2,"законы и полномочия, привязанные к чрезвычайному положению",0.0625,0.0,0.0,4,0,0,False,-0.0625,5,0.125,6,3
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",130b2s2,"Чрезвычайные полномочия слежки, киберзащиты и контроля над вещанием",0.25,0.0,0.0,2,0,0,True,0.0,0,0.25,11,2
@@ -3114,7 +3140,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",142s3,Бесплатная доступность эфирного контента,-0.25,0.0,0.0,3,0,1,False,-0.25,88,0.0,0,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",143,защита животных,0.4726,0.25,0.0351,4,1,12,False,0.1875,3,0.0,0,8
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",144,экологическое регулирование,0.5004,0.5,0.0212,4,8,18,False,-0.0208,6,0.0,2,16
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",146,защита частной жизни и персональных данных,0.016,0.0833,-0.0257,4,11,45,False,0.1458,13,-0.1875,8,32
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",146,защита частной жизни и персональных данных,-0.0145,0.0833,-0.0354,4,11,48,False,0.1458,13,-0.2083,9,35
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",147,сбор и передача данных государственными органами,0.537,0.5,0.037,4,2,17,False,-0.125,2,0.125,5,6
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",147s1,Полномочия силовых и правоохранительных органов по сбору данных о людях,0.7944,0.5,0.0235,4,2,12,False,0.1458,6,0.125,4,12
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",147s2,"Административные реестры, статистика и обмен данными для государственных услуг",0.5,0.3333,0.0,3,1,4,False,0.1667,3,0.0,0,4
@@ -3172,7 +3198,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",186,доступность альтернатив военной службе,-0.25,0.0,0.0,3,0,0,False,-0.25,6,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",186a,изучение Торы как альтернатива службе,-0.25,0.0,0.0,3,0,0,False,-0.25,12,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",186b,гражданская служба и отказ по убеждениям,0.8125,0.75,0.0,4,3,0,False,-0.0625,1,0.125,2,3
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",187,привязка прав и льгот к службе,0.7019,0.5,0.0907,4,26,126,False,-0.0137,53,0.125,4,76
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",187,привязка прав и льгот к службе,0.7138,0.5,0.0916,4,26,126,False,-0.0027,56,0.125,4,77
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",188c,прикомандирование срочников к полиции и ШАБАС,0.25,0.0,0.0,3,0,0,False,0.0,0,0.25,15,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",19,обязанности бизнеса перед потребителями,0.1318,0.25,0.031,4,3,27,False,-0.1492,153,0.0,0,18
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",195,дисциплинарный контроль над работниками госсектора,-0.25,0.0,0.0,3,0,0,False,-0.25,3,0.0,0,1
@@ -3186,7 +3212,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",20,права и защита потребителей,0.8892,0.75,0.0182,4,9,50,False,-0.004,44,0.125,3,35
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",200,квоты и преференции для недопредставленных групп,0.9339,0.75,0.0755,4,11,11,False,0.2083,17,-0.1,21,20
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",201,представительство женщин в публичных органах,0.5422,0.5,0.0422,4,8,27,False,0.0,0,0.0,0,13
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",202,гендерное равенство и права женщин,0.6895,0.75,0.032,4,18,66,False,-0.0926,22,0.0,0,38
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",202,гендерное равенство и права женщин,0.6365,0.75,0.0323,4,16,60,False,-0.1458,14,0.0,0,30
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",204,права ЛГБТ и признание нетрадиционных семей,0.8149,0.75,0.0649,4,3,20,False,0.0,0,0.0,0,7
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",206,права людей с инвалидностью и пожилых,0.9935,0.75,0.0185,4,24,52,False,0.0375,53,0.1875,8,62
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",208,права и защита работников,1.1681,0.9375,0.0161,4,23,60,False,-0.0354,35,0.25,21,65
@@ -3206,7 +3232,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",22s1,Права арендаторов на частном рынке жилья,1.0,1.0,0.0,1,1,1,True,0.0,0,0.0,0,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",22s2,Права жильцов государственного жилья,-0.25,0.0,0.0,2,0,0,True,-0.25,2,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",22s3,"Защита жителей, выселяемых из-за реконструкции или опасности зданий",-0.25,0.0,0.0,3,0,0,False,-0.25,3,0.0,0,1
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",230,доступность кредита,0.5086,0.5,0.0086,2,1,1,True,0.0,0,0.0,0,2
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",230,доступность кредита,1.0,1.0,0.0,1,1,0,True,0.0,0,0.0,0,1
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",230s1,Доступность кредита для домохозяйств,0.0,0.0,0.0,1,0,1,True,0.0,0,0.0,0,1
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",230s2,Финансирование бизнеса и рынок капитала,0.0573,0.0,0.0573,1,0,1,True,0.0,0,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",231,защита собственности и свобода распоряжения ею,0.0616,0.0,-0.0218,3,2,4,False,0.0833,1,0.0,0,6
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",231b,ограничения планирования и изъятия земли,1.0,1.0,0.0,2,2,0,True,0.0,0,0.0,0,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",231d,земельные права евреев в Иудее и Самарии,0.5559,0.0,0.3059,1,0,1,True,0.25,1,0.0,0,2
@@ -3311,7 +3339,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",309,право на семейную жизнь и усыновление,-0.3333,-0.3333,0.0,3,1,9,False,0.0,0,0.0,0,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",309s3,Кто и на каких условиях может усыновлять,0.046,0.0,0.046,3,0,3,False,0.0,0,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",31,поддержка репатриации и репатриантов,0.5,0.5,0.0,2,1,4,True,0.0,0,0.0,0,2
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",311,доступ к юридической помощи и правосудию,0.9149,0.75,0.0376,4,22,50,False,0.0648,25,0.0625,1,43
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",311,доступ к юридической помощи и правосудию,0.6907,0.75,0.0344,4,11,34,False,-0.0938,10,0.0,0,24
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",311s1,Государственная юридическая помощь и расходы на судебные процессы для граждан,0.75,0.5,0.0,4,5,13,False,0.1875,7,0.0625,1,9
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",311s2,Доступ к адвокату и государственное представительство для задержанных и обвиняемых по делам безопасности и террора,0.0417,0.0,0.0,2,0,0,True,0.0417,5,0.0,0,3
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",312,обязанности госорганов перед гражданами,0.8723,1.0,0.0293,4,24,76,False,-0.1154,28,-0.0417,6,59
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",313,полномочия государства в сфере кибербезопасности,0.0,0.0,0.0,2,0,0,True,-0.125,1,0.125,3,3
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",314,права семей выяснять судьбу родственников,-0.1064,0.0,0.0603,3,0,5,False,-0.1667,2,0.0,0,4
@@ -3343,7 +3373,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",34s3,Надёжность связи и цифровой инфраструктуры,0.625,0.5,0.0,2,1,0,True,0.0,0,0.125,1,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",35,государственные расходы,0.8148,0.9615,0.0114,4,21,61,False,-0.171,350,0.0129,419,69
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",352,свобода договора,-1.0,-1.0,0.0,1,1,0,True,0.0,0,0.0,0,1
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",353,защита слабой стороны в договорных отношениях,0.7394,0.75,-0.0052,4,5,26,False,-0.0679,20,0.0625,1,23
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",353,защита слабой стороны в договорных отношениях,0.7416,0.75,-0.0053,4,5,26,False,-0.0656,21,0.0625,1,24
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",354,статус и независимость квазисудебных органов,-0.2361,0.0,0.0,4,0,0,False,-0.2361,107,0.0,0,5
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",355,интересы будущих поколений в принятии решений,0.8013,0.75,0.0067,4,12,17,False,0.0446,9,0.0,2,13
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",356,поддержка общественного транспорта,0.25,0.0,0.0,1,0,0,True,0.0,0,0.25,1,1
@@ -3360,7 +3390,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",37,строгость фискальных ограничений,0.0433,0.0,0.0,4,0,0,False,0.0376,58,0.0057,32,9
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",370,объём и доступность публичных услуг (широкое),1.1875,1.0,-0.0,4,4,8,False,0.1875,3,0.0,0,3
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",375,бюджетная свобода правительства,-0.8236,-0.75,-0.0572,4,16,49,False,0.2336,409,-0.25,225,48
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",377,перераспределение в пользу слабых групп и районов,0.9197,0.75,0.0268,4,6,26,False,-0.1071,15,0.25,16,25
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",377,перераспределение в пользу слабых групп и районов,0.3572,0.25,0.0268,4,3,26,False,-0.1071,15,0.1875,9,21
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",38,налоговый контроль и полномочия налоговых органов,0.0625,0.0,0.0,4,0,2,False,0.0625,3,0.0,0,3
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",39,ограничения на наличные расчёты,0.25,0.0,0.0,1,0,0,True,0.0,0,0.25,1,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",4,"помощь пострадавшим от войны, терроризма и катастроф",1.3183,1.0,0.0683,4,37,61,False,0.125,38,0.125,4,60
@@ -3388,6 +3418,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",66b,свобода судей в назначении наказаний,0.0,0.0,0.0,1,0,2,True,0.0,0,0.0,0,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",66b1,смертная казнь для террористов,0.25,0.0,0.0,2,0,0,True,0.25,19,0.0,0,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",66b2,минимальные наказания,0.0822,0.0,-0.0428,4,0,4,False,0.125,4,0.0,0,3
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",69a,судебный контроль над решениями правительства,1.0,1.0,0.0,1,1,0,True,0.0,0,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",69b,обжалование решений государственных органов,0.2083,0.25,0.0,4,2,9,False,-0.0417,8,0.0,0,9
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",71,автономия судебной системы,0.25,0.0,0.0,4,0,0,False,0.25,11,0.0,0,3
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",72,влияние политиков на назначение судей,-1.0,-1.0,0.0,3,3,0,False,0.0,0,0.0,0,1
@@ -3419,7 +3450,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",8s4,Санкции за загрязнение среды и жестокое обращение с животными,0.0,0.0,0.0,3,0,3,False,0.0,0,0.0,0,2
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",9,плата граждан за государственные и общественные услуги,-0.613,-0.5,-0.038,4,4,17,False,-0.075,22,0.0,0,19
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",90,процессуальные права подозреваемых и обвиняемых,-0.0381,0.0,-0.0381,4,3,6,False,-0.125,2,0.125,4,6
-כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",90a,процессуальные права подозреваемых и обвиняемых,0.0168,0.25,0.0043,4,5,35,False,-0.0708,16,-0.1667,6,25
+כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",90a,процессуальные права подозреваемых и обвиняемых,0.2668,0.5,0.0043,4,6,35,False,-0.0708,16,-0.1667,6,26
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",90b,строгость наказаний за терроризм,0.25,0.0,0.0,1,0,1,True,0.25,2,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",91b,привилегии в политико-медийной сфере,0.4154,0.3333,0.0821,3,1,3,False,0.0,0,0.0,0,1
 כן,"Kahol Lavan (Blue and White), headed by Beni Gantz",92,права и условия содержания заключённых и осуждённых,0.25,0.0,0.0,2,0,1,True,0.25,3,0.0,0,2
@@ -3490,7 +3521,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",12b,услуги больничных касс пациентам,0.8673,0.875,0.0027,8,27,27,False,-0.0104,19,0.0,0,28
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",12c,еда в больницах в Песах,0.25,0.0,0.0,3,0,0,False,0.25,6,0.0,0,2
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",130,режим чрезвычайного положения,1.0,1.0,0.0,6,8,1,False,0.0417,8,-0.0417,1,5
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",130a,льготы гражданам в войну и чрезвычайное положение,0.683,0.625,0.0333,8,5,7,False,-0.0066,28,0.0312,5,14
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",130a,льготы гражданам в войну и чрезвычайное положение,0.7971,0.75,0.0349,8,43,21,False,-0.0191,51,0.0312,16,33
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",130b1,послабления по возвращённым чекам в чрезвычайной ситуации,-0.25,0.0,0.0,3,0,0,False,-0.25,3,0.0,0,1
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",130b2,"законы и полномочия, привязанные к чрезвычайному положению",0.0393,0.0,0.0,7,0,0,False,-0.1036,19,0.1429,16,4
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",130b2s2,"Чрезвычайные полномочия слежки, киберзащиты и контроля над вещанием",0.25,0.0,0.0,6,0,0,False,0.2083,24,0.0417,13,5
@@ -3512,7 +3543,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",142s3,Бесплатная доступность эфирного контента,-0.1604,0.0,0.0,6,0,4,False,-0.2021,111,0.0417,29,2
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",143,защита животных,0.4546,0.375,0.0359,8,10,9,False,0.075,11,-0.0312,3,14
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",144,экологическое регулирование,0.2832,0.375,0.002,8,8,21,False,-0.0938,10,0.0,0,15
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",146,защита частной жизни и персональных данных,-0.1314,-0.094,-0.0578,8,61,58,False,0.0651,19,-0.0446,14,41
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",146,защита частной жизни и персональных данных,-0.212,-0.1493,-0.0557,8,66,66,False,0.0521,22,-0.059,17,46
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",147,сбор и передача данных государственными органами,0.6275,0.75,0.0025,8,11,15,False,-0.1562,6,0.0312,1,5
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",147s1,Полномочия силовых и правоохранительных органов по сбору данных о людях,0.848,0.75,0.0251,8,16,23,False,0.0104,13,0.0625,13,19
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",147s2,"Административные реестры, статистика и обмен данными для государственных услуг",0.7812,0.75,0.0,8,11,4,False,0.0,2,0.0312,1,8
@@ -3574,7 +3605,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",186,доступность альтернатив военной службе,-0.125,0.0,0.0,4,0,0,False,-0.1875,6,0.0625,2,1
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",186a,изучение Торы как альтернатива службе,-0.2877,0.0,-0.0793,6,0,4,False,-0.2083,20,0.0,0,1
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",186b,гражданская служба и отказ по убеждениям,0.0714,0.0,0.0,7,0,0,False,-0.1071,3,0.1786,10,4
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",187,привязка прав и льгот к службе,0.9478,0.875,0.0898,8,176,207,False,-0.0482,121,0.0312,4,86
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",187,привязка прав и льгот к службе,0.9539,0.875,0.0892,8,177,208,False,-0.0415,124,0.0312,4,88
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",188,использование военных в гражданских функциях,1.0,1.0,0.0,1,1,0,True,0.0,0,0.0,0,1
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",188c,прикомандирование срочников к полиции и ШАБАС,0.25,0.0,0.0,5,0,0,False,0.0,0,0.25,22,4
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",19,обязанности бизнеса перед потребителями,0.6523,0.75,0.0407,8,23,32,False,-0.1623,219,0.0239,34,21
@@ -3592,7 +3623,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",20,права и защита потребителей,0.8341,0.875,0.0184,8,70,64,False,-0.0593,66,0.0,0,59
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",200,квоты и преференции для недопредставленных групп,1.0056,0.9048,0.0762,7,28,16,False,0.096,31,-0.0714,25,21
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",201,представительство женщин в публичных органах,0.7586,0.75,0.0086,8,40,39,False,-0.0312,9,0.0312,2,14
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",202,гендерное равенство и права женщин,0.8113,0.875,-0.0009,8,57,65,False,-0.094,44,0.0312,2,40
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",202,гендерное равенство и права женщин,0.7446,0.875,-0.0002,8,54,64,False,-0.1615,30,0.0312,2,34
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",204,права ЛГБТ и признание нетрадиционных семей,-0.0134,0.0,0.0283,6,0,11,False,-0.0417,6,0.0,0,7
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",206,права людей с инвалидностью и пожилых,1.0432,0.875,0.0193,8,102,46,False,-0.0073,74,0.1562,9,74
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",208,права и защита работников,0.9918,0.8052,0.0368,8,128,83,False,0.004,79,0.1458,30,88
@@ -3615,7 +3646,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",22s1,Права арендаторов на частном рынке жилья,0.8214,0.8571,0.0,7,11,1,False,-0.0357,1,0.0,0,3
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",22s2,Права жильцов государственного жилья,0.3125,0.5,0.0,4,2,0,False,-0.1875,3,0.0,0,1
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",22s3,"Защита жителей, выселяемых из-за реконструкции или опасности зданий",0.05,0.2,0.0,5,1,0,False,-0.15,6,0.0,0,2
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",230,доступность кредита,0.8899,0.8333,0.0149,6,5,5,False,0.0,0,0.0417,1,3
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",230s1,Доступность кредита для домохозяйств,0.25,0.0,0.0,1,0,1,True,0.0,0,0.25,1,2
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",230s2,Финансирование бизнеса и рынок капитала,1.0052,1.0,0.0052,5,5,4,False,0.0,0,0.0,0,1
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",231,защита собственности и свобода распоряжения ею,0.3127,0.1583,0.0606,8,21,14,False,0.0938,6,0.0,0,13
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",231b,ограничения планирования и изъятия земли,1.0,1.0,0.0,6,19,0,False,0.0,0,0.0,0,4
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",231d,земельные права евреев в Иудее и Самарии,1.2704,1.0,0.2287,6,12,6,False,0.0417,5,0.0,0,4
@@ -3727,7 +3759,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",309,право на семейную жизнь и усыновление,-0.2976,-0.3333,0.0,7,18,6,False,0.0357,1,0.0,0,3
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",309s3,Кто и на каких условиях может усыновлять,-0.25,0.0,0.0,1,0,0,True,-0.25,1,0.0,0,1
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",31,поддержка репатриации и репатриантов,1.1,1.0,0.0,5,5,4,False,0.1,2,0.0,0,3
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",311,доступ к юридической помощи и правосудию,0.6427,0.75,0.0269,8,49,59,False,-0.1108,63,-0.0234,8,53
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",311,доступ к юридической помощи и правосудию,0.7736,0.875,0.0339,8,42,51,False,-0.104,35,-0.0312,1,32
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",311s1,Государственная юридическая помощь и расходы на судебные процессы для граждан,0.875,0.8333,0.0,6,5,2,False,0.0417,8,0.0,0,7
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",311s2,Доступ к адвокату и государственное представительство для задержанных и обвиняемых по делам безопасности и террора,-0.3881,-0.2,0.0,5,1,2,False,-0.1381,17,-0.05,6,9
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",312,обязанности госорганов перед гражданами,0.6591,0.875,0.03,8,117,95,False,-0.121,73,-0.125,4,78
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",313,полномочия государства в сфере кибербезопасности,0.25,0.0,0.0,2,0,6,True,0.125,1,0.125,6,5
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",314,права семей выяснять судьбу родственников,-0.1225,0.0,0.0561,7,0,5,False,-0.1786,5,0.0,0,3
@@ -3758,7 +3792,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",34s3,Надёжность связи и цифровой инфраструктуры,0.75,0.5,0.0,2,1,0,True,0.125,2,0.125,1,3
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",35,государственные расходы,0.566,0.629,-0.0347,8,102,112,False,-0.1815,978,0.1532,508,78
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",352,свобода договора,1.0,1.0,0.0,1,1,0,True,0.0,0,0.0,0,1
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",353,защита слабой стороны в договорных отношениях,0.7512,0.7238,0.0075,8,44,40,False,0.0511,35,-0.0312,2,41
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",353,защита слабой стороны в договорных отношениях,0.807,0.7446,0.0103,8,45,45,False,0.0832,37,-0.0312,2,44
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",354,статус и независимость квазисудебных органов,-0.0549,0.1429,0.0,7,1,34,False,-0.1977,153,0.0,0,5
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",355,интересы будущих поколений в принятии решений,0.656,0.875,0.0067,8,22,12,False,-0.2257,28,0.0,0,15
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",356,поддержка общественного транспорта,0.9583,0.8333,0.0,6,14,0,False,0.0,0,0.125,3,3
@@ -3776,7 +3810,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",37,строгость фискальных ограничений,-0.0677,0.0,0.0,8,0,0,False,0.0707,132,-0.1384,48,9
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",370,объём и доступность публичных услуг (широкое),1.0,0.8571,-0.0,7,8,11,False,0.1429,4,0.0,0,4
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",375,бюджетная свобода правительства,-1.0273,-1.0,-0.0295,8,110,68,False,0.1584,674,-0.1562,426,73
-ל,"Yisrael Beiteinu, headed by Avigdor Liberman",377,перераспределение в пользу слабых групп и районов,0.6476,0.5712,0.0314,8,48,32,False,-0.0488,48,0.0938,18,39
+ל,"Yisrael Beiteinu, headed by Avigdor Liberman",377,перераспределение в пользу слабых групп и районов,0.4453,0.3689,0.0314,8,33,32,False,-0.0488,48,0.0938,9,35
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",38,налоговый контроль и полномочия налоговых органов,0.05,0.0,0.0,5,0,7,False,-0.05,1,0.1,5,4
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",39,ограничения на наличные расчёты,1.0,1.0,0.0,6,11,0,False,0.0,0,0.0,0,2
 ל,"Yisrael Beiteinu, headed by Avigdor Liberman",4,"помощь пострадавшим от войны, терроризма и катастроф",1.0005,0.875,0.0615,8,105,88,False,0.0327,67,0.0312,12,66
@@ -3917,7 +3951,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",12b,услуги больничных касс пациентам,0.3827,0.5,-0.0107,32,47,86,False,-0.1067,115,0.0,0,43
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",12c,еда в больницах в Песах,-0.0218,0.0,-0.0356,18,0,34,False,0.0139,2,0.0,0,2
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",130,режим чрезвычайного положения,0.1591,0.5,0.0,22,17,16,False,-0.1705,15,-0.1705,74,13
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",130a,льготы гражданам в войну и чрезвычайное положение,0.1582,0.1071,0.0421,28,4,42,False,-0.1875,35,0.1964,148,20
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",130a,льготы гражданам в войну и чрезвычайное положение,0.6255,0.5938,0.0241,32,61,108,False,-0.1721,111,0.1797,371,53
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",130b1,послабления по возвращённым чекам в чрезвычайной ситуации,-0.0192,0.0,0.0,13,0,12,False,-0.0192,1,0.0,0,1
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",130b2,"законы и полномочия, привязанные к чрезвычайному положению",0.2315,0.129,0.0057,31,4,1,False,-0.1129,16,0.2097,110,5
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",130b2s2,"Чрезвычайные полномочия слежки, киберзащиты и контроля над вещанием",0.2604,0.0,0.0,24,0,0,False,0.0208,10,0.2396,214,9
@@ -3939,7 +3973,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",142s3,Бесплатная доступность эфирного контента,0.3173,0.1154,0.0,26,4,65,False,0.0,2,0.2019,606,6
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",143,защита животных,-0.0973,0.1935,0.0339,31,20,16,False,-0.1901,107,-0.1347,69,23
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",144,экологическое регулирование,0.258,0.2727,0.0382,33,36,49,False,-0.1894,101,0.1364,20,32
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",146,защита частной жизни и персональных данных,-0.2171,-0.0664,-0.0007,33,70,207,False,-0.0349,248,-0.1151,110,62
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",146,защита частной жизни и персональных данных,-0.1919,-0.0664,-0.0026,33,70,209,False,0.001,283,-0.1239,133,68
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",147,сбор и передача данных государственными органами,0.0596,0.1212,0.0068,33,4,21,False,-0.1594,95,0.0909,35,9
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",147s1,Полномочия силовых и правоохранительных органов по сбору данных о людях,0.5378,0.5,0.0111,30,22,43,False,-0.1566,102,0.1833,152,28
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",147s2,"Административные реестры, статистика и обмен данными для государственных услуг",0.45,0.25,0.0,20,8,19,False,0.075,12,0.125,21,15
@@ -4002,7 +4036,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",186,доступность альтернатив военной службе,0.25,0.0,0.0,18,0,0,False,0.0,0,0.25,36,1
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",186a,изучение Торы как альтернатива службе,0.0264,0.0,0.0264,23,0,86,False,0.0,0,0.0,0,1
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",186b,гражданская служба и отказ по убеждениям,0.0865,0.0385,0.0,26,1,3,False,-0.125,13,0.1731,74,6
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",187,привязка прав и льгот к службе,0.7799,0.697,0.0619,33,147,454,False,-0.1077,1006,0.1288,75,121
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",187,привязка прав и льгот к службе,0.774,0.697,0.056,33,148,476,False,-0.1077,1006,0.1288,75,122
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",188,использование военных в гражданских функциях,1.0,1.0,0.0,3,3,0,False,0.0,0,0.0,0,2
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",188c,прикомандирование срочников к полиции и ШАБАС,-0.0333,0.0,0.0,30,0,0,False,-0.15,83,0.1167,58,5
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",189,автономия армии от политиков и законодателя,-0.3529,-0.3529,0.0,17,19,0,False,0.0,0,0.0,0,3
@@ -4021,7 +4055,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",20,права и защита потребителей,0.4904,0.5455,0.0059,33,67,354,False,-0.1594,320,0.0985,30,95
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",200,квоты и преференции для недопредставленных групп,0.8012,0.6162,0.045,33,45,156,False,0.0869,223,0.053,24,39
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",201,представительство женщин в публичных органах,0.008,0.0769,0.0245,26,4,12,False,-0.2184,208,0.125,30,15
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",202,гендерное равенство и права женщин,0.5563,0.6326,0.0304,33,50,120,False,-0.1446,350,0.0379,13,66
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",202,гендерное равенство и права женщин,0.5665,0.6514,0.0379,32,43,79,False,-0.1619,334,0.0391,13,52
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",204,права ЛГБТ и признание нетрадиционных семей,-0.1555,0.0357,0.023,28,1,5,False,-0.2143,163,0.0,0,7
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",206,права людей с инвалидностью и пожилых,0.8232,0.7679,0.0052,33,185,393,False,-0.1089,333,0.1591,76,158
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",208,права и защита работников,0.5226,0.5337,-0.0232,33,174,337,False,-0.0975,373,0.1096,281,150
@@ -4046,7 +4080,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",22s1,Права арендаторов на частном рынке жилья,0.1324,0.3529,0.0,17,6,0,False,-0.2206,15,0.0,0,2
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",22s2,Права жильцов государственного жилья,0.1471,0.1176,0.0,17,2,14,False,-0.0147,1,0.0441,6,3
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",22s3,"Защита жителей, выселяемых из-за реконструкции или опасности зданий",0.2024,0.1905,0.0,21,5,29,False,0.0119,3,0.0,0,5
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",230,доступность кредита,0.311,0.3333,0.0133,21,9,18,False,-0.1667,27,0.131,30,14
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",230,доступность кредита,1.0,1.0,0.0,4,4,0,False,0.0,0,0.0,0,4
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",230s1,Доступность кредита для домохозяйств,0.1944,0.2222,0.0,18,5,18,False,-0.125,11,0.0972,15,6
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",230s2,Финансирование бизнеса и рынок капитала,-0.0529,0.0,0.0206,17,0,1,False,-0.2206,26,0.1471,15,5
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",231,защита собственности и свобода распоряжения ею,0.0054,-0.0104,0.0327,32,17,69,False,-0.0169,54,0.0,0,18
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",231b,ограничения планирования и изъятия земли,1.0,1.0,0.0,4,6,0,False,0.0,0,0.0,0,4
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",231d,земельные права евреев в Иудее и Самарии,0.4469,0.5833,0.0303,24,26,38,False,-0.1667,19,0.0,0,6
@@ -4159,7 +4195,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",309,право на семейную жизнь и усыновление,0.0413,-0.0476,0.0,21,3,1,False,0.0889,34,0.0,0,3
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",309s3,Кто и на каких условиях может усыновлять,-0.2034,0.0,-0.001,21,0,2,False,-0.2024,19,0.0,0,1
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",31,поддержка репатриации и репатриантов,0.25,0.125,0.0,8,1,10,False,0.125,7,0.0,0,2
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",311,доступ к юридической помощи и правосудию,0.5036,0.7374,0.0223,33,88,271,False,-0.167,321,-0.0891,207,89
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",311,доступ к юридической помощи и правосудию,0.5967,0.7778,0.0233,33,66,186,False,-0.1734,229,-0.0309,35,52
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",311s1,Государственная юридическая помощь и расходы на судебные процессы для граждан,0.0677,0.16,0.0,25,7,4,False,-0.1823,65,0.09,21,14
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",311s2,Доступ к адвокату и государственное представительство для задержанных и обвиняемых по делам безопасности и террора,-0.3152,-0.0435,0.0,23,1,22,False,-0.0217,2,-0.25,135,11
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",312,обязанности госорганов перед гражданами,0.757,0.7879,0.0255,33,127,359,False,-0.1245,645,0.0682,14,118
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",313,полномочия государства в сфере кибербезопасности,0.3636,0.1364,0.0,22,3,76,False,0.0,0,0.2273,133,12
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",314,права семей выяснять судьбу родственников,0.1665,0.1875,0.0285,32,7,23,False,-0.0495,51,0.0,0,6
@@ -4192,7 +4230,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",34s3,Надёжность связи и цифровой инфраструктуры,0.3235,0.1765,0.0,17,3,26,False,0.0,0,0.1471,22,5
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",35,государственные расходы,0.4818,0.4539,0.0217,33,137,380,False,-0.1716,1953,0.1778,4410,126
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",352,свобода договора,0.0714,-0.1429,0.0,14,4,0,False,0.0,0,0.2143,35,4
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",353,защита слабой стороны в договорных отношениях,0.5928,0.5253,0.0071,33,71,221,False,0.0604,129,-0.0,31,56
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",353,защита слабой стороны в договорных отношениях,0.5921,0.5253,0.0064,33,77,264,False,0.0604,129,-0.0,31,63
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",354,статус и независимость квазисудебных органов,0.441,0.375,0.0113,32,24,736,False,0.0,16,0.0547,15,11
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",355,интересы будущих поколений в принятии решений,0.6154,0.5161,0.0135,31,37,81,False,-0.0514,62,0.1371,28,28
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",356,поддержка общественного транспорта,1.0,1.0,0.0,1,1,0,True,0.0,0,0.0,0,1
@@ -4209,7 +4247,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",37,строгость фискальных ограничений,0.0545,0.0,0.0,33,0,0,False,0.1379,98,-0.0833,620,9
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",370,объём и доступность публичных услуг (широкое),0.4085,0.1739,0.0063,23,5,15,False,0.2283,40,0.0,0,7
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",375,бюджетная свобода правительства,-0.7131,-0.6845,-0.0314,33,126,163,False,0.1845,1868,-0.1816,3088,105
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",377,перераспределение в пользу слабых групп и районов,0.6178,0.697,0.0241,33,92,138,False,-0.1866,337,0.0833,19,70
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",377,перераспределение в пользу слабых групп и районов,0.5761,0.6667,0.0241,33,80,138,False,-0.1829,304,0.0682,15,65
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",38,налоговый контроль и полномочия налоговых органов,0.1218,0.1538,0.0,26,8,3,False,-0.1955,35,0.1635,53,10
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",39,ограничения на наличные расчёты,0.7344,0.6875,0.0,16,14,6,False,0.0,0,0.0469,3,6
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",4,"помощь пострадавшим от войны, терроризма и катастроф",0.9056,0.8092,0.0361,32,142,196,False,-0.1116,393,0.1719,255,101
@@ -4245,7 +4283,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",66b1,смертная казнь для террористов,-0.2592,-0.0357,-0.027,28,1,265,False,-0.1964,33,0.0,0,4
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",66b2,минимальные наказания,-0.2967,-0.375,-0.022,32,36,52,False,0.1003,26,0.0,0,25
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",69,возможность оспорить решения властей,0.17,0.04,0.0,25,2,15,False,0.01,1,0.12,26,5
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",69a,судебный контроль над решениями правительства,0.0,0.0,0.0,21,6,31,False,0.0,0,0.0,0,6
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",69a,судебный контроль над решениями правительства,0.0476,0.0476,0.0,21,7,31,False,0.0,0,0.0,0,7
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",69b,обжалование решений государственных органов,0.5481,0.5,0.0,26,19,56,False,0.0865,15,-0.0385,7,15
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",71,автономия судебной системы,-0.4795,-0.4667,-0.0379,30,31,98,False,0.025,3,0.0,0,16
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",72,влияние политиков на назначение судей,0.0,0.0,0.0,2,3,0,True,0.0,0,0.0,0,2
@@ -4278,7 +4316,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",8s4,Санкции за загрязнение среды и жестокое обращение с животными,-0.0556,0.0556,0.0,18,2,7,False,-0.1111,24,0.0,0,3
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",9,плата граждан за государственные и общественные услуги,-0.2645,-0.3939,-0.0283,33,37,162,False,0.1578,203,0.0,0,38
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",90,процессуальные права подозреваемых и обвиняемых,0.0519,0.2,0.0019,25,12,55,False,-0.13,31,-0.02,5,15
-מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",90a,процессуальные права подозреваемых и обвиняемых,0.1023,0.3182,-0.0118,33,41,239,False,-0.0504,342,-0.1536,279,63
+מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",90a,процессуальные права подозреваемых и обвиняемых,0.1023,0.3182,-0.0118,33,42,239,False,-0.0504,342,-0.1536,279,64
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",90b,строгость наказаний за терроризм,-0.1429,-0.1429,0.0,21,3,61,False,0.0,0,0.0,0,1
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",91a,профессиональные и терапевтические привилегии,0.3333,0.3333,0.0,3,1,3,False,0.0,0,0.0,0,1
 מחל,"Likud , headed by Binyamin Netanyahu for Prime Minister",91b,привилегии в политико-медийной сфере,-0.0694,0.1667,0.0,18,3,0,False,-0.2361,17,0.0,0,4
@@ -4341,7 +4379,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",12b,услуги больничных касс пациентам,1.0833,1.0,-0.0,1,1,2,True,0.0833,6,0.0,0,5
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",12c,еда в больницах в Песах,-0.0377,0.0,-0.0377,1,0,2,True,0.0,0,0.0,0,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",130,режим чрезвычайного положения,0.0,0.0,0.0,1,0,0,True,-0.25,1,0.25,1,2
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",130a,льготы гражданам в войну и чрезвычайное положение,0.5,0.0,0.0,1,0,0,True,0.25,3,0.25,2,4
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",130a,льготы гражданам в войну и чрезвычайное положение,0.4,0.0,0.0,1,0,3,True,0.15,5,0.25,2,7
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",130b2,"законы и полномочия, привязанные к чрезвычайному положению",0.0,0.0,0.0,1,0,0,True,-0.25,1,0.25,5,3
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",130b2s2,"Чрезвычайные полномочия слежки, киберзащиты и контроля над вещанием",0.25,0.0,0.0,1,0,0,True,0.0,0,0.25,5,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",130b2s4,Продление сроков и процедурные послабления в чрезвычайной ситуации,0.25,0.0,0.0,1,0,0,True,0.0,2,0.25,1,3
@@ -4355,7 +4393,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",142s3,Бесплатная доступность эфирного контента,0.25,0.0,0.0,1,0,0,True,0.25,29,0.0,0,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",143,защита животных,-0.6412,0.0,-0.3912,1,0,1,True,-0.25,1,0.0,0,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",144,экологическое регулирование,1.0744,1.0,0.0744,1,1,2,True,-0.25,2,0.25,1,5
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",146,защита частной жизни и персональных данных,0.1463,0.0,0.1463,1,0,2,True,0.0,6,0.0,0,8
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",146,защита частной жизни и персональных данных,0.1576,0.0,0.1576,1,0,2,True,0.0,6,0.0,0,8
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",147,сбор и передача данных государственными органами,-0.25,0.0,0.0,1,0,1,True,-0.25,2,0.0,0,3
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",147s1,Полномочия силовых и правоохранительных органов по сбору данных о людях,1.0,1.0,0.0,1,1,0,True,0.0,0,0.0,0,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",147s2s1,Медицинские регистры и обмен медицинскими данными,0.25,0.0,0.0,1,0,0,True,0.25,2,0.0,0,1
@@ -4407,7 +4445,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",186,доступность альтернатив военной службе,0.25,0.0,0.0,1,0,0,True,0.25,2,0.0,0,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",186a,изучение Торы как альтернатива службе,1.25,1.0,0.0,1,1,0,True,0.25,3,0.0,0,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",186b,гражданская служба и отказ по убеждениям,0.0,0.0,0.0,1,0,0,True,-0.25,1,0.25,1,2
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",187,привязка прав и льгот к службе,0.0635,0.0,-0.0365,1,0,12,True,-0.15,5,0.25,1,17
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",187,привязка прав и льгот к службе,0.0682,0.0,-0.0318,1,0,12,True,-0.15,5,0.25,1,17
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",188c,прикомандирование срочников к полиции и ШАБАС,-0.25,0.0,0.0,1,0,0,True,-0.25,5,0.0,0,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",189,автономия армии от политиков и законодателя,-1.0,-1.0,0.0,1,1,0,True,0.0,0,0.0,0,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",19,обязанности бизнеса перед потребителями,1.5894,1.0,0.1362,1,1,5,True,0.2031,32,0.25,1,11
@@ -4421,7 +4459,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",20,права и защита потребителей,1.0416,1.0,0.0058,1,2,15,True,0.0357,7,0.0,0,21
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",200,квоты и преференции для недопредставленных групп,0.3208,0.0,0.0708,1,0,3,True,0.25,8,0.0,0,5
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",201,представительство женщин в публичных органах,-0.25,0.0,0.0,1,0,0,True,-0.25,5,0.0,0,5
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",202,гендерное равенство и права женщин,0.7505,1.0,-0.0709,1,1,5,True,-0.1786,7,0.0,0,13
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",202,гендерное равенство и права женщин,0.7469,1.0,-0.0864,1,1,4,True,-0.1667,6,0.0,0,11
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",204,права ЛГБТ и признание нетрадиционных семей,-1.4594,-1.0,-0.2094,1,3,1,True,-0.25,4,0.0,0,8
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",206,права людей с инвалидностью и пожилых,1.0582,1.0,-0.0251,1,4,15,True,0.0833,6,0.0,0,20
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",208,права и защита работников,0.651,1.0,-0.1824,1,4,12,True,-0.0833,6,-0.0833,3,19
@@ -4436,7 +4474,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",226,возможности кредиторов,-0.2785,0.0,0.0215,1,0,13,True,-0.05,5,-0.25,2,14
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",227,защита должников,1.25,1.0,0.0,1,2,5,True,0.0,0,0.25,4,8
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",22s3,"Защита жителей, выселяемых из-за реконструкции или опасности зданий",0.0,0.0,0.0,1,0,1,True,0.0,0,0.0,0,1
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",230,доступность кредита,-0.25,0.0,0.0,1,0,0,True,-0.25,1,0.0,0,1
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",230s1,Доступность кредита для домохозяйств,-0.25,0.0,0.0,1,0,0,True,-0.25,1,0.0,0,1
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",230s2,Финансирование бизнеса и рынок капитала,-0.25,0.0,0.0,1,0,0,True,-0.25,1,0.0,0,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",231,защита собственности и свобода распоряжения ею,0.25,0.0,0.0,1,0,0,True,0.25,1,0.0,0,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",231d,земельные права евреев в Иудее и Самарии,1.0,1.0,0.0,1,2,0,True,0.0,0,0.0,0,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",231e,конфискация имущества преступников и террористов,0.0466,0.0,0.0466,1,0,1,True,0.0,0,0.0,0,1
@@ -4510,7 +4549,8 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",303,государственный контроль над ККЛ,0.25,0.0,0.0,1,0,0,True,0.25,1,0.0,0,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",307,увековечение памяти и национальная символика,1.1061,1.0,0.0228,1,1,5,True,0.0833,3,0.0,0,6
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",309s3,Кто и на каких условиях может усыновлять,-0.25,0.0,0.0,1,0,0,True,-0.25,1,0.0,0,1
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",311,доступ к юридической помощи и правосудию,-0.1887,0.0,0.0613,1,2,3,True,-0.25,7,0.0,0,10
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",311,доступ к юридической помощи и правосудию,-0.1887,0.0,0.0613,1,0,3,True,-0.25,6,0.0,0,7
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",311s1,Государственная юридическая помощь и расходы на судебные процессы для граждан,0.75,1.0,0.0,1,1,0,True,-0.25,1,0.0,0,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",312,обязанности госорганов перед гражданами,0.2344,0.3333,0.001,1,3,9,True,-0.1,10,0.0,0,19
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",313,полномочия государства в сфере кибербезопасности,0.25,0.0,0.0,1,0,1,True,0.0,0,0.25,1,2
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",314,права семей выяснять судьбу родственников,0.0219,0.0,0.0219,1,0,2,True,0.0,0,0.0,0,2
@@ -4535,7 +4575,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",34s2,Подключение к коммунальным сетям домов без разрешения в арабских населённых пунктах,-0.25,0.0,0.0,1,0,0,True,-0.25,1,0.0,0,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",34s3,Надёжность связи и цифровой инфраструктуры,0.0,0.0,0.0,1,0,1,True,0.0,0,0.0,0,1
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",35,государственные расходы,-1.0607,-1.0,0.0087,1,1,12,True,-0.2194,98,0.15,165,31
-ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",353,защита слабой стороны в договорных отношениях,1.1334,1.0,0.0084,1,2,7,True,0.125,4,0.0,0,10
+ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",353,защита слабой стороны в договорных отношениях,1.133,1.0,0.008,1,2,7,True,0.125,4,0.0,0,10
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",354,статус и независимость квазисудебных органов,1.2586,1.0,0.0086,1,2,11,True,0.25,22,0.0,0,6
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",355,интересы будущих поколений в принятии решений,0.2612,0.0,0.0112,1,0,3,True,0.0,0,0.25,1,3
 ני,"Noam L’Yisrael for the Children’s Future, headed by Avi Maoz",356a,общественный транспорт в шаббат,-0.1809,0.0,-0.1809,1,0,2,True,0.0,0,0.0,0,1
@@ -4664,7 +4704,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 עם,"Ra’am, the United Arab List",12b,услуги больничных касс пациентам,0.9306,0.8333,0.003,6,67,62,False,0.0942,27,0.0,0,36
 עם,"Ra’am, the United Arab List",12c,еда в больницах в Песах,0.25,0.0,0.0,4,0,0,False,0.25,8,0.0,0,2
 עם,"Ra’am, the United Arab List",130,режим чрезвычайного положения,-0.65,-0.8,0.0,5,4,0,False,0.15,4,0.0,0,4
-עם,"Ra’am, the United Arab List",130a,льготы гражданам в войну и чрезвычайное положение,0.0735,0.1667,0.011,6,1,2,False,-0.1042,10,0.0,0,7
+עם,"Ra’am, the United Arab List",130a,льготы гражданам в войну и чрезвычайное положение,0.2443,0.3333,0.0096,6,6,7,False,-0.0986,27,0.0,0,18
 עם,"Ra’am, the United Arab List",130b1,послабления по возвращённым чекам в чрезвычайной ситуации,-0.25,0.0,0.0,5,0,0,False,-0.25,5,0.0,0,1
 עם,"Ra’am, the United Arab List",130b2,"законы и полномочия, привязанные к чрезвычайному положению",-0.0833,0.0,0.0,6,0,0,False,-0.25,18,0.1667,6,5
 עם,"Ra’am, the United Arab List",130b2s2,"Чрезвычайные полномочия слежки, киберзащиты и контроля над вещанием",-0.2375,0.0,0.0,4,0,0,False,-0.2375,39,0.0,0,4
@@ -4684,7 +4724,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 עם,"Ra’am, the United Arab List",142s3,Бесплатная доступность эфирного контента,-0.247,0.0,0.0,5,0,4,False,-0.247,163,0.0,0,3
 עם,"Ra’am, the United Arab List",143,защита животных,0.1157,0.0,0.0185,6,0,14,False,0.0972,15,0.0,0,10
 עם,"Ra’am, the United Arab List",144,экологическое регулирование,0.7936,1.0,0.0019,6,9,30,False,-0.25,11,0.0417,1,13
-עם,"Ra’am, the United Arab List",146,защита частной жизни и персональных данных,0.8656,0.8333,0.0133,6,13,41,False,0.1439,65,-0.125,7,29
+עם,"Ra’am, the United Arab List",146,защита частной жизни и персональных данных,0.8274,0.8333,-0.0265,6,13,44,False,0.1456,67,-0.125,7,31
 עם,"Ra’am, the United Arab List",147,сбор и передача данных государственными органами,0.0507,0.2,0.0007,5,1,16,False,-0.2,6,0.05,3,6
 עם,"Ra’am, the United Arab List",147s1,Полномочия силовых и правоохранительных органов по сбору данных о людях,-0.0694,0.0,0.0223,6,0,17,False,-0.0917,37,0.0,0,11
 עם,"Ra’am, the United Arab List",147s2,"Административные реестры, статистика и обмен данными для государственных услуг",0.1875,0.0,0.0,4,0,3,False,0.125,2,0.0625,1,3
@@ -4745,7 +4785,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 עם,"Ra’am, the United Arab List",186,доступность альтернатив военной службе,-0.25,0.0,0.0,1,0,0,True,-0.25,2,0.0,0,1
 עם,"Ra’am, the United Arab List",186a,изучение Торы как альтернатива службе,-0.25,0.0,0.0,4,0,0,False,-0.25,13,0.0,0,1
 עם,"Ra’am, the United Arab List",186b,гражданская служба и отказ по убеждениям,-0.0625,0.0,0.0,4,0,0,False,-0.25,7,0.1875,3,3
-עם,"Ra’am, the United Arab List",187,привязка прав и льгот к службе,-0.2299,0.1667,-0.1854,6,10,80,False,-0.2111,96,0.0,0,67
+עם,"Ra’am, the United Arab List",187,привязка прав и льгот к службе,-0.2309,0.1667,-0.1864,6,10,80,False,-0.2111,97,0.0,0,68
 עם,"Ra’am, the United Arab List",188c,прикомандирование срочников к полиции и ШАБАС,0.2,0.0,0.0,5,0,0,False,-0.05,2,0.25,14,4
 עם,"Ra’am, the United Arab List",19,обязанности бизнеса перед потребителями,0.6513,0.8333,0.0218,6,13,34,False,-0.2038,189,0.0,0,21
 עם,"Ra’am, the United Arab List",193,допустимая цена сделок по освобождению пленных,0.1875,0.0,0.1875,3,0,3,False,0.0,0,0.0,0,1
@@ -4761,7 +4801,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 עם,"Ra’am, the United Arab List",20,права и защита потребителей,1.0265,0.8333,-0.0027,6,54,99,False,0.0292,96,0.1667,8,50
 עם,"Ra’am, the United Arab List",200,квоты и преференции для недопредставленных групп,0.2389,0.8333,-0.2124,6,21,13,False,-0.2153,49,-0.1667,32,23
 עם,"Ra’am, the United Arab List",201,представительство женщин в публичных органах,1.0065,1.0,0.0065,6,25,44,False,0.0,0,0.0,0,11
-עם,"Ra’am, the United Arab List",202,гендерное равенство и права женщин,0.8326,0.8333,0.0125,6,74,88,False,-0.0549,37,0.0417,1,47
+עם,"Ra’am, the United Arab List",202,гендерное равенство и права женщин,0.8388,0.8333,0.0237,6,70,79,False,-0.0599,22,0.0417,1,40
 עם,"Ra’am, the United Arab List",204,права ЛГБТ и признание нетрадиционных семей,0.7492,0.8333,-0.0842,6,8,18,False,0.0,0,0.0,0,7
 עם,"Ra’am, the United Arab List",206,права людей с инвалидностью и пожилых,1.2101,1.0,0.018,6,87,68,False,-0.0162,78,0.2083,18,84
 עם,"Ra’am, the United Arab List",208,права и защита работников,1.2739,1.0,0.0121,6,176,119,False,0.0534,90,0.2083,24,98
@@ -4783,7 +4823,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 עם,"Ra’am, the United Arab List",22s1,Права арендаторов на частном рынке жилья,0.0,0.0,0.0,4,0,4,False,0.0,0,0.0,0,1
 עם,"Ra’am, the United Arab List",22s2,Права жильцов государственного жилья,-0.15,0.0,0.0,5,0,0,False,-0.15,5,0.0,0,2
 עם,"Ra’am, the United Arab List",22s3,"Защита жителей, выселяемых из-за реконструкции или опасности зданий",-0.2,0.0,0.0,5,0,0,False,-0.2,7,0.0,0,3
-עם,"Ra’am, the United Arab List",230,доступность кредита,0.8632,0.6,0.0132,5,3,4,False,0.25,5,0.0,0,4
+עם,"Ra’am, the United Arab List",230,доступность кредита,1.0,1.0,0.0,3,3,0,False,0.0,0,0.0,0,1
+עם,"Ra’am, the United Arab List",230s1,Доступность кредита для домохозяйств,0.25,0.0,0.0,5,0,4,False,0.25,5,0.0,0,3
+עם,"Ra’am, the United Arab List",230s2,Финансирование бизнеса и рынок капитала,0.0065,0.0,0.0065,4,0,4,False,0.0,0,0.0,0,1
 עם,"Ra’am, the United Arab List",231,защита собственности и свобода распоряжения ею,-0.7641,-0.8,-0.0641,5,7,7,False,0.1,5,0.0,0,7
 עם,"Ra’am, the United Arab List",231c,земельные и имущественные права арабских граждан,1.0,1.0,0.0,4,4,0,False,0.0,0,0.0,0,1
 עם,"Ra’am, the United Arab List",231d,земельные права евреев в Иудее и Самарии,-0.2475,0.0,-0.0975,5,0,3,False,-0.15,6,0.0,0,3
@@ -4891,7 +4933,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 עם,"Ra’am, the United Arab List",309,право на семейную жизнь и усыновление,0.5,0.5,0.0,2,1,2,True,0.0,0,0.0,0,3
 עם,"Ra’am, the United Arab List",309s3,Кто и на каких условиях может усыновлять,-0.3172,0.0,-0.3172,4,0,4,False,0.0,0,0.0,0,1
 עם,"Ra’am, the United Arab List",31,поддержка репатриации и репатриантов,0.0,0.0,0.0,5,0,9,False,0.0,0,0.0,0,1
-עם,"Ra’am, the United Arab List",311,доступ к юридической помощи и правосудию,0.9707,0.8333,-0.0351,6,49,68,False,0.0891,88,0.0833,3,50
+עם,"Ra’am, the United Arab List",311,доступ к юридической помощи и правосудию,0.7615,0.8333,-0.0565,6,32,48,False,-0.0569,32,0.0417,1,31
+עם,"Ra’am, the United Arab List",311s1,Государственная юридическая помощь и расходы на судебные процессы для граждан,0.8333,0.6667,0.0,6,17,15,False,0.0833,3,0.0833,2,8
+עם,"Ra’am, the United Arab List",311s2,Доступ к адвокату и государственное представительство для задержанных и обвиняемых по делам безопасности и террора,0.25,0.0,0.0,5,0,0,False,0.25,45,0.0,0,8
 עם,"Ra’am, the United Arab List",312,обязанности госорганов перед гражданами,0.9515,1.0,0.0123,6,105,129,False,-0.0678,64,0.0069,13,86
 עם,"Ra’am, the United Arab List",313,полномочия государства в сфере кибербезопасности,-0.25,0.0,0.0,5,0,0,False,-0.25,44,0.0,0,3
 עם,"Ra’am, the United Arab List",314,права семей выяснять судьбу родственников,-0.3536,0.0,-0.187,6,0,7,False,-0.1667,4,0.0,0,4
@@ -4920,7 +4964,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 עם,"Ra’am, the United Arab List",34s2,Подключение к коммунальным сетям домов без разрешения в арабских населённых пунктах,0.9577,0.8333,-0.0007,6,12,29,False,0.125,3,0.0,0,4
 עם,"Ra’am, the United Arab List",35,государственные расходы,0.9042,0.8552,0.0482,6,34,71,False,-0.2033,869,0.2042,402,70
 עם,"Ra’am, the United Arab List",352,свобода договора,-1.0,-1.0,0.0,2,5,0,True,0.0,0,0.0,0,1
-עם,"Ra’am, the United Arab List",353,защита слабой стороны в договорных отношениях,1.272,1.0,0.017,6,46,34,False,0.0884,52,0.1667,4,37
+עם,"Ra’am, the United Arab List",353,защита слабой стороны в договорных отношениях,1.2815,1.0,0.017,6,48,34,False,0.0979,58,0.1667,4,42
 עם,"Ra’am, the United Arab List",354,статус и независимость квазисудебных органов,-0.0833,0.1667,0.0,6,2,3,False,-0.25,161,0.0,0,7
 עם,"Ra’am, the United Arab List",355,интересы будущих поколений в принятии решений,0.7686,0.8333,0.0047,6,8,13,False,-0.1111,12,0.0417,1,7
 עם,"Ra’am, the United Arab List",356,поддержка общественного транспорта,0.25,0.0,0.0,3,0,0,False,0.0,0,0.25,3,1
@@ -4936,7 +4980,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 עם,"Ra’am, the United Arab List",37,строгость фискальных ограничений,-0.1277,0.0,0.0,6,0,0,False,0.0806,124,-0.2083,25,9
 עם,"Ra’am, the United Arab List",370,объём и доступность публичных услуг (широкое),-0.1667,0.0,-0.0,5,0,7,False,-0.1667,9,0.0,0,5
 עם,"Ra’am, the United Arab List",375,бюджетная свобода правительства,-0.9852,-1.0,-0.0148,6,77,48,False,0.2379,641,-0.2083,360,56
-עם,"Ra’am, the United Arab List",377,перераспределение в пользу слабых групп и районов,1.246,1.0,0.0238,6,73,59,False,0.0139,62,0.2083,27,44
+עם,"Ra’am, the United Arab List",377,перераспределение в пользу слабых групп и районов,1.246,1.0,0.0238,6,73,59,False,0.0139,62,0.2083,17,43
 עם,"Ra’am, the United Arab List",38,налоговый контроль и полномочия налоговых органов,-0.3333,-0.5,0.0,6,7,6,False,0.0833,4,0.0833,3,5
 עם,"Ra’am, the United Arab List",39,ограничения на наличные расчёты,-0.25,0.0,0.0,2,0,0,True,-0.25,2,0.0,0,2
 עם,"Ra’am, the United Arab List",4,"помощь пострадавшим от войны, терроризма и катастроф",0.2591,0.5,-0.1357,6,9,35,False,-0.1052,33,0.0,0,38
@@ -5074,7 +5118,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 רק,"Be’Yahad, headed by Naftali Bennett",12b,услуги больничных касс пациентам,0.5689,0.5333,0.0023,15,17,87,False,0.0333,50,0.0,0,30
 רק,"Be’Yahad, headed by Naftali Bennett",12c,еда в больницах в Песах,0.25,0.0,0.0,8,0,0,False,0.25,15,0.0,0,2
 רק,"Be’Yahad, headed by Naftali Bennett",130,режим чрезвычайного положения,0.5,0.5,0.0,12,13,11,False,0.0,16,0.0,0,10
-רק,"Be’Yahad, headed by Naftali Bennett",130a,льготы гражданам в войну и чрезвычайное положение,0.8942,0.8571,0.0658,14,16,24,False,-0.0288,79,0.0,0,18
+רק,"Be’Yahad, headed by Naftali Bennett",130a,льготы гражданам в войну и чрезвычайное положение,0.8853,0.8,0.0589,15,110,77,False,0.0264,173,0.0,0,56
 רק,"Be’Yahad, headed by Naftali Bennett",130b1,послабления по возвращённым чекам в чрезвычайной ситуации,-0.25,0.0,0.0,6,0,0,False,-0.25,6,0.0,0,1
 רק,"Be’Yahad, headed by Naftali Bennett",130b2,"законы и полномочия, привязанные к чрезвычайному положению",-0.207,-0.1538,0.0,13,7,0,False,-0.207,59,0.1538,16,9
 רק,"Be’Yahad, headed by Naftali Bennett",130b2s2,"Чрезвычайные полномочия слежки, киберзащиты и контроля над вещанием",0.25,0.0,0.0,10,0,0,False,0.25,39,0.0,0,5
@@ -5096,7 +5140,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 רק,"Be’Yahad, headed by Naftali Bennett",142s3,Бесплатная доступность эфирного контента,-0.2489,0.0,0.0,15,0,8,False,-0.2489,481,0.0,0,3
 רק,"Be’Yahad, headed by Naftali Bennett",143,защита животных,0.7687,0.5625,0.03,16,108,98,False,0.1762,51,0.0,0,40
 רק,"Be’Yahad, headed by Naftali Bennett",144,экологическое регулирование,0.7323,0.75,0.0026,16,130,90,False,-0.0984,33,0.0781,5,36
-רק,"Be’Yahad, headed by Naftali Bennett",146,защита частной жизни и персональных данных,-0.1638,-0.1146,0.0008,16,30,169,False,0.0438,120,-0.0938,14,50
+רק,"Be’Yahad, headed by Naftali Bennett",146,защита частной жизни и персональных данных,-0.2254,-0.1202,-0.0049,16,32,186,False,0.0038,144,-0.1042,17,56
 רק,"Be’Yahad, headed by Naftali Bennett",147,сбор и передача данных государственными органами,0.4217,0.4667,0.005,15,12,79,False,-0.1,10,0.05,3,10
 רק,"Be’Yahad, headed by Naftali Bennett",147s1,Полномочия силовых и правоохранительных органов по сбору данных о людях,0.6711,0.3571,0.0283,14,8,53,False,0.1964,84,0.0893,6,21
 רק,"Be’Yahad, headed by Naftali Bennett",147s2,"Административные реестры, статистика и обмен данными для государственных услуг",0.9201,0.75,0.0,12,15,20,False,0.1285,31,0.0417,2,14
@@ -5158,7 +5202,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 רק,"Be’Yahad, headed by Naftali Bennett",186,доступность альтернатив военной службе,-0.25,0.0,0.0,14,0,0,False,-0.25,28,0.0,0,1
 רק,"Be’Yahad, headed by Naftali Bennett",186a,изучение Торы как альтернатива службе,-0.25,0.0,0.0,15,0,0,False,-0.25,59,0.0,0,1
 רק,"Be’Yahad, headed by Naftali Bennett",186b,гражданская служба и отказ по убеждениям,-0.0064,0.0769,0.0,13,1,0,False,-0.2179,32,0.1346,7,5
-רק,"Be’Yahad, headed by Naftali Bennett",187,привязка прав и льгот к службе,0.9032,0.75,0.1174,16,210,699,False,0.0359,217,0.0,0,102
+רק,"Be’Yahad, headed by Naftali Bennett",187,привязка прав и льгот к службе,0.9022,0.75,0.1163,16,211,699,False,0.0359,217,0.0,0,103
 רק,"Be’Yahad, headed by Naftali Bennett",188c,прикомандирование срочников к полиции и ШАБАС,0.275,0.0,0.0,10,0,0,False,0.025,2,0.25,47,3
 רק,"Be’Yahad, headed by Naftali Bennett",189,автономия армии от политиков и законодателя,-1.0,-1.0,0.0,2,2,0,True,0.0,0,0.0,0,2
 רק,"Be’Yahad, headed by Naftali Bennett",19,обязанности бизнеса перед потребителями,0.5925,0.75,0.0272,16,51,124,False,-0.1847,772,0.0,0,24
@@ -5175,7 +5219,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 רק,"Be’Yahad, headed by Naftali Bennett",20,права и защита потребителей,0.829,0.6875,0.0211,16,52,254,False,-0.0203,228,0.1406,27,73
 רק,"Be’Yahad, headed by Naftali Bennett",200,квоты и преференции для недопредставленных групп,0.6328,0.7733,0.0761,15,31,51,False,-0.0333,68,-0.1833,61,27
 רק,"Be’Yahad, headed by Naftali Bennett",201,представительство женщин в публичных органах,0.8458,0.9333,0.0124,15,56,169,False,-0.1,11,0.0,0,19
-רק,"Be’Yahad, headed by Naftali Bennett",202,гендерное равенство и права женщин,0.8525,0.875,0.0315,16,117,273,False,-0.0853,84,0.0312,2,85
+רק,"Be’Yahad, headed by Naftali Bennett",202,гендерное равенство и права женщин,0.7799,0.8125,0.0318,16,92,254,False,-0.0957,57,0.0312,2,72
 רק,"Be’Yahad, headed by Naftali Bennett",204,права ЛГБТ и признание нетрадиционных семей,0.9687,0.9286,0.0402,14,100,118,False,0.0,0,0.0,0,26
 רק,"Be’Yahad, headed by Naftali Bennett",206,права людей с инвалидностью и пожилых,1.0923,0.875,0.0206,16,157,239,False,0.0561,214,0.1406,42,123
 רק,"Be’Yahad, headed by Naftali Bennett",208,права и защита работников,0.9886,0.7708,0.0349,15,164,319,False,0.0328,268,0.15,57,135
@@ -5198,7 +5242,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 רק,"Be’Yahad, headed by Naftali Bennett",22s1,Права арендаторов на частном рынке жилья,0.6154,0.6154,0.0,13,9,11,False,0.0,0,0.0,0,3
 רק,"Be’Yahad, headed by Naftali Bennett",22s2,Права жильцов государственного жилья,0.1429,0.2857,0.0,7,3,0,False,-0.1429,6,0.0,0,4
 רק,"Be’Yahad, headed by Naftali Bennett",22s3,"Защита жителей, выселяемых из-за реконструкции или опасности зданий",0.0064,0.0769,0.0,13,1,2,False,-0.0705,18,0.0,0,4
-רק,"Be’Yahad, headed by Naftali Bennett",230,доступность кредита,0.4923,0.3636,0.015,11,8,12,False,0.1136,10,0.0,0,11
+רק,"Be’Yahad, headed by Naftali Bennett",230,доступность кредита,1.0,1.0,0.0,2,3,0,True,0.0,0,0.0,0,3
+רק,"Be’Yahad, headed by Naftali Bennett",230s1,Доступность кредита для домохозяйств,0.2727,0.1818,0.0,11,5,10,False,0.0909,6,0.0,0,6
+רק,"Be’Yahad, headed by Naftali Bennett",230s2,Финансирование бизнеса и рынок капитала,0.1565,0.1,0.0065,10,2,12,False,0.05,4,0.0,0,3
 רק,"Be’Yahad, headed by Naftali Bennett",231,защита собственности и свобода распоряжения ею,-0.3931,-0.4722,-0.0098,12,12,43,False,0.0889,33,0.0,0,16
 רק,"Be’Yahad, headed by Naftali Bennett",231b,ограничения планирования и изъятия земли,1.0,1.0,0.0,1,2,0,True,0.0,0,0.0,0,2
 רק,"Be’Yahad, headed by Naftali Bennett",231d,земельные права евреев в Иудее и Самарии,-0.25,0.0,0.0,11,0,0,False,-0.25,22,0.0,0,2
@@ -5311,7 +5357,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 רק,"Be’Yahad, headed by Naftali Bennett",309,право на семейную жизнь и усыновление,-0.4,-0.4,0.0,10,5,22,False,0.0,0,0.0,0,3
 רק,"Be’Yahad, headed by Naftali Bennett",309s3,Кто и на каких условиях может усыновлять,0.8995,0.8462,0.0533,13,17,12,False,0.0,0,0.0,0,3
 רק,"Be’Yahad, headed by Naftali Bennett",31,поддержка репатриации и репатриантов,0.2273,0.0909,0.0,11,2,19,False,0.1364,11,0.0,0,2
-רק,"Be’Yahad, headed by Naftali Bennett",311,доступ к юридической помощи и правосудию,0.9802,0.8125,0.0381,16,57,199,False,0.0515,169,0.0781,5,71
+רק,"Be’Yahad, headed by Naftali Bennett",311,доступ к юридической помощи и правосудию,0.9936,0.8667,0.044,15,48,134,False,0.0496,83,0.0333,2,44
+רק,"Be’Yahad, headed by Naftali Bennett",311s1,Государственная юридическая помощь и расходы на судебные процессы для граждан,0.2885,0.1538,0.0,13,4,48,False,0.0769,7,0.0577,3,11
+רק,"Be’Yahad, headed by Naftali Bennett",311s2,Доступ к адвокату и государственное представительство для задержанных и обвиняемых по делам безопасности и террора,0.0366,0.0,0.0,13,0,0,False,0.0366,67,0.0,0,8
 רק,"Be’Yahad, headed by Naftali Bennett",312,обязанности госорганов перед гражданами,0.8919,0.875,0.0299,16,115,419,False,-0.0693,164,0.0562,38,109
 רק,"Be’Yahad, headed by Naftali Bennett",313,полномочия государства в сфере кибербезопасности,0.0971,0.1429,0.0,14,2,0,False,-0.0458,67,0.0,0,9
 רק,"Be’Yahad, headed by Naftali Bennett",314,права семей выяснять судьбу родственников,0.0682,0.2727,-0.0,11,3,9,False,-0.2045,9,0.0,0,4
@@ -5344,7 +5392,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 רק,"Be’Yahad, headed by Naftali Bennett",34s3,Надёжность связи и цифровой инфраструктуры,0.25,0.0,0.0,4,0,0,False,0.25,11,0.0,0,2
 רק,"Be’Yahad, headed by Naftali Bennett",35,государственные расходы,0.5453,0.5737,0.0103,16,88,280,False,-0.1919,2536,0.1532,814,100
 רק,"Be’Yahad, headed by Naftali Bennett",352,свобода договора,-0.2857,-0.2857,0.0,7,7,0,False,0.0,3,0.0,0,4
-רק,"Be’Yahad, headed by Naftali Bennett",353,защита слабой стороны в договорных отношениях,0.9203,0.7143,0.0087,14,30,76,False,0.0366,134,0.1607,15,48
+רק,"Be’Yahad, headed by Naftali Bennett",353,защита слабой стороны в договорных отношениях,0.9206,0.7143,0.0087,14,31,76,False,0.0369,135,0.1607,15,50
 רק,"Be’Yahad, headed by Naftali Bennett",354,статус и независимость квазисудебных органов,0.4234,0.6667,0.0,15,17,3,False,-0.2432,471,0.0,0,8
 רק,"Be’Yahad, headed by Naftali Bennett",355,интересы будущих поколений в принятии решений,0.772,0.7857,0.0071,14,75,62,False,-0.1101,30,0.0893,5,25
 רק,"Be’Yahad, headed by Naftali Bennett",356,поддержка общественного транспорта,0.9167,0.8889,0.0,9,10,0,False,0.0,0,0.0278,1,5
@@ -5360,7 +5408,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 רק,"Be’Yahad, headed by Naftali Bennett",37,строгость фискальных ограничений,-0.0549,0.0,0.0,15,0,0,False,0.1117,355,-0.1667,50,9
 רק,"Be’Yahad, headed by Naftali Bennett",370,объём и доступность публичных услуг (широкое),0.032,0.0,-0.0,13,4,31,False,0.0321,15,0.0,0,5
 רק,"Be’Yahad, headed by Naftali Bennett",375,бюджетная свобода правительства,-0.9103,-0.8453,-0.0632,16,134,257,False,0.1545,1660,-0.1562,730,81
-רק,"Be’Yahad, headed by Naftali Bennett",377,перераспределение в пользу слабых групп и районов,0.9684,0.8125,0.0267,16,83,180,False,-0.0427,79,0.1719,49,48
+רק,"Be’Yahad, headed by Naftali Bennett",377,перераспределение в пользу слабых групп и районов,0.9511,0.8125,0.0267,16,72,180,False,-0.0444,77,0.1562,30,41
 רק,"Be’Yahad, headed by Naftali Bennett",38,налоговый контроль и полномочия налоговых органов,0.0385,0.0769,0.0,13,1,18,False,-0.0962,15,0.0577,4,6
 רק,"Be’Yahad, headed by Naftali Bennett",39,ограничения на наличные расчёты,0.25,0.0,0.0,2,0,0,True,0.25,2,0.0,0,1
 רק,"Be’Yahad, headed by Naftali Bennett",4,"помощь пострадавшим от войны, терроризма и катастроф",0.9939,0.8082,0.0816,16,182,234,False,0.1042,186,0.0,0,99
@@ -5396,7 +5444,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 רק,"Be’Yahad, headed by Naftali Bennett",66b1,смертная казнь для террористов,0.25,0.0,0.0,15,0,0,False,0.25,135,0.0,0,2
 רק,"Be’Yahad, headed by Naftali Bennett",66b2,минимальные наказания,-0.3901,-0.4615,-0.0664,13,6,25,False,0.1378,18,0.0,0,8
 רק,"Be’Yahad, headed by Naftali Bennett",69,возможность оспорить решения властей,0.5333,0.4,0.0,5,2,0,False,0.1333,17,0.0,0,5
-רק,"Be’Yahad, headed by Naftali Bennett",69a,судебный контроль над решениями правительства,0.25,0.0,0.0,11,0,0,False,0.25,11,0.0,0,1
+רק,"Be’Yahad, headed by Naftali Bennett",69a,судебный контроль над решениями правительства,0.3409,0.0909,0.0,11,1,0,False,0.25,11,0.0,0,2
 רק,"Be’Yahad, headed by Naftali Bennett",69b,обжалование решений государственных органов,0.4872,0.4615,0.0,13,10,31,False,0.0256,28,0.0,0,12
 רק,"Be’Yahad, headed by Naftali Bennett",71,автономия судебной системы,0.1778,-0.0769,0.0048,13,1,2,False,0.25,36,0.0,0,4
 רק,"Be’Yahad, headed by Naftali Bennett",75,права парламентской оппозиции,-0.0584,0.0714,0.0309,14,1,13,False,-0.1607,16,0.0,0,3
@@ -5428,7 +5476,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 רק,"Be’Yahad, headed by Naftali Bennett",8s4,Санкции за загрязнение среды и жестокое обращение с животными,0.6136,0.4545,0.0,11,12,27,False,0.1591,7,0.0,0,8
 רק,"Be’Yahad, headed by Naftali Bennett",9,плата граждан за государственные и общественные услуги,-0.6554,-0.625,-0.0278,16,26,149,False,-0.0026,89,0.0,0,30
 רק,"Be’Yahad, headed by Naftali Bennett",90,процессуальные права подозреваемых и обвиняемых,0.2047,0.0,-0.0453,13,4,24,False,0.1346,9,0.1154,13,11
-רק,"Be’Yahad, headed by Naftali Bennett",90a,процессуальные права подозреваемых и обвиняемых,-0.0971,-0.0078,0.0042,17,19,150,False,-0.0445,155,-0.049,18,48
+רק,"Be’Yahad, headed by Naftali Bennett",90a,процессуальные права подозреваемых и обвиняемых,-0.0383,0.051,0.0042,17,21,150,False,-0.0445,155,-0.049,18,49
 רק,"Be’Yahad, headed by Naftali Bennett",90b,строгость наказаний за терроризм,0.25,0.0,0.0,12,0,0,False,0.25,33,0.0,0,1
 רק,"Be’Yahad, headed by Naftali Bennett",91,свидетельские привилегии,1.0,1.0,0.0,1,1,0,True,0.0,0,0.0,0,1
 רק,"Be’Yahad, headed by Naftali Bennett",91a,профессиональные и терапевтические привилегии,0.25,0.0,0.0,3,0,0,False,0.25,3,0.0,0,1
@@ -5502,7 +5550,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",12b,услуги больничных касс пациентам,0.768,0.75,0.0025,12,42,39,False,0.0155,86,0.0,0,36
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",12c,еда в больницах в Песах,-0.1627,-0.125,-0.0377,8,5,16,False,0.0,0,0.0,0,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",130,режим чрезвычайного положения,-0.1161,0.3125,0.0,8,7,6,False,-0.2188,7,-0.2098,35,10
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",130a,льготы гражданам в войну и чрезвычайное положение,0.2773,0.25,-0.1414,12,5,25,False,0.0229,25,0.1458,38,17
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",130a,льготы гражданам в войну и чрезвычайное положение,0.8082,0.6667,-0.0991,12,33,78,False,0.0115,79,0.2292,126,48
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",130b1,послабления по возвращённым чекам в чрезвычайной ситуации,0.3333,0.3333,0.0,6,3,6,False,0.0,0,0.0,0,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",130b2,"законы и полномочия, привязанные к чрезвычайному положению",0.1005,0.0,0.0588,12,0,4,False,-0.1667,8,0.2083,47,5
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",130b2s2,"Чрезвычайные полномочия слежки, киберзащиты и контроля над вещанием",0.3333,0.0,0.0,9,0,0,False,0.1111,11,0.2222,72,9
@@ -5524,7 +5572,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",142s3,Бесплатная доступность эфирного контента,0.2292,0.0,0.0,12,0,27,False,0.2292,320,0.0,0,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",143,защита животных,-0.3782,0.0833,-0.2317,12,1,25,False,-0.1271,40,-0.1027,34,17
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",144,экологическое регулирование,0.2735,0.3333,-0.0733,12,6,36,False,-0.1324,50,0.1458,7,16
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",146,защита частной жизни и персональных данных,0.08,0.1528,0.0383,12,19,81,False,-0.015,111,-0.096,67,54
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",146,защита частной жизни и персональных данных,0.1218,0.1528,0.0664,12,19,89,False,0.0051,120,-0.1024,91,60
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",147,сбор и передача данных государственными органами,-0.0505,0.0833,-0.0818,12,2,26,False,-0.1979,26,0.1458,24,5
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",147s1,Полномочия силовых и правоохранительных органов по сбору данных о людях,0.6051,0.6667,-0.124,12,11,33,False,-0.1042,36,0.1667,78,24
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",147s2,"Административные реестры, статистика и обмен данными для государственных услуг",0.8182,0.6364,0.0,11,9,11,False,0.1136,12,0.0682,6,11
@@ -5587,7 +5635,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",186,доступность альтернатив военной службе,0.25,0.0,0.0,6,0,0,False,0.25,12,0.0,0,1
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",186a,изучение Торы как альтернатива службе,1.25,1.0,0.0,11,11,0,False,0.25,44,0.0,0,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",186b,гражданская служба и отказ по убеждениям,0.0909,0.0,0.0,11,0,1,False,-0.0909,14,0.1818,40,6
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",187,привязка прав и льгот к службе,0.7843,0.8333,-0.1713,12,33,342,False,-0.0235,246,0.1458,19,92
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",187,привязка прав и льгот к службе,0.7902,0.8333,-0.1655,12,33,350,False,-0.0235,246,0.1458,19,93
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",188,использование военных в гражданских функциях,1.0,1.0,0.0,1,1,0,True,0.0,0,0.0,0,1
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",188c,прикомандирование срочников к полиции и ШАБАС,0.0434,0.0,0.0,12,0,0,False,-0.1233,47,0.1667,26,5
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",189,автономия армии от политиков и законодателя,-1.0,-1.0,0.0,9,10,0,False,0.0,0,0.0,0,1
@@ -5606,7 +5654,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",20,права и защита потребителей,0.7738,0.8333,-0.0418,12,100,265,False,-0.1011,116,0.0833,10,81
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",200,квоты и преференции для недопредставленных групп,0.8198,0.5833,0.0195,12,15,43,False,0.1128,102,0.1042,10,25
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",201,представительство женщин в публичных органах,-0.1629,0.0909,-0.1713,11,2,41,False,-0.2417,75,0.1591,14,12
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",202,гендерное равенство и права женщин,0.7821,0.8333,-0.1282,12,36,123,False,-0.0272,135,0.1042,10,50
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",202,гендерное равенство и права женщин,0.7309,0.8333,-0.1818,12,34,91,False,-0.0248,126,0.1042,10,40
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",204,права ЛГБТ и признание нетрадиционных семей,-0.4757,-0.0909,-0.1576,11,1,33,False,-0.2273,33,0.0,0,8
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",206,права людей с инвалидностью и пожилых,0.9492,0.8403,-0.0502,12,160,251,False,0.0133,132,0.1458,32,138
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",208,права и защита работников,0.9625,0.7842,0.0045,12,142,246,False,0.0285,182,0.1454,112,128
@@ -5630,7 +5678,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",22s1,Права арендаторов на частном рынке жилья,-0.25,0.0,0.0,8,0,0,False,-0.25,8,0.0,0,1
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",22s2,Права жильцов государственного жилья,0.0,0.0,0.0,7,0,7,False,0.0,0,0.0,0,1
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",22s3,"Защита жителей, выселяемых из-за реконструкции или опасности зданий",0.5,0.4,0.0,10,6,11,False,0.1,4,0.0,0,4
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",230,доступность кредита,0.2947,0.4,-0.1136,10,6,20,False,-0.0917,7,0.1,4,10
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",230,доступность кредита,1.0,1.0,0.0,1,1,0,True,0.0,0,0.0,0,1
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",230s1,Доступность кредита для домохозяйств,0.1944,0.3333,0.0,9,3,15,False,-0.1389,5,0.0,0,5
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",230s2,Финансирование бизнеса и рынок капитала,0.0409,0.1429,-0.1139,7,2,5,False,-0.131,7,0.1429,4,5
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",231,защита собственности и свобода распоряжения ею,0.4826,0.6111,-0.059,12,19,46,False,-0.0694,23,0.0,0,18
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",231b,ограничения планирования и изъятия земли,1.0,1.0,0.0,2,2,0,True,0.0,0,0.0,0,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",231d,земельные права евреев в Иудее и Самарии,0.3504,0.4545,-0.1041,11,8,23,False,0.0,0,0.0,0,3
@@ -5744,7 +5794,9 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",309,право на семейную жизнь и усыновление,0.0781,0.0,0.0,8,0,0,False,0.0781,15,0.0,0,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",309s3,Кто и на каких условиях может усыновлять,-0.25,0.0,0.0,8,0,0,False,-0.25,8,0.0,0,1
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",31,поддержка репатриации и репатриантов,0.3,0.2,0.0,5,1,4,False,0.1,3,0.0,0,2
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",311,доступ к юридической помощи и правосудию,0.4369,0.7817,-0.1163,12,56,133,False,-0.0948,137,-0.1337,87,73
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",311,доступ к юридической помощи и правосудию,0.6024,0.7848,-0.0887,12,48,91,False,-0.1111,102,0.0174,18,44
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",311s1,Государственная юридическая помощь и расходы на судебные процессы для граждан,0.0927,0.125,0.0,8,1,0,False,-0.1573,24,0.125,12,9
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",311s2,Доступ к адвокату и государственное представительство для задержанных и обвиняемых по делам безопасности и террора,-0.3636,-0.0909,0.0,11,1,14,False,-0.0227,1,-0.25,53,11
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",312,обязанности госорганов перед гражданами,0.8011,0.8917,-0.118,12,137,307,False,-0.0351,197,0.0625,3,125
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",313,полномочия государства в сфере кибербезопасности,0.5,0.1,0.0,10,1,7,False,0.2,33,0.2,38,11
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",314,права семей выяснять судьбу родственников,0.7069,0.8182,-0.0204,11,12,20,False,-0.0909,10,0.0,0,7
@@ -5777,7 +5829,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",34s3,Надёжность связи и цифровой инфраструктуры,0.25,0.1429,0.0,7,1,16,False,0.0,0,0.1071,10,5
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",35,государственные расходы,0.6241,0.6135,-0.0713,12,58,232,False,-0.1037,897,0.1856,1510,95
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",352,свобода договора,-0.5,-0.6667,0.0,3,3,0,False,0.0833,3,0.0833,1,2
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",353,защита слабой стороны в договорных отношениях,0.8196,0.8261,-0.0012,12,75,127,False,0.0781,87,-0.0833,15,54
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",353,защита слабой стороны в договорных отношениях,0.8356,0.8272,-0.0012,12,82,138,False,0.093,92,-0.0833,15,63
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",354,статус и независимость квазисудебных органов,0.935,0.6667,0.0183,12,16,101,False,0.2292,245,0.0208,2,12
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",355,интересы будущих поколений в принятии решений,0.7927,0.6667,-0.0097,12,14,36,False,-0.031,26,0.1667,12,15
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",356a,общественный транспорт в шаббат,-0.1613,0.0,-0.1613,9,0,18,False,0.0,0,0.0,0,1
@@ -5794,7 +5846,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",37,строгость фискальных ограничений,-0.1166,0.0,0.0,12,0,0,False,-0.0616,137,-0.055,150,9
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",370,объём и доступность публичных услуг (широкое),0.4175,0.1818,0.0084,11,2,13,False,0.2273,20,0.0,0,5
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",375,бюджетная свобода правительства,-0.8624,-0.9912,0.1518,12,85,130,False,0.1645,728,-0.1875,1168,85
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",377,перераспределение в пользу слабых групп и районов,0.637,0.75,-0.0954,12,52,166,False,-0.1426,107,0.125,18,49
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",377,перераспределение в пользу слабых групп и районов,0.6217,0.75,-0.0954,12,50,166,False,-0.1162,87,0.0833,9,46
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",38,налоговый контроль и полномочия налоговых органов,-0.3667,-0.3939,0.0,11,7,4,False,-0.1091,21,0.1364,19,10
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",39,ограничения на наличные расчёты,0.0833,0.0,0.0,3,0,2,False,0.0,0,0.0833,1,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",4,"помощь пострадавшим от войны, терроризма и катастроф",0.9308,0.8141,-0.133,12,64,165,False,0.0205,147,0.2292,107,88
@@ -5827,7 +5879,7 @@ letters,list_name,d,direction,P,P_A,P_V,n_mk,sum_nA,sum_nV,low_data,P_O,sum_nO,P
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",66b1,смертная казнь для террористов,-0.2663,0.0,-0.0788,12,0,15,False,-0.1875,81,0.0,0,2
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",66b2,минимальные наказания,-0.0755,-0.1818,-0.03,11,4,25,False,0.1364,10,0.0,0,6
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",69,возможность оспорить решения властей,0.325,0.2,0.0,10,2,6,False,0.0,0,0.125,13,5
-שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",69a,судебный контроль над решениями правительства,0.0,0.0,0.0,8,0,9,False,0.0,0,0.0,0,2
+שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",69a,судебный контроль над решениями правительства,0.125,0.125,0.0,8,2,9,False,0.0,0,0.0,0,4
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",69b,обжалование решений государственных органов,0.8864,0.7273,0.0,11,28,51,False,0.1591,20,0.0,0,21
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",71,автономия судебной системы,-0.4503,-0.4167,-0.0336,12,6,50,False,0.0,0,0.0,0,5
 שס,"Shas – Hit’ahdut haSefaradim Shomrei Torah, the movement of Maran Rav Ovadya Yosef ZTZL",75,права парламентской оппозиции,0.1459,0.2,-0.0541,10,2,19,False,0.0,0,0.0,0,3
