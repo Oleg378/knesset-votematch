@@ -41,35 +41,64 @@ export function Menu({ onClose, onStartOver, onResults, onMethodology }: Props) 
       });
     };
     place();
-    window.addEventListener('resize', place);
-    window.addEventListener('scroll', place);
-    return () => {
-      window.removeEventListener('resize', place);
-      window.removeEventListener('scroll', place);
-    };
+    // The page does not scroll while the menu is open; the window or the card can still change size (rotation, a
+    // desktop window resized): ResizeObserver, no resize or scroll handlers (react-ui-mobile skill).
+    if (typeof ResizeObserver !== 'function') return;
+    const sizes = new ResizeObserver(place);
+    sizes.observe(document.documentElement);
+    sizes.observe(app);
+    return () => sizes.disconnect();
   }, []);
 
-  // Slide out, then unmount; an item's action runs at once, so its screen is already behind the closing drawer.
-  // No animation (reduced motion, or no Web Animations as in tests) — close at once.
+  // Slide out, then unmount; an item's action runs at once, so its screen is already behind the closing drawer. The
+  // moment closing starts, the menu takes no taps and no focus and leaves the accessibility tree, and the focus goes
+  // back to the opener (react-ui-mobile skill, «Exit and unmount»). Unmount on the first of: the animations finished,
+  // their duration + 50 ms. No animation (reduced motion, or no Web Animations as in tests) — close at once.
   const close = useCallback((action?: () => void) => {
     if (closing.current) return;
     closing.current = true;
     action?.();
+    const layer = layerRef.current;
+    layer?.setAttribute('inert', '');
+    layer?.setAttribute('aria-hidden', 'true');
+    release.current();
     const panel = panelRef.current;
     const dim = dimRef.current;
-    if (!panel?.animate || !dim || window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) {
+    const css = getComputedStyle(document.documentElement);
+    const duration = parseFloat(css.getPropertyValue('--menu-out-time')) || 0;
+    if (!panel?.animate || !dim || !duration || window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) {
       onClose();
       return;
     }
-    const exit: KeyframeAnimationOptions = { duration: 200, easing: 'cubic-bezier(0.3, 0, 0.8, 0.15)', fill: 'forwards' };
+    const exit: KeyframeAnimationOptions = { duration, easing: css.getPropertyValue('--menu-out-ease').trim(), fill: 'forwards' };
+    let done = false;
+    const finish = () => {
+      if (done) return;
+      done = true;
+      onClose();
+    };
     Promise.all([
       panel.animate([{ transform: 'translateX(0)' }, { transform: 'translateX(-100%)' }], exit).finished,
       dim.animate([{ opacity: 1 }, { opacity: 0 }], exit).finished,
-    ]).then(onClose, onClose);
+    ]).then(finish, finish);
+    setTimeout(finish, duration + 50);
   }, [onClose]);
 
+  // Everything else on the page is inert while the menu is open (not only aria-modal); undone, and the focus given
+  // back, once — when closing starts, or on unmount.
+  const release = useRef<() => void>(() => {});
   useEffect(() => {
     const opener = document.activeElement as HTMLElement | null;
+    const layer = layerRef.current;
+    const others = [...(layer?.parentElement?.children ?? [])].filter((el) => el !== layer && !el.hasAttribute('inert'));
+    others.forEach((el) => el.setAttribute('inert', ''));
+    let released = false;
+    release.current = () => {
+      if (released) return;
+      released = true;
+      others.forEach((el) => el.removeAttribute('inert'));
+      opener?.focus?.();
+    };
     // Focus goes to the dialog itself (WAI-ARIA APG), not to Close: a focused button gets the keyboard focus ring, and
     // Safari shows it even after a click (customer 2026-10-18: no ring around the X). Tab reaches Close, with its ring.
     panelRef.current?.focus({ preventScroll: true });
@@ -81,7 +110,7 @@ export function Menu({ onClose, onStartOver, onResults, onMethodology }: Props) 
     return () => {
       document.removeEventListener('keydown', onKey);
       root.style.overflow = overflow;
-      opener?.focus?.();
+      release.current();
     };
   }, [close]);
 

@@ -12,11 +12,13 @@ import './styles/app.css';
 import App from './App';
 import { watchBottomFade } from './bottomFade';
 import { createLoader } from './data';
+import { showViewportNumbers } from './debugViewport';
 
 // The data files are fetched from page load, in order (core, data, bills); the start page does not wait for them.
 const loader = createLoader();
 loader.start();
 watchBottomFade();
+if (location.search.includes('debug')) showViewportNumbers(); // the window's numbers on screen, for checks on a phone
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

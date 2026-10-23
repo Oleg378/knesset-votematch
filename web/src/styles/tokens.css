@@ -110,7 +110,32 @@
   --desktop-card-height: 812px; /* Figma screen without the status bar (874 − 62): the card keeps the phone proportions */
   --cta-min-gap: 64px; /* Home: at least this much between the steps and the buttons (max 158 = Figma) */
   --cta-fade: 32px; /* soft white fade above bottom buttons that stick because the content does not fit */
-  --menu-in: 300ms cubic-bezier(0.2, 0, 0, 1); /* menu opening (Material 3 «emphasized»); closing: 200 ms, Menu.tsx */
+  /* Motion (react-ui-mobile skill): every duration and easing lives here, none in app.css or components. Proposed
+     values, DECISIONS.md G20 [А], except the menu and the card change (approved). */
+  --menu-in: 300ms cubic-bezier(0.2, 0, 0, 1); /* menu opening (Material 3 «emphasized») */
+  --menu-out-time: 200ms; /* menu closing (Menu.tsx reads both) */
+  --menu-out-ease: cubic-bezier(0.3, 0, 0.8, 0.15);
+  --press-time: 100ms; /* a button pressed down (scale) */
+  --press-scale: 0.98;
+  --press-scale-icon: 0.88;
+  --state-time: 150ms; /* a selected answer or card changes colour; the fade above the bottom buttons */
+  --progress-time: 300ms; /* the progress bar moves to the next question */
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-decelerate: cubic-bezier(0, 0, 0.2, 1); /* things that open or enter (Material Design deceleration curve) */
+  --ease-accelerate: cubic-bezier(0.4, 0, 1, 1); /* things that close or leave (Material Design acceleration curve) */
+  /* A block opens or closes (expandMotion.ts): its part on screen at this many ms per px, clamped (Braid: 200–500);
+     closing a little quicker (Material Design: leaving 195 ms vs entering 225 ms). */
+  --expand-min-time: 200ms;
+  --expand-max-time: 500ms;
+  --expand-ms-per-px: 1;
+  --collapse-ms-per-px: 0.85;
+  --scroll-back-max-time: 900ms; /* «Show less»: the longest wait for the smooth scroll back to the panel */
+  --rows-time: 250ms; /* result rows appear */
+  --rows-stagger: 40ms; /* between the first rows */
+  --rows-shift: 8px; /* how far a row rises while it appears */
+  --loader-delay: 300ms; /* a load shorter than this shows no indicator */
+  --loader-in: 300ms;
+  --loader-spin: 1.2s;
   --card-time: 540ms; /* card change, as an iOS navigation push (app.css «Card change») */
   --card-ease: cubic-bezier(0.32, 0.72, 0, 1); /* iOS-like deceleration */
   --card-behind: 33%; /* how far the screen underneath moves */

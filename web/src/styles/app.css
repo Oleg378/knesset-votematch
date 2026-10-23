@@ -31,6 +31,7 @@ p {
 button {
   font: inherit;
   color: inherit;
+  -webkit-tap-highlight-color: transparent; /* the pressed state is drawn by the app (Motion «Press» below) */
 }
 
 :focus-visible {
@@ -142,11 +143,11 @@ button {
 
 .dot-ring {
   color: var(--color-accent);
-  animation: dot-ring-in 300ms ease-out 150ms both;
+  animation: dot-ring-in var(--loader-in) ease-out var(--loader-delay) both;
 }
 
 .dot-ring-runner {
-  animation: dot-ring-spin 1.2s linear infinite;
+  animation: dot-ring-spin var(--loader-spin) linear infinite;
 }
 
 @keyframes dot-ring-in {
@@ -455,6 +456,10 @@ em {
   height: 100%;
   border-radius: var(--radius-full);
   background: var(--color-accent);
+  /* Moved, not resized (react-ui-mobile skill): the fill is the whole track, shifted left by the part not done yet
+     (--p = value / max, ProgressBar.tsx); the track clips it, the rounded end stays round. */
+  transform: translateX(calc((var(--p, 0) - 1) * 100%));
+  transition: transform var(--progress-time) var(--ease-standard);
 }
 
 
@@ -617,6 +622,21 @@ button.card:active {
 
 .scale-top.open + .scale-drop > .see-all {
   margin-top: var(--space-1);
+}
+
+/* «Show less»: the panel's bottom (its «See all» row, its padding, its rounded corners) as a lid under the shrinking
+   lists (ResultsScreen.tsx). Pulled up over the screen gap and the open panel's bottom padding, it starts where the
+   last row ends, as the closed panel's «See all» does: 4 + 44 + 4 below it, the same as the closed panel (the compact
+   panel, 2026-10-23; it was 16 + 44 + 20). */
+.see-all.scale-lid {
+  margin-top: calc(-1 * (var(--space-4) + var(--space-1)));
+  padding: var(--space-1) var(--panel-pad-x) var(--space-1);
+  /* Its top 4 lies on the open panel's bottom padding: clear there (the tint is translucent and would double, and the
+     last row's dot hangs into it); below, opaque — the panel's colour on white — over the shrinking lists. */
+  background: linear-gradient(var(--color-accent-soft), var(--color-accent-soft)) 0 var(--space-1) / 100% 100% no-repeat,
+    linear-gradient(var(--color-bg), var(--color-bg)) 0 var(--space-1) / 100% 100% no-repeat;
+  border-end-start-radius: var(--radius-scale);
+  border-end-end-radius: var(--radius-scale);
 }
 
 .scale-top.open + .scale-drop .scale-rest {
@@ -997,7 +1017,7 @@ a {
   background: linear-gradient(to bottom, transparent, var(--color-bg));
   pointer-events: none;
   opacity: 0;
-  transition: opacity 0.15s;
+  transition: opacity var(--state-time);
 }
 
 :root[data-below] .bottom-bar::before,
@@ -1442,5 +1462,171 @@ a {
   from {
     transform: translateX(calc(-1 * var(--card-behind)));
     opacity: 0;
+  }
+}
+
+
+/* Motion (react-ui-mobile skill): presses, selected states and result rows. transform and opacity only, except the
+   colour of a small selected element. Tokens in tokens.css. */
+
+/* Press: a button sinks a little while the finger is on it; the selected state switches at once, its colour eases. */
+.answer,
+.choice,
+.btn:not(.btn-link),
+.round-btn,
+.icon-btn,
+button.card {
+  transition: transform var(--press-time) var(--ease-standard);
+}
+
+.answer:active,
+.choice:active,
+.btn:not(.btn-link):not(:disabled):active,
+.round-btn:active,
+button.card:active {
+  transform: scale(var(--press-scale));
+}
+
+/* Icon buttons (menu, close, start over): the 24 px icon is small, so it sinks more to be seen. */
+.icon-btn:active {
+  transform: scale(var(--press-scale-icon));
+}
+
+.answer,
+.choice,
+.choice-badge {
+  transition-property: transform, background-color, color, border-color;
+  transition-duration: var(--press-time), var(--state-time), var(--state-time), var(--state-time);
+  transition-timing-function: var(--ease-standard);
+}
+
+/* Results: the closest lists rise into place one after another when the screen opens; the rest fade in when «See all»
+   drops them down. No layout animation on the list. */
+@keyframes rows-in {
+  from {
+    opacity: 0;
+    transform: translateY(var(--rows-shift));
+  }
+}
+
+.scale-top .scale-rows > li {
+  animation: rows-in var(--rows-time) var(--ease-standard) both;
+}
+
+.scale-top .scale-rows > li:nth-child(2) { animation-delay: var(--rows-stagger); }
+.scale-top .scale-rows > li:nth-child(3) { animation-delay: calc(2 * var(--rows-stagger)); }
+.scale-top .scale-rows > li:nth-child(4) { animation-delay: calc(3 * var(--rows-stagger)); }
+.scale-top .scale-rows > li:nth-child(n + 5) { animation-delay: calc(4 * var(--rows-stagger)); }
+
+/* Expand and collapse (expandMotion.ts): a block in the flow grows from 0 to the part of it that is on screen
+   (--motion-px) and its content fades in a little after it starts; closing is the reverse, accelerating, the content
+   fading out first. Height in px while moving, auto when settled (Braid); the one layout animation the skill allows. */
+.expanding,
+.collapsing {
+  overflow: clip;
+  animation-duration: var(--motion-time);
+  animation-fill-mode: both;
+}
+
+.expanding {
+  animation-name: block-expand;
+  animation-timing-function: var(--ease-decelerate);
+}
+
+.collapsing {
+  animation-name: block-collapse;
+  animation-timing-function: var(--ease-accelerate);
+}
+
+@keyframes block-expand {
+  0% {
+    height: 0;
+    padding-block: 0;
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    height: var(--motion-px);
+  }
+}
+
+/* The lists under «See all» closing under the lid: their tinted background stays (or a white band would open
+   between the panel and the lid), only the rows fade. */
+.scale-drop.collapsing {
+  animation-name: block-collapse-height;
+}
+
+.scale-drop.collapsing > * {
+  animation: content-out var(--motion-time) var(--ease-accelerate) both;
+}
+
+@keyframes block-collapse-height {
+  0% {
+    height: var(--motion-px);
+  }
+
+  100% {
+    height: 0;
+    padding-block: 0;
+  }
+}
+
+@keyframes content-out {
+  40%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes block-collapse {
+  0% {
+    height: var(--motion-px);
+  }
+
+  40% {
+    opacity: 0;
+  }
+
+  100% {
+    height: 0;
+    padding-block: 0;
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .progress-fill,
+  .answer,
+  .choice,
+  .choice-badge,
+  .btn,
+  .round-btn,
+  .icon-btn,
+  button.card {
+    transition: none;
+  }
+
+  .answer:active,
+  .choice:active,
+  .btn:active,
+  .round-btn:active,
+  .icon-btn:active,
+  button.card:active {
+    transform: none;
+  }
+
+  .scale-top .scale-rows > li,
+  .expanding,
+  .collapsing,
+  .collapsing > * {
+    animation: none;
   }
 }

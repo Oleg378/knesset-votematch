@@ -3,6 +3,7 @@ import { flushSync } from 'react-dom';
 import { Button } from '../components/Button';
 import { ListRow } from '../components/ListRow';
 import { match } from '../engine/match';
+import { collapse, expand, scrollBackTo } from '../expandMotion';
 import { answeredCount } from '../state/reducer';
 import { S } from '../strings';
 import type { ScreenProps } from './types';
@@ -27,9 +28,35 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
   // away when pressed, so the focus moves on: to the first list that dropped down, back to «See all».
   const toggle = useRef<HTMLButtonElement>(null);
   const drop = useRef<HTMLDivElement>(null);
+  // «See all» grows the dropped lists from the panel; the focus goes to the first of them without scrolling the page.
+  // «Show less» (at the end of the lists): the page goes smoothly back to the panel, then the lists shrink into it
+  // (customer 2026-10-23, option 1). The panel's bottom — «See all» and the rounded corners — rides up on the lists'
+  // shrinking edge as a lid (.scale-lid, a picture: not a button) and ends exactly where the closed panel has it, so
+  // swapping in the closed panel moves nothing. The lists stay mounted, inert, until they are gone. expandMotion.ts.
+  const [closing, setClosing] = useState(false);
   const showAll = (on: boolean) => {
-    flushSync(() => setAll(on));
-    (on ? drop.current?.querySelector('button') : toggle.current)?.focus();
+    if (on) {
+      flushSync(() => setAll(true));
+      if (drop.current) expand(drop.current);
+      drop.current?.querySelector('button')?.focus({ preventScroll: true });
+      return;
+    }
+    const lists = drop.current;
+    const panel = lists?.previousElementSibling; // .scale-top: «See all» is not there while the lists are open
+    if (closing) return;
+    if (!lists || !(panel instanceof HTMLElement)) {
+      flushSync(() => setAll(false));
+      toggle.current?.focus();
+      return;
+    }
+    flushSync(() => setClosing(true));
+    scrollBackTo(panel, () => collapse(lists, () => {
+      flushSync(() => {
+        setClosing(false);
+        setAll(false);
+      });
+      toggle.current?.focus({ preventScroll: true });
+    }));
   };
   return (
     <section className="screen results">
@@ -50,7 +77,7 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
         <span>{S.results.scaleClose}</span>
       </div>
       {top.length > 0 && (
-        <div className={all ? 'panel scale-top open' : 'panel scale-top'}>
+        <div className={all || closing ? 'panel scale-top open' : 'panel scale-top'}>
           <ol className="scale-rows" aria-label={S.results.closest(top.length)}>
             {top.map((r, i) => (
               <li key={r.id}>
@@ -68,8 +95,8 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
           )}
         </div>
       )}
-      {shown && hidden && (
-        <div className="scale-drop" ref={drop}>
+      {(shown || closing) && hidden && (
+        <div className="scale-drop" ref={drop} inert={closing || undefined} aria-hidden={closing || undefined}>
           {rest.length > 0 && (
             <ol className="scale-rows scale-rest" start={HIGHLIGHT + 1}>
               {rest.map((r, i) => (
@@ -105,6 +132,13 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
           )}
         </div>
       )}
+      {closing && (
+        <div className="see-all scale-lid" aria-hidden="true">
+          <span className="btn btn-link skip">{S.results.seeAll}</span>
+        </div>
+      )}
+      {/* At the bottom only «Change answers» (customer 2026-10-23), pinned to the bottom of the screen as on Home: Start
+          over is in the header and the menu, Methodology in the menu; «Answer more questions» is gone. */}
       <div className="sticky-actions push-down">
         <Button block onClick={() => dispatch({ type: 'CHANGE_ANSWERS' })}>
           {S.results.changeAnswers}
