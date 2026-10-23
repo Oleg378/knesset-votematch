@@ -267,7 +267,7 @@
      },
      {
       "lead": "Topic labels were made by a language model",
-      "text": "and checked by other models: the topic right in about 81 % of cases, the side in about 93 %. Later checks removed 1 607 labels, added 632, changed 52 signs and removed 26 522 double counts. Individual mistakes remain."
+      "text": "and checked by other models: on a random sample, the topic was right in about 86 % of cases and the side in about 98 %. Individual mistakes remain."
      },
      {
       "lead": "Checks so far were done by models, not by people.",
