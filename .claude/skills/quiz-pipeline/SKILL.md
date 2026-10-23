@@ -44,7 +44,8 @@ statement or have a decision in `jef/directions/registry.csv` (duplicate / split
 `make check` (pipeline/check_invariants.py) — must print OK before you report a step done or commit an export:
 I1 statements pass the selection · I2 one theme ↔ one statement · I3 no statement on a remainder / technical theme ·
 I4 every passing theme has a statement or a registry decision · I5 no nested pair among statement themes · I6 every bill label on a
-statement theme was label-checked · I7 export = current statements.
+statement theme was label-checked · I7 export = current statements · I8 `export/quiz_texts.json` fits its schema · I9 numbers typed in
+TECHNICAL / WEB_CONTRACT = `export/stats.json` · I10 golden current (texts templates) — see the `release` skill for what to do on each.
 
 ## Customer rules that apply everywhere (see CLAUDE.md)
 

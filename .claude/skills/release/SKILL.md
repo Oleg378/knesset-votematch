@@ -9,6 +9,9 @@ description: Rebuilding and publishing the quiz data after any change — make d
 2. `make data` (positions → export + golden). The export warns if inputs are uncommitted — then go back to 1.
 3. `make check` — must print OK. A statement failing I1 is set to `status=removed` with a dated note (customer rule: remove and
    report, do not ask), registry updated, then `make data` again. I4 FAIL = a theme left without a decision → route it (quiz-pipeline).
+   I8 FAIL = `export/quiz_texts.json` breaks its schema (fix the text; a new placeholder → `web/src/texts.ts` + `cd web && npm run schema:texts`).
+   I9 FAIL = a number typed in `docs/TECHNICAL.md` «Текущее состояние» or a file size in `export/WEB_CONTRACT.md` §1 differs from
+   `export/stats.json` → retype it from `stats.json`. I10 FAIL = golden is stale (a changed `explain` / `notes` / `answers` template) → `make data`.
 4. `make test` (web tests incl. golden: TS port == Python reference).
 5. Commit `export/` and `jef/positions/` separately («Export rebuilt: …»).
 6. **Docs, only what changed**:
@@ -16,6 +19,7 @@ description: Rebuilding and publishing the quiz data after any change — make d
    - `docs/WORKLOG.md` — the step's outcome with numbers; open items under «Открыто»;
    - `docs/TECHNICAL.md` — the funnel / method if the method changed;
    - `export/WEB_CONTRACT.md` §0 — a short dated note for the web (ids added/removed, changed texts/titles/keys, core, sizes; facts only);
-     §6 methodology texts if a listed topic changed status.
+     the `methodology` section of `export/quiz_texts.json` if a topic listed as «not in the quiz» changed status (WEB_CONTRACT §7).
+   - Site texts live only in `export/quiz_texts.json` (contract §7); never in `web/src/strings.ts` or a screen.
 7. Report to the customer: what changed, statements removed (by title), what needs their decision. Never present a step as done while
    `make check` fails.
