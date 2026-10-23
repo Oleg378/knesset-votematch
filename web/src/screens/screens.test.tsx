@@ -13,7 +13,7 @@ import { match } from '../engine/match';
 import type { Answers } from '../engine/types';
 import { S } from '../strings';
 import { bills, core, data, loaded } from '../testSources';
-import { dataValues, fill, T } from '../texts';
+import { dataValues, fill, listsOf, T } from '../texts';
 import { HIGHLIGHT } from '../uiConstants';
 
 const methodology = T.methodology;
@@ -119,8 +119,48 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
       screen.getByText(fill(s.title, v), { exact: false });
       for (const b of s.bullets ?? []) screen.getByText(fill(b.lead, v), { exact: false });
     }
-    screen.getByText(`${v.evaluable} of ${v.lists} lists can be evaluated`, { exact: false });
+    // a bullet reads as one sentence: its lead, a space, its text
+    expect(document.querySelector('.screen')!.textContent).toContain(`${v.evaluable} of ${v.lists} lists can be evaluated`);
     screen.getByRole('heading', { name: fill(methodology.statements.heading, { statements: data.statements.length }) });
+    expect(document.body.textContent).not.toMatch(/[{}]/);
+  });
+
+  it('«Which lists have a record»: the bullets with the numbers, the lists with no record in a panel with «See all»', () => {
+    render(<App loader={loaded()} />);
+    click(S.start.howItWorks);
+    const v = dataValues(data);
+    const section = methodology.sections.find((s) => s.lists)!;
+    expect(section.title).toBe('Which lists have a record.');
+    screen.getByText(section.title);
+    expect(section.bullets).toHaveLength(3);
+    for (const b of section.bullets!) screen.getByText(fill(b.lead, v), { exact: false });
+    screen.getByText(`${v.no_record} lists have no record`, { exact: false });
+    screen.getByText(`${v.single} ${v.single === 1 ? 'list' : 'lists'} with a single former member`, { exact: false });
+    // the lists: those with no former member of the Knesset, in the order of quiz_data
+    expect(section.lists!.of).toBe('no_record');
+    const names = data.lists.filter((l) => l.status === 'not_evaluated').map((l) => l.name_en);
+    expect(names.length).toBe(v.no_record);
+    expect(listsOf(data, 'no_record').map((l) => l.name_en)).toEqual(names);
+    expect(names.length).toBeGreaterThan(HIGHLIGHT);
+    const title = fill(section.lists!.title, { n: names.length });
+    expect(title).toBe(`No record in the Knesset (${names.length})`);
+    const shown = () => screen.getAllByRole('list', { name: title }).flatMap((ul) =>
+      within(ul).getAllByRole('listitem').map((li) => li.textContent));
+    expect(shown()).toEqual(names.slice(0, HIGHLIGHT));
+    expect(screen.queryByRole('button', { name: S.results.seeLess })).toBeNull();
+    const more = screen.getByRole('button', { name: S.results.seeAll });
+    expect(more.getAttribute('aria-expanded')).toBe('false');
+    // nothing to press per list: the only buttons of the block are «See all» / «Show less»
+    expect(within(document.querySelector('.list-names')!).getAllByRole('button')).toEqual([more]);
+    fireEvent.click(more);
+    expect(shown()).toEqual(names);
+    expect(screen.queryByRole('button', { name: S.results.seeAll })).toBeNull();
+    const less = screen.getByRole('button', { name: S.results.seeLess });
+    expect(document.querySelector('.list-names .scale-drop > :last-child')!.contains(less)).toBe(true);
+    fireEvent.click(less);
+    expect(shown()).toEqual(names.slice(0, HIGHLIGHT));
+    expect(document.querySelector('.list-names .scale-drop')).toBeNull();
+    expect(document.activeElement).toBe(screen.getByRole('button', { name: S.results.seeAll }));
     expect(document.body.textContent).not.toMatch(/[{}]/);
   });
 

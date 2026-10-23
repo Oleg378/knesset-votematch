@@ -4,7 +4,8 @@ import textsRaw from '@export/quiz_texts.json';
 import schemaOnDisk from '@export/quiz_texts.schema.json';
 import { data } from './testSources';
 import {
-  DATA_PLACEHOLDERS, dataValues, fill, parseTexts, PLACEHOLDERS, STATEMENT_PLACEHOLDERS, STEP_PLACEHOLDERS, T,
+  DATA_PLACEHOLDERS, dataValues, fill, parseTexts, PLACEHOLDERS, SECTION_LISTS_PLACEHOLDERS, STATEMENT_PLACEHOLDERS,
+  STEP_PLACEHOLDERS, T,
   templatePattern, TextsSchema, type Texts,
 } from './texts';
 import { jsonSchema } from './textsJsonSchema';
@@ -28,6 +29,7 @@ function allTemplates(t: Texts): [string, string, readonly string[]][] {
     out.push([`methodology.sections.${i}.title`, s.title, []]);
     if (s.text !== undefined) out.push([`methodology.sections.${i}.text`, s.text, DATA_PLACEHOLDERS]);
     if (s.after !== undefined) out.push([`methodology.sections.${i}.after`, s.after, DATA_PLACEHOLDERS]);
+    if (s.lists) out.push([`methodology.sections.${i}.lists.title`, s.lists.title, SECTION_LISTS_PLACEHOLDERS]);
     s.bullets?.forEach((b, j) => out.push(
       [`methodology.sections.${i}.bullets.${j}.lead`, b.lead, DATA_PLACEHOLDERS],
       [`methodology.sections.${i}.bullets.${j}.text`, b.text, DATA_PLACEHOLDERS],
@@ -66,8 +68,9 @@ describe('quiz_texts.json', () => {
 
   it('the methodology sections fill with the numbers of quiz_data', () => {
     const v = dataValues(data);
+    // a bullet as shown: its lead, a space, its text
     const texts = T.methodology.sections.flatMap((s) =>
-      [s.text, s.after, ...(s.bullets ?? []).flatMap((b) => [b.lead, b.text])].filter((x): x is string => !!x));
+      [s.text, s.after, ...(s.bullets ?? []).map((b) => `${b.lead} ${b.text}`)].filter((x): x is string => !!x));
     const filled = texts.map((t) => fill(t, v)).join('\n');
     expect(filled).not.toMatch(/[{}]/);
     expect(filled).toContain(`${v.evaluable} of ${v.lists} lists can be evaluated`);
@@ -84,6 +87,16 @@ describe('quiz_texts.json', () => {
       .toBe(false);
     expect(ok((t) => ({ ...t, start: { ...t.start, steps: ['{n}', '{top}', '{total}'] } }))).toBe(false);
     expect(ok((t) => ({ ...t, methodology: { ...t.methodology, sections: [{ title: 'T', text: '{nonsense}' }] } }))).toBe(false);
+    // a section's lists: `of` from the enum, the title takes only {n}
+    const listsSection = (lists: unknown) => (t: Texts) =>
+      ({ ...t, methodology: { ...t.methodology, sections: [{ title: 'T', text: 'x', lists }] } });
+    expect(ok(listsSection({ of: 'no_record', title: 'No record ({n})' }))).toBe(true);
+    expect(ok(listsSection({ of: 'single', title: '{n} {n?list|lists}' }))).toBe(true);
+    expect(ok(listsSection({ of: 'nonsense', title: 'No record ({n})' }))).toBe(false);
+    expect(ok(listsSection({ of: 'no_record', title: 'No record ({x})' }))).toBe(false);
+    expect(ok(listsSection({ of: 'no_record', title: 'No record ({lists})' }))).toBe(false);
+    expect(ok(listsSection({ of: 'no_record' }))).toBe(false);
+    expect(ok(listsSection({ of: 'no_record', title: 'T', extra: 1 }))).toBe(false);
     // a stray brace
     expect(ok((t) => ({ ...t, results: { ...t.results, basedOn: 'Based on {n of {total}' } }))).toBe(false);
     expect(ok((t) => ({ ...t, nav: { ...t.nav, next: 'Next }' } }))).toBe(false);

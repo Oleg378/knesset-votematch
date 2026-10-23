@@ -3,9 +3,10 @@ import { Accordion } from '../components/Accordion';
 import { Button } from '../components/Button';
 import { ExternalLink } from '../components/ExternalLink';
 import { HebrewTitle } from '../components/HebrewTitle';
+import { ListNames } from '../components/ListNames';
 import { billUrl } from '../engine/report';
 import type { BillRef, QuizBills, QuizData, Statement } from '../engine/types';
-import { dataValues, fill, T, type Texts } from '../texts';
+import { dataValues, fill, listsOf, T, type SectionLists as SectionListsSpec, type Texts } from '../texts';
 import type { BillsScreenProps } from './types';
 
 const PAGE = 20;
@@ -65,10 +66,17 @@ function StatementBody({ data, bills, st, names, t }: { data: QuizData; bills: Q
   );
 }
 
+/** A section's `lists`: the names of the lists it selects, under its title ({n} = how many); none — nothing. */
+function SectionLists({ data, of, title }: { data: QuizData; of: SectionListsSpec['of']; title: string }) {
+  const lists = listsOf(data, of);
+  if (!lists.length) return null;
+  return <ListNames title={fill(title, { n: lists.length })} names={lists.map((l) => l.name_en)} />;
+}
+
 /**
  * Every text here comes from `methodology` in quiz_texts.json (export/WEB_CONTRACT.md §7): the heading, the sections
- * (bold run-in title, text, bullets with an italic lead, a closing paragraph) and the labels of the statements block. The
- * numbers are filled from quiz_data (texts.ts).
+ * (bold run-in title, text, bullets with an italic lead, a closing paragraph, the names of some lists) and the labels
+ * of the statements block. The numbers are filled from quiz_data (texts.ts).
  */
 export function MethodologyScreen({ data, bills, dispatch }: BillsScreenProps) {
   const methodology = T.methodology;
@@ -97,6 +105,7 @@ export function MethodologyScreen({ data, bills, dispatch }: BillsScreenProps) {
               </ul>
             )}
             {s.after !== undefined && <p>{fill(s.after, v)}</p>}
+            {s.lists && <SectionLists data={data} of={s.lists.of} title={s.lists.title} />}
           </div>
         ))}
       </div>

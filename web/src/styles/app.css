@@ -659,6 +659,41 @@ button.card:active {
   margin-top: calc(var(--space-4) + var(--space-1));
 }
 
+/* Names of lists (Methodology, a section's `lists`; ListNames.tsx): the Results panel, its drop and its lid (.scale-top,
+   .scale-drop, .scale-lid above), with plain rows — the name only, Label/Medium (as .list-row), on the light band of a
+   list on Results, no rank, scale line or arrow (nothing to press). The block keeps the screen gap (16) between the
+   panel, the dropped names and the lid, which the negative margins of .scale-drop and .scale-lid take back, as on
+   Results; 16 above it (8 of the section's stack + 8). The title on the 14 px text inset, 16 above the first band. */
+.list-names {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-top: var(--space-2);
+}
+
+.list-names-title {
+  padding-block: var(--space-2);
+}
+
+.list-names-rows {
+  list-style: none;
+  margin: 0 calc(var(--space-2) - var(--panel-pad-x));
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-label);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text);
+}
+
+.list-names-rows > li {
+  padding: var(--space-3) calc(var(--panel-pad-x) - var(--space-2));
+  border-radius: calc(var(--radius-scale) - var(--space-2));
+  background: var(--color-row-band);
+}
+
 .scale-rows {
   list-style: none;
   margin: 0;

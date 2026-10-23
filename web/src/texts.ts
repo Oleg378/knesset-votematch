@@ -50,6 +50,9 @@ export const STATEMENT_PLACEHOLDERS = {
   dataVersion: ['generated', 'commit'],
 } as const;
 
+/** Placeholders of the title of a section's list of lists (`lists.title`: n = how many lists it names). */
+export const SECTION_LISTS_PLACEHOLDERS = ['n'] as const;
+
 /** Placeholders of each item of `start.steps` (n = planned statements, top = lists highlighted on Results). */
 export const STEP_PLACEHOLDERS = ['n', 'top'] as const;
 
@@ -209,6 +212,15 @@ export const SectionSchema = z.strictObject({
   bullets: z.optional(z.array(BulletSchema).check(z.minLength(1))),
   /** A paragraph after the bullets. */
   after: z.optional(sectionText),
+  /**
+   * The names of some lists after the bullets (and after `after`), under `title` ({n} = how many): `no_record` — the
+   * lists with no former member of the Knesset (not evaluated); `single` — evaluated with fewer than `MIN_EX_MKS`
+   * former members (shown, not ranked). In the order of quiz_data.
+   */
+  lists: z.optional(z.strictObject({
+    of: z.enum(['no_record', 'single']),
+    title: template(SECTION_LISTS_PLACEHOLDERS),
+  })),
 });
 
 const answerKeys = { '2': plain, '1': plain, '0': plain, '-1': plain, '-2': plain };
@@ -246,6 +258,7 @@ export const TextsSchema = z.strictObject({
 
 export type Texts = z.infer<typeof TextsSchema>;
 export type Section = z.infer<typeof SectionSchema>;
+export type SectionLists = NonNullable<Section['lists']>;
 
 export const parseTexts = (value: unknown): Texts => z.parse(TextsSchema, value);
 
@@ -263,16 +276,23 @@ export function fill(text: string, values: Values): string {
   });
 }
 
+/** The lists a section names (`lists.of`), in the order of quiz_data — the same groups `single` and `no_record` count. */
+export function listsOf(data: QuizData, of: SectionLists['of']): QuizData['lists'] {
+  return of === 'no_record'
+    ? data.lists.filter((l) => l.status === 'not_evaluated')
+    : data.lists.filter((l) => l.status !== 'not_evaluated' && l.ex_mks < data.params.MIN_EX_MKS);
+}
+
 /** The numbers of DATA_PLACEHOLDERS, from quiz_data. */
 export function dataValues(data: QuizData): Record<(typeof DATA_PLACEHOLDERS)[number], number> {
   const p = data.params;
-  const evaluated = data.lists.filter((l) => l.status !== 'not_evaluated');
-  const evaluable = evaluated.filter((l) => l.ex_mks >= p.MIN_EX_MKS).length;
+  const single = listsOf(data, 'single').length;
+  const noRecord = listsOf(data, 'no_record').length;
   return {
     lists: data.lists.length,
-    evaluable,
-    single: evaluated.length - evaluable,
-    no_record: data.lists.length - evaluated.length,
+    evaluable: data.lists.length - single - noRecord,
+    single,
+    no_record: noRecord,
     close: p.CLOSE,
     statements: data.statements.length,
     core: data.flow.core,

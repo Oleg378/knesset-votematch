@@ -179,6 +179,28 @@
     ]
    },
    {
+    "title": "Which lists have a record.",
+    "text": "Only the Knesset record of former members (24th–25th Knesset) is used. New candidates and platforms are not seen.",
+    "bullets": [
+     {
+      "lead": "{evaluable} of {lists} lists",
+      "text": "can be evaluated."
+     },
+     {
+      "lead": "{single} {single?list|lists} with a single former member",
+      "text": "{single?is|are} shown but not ranked."
+     },
+     {
+      "lead": "{no_record} {no_record?list has|lists have} no record",
+      "text": "and {no_record?is|are} not shown in the results."
+     }
+    ],
+    "lists": {
+     "of": "no_record",
+     "title": "No record in the Knesset ({n})"
+    }
+   },
+   {
     "title": "The answer scale.",
     "text": "Closeness compares directions, not intensity.",
     "bullets": [
@@ -208,10 +230,6 @@
       "text": "The list has a position on less than half of your answers: shown below the others, not ranked."
      },
      {
-      "lead": "Lists without any former member",
-      "text": "have no record in the Knesset and are not shown."
-     },
-     {
       "lead": "Your answers are not stored.",
       "text": "They never leave your device."
      }
@@ -239,10 +257,6 @@
     "title": "Limitations — what this quiz can and cannot tell you.",
     "text": "The quiz is an orientation, not a precise measurement.",
     "bullets": [
-     {
-      "lead": "Only the Knesset record of former members",
-      "text": "(24th–25th Knesset). New candidates and platforms are not seen. {evaluable} of {lists} lists can be evaluated; {single} {single?list|lists} with a single former member {single?is|are} shown but not ranked; {no_record} {no_record?list has|lists have} no record."
-     },
      {
       "lead": "Ministers and prime ministers sponsor few bills.",
       "text": "A list led by them is measured mostly by its other former members and by votes."

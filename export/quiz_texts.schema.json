@@ -812,6 +812,28 @@
         "type": "string",
         "minLength": 1,
         "pattern": "^(?:[^{}]|\\{(?:lists|evaluable|single|no_record|close|statements|core|clarify|vote_ratio|min_lists|min_mks|min_spread|min_names|min_ex_mks)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+       },
+       "lists": {
+        "type": "object",
+        "properties": {
+         "of": {
+          "type": "string",
+          "enum": [
+           "no_record",
+           "single"
+          ]
+         },
+         "title": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?:[^{}]|\\{(?:n)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+         }
+        },
+        "required": [
+         "of",
+         "title"
+        ],
+        "additionalProperties": false
        }
       },
       "required": [
