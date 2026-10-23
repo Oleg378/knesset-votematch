@@ -1,23 +1,23 @@
-import { useId, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { flushSync } from 'react-dom';
 import { collapse, expand, scrollBackTo } from '../expandMotion';
 import { S } from '../strings';
 import { HIGHLIGHT } from '../uiConstants';
 
 interface Props {
-  /** Already filled («No record in the Knesset (22)»). */
-  title: string;
+  /** Id of the line that names the lists («22 lists have no record…»), drawn by the caller as the last bullet. */
+  labelledBy: string;
   names: string[];
 }
 
 /**
- * Names of lists in a panel, as the Results panel (ResultsScreen.tsx) — Methodology, a section's `lists`: the title
- * line and the first HIGHLIGHT names, the rest drop down from the panel with «See all» and go back into it with «Show
- * less» at their end, the same motion and the same lid (expandMotion.ts, app.css «Results» and «Names of lists»).
- * A row is the name only: nothing to press. With HIGHLIGHT names or fewer, all are in the panel and there is no button.
+ * Names of lists inside a Methodology section card (a section's `lists`, customer 2026-10-24): the first HIGHLIGHT
+ * names, the rest drop down inside the card with «See all» and go back with «Show less» at their end — the motion of
+ * the Results panel (expandMotion.ts); while they close, a lid with «See all» stands under them where the button will
+ * be. «Show less» first scrolls back to the line that names the lists. A row is the name only: nothing to press. With
+ * HIGHLIGHT names or fewer, all are shown and there is no button. Styles: app.css «Names of lists».
  */
-export function ListNames({ title, names }: Props) {
-  const id = useId();
+export function ListNames({ labelledBy, names }: Props) {
   const top = names.slice(0, HIGHLIGHT);
   const rest = names.slice(HIGHLIGHT);
   const [all, setAll] = useState(false);
@@ -33,15 +33,15 @@ export function ListNames({ title, names }: Props) {
       return;
     }
     const lists = drop.current;
-    const panel = lists?.previousElementSibling;
+    const label = document.getElementById(labelledBy);
     if (closing) return;
-    if (!lists || !(panel instanceof HTMLElement)) {
+    if (!lists || !label) {
       flushSync(() => setAll(false));
       toggle.current?.focus();
       return;
     }
     flushSync(() => setClosing(true));
-    scrollBackTo(panel, () => collapse(lists, () => {
+    scrollBackTo(label, () => collapse(lists, () => {
       flushSync(() => {
         setClosing(false);
         setAll(false);
@@ -53,21 +53,18 @@ export function ListNames({ title, names }: Props) {
   const row = (name: string, i: number) => <li key={i}>{name}</li>;
   return (
     <div className="list-names">
-      <div className={all || closing ? 'panel scale-top open' : 'panel scale-top'}>
-        <p className="title-sm list-names-title" id={id}>{title}</p>
-        <ul className="list-names-rows" aria-labelledby={id}>{top.map(row)}</ul>
-        {rest.length > 0 && !all && (
-          <div className="see-all">
-            <button type="button" ref={toggle} className="btn btn-link skip" aria-expanded="false"
-              onClick={() => showAll(true)}>
-              {S.results.seeAll}
-            </button>
-          </div>
-        )}
-      </div>
-      {(all || closing) && rest.length > 0 && (
-        <div className="scale-drop" ref={drop} inert={closing || undefined} aria-hidden={closing || undefined}>
-          <ul className="list-names-rows" aria-labelledby={id} tabIndex={-1}>{rest.map(row)}</ul>
+      <ul className="list-names-rows" aria-labelledby={labelledBy}>{top.map(row)}</ul>
+      {rest.length > 0 && !all && (
+        <div className="see-all">
+          <button type="button" ref={toggle} className="btn btn-link skip" aria-expanded="false"
+            onClick={() => showAll(true)}>
+            {S.results.seeAll}
+          </button>
+        </div>
+      )}
+      {all && rest.length > 0 && (
+        <div className="list-names-drop" ref={drop} inert={closing || undefined} aria-hidden={closing || undefined}>
+          <ul className="list-names-rows" aria-labelledby={labelledBy} tabIndex={-1}>{rest.map(row)}</ul>
           <div className="see-all">
             <button type="button" className="btn btn-link skip" aria-expanded="true" onClick={() => showAll(false)}>
               {S.results.seeLess}
@@ -76,7 +73,7 @@ export function ListNames({ title, names }: Props) {
         </div>
       )}
       {closing && (
-        <div className="see-all scale-lid" aria-hidden="true">
+        <div className="see-all" aria-hidden="true">
           <span className="btn btn-link skip">{S.results.seeAll}</span>
         </div>
       )}

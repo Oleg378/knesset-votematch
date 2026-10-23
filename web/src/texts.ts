@@ -213,9 +213,10 @@ export const SectionSchema = z.strictObject({
   /** A paragraph after the bullets. */
   after: z.optional(sectionText),
   /**
-   * The names of some lists after the bullets (and after `after`), under `title` ({n} = how many): `no_record` — the
-   * lists with no former member of the Knesset (not evaluated); `single` — evaluated with fewer than `MIN_EX_MKS`
-   * former members (shown, not ranked). In the order of quiz_data.
+   * The names of some lists, after the bullets and before `after`: `title` ({n} = how many) is drawn as the last
+   * bullet, the names under it, inside the section's card. `no_record` — the lists with no former member of the
+   * Knesset (not evaluated); `single` — evaluated with fewer than `MIN_EX_MKS` former members (shown, not ranked). In
+   * the order of quiz_data.
    */
   lists: z.optional(z.strictObject({
     of: z.enum(['no_record', 'single']),

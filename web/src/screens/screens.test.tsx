@@ -110,57 +110,64 @@ describe('start', () => {
 });
 
 describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () => {
-  it('shows the file\'s heading, every section title and lead, and the numbers filled from quiz_data', () => {
+  it('shows the file\'s heading, every section as a card with its title and leads, and the numbers filled from quiz_data', () => {
     render(<App loader={loaded()} />);
     click(S.start.howItWorks);
     screen.getByRole('heading', { name: methodology.heading });
     const v = dataValues(data);
     for (const s of methodology.sections) {
-      screen.getByText(fill(s.title, v), { exact: false });
-      for (const b of s.bullets ?? []) screen.getByText(fill(b.lead, v), { exact: false });
+      // every section is a card (the panel of the question card): its title, its bullets and its closing paragraph in it
+      const card = screen.getByText(fill(s.title, v), { exact: false }).closest('.panel');
+      expect(card).not.toBeNull();
+      for (const b of s.bullets ?? []) within(card as HTMLElement).getByText(fill(b.lead, v), { exact: false });
+      if (s.after !== undefined) within(card as HTMLElement).getByText(fill(s.after, v));
     }
+    expect(document.querySelectorAll('.screen .panel')).toHaveLength(methodology.sections.length);
     // a bullet reads as one sentence: its lead, a space, its text
     expect(document.querySelector('.screen')!.textContent).toContain(`${v.evaluable} of ${v.lists} lists can be evaluated`);
     screen.getByRole('heading', { name: fill(methodology.statements.heading, { statements: data.statements.length }) });
     expect(document.body.textContent).not.toMatch(/[{}]/);
   });
 
-  it('«Which lists have a record»: the bullets with the numbers, the lists with no record in a panel with «See all»', () => {
+  it('«Which lists have a record»: the bullets with the numbers, the lists with no record dropping down in its card', () => {
     render(<App loader={loaded()} />);
     click(S.start.howItWorks);
     const v = dataValues(data);
     const section = methodology.sections.find((s) => s.lists)!;
     expect(section.title).toBe('Which lists have a record.');
-    screen.getByText(section.title);
-    expect(section.bullets).toHaveLength(3);
-    for (const b of section.bullets!) screen.getByText(fill(b.lead, v), { exact: false });
-    screen.getByText(`${v.no_record} lists have no record`, { exact: false });
-    screen.getByText(`${v.single} ${v.single === 1 ? 'list' : 'lists'} with a single former member`, { exact: false });
+    const card = screen.getByText(section.title).closest('.panel') as HTMLElement;
+    expect(card).not.toBeNull();
+    for (const b of section.bullets!) within(card).getByText(fill(b.lead, v), { exact: false });
+    within(card).getByText(`${v.single} ${v.single === 1 ? 'list' : 'lists'} with a single former member`, { exact: false });
     // the lists: those with no former member of the Knesset, in the order of quiz_data
     expect(section.lists!.of).toBe('no_record');
     const names = data.lists.filter((l) => l.status === 'not_evaluated').map((l) => l.name_en);
     expect(names.length).toBe(v.no_record);
     expect(listsOf(data, 'no_record').map((l) => l.name_en)).toEqual(names);
     expect(names.length).toBeGreaterThan(HIGHLIGHT);
-    const title = fill(section.lists!.title, { n: names.length });
-    expect(title).toBe(`No record in the Knesset (${names.length})`);
-    const shown = () => screen.getAllByRole('list', { name: title }).flatMap((ul) =>
+    // the line that names them is the last bullet of the card, with the count from the data
+    const line = fill(section.lists!.title, { n: names.length });
+    expect(line).toBe(`${names.length} lists have no record and are not shown in the results.`);
+    const bullets = within(card).getAllByRole('listitem').filter((li) => li.closest('.method-bullets'));
+    expect(bullets).toHaveLength(section.bullets!.length + 1);
+    expect(bullets.at(-1)!.textContent).toBe(line);
+    const shown = () => within(card).getAllByRole('list', { name: line }).flatMap((ul) =>
       within(ul).getAllByRole('listitem').map((li) => li.textContent));
     expect(shown()).toEqual(names.slice(0, HIGHLIGHT));
     expect(screen.queryByRole('button', { name: S.results.seeLess })).toBeNull();
-    const more = screen.getByRole('button', { name: S.results.seeAll });
+    const more = within(card).getByRole('button', { name: S.results.seeAll });
     expect(more.getAttribute('aria-expanded')).toBe('false');
-    // nothing to press per list: the only buttons of the block are «See all» / «Show less»
-    expect(within(document.querySelector('.list-names')!).getAllByRole('button')).toEqual([more]);
+    // nothing to press per list: the only buttons of the card are «See all» / «Show less»
+    expect(within(card).getAllByRole('button')).toEqual([more]);
     fireEvent.click(more);
     expect(shown()).toEqual(names);
     expect(screen.queryByRole('button', { name: S.results.seeAll })).toBeNull();
-    const less = screen.getByRole('button', { name: S.results.seeLess });
-    expect(document.querySelector('.list-names .scale-drop > :last-child')!.contains(less)).toBe(true);
+    const less = within(card).getByRole('button', { name: S.results.seeLess });
+    expect(card.querySelector('.list-names-drop > :last-child')!.contains(less)).toBe(true);
     fireEvent.click(less);
     expect(shown()).toEqual(names.slice(0, HIGHLIGHT));
-    expect(document.querySelector('.list-names .scale-drop')).toBeNull();
-    expect(document.activeElement).toBe(screen.getByRole('button', { name: S.results.seeAll }));
+    expect(card.querySelector('.list-names-drop')).toBeNull();
+    expect(document.activeElement).toBe(within(card).getByRole('button', { name: S.results.seeAll }));
     expect(document.body.textContent).not.toMatch(/[{}]/);
   });
 

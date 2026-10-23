@@ -659,20 +659,24 @@ button.card:active {
   margin-top: calc(var(--space-4) + var(--space-1));
 }
 
-/* Names of lists (Methodology, a section's `lists`; ListNames.tsx): the Results panel, its drop and its lid (.scale-top,
-   .scale-drop, .scale-lid above), with plain rows — the name only, Label/Medium (as .list-row), on the light band of a
-   list on Results, no rank, scale line or arrow (nothing to press). The block keeps the screen gap (16) between the
-   panel, the dropped names and the lid, which the negative margins of .scale-drop and .scale-lid take back, as on
-   Results; 16 above it (8 of the section's stack + 8). The title on the 14 px text inset, 16 above the first band. */
+/* How it works (MethodologyScreen.tsx; customer 2026-10-24): every section is a card — the panel of the question card
+   (Brand / Tint 10%, radius 24, padding 20 / 14) — its paragraph, bullets and closing paragraph 8 apart, as the
+   section's stack was; the cards 16 apart (.stack-lg, the screen gap). */
+.method-card {
+  gap: var(--space-2);
+}
+
+/* Names of lists (a section's `lists`; ListNames.tsx), inside its card under the line that names them (the last
+   bullet): the name only, Label/Medium (as .list-row), on the light band of a list in the Results panel — the same
+   tint under it, so the same band — no rank, scale line or arrow (nothing to press). The bands stand 8 from the card's
+   edge, their corners concentric with the card's (24 − 8), 8 apart; the text on the card's 14 px inset. «See all» 4
+   under the last band; the rest drops down inside the card (8 above the first of them, as between bands, in the
+   drop's own padding so that it closes to nothing), «Show less» 4 under the last; while it closes, a lid with «See
+   all» stands under it where the button will be. When the names end the card, its bottom padding is 4 under «See all»,
+   as in the Results panel. */
 .list-names {
   display: flex;
   flex-direction: column;
-  gap: var(--space-4);
-  margin-top: var(--space-2);
-}
-
-.list-names-title {
-  padding-block: var(--space-2);
 }
 
 .list-names-rows {
@@ -690,8 +694,22 @@ button.card:active {
 
 .list-names-rows > li {
   padding: var(--space-3) calc(var(--panel-pad-x) - var(--space-2));
-  border-radius: calc(var(--radius-scale) - var(--space-2));
+  border-radius: calc(var(--radius-lg) - var(--space-2));
   background: var(--color-row-band);
+}
+
+.list-names .see-all {
+  margin-top: var(--space-1);
+}
+
+.list-names-drop {
+  display: flex;
+  flex-direction: column;
+  padding-top: var(--space-2);
+}
+
+.method-card > .list-names:last-child {
+  margin-bottom: calc(var(--space-1) - var(--space-20));
 }
 
 .scale-rows {

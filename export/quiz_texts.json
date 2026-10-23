@@ -189,15 +189,11 @@
      {
       "lead": "{single} {single?list|lists} with a single former member",
       "text": "{single?is|are} shown but not ranked."
-     },
-     {
-      "lead": "{no_record} {no_record?list has|lists have} no record",
-      "text": "and {no_record?is|are} not shown in the results."
      }
     ],
     "lists": {
      "of": "no_record",
-     "title": "No record in the Knesset ({n})"
+     "title": "{n} {n?list has|lists have} no record and {n?is|are} not shown in the results."
     }
    },
    {
