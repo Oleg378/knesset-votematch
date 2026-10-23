@@ -16,3 +16,4 @@ web/dist/
 
 # research, drafts, logs, old approaches: kept locally, not in git
 local/
+*.tsbuildinfo
