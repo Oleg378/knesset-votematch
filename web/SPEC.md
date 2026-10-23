@@ -1,5 +1,8 @@
 # web/ — product spec
 
+_The screens still read `quiz_data.v1.json` (every statement in file order); the engine, the state machine and the loader are on the
+current contract and pass `golden.v2.json` — wiring the screens is the next step, on the machine with the visual work._
+
 Static SPA. Input: the three data files of `export/` (`quiz_core`, `quiz_data`, `quiz_bills`; contract and loading order —
 `export/WEB_CONTRACT.md`; page texts — `export/METHODOLOGY_PAGE.md`). Reference behaviour: `pipeline/quiz_cli.py` (run it to
 see the flow) and `pipeline/quiz_report.py` (explanations). How everything is computed: `docs/TECHNICAL.md`.

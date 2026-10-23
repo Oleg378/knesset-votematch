@@ -12,8 +12,9 @@ React + Vite + TypeScript, static SPA (no server, no Next.js). Talk to the custo
 - **Edit only `web/` and `.github/`.** `pipeline/`, `export/`, `jef/`, `docs/`, `manual/`, `research/` belong to the data
   session: do not edit, do not commit their changes (they are often uncommitted in the working tree — leave them).
 - Missing or wrong data → write it in `DATA_REQUESTS.md` and tell the customer. Never patch `../export/*` by hand.
-- Data: `../export/` only; the contract and loading order — `../export/WEB_CONTRACT.md`, page texts — `../export/METHODOLOGY_PAGE.md`. The web
-  reads the three current files (`quiz_core` bundled, `quiz_data` and `quiz_bills` fetched — `src/data.ts`).
+- Data: `../export/` only; the contract and loading order — `../export/WEB_CONTRACT.md`, page texts — `../export/METHODOLOGY_PAGE.md`. The engine,
+  the state and the loader (`src/engine/`, `src/state/`, `src/data.ts`) are on the three current files; the screens still read
+  `quiz_data.v1.json` and are wired on the machine with the visual work — the customer's call.
 
 ## Design: Figma first
 - **A screen that has a Figma mockup is built exactly as the mockup**: texts, number of answers, buttons, progress,

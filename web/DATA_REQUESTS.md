@@ -2,7 +2,7 @@
 
 Requests from the front end to the data side (pipeline/, export/). The web session never edits export/ itself.
 
-**Status 2026-10-23:** everything below is answered or superseded by `export/WEB_CONTRACT.md` and `export/METHODOLOGY_PAGE.md`; the web reads the three current data files (contract §1), ports the question order and the v2 explanations, and passes `golden.v2.json` (items 4, 6, 9, 11 done; 12 — the votes group — and the methodology texts of 10 are still to show). New requests go above this line.
+**Status 2026-10-23:** everything below is answered or superseded by `export/WEB_CONTRACT.md` and `export/METHODOLOGY_PAGE.md`; the engine, state and loader are on the three current data files (contract §1), the question order and the v2 explanations are ported and pass `golden.v2.json` (items 4, 6, 9, 11 in the logic); the screens are not wired yet (customer's decision, visual work on another machine); 12 — the votes group — and the methodology texts of 10 are still to show. New requests go above this line.
 
 ## 1. Stray space in a list name (2026-10-17) [answered]
 `lists[].name_en` for Likud: `"Likud , headed by Binyamin Netanyahu for Prime Minister"` — space before the comma. The web

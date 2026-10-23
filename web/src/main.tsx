@@ -9,7 +9,7 @@ import '@fontsource/fraunces/latin-400.css';
 import './styles/tokens.css';
 import './styles/app.css';
 
-// The app chunk (with the ~2 KB quiz_core) loads behind a light fallback; the bigger data files are fetched by the app.
+// The app chunk carries the bundled data (export/quiz_data.v1.json, ~1.8 MB); show a light fallback meanwhile.
 const App = lazy(() => import('./App'));
 
 createRoot(document.getElementById('root')!).render(

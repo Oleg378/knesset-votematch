@@ -51,7 +51,6 @@ export const S = {
   // Texts of the Figma mockups (Home, Menu, Questions, Clarifying question), verbatim except the real statement count.
   eyebrow: 'Knesset election 2026', // shown upper-case by CSS
   loading: 'Loading…',
-  loadError: 'The data could not be loaded. Please reload the page.',
   start: {
     title: 'Find your vote match',
     tagline: 'Parties judged by votes, not promises',
@@ -76,13 +75,10 @@ export const S = {
   },
   question: {
     progress: (n: number, total: number) => `${n}/${total}`,
-    /** Beyond the fixed number of questions («Answer more questions»): the number alone, as quiz_cli.py. */
-    progressMore: (n: number) => `${n}`,
     progressLabel: 'Progress',
     or: 'or',
     skip: 'Not sure — skip this question',
     noAnswers: 'No answers — nothing to compute.',
-    noMore: 'No more questions.',
     answersLabel: 'Your answer',
   },
   answers: {
@@ -108,8 +104,8 @@ export const S = {
   results: {
     heading: 'Your result',
     intro: 'All lists by closeness to your answers (from −1 to +1).',
-    basedOn: (n: number, withTrade: boolean) => `Based on ${n} answers${withTrade ? ', including trade-offs' : ''}.`,
-    answerMore: 'Answer more questions',
+    basedOn: (n: number, total: number, withTrade: boolean) =>
+      `Based on ${n} of ${total} answers${withTrade ? ', including trade-offs' : ''}.`,
     notRanked: 'Not ranked',
     noRecord: (n: number) => `No record in the Knesset (${n})`,
     notComputable: '—',

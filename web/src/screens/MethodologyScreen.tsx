@@ -3,19 +3,19 @@ import { Accordion } from '../components/Accordion';
 import { Button } from '../components/Button';
 import { ExternalLink } from '../components/ExternalLink';
 import { HebrewTitle } from '../components/HebrewTitle';
-import { billUrl, type BillRef, type BillsFile, type QuizData, type Statement } from '../engine/types';
+import type { BillRef, QuizData, Statement } from '../engine/types';
 import { S } from '../strings';
 import type { ScreenProps } from './types';
 
 const PAGE = 20;
 const M = S.methodology;
 
-function MethodBill({ data, bills, ref_: [id, sign, role], names }: { data: QuizData; bills: BillsFile; ref_: BillRef;
+function MethodBill({ data, ref_: [id, sign, role], names }: { data: QuizData; ref_: BillRef;
   names: Map<string, string> }) {
-  const b = bills.bills[id]!;
+  const b = data.bills[id]!;
   const order = new Map(data.lists.map((l, i) => [l.id, i]));
   // Sponsoring lists: sponsors -> mks[].list, in the order of data.lists.
-  const lists = [...new Set(b.sponsors.map((m) => bills.mks[m]?.list).filter((x): x is string => !!x))]
+  const lists = [...new Set(b.sponsors.map((m) => data.mks[m]?.list).filter((x): x is string => !!x))]
     .sort((x, y) => (order.get(x) ?? 0) - (order.get(y) ?? 0));
   return (
     <li className="bill">
@@ -24,16 +24,15 @@ function MethodBill({ data, bills, ref_: [id, sign, role], names }: { data: Quiz
       <span className="small">
         {lists.length ? M.sponsoringLists(lists.map((l) => names.get(l) ?? l).join('; ')) : M.noSponsors}
       </span>
-      <ExternalLink href={billUrl(data.params, id)}>{S.bills.link}</ExternalLink>
+      <ExternalLink href={b.url}>{S.bills.link}</ExternalLink>
     </li>
   );
 }
 
-function StatementBody({ data, bills, st, names }: { data: QuizData; bills: BillsFile; st: Statement;
-  names: Map<string, string> }) {
+function StatementBody({ data, st, names }: { data: QuizData; st: Statement; names: Map<string, string> }) {
   const [n, setN] = useState(PAGE);
   const dir = data.directions[st.d];
-  const refs = bills.by_direction[st.d] ?? [];
+  const bills = data.by_direction[st.d] ?? [];
   return (
     <>
       <p>{`“${st.statement_en}”`}</p>
@@ -45,24 +44,22 @@ function StatementBody({ data, bills, st, names }: { data: QuizData; bills: Bill
           <span className="muted">{M.agreeMeans(st.key > 0)}</span>
         </div>
       )}
-      <span className="title-sm">{M.billsCount(refs.length)}</span>
+      <span className="title-sm">{M.billsCount(bills.length)}</span>
       <ul className="plain-list">
-        {refs.slice(0, n).map((r) => (
-          <MethodBill key={r[0]} data={data} bills={bills} ref_={r} names={names} />
+        {bills.slice(0, n).map((r) => (
+          <MethodBill key={r[0]} data={data} ref_={r} names={names} />
         ))}
       </ul>
-      {refs.length > n && (
+      {bills.length > n && (
         <Button variant="link" onClick={() => setN(n + PAGE)}>
-          {M.showMore(refs.length - n)}
+          {M.showMore(bills.length - n)}
         </Button>
       )}
     </>
   );
 }
 
-export function MethodologyScreen({ state, dispatch }: ScreenProps) {
-  const { data, bills } = state;
-  if (!data || !bills) return null;
+export function MethodologyScreen({ data, dispatch }: ScreenProps) {
   const names = new Map(data.lists.map((l) => [l.id, l.name_en]));
   return (
     <section className="screen">
@@ -79,7 +76,7 @@ export function MethodologyScreen({ state, dispatch }: ScreenProps) {
       <div className="stack">
         {data.statements.map((st) => (
           <Accordion key={st.q} title={st.title_en}>
-            {() => <StatementBody data={data} bills={bills} st={st} names={names} />}
+            {() => <StatementBody data={data} st={st} names={names} />}
           </Accordion>
         ))}
       </div>

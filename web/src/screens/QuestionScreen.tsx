@@ -2,15 +2,13 @@ import { AnswerButton } from '../components/AnswerButton';
 import { BottomBar } from '../components/BottomBar';
 import { Note } from '../components/Note';
 import { OrDivider } from '../components/OrDivider';
-import { statementOf } from '../state/reducer';
 import { S } from '../strings';
 import type { ScreenProps } from './types';
 
 /** Figma «Questions»: statement + four answers in a panel, «Not sure — skip», then Back / Next. */
-export function QuestionScreen({ core, state, dispatch }: ScreenProps & { i: number }) {
+export function QuestionScreen({ data, state, dispatch }: ScreenProps & { i: number }) {
   if (state.screen.name !== 'question') return null;
-  const st = statementOf(core, state.data, state.shown[state.screen.i]!);
-  if (!st) return null;
+  const st = data.statements[state.screen.i]!;
   const current = state.answers[st.q];
   return (
     <section className="screen">
