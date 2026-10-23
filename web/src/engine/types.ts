@@ -86,6 +86,8 @@ export interface Position {
   n_votes: number;
   /** Votes on the other camp's bills. */
   n_other: number;
+  /** Votes on the coalition's own government bills (G, export round 7). */
+  n_gov: number;
   /** Distinct bills (by name, sponsored or voted) behind the position. */
   n_names: number;
 }

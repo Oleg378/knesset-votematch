@@ -37,7 +37,20 @@ export function pyPercent0(x: number): string {
   return `${pyFixed(x * 100, 0)}%`;
 }
 
-/** Closeness as shown everywhere: one decimal, Python f"{x:+.1f}", e.g. +0.4 (customer 2026-10-18: no more precision). */
+/**
+ * Closeness rounded as shown: to tenths, like Python f"{x:.1f}" (customer 2026-10-18: the data supports no more precision),
+ * e.g. 0.35 → 0.4, −0.04 → 0. The scale's dots stand at this value too, so a dot and its label never disagree.
+ */
+export function roundCloseness(x: number): number {
+  const tenths = Number.parseInt(pyFixed(Math.abs(x), 1).replace('.', ''), 10);
+  return tenths === 0 ? 0 : (x < 0 ? -tenths : tenths) / 10;
+}
+
+/**
+ * Closeness as shown everywhere: a percent in tens from −100% to +100% with its sign and a typographic minus: +40%, −30%;
+ * zero is 0%, no sign (customer 2026-10-22: «округляем до десятков», «ноль с минусом не надо»).
+ */
 export function formatCloseness(x: number): string {
-  return pyFixed(x, 1, true);
+  const tenths = Math.round(roundCloseness(x) * 10);
+  return tenths === 0 ? '0%' : `${tenths > 0 ? '+' : '−'}${Math.abs(tenths) * 10}%`;
 }

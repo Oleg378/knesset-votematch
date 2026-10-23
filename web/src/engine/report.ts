@@ -98,7 +98,7 @@ export function explain(data: QuizData, bills: QuizBills, listId: string, q: Sta
   const close = !isClear(data.params, p, pos?.n_mk ?? 0, pos?.n_names ?? 0);
   const toward = !close && p * q.key > 0;
   const side = close ? T.sideNoClear : toward ? T.sideFor : T.sideAgainst;
-  const votes = T.votes(pos?.n_votes ?? 0, pos?.n_other ?? 0);
+  const votes = T.votes(pos?.n_votes ?? 0, pos?.n_other ?? 0, pos?.n_gov ?? 0);
   const lines = [
     T.quote(q.statement_en),
     T.answer(ANS[a], side),

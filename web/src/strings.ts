@@ -29,8 +29,10 @@ export const explainText = {
   sideAgainst: 'points against this statement',
   sideNoClear: 'shows no clear position on this statement',
   answer: (ans: string, side: string) => `Your answer: ${ans}. The record of the list's former MKs ${side}.`,
-  votes: (nVotes: number, nOther: number) =>
-    `${plural(nVotes, 'vote')} on private bills and ${plural(nOther, 'vote')} on the other camp's bills on this topic`,
+  // quiz_report.explain: the government's own bills are named only when the list has votes on them [У 2026-10-22]
+  votes: (nVotes: number, nOther: number, nGov: number) =>
+    `${plural(nVotes, 'vote')} on private bills, ${plural(nOther, 'vote')} on the other camp's bills` +
+    (nGov ? ` and ${plural(nGov, 'vote')} on the government's own bills` : '') + ' on this topic',
   basis: (nBills: number, nSame: number, nOpp: number, votes: string) =>
     `Basis: ${plural(nBills, 'bill')} sponsored by the list's former MKs — ${nSame} your way, ${nOpp} the other way; ` +
     `${votes}.`,
