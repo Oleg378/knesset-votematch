@@ -140,7 +140,30 @@
   "sections": [
    {
     "title": "How topics are chosen.",
-    "text": "A topic gets a statement only if the parties' former MKs actually differ on it in the Knesset record: at least {min_lists} evaluated lists with {min_mks} or more former MKs on the topic, a spread of their positions of at least {min_spread}, and at least {min_names} distinct bills (a re-submitted bill counts once) sponsored by them. The thresholds were chosen in October 2026 by testing which values gave positions that held between the 24th and 25th Knesset, and were frozen on 18 October 2026; the same thresholds apply to every topic, and the full history of the choices is in the project's decision log (open source). Topics where all lists did the same, or where too few bills exist, are left out — even when they are important. When one topic lies almost entirely inside another, a shared bill counts toward only one of them, chosen by whether voters would see two different questions."
+    "text": "A topic gets a statement only if the lists' former MKs actually acted differently on it in the Knesset:",
+    "bullets": [
+     {
+      "lead": "Enough lists.",
+      "text": "At least {min_lists} evaluated lists have a position on the topic, each resting on {min_mks} or more of its former MKs."
+     },
+     {
+      "lead": "A real difference.",
+      "text": "Their positions spread by at least {min_spread}."
+     },
+     {
+      "lead": "Enough bills.",
+      "text": "At least {min_names} distinct bills sponsored by them; a re-submitted bill counts once."
+     },
+     {
+      "lead": "Tested, then frozen.",
+      "text": "The thresholds were chosen in October 2026 by testing which values held between the 24th and 25th Knesset, frozen on 18 October 2026, and are the same for every topic; every choice is in the project's open-source decision log."
+     },
+     {
+      "lead": "Overlapping topics count once.",
+      "text": "When one topic lies almost inside another, a shared bill counts toward only one of them — the one where voters would see a different question."
+     }
+    ],
+    "after": "Topics where all lists pushed the same way, or where too few bills exist, are left out — even when they are important."
    },
    {
     "title": "Important topics that are not in the quiz, and why",
