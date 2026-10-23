@@ -155,10 +155,6 @@
       "text": "Only the Knesset record."
      },
      {
-      "lead": "The scale.",
-      "text": "Each list gets a number per statement: below zero its record pushed against it, above zero for it, from about −1.5 to +1.5."
-     },
-     {
       "lead": "The sources.",
       "text": "The Knesset's open database and the Central Elections Committee's candidate lists."
      }
@@ -201,7 +197,7 @@
     "bullets": [
      {
       "lead": "«No clear position».",
-      "text": "The position is below {close}, or rests on one former member or one bill."
+      "text": "The list's record on this statement is too weak to call a side, or rests on one former member or one bill."
      },
      {
       "lead": "“Few former MKs: N”.",
