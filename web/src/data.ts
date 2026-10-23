@@ -1,22 +1,21 @@
 /**
- * The data contract (export/WEB_CONTRACT.md §1 «Loading»): four static files, not bundled into the JS. The app shell renders
- * at once; the files are fetched one after another — core (preloaded from index.html, see vite.config.ts), then, once the
- * start page is fully drawn, data, the methodology texts and bills — while the user answers the core questions. Vite emits them with
+ * The data contract (export/WEB_CONTRACT.md §1 «Loading»): three static data files, not bundled into the JS. The app shell
+ * renders at once; the files are fetched one after another — core (preloaded from index.html, see vite.config.ts), then,
+ * once the start page is fully drawn, data and bills — while the user answers the core questions. Vite emits them with
  * content-hashed names, so they can be cached for good. Same origin only (CSP).
+ *
+ * The texts of the site (export/quiz_texts.json) are not one of them: they are part of the JS bundle on purpose
+ * (src/texts.ts) — small, needed by the very first screen, and checked against their schema at build time.
  */
 import billsUrl from '@export/quiz_bills.json?url';
 import coreUrl from '@export/quiz_core.json?url';
 import dataUrl from '@export/quiz_data.json?url';
-import methodologyUrl from '@export/quiz_methodology.json?url';
 import type { QuizBills, QuizCore, QuizData } from './engine/types';
-import { parseMethodology, type Methodology } from './methodology';
 
 export interface Sources {
   core: QuizCore | null;
   data: QuizData | null;
   bills: QuizBills | null;
-  /** The texts of the methodology page (quiz_methodology.json, checked against its schema on arrival). */
-  methodology: Methodology | null;
   /** A file failed to load, or the three files come from different exports (a deploy mid-session). */
   failed: boolean;
 }
@@ -56,7 +55,7 @@ export function firstScreenShown(): Promise<void> {
 }
 
 export function createLoader(get: FetchJson = fetchJson, afterFirstScreen: () => Promise<void> = firstScreenShown): Loader {
-  let state: Sources = { core: null, data: null, bills: null, methodology: null, failed: false };
+  let state: Sources = { core: null, data: null, bills: null, failed: false };
   const listeners = new Set<() => void>();
   let started = false;
   const set = (patch: Partial<Sources>) => {
@@ -80,7 +79,6 @@ export function createLoader(get: FetchJson = fetchJson, afterFirstScreen: () =>
           const data = (await get(dataUrl)) as QuizData;
           if (!sameExport(core, data)) throw new Error('quiz_data is from another export');
           set({ data });
-          set({ methodology: parseMethodology(await get(methodologyUrl)) });
           const bills = (await get(billsUrl)) as QuizBills;
           if (!sameExport(core, bills)) throw new Error('quiz_bills is from another export');
           set({ bills });
@@ -93,7 +91,7 @@ export function createLoader(get: FetchJson = fetchJson, afterFirstScreen: () =>
 }
 
 /** A loader with everything already in place (tests). */
-export function loadedSources(core: QuizCore, data: QuizData, bills: QuizBills, methodology: Methodology): Loader {
-  const state: Sources = { core, data, bills, methodology, failed: false };
+export function loadedSources(core: QuizCore, data: QuizData, bills: QuizBills): Loader {
+  const state: Sources = { core, data, bills, failed: false };
   return { get: () => state, subscribe: () => () => {}, start: () => {} };
 }

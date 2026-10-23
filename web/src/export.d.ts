@@ -1,6 +1,8 @@
 // The data contract is imported through the '@export' alias (vite.config.ts). The app imports only the URLs of the three
-// The data files (fetched at run time, src/data.ts); the JSON itself is imported by the tests only. Typed as unknown on purpose:
-// TypeScript must not infer types from multi-megabyte JSON; the schema test checks the shape.
+// data files (fetched at run time, src/data.ts); the JSON itself is imported by the tests only. Typed as unknown on purpose:
+// TypeScript must not infer types from multi-megabyte JSON; the schema test checks the shape. The texts of the site are
+// bundled: src/texts.ts imports export/quiz_texts.json by a relative path (see there) and parses it with its zod schema;
+// the declarations below are for the tests.
 declare module '@export/quiz_core.json?url' {
   const url: string;
   export default url;
@@ -33,15 +35,11 @@ declare module '@export/golden.json' {
   const value: unknown;
   export default value;
 }
-declare module '@export/quiz_methodology.json?url' {
-  const url: string;
-  export default url;
-}
-declare module '@export/quiz_methodology.json' {
+declare module '@export/quiz_texts.json' {
   const value: unknown;
   export default value;
 }
-declare module '@export/quiz_methodology.schema.json' {
+declare module '@export/quiz_texts.schema.json' {
   const value: unknown;
   export default value;
 }

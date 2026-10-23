@@ -12,8 +12,11 @@ import { formatCloseness } from '../engine/format';
 import { match } from '../engine/match';
 import type { Answers } from '../engine/types';
 import { S } from '../strings';
-import { bills, core, data, loaded, methodology } from '../testSources';
-import { dataValues, fill } from '../methodology';
+import { bills, core, data, loaded } from '../testSources';
+import { dataValues, fill, T } from '../texts';
+import { HIGHLIGHT } from '../uiConstants';
+
+const methodology = T.methodology;
 
 const click = (name: string | RegExp) => fireEvent.click(screen.getByRole('button', { name }));
 const pressed = () => screen.queryAllByRole('button', { pressed: true }).map((b) => b.textContent);
@@ -56,7 +59,7 @@ function toResults(n = planned) {
 
 /** A loader whose files arrive when the test says so. */
 function manualLoader() {
-  let state: Sources = { core: null, data: null, bills: null, methodology: null, failed: false };
+  let state: Sources = { core: null, data: null, bills: null, failed: false };
   const ls = new Set<() => void>();
   const loader: Loader = {
     get: () => state,
@@ -92,9 +95,21 @@ describe('start', () => {
     click(methodology.back);
     screen.getByRole('button', { name: S.start.button });
   });
+
+  it('every text comes from quiz_texts.json: the title, the eyebrow and the steps with {n} and {top} filled', () => {
+    screen.getByRole('heading', { name: T.start.title });
+    screen.getByText(T.app.eyebrow);
+    screen.getByText(T.start.tagline);
+    const steps = T.start.steps.map((s) => fill(s, { n: planned, top: HIGHLIGHT }));
+    expect(steps.join(' ')).not.toMatch(/[{}]/);
+    expect(screen.getAllByRole('listitem').map((li) => li.textContent)).toEqual(
+      expect.arrayContaining(steps.map((s, i) => `${i + 1}${s}`)));
+    screen.getByText(fill(T.start.chipStatements, { n: planned }));
+    expect(document.body.textContent).not.toMatch(/[{}]/);
+  });
 });
 
-describe('methodology (WEB_CONTRACT §7: every text from quiz_methodology.json)', () => {
+describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () => {
   it('shows the file\'s heading, every section title and lead, and the numbers filled from quiz_data', () => {
     render(<App loader={loaded()} />);
     click(S.start.howItWorks);
@@ -109,13 +124,13 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_methodology.json)'
     expect(document.body.textContent).not.toMatch(/[{}]/);
   });
 
-  it('waits for quiz_methodology.json like a data file', () => {
+  it('waits for quiz_bills only (its texts are bundled)', () => {
     const { loader, arrive } = manualLoader();
     render(<App loader={loader} />);
-    arrive({ core, data, bills });
+    arrive({ core, data });
     click(S.start.howItWorks);
     screen.getByText(S.loading);
-    arrive({ methodology });
+    arrive({ bills });
     screen.getByRole('heading', { name: methodology.heading });
   });
 });

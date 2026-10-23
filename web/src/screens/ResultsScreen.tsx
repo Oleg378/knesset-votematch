@@ -6,10 +6,8 @@ import { match } from '../engine/match';
 import { collapse, expand, scrollBackTo } from '../expandMotion';
 import { answeredCount } from '../state/reducer';
 import { S } from '../strings';
+import { HIGHLIGHT } from '../uiConstants';
 import type { ScreenProps } from './types';
-
-/** How many of the closest lists stand out on the scale (customer 2026-10-22). */
-const HIGHLIGHT = 5;
 
 export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
   const rows = useMemo(() => match(data, state.answers, state.mult), [data, state.answers, state.mult]);

@@ -29,7 +29,7 @@ function focusHeading() {
 
 export default function App({ loader }: { loader: Loader }) {
   const src = useSyncExternalStore(loader.subscribe, loader.get);
-  const { core, data, bills, methodology } = src;
+  const { core, data, bills } = src;
   const reducer = useMemo(() => createReducer({ core, data }), [core, data]);
   // In memory only [У 2026-10-17]: no storage, a reload starts over; nothing goes into the URL.
   const [state, dispatch] = useReducer(reducer, initialState);
@@ -38,7 +38,7 @@ export default function App({ loader }: { loader: Loader }) {
   // A data file arrived: resume a screen that was waiting for it.
   useEffect(() => {
     dispatch({ type: 'DATA_READY' });
-  }, [core, data, bills, methodology]);
+  }, [core, data, bills]);
 
   // System Back = in-app Back (no router, URL untouched).
   const guard = useMemo(() => createBackGuard(window.history), []);
@@ -143,8 +143,7 @@ export default function App({ loader }: { loader: Loader }) {
       body = data && bills ? <BillsScreen key={`${sc.list}/${sc.q}`} data={data} bills={bills} {...props} /> : wait;
       break;
     case 'methodology':
-      body = data && bills && methodology
-        ? <MethodologyScreen data={data} bills={bills} methodology={methodology} {...props} /> : wait;
+      body = data && bills ? <MethodologyScreen data={data} bills={bills} {...props} /> : wait;
       break;
   }
 

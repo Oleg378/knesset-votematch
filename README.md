@@ -10,7 +10,7 @@
 | [docs/SHARED_UNDERSTANDING.md](docs/SHARED_UNDERSTANDING.md) | контракт заказчика и агента: термины, действующие правила, открытые вопросы |
 | [docs/TECHNICAL.md](docs/TECHNICAL.md) | реализация и числа: конвейер, метки, формулы, отбор, порядок вопросов, экспорт |
 | [docs/WORKLOG.md](docs/WORKLOG.md) | журнал работ, «Открыто», «Что дальше» |
-| [export/WEB_CONTRACT.md](export/WEB_CONTRACT.md), [export/quiz_methodology.json](export/quiz_methodology.json) | контракт данных для фронта и тексты страницы методологии |
+| [export/WEB_CONTRACT.md](export/WEB_CONTRACT.md), [export/quiz_texts.json](export/quiz_texts.json) | контракт данных для фронта и все тексты сайта (ответы, пометки, строки пояснений, подписи экранов, страница методологии) |
 | [CLAUDE.md](CLAUDE.md) | правила работы агентов, структура, документация |
 | [docs/archive/](docs/archive/) | закрытые документы и журнал прежних решений |
 
@@ -19,7 +19,7 @@
 | Папка | Что внутри |
 |---|---|
 | `pipeline/` | Python: выгрузка (OData Кнессета, только с израильского IP), `build/` → `knesset.duckdb`, метки, позиции, квиз, экспорт |
-| `export/` | контракт данных для фронта (генерируется `make data`) |
+| `export/` | контракт данных для фронта (генерируется `make data`; кроме `quiz_texts.json` — тексты сайта, правятся вручную) |
 | `web/` | фронт: React + Vite + TypeScript, статическая сборка; `web/SPEC.md` |
 | `jef/` | темы и метки (`directions/`), позиции (`positions/`), утверждения (`quiz/`) |
 | `manual/` | таблицы, которые ведёт человек: списки и кандидаты ЦИК, сопоставление с депутатами, английские имена и названия партий |

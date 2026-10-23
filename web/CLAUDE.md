@@ -12,13 +12,15 @@ React + Vite + TypeScript, static SPA (no server, no Next.js). Talk to the custo
 - **Edit only `web/` and `.github/`.** `pipeline/`, `export/`, `jef/`, `docs/`, `manual/`, `research/` belong to the data
   session: do not edit, do not commit their changes (they are often uncommitted in the working tree — leave them).
 - Missing or wrong data → write it in `DATA_REQUESTS.md` and tell the customer. Never patch `../export/*` by hand.
-- Data: the contract in `../export/` only — `quiz_core.json`, `quiz_data.json`, `quiz_methodology.json`, `quiz_bills.json`, fetched
-  at run time in this order by `src/data.ts` (never bundled; content-hashed, never inlined — CSP `connect-src 'self'`).
-  Contract and loading order: `../export/WEB_CONTRACT.md`; methodology page texts: `../export/quiz_methodology.json` (§7, zod
-  schema `src/methodology.ts`, `npm run schema:methodology` after changing its structure); overview:
-  `../export/README.md`.
+- Data: the contract in `../export/` only — `quiz_core.json`, `quiz_data.json`, `quiz_bills.json`, fetched at run time in
+  this order by `src/data.ts` (never bundled; content-hashed, never inlined — CSP `connect-src 'self'`).
+  Contract and loading order: `../export/WEB_CONTRACT.md`; overview: `../export/README.md`.
+- Texts: every text the user reads is in `../export/quiz_texts.json` (§7, edited by hand), **bundled** into the JS on
+  purpose (`src/texts.ts`: zod schema with the allowed `{placeholders}` of every key, `T` parsed at load;
+  `npm run schema:texts` after changing the structure). Screens use `S` / `explainText` from `src/strings.ts`, which only
+  fills templates from `T` — no text in code. The page `<title>` is set from `app.title` by `bootLoader` (vite.config.ts).
 - A screen renders only when its file has arrived (App shows a loader for that screen only): Start — nothing; questions —
-  quiz_core, clarifying ones and everything after — quiz_data; List details, Bills, Methodology — quiz_bills; Methodology also quiz_methodology.
+  quiz_core, clarifying ones and everything after — quiz_data; List details, Bills, Methodology — quiz_bills.
 - **The start page loads first** (DECISIONS.md G): `index.html` preloads its fonts, quiz_core and the hero
   (`preloadStartPage` in `vite.config.ts`); quiz_data and quiz_bills start only after it is drawn (`firstScreenShown` in
   `src/data.ts`). A new font or picture on Home → add it to the preload. Measure with a production build (gzip), never
@@ -327,7 +329,7 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
 - Never show: coalition/opposition, attitude to the government, number of MKs, list logos.
 - Exactly two notes (few former MKs: N; position known for only N% of your answers). No votes of lists on Methodology.
   No topic selection.
-- Every UI string in `src/strings.ts`. Metrics: only `started` / `finished` via the no-op `track()`.
+- Every UI string in `../export/quiz_texts.json`, read through `src/strings.ts` / `src/texts.ts`. Metrics: only `started` / `finished` via the no-op `track()`.
 
 ## Code
 - `src/engine/` — pure TypeScript port of `pipeline/quiz_match.py` + `pipeline/quiz_report.py`. No React, no DOM.

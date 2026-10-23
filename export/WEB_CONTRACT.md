@@ -2,40 +2,43 @@
 
 _The only link between the data side (`pipeline/`) and the web (`web/`): the web reads `export/` and nothing else, never calls Python.
 Python is the reference (`pipeline/quiz_match.py`, `quiz_flow.py`, `quiz_report.py`); the TypeScript port (`web/src/engine/`) must
-reproduce `golden.json` to 1e-9. Texts of the methodology page — `quiz_methodology.json` (§7). No history here: the
+reproduce `golden.json` to 1e-9. Every text the user reads — `quiz_texts.json` (§7). No history here: the
 current contract only; what changed and why is in `docs/WORKLOG.md`._
 
 ## 1. Files and loading
 
 | File | What | Shipped |
 |---|---|---|
-| `quiz_core.json` | `flow` (parameters of the question order), `core` (the first statements, in order), the core statements | yes, bundled with the app (~2 KB) |
-| `quiz_data.json` | `params`, all statements (with `interest`, `area`, `sim_group`), `directions`, `lists` with `positions` and `composition` | yes, fetched first |
-| `quiz_methodology.json` | every text of the methodology page (§7); edited by hand, not written by `export.py` | yes, fetched second |
+| `quiz_core.json` | `flow` (parameters of the question order), `core` (the first statements, in order), the core statements | yes, fetched first (preloaded from `index.html`) |
+| `quiz_data.json` | `params`, all statements (with `interest`, `area`, `sim_group`), `directions`, `lists` with `positions` and `composition` | yes, fetched second |
 | `quiz_bills.json` | `mks` (with `party_en`), `by_direction`, `votes`, `bills` — only for List details and «Bills of one statement» | yes, fetched third |
-| `quiz_methodology.schema.json` | JSON Schema of `quiz_methodology.json`, generated from `web/src/methodology.ts` | `make check`, tests |
-| `quiz_data.schema.json` | JSON Schema of the three files merged | tests |
+| `quiz_texts.json` | every text the user reads on the site (§7); edited by hand, not written by `export.py` | yes, bundled into the JS |
+| `quiz_texts.schema.json` | JSON Schema of `quiz_texts.json`, generated from `web/src/texts.ts` | `make check` (I8), tests |
+| `quiz_data.schema.json` | JSON Schema of the three data files merged | tests |
 | `golden.json` | answer sets → ranking, notes, trade-off pairs, explanation lines, evidence order, question order («flow N» cases) | tests |
+| `stats.json` | the current numbers of the export (statements, lists by status, bills, MKs, directions, file sizes in KB), written by `export.py` | no; `make check` (I9) compares the numbers typed in the documents with it |
 
 Goal: the start page never waits for data, and a loader almost never appears.
 
 | File | Size (gzip) | Contents | Needed by |
 |---|---|---|---|
-| `quiz_core.json` | ~2 KB (1 KB) | `flow`, `core`, the core statements | the start page and the first `flow.core` questions |
-| `quiz_data.json` | ~217 KB | `params`, all statements, `directions`, `lists` with positions | clarifying questions, trade-offs, Results |
-| `quiz_methodology.json` | ~11 KB (4 KB) | texts of the methodology page | Methodology |
-| `quiz_bills.json` | ~1.8 MB | `mks`, `by_direction`, `bills` | List details and «Bills of one statement» only |
+| `quiz_core.json` | ~3 KB (1 KB) | `flow`, `core`, the core statements | the start page and the first `flow.core` questions |
+| `quiz_data.json` | ~258 KB (50 KB) | `params`, all statements, `directions`, `lists` with positions | clarifying questions, trade-offs, Results, Methodology |
+| `quiz_bills.json` | ~2.0 MB (312 KB) | `mks`, `by_direction`, `votes`, `bills` | List details, «Bills of one statement», Methodology |
+| `quiz_texts.json` | ~15 KB (6 KB), inside the JS | every text of the site | every screen, from the first |
 
-- The two big files are **not bundled** into the JS: the app shell (start page, styles, fonts, the ~2 KB `quiz_core`) loads
-  alone; `quiz_data` and `quiz_bills` are fetched as static files from the site itself (CSP `connect-src 'self'` allows it).
-- Fetch order: `quiz_data` immediately when the app is up (before the user presses Start), then `quiz_methodology`, then
-  `quiz_bills` as soon as the previous one has arrived. The user is answering the core questions meanwhile, so the next file is normally ready before it
-  is needed.
+- The texts are **bundled** into the JS: the start page needs them before any data file arrives. The app parses the file once
+  with its schema when it loads (§7); a file that fails the schema fails the tests and the build, never the live page. The
+  page `<title>` is `app.title`, written into `index.html` at build time.
+- The three data files are **not bundled**: the app shell (start page, styles, fonts, texts) loads alone; the data files are
+  fetched as static files from the site itself (CSP `connect-src 'self'` allows it).
+- Fetch order: `quiz_core` first (`index.html` preloads it with the start page's fonts and picture), then — once the start page
+  is drawn — `quiz_data`, then `quiz_bills` as soon as the previous one has arrived. The user is answering the core questions
+  meanwhile, so the next file is normally ready before it is needed.
 - A loader is shown only if the user reaches a screen whose file has not arrived yet (e.g. the first clarifying question
   before `quiz_data`, List details before `quiz_bills`), and only for that screen.
-- The three data files carry the same `generated` and `source_commit` (`quiz_methodology` carries `updated` instead: it is
-  content, not computed); if a fetched file differs from the bundled core
-  (a deploy mid-session), it is fetched once more bypassing the cache, then an error asks to reload the page.
+- The three data files carry the same `generated` and `source_commit`; a fetched file from another export (a deploy
+  mid-session) is a load error that asks to reload the page.
 - Caching: the files get content-hashed names at build time (Vite assets, `immutable`); the app always references the files
   of its own build.
 
@@ -78,6 +81,8 @@ The 6 «flow N» golden cases give the exact sequences for six full answer sets:
 ## 3. List details: what the result explains and in which format
 
 Per list, everything comes from `quiz_report.contributions()` and `explain()`; golden `details[].items[]` has it field by field.
+The lines are the templates `explain.*` of `quiz_texts.json` (§7), with the answer word from `answers`, rendered the same way
+by `pipeline/quiz_report.py` and by the web; the examples below are those templates filled.
 
 **Header:** list name (`name_en`), closeness `+0.35`, note (if any).
 
@@ -86,16 +91,17 @@ Per list, everything comes from `quiz_report.contributions()` and `explain()`; g
   (largest first), negative → «Why it doesn't fit» (most negative first). Section headers show the counts. 5 per section,
   then «Show all».
 - `lines` — shown exactly as given, in order:
-  1. the statement in quotes;
-  2. `Your answer: <agree / strongly agree / …>. The record of the list's former MKs <points toward this statement | points against this statement | shows no clear position on this statement>.`
-     (the third variant when the position is not clear: |p| < `params.CLOSE` (0.2), or fewer than `params.MIN_CLEAR_MKS` former MKs, or fewer than `params.MIN_CLEAR_BILLS` distinct bills (`n_names`); wording changed 2026-10-18);
-  3. basis: `Basis: N bills sponsored by the list's former MKs — X your way, Y the other way; M votes on private bills, K votes on the other camp's bills[ and J votes on the government's own bills] on this topic.`
+  1. the statement in quotes (`quote`);
+  2. `answer`, with `side` = `sideFor`, `sideAgainst` or `sideNoClear`: `Your answer: <agree / strongly agree / …>. The record of the list's former MKs <points toward this statement | points against this statement | shows no clear position on this statement>.`
+     (the third variant when the position is not clear: |p| < `params.CLOSE` (0.2), or fewer than `params.MIN_CLEAR_MKS` former MKs, or fewer than `params.MIN_CLEAR_BILLS` distinct bills (`n_names`));
+  3. `basis` (or `basisVotesOnly` when the list sponsored no bill on the topic), with `votes` filled from `votes` and `votesGov`: `Basis: N bills sponsored by the list's former MKs — X your way, Y the other way; M votes on private bills, K votes on the other camp's bills[ and J votes on the government's own bills] on this topic.`
      or `Basis: no bills of their own on this topic, only M votes on private bills, K votes on the other camp's bills[ and J votes on the government's own bills] on this topic.`
-     (M = `n_votes`, K = `n_other` of the list's position);
-  4. optional: `Weight ×2: you chose this topic in a trade-off question.`;
-  5. optional: `The list's side comes from how its former MKs voted, not from the bills they sponsored.`
+     (M = `n_votes`, K = `n_other`, J = `n_gov` of the list's position — the bracketed part
+     only when J > 0; «1 vote», «1 bill» in the singular);
+  4. optional, `weight`: `Weight ×2: you chose this topic in a trade-off question.`;
+  5. optional, `caveatByVotes`: `The list's side comes from how its former MKs voted, not from the bills they sponsored.`
      (when the list's own bills give nothing or point the other way);
-  6. when line 2 says «points toward»: `This shows what their bills and votes pushed for, not whether they accept the price named in the statement.`
+  6. when line 2 says «points toward», `caveatPrice`: `This shows what their bills and votes pushed for, not whether they accept the price named in the statement.`
 - `evidence` — the bills behind the item, already in display order (bills that explain the verdict first, then by the best
   list position of their sponsors). Each: `bill` (id → `bills[id]`: Hebrew name `name_he`, `knesset`; link =
   `params.BILL_URL` with `{id}` replaced), `sign`
@@ -104,7 +110,7 @@ Per list, everything comes from `quiz_report.contributions()` and `explain()`; g
 
 **Bills of one statement** (tap on an item): two groups, «Your way (N)» (`same` true) and «The other way (N)»; each line:
 ✓/✗ · Hebrew bill name linking to `params.BILL_URL` · `Knesset N` · `main / secondary topic` · `raises / lowers “<direction name_en>”` ·
-`sponsored by: <name> (#<position> on the list)` (first two by list position). Bill names are never translated.
+`sponsored by: <name> (#<position> on the list)` (first two by list position); the labels are `bills.*` of `quiz_texts.json`. Bill names are never translated.
 
 **Votes of the list's former MKs** (2026-10-19, `quiz_bills.json` → `votes`): `votes[list][direction]` = rows
 `[bill, sign, camp, for, against]` — the bills of that direction its former MKs voted on, with the bill's sign on the direction
@@ -143,33 +149,87 @@ public, complete table of what the quiz holds about every list, built only from 
   are published here.» (customer, 2026-10-22: contact = GitHub issues).
 - Export: `quiz_data.json` + `quiz_bills.json` only; the page is static like the rest.
 
-## 7. Methodology page: every text from `quiz_methodology.json`
+## 7. Texts of the site: `quiz_texts.json`
 
-Nothing of the page is written in the web code: the heading, the «Back» label, the sections and the labels of the statements
-block come from `export/quiz_methodology.json`. Change the file, and the page changes. The file is edited by hand on the data
-side (the one file in `export/` that `pipeline/export.py` does not write) and checked twice: `make check` (I8) validates it
-against `export/quiz_methodology.schema.json`, and the web tests parse it with the zod schema in `web/src/methodology.ts`, from
-which the JSON Schema is generated (`cd web && npm run schema:methodology` after changing the structure; the test fails while
-the file on disk is stale). The app parses the file with the same schema when it arrives; a file that fails is a load error.
+Nothing the user reads is written in the code: the app's name and title, the answers, the notes, the explanation lines, the
+labels of every screen and the whole methodology page come from `export/quiz_texts.json`. Change the file, and the site
+changes. The file is edited by hand on the data side — the one file in `export/` that `pipeline/export.py` does not write.
+Statement texts and titles (`statement_en`, `title_en`) are not in it: they are data, in `quiz_data.json`.
 
-Structure (`web/src/methodology.ts`):
-- `updated` (date of the last change of the texts), `heading`, `back`.
+**Who reads it.**
+- The web: `web/src/texts.ts` imports the file into the JS bundle and parses it once with its zod schema when the app loads;
+  `web/src/strings.ts` builds the UI strings from it and holds no text of its own; the page `<title>` is `app.title`
+  (a Vite plugin in `web/vite.config.ts`).
+- The Python reference renders from the same file: `pipeline/texts.py` (`load`, `fill`); `pipeline/quiz_report.py` — the answer
+  words (`answers`) and the explanation lines (`explain`, §3); `pipeline/quiz_match.py` — the notes of a list (`notes`); the
+  terminal quiz uses the same words. The `answers`, `notes` and `explain` texts are therefore rendered identically by Python and
+  TypeScript, and `golden.json` checks the result character for character.
+
+**Sections.** Every key is required, no other key is allowed.
+
+| Section | Keys | Shown |
+|---|---|---|
+| `updated` | ISO date of the last change of the texts | — |
+| `app` | `title`, `name`, `eyebrow`, `loading`, `loadError`, `reload`, `newTab` | page title, menu title, loading and load error, the screen-reader note on links that open a new tab |
+| `answers` | `"2"`, `"1"`, `"0"`, `"-1"`, `"-2"` | the answer inside sentences («Your answer: agree»): explanations, trade-off questions |
+| `answerButtons` | the same keys and `dk` («don't know») | the answer buttons |
+| `notes` | `noRecord`, `fewMks`, `lowCoverage`, `join` | the note of a list on Results and List details (`join` separates two notes) |
+| `explain` | `quote`, `sideFor`, `sideAgainst`, `sideNoClear`, `answer`, `votes`, `votesGov`, `basis`, `basisVotesOnly`, `weight`, `caveatByVotes`, `caveatPrice` | the lines of List details (§3) |
+| `start` | `title`, `tagline`, `chipStatements`, `chipTime`, `chipAnonymous`, `steps` (exactly three), `button`, `howItWorks` | Start |
+| `menu` | `open`, `close`, `startOver`, `results`, `methodology` | the menu |
+| `nav` | `back`, `next` | the bottom buttons of the question screens |
+| `question` | `progress`, `progressLabel`, `or`, `skip`, `noAnswers`, `answersLabel` | the question screen |
+| `trade` | `counter`, `lead`, `title`, `explain`, `yourAnswer`, `labelA`, `labelB`, `equalTitle`, `equalSub` | the trade-off question |
+| `results` | `heading`, `scaleFar`, `scaleClose`, `closestOne`, `closestMany`, `basedOn`, `basedOnTrade`, `hintBefore`, `hintAfter`, `seeAll`, `seeLess`, `notRanked`, `notComputable`, `noMore`, `changeAnswers`, `rank`, `closenessLabel` | Results |
+| `details` | `back`, `closeness`, `fits`, `misfits`, `showAll`, `showLess`, `none`, `openBills` | List details |
+| `bills` | `back`, `yourWay`, `otherWay`, `none`, `meta`, `roleMain`, `roleSecondary`, `raises`, `lowers`, `sponsoredBy`, `sponsor`, `link`, `yourWayMark`, `otherWayMark`, `showMore` | «Bills of one statement» |
+| `methodology` | `heading`, `back`, `sections[]`, `statements` | Methodology (below) |
+
+**Template language.** `{name}` is replaced by the value; `{name?one|many}` by `one` when the value is 1, else by `many`
+(`{single} {single?list|lists}`). Numbers are never typed into the texts. The names each key may use are listed explicitly in
+`web/src/texts.ts` (`PLACEHOLDERS`, `STEP_PLACEHOLDERS`, `DATA_PLACEHOLDERS`, `STATEMENT_PLACEHOLDERS`), never derived from the
+file: any other name, or a stray brace, fails the schema. A key not listed below takes no placeholder and no brace.
+
+| Section | Key → allowed names |
+|---|---|
+| `notes` | `fewMks`: `n` (former MKs) · `lowCoverage`: `pct` (with the % sign) |
+| `explain` | `quote`: `text` (the statement) · `answer`: `answer` (an `answers` word), `side` (the filled `sideFor`, `sideAgainst` or `sideNoClear`) · `votes`: `votes` (on private bills), `other` (on the other camp's bills), `gov` (the filled `votesGov`, or empty when there are none) · `votesGov`: `gov` · `basis`: `bills`, `same`, `opp`, `votes` (the filled `votes`) · `basisVotesOnly`: `votes` (the filled `votes`) |
+| `start` | `chipStatements`: `n` · each of `steps`: `n` (the planned number of statements), `top` (the number of lists highlighted on Results) |
+| `question` | `progress`: `n`, `total` |
+| `trade` | `counter`: `n`, `max` · `yourAnswer`: `answer` |
+| `results` | `closestMany`: `n` · `basedOn`: `n`, `total`, `trade` · `rank`: `n` |
+| `details` | `closeness`: `c` · `fits`, `misfits`, `showAll`: `n` |
+| `bills` | `yourWay`, `otherWay`, `showMore`: `n` · `meta`: `knesset`, `role`, `verb`, `direction` · `sponsoredBy`: `names` · `sponsor`: `name`, `pos` |
+| `methodology.sections` | `text`, `after` and both fields of a bullet (not `title`): the numbers of `quiz_data.json` — `lists` (all lists), `evaluable` (evaluated with `ex_mks >= params.MIN_EX_MKS`), `single` (evaluated below it: shown, not ranked), `no_record`, `close` (`params.CLOSE`), `statements`, `core` and `clarify` (`flow`), `vote_ratio` (`round(1 / params.VOTE_WEIGHT)`), `min_lists`, `min_mks`, `min_spread`, `min_names` (`params.SELECT_*`, the selection thresholds of `pipeline/quiz_select.py`) |
+| `methodology.statements` | `heading`: `statements` · `topic`: `name` · `up`, `down`: `text` · `billsCount`, `showMore`: `n` · `billMeta`: `side`, `knesset`, `role` · `sponsors`: `names` · `dataVersion`: `generated`, `commit` |
+
+**Methodology page.**
+- `heading`, `back`.
 - `sections[]`: `title` (bold run-in start of the paragraph, with its own punctuation), optional `text`, optional `bullets[]`
   of `{lead, text}` (`lead` in italics as the run-in start of the bullet), optional `after` (a paragraph after the bullets).
 - `statements`: the labels of the block «All N statements, their topics and the bills behind them» — `heading`, `topic`, `up`,
   `down`, `agreeCountsUp`, `agreeCountsDown`, `billsCount`, `billMeta`, `sideUp`, `sideDown`, `roleMain`, `roleSecondary`,
   `sponsors`, `noSponsors`, `showMore`, `billLink`, `dataVersion`.
 
-Numbers are never typed into the texts: a text uses `{name}`, and `{name?one|many}` chooses the word by the value
-(`{single} {single?list|lists}`). The section texts may use, all read from `quiz_data.json`: `lists` (all lists), `evaluable`
-(evaluated with `ex_mks >= params.MIN_EX_MKS`), `single` (evaluated below it: shown, not ranked), `no_record`, `close`
-(`params.CLOSE`), `statements`, `core` and `clarify` (`flow`), `vote_ratio` (`round(1 / params.VOTE_WEIGHT)`), `min_lists`,
-`min_mks`, `min_spread`, `min_names` (`params.SELECT_*`, the selection thresholds of `pipeline/quiz_select.py`). Each label of
-the statements block has its own names (`web/src/methodology.ts`, `STATEMENT_PLACEHOLDERS`). Any other name, or a stray
-brace, fails the schema.
+The methodology texts are derived from `docs/METHODOLOGY.md` (concept) and `docs/TECHNICAL.md` (numbers); the data side keeps
+them current. Statement titles named in the texts are quoted «as stored» (`title_en`).
 
-The texts are derived from `docs/METHODOLOGY.md` (concept) and `docs/TECHNICAL.md` (numbers); the data side keeps them
-current. Statement titles named in the texts are quoted «as stored» (`title_en`).
+**Checks.**
+- The schema is the zod schema (zod/mini) in `web/src/texts.ts`; `export/quiz_texts.schema.json` is generated from it
+  (`cd web && npm run schema:texts` after any change of the structure or of the allowed names; a web test fails while the file
+  on disk is stale).
+- `make check` I8: `quiz_texts.json` validates against `quiz_texts.schema.json`. I10: `golden.json` is current — the golden
+  cases recomputed with the current templates give the same ranking, notes and explanation lines.
+- Web tests: the file parses, every template fills with sample values of its allowed names and leaves no brace, the
+  methodology sections fill with the numbers of `quiz_data`, unknown names and stray braces are rejected.
+
+**How to change a text.**
+1. Edit `export/quiz_texts.json` and set `updated`.
+2. A text of `answers`, `notes` or `explain`: `make data` — the golden lines and notes change with it (I10 fails until then).
+3. `make check` — must print OK.
+4. `cd web && npm test`.
+5. A new key or placeholder name is a change of the structure: first `web/src/texts.ts` and the code that fills the template
+   (on both sides for `answers`, `notes`, `explain`), then `npm run schema:texts`.
 
 **Composition of the list's record** on the List details screen — §5 — is not shown yet; the methodology text says only that
 the results carry a note when few former MKs stand behind a list.

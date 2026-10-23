@@ -14,6 +14,7 @@ import duckdb
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import quiz_match as qm
 import labels as L
+import texts as T
 
 ROOT, LAB = qm.ROOT, os.path.join(qm.ROOT, "jef/directions/labels")
 SGN = {"+": 1, "−": -1, "-": -1}
@@ -29,7 +30,8 @@ def is_clear(p, n_mk, n_names):
     """One rule for «the list has a clear position» — explanations and the core filter."""
     return abs(p) >= CLOSE and n_mk >= MIN_CLEAR_MKS and n_names >= MIN_CLEAR_BILLS
 EPS = 1e-9
-ANS = {2: "strongly agree", 1: "agree", 0: "neutral", -1: "disagree", -2: "strongly disagree"}   # [У] 2026-10-18: the same words as the UI buttons
+TX = T.load()   # user-facing texts: export/quiz_texts.json (export/WEB_CONTRACT.md §7), the same templates as the web
+ANS = {int(k): v for k, v in TX["answers"].items()}   # [У] 2026-10-18: the same words as the UI buttons
 
 def labels():
     """The production labels (pipeline/labels.py: both split stages, point overrides, technical bills out, relevance filter as
@@ -108,9 +110,6 @@ def bill_line(ctx, q, b, s, role, authors, same, link=True):
             f"{'raises' if s > 0 else 'lowers'} “{ctx['dir_en'].get(q['d'], q['d'])}”; sponsored by: "
             + ", ".join(f"{nm} (#{p_} on the list)" for p_, nm in sorted(authors)[:2]))
 
-def plural(n, word):
-    return f"{n} {word}{'' if n == 1 else 's'}"
-
 def explain(ctx, L, q, a, p, contrib, mult=None):
     """[У] 2026-10-17: one explained statement in plain words — the statement as shown in the quiz, the user's answer, the
     list's side (by sign; «has no clear position» when |p| < CLOSE, п. 6), the basis (the list's ex-MKs' bills split by
@@ -124,23 +123,22 @@ def explain(ctx, L, q, a, p, contrib, mult=None):
     toward = not close and p * q["key_s"] > 0
     # [У] 2026-10-18 (Р4а, external audit К2): say what was measured — what the list's former MKs pushed for with their bills and
     # votes — not that the list accepts the statement, whose «even if» price the data does not measure.
-    side = ("shows no clear position on this statement" if close else
-            "points toward this statement" if toward else "points against this statement")
+    E = TX["explain"]
+    side = E["sideNoClear"] if close else E["sideFor"] if toward else E["sideAgainst"]
     # [У] 2026-10-22: G — votes on the coalition's own government bills (named only when the list has any)
-    votes = (f"{plural(nvotes, 'vote')} on private bills, {plural(nother, 'vote')} on the other camp's bills"
-             + (f" and {plural(ngov, 'vote')} on the government's own bills" if ngov else "") + " on this topic")
-    lines = [f"“{q['statement_en']}”",
-             f"Your answer: {ANS[a]}. The record of the list's former MKs {side}.",
-             (f"Basis: {plural(len(ev), 'bill')} sponsored by the list's former MKs — {n_same} your way, {n_opp} the other way; "
-              f"{votes}." if ev else f"Basis: no bills of their own on this topic, only {votes}.")]
-    if (mult or {}).get(q["q"], 1) != 1: lines.append("Weight ×2: you chose this topic in a trade-off question.")
+    votes = T.fill(E["votes"], votes=nvotes, other=nother, gov=T.fill(E["votesGov"], gov=ngov) if ngov else "")
+    lines = [T.fill(E["quote"], text=q["statement_en"]),
+             T.fill(E["answer"], answer=ANS[a], side=side),
+             (T.fill(E["basis"], bills=len(ev), same=n_same, opp=n_opp, votes=votes) if ev
+              else T.fill(E["basisVotesOnly"], votes=votes))]
+    if (mult or {}).get(q["q"], 1) != 1: lines.append(E["weight"])
     P, P_A = ctx["pos"][L][q["d"]][0], ctx["pos"][L][q["d"]][3]
     by_votes = bool(ev) and (abs(P_A) <= EPS or (P_A > 0) != (P > 0))   # own bills give nothing or the other side
     if close: pass
     elif by_votes:
-        lines.append("The list's side comes from how its former MKs voted, not from the bills they sponsored.")
+        lines.append(E["caveatByVotes"])
     if toward:
-        lines.append("This shows what their bills and votes pushed for, not whether they accept the price named in the statement.")
+        lines.append(E["caveatPrice"])
     return lines, ev
 
 def main(f):

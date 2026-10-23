@@ -4,7 +4,8 @@ import { readdirSync, readFileSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { gzipSync } from 'node:zlib';
 
-const BUDGET_KB = 360; // all JS + CSS + fonts (woff2), gzip; data files (*.json, fetched at run time) are not counted;
+const BUDGET_KB = 360; // all JS + CSS + fonts (woff2), gzip; data files (*.json, fetched at run time) are not counted —
+// the texts of the site (export/quiz_texts.json) are in the JS bundle and are counted;
 // 152 KB on 2026-10-18 after the data left the bundle (was 340 KB with it)
 const ALLOWED_HOSTS = ['main.knesset.gov.il', 'www.w3.org', 'react.dev', 'reactjs.org'];
 

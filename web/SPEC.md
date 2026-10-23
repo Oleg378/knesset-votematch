@@ -2,7 +2,7 @@
 
 Static SPA. Input: the data contract — three files fetched at run time (`export/quiz_core.json`,
 `quiz_data.json`, `quiz_bills.json`; one schema for their merge). Contract and loading order:
-`export/WEB_CONTRACT.md`; methodology page texts: `export/quiz_methodology.json` (contract §7). Reference behaviour: `pipeline/quiz_cli.py` (run it to
+`export/WEB_CONTRACT.md`; texts of the site: `export/quiz_texts.json` (contract §7). Reference behaviour: `pipeline/quiz_cli.py` (run it to
 see the flow), `pipeline/quiz_flow.py` (order of questions), `pipeline/quiz_report.py` (explanations). How everything is
 computed: `docs/TECHNICAL.md`.
 
@@ -102,7 +102,7 @@ question at once, as «Start» on Home (customer 2026-10-22).
 - No per-bill English summary [У 2026-10-17]: bill names are not translated; the direction line above is the English context. `summary_en` is always null and not rendered.
 
 ### 7. Methodology and Positions of the lists
-- Methodology: every text from `export/quiz_methodology.json` (contract §7) — heading, sections, bullets, labels of the statements block; numbers are `{placeholders}` filled from `quiz_data`. Nothing of the page is written in the code.
+- Methodology: every text from `methodology` in `export/quiz_texts.json` (contract §7) — heading, sections, bullets, labels of the statements block; numbers are `{placeholders}` filled from `quiz_data`. Nothing of the page is written in the code.
 - Positions of the lists: the table described in `export/WEB_CONTRACT.md` §6 — statements × evaluated lists, cell = the measured side, click → the bills, the right-to-contest text.
 
 ## Computation (TypeScript port; Python is the reference)
@@ -126,7 +126,7 @@ exact equality with the golden cases:
 - contributions: answered (not dk, not 0) statements with a list value; `c = w * mult * u * p`; sort by `-c`, stable.
 - evidence: bills of `by_direction[d]` with ≥ 1 sponsor among the list's ex-MKs; `same = sign * sign(u) > 0`; sort by
   `(not relevant, min author list_position)` stable, where relevant = `same` if c > 0 else `not same`.
-- Strings in explanations come from `strings.ts` and must reproduce the golden `lines` exactly.
+- Strings in explanations come from `export/quiz_texts.json` (`explain`, through `strings.ts`) and must reproduce the golden `lines` exactly.
 
 ## Tests (Vitest) — migration Python → TypeScript
 - `export/golden.json`, 34 cases (full synthetic answer set, full + trade-offs, adaptive step, 20 random, edge cases: no answers, all dk,
@@ -147,7 +147,7 @@ methodology`. State: answers, mult, done trade-offs. Answers are kept **in memor
 sessionStorage, localStorage or cookies; a reload starts over. Results never go into the URL. No accounts.
 
 ## Text, language, typography
-- All UI strings in `src/strings.ts` (English). No string literals in components.
+- All UI strings in `export/quiz_texts.json` (English), bundled and read through `src/strings.ts` / `src/texts.ts`. No string literals in components.
 - Hebrew bill titles: `<span dir="auto" lang="he">`; numbers, brackets and quotes must not jump.
 - Font with Hebrew support (e.g. Noto Sans + Noto Sans Hebrew, or system stack with `"Arial Hebrew", "Noto Sans Hebrew"`
   fallback).

@@ -6,7 +6,11 @@ Writes to export/ (three files loaded in order, see export/WEB_CONTRACT.md «Loa
   quiz_bills.json        what only the list details need: bills, sponsors, bills by direction, the lists' votes;
   quiz_data.schema.json  JSON Schema of the three merged (validated here before writing);
   golden.json            golden test cases: answers (+ trade-off weights) -> what pipeline/quiz_match.py and
-                            pipeline/quiz_report.py compute. The TypeScript port must reproduce them (web/ Vitest).
+                            pipeline/quiz_report.py compute. The TypeScript port must reproduce them (web/ Vitest);
+  stats.json             the numbers the documents quote (statements, lists by status, bills, former MKs, directions, file sizes
+                            in KB) — make check I9 compares the documents with it.
+Read, not written: quiz_texts.json — the user-facing texts, edited by hand (pipeline/texts.py, export/WEB_CONTRACT.md §7); the
+explanation lines and notes in golden.json are rendered from its templates.
 When the formula or the structure changes, the schema and the golden cases are regenerated and the contract (export/WEB_CONTRACT.md)
 and the web tests are updated in the same step — the files the live site reads never change silently.
 
@@ -90,7 +94,7 @@ def build_data(ctx):
         "params": {"K": qm.K, "MIN_COVERAGE": qm.MIN_COVERAGE, "MIN_EX_MKS": qm.MIN_EX_MKS, "MAX_TRADE": qm.MAX_TRADE, "TRADE_TOP": qm.TRADE_TOP,
                    "TRADE_W": qm.TRADE_W, "TRADE_CANDIDATES": 3, "VOTE_WEIGHT": 0.25, "CLOSE": qr.CLOSE, "MIN_CLEAR_MKS": qr.MIN_CLEAR_MKS, "MIN_CLEAR_BILLS": qr.MIN_CLEAR_BILLS,
                    "BILL_URL": qr.LINK.replace("{}", "{id}"),
-                   # selection of themes (quiz_select.py) — shown on the methodology page (quiz_methodology.json placeholders)
+                   # selection of themes (quiz_select.py) — shown on the methodology page (quiz_texts.json placeholders)
                    "SELECT_MIN_LISTS": qs.MIN_LISTS, "SELECT_MIN_MKS": qs.MIN_MKS, "SELECT_MIN_SPREAD": qs.MIN_SD, "SELECT_MIN_NAMES": qs.MIN_NAMES},
         "flow": dict(qf.FLOW),
         "core": qf.core(),
@@ -152,6 +156,7 @@ def full_answers(qs):
     raise RuntimeError("no synthetic answer set with two trade-off pairs")
 
 def golden(ctx):
+    """The golden cases as a dict (nothing written): main() writes it to export/golden.json, make check I10 compares with it."""
     st = ctx["st"]
     qs = [r["q"] for r in st]
     full = full_answers(qs)
@@ -172,6 +177,16 @@ def golden(ctx):
         cases.append(flow_case(ctx, f"flow {i}", {q: rnd2.choice([-2, -1, 1, 2, "dk"]) for q in qs}))
     return {"tolerance": 1e-9, "cases": cases}
 
+def stats(data):
+    """The numbers the documents quote, from the data just exported (file sizes: raw bytes / 1000, rounded)."""
+    st = collections.Counter(l["status"] for l in data["lists"])
+    size = lambda n: round(os.path.getsize(os.path.join(OUT, n)) / 1e3)
+    return {"generated": data["generated"], "source_commit": data["source_commit"],
+            "statements": len(data["statements"]),
+            "lists": {"total": len(data["lists"]), "evaluated": st["ok"], "warning": st["warning"], "no_record": st["not_evaluated"]},
+            "bills": len(data["bills"]), "mks": len(data["mks"]), "directions": len(data["directions"]),
+            "files": {n: size(n) for n in ("quiz_core.json", "quiz_data.json", "quiz_bills.json", "quiz_texts.json")}}
+
 def main():
     ctx = qr.context()
     data = build_data(ctx)
@@ -188,6 +203,8 @@ def main():
         json.dump(part, open(os.path.join(OUT, f"quiz_{name}.json"), "w"), ensure_ascii=False, separators=(",", ":"))
     g = golden(ctx)
     json.dump(g, open(os.path.join(OUT, "golden.json"), "w"), ensure_ascii=False, indent=1)
+    with open(os.path.join(OUT, "stats.json"), "w") as f:
+        json.dump(stats(data), f, ensure_ascii=False, indent=1); f.write("\n")
     sz = {n: os.path.getsize(os.path.join(OUT, f"quiz_{n}.json")) / 1e3 for n in parts}
     print(f"{len(data['statements'])} statements, {len(data['lists'])} lists, {len(data['bills'])} bills; files (KB): "
           + ", ".join(f"quiz_{n}.json {v:.0f}" for n, v in sz.items()) + f"; golden.json: {len(g['cases'])} cases")

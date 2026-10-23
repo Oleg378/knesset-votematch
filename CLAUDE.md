@@ -20,7 +20,7 @@ what its candidates who are former MKs did in Knessets 24–25: bills they spons
 | Implementation, formulas, thresholds, current numbers | `docs/TECHNICAL.md` | history («was 0.3, now 0.25») — only the current state |
 | What happened, with numbers; **tasks**, open items, plan | `docs/WORKLOG.md` | rules (they live in SU) |
 | Data contract and what the web computes and shows | `export/WEB_CONTRACT.md` | history, reasoning, version labels |
-| Texts the user reads on the methodology page (English) | `export/quiz_methodology.json` (contract: `export/WEB_CONTRACT.md` §7) | numbers typed by hand — they are `{placeholders}` filled from the data |
+| Texts the user reads on the site (English): app name, answers, notes, explanation lines, screen labels, methodology page | `export/quiz_texts.json` (contract: `export/WEB_CONTRACT.md` §7) | numbers typed by hand — they are `{placeholders}` filled from the data; statement texts (they are in `jef/quiz/statements.csv`) |
 | Agent procedures | `.claude/skills/*/SKILL.md` + `prompts/` | project state |
 | Closed documents, old logs | `docs/archive/` (with a line in its README) | — |
 Rules: a decision goes into SU as one line (rule + status + pointer), its numbers into TECHNICAL, its story into WORKLOG; a task
@@ -41,7 +41,7 @@ fix every reference (`grep` the old name); research notes and people's answers s
 |---|---|
 | `pipeline/` | Python: fetch (OData, CEC), `build/` → `knesset.duckdb`, Jev labeling, positions, quiz selection/matching, **export** |
 | `web/` | Front end: React + Vite + TypeScript static SPA. Reads only `export/` |
-| `export/` | **The data contract** (in git): `quiz_core / quiz_data / quiz_bills.json`, one schema, `golden.json`, `WEB_CONTRACT.md`; `quiz_methodology.json` (the methodology page's texts, edited by hand) with its own schema |
+| `export/` | **The data contract** (in git): `quiz_core / quiz_data / quiz_bills.json`, one schema, `golden.json`, `stats.json` (current numbers), `WEB_CONTRACT.md`; `quiz_texts.json` (every text of the site, edited by hand; read by the web and by the Python reference) with its own schema |
 | `jef/` | Production data: directions and labels (`jef/directions/`), theme registry (`jef/directions/registry.csv`), positions (`jef/positions/`), statements (`jef/quiz/`) |
 | `manual/` | Tables kept by hand: CEC lists and candidates, candidate ↔ MK matching, English MK names |
 | `local/` | Research behind the decisions: experiments, checks, early approaches (`local/README.md`). Published selectively (scripts, texts, small result tables; no people's answers) — `local/` stays ignored, add new files with `git add -f`. **Not production**: do not import from it; the procedure scripts in `local/research/scripts/` named by the skills are run, never imported |
@@ -60,7 +60,10 @@ python3 pipeline/quiz_select.py   # which directions pass the selection criteria
 Python deps: `requirements.txt` (pinned). Node: `web/package-lock.json`.
 
 ## Data contract
-- `pipeline/export.py` writes the three files (`quiz_core`, `quiz_data`, `quiz_bills`), validated together against `export/quiz_data.schema.json`.
+- `pipeline/export.py` writes the three files (`quiz_core`, `quiz_data`, `quiz_bills`), validated together against `export/quiz_data.schema.json`,
+  and `export/stats.json` (the current numbers; `make check` I9 compares the numbers typed in TECHNICAL and WEB_CONTRACT with it).
+- `export/quiz_texts.json` — every text the user reads, edited by hand (WEB_CONTRACT §7): the web bundles it, the Python reference renders the
+  answers, notes and explanation lines from the same templates (`pipeline/texts.py`); after changing those, `make data` regenerates golden.
 - The front end never reads raw data and never calls Python.
 - Changing the formula or the structure → the schema, the golden file and the web contract are updated in the same step; the files the live site reads are never changed silently.
 - `export/golden.json`: answer sets → expected ranking, question order (flow cases), coverage, notes, trade-off pairs, explanations and evidence order,
@@ -71,7 +74,9 @@ Python deps: `requirements.txt` (pinned). Node: `web/package-lock.json`.
   the other camp's bills / the coalition's own government bills, weight 0.25, budget packages excluded; list = mean of ex-MKs).
 - Matching: cosine, K = 0 (no shrinkage), weights 1/n per shared direction, coverage threshold 0.5, trade-offs (≤5, ×2, one per list, only if
   they change the top 5) — SU п. 41, `docs/TECHNICAL.md`.
-- Statement texts and keys (`jef/quiz/statements.csv`), statement numbers (stable; gaps allowed).
+- Statement texts and keys (`jef/quiz/statements.csv`), statement numbers (stable; gaps allowed). The other texts of the site (answers,
+  notes, explanation lines, screen labels, the methodology page) are in `export/quiz_texts.json`; their numbers are never typed by hand —
+  `{placeholders}` filled from the data.
 - Question order (`pipeline/quiz_flow.py` FLOW, [У] 2026-10-21): core = axis markers × interest, one per area; clarifying = contending pair;
   statement metadata `jef/quiz/statement_meta.csv` (interest, area, sim_group) is used only for the order of questions.
 - Selection criteria (`pipeline/quiz_select.py`), labels and overrides (`jef/directions/labels/`).

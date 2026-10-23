@@ -5,12 +5,12 @@ import { ExternalLink } from '../components/ExternalLink';
 import { HebrewTitle } from '../components/HebrewTitle';
 import { billUrl } from '../engine/report';
 import type { BillRef, QuizBills, QuizData, Statement } from '../engine/types';
-import { dataValues, fill, type Methodology } from '../methodology';
-import type { MethodologyScreenProps } from './types';
+import { dataValues, fill, T, type Texts } from '../texts';
+import type { BillsScreenProps } from './types';
 
 const PAGE = 20;
 
-type Labels = Methodology['statements'];
+type Labels = Texts['methodology']['statements'];
 
 function MethodBill({ data, bills, ref_: [id, sign, role], names, t }: { data: QuizData; bills: QuizBills;
   ref_: BillRef; names: Map<string, string>; t: Labels }) {
@@ -41,7 +41,7 @@ function StatementBody({ data, bills, st, names, t }: { data: QuizData; bills: Q
   const refs = bills.by_direction[st.d] ?? [];
   return (
     <>
-      <p>{`“${st.statement_en}”`}</p>
+      <p>{fill(T.explain.quote, { text: st.statement_en })}</p>
       {dir && (
         <div className="stack small">
           <span className="title-sm">{fill(t.topic, { name: dir.name_en })}</span>
@@ -66,11 +66,12 @@ function StatementBody({ data, bills, st, names, t }: { data: QuizData; bills: Q
 }
 
 /**
- * Every text here comes from quiz_methodology.json (export/WEB_CONTRACT.md §7): the heading, the sections (bold run-in
- * title, text, bullets with an italic lead, a closing paragraph) and the labels of the statements block. The numbers are
- * filled from quiz_data (methodology.ts).
+ * Every text here comes from `methodology` in quiz_texts.json (export/WEB_CONTRACT.md §7): the heading, the sections
+ * (bold run-in title, text, bullets with an italic lead, a closing paragraph) and the labels of the statements block. The
+ * numbers are filled from quiz_data (texts.ts).
  */
-export function MethodologyScreen({ data, bills, methodology, dispatch }: MethodologyScreenProps) {
+export function MethodologyScreen({ data, bills, dispatch }: BillsScreenProps) {
+  const methodology = T.methodology;
   const names = new Map(data.lists.map((l) => [l.id, l.name_en]));
   const v = dataValues(data);
   const t = methodology.statements;

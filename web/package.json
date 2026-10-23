@@ -10,7 +10,7 @@
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "check:dist": "node scripts/check-dist.mjs",
-    "schema:methodology": "node scripts/methodology-schema.ts"
+    "schema:texts": "node scripts/texts-schema.ts"
   },
   "dependencies": {
     "@fontsource/plus-jakarta-sans": "^5.3.0",

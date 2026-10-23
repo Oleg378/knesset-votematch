@@ -1,0 +1,961 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "quiz_texts.schema.json",
+ "title": "Knesset 2026 quiz — texts of the site",
+ "description": "Every text the user reads on the site (export/WEB_CONTRACT.md §7). Edited by hand; generated from web/src/texts.ts by `npm run schema:texts`, checked by `make check` and the web tests. Texts may use {name} and {name?one|many} with the names listed in each pattern (a text with no names takes no braces); the site fills them from quiz_data and the screen state.",
+ "type": "object",
+ "properties": {
+  "updated": {
+   "type": "string",
+   "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+  },
+  "app": {
+   "type": "object",
+   "properties": {
+    "title": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "name": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "eyebrow": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "loading": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "loadError": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "reload": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "newTab": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    }
+   },
+   "required": [
+    "title",
+    "name",
+    "eyebrow",
+    "loading",
+    "loadError",
+    "reload",
+    "newTab"
+   ],
+   "additionalProperties": false
+  },
+  "answers": {
+   "type": "object",
+   "properties": {
+    "0": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "1": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "2": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "-1": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "-2": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    }
+   },
+   "required": [
+    "0",
+    "1",
+    "2",
+    "-1",
+    "-2"
+   ],
+   "additionalProperties": false
+  },
+  "answerButtons": {
+   "type": "object",
+   "properties": {
+    "0": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "1": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "2": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "-1": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "-2": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "dk": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    }
+   },
+   "required": [
+    "0",
+    "1",
+    "2",
+    "-1",
+    "-2",
+    "dk"
+   ],
+   "additionalProperties": false
+  },
+  "notes": {
+   "type": "object",
+   "properties": {
+    "noRecord": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "fewMks": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:n)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "lowCoverage": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:pct)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "join": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    }
+   },
+   "required": [
+    "noRecord",
+    "fewMks",
+    "lowCoverage",
+    "join"
+   ],
+   "additionalProperties": false
+  },
+  "explain": {
+   "type": "object",
+   "properties": {
+    "quote": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:text)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "sideFor": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "sideAgainst": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "sideNoClear": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "answer": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:answer|side)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "votes": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:votes|other|gov)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "votesGov": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:gov)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "basis": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:bills|same|opp|votes)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "basisVotesOnly": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:votes)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "weight": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "caveatByVotes": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "caveatPrice": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    }
+   },
+   "required": [
+    "quote",
+    "sideFor",
+    "sideAgainst",
+    "sideNoClear",
+    "answer",
+    "votes",
+    "votesGov",
+    "basis",
+    "basisVotesOnly",
+    "weight",
+    "caveatByVotes",
+    "caveatPrice"
+   ],
+   "additionalProperties": false
+  },
+  "start": {
+   "type": "object",
+   "properties": {
+    "title": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "tagline": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "chipStatements": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:n)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "chipTime": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "chipAnonymous": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "button": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "howItWorks": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "steps": {
+     "type": "array",
+     "prefixItems": [
+      {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?:n|top)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?:n|top)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?:n|top)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      }
+     ],
+     "items": false,
+     "minItems": 3,
+     "maxItems": 3
+    }
+   },
+   "required": [
+    "title",
+    "tagline",
+    "chipStatements",
+    "chipTime",
+    "chipAnonymous",
+    "button",
+    "howItWorks",
+    "steps"
+   ],
+   "additionalProperties": false
+  },
+  "menu": {
+   "type": "object",
+   "properties": {
+    "open": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "close": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "startOver": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "results": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "methodology": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    }
+   },
+   "required": [
+    "open",
+    "close",
+    "startOver",
+    "results",
+    "methodology"
+   ],
+   "additionalProperties": false
+  },
+  "nav": {
+   "type": "object",
+   "properties": {
+    "back": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "next": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    }
+   },
+   "required": [
+    "back",
+    "next"
+   ],
+   "additionalProperties": false
+  },
+  "question": {
+   "type": "object",
+   "properties": {
+    "progress": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:n|total)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "progressLabel": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "or": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "skip": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "noAnswers": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "answersLabel": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    }
+   },
+   "required": [
+    "progress",
+    "progressLabel",
+    "or",
+    "skip",
+    "noAnswers",
+    "answersLabel"
+   ],
+   "additionalProperties": false
+  },
+  "trade": {
+   "type": "object",
+   "properties": {
+    "counter": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:n|max)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "lead": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "title": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "explain": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "yourAnswer": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:answer)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "labelA": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "labelB": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "equalTitle": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "equalSub": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    }
+   },
+   "required": [
+    "counter",
+    "lead",
+    "title",
+    "explain",
+    "yourAnswer",
+    "labelA",
+    "labelB",
+    "equalTitle",
+    "equalSub"
+   ],
+   "additionalProperties": false
+  },
+  "results": {
+   "type": "object",
+   "properties": {
+    "heading": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "scaleFar": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "scaleClose": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "closestOne": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "closestMany": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:n)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "basedOn": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:n|total|trade)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "basedOnTrade": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "hintBefore": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "hintAfter": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "seeAll": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "seeLess": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "notRanked": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "notComputable": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "noMore": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "changeAnswers": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "rank": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:n)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "closenessLabel": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    }
+   },
+   "required": [
+    "heading",
+    "scaleFar",
+    "scaleClose",
+    "closestOne",
+    "closestMany",
+    "basedOn",
+    "basedOnTrade",
+    "hintBefore",
+    "hintAfter",
+    "seeAll",
+    "seeLess",
+    "notRanked",
+    "notComputable",
+    "noMore",
+    "changeAnswers",
+    "rank",
+    "closenessLabel"
+   ],
+   "additionalProperties": false
+  },
+  "details": {
+   "type": "object",
+   "properties": {
+    "back": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "closeness": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:c)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "fits": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:n)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "misfits": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:n)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "showAll": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:n)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "showLess": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "none": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "openBills": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    }
+   },
+   "required": [
+    "back",
+    "closeness",
+    "fits",
+    "misfits",
+    "showAll",
+    "showLess",
+    "none",
+    "openBills"
+   ],
+   "additionalProperties": false
+  },
+  "bills": {
+   "type": "object",
+   "properties": {
+    "back": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "yourWay": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:n)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "otherWay": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:n)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "none": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "meta": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:knesset|role|verb|direction)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "roleMain": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "roleSecondary": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "raises": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "lowers": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "sponsoredBy": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:names)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "sponsor": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:name|pos)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "link": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "yourWayMark": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "otherWayMark": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "showMore": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:n)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    }
+   },
+   "required": [
+    "back",
+    "yourWay",
+    "otherWay",
+    "none",
+    "meta",
+    "roleMain",
+    "roleSecondary",
+    "raises",
+    "lowers",
+    "sponsoredBy",
+    "sponsor",
+    "link",
+    "yourWayMark",
+    "otherWayMark",
+    "showMore"
+   ],
+   "additionalProperties": false
+  },
+  "methodology": {
+   "type": "object",
+   "properties": {
+    "heading": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "back": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "sections": {
+     "minItems": 1,
+     "type": "array",
+     "items": {
+      "type": "object",
+      "properties": {
+       "title": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+       },
+       "text": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "^(?:[^{}]|\\{(?:lists|evaluable|single|no_record|close|statements|core|clarify|vote_ratio|min_lists|min_mks|min_spread|min_names)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+       },
+       "bullets": {
+        "minItems": 1,
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "lead": {
+           "type": "string",
+           "minLength": 1,
+           "pattern": "^(?:[^{}]|\\{(?:lists|evaluable|single|no_record|close|statements|core|clarify|vote_ratio|min_lists|min_mks|min_spread|min_names)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+          },
+          "text": {
+           "type": "string",
+           "minLength": 1,
+           "pattern": "^(?:[^{}]|\\{(?:lists|evaluable|single|no_record|close|statements|core|clarify|vote_ratio|min_lists|min_mks|min_spread|min_names)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+          }
+         },
+         "required": [
+          "lead",
+          "text"
+         ],
+         "additionalProperties": false
+        }
+       },
+       "after": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "^(?:[^{}]|\\{(?:lists|evaluable|single|no_record|close|statements|core|clarify|vote_ratio|min_lists|min_mks|min_spread|min_names)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+       }
+      },
+      "required": [
+       "title"
+      ],
+      "additionalProperties": false
+     }
+    },
+    "statements": {
+     "type": "object",
+     "properties": {
+      "heading": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?:statements)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "topic": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?:name)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "up": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?:text)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "down": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?:text)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "agreeCountsUp": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "agreeCountsDown": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "billsCount": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?:n)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "billMeta": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?:side|knesset|role)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "sideUp": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "sideDown": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "roleMain": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "roleSecondary": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "sponsors": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?:names)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "noSponsors": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "showMore": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?:n)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "billLink": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "dataVersion": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?:generated|commit)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      }
+     },
+     "required": [
+      "heading",
+      "topic",
+      "up",
+      "down",
+      "agreeCountsUp",
+      "agreeCountsDown",
+      "billsCount",
+      "billMeta",
+      "sideUp",
+      "sideDown",
+      "roleMain",
+      "roleSecondary",
+      "sponsors",
+      "noSponsors",
+      "showMore",
+      "billLink",
+      "dataVersion"
+     ],
+     "additionalProperties": false
+    }
+   },
+   "required": [
+    "heading",
+    "back",
+    "sections",
+    "statements"
+   ],
+   "additionalProperties": false
+  }
+ },
+ "required": [
+  "updated",
+  "app",
+  "answers",
+  "answerButtons",
+  "notes",
+  "explain",
+  "start",
+  "menu",
+  "nav",
+  "question",
+  "trade",
+  "results",
+  "details",
+  "bills",
+  "methodology"
+ ],
+ "additionalProperties": false
+}

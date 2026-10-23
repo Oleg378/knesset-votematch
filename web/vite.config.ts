@@ -4,6 +4,7 @@ import { defineConfig, type HtmlTagDescriptor, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
 import { dotRingSvg } from './src/components/dotRing';
 import { S } from './src/strings';
+import { T } from './src/texts';
 
 // The data contract lives outside web/: ../export (produced by `make data`, never copied by hand).
 const exportDir = fileURLToPath(new URL('../export', import.meta.url));
@@ -51,18 +52,28 @@ function preloadStartPage(): Plugin {
   };
 }
 
+const TITLE_PLACEHOLDER = '<title>%APP_TITLE%</title>';
+const escapeHtml = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
 /**
  * What the page shows until the JS has drawn the first screen (customer 2026-10-18): the loading dot ring
  * (src/components/dotRing.ts) in an empty .app. Plain HTML + CSS (`.boot`, `.dot-ring` in app.css), no script — the CSP
  * allows none inline. React replaces it on its first render (createRoot clears #root).
+ * Also the page title: `app.title` of export/quiz_texts.json replaces the placeholder in index.html.
  */
 function bootLoader(): Plugin {
   const svg = dotRingSvg(S.loading);
   return {
     name: 'boot-loader',
-    transformIndexHtml(html) {
-      if (!html.includes('<div id="root"></div>')) throw new Error('boot-loader: <div id="root"></div> not found');
-      return html.replace('<div id="root"></div>', `<div id="root"><main class="app boot">${svg}</main></div>`);
+    transformIndexHtml: {
+      order: 'pre',
+      handler(html) {
+        if (!html.includes('<div id="root"></div>')) throw new Error('boot-loader: <div id="root"></div> not found');
+        if (!html.includes(TITLE_PLACEHOLDER)) throw new Error(`boot-loader: ${TITLE_PLACEHOLDER} not found`);
+        return html
+          .replace(TITLE_PLACEHOLDER, `<title>${escapeHtml(T.app.title)}</title>`)
+          .replace('<div id="root"></div>', `<div id="root"><main class="app boot">${svg}</main></div>`);
+      },
     },
   };
 }
@@ -75,7 +86,9 @@ export default defineConfig({
   json: { stringify: true },
   build: {
     // The data files (src/data.ts) are always separate, content-hashed files: a small one (quiz_core, ~2 KB) must not be
-    // inlined as a data: URL — the CSP (connect-src 'self') would block fetching it.
+    // inlined as a data: URL — the CSP (connect-src 'self') would block fetching it. (This concerns only the files imported
+    // with `?url`. The texts of the site, export/quiz_texts.json, are imported as a module by src/texts.ts and are part of
+    // the JS bundle on purpose.)
     assetsInlineLimit: (file) => (file.endsWith('.json') ? false : undefined),
   },
   // Engine/reducer tests run in node; screen tests (*.test.tsx) opt into jsdom with a file comment.

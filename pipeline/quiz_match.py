@@ -17,6 +17,8 @@ Usage: python3 pipeline/quiz_match.py jef/quiz/pilot_answers.csv   filled pilot 
 """
 import csv, json, os, random, re, sys, collections
 import numpy as np
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import texts as T
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 Q = os.path.join(ROOT, "jef/quiz")
@@ -61,17 +63,18 @@ def score(st, answers, lv, mult=None):
 
 def match(answers, k=K, mult=None):
     st, pos, cov = load()
+    N = T.load()["notes"]   # user-facing notes: export/quiz_texts.json (export/WEB_CONTRACT.md §7), the same templates as the web
     rows = []
     for letters, c in cov.items():
         if c["status"] == "not_evaluated":
             rows.append({"letters": letters, "list": c["list_name"], "status": c["status"], "closeness": None, "coverage": 0,
-                         "ex_mks": 0, "note": "no record in the Knesset"}); continue
+                         "ex_mks": 0, "note": N["noRecord"]}); continue
         cos, cv = score(st, answers, list_vec(st, pos, letters, k), mult)
         rows.append({"letters": letters, "list": c["list_name"], "status": c["status"], "closeness": cos, "coverage": cv,
-                     "ex_mks": int(c["ex_mks"]), "note": f"few former MKs: {int(c['ex_mks'])}" if c["status"] == "warning" else ""})
+                     "ex_mks": int(c["ex_mks"]), "note": T.fill(N["fewMks"], n=int(c["ex_mks"])) if c["status"] == "warning" else ""})
     for r in rows:   # [А] a list whose positions cover less than half of the answered weight is not ranked with the others
         if r["closeness"] is not None and r["coverage"] < MIN_COVERAGE:
-            r["note"] = (r["note"] + "; " if r["note"] else "") + f"position known for only {r['coverage']:.0%} of your answers"
+            r["note"] = (r["note"] + N["join"] if r["note"] else "") + T.fill(N["lowCoverage"], pct=f"{r['coverage']:.0%}")
     for r in rows: r["ranked"] = is_ranked(r)
     rows.sort(key=lambda r: (not r["ranked"], r["closeness"] is None, -(r["closeness"] if r["ranked"] else 0)))
     return rows
