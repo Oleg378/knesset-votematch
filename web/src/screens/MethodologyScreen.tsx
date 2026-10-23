@@ -102,7 +102,7 @@ function MethodSection({ data, s, v }: { data: QuizData; s: Section; v: ReturnTy
 /**
  * Every text here comes from `methodology` in quiz_texts.json (export/WEB_CONTRACT.md §7): the heading, the sections
  * (each a card: bold run-in title, text, bullets with an italic lead, the names of some lists, a closing paragraph)
- * and the labels of the statements block. The numbers are filled from quiz_data (texts.ts).
+ * and the labels of the statements block (a card too: its heading, then a row per statement). The numbers are filled from quiz_data (texts.ts).
  */
 export function MethodologyScreen({ data, bills, dispatch }: BillsScreenProps) {
   const methodology = T.methodology;
@@ -118,13 +118,15 @@ export function MethodologyScreen({ data, bills, dispatch }: BillsScreenProps) {
       <div className="stack-lg">
         {methodology.sections.map((s) => <MethodSection key={s.title} data={data} s={s} v={v} />)}
       </div>
-      <h2 className="title-md">{fill(t.heading, { statements: data.statements.length })}</h2>
-      <div className="stack">
-        {data.statements.map((st) => (
-          <Accordion key={st.q} title={st.title_en}>
-            {() => <StatementBody data={data} bills={bills} st={st} names={names} t={t} />}
-          </Accordion>
-        ))}
+      <div className="panel method-card">
+        <h2 className="title-md">{fill(t.heading, { statements: data.statements.length })}</h2>
+        <div className="stack method-rows">
+          {data.statements.map((st) => (
+            <Accordion key={st.q} title={st.title_en}>
+              {() => <StatementBody data={data} bills={bills} st={st} names={names} t={t} />}
+            </Accordion>
+          ))}
+        </div>
       </div>
       <p className="xsmall muted">{fill(t.dataVersion, { generated: data.generated, commit: data.source_commit })}</p>
     </section>

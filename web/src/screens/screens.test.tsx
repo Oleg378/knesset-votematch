@@ -122,10 +122,16 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
       for (const b of s.bullets ?? []) within(card as HTMLElement).getByText(fill(b.lead, v), { exact: false });
       if (s.after !== undefined) within(card as HTMLElement).getByText(fill(s.after, v));
     }
-    expect(document.querySelectorAll('.screen .panel')).toHaveLength(methodology.sections.length);
     // a bullet reads as one sentence: its lead, a space, its text
     expect(document.querySelector('.screen')!.textContent).toContain(`${v.evaluable} of ${v.lists} lists can be evaluated`);
-    screen.getByRole('heading', { name: fill(methodology.statements.heading, { statements: data.statements.length }) });
+    // the statements block is a card too: its heading, then a row per statement; the data line under it, outside
+    const heading = screen.getByRole('heading', { name: fill(methodology.statements.heading, { statements: data.statements.length }) });
+    const statements = heading.closest('.panel') as HTMLElement;
+    expect(statements).not.toBeNull();
+    expect(statements.querySelectorAll('.accordion')).toHaveLength(data.statements.length);
+    const dataLine = screen.getByText(fill(methodology.statements.dataVersion, { generated: data.generated, commit: data.source_commit }));
+    expect(dataLine.closest('.panel')).toBeNull();
+    expect(document.querySelectorAll('.screen .panel')).toHaveLength(methodology.sections.length + 1);
     expect(document.body.textContent).not.toMatch(/[{}]/);
   });
 
