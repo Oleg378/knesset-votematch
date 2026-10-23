@@ -2,26 +2,26 @@
 
 _The only link between the data side (`pipeline/`) and the web (`web/`): the web reads `export/` and nothing else, never calls Python.
 Python is the reference (`pipeline/quiz_match.py`, `quiz_flow.py`, `quiz_report.py`); the TypeScript port (`web/src/engine/`) must
-reproduce `golden.v2.json` to 1e-9. Texts of the methodology and positions pages — `METHODOLOGY_PAGE.md`. No history here: the
+reproduce `golden.json` to 1e-9. Texts of the methodology and positions pages — `METHODOLOGY_PAGE.md`. No history here: the
 current contract only; what changed and why is in `docs/WORKLOG.md`._
 
 ## 1. Files and loading
 
 | File | What | Shipped |
 |---|---|---|
-| `quiz_core.v2.json` | `flow` (parameters of the question order), `core` (the first statements, in order), the core statements | yes, bundled with the app (~2 KB) |
-| `quiz_data.v2.json` | `params`, all statements (with `interest`, `area`, `sim_group`), `directions`, `lists` with `positions` and `composition` | yes, fetched first |
-| `quiz_bills.v2.json` | `mks` (with `party_en`), `by_direction`, `votes`, `bills` — only for List details and «Bills of one statement» | yes, fetched second |
-| `quiz_data.v2.schema.json` | JSON Schema of the three files merged | tests |
-| `golden.v2.json` | answer sets → ranking, notes, trade-off pairs, explanation lines, evidence order, question order («flow N» cases) | tests |
+| `quiz_core.json` | `flow` (parameters of the question order), `core` (the first statements, in order), the core statements | yes, bundled with the app (~2 KB) |
+| `quiz_data.json` | `params`, all statements (with `interest`, `area`, `sim_group`), `directions`, `lists` with `positions` and `composition` | yes, fetched first |
+| `quiz_bills.json` | `mks` (with `party_en`), `by_direction`, `votes`, `bills` — only for List details and «Bills of one statement» | yes, fetched second |
+| `quiz_data.schema.json` | JSON Schema of the three files merged | tests |
+| `golden.json` | answer sets → ranking, notes, trade-off pairs, explanation lines, evidence order, question order («flow N» cases) | tests |
 
 Goal: the start page never waits for data, and a loader almost never appears.
 
 | File | Size (gzip) | Contents | Needed by |
 |---|---|---|---|
-| `quiz_core.v2.json` | ~2 KB (1 KB) | `flow`, `core`, the core statements | the start page and the first `flow.core` questions |
-| `quiz_data.v2.json` | ~217 KB | `params`, all statements, `directions`, `lists` with positions | clarifying questions, trade-offs, Results |
-| `quiz_bills.v2.json` | ~1.8 MB | `mks`, `by_direction`, `bills` | List details and «Bills of one statement» only |
+| `quiz_core.json` | ~2 KB (1 KB) | `flow`, `core`, the core statements | the start page and the first `flow.core` questions |
+| `quiz_data.json` | ~217 KB | `params`, all statements, `directions`, `lists` with positions | clarifying questions, trade-offs, Results |
+| `quiz_bills.json` | ~1.8 MB | `mks`, `by_direction`, `bills` | List details and «Bills of one statement» only |
 
 - The two big files are **not bundled** into the JS: the app shell (start page, styles, fonts, the ~2 KB `quiz_core`) loads
   alone; `quiz_data` and `quiz_bills` are fetched as static files from the site itself (CSP `connect-src 'self'` allows it).
@@ -30,7 +30,7 @@ Goal: the start page never waits for data, and a loader almost never appears.
   is needed.
 - A loader is shown only if the user reaches a screen whose file has not arrived yet (e.g. the first clarifying question
   before `quiz_data`, List details before `quiz_bills`), and only for that screen.
-- All three files carry the same `version`, `generated` and `source_commit`; if a fetched file differs from the bundled core
+- All three files carry the same `generated` and `source_commit`; if a fetched file differs from the bundled core
   (a deploy mid-session), it is fetched once more bypassing the cache, then an error asks to reload the page.
 - Caching: the files get content-hashed names at build time (Vite assets, `immutable`); the app always references the files
   of its own build.
@@ -65,7 +65,7 @@ All numbers come from `flow` in the export (now `core 8, clarify 7, trade 5`); *
 3. **Stop** after `clarify` clarifying questions (`flow.stop_gap` is null). An optional stopping rule exists (`should_stop`:
    stop when the leader is ahead of the second list by `stop_gap` after at least `min_questions`, at most `max_questions`);
    it is off — implement it only if `stop_gap` is not null.
-4. **Trade-offs** — as in v1 (`tradeoffs()`), at most `flow.trade`.
+4. **Trade-offs** — `tradeoffs()` of `pipeline/quiz_match.py`, at most `flow.trade`.
 5. **Results.** A button «Answer more questions» continues clarifying questions (same rule) until the pool ends, then Results again.
 
 The counter on the question screen: `n / (core + clarify)` while the fixed number is used.
@@ -102,7 +102,7 @@ Per list, everything comes from `quiz_report.contributions()` and `explain()`; g
 ✓/✗ · Hebrew bill name linking to `params.BILL_URL` · `Knesset N` · `main / secondary topic` · `raises / lowers “<direction name_en>”` ·
 `sponsored by: <name> (#<position> on the list)` (first two by list position). Bill names are never translated.
 
-**Votes of the list's former MKs** (2026-10-19, `quiz_bills.v2.json` → `votes`): `votes[list][direction]` = rows
+**Votes of the list's former MKs** (2026-10-19, `quiz_bills.json` → `votes`): `votes[list][direction]` = rows
 `[bill, sign, camp, for, against]` — the bills of that direction its former MKs voted on, with the bill's sign on the direction
 (+1 raises / −1 lowers), whether the bill came from the MK's own camp (`own`, counted in V) or from the other camp (`other`, counted in
 O), and how many of them voted for and against. These are exactly the votes behind the position. Name and Knesset: `bills[bill]`.
@@ -110,9 +110,9 @@ Suggested place: under «Bills of one statement», a third group «How its forme
 `Hebrew name · Knesset N · raises / lowers “<direction>” · for X, against Y · own camp’s bill / the other camp’s bill`. Not part of the
 golden cases (no formula), plain display.
 
-## 4. Golden v2
+## 4. Golden cases
 
-Same structure as v1 plus 6 flow cases («flow 0» … «flow 5»): a synthetic user's answers to every statement; `flow.core` and
+34 cases: answer sets (synthetic, random, edge cases), and 6 flow cases («flow 0» … «flow 5»): a synthetic user's answers to every statement; `flow.core` and
 `flow.clarifying` are the statements asked, in order; `answers` holds only the answers given to them, and `ranking`,
 `tradeoffs`, `details` are computed on those. The TS port must match to 1e-9.
 

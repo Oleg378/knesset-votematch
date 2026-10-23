@@ -1,600 +1,596 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "quiz_data.v2.schema.json",
-  "title": "Knesset 2026 quiz data, version 2",
-  "description": "Produced by pipeline/export.py. The only input of web/. Formulas: docs/QUIZ_MATCHING.md; changes and the list-details format: export/V2_HANDOFF.md. v2 (2026-10-18): P = A + 0.25 V with A not centered, K = 0, P_bills, CLOSE, question order (flow, core). Written as three files loaded in order (V2_HANDOFF.md «Loading»): quiz_core.v2.json (version, generated, source_commit, flow, core, statements of the core), quiz_data.v2.json (version, generated, source_commit, params, flow, core, statements, directions, lists), quiz_bills.v2.json (version, generated, source_commit, mks, by_direction, bills). This schema describes their merge.",
-  "type": "object",
-  "required": [
-    "version",
-    "generated",
-    "source_commit",
-    "params",
-    "statements",
-    "directions",
-    "lists",
-    "mks",
-    "by_direction",
-    "bills",
-    "flow",
-    "core",
-    "votes"
-  ],
-  "additionalProperties": false,
-  "$defs": {
-    "listId": {
-      "type": "string",
-      "description": "Ballot letters of the list (official CEC id), e.g. \"אמת\"."
-    },
-    "mkId": {
-      "type": "string",
-      "pattern": "^[0-9]+$",
-      "description": "Knesset person id."
-    },
-    "billId": {
-      "type": "string",
-      "pattern": "^[0-9]+$",
-      "description": "Knesset bill id."
-    },
-    "dirId": {
-      "type": "string",
-      "description": "Direction key, e.g. \"72\" or \"277a\"."
-    },
-    "sign": {
-      "enum": [
-        1,
-        -1
-      ]
-    }
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "quiz_data.schema.json",
+ "title": "Knesset 2026 quiz data",
+ "description": "Produced by pipeline/export.py. The only input of web/. What the web computes and shows: export/WEB_CONTRACT.md; formulas: docs/TECHNICAL.md. Written as three files loaded in order (quiz_core, quiz_data, quiz_bills); this schema describes the three merged.",
+ "type": "object",
+ "required": [
+  "generated",
+  "source_commit",
+  "params",
+  "statements",
+  "directions",
+  "lists",
+  "mks",
+  "by_direction",
+  "bills",
+  "flow",
+  "core",
+  "votes"
+ ],
+ "additionalProperties": false,
+ "$defs": {
+  "listId": {
+   "type": "string",
+   "description": "Ballot letters of the list (official CEC id), e.g. \"אמת\"."
   },
-  "properties": {
-    "version": {
-      "const": 2
-    },
-    "generated": {
-      "type": "string",
-      "format": "date"
-    },
-    "source_commit": {
-      "type": "string"
-    },
-    "params": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": [
-        "K",
-        "MIN_COVERAGE",
-        "MAX_TRADE",
-        "TRADE_TOP",
-        "TRADE_W",
-        "TRADE_CANDIDATES",
-        "VOTE_WEIGHT",
-        "CLOSE",
-        "BILL_URL",
-        "MIN_EX_MKS",
-        "MIN_CLEAR_MKS",
-        "MIN_CLEAR_BILLS"
-      ],
-      "properties": {
-        "K": {
-          "type": "number",
-          "description": "Shrinkage: p = P * e / (e + K)."
-        },
-        "MIN_COVERAGE": {
-          "type": "number",
-          "description": "A list covering less of the answered weight is not ranked."
-        },
-        "MAX_TRADE": {
-          "type": "integer",
-          "description": "Max trade-off questions."
-        },
-        "TRADE_TOP": {
-          "type": "integer",
-          "description": "Trade-offs are asked only if they change the order of this top."
-        },
-        "TRADE_W": {
-          "type": "number",
-          "description": "Weight multiplier of the statement chosen in a trade-off."
-        },
-        "TRADE_CANDIDATES": {
-          "type": "integer",
-          "description": "Statements tried on each side per list."
-        },
-        "VOTE_WEIGHT": {
-          "type": "number",
-          "description": "Weight of a vote vs a sponsored bill in e (informational)."
-        },
-        "CLOSE": {
-          "type": "number",
-          "description": "|p| below this: the list «has no clear position» on the statement (no for/against)."
-        },
-        "BILL_URL": {
-          "type": "string",
-          "description": "Link to a bill on the Knesset site: replace {id} with the bill id."
-        },
-        "MIN_EX_MKS": {
-          "type": "integer",
-          "minimum": 1,
-          "description": "A list with fewer former MKs is shown but not ranked (customer decision 2026-10-18)."
-        },
-        "MIN_CLEAR_MKS": {
-          "type": "integer",
-          "minimum": 1
-        },
-        "MIN_CLEAR_BILLS": {
-          "type": "integer",
-          "minimum": 1
-        }
-      }
-    },
-    "statements": {
-      "type": "array",
-      "description": "Quiz statements in the order they are asked.",
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "q",
-          "title_en",
-          "statement_en",
-          "key",
-          "d",
-          "w",
-          "interest",
-          "area",
-          "sim_group"
-        ],
-        "properties": {
-          "q": {
-            "type": "string",
-            "description": "Stable statement number; gaps are allowed (removed statements)."
-          },
-          "title_en": {
-            "type": "string"
-          },
-          "statement_en": {
-            "type": "string"
-          },
-          "key": {
-            "$ref": "#/$defs/sign",
-            "description": "+1: agreeing moves the direction up; -1: down."
-          },
-          "d": {
-            "$ref": "#/$defs/dirId"
-          },
-          "w": {
-            "type": "number",
-            "description": "1, or 1/n when n statements share a direction."
-          },
-          "interest": {
-            "type": "number",
-            "minimum": 1,
-            "maximum": 5,
-            "description": "How much an ordinary voter cares (1–5, mean of two blind ratings). Used only for the order of questions."
-          },
-          "area": {
-            "type": "string",
-            "description": "Broad area of the statement (13 codes). Used only for the order of questions."
-          },
-          "sim_group": {
-            "type": [
-              "string",
-              "null"
-            ],
-            "description": "Statements that feel like one question to a voter share a group; null = none. No two of one group are asked among the first core + clarify questions."
-          }
-        }
-      }
-    },
-    "directions": {
-      "type": "object",
-      "propertyNames": {
-        "$ref": "#/$defs/dirId"
-      },
-      "additionalProperties": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "name_en",
-          "plus_en",
-          "minus_en"
-        ],
-        "properties": {
-          "name_en": {
-            "type": "string"
-          },
-          "plus_en": {
-            "type": "string"
-          },
-          "minus_en": {
-            "type": "string"
-          }
-        }
-      }
-    },
-    "lists": {
-      "type": "array",
-      "description": "All 2026 lists; this order breaks ties in the ranking.",
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "id",
-          "name_en",
-          "status",
-          "ex_mks",
-          "positions",
-          "composition"
-        ],
-        "properties": {
-          "id": {
-            "$ref": "#/$defs/listId"
-          },
-          "name_en": {
-            "type": "string",
-            "description": "Official English name (CEC)."
-          },
-          "status": {
-            "enum": [
-              "ok",
-              "warning",
-              "not_evaluated"
-            ],
-            "description": "warning: 1 ex-MK; not_evaluated: none."
-          },
-          "ex_mks": {
-            "type": "integer",
-            "minimum": 0
-          },
-          "positions": {
-            "type": "object",
-            "propertyNames": {
-              "$ref": "#/$defs/dirId"
-            },
-            "additionalProperties": {
-              "type": "object",
-              "additionalProperties": false,
-              "required": [
-                "P",
-                "P_bills",
-                "e",
-                "n_mk",
-                "n_votes",
-                "n_other",
-                "n_names",
-                "n_gov"
-              ],
-              "properties": {
-                "P": {
-                  "type": "number",
-                  "description": "Position relative to the average MK."
-                },
-                "P_bills": {
-                  "type": "number",
-                  "description": "Part of P from the list's own bills (the rest is votes). Decides the «side comes from votes» line."
-                },
-                "e": {
-                  "type": "number",
-                  "minimum": 0,
-                  "description": "Evidence: sponsored bills + 0.25 * votes (V + O + G)."
-                },
-                "n_mk": {
-                  "type": "integer"
-                },
-                "n_votes": {
-                  "type": "integer",
-                  "description": "Votes on private bills on this direction (shown in explanations)."
-                },
-                "n_other": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "description": "Votes of the list's ex-MKs on the other camp's bills on this direction (basis line, 2026-10-18)."
-                },
-                "n_names": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "description": "Distinct bills (by name, sponsored or voted) behind the position; a clear position needs >= params.MIN_CLEAR_BILLS and n_mk >= params.MIN_CLEAR_MKS (2026-10-18)."
-                },
-                "n_gov": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "description": "Votes of the list's ex-MKs on the coalition's own government bills on this direction (G, 2026-10-22; basis line)."
-                }
-              }
-            }
-          },
-          "composition": {
-            "type": "array",
-            "description": "Former MKs of the list by component party, most first (2026-10-22): «Based on N former MKs: 17 from Yesh Atid, 2 from …».",
-            "items": {
-              "type": "object",
-              "additionalProperties": false,
-              "required": [
-                "party_en",
-                "ex_mks"
-              ],
-              "properties": {
-                "party_en": {
-                  "type": "string"
-                },
-                "ex_mks": {
-                  "type": "integer",
-                  "minimum": 1
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "mks": {
-      "type": "object",
-      "description": "Candidates of 2026 lists who are former MKs (Knessets 24-25).",
-      "propertyNames": {
-        "$ref": "#/$defs/mkId"
-      },
-      "additionalProperties": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "name_en",
-          "list",
-          "list_position",
-          "party_en"
-        ],
-        "properties": {
-          "name_en": {
-            "type": "string",
-            "description": "Transliteration (manual/mk_names_en.csv, not official)."
-          },
-          "list": {
-            "$ref": "#/$defs/listId"
-          },
-          "list_position": {
-            "type": "integer",
-            "minimum": 1
-          },
-          "party_en": {
-            "type": [
-              "string",
-              "null"
-            ],
-            "description": "Component party of the 2026 list the former MK runs with (Central Elections Committee list; English via a manual table); null = the list itself (no component party shown)."
-          }
-        }
-      }
-    },
-    "by_direction": {
-      "type": "object",
-      "description": "Per quiz direction, the labeled bills in label order: [bill id, sign, role]. Order matters for ties.",
-      "propertyNames": {
-        "$ref": "#/$defs/dirId"
-      },
-      "additionalProperties": {
-        "type": "array",
-        "items": {
-          "type": "array",
-          "prefixItems": [
-            {
-              "$ref": "#/$defs/billId"
-            },
-            {
-              "$ref": "#/$defs/sign"
-            },
-            {
-              "enum": [
-                "main",
-                "secondary"
-              ]
-            }
-          ],
-          "minItems": 3,
-          "maxItems": 3
-        }
-      }
-    },
-    "bills": {
-      "type": "object",
-      "propertyNames": {
-        "$ref": "#/$defs/billId"
-      },
-      "additionalProperties": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "name_he",
-          "knesset",
-          "sponsors"
-        ],
-        "properties": {
-          "name_he": {
-            "type": "string",
-            "description": "Original Hebrew title; never translated. Render with dir=\"auto\"."
-          },
-          "knesset": {
-            "type": "integer"
-          },
-          "sponsors": {
-            "type": "array",
-            "items": {
-              "$ref": "#/$defs/mkId"
-            },
-            "description": "Sponsors who are 2026 candidates."
-          }
-        }
-      }
-    },
-    "flow": {
-      "type": "object",
-      "additionalProperties": false,
-      "description": "Order of questions (pipeline/quiz_flow.py FLOW): core statements (markers of the axes, exported in `core`), then clarifying ones chosen one by one (contending pair), then trade-offs.",
-      "required": [
-        "clarify",
-        "clarify_top",
-        "core",
-        "core_area_cap",
-        "core_axes",
-        "core_gov_share",
-        "core_min_interest",
-        "core_one_sided",
-        "core_r_max",
-        "core_slots",
-        "gov_r",
-        "interest_alpha",
-        "max_questions",
-        "min_questions",
-        "near_dup_r",
-        "pair_eps",
-        "pair_gap",
-        "same_area_in_row",
-        "sim_groups",
-        "stop_gap",
-        "trade"
-      ],
-      "properties": {
-        "core": {
-          "type": "integer",
-          "minimum": 0,
-          "description": "Number of core statements (the same for everyone)."
-        },
-        "clarify": {
-          "type": "integer",
-          "minimum": 0,
-          "description": "Clarifying statements after the core when stop_gap is null."
-        },
-        "trade": {
-          "type": "integer",
-          "minimum": 0,
-          "description": "Max trade-off questions."
-        },
-        "core_r_max": {
-          "type": "number",
-          "description": "Used to build the core (already applied in `core`)."
-        },
-        "core_gov_share": {
-          "type": "number",
-          "description": "Used to build the core (already applied in `core`)."
-        },
-        "gov_r": {
-          "type": "number",
-          "description": "Used to build the core (already applied in `core`)."
-        },
-        "clarify_top": {
-          "type": "integer",
-          "minimum": 0,
-          "description": "Clarifying: the leader and up to clarify_top − 1 contenders are compared; the two-sided filter looks at the top clarify_top ranked lists."
-        },
-        "stop_gap": {
-          "type": [
-            "number",
-            "null"
-          ],
-          "description": "Stopping rule: stop when the leader's closeness exceeds the second's by this (null = off, use `clarify`)."
-        },
-        "min_questions": {
-          "type": "integer",
-          "minimum": 0,
-          "description": "Stopping rule: not before this many statements."
-        },
-        "max_questions": {
-          "type": "integer",
-          "minimum": 0,
-          "description": "Stopping rule: at most this many statements."
-        },
-        "core_one_sided": {
-          "type": "boolean",
-          "description": "false: statements on which every evaluated list with a clear position is on the same side are not in the core (2026-10-18)."
-        },
-        "core_axes": {
-          "type": "integer",
-          "description": "Used to build the core (already applied in `core`)."
-        },
-        "core_slots": {
-          "type": "array",
-          "items": {
-            "type": "integer"
-          },
-          "description": "Used to build the core (already applied in `core`)."
-        },
-        "core_min_interest": {
-          "type": "number",
-          "description": "Used to build the core (already applied in `core`)."
-        },
-        "core_area_cap": {
-          "type": "integer",
-          "description": "Used to build the core (already applied in `core`)."
-        },
-        "interest_alpha": {
-          "type": "number",
-          "description": "Clarifying: a candidate's score is multiplied by (interest / 5) ** interest_alpha."
-        },
-        "pair_gap": {
-          "type": "number",
-          "description": "Clarifying: a ranked list is a contender if its closeness is within pair_gap of the leader's."
-        },
-        "pair_eps": {
-          "type": "number",
-          "description": "Clarifying: weight of a contender = 1 / (leader's closeness − its closeness + pair_eps)."
-        },
-        "near_dup_r": {
-          "type": "number",
-          "description": "Clarifying: a candidate whose |r| with a shown statement is >= near_dup_r is skipped (if anything else is left)."
-        },
-        "same_area_in_row": {
-          "type": "boolean",
-          "description": "Clarifying: false = the previous question's area is skipped (if anything else is left)."
-        },
-        "sim_groups": {
-          "type": "boolean",
-          "description": "Clarifying and core: no two statements of one sim_group among the shown ones."
-        }
-      }
-    },
-    "core": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      },
-      "description": "Core statements (`q`) in the order they are asked."
-    },
-    "votes": {
-      "type": "object",
-      "description": "How each list's former MKs voted on the bills of a quiz direction (2026-10-19): votes[list][direction] = [[bill id, sign (+1 raises / −1 lowers the direction), «own» | «other» (the bill's camp relative to the MK), votes for, votes against], ...]. Exactly the votes behind the position (V: own camp's private bills; O: the other camp's bills; G: the coalition's own government bills, also «own», 2026-10-22). Bill name and Knesset: bills.",
-      "additionalProperties": {
-        "type": "object",
-        "additionalProperties": {
-          "type": "array",
-          "items": {
-            "type": "array",
-            "prefixItems": [
-              {
-                "type": "string"
-              },
-              {
-                "enum": [
-                  1,
-                  -1
-                ]
-              },
-              {
-                "enum": [
-                  "own",
-                  "other"
-                ]
-              },
-              {
-                "type": "integer",
-                "minimum": 0
-              },
-              {
-                "type": "integer",
-                "minimum": 0
-              }
-            ],
-            "minItems": 5,
-            "maxItems": 5
-          }
-        }
-      }
-    }
+  "mkId": {
+   "type": "string",
+   "pattern": "^[0-9]+$",
+   "description": "Knesset person id."
+  },
+  "billId": {
+   "type": "string",
+   "pattern": "^[0-9]+$",
+   "description": "Knesset bill id."
+  },
+  "dirId": {
+   "type": "string",
+   "description": "Direction key, e.g. \"72\" or \"277a\"."
+  },
+  "sign": {
+   "enum": [
+    1,
+    -1
+   ]
   }
+ },
+ "properties": {
+  "generated": {
+   "type": "string",
+   "format": "date"
+  },
+  "source_commit": {
+   "type": "string"
+  },
+  "params": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "K",
+    "MIN_COVERAGE",
+    "MAX_TRADE",
+    "TRADE_TOP",
+    "TRADE_W",
+    "TRADE_CANDIDATES",
+    "VOTE_WEIGHT",
+    "CLOSE",
+    "BILL_URL",
+    "MIN_EX_MKS",
+    "MIN_CLEAR_MKS",
+    "MIN_CLEAR_BILLS"
+   ],
+   "properties": {
+    "K": {
+     "type": "number",
+     "description": "Shrinkage: p = P * e / (e + K)."
+    },
+    "MIN_COVERAGE": {
+     "type": "number",
+     "description": "A list covering less of the answered weight is not ranked."
+    },
+    "MAX_TRADE": {
+     "type": "integer",
+     "description": "Max trade-off questions."
+    },
+    "TRADE_TOP": {
+     "type": "integer",
+     "description": "Trade-offs are asked only if they change the order of this top."
+    },
+    "TRADE_W": {
+     "type": "number",
+     "description": "Weight multiplier of the statement chosen in a trade-off."
+    },
+    "TRADE_CANDIDATES": {
+     "type": "integer",
+     "description": "Statements tried on each side per list."
+    },
+    "VOTE_WEIGHT": {
+     "type": "number",
+     "description": "Weight of a vote vs a sponsored bill in e (informational)."
+    },
+    "CLOSE": {
+     "type": "number",
+     "description": "|p| below this: the list «has no clear position» on the statement (no for/against)."
+    },
+    "BILL_URL": {
+     "type": "string",
+     "description": "Link to a bill on the Knesset site: replace {id} with the bill id."
+    },
+    "MIN_EX_MKS": {
+     "type": "integer",
+     "minimum": 1,
+     "description": "A list with fewer former MKs is shown but not ranked (customer decision 2026-10-18)."
+    },
+    "MIN_CLEAR_MKS": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "MIN_CLEAR_BILLS": {
+     "type": "integer",
+     "minimum": 1
+    }
+   }
+  },
+  "statements": {
+   "type": "array",
+   "description": "Quiz statements in the order they are asked.",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "q",
+     "title_en",
+     "statement_en",
+     "key",
+     "d",
+     "w",
+     "interest",
+     "area",
+     "sim_group"
+    ],
+    "properties": {
+     "q": {
+      "type": "string",
+      "description": "Stable statement number; gaps are allowed (removed statements)."
+     },
+     "title_en": {
+      "type": "string"
+     },
+     "statement_en": {
+      "type": "string"
+     },
+     "key": {
+      "$ref": "#/$defs/sign",
+      "description": "+1: agreeing moves the direction up; -1: down."
+     },
+     "d": {
+      "$ref": "#/$defs/dirId"
+     },
+     "w": {
+      "type": "number",
+      "description": "1, or 1/n when n statements share a direction."
+     },
+     "interest": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "How much an ordinary voter cares (1–5, mean of two blind ratings). Used only for the order of questions."
+     },
+     "area": {
+      "type": "string",
+      "description": "Broad area of the statement (13 codes). Used only for the order of questions."
+     },
+     "sim_group": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Statements that feel like one question to a voter share a group; null = none. No two of one group are asked among the first core + clarify questions."
+     }
+    }
+   }
+  },
+  "directions": {
+   "type": "object",
+   "propertyNames": {
+    "$ref": "#/$defs/dirId"
+   },
+   "additionalProperties": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "name_en",
+     "plus_en",
+     "minus_en"
+    ],
+    "properties": {
+     "name_en": {
+      "type": "string"
+     },
+     "plus_en": {
+      "type": "string"
+     },
+     "minus_en": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "lists": {
+   "type": "array",
+   "description": "All 2026 lists; this order breaks ties in the ranking.",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "id",
+     "name_en",
+     "status",
+     "ex_mks",
+     "positions",
+     "composition"
+    ],
+    "properties": {
+     "id": {
+      "$ref": "#/$defs/listId"
+     },
+     "name_en": {
+      "type": "string",
+      "description": "Official English name (CEC)."
+     },
+     "status": {
+      "enum": [
+       "ok",
+       "warning",
+       "not_evaluated"
+      ],
+      "description": "warning: 1 ex-MK; not_evaluated: none."
+     },
+     "ex_mks": {
+      "type": "integer",
+      "minimum": 0
+     },
+     "positions": {
+      "type": "object",
+      "propertyNames": {
+       "$ref": "#/$defs/dirId"
+      },
+      "additionalProperties": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "P",
+        "P_bills",
+        "e",
+        "n_mk",
+        "n_votes",
+        "n_other",
+        "n_names",
+        "n_gov"
+       ],
+       "properties": {
+        "P": {
+         "type": "number",
+         "description": "Position relative to the average MK."
+        },
+        "P_bills": {
+         "type": "number",
+         "description": "Part of P from the list's own bills (the rest is votes). Decides the «side comes from votes» line."
+        },
+        "e": {
+         "type": "number",
+         "minimum": 0,
+         "description": "Evidence: sponsored bills + 0.25 * votes (V + O + G)."
+        },
+        "n_mk": {
+         "type": "integer"
+        },
+        "n_votes": {
+         "type": "integer",
+         "description": "Votes on private bills on this direction (shown in explanations)."
+        },
+        "n_other": {
+         "type": "integer",
+         "minimum": 0,
+         "description": "Votes of the list's ex-MKs on the other camp's bills on this direction (basis line, 2026-10-18)."
+        },
+        "n_names": {
+         "type": "integer",
+         "minimum": 0,
+         "description": "Distinct bills (by name, sponsored or voted) behind the position; a clear position needs >= params.MIN_CLEAR_BILLS and n_mk >= params.MIN_CLEAR_MKS (2026-10-18)."
+        },
+        "n_gov": {
+         "type": "integer",
+         "minimum": 0,
+         "description": "Votes of the list's ex-MKs on the coalition's own government bills on this direction (G, 2026-10-22; basis line)."
+        }
+       }
+      }
+     },
+     "composition": {
+      "type": "array",
+      "description": "Former MKs of the list by component party, most first (2026-10-22): «Based on N former MKs: 17 from Yesh Atid, 2 from …».",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "party_en",
+        "ex_mks"
+       ],
+       "properties": {
+        "party_en": {
+         "type": "string"
+        },
+        "ex_mks": {
+         "type": "integer",
+         "minimum": 1
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "mks": {
+   "type": "object",
+   "description": "Candidates of 2026 lists who are former MKs (Knessets 24-25).",
+   "propertyNames": {
+    "$ref": "#/$defs/mkId"
+   },
+   "additionalProperties": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "name_en",
+     "list",
+     "list_position",
+     "party_en"
+    ],
+    "properties": {
+     "name_en": {
+      "type": "string",
+      "description": "Transliteration (manual/mk_names_en.csv, not official)."
+     },
+     "list": {
+      "$ref": "#/$defs/listId"
+     },
+     "list_position": {
+      "type": "integer",
+      "minimum": 1
+     },
+     "party_en": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Component party of the 2026 list the former MK runs with (Central Elections Committee list; English via a manual table); null = the list itself (no component party shown)."
+     }
+    }
+   }
+  },
+  "by_direction": {
+   "type": "object",
+   "description": "Per quiz direction, the labeled bills in label order: [bill id, sign, role]. Order matters for ties.",
+   "propertyNames": {
+    "$ref": "#/$defs/dirId"
+   },
+   "additionalProperties": {
+    "type": "array",
+    "items": {
+     "type": "array",
+     "prefixItems": [
+      {
+       "$ref": "#/$defs/billId"
+      },
+      {
+       "$ref": "#/$defs/sign"
+      },
+      {
+       "enum": [
+        "main",
+        "secondary"
+       ]
+      }
+     ],
+     "minItems": 3,
+     "maxItems": 3
+    }
+   }
+  },
+  "bills": {
+   "type": "object",
+   "propertyNames": {
+    "$ref": "#/$defs/billId"
+   },
+   "additionalProperties": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "name_he",
+     "knesset",
+     "sponsors"
+    ],
+    "properties": {
+     "name_he": {
+      "type": "string",
+      "description": "Original Hebrew title; never translated. Render with dir=\"auto\"."
+     },
+     "knesset": {
+      "type": "integer"
+     },
+     "sponsors": {
+      "type": "array",
+      "items": {
+       "$ref": "#/$defs/mkId"
+      },
+      "description": "Sponsors who are 2026 candidates."
+     }
+    }
+   }
+  },
+  "flow": {
+   "type": "object",
+   "additionalProperties": false,
+   "description": "Order of questions (pipeline/quiz_flow.py FLOW): core statements (markers of the axes, exported in `core`), then clarifying ones chosen one by one (contending pair), then trade-offs.",
+   "required": [
+    "clarify",
+    "clarify_top",
+    "core",
+    "core_area_cap",
+    "core_axes",
+    "core_gov_share",
+    "core_min_interest",
+    "core_one_sided",
+    "core_r_max",
+    "core_slots",
+    "gov_r",
+    "interest_alpha",
+    "max_questions",
+    "min_questions",
+    "near_dup_r",
+    "pair_eps",
+    "pair_gap",
+    "same_area_in_row",
+    "sim_groups",
+    "stop_gap",
+    "trade"
+   ],
+   "properties": {
+    "core": {
+     "type": "integer",
+     "minimum": 0,
+     "description": "Number of core statements (the same for everyone)."
+    },
+    "clarify": {
+     "type": "integer",
+     "minimum": 0,
+     "description": "Clarifying statements after the core when stop_gap is null."
+    },
+    "trade": {
+     "type": "integer",
+     "minimum": 0,
+     "description": "Max trade-off questions."
+    },
+    "core_r_max": {
+     "type": "number",
+     "description": "Used to build the core (already applied in `core`)."
+    },
+    "core_gov_share": {
+     "type": "number",
+     "description": "Used to build the core (already applied in `core`)."
+    },
+    "gov_r": {
+     "type": "number",
+     "description": "Used to build the core (already applied in `core`)."
+    },
+    "clarify_top": {
+     "type": "integer",
+     "minimum": 0,
+     "description": "Clarifying: the leader and up to clarify_top − 1 contenders are compared; the two-sided filter looks at the top clarify_top ranked lists."
+    },
+    "stop_gap": {
+     "type": [
+      "number",
+      "null"
+     ],
+     "description": "Stopping rule: stop when the leader's closeness exceeds the second's by this (null = off, use `clarify`)."
+    },
+    "min_questions": {
+     "type": "integer",
+     "minimum": 0,
+     "description": "Stopping rule: not before this many statements."
+    },
+    "max_questions": {
+     "type": "integer",
+     "minimum": 0,
+     "description": "Stopping rule: at most this many statements."
+    },
+    "core_one_sided": {
+     "type": "boolean",
+     "description": "false: statements on which every evaluated list with a clear position is on the same side are not in the core (2026-10-18)."
+    },
+    "core_axes": {
+     "type": "integer",
+     "description": "Used to build the core (already applied in `core`)."
+    },
+    "core_slots": {
+     "type": "array",
+     "items": {
+      "type": "integer"
+     },
+     "description": "Used to build the core (already applied in `core`)."
+    },
+    "core_min_interest": {
+     "type": "number",
+     "description": "Used to build the core (already applied in `core`)."
+    },
+    "core_area_cap": {
+     "type": "integer",
+     "description": "Used to build the core (already applied in `core`)."
+    },
+    "interest_alpha": {
+     "type": "number",
+     "description": "Clarifying: a candidate's score is multiplied by (interest / 5) ** interest_alpha."
+    },
+    "pair_gap": {
+     "type": "number",
+     "description": "Clarifying: a ranked list is a contender if its closeness is within pair_gap of the leader's."
+    },
+    "pair_eps": {
+     "type": "number",
+     "description": "Clarifying: weight of a contender = 1 / (leader's closeness − its closeness + pair_eps)."
+    },
+    "near_dup_r": {
+     "type": "number",
+     "description": "Clarifying: a candidate whose |r| with a shown statement is >= near_dup_r is skipped (if anything else is left)."
+    },
+    "same_area_in_row": {
+     "type": "boolean",
+     "description": "Clarifying: false = the previous question's area is skipped (if anything else is left)."
+    },
+    "sim_groups": {
+     "type": "boolean",
+     "description": "Clarifying and core: no two statements of one sim_group among the shown ones."
+    }
+   }
+  },
+  "core": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   },
+   "description": "Core statements (`q`) in the order they are asked."
+  },
+  "votes": {
+   "type": "object",
+   "description": "How each list's former MKs voted on the bills of a quiz direction (2026-10-19): votes[list][direction] = [[bill id, sign (+1 raises / −1 lowers the direction), «own» | «other» (the bill's camp relative to the MK), votes for, votes against], ...]. Exactly the votes behind the position (V: own camp's private bills; O: the other camp's bills; G: the coalition's own government bills, also «own», 2026-10-22). Bill name and Knesset: bills.",
+   "additionalProperties": {
+    "type": "object",
+    "additionalProperties": {
+     "type": "array",
+     "items": {
+      "type": "array",
+      "prefixItems": [
+       {
+        "type": "string"
+       },
+       {
+        "enum": [
+         1,
+         -1
+        ]
+       },
+       {
+        "enum": [
+         "own",
+         "other"
+        ]
+       },
+       {
+        "type": "integer",
+        "minimum": 0
+       },
+       {
+        "type": "integer",
+        "minimum": 0
+       }
+      ],
+      "minItems": 5,
+      "maxItems": 5
+     }
+    }
+   }
+  }
+ }
 }
