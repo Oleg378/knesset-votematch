@@ -144,7 +144,7 @@
     "bullets": [
      {
       "lead": "Bills they sponsored.",
-      "text": "A sponsored bill counts {vote_ratio} times more than a vote: pushing for a change is louder than voting against one — a deliberate choice, stated here so that it can be judged."
+      "text": "A sponsored bill counts {vote_ratio} times more than a vote: pushing for a change is louder than voting against one."
      },
      {
       "lead": "Votes on private bills.",
@@ -152,11 +152,11 @@
      },
      {
       "lead": "Votes on the other camp's bills.",
-      "text": "And, for coalition parties, on the government's own bills — by the same rule for every party."
+      "text": "And, for coalition parties, on the government's own bills."
      },
      {
       "lead": "Budget laws are left out.",
-      "text": "A vote on the whole budget says nothing about its hundred separate articles."
+      "text": "A vote on the whole budget says nothing about its separate articles."
      },
      {
       "lead": "Promises and speeches are not used.",
@@ -164,11 +164,11 @@
      },
      {
       "lead": "The scale.",
-      "text": "A position runs roughly from −1.5 (everything against) to +1.5 (everything for)."
+      "text": "From about −1.5 (everything against) to +1.5 (everything for)."
      },
      {
       "lead": "The sources.",
-      "text": "The Knesset's official open database and the Central Elections Committee's candidate lists."
+      "text": "The Knesset's open database and the Central Elections Committee's candidate lists."
      }
     ]
    },
@@ -178,19 +178,19 @@
     "bullets": [
      {
       "lead": "Joint lists.",
-      "text": "The record can be mostly the former members of one partner."
+      "text": "The record can be mostly that of one partner."
      },
      {
       "lead": "Moved to another list.",
-      "text": "A former member counts for the list they run with in 2026: the same person, their own votes."
+      "text": "A former member counts for the list they run with in 2026."
      },
      {
       "lead": "Ministers and prime ministers.",
-      "text": "They rarely sponsor bills, so a list's position rests mostly on its other former members and on votes."
+      "text": "They rarely sponsor bills; the position rests on the other former members and on votes."
      },
      {
       "lead": "One former member only.",
-      "text": "Shown but not ranked: one person's record is too thin to call a list the closest."
+      "text": "Shown but not ranked."
      }
     ]
    },
@@ -200,11 +200,11 @@
     "bullets": [
      {
       "lead": "«Strongly agree» to everything = «agree» to everything.",
-      "text": "The strength of an answer matters only when your answers are mixed."
+      "text": "Strength matters only when your answers are mixed."
      },
      {
       "lead": "Random answers favour the outliers.",
-      "text": "Lists far from all others (the Arab lists, for example) come first more often — the result means something only for considered answers."
+      "text": "Lists far from all others (the Arab lists, for example) come first more often."
      }
     ]
    },
@@ -213,15 +213,15 @@
     "bullets": [
      {
       "lead": "«No clear position».",
-      "text": "The list's position on the statement is below {close} — a level at which a side usually did not hold between the 24th and 25th Knesset — or rests on one former member or one bill."
+      "text": "The position is below {close}, or rests on one former member or one bill."
      },
      {
       "lead": "“Few former MKs: N”.",
-      "text": "The list's position rests on very few people."
+      "text": "The position rests on very few people."
      },
      {
       "lead": "“Position known for only N% of your answers”.",
-      "text": "The list has a position on less than half of what you answered: shown below the others, not ranked."
+      "text": "The list has a position on less than half of your answers: shown below the others, not ranked."
      },
      {
       "lead": "Lists without any former member",
@@ -229,7 +229,7 @@
      },
      {
       "lead": "Your answers are not stored.",
-      "text": "They never leave your device: close the page and they are gone."
+      "text": "They never leave your device."
      }
     ]
    },
@@ -243,55 +243,55 @@
      },
      {
       "lead": "The next {clarify}.",
-      "text": "Picked one at a time to tell apart the lists closest to you so far; a list that fell behind gets no more questions aimed at it."
+      "text": "Chosen one at a time to tell apart the lists closest to you so far."
      },
      {
       "lead": "Interest rating.",
-      "text": "A language model rated how much a typical voter cares about each topic; it affects only which questions you see, never the closeness."
+      "text": "A language model rated how much a typical voter cares about each topic; it affects only which questions you see."
      }
     ]
    },
    {
     "title": "Limitations — what this quiz can and cannot tell you.",
-    "text": "The quiz is an orientation, not a precise measurement. Where the data and the analysis are noisy:",
+    "text": "The quiz is an orientation, not a precise measurement.",
     "bullets": [
      {
       "lead": "Only the Knesset record of former members",
-      "text": "(24th–25th Knesset). New candidates, platforms and statements are not seen. {evaluable} of {lists} lists can be evaluated; {single} {single?list|lists} with a single former member {single?is|are} shown but not ranked; {no_record} {no_record?list has|lists have} no record."
+      "text": "(24th–25th Knesset). New candidates and platforms are not seen. {evaluable} of {lists} lists can be evaluated; {single} {single?list|lists} with a single former member {single?is|are} shown but not ranked; {no_record} {no_record?list has|lists have} no record."
      },
      {
       "lead": "Bloc discipline.",
-      "text": "About 98 % of votes in the Knesset follow the member's bloc, so votes are partly discipline, not only conviction — that is why a sponsored bill counts {vote_ratio} times more than a vote."
+      "text": "About 98 % of votes in the Knesset follow the member's bloc, so a vote is partly discipline."
      },
      {
       "lead": "Topic labels were made by a language model",
-      "text": "and checked by other models. Blind test: the topic right in about 81 % of cases (89 % counting the secondary topic), the side in about 93 %. Later checks removed 1 607 labels, added 632, changed 52 signs and removed 26 522 double counts between nested topics — each change only where two checks agreed. Individual mistakes remain."
+      "text": "and checked by other models: the topic right in about 81 % of cases, the side in about 93 %. Later checks removed 1 607 labels, added 632, changed 52 signs and removed 26 522 double counts. Individual mistakes remain."
      },
      {
       "lead": "Checks so far were done by models, not by people.",
-      "text": "They measure consistency between models, not accuracy for real voters; no list's position has yet been confirmed by a person who knows the Knesset."
+      "text": "Agreement between models is not accuracy for real voters."
      },
      {
       "lead": "Closeness is approximate.",
-      "text": "Lists with close values cannot be told apart reliably: read the rounded values as «about as close»."
+      "text": "Lists with close values cannot be told apart: read them as «about as close»."
      },
      {
       "lead": "The price in a statement",
-      "text": "(«even if …») is not measured: the record shows what was pushed for, not whether the price is accepted."
+      "text": "(«even if …») is not measured."
      },
      {
       "lead": "A vote against a bill can hide the opposite reason.",
-      "text": "A party may oppose a draft law for being too soft. The method cannot see why."
+      "text": "A party may oppose a draft for being too soft."
      }
     ]
    },
    {
     "title": "How topics are chosen.",
-    "text": "A topic gets a statement only if the lists' former members of the Knesset actually acted differently on it in the Knesset:",
+    "text": "A topic gets a statement only if the lists' former members acted differently on it in the Knesset:",
     "bullets": [
      {
       "lead": "Enough lists.",
-      "text": "At least {min_lists} evaluated lists have a position on the topic, each resting on {min_mks} or more of its former members of the Knesset."
+      "text": "At least {min_lists} evaluated lists with a position on the topic, each resting on {min_mks} or more former members."
      },
      {
       "lead": "A real difference.",
@@ -303,14 +303,14 @@
      },
      {
       "lead": "Tested, then frozen.",
-      "text": "The thresholds were chosen in October 2026 by testing which values held between the 24th and 25th Knesset, frozen on 18 October 2026, and are the same for every topic; every choice is in the project's open-source decision log."
+      "text": "Chosen by testing which values held between the 24th and 25th Knesset, frozen on 18 October 2026, the same for every topic."
      },
      {
       "lead": "Overlapping topics count once.",
-      "text": "When one topic lies almost inside another, a shared bill counts toward only one of them — the one where voters would see a different question."
+      "text": "A bill shared by a topic and a broader one counts toward only one of them."
      }
     ],
-    "after": "Topics where all lists pushed the same way, or where too few bills exist, are left out — even when they are important."
+    "after": "Topics where all lists pushed the same way, or with too few bills, are left out — even when important."
    },
    {
     "title": "Important topics that are not in the quiz, and why",
@@ -318,7 +318,7 @@
     "bullets": [
      {
       "lead": "The lists' records hardly differ — nearly everyone pushed the same way:",
-      "text": "relief for war and terror victims; support for families with children; credit and mortgages (credit for households falls just below the spread threshold); tax enforcement; support for charities; banning harmful online and broadcast content."
+      "text": "relief for war and terror victims; support for families with children; credit and mortgages; tax enforcement; support for charities; banning harmful online and broadcast content."
      },
      {
       "lead": "Too few lists have a record once budget votes are set aside:",
