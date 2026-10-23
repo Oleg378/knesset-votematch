@@ -3,9 +3,9 @@ import { Button } from '../components/Button';
 import { S } from '../strings';
 import type { ScreenProps } from './types';
 
-/** Figma «Home». */
-export function StartScreen({ data, dispatch }: ScreenProps) {
-  const n = data.statements.length;
+/** Figma «Home». The statement count is the number a user answers: core + clarifying (flow, from the export). */
+export function StartScreen({ core, dispatch }: ScreenProps) {
+  const n = core.flow.core + core.flow.clarify;
   return (
     <section className="screen start">
       <div className="hero">

@@ -11,14 +11,19 @@ describe('Python-compatible formatting', () => {
     expect(pyPercent0(0.005)).toBe('0%'); // 0.5 -> 0
     expect(pyPercent0(0.015)).toBe('2%'); // 1.5 -> 2
   });
-  it('closeness like f"{x:+.2f}"', () => {
-    expect(formatCloseness(0.35925255471495104)).toBe('+0.36');
-    expect(formatCloseness(-0.001)).toBe('-0.00');
-    expect(formatCloseness(0)).toBe('+0.00');
-    expect(formatCloseness(-0)).toBe('-0.00');
-    expect(formatCloseness(0.125)).toBe('+0.12');
-    expect(formatCloseness(0.375)).toBe('+0.38');
-    expect(formatCloseness(1)).toBe('+1.00');
+  it('closeness like f"{x:+.1f}" (one decimal, customer 2026-10-18)', () => {
+    expect(formatCloseness(0.35925255471495104)).toBe('+0.4');
+    expect(formatCloseness(-0.001)).toBe('-0.0');
+    expect(formatCloseness(0)).toBe('+0.0');
+    expect(formatCloseness(-0)).toBe('-0.0');
+    expect(formatCloseness(0.25)).toBe('+0.2'); // tie to even
+    expect(formatCloseness(0.35)).toBe('+0.3'); // binary value is below the tie
+    expect(formatCloseness(1)).toBe('+1.0');
+  });
+  it('pyFixed like f"{x:.2f}"', () => {
+    expect(pyFixed(0.125, 2)).toBe('0.12');
+    expect(pyFixed(0.375, 2)).toBe('0.38');
     expect(pyFixed(2.675, 2)).toBe('2.67'); // binary value is below the tie
+    expect(pyFixed(-0.001, 2, true)).toBe('-0.00');
   });
 });

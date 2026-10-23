@@ -9,9 +9,9 @@ current contract only; what changed and why is in `docs/WORKLOG.md`._
 
 | File | What | Shipped |
 |---|---|---|
-| `quiz_core.v2.json` | `flow` (parameters of the question order), `core` (the first statements, in order), the core statements | yes, fetched first |
-| `quiz_data.v2.json` | `params`, all statements (with `interest`, `area`, `sim_group`), `directions`, `lists` with `positions` and `composition` | yes, fetched second |
-| `quiz_bills.v2.json` | `mks` (with `party_en`), `by_direction`, `votes`, `bills` — only for List details and «Bills of one statement» | yes, fetched third |
+| `quiz_core.v2.json` | `flow` (parameters of the question order), `core` (the first statements, in order), the core statements | yes, bundled with the app (~2 KB) |
+| `quiz_data.v2.json` | `params`, all statements (with `interest`, `area`, `sim_group`), `directions`, `lists` with `positions` and `composition` | yes, fetched first |
+| `quiz_bills.v2.json` | `mks` (with `party_en`), `by_direction`, `votes`, `bills` — only for List details and «Bills of one statement» | yes, fetched second |
 | `quiz_data.v2.schema.json` | JSON Schema of the three files merged | tests |
 | `golden.v2.json` | answer sets → ranking, notes, trade-off pairs, explanation lines, evidence order, question order («flow N» cases) | tests |
 
@@ -19,20 +19,21 @@ Goal: the start page never waits for data, and a loader almost never appears.
 
 | File | Size (gzip) | Contents | Needed by |
 |---|---|---|---|
-| `quiz_core.v2.json` | ~2 KB (1 KB) | `flow`, `core`, the core statements | the first `flow.core` questions |
+| `quiz_core.v2.json` | ~2 KB (1 KB) | `flow`, `core`, the core statements | the start page and the first `flow.core` questions |
 | `quiz_data.v2.json` | ~217 KB | `params`, all statements, `directions`, `lists` with positions | clarifying questions, trade-offs, Results |
 | `quiz_bills.v2.json` | ~1.8 MB | `mks`, `by_direction`, `bills` | List details and «Bills of one statement» only |
 
-- The data is **not bundled** into the JS: the app shell (start page, styles, fonts) loads alone; the three files are fetched
-  as static files from the site itself (CSP `connect-src 'self'` already allows it).
-- Fetch order: start `quiz_core` immediately on page load (before the user presses Start), then `quiz_data` as soon as
-  `quiz_core` has arrived, then `quiz_bills` as soon as `quiz_data` has arrived. The user is answering the core questions
-  meanwhile, so the next file is normally ready before it is needed.
+- The two big files are **not bundled** into the JS: the app shell (start page, styles, fonts, the ~2 KB `quiz_core`) loads
+  alone; `quiz_data` and `quiz_bills` are fetched as static files from the site itself (CSP `connect-src 'self'` allows it).
+- Fetch order: `quiz_data` immediately when the app is up (before the user presses Start), then `quiz_bills` as soon as
+  `quiz_data` has arrived. The user is answering the core questions meanwhile, so the next file is normally ready before it
+  is needed.
 - A loader is shown only if the user reaches a screen whose file has not arrived yet (e.g. the first clarifying question
   before `quiz_data`, List details before `quiz_bills`), and only for that screen.
-- All three files carry the same `version`, `generated` and `source_commit`; if they differ (a deploy mid-session), reload.
-- Caching: give the files content-hashed names at build time (or short cache + revalidation); never `immutable` under a
-  fixed name.
+- All three files carry the same `version`, `generated` and `source_commit`; if a fetched file differs from the bundled core
+  (a deploy mid-session), it is fetched once more bypassing the cache, then an error asks to reload the page.
+- Caching: the files get content-hashed names at build time (Vite assets, `immutable`); the app always references the files
+  of its own build.
 
 ## 2. Order of questions (`pipeline/quiz_flow.py`)
 

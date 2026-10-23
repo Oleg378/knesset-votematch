@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import { data } from '../data';
+import { core, data, loaded } from '../test/files';
 import { createBackGuard, type HistoryLike } from './backGuard';
-import { createReducer, initialState, type State } from './reducer';
+import { createReducer, type State } from './reducer';
 
 /** A browser history stub: a stack of entries; back() pops and fires popstate synchronously. */
 function fakeHistory() {
@@ -21,10 +21,10 @@ function fakeHistory() {
 
 /** Wires guard + reducer as App does. */
 function setup() {
-  const reducer = createReducer(data);
+  const reducer = createReducer(core);
   const h = fakeHistory();
   const guard = createBackGuard(h);
-  let state: State = initialState;
+  let state: State = loaded;
   const dispatch = (a: Parameters<typeof reducer>[1]) => {
     state = reducer(state, a);
     guard.sync(state.screen.name === 'start');
@@ -73,7 +73,7 @@ describe('system back', () => {
     expect(t.state.screen.name).toBe('results');
     const list = data.lists[0]!.id;
     t.dispatch({ type: 'OPEN_DETAILS', list });
-    t.dispatch({ type: 'OPEN_BILLS', q: data.statements[0]!.q });
+    t.dispatch({ type: 'OPEN_BILLS', q: core.core[0]! });
     t.h.back();
     expect(t.state.screen).toEqual({ name: 'details', list });
     t.h.back();
@@ -86,12 +86,11 @@ describe('system back', () => {
   it('on a trade-off back undoes the previous one', () => {
     const t = setup();
     t.dispatch({ type: 'START' });
-    for (let i = 0; i < 30; i++) {
-      t.dispatch({ type: 'ANSWER', value: i % 2 ? 2 : -2 });
+    while (t.state.screen.name === 'question') {
+      t.dispatch({ type: 'ANSWER', value: t.state.screen.i % 2 ? 2 : -2 });
       t.dispatch({ type: 'NEXT' });
     }
-    t.dispatch({ type: 'FINISH' });
-    expect(t.state.screen.name).toBe('tradeoff');
+    expect(t.state.screen.name).toBe('tradeoff'); // these answers produce a pair
     const first = t.state.screen;
     t.dispatch({ type: 'TRADE', choice: 'A' });
     t.h.back();

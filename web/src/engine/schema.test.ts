@@ -1,16 +1,22 @@
 import { describe, expect, it } from 'vitest';
 import Ajv2020 from 'ajv/dist/2020';
-import schema from '@export/quiz_data.v1.schema.json';
-import raw from '@export/quiz_data.v1.json';
+import schema from '@export/quiz_data.v2.schema.json';
+import { bills, core, data } from '../test/files';
+import { sameBuild } from '../data';
 
-describe('quiz_data.v1.json', () => {
-  it('validates against quiz_data.v1.schema.json (draft 2020-12)', () => {
+describe('quiz_core / quiz_data / quiz_bills .v2.json', () => {
+  it('merged, validate against quiz_data.v2.schema.json (draft 2020-12)', () => {
     const ajv = new Ajv2020({ allErrors: true, strict: true });
     // The schema uses format "date"; checked here without pulling in ajv-formats.
     ajv.addFormat('date', /^\d{4}-\d{2}-\d{2}$/);
     const validate = ajv.compile(schema as object);
-    const ok = validate(raw);
+    const ok = validate({ ...core, ...data, ...bills });
     expect(validate.errors ?? []).toEqual([]);
     expect(ok).toBe(true);
+  });
+
+  it('come from the same build', () => {
+    expect(sameBuild(core, data)).toBe(true);
+    expect(sameBuild(core, bills)).toBe(true);
   });
 });

@@ -3,7 +3,7 @@ import { track } from './analytics';
 import { Counter, Header } from './components/Header';
 import { Menu } from './components/Menu';
 import { ProgressBar } from './components/ProgressBar';
-import { data } from './data';
+import { core, loadFiles } from './data';
 import { BillsScreen } from './screens/BillsScreen';
 import { DetailsScreen } from './screens/DetailsScreen';
 import { MethodologyScreen } from './screens/MethodologyScreen';
@@ -23,11 +23,19 @@ function focusHeading() {
 }
 
 export default function App() {
-  const reducer = useMemo(() => createReducer(data), []);
+  const reducer = useMemo(() => createReducer(core), []);
   // In memory only [У 2026-10-17]: no storage, a reload starts over; nothing goes into the URL.
   const [state, dispatch] = useReducer(reducer, initialState);
-  const props = { data, state, dispatch };
+  const props = { core, state, dispatch };
   const sc = state.screen;
+
+  // The data files (export/WEB_CONTRACT.md §1): quiz_data, then quiz_bills, fetched once from page load.
+  const loading = useRef(false);
+  useEffect(() => {
+    if (loading.current) return;
+    loading.current = true;
+    void loadFiles((f) => dispatch({ type: 'FILE_READY', ...f }), () => dispatch({ type: 'LOAD_ERROR' }));
+  }, []);
 
   // System Back = in-app Back (no router, URL untouched).
   const guard = useMemo(() => createBackGuard(window.history), []);
@@ -62,12 +70,14 @@ export default function App() {
 
   const [menu, setMenu] = useState(false);
   const closeMenu = useCallback(() => setMenu(false), []);
+  // Counter: n / (core + clarify) while the fixed number of questions is used; beyond it («Answer more questions») n alone.
+  const total = core.flow.core + core.flow.clarify;
   const header =
     sc.name === 'question' ? (
-      <ProgressBar value={sc.i + 1} max={data.statements.length} label={S.question.progressLabel}
-        text={S.question.progress(sc.i + 1, data.statements.length)} />
+      <ProgressBar value={sc.i + 1} max={Math.max(total, sc.i + 1)} label={S.question.progressLabel}
+        text={sc.i + 1 <= total ? S.question.progress(sc.i + 1, total) : S.question.progressMore(sc.i + 1)} />
     ) : sc.name === 'tradeoff' ? (
-      <Counter text={S.trade.counter(state.done.length + 1, data.params.MAX_TRADE)} />
+      <Counter text={S.trade.counter(state.done.length + 1, core.flow.trade)} />
     ) : null;
 
   return (
@@ -86,6 +96,11 @@ export default function App() {
       {sc.name === 'details' && <DetailsScreen key={sc.list} {...props} />}
       {sc.name === 'bills' && <BillsScreen key={`${sc.list}/${sc.q}`} {...props} />}
       {sc.name === 'methodology' && <MethodologyScreen {...props} />}
+      {sc.name === 'loading' && (
+        <section className="screen">
+          <p className="muted" role="status">{state.loadFailed ? S.loadError : S.loading}</p>
+        </section>
+      )}
     </main>
   );
 }

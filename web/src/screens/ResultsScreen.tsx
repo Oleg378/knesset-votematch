@@ -2,13 +2,16 @@ import { useMemo } from 'react';
 import { Accordion } from '../components/Accordion';
 import { Button } from '../components/Button';
 import { ListRow } from '../components/ListRow';
+import { Note } from '../components/Note';
 import { match } from '../engine/match';
 import { answeredCount } from '../state/reducer';
 import { S } from '../strings';
 import type { ScreenProps } from './types';
 
-export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
-  const rows = useMemo(() => match(data, state.answers, state.mult), [data, state.answers, state.mult]);
+export function ResultsScreen({ state, dispatch }: ScreenProps) {
+  const data = state.data;
+  const rows = useMemo(() => (data ? match(data, state.answers, state.mult) : []), [data, state.answers, state.mult]);
+  if (!data) return null;
   const ranked = rows.filter((r) => r.ranked);
   const low = rows.filter((r) => !r.ranked && r.evaluated);
   const none = rows.filter((r) => !r.evaluated);
@@ -19,8 +22,9 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
         <h1 className="title-lg">{S.results.heading}</h1>
         <p>{S.results.intro}</p>
         <p className="small muted">
-          {S.results.basedOn(answeredCount(state.answers), data.statements.length, Object.keys(state.mult).length > 0)}
+          {S.results.basedOn(answeredCount(state.answers), Object.keys(state.mult).length > 0)}
         </p>
+        {state.notice === 'noMore' && <Note>{S.question.noMore}</Note>}
       </div>
       <ol className="list-rows">
         {ranked.map((r, i) => (
@@ -54,6 +58,9 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
         </Accordion>
       )}
       <div className="sticky-actions">
+        <Button block onClick={() => dispatch({ type: 'ANSWER_MORE' })}>
+          {S.results.answerMore}
+        </Button>
         <Button block onClick={() => dispatch({ type: 'CHANGE_ANSWERS' })}>
           {S.results.changeAnswers}
         </Button>

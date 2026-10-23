@@ -1,35 +1,21 @@
 /**
  * Migration tests Python -> TypeScript for the order of questions: the six «flow N» cases of export/golden.v2.json
- * (computed by pipeline/quiz_flow.py) must be reproduced question by question, and the v2 ranking of every case must
+ * (computed by pipeline/quiz_flow.py) must be reproduced question by question, and the ranked lists of every case must
  * match (ids and closeness to the golden tolerance). Python is the reference.
  */
 import { describe, expect, it } from 'vitest';
-import goldenRaw from '@export/golden.v2.json';
-import dataRaw from '@export/quiz_data.v2.json';
-import coreRaw from '@export/quiz_core.v2.json';
+import { core, data, golden } from '../test/files';
 import { nextClarify, rankedLists, shouldStop } from './flow';
-import type { V2FlowData } from './flow';
-import type { Answers, Mult } from './types';
-
-interface GoldenCase {
-  name: string;
-  answers: Answers;
-  mult: Mult;
-  ranking: { id: string; closeness: number | null; ranked: boolean }[];
-  flow?: { core: string[]; clarifying: string[] };
-}
-
-const golden = goldenRaw as unknown as { version: number; tolerance: number; cases: GoldenCase[] };
-const data = dataRaw as unknown as V2FlowData;
-const core = coreRaw as unknown as { flow: V2FlowData['flow']; core: string[] };
+import type { Answers } from './types';
 
 describe('golden.v2.json: order of questions (pipeline/quiz_flow.py)', () => {
-  it('has the expected version and six flow cases', () => {
-    expect(golden.version).toBe(2);
+  it('has six flow cases; the bundled core agrees with quiz_data', () => {
     expect(golden.cases.filter((c) => c.flow).length).toBe(6);
     expect(data.core).toEqual(core.core);
     expect(data.flow).toEqual(core.flow);
     expect(data.core.length).toBe(data.flow.core);
+    expect(core.statements.map((s) => s.q).sort()).toEqual([...core.core].sort());
+    for (const s of core.statements) expect(data.statements.find((x) => x.q === s.q)).toEqual(s);
   });
 
   for (const gc of golden.cases) {
@@ -78,6 +64,16 @@ describe('golden.v2.json: order of questions (pipeline/quiz_flow.py)', () => {
     for (const s of shown) {
       const g = byQ.get(s)!.sim_group;
       if (g) expect(picked.sim_group).not.toBe(g);
+    }
+  });
+
+  it('with nothing answered yet the pool still yields a statement; shown statements are never repeated', () => {
+    const shown = [...data.core];
+    for (let i = 0; i < 20; i++) {
+      const q = nextClarify(data, {}, shown);
+      expect(q).not.toBeNull();
+      expect(shown).not.toContain(q);
+      shown.push(q!);
     }
   });
 });

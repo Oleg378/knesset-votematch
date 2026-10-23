@@ -41,7 +41,7 @@ fix every reference (`grep` the old name); research notes and people's answers s
 |---|---|
 | `pipeline/` | Python: fetch (OData, CEC), `build/` → `knesset.duckdb`, Jev labeling, positions, quiz selection/matching, **export** |
 | `web/` | Front end: React + Vite + TypeScript static SPA. Reads only `export/` |
-| `export/` | **The data contract** (in git): `quiz_core / quiz_data / quiz_bills.v2.json`, one schema, `golden.v2.json`, `WEB_CONTRACT.md`, `METHODOLOGY_PAGE.md`; the `.v1` files stay until the web moves |
+| `export/` | **The data contract** (in git): `quiz_core / quiz_data / quiz_bills.v2.json`, one schema, `golden.v2.json`, `WEB_CONTRACT.md`, `METHODOLOGY_PAGE.md` |
 | `jef/` | Production data: directions and labels (`jef/directions/`), theme registry (`jef/directions/registry.csv`), positions (`jef/positions/`), statements (`jef/quiz/`) |
 | `manual/` | Tables kept by hand: CEC lists and candidates, candidate ↔ MK matching, English MK names |
 | `local/` | Research behind the decisions: experiments, checks, early approaches (`local/README.md`). Published selectively (scripts, texts, small result tables; no people's answers) — `local/` stays ignored, add new files with `git add -f`. **Not production**: do not import from it; the procedure scripts in `local/research/scripts/` named by the skills are run, never imported |

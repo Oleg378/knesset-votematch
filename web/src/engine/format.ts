@@ -37,7 +37,10 @@ export function pyPercent0(x: number): string {
   return `${pyFixed(x * 100, 0)}%`;
 }
 
-/** Closeness as shown everywhere: Python f"{x:+.2f}", e.g. +0.35. */
+/**
+ * Closeness as shown on the Results and List details screens: one decimal with a sign, e.g. +0.4 (customer, 2026-10-18:
+ * the data do not support more precision; the order of lists uses the exact values). Python f"{x:+.1f}".
+ */
 export function formatCloseness(x: number): string {
-  return pyFixed(x, 2, true);
+  return pyFixed(x, 1, true);
 }

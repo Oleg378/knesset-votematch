@@ -1,32 +1,12 @@
 /**
- * Migration tests Python -> TypeScript: every case of export/golden.v1.json (computed by pipeline/quiz_match.py and
- * pipeline/quiz_report.py) must be reproduced. Python is the reference.
+ * Migration tests Python -> TypeScript: every case of export/golden.v2.json (computed by pipeline/quiz_match.py and
+ * pipeline/quiz_report.py) must be reproduced: ranking, trade-off pairs, list details. Python is the reference.
+ * The question order of the «flow N» cases is checked in flow.test.ts.
  */
 import { describe, expect, it } from 'vitest';
-import goldenRaw from '@export/golden.v1.json';
-import { data } from '../data';
+import { bills, data, golden } from '../test/files';
 import { contributions, explain, match, tradeoffs } from './index';
-import type { Answers, Mult, Role, Sign } from './types';
 
-interface GoldenCase {
-  name: string;
-  answers: Answers;
-  mult: Mult;
-  ranking: { id: string; closeness: number | null; coverage: number; note: string; ranked: boolean }[];
-  tradeoffs: { exclude: string[]; skip_lists: string[]; pairs: [string, string, string][] };
-  details: {
-    id: string;
-    items: {
-      q: string;
-      contribution: number;
-      p: number;
-      lines: string[];
-      evidence: { bill: string; sign: Sign; role: Role; same: boolean; authors: [number, string][] }[];
-    }[];
-  }[];
-}
-
-const golden = goldenRaw as { version: number; tolerance: number; cases: GoldenCase[] };
 const tol = golden.tolerance;
 
 function close(actual: number | null, expected: number | null, what: string) {
@@ -38,10 +18,11 @@ function close(actual: number | null, expected: number | null, what: string) {
   expect(Math.abs((actual as number) - expected), `${what}: ${actual} vs ${expected}`).toBeLessThanOrEqual(tol);
 }
 
-describe('golden.v1.json', () => {
+describe('golden.v2.json', () => {
   it('has the expected version and cases', () => {
-    expect(golden.version).toBe(1);
-    expect(golden.cases.length).toBeGreaterThanOrEqual(28);
+    expect(golden.version).toBe(2);
+    expect(data.version).toBe(2);
+    expect(golden.cases.length).toBeGreaterThanOrEqual(34);
   });
 
   for (const gc of golden.cases) {
@@ -71,7 +52,7 @@ describe('golden.v1.json', () => {
             const g = d.items[i]!;
             close(x.c, g.contribution, `${d.id}/${g.q} contribution`);
             close(x.p, g.p, `${d.id}/${g.q} p`);
-            const ex = explain(data, d.id, x.statement, x.a, x.p, x.c, gc.mult);
+            const ex = explain(data, bills, d.id, x.statement, x.a, x.p, x.c, gc.mult);
             expect(ex.lines, `${d.id}/${g.q} lines`).toEqual(g.lines);
             expect(ex.evidence, `${d.id}/${g.q} evidence`).toEqual(g.evidence);
           });
@@ -79,4 +60,13 @@ describe('golden.v1.json', () => {
       });
     });
   }
+
+  it('a list resting on fewer than MIN_EX_MKS former MKs is shown but never ranked', () => {
+    const few = data.lists.filter((l) => l.status !== 'not_evaluated' && l.ex_mks < data.params.MIN_EX_MKS);
+    expect(few.length).toBeGreaterThan(0);
+    const answers = Object.fromEntries(data.statements.map((s) => [s.q, 2 as const]));
+    for (const r of match(data, answers)) {
+      if (few.some((l) => l.id === r.id)) expect(r.ranked, r.id).toBe(false);
+    }
+  });
 });

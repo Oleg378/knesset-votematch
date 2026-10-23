@@ -1,75 +1,17 @@
 /**
- * Port of pipeline/quiz_flow.py (next_clarify, should_stop) for the v2 export — the order of questions:
+ * Port of pipeline/quiz_flow.py (next_clarify, should_stop) — the order of questions:
  * core (read from the export) -> clarifying, one at a time -> trade-offs (match.ts, unchanged).
  * Python is the reference: the six «flow N» cases of export/golden.v2.json must be reproduced (src/engine/flow.test.ts).
- * Keep the arithmetic in the same order as the Python. Self-contained on the v2 data shape (types below) so that the v1
- * engine (match.ts, types.ts) is untouched until the web moves to v2.
+ * Keep the arithmetic in the same order as the Python.
  */
-import type { Answers, Mult, Sign } from './types';
-
-export interface FlowParams {
-  core: number;
-  clarify: number;
-  trade: number;
-  clarify_top: number;
-  pair_gap: number;
-  pair_eps: number;
-  near_dup_r: number;
-  same_area_in_row: boolean;
-  sim_groups: boolean;
-  interest_alpha: number;
-  stop_gap: number | null;
-  min_questions: number;
-  max_questions: number;
-}
-
-export interface V2Statement {
-  q: string;
-  d: string;
-  key: Sign;
-  w: number;
-  interest: number;
-  area: string;
-  sim_group: string | null;
-}
-
-export interface V2Position {
-  P: number;
-  e: number;
-  n_mk: number;
-  n_names: number;
-}
-
-export interface V2List {
-  id: string;
-  status: 'ok' | 'warning' | 'not_evaluated';
-  ex_mks: number;
-  positions: Record<string, V2Position>;
-}
-
-export interface V2Params {
-  K: number;
-  MIN_COVERAGE: number;
-  MIN_EX_MKS: number;
-  CLOSE: number;
-  MIN_CLEAR_MKS: number;
-  MIN_CLEAR_BILLS: number;
-}
-
-/** The part of quiz_data.v2.json the flow needs (quiz_core.v2.json carries `flow` and `core` too). */
-export interface V2FlowData {
-  params: V2Params;
-  flow: FlowParams;
-  core: string[];
-  statements: V2Statement[];
-  lists: V2List[];
-}
+import { listVec, match } from './match';
+import type { Answers, Mult, Position, QuizData, QuizList } from './types';
 
 interface Ctx {
   qs: string[];
   qi: Map<string, number>;
   /** Evaluated lists (status ok), in file order. */
-  ok: V2List[];
+  ok: QuizList[];
   okIndex: Map<string, number>;
   /** p[list][statement]: the list's value on the statement (NaN = no position); same for every ranked list. */
   p: Map<string, Float64Array>;
@@ -78,19 +20,15 @@ interface Ctx {
   r: Float64Array[];
 }
 
-const ctxCache = new WeakMap<V2FlowData, Ctx>();
+const ctxCache = new WeakMap<QuizData, Ctx>();
 
-/** quiz_match.list_vec: p = P when K = 0, else P * e / (e + K). */
-function listValue(x: V2Position, k: number): number {
-  return k === 0 ? x.P : (x.P * x.e) / (x.e + k);
-}
-
-function isClear(data: V2FlowData, x: V2Position): boolean {
+/** quiz_report.is_clear: one rule for «the list has a clear position» — explanations and the clarifying filter. */
+export function isClear(data: QuizData, p: number, x: Position): boolean {
   const { CLOSE, MIN_CLEAR_MKS, MIN_CLEAR_BILLS } = data.params;
-  return Math.abs(x.P) >= CLOSE && x.n_mk >= MIN_CLEAR_MKS && x.n_names >= MIN_CLEAR_BILLS;
+  return Math.abs(p) >= CLOSE && x.n_mk >= MIN_CLEAR_MKS && x.n_names >= MIN_CLEAR_BILLS;
 }
 
-function ctxOf(data: V2FlowData): Ctx {
+function ctxOf(data: QuizData): Ctx {
   const cached = ctxCache.get(data);
   if (cached) return cached;
   const qs = data.statements.map((s) => s.q);
@@ -100,16 +38,17 @@ function ctxOf(data: V2FlowData): Ctx {
   const p = new Map<string, Float64Array>();
   for (const l of data.lists) {
     if (l.status === 'not_evaluated') continue;
+    const lv = listVec(data, l);
     const v = new Float64Array(qs.length).fill(Number.NaN);
-    data.statements.forEach((s, j) => {
-      const x = l.positions[s.d];
-      if (x) v[j] = listValue(x, data.params.K);
+    qs.forEach((q, j) => {
+      const x = lv.get(q);
+      if (x !== undefined) v[j] = x;
     });
     p.set(l.id, v);
   }
-  const clear = ok.map((l) => data.statements.map((s) => {
+  const clear = ok.map((l) => data.statements.map((s, j) => {
     const x = l.positions[s.d];
-    return x ? isClear(data, x) : false;
+    return x ? isClear(data, p.get(l.id)![j]!, x) : false;
   }));
   // pairwise |r| (numpy corrcoef) over evaluated lists with both positions
   const r = qs.map(() => new Float64Array(qs.length));
@@ -143,39 +82,13 @@ function ctxOf(data: V2FlowData): Ctx {
 
 export interface RankedRow { id: string; closeness: number; }
 
-/**
- * Ranked lists in order with their closeness — the rule of the Results screen (quiz_match.match / is_ranked):
- * cosine over answered statements the list has a position on; ranked when finite, coverage >= MIN_COVERAGE and
- * ex_mks >= MIN_EX_MKS. Sort key (-closeness), stable: ties keep the file order of lists.
- */
-export function rankedLists(data: V2FlowData, answers: Answers, mult: Mult = {}): RankedRow[] {
-  const ctx = ctxOf(data);
-  const rows: RankedRow[] = [];
-  for (const l of data.lists) {
-    if (l.status === 'not_evaluated' || l.ex_mks < data.params.MIN_EX_MKS) continue;
-    const v = ctx.p.get(l.id)!;
-    let num = 0; let uu = 0; let pp = 0; let wa = 0; let wc = 0;
-    data.statements.forEach((s, j) => {
-      const a = answers[s.q];
-      if (a === undefined || a === 'dk') return;
-      const u = (a / 2) * s.key;
-      const w = s.w * (mult[s.q] ?? 1);
-      wa += w;
-      const pv = v[j]!;
-      if (Number.isNaN(pv)) return;
-      wc += w;
-      num += w * u * pv; uu += w * u * u; pp += w * pv * pv;
-    });
-    const cos = uu > 0 && pp > 0 ? num / Math.sqrt(uu * pp) : Number.NaN;
-    const cov = wa ? wc / wa : 0;
-    if (Number.isNaN(cos) || cov < data.params.MIN_COVERAGE) continue;
-    rows.push({ id: l.id, closeness: cos });
-  }
-  return rows.sort((x, y) => y.closeness - x.closeness);
+/** quiz_flow._ranked: the ranked lists in order with their closeness — the rule of the Results screen (match, ranked). */
+export function rankedLists(data: QuizData, answers: Answers, mult: Mult = {}): RankedRow[] {
+  return match(data, answers, mult).filter((r) => r.ranked).map((r) => ({ id: r.id, closeness: r.closeness as number }));
 }
 
 /** quiz_flow.should_stop: n_asked = core + clarifying statements shown so far. */
-export function shouldStop(data: V2FlowData, answers: Answers, nAsked: number, mult: Mult = {}): boolean {
+export function shouldStop(data: QuizData, answers: Answers, nAsked: number, mult: Mult = {}): boolean {
   const f = data.flow;
   if (f.stop_gap === null) return nAsked >= f.core + f.clarify;
   if (nAsked >= f.max_questions) return true;
@@ -188,7 +101,7 @@ export function shouldStop(data: V2FlowData, answers: Answers, nAsked: number, m
  * quiz_flow.next_clarify: the next clarifying statement, or null when the pool is exhausted.
  * shown: statements already shown (answered, skipped or «don't know»), in the order shown.
  */
-export function nextClarify(data: V2FlowData, answers: Answers, shown: string[], mult: Mult = {}): string | null {
+export function nextClarify(data: QuizData, answers: Answers, shown: string[], mult: Mult = {}): string | null {
   const ctx = ctxOf(data);
   const f = data.flow;
   const st = data.statements;

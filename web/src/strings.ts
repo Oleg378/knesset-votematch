@@ -6,12 +6,12 @@ import type { AnswerValue } from './engine/types';
 
 // ---- Engine texts (must match the Python reference byte for byte) ----
 
-/** quiz_report.ANS */
+/** quiz_report.ANS [У] 2026-10-18: the same words as the UI buttons. */
 export const ANS: Record<AnswerValue, string> = {
   2: 'strongly agree',
-  1: 'somewhat agree',
+  1: 'agree',
   0: 'neutral',
-  [-1]: 'somewhat disagree',
+  [-1]: 'disagree',
   [-2]: 'strongly disagree',
 } as Record<AnswerValue, string>;
 
@@ -23,23 +23,23 @@ export const NOTE_JOIN = '; ';
 /** quiz_report.plural */
 export const plural = (n: number, word: string) => `${n} ${word}${n === 1 ? '' : 's'}`;
 
+/** quiz_report.explain — line by line (export/WEB_CONTRACT.md §3). */
 export const explainText = {
   quote: (s: string) => `“${s}”`,
-  sideFor: 'for this statement',
-  sideAgainst: 'against this statement',
-  answer: (ans: string, side: string) => `Your answer: ${ans}. The list is ${side}.`,
-  basis: (nBills: number, nSame: number, nOpp: number, nVotes: number) =>
-    `Basis: ${plural(nBills, 'bill')} sponsored by the list's former MKs — ${nSame} your way, ${nOpp} the other way; ` +
-    `${plural(nVotes, 'vote')} on private bills on this topic.`,
-  basisVotesOnly: (nVotes: number) =>
-    `Basis: no bills of their own on this topic, only ${plural(nVotes, 'vote')} on private bills.`,
+  sideToward: 'points toward this statement',
+  sideAgainst: 'points against this statement',
+  sideNoClear: 'shows no clear position on this statement',
+  answer: (ans: string, side: string) => `Your answer: ${ans}. The record of the list's former MKs ${side}.`,
+  /** The votes part of the basis line: private bills, the other camp's bills, and (if any) the government's own bills. */
+  votes: (nVotes: number, nOther: number, nGov: number) =>
+    `${plural(nVotes, 'vote')} on private bills, ${plural(nOther, 'vote')} on the other camp's bills` +
+    (nGov ? ` and ${plural(nGov, 'vote')} on the government's own bills` : '') + ' on this topic',
+  basis: (nBills: number, nSame: number, nOpp: number, votes: string) =>
+    `Basis: ${plural(nBills, 'bill')} sponsored by the list's former MKs — ${nSame} your way, ${nOpp} the other way; ${votes}.`,
+  basisVotesOnly: (votes: string) => `Basis: no bills of their own on this topic, only ${votes}.`,
   weight: 'Weight ×2: you chose this topic in a trade-off question.',
-  caveatFits:
-    'The list has more bills of its own the other way, but other MKs sponsored such bills even more often: ' +
-    'positions are measured relative to the average MK.',
-  caveatMisfits:
-    'The list has more bills of its own your way, but other MKs sponsored such bills even more often: ' +
-    'positions are measured relative to the average MK.',
+  byVotes: "The list's side comes from how its former MKs voted, not from the bills they sponsored.",
+  notThePrice: 'This shows what their bills and votes pushed for, not whether they accept the price named in the statement.',
 };
 
 // ---- UI ----
@@ -51,6 +51,7 @@ export const S = {
   // Texts of the Figma mockups (Home, Menu, Questions, Clarifying question), verbatim except the real statement count.
   eyebrow: 'Knesset election 2026', // shown upper-case by CSS
   loading: 'Loading…',
+  loadError: 'The data could not be loaded. Please reload the page.',
   start: {
     title: 'Find your vote match',
     tagline: 'Parties judged by votes, not promises',
@@ -75,10 +76,13 @@ export const S = {
   },
   question: {
     progress: (n: number, total: number) => `${n}/${total}`,
+    /** Beyond the fixed number of questions («Answer more questions»): the number alone, as quiz_cli.py. */
+    progressMore: (n: number) => `${n}`,
     progressLabel: 'Progress',
     or: 'or',
     skip: 'Not sure — skip this question',
     noAnswers: 'No answers — nothing to compute.',
+    noMore: 'No more questions.',
     answersLabel: 'Your answer',
   },
   answers: {
@@ -104,8 +108,8 @@ export const S = {
   results: {
     heading: 'Your result',
     intro: 'All lists by closeness to your answers (from −1 to +1).',
-    basedOn: (n: number, total: number, withTrade: boolean) =>
-      `Based on ${n} of ${total} answers${withTrade ? ', including trade-offs' : ''}.`,
+    basedOn: (n: number, withTrade: boolean) => `Based on ${n} answers${withTrade ? ', including trade-offs' : ''}.`,
+    answerMore: 'Answer more questions',
     notRanked: 'Not ranked',
     noRecord: (n: number) => `No record in the Knesset (${n})`,
     notComputable: '—',

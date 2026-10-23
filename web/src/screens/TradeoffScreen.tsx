@@ -8,11 +8,11 @@ import { S } from '../strings';
 import type { ScreenProps } from './types';
 
 /** Figma «Clarifying question — Equal as option»: choose A / B / equal, then Next. The list behind it is never named. */
-export function TradeoffScreen({ data, state, dispatch }: ScreenProps) {
+export function TradeoffScreen({ state, dispatch }: ScreenProps) {
   const [choice, setChoice] = useState<TradeChoice | null>(null);
-  if (state.screen.name !== 'tradeoff') return null;
+  if (state.screen.name !== 'tradeoff' || !state.data) return null;
   const [qa, qb] = state.screen.pair;
-  const byQ = new Map(data.statements.map((s) => [s.q, s]));
+  const byQ = new Map(state.data.statements.map((s) => [s.q, s]));
   const card = (q: string, letter: 'A' | 'B') => (
     <ChoiceCard letter={letter} title={byQ.get(q)!.title_en}
       subtitle={S.trade.yourAnswer(S.answers[state.answers[q] as AnswerValue])}
