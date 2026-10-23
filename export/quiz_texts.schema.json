@@ -782,7 +782,7 @@
        "text": {
         "type": "string",
         "minLength": 1,
-        "pattern": "^(?:[^{}]|\\{(?:lists|evaluable|single|no_record|close|statements|core|clarify|vote_ratio|min_lists|min_mks|min_spread|min_names)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+        "pattern": "^(?:[^{}]|\\{(?:lists|evaluable|single|no_record|close|statements|core|clarify|vote_ratio|min_lists|min_mks|min_spread|min_names|min_ex_mks)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
        },
        "bullets": {
         "minItems": 1,
@@ -793,12 +793,12 @@
           "lead": {
            "type": "string",
            "minLength": 1,
-           "pattern": "^(?:[^{}]|\\{(?:lists|evaluable|single|no_record|close|statements|core|clarify|vote_ratio|min_lists|min_mks|min_spread|min_names)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+           "pattern": "^(?:[^{}]|\\{(?:lists|evaluable|single|no_record|close|statements|core|clarify|vote_ratio|min_lists|min_mks|min_spread|min_names|min_ex_mks)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
           },
           "text": {
            "type": "string",
            "minLength": 1,
-           "pattern": "^(?:[^{}]|\\{(?:lists|evaluable|single|no_record|close|statements|core|clarify|vote_ratio|min_lists|min_mks|min_spread|min_names)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+           "pattern": "^(?:[^{}]|\\{(?:lists|evaluable|single|no_record|close|statements|core|clarify|vote_ratio|min_lists|min_mks|min_spread|min_names|min_ex_mks)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
           }
          },
          "required": [
@@ -811,7 +811,7 @@
        "after": {
         "type": "string",
         "minLength": 1,
-        "pattern": "^(?:[^{}]|\\{(?:lists|evaluable|single|no_record|close|statements|core|clarify|vote_ratio|min_lists|min_mks|min_spread|min_names)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+        "pattern": "^(?:[^{}]|\\{(?:lists|evaluable|single|no_record|close|statements|core|clarify|vote_ratio|min_lists|min_mks|min_spread|min_names|min_ex_mks)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
        }
       },
       "required": [

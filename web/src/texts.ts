@@ -26,7 +26,7 @@ import type { QuizData } from './engine/types';
 /** Numbers of the data the methodology sections may name, all read from quiz_data. */
 export const DATA_PLACEHOLDERS = [
   'lists', 'evaluable', 'single', 'no_record', 'close', 'statements', 'core', 'clarify', 'vote_ratio',
-  'min_lists', 'min_mks', 'min_spread', 'min_names',
+  'min_lists', 'min_mks', 'min_spread', 'min_names', 'min_ex_mks',
 ] as const;
 
 /** Placeholders of each label of the methodology statements block (filled by the screen per statement or bill). */
@@ -282,5 +282,6 @@ export function dataValues(data: QuizData): Record<(typeof DATA_PLACEHOLDERS)[nu
     min_mks: p.SELECT_MIN_MKS,
     min_spread: p.SELECT_MIN_SPREAD,
     min_names: p.SELECT_MIN_NAMES,
+    min_ex_mks: p.MIN_EX_MKS,
   };
 }

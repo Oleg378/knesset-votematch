@@ -147,15 +147,11 @@
       "text": "A sponsored bill counts {vote_ratio} times more than a vote: pushing for a change is louder than voting against one."
      },
      {
-      "lead": "Votes on private bills.",
-      "text": "How each former member voted."
+      "lead": "Votes on bills.",
+      "text": "Private and government bills alike."
      },
      {
-      "lead": "Votes on the other camp's bills.",
-      "text": "And, for coalition parties, on the government's own bills."
-     },
-     {
-      "lead": "Budget laws are left out.",
+      "lead": "Except budget laws.",
       "text": "A vote on the whole budget says nothing about its separate articles."
      },
      {
@@ -164,7 +160,7 @@
      },
      {
       "lead": "The scale.",
-      "text": "From about −1.5 (everything against) to +1.5 (everything for)."
+      "text": "Each list gets a number per statement: below zero its record pushed against it, above zero for it, from about −1.5 to +1.5."
      },
      {
       "lead": "The sources.",
@@ -178,19 +174,15 @@
     "bullets": [
      {
       "lead": "Joint lists.",
-      "text": "The record can be mostly that of one partner."
+      "text": "The partners' former members are counted together; a partner with more of them weighs more."
      },
      {
       "lead": "Moved to another list.",
-      "text": "A former member counts for the list they run with in 2026."
+      "text": "Their record goes with them."
      },
      {
-      "lead": "Ministers and prime ministers.",
-      "text": "They rarely sponsor bills; the position rests on the other former members and on votes."
-     },
-     {
-      "lead": "One former member only.",
-      "text": "Shown but not ranked."
+      "lead": "How many former members it takes.",
+      "text": "A list is ranked from {min_ex_mks} former members; with one, it is shown but not ranked."
      }
     ]
    },
@@ -258,6 +250,10 @@
      {
       "lead": "Only the Knesset record of former members",
       "text": "(24th–25th Knesset). New candidates and platforms are not seen. {evaluable} of {lists} lists can be evaluated; {single} {single?list|lists} with a single former member {single?is|are} shown but not ranked; {no_record} {no_record?list has|lists have} no record."
+     },
+     {
+      "lead": "Ministers and prime ministers sponsor few bills.",
+      "text": "A list led by them is measured mostly by its other former members and by votes."
      },
      {
       "lead": "Bloc discipline.",
