@@ -5,8 +5,11 @@ Same computation as pipeline/quiz_match.py and pipeline/quiz_report.py (docs/TEC
   - question order [У] 2026-10-18 (pipeline/quiz_flow.py, parameters in quiz_flow.FLOW): the core statements (the same for
     everyone), then clarifying ones chosen one at a time from the answers so far, then trade-offs; «m» on the results screen
     asks more clarifying questions; --all asks every statement in file order (the old flow);
-  - regular questions: the quiz statements in English (jef/quiz/statements.csv, title_en / statement_en), answers
-    2 / 1 / 0 / -1 / -2 / ? (don't know); [У] 2026-10-17: the product language is English, bill names stay in Hebrew;
+  - regular questions: the quiz statements in English (jef/quiz/statements.csv, title_en / statement_en), the same four answers
+    as on the site — 2 / 1 / -1 / -2 — and Enter = «not sure, skip» (no answer; the statement counts as shown) [У 2026-10-23: the
+    site offers no «neutral» and no «don't know», and the terminal must ask the same questions]; prefilled sheets and saved sessions
+    may still carry 0 and «dk» (quiz_match treats 0 as an answer, «dk» as skipped); [У] 2026-10-17: the product language is
+    English, bill names stay in Hebrew;
   - trade-off questions [У 2026-10-16]: up to 5, asked one at a time, each only if it can change the top 5; the chosen statement
     gets weight ×2, «=» (equally) changes nothing; every next pair is searched with the weights already chosen;
   - leaderboard: all lists by closeness with notes; lists below the coverage threshold and lists without ex-MKs below
@@ -38,15 +41,15 @@ def ask(prompt):
         print(); sys.exit(0)
 
 def parse_answer(s):
+    """The site's four answers: 2, 1, -1, -2. «0» and «?» are not offered (the site has no such buttons, [У] 2026-10-23)."""
     s = s.lower().replace("−", "-").replace("+", "")
-    if s in ("?", "dk", "нз"): return "dk"
-    if re.fullmatch(r"-?[0-2]", s): return int(s)
+    if re.fullmatch(r"-?[12]", s): return int(s)
     return None
 
 def regular(ctx, ans):
     st = ctx["st"]
-    say("\nAnswer each statement: 2 — strongly agree, 1 — agree, 0 — neutral, -1 — disagree,\n"
-        "-2 — strongly disagree, ? — don't know. Enter — skip, < — back, q — finish answering.")
+    say("\nAnswer each statement: 2 — strongly agree, 1 — agree, -1 — disagree, -2 — strongly disagree.\n"
+        "Enter — not sure, skip. < — back, q — finish answering.")
     i = 0
     while i < len(st):
         q = st[i]
@@ -58,7 +61,7 @@ def regular(ctx, ans):
         if s.lower() in ("q", "й"): break
         if s == "": i += 1; continue
         a = parse_answer(s)
-        if a is None: say("Enter 2, 1, 0, -1, -2 or ?."); continue
+        if a is None: say("Enter 2, 1, -1 or -2; Enter to skip."); continue
         ans[q["q"]] = a; i += 1
     return ans
 
@@ -69,14 +72,14 @@ def ask_one(q, n, total):
         if s == "<" or s.lower() in ("q", "й") or s == "": return s.lower()
         a = parse_answer(s)
         if a is not None: return a
-        say("Enter 2, 1, 0, -1, -2 or ?.")
+        say("Enter 2, 1, -1 or -2; Enter to skip.")
 
 def flow(ctx, ans, shown, until, fctx):
     """Core statements, then clarifying ones: until="rule" — until quiz_flow.should_stop (fixed number or stopping rule, FLOW),
     until=None — until the pool ends («answer more»). shown: statements already shown, in order (answered or skipped).
     Back («<») removes the last shown statement and its answer; the next one is then recomputed."""
-    say("\nAnswer each statement: 2 — strongly agree, 1 — agree, 0 — neutral, -1 — disagree, -2 — strongly disagree,\n"
-        "? — don't know. Enter — skip, < — back, q — finish answering.")
+    say("\nAnswer each statement: 2 — strongly agree, 1 — agree, -1 — disagree, -2 — strongly disagree.\n"
+        "Enter — not sure, skip. < — back, q — finish answering.")
     core = fctx["core"]
     fixed = qf.FLOW["stop_gap"] is None
     total = len(core) + qf.FLOW["clarify"] if until == "rule" and fixed else None
