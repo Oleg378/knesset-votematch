@@ -87,6 +87,8 @@ Python deps: `requirements.txt` (pinned). Node: `web/package-lock.json`.
 - Product: English. Bill names: Hebrew original only, never translated. List names: official English (CEC). MK names:
   transliteration from `manual/mk_names_en.csv`.
 - Russian: chat with the customer and working docs only.
+- The methodology page never uses the abbreviation «MK»: write «members of the Knesset» / «former members of the Knesset»
+  (customer 2026-10-23). The two notes of the results screen are quoted there as shown.
 
 ## Working with the customer (lessons of 2026-10-20/21)
 - Russian in chat. Name statements by their **English title or text as stored**, never by number; never translate them.
