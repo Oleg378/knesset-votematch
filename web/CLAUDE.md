@@ -29,6 +29,7 @@ React + Vite + TypeScript, static SPA (no server, no Next.js). Talk to the custo
   `<Loading/>` on a screen waiting for its file. Every ring uniform (no lighter dots around the blue one).
 - Phone preview over ngrok points at the production build (`vite build --watch` + a static server with gzip and the CSP
   from `public/_headers`), not at `npm run dev` (unminified React, no compression: 5.4 MB).
+  Run: `npx vite build --watch`, `node scripts/serve-dist.mjs 4173`, `ngrok http 4173`.
 
 ## Design: Figma first
 - **A screen that has a Figma mockup is built exactly as the mockup**: texts, number of answers, buttons, progress,
