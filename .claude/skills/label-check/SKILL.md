@@ -19,7 +19,7 @@ a 3rd check, majority of three); a **sign flip** only if the 1st check and a che
 2. **1st check** — `prompts/check1.md` (paths: `items_K.md` → `result_K.csv`), Opus, one agent per part.
 3. `python3 local/research/scripts/label_check_step.py <tag> merge1` → candidates + controls (≥ a third) and `flip_in.csv`.
    Large `check2_items.md`: split into parts of ~70 (`## C…` sections) and concatenate the results into `check2_result.csv`.
-4. **2nd check** — `prompts/check2.md`. **Sign**: `flip_in.csv` with the `q` column emptied (draft ids are not in statements_v4) →
+4. **2nd check** — `prompts/check2.md`. **Sign**: `flip_in.csv` with the `q` column emptied (draft ids are not in statements.csv) →
    `python3 local/research/scripts/flip_check.py <in.csv> <dir>` → `prompts/sign_full_notes.md` → `flip_result.csv`.
 5. `label_check_step.py <tag> merge2` → **3rd check** of «borderline» — `prompts/check3.md`.
 6. `SRC="<what, date>" label_check_step.py <tag> apply` → `overrides.json` remove / flip, `borderline_resolved.csv`.

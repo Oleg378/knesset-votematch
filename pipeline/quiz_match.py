@@ -28,7 +28,7 @@ K = 0.0   # [У] 2026-10-18: no shrinkage — persona recovery (local/research/s
           # are best at 0; the random-answer «first places» criterion is dropped (it measures list clusters, not K)
 
 def load():
-    st = [r for r in csv.DictReader(open(os.path.join(Q, "statements_v4.csv"))) if r["status"] == "ok"]
+    st = [r for r in csv.DictReader(open(os.path.join(Q, "statements.csv"))) if r["status"] == "ok"]
     per_d = collections.Counter(r["d"] for r in st)
     for r in st:
         r["key_s"] = 1 if r["agree_key"] == "+" else -1

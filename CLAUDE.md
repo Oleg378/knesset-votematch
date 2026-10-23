@@ -41,7 +41,7 @@ fix every reference (`grep` the old name); research notes and people's answers s
 |---|---|
 | `pipeline/` | Python: fetch (OData, CEC), `build/` → `knesset.duckdb`, Jev labeling, positions, quiz selection/matching, **export** |
 | `web/` | Front end: React + Vite + TypeScript static SPA. Reads only `export/` |
-| `export/` | **The data contract** (in git): `quiz_core / quiz_data / quiz_bills.v2.json`, one schema, `golden.v2.json`, `WEB_CONTRACT.md`, `METHODOLOGY_PAGE.md`; the `.v1` files stay until the web screens move |
+| `export/` | **The data contract** (in git): `quiz_core / quiz_data / quiz_bills.json`, one schema, `golden.json`, `WEB_CONTRACT.md`, `METHODOLOGY_PAGE.md` |
 | `jef/` | Production data: directions and labels (`jef/directions/`), theme registry (`jef/directions/registry.csv`), positions (`jef/positions/`), statements (`jef/quiz/`) |
 | `manual/` | Tables kept by hand: CEC lists and candidates, candidate ↔ MK matching, English MK names |
 | `local/` | Research behind the decisions: experiments, checks, early approaches (`local/README.md`). Published selectively (scripts, texts, small result tables; no people's answers) — `local/` stays ignored, add new files with `git add -f`. **Not production**: do not import from it; the procedure scripts in `local/research/scripts/` named by the skills are run, never imported |
@@ -60,10 +60,10 @@ python3 pipeline/quiz_select.py   # which directions pass the selection criteria
 Python deps: `requirements.txt` (pinned). Node: `web/package-lock.json`.
 
 ## Data contract
-- `pipeline/export.py` writes the v2 files (`quiz_core`, `quiz_data`, `quiz_bills`), validated together against `export/quiz_data.v2.schema.json`.
+- `pipeline/export.py` writes the three files (`quiz_core`, `quiz_data`, `quiz_bills`), validated together against `export/quiz_data.schema.json`.
 - The front end never reads raw data and never calls Python.
-- Changing the formula or the structure → new schema and golden file, and the web contract updated in the same step; the files the live site reads are never changed silently.
-- `export/golden.v2.json`: answer sets → expected ranking, question order (flow cases), coverage, notes, trade-off pairs, explanations and evidence order,
+- Changing the formula or the structure → the schema, the golden file and the web contract are updated in the same step; the files the live site reads are never changed silently.
+- `export/golden.json`: answer sets → expected ranking, question order (flow cases), coverage, notes, trade-off pairs, explanations and evidence order,
   computed by `pipeline/quiz_match.py` + `pipeline/quiz_report.py`. Python is the reference; the TS port must match (1e-9).
 
 ## Do not change without a customer decision
@@ -71,7 +71,7 @@ Python deps: `requirements.txt` (pinned). Node: `web/package-lock.json`.
   the other camp's bills / the coalition's own government bills, weight 0.25, budget packages excluded; list = mean of ex-MKs).
 - Matching: cosine, K = 0 (no shrinkage), weights 1/n per shared direction, coverage threshold 0.5, trade-offs (≤5, ×2, one per list, only if
   they change the top 5) — SU п. 41, `docs/TECHNICAL.md`.
-- Statement texts and keys (`jef/quiz/statements_v4.csv`), statement numbers (stable; gaps allowed).
+- Statement texts and keys (`jef/quiz/statements.csv`), statement numbers (stable; gaps allowed).
 - Question order (`pipeline/quiz_flow.py` FLOW, [У] 2026-10-21): core = axis markers × interest, one per area; clarifying = contending pair;
   statement metadata `jef/quiz/statement_meta.csv` (interest, area, sim_group) is used only for the order of questions.
 - Selection criteria (`pipeline/quiz_select.py`), labels and overrides (`jef/directions/labels/`).

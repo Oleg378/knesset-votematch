@@ -28,7 +28,7 @@ KNOWN = [("2158413", "276", "no"), ("2158413", "275", "no"), ("2158413", "277a",
 
 def statements():
     by_d = {}
-    for r in csv.DictReader(open(os.path.join(ROOT, "jef/quiz/statements_v4.csv"))):
+    for r in csv.DictReader(open(os.path.join(ROOT, "jef/quiz/statements.csv"))):
         if r["status"] == "ok": by_d.setdefault(r["d"], []).append((r["title_en"], r["statement_en"]))
     return by_d
 
@@ -47,7 +47,7 @@ def pairs(by_d):
                 res.append({"bill_id": str(b), "name": n, "bill_type": t, "d": d, "voted": b in voted})
     return res
 
-# question version 2 (2026-10-17): in the pilot of version 1 (pilot_q1.jsonl) Jev judged the statement's «even if» clause rather
+# the current question (2026-10-17): in the pilot of the first question (pilot_q1.jsonl) Jev judged the statement's «even if» clause rather
 # than its topic (demolition of terrorists' homes vs «tighten counter-terrorism measures, even if …»: 0.48)
 QV = "q2"
 def question(sts):

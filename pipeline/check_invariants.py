@@ -21,7 +21,7 @@ def fail(code, msg): fails.append(f"FAIL {code}: {msg}")
 def warn(code, msg): warns.append(f"WARN {code}: {msg}")
 
 C = QS.criteria()
-st = [r for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements_v4.csv")) if r["status"] == "ok"]
+st = [r for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements.csv")) if r["status"] == "ok"]
 by_d = collections.defaultdict(list)
 for r in st: by_d[r["d"]].append(r)
 reg = {r["d"]: r for r in csv.DictReader(open(f"{ROOT}/jef/directions/registry.csv"))}
@@ -69,7 +69,7 @@ for b, lb in bl.items():
     for d in LB.signed_topics(lb):
         if d in by_d and not any((str(b), x) in cov for x in lineage(d)): un[d] += 1
 for d, n in un.items(): fail("I6", f"q{by_d[d][0]['q']} ({d}): {n} bill labels never label-checked")
-ex = {s["q"]: s for s in json.load(open(f"{ROOT}/export/quiz_data.v2.json"))["statements"]}   # I7
+ex = {s["q"]: s for s in json.load(open(f"{ROOT}/export/quiz_data.json"))["statements"]}   # I7
 cur = {r["q"]: r for r in st}
 for q in set(ex) ^ set(cur): fail("I7", f"q{q} is {'only in the export' if q in ex else 'not in the export'} (run make data)")
 for q in set(ex) & set(cur):

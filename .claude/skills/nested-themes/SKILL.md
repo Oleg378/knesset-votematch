@@ -19,7 +19,7 @@ broad one. By meaning:
 
 1. Pairs — `python3 local/research/scripts/theme_overlap.py` (all themes) → `nested_small_in_big.csv`; for a single new pair compute it directly.
 2. Blind input — `python3 local/research/scripts/nested_pairs_input.py` (names and «+»/«−» only, shuffled).
-3. Meaning check — `prompts/meaning_check.md` (the customer-approved v1 file), two agents; disagreements and «borderline» →
+3. Meaning check — `prompts/meaning_check.md` (the customer-approved file), two agents; disagreements and «borderline» →
    `prompts/meaning_check_third.md` (forced choice). Decision: two agreeing checks, otherwise the 3rd check.
 4. `python3 local/research/scripts/nested_apply.py merge` / `final` → `nested_decision.csv`, `nested_removals.computed.json`.
    Show the customer the strategy table (`nested_report.py`: both themes in every row, sections by strategy and by rule (а)).
@@ -30,8 +30,8 @@ broad one. By meaning:
 
 ## Pitfalls seen
 
-- The meaning prompt must have **one** criterion. «…or a part/example of it» made every nested pair «same» (v1 confusion); «can a
-  voter hold different views» made 98 % «different» (v2, archived in `theme_overlap/v2/`). The approved v1 file plus the customer's
+- The meaning prompt must have **one** criterion. «…or a part/example of it» made every nested pair «same»; «can a
+  voter hold different views» made 98 % «different» (archived under `local/research/theme_overlap/`). The approved file plus the customer's
   reviewed decisions is the reference.
 - Never use correlation of list positions to judge sameness: almost all themes correlate on the left–right axis.
 - Strategy 2 into a theme with no statement drops bills out of the quiz — rule (а) exists for that.
