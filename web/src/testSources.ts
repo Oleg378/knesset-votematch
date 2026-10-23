@@ -1,10 +1,10 @@
 /**
- * The three v2 data files imported directly — for tests only (the app fetches them at run time, src/data.ts). Their shape is
+ * The three data files imported directly — for tests only (the app fetches them at run time, src/data.ts). Their shape is
  * checked by src/engine/schema.test.ts.
  */
-import billsRaw from '@export/quiz_bills.v2.json';
-import coreRaw from '@export/quiz_core.v2.json';
-import dataRaw from '@export/quiz_data.v2.json';
+import billsRaw from '@export/quiz_bills.json';
+import coreRaw from '@export/quiz_core.json';
+import dataRaw from '@export/quiz_data.json';
 import { loadedSources } from './data';
 import type { QuizBills, QuizCore, QuizData } from './engine/types';
 

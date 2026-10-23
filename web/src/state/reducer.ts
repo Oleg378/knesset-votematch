@@ -1,5 +1,5 @@
 /**
- * The flow as a pure state machine (pipeline/quiz_cli.py, v2 order of questions):
+ * The flow as a pure state machine (pipeline/quiz_cli.py, the order of questions of pipeline/quiz_flow.py):
  * start → core questions → clarifying questions (chosen one at a time, quiz_flow.next_clarify) → trade-offs (0–flow.trade,
  * adaptive) → results ⇄ details(list) → bills(list, q); «Answer more questions» on results continues clarifying questions
  * until the pool ends; methodology from any screen (menu). When a step needs a data file that has not arrived yet, the
@@ -86,9 +86,9 @@ export function isAnswerValue(v: Answer): v is AnswerValue {
   return v !== 'dk';
 }
 
-/** quiz_flow `shown`: the statements shown so far, in order (the last one's area is skipped next); an answer counts too. */
+/** quiz_cli.flow: the statements shown so far, in order, then any answered but not shown (quiz_flow skips the last one's area). */
 export function shownSoFar(s: Pick<State, 'answers' | 'shown'>): string[] {
-  return [...Object.keys(s.answers).filter((q) => !s.shown.includes(q)), ...s.shown];
+  return [...s.shown, ...Object.keys(s.answers).filter((q) => !s.shown.includes(q))];
 }
 
 /** What the reducer can use: the core file (flow, core order) and, once it has arrived, the data file. */

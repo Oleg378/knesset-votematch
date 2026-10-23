@@ -1,9 +1,9 @@
 /**
- * Migration tests Python -> TypeScript: every case of export/golden.v2.json (computed by pipeline/quiz_match.py,
+ * Migration tests Python -> TypeScript: every case of export/golden.json (computed by pipeline/quiz_match.py,
  * pipeline/quiz_flow.py and pipeline/quiz_report.py) must be reproduced. Python is the reference.
  */
 import { describe, expect, it } from 'vitest';
-import goldenRaw from '@export/golden.v2.json';
+import goldenRaw from '@export/golden.json';
 import { bills, data } from '../testSources';
 import { contributions, explain, match, nextClarify, shouldStop, tradeoffs } from './index';
 import type { Answers, Mult, Role, Sign } from './types';
@@ -28,7 +28,7 @@ interface GoldenCase {
   flow?: { core: string[]; clarifying: string[] };
 }
 
-const golden = goldenRaw as { version: number; tolerance: number; cases: GoldenCase[] };
+const golden = goldenRaw as { tolerance: number; cases: GoldenCase[] };
 const tol = golden.tolerance;
 
 function close(actual: number | null, expected: number | null, what: string) {
@@ -40,9 +40,8 @@ function close(actual: number | null, expected: number | null, what: string) {
   expect(Math.abs((actual as number) - expected), `${what}: ${actual} vs ${expected}`).toBeLessThanOrEqual(tol);
 }
 
-describe('golden.v2.json', () => {
-  it('has the expected version and cases, including the flow cases', () => {
-    expect(golden.version).toBe(2);
+describe('golden.json', () => {
+  it('has the expected cases, including the flow cases', () => {
     expect(golden.cases.length).toBeGreaterThanOrEqual(34);
     expect(golden.cases.filter((c) => c.flow).length).toBeGreaterThanOrEqual(6);
   });

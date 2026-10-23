@@ -30,7 +30,7 @@ function preloadStartPage(): Plugin {
       handler(_html, ctx) {
         const files = Object.keys(ctx.bundle ?? {});
         const fonts = files.filter((f) => /\/(fraunces-opsz|plus-jakarta-sans-latin-(400|500|600)-normal)-[\w-]+\.woff2$/.test(f));
-        const core = files.filter((f) => /\/quiz_core\.v2-[\w-]+\.json$/.test(f));
+        const core = files.filter((f) => /\/quiz_core-[\w-]+\.json$/.test(f));
         const hero = files.filter((f) => /\/hero-[\w-]+\.svg$/.test(f));
         if (fonts.length !== 4 || core.length !== 1 || hero.length !== 1) {
           throw new Error(`preload-start-page: found ${fonts.length} fonts, ${core.length} quiz_core, ${hero.length} hero`);

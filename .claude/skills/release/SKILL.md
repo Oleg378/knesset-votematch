@@ -5,8 +5,8 @@ description: Rebuilding and publishing the quiz data after any change — make d
 
 # Release
 
-1. **Commit the inputs** first (labels, overrides, plans, `statements_v4.csv`, registry, coverage) — one topic per commit.
-2. `make data` (positions → export v2 + golden). The export warns if inputs are uncommitted — then go back to 1.
+1. **Commit the inputs** first (labels, overrides, plans, `statements.csv`, registry, coverage) — one topic per commit.
+2. `make data` (positions → export + golden). The export warns if inputs are uncommitted — then go back to 1.
 3. `make check` — must print OK. A statement failing I1 is set to `status=removed` with a dated note (customer rule: remove and
    report, do not ask), registry updated, then `make data` again. I4 FAIL = a theme left without a decision → route it (quiz-pipeline).
 4. `make test` (web tests incl. golden: TS port == Python reference).

@@ -13,12 +13,12 @@ finds the root as the parent of its own folder. Modules import each other by bar
 4. Positions: `positions.py` → `jef/positions/`.
 5. Quiz: `quiz_select.py` (criteria), `quiz_match.py` (closeness, trade-offs), `quiz_flow.py` (order of questions: core →
    clarifying → trade-offs, numbers in FLOW), `quiz_report.py` (explanations), `quiz_cli.py` (terminal quiz — the reference UX).
-6. Export: `export.py` → `export/` (v2: three data files + schema + golden cases). Run `make data` after any change in 3–5.
+6. Export: `export.py` → `export/` (three data files + schema + golden cases). Run `make data` after any change in 3–5.
 7. Check: `check_invariants.py` (`make check`) after every stage; `build_registry.py` built `jef/directions/registry.csv` once —
    new decisions are written into the registry, the builder is not re-run over it.
 
 ## Rules
 - `quiz_match.py`, `quiz_flow.py` and `quiz_report.py` are the reference implementation for the web. A change there changes the golden cases:
-  regenerate `export/`, and the web tests must be updated in the same commit (or the version bumped if the structure changes).
+  regenerate `export/`, and the web tests must be updated in the same commit (and, if the structure changes, the schema and the contract).
 - Every user-facing string produced here is English (see root CLAUDE.md «Language").
 - Decisions are marked in comments with the SU status: `[У] date` approved, `[А]` agent's proposal.

@@ -3,7 +3,7 @@ import { DOT_R, DOT_RING_SIZE, DOT_RING_VIEWBOX, dotRings, RUNNER } from './dotR
 import { S } from '../strings';
 
 /**
- * Shown only on a screen whose data file has not arrived yet (V2_HANDOFF.md «Loading»): the same dot ring as before the
+ * Shown only on a screen whose data file has not arrived yet (export/WEB_CONTRACT.md «Loading»): the same dot ring as before the
  * JS has run (customer 2026-10-18), centred in the screen.
  */
 export function Loading() {

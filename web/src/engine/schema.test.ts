@@ -1,10 +1,10 @@
 import { describe, expect, it } from 'vitest';
 import Ajv2020 from 'ajv/dist/2020';
-import schema from '@export/quiz_data.v2.schema.json';
+import schema from '@export/quiz_data.schema.json';
 import { bills, core, data } from '../testSources';
 
-describe('v2 data files', () => {
-  it('quiz_data + quiz_bills merged validate against quiz_data.v2.schema.json (draft 2020-12)', () => {
+describe('the three data files', () => {
+  it('quiz_data + quiz_bills merged validate against quiz_data.schema.json (draft 2020-12)', () => {
     const ajv = new Ajv2020({ allErrors: true, strict: true });
     // The schema uses format "date"; checked here without pulling in ajv-formats.
     ajv.addFormat('date', /^\d{4}-\d{2}-\d{2}$/);
@@ -15,7 +15,7 @@ describe('v2 data files', () => {
   });
 
   it('quiz_core is the head of quiz_data: same export, flow and core, the core statements in core order', () => {
-    for (const k of ['version', 'generated', 'source_commit'] as const) {
+    for (const k of ['generated', 'source_commit'] as const) {
       expect(core[k]).toBe(data[k]);
       expect(bills[k]).toBe(data[k]);
     }

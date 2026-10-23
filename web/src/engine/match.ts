@@ -1,6 +1,6 @@
 /**
  * Port of pipeline/quiz_match.py (list_vec, score, match, ranked_top, tradeoffs). Python is the reference:
- * export/golden.v2.json must be reproduced to 1e-9 (src/engine/golden.test.ts). Keep the arithmetic in the same order.
+ * export/golden.json must be reproduced to 1e-9 (src/engine/golden.test.ts). Keep the arithmetic in the same order.
  */
 import { pyPercent0 } from './format';
 import type { Answers, ListStatus, Mult, QuizData, QuizList, TradePair } from './types';

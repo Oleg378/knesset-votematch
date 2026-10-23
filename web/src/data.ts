@@ -1,12 +1,12 @@
 /**
- * The data contract v2 (export/V2_HANDOFF.md «Loading»): three static files, not bundled into the JS. The app shell renders
+ * The data contract (export/WEB_CONTRACT.md §1 «Loading»): three static files, not bundled into the JS. The app shell renders
  * at once; the files are fetched one after another — core (preloaded from index.html, see vite.config.ts), then, once the
  * start page is fully drawn, data and bills — while the user answers the core questions. Vite emits them with
  * content-hashed names, so they can be cached for good. Same origin only (CSP).
  */
-import billsUrl from '@export/quiz_bills.v2.json?url';
-import coreUrl from '@export/quiz_core.v2.json?url';
-import dataUrl from '@export/quiz_data.v2.json?url';
+import billsUrl from '@export/quiz_bills.json?url';
+import coreUrl from '@export/quiz_core.json?url';
+import dataUrl from '@export/quiz_data.json?url';
 import type { QuizBills, QuizCore, QuizData } from './engine/types';
 
 export interface Sources {
@@ -32,8 +32,8 @@ const fetchJson: FetchJson = async (url) => {
   return r.json();
 };
 
-const sameExport = (a: QuizCore, b: { version: number; generated: string; source_commit: string }) =>
-  a.version === b.version && a.generated === b.generated && a.source_commit === b.source_commit;
+const sameExport = (a: QuizCore, b: { generated: string; source_commit: string }) =>
+  a.generated === b.generated && a.source_commit === b.source_commit;
 
 /**
  * Resolves when the start page is fully drawn: the page has loaded (the hero picture, and the fonts preloaded from

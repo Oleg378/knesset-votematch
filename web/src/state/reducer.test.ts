@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import goldenRaw from '@export/golden.v2.json';
+import goldenRaw from '@export/golden.json';
 import { nextClarify } from '../engine/flow';
 import { tradeoffs } from '../engine/match';
 import type { Answer, Answers, Mult, TradePair } from '../engine/types';

@@ -60,7 +60,7 @@ def criteria():
 
 if __name__ == "__main__":
     C = criteria()
-    quiz = {r["d"]: r["q"] for r in csv.DictReader(open(os.path.join(ROOT, "jef/quiz/statements_v4.csv"))) if r["status"] == "ok"}
+    quiz = {r["d"]: r["q"] for r in csv.DictReader(open(os.path.join(ROOT, "jef/quiz/statements.csv"))) if r["status"] == "ok"}
     ds = sys.argv[1:] or sorted(set(quiz) | {d for d, x in C.items() if x["base"]}, key=lambda d: (d not in quiz, d))
     plan = json.load(open(os.path.join(ROOT, "jef/directions/split/plan.json")))
     import labels   # later split stages (2026-10-18): their parents are remainders too

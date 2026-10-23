@@ -4,7 +4,7 @@
 check:                    ## invariants of the quiz data (run after every stage and before release)
 	python3 pipeline/check_invariants.py
 
-data: positions export          ## positions -> export/quiz_{core,data,bills}.v2.json + golden.v2.json
+data: positions export          ## positions -> export/quiz_{core,data,bills}.json + golden.json
 
 positions:
 	python3 pipeline/positions.py

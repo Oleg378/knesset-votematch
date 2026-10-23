@@ -1,7 +1,7 @@
-# web/ — product spec (v2)
+# web/ — product spec
 
-Static SPA. Input: the v2 data contract — three files fetched at run time (`export/quiz_core.v2.json`,
-`quiz_data.v2.json`, `quiz_bills.v2.json`; one schema for their merge). Contract and loading order:
+Static SPA. Input: the data contract — three files fetched at run time (`export/quiz_core.json`,
+`quiz_data.json`, `quiz_bills.json`; one schema for their merge). Contract and loading order:
 `export/WEB_CONTRACT.md`; page texts: `export/METHODOLOGY_PAGE.md`. Reference behaviour: `pipeline/quiz_cli.py` (run it to
 see the flow), `pipeline/quiz_flow.py` (order of questions), `pipeline/quiz_report.py` (explanations). How everything is
 computed: `docs/TECHNICAL.md`.
@@ -129,17 +129,17 @@ exact equality with the golden cases:
 - Strings in explanations come from `strings.ts` and must reproduce the golden `lines` exactly.
 
 ## Tests (Vitest) — migration Python → TypeScript
-- `export/golden.v2.json`, 34 cases (full synthetic answer set, full + trade-offs, adaptive step, 20 random, edge cases: no answers, all dk,
+- `export/golden.json`, 34 cases (full synthetic answer set, full + trade-offs, adaptive step, 20 random, edge cases: no answers, all dk,
   all neutral, one answer, rare topics). For every case assert: ranking ids in order, closeness and coverage within
   `tolerance`, notes, ranked flags; trade-off pairs; for each `details[]` list: item order, contribution, p, `lines` (exact
   strings), evidence order (`bill`, `same`, `role`, `sign`, authors).
 - «flow N» cases (6): replay the question order — the core, then every clarifying statement from `next_clarify`.
-- Schema test: `quiz_data.v2.json` + `quiz_bills.v2.json` merged validate against `quiz_data.v2.schema.json` (ajv); `quiz_core`
+- Schema test: `quiz_data.json` + `quiz_bills.json` merged validate against `quiz_data.schema.json` (ajv); `quiz_core`
   is the head of `quiz_data` (same export, flow, core, statements).
 - Screen tests also cover loading: the start page before any data, a loader on a screen whose file has not arrived.
 - Reducer tests for the state machine (transitions, back/skip, start over).
 - Python stays the reference: if a golden case fails, the TS code is wrong unless the customer changed the formula (then a
-  new export and, for structural changes, v2).
+  new export and, for structural changes, a new schema and contract).
 
 ## State
 `useReducer` state machine, no state library: `start | question(i) | tradeoff | results | details(list) | bills(list, q) |

@@ -6,7 +6,7 @@ import type { AnswerValue } from './engine/types';
 
 // ---- Engine texts (must match the Python reference byte for byte) ----
 
-/** quiz_report.ANS — the same words as the answer buttons (v2) */
+/** quiz_report.ANS — the same words as the answer buttons [У 2026-10-18] */
 export const ANS: Record<AnswerValue, string> = {
   2: 'strongly agree',
   1: 'agree',
@@ -167,7 +167,7 @@ export const S = {
   methodology: {
     heading: 'How it works',
     back: 'Back',
-    // Texts of export/V2_HANDOFF.md §6 (customer, 2026-10-18), verbatim; list counts and CLOSE come from the export.
+    // Texts of export/METHODOLOGY_PAGE.md (customer, 2026-10-18), verbatim; list counts and CLOSE come from the export.
     sections: (n: MethodNumbers): MethodSection[] => [
       {
         title: 'How topics are chosen.',

@@ -1,7 +1,7 @@
 // @vitest-environment jsdom
 /**
  * Screen tests: the whole flow through <App/> as a user clicks it, plus the SPEC «never show / never store» rules and the
- * v2 loading rules (the start page never waits; a screen whose file has not arrived shows a loader).
+ * the loading rules of export/WEB_CONTRACT.md §1 (the start page never waits; a screen whose file has not arrived shows a loader).
  * Numbers themselves are covered by the golden tests; here only what reaches the screen.
  */
 import { act, cleanup, fireEvent, render, screen, within } from '@testing-library/react';
@@ -93,7 +93,7 @@ describe('start', () => {
   });
 });
 
-describe('loading (V2_HANDOFF «Loading»)', () => {
+describe('loading (WEB_CONTRACT «Loading»)', () => {
   it('the start page renders before any data; Start waits for quiz_core, then the first core statement', () => {
     const { loader, arrive } = manualLoader();
     render(<App loader={loader} />);

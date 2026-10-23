@@ -1,5 +1,5 @@
 /**
- * Types of the v2 data contract (export/quiz_data.v2.schema.json, export/V2_HANDOFF.md). Three files, fetched in order:
+ * Types of the data contract (export/quiz_data.schema.json, export/WEB_CONTRACT.md). Three files, fetched in order:
  * quiz_core (enough to start answering) → quiz_data (positions, everything for ranking) → quiz_bills (list details only).
  */
 
@@ -115,19 +115,18 @@ export interface Bill {
 export type BillRef = [bill: string, sign: Sign, role: Role];
 
 interface Head {
-  version: 2;
   generated: string;
   source_commit: string;
 }
 
-/** quiz_core.v2.json: the flow numbers, the core order and the core statements. */
+/** quiz_core.json: the flow numbers, the core order and the core statements. */
 export interface QuizCore extends Head {
   flow: Flow;
   core: string[];
   statements: Statement[];
 }
 
-/** quiz_data.v2.json: everything the ranking, trade-offs and clarifying questions need. */
+/** quiz_data.json: everything the ranking, trade-offs and clarifying questions need. */
 export interface QuizData extends Head {
   params: Params;
   flow: Flow;
@@ -137,7 +136,7 @@ export interface QuizData extends Head {
   lists: QuizList[];
 }
 
-/** quiz_bills.v2.json: only for List details, «Bills of one statement» and Methodology. */
+/** quiz_bills.json: only for List details, «Bills of one statement» and Methodology. */
 export interface QuizBills extends Head {
   mks: Record<string, Mk>;
   by_direction: Record<string, BillRef[]>;

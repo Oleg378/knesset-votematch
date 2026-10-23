@@ -5,7 +5,7 @@ Same computation as pipeline/quiz_match.py and pipeline/quiz_report.py (docs/TEC
   - question order [У] 2026-10-18 (pipeline/quiz_flow.py, parameters in quiz_flow.FLOW): the core statements (the same for
     everyone), then clarifying ones chosen one at a time from the answers so far, then trade-offs; «m» on the results screen
     asks more clarifying questions; --all asks every statement in file order (the old flow);
-  - regular questions: the quiz statements in English (jef/quiz/statements_v4.csv, title_en / statement_en), answers
+  - regular questions: the quiz statements in English (jef/quiz/statements.csv, title_en / statement_en), answers
     2 / 1 / 0 / -1 / -2 / ? (don't know); [У] 2026-10-17: the product language is English, bill names stay in Hebrew;
   - trade-off questions [У 2026-10-16]: up to 5, asked one at a time, each only if it can change the top 5; the chosen statement
     gets weight ×2, «=» (equally) changes nothing; every next pair is searched with the weights already chosen;

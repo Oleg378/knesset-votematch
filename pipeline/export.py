@@ -1,16 +1,17 @@
 """Export for the web quiz: the only link between pipeline/ and web/ (CLAUDE.md «Data contract»).
 
-Writes to export/ (v2: three files loaded in order, see export/WEB_CONTRACT.md «Loading»):
-  quiz_core.v2.json         the core statements and the flow numbers — enough to start answering;
-  quiz_data.v2.json         everything for matching: params, all statements, directions, lists with positions;
-  quiz_bills.v2.json        what only the list details need: bills, sponsors, bills by direction, the lists' votes;
-  quiz_data.v2.schema.json  JSON Schema of the three merged (validated here before writing);
-  golden.v2.json            golden test cases: answers (+ trade-off weights) -> what pipeline/quiz_match.py and
+Writes to export/ (three files loaded in order, see export/WEB_CONTRACT.md «Loading»):
+  quiz_core.json         the core statements and the flow numbers — enough to start answering;
+  quiz_data.json         everything for matching: params, all statements, directions, lists with positions;
+  quiz_bills.json        what only the list details need: bills, sponsors, bills by direction, the lists' votes;
+  quiz_data.schema.json  JSON Schema of the three merged (validated here before writing);
+  golden.json            golden test cases: answers (+ trade-off weights) -> what pipeline/quiz_match.py and
                             pipeline/quiz_report.py compute. The TypeScript port must reproduce them (web/ Vitest).
-The version in the file name goes up when the formula or the structure changes (never change v1 silently).
+When the formula or the structure changes, the schema and the golden cases are regenerated and the contract (export/WEB_CONTRACT.md)
+and the web tests are updated in the same step — the files the live site reads never change silently.
 
 Nothing is computed here that the quiz scripts do not already compute: the positions come from pipeline/positions.py
-(jef/positions/), the statements and their English text from jef/quiz/statements_v4.csv, the labels as in quiz_report.py.
+(jef/positions/), the statements and their English text from jef/quiz/statements.csv, the labels as in quiz_report.py.
 
 Usage: python3 pipeline/export.py        (or: make data)
 """
@@ -23,7 +24,6 @@ import quiz_flow as qf
 
 ROOT = qm.ROOT
 OUT = os.path.join(ROOT, "export")
-VERSION = 2   # v2 (2026-10-18): P = A + 0.25 V with A not centered, K = 0, P_bills, CLOSE, question order (export/WEB_CONTRACT.md)
 
 def num(x):
     """JSON has no NaN: a closeness that cannot be computed is null."""
@@ -81,10 +81,9 @@ def build_data(ctx):
     bills = {}
     for b in sorted(bill_ids, key=int):
         name, k = ctx["info"][b]
-        bills[b] = {"name_he": name, "knesset": k,   # v2: url and summary_en dropped (DATA_REQUESTS #2); link = params.BILL_URL
+        bills[b] = {"name_he": name, "knesset": k,   # no url and no summary_en (DATA_REQUESTS #2); link = params.BILL_URL
                     "sponsors": sorted(m for m in ctx["init"][b] if m in cand_list)}
     return {
-        "version": VERSION,
         "generated": datetime.date.today().isoformat(),
         "source_commit": source_commit(),
         "params": {"K": qm.K, "MIN_COVERAGE": qm.MIN_COVERAGE, "MIN_EX_MKS": qm.MIN_EX_MKS, "MAX_TRADE": qm.MAX_TRADE, "TRADE_TOP": qm.TRADE_TOP,
@@ -168,27 +167,27 @@ def golden(ctx):
     for i in range(6):   # question order: synthetic users answering every statement at random (no real person's answers)
         rnd2 = random.Random(20261018 + i)
         cases.append(flow_case(ctx, f"flow {i}", {q: rnd2.choice([-2, -1, 1, 2, "dk"]) for q in qs}))
-    return {"version": VERSION, "tolerance": 1e-9, "cases": cases}
+    return {"tolerance": 1e-9, "cases": cases}
 
 def main():
     ctx = qr.context()
     data = build_data(ctx)
-    schema = json.load(open(os.path.join(OUT, f"quiz_data.v{VERSION}.schema.json")))
+    schema = json.load(open(os.path.join(OUT, "quiz_data.schema.json")))
     jsonschema.validate(data, schema)
     os.makedirs(OUT, exist_ok=True)
     # [У] 2026-10-18: three files loaded in order, so the start page and the first questions never wait for the bills
-    head = {k: data[k] for k in ("version", "generated", "source_commit")}
+    head = {k: data[k] for k in ("generated", "source_commit")}
     parts = {"core": {**head, "flow": data["flow"], "core": data["core"],
                       "statements": [s for s in data["statements"] if s["q"] in data["core"]]},
              "data": {**head, **{k: data[k] for k in ("params", "flow", "core", "statements", "directions", "lists")}},
              "bills": {**head, **{k: data[k] for k in ("mks", "by_direction", "votes", "bills")}}}
     for name, part in parts.items():
-        json.dump(part, open(os.path.join(OUT, f"quiz_{name}.v{VERSION}.json"), "w"), ensure_ascii=False, separators=(",", ":"))
+        json.dump(part, open(os.path.join(OUT, f"quiz_{name}.json"), "w"), ensure_ascii=False, separators=(",", ":"))
     g = golden(ctx)
-    json.dump(g, open(os.path.join(OUT, f"golden.v{VERSION}.json"), "w"), ensure_ascii=False, indent=1)
-    sz = {n: os.path.getsize(os.path.join(OUT, f"quiz_{n}.v{VERSION}.json")) / 1e3 for n in parts}
+    json.dump(g, open(os.path.join(OUT, "golden.json"), "w"), ensure_ascii=False, indent=1)
+    sz = {n: os.path.getsize(os.path.join(OUT, f"quiz_{n}.json")) / 1e3 for n in parts}
     print(f"{len(data['statements'])} statements, {len(data['lists'])} lists, {len(data['bills'])} bills; files (KB): "
-          + ", ".join(f"quiz_{n}.v{VERSION}.json {v:.0f}" for n, v in sz.items()) + f"; golden.v{VERSION}.json: {len(g['cases'])} cases")
+          + ", ".join(f"quiz_{n}.json {v:.0f}" for n, v in sz.items()) + f"; golden.json: {len(g['cases'])} cases")
 
 if __name__ == "__main__":
     main()

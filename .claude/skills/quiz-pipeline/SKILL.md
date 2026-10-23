@@ -16,7 +16,7 @@ year** (a re-submission is one bill). Decisions live in `docs/SHARED_UNDERSTANDI
 | Labels of a theme wrong / bills newly in a quiz theme | `label-check` | `overrides.json` remove / flip / add, `label_check_coverage.csv` |
 | A theme whose bills are about unrelated things (basket) | `split-themes` | `jef/directions/split/planN.json`, `labels/splitN_choice.jsonl`, `labels.LATER` |
 | One theme lies mostly inside another (≥ 50 % of the smaller) | `nested-themes` | `labels/nested_removals.json` |
-| A theme passes the selection and has no statement | `new-statements` | rows in `jef/quiz/statements_v4.csv` |
+| A theme passes the selection and has no statement | `new-statements` | rows in `jef/quiz/statements.csv` |
 | Agent tasks of any step | `subagents` | prompt files, blind inputs, results |
 | Rebuild, check, publish | `release` | `export/`, commits, front note |
 

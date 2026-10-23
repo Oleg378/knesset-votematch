@@ -1,8 +1,8 @@
 /**
  * Port of pipeline/quiz_flow.py (next_clarify, should_stop; rule of 2026-10-21): the order of questions —
  * core (read from the export) → clarifying, one at a time from the answers so far → trade-offs (match.ts).
- * Written by the data side (export/V2_HANDOFF.md section 0a, «do not re-port»); here only typed with the web's v2 types.
- * Python is the reference: the six «flow N» cases of export/golden.v2.json must be reproduced (flow.test.ts,
+ * Written by the data side («do not re-port»); here only typed with the web's types.
+ * Python is the reference: the six «flow N» cases of export/golden.json must be reproduced (flow.test.ts,
  * golden.test.ts). Keep the arithmetic in the same order as the Python.
  */
 import type { Answers, Flow, Mult, Position, QuizData, QuizList } from './types';

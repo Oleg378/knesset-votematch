@@ -1,10 +1,10 @@
 /**
- * Migration tests Python -> TypeScript for the order of questions: the six «flow N» cases of export/golden.v2.json
- * (computed by pipeline/quiz_flow.py) must be reproduced question by question, and the v2 ranking of every case must
+ * Migration tests Python -> TypeScript for the order of questions: the six «flow N» cases of export/golden.json
+ * (computed by pipeline/quiz_flow.py) must be reproduced question by question, and the ranking of every case must
  * match (ids and closeness to the golden tolerance). Python is the reference.
  */
 import { describe, expect, it } from 'vitest';
-import goldenRaw from '@export/golden.v2.json';
+import goldenRaw from '@export/golden.json';
 import { core, data } from '../testSources';
 import { nextClarify, rankedLists, shouldStop } from './flow';
 import type { Answers, Mult } from './types';
@@ -17,11 +17,10 @@ interface GoldenCase {
   flow?: { core: string[]; clarifying: string[] };
 }
 
-const golden = goldenRaw as unknown as { version: number; tolerance: number; cases: GoldenCase[] };
+const golden = goldenRaw as unknown as { tolerance: number; cases: GoldenCase[] };
 
-describe('golden.v2.json: order of questions (pipeline/quiz_flow.py)', () => {
-  it('has the expected version and six flow cases', () => {
-    expect(golden.version).toBe(2);
+describe('golden.json: order of questions (pipeline/quiz_flow.py)', () => {
+  it('has six flow cases', () => {
     expect(golden.cases.filter((c) => c.flow).length).toBe(6);
     expect(data.core).toEqual(core.core);
     expect(data.flow).toEqual(core.flow);

@@ -1,7 +1,7 @@
 """Theme registry (customer 2026-10-21, docs variant 3): one row per theme that has a recorded decision, so that every theme passing the
 selection either carries a statement or a reason why not (pipeline/check_invariants.py enforces it).
 
-Built once from the decision records of 2026-10-15 … 2026-10-21 (statements_v4.csv, split plans, the new-statement procedure, the
+Built once from the decision records of 2026-10-15 … 2026-10-21 (statements.csv, split plans, the new-statement procedure, the
 nested-theme audit); from now on the registry is the place where such decisions are written (by hand or by the procedure scripts),
 and this builder is not re-run over it. Statuses:
   quiz            — the theme carries statement q
@@ -21,8 +21,8 @@ R = f"{ROOT}/local/research"
 rows = {}
 def put(d, status, q="", reason="", source="", date=""):
     rows.setdefault(str(d), dict(d=str(d), status=status, q=q, reason=reason, source=source, date=date))
-for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements_v4.csv")):
-    if r["status"] == "ok": rows[r["d"]] = dict(d=r["d"], status="quiz", q=r["q"], reason=r["title_en"], source="jef/quiz/statements_v4.csv", date="")
+for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements.csv")):
+    if r["status"] == "ok": rows[r["d"]] = dict(d=r["d"], status="quiz", q=r["q"], reason=r["title_en"], source="jef/quiz/statements.csv", date="")
 pl = json.load(open(f"{ROOT}/jef/directions/split/plan.json"))
 for p in sorted(set(pl["parents"]) - set(pl["keep"])): put(p, "split", source="jef/directions/split/plan.json", date="2026-10-16")
 for k, (_, f, _) in enumerate(LB.LATER, 2):

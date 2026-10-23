@@ -100,7 +100,7 @@ public, complete table of what the quiz holds about every list, built only from 
   sponsored and how they voted in the 24th–25th Knesset. If you represent a list and believe a cell is wrong, the bills behind
   it are listed — open an issue at https://github.com/Oleg378/knesset-votematch/issues with the bill and the reason; corrections
   are published here.» (customer, 2026-10-22: contact = GitHub issues).
-- Export: `quiz_data.v2.json` + `quiz_bills.v2.json` only; the page is static like the rest.
+- Export: `quiz_data.json` + `quiz_bills.json` only; the page is static like the rest.
 
 **Composition of the list's record** (external audit №3, п. 1.4; data exported 2026-10-22, how to display is the customer's
 separate decision): `mks[].party_en` — the component party of the 2026 list the former MK runs with (Central Elections Committee
