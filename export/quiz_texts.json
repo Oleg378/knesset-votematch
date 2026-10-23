@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "app": {
   "title": "Knesset 2026 quiz",
   "name": "Vote Match",
@@ -140,73 +140,148 @@
   "sections": [
    {
     "title": "Where a list's position comes from.",
-    "text": "Only from what its candidates who were members of the Knesset in the 24th–25th Knesset did: the bills they sponsored, their votes on private bills, their votes on the other camp's bills and, for coalition parties, their votes on the government's own bills. Votes on government bills count for every party, coalition or opposition, by the same rule. Budget laws are left out: a vote on the whole budget says nothing about its hundred separate articles. Promises and speeches are not used. Sponsoring a bill counts {vote_ratio} times more than a vote on it: the record of a party that pushed for a change is louder than the record of a party that only voted against it — a deliberate choice, stated here so that it can be judged. A list's position on a topic runs roughly from −1.5 (everything against) to +1.5 (everything for). The data come from the Knesset's official open database and the Central Elections Committee's candidate lists."
+    "text": "Only from what its candidates who were members of the Knesset did in the 24th–25th Knesset:",
+    "bullets": [
+     {
+      "lead": "Bills they sponsored.",
+      "text": "A sponsored bill counts {vote_ratio} times more than a vote: pushing for a change is louder than voting against one — a deliberate choice, stated here so that it can be judged."
+     },
+     {
+      "lead": "Votes on private bills.",
+      "text": "How each former member voted."
+     },
+     {
+      "lead": "Votes on the other camp's bills.",
+      "text": "And, for coalition parties, on the government's own bills — by the same rule for every party."
+     },
+     {
+      "lead": "Budget laws are left out.",
+      "text": "A vote on the whole budget says nothing about its hundred separate articles."
+     },
+     {
+      "lead": "Promises and speeches are not used.",
+      "text": "Only the Knesset record."
+     },
+     {
+      "lead": "The scale.",
+      "text": "A position runs roughly from −1.5 (everything against) to +1.5 (everything for)."
+     },
+     {
+      "lead": "The sources.",
+      "text": "The Knesset's official open database and the Central Elections Committee's candidate lists."
+     }
+    ]
    },
    {
     "title": "Whose record a list carries.",
-    "text": "A list's record is the record of its candidates who were members of the Knesset — for a joint list that can be mostly the former members of one partner. A former member who moved to another list counts for the list they run with in 2026: it is the same person and their own votes. Ministers and prime ministers rarely sponsor bills, so a list's position rests mostly on its other former members and on votes. A list with one former member is shown but not ranked: one person's record is too thin to call a list the closest."
+    "text": "Its candidates who were members of the Knesset — and only they.",
+    "bullets": [
+     {
+      "lead": "Joint lists.",
+      "text": "The record can be mostly the former members of one partner."
+     },
+     {
+      "lead": "Moved to another list.",
+      "text": "A former member counts for the list they run with in 2026: the same person, their own votes."
+     },
+     {
+      "lead": "Ministers and prime ministers.",
+      "text": "They rarely sponsor bills, so a list's position rests mostly on its other former members and on votes."
+     },
+     {
+      "lead": "One former member only.",
+      "text": "Shown but not ranked: one person's record is too thin to call a list the closest."
+     }
+    ]
    },
    {
     "title": "The answer scale.",
-    "text": "Closeness compares directions, not intensity: if you answer «strongly agree» to everything, the result is the same as «agree» to everything; the strength of an answer matters when your answers are mixed. If you answer at random, lists far from all others (the Arab lists, for example) come first more often than others — the result means something only for considered answers."
+    "text": "Closeness compares directions, not intensity.",
+    "bullets": [
+     {
+      "lead": "«Strongly agree» to everything = «agree» to everything.",
+      "text": "The strength of an answer matters only when your answers are mixed."
+     },
+     {
+      "lead": "Random answers favour the outliers.",
+      "text": "Lists far from all others (the Arab lists, for example) come first more often — the result means something only for considered answers."
+     }
+    ]
    },
    {
     "title": "Reading your results.",
     "bullets": [
      {
-      "lead": "«No clear position»",
-      "text": "is shown when a list's position on the statement is below {close}, a level at which a list's side usually did not hold between the 24th and 25th Knesset, or when it rests on one former member or one bill."
+      "lead": "«No clear position».",
+      "text": "The list's position on the statement is below {close} — a level at which a side usually did not hold between the 24th and 25th Knesset — or rests on one former member or one bill."
      },
      {
-      "lead": "“Few former MKs: N”",
-      "text": "— the list's position rests on very few people."
+      "lead": "“Few former MKs: N”.",
+      "text": "The list's position rests on very few people."
      },
      {
-      "lead": "“Position known for only N% of your answers”",
-      "text": "— the list has a position on less than half of what you answered, so it is shown below the others and not ranked."
+      "lead": "“Position known for only N% of your answers”.",
+      "text": "The list has a position on less than half of what you answered: shown below the others, not ranked."
      },
      {
       "lead": "Lists without any former member",
       "text": "have no record in the Knesset and are not shown."
+     },
+     {
+      "lead": "Your answers are not stored.",
+      "text": "They never leave your device: close the page and they are gone."
      }
-    ],
-    "after": "Your answers are not stored anywhere and never leave your device: close the page and they are gone."
+    ]
    },
    {
     "title": "The order of questions.",
-    "text": "The first {core} statements are the same for everyone: the questions that best separate the lists. The next {clarify} are chosen one at a time to tell apart the lists closest to you so far; a list that fell behind early gets no more questions aimed at it. Which statements are asked also depends on a rating, made by a language model, of how much a typical voter cares about each topic; it affects only which questions you see, never the closeness."
+    "text": "{core} statements are the same for everyone, then {clarify} are chosen for you.",
+    "bullets": [
+     {
+      "lead": "The first {core}.",
+      "text": "The questions that best separate the lists."
+     },
+     {
+      "lead": "The next {clarify}.",
+      "text": "Picked one at a time to tell apart the lists closest to you so far; a list that fell behind gets no more questions aimed at it."
+     },
+     {
+      "lead": "Interest rating.",
+      "text": "A language model rated how much a typical voter cares about each topic; it affects only which questions you see, never the closeness."
+     }
+    ]
    },
    {
     "title": "Limitations — what this quiz can and cannot tell you.",
-    "text": "The quiz is an orientation, not a precise measurement. We state openly where the data and the analysis are noisy:",
+    "text": "The quiz is an orientation, not a precise measurement. Where the data and the analysis are noisy:",
     "bullets": [
      {
       "lead": "Only the Knesset record of former members",
-      "text": "(24th–25th Knesset) is used. New candidates, platforms and statements are not seen. {evaluable} of {lists} lists can be evaluated; {single} {single?list|lists} with a single former member {single?is|are} shown but not ranked; {no_record} {no_record?list has|lists have} no record."
+      "text": "(24th–25th Knesset). New candidates, platforms and statements are not seen. {evaluable} of {lists} lists can be evaluated; {single} {single?list|lists} with a single former member {single?is|are} shown but not ranked; {no_record} {no_record?list has|lists have} no record."
      },
      {
       "lead": "Bloc discipline.",
-      "text": "About 98 % of votes in the Knesset follow the member's bloc. A party's votes on the other camp's laws, and a coalition party's votes on the government's laws, are partly party discipline, not only conviction; that is why a sponsored bill counts {vote_ratio} times more than a vote."
+      "text": "About 98 % of votes in the Knesset follow the member's bloc, so votes are partly discipline, not only conviction — that is why a sponsored bill counts {vote_ratio} times more than a vote."
      },
      {
       "lead": "Topic labels were made by a language model",
-      "text": "and checked by other models. On a blind test against an independent labeling, the topic was right in about 81 % of cases (89 % counting the secondary topic) and the side in about 93 %. The checks that followed removed 1 607 labels, added 632 and changed 52 signs — each change only where two independent checks agreed; a further 26 522 double counts between nested topics were removed. Individual mistakes remain."
+      "text": "and checked by other models. Blind test: the topic right in about 81 % of cases (89 % counting the secondary topic), the side in about 93 %. Later checks removed 1 607 labels, added 632, changed 52 signs and removed 26 522 double counts between nested topics — each change only where two checks agreed. Individual mistakes remain."
      },
      {
       "lead": "Checks so far were done by models, not by people.",
-      "text": "Agreement figures measure consistency between models, not accuracy for real voters; no list's position has yet been confirmed by a person who knows the Knesset."
+      "text": "They measure consistency between models, not accuracy for real voters; no list's position has yet been confirmed by a person who knows the Knesset."
      },
      {
       "lead": "Closeness is approximate.",
-      "text": "Lists with close values cannot be told apart reliably, so values are shown rounded and should be read as «about as close»."
+      "text": "Lists with close values cannot be told apart reliably: read the rounded values as «about as close»."
      },
      {
       "lead": "The price in a statement",
-      "text": "(«even if …») is not measured: the record shows what a list's bills and votes pushed for, not whether it accepts that price."
+      "text": "(«even if …») is not measured: the record shows what was pushed for, not whether the price is accepted."
      },
      {
       "lead": "A vote against a bill can hide the opposite reason.",
-      "text": "A party may oppose a draft law for being too soft, not because it opposes the draft. The method cannot see why."
+      "text": "A party may oppose a draft law for being too soft. The method cannot see why."
      }
     ]
    },
