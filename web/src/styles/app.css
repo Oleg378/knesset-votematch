@@ -41,7 +41,7 @@ button {
 .app {
   max-width: var(--column-max);
   margin: 0 auto;
-  min-height: 100dvh;
+  min-height: max(100dvh, var(--card-hold, 0px)); /* --card-hold: kept through a card change (cardTransition.ts) */
   /* Figma frames: status bar (62) on top, «Home Indicator» (34) at the bottom — these are the safe areas
      (viewport-fit=cover). In a browser its toolbars cover them and the insets are 0, so nothing is added twice.
      Top: safe area + 8 (Figma «Layout & Spacing», customer 2026-10-17) — inside the pinned .header. Bottom: the bottom
@@ -71,7 +71,7 @@ button {
   }
 
   .app {
-    min-height: min(var(--desktop-card-height), calc(100dvh - 2 * var(--desktop-gap)));
+    min-height: max(min(var(--desktop-card-height), calc(100dvh - 2 * var(--desktop-gap))), var(--card-hold, 0px));
     /* The top is where a card of the Figma height sits when centred, on every screen: a long one (results, methodology)
        grows downwards instead of starting higher, so the header never jumps (customer 2026-10-18). */
     margin-top: max(var(--desktop-gap), calc((100dvh - var(--desktop-card-height)) / 2));
@@ -949,9 +949,8 @@ a {
 }
 
 /* Bottom buttons that stick over scrolling content: the content fades out instead of being cut by a hard edge. Only
-   while the page scrolls: when everything fits, a card ending just above the buttons stays crisp (customer 2026-10-19).
-   A scroll-driven animation is active only on a scrollable page; where it is not supported (Safari ≤ 18) the animation
-   simply runs and the fade is always there, white on white over empty space. */
+   while some of the page is under them (`data-below`, bottomFade.ts): when everything fits, or the page is scrolled to
+   its end, a card ending just above the buttons stays crisp (customer 2026-10-19, 2026-10-22). */
 .bottom-bar::before,
 .start .sticky-actions::before,
 .results .sticky-actions::before {
@@ -963,15 +962,13 @@ a {
   background: linear-gradient(to bottom, transparent, var(--color-bg));
   pointer-events: none;
   opacity: 0;
-  animation: cta-fade-on linear both;
-  animation-timeline: scroll(root);
+  transition: opacity 0.15s;
 }
 
-@keyframes cta-fade-on {
-  from,
-  to {
-    opacity: 1;
-  }
+:root[data-below] .bottom-bar::before,
+:root[data-below] .start .sticky-actions::before,
+:root[data-below] .results .sticky-actions::before {
+  opacity: 1;
 }
 
 .round-btn {
@@ -1308,16 +1305,6 @@ a {
   padding-right: calc(var(--gutter) + env(safe-area-inset-right));
 }
 
-/* The page must not scroll during the transition (cardTransition.ts): it keeps at least its old height, and the new
-   page is moved down by the scroll, so it shows as at the top; 0 for the old one. */
-:root[data-card] body {
-  min-height: var(--card-hold, 0px);
-}
-
-:root[data-card] #root {
-  padding-top: var(--card-lift, 0px);
-}
-
 :root[data-card] .header {
   view-transition-name: header;
 }
@@ -1326,10 +1313,8 @@ a {
   view-transition-name: bottom-bar;
 }
 
-/* Taps reach the new screen at once: it is already live under the animation. */
-:root[data-card]::view-transition {
-  pointer-events: none;
-}
+/* Taps during the transition are not taken (the overlay of the transition catches them, as iOS does during a push):
+   a tap on what still looks like the old card must not answer the new one, which is already live underneath. */
 
 :root[data-card]::view-transition-group(*) {
   animation-duration: var(--card-time);
@@ -1351,12 +1336,13 @@ a {
 }
 
 :root[data-card]::view-transition-group(screen) {
-  /* Sideways only: the group stays where the new screen is (at its top), and the old picture is moved to where the old
-     screen was (--card-old-y, cardTransition.ts). Clipped by the edges of .app at the sides, by its own top and by the
-     top of the bottom bar (--card-visible): the bars cover the column only, so nothing passes beside them. */
+  /* Sideways only: the group stays where the new screen is, and the old picture is where the old screen was
+     (--card-old-y, cardTransition.ts; 0 when both are at the same scroll, as they are). Clipped by the edges of .app at
+     the sides, under the header (--card-clip-top: a scrolled screen goes on under it) and at the top of the bottom bar
+     (--card-visible): the bars cover the column only, so nothing passes beside them. */
   animation: none;
   overflow: clip;
-  clip-path: inset(0 0 calc(100% - var(--card-visible, 100%)) 0);
+  clip-path: inset(var(--card-clip-top, 0px) 0 calc(100% - var(--card-visible, 100%)) 0);
 }
 
 :root[data-card]::view-transition-old(screen) {

@@ -1,5 +1,5 @@
 // @vitest-environment jsdom
-import { afterEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { isCardChange, slideCard } from './cardTransition';
 import type { Screen } from './state/reducer';
 
@@ -26,40 +26,107 @@ describe('isCardChange', () => {
 
 describe('slideCard', () => {
   const doc = document as { startViewTransition?: unknown };
+  const root = document.documentElement;
+  let frames: (() => void)[] = [];
+  const nextFrame = () => {
+    const run = frames;
+    frames = [];
+    run.forEach((f) => f());
+  };
+  const setScrollY = (y: number) => Object.defineProperty(window, 'scrollY', { value: y, configurable: true });
+  // A fake transition: runs the update at once; `end(i)` finishes the i-th one.
+  let ends: (() => void)[] = [];
+  const fakeTransitions = (log: string[] = []) => {
+    doc.startViewTransition = vi.fn((update: () => void) => {
+      log.push('transition');
+      update();
+      return { finished: new Promise<void>((resolve) => ends.push(resolve)) };
+    });
+  };
+  const end = async (i: number) => {
+    ends[i]!();
+    await Promise.resolve();
+    await Promise.resolve();
+  };
+
+  beforeEach(() => {
+    document.body.innerHTML = '<main class="app"><section class="screen"></section></main>';
+    frames = [];
+    ends = [];
+    vi.stubGlobal('requestAnimationFrame', (f: () => void) => frames.push(f));
+    setScrollY(0);
+  });
   afterEach(() => {
+    vi.unstubAllGlobals();
+    vi.restoreAllMocks();
     delete doc.startViewTransition;
-    delete document.documentElement.dataset.card;
+    delete root.dataset.card;
+    root.removeAttribute('style');
+    document.body.innerHTML = '';
+    setScrollY(0);
   });
 
   it('no View Transitions: the card changes at once', () => {
     const update = vi.fn();
     slideCard(update, false);
     expect(update).toHaveBeenCalledOnce();
-    expect(document.documentElement.dataset.card).toBeUndefined();
+    expect(root.dataset.card).toBeUndefined();
   });
 
-  it('marks the direction for the transition only; a newer change keeps it; the page scrolls up at the end', async () => {
-    const scroll = vi.spyOn(window, 'scrollTo').mockImplementation(() => {});
-    const ends: (() => void)[] = [];
-    doc.startViewTransition = vi.fn((update: () => void) => {
-      update();
-      return { finished: new Promise<void>((resolve) => ends.push(resolve)) };
-    });
+  it('marks the direction for the transition only; a newer change keeps it', async () => {
+    fakeTransitions();
     const update = vi.fn();
     slideCard(update, true);
     expect(update).toHaveBeenCalledOnce();
-    expect(document.documentElement.dataset.card).toBe('back');
+    expect(root.dataset.card).toBe('back');
     slideCard(update, false);
-    ends[0]!(); // the first one is skipped by the second
-    await Promise.resolve();
-    expect(document.documentElement.dataset.card).toBe('next');
-    expect(scroll).not.toHaveBeenCalled(); // never during a transition
-    ends[1]!();
-    await Promise.resolve();
-    expect(document.documentElement.dataset.card).toBeUndefined();
-    expect(document.documentElement.getAttribute('style') ?? '').toBe('');
-    expect(scroll).toHaveBeenCalledOnce();
-    scroll.mockRestore();
+    await end(0); // the first one is skipped by the second
+    expect(root.dataset.card).toBe('next');
+    await end(1);
+    expect(root.dataset.card).toBeUndefined();
+    nextFrame();
+    expect(root.getAttribute('style') ?? '').toBe('');
+  });
+
+  it('a page at the top: never scrolled', async () => {
+    const scroll = vi.spyOn(window, 'scrollTo').mockImplementation(() => {});
+    fakeTransitions();
+    slideCard(vi.fn(), false);
+    expect(root.style.getPropertyValue('--card-hold')).toBe('');
+    await end(0);
+    nextFrame();
+    expect(scroll).not.toHaveBeenCalled();
+  });
+
+  it('a scrolled page keeps its scroll and height through the transition, then goes to the top', async () => {
+    const log: string[] = [];
+    const scroll = vi.spyOn(window, 'scrollTo').mockImplementation(() => log.push('scroll'));
+    fakeTransitions(log);
+    setScrollY(120);
+    slideCard(vi.fn(), false);
+    expect(root.style.getPropertyValue('--card-hold')).not.toBe(''); // held from before the transition
+    await end(0);
+    expect(log).toEqual(['transition']); // nothing scrolled before, during or right at the end
+    nextFrame(); // a frame later: smoothly to the top
+    expect(scroll).toHaveBeenCalledWith({ top: 0, behavior: 'smooth' });
+    expect(root.style.getPropertyValue('--card-hold')).not.toBe(''); // still held while scrolling
+    setScrollY(0);
+    nextFrame();
+    expect(root.style.getPropertyValue('--card-hold')).toBe(''); // let go at the top: nothing moves
+  });
+
+  it('a change during the smooth scroll stops it first and holds the page again', async () => {
+    const scroll = vi.spyOn(window, 'scrollTo').mockImplementation(() => {});
+    fakeTransitions();
+    setScrollY(120);
+    slideCard(vi.fn(), false);
+    await end(0);
+    nextFrame(); // the smooth scroll starts
+    setScrollY(60);
+    slideCard(vi.fn(), false);
+    expect(scroll).toHaveBeenLastCalledWith(0, 60); // stopped where it is
+    nextFrame(); // the first one's release is over: it does not let go of the new hold
+    expect(root.style.getPropertyValue('--card-hold')).not.toBe('');
   });
 
   it('reduced motion: no transition', () => {
@@ -67,7 +134,6 @@ describe('slideCard', () => {
     vi.stubGlobal('matchMedia', (query: string) => ({ matches: query.includes('reduce') }));
     const update = vi.fn();
     slideCard(update, false);
-    vi.unstubAllGlobals();
     expect(update).toHaveBeenCalledOnce();
     expect(doc.startViewTransition).not.toHaveBeenCalled();
   });

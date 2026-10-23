@@ -230,9 +230,9 @@ starts below ~750 px.
 - **Primary bottom group** (the screen's main action, the screen is built around it): `position: sticky; bottom: 0`,
   white background, 32 px white fade above (`::before`, `--cta-fade`), padding `12` on top and `16 + safe area` below,
   negative bottom margin of the safe area. It only visibly sticks when the content does not fit. The fade shows only
-  while the page scrolls (scroll-driven animation on `scroll(root)`; customer 2026-10-19: a card that fits stays crisp
-  even right above the buttons); Safari ≤ 18 has no scroll timelines — there it is always on, white on white over empty
-  space. Use `BottomBar` or `.sticky-actions` with these rules.
+  while some of the page is under the buttons — it does not fit and is not scrolled to its end (`data-below` on
+  `<html>`, set by `src/bottomFade.ts` in every browser; customer 2026-10-19, 2026-10-22: a card that fits stays crisp
+  even right above the buttons). Use `BottomBar` or `.sticky-actions` with these rules.
 - **Actions at the end of a long scrolling list** (read first, act after): not sticky — they would permanently cover
   part of the list. They sit after the content with the normal screen gap (customer 2026-10-17).
 
@@ -290,16 +290,23 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
   clipped by the edges of `.app`. No dimming of the screen underneath (grey strips beside the column-wide bars). No View
   Transitions (iOS ≤ 17) or reduced motion: instant. Frames: after `startViewTransition(…).ready`, pause
   `document.getAnimations()` and set `currentTime`.
-  The page never scrolls during the transition (Safari draws the pictures off by the scrolled distance and jerks at the
-  end): the new page is moved down by the scroll (`--card-lift` on `#root`), the page keeps its height (`--card-hold`),
-  the scroll goes to the top when it ends; the old picture is put where it was (`--card-old-y`); the screens are
-  clipped at the bottom bar's top (`--card-visible`). Check a scrolled screen in WebKit too (Playwright WebKit: compare
-  positions — its screenshots leave the new pictures of named elements blank).
+  **Never scroll the page programmatically just before, during or right at the end of a transition**: Safari on iPhone
+  applies a scroll a moment after the page changes, so the pictures come out off by the scrolled distance (text over
+  the header, a missing header, a jerk at the end — three customer videos, 2026-10-19). Both screens are captured at
+  the current scroll; `.app` keeps its height (`--card-hold` in its min-height) so a shorter new screen cannot pull
+  the scroll or lift the bottom bar; a frame after the end a scrolled page goes smoothly to the top and the hold is let
+  go there. The screens are
+  clipped under the header (`--card-clip-top`) and at the bottom bar's top (`--card-visible`). Taps during the 0.54 s
+  are not taken (the transition's overlay catches them, as iOS does): a tap on the old card must not answer the new
+  one. Check a change here in Chrome (puppeteer: frames + pixels) and in Playwright WebKit (positions only — its
+  screenshots leave the new pictures of named elements blank): scrolled 0 / 3 px / to the bottom, Back, trade-offs,
+  desktop with a low window.
 - **Statement reserve** (customer 2026-10-19, DECISIONS.md G12): on question screens the statement block keeps the
   height of the longest statement at the current width, among those within 7 lines on the Figma phone (`REF_LINES`,
   `REF_VIEWPORT` in `src/statementReserve.ts`; measured in the browser over all statements of the data), so the answers
-  stay in one place. It takes only free space above the bottom bar — never adds scrolling or hides the card's bottom;
-  the statement itself is always shown whole (no inner scroll: its end, «even if …», must be read).
+  stay in one place on every screen (customer 2026-10-22): where the card does not fit the window, it goes on under the
+  bottom buttons with the fade; where it fits, its bottom is crisp. Never limit it to the free space (on short screens
+  the answers jumped). The statement itself is always shown whole (no inner scroll: its end, «even if …», must be read).
 - **Home on narrow phones:** the hero picture is 150 px (Figma) from ~390 px wide; narrower, it shrinks
   (`width: min(150px, 100% − 184px − 4px)`) so «Find your / vote match» always stays on two lines. Never three lines.
 - **Fonts:** Fraunces only from `src/assets/fonts/fraunces-opsz.woff2` (regenerate with `node scripts/subset-fraunces.mjs`);

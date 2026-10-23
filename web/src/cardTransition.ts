@@ -9,9 +9,9 @@ export function isCardChange(from: Screen, to: Screen): boolean {
 }
 
 let current: ViewTransition | null = null;
-const CARD_VARS = ['--card-hold', '--card-lift', '--card-old-y', '--card-visible'];
+const CARD_VARS = ['--card-old-y', '--card-clip-top', '--card-visible'];
 
-const screenTop = () => document.querySelector('.screen')?.getBoundingClientRect().top ?? 0;
+const box = (selector: string) => document.querySelector(selector)?.getBoundingClientRect();
 
 /**
  * Card change (customer 2026-10-19): an iOS navigation push with the browser's View Transitions (app.css «Card
@@ -19,11 +19,12 @@ const screenTop = () => document.querySelector('.screen')?.getBoundingClientRect
  * exists only during the transition: the styles name the screen, the header and the bottom bar only then. No View
  * Transitions (iOS ≤ 17, jsdom) or reduced motion: the card changes at once.
  *
- * The screens move only sideways: the old one leaves from where it was, the new one opens at its top. The page is
- * never scrolled during the transition — Safari then draws everything off by the scrolled distance and jumps back at
- * the end. Instead the new page is shown as at the top by moving it down by the page's scroll (--card-lift), the page
- * keeps at least its old height (--card-hold: a shorter new screen would make the browser pull the scroll up), and at
- * the end both go and the page scrolls to the top in one step, which changes nothing on screen.
+ * The page is never scrolled around the transition: Safari on iPhone applies a scroll a moment later than the change
+ * of the page, so a scroll made just before, during or right at the end of a transition draws the screens off by the
+ * scrolled distance (text over the header, a missing header, a jerk at the end — customer's videos, 2026-10-19). Both
+ * screens are captured at the page's current scroll, which the transition keeps: the app keeps its height (--card-hold,
+ * the min-height of .app), so a shorter new screen can neither make the browser pull the scroll up nor lift the bottom
+ * bar. Once it has ended, a scrolled page goes smoothly to the top of the new screen (toTop).
  */
 export function slideCard(update: () => void, back: boolean): void {
   const reduced = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
@@ -32,27 +33,63 @@ export function slideCard(update: () => void, back: boolean): void {
     return;
   }
   const root = document.documentElement;
-  const oldTop = screenTop();
-  root.style.setProperty('--card-hold', `${root.scrollHeight}px`);
+  const run = ++generation;
+  if (smoothing) window.scrollTo(0, window.scrollY); // stops the smooth scroll to the top from the last change
+  smoothing = false;
+  const app = box('.app');
+  if (window.scrollY > 0 && app) root.style.setProperty('--card-hold', `${app.height}px`);
+  else root.style.removeProperty('--card-hold');
+  const oldTop = box('.screen')?.top ?? 0;
   root.dataset.card = back ? 'back' : 'next';
   const t = document.startViewTransition(() => {
     update();
-    root.style.setProperty('--card-lift', `${window.scrollY}px`);
-    const top = screenTop();
+    const screen = box('.screen');
+    if (!screen) return;
     // The old picture is placed with the new screen's box: moved back to where the old screen was.
-    root.style.setProperty('--card-old-y', `${oldTop - top}px`);
+    root.style.setProperty('--card-old-y', `${oldTop - screen.top}px`);
+    // A scrolled screen goes on under the header: clipped there, or it would show beside the column-wide header.
+    root.style.setProperty('--card-clip-top', `${Math.max(0, (box('.header')?.bottom ?? 0) - screen.top)}px`);
     // The bottom bar covers the column only: the sliding screens end at its top, so nothing passes beside it.
-    const bar = document.querySelector('.bottom-bar');
-    if (bar) root.style.setProperty('--card-visible', `${bar.getBoundingClientRect().top - top}px`);
+    root.style.setProperty('--card-visible', `${(box('.bottom-bar')?.top ?? screen.bottom) - screen.top}px`);
   });
   current = t;
-  // A newer change skips this one: the attribute and the lift stay for the newer one.
+  // A newer change skips this one: the attribute stays for the newer one.
   const done = () => {
     if (current !== t) return;
     current = null;
     delete root.dataset.card;
     CARD_VARS.forEach((v) => root.style.removeProperty(v));
-    window.scrollTo(0, 0);
+    toTop(run);
   };
   t.finished.then(done, done);
+}
+
+let generation = 0;
+let smoothing = false;
+
+/**
+ * After the transition, a scrolled page goes smoothly to the top: the new statement is read from its start. A frame
+ * later, so the browser has finished the transition. The page keeps its held height until it is at the top (or for
+ * a second at most, if a finger stops the scroll), so letting it go moves nothing.
+ */
+function toTop(run: number): void {
+  const root = document.documentElement;
+  requestAnimationFrame(() => {
+    if (run !== generation) return;
+    if (window.scrollY > 0) {
+      smoothing = true;
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    const start = performance.now();
+    const release = () => {
+      if (run !== generation) return;
+      if (window.scrollY > 0 && performance.now() - start < 1000) {
+        requestAnimationFrame(release);
+        return;
+      }
+      smoothing = false;
+      root.style.removeProperty('--card-hold');
+    };
+    release();
+  });
 }

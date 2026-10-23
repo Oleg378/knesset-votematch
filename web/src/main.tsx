@@ -10,11 +10,13 @@ import './styles/fonts.css';
 import './styles/tokens.css';
 import './styles/app.css';
 import App from './App';
+import { watchBottomFade } from './bottomFade';
 import { createLoader } from './data';
 
 // The data files are fetched from page load, in order (core, data, bills); the start page does not wait for them.
 const loader = createLoader();
 loader.start();
+watchBottomFade();
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

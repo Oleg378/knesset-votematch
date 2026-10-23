@@ -5,8 +5,8 @@ import { useLayoutEffect, type RefObject } from 'react';
  * jumping with the length of the statement. The statement block is as high as the longest statement at the current
  * width — among the statements that fit in REF_LINES lines on the Figma phone (REF_VIEWPORT px wide). A longer one is
  * an outlier: nothing is reserved for it (short ones would get a large hole), and it pushes the answers down.
- * The reserve takes only free space above the bottom bar: it never makes a screen scroll or hides the card's bottom
- * under the bar (customer 2026-10-19). On a short window it is smaller, and the longest statements push the answers.
+ * The card is the same height on every question on every screen (customer 2026-10-22): where it does not fit the window,
+ * it goes on under the bottom buttons, with the fade over it (bottomFade.ts); where it fits, its bottom stays crisp.
  */
 export const REF_LINES = 7;
 export const REF_VIEWPORT = 402;
@@ -61,24 +61,6 @@ function reserveFor(el: HTMLElement, texts: string[]): number {
   return reserve;
 }
 
-/**
- * How high the statement block can be without the screen overflowing the window: its natural height, plus the free
- * space above the bottom bar, minus what already overflows. The same on every question (the rest of the card is), so
- * the answers stay in one place as long as a statement fits in it.
- */
-function room(el: HTMLElement): number {
-  const panel = el.closest('.panel');
-  const screen = el.closest('.screen');
-  const app = el.closest('.app');
-  const bar = screen?.querySelector('.bottom-bar');
-  if (!panel || !screen || !app || !bar) return Infinity;
-  const over = app.getBoundingClientRect().height - parseFloat(getComputedStyle(app).minHeight);
-  const gap = parseFloat(getComputedStyle(screen).rowGap) || 0;
-  const above = bar.getBoundingClientRect().top - panel.getBoundingClientRect().bottom - gap;
-  const free = over > 0.5 ? 0 : Math.max(0, above);
-  return el.getBoundingClientRect().height + free - Math.max(0, over);
-}
-
 /** Sets the statement block's min-height before paint; again on resize and when the font arrives. */
 export function useStatementReserve(ref: RefObject<HTMLElement | null>, texts: string[]): void {
   useLayoutEffect(() => {
@@ -87,8 +69,7 @@ export function useStatementReserve(ref: RefObject<HTMLElement | null>, texts: s
     let alive = true;
     const apply = () => {
       if (!alive) return;
-      el.style.minHeight = '';
-      const reserve = Math.min(reserveFor(el, texts), room(el));
+      const reserve = reserveFor(el, texts);
       el.style.minHeight = reserve > 0 ? `${reserve}px` : '';
     };
     apply();
