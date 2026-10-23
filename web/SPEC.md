@@ -1,7 +1,7 @@
 # web/ — product spec
 
-_The screens still read `quiz_data.v1.json` (every statement in file order); the engine, the state machine and the loader are on the
-current contract and pass `golden.v2.json` — wiring the screens is the next step, on the machine with the visual work._
+_The screens still read the old single bundled file (every statement in file order); the engine, the state machine and the loader are on the
+current contract and pass `golden.json` — wiring the screens is the next step, on the machine with the visual work._
 
 Static SPA. Input: the three data files of `export/` (`quiz_core`, `quiz_data`, `quiz_bills`; contract and loading order —
 `export/WEB_CONTRACT.md`; page texts — `export/METHODOLOGY_PAGE.md`). Reference behaviour: `pipeline/quiz_cli.py` (run it to
@@ -102,15 +102,15 @@ exact equality with the golden cases:
 - Strings in explanations come from `strings.ts` and must reproduce the golden `lines` exactly.
 
 ## Tests (Vitest) — migration Python → TypeScript
-- `export/golden.v2.json`, 34 cases (full synthetic answer set, full + trade-offs, adaptive step, 20 random, edge cases: no answers, all dk,
+- `export/golden.json`, 34 cases (full synthetic answer set, full + trade-offs, adaptive step, 20 random, edge cases: no answers, all dk,
   all neutral, one answer, rare topics, six «flow N» users). For every case assert: ranking ids in order, closeness and coverage within
   `tolerance`, notes, ranked flags; trade-off pairs; for each `details[]` list: item order, contribution, p, `lines` (exact
   strings), evidence order (`bill`, `same`, `role`, `sign`, authors) — `src/engine/golden.test.ts`; the «flow N» question
   order — `src/engine/flow.test.ts`.
-- Schema test: the three data files merged validate against `quiz_data.v2.schema.json` (ajv) and come from one build.
+- Schema test: the three data files merged validate against `quiz_data.schema.json` (ajv) and come from one build.
 - Reducer tests for the state machine (transitions, back/skip, start over).
 - Python stays the reference: if a golden case fails, the TS code is wrong unless the customer changed the formula (then a
-  new export and, for structural changes, v2).
+  new export and, for structural changes, a new schema and contract).
 
 ## State
 `useReducer` state machine, no state library: `start | question(i) | tradeoff | results | details(list) | bills(list, q) |

@@ -1,7 +1,7 @@
 /** The data files and golden cases for tests, typed; and a quiz state with both fetched files already loaded. */
-import goldenRaw from '@export/golden.v2.json';
-import billsRaw from '@export/quiz_bills.v2.json';
-import dataRaw from '@export/quiz_data.v2.json';
+import goldenRaw from '@export/golden.json';
+import billsRaw from '@export/quiz_bills.json';
+import dataRaw from '@export/quiz_data.json';
 import { core } from '../data';
 import type { Answers, BillsFile, DataFile, Mult, Role, Sign, TradePair } from '../engine/types';
 import { initialState, type State } from '../state/reducer';
@@ -29,7 +29,7 @@ export interface GoldenCase {
   flow?: { core: string[]; clarifying: string[] };
 }
 
-export const golden = goldenRaw as { version: number; tolerance: number; cases: GoldenCase[] };
+export const golden = goldenRaw as { tolerance: number; cases: GoldenCase[] };
 
 /** The initial state once quiz_data and quiz_bills have arrived. */
 export const loaded: State = { ...initialState, data, bills };

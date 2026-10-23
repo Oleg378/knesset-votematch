@@ -1,6 +1,6 @@
 /**
  * Port of pipeline/quiz_report.py: contributions, evidence, explain. Strings come from src/strings.ts and must reproduce
- * the golden `lines` exactly. Evidence needs quiz_bills.v2.json (BillsFile); contributions need only quiz_data.
+ * the golden `lines` exactly. Evidence needs quiz_bills.json (BillsFile); contributions need only quiz_data.
  */
 import { ANS, explainText as T, plural } from '../strings';
 import { isClear } from './flow';

@@ -1,5 +1,5 @@
 /**
- * Migration tests Python -> TypeScript: every case of export/golden.v2.json (computed by pipeline/quiz_match.py and
+ * Migration tests Python -> TypeScript: every case of export/golden.json (computed by pipeline/quiz_match.py and
  * pipeline/quiz_report.py) must be reproduced: ranking, trade-off pairs, list details. Python is the reference.
  * The question order of the «flow N» cases is checked in flow.test.ts.
  */
@@ -18,10 +18,8 @@ function close(actual: number | null, expected: number | null, what: string) {
   expect(Math.abs((actual as number) - expected), `${what}: ${actual} vs ${expected}`).toBeLessThanOrEqual(tol);
 }
 
-describe('golden.v2.json', () => {
+describe('golden.json', () => {
   it('has the expected version and cases', () => {
-    expect(golden.version).toBe(2);
-    expect(data.version).toBe(2);
     expect(golden.cases.length).toBeGreaterThanOrEqual(34);
   });
 

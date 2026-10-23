@@ -1,4 +1,4 @@
-/** Types of the v2 data contract: export/quiz_core.v2.json, quiz_data.v2.json, quiz_bills.v2.json (export/quiz_data.v2.schema.json). */
+/** Types of the data contract: export/quiz_core.json, quiz_data.json, quiz_bills.json (export/quiz_data.schema.json). */
 
 export type Sign = 1 | -1;
 export type Role = 'main' | 'secondary';
@@ -102,19 +102,18 @@ export type BillRef = [bill: string, sign: Sign, role: Role];
 export type VoteRow = [bill: string, sign: Sign, camp: 'own' | 'other', votesFor: number, votesAgainst: number];
 
 export interface FileHead {
-  version: 2;
   generated: string;
   source_commit: string;
 }
 
-/** quiz_core.v2.json: enough to start answering (bundled with the app). */
+/** quiz_core.json: enough to start answering (bundled with the app). */
 export interface CoreFile extends FileHead {
   flow: FlowParams;
   core: string[];
   statements: Statement[];
 }
 
-/** quiz_data.v2.json: everything for matching, the order of questions and the trade-offs. */
+/** quiz_data.json: everything for matching, the order of questions and the trade-offs. */
 export interface DataFile extends FileHead {
   params: Params;
   flow: FlowParams;
@@ -124,7 +123,7 @@ export interface DataFile extends FileHead {
   lists: QuizList[];
 }
 
-/** quiz_bills.v2.json: what only the list details, the bills of one statement and the methodology need. */
+/** quiz_bills.json: what only the list details, the bills of one statement and the methodology need. */
 export interface BillsFile extends FileHead {
   mks: Record<string, Mk>;
   by_direction: Record<string, BillRef[]>;

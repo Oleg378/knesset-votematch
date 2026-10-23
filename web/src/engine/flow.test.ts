@@ -1,5 +1,5 @@
 /**
- * Migration tests Python -> TypeScript for the order of questions: the six «flow N» cases of export/golden.v2.json
+ * Migration tests Python -> TypeScript for the order of questions: the six «flow N» cases of export/golden.json
  * (computed by pipeline/quiz_flow.py) must be reproduced question by question, and the ranked lists of every case must
  * match (ids and closeness to the golden tolerance). Python is the reference.
  */
@@ -8,7 +8,7 @@ import { core, data, golden } from '../test/files';
 import { nextClarify, rankedLists, shouldStop } from './flow';
 import type { Answers } from './types';
 
-describe('golden.v2.json: order of questions (pipeline/quiz_flow.py)', () => {
+describe('golden.json: order of questions (pipeline/quiz_flow.py)', () => {
   it('has six flow cases; the bundled core agrees with quiz_data', () => {
     expect(golden.cases.filter((c) => c.flow).length).toBe(6);
     expect(data.core).toEqual(core.core);

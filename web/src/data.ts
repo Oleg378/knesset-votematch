@@ -1,14 +1,14 @@
 /**
  * The data contract (export/WEB_CONTRACT.md §1): three files loaded in order.
- *   quiz_core.v2.json  — ~2 KB, bundled with the app: the start page and the core questions never wait for a request;
- *   quiz_data.v2.json  — fetched as soon as the app is up (hashed asset URL, cached forever);
- *   quiz_bills.v2.json — fetched as soon as quiz_data has arrived.
- * All three carry the same version / generated / source_commit; a mismatch (a deploy mid-session) is retried once
+ *   quiz_core.json  — ~2 KB, bundled with the app: the start page and the core questions never wait for a request;
+ *   quiz_data.json  — fetched as soon as the app is up (hashed asset URL, cached forever);
+ *   quiz_bills.json — fetched as soon as quiz_data has arrived.
+ * All three carry the same generated / source_commit; a mismatch (a deploy mid-session) is retried once
  * bypassing the cache, then reported.
  */
-import coreRaw from '@export/quiz_core.v2.json';
-import dataUrl from '@export/quiz_data.v2.json?url';
-import billsUrl from '@export/quiz_bills.v2.json?url';
+import coreRaw from '@export/quiz_core.json';
+import dataUrl from '@export/quiz_data.json?url';
+import billsUrl from '@export/quiz_bills.json?url';
 import type { BillsFile, CoreFile, DataFile, FileHead } from './engine/types';
 
 export const core = coreRaw as CoreFile;
@@ -22,7 +22,7 @@ export type FileName = keyof LoadedFiles;
 export type LoadedFile = { name: 'data'; file: DataFile } | { name: 'bills'; file: BillsFile };
 
 export function sameBuild(a: FileHead, b: FileHead): boolean {
-  return a.version === b.version && a.generated === b.generated && a.source_commit === b.source_commit;
+  return a.generated === b.generated && a.source_commit === b.source_commit;
 }
 
 async function fetchJson<T>(url: string, reload: boolean): Promise<T> {

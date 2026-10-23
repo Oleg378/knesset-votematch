@@ -1,7 +1,7 @@
 /**
  * Port of pipeline/quiz_flow.py (next_clarify, should_stop) — the order of questions:
  * core (read from the export) -> clarifying, one at a time -> trade-offs (match.ts, unchanged).
- * Python is the reference: the six «flow N» cases of export/golden.v2.json must be reproduced (src/engine/flow.test.ts).
+ * Python is the reference: the six «flow N» cases of export/golden.json must be reproduced (src/engine/flow.test.ts).
  * Keep the arithmetic in the same order as the Python.
  */
 import { listVec, match } from './match';
