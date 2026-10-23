@@ -248,8 +248,8 @@
       "text": "Chosen one at a time to tell apart the lists closest to you so far."
      },
      {
-      "lead": "Interest rating.",
-      "text": "A language model rated how much a typical voter cares about each topic; it affects only which questions you see."
+      "lead": "Which topics are asked.",
+      "text": "Topics most voters care about come first; this changes only which questions you see, not how your answers count."
      }
     ]
    },
