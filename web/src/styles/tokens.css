@@ -105,7 +105,7 @@
      Between the points everything changes smoothly: margins, then the space above the buttons. */
   --desktop-gap: clamp(16px, calc((100dvh - var(--desktop-card-height)) / 2), 32px); /* card margin: 32 → 16 */
   --radius-desktop: 32px; /* card corners */
-  --radius-scale: var(--radius-desktop); /* not in Figma: Results panel of the closest lists (customer 2026-10-23) */
+  --radius-scale: var(--radius-lg); /* Results panel of the closest lists: as the question card's panel (customer 2026-10-23; it was 32) */
   --shadow-desktop: 0 12px 48px rgba(0, 56, 184, 0.12);
   --desktop-card-height: 812px; /* Figma screen without the status bar (874 − 62): the card keeps the phone proportions */
   --cta-min-gap: 64px; /* Home: at least this much between the steps and the buttons (max 158 = Figma) */

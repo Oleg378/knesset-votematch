@@ -670,8 +670,8 @@ button.card:active {
 
 /* Every list on its own band, 8 apart (customer 2026-10-23, from mockups «light translucent band» and «arrow in a
    circle», option B): light translucent white in the panel, light grey below it. The bands stand 8 from the panel's edge
-   on every side, so their corners are concentric with the panel's: 24 = 32 − 8 (customer 2026-10-23: «скругления не
-   совпадают», the sides were 6; then «большее скругление»: the panel 32, it was 24); the text stays on the 14 px inset
+   on every side, so their corners are concentric with the panel's: 16 = 24 − 8 (customer 2026-10-23: «скругления не
+   совпадают», the sides were 6; the panel was 32 for a while, now 24 as the question card's panel); the text stays on the 14 px inset
    (8 + 6). The whole band is the button. Compact, so the five and «See all» fit
    above the pinned buttons on a 402 × 874 phone (customer 2026-10-23): padding 8 above and 12 below, 8 between the
    rank, the name and the closeness, the panel's own padding 8 (below «See all» 4, see .scale-top). */
