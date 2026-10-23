@@ -203,8 +203,10 @@ button {
   color: var(--color-accent);
 }
 
+/* Label/Strong 15/20 (Figma: card titles A/B/=): titles of the cards in List details and of Methodology blocks. */
 .title-sm {
-  font-size: var(--font-size-md);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-label);
   font-weight: var(--font-weight-bold);
 }
 
@@ -212,13 +214,26 @@ button {
   color: var(--color-text-muted);
 }
 
-.small {
-  font-size: var(--font-size-sm);
-  line-height: var(--line-height-label);
+/* Bold inside running text: SemiBold, the heaviest weight the font is loaded with (the browser would fake a 700). No
+   italics anywhere: Figma has none and no italic face is loaded (the browser would slant the letters itself); the
+   run-in labels of Methodology lists are SemiBold like its run-in titles, statements in quotes stay upright. */
+strong,
+b,
+em {
+  font-style: normal;
+  font-weight: var(--font-weight-bold);
 }
 
+/* Body/Default 15/21 (Figma): 15 px regular text; 15/20 is only for Label styles (500/600). */
+.small {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-body-sm);
+}
+
+/* Caption 13/18 */
 .xsmall {
   font-size: var(--font-size-xs);
+  line-height: var(--line-height-caption);
 }
 
 .statement-title {
@@ -262,9 +277,12 @@ button {
   background: var(--color-accent-disabled);
 }
 
+/* The same text style as the primary button: Figma «Action» (customer 2026-10-23: Results «Change answers» as Home's
+   «Start the quiz») */
 .btn-secondary {
   background: var(--color-accent-soft);
   color: var(--color-accent);
+  letter-spacing: var(--letter-spacing-action);
 }
 
 .btn-link {
@@ -373,6 +391,12 @@ button {
   flex: none;
 }
 
+/* Start over on Results: the menu item's icon, no text, at the right end where the counter is on other screens; the
+   24 px icon lines up with the text column like the burger, its 44 px tap area hangs out to the right. */
+.header-restart {
+  margin-inline: auto calc((24px - var(--tap-min)) / 2);
+}
+
 .counter {
   margin-inline-start: auto;
   min-width: var(--counter-width);
@@ -436,8 +460,151 @@ button.card:active {
   background: var(--color-surface-pressed);
 }
 
-/* ListRow */
-.list-rows {
+/* Results scale (customer 2026-10-22): every list is a dot on one −100%…+100% line; the closest ones stand out in a
+   panel like the question card (padding 20/14, radius 24; no title), rows like cards A/B of the clarifying question
+   (circle 28 + gap 12 + text; the circle white on the tint, as the Home step numbers), each on its own band, 8 apart.
+   The rows outside the panel keep its 14 px inset, so every line has the same width and the dots of all lists read as one
+   scale. Above it: under «Based on…» the hint «Tap › for details», then a line 12 below the text (it belongs to it;
+   customer 2026-10-23) and 20 above the legend, then the legend 8 above the panel (it belongs to the scale). Text styles: names Label/Strong (panel) and Label/Medium, closeness Label/Strong, legend Label/Strong. */
+/* The whole screen 8 higher: the title 8 under the header instead of 16 (customer 2026-10-23: «подбей всё немного к верху») */
+.results {
+  margin-top: calc(-1 * var(--space-2));
+}
+
+/* «Tap › for details» under «Based on…»: the same round arrow as on the rows, between the words (customer 2026-10-23,
+   the usual microcopy: verb first, what you get, one line, no period) */
+.hint {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.hint .list-row-go {
+  --row-go: calc(var(--font-size-sm) * var(--line-height-label)); /* as tall as the text line, 20 */
+  margin: 0;
+  /* On white the translucent tint came out lighter than the rows' buttons: the same layers as under them — the button's
+     tint over a band over the panel (customer 2026-10-23: «цвет совпадает?») */
+  background: linear-gradient(var(--color-accent-soft), var(--color-accent-soft)),
+    linear-gradient(var(--color-row-band), var(--color-row-band)),
+    linear-gradient(var(--color-accent-soft), var(--color-accent-soft)), var(--color-bg);
+}
+
+.rule {
+  height: var(--border-width);
+  margin-top: calc(var(--space-3) - var(--space-4)); /* 12 under the text: the screen gap 16 − 4 */
+  margin-bottom: var(--space-1); /* 20 above the legend: the screen gap 16 + 4 (customer 2026-10-23; it was 32, then 16) */
+  background: var(--color-border);
+}
+
+
+/* The legend on the rows' content (customer 2026-10-23, «как тут» on her screenshot): «far from you» starts over the rank
+   circles, «close to you» ends over the arrow buttons — the panel's 14 px inset */
+.scale-legend {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding-inline: calc(var(--panel-pad-x) + (var(--badge-size) - var(--rank-badge)) / 2) var(--panel-pad-x);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-label);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-muted);
+  white-space: nowrap;
+  margin-bottom: calc(-1 * var(--space-2));
+}
+
+/* «close to you» in the colour of the closest lists' panel (customer 2026-10-22: legend stands out, Label/Strong) */
+.scale-legend > :last-child {
+  color: var(--color-accent);
+}
+
+/* «See all» at the bottom of the panel, the link as «Not sure — skip» of the question screen, no line above it (customer
+   2026-10-22); 16 from the last row as between rows. A chevron (not in Figma) after the text: down, up when open. */
+.see-all {
+  display: flex;
+  flex-direction: column;
+  margin-top: var(--space-4);
+}
+
+.see-all .btn-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-1);
+}
+
+.see-all .btn-link::after {
+  --chevron-down: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  content: '';
+  width: var(--chevron);
+  height: var(--chevron);
+  background: currentColor;
+  -webkit-mask: var(--chevron-down) center / contain no-repeat;
+  mask: var(--chevron-down) center / contain no-repeat;
+}
+
+.see-all .btn-link[aria-expanded='true']::after {
+  transform: rotate(180deg);
+}
+
+/* The rest drops down from the panel and stays inside it (customer 2026-10-23: «плашку на всё, даже при раскрытии»; it
+   was a tint fading out over the first lists): the panel loses its bottom corners and the block under it continues it —
+   the same tint, its bottom rounded as the panel's, every list on the same light band as the five, 8 apart (4 + 4),
+   «Show less» 4 under the last band and 4 above the bottom, as «See all» in the closed panel. While it closes, its
+   bottom is the lid (.scale-lid), so its own corners are square. With no panel (nothing ranked) the block is not drawn
+   and its lists sit on the screen as before. */
+.scale-drop {
+  display: contents;
+}
+
+.scale-top.open {
+  border-end-start-radius: 0;
+  border-end-end-radius: 0;
+}
+
+.scale-top.open + .scale-drop {
+  display: flex;
+  flex-direction: column;
+  margin-top: calc(-1 * var(--space-4));
+  padding: var(--space-1) var(--panel-pad-x);
+  background: var(--color-accent-soft);
+  border-end-start-radius: var(--radius-scale);
+  border-end-end-radius: var(--radius-scale);
+}
+
+.scale-top.open + .scale-drop[inert] {
+  border-end-start-radius: 0;
+  border-end-end-radius: 0;
+}
+
+.scale-top.open + .scale-drop .list-row {
+  background: var(--color-row-band);
+}
+
+.scale-top.open + .scale-drop > .see-all {
+  margin-top: var(--space-1);
+}
+
+.scale-top.open + .scale-drop .scale-rest {
+  padding-inline: 0;
+}
+
+.scale-top.open + .scale-drop > * + * {
+  margin-top: var(--space-4);
+}
+
+/* «Not ranked: not enough data» spaced as «or» on the question screen, by eye — from the white shapes to the letters,
+   measured on the pixels: «or» is 14 under the last answer and 22 over the letters of «Not sure — skip»; this label has
+   capitals and a «g», so its box is moved 4 down and the next band 20 under it: 15 and 22 (customer 2026-10-23:
+   «не до фреймов, а чтобы визуально такое же»; it was 24 / 4, then 24 / 24, 8 / 8, 8 / 12, 8 / 16). */
+.scale-top.open + .scale-drop > .or-divider {
+  margin-top: var(--space-1);
+}
+
+.scale-top.open + .scale-drop > .or-divider + .scale-low {
+  margin-top: calc(var(--space-4) + var(--space-1));
+}
+
+.scale-rows {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -446,99 +613,187 @@ button.card:active {
   gap: var(--space-2);
 }
 
+/* Every list on its own band, 8 apart (customer 2026-10-23, from mockups «light translucent band» and «arrow in a
+   circle», option B): light translucent white in the panel, light grey below it. The bands stand 8 from the panel's edge
+   on every side, so their corners are concentric with the panel's: 24 = 32 − 8 (customer 2026-10-23: «скругления не
+   совпадают», the sides were 6; then «большее скругление»: the panel 32, it was 24); the text stays on the 14 px inset
+   (8 + 6). The whole band is the button. Compact, so the five and «See all» fit
+   above the pinned buttons on a 402 × 874 phone (customer 2026-10-23): padding 8 above and 12 below, 8 between the
+   rank, the name and the closeness, the panel's own padding 8 (below «See all» 4, see .scale-top). */
+.scale-top .scale-rows,
+.scale-top.open + .scale-drop .scale-rows {
+  margin-inline: calc(var(--space-2) - var(--panel-pad-x));
+}
+
+/* Every band at least as tall as one with a two-line name (8 + 2 × 20 + 8 + 6 + 12 = 74), its content in the middle:
+   on a one-line band the corners took nearly its whole height and pressed on the arrow button (customer 2026-10-23,
+   option C; the corners stay 32 / 24) */
+.scale-rows .list-row {
+  min-height: calc(var(--space-2) * 2 + var(--font-size-sm) * var(--line-height-label) * 2 + var(--bar-height) + var(--space-3));
+  align-content: center;
+  padding: var(--space-2) calc(var(--panel-pad-x) - var(--space-2)) var(--space-3);
+  column-gap: var(--space-2);
+  border-radius: calc(var(--radius-scale) - var(--space-2));
+  background: var(--color-surface-subtle);
+}
+
+/* The line runs from the name to the end of the percent, not under the rank or the arrow button — the same length in
+   every row, so the dots stay on one scale (customer 2026-10-23: «белую полосу покороче», option B) */
+.scale-rows .scale-line {
+  grid-column: 2 / -1;
+  margin-inline-end: calc(var(--row-go) + var(--space-1));
+}
+
+.scale-top .list-row {
+  background: var(--color-row-band);
+}
+
+/* «See all» (44 high, the tap size) 4 under the last band and 4 above the panel's bottom: its text 16 from each
+   (customer 2026-10-23: «чуть меньше отступ в see all»; it was 8 and 8) */
+.scale-top {
+  padding-block: var(--space-2) var(--space-1);
+  border-radius: var(--radius-scale);
+}
+
+.scale-top .see-all {
+  margin-top: var(--space-1);
+}
+
+.scale-rest {
+  padding-inline: var(--panel-pad-x);
+}
+
 .list-row {
   width: 100%;
   display: grid;
   grid-template-columns: var(--badge-size) 1fr auto;
   gap: var(--space-2) var(--space-3);
   align-items: center;
-  padding: var(--space-3) var(--space-4);
-  background: var(--color-surface-subtle);
+  padding: 0;
+  background: none;
   border: 0;
-  border-radius: var(--radius-pill);
   text-align: start;
   font-size: var(--font-size-sm);
   line-height: var(--line-height-label);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text);
 }
 
 button.list-row {
   cursor: pointer;
 }
 
-button.list-row:active {
-  background: var(--color-surface-pressed);
-}
-
-.list-row-rank {
-  font-weight: var(--font-weight-bold);
-  color: var(--color-accent);
-  text-align: center;
-}
-
-.list-row-name {
-  font-weight: var(--font-weight-bold);
-  color: var(--color-text);
-}
-
-.list-row-value {
-  font-variant-numeric: tabular-nums;
-  font-weight: var(--font-weight-bold);
-}
-
-.list-row-extra {
-  grid-column: 2 / 4;
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-1);
-}
-
-.closeness-bar {
-  position: relative;
-  height: var(--bar-height);
-  border-radius: var(--radius-full);
+/* A row that opens List details ends with a round arrow button right after the percent (not in Figma; customer
+   2026-10-23: «чтобы было понятно, что строчка с партией кликабельная — добавь навигацию», then «кнопки со стрелками
+   одинаковые даже для тех, что не вошли в топ 5»): tint circle, blue arrow — the «See all» chevron turned right, its box
+   cropped to the stroke (8 × 14 of 24). The same on every row; a row that does not open keeps the room, so the values
+   stay in one column. */
+.list-row-go {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--row-go);
+  height: var(--row-go);
+  margin-inline-start: var(--space-1);
+  border-radius: 50%;
   background: var(--color-accent-soft);
 }
 
-.closeness-bar::after {
+.list-row-go::after {
+  --chevron-right: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='8 5 8 14' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 6l6 6-6 6'/%3E%3C/svg%3E");
   content: '';
-  position: absolute;
-  left: 50%;
-  top: calc(-1 * var(--space-1) / 2);
-  bottom: calc(-1 * var(--space-1) / 2);
-  width: var(--border-width);
-  background: var(--color-text-muted);
+  /* the «See all» chevron at 18 is 6 × 10.5 in a 20 button; the same share of the button at any size */
+  width: calc(var(--row-go) * 6 / 22.4);
+  height: calc(var(--row-go) * 10.5 / 22.4);
+  background: var(--color-accent);
+  -webkit-mask: var(--chevron-right) center / contain no-repeat;
+  mask: var(--chevron-right) center / contain no-repeat;
 }
 
-.closeness-fill {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  border-radius: var(--radius-full);
+div.list-row .list-row-value {
+  padding-inline-end: calc(var(--space-1) + var(--row-go));
 }
 
-.closeness-fill.pos {
-  background: var(--color-positive);
-}
-
-.closeness-fill.neg {
-  background: var(--color-negative);
-}
-
-.divider {
-  display: flex;
-  align-items: center;
-  gap: var(--space-3);
+/* Rank numbers 15 ExtraBold, the closest ones in a circle as big as the arrow button (24), in the middle of the 28
+   column (customer 2026-10-23: «цифры меньше, кнопки больше» → «оба 24» → «сделать жирным номера», option 3; they were
+   15 SemiBold in 28, then 13) */
+.list-row-rank {
+  text-align: center;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-extrabold);
   color: var(--color-text-muted);
-  font-size: var(--font-size-xs);
-  margin-top: var(--space-2);
 }
 
-.divider::before,
-.divider::after {
-  content: '';
-  flex: 1;
-  height: var(--border-width);
-  background: var(--color-border);
+.list-row-value {
+  display: inline-flex;
+  align-items: center;
+  font-variant-numeric: tabular-nums;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-muted);
+}
+
+/* The digit's box cut to its cap height, so the circle centres the digit itself, not its line box (customer 2026-10-23:
+   «цифры не посередине кружка»; Safari drew them ~1 px low). Older browsers ignore it and keep the line box. */
+.list-row-rank > span {
+  text-box: trim-both cap alphabetic;
+}
+
+.scale-top .list-row-rank {
+  justify-self: center;
+  width: var(--rank-badge);
+  height: var(--rank-badge);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+  color: var(--color-accent);
+}
+
+.scale-top .list-row-name {
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-strong);
+}
+
+.scale-top .list-row-value {
+  color: var(--color-accent);
+}
+
+.list-row .note {
+  grid-column: 2 / -1;
+}
+
+/* The line: Figma progress track (6, fully rounded); white on every band (customer 2026-10-23). The dot stays within the
+   line: at −100% its left edge is the line's start, at +100% its right edge the line's end, at 0 it is centered. */
+.scale-line {
+  grid-column: 1 / -1;
+  position: relative;
+  height: var(--bar-height);
+  border-radius: var(--radius-full);
+  background: var(--color-surface);
+}
+
+.scale-dot {
+  --size: var(--scale-dot);
+  position: absolute;
+  top: 50%;
+  left: calc((100% - var(--size)) * var(--at));
+  width: var(--size);
+  height: var(--size);
+  margin-top: calc(var(--size) / -2);
+  border-radius: 50%;
+  background: var(--color-text-faint);
+}
+
+.scale-top .scale-dot {
+  background: var(--color-accent);
+}
+
+/* Not ranked: a white dot with a thin grey rim (customer 2026-10-23: the 2 px rim of the open dot → 1 px; without a rim
+   the dot was lost on the light line) */
+.scale-low .scale-dot {
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-text-faint);
 }
 
 /* Note */
@@ -546,12 +801,12 @@ button.list-row:active {
   display: inline-block;
   align-self: flex-start;
   justify-self: start;
-  padding: var(--space-1) var(--space-3);
+  padding: var(--chip-pad-y) var(--space-3);
   border-radius: var(--radius-md);
   background: var(--color-note-bg);
   color: var(--color-note-text);
   font-size: var(--font-size-xs);
-  line-height: var(--line-height-label);
+  line-height: var(--line-height-chip);
   font-weight: var(--font-weight-medium);
 }
 
@@ -574,6 +829,7 @@ button.list-row:active {
   text-align: start;
   cursor: pointer;
   font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-button); /* Menu item 17/22 */
 }
 
 .accordion-head::after {
@@ -609,18 +865,16 @@ button.list-row:active {
   min-height: var(--tap-min);
 }
 
+/* Menu item 17/22 (the Hebrew falls back to a system font; the size and spacing stay Figma's) */
 .bill-title {
   font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-button);
 }
 
 .lines {
   display: flex;
   flex-direction: column;
   gap: var(--space-1);
-}
-
-.lines .quote {
-  font-style: italic;
 }
 
 a {
@@ -699,7 +953,8 @@ a {
    A scroll-driven animation is active only on a scrollable page; where it is not supported (Safari ≤ 18) the animation
    simply runs and the fade is always there, white on white over empty space. */
 .bottom-bar::before,
-.start .sticky-actions::before {
+.start .sticky-actions::before,
+.results .sticky-actions::before {
   content: '';
   position: absolute;
   inset-inline: 0;
@@ -735,6 +990,7 @@ a {
 }
 
 /* «or» divider */
+/* Caption size, Medium weight (customer 2026-10-23: «Not ranked» «лёгкий, но не слишком», then «or» the same) */
 .or-divider {
   display: flex;
   align-items: center;
@@ -743,6 +999,7 @@ a {
   color: var(--color-text-faint);
   font-size: var(--font-size-xs);
   line-height: var(--line-height-caption);
+  font-weight: var(--font-weight-medium);
 }
 
 /* Clarifying question: «or» between card B and «=» — 12 above and below (Figma) = card gap 8 + 4 */
@@ -841,8 +1098,10 @@ a {
 
 /* Home actions: on a tall screen the spacer pins them to the bottom (16 above the safe area, general Figma rule); when the
    content does not fit they stick to the bottom of the screen with a fade, like .bottom-bar (customer 2026-10-17,
-   «версия Б»). The screen's bottom safe area moves inside the group, as in .bottom-bar. */
-.start .sticky-actions {
+   «версия Б»). The screen's bottom safe area moves inside the group, as in .bottom-bar. Results: the same
+   («Change answers», «How it works» under it; customer 2026-10-23). */
+.start .sticky-actions,
+.results .sticky-actions {
   position: sticky;
   bottom: 0;
   background: var(--color-bg);

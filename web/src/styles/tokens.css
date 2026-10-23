@@ -21,6 +21,7 @@
   --color-accent-disabled: #b3c3ec; /* brand/disabled */
   --color-positive: #0038b8; /* not in Figma: closeness bar > 0 uses brand */
   --color-negative: #595e6b; /* not in Figma: closeness bar < 0 uses text/secondary (text/tertiary is under 3:1 on the track) */
+  --color-row-band: rgba(255, 255, 255, 0.45); /* not in Figma: Results, a list's band in the panel (2026-10-23: 0.55; 0.35 for the white lines; 0.45 so the bands stand off the panel too) */
   --color-note-bg: rgba(0, 56, 184, 0.1); /* not in Figma: styled as Chip */
   --color-note-text: #0038b8; /* not in Figma: styled as Chip */
   --color-focus: #0038b8;
@@ -56,6 +57,7 @@
   --font-weight-regular: 400;
   --font-weight-medium: 500;
   --font-weight-bold: 600; /* SemiBold */
+  --font-weight-extrabold: 800; /* not in Figma: Results rank numbers (customer 2026-10-23) */
 
   /* space (space/4 … space/24) */
   --space-1: 4px;
@@ -84,6 +86,10 @@
   --button-height: 56px; /* Button, Action, Round Button */
   --badge-size: 28px;
   --bar-height: 6px; /* progress Track */
+  --scale-dot: 10px; /* not in Figma: Results scale, every list — blue and grey the same size (customer 2026-10-23) */
+  --chevron: 18px; /* not in Figma: Results «See all» and the arrow at the end of a list row */
+  --row-go: 24px; /* not in Figma: Results, the round arrow button at the end of a list row (customer 2026-10-23, it was 20) */
+  --rank-badge: var(--row-go); /* not in Figma: Results, the rank circle of the closest lists, the arrow button's size, in the 28 px rank column (it was 28) */
   --counter-width: 41px; /* «1/10» */
   --panel-pad-x: 14px; /* «Questions» panel */
   --choice-pad-y: 14px; /* Answer card */
@@ -99,6 +105,7 @@
      Between the points everything changes smoothly: margins, then the space above the buttons. */
   --desktop-gap: clamp(16px, calc((100dvh - var(--desktop-card-height)) / 2), 32px); /* card margin: 32 → 16 */
   --radius-desktop: 32px; /* card corners */
+  --radius-scale: var(--radius-desktop); /* not in Figma: Results panel of the closest lists (customer 2026-10-23) */
   --shadow-desktop: 0 12px 48px rgba(0, 56, 184, 0.12);
   --desktop-card-height: 812px; /* Figma screen without the status bar (874 − 62): the card keeps the phone proportions */
   --cta-min-gap: 64px; /* Home: at least this much between the steps and the buttons (max 158 = Figma) */

@@ -4,6 +4,8 @@ import { createRoot } from 'react-dom/client';
 import '@fontsource/plus-jakarta-sans/latin-400.css';
 import '@fontsource/plus-jakarta-sans/latin-500.css';
 import '@fontsource/plus-jakarta-sans/latin-600.css';
+// Not in Figma: ExtraBold for the Results rank numbers only (customer 2026-10-23); fetched only when that screen draws.
+import '@fontsource/plus-jakarta-sans/latin-800.css';
 import './styles/fonts.css';
 import './styles/tokens.css';
 import './styles/app.css';

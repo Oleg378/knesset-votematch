@@ -70,19 +70,25 @@ Line heights are exact Figma px ÷ size (`calc(22 / 17)`), never rounded ratios.
 |---|---|---|---|---|
 | Title/Large | Fraunces 400 | 36 / 42 | `.title-xl` | Home title |
 | Title/Medium | Fraunces 400 | 28 / 34 | `.title-lg` | app name in the menu |
-| Question | Fraunces 400 | 20 / 22 | `.statement-text`, `.title-md` | statement, clarifying question |
-| Action | Plus Jakarta Sans 600 | 17 / 22, −0.43 px | `.btn-primary` | Start the quiz, Next |
+| Question | Fraunces 400 | 20 / 22 | `.statement-text`, `.title-md` | statement, clarifying question, section titles in List details, Bills and Methodology |
+| Action | Plus Jakarta Sans 600 | 17 / 22, −0.43 px | `.btn-primary`, `.btn-secondary` | Start the quiz, Next, Change answers |
 | Button | Plus Jakarta Sans 600 | 17 / 22 | `.answer`, `.btn` | answer options |
 | Body/Large | Plus Jakarta Sans 400 | 17 / 24 | `body`, `.tagline` | Home subtitle |
-| Menu item | Plus Jakarta Sans 500 | 17 / 22 | `.menu-item` | menu items |
-| Label/Strong | Plus Jakarta Sans 600 | 15 / 20 | `.btn-link`, `.choice-title`, `.step-number`, `.choice-badge` | Behind the results, Not sure — skip, card titles A/B/= |
+| Menu item | Plus Jakarta Sans 500 | 17 / 22 | `.menu-item`, `.accordion-head`, `.bill-title` | menu items, statement titles in Methodology, bill names |
+| Label/Strong | Plus Jakarta Sans 600 | 15 / 20 | `.btn-link`, `.choice-title`, `.step-number`, `.choice-badge`, `.title-sm`, `.list-row-value`, `.scale-top .list-row-name`, `.scale-legend` | Behind the results, Not sure — skip, card titles A/B/=, Details card titles, Results closeness / names in the panel / scale legend |
 | Counter | Plus Jakarta Sans 600 | 15 / 22 | `.counter` | progress counter |
-| Label/Medium | Plus Jakarta Sans 500 | 15 / 20 | `.step` | Home steps |
-| Body/Default | Plus Jakarta Sans 400 | 15 / 21 | `.lead`, `.explain` | card explanations, intro text |
-| Chip | Plus Jakarta Sans 500 | 13 / 20 | `.chip` | chips (N statements, 3–5 min) |
-| Caption | Plus Jakarta Sans 400 | 13 / 18 | `.choice-sub`, `.or-divider` | «Your answer: …», «or» |
+| Label/Medium | Plus Jakarta Sans 500 | 15 / 20 | `.step`, `.list-row-name` | Home steps, Results names below the panel |
+| Body/Default | Plus Jakarta Sans 400 | 15 / 21 | `.lead`, `.explain`, `.small` | card explanations, intro text, «Based on …», bill details |
+| Chip | Plus Jakarta Sans 500 | 13 / 20 | `.chip`, `.note` | chips (N statements, 3–5 min), notes |
+| Caption | Plus Jakarta Sans 400 | 13 / 18 | `.choice-sub`, `.xsmall` | «Your answer: …», data version |
+| Caption, Medium (not in Figma) | Plus Jakarta Sans 500 | 13 / 18 | `.or-divider` | «or», «Not ranked: not enough data» (customer 2026-10-23) |
 | Eyebrow | Plus Jakarta Sans 600 | 12 / 16, 0.72 px (6%), upper case | `.eyebrow` | label above the title |
+| — (not in Figma) | Plus Jakarta Sans 800 | 15 / 20 | `.list-row-rank` | Results rank numbers (customer 2026-10-23) |
 
+- **Every text is one of these styles** (check: all screens, computed styles vs this table — 2026-10-22 all match). The
+  only exception: bold run-in titles and list labels inside Methodology text (`<strong>`, `<em>`: 600 in Body/Large).
+  Bold is 600 — the font is loaded up to SemiBold; a 700 would be faked by the browser. No italics (none in Figma, no
+  italic face loaded).
 - Fraunces axes for every style: **WONK 1 · SOFT 0 · opsz auto**. They are baked into `src/assets/fonts/fraunces-opsz.woff2`
   (`scripts/subset-fraunces.mjs`: opsz kept, WONK/SOFT/wght pinned, Latin UI subset) — no `font-variation-settings` in CSS.
 - `body` has `-webkit-font-smoothing: antialiased`: without it macOS browsers draw text 6–13 % heavier than Figma.

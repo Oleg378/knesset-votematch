@@ -59,6 +59,8 @@ export type Action =
   | { type: 'OPEN_BILLS'; q: string }
   | { type: 'CHANGE_ANSWERS' }
   | { type: 'START_OVER' }
+  /** Results header «Start over»: clear everything and go straight to the first question, as Start on Home. */
+  | { type: 'RESTART' }
   | { type: 'OPEN_METHODOLOGY' }
   /** Menu «My results»: finish the questions (trade-offs follow) or skip the remaining trade-offs. */
   | { type: 'SHOW_RESULTS' }
@@ -234,6 +236,9 @@ export function createReducer(src: FlowSources) {
 
       case 'START_OVER':
         return initialState;
+
+      case 'RESTART':
+        return sc.name === 'results' ? advance(initialState, -1) : state;
 
       case 'OPEN_METHODOLOGY':
         return sc.name === 'methodology' ? state : { ...s, screen: { name: 'methodology', back: sc } };

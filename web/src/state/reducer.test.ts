@@ -238,10 +238,15 @@ describe('reducer: results, details, bills, methodology', () => {
     }
   });
 
+  it('Results header «Start over»: everything cleared, straight to the first question as Start on Home', () => {
+    expect(run(results, { type: 'RESTART' })).toEqual(run(initialState, { type: 'START' }));
+  });
+
   it('actions that do not belong to the current screen change nothing', () => {
     expect(run(initialState, { type: 'ANSWER', value: 2 })).toBe(initialState);
     expect(run(initialState, { type: 'TRADE', choice: 'A' })).toBe(initialState);
     expect(run(results, { type: 'START' })).toBe(results);
+    expect(run(initialState, { type: 'RESTART' })).toBe(initialState);
     expect(run(initialState, { type: 'SHOW_RESULTS' })).toBe(initialState);
     expect(run(initialState, { type: 'MORE' })).toBe(initialState);
   });

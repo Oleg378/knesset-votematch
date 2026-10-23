@@ -214,26 +214,48 @@ describe('trade-offs', () => {
 describe('results', () => {
   beforeEach(() => render(<App loader={loaded()} />));
 
-  it('rows follow the engine ranking with formatted closeness', () => {
+  it('rows follow the engine ranking with formatted closeness; the five closest in the highlighted panel', () => {
     toResults();
     const ranked = match(data, given, {}).filter((r) => r.ranked);
-    const items = within(screen.getAllByRole('list')[0]!).getAllByRole('listitem');
+    expect(document.querySelectorAll('.screen ol > li')).toHaveLength(Math.min(5, ranked.length)); // the rest: «See all»
+    click(S.results.seeAll);
+    const items = [...document.querySelectorAll('.screen ol > li')] as HTMLElement[]; // the panel, then the rest
     expect(items).toHaveLength(ranked.length);
+    expect(document.querySelectorAll('.scale-top li')).toHaveLength(Math.min(5, ranked.length));
+    expect(document.querySelectorAll('.scale-top.open + .scale-drop ol > li')) // the rest drops down from the panel
+      .toHaveLength(ranked.length - Math.min(5, ranked.length));
+    screen.getByRole('list', { name: S.results.closest(Math.min(5, ranked.length)) }); // no visible title: named for screen readers
+    // «See all» goes away, the focus goes to the first list that dropped down; «Show less» only at the end
+    expect(screen.queryByRole('button', { name: S.results.seeAll })).toBeNull();
+    expect(document.activeElement).toBe(document.querySelector('.scale-drop button'));
+    const less = screen.getByRole('button', { name: S.results.seeLess });
+    expect(less.getAttribute('aria-expanded')).toBe('true');
+    expect(document.querySelector('.scale-drop > :last-child')!.contains(less)).toBe(true);
     // Trade-offs answered «Equally» change no weights, so the plain ranking applies.
     ranked.forEach((r, i) => {
       expect(items[i]!.textContent).toContain(r.name_en);
       expect(items[i]!.textContent).toContain(formatCloseness(r.closeness!));
     });
+    // «Not ranked»: one reason in the divider, no note on each list
+    screen.getByText(S.results.notRanked);
+    expect(document.querySelectorAll('.scale-low li').length).toBeGreaterThan(0);
+    expect(document.querySelectorAll('.scale-low .note')).toHaveLength(0);
+    // lists with no record in the Knesset are not shown at all
+    const none = match(data, given, {}).filter((r) => !r.evaluated);
+    expect(none.length).toBeGreaterThan(0);
+    none.forEach((r) => expect(document.querySelector('.screen')!.textContent).not.toContain(r.name_en));
+    fireEvent.click(less);
+    expect(document.querySelectorAll('.screen ol > li')).toHaveLength(Math.min(5, ranked.length));
+    expect(document.querySelector('.scale-drop')).toBeNull();
+    expect(document.activeElement).toBe(screen.getByRole('button', { name: S.results.seeAll })); // back to the panel
   });
 
-  it('«Answer more questions» continues with a new statement, counted out of all statements', () => {
+  it('at the bottom only «Change answers»; it goes back to the statements', () => {
     toResults();
-    click(S.results.answerMore);
+    const bottom = within(document.querySelector('.sticky-actions')!).getAllByRole('button');
+    expect(bottom.map((b) => b.textContent)).toEqual([S.results.changeAnswers]);
+    fireEvent.click(bottom[0]!);
     screen.getByRole('group', { name: S.question.answersLabel });
-    screen.getByText(S.question.progress(planned + 1, data.statements.length));
-    answer(1);
-    menuTo(S.menu.results);
-    screen.getByRole('heading', { name: S.results.heading });
   });
 
   it('shows only the two allowed notes and nothing about government, coalition or seats', () => {
@@ -268,8 +290,18 @@ describe('results', () => {
 
   it('Start over clears answers', () => {
     toResults();
-    click(S.results.startOver);
+    menuTo(S.menu.startOver);
     click(S.start.button);
+    expect(pressed()).toEqual([]);
+  });
+
+  it('Start over in the header, only on Results: clears answers and opens the first question, as Start on Home', () => {
+    const inHeader = () => within(screen.getByRole('banner')).queryByRole('button', { name: S.menu.startOver });
+    expect(inHeader()).toBeNull(); // Home
+    toResults();
+    fireEvent.click(inHeader()!);
+    screen.getByRole('heading', { name: firstCore.statement_en });
+    expect(inHeader()).toBeNull(); // a question
     expect(pressed()).toEqual([]);
   });
 });

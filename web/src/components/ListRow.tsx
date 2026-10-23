@@ -1,6 +1,6 @@
-import { formatCloseness } from '../engine/format';
+import type { CSSProperties } from 'react';
+import { formatCloseness, roundCloseness } from '../engine/format';
 import { S } from '../strings';
-import { ClosenessBar } from './ClosenessBar';
 import { Note } from './Note';
 
 interface Props {
@@ -11,19 +11,28 @@ interface Props {
   onClick?: () => void;
 }
 
+/**
+ * A list on the Results scale (customer 2026-10-22): rank, name, closeness, and a dot on the −100%…+100% line under them.
+ * Every row's line is the same width, so the dots of all lists read as one scale. A row that opens List details ends with
+ * a round arrow button after the closeness, the same on every such row (customer 2026-10-23).
+ */
 export function ListRow({ rank, name, closeness, note, onClick }: Props) {
+  const at = closeness === null ? null : (roundCloseness(closeness) + 1) / 2; // the dot stands at the value shown
   const content = (
     <>
-      <span className="list-row-rank">{rank === null ? '' : S.results.rank(rank)}</span>
+      <span className="list-row-rank">{rank === null ? '' : <span>{S.results.rank(rank)}</span>}</span>
       <span className="list-row-name">{name}</span>
       <span className="list-row-value">
         <span className="visually-hidden">{S.results.closenessLabel} </span>
         {closeness === null ? S.results.notComputable : formatCloseness(closeness)}
+        {onClick && <span className="list-row-go" aria-hidden="true" />}
       </span>
-      <span className="list-row-extra">
-        {closeness !== null && <ClosenessBar value={closeness} />}
-        {note && <Note>{note}</Note>}
-      </span>
+      {at !== null && (
+        <span className="scale-line" aria-hidden="true">
+          <span className="scale-dot" style={{ '--at': at } as CSSProperties} />
+        </span>
+      )}
+      {note && <Note>{note}</Note>}
     </>
   );
   return onClick ? (

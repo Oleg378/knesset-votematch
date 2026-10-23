@@ -15,8 +15,8 @@ https://www.figma.com/design/TTgHWki3flpBiQ6U9XQF7I/CSS (see «Design» below).
 ```
 Start → Core statements (flow.core) → Clarifying statements (flow.clarify, chosen one at a time) → Trade-offs
 (0–flow.trade) → Results (full leaderboard) ⇄ List details → Bills of one statement
-            └→ «Answer more questions»: clarifying statements until the pool ends → Results
-Methodology: reachable from Start, Results and the menu. Positions of the lists (§7): not built yet.
+Methodology: reachable from Start and the menu. Positions of the lists (§7, not built yet): linked from
+Methodology and Results (`export/METHODOLOGY_PAGE.md`).
 ```
 Numbers of questions come from `flow` in the export; the clarifying statement after each answer — `nextClarify` in
 `src/engine/flow.ts` (port of `pipeline/quiz_flow.py`, golden «flow N» cases).
@@ -24,7 +24,9 @@ Numbers of questions come from `flow` in the export; the clarifying statement af
 **Screens with a Figma mockup follow the mockup** (Home, Questions, Clarifying question, Menu) — texts, controls and
 interaction; the statement count comes from the data. Customer, 2026-10-18. Open points: `DECISIONS.md` section D.
 
-Every screen: header with the menu button (Figma «Menu»: Start over · My results · Methodology).
+Every screen: header with the menu button (Figma «Menu»: Start over · My results · Methodology); on Results, at the right end (where
+other screens have the counter), Start over: the menu item's icon, no text; it clears the answers and opens the first
+question at once, as «Start» on Home (customer 2026-10-22).
 
 ### 1. Start (Figma «Home»)
 - Eyebrow, «Find your vote match», hero graphic, tagline, chips (N statements · 3–5 min · Anonymous), three steps.
@@ -58,17 +60,31 @@ Every screen: header with the menu button (Figma «Menu»: Start over · My resu
 - If no pair at all: skip the screen silently (no message needed on the web).
 
 ### 4. Results
-- «All lists by closeness to your answers (from −1 to +1). Based on N of M answers[, including trade-offs].» M = statements
-  shown.
-- «Answer more questions» (shown while the pool has a statement left): continues clarifying statements; menu «My results»
-  or the end of the pool returns to Results; no new trade-offs (as quiz_cli). Placed first in the button group at the end of
-  the list, ordinary button style [А 2026-10-18, the customer reviews it on the site].
-- Rows: rank, list name (`name_en`), closeness formatted `+0.35`, note. A simple bar (−1…+1, centered at 0) is welcome.
-- Ranked lists first; then a «Not ranked» divider with lists below the coverage threshold (no rank number); then one collapsed
-  line «No record in the Knesset (N)» listing lists with status `not_evaluated`.
+- «Based on N of M answers[, including trade-offs]» (no period) M = statements shown; under it «Tap › for
+  details» with the rows' round arrow between the words; 8 between the title and the two lines (customer 2026-10-23). Under it a thin line (12 below the text, 20 above the legend; customer 2026-10-23), then the scale legend in one line:
+  «far from you» on the left, «close to you» on the right, no numbers, nothing in the middle (customer 2026-10-22, DECISIONS.md G15).
+- At the bottom only «Change answers» (light blue, as before), pinned to the bottom of the screen as on Home and the
+  question screens, with the fade over the lists under it (customer 2026-10-23): «Answer more questions», «Start over» and
+  «How it works» are gone — Methodology is in the menu — Start over stays in the header and the menu. «Answer more» has no entry now (the
+  reducer keeps `MORE`).
+- Rows: rank, list name (`name_en`), closeness in tens of percent with its sign — `+40%`, `−30%`; zero is `0%`, no sign (customer 2026-10-22), then a round «›» button on a row
+  that opens List details, the same on every row; every row on its own band (light translucent in the panel, light grey
+  below), 8 apart (customer 2026-10-23), note; the order uses the exact values, not
+  the rounded percents shown;
+  under them a line −100%…+100% with the list's dot at the value shown (10 px for every list, blue in the panel, grey below; the line runs
+  from the name to the end of the percent; the legend starts over the rank circles and ends over the arrow buttons) — the same line for every list, so all lists read as one scale. The 5
+  closest stand out in a panel without a title (customer 2026-10-22; screen readers hear its list as «Your 5 closest lists»). No up/down arrows, no lines between rows, no zero mark
+  on the line.
+- Only the closest five are shown; at the bottom of their panel «See all ⌄», no line above it (as «Not sure — skip» in the
+  question panel) drops the rest down from the panel and keeps them inside it (the same tint and bands, the bottom rounded); «See all» goes away (focus
+  to the first list that dropped down). «Show less ⌃» is only at the end of the open list; it closes the list and returns to
+  the panel (focus on «See all») (customer 2026-10-22).
+- Ranked lists first; then a «Not ranked: not enough data» divider with lists below the coverage threshold or with
+  too few former MKs (no rank number, no notes: the divider gives the one reason for all; List details keeps each list's note). Lists with status
+  `not_evaluated` (no record in the Knesset) are not shown on Results (customer 2026-10-22); Methodology counts them.
 - Notes, only these two: `few former MKs: N` (status warning) and `position known for only N% of your answers`.
 - **Not shown** (customer decisions): coalition/opposition, number of MKs, party logos, anything about the government.
-- Tap a row → List details. «Change answers» → back to statements. «Start over» clears everything.
+- Tap a row → List details. «Change answers» → back to statements. Start over (header, menu) clears everything.
 
 ### 5. List details
 - Header: list name, closeness, note.

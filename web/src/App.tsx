@@ -132,7 +132,8 @@ export default function App({ loader }: { loader: Loader }) {
 
   return (
     <main className="app">
-      <Header onMenu={() => setMenu(true)}>{header}</Header>
+      <Header onMenu={() => setMenu(true)}
+        onStartOver={sc.name === 'results' ? () => send({ type: 'RESTART' }) : undefined}>{header}</Header>
       {menu && (
         <Menu onClose={closeMenu} onStartOver={() => dispatch({ type: 'START_OVER' })}
           onResults={hasComputableAnswers(state.answers) || sc.name === 'question' || sc.name === 'wait'
