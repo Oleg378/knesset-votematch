@@ -1,0 +1,190 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "quiz_methodology.schema.json",
+ "title": "Knesset 2026 quiz — methodology page",
+ "description": "Every text of the methodology page (export/WEB_CONTRACT.md §7). Edited by hand; generated from web/src/methodology.ts by `npm run schema:methodology`, checked by `make check` and the web tests. Texts may use {name} and {name?one|many} with the names listed in the patterns; the page fills them from quiz_data.",
+ "type": "object",
+ "properties": {
+  "updated": {
+   "type": "string",
+   "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+  },
+  "heading": {
+   "type": "string",
+   "minLength": 1
+  },
+  "back": {
+   "type": "string",
+   "minLength": 1
+  },
+  "sections": {
+   "minItems": 1,
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "title": {
+      "type": "string",
+      "minLength": 1
+     },
+     "text": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?:[^{}]|\\{(?:lists|evaluable|single|no_record|close|statements|core|clarify|vote_ratio|min_lists|min_mks|min_spread|min_names)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+     },
+     "bullets": {
+      "minItems": 1,
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "lead": {
+         "type": "string",
+         "minLength": 1,
+         "pattern": "^(?:[^{}]|\\{(?:lists|evaluable|single|no_record|close|statements|core|clarify|vote_ratio|min_lists|min_mks|min_spread|min_names)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+        },
+        "text": {
+         "type": "string",
+         "minLength": 1,
+         "pattern": "^(?:[^{}]|\\{(?:lists|evaluable|single|no_record|close|statements|core|clarify|vote_ratio|min_lists|min_mks|min_spread|min_names)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+        }
+       },
+       "required": [
+        "lead",
+        "text"
+       ],
+       "additionalProperties": false
+      }
+     },
+     "after": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?:[^{}]|\\{(?:lists|evaluable|single|no_record|close|statements|core|clarify|vote_ratio|min_lists|min_mks|min_spread|min_names)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+     }
+    },
+    "required": [
+     "title"
+    ],
+    "additionalProperties": false
+   }
+  },
+  "statements": {
+   "type": "object",
+   "properties": {
+    "heading": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:statements)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "topic": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:name)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "up": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:text)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "down": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:text)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "agreeCountsUp": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "agreeCountsDown": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "billsCount": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:n)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "billMeta": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:side|knesset|role)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "sideUp": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "sideDown": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "roleMain": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "roleSecondary": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "sponsors": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:names)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "noSponsors": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "showMore": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:n)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "billLink": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "dataVersion": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?:generated|commit)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    }
+   },
+   "required": [
+    "heading",
+    "topic",
+    "up",
+    "down",
+    "agreeCountsUp",
+    "agreeCountsDown",
+    "billsCount",
+    "billMeta",
+    "sideUp",
+    "sideDown",
+    "roleMain",
+    "roleSecondary",
+    "sponsors",
+    "noSponsors",
+    "showMore",
+    "billLink",
+    "dataVersion"
+   ],
+   "additionalProperties": false
+  }
+ },
+ "required": [
+  "updated",
+  "heading",
+  "back",
+  "sections",
+  "statements"
+ ],
+ "additionalProperties": false
+}

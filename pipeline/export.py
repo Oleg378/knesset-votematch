@@ -21,6 +21,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import quiz_match as qm
 import quiz_report as qr
 import quiz_flow as qf
+import quiz_select as qs
 
 ROOT = qm.ROOT
 OUT = os.path.join(ROOT, "export")
@@ -88,7 +89,9 @@ def build_data(ctx):
         "source_commit": source_commit(),
         "params": {"K": qm.K, "MIN_COVERAGE": qm.MIN_COVERAGE, "MIN_EX_MKS": qm.MIN_EX_MKS, "MAX_TRADE": qm.MAX_TRADE, "TRADE_TOP": qm.TRADE_TOP,
                    "TRADE_W": qm.TRADE_W, "TRADE_CANDIDATES": 3, "VOTE_WEIGHT": 0.25, "CLOSE": qr.CLOSE, "MIN_CLEAR_MKS": qr.MIN_CLEAR_MKS, "MIN_CLEAR_BILLS": qr.MIN_CLEAR_BILLS,
-                   "BILL_URL": qr.LINK.replace("{}", "{id}")},
+                   "BILL_URL": qr.LINK.replace("{}", "{id}"),
+                   # selection of themes (quiz_select.py) — shown on the methodology page (quiz_methodology.json placeholders)
+                   "SELECT_MIN_LISTS": qs.MIN_LISTS, "SELECT_MIN_MKS": qs.MIN_MKS, "SELECT_MIN_SPREAD": qs.MIN_SD, "SELECT_MIN_NAMES": qs.MIN_NAMES},
         "flow": dict(qf.FLOW),
         "core": qf.core(),
         # interest / area / sim_group [У] 2026-10-21: metadata for the ORDER of questions only (jef/quiz/statement_meta.csv)

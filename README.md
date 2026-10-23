@@ -10,7 +10,7 @@
 | [docs/SHARED_UNDERSTANDING.md](docs/SHARED_UNDERSTANDING.md) | контракт заказчика и агента: термины, действующие правила, открытые вопросы |
 | [docs/TECHNICAL.md](docs/TECHNICAL.md) | реализация и числа: конвейер, метки, формулы, отбор, порядок вопросов, экспорт |
 | [docs/WORKLOG.md](docs/WORKLOG.md) | журнал работ, «Открыто», «Что дальше» |
-| [export/WEB_CONTRACT.md](export/WEB_CONTRACT.md), [export/METHODOLOGY_PAGE.md](export/METHODOLOGY_PAGE.md) | контракт данных для фронта и тексты страниц |
+| [export/WEB_CONTRACT.md](export/WEB_CONTRACT.md), [export/quiz_methodology.json](export/quiz_methodology.json) | контракт данных для фронта и тексты страницы методологии |
 | [CLAUDE.md](CLAUDE.md) | правила работы агентов, структура, документация |
 | [docs/archive/](docs/archive/) | закрытые документы и журнал прежних решений |
 

@@ -12,7 +12,8 @@ import { formatCloseness } from '../engine/format';
 import { match } from '../engine/match';
 import type { Answers } from '../engine/types';
 import { S } from '../strings';
-import { bills, core, data, loaded } from '../testSources';
+import { bills, core, data, loaded, methodology } from '../testSources';
+import { dataValues, fill } from '../methodology';
 
 const click = (name: string | RegExp) => fireEvent.click(screen.getByRole('button', { name }));
 const pressed = () => screen.queryAllByRole('button', { pressed: true }).map((b) => b.textContent);
@@ -55,7 +56,7 @@ function toResults(n = planned) {
 
 /** A loader whose files arrive when the test says so. */
 function manualLoader() {
-  let state: Sources = { core: null, data: null, bills: null, failed: false };
+  let state: Sources = { core: null, data: null, bills: null, methodology: null, failed: false };
   const ls = new Set<() => void>();
   const loader: Loader = {
     get: () => state,
@@ -87,9 +88,35 @@ describe('start', () => {
     screen.getByText(S.start.chipTime);
     screen.getByText(S.start.steps(planned)[0]!);
     click(S.start.howItWorks);
-    screen.getByRole('heading', { name: S.methodology.heading });
-    click(S.methodology.back);
+    screen.getByRole('heading', { name: methodology.heading });
+    click(methodology.back);
     screen.getByRole('button', { name: S.start.button });
+  });
+});
+
+describe('methodology (WEB_CONTRACT §7: every text from quiz_methodology.json)', () => {
+  it('shows the file\'s heading, every section title and lead, and the numbers filled from quiz_data', () => {
+    render(<App loader={loaded()} />);
+    click(S.start.howItWorks);
+    screen.getByRole('heading', { name: methodology.heading });
+    const v = dataValues(data);
+    for (const s of methodology.sections) {
+      screen.getByText(fill(s.title, v), { exact: false });
+      for (const b of s.bullets ?? []) screen.getByText(fill(b.lead, v), { exact: false });
+    }
+    screen.getByText(`${v.evaluable} of ${v.lists} lists can be evaluated`, { exact: false });
+    screen.getByRole('heading', { name: fill(methodology.statements.heading, { statements: data.statements.length }) });
+    expect(document.body.textContent).not.toMatch(/[{}]/);
+  });
+
+  it('waits for quiz_methodology.json like a data file', () => {
+    const { loader, arrive } = manualLoader();
+    render(<App loader={loader} />);
+    arrive({ core, data, bills });
+    click(S.start.howItWorks);
+    screen.getByText(S.loading);
+    arrive({ methodology });
+    screen.getByRole('heading', { name: methodology.heading });
   });
 });
 

@@ -23,6 +23,11 @@ export interface Params {
   MIN_CLEAR_BILLS: number;
   /** Bill page; `{id}` is replaced with the bill id. */
   BILL_URL: string;
+  /** Selection of themes (pipeline/quiz_select.py), informational: shown on the methodology page. */
+  SELECT_MIN_LISTS: number;
+  SELECT_MIN_MKS: number;
+  SELECT_MIN_SPREAD: number;
+  SELECT_MIN_NAMES: number;
 }
 
 /** Order of questions (pipeline/quiz_flow.py FLOW). Never hard-code these numbers. */

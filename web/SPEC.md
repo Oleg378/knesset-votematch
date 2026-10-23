@@ -2,7 +2,7 @@
 
 Static SPA. Input: the data contract — three files fetched at run time (`export/quiz_core.json`,
 `quiz_data.json`, `quiz_bills.json`; one schema for their merge). Contract and loading order:
-`export/WEB_CONTRACT.md`; page texts: `export/METHODOLOGY_PAGE.md`. Reference behaviour: `pipeline/quiz_cli.py` (run it to
+`export/WEB_CONTRACT.md`; methodology page texts: `export/quiz_methodology.json` (contract §7). Reference behaviour: `pipeline/quiz_cli.py` (run it to
 see the flow), `pipeline/quiz_flow.py` (order of questions), `pipeline/quiz_report.py` (explanations). How everything is
 computed: `docs/TECHNICAL.md`.
 
@@ -16,7 +16,7 @@ https://www.figma.com/design/TTgHWki3flpBiQ6U9XQF7I/CSS (see «Design» below).
 Start → Core statements (flow.core) → Clarifying statements (flow.clarify, chosen one at a time) → Trade-offs
 (0–flow.trade) → Results (full leaderboard) ⇄ List details → Bills of one statement
 Methodology: reachable from Start and the menu. Positions of the lists (§7, not built yet): linked from
-Methodology and Results (`export/METHODOLOGY_PAGE.md`).
+Methodology and Results (`export/WEB_CONTRACT.md` §6).
 ```
 Numbers of questions come from `flow` in the export; the clarifying statement after each answer — `nextClarify` in
 `src/engine/flow.ts` (port of `pipeline/quiz_flow.py`, golden «flow N» cases).
@@ -102,8 +102,8 @@ question at once, as «Start» on Home (customer 2026-10-22).
 - No per-bill English summary [У 2026-10-17]: bill names are not translated; the direction line above is the English context. `summary_en` is always null and not rendered.
 
 ### 7. Methodology and Positions of the lists
-- Methodology: the texts of `export/METHODOLOGY_PAGE.md` as written (fixed text; numbers marked «from the export» are read from the data).
-- Positions of the lists: the table described in `METHODOLOGY_PAGE.md` («Positions of the lists page») — statements × evaluated lists, cell = the measured side, click → the bills, the right-to-contest text.
+- Methodology: every text from `export/quiz_methodology.json` (contract §7) — heading, sections, bullets, labels of the statements block; numbers are `{placeholders}` filled from `quiz_data`. Nothing of the page is written in the code.
+- Positions of the lists: the table described in `export/WEB_CONTRACT.md` §6 — statements × evaluated lists, cell = the measured side, click → the bills, the right-to-contest text.
 
 ## Computation (TypeScript port; Python is the reference)
 Port `pipeline/quiz_match.py` (`list_vec`, `score`, `match`, `ranked_top`, `tradeoffs`) and from `pipeline/quiz_report.py`

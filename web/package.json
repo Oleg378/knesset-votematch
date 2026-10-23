@@ -9,12 +9,14 @@
     "preview": "vite preview",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
-    "check:dist": "node scripts/check-dist.mjs"
+    "check:dist": "node scripts/check-dist.mjs",
+    "schema:methodology": "node scripts/methodology-schema.ts"
   },
   "dependencies": {
     "@fontsource/plus-jakarta-sans": "^5.3.0",
     "react": "^19.3.1",
-    "react-dom": "^19.3.1"
+    "react-dom": "^19.3.1",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@fontsource-variable/fraunces": "^5.3.0",

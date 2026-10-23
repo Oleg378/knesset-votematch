@@ -33,3 +33,15 @@ declare module '@export/golden.json' {
   const value: unknown;
   export default value;
 }
+declare module '@export/quiz_methodology.json?url' {
+  const url: string;
+  export default url;
+}
+declare module '@export/quiz_methodology.json' {
+  const value: unknown;
+  export default value;
+}
+declare module '@export/quiz_methodology.schema.json' {
+  const value: unknown;
+  export default value;
+}

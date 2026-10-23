@@ -12,12 +12,13 @@ React + Vite + TypeScript, static SPA (no server, no Next.js). Talk to the custo
 - **Edit only `web/` and `.github/`.** `pipeline/`, `export/`, `jef/`, `docs/`, `manual/`, `research/` belong to the data
   session: do not edit, do not commit their changes (they are often uncommitted in the working tree — leave them).
 - Missing or wrong data → write it in `DATA_REQUESTS.md` and tell the customer. Never patch `../export/*` by hand.
-- Data: the contract in `../export/` only — `quiz_core.json`, `quiz_data.json`, `quiz_bills.json`, fetched
+- Data: the contract in `../export/` only — `quiz_core.json`, `quiz_data.json`, `quiz_methodology.json`, `quiz_bills.json`, fetched
   at run time in this order by `src/data.ts` (never bundled; content-hashed, never inlined — CSP `connect-src 'self'`).
-  Contract and loading order: `../export/WEB_CONTRACT.md`; page texts: `../export/METHODOLOGY_PAGE.md`; overview:
+  Contract and loading order: `../export/WEB_CONTRACT.md`; methodology page texts: `../export/quiz_methodology.json` (§7, zod
+  schema `src/methodology.ts`, `npm run schema:methodology` after changing its structure); overview:
   `../export/README.md`.
 - A screen renders only when its file has arrived (App shows a loader for that screen only): Start — nothing; questions —
-  quiz_core, clarifying ones and everything after — quiz_data; List details, Bills, Methodology — quiz_bills.
+  quiz_core, clarifying ones and everything after — quiz_data; List details, Bills, Methodology — quiz_bills; Methodology also quiz_methodology.
 - **The start page loads first** (DECISIONS.md G): `index.html` preloads its fonts, quiz_core and the hero
   (`preloadStartPage` in `vite.config.ts`); quiz_data and quiz_bills start only after it is drawn (`firstScreenShown` in
   `src/data.ts`). A new font or picture on Home → add it to the preload. Measure with a production build (gzip), never

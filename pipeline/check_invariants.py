@@ -10,6 +10,8 @@ that changes labels, themes or statements, and before every release: `make check
   I6  every bill label on a statement theme was label-checked (jef/directions/labels/label_check_coverage.csv; a check under the theme
       a part was split from counts)
   I7  the export holds exactly the current statements (ids, texts, keys)
+  I8  export/quiz_methodology.json (the texts of the methodology page, edited by hand) validates against
+      export/quiz_methodology.schema.json (generated from web/src/methodology.ts: structure, allowed placeholders)
 """
 import csv, json, os, re, sys, itertools, collections
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -77,5 +79,10 @@ for q in set(ex) & set(cur):
 
 print(f"{len(st)} statements, {len(C)} themes with positions, {len(reg)} registry rows")
 for l in fails + warns: print(l)
+try:                                                                               # I8
+    import jsonschema
+    jsonschema.validate(json.load(open(f"{ROOT}/export/quiz_methodology.json")), json.load(open(f"{ROOT}/export/quiz_methodology.schema.json")))
+except jsonschema.ValidationError as e:
+    fail("I8", f"export/quiz_methodology.json: {e.message[:200]} at {'/'.join(map(str, e.absolute_path))}")
 print("OK" if not fails else f"{len(fails)} FAIL, {len(warns)} WARN")
 sys.exit(1 if fails else 0)

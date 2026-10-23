@@ -20,7 +20,7 @@ what its candidates who are former MKs did in Knessets 24–25: bills they spons
 | Implementation, formulas, thresholds, current numbers | `docs/TECHNICAL.md` | history («was 0.3, now 0.25») — only the current state |
 | What happened, with numbers; **tasks**, open items, plan | `docs/WORKLOG.md` | rules (they live in SU) |
 | Data contract and what the web computes and shows | `export/WEB_CONTRACT.md` | history, reasoning, version labels |
-| Texts the user reads on the site (English) | `export/METHODOLOGY_PAGE.md` | — |
+| Texts the user reads on the methodology page (English) | `export/quiz_methodology.json` (contract: `export/WEB_CONTRACT.md` §7) | numbers typed by hand — they are `{placeholders}` filled from the data |
 | Agent procedures | `.claude/skills/*/SKILL.md` + `prompts/` | project state |
 | Closed documents, old logs | `docs/archive/` (with a line in its README) | — |
 Rules: a decision goes into SU as one line (rule + status + pointer), its numbers into TECHNICAL, its story into WORKLOG; a task
@@ -41,7 +41,7 @@ fix every reference (`grep` the old name); research notes and people's answers s
 |---|---|
 | `pipeline/` | Python: fetch (OData, CEC), `build/` → `knesset.duckdb`, Jev labeling, positions, quiz selection/matching, **export** |
 | `web/` | Front end: React + Vite + TypeScript static SPA. Reads only `export/` |
-| `export/` | **The data contract** (in git): `quiz_core / quiz_data / quiz_bills.json`, one schema, `golden.json`, `WEB_CONTRACT.md`, `METHODOLOGY_PAGE.md` |
+| `export/` | **The data contract** (in git): `quiz_core / quiz_data / quiz_bills.json`, one schema, `golden.json`, `WEB_CONTRACT.md`; `quiz_methodology.json` (the methodology page's texts, edited by hand) with its own schema |
 | `jef/` | Production data: directions and labels (`jef/directions/`), theme registry (`jef/directions/registry.csv`), positions (`jef/positions/`), statements (`jef/quiz/`) |
 | `manual/` | Tables kept by hand: CEC lists and candidates, candidate ↔ MK matching, English MK names |
 | `local/` | Research behind the decisions: experiments, checks, early approaches (`local/README.md`). Published selectively (scripts, texts, small result tables; no people's answers) — `local/` stays ignored, add new files with `git add -f`. **Not production**: do not import from it; the procedure scripts in `local/research/scripts/` named by the skills are run, never imported |

@@ -2,7 +2,7 @@
 
 _The only link between the data side (`pipeline/`) and the web (`web/`): the web reads `export/` and nothing else, never calls Python.
 Python is the reference (`pipeline/quiz_match.py`, `quiz_flow.py`, `quiz_report.py`); the TypeScript port (`web/src/engine/`) must
-reproduce `golden.json` to 1e-9. Texts of the methodology and positions pages — `METHODOLOGY_PAGE.md`. No history here: the
+reproduce `golden.json` to 1e-9. Texts of the methodology page — `quiz_methodology.json` (§7). No history here: the
 current contract only; what changed and why is in `docs/WORKLOG.md`._
 
 ## 1. Files and loading
@@ -11,7 +11,9 @@ current contract only; what changed and why is in `docs/WORKLOG.md`._
 |---|---|---|
 | `quiz_core.json` | `flow` (parameters of the question order), `core` (the first statements, in order), the core statements | yes, bundled with the app (~2 KB) |
 | `quiz_data.json` | `params`, all statements (with `interest`, `area`, `sim_group`), `directions`, `lists` with `positions` and `composition` | yes, fetched first |
-| `quiz_bills.json` | `mks` (with `party_en`), `by_direction`, `votes`, `bills` — only for List details and «Bills of one statement» | yes, fetched second |
+| `quiz_methodology.json` | every text of the methodology page (§7); edited by hand, not written by `export.py` | yes, fetched second |
+| `quiz_bills.json` | `mks` (with `party_en`), `by_direction`, `votes`, `bills` — only for List details and «Bills of one statement» | yes, fetched third |
+| `quiz_methodology.schema.json` | JSON Schema of `quiz_methodology.json`, generated from `web/src/methodology.ts` | `make check`, tests |
 | `quiz_data.schema.json` | JSON Schema of the three files merged | tests |
 | `golden.json` | answer sets → ranking, notes, trade-off pairs, explanation lines, evidence order, question order («flow N» cases) | tests |
 
@@ -21,16 +23,18 @@ Goal: the start page never waits for data, and a loader almost never appears.
 |---|---|---|---|
 | `quiz_core.json` | ~2 KB (1 KB) | `flow`, `core`, the core statements | the start page and the first `flow.core` questions |
 | `quiz_data.json` | ~217 KB | `params`, all statements, `directions`, `lists` with positions | clarifying questions, trade-offs, Results |
+| `quiz_methodology.json` | ~11 KB (4 KB) | texts of the methodology page | Methodology |
 | `quiz_bills.json` | ~1.8 MB | `mks`, `by_direction`, `bills` | List details and «Bills of one statement» only |
 
 - The two big files are **not bundled** into the JS: the app shell (start page, styles, fonts, the ~2 KB `quiz_core`) loads
   alone; `quiz_data` and `quiz_bills` are fetched as static files from the site itself (CSP `connect-src 'self'` allows it).
-- Fetch order: `quiz_data` immediately when the app is up (before the user presses Start), then `quiz_bills` as soon as
-  `quiz_data` has arrived. The user is answering the core questions meanwhile, so the next file is normally ready before it
+- Fetch order: `quiz_data` immediately when the app is up (before the user presses Start), then `quiz_methodology`, then
+  `quiz_bills` as soon as the previous one has arrived. The user is answering the core questions meanwhile, so the next file is normally ready before it
   is needed.
 - A loader is shown only if the user reaches a screen whose file has not arrived yet (e.g. the first clarifying question
   before `quiz_data`, List details before `quiz_bills`), and only for that screen.
-- All three files carry the same `generated` and `source_commit`; if a fetched file differs from the bundled core
+- The three data files carry the same `generated` and `source_commit` (`quiz_methodology` carries `updated` instead: it is
+  content, not computed); if a fetched file differs from the bundled core
   (a deploy mid-session), it is fetched once more bypassing the cache, then an error asks to reload the page.
 - Caching: the files get content-hashed names at build time (Vite assets, `immutable`); the app always references the files
   of its own build.
@@ -120,6 +124,52 @@ golden cases (no formula), plain display.
 
 `mks[].party_en` — the component party of the 2026 list the former MK runs with (Central Elections Committee candidate list; null = the list itself); `lists[].composition` — the same aggregated, most first: `[{"party_en": "Yesh Atid", "ex_mks": 17}, …]`. Proposed line on the List details screen: «Based on 19 former MKs: 17 from Yesh Atid, 2 from Be’Yahad» (whether and how to show it — the customer's decision).
 
-## 6. Positions page
+## 6. Positions page (not built yet)
 
-Structure and texts — `METHODOLOGY_PAGE.md`, section «Positions of the lists page»: the 123 statements × the evaluated lists, cell = measured side by the explanations' rule, click → the bills; the right-to-contest text with the GitHub issues link.
+Established voting advice applications let parties see and dispute their coded positions before publication. Our equivalent is a
+public, complete table of what the quiz holds about every list, built only from data already in the export — no new fields.
+
+**Page «Positions of the lists»** (linked from Methodology and from Results; English):
+- Rows: the statements (`title_en`, grouped by `area` from `statements[]`, in the quiz's area order). Columns: the evaluated
+  lists (`status == "ok"`), then the ranked-with-warning lists in a second block; lists without a record are not columns.
+- Cell: the list's measured side on the statement — «toward» / «against» / «no clear position» — by the same rule as the
+  explanations (`params.CLOSE`, `MIN_CLEAR_MKS`, `MIN_CLEAR_BILLS` on `lists[].positions[d]`); a small marker when the side comes
+  from votes only (`P_bills` is 0 or opposite to `P`, as in the «side comes from votes» line). No numbers in the cell.
+- Click on a cell → the same bill list as the List details screen for that statement (bills toward / against, votes), so the
+  claim is checkable down to the Knesset record.
+- Header text (fixed): «This is everything the quiz holds about each list, measured from the bills its candidates who were MKs
+  sponsored and how they voted in the 24th–25th Knesset. If you represent a list and believe a cell is wrong, the bills behind
+  it are listed — open an issue at https://github.com/Oleg378/knesset-votematch/issues with the bill and the reason; corrections
+  are published here.» (customer, 2026-10-22: contact = GitHub issues).
+- Export: `quiz_data.json` + `quiz_bills.json` only; the page is static like the rest.
+
+## 7. Methodology page: every text from `quiz_methodology.json`
+
+Nothing of the page is written in the web code: the heading, the «Back» label, the sections and the labels of the statements
+block come from `export/quiz_methodology.json`. Change the file, and the page changes. The file is edited by hand on the data
+side (the one file in `export/` that `pipeline/export.py` does not write) and checked twice: `make check` (I8) validates it
+against `export/quiz_methodology.schema.json`, and the web tests parse it with the zod schema in `web/src/methodology.ts`, from
+which the JSON Schema is generated (`cd web && npm run schema:methodology` after changing the structure; the test fails while
+the file on disk is stale). The app parses the file with the same schema when it arrives; a file that fails is a load error.
+
+Structure (`web/src/methodology.ts`):
+- `updated` (date of the last change of the texts), `heading`, `back`.
+- `sections[]`: `title` (bold run-in start of the paragraph, with its own punctuation), optional `text`, optional `bullets[]`
+  of `{lead, text}` (`lead` in italics as the run-in start of the bullet), optional `after` (a paragraph after the bullets).
+- `statements`: the labels of the block «All N statements, their topics and the bills behind them» — `heading`, `topic`, `up`,
+  `down`, `agreeCountsUp`, `agreeCountsDown`, `billsCount`, `billMeta`, `sideUp`, `sideDown`, `roleMain`, `roleSecondary`,
+  `sponsors`, `noSponsors`, `showMore`, `billLink`, `dataVersion`.
+
+Numbers are never typed into the texts: a text uses `{name}`, and `{name?one|many}` chooses the word by the value
+(`{single} {single?list|lists}`). The section texts may use, all read from `quiz_data.json`: `lists` (all lists), `evaluable`
+(evaluated with `ex_mks >= params.MIN_EX_MKS`), `single` (evaluated below it: shown, not ranked), `no_record`, `close`
+(`params.CLOSE`), `statements`, `core` and `clarify` (`flow`), `vote_ratio` (`round(1 / params.VOTE_WEIGHT)`), `min_lists`,
+`min_mks`, `min_spread`, `min_names` (`params.SELECT_*`, the selection thresholds of `pipeline/quiz_select.py`). Each label of
+the statements block has its own names (`web/src/methodology.ts`, `STATEMENT_PLACEHOLDERS`). Any other name, or a stray
+brace, fails the schema.
+
+The texts are derived from `docs/METHODOLOGY.md` (concept) and `docs/TECHNICAL.md` (numbers); the data side keeps them
+current. Statement titles named in the texts are quoted «as stored» (`title_en`).
+
+**Composition of the list's record** on the List details screen — §5 — is not shown yet; the methodology text says only that
+the results carry a note when few former MKs stand behind a list.

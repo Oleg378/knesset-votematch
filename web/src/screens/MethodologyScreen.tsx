@@ -5,14 +5,15 @@ import { ExternalLink } from '../components/ExternalLink';
 import { HebrewTitle } from '../components/HebrewTitle';
 import { billUrl } from '../engine/report';
 import type { BillRef, QuizBills, QuizData, Statement } from '../engine/types';
-import { S, type MethodNumbers } from '../strings';
-import type { BillsScreenProps } from './types';
+import { dataValues, fill, type Methodology } from '../methodology';
+import type { MethodologyScreenProps } from './types';
 
 const PAGE = 20;
-const M = S.methodology;
 
-function MethodBill({ data, bills, ref_: [id, sign, role], names }: { data: QuizData; bills: QuizBills;
-  ref_: BillRef; names: Map<string, string> }) {
+type Labels = Methodology['statements'];
+
+function MethodBill({ data, bills, ref_: [id, sign, role], names, t }: { data: QuizData; bills: QuizBills;
+  ref_: BillRef; names: Map<string, string>; t: Labels }) {
   const b = bills.bills[id]!;
   const order = new Map(data.lists.map((l, i) => [l.id, i]));
   // Sponsoring lists: sponsors -> mks[].list, in the order of data.lists.
@@ -21,17 +22,20 @@ function MethodBill({ data, bills, ref_: [id, sign, role], names }: { data: Quiz
   return (
     <li className="bill">
       <HebrewTitle text={b.name_he} className="bill-title" />
-      <span className="small muted">{M.billMeta(b.knesset, role, sign > 0)}</span>
-      <span className="small">
-        {lists.length ? M.sponsoringLists(lists.map((l) => names.get(l) ?? l).join('; ')) : M.noSponsors}
+      <span className="small muted">
+        {fill(t.billMeta, { side: sign > 0 ? t.sideUp : t.sideDown, knesset: b.knesset,
+          role: role === 'main' ? t.roleMain : t.roleSecondary })}
       </span>
-      <ExternalLink href={billUrl(data.params, id)}>{S.bills.link}</ExternalLink>
+      <span className="small">
+        {lists.length ? fill(t.sponsors, { names: lists.map((l) => names.get(l) ?? l).join('; ') }) : t.noSponsors}
+      </span>
+      <ExternalLink href={billUrl(data.params, id)}>{t.billLink}</ExternalLink>
     </li>
   );
 }
 
-function StatementBody({ data, bills, st, names }: { data: QuizData; bills: QuizBills; st: Statement;
-  names: Map<string, string> }) {
+function StatementBody({ data, bills, st, names, t }: { data: QuizData; bills: QuizBills; st: Statement;
+  names: Map<string, string>; t: Labels }) {
   const [n, setN] = useState(PAGE);
   const dir = data.directions[st.d];
   const refs = bills.by_direction[st.d] ?? [];
@@ -40,72 +44,70 @@ function StatementBody({ data, bills, st, names }: { data: QuizData; bills: Quiz
       <p>{`“${st.statement_en}”`}</p>
       {dir && (
         <div className="stack small">
-          <span className="title-sm">{M.direction(dir.name_en)}</span>
-          <span>{M.plus(dir.plus_en)}</span>
-          <span>{M.minus(dir.minus_en)}</span>
-          <span className="muted">{M.agreeMeans(st.key > 0)}</span>
+          <span className="title-sm">{fill(t.topic, { name: dir.name_en })}</span>
+          <span>{fill(t.up, { text: dir.plus_en })}</span>
+          <span>{fill(t.down, { text: dir.minus_en })}</span>
+          <span className="muted">{st.key > 0 ? t.agreeCountsUp : t.agreeCountsDown}</span>
         </div>
       )}
-      <span className="title-sm">{M.billsCount(refs.length)}</span>
+      <span className="title-sm">{fill(t.billsCount, { n: refs.length })}</span>
       <ul className="plain-list">
         {refs.slice(0, n).map((r) => (
-          <MethodBill key={r[0]} data={data} bills={bills} ref_={r} names={names} />
+          <MethodBill key={r[0]} data={data} bills={bills} ref_={r} names={names} t={t} />
         ))}
       </ul>
       {refs.length > n && (
         <Button variant="link" onClick={() => setN(n + PAGE)}>
-          {M.showMore(refs.length - n)}
+          {fill(t.showMore, { n: refs.length - n })}
         </Button>
       )}
     </>
   );
 }
 
-function methodNumbers(data: QuizData): MethodNumbers {
-  const evaluated = data.lists.filter((l) => l.status !== 'not_evaluated');
-  const evaluable = evaluated.filter((l) => l.ex_mks >= data.params.MIN_EX_MKS).length;
-  return { lists: data.lists.length, evaluable, single: evaluated.length - evaluable,
-    noRecord: data.lists.length - evaluated.length, close: data.params.CLOSE };
-}
-
-export function MethodologyScreen({ data, bills, dispatch }: BillsScreenProps) {
+/**
+ * Every text here comes from quiz_methodology.json (export/WEB_CONTRACT.md §7): the heading, the sections (bold run-in
+ * title, text, bullets with an italic lead, a closing paragraph) and the labels of the statements block. The numbers are
+ * filled from quiz_data (methodology.ts).
+ */
+export function MethodologyScreen({ data, bills, methodology, dispatch }: MethodologyScreenProps) {
   const names = new Map(data.lists.map((l) => [l.id, l.name_en]));
+  const v = dataValues(data);
+  const t = methodology.statements;
   return (
     <section className="screen">
       <Button variant="link" onClick={() => dispatch({ type: 'BACK' })}>
-        {M.back}
+        {methodology.back}
       </Button>
-      <h1 className="title-lg">{M.heading}</h1>
+      <h1 className="title-lg">{methodology.heading}</h1>
       <div className="stack-lg">
-        {M.sections(methodNumbers(data)).map((s) => (
+        {methodology.sections.map((s) => (
           <div key={s.title} className="stack">
-            {s.text !== undefined && (
-              <p>
-                <strong>{s.title}</strong> {s.text}
-              </p>
-            )}
-            {s.text === undefined && <p><strong>{s.title}</strong></p>}
+            <p>
+              <strong>{s.title}</strong>{s.text !== undefined && <> {fill(s.text, v)}</>}
+            </p>
             {s.bullets && (
               <ul className="method-bullets">
-                {s.bullets.map(([lead, text]) => (
-                  <li key={lead}>
-                    <em>{lead}</em> {text}
+                {s.bullets.map((b) => (
+                  <li key={b.lead}>
+                    <em>{fill(b.lead, v)}</em> {fill(b.text, v)}
                   </li>
                 ))}
               </ul>
             )}
+            {s.after !== undefined && <p>{fill(s.after, v)}</p>}
           </div>
         ))}
       </div>
-      <h2 className="title-md">{M.statementsHeading(data.statements.length)}</h2>
+      <h2 className="title-md">{fill(t.heading, { statements: data.statements.length })}</h2>
       <div className="stack">
         {data.statements.map((st) => (
           <Accordion key={st.q} title={st.title_en}>
-            {() => <StatementBody data={data} bills={bills} st={st} names={names} />}
+            {() => <StatementBody data={data} bills={bills} st={st} names={names} t={t} />}
           </Accordion>
         ))}
       </div>
-      <p className="xsmall muted">{M.dataVersion(data.generated, data.source_commit)}</p>
+      <p className="xsmall muted">{fill(t.dataVersion, { generated: data.generated, commit: data.source_commit })}</p>
     </section>
   );
 }

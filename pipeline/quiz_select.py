@@ -20,7 +20,7 @@ import numpy as np
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 POS = os.path.join(ROOT, "jef/positions")
-MIN_LISTS, MIN_SD, MIN_NAMES, GOV_R = 8, 0.25, 5, 0.8   # [У] 2026-10-18: volume by distinct names, 5 (customer: 10 by names is too coarse)
+MIN_LISTS, MIN_MKS, MIN_SD, MIN_NAMES, GOV_R = 8, 3, 0.25, 5, 0.8   # [У] 2026-10-18: volume by distinct names, 5 (customer: 10 by names is too coarse)
 
 def _bills_by_list_direction():
     """(list, direction) -> set of distinct bill NAMES (without the year) sponsored (initiator) by the list's ex-MKs, Knessets 24–25."""
@@ -47,7 +47,7 @@ def criteria():
     G = {(r["letters"], r["knesset"]): float(r["share_with_gov"]) for r in csv.DictReader(open(os.path.join(POS, "government_layer_list.csv")))}
     by = collections.defaultdict(list)
     for r in csv.DictReader(open(os.path.join(POS, "list_topic_positions.csv"))):
-        if r["letters"] in ok and int(r["n_mk"]) >= 3: by[(r["d"], r["direction"])].append(r)
+        if r["letters"] in ok and int(r["n_mk"]) >= MIN_MKS: by[(r["d"], r["direction"])].append(r)
     out = {}; BL = _bills_by_list_direction()
     for (d, name), xs in by.items():
         P = [float(x["P"]) for x in xs]; nA = len(set().union(*(BL.get((x["letters"], d), set()) for x in xs)))

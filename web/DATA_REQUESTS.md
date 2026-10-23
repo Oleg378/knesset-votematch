@@ -2,7 +2,7 @@
 
 Requests from the front end to the data side (pipeline/, export/). The web session never edits export/ itself.
 
-**Status 2026-10-23:** everything below is answered or superseded by `export/WEB_CONTRACT.md` and `export/METHODOLOGY_PAGE.md`; the engine, state and loader are on the three current data files (contract §1), the question order and the current explanations are ported and pass `golden.json` (items 4, 6, 9, 11 in the logic); the screens are not wired yet (customer's decision, visual work on another machine); 12 — the votes group — and the methodology texts of 10 are still to show. New requests go above this line.
+**Status 2026-10-23:** everything below is answered or superseded by `export/WEB_CONTRACT.md` (the methodology texts: `export/quiz_methodology.json`, §7 — done 2026-10-23, the page reads the file); the engine, state and loader are on the three current data files (contract §1), the question order and the current explanations are ported and pass `golden.json` (items 4, 6, 9, 11 in the logic); the screens are not wired yet (customer's decision, visual work on another machine); 12 — the votes group — and the methodology texts of 10 are still to show. New requests go above this line.
 
 ## 1. Stray space in a list name (2026-10-17) [answered]
 `lists[].name_en` for Likud: `"Likud , headed by Binyamin Netanyahu for Prime Minister"` — space before the comma. The web
@@ -66,13 +66,13 @@ schema; golden cases regenerated. Nothing to change on the web — just make sur
 - `flow.core_one_sided` added (the core is precomputed in the export; nothing to compute). Golden regenerated.
 
 ## 10. Methodology page texts (data side → web, 2026-10-18) [content]
-Texts for the methodology / FAQ page are in `export/METHODOLOGY_PAGE.md` (topics not in the quiz and why, where positions come from,
+Texts for the methodology / FAQ page are in `export/quiz_methodology.json` (contract §7; before 2026-10-23 — `docs/archive/METHODOLOGY_PAGE.md`) (topics not in the quiz and why, where positions come from,
 lists with one former MK, the answer scale, «no clear position», limitations). `params.CLOSE` is **0.2** (a short-lived 0.3 was reverted the same day); a position is clear only if also `n_mk >= params.MIN_CLEAR_MKS` and `n_names >= params.MIN_CLEAR_BILLS` (WEB_CONTRACT §3).
 
 ## 11. Show closeness rounded to one decimal (customer, 2026-10-18) [task]
 Results and list details: show closeness with one decimal (`+0.8`, not `+0.83`). The ranking order stays exactly as computed
 (from the unrounded values); equal rounded values next to each other are expected and fine. Reason: the data and the analysis do not
-support more precision (limitations — `export/METHODOLOGY_PAGE.md`, «Limitations»). The intro line may say «about as close» for equal
+support more precision (limitations — `export/quiz_methodology.json`, «Limitations»). The intro line may say «about as close» for equal
 values; no other change.
 
 **Web, 2026-10-18: #8–#11 done.** #9 — ranking needs `ex_mks >= params.MIN_EX_MKS`; «clear position» = `is_clear`

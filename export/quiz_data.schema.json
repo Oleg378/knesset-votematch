@@ -68,7 +68,11 @@
     "BILL_URL",
     "MIN_EX_MKS",
     "MIN_CLEAR_MKS",
-    "MIN_CLEAR_BILLS"
+    "MIN_CLEAR_BILLS",
+    "SELECT_MIN_LISTS",
+    "SELECT_MIN_MKS",
+    "SELECT_MIN_SPREAD",
+    "SELECT_MIN_NAMES"
    ],
    "properties": {
     "K": {
@@ -119,6 +123,22 @@
     "MIN_CLEAR_BILLS": {
      "type": "integer",
      "minimum": 1
+    },
+    "SELECT_MIN_LISTS": {
+     "type": "integer",
+     "description": "Selection of themes: at least this many evaluated lists with a position on the theme (informational, methodology page)."
+    },
+    "SELECT_MIN_MKS": {
+     "type": "integer",
+     "description": "Selection: a list's position on the theme counts if it rests on at least this many former MKs."
+    },
+    "SELECT_MIN_SPREAD": {
+     "type": "number",
+     "description": "Selection: population SD of the lists' positions on the theme at least this."
+    },
+    "SELECT_MIN_NAMES": {
+     "type": "integer",
+     "description": "Selection: at least this many distinct bills (by name) sponsored by the lists' former MKs."
     }
    }
   },
