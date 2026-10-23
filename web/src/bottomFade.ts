@@ -9,19 +9,23 @@ export function watchBottomFade(): () => void {
   let frame = 0;
   const update = () => {
     frame = 0;
-    root.toggleAttribute('data-below', root.scrollHeight - window.scrollY - window.innerHeight > 1);
+    // A short page scrolls inside .app (shortScroll.ts).
+    const app = root.hasAttribute('data-inner-scroll') ? document.querySelector('.app') : null;
+    const below = app ? app.scrollHeight - app.scrollTop - app.clientHeight
+      : root.scrollHeight - window.scrollY - window.innerHeight;
+    root.toggleAttribute('data-below', below > 1);
   };
   const schedule = () => {
     if (!frame) frame = requestAnimationFrame(update);
   };
-  window.addEventListener('scroll', schedule, { passive: true });
+  window.addEventListener('scroll', schedule, { passive: true, capture: true }); // capture: .app's own scroll too
   window.addEventListener('resize', schedule);
   const sizes = typeof ResizeObserver === 'function' ? new ResizeObserver(schedule) : null;
   sizes?.observe(document.body); // a new screen, the reserve, the font
   update();
   return () => {
     cancelAnimationFrame(frame);
-    window.removeEventListener('scroll', schedule);
+    window.removeEventListener('scroll', schedule, { capture: true });
     window.removeEventListener('resize', schedule);
     sizes?.disconnect();
     root.removeAttribute('data-below');

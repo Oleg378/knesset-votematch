@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useReducer, useRef, useState, useSyncE
 import { flushSync } from 'react-dom';
 import { track } from './analytics';
 import { isCardChange, slideCard } from './cardTransition';
+import { watchShortScroll } from './shortScroll';
 import { Counter, Header } from './components/Header';
 import { Loading, LoadError } from './components/Loading';
 import { Menu } from './components/Menu';
@@ -49,7 +50,16 @@ export default function App({ loader }: { loader: Loader }) {
   const send = useCallback((action: Action) => {
     const next = reducerRef.current(stateRef.current, action);
     if (!isCardChange(stateRef.current.screen, next.screen)) dispatch(action);
-    else slideCard(() => flushSync(() => dispatch(action)), action.type === 'BACK');
+    else slideCard(() => {
+      flushSync(() => dispatch(action));
+      // A short page scrolls inside .app (shortScroll.ts): the new card starts at its top, set here, before the browser
+      // takes its picture — so nothing scrolls on screen; the old card leaves as it was. The page itself is never
+      // scrolled around the transition (cardTransition.ts).
+      if (document.documentElement.hasAttribute('data-inner-scroll')) {
+        const app = document.querySelector('.app');
+        if (app) app.scrollTop = 0;
+      }
+    }, action.type === 'BACK');
   }, []);
 
   useEffect(() => {
@@ -79,8 +89,15 @@ export default function App({ loader }: { loader: Loader }) {
     prev.current = sc.name;
     guard.sync(sc.name === 'start');
     // During a card change the page must not scroll: cardTransition.ts scrolls to the top when it ends.
-    if (!document.documentElement.dataset.card) window.scrollTo(0, 0);
+    if (!document.documentElement.dataset.card) {
+      window.scrollTo(0, 0);
+      if (appRef.current) appRef.current.scrollTop = 0; // a short page scrolls inside .app (shortScroll.ts)
+    }
   }, [key]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Short scrolls (shortScroll.ts): a page a little longer than the window scrolls inside .app.
+  const appRef = useRef<HTMLElement>(null);
+  useEffect(() => (appRef.current ? watchShortScroll(appRef.current) : undefined), []);
 
   const [menu, setMenu] = useState(false);
   const closeMenu = useCallback(() => setMenu(false), []);
@@ -131,7 +148,7 @@ export default function App({ loader }: { loader: Loader }) {
   }
 
   return (
-    <main className="app">
+    <main ref={appRef} className="app">
       <Header onMenu={() => setMenu(true)}
         onStartOver={sc.name === 'results' ? () => send({ type: 'RESTART' }) : undefined}>{header}</Header>
       {menu && (

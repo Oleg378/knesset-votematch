@@ -53,6 +53,41 @@ button {
   gap: var(--space-4);
 }
 
+/* Short scrolls (shortScroll.ts): a page a little longer than the window scrolls inside .app, one window high with the
+   browser bars shown, so the document does not scroll and the bars stay. The pinned header and bottom bar stick inside
+   .app the same way. --svh / --lvh: the window heights with the bars shown and hidden, registered as <length> so that
+   getComputedStyle gives them in px. */
+:root[data-inner-scroll] .app {
+  height: 100svh;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+}
+
+@property --svh {
+  syntax: '<length>';
+  inherits: false;
+  initial-value: 0px;
+}
+
+@property --lvh {
+  syntax: '<length>';
+  inherits: false;
+  initial-value: 0px;
+}
+
+@property --dvh {
+  syntax: '<length>';
+  inherits: false;
+  initial-value: 0px;
+}
+
+:root {
+  --svh: 100svh;
+  --lvh: 100lvh;
+  --dvh: 100dvh;
+}
+
 /* Card mode (width ≥ 600 and height ≥ 480 — Material 3 «medium» width and up, not «compact» height): the mobile column
    is a white card on the brand tint, so the window is not empty around it (customer 2026-10-17, variant C). Below
    either point — phones, phones in landscape, strong zoom — the plain phone layout. */
