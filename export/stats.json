@@ -1,0 +1,20 @@
+{
+ "generated": "2026-10-23",
+ "source_commit": "f5bdf1a",
+ "statements": 123,
+ "lists": {
+  "total": 38,
+  "evaluated": 12,
+  "warning": 4,
+  "no_record": 22
+ },
+ "bills": 6666,
+ "mks": 128,
+ "directions": 123,
+ "files": {
+  "quiz_core.json": 3,
+  "quiz_data.json": 258,
+  "quiz_bills.json": 1995,
+  "quiz_texts.json": 15
+ }
+}
