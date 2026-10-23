@@ -115,24 +115,76 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
     click(S.start.howItWorks);
     screen.getByRole('heading', { name: methodology.heading });
     const v = dataValues(data);
-    for (const s of methodology.sections) {
+    const open = methodology.sections.filter((s) => !s.collapsed);
+    expect(open.length).toBeGreaterThan(0);
+    for (const s of open) {
       // every section is a card (the panel of the question card): its title, its bullets and its closing paragraph in it
       const card = screen.getByText(fill(s.title, v), { exact: false }).closest('.panel');
       expect(card).not.toBeNull();
+      expect(within(card as HTMLElement).queryByRole('button', { name: s.title })).toBeNull(); // open, no head to press
       for (const b of s.bullets ?? []) within(card as HTMLElement).getByText(fill(b.lead, v), { exact: false });
       if (s.after !== undefined) within(card as HTMLElement).getByText(fill(s.after, v));
     }
     // a bullet reads as one sentence: its lead, a space, its text
     expect(document.querySelector('.screen')!.textContent).toContain(`${v.evaluable} of ${v.lists} lists can be evaluated`);
-    // the statements block is a card too: its heading, then a row per statement; the data line under it, outside
-    const heading = screen.getByRole('heading', { name: fill(methodology.statements.heading, { statements: data.statements.length }) });
-    const statements = heading.closest('.panel') as HTMLElement;
+    // the statements block is a card too: its heading, then (once opened, if collapsed) a row per statement; the data
+    // line under it, outside
+    const name = fill(methodology.statements.heading, { statements: data.statements.length });
+    const statements = screen.getByRole('heading', { name }).closest('.panel') as HTMLElement;
     expect(statements).not.toBeNull();
-    expect(statements.querySelectorAll('.accordion')).toHaveLength(data.statements.length);
+    if (methodology.statements.collapsed) fireEvent.click(within(statements).getByRole('button', { name: S.results.seeAll }));
+    expect(statements.querySelectorAll('.method-rows .accordion')).toHaveLength(data.statements.length);
     const dataLine = screen.getByText(fill(methodology.statements.dataVersion, { generated: data.generated, commit: data.source_commit }));
     expect(dataLine.closest('.panel')).toBeNull();
     expect(document.querySelectorAll('.screen .panel')).toHaveLength(methodology.sections.length + 1);
     expect(document.body.textContent).not.toMatch(/[{}]/);
+  });
+
+  it('reference cards (`collapsed`) start closed with «See all» under the title, the content drops down, «Show less» closes it', () => {
+    render(<App loader={loaded()} />);
+    click(S.start.howItWorks);
+    const v = dataValues(data);
+    const folded = methodology.sections.filter((s) => s.collapsed);
+    expect(folded.map((s) => s.title)).toEqual(['How topics are chosen.', 'Important topics that are not in the quiz, and why']);
+    expect(methodology.statements.collapsed).toBe(true);
+    const shown = (card: HTMLElement, s: (typeof folded)[number]) => {
+      if (s.text !== undefined) within(card).getByText(fill(s.text, v));
+      for (const b of s.bullets ?? []) within(card).getByText(fill(b.lead, v), { exact: false });
+      if (s.after !== undefined) within(card).getByText(fill(s.after, v));
+    };
+    const hidden = (card: HTMLElement, s: (typeof folded)[number]) => {
+      for (const b of s.bullets ?? []) expect(within(card).queryByText(fill(b.lead, v), { exact: false })).toBeNull();
+      if (s.after !== undefined) expect(within(card).queryByText(fill(s.after, v))).toBeNull();
+    };
+    for (const s of folded) {
+      const card = screen.getByText(s.title).closest('.panel') as HTMLElement;
+      // the title is not a button; the only control is «See all»
+      expect(within(card).queryByRole('button', { name: s.title })).toBeNull();
+      hidden(card, s);
+      const more = within(card).getByRole('button', { name: S.results.seeAll });
+      expect(more.getAttribute('aria-expanded')).toBe('false');
+      expect(within(card).getAllByRole('button')).toEqual([more]);
+      fireEvent.click(more);
+      shown(card, s);
+      const less = within(card).getByRole('button', { name: S.results.seeLess });
+      expect(less.getAttribute('aria-expanded')).toBe('true');
+      expect(document.getElementById(less.getAttribute('aria-controls')!)!.contains(less)).toBe(true);
+      expect(within(card).queryByRole('button', { name: S.results.seeAll })).toBeNull();
+      fireEvent.click(less);
+      hidden(card, s);
+      expect(document.activeElement).toBe(within(card).getByRole('button', { name: S.results.seeAll }));
+    }
+    // the statements block: its heading as on an open card, the rows drop down with «See all»
+    const name = fill(methodology.statements.heading, { statements: data.statements.length });
+    const card = screen.getByRole('heading', { level: 2, name }).closest('.panel') as HTMLElement;
+    expect(within(card).queryByRole('button', { name })).toBeNull();
+    expect(card.querySelectorAll('.method-rows .accordion')).toHaveLength(0);
+    fireEvent.click(within(card).getByRole('button', { name: S.results.seeAll }));
+    expect(card.querySelectorAll('.method-rows .accordion')).toHaveLength(data.statements.length);
+    within(card).getByRole('button', { name: data.statements[0]!.title_en });
+    fireEvent.click(within(card).getByRole('button', { name: S.results.seeLess }));
+    expect(card.querySelectorAll('.method-rows .accordion')).toHaveLength(0);
+    within(card).getByRole('button', { name: S.results.seeAll });
   });
 
   it('«Which lists have a record»: the bullets with the numbers, the lists with no record dropping down in its card', () => {
@@ -160,14 +212,14 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
     const shown = () => within(card).getAllByRole('list', { name: line }).flatMap((ul) =>
       within(ul).getAllByRole('listitem').map((li) => li.textContent));
     expect(shown()).toEqual(names.slice(0, HIGHLIGHT));
-    expect(screen.queryByRole('button', { name: S.results.seeLess })).toBeNull();
+    expect(within(card).queryByRole('button', { name: S.results.seeLess })).toBeNull();
     const more = within(card).getByRole('button', { name: S.results.seeAll });
     expect(more.getAttribute('aria-expanded')).toBe('false');
     // nothing to press per list: the only buttons of the card are «See all» / «Show less»
     expect(within(card).getAllByRole('button')).toEqual([more]);
     fireEvent.click(more);
     expect(shown()).toEqual(names);
-    expect(screen.queryByRole('button', { name: S.results.seeAll })).toBeNull();
+    expect(within(card).queryByRole('button', { name: S.results.seeAll })).toBeNull();
     const less = within(card).getByRole('button', { name: S.results.seeLess });
     expect(card.querySelector('.list-names-drop > :last-child')!.contains(less)).toBe(true);
     fireEvent.click(less);

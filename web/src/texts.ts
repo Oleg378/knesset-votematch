@@ -222,6 +222,8 @@ export const SectionSchema = z.strictObject({
     of: z.enum(['no_record', 'single']),
     title: template(SECTION_LISTS_PLACEHOLDERS),
   })),
+  /** A reference block: the card is closed by default, its title the head that opens it. */
+  collapsed: z.optional(z.boolean()),
 });
 
 const answerKeys = { '2': plain, '1': plain, '0': plain, '-1': plain, '-2': plain };
@@ -253,7 +255,11 @@ export const TextsSchema = z.strictObject({
     back: plain,
     sections: z.array(SectionSchema).check(z.minLength(1)),
     /** Labels of the block «All N statements, their topics and the bills behind them». */
-    statements: templates(STATEMENT_PLACEHOLDERS),
+    statements: z.strictObject({
+      ...templateShape(STATEMENT_PLACEHOLDERS),
+      /** The block is closed by default, its heading the head that opens it. */
+      collapsed: z.optional(z.boolean()),
+    }),
   }),
 });
 

@@ -211,6 +211,9 @@ file: any other name, or a stray brace, fails the schema. A key not listed below
   `no_record` (status `not_evaluated`) or `single` (evaluated, `ex_mks < params.MIN_EX_MKS`) — in the order of `data.lists`. `title`
   (`{n}` = their count) is drawn as the last bullet of the section; under it the first 5 names, «See all» (`results.seeAll`),
   the rest drop down inside the same card, «Show less» at the end. Every section is a card (the tinted panel of the question card).
+  Optional `collapsed: true` (on a section, and on `statements` for the statements block): reference material the reader consults
+  rather than reads — the card starts closed, its title is the head of an accordion. Which blocks are collapsed is content: the data
+  side sets it in the file, by one criterion — needed to understand and trust the result (open) or a reference list (collapsed).
 - `statements`: the labels of the block «All N statements, their topics and the bills behind them» — `heading`, `topic`, `up`,
   `down`, `agreeCountsUp`, `agreeCountsDown`, `billsCount`, `billMeta`, `sideUp`, `sideDown`, `roleMain`, `roleSecondary`,
   `sponsors`, `noSponsors`, `showMore`, `billLink`, `dataVersion`.

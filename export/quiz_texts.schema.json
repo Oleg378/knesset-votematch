@@ -834,6 +834,9 @@
          "title"
         ],
         "additionalProperties": false
+       },
+       "collapsed": {
+        "type": "boolean"
        }
       },
       "required": [
@@ -929,6 +932,9 @@
        "type": "string",
        "minLength": 1,
        "pattern": "^(?:[^{}]|\\{(?:generated|commit)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "collapsed": {
+       "type": "boolean"
       }
      },
      "required": [

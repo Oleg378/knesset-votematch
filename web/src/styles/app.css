@@ -698,7 +698,7 @@ button.card:active {
   background: var(--color-row-band);
 }
 
-.list-names .see-all {
+.list-names-more .see-all {
   margin-top: var(--space-1);
 }
 
@@ -708,7 +708,7 @@ button.card:active {
   padding-top: var(--space-2);
 }
 
-.method-card > .list-names:last-child {
+.method-card .list-names:last-child {
   margin-bottom: calc(var(--space-1) - var(--space-20));
 }
 
@@ -716,22 +716,46 @@ button.card:active {
    (Accordion.tsx) — white bands on the tint, as the answer buttons on the question card — 8 from the card's edge on
    every side but the top (the heading has the card's 20), corners concentric with the card's (24 − 8), 8 apart; the
    text on the card's 14 px inset, as the names of lists. */
-.method-card .accordion {
+.method-rows .accordion {
   margin-inline: calc(var(--space-2) - var(--panel-pad-x));
   border-radius: calc(var(--radius-lg) - var(--space-2));
   background: var(--color-surface);
 }
 
-.method-card .accordion-head {
+.method-rows .accordion-head {
   padding-inline: calc(var(--panel-pad-x) - var(--space-2));
 }
 
-.method-card .accordion-body {
+.method-rows .accordion-body {
   padding-inline: calc(var(--panel-pad-x) - var(--space-2));
 }
 
-.method-card > .method-rows:last-child {
+.method-card .method-rows:last-child {
   margin-bottom: calc(var(--space-2) - var(--space-20));
+}
+
+/* Reference cards (`collapsed` in the texts, customer 2026-10-24; MethodCard in MethodologyScreen.tsx): the title as on
+   every card, then «See all» — the drop-down of the names of lists (DropDown.tsx) — 4 under the title (the card's gap 8
+   − 4) and 4 above the card's bottom, as in the Results panel; the content drops down 8 under the title, its blocks 8
+   apart as in an open card, «Show less» 4 under the last of them. The lid while it closes is where «See all» will be. */
+.fold {
+  display: flex;
+  flex-direction: column;
+}
+
+.method-card > .fold:last-child {
+  margin-bottom: calc(var(--space-1) - var(--space-20));
+}
+
+.fold > .see-all,
+.fold-body > .see-all {
+  margin-top: calc(var(--space-1) - var(--space-2));
+}
+
+.fold-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
 }
 
 .scale-rows {

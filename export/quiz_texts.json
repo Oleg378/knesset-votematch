@@ -308,7 +308,8 @@
       "text": "A bill shared by a topic and a broader one counts toward only one of them."
      }
     ],
-    "after": "Topics where all lists pushed the same way, or with too few bills, are left out — even when important."
+    "after": "Topics where all lists pushed the same way, or with too few bills, are left out — even when important.",
+    "collapsed": true
    },
    {
     "title": "Important topics that are not in the quiz, and why",
@@ -339,7 +340,8 @@
       "text": "licensing procedures for businesses and professions; terms and deadlines; the size of public bodies; inheritance law; state awards."
      }
     ],
-    "after": "Not present at all, because no bill of a former member of the Knesset carries the topic in a way that separates the lists: the Gaza war and the hostages, a Palestinian state, the cost of living as such. The quiz measures legislation, not campaigns."
+    "after": "Not present at all, because no bill of a former member of the Knesset carries the topic in a way that separates the lists: the Gaza war and the hostages, a Palestinian state, the cost of living as such. The quiz measures legislation, not campaigns.",
+    "collapsed": true
    }
   ],
   "statements": {
@@ -359,7 +361,8 @@
    "noSponsors": "No sponsors among the 2026 candidates.",
    "showMore": "Show more ({n} left)",
    "billLink": "Open on the Knesset website",
-   "dataVersion": "Data: {generated} ({commit})."
+   "dataVersion": "Data: {generated} ({commit}).",
+   "collapsed": true
   }
  }
 }

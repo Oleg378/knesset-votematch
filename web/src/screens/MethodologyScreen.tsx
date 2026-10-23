@@ -1,6 +1,7 @@
-import { useId, useState } from 'react';
+import { useId, useState, type ReactNode } from 'react';
 import { Accordion } from '../components/Accordion';
 import { Button } from '../components/Button';
+import { DropDown } from '../components/DropDown';
 import { ExternalLink } from '../components/ExternalLink';
 import { HebrewTitle } from '../components/HebrewTitle';
 import { ListNames } from '../components/ListNames';
@@ -69,21 +70,36 @@ function StatementBody({ data, bills, st, names, t }: { data: QuizData; bills: Q
 type Section = Texts['methodology']['sections'][number];
 
 /**
+ * A card of the page (the panel of the question card; customer 2026-10-24): its title, then its content. A reference
+ * card (`collapsed` in the texts) shows only the title and «See all», the content drops down inside the card with
+ * «Show less» at its end — the same drop-down as the names of lists (DropDown.tsx).
+ */
+function MethodCard({ head, collapsed, children }: { head: (id: string) => ReactNode; collapsed?: boolean;
+  children: () => ReactNode }) {
+  const id = useId();
+  return (
+    <div className="panel method-card">
+      {head(id)}
+      {collapsed
+        ? <DropDown backTo={id} className="fold" dropClassName="fold-body">{children}</DropDown>
+        : children()}
+    </div>
+  );
+}
+
+/**
  * A section as a card (the panel of the question card; customer 2026-10-24): the bold run-in title and the text, the
  * bullets with an italic lead, then the closing paragraph. A section's `lists` is the last line of its bullets (its
  * title, {n} = how many, read as a bullet lead) with the names under it, the rest of them dropping down inside the card;
- * none — no line.
+ * none — no line. A `collapsed` section shows only its title; its text opens as the first paragraph of the content.
  */
 function MethodSection({ data, s, v }: { data: QuizData; s: Section; v: ReturnType<typeof dataValues> }) {
   const id = useId();
   const lists = s.lists ? listsOf(data, s.lists.of) : [];
   const listsLine = s.lists && lists.length > 0 ? fill(s.lists.title, { n: lists.length }) : undefined;
-  return (
-    <div className="panel method-card">
-      <p>
-        <strong>{s.title}</strong>{s.text !== undefined && <> {fill(s.text, v)}</>}
-      </p>
-      {(s.bullets || listsLine) && (
+  const content = (
+    <>
+      {s.bullets || listsLine ? (
         <ul className="method-bullets">
           {s.bullets?.map((b) => (
             <li key={b.lead}>
@@ -92,23 +108,55 @@ function MethodSection({ data, s, v }: { data: QuizData; s: Section; v: ReturnTy
           ))}
           {listsLine && <li id={id}><em>{listsLine}</em></li>}
         </ul>
-      )}
+      ) : null}
       {listsLine && <ListNames labelledBy={id} names={lists.map((l) => l.name_en)} />}
       {s.after !== undefined && <p>{fill(s.after, v)}</p>}
-    </div>
+    </>
+  );
+  if (s.collapsed) {
+    return (
+      <MethodCard collapsed head={(id) => <p id={id}><strong>{s.title}</strong></p>}>
+        {() => (
+          <>
+            {s.text !== undefined && <p>{fill(s.text, v)}</p>}
+            {content}
+          </>
+        )}
+      </MethodCard>
+    );
+  }
+  return (
+    <MethodCard head={() => (
+      <p>
+        <strong>{s.title}</strong>{s.text !== undefined && <> {fill(s.text, v)}</>}
+      </p>
+    )}>
+      {() => content}
+    </MethodCard>
   );
 }
 
 /**
  * Every text here comes from `methodology` in quiz_texts.json (export/WEB_CONTRACT.md §7): the heading, the sections
  * (each a card: bold run-in title, text, bullets with an italic lead, the names of some lists, a closing paragraph)
- * and the labels of the statements block (a card too: its heading, then a row per statement). The numbers are filled from quiz_data (texts.ts).
+ * and the labels of the statements block (a card too: its heading, then a row per statement). A card marked
+ * `collapsed` is closed by default (MethodCard). The numbers are filled from quiz_data (texts.ts).
  */
 export function MethodologyScreen({ data, bills, dispatch }: BillsScreenProps) {
   const methodology = T.methodology;
   const names = new Map(data.lists.map((l) => [l.id, l.name_en]));
   const v = dataValues(data);
   const t = methodology.statements;
+  const heading = fill(t.heading, { statements: data.statements.length });
+  const rows = (
+    <div className="stack method-rows">
+      {data.statements.map((st) => (
+        <Accordion key={st.q} title={st.title_en}>
+          {() => <StatementBody data={data} bills={bills} st={st} names={names} t={t} />}
+        </Accordion>
+      ))}
+    </div>
+  );
   return (
     <section className="screen">
       <Button variant="link" onClick={() => dispatch({ type: 'BACK' })}>
@@ -118,16 +166,9 @@ export function MethodologyScreen({ data, bills, dispatch }: BillsScreenProps) {
       <div className="stack-lg">
         {methodology.sections.map((s) => <MethodSection key={s.title} data={data} s={s} v={v} />)}
       </div>
-      <div className="panel method-card">
-        <h2 className="title-md">{fill(t.heading, { statements: data.statements.length })}</h2>
-        <div className="stack method-rows">
-          {data.statements.map((st) => (
-            <Accordion key={st.q} title={st.title_en}>
-              {() => <StatementBody data={data} bills={bills} st={st} names={names} t={t} />}
-            </Accordion>
-          ))}
-        </div>
-      </div>
+      <MethodCard collapsed={t.collapsed} head={(id) => <h2 id={id} className="title-md">{heading}</h2>}>
+        {() => rows}
+      </MethodCard>
       <p className="xsmall muted">{fill(t.dataVersion, { generated: data.generated, commit: data.source_commit })}</p>
     </section>
   );
