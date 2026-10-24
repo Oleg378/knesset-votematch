@@ -7,6 +7,7 @@
  "required": [
   "generated",
   "source_commit",
+  "fetched",
   "params",
   "statements",
   "directions",
@@ -49,6 +50,11 @@
   "generated": {
    "type": "string",
    "format": "date"
+  },
+  "fetched": {
+   "type": "string",
+   "format": "date",
+   "description": "The day the Knesset bill tables were last downloaded (quiz_data only); the methodology page shows it."
   },
   "source_commit": {
    "type": "string"

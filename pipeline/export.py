@@ -42,6 +42,11 @@ def source_commit():
     if dirty: print(f"warning: export built from a working tree with uncommitted inputs: {dirty[:5]}", file=sys.stderr)
     return git("rev-parse", "--short", "HEAD").strip() + ("+dirty" if dirty else "")
 
+def fetched():
+    """The day the Knesset bill tables were last downloaded (pipeline/fetch_bills.py writes data/bills/bill.json): the date the
+    site shows as the data's date (customer 2026-10-24), not the day of this export."""
+    return datetime.date.fromtimestamp(os.path.getmtime(os.path.join(ROOT, "data/bills/bill.json"))).isoformat()
+
 def build_data(ctx):
     st, pos, cov = ctx["st"], ctx["pos"], ctx["cov"]
     quiz_d = list(dict.fromkeys(r["d"] for r in st))
@@ -91,6 +96,7 @@ def build_data(ctx):
     return {
         "generated": datetime.date.today().isoformat(),
         "source_commit": source_commit(),
+        "fetched": fetched(),
         "params": {"K": qm.K, "MIN_COVERAGE": qm.MIN_COVERAGE, "MIN_EX_MKS": qm.MIN_EX_MKS, "MAX_TRADE": qm.MAX_TRADE, "TRADE_TOP": qm.TRADE_TOP,
                    "TRADE_W": qm.TRADE_W, "TRADE_CANDIDATES": 3, "VOTE_WEIGHT": 0.25, "CLOSE": qr.CLOSE, "MIN_CLEAR_MKS": qr.MIN_CLEAR_MKS, "MIN_CLEAR_BILLS": qr.MIN_CLEAR_BILLS,
                    "BILL_URL": qr.LINK.replace("{}", "{id}"),
@@ -197,7 +203,7 @@ def main():
     head = {k: data[k] for k in ("generated", "source_commit")}
     parts = {"core": {**head, "flow": data["flow"], "core": data["core"],
                       "statements": [s for s in data["statements"] if s["q"] in data["core"]]},
-             "data": {**head, **{k: data[k] for k in ("params", "flow", "core", "statements", "directions", "lists")}},
+             "data": {**head, **{k: data[k] for k in ("fetched", "params", "flow", "core", "statements", "directions", "lists")}},
              "bills": {**head, **{k: data[k] for k in ("mks", "by_direction", "votes", "bills")}}}
     for name, part in parts.items():
         json.dump(part, open(os.path.join(OUT, f"quiz_{name}.json"), "w"), ensure_ascii=False, separators=(",", ":"))

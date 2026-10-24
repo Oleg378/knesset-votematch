@@ -38,7 +38,8 @@ Goal: the start page never waits for data, and a loader almost never appears.
 - A loader is shown only if the user reaches a screen whose file has not arrived yet (e.g. the first clarifying question
   before `quiz_data`, List details before `quiz_bills`), and only for that screen.
 - The three data files carry the same `generated` and `source_commit`; a fetched file from another export (a deploy
-  mid-session) is a load error that asks to reload the page.
+  mid-session) is a load error that asks to reload the page. `quiz_data` also carries `fetched`: the day the Knesset bill
+  tables were last downloaded — the date of the data the methodology page shows (`generated` is the day of the export).
 - Caching: the files get content-hashed names at build time (Vite assets, `immutable`); the app always references the files
   of its own build.
 
