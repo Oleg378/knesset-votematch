@@ -87,6 +87,8 @@ button {
   --svh: 100svh;
   --lvh: 100lvh;
   --dvh: 100dvh;
+  /* The «See all» chevron, also the arrow of a statement row on How it works */
+  --chevron-down: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
 }
 
 /* Card mode (width ≥ 600 and height ≥ 480 — Material 3 «medium» width and up, not «compact» height): the mobile column
@@ -597,7 +599,6 @@ button.card:active {
 }
 
 .see-all .btn-link::after {
-  --chevron-down: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
   content: '';
   width: var(--chevron);
   height: var(--chevron);
@@ -697,9 +698,9 @@ button.card:active {
 }
 
 /* Bands in a card — the names of lists (Label/Medium, as .list-row; nothing to press) and the statement rows
-   (Accordion.tsx) — white on the tint, as the answer buttons on the question card, 8 from the card's edge, corners
-   concentric with the card's (24 − 8), 8 apart; the text on the card's 14 px inset. When they end the card, the last
-   is 8 above its bottom. */
+   (Accordion.tsx) — the light translucent band of a list on Results (customer 2026-10-24: «more like Results»), 8 from
+   the card's edge, corners concentric with the card's (24 − 8), 8 apart; the text 16 inside the band, the same in both
+   kinds. When they end the card, the last is 8 above its bottom. */
 .list-names-rows {
   list-style: none;
   margin: 0 calc(var(--space-2) - var(--panel-pad-x));
@@ -714,18 +715,16 @@ button.card:active {
 }
 
 .list-names-rows > li {
-  padding: var(--space-3) calc(var(--panel-pad-x) - var(--space-2));
+  padding: var(--space-3) var(--space-4);
   border-radius: calc(var(--radius-lg) - var(--space-2));
-  background: var(--color-surface);
+  background: var(--color-row-band);
 }
 
 .method-rows .accordion {
   margin-inline: calc(var(--space-2) - var(--panel-pad-x));
   border-radius: calc(var(--radius-lg) - var(--space-2));
-  background: var(--color-surface);
+  background: var(--color-row-band);
 }
-
-/* The rows keep the accordion's own 16 px side padding inside the white band (customer 2026-10-24). */
 
 .method-card > .method-rows:last-child,
 .method-card > .list-names-rows:last-child {
@@ -968,10 +967,15 @@ div.list-row .list-row-value {
   background: var(--color-surface-subtle);
 }
 
+/* The head as a list row on Results: Label/Medium 15/20, the text 16 inside the band, at its end the round button of a
+   row — the tint circle (::before, under) with the blue «See all» chevron (::after), turned up while open; the chevron
+   the share of the circle the arrow has on Results (18 of 22.4). The chevron's box is one text line tall, so a band is as
+   tall as a band of names with the same lines (44 with one, the tap size); the circle overlaps it by 2 above and below. */
 .accordion-head {
+  position: relative;
   width: 100%;
-  min-height: var(--button-height);
-  padding: var(--space-3) var(--space-4);
+  min-height: var(--tap-min);
+  padding: var(--space-3) var(--space-3) var(--space-3) var(--space-4);
   display: flex;
   justify-content: space-between;
   gap: var(--space-2);
@@ -980,17 +984,35 @@ div.list-row .list-row-value {
   border: 0;
   text-align: start;
   cursor: pointer;
+  font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
-  line-height: var(--line-height-button); /* Menu item 17/22 */
+  line-height: var(--line-height-label);
+}
+
+.accordion-head::before {
+  content: '';
+  position: absolute;
+  inset-inline-end: var(--space-3);
+  top: 50%;
+  width: var(--row-go);
+  height: var(--row-go);
+  margin-top: calc(var(--row-go) / -2);
+  border-radius: 50%;
+  background: var(--color-accent-soft);
 }
 
 .accordion-head::after {
-  content: '+';
-  color: var(--color-accent);
+  content: '';
+  flex: none;
+  width: var(--row-go);
+  height: calc(var(--font-size-sm) * var(--line-height-label));
+  background: var(--color-accent);
+  -webkit-mask: var(--chevron-down) center / calc(var(--row-go) * 18 / 22.4) no-repeat;
+  mask: var(--chevron-down) center / calc(var(--row-go) * 18 / 22.4) no-repeat;
 }
 
 .accordion-head[aria-expanded='true']::after {
-  content: '−';
+  transform: rotate(180deg);
 }
 
 .accordion-body {

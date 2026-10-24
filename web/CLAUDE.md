@@ -78,10 +78,10 @@ Line heights are exact Figma px ÷ size (`calc(22 / 17)`), never rounded ratios.
 | Action | Plus Jakarta Sans 600 | 17 / 22, −0.43 px | `.btn-primary`, `.btn-secondary` | Start the quiz, Next, Change answers |
 | Button | Plus Jakarta Sans 600 | 17 / 22 | `.answer`, `.btn` | answer options |
 | Body/Large | Plus Jakarta Sans 400 | 17 / 24 | `body`, `.tagline` | Home subtitle |
-| Menu item | Plus Jakarta Sans 500 | 17 / 22 | `.menu-item`, `.accordion-head`, `.bill-title` | menu items, statement titles in Methodology, bill names |
+| Menu item | Plus Jakarta Sans 500 | 17 / 22 | `.menu-item`, `.bill-title` | menu items, bill names |
 | Label/Strong | Plus Jakarta Sans 600 | 15 / 20 | `.btn-link`, `.choice-title`, `.step-number`, `.choice-badge`, `.title-sm`, `.list-row-value`, `.scale-top .list-row-name`, `.scale-legend` | Behind the results, Not sure — skip, card titles A/B/=, Details card titles, Results closeness / names in the panel / scale legend |
 | Counter | Plus Jakarta Sans 600 | 15 / 22 | `.counter` | progress counter |
-| Label/Medium | Plus Jakarta Sans 500 | 15 / 20 | `.step`, `.list-row-name` | Home steps, Results names below the panel |
+| Label/Medium | Plus Jakarta Sans 500 | 15 / 20 | `.step`, `.list-row-name`, `.list-names-rows`, `.accordion-head` | Home steps, Results names below the panel, names of lists and statement titles in Methodology |
 | Body/Default | Plus Jakarta Sans 400 | 15 / 21 | `.lead`, `.explain`, `.small` | card explanations, intro text, «Based on …», bill details |
 | Chip | Plus Jakarta Sans 500 | 13 / 20 | `.chip`, `.note` | chips (N statements, 3–5 min), notes |
 | Caption | Plus Jakarta Sans 400 | 13 / 18 | `.choice-sub`, `.xsmall` | «Your answer: …», data version |
@@ -249,7 +249,8 @@ starts below ~750 px.
 | Clarifying question | Back · Next | primary, sticky | 28 |
 | Menu | (GitHub / Behance, hidden for now) | drawer — fills its own height, no scroll of the page | — |
 | Results | Change answers · Start over · Methodology | end of a long list, not sticky (customer 2026-10-17) | screen gap 16 |
-| List details, Bills, Methodology | none (Back link at the top, «Show all» inside the list) | — | — |
+| List details, Bills | none (Back link at the top, «Show all» inside the list) | — | — |
+| Methodology | none (no Back: the system Back or the menu; «See all» inside the cards) | — | — |
 
 ### Implementation
 - Tokens: `--desktop-gap: clamp(16px, (100dvh − 812px) / 2, 32px)`, `--desktop-card-height`, `--cta-min-gap`,
