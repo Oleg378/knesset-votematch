@@ -49,13 +49,14 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
       return;
     }
     flushSync(() => setClosing(true));
+    // The page will be shorter by the lists once they are closed: the scroll back stops where the closed page ends.
     scrollBackTo(panel, () => collapse(lists, () => {
       flushSync(() => {
         setClosing(false);
         setAll(false);
       });
       toggle.current?.focus({ preventScroll: true });
-    }));
+    }), lists.getBoundingClientRect().height);
   };
   return (
     <section className="screen results">

@@ -74,19 +74,26 @@ export function collapse(el: HTMLElement, done: () => void): () => void {
  * Brings `el` up to just below the pinned header with the browser's own smooth scroll, then `done` — for closing a
  * block whose button sits at its end, far below where it started («Show less»): first the page goes back to the
  * start, then the block closes on screen. At once with reduced motion or when `el` is already in place.
+ *
+ * `shrink` = how much shorter the page will be once the block has closed. The scroll goes no further than the page will
+ * then allow: otherwise, as the block shrinks, the page becomes too short for the scroll position and the browser pulls
+ * the scroll back in the last frames — the whole page jumped down at the end (customer's recording, 2026-10-24). With
+ * the limit the page rests where it will end, and the block closes on screen without a jump.
  */
-export function scrollBackTo(el: HTMLElement, done: () => void): void {
+export function scrollBackTo(el: HTMLElement, done: () => void, shrink = 0): void {
   const inner = screenScroller(); // phones: the area under the header; card mode: the window
   const header = document.querySelector('.header')?.getBoundingClientRect().bottom ?? 0;
   const gap = parseFloat(token('--space-4')) || 0;
   const by = el.getBoundingClientRect().top - header - gap;
-  if (by >= -1) {
-    done(); // already on screen below the header
-    return;
-  }
   const scroller: Element | Window = inner ?? window;
   const from = inner ? inner.scrollTop : window.scrollY;
-  const top = Math.max(from + by, 0);
+  const extent = inner ?? document.documentElement;
+  const maxAfter = Math.max(extent.scrollHeight - shrink - extent.clientHeight, 0);
+  const top = Math.min(Math.max(from + by, 0), maxAfter);
+  if (top >= from - 1) {
+    done(); // already on screen below the header, or as far up as the closed page allows
+    return;
+  }
   if (reducedMotion()) {
     scroller.scrollTo({ top });
     done();
