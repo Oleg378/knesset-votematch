@@ -978,13 +978,11 @@ div.list-row .list-row-value {
   /* the line's row as tall as the rank circle, with or without one, so the title stands at the same place over the line */
   grid-template-rows: auto var(--rank-badge-details);
   row-gap: 0;
-  margin-top: var(--space-2); /* 16 under the list name: the stack's 8 + 8 (customer 2026-10-24: «добавь спейса») */
+  margin-top: var(--space-4); /* 24 under the caveat: the stack's 8 + 16 */
 }
 
 .details-row .list-row-rank {
   grid-row: 2;
-}
-.details-row .list-row-rank:has(> span) {
   justify-self: center;
   width: var(--rank-badge-details);
   height: var(--rank-badge-details);
@@ -992,8 +990,17 @@ div.list-row .list-row-value {
   align-items: center;
   justify-content: center;
   border-radius: var(--radius-sm);
+}
+.details-row .list-row-rank:has(> span) {
   background: var(--color-accent-soft);
   color: var(--color-accent);
+}
+/* a list without a rank: the circle empty, its rim the colour of the rank circle and inside its edge (border-box), so
+   both circles have the same outline (customer 2026-10-24: «оставь пустой круг, но сделай его синим или голубым», option
+   3 of 4, then «того же цвета… чтобы границы совпадали»; it was an empty place) */
+.details-row .list-row-rank:not(:has(> span)) {
+  /* 2, inward: the circle keeps its 28 (customer 2026-10-24: «обводку побольше, но внутрь»; whole px — Chrome draws 1.5 as 1) */
+  border: var(--border-width-strong) solid var(--color-accent-soft);
 }
 
 .details-row .list-row-name {
@@ -1036,16 +1043,23 @@ div.list-row .list-row-value {
   translate: 0 calc(-1 * var(--space-1));
 }
 
-/* Under the closeness (and its note) a line, as the one over the Results hint, the column's width: it sets the closeness
-   apart from the caveat (customer 2026-10-24) */
+/* The top of List details (name, line, caveat, closeness, note): 32 to «Why it fits» under it, the screen's 16 + 16
+   (customer 2026-10-24: «больше отступ до следующей фразы») */
+.details-head {
+  margin-bottom: var(--space-4);
+}
+
+/* Under the list's name a line, as the one over the Results hint, the column's width; under it the caveat, then the
+   closeness (customer 2026-10-24: first under the closeness, then «после названия партии линия и надпись Shows, потом
+   уже линия 70 %») */
 .details-rule {
   height: var(--border-width);
-  margin-top: var(--space-4); /* 24 under the closeness: the stack's 8 + 16 (customer 2026-10-24: «отступ до линии больше»; it was 16) */
+  margin-top: var(--space-2); /* 16 under the name: the stack's 8 + 8 */
   background: var(--color-border);
 }
 
-/* The «price» caveat under the closeness: italic and lighter, as the Results hint (customer 2026-10-24, variant 2 of 8);
-   justified, so its right edge ends where the percent above it does (customer 2026-10-24: «70 и текст под не выровнены») */
+/* The «price» caveat under the line: italic and lighter, as the Results hint (customer 2026-10-24, variant 2 of 8);
+   justified, so its right edge ends where the percent's does (customer 2026-10-24: «70 и текст под не выровнены») */
 .details-caveat {
   /* 4 under the line (the stack's 8 − 4), as the Results line over the hint: the line belongs to the caveat (customer
      2026-10-24: «линию ближе к тексту снизу»; it was 16) */

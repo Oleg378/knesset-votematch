@@ -5,8 +5,11 @@ Requests from the front end to the data side (pipeline/, export/). The web sessi
 ## 13. List details texts after the page merge (2026-10-24) [open]
 List details and the bills page are one page now (DECISIONS.md G28), and its closeness is a Results row (G28). In
 `quiz_texts.json`:
-- add `details.closenessTitle`: `"Closeness to you"` — the label above the closeness line (customer 2026-10-23/24). Until
-  it is in the file, `web/src/strings.ts` holds this one text itself, with a comment; it moves to the file then;
+- add `details.closenessTitle`: `"Closeness to you"` — the label above the closeness line (customer 2026-10-23/24);
+- add `details.priceNote`: `"Shows what they pushed for, not whether they accept the price in the statement"` — the
+  «price» caveat said once on List details, shorter than `explain.caveatPrice` (customer 2026-10-24); `explain.caveatPrice`
+  and the golden lines stay as they are. Until these two are in the file, `web/src/strings.ts` holds them itself, with a
+  comment; they move to the file then;
 - no longer read by the web: `details.closeness`, `details.showAll`, `details.showLess`, `details.openBills`, `bills.back`
   (the topics open in place, there is no separate bills screen). They can be dropped from the file together with the
   schema in `web/src/texts.ts` — tell us, and we remove them there.

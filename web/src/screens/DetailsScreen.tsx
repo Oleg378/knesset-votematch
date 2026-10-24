@@ -51,8 +51,13 @@ export function DetailsScreen({ data, bills, state }: BillsScreenProps) {
   const minus = [...rows].reverse().filter((x) => x.c < 0);
   return (
     <section className="screen">
-      <div className="stack">
+      <div className="stack details-head">
         <h1 className="title-lg details-title">{row.name_en}</h1>
+        {/* Under the name a line, then the caveat, then the closeness (customer 2026-10-24: «после названия партии линия
+            и надпись Shows, потом уже линия 70 %»); the caveat once for every topic (customer 2026-10-23), the
+            explanation lines in the topics leave it out */}
+        <div className="details-rule" role="presentation" />
+        <p className="small details-caveat">{S.details.priceNote}</p>
         {/* Closeness as a Results row without its band (customer 2026-10-23): «Closeness to you» above the scale's line
             with the list's dot — light blue on the page — and on the line's row the rank in its circle and the percent */}
         {row.closeness !== null && (
@@ -66,10 +71,6 @@ export function DetailsScreen({ data, bills, state }: BillsScreenProps) {
           </div>
         )}
         {row.note && <Note>{row.note}</Note>}
-        {/* A line that sets the closeness apart from the caveat (customer 2026-10-24) */}
-        <div className="details-rule" role="presentation" />
-        {/* Once for every topic (customer 2026-10-23); the explanation lines in the topics leave it out */}
-        <p className="small details-caveat">{S.details.priceNote}</p>
       </div>
       <Section data={data} bills={bills} list={list} mult={state.mult} head={S.details.fits(plus.length)} items={plus} />
       <Section data={data} bills={bills} list={list} mult={state.mult} head={S.details.misfits(minus.length)}

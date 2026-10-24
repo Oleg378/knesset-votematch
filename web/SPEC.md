@@ -95,16 +95,19 @@ header, pinned with it; Methodology is a page of its own: the menu stays, no Bac
 - «Back» in the header, in the menu's place (a nested page; no menu here): a blue chevron ‹ (24 icon, 44 tap area, its
   tip on the burger's left edge), no text; its label «Back to results» for screen readers (customer 2026-10-24).
   Not on Methodology: a page of its own, the menu stays (G24, G29).
-- Header: list name — the whole official `name_en`, «headed by …» included, not split (customer 2026-10-24: it is one
-  name), Fraunces 26/32, its lines balanced (`text-wrap: balance`), a blue line 3 wide on its left, the text 12 after it; 16 below it the closeness as a Results row without its band and without the legend — «Closeness to you» (Body/Default,
-  text/tertiary, right above the line — its line box 4 over it, baseline 8 —, from its start), under it in one line the list's rank in a tint circle 28 (none when not
-  ranked), the scale's line with the dot and the percent (blue, Plus Jakarta Sans ExtraBold 22/26, at the column's edge;
-  the circle and the percent 4 above the line's centre)
-  (light blue tint for the line, 4 thick; customer 2026-10-23; 2026-10-24: no legend, rank and percent on the line's row); note; a line the column's width (Brand / Line 20 %, 1), 24 under the closeness; and once for the page the
-  caveat «This shows what their bills and votes pushed for,
-  not whether they accept the price named in the statement», 4 below the line, no period (customer 2026-10-23: it fits every topic; the topics leave it out),
-  italic and lighter as the Results hint (Body/Default italic, text/tertiary), justified so its right edge meets the percent's
-  (customer 2026-10-24).
+- Header, top to bottom: the list name — the whole official `name_en`, «headed by …» included, not split (customer
+  2026-10-24: it is one name), Fraunces 26/32, its lines balanced (`text-wrap: balance`), a blue line 3 wide on its left,
+  the text 12 after it; 16 below it a line the column's width (Brand / Line 20 %, 1); 4 below the line, once for the page,
+  the caveat «Shows what they pushed for, not whether they accept the price in the statement» — the explanation's «price»
+  caveat shortened for the page, no period (customer 2026-10-23: it fits every topic; the topics leave it out; 2026-10-24:
+  option a of 4) —, italic and lighter as the Results hint (Body/Default italic, text/tertiary), justified so its right
+  edge meets the percent's; 24 below it the closeness as a Results row without its band and without the legend —
+  «Closeness to you» (Body/Default, text/tertiary, right above the line — its line box 4 over it, baseline 8 —, from its
+  start), under it in one line the list's rank in a tint circle 28 (when not ranked: the circle empty, a 2 px rim of the
+  same tint inside the same 28 outline), the scale's line with the dot and the percent (blue, Plus Jakarta Sans ExtraBold
+  22/26, at the column's edge; the circle and the percent 4 above the line's centre) (light blue tint for the line, 4
+  thick; customer 2026-10-23; 2026-10-24: no legend, rank and percent on the line's row); the note. 32 from the block to
+  «Why it fits» (customer 2026-10-24: name, line, caveat, then the closeness).
 - «Why it fits — N matches» (items with contribution > 0, largest first) and «Why it doesn't fit — N mismatches» (contribution
   < 0, most negative first). Every item listed, each a collapsed line with its `title_en`, as the statements on Methodology
   (customer 2026-10-23: List details and the bills page made one page; there is no separate Bills screen).

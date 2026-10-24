@@ -115,10 +115,11 @@ export const S = {
     closenessLabel: T.results.closenessLabel,
   },
   details: {
-    /** The explanation's «price» caveat, said once for the page, without the period (customer 2026-10-23) */
-    priceNote: explainText.caveatPrice.replace(/\.$/, ''),
+    // Not in quiz_texts.json yet (DATA_REQUESTS.md 13): the only texts written here until the file has them.
+    /** The explanation's «price» caveat, said once for the page: shorter, no period (customer 2026-10-23/24); the topics'
+     *  explanation lines keep `explainText.caveatPrice`, the reference's text, and leave it out on this page */
+    priceNote: 'Shows what they pushed for, not whether they accept the price in the statement',
     back: T.details.back,
-    // Not in quiz_texts.json yet (DATA_REQUESTS.md 13): the only text written here until the file has it
     closenessTitle: 'Closeness to you',
     fits: (n: number) => fill(T.details.fits, { n }),
     misfits: (n: number) => fill(T.details.misfits, { n }),
