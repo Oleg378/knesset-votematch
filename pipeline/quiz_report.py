@@ -9,7 +9,7 @@ Labels are the mass labels with the split of heterogeneous directions applied (a
 
 Usage: python3 pipeline/quiz_report.py local/jef/quiz/pilot_answers_filled.csv  ->  jef/quiz/report_<file name>.md
 """
-import csv, glob, json, os, re, sys, collections
+import csv, json, os, re, sys, collections
 import duckdb
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import quiz_match as qm
@@ -143,7 +143,7 @@ def explain(ctx, L, q, a, p, contrib, mult=None):
 
 def main(f):
     ctx = context()
-    st, title, nv = ctx["st"], ctx["title"], ctx["nv"]
+    title = ctx["title"]
     ans = read_answers(f)
     # trade-off questions [У 2026-10-16]: sheet tradeoffs_<file>.csv; if it is filled, its answers re-weight the statements
     tf = os.path.join(os.path.dirname(os.path.abspath(f)), "tradeoffs_" + os.path.basename(f))
@@ -156,7 +156,7 @@ def main(f):
                 A, B = title[qa], title[qb]
                 w.writerow([i, f"{qa}. {A['title_en']}", f"{qb}. {B['title_en']}", "", tradeoff_text(A, ans[qa], B, ans[qb])])
     ranking = qm.match(ans, mult=mult)
-    out = [f"# Quiz result with explanations", "",
+    out = ["# Quiz result with explanations", "",
            f"_Answers file: `{os.path.basename(f)}`. Answered: {sum(1 for v in ans.values() if v != 'dk')}, “don't know”: "
            f"{sum(1 for v in ans.values() if v == 'dk')}. Trade-off questions: "
            f"{'applied, ' + ', '.join(f'#{q} ×{m:g}' for q, m in mult.items()) if mult else ('not filled in — `' + os.path.basename(tf) + '`')}. "

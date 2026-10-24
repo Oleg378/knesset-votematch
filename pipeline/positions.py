@@ -2,7 +2,7 @@
 Outputs -> jef/positions/ : see README.md written by this script.
 Run: python3 pipeline/positions.py
 """
-import json, glob, os
+import json, os
 import numpy as np, pandas as pd, duckdb
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
