@@ -1,9 +1,0 @@
-id,verdict,sign,reason
-C1,not_about,0,"Competition law restrictive-arrangement treatment of raw agricultural produce; market regulation, not weaker-party contract terms"
-C2,borderline,-1,"Bans discrimination in admission to housing; limits freedom to choose contracting party to protect applicants"
-C3,not_about,0,"Copyright royalties collection by collective societies; payment mechanics, not contract intervention for weaker party"
-C4,borderline,1,"International commercial arbitration law adopting party autonomy and limited court intervention; commercial parties, not weaker party"
-C5,not_about,0,"Requires documents and services in multiple languages; accessibility, not contract terms"
-C6,about,-1,"Prevents manpower agencies ending employment to avoid direct hire; overrides employer contract freedom to protect workers"
-C7,about,1,"Exempts foreign agricultural workers from collective agreements; removes state-imposed worker protections in employment terms"
-C8,not_about,0,"Patient rights on transferring medical information to another person; medical privacy, not contract terms"

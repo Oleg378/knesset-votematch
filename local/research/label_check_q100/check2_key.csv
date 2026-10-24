@@ -1,7 +1,0 @@
-q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason,kind,cid
-100,277e,"חוק הסיוע המשפטי (תיקון מס' 25), התשפ""ד–2024",2215018,+,secondary,2215018,F1-6,not_about,,Legal aid eligibility; unrelated to pensions,candidate,C1
-100,277e,הצעת חוק נכי רדיפות הנאצים (תיקון - השוואת זכאות לשורדים שעלו אחרי 1 באוקטובר 1953),2220898,+,main,2220898,F1-16,about,+,Extends survivor eligibility to post-1953 immigrants,control,C2
-100,277e,הצעת חוק הביטוח הלאומי (תיקון - ביטול מעמד עקרת הבית),2157556,+,secondary,2157556,F1-22,not_about,,Housewife insurance status; not old-age pensions,candidate,C3
-100,277e,הצעת חוק לתיקון פקודת מס הכנסה (פטור ממס להכנסות קשיש וניכוי הוצאות שכר דירה),2190313 2197366,+,secondary,2190313,F1-5,not_about,,Tax treatment of nursing-home residents' rental income,candidate,C4
-100,277e,הצעת חוק שירות הקבע בצבא הגנה לישראל (גמלאות) (תיקון - העלאת גיל הפרישה),2190563,−,secondary,2190563,F1-18,not_about,,Military career retirement age; not old-age benefits,candidate,C5
-100,277e,הצעת חוק הנכים נפגעי הנאצים (תיקוני חקיקה),2169213,+,secondary,2169213,F1-10,about,+,Removes income test and pension offset for survivors,control,C6

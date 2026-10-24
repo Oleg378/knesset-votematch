@@ -43,7 +43,7 @@ to WORKLOG naming it and fix every reference (`grep` the old name); research not
 | `export/` | **The data contract** (in git): `quiz_core / quiz_data / quiz_bills.json`, one schema, `golden.json`, `stats.json` (current numbers), `WEB_CONTRACT.md`; `quiz_texts.json` (every text of the site, edited by hand; read by the web and by the Python reference) with its own schema |
 | `jef/` | Production data: directions and labels (`jef/directions/`), theme registry (`jef/directions/registry.csv`), positions (`jef/positions/`), statements (`jef/quiz/`) |
 | `manual/` | Tables kept by hand: CEC lists and candidates, candidate ↔ MK matching, English MK names |
-| `local/` | Research behind the decisions: experiments, checks, early approaches (`local/README.md`). Published selectively (scripts, texts, small result tables; no people's answers) — `local/` stays ignored, add new files with `git add -f`. **Not production**: do not import from it; the procedure scripts in `local/research/scripts/` named by the skills are run, never imported |
+| `local/` | Research behind the decisions: experiments, checks, early approaches (`local/README.md`). Not in git, stays on the customer's machine; decisions point to it by path (`statements.csv` «change», `registry.csv` «source», `overrides.json`, WORKLOG). **Not production**: nothing imports from it |
 | `docs/` | Methodology, decisions, audits (Russian — the working language) |
 | `data/`, `knesset.duckdb` | Raw downloads and the database. Not in git |
 
