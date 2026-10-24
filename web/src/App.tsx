@@ -18,7 +18,7 @@ import { ResultsScreen } from './screens/ResultsScreen';
 import { StartScreen } from './screens/StartScreen';
 import { TradeoffScreen } from './screens/TradeoffScreen';
 import { createBackGuard } from './state/backGuard';
-import { createReducer, hasComputableAnswers, initialState, type Action } from './state/reducer';
+import { createReducer, hasComputableAnswers, initialState, type Action, type State } from './state/reducer';
 import { S } from './strings';
 
 function focusHeading() {
@@ -28,12 +28,12 @@ function focusHeading() {
   h.focus({ preventScroll: true });
 }
 
-export default function App({ loader }: { loader: Loader }) {
+export default function App({ loader, initial = initialState }: { loader: Loader; initial?: State }) {
   const src = useSyncExternalStore(loader.subscribe, loader.get);
   const { core, data, bills } = src;
   const reducer = useMemo(() => createReducer({ core, data }), [core, data]);
   // In memory only [У 2026-10-17]: no storage, a reload starts over; nothing goes into the URL.
-  const [state, dispatch] = useReducer(reducer, initialState);
+  const [state, dispatch] = useReducer(reducer, initial);
   const sc = state.screen;
 
   // A data file arrived: resume a screen that was waiting for it.
@@ -87,6 +87,10 @@ export default function App({ loader }: { loader: Loader }) {
     mounted.current = true;
     prev.current = sc.name;
     guard.sync(sc.name === 'start');
+    // «How it works» is the one screen with an address of its own (/how-it-works, prerendered: src/prerender.tsx); the
+    // address follows it and comes back to / on any other screen. Nothing else is ever in the URL (no answers, no result).
+    const page = sc.name === 'methodology' ? '/how-it-works' : '/';
+    if (location.pathname !== page) history.replaceState(history.state, '', page);
     // During a card change the page must not scroll: cardTransition.ts scrolls to the top when it ends.
     if (!document.documentElement.dataset.card) {
       window.scrollTo(0, 0);

@@ -178,7 +178,7 @@ button {
 
   .app {
     /* Always the full column: a flex item with auto margins would shrink to its content, and a screen with no text to fill
-       the column (the boot loader, a screen waiting for its file) made a narrow card, its header title over the menu */
+       the column (a screen waiting for its file) made a narrow card, its header title over the menu */
     width: 100%;
     min-height: max(min(var(--desktop-card-height), calc(100dvh - 2 * var(--desktop-gap))), var(--card-hold, 0px));
     /* The top is where a card of the Figma height sits when centred, on every screen: a long one (results, methodology)
@@ -199,19 +199,12 @@ button {
   }
 }
 
-/* Loading: dot rings with a blue dot running round (src/components/dotRing.ts). Before the JS — .boot, an empty .app in
-   index.html (bootLoader in vite.config.ts), the same white box (a card in card mode, full column width) the first screen
-   appears in. In the app — .loader, a screen waiting for its data file. The rings fade in after a moment, so a fast load
-   shows no flash. The blue dot starts where the Figma frame has it (−62.6°). */
-.boot {
-  justify-content: center;
-  align-items: center;
-  padding-bottom: env(safe-area-inset-bottom); /* the ring's centre as .loader's, in the window above the safe area */
-}
-
-/* The ring in the same place as .boot's — the middle of the whole .app, not of the room under the header (it was 65 px
-   lower on the Figma phone): the screen reaches up under the header — its height (safe area + 8 + 44) and the 16 under
-   it — so the header stays on top and the ring's centre is the boot loader's, on every screen that waits for a file. */
+/* Loading: dot rings with a blue dot running round (src/components/dotRing.ts) — .loader, a screen waiting for its data
+   file (the pages themselves come as ready HTML, src/prerender.tsx, so nothing waits before the JS). The rings fade in
+   after a moment, so a fast load shows no flash. The blue dot starts where the Figma frame has it (−62.6°). */
+/* The ring in the middle of the whole .app, not of the room under the header (it was 65 px lower on the Figma phone):
+   the screen reaches up under the pinned header — its height (safe area + 8 + 44) and the gap 16 — so the header stays
+   on top and the ring's centre is the same on every screen that waits for a file. */
 .loader {
   justify-content: center;
   align-items: center;

@@ -1,5 +1,6 @@
 // Phone preview (web/CLAUDE.md, DECISIONS G4): serves the production build in dist/ the way the host does — gzip, the
-// headers of public/_headers (CSP, caching) and the SPA fallback to index.html. Pair it with `vite build --watch` and ngrok.
+// headers of public/_headers (CSP, caching), a page's file for its path (/how-it-works → how-it-works.html, as Cloudflare Pages
+// does) and the fallback to index.html. Pair it with `vite build --watch` and ngrok.
 // Usage: node scripts/serve-dist.mjs [port]   (default 4173)
 import { createReadStream, existsSync, readFileSync, statSync } from 'node:fs';
 import { createServer } from 'node:http';
@@ -29,6 +30,7 @@ createServer((req, res) => {
   let path = normalize(decodeURIComponent(new URL(req.url, 'http://x').pathname));
   if (path.includes('..')) { res.writeHead(400); return res.end(); }
   let file = join(dist, path);
+  if ((!existsSync(file) || statSync(file).isDirectory()) && existsSync(`${file}.html`)) { file = `${file}.html`; path = `${path}.html`; }
   if (!existsSync(file) || statSync(file).isDirectory()) { file = join(dist, 'index.html'); path = '/index.html'; }
   const headers = { 'Content-Type': TYPES[extname(file)] ?? 'application/octet-stream', Vary: 'Accept-Encoding' };
   for (const r of parseHeaders()) if (path.startsWith(r.prefix)) Object.assign(headers, r.headers);

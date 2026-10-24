@@ -16,6 +16,7 @@ import { watchBottomFade } from './bottomFade';
 import { createLoader } from './data';
 import { showViewportNumbers } from './debugViewport';
 import { chooseScrolling } from './inApp';
+import { initialStateFor } from './state/reducer';
 
 // The data files are fetched from page load, in order (core, data, bills); the start page does not wait for them.
 const loader = createLoader();
@@ -24,8 +25,10 @@ chooseScrolling(); // an app's viewer: the frame; a browser: the window scrolls 
 watchBottomFade();
 if (location.search.includes('debug')) showViewportNumbers(); // the window's numbers on screen, for checks on a phone
 
+// The page's HTML already holds its screen (src/prerender.tsx); React draws the same markup in its place. The page's
+// path picks the screen: «/how-it-works» opens the methodology.
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App loader={loader} />
+    <App loader={loader} initial={initialStateFor(location.pathname)} />
   </StrictMode>,
 );
