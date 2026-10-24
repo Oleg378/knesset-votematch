@@ -1,0 +1,37 @@
+# Data pipeline: on every push and pull request that touches the pipeline, its inputs or the export, restore the snapshot of the
+# inputs that are not in git (private repo Oleg378/knesset-votematch-data, read with the deploy key in the secret
+# SNAPSHOT_DEPLOY_KEY), run the invariants (make check), rebuild the export (make data) and fail if the committed export/ does
+# not match what the pipeline builds (pipeline/export_compare.py). The web workflow (web.yml) stays separate: it publishes.
+name: pipeline
+
+on:
+  push:
+    paths: ['pipeline/**', 'data/**', 'manual/**', 'export/**', 'Makefile', 'requirements.txt', '.github/workflows/pipeline.yml']
+  pull_request:
+    paths: ['pipeline/**', 'data/**', 'manual/**', 'export/**', 'Makefile', 'requirements.txt', '.github/workflows/pipeline.yml']
+
+permissions:
+  contents: read
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Restore the snapshot of the inputs
+        env:
+          SNAPSHOT_DEPLOY_KEY: ${{ secrets.SNAPSHOT_DEPLOY_KEY }}
+        run: |
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          echo "$SNAPSHOT_DEPLOY_KEY" > ~/.ssh/snapshot && chmod 600 ~/.ssh/snapshot
+          ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
+          export GIT_SSH_COMMAND="ssh -i ~/.ssh/snapshot -o IdentitiesOnly=yes"
+          SNAPSHOT_URL=git@github.com:Oleg378/knesset-votematch-data.git SNAPSHOT_DIR=$RUNNER_TEMP/snapshot make snapshot-restore
+      - run: make check
+      - run: make data
+      - run: python3 pipeline/export_compare.py
