@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-24",
- "source_commit": "7cfb11a",
+ "source_commit": "3cb1c57",
  "statements": 123,
  "lists": {
   "total": 38,
@@ -15,6 +15,6 @@
   "quiz_core.json": 3,
   "quiz_data.json": 258,
   "quiz_bills.json": 1995,
-  "quiz_texts.json": 14
+  "quiz_texts.json": 15
  }
 }
