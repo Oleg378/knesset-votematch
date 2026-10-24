@@ -448,6 +448,9 @@ describe('results', () => {
     expect(screen.getByRole('button', { name: S.details.back }).closest('header')).not.toBeNull();
     expect(screen.queryByRole('button', { name: S.menu.open })).toBeNull();
     expect(document.querySelector('.bill')).toBeNull(); // every topic starts collapsed
+    // «Why it fits» without its count: the template's words before « — » only (DECISIONS G31)
+    const head = document.querySelector('.screen h2')!;
+    expect(head.textContent).toBe(fill(T.details.fits, { n: 0 }).split(' — ')[0]);
     // open topics until one has a bill sponsored by the list's former MKs
     for (const head of [...document.querySelectorAll<HTMLElement>('.accordion-head')]) {
       fireEvent.click(head);

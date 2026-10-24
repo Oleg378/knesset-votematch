@@ -18,8 +18,9 @@ function Section(props: { data: QuizData; bills: QuizBills; list: string; mult: 
   items: Contribution[] }) {
   const { data, bills, list, mult, head, items } = props;
   return (
-    <div className="stack">
-      <h2 className="title-md">{head}</h2>
+    <div className="stack details-group">
+      {/* the words only, no count (customer 2026-10-24: «убери matches вообще») */}
+      <h2 className="details-section">{head}</h2>
       {items.length === 0 && <p className="small muted">{S.details.none}</p>}
       {items.map((x) => (
         <Accordion key={x.statement.q} title={x.statement.title_en}>

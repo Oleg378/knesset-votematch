@@ -43,6 +43,9 @@ export const explainText = {
 
 // ---- UI ----
 
+/** The words of a heading «words — count», before its « — » (List details sections); without one, all of it. */
+const headWords = (s: string) => s.split(' — ')[0]!;
+
 export const S = {
   a11y: {
     newTab: T.app.newTab,
@@ -121,8 +124,9 @@ export const S = {
     priceNote: 'Shows what they pushed for, not whether they accept the price in the statement',
     back: T.details.back,
     closenessTitle: 'Closeness to you',
-    fits: (n: number) => fill(T.details.fits, { n }),
-    misfits: (n: number) => fill(T.details.misfits, { n }),
+    /** «Why it fits — 9 matches» without the count: «Why it fits» (customer 2026-10-24: «убери matches вообще») */
+    fits: (n: number) => headWords(fill(T.details.fits, { n })),
+    misfits: (n: number) => headWords(fill(T.details.misfits, { n })),
     none: T.details.none,
   },
   bills: {

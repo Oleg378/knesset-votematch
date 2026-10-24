@@ -969,6 +969,42 @@ div.list-row .list-row-value {
   padding-inline-start: var(--space-3);
 }
 
+/* List details: «Why it fits» / «Why it doesn't fit» in Fraunces 32/38, dark grey, without the count (customer 2026-10-24:
+   after 44 variants, option 11 of 16 «но тёмно-серым», then «ещё темнее» twice; «убери matches вообще») */
+.details-section {
+  font-family: var(--font-family-display);
+  font-size: var(--font-size-section);
+  line-height: var(--line-height-section);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-text-section);
+  margin-bottom: var(--space-1); /* 12 to the first topic: the stack's 8 + 4 (customer 2026-10-24: «чуть добавь после Why»; it was 8) */
+}
+
+/* «Why it doesn't fit» 32 under the last topic of «Why it fits», as «Why it fits» under the block above it: the screen's
+   16 + 16 (customer 2026-10-24: «добавь перед Why it doesn't больше»; it was 16) */
+.details-group + .details-group {
+  margin-top: var(--space-4);
+}
+
+/* List details: the topic rows with the corners of a Results band (16) and a little taller, 52 (customer 2026-10-24:
+   «с тем же скруглением и со схожим размером блоков, что на странице с результатами», option a of 3; it was 24 and 44).
+   How it works keeps its own. */
+.details-group .accordion {
+  border-radius: calc(var(--radius-scale) - var(--space-2));
+  /* the colour of a list's band on Results, #F1F4FB: the same layers — a band over the panel's tint over the page
+     (customer 2026-10-24: «внутренние плашки на результатах и плашки партий одинаковые по цвету»; it was surface/subtle) */
+  background: linear-gradient(var(--color-row-band), var(--color-row-band)),
+    linear-gradient(var(--color-accent-soft), var(--color-accent-soft)), var(--color-bg);
+}
+
+/* the titles as the names of the closest lists on Results: Label/Strong, SemiBold, black (customer 2026-10-24: «как на
+   результатах»; it was Label/Medium, text/primary) */
+.details-group .accordion-head {
+  padding-block: var(--space-4);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-strong);
+}
+
 /* List details: the list's closeness as a Results row with no band — the title light (Body/Default, text/tertiary) right
    above the line, its descenders about 5 over it; under it, in one line, the rank circle (tint, so it shows on white), the
    scale's line (the light blue tint on the white page) and the blue percent (customer 2026-10-23: «просто полоса, причём
@@ -1054,7 +1090,7 @@ div.list-row .list-row-value {
    уже линия 70 %») */
 .details-rule {
   height: var(--border-width);
-  margin-top: var(--space-2); /* 16 under the name: the stack's 8 + 8 */
+  margin-top: calc(var(--space-1) / 2); /* 10 under the name: the stack's 8 + 2 (customer 2026-10-24: «чуть меньше отступа до линии», «ещё совсем чуть-чуть»; it was 16, then 12) */
   background: var(--color-border);
 }
 

@@ -97,7 +97,7 @@ header, pinned with it; Methodology is a page of its own: the menu stays, no Bac
   Not on Methodology: a page of its own, the menu stays (G24, G29).
 - Header, top to bottom: the list name — the whole official `name_en`, «headed by …» included, not split (customer
   2026-10-24: it is one name), Fraunces 26/32, its lines balanced (`text-wrap: balance`), a blue line 3 wide on its left,
-  the text 12 after it; 16 below it a line the column's width (Brand / Line 20 %, 1); 4 below the line, once for the page,
+  the text 12 after it; 10 below it a line the column's width (Brand / Line 20 %, 1); 4 below the line, once for the page,
   the caveat «Shows what they pushed for, not whether they accept the price in the statement» — the explanation's «price»
   caveat shortened for the page, no period (customer 2026-10-23: it fits every topic; the topics leave it out; 2026-10-24:
   option a of 4) —, italic and lighter as the Results hint (Body/Default italic, text/tertiary), justified so its right
@@ -108,8 +108,12 @@ header, pinned with it; Methodology is a page of its own: the menu stays, no Bac
   22/26, at the column's edge; the circle and the percent 4 above the line's centre) (light blue tint for the line, 4
   thick; customer 2026-10-23; 2026-10-24: no legend, rank and percent on the line's row); the note. 32 from the block to
   «Why it fits» (customer 2026-10-24: name, line, caveat, then the closeness).
-- «Why it fits — N matches» (items with contribution > 0, largest first) and «Why it doesn't fit — N mismatches» (contribution
+- «Why it fits — N matches» (items with contribution > 0, largest first) and «Why it doesn't fit — N mismatches» (shown as
+  the words only, «Why it fits», no count — the template's part before « — »; Fraunces 32/38, dark grey #26282E, 12 from it to the first topic, 32 above «Why it doesn't fit»;
+  customer 2026-10-24) (contribution
   < 0, most negative first). Every item listed, each a collapsed line with its `title_en`, as the statements on Methodology
+  (but the corners, 16, and the colour, #F1F4FB, of a Results band, 52 tall, the titles Label/Strong in black as the closest
+  lists' names on Results)
   (customer 2026-10-23: List details and the bills page made one page; there is no separate Bills screen).
 - An item opened: the explanation lines exactly as `explain()` (see golden `details[].items[].lines`): quoted statement ·
   «Your answer: X. The list is for/against this statement.» · basis line · optional weight ×2 line · optional caveat; then

@@ -80,7 +80,7 @@ Line heights are exact Figma px ÷ size (`calc(22 / 17)`), never rounded ratios.
 | Button | Plus Jakarta Sans 600 | 17 / 22 | `.answer`, `.btn` | answer options |
 | Body/Large | Plus Jakarta Sans 400 | 17 / 24 | `body`, `.tagline` | Home subtitle |
 | Menu item | Plus Jakarta Sans 500 | 17 / 22 | `.menu-item`, `.bill-title` | menu items, bill names |
-| Label/Strong | Plus Jakarta Sans 600 | 15 / 20 | `.btn-link`, `.choice-title`, `.step-number`, `.choice-badge`, `.title-sm`, `.list-row-value`, `.scale-top .list-row-name`, `.scale-legend` | Behind the results, Not sure — skip, card titles A/B/=, Details card titles, Results closeness / names in the panel / scale legend |
+| Label/Strong | Plus Jakarta Sans 600 | 15 / 20 | `.btn-link`, `.choice-title`, `.step-number`, `.choice-badge`, `.title-sm`, `.list-row-value`, `.scale-top .list-row-name`, `.scale-legend`, `.details-group .accordion-head` | Behind the results, Not sure — skip, card titles A/B/=, Details card titles, Results closeness / names in the panel / scale legend |
 | Counter | Plus Jakarta Sans 600 | 15 / 22 | `.counter` | progress counter |
 | Label/Medium | Plus Jakarta Sans 500 | 15 / 20 | `.step`, `.list-row-name`, `.list-names-rows`, `.accordion-head` | Home steps, Results names below the panel, names of lists and statement titles in Methodology |
 | Body/Default | Plus Jakarta Sans 400 | 15 / 21 | `.lead`, `.explain`, `.small`, `.details-row .list-row-name` | card explanations, intro text, «Based on …», bill details, List details «Closeness to you» (text/tertiary) |
@@ -90,6 +90,7 @@ Line heights are exact Figma px ÷ size (`calc(22 / 17)`), never rounded ratios.
 | Eyebrow | Plus Jakarta Sans 600 | 12 / 16, 0.72 px (6%), upper case | `.eyebrow` | label above the title |
 | — (not in Figma) | Plus Jakarta Sans 800 | 15 / 20 | `.list-row-rank` | Results rank numbers (customer 2026-10-23) |
 | — (not in Figma) | Plus Jakarta Sans 800 | 22 / 26 | `.details-row .list-row-value` | List details closeness percent (customer 2026-10-24) |
+| — (not in Figma) | Fraunces 400 | 32 / 38 | `.details-section` | List details «Why it fits» / «Why it doesn't fit», no count, `--color-text-section` #26282E (customer 2026-10-24) |
 | — (not in Figma) | Fraunces 400 | 26 / 32, lines balanced | `.details-title` | List details list name, a 3 px blue line on its left (customer 2026-10-24) |
 | — (not in Figma) | Plus Jakarta Sans 400 italic | 15 / 21 | `.hint`, `.details-caveat` | Results «Tap › for details», List details «This shows …», text/tertiary (customer 2026-10-23, 2026-10-24) |
 
