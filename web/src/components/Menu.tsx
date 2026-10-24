@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState, type CSSProperties } from 'react';
+import { cssTime } from '../cssTime';
 import { PAGE_PATHS } from '../state/reducer';
 import { S } from '../strings';
 import { Icon } from './Icon';
@@ -66,7 +67,7 @@ export function Menu({ onClose, onStartOver, onResults, onMethodology }: Props) 
     const panel = panelRef.current;
     const dim = dimRef.current;
     const css = getComputedStyle(document.documentElement);
-    const duration = parseFloat(css.getPropertyValue('--menu-out-time')) || 0;
+    const duration = cssTime(css.getPropertyValue('--menu-out-time'));
     if (!panel?.animate || !dim || !duration || window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) {
       onClose();
       return;

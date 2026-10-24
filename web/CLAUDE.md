@@ -356,6 +356,8 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
   wrong — stop and describe it to the customer; do not «fix» the TS to differ.
 - Explanation strings that appear in golden must reproduce it exactly.
 - `src/state/` — `useReducer` state machine, pure and tested. No router.
+- A CSS time token read from JavaScript goes through `src/cssTime.ts` (the production minifier writes `200ms` as `.2s`; `parseFloat` alone gave 0.2 ms, H12).
+- Screen changes: a card change slides (G11, `slideCard`), any other change of screen cross-fades (H13, `fadeScreen`); both in `src/cardTransition.ts`, both skipped with reduced motion.
 - Screens are tested through `<App/>` in jsdom (`src/screens/screens.test.tsx`), including the privacy rules.
 
 ## Before a commit

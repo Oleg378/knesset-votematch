@@ -8,15 +8,13 @@
  * starts growing, and out before it is gone. Keyframes and tokens: app.css «Expand and collapse», tokens.css.
  * No motion with reduced motion, or where there is no layout (jsdom): the block just is open or closed.
  */
+import { cssTime } from './cssTime';
 import { screenScroller } from './scroller';
 
 const reducedMotion = () => window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? true;
 
 const token = (name: string) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
-const ms = (name: string) => {
-  const v = token(name);
-  return v.endsWith('ms') ? parseFloat(v) : (parseFloat(v) || 0) * 1000;
-};
+const ms = (name: string) => cssTime(token(name));
 
 /** How long the motion over `px` takes: `rate` ms per px, clamped. */
 export function motionTime(px: number, rate: number, min: number, max: number): number {

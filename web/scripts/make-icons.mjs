@@ -2,7 +2,7 @@
 // `node scripts/make-icons.mjs` — needs Google Chrome (headless, for the PNGs); run again after changing the hero picture
 // (src/assets/figma/hero.svg), the site name or the subtitle (export/quiz_texts.json `app`), or the brand colours.
 //
-//   favicon.svg          the tab icon: the hero's arc of seats, simplified for 16–32 px (three rows, bigger dots, the blue seat)
+//   favicon.svg          the tab icon: the hero's arc of seats, simplified for 16–32 px (three rows, bigger dots, the blue seat), on a white tile
 //   favicon.ico          the same at 32 and 16 px for browsers that take no SVG
 //   apple-touch-icon.png 180 px, the full hero arc on white, for «Add to Home Screen» on iPhone
 //   icon-192.png, icon-512.png   the same, for the web app manifest (Android home screen, install prompt)
@@ -38,7 +38,9 @@ function faviconSvg() {
   }
   const a = (-62.6 * Math.PI) / 180;
   const seat = `<circle cx="${(cx + 25 * Math.cos(a)).toFixed(2)}" cy="${(cy + 25 * Math.sin(a)).toFixed(2)}" r="5" fill="${BRAND}"/>`;
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${size} ${size}">${dots.join('')}${seat}</svg>\n`;
+  // On a white rounded tile: the browser's tab strip can be dark, and the light rows disappeared on it (customer 2026-10-24).
+  const tile = `<rect width="${size}" height="${size}" rx="${size / 5}" fill="#fff"/>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${size} ${size}">${tile}${dots.join('')}${seat}</svg>\n`;
 }
 
 // ---- PNGs: an HTML page per picture, screenshot by headless Chrome at the picture's size.

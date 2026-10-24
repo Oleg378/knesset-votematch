@@ -9,6 +9,28 @@ export function isCardChange(from: Screen, to: Screen): boolean {
 }
 
 let current: ViewTransition | null = null;
+
+/**
+ * Any other change of screen (Start → the first question, the last answer → Results, a result → List details and back,
+ * the methodology page; customer 2026-10-24: «что-то лёгкое»): a short cross-fade of the whole page through the
+ * browser's View Transitions, `--screen-fade` long (app.css «Screen fade»). `update` must change the DOM before it
+ * returns (flushSync). No View Transitions (iOS ≤ 17, jsdom) or reduced motion: the screen changes at once. A card change
+ * in flight is left alone: the fade is skipped, not stacked on it.
+ */
+export function fadeScreen(update: () => void): void {
+  const reduced = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+  if (typeof document.startViewTransition !== 'function' || reduced || current) {
+    update();
+    return;
+  }
+  const root = document.documentElement;
+  root.dataset.fade = '';
+  const t = document.startViewTransition(update);
+  const done = () => {
+    if (!root.dataset.card) delete root.dataset.fade;
+  };
+  t.finished.then(done, done);
+}
 const CARD_VARS = ['--card-old-y', '--card-clip-top', '--card-visible'];
 
 const box = (selector: string) => document.querySelector(selector)?.getBoundingClientRect();

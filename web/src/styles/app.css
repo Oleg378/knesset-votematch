@@ -1668,6 +1668,14 @@ a.menu-item {
    (the phone screen, the card). The old screen fades to white as it goes, not dims (the bars span only the column: a
    dim would show as grey strips beside them) — otherwise, as the motion settles, a strip of the old text stays at the
    edge and looks like lag (customer 2026-10-19). No View Transitions (iOS ≤ 17) or reduced motion: no animation. */
+/* Screen fade (customer 2026-10-24): every change of screen that is not a card change — Start → the first question, the
+   last answer → Results, a result → List details and back, the methodology page — is a short cross-fade of the whole
+   page (the browser's default view transition of the root, only its length set here); cardTransition.ts puts data-fade
+   on <html> for the transition only. Nothing is named, so nothing moves: the header stays where it is. */
+:root[data-fade]::view-transition-group(root) {
+  animation-duration: var(--screen-fade);
+}
+
 :root[data-card] .screen {
   view-transition-name: screen;
   /* The screen's box reaches the edges of .app (its content stays in place), so it slides from the very edge. */

@@ -3,7 +3,7 @@ import { flushSync } from 'react-dom';
 import { track } from './analytics';
 import { screenScroller } from './scroller';
 import { watchShortScroll } from './shortScroll';
-import { isCardChange, slideCard } from './cardTransition';
+import { fadeScreen, isCardChange, slideCard } from './cardTransition';
 import { Counter, Header } from './components/Header';
 import { Loading, LoadError } from './components/Loading';
 import { Menu } from './components/Menu';
@@ -49,7 +49,9 @@ export default function App({ loader, initial = initialState }: { loader: Loader
   // One quiz card replacing another slides (cardTransition.ts); the DOM must change inside the transition: flushSync.
   const send = useCallback((action: Action) => {
     const next = reducerRef.current(stateRef.current, action);
-    if (!isCardChange(stateRef.current.screen, next.screen)) dispatch(action);
+    const sameScreen = JSON.stringify(stateRef.current.screen) === JSON.stringify(next.screen);
+    if (sameScreen) dispatch(action);
+    else if (!isCardChange(stateRef.current.screen, next.screen)) fadeScreen(() => flushSync(() => dispatch(action)));
     else slideCard(() => {
       flushSync(() => dispatch(action));
       // Where the screen scrolls inside the page (the frame in an app's viewer, a short page in a browser): the new card

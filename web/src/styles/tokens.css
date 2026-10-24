@@ -146,6 +146,7 @@
   --loader-in: 300ms;
   --loader-spin: 1.2s;
   --card-time: 540ms; /* card change, as an iOS navigation push (app.css «Card change») */
+  --screen-fade: 200ms; /* any other change of screen: a cross-fade of the page (app.css «Screen fade») */
   --card-ease: cubic-bezier(0.32, 0.72, 0, 1); /* iOS-like deceleration */
   --card-behind: 33%; /* how far the screen underneath moves */
   --card-shadow: -4px 0 24px rgba(0, 0, 0, 0.08); /* edge of the screen on top */
