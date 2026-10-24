@@ -1,9 +1,9 @@
 import type { Dispatch } from 'react';
 import hero from '../assets/figma/hero.svg';
-import { Button } from '../components/Button';
+import { Button, LinkButton } from '../components/Button';
 import { plannedQuestions } from '../engine/flow';
 import type { QuizCore } from '../engine/types';
-import type { Action } from '../state/reducer';
+import { PAGE_PATHS, type Action } from '../state/reducer';
 import { S } from '../strings';
 
 /**
@@ -42,9 +42,9 @@ export function StartScreen({ core, dispatch }: { core: QuizCore | null; dispatc
         <Button variant="primary" block onClick={() => dispatch({ type: 'START' })}>
           {S.start.button}
         </Button>
-        <Button variant="link" onClick={() => dispatch({ type: 'OPEN_METHODOLOGY' })}>
+        <LinkButton variant="link" href={PAGE_PATHS.methodology} onClick={() => dispatch({ type: 'OPEN_METHODOLOGY' })}>
           {S.start.howItWorks}
-        </Button>
+        </LinkButton>
       </div>
     </section>
   );

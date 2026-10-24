@@ -39,9 +39,12 @@ function answer(n: number) {
   }
 }
 
+const clickLink = (name: string) => fireEvent.click(screen.getByRole('link', { name }));
 const menuTo = (item: string) => {
   click(S.menu.open);
-  fireEvent.click(within(screen.getByRole('dialog')).getByRole('button', { name: new RegExp(item) }));
+  const dialog = within(screen.getByRole('dialog'));
+  // «Methodology» is a link to its page (H10); the other items are buttons
+  fireEvent.click(dialog.queryByRole('button', { name: new RegExp(item) }) ?? dialog.getByRole('link', { name: new RegExp(item) }));
 };
 const equalCard = () => screen.queryByRole('button', { name: new RegExp(S.trade.equalTitle) });
 
@@ -90,7 +93,7 @@ describe('start', () => {
     screen.getByText(S.start.chipStatements(planned));
     screen.getByText(S.start.chipTime);
     screen.getByText(S.start.steps(planned)[0]!);
-    click(S.start.howItWorks);
+    clickLink(S.start.howItWorks);
     screen.getByRole('heading', { name: methodology.heading });
     // The title in the header, as on Results; a page of its own: the menu stays, no Back — the system Back still returns
     within(screen.getByRole('banner')).getByText(methodology.heading);
@@ -134,7 +137,7 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
   const rowsIn = (card: HTMLElement) => card.querySelectorAll('.method-rows .accordion').length;
   const open = () => {
     render(<App loader={loaded()} />);
-    click(S.start.howItWorks);
+    clickLink(S.start.howItWorks);
   };
   // jsdom has no layout: a card's title with its text is `head` px high, every item `item` px, no gaps and no tokens
   // (no CSS) — so a card fits ⌊(CARD_MAX_HEIGHT − head) / item⌋ items with «See all», at least one
@@ -259,7 +262,7 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
     const { loader, arrive } = manualLoader();
     render(<App loader={loader} />);
     arrive({ core, data });
-    click(S.start.howItWorks);
+    clickLink(S.start.howItWorks);
     screen.getByText(S.loading);
     arrive({ bills });
     screen.getByRole('heading', { name: methodology.heading });

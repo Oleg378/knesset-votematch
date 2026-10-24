@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState, type CSSProperties } from 'react';
+import { PAGE_PATHS } from '../state/reducer';
 import { S } from '../strings';
 import { Icon } from './Icon';
 
@@ -122,6 +123,19 @@ export function Menu({ onClose, onStartOver, onResults, onMethodology }: Props) 
       </button>
     </li>
   );
+  // «Methodology» is a page with an address: a real link (crawlers, «open in a new tab»); a plain click stays in the app.
+  const pageItem = (icon: 'info', label: string, href: string, run: () => void) => (
+    <li>
+      <a className="menu-item" href={href} onClick={(e) => {
+        if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+        e.preventDefault();
+        close(run);
+      }}>
+        <Icon name={icon} />
+        {label}
+      </a>
+    </li>
+  );
   return (
     // Outside the frame (the page around the card) a click closes the menu too.
     <div ref={layerRef} className="menu-layer" onClick={(e) => e.target === e.currentTarget && close()}>
@@ -139,7 +153,7 @@ export function Menu({ onClose, onStartOver, onResults, onMethodology }: Props) 
           <ul className="plain-list menu-items">
             {item('restart', S.menu.startOver, onStartOver)}
             {item('results', S.menu.results, onResults)}
-            {item('info', S.menu.methodology, onMethodology)}
+            {pageItem('info', S.menu.methodology, PAGE_PATHS.methodology, onMethodology)}
           </ul>
         </div>
       </div>

@@ -121,6 +121,7 @@ function siteHead(): Plugin {
           link('apple-touch-icon', `${base}apple-touch-icon.png`),
           link('manifest', `${base}manifest.webmanifest`),
           prop('og:type', 'website'),
+          prop('og:locale', 'en_US'),
           prop('og:site_name', T.app.siteName),
           prop('og:title', title),
           prop('og:description', description),
@@ -138,6 +139,25 @@ function siteHead(): Plugin {
             prop('og:image:alt', `${T.app.siteName}: ${T.app.subtitle}`),
             meta('twitter:image', abs('/og-image.png')),
           );
+        }
+        // Structured data (schema.org): what the site is, in a form search engines read; not a script (CSP allows it).
+        if (SITE_URL) {
+          const ld = {
+            '@context': 'https://schema.org',
+            '@type': 'WebApplication',
+            name: T.app.siteName,
+            headline: title,
+            url: abs(path),
+            description,
+            inLanguage: 'en',
+            isAccessibleForFree: true,
+            applicationCategory: 'Quiz',
+            operatingSystem: 'Any',
+            browserRequirements: 'Requires JavaScript',
+            image: abs('/og-image.png'),
+            author: T.methodology.credits.people.map((p) => ({ '@type': 'Person', name: p.name, sameAs: p.url })),
+          };
+          tags.push({ tag: 'script', attrs: { type: 'application/ld+json' }, children: JSON.stringify(ld), injectTo: 'head' });
         }
         return tags;
       },
@@ -160,7 +180,8 @@ function siteHead(): Plugin {
       // /count/ is the metrics beacon (src/analytics.ts), not a page.
       const robots = ['User-agent: *', 'Allow: /', 'Disallow: /count/', ...(SITE_URL ? [`Sitemap: ${abs('/sitemap.xml')}`] : [])];
       this.emitFile({ type: 'asset', fileName: 'robots.txt', source: robots.join('\n') + '\n' });
-      const urls = Object.keys(PAGES).map((p) => `  <url><loc>${abs(p)}</loc></url>`);
+      const lastmod = new Date().toISOString().slice(0, 10); // the pages change with every build (the data, the texts)
+      const urls = Object.keys(PAGES).map((p) => `  <url><loc>${abs(p)}</loc><lastmod>${lastmod}</lastmod></url>`);
       const sitemap = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">', ...urls, '</urlset>'];
       this.emitFile({ type: 'asset', fileName: 'sitemap.xml', source: sitemap.join('\n') + '\n' });
     },

@@ -17,7 +17,7 @@ import { ResultsScreen } from './screens/ResultsScreen';
 import { StartScreen } from './screens/StartScreen';
 import { TradeoffScreen } from './screens/TradeoffScreen';
 import { createBackGuard } from './state/backGuard';
-import { createReducer, hasComputableAnswers, initialState, type Action, type State } from './state/reducer';
+import { createReducer, hasComputableAnswers, initialState, PAGE_PATHS, type Action, type State } from './state/reducer';
 import { S } from './strings';
 
 function focusHeading() {
@@ -88,7 +88,7 @@ export default function App({ loader, initial = initialState }: { loader: Loader
     guard.sync(sc.name === 'start');
     // «How it works» is the one screen with an address of its own (/how-it-works, prerendered: src/prerender.tsx); the
     // address follows it and comes back to / on any other screen. Nothing else is ever in the URL (no answers, no result).
-    const page = sc.name === 'methodology' ? '/how-it-works' : '/';
+    const page = sc.name === 'methodology' ? PAGE_PATHS.methodology : PAGE_PATHS.start;
     if (location.pathname !== page) history.replaceState(history.state, '', page);
     // During a card change the page must not scroll: cardTransition.ts scrolls to the top when it ends.
     if (!document.documentElement.dataset.card) {

@@ -14,7 +14,7 @@ import { Header } from './components/Header';
 import type { QuizBills, QuizCore, QuizData } from './engine/types';
 import { MethodologyScreen } from './screens/MethodologyScreen';
 import { StartScreen } from './screens/StartScreen';
-import { initialStateFor } from './state/reducer';
+import { initialStateFor, PAGE_PATHS } from './state/reducer';
 import { S } from './strings';
 import coreJson from '@export/quiz_core.json';
 import dataJson from '@export/quiz_data.json';
@@ -28,8 +28,7 @@ const noop = () => {};
 /** React's server renderer puts a preload of the hero picture before the markup; index.html preloads it itself (vite.config.ts). */
 const markup = (node: React.ReactNode) => renderToStaticMarkup(node).replace(/^(?:<link rel="preload"[^>]*>)+/, '');
 
-/** The paths of the pages and the screen each one opens (src/main.tsx reads the same map). */
-export const PAGE_PATHS = { start: '/', methodology: '/how-it-works' } as const;
+export { PAGE_PATHS };
 
 export function render(path: string): string {
   switch (path) {

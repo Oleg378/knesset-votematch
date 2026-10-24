@@ -1239,6 +1239,20 @@ a {
   color: var(--color-accent);
 }
 
+/* A link drawn as a button or a menu item (LinkButton, the menu's Methodology): the same box and text as the button */
+a.btn,
+a.menu-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+a.menu-item {
+  justify-content: flex-start;
+}
+
 .sticky-actions {
   display: flex;
   flex-direction: column;
