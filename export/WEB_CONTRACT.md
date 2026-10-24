@@ -82,8 +82,12 @@ The 6 «flow N» golden cases give the exact sequences for six full answer sets:
 ## 3. List details: what the result explains and in which format
 
 Per list, everything comes from `quiz_report.contributions()` and `explain()`; golden `details[].items[]` has it field by field.
-The lines are the templates `explain.*` of `quiz_texts.json` (§7), with the answer word from `answers`, rendered the same way
-by `pipeline/quiz_report.py` and by the web; the examples below are those templates filled.
+Each line is a structure `{key, …parameters}` over the templates `explain.*` of `quiz_texts.json` (§7): `quote` (`text`), `answer`
+(`answer` −2…2, `side` = `for` / `against` / `noClear`), `basis` (`bills`, `same`, `opp`, `votes` = {`votes`, `other`, `gov`}),
+`basisVotesOnly` (`votes`), `weight`, `caveatByVotes`, `caveatPrice`. The engine builds the structures (`golden.json` holds them),
+the UI fills them into the templates (`renderLines` in `web/src/strings.ts`, `render_lines` in `pipeline/quiz_report.py`); the examples
+below are those templates filled. A note of a list is the same kind of structure over `notes` (`noRecord`, `oneMk`, `twoMks`,
+`fewInTopTen`, `lowCoverage` with `pct`), joined by `notes.join` (`renderNote`).
 
 **Header:** list name (`name_en`), closeness `+0.35`, note (if any).
 
@@ -91,7 +95,7 @@ by `pipeline/quiz_report.py` and by the web; the examples below are those templa
 - `contribution` = w × trade-off multiplier × u × p, where u = answer / 2 × key, p = list value. Positive → «Why it fits»
   (largest first), negative → «Why it doesn't fit» (most negative first). Section headers show the counts. 5 per section,
   then «Show all».
-- `lines` — shown exactly as given, in order:
+- `lines` — rendered and shown in order:
   1. the statement in quotes (`quote`);
   2. `answer`, with `side` = `sideFor`, `sideAgainst` or `sideNoClear`: `Your answer: <agree / strongly agree / …>. The record of the list's former MKs <points toward this statement | points against this statement | shows no clear position on this statement>.`
      (the third variant when the position is not clear: |p| < `params.CLOSE` (0.2), or fewer than `params.MIN_CLEAR_MKS` former MKs, or fewer than `params.MIN_CLEAR_BILLS` distinct bills (`n_names`));
@@ -231,14 +235,14 @@ them current. Statement titles named in the texts are quoted «as stored» (`tit
   (`cd web && npm run schema:texts` after any change of the structure or of the allowed names; a web test fails while the file
   on disk is stale).
 - `make check` I8: `quiz_texts.json` validates against `quiz_texts.schema.json`. I10: `golden.json` is current — the golden
-  cases recomputed with the current templates give the same ranking, notes and explanation lines.
+  cases recomputed give the same ranking, notes and explanation lines (as structures: a reworded text does not change them).
 - Web tests: the file parses, every template fills with sample values of its allowed names and leaves no brace, the
   methodology sections fill with the numbers of `quiz_data`, unknown names and stray braces are rejected.
 
 **How to change a text.**
 1. Edit `export/quiz_texts.json` and set `updated`.
-2. A text of `answers`, `notes` or `explain`: `make data` — the golden lines and notes change with it (I10 fails until then).
-3. `make check` — must print OK.
+2. `cd web && npm test -- --run` — the templates still fill, the screens still render. No Python, no `make data`: the golden
+   cases hold the structures of notes and lines, not their text.
 4. `cd web && npm test`.
 5. A new key or placeholder name is a change of the structure: first `web/src/texts.ts` and the code that fills the template
    (on both sides for `answers`, `notes`, `explain`), then `npm run schema:texts`.

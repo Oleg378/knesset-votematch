@@ -123,23 +123,40 @@ def explain(ctx, L, q, a, p, contrib, mult=None):
     toward = not close and p * q["key_s"] > 0
     # [У] 2026-10-18 (Р4а, external audit К2): say what was measured — what the list's former MKs pushed for with their bills and
     # votes — not that the list accepts the statement, whose «even if» price the data does not measure.
-    E = TX["explain"]
-    side = E["sideNoClear"] if close else E["sideFor"] if toward else E["sideAgainst"]
+    # The lines are structures {key, ...params} over the templates quiz_texts.json «explain» (render_lines); the web builds the
+    # same structures (web/src/engine/report.ts) and renders them with the same templates, golden.json holds the structures.
+    side = "noClear" if close else "for" if toward else "against"
     # [У] 2026-10-22: G — votes on the coalition's own government bills (named only when the list has any)
-    votes = T.fill(E["votes"], votes=nvotes, other=nother, gov=T.fill(E["votesGov"], gov=ngov) if ngov else "")
-    lines = [T.fill(E["quote"], text=q["statement_en"]),
-             T.fill(E["answer"], answer=ANS[a], side=side),
-             (T.fill(E["basis"], bills=len(ev), same=n_same, opp=n_opp, votes=votes) if ev
-              else T.fill(E["basisVotesOnly"], votes=votes))]
-    if (mult or {}).get(q["q"], 1) != 1: lines.append(E["weight"])
+    votes = {"votes": nvotes, "other": nother, "gov": ngov}
+    lines = [{"key": "quote", "text": q["statement_en"]},
+             {"key": "answer", "answer": a, "side": side},
+             ({"key": "basis", "bills": len(ev), "same": n_same, "opp": n_opp, "votes": votes} if ev
+              else {"key": "basisVotesOnly", "votes": votes})]
+    if (mult or {}).get(q["q"], 1) != 1: lines.append({"key": "weight"})
     P, P_A = ctx["pos"][L][q["d"]][0], ctx["pos"][L][q["d"]][3]
     by_votes = bool(ev) and (abs(P_A) <= EPS or (P_A > 0) != (P > 0))   # own bills give nothing or the other side
     if close: pass
     elif by_votes:
-        lines.append(E["caveatByVotes"])
+        lines.append({"key": "caveatByVotes"})
     if toward:
-        lines.append(E["caveatPrice"])
+        lines.append({"key": "caveatPrice"})
     return lines, ev
+
+SIDE = {"for": "sideFor", "against": "sideAgainst", "noClear": "sideNoClear"}
+
+def render_lines(lines):
+    """The explanation lines as text: the structures of explain() filled into the templates quiz_texts.json «explain»."""
+    E = TX["explain"]
+    def votes(v): return T.fill(E["votes"], votes=v["votes"], other=v["other"], gov=T.fill(E["votesGov"], gov=v["gov"]) if v["gov"] else "")
+    out = []
+    for l in lines:
+        k = l["key"]
+        if k == "quote": out.append(T.fill(E["quote"], text=l["text"]))
+        elif k == "answer": out.append(T.fill(E["answer"], answer=ANS[l["answer"]], side=E[SIDE[l["side"]]]))
+        elif k == "basis": out.append(T.fill(E["basis"], bills=l["bills"], same=l["same"], opp=l["opp"], votes=votes(l["votes"])))
+        elif k == "basisVotesOnly": out.append(T.fill(E["basisVotesOnly"], votes=votes(l["votes"])))
+        else: out.append(E[k])   # weight, caveatByVotes, caveatPrice
+    return out
 
 def main(f):
     ctx = context()
@@ -184,7 +201,7 @@ def main(f):
                            ("Why it doesn't fit — what took points away", [x for x in rows[::-1] if x[0] < 0][:PER])):
             out += [f"### {head}", ""]
             for contrib, q, a, u, p in part:
-                lines, ev = explain(ctx, L, q, a, p, contrib, mult)
+                lines, ev = explain(ctx, L, q, a, p, contrib, mult); lines = render_lines(lines)
                 out.append(f"**{q['title_en']}**  ")
                 out += [x + "  " for x in lines]
                 line = lambda *e: bill_line(ctx, q, *e)

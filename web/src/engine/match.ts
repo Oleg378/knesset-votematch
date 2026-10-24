@@ -4,7 +4,6 @@
  */
 import { pyPercent0 } from './format';
 import type { Answers, ListStatus, Mult, QuizData, QuizList, TradePair } from './types';
-import { noteFewMks, noteLowCoverage, noteNoRecord, NOTE_JOIN } from '../strings';
 
 /** Statement q -> list value p = P (K = 0) or P * e / (e + K); only statements whose direction has a position. */
 export type ListVec = Map<string, number>;
@@ -53,6 +52,12 @@ export function score(data: QuizData, answers: Answers, lv: ListVec, mult: Mult 
   return [cos, wa ? wc / wa : 0];
 }
 
+/** A note of a list: a key of quiz_texts.json «notes» with its parameters (quiz_match.py «notes»); strings.renderNote draws it. */
+export type NotePart = { key: 'noRecord' | 'oneMk' | 'twoMks' | 'fewInTopTen' } | { key: 'lowCoverage'; pct: string };
+
+/** quiz_match.few_mks_note — the note of a list with status `warning`, by its number of former MKs */
+export const fewMksNote = (n: number): NotePart => ({ key: n === 1 ? 'oneMk' : n === 2 ? 'twoMks' : 'fewInTopTen' });
+
 export interface MatchRow {
   id: string;
   name_en: string;
@@ -62,7 +67,7 @@ export interface MatchRow {
   /** null when not evaluated or not computable (Python None / NaN). */
   closeness: number | null;
   coverage: number;
-  note: string;
+  notes: NotePart[];
   ranked: boolean;
 }
 
@@ -71,14 +76,14 @@ export function match(data: QuizData, answers: Answers, mult: Mult = {}): MatchR
   const rows: MatchRow[] = data.lists.map((l) => {
     if (l.status === 'not_evaluated') {
       return { id: l.id, name_en: l.name_en, status: l.status, evaluated: false, closeness: null, coverage: 0,
-        note: noteNoRecord, ranked: false };
+        notes: [{ key: 'noRecord' }], ranked: false };
     }
     const [cos, cv] = score(data, answers, listVec(data, l), mult);
-    let note = l.status === 'warning' ? noteFewMks(l.ex_mks) : '';
-    if (cv < minCov) note = (note ? note + NOTE_JOIN : '') + noteLowCoverage(pyPercent0(cv));
+    const notes: NotePart[] = l.status === 'warning' ? [fewMksNote(l.ex_mks)] : [];
+    if (cv < minCov) notes.push({ key: 'lowCoverage', pct: pyPercent0(cv) });
     const finite = !Number.isNaN(cos);
     return { id: l.id, name_en: l.name_en, status: l.status, evaluated: true, closeness: finite ? cos : null,
-      coverage: cv, note, ranked: finite && cv >= minCov && l.ex_mks >= minMks };
+      coverage: cv, notes, ranked: finite && cv >= minCov && l.ex_mks >= minMks };
   });
   // key (not ranked, closeness is None, -(closeness if ranked else 0)); Array.prototype.sort is stable (lists order).
   const key = (r: MatchRow): [number, number, number] => [r.ranked ? 0 : 1, r.evaluated ? 0 : 1,

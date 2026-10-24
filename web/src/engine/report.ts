@@ -2,7 +2,6 @@
  * Port of pipeline/quiz_report.py: contributions, evidence, explain. Strings come from src/strings.ts and must reproduce
  * the golden `lines` exactly. Evidence needs quiz_bills (sponsors, bills by direction).
  */
-import { ANS, explainText as T } from '../strings';
 import { listVec } from './match';
 import type { AnswerValue, Answers, Mult, Params, QuizBills, QuizData, QuizList, Role, Sign, Statement } from './types';
 
@@ -82,8 +81,20 @@ export function isClear(params: Params, p: number, nMk: number, nNames: number):
   return Math.abs(p) >= params.CLOSE && nMk >= params.MIN_CLEAR_MKS && nNames >= params.MIN_CLEAR_BILLS;
 }
 
+export type Side = 'for' | 'against' | 'noClear';
+export interface VoteCounts { votes: number; other: number; gov: number }
+/** One explanation line: a key of quiz_texts.json «explain» with its parameters (quiz_report.py explain()); strings.renderLines draws them. */
+export type LineItem =
+  | { key: 'quote'; text: string }
+  | { key: 'answer'; answer: Exclude<AnswerValue, 0>; side: Side }
+  | { key: 'basis'; bills: number; same: number; opp: number; votes: VoteCounts }
+  | { key: 'basisVotesOnly'; votes: VoteCounts }
+  | { key: 'weight' }
+  | { key: 'caveatByVotes' }
+  | { key: 'caveatPrice' };
+
 export interface Explanation {
-  lines: string[];
+  lines: LineItem[];
   evidence: Evidence[];
 }
 
@@ -97,17 +108,17 @@ export function explain(data: QuizData, bills: QuizBills, listId: string, q: Sta
   const pos = list.positions[q.d];
   const close = !isClear(data.params, p, pos?.n_mk ?? 0, pos?.n_names ?? 0);
   const toward = !close && p * q.key > 0;
-  const side = close ? T.sideNoClear : toward ? T.sideFor : T.sideAgainst;
-  const votes = T.votes(pos?.n_votes ?? 0, pos?.n_other ?? 0, pos?.n_gov ?? 0);
-  const lines = [
-    T.quote(q.statement_en),
-    T.answer(ANS[a], side),
-    ev.length ? T.basis(ev.length, nSame, nOpp, votes) : T.basisVotesOnly(votes),
+  const side: Side = close ? 'noClear' : toward ? 'for' : 'against';
+  const votes: VoteCounts = { votes: pos?.n_votes ?? 0, other: pos?.n_other ?? 0, gov: pos?.n_gov ?? 0 };
+  const lines: LineItem[] = [
+    { key: 'quote', text: q.statement_en },
+    { key: 'answer', answer: a, side },
+    ev.length ? { key: 'basis', bills: ev.length, same: nSame, opp: nOpp, votes } : { key: 'basisVotesOnly', votes },
   ];
-  if ((mult[q.q] ?? 1) !== 1) lines.push(T.weight);
+  if ((mult[q.q] ?? 1) !== 1) lines.push({ key: 'weight' });
   // The list's own bills give nothing or the other side: its side comes from the votes.
   const byVotes = ev.length > 0 && !!pos && (Math.abs(pos.P_bills) <= EPS || (pos.P_bills > 0) !== (pos.P > 0));
-  if (!close && byVotes) lines.push(T.caveatByVotes);
-  if (toward) lines.push(T.caveatPrice);
+  if (!close && byVotes) lines.push({ key: 'caveatByVotes' });
+  if (toward) lines.push({ key: 'caveatPrice' });
   return { lines, evidence: ev };
 }

@@ -1,8 +1,10 @@
 /**
  * The UI strings, built from export/quiz_texts.json (`T`, src/texts.ts) — no text is written here, only how each one is
- * filled. The explanation templates must reproduce pipeline/quiz_report.py exactly (golden `lines`), the notes
- * pipeline/quiz_match.py: reword those in the file only together with the Python side and the golden file.
+ * filled. The engine produces structures (notes: NotePart[], explanation lines: LineItem[]) that golden.json checks against
+ * the Python reference; renderNote / renderLines fill them into the templates of the file, as pipeline/quiz_match.py
+ * render_note and pipeline/quiz_report.py render_lines do. A text can be reworded in the file alone: no golden, no Python.
  */
+import type { LineItem, NotePart } from './engine';
 import type { AnswerValue } from './engine/types';
 import { fill, T } from './texts';
 import { HIGHLIGHT } from './uiConstants';
@@ -10,16 +12,14 @@ import { HIGHLIGHT } from './uiConstants';
 const byAnswer = (m: Record<'2' | '1' | '0' | '-1' | '-2', string>) =>
   ({ 2: m['2'], 1: m['1'], 0: m['0'], [-1]: m['-1'], [-2]: m['-2'] }) as Record<AnswerValue, string>;
 
-// ---- Engine texts (must match the Python reference byte for byte) ----
+// ---- Engine texts: the templates the engine's structures are rendered with ----
 
 /** quiz_report.ANS — answers inside sentences */
 export const ANS: Record<AnswerValue, string> = byAnswer(T.answers);
 
-export const noteNoRecord = T.notes.noRecord;
-/** quiz_match.few_mks_note — the note of a list with status `warning`, by its number of former MKs */
-export const noteFewMks = (n: number) => (n === 1 ? T.notes.oneMk : n === 2 ? T.notes.twoMks : T.notes.fewInTopTen);
-export const noteLowCoverage = (pct: string) => fill(T.notes.lowCoverage, { pct });
-export const NOTE_JOIN = T.notes.join;
+/** quiz_match.render_note: the notes of a list as one string, each part filled into its template, joined by notes.join */
+export const renderNote = (parts: NotePart[]): string =>
+  parts.map((p) => (p.key === 'lowCoverage' ? fill(T.notes.lowCoverage, { pct: p.pct }) : T.notes[p.key])).join(T.notes.join);
 
 /** quiz_report.plural */
 export const plural = (n: number, word: string) => `${n} ${word}${n === 1 ? '' : 's'}`;
@@ -41,6 +41,22 @@ export const explainText = {
   caveatByVotes: E.caveatByVotes,
   caveatPrice: E.caveatPrice,
 };
+
+const SIDE = { for: explainText.sideFor, against: explainText.sideAgainst, noClear: explainText.sideNoClear } as const;
+
+/** quiz_report.render_lines: the explanation lines as text */
+export function renderLines(lines: LineItem[]): string[] {
+  const X = explainText;
+  return lines.map((l) => {
+    switch (l.key) {
+      case 'quote': return X.quote(l.text);
+      case 'answer': return X.answer(ANS[l.answer], SIDE[l.side]);
+      case 'basis': return X.basis(l.bills, l.same, l.opp, X.votes(l.votes.votes, l.votes.other, l.votes.gov));
+      case 'basisVotesOnly': return X.basisVotesOnly(X.votes(l.votes.votes, l.votes.other, l.votes.gov));
+      default: return X[l.key];
+    }
+  });
+}
 
 // ---- UI ----
 

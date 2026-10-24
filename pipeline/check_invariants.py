@@ -115,7 +115,7 @@ close = lambda x, y: x == y or (x is not None and y is not None and abs(x - y) <
 stale = sorted(set(gold) ^ set(new))
 for n in set(gold) & set(new):
     a, b = gold[n], new[n]
-    ra = [(r["id"], r["ranked"], r["note"]) for r in a["ranking"]]; rb = [(r["id"], r["ranked"], r["note"]) for r in b["ranking"]]
+    ra = [(r["id"], r["ranked"], r["notes"]) for r in a["ranking"]]; rb = [(r["id"], r["ranked"], r["notes"]) for r in b["ranking"]]
     if (ra != rb or not all(close(x["closeness"], y["closeness"]) and close(x["coverage"], y["coverage"]) for x, y in zip(a["ranking"], b["ranking"]))
             or [[(i["q"], i["lines"]) for i in d["items"]] for d in a["details"]] != [[(i["q"], i["lines"]) for i in d["items"]] for d in b["details"]]):
         stale.append(n)

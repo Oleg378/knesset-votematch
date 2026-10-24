@@ -63,7 +63,8 @@ Python deps: `requirements.txt` (pinned). Node: `web/package-lock.json`.
 - `pipeline/export.py` writes the three files (`quiz_core`, `quiz_data`, `quiz_bills`), validated together against `export/quiz_data.schema.json`,
   and `export/stats.json` (the current numbers; `make check` I9 compares the numbers typed in TECHNICAL and WEB_CONTRACT with it).
 - `export/quiz_texts.json` — every text the user reads, edited by hand (WEB_CONTRACT §7): the web bundles it, the Python reference renders the
-  answers, notes and explanation lines from the same templates (`pipeline/texts.py`); after changing those, `make data` regenerates golden.
+  answers, notes and explanation lines from the same templates (`pipeline/texts.py`); golden holds their structures (keys and
+  parameters), so a text change needs only the web tests, no `make data`.
 - The front end never reads raw data and never calls Python.
 - Changing the formula or the structure → the schema, the golden file and the web contract are updated in the same step; the files the live site reads are never changed silently.
 - `export/golden.json`: answer sets → expected ranking, question order (flow cases), coverage, notes, trade-off pairs, explanations and evidence order,

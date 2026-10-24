@@ -6,7 +6,7 @@ import { ShareButton } from '../components/ShareButton';
 import { match } from '../engine/match';
 import { collapse, expand, foldLid, scrollBackTo } from '../expandMotion';
 import { answeredCount } from '../state/reducer';
-import { S } from '../strings';
+import { renderNote, S } from '../strings';
 import { HIGHLIGHT } from '../uiConstants';
 import type { ScreenProps } from './types';
 
@@ -95,7 +95,7 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
           <ol className="scale-rows" aria-label={S.results.closest(top.length)}>
             {top.map((r, i) => (
               <li key={r.id}>
-                <ListRow rank={i + 1} name={r.name_en} closeness={r.closeness} note={r.note} onClick={open(r.id)} />
+                <ListRow rank={i + 1} name={r.name_en} closeness={r.closeness} note={renderNote(r.notes)} onClick={open(r.id)} />
               </li>
             ))}
           </ol>
@@ -115,7 +115,7 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
             <ol className="scale-rows scale-rest" start={HIGHLIGHT + 1}>
               {rest.map((r, i) => (
                 <li key={r.id}>
-                  <ListRow rank={HIGHLIGHT + i + 1} name={r.name_en} closeness={r.closeness} note={r.note}
+                  <ListRow rank={HIGHLIGHT + i + 1} name={r.name_en} closeness={r.closeness} note={renderNote(r.notes)}
                     onClick={open(r.id)} />
                 </li>
               ))}

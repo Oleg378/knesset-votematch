@@ -61,25 +61,30 @@ def score(st, answers, lv, mult=None):
     cos = num / np.sqrt(uu * pp) if uu > 0 and pp > 0 else float("nan")
     return cos, (wc / wa if wa else 0.0)
 
-def few_mks_note(N, n):
-    """The note of a list with status warning (fewer than 3 former MKs in its top ten), by its number of former MKs."""
-    return N["oneMk"] if n == 1 else N["twoMks"] if n == 2 else N["fewInTopTen"]
+def few_mks_note(n):
+    """The note of a list with status warning (fewer than 3 former MKs in its top ten), by its number of former MKs: its key."""
+    return "oneMk" if n == 1 else "twoMks" if n == 2 else "fewInTopTen"
+
+def render_note(parts):
+    """The notes of a list as one string: each part is {key, ...params} over quiz_texts.json «notes», joined by notes.join.
+    The web renders the same parts with the same templates (web/src/strings.ts renderNote); golden.json holds the parts."""
+    N = T.load()["notes"]
+    return N["join"].join(T.fill(N[p["key"]], **{k: v for k, v in p.items() if k != "key"}) for p in parts)
 
 def match(answers, k=K, mult=None):
     st, pos, cov = load()
-    N = T.load()["notes"]   # user-facing notes: export/quiz_texts.json (export/WEB_CONTRACT.md §7), the same templates as the web
     rows = []
     for letters, c in cov.items():
         if c["status"] == "not_evaluated":
             rows.append({"letters": letters, "list": c["list_name"], "status": c["status"], "closeness": None, "coverage": 0,
-                         "ex_mks": 0, "note": N["noRecord"]}); continue
+                         "ex_mks": 0, "notes": [{"key": "noRecord"}]}); continue
         cos, cv = score(st, answers, list_vec(st, pos, letters, k), mult)
         rows.append({"letters": letters, "list": c["list_name"], "status": c["status"], "closeness": cos, "coverage": cv,
-                     "ex_mks": int(c["ex_mks"]), "note": few_mks_note(N, int(c["ex_mks"])) if c["status"] == "warning" else ""})
+                     "ex_mks": int(c["ex_mks"]), "notes": [{"key": few_mks_note(int(c["ex_mks"]))}] if c["status"] == "warning" else []})
     for r in rows:   # [А] a list whose positions cover less than half of the answered weight is not ranked with the others
         if r["closeness"] is not None and r["coverage"] < MIN_COVERAGE:
-            r["note"] = (r["note"] + N["join"] if r["note"] else "") + T.fill(N["lowCoverage"], pct=f"{r['coverage']:.0%}")
-    for r in rows: r["ranked"] = is_ranked(r)
+            r["notes"].append({"key": "lowCoverage", "pct": f"{r['coverage']:.0%}"})
+    for r in rows: r["ranked"] = is_ranked(r); r["note"] = render_note(r["notes"])   # «note»: the rendered text, for the terminal quiz and reports
     rows.sort(key=lambda r: (not r["ranked"], r["closeness"] is None, -(r["closeness"] if r["ranked"] else 0)))
     return rows
 

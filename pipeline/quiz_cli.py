@@ -155,7 +155,7 @@ def details(ctx, r, ans, mult):
             for x in (part if full else part[:SHOW]):
                 c, q, a, u, p = x
                 items.append(x)
-                lines, _ = qr.explain(ctx, L, q, a, p, c, mult)
+                lines, _ = qr.explain(ctx, L, q, a, p, c, mult); lines = qr.render_lines(lines)
                 print(f"\n {len(items):>2}. {q['title_en']}")
                 for ln in lines: print(textwrap.fill(ln, W, initial_indent="     ", subsequent_indent="     "))
             if not full and len(part) > SHOW: print(f"\n     … {len(part) - SHOW} more (a — show all)")
@@ -164,7 +164,7 @@ def details(ctx, r, ans, mult):
         if s in ("a", "в"): full = not full; continue
         if not s.isdigit() or not 1 <= int(s) <= len(items): continue
         c, q, a, u, p = items[int(s) - 1]
-        lines, ev = qr.explain(ctx, L, q, a, p, c, mult)
+        lines, ev = qr.explain(ctx, L, q, a, p, c, mult); lines = qr.render_lines(lines)
         say("\n" + q["title_en"]); [print(textwrap.fill(ln, W)) for ln in lines]
         for head, flag in (("Your way", True), ("The other way", False)):
             part = [e for e in ev if e[6] == flag]

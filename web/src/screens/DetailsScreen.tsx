@@ -7,7 +7,7 @@ import { formatCloseness, roundCloseness } from '../engine/format';
 import { match } from '../engine/match';
 import { contributions, explain, type Contribution } from '../engine/report';
 import type { Mult, QuizBills, QuizData } from '../engine/types';
-import { explainText, S } from '../strings';
+import { renderLines, renderNote, S } from '../strings';
 import type { BillsScreenProps } from './types';
 
 /**
@@ -29,7 +29,7 @@ function Section(props: { data: QuizData; bills: QuizBills; list: string; mult: 
             return (
               <>
                 {/* the «price» caveat is said once for the page, under the closeness */}
-                <ExplanationLines lines={lines.filter((l) => l !== explainText.caveatPrice)} />
+                <ExplanationLines lines={renderLines(lines.filter((l) => l.key !== 'caveatPrice'))} />
                 <BillLists data={data} bills={bills} q={x.statement} evidence={evidence} />
               </>
             );
@@ -71,7 +71,7 @@ export function DetailsScreen({ data, bills, state }: BillsScreenProps) {
             <span className="list-row-value">{formatCloseness(row.closeness)}</span>
           </div>
         )}
-        {row.note && <Note>{row.note}</Note>}
+        {row.notes.length > 0 && <Note>{renderNote(row.notes)}</Note>}
       </div>
       <Section data={data} bills={bills} list={list} mult={state.mult} head={S.details.fits(plus.length)} items={plus} />
       <Section data={data} bills={bills} list={list} mult={state.mult} head={S.details.misfits(minus.length)}

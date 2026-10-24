@@ -10,7 +10,7 @@ Writes to export/ (three files loaded in order, see export/WEB_CONTRACT.md «Loa
   stats.json             the numbers the documents quote (statements, lists by status, bills, former MKs, directions, file sizes
                             in KB) — make check I9 compares the documents with it.
 Read, not written: quiz_texts.json — the user-facing texts, edited by hand (pipeline/texts.py, export/WEB_CONTRACT.md §7); the
-explanation lines and notes in golden.json are rendered from its templates.
+explanation lines and notes in golden.json are structures (template key + parameters), rendered by the web and the CLI from its templates.
 When the formula or the structure changes, the schema and the golden cases are regenerated and the contract (export/WEB_CONTRACT.md)
 and the web tests are updated in the same step — the files the live site reads never change silently.
 
@@ -121,7 +121,7 @@ def build_data(ctx):
 def case(ctx, name, answers, mult=None, exclude=(), skip_lists=()):
     mult = mult or {}
     rows = qm.match(answers, mult=mult)
-    ranking = [{"id": r["letters"], "closeness": num(r["closeness"]), "coverage": r["coverage"], "note": r["note"],
+    ranking = [{"id": r["letters"], "closeness": num(r["closeness"]), "coverage": r["coverage"], "notes": r["notes"],
                 "ranked": r["ranked"]}
                for r in rows]
     out = {"name": name, "answers": answers, "mult": mult, "ranking": ranking,
