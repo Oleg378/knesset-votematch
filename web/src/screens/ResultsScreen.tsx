@@ -4,7 +4,7 @@ import { Button } from '../components/Button';
 import { ListRow } from '../components/ListRow';
 import { ShareButton } from '../components/ShareButton';
 import { match } from '../engine/match';
-import { collapse, expand, scrollBackTo } from '../expandMotion';
+import { collapse, expand, foldLid, scrollBackTo } from '../expandMotion';
 import { answeredCount } from '../state/reducer';
 import { S } from '../strings';
 import { HIGHLIGHT } from '../uiConstants';
@@ -33,10 +33,20 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
   // shrinking edge as a lid (.scale-lid, a picture: not a button) and ends exactly where the closed panel has it, so
   // swapping in the closed panel moves nothing. The lists stay mounted, inert, until they are gone. expandMotion.ts.
   const [closing, setClosing] = useState(false);
+  // While the lists open, «See all» stays as a lid on their growing edge and folds away (expandMotion.ts foldLid):
+  // otherwise it vanished in the first frame and the panel's bottom jumped up by a row (customer 2026-10-24, H15).
+  const [opening, setOpening] = useState(false);
+  const lid = useRef<HTMLDivElement>(null);
   const showAll = (on: boolean) => {
     if (on) {
-      flushSync(() => setAll(true));
-      if (drop.current) expand(drop.current);
+      flushSync(() => {
+        setAll(true);
+        setOpening(true);
+      });
+      if (drop.current) {
+        expand(drop.current, () => setOpening(false));
+        if (lid.current) foldLid(lid.current, drop.current);
+      } else setOpening(false);
       drop.current?.querySelector('button')?.focus({ preventScroll: true });
       return;
     }
@@ -136,8 +146,8 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
           )}
         </div>
       )}
-      {closing && (
-        <div className="see-all scale-lid" aria-hidden="true">
+      {(closing || opening) && (
+        <div ref={lid} className="see-all scale-lid" aria-hidden="true">
           <span className="btn btn-link skip">{S.results.seeAll}</span>
         </div>
       )}

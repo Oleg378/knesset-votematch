@@ -1,6 +1,6 @@
 import { useId, useRef, useState, type ReactNode } from 'react';
 import { flushSync } from 'react-dom';
-import { collapse, expand, scrollBackTo } from '../expandMotion';
+import { collapse, expand, foldLid, scrollBackTo } from '../expandMotion';
 import { S } from '../strings';
 
 interface Props {
@@ -26,13 +26,22 @@ export function DropDown({ backTo, children, className, dropClassName, onOpenCha
   const id = useId();
   const [all, setAll] = useState(false);
   const [closing, setClosing] = useState(false);
+  // While the content opens, «See all» stays as a lid on its growing edge and folds away (expandMotion.ts foldLid, H15).
+  const [opening, setOpening] = useState(false);
   const toggle = useRef<HTMLButtonElement>(null);
   const drop = useRef<HTMLDivElement>(null);
+  const lid = useRef<HTMLDivElement>(null);
   const showAll = (on: boolean) => {
     if (on) {
-      flushSync(() => setAll(true));
+      flushSync(() => {
+        setAll(true);
+        setOpening(true);
+      });
       onOpenChange?.(true);
-      if (drop.current) expand(drop.current);
+      if (drop.current) {
+        expand(drop.current, () => setOpening(false));
+        if (lid.current) foldLid(lid.current, drop.current);
+      } else setOpening(false);
       drop.current?.focus({ preventScroll: true });
       return;
     }
@@ -77,8 +86,8 @@ export function DropDown({ backTo, children, className, dropClassName, onOpenCha
           </div>
         </div>
       )}
-      {closing && (
-        <div className="see-all" aria-hidden="true">
+      {(closing || opening) && (
+        <div ref={lid} className="see-all" aria-hidden="true">
           <span className="btn btn-link skip">{S.results.seeAll}</span>
         </div>
       )}

@@ -53,11 +53,41 @@ function run(el: HTMLElement, cls: string, px: number, rate: string, done: () =>
   return () => end(false); // cancelled (reopened while closing, unmounted): no `done`
 }
 
-/** Call right after the block is in the DOM at its full height, before the next paint (a layout effect). */
-export function expand(el: HTMLElement): () => void {
+/**
+ * Call right after the block is in the DOM at its full height, before the next paint (a layout effect). `done` runs
+ * when the motion has ended (at once without motion). While it runs, `--motion-time` on `el` is how long it takes.
+ */
+export function expand(el: HTMLElement, done: () => void = () => {}): () => void {
   const px = reducedMotion() ? 0 : onScreen(el);
-  if (px <= 0) return () => {};
-  return run(el, 'expanding', px, '--expand-ms-per-px', () => {}, false);
+  if (px <= 0) {
+    done();
+    return () => {};
+  }
+  return run(el, 'expanding', px, '--expand-ms-per-px', done, false);
+}
+
+/**
+ * The row that opened a block («See all») goes away as the block grows (H15): the row stays in place as a lid at the
+ * block's growing edge and folds — its height, paddings, margin and opacity to 0 — over the same time the block takes
+ * (`expanding` must have been called on the block first: the time is read from it). Without it the row vanished in the
+ * first frame and everything under it jumped up by the row's height before the block had started to grow. The lid is
+ * a picture (aria-hidden); the caller unmounts it when the block has opened. No Web Animations (jsdom): hidden at once.
+ */
+export function foldLid(lid: HTMLElement, block: HTMLElement): void {
+  const time = cssTime(block.style.getPropertyValue('--motion-time'));
+  const css = getComputedStyle(lid);
+  lid.style.overflow = 'clip';
+  if (!lid.animate || !time) {
+    lid.style.display = 'none';
+    return;
+  }
+  lid.animate(
+    [
+      { height: css.height, paddingTop: css.paddingTop, paddingBottom: css.paddingBottom, marginTop: css.marginTop, opacity: 1 },
+      { height: '0px', paddingTop: '0px', paddingBottom: '0px', marginTop: '0px', opacity: 0 },
+    ],
+    { duration: time, easing: token('--ease-decelerate') || 'ease-out', fill: 'forwards' },
+  );
 }
 
 /** `done` (unmount, or hide) runs when the block is gone; at once without motion. */
