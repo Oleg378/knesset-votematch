@@ -346,7 +346,7 @@
    }
   ],
   "statements": {
-   "heading": "All {statements} statements, their topics and the bills behind them",
+   "heading": "All {statements} statements and their bills.",
    "topic": "Topic: {name}",
    "up": "Up: {text}",
    "down": "Down: {text}",

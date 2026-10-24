@@ -701,13 +701,7 @@ button.card:active {
   background: var(--color-surface);
 }
 
-.method-rows .accordion-head {
-  padding-inline: calc(var(--panel-pad-x) - var(--space-2));
-}
-
-.method-rows .accordion-body {
-  padding-inline: calc(var(--panel-pad-x) - var(--space-2));
-}
+/* The rows keep the accordion's own 16 px side padding inside the white band (customer 2026-10-24). */
 
 .method-card > .method-rows:last-child,
 .method-card > .list-names-rows:last-child {

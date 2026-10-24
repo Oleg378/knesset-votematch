@@ -216,7 +216,7 @@ file: any other name, or a stray brace, fails the schema. A key not listed below
   (`web/src/uiConstants.ts`) shows its title, text and as many whole items as fit under that height together with «See all»
   (`results.seeAll`); the rest drops down inside the card, «Show less» (`results.seeLess`) at the end. Items are a section's
   bullets (+ `after`), a lists card's names, the statements card's rows; an item is never cut in the middle.
-- `statements`: the labels of the block «All N statements, their topics and the bills behind them» — `heading`, `topic`, `up`,
+- `statements`: the labels of the block «All N statements and their bills» — `heading`, `topic`, `up`,
   `down`, `agreeCountsUp`, `agreeCountsDown`, `billsCount`, `billMeta`, `sideUp`, `sideDown`, `roleMain`, `roleSecondary`,
   `sponsors`, `noSponsors`, `showMore`, `billLink`, `dataVersion`.
 
