@@ -14,8 +14,13 @@ decision wins; tell the customer about the conflict.
 
 ## The page model
 
-Two models exist. The customer chooses one; it is recorded in `DECISIONS.md` with its costs. Until then the code
-stays as it is (window scroll, sticky bottom bar).
+Two models exist. The customer chose both, by where the page runs (2026-10-24, `DECISIONS.md` G28): **a browser keeps
+the window scroll** (its bars must hide on scroll — «крит»); **an app's built-in viewer on a phone gets the frame**
+(`src/inApp.ts` sets `data-frame`): the header outside the scroll, only `.app-scroll` under it scrolls (`html, body` do
+not), the bottom bars sticky inside it. `src/scroller.ts` names what scrolls in each case. In both, the bottom safe
+area is on `.screen` (a sticky bar stops at a scroller's padding). Card mode always scrolls the window. The two
+descriptions below are the general patterns; where they differ from this, the decision wins (e.g. `BottomBar` stays
+in the screens).
 
 **Shell (proposed, [А]).** The frame stays, the content moves inside it: header (menu button, progress bar or
 counter) and bottom bar are rows of a fixed grid, only the middle row scrolls.

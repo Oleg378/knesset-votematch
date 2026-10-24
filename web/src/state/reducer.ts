@@ -71,6 +71,14 @@ export const initialState: State = {
   screen: { name: 'start' }, answers: {}, mult: {}, done: [], shown: [], more: false, notice: null, lastQ: 0,
 };
 
+/** The pages of the site and their addresses (src/prerender.tsx renders them; the links of the app point at them). */
+export const PAGE_PATHS = { start: '/', methodology: '/how-it-works' } as const;
+
+/** The state the app starts in on a page: «/how-it-works» opens the methodology (Back → the start page); any other — the start. */
+export function initialStateFor(path: string): State {
+  return path === PAGE_PATHS.methodology ? { ...initialState, screen: { name: 'methodology', back: { name: 'start' } } } : initialState;
+}
+
 export function hasComputableAnswers(answers: Answers): boolean {
   return Object.values(answers).some((v) => v !== 'dk');
 }

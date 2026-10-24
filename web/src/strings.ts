@@ -16,7 +16,8 @@ const byAnswer = (m: Record<'2' | '1' | '0' | '-1' | '-2', string>) =>
 export const ANS: Record<AnswerValue, string> = byAnswer(T.answers);
 
 export const noteNoRecord = T.notes.noRecord;
-export const noteFewMks = (n: number) => fill(T.notes.fewMks, { n });
+/** quiz_match.few_mks_note — the note of a list with status `warning`, by its number of former MKs */
+export const noteFewMks = (n: number) => (n === 1 ? T.notes.oneMk : n === 2 ? T.notes.twoMks : T.notes.fewInTopTen);
 export const noteLowCoverage = (pct: string) => fill(T.notes.lowCoverage, { pct });
 export const NOTE_JOIN = T.notes.join;
 
@@ -116,6 +117,12 @@ export const S = {
     changeAnswers: T.results.changeAnswers,
     rank: (n: number) => fill(T.results.rank, { n }),
     closenessLabel: T.results.closenessLabel,
+  },
+  share: {
+    title: T.share.title,
+    text: T.share.text,
+    button: T.share.button,
+    copied: T.share.copied,
   },
   details: {
     // Not in quiz_texts.json yet (DATA_REQUESTS.md 13): the only texts written here until the file has them.

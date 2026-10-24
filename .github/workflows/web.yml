@@ -1,5 +1,7 @@
-# Web front end: install, typecheck, test (incl. golden cases: TS port == Python reference), build, dist check.
-# No deploy step yet: Cloudflare Pages is connected later by the customer (web/SPEC.md «Hosting»).
+# Web front end: install, typecheck, test (incl. golden cases: TS port == Python reference), build, dist check — on every
+# push and pull request that touches it. On a push to main the same build is then published to Cloudflare Pages (project
+# knesset-vote-match, web/wrangler.toml): the site https://knessetquiz.org follows main. Secrets: CLOUDFLARE_API_TOKEN
+# (Account · Cloudflare Pages · Edit), CLOUDFLARE_ACCOUNT_ID.
 name: web
 
 on:
@@ -10,6 +12,9 @@ on:
 
 permissions:
   contents: read
+
+env:
+  SITE_URL: https://knessetquiz.org
 
 jobs:
   web:
@@ -27,5 +32,13 @@ jobs:
       - run: npm ci
       - run: npm run typecheck
       - run: npm test -- --run
-      - run: npm run build
-      - run: npm run check:dist   # gzip size budget; no external hosts in the built code
+      - run: npm run build       # includes the prerender of the two pages
+      - run: npm run check:dist   # gzip size budget; no external hosts in the built code; head tags, icons, sitemap, canonical
+      - name: Publish to Cloudflare Pages
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: web
+          command: pages deploy dist --branch main --commit-hash ${{ github.sha }}

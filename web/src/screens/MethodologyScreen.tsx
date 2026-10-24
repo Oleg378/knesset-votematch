@@ -193,12 +193,28 @@ function MethodSection({ data, s, v }: { data: QuizData; s: Section; v: ReturnTy
  * and the labels of the statements block (a card too: its title in the same style, then a row per statement). Long
  * cards collapse by one rule, by height (MethodCard). The numbers are filled from quiz_data (texts.ts).
  */
+/** «Made by A and B» with their links (customer 2026-10-24); nothing while the file names nobody. */
+function Credits() {
+  const c = T.methodology.credits;
+  if (!c.people.length) return null;
+  return (
+    <p className="xsmall credits">
+      {c.lead}{' '}
+      {c.people.map((p, i) => (
+        <span key={p.url}>
+          {i > 0 && c.join}
+          <ExternalLink href={p.url}>{p.name}</ExternalLink>
+        </span>
+      ))}
+    </p>
+  );
+}
+
 export function MethodologyScreen({ data, bills }: BillsScreenProps) {
   const methodology = T.methodology;
   const names = new Map(data.lists.map((l) => [l.id, l.name_en]));
   const v = dataValues(data);
   const t = methodology.statements;
-  const heading = fill(t.heading, { statements: data.statements.length });
   const rows = data.statements.map((st): Item => ({ key: `q${st.q}`, kind: 'row', node: (
     <Accordion key={`q${st.q}`} title={st.title_en}>
       {() => <StatementBody data={data} bills={bills} st={st} names={names} t={t} />}
@@ -211,7 +227,12 @@ export function MethodologyScreen({ data, bills }: BillsScreenProps) {
       <div className="stack-lg">
         {methodology.sections.map((s) => <MethodSection key={s.title} data={data} s={s} v={v} />)}
       </div>
-      <MethodCard items={rows} head={(id) => <h2 id={id} className="method-title">{heading}</h2>} />
+      <MethodCard items={rows} head={(id) => (
+        <h2 id={id} className="method-title">
+          <strong>{t.title}</strong> {fill(t.text, { statements: data.statements.length })}
+        </h2>
+      )} />
+      <Credits />
       <p className="xsmall data-version">
         {fill(t.dataVersion, { fetched: dataDate(data.fetched), generated: dataDate(data.generated), commit: data.source_commit })}
       </p>

@@ -75,6 +75,7 @@
   --space-5: 24px;
   --space-6: 32px; /* not in Figma */
   --space-7: 48px; /* not in Figma */
+  --top-cover: 200px; /* not in Figma: the band above the window's top that hides what Telegram's in-app browser leaves visible under its bar (app.css .top-cover) */
   --space-20: 20px; /* space/20 */
 
   /* shape */
@@ -148,6 +149,7 @@
   --loader-in: 300ms;
   --loader-spin: 1.2s;
   --card-time: 540ms; /* card change, as an iOS navigation push (app.css «Card change») */
+  --screen-fade: 200ms; /* any other change of screen: a cross-fade of the page (app.css «Screen fade») */
   --card-ease: cubic-bezier(0.32, 0.72, 0, 1); /* iOS-like deceleration */
   --card-behind: 33%; /* how far the screen underneath moves */
   --card-shadow: -4px 0 24px rgba(0, 0, 0, 0.08); /* edge of the screen on top */

@@ -18,17 +18,22 @@ React + Vite + TypeScript, static SPA (no server, no Next.js). Talk to the custo
 - Texts: every text the user reads is in `../export/quiz_texts.json` (§7, edited by hand), **bundled** into the JS on
   purpose (`src/texts.ts`: zod schema with the allowed `{placeholders}` of every key, `T` parsed at load;
   `npm run schema:texts` after changing the structure). Screens use `S` / `explainText` from `src/strings.ts`, which only
-  fills templates from `T` — no text in code. The page `<title>` is set from `app.title` by `bootLoader` (vite.config.ts).
+  fills templates from `T` — no text in code. The page `<title>`, description, Open Graph tags, manifest, robots and
+  sitemap come from `app.*` through `pageTitle` / `siteHead` (vite.config.ts); absolute addresses only from `SITE_URL`.
 - A screen renders only when its file has arrived (App shows a loader for that screen only): Start — nothing; questions —
   quiz_core, clarifying ones and everything after — quiz_data; List details (with the bills inside), Methodology — quiz_bills.
 - **The start page loads first** (DECISIONS.md G): `index.html` preloads its fonts, quiz_core and the hero
   (`preloadStartPage` in `vite.config.ts`); quiz_data and quiz_bills start only after it is drawn (`firstScreenShown` in
   `src/data.ts`). A new font or picture on Home → add it to the preload. Measure with a production build (gzip), never
   the dev server: Slow 4G (150 ms, 1.6 Mbit/s), CPU ×4, no cache — Home complete ≈ 1.24 s on 2026-10-18.
+- **Two pages, both ready HTML** (DECISIONS.md H5–H6): `/` (`index.html`) and `/how-it-works` (`how-it-works.html`) are
+  rendered at build time from the same components (`src/prerender.tsx`, `prerenderPages` in `vite.config.ts`, every build including `--watch`);
+  React draws the same markup over it. `src/prerender.test.tsx` fails when the app's shell or the screen drifts from the
+  prerendered page — keep them the same. The path opens its screen (`initialStateFor`); the address follows the
+  methodology screen only.
 - Loading picture = dot rings + a running blue dot (Figma «Frame 9», geometry in `src/components/dotRing.ts`, styles
-  `.dot-ring` in `app.css`), in two places: before the JS has drawn anything — `index.html` (`bootLoader` in
-  `vite.config.ts`, plain HTML + CSS, no script; React replaces it; same `.app` box as the first screen); in the app —
-  `<Loading/>` on a screen waiting for its file. Every ring uniform (no lighter dots around the blue one).
+  `.dot-ring` in `app.css`): `<Loading/>` on a screen waiting for its file. Every ring uniform (no lighter dots around
+  the blue one). Nothing waits before the JS: the pages themselves are ready HTML.
 - Phone preview over ngrok points at the production build (`vite build --watch` + a static server with gzip and the CSP
   from `public/_headers`), not at `npm run dev` (unminified React, no compression: 5.4 MB).
   Run: `npx vite build --watch`, `node scripts/serve-dist.mjs 4173`, `ngrok http 4173`.
@@ -214,8 +219,11 @@ to any new one. Based on Material 3 window size classes. Previous layout = «в�
 2. **What shrinks first:** outer margins → the free space above the bottom buttons. Text, buttons, tap targets and the
    card width never shrink. Never scale the card down to fit (defeats browser zoom).
 3. **Tall windows never stretch a screen:** extra height goes to the margins, the card stays centred.
-4. **When even the minimums do not fit, the page scrolls,** and a screen's primary bottom buttons stay visible (sticky
-   with a fade). The header (burger, progress, counter) is pinned on top on every screen (customer 2026-10-18).
+4. **When even the minimums do not fit, the screen scrolls,** and a screen's primary bottom buttons stay visible (sticky
+   with a fade). The header (burger, progress, counter) is pinned on top on every screen (customer 2026-10-18). In a
+   browser the window scrolls (its bars hide); in an app's built-in viewer (Telegram, LinkedIn, …; `src/inApp.ts`) on
+   a phone, the frame: the page never scrolls, the header stands outside the scroll and only `.app-scroll` scrolls
+   (customer 2026-10-24, DECISIONS.md G28). Card mode always scrolls the window.
 6. **The header never moves between screens:** same place on every screen of one window — on phones safe area + 8, in
    card mode the card's top is where a Figma-height card sits centred; a long screen grows downwards.
 5. **Browser zoom needs no special handling:** zooming in only makes the CSS viewport smaller, the same rules apply.
@@ -272,7 +280,8 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
 - **Safe areas.** Mockup 62 on top / 34 at the bottom = `env(safe-area-inset-*)` (`viewport-fit=cover`); never add 34 by
   hand — in a browser the toolbar already covers the home indicator. Top of every screen and of the menu:
   `calc(env(safe-area-inset-top) + 8px)` — on screens it is the pinned `.header`'s padding-top (white), so a stuck
-  header clears the status bar; `.app` has no top padding. `.app` bottom: safe area only; the bottom groups add their own 16.
+  header clears the status bar; `.app` has no top padding. Bottom: the safe area is `.screen`'s (not the scrolling area's:
+  a sticky bar stops at a scroller's padding); the bottom groups add their own 16.
 - **Bottom groups.** Both use `padding-bottom: calc(16px + env(safe-area-inset-bottom))` and
   `margin-bottom: calc(-1 * env(safe-area-inset-bottom))` (the screen's safe area moves inside the group), so they sit
   16 above the safe area (Home too — general rule, not the 0 drawn in the Home frame).
@@ -336,7 +345,10 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
 - Never show: coalition/opposition, attitude to the government, number of MKs, list logos.
 - Exactly two notes (few former MKs: N; position known for only N% of your answers). No votes of lists on Methodology.
   No topic selection.
-- Every UI string in `../export/quiz_texts.json`, read through `src/strings.ts` / `src/texts.ts`. Metrics: only `started` / `finished` via the no-op `track()`.
+- Every UI string in `../export/quiz_texts.json`, read through `src/strings.ts` / `src/texts.ts`. Metrics: only `started` /
+  `finished` via `track()` — a beacon to the site's own `/count/<event>`, nothing else (DECISIONS.md H7).
+- Share (Results) shares the site's address and one sentence, never the result (H8).
+- Entries that lead to a page with an address (Methodology) are real links that act in the app (`LinkButton`, H10); never hidden text for search engines.
 
 ## Code
 - `src/engine/` — pure TypeScript port of `pipeline/quiz_match.py` + `pipeline/quiz_report.py`. No React, no DOM.
@@ -345,6 +357,8 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
   wrong — stop and describe it to the customer; do not «fix» the TS to differ.
 - Explanation strings that appear in golden must reproduce it exactly.
 - `src/state/` — `useReducer` state machine, pure and tested. No router.
+- A CSS time token read from JavaScript goes through `src/cssTime.ts` (the production minifier writes `200ms` as `.2s`; `parseFloat` alone gave 0.2 ms, H12).
+- Screen changes: a card change slides (G11, `slideCard`), any other change of screen cross-fades (H13, `fadeScreen`); both in `src/cardTransition.ts`, both skipped with reduced motion.
 - Screens are tested through `<App/>` in jsdom (`src/screens/screens.test.tsx`), including the privacy rules.
 
 ## Before a commit
@@ -357,4 +371,7 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
 - Budget: $20 subscription — almost no sub-agents.
 - Push only when the customer asks.
 
-Commands: `npm run dev`, `npm test`, `npm run build`, `npm run typecheck`, `npm run check:dist`.
+Commands: `npm run dev`, `npm test`, `npm run build` (includes the prerender), `npm run typecheck`, `npm run check:dist`,
+`node scripts/make-icons.mjs` (icons and the link-preview picture into `public/`, needs Chrome).
+Hosting (Cloudflare Pages): root directory `web`, `npm run build`, output `dist`, environment variable `SITE_URL`;
+`wrangler.toml` binds the Analytics Engine dataset of the metrics function (`functions/count/[event].js`).

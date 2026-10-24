@@ -1,8 +1,9 @@
 import { useCallback, useEffect, useMemo, useReducer, useRef, useState, useSyncExternalStore } from 'react';
 import { flushSync } from 'react-dom';
 import { track } from './analytics';
-import { isCardChange, slideCard } from './cardTransition';
+import { screenScroller } from './scroller';
 import { watchShortScroll } from './shortScroll';
+import { fadeScreen, isCardChange, slideCard } from './cardTransition';
 import { Counter, Header } from './components/Header';
 import { Loading, LoadError } from './components/Loading';
 import { Menu } from './components/Menu';
@@ -16,7 +17,7 @@ import { ResultsScreen } from './screens/ResultsScreen';
 import { StartScreen } from './screens/StartScreen';
 import { TradeoffScreen } from './screens/TradeoffScreen';
 import { createBackGuard } from './state/backGuard';
-import { createReducer, hasComputableAnswers, initialState, type Action } from './state/reducer';
+import { createReducer, hasComputableAnswers, initialState, PAGE_PATHS, type Action, type State } from './state/reducer';
 import { S } from './strings';
 
 function focusHeading() {
@@ -26,12 +27,12 @@ function focusHeading() {
   h.focus({ preventScroll: true });
 }
 
-export default function App({ loader }: { loader: Loader }) {
+export default function App({ loader, initial = initialState }: { loader: Loader; initial?: State }) {
   const src = useSyncExternalStore(loader.subscribe, loader.get);
   const { core, data, bills } = src;
   const reducer = useMemo(() => createReducer({ core, data }), [core, data]);
   // In memory only [У 2026-10-17]: no storage, a reload starts over; nothing goes into the URL.
-  const [state, dispatch] = useReducer(reducer, initialState);
+  const [state, dispatch] = useReducer(reducer, initial);
   const sc = state.screen;
 
   // A data file arrived: resume a screen that was waiting for it.
@@ -48,16 +49,16 @@ export default function App({ loader }: { loader: Loader }) {
   // One quiz card replacing another slides (cardTransition.ts); the DOM must change inside the transition: flushSync.
   const send = useCallback((action: Action) => {
     const next = reducerRef.current(stateRef.current, action);
-    if (!isCardChange(stateRef.current.screen, next.screen)) dispatch(action);
+    const sameScreen = JSON.stringify(stateRef.current.screen) === JSON.stringify(next.screen);
+    if (sameScreen) dispatch(action);
+    else if (!isCardChange(stateRef.current.screen, next.screen)) fadeScreen(() => flushSync(() => dispatch(action)));
     else slideCard(() => {
       flushSync(() => dispatch(action));
-      // A short page scrolls inside .app (shortScroll.ts): the new card starts at its top, set here, before the browser
-      // takes its picture — so nothing scrolls on screen; the old card leaves as it was. The page itself is never
-      // scrolled around the transition (cardTransition.ts).
-      if (document.documentElement.hasAttribute('data-inner-scroll')) {
-        const app = document.querySelector('.app');
-        if (app) app.scrollTop = 0;
-      }
+      // Where the screen scrolls inside the page (the frame in an app's viewer, a short page in a browser): the new card
+      // starts at its top, set here, before the browser takes its picture — so nothing scrolls on screen; the old card
+      // leaves as it was. The window is never scrolled around the transition (cardTransition.ts).
+      const inner = screenScroller();
+      if (inner) inner.scrollTop = 0;
     }, action.type === 'BACK');
   }, []);
 
@@ -87,14 +88,19 @@ export default function App({ loader }: { loader: Loader }) {
     mounted.current = true;
     prev.current = sc.name;
     guard.sync(sc.name === 'start');
+    // «How it works» is the one screen with an address of its own (/how-it-works, prerendered: src/prerender.tsx); the
+    // address follows it and comes back to / on any other screen. Nothing else is ever in the URL (no answers, no result).
+    const page = sc.name === 'methodology' ? PAGE_PATHS.methodology : PAGE_PATHS.start;
+    if (location.pathname !== page) history.replaceState(history.state, '', page);
     // During a card change the page must not scroll: cardTransition.ts scrolls to the top when it ends.
     if (!document.documentElement.dataset.card) {
       window.scrollTo(0, 0);
-      if (appRef.current) appRef.current.scrollTop = 0; // a short page scrolls inside .app (shortScroll.ts)
+      const inner = screenScroller(); // the frame's area, or .app for a short page (shortScroll.ts)
+      if (inner) inner.scrollTop = 0;
     }
   }, [key]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // Short scrolls (shortScroll.ts): a page a little longer than the window scrolls inside .app.
+  // Short scrolls (shortScroll.ts): in a browser, a page a little longer than the window scrolls inside .app.
   const appRef = useRef<HTMLElement>(null);
   useEffect(() => (appRef.current ? watchShortScroll(appRef.current) : undefined), []);
 
@@ -158,7 +164,7 @@ export default function App({ loader }: { loader: Loader }) {
             ? () => dispatch({ type: 'SHOW_RESULTS' }) : null}
           onMethodology={() => sc.name !== 'methodology' && dispatch({ type: 'OPEN_METHODOLOGY' })} />
       )}
-      {body}
+      <div className="app-scroll">{body}</div>
     </main>
   );
 }

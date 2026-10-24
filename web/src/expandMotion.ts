@@ -8,14 +8,13 @@
  * starts growing, and out before it is gone. Keyframes and tokens: app.css «Expand and collapse», tokens.css.
  * No motion with reduced motion, or where there is no layout (jsdom): the block just is open or closed.
  */
+import { cssTime } from './cssTime';
+import { screenScroller } from './scroller';
 
 const reducedMotion = () => window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? true;
 
 const token = (name: string) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
-const ms = (name: string) => {
-  const v = token(name);
-  return v.endsWith('ms') ? parseFloat(v) : (parseFloat(v) || 0) * 1000;
-};
+const ms = (name: string) => cssTime(token(name));
 
 /** How long the motion over `px` takes: `rate` ms per px, clamped. */
 export function motionTime(px: number, rate: number, min: number, max: number): number {
@@ -54,11 +53,41 @@ function run(el: HTMLElement, cls: string, px: number, rate: string, done: () =>
   return () => end(false); // cancelled (reopened while closing, unmounted): no `done`
 }
 
-/** Call right after the block is in the DOM at its full height, before the next paint (a layout effect). */
-export function expand(el: HTMLElement): () => void {
+/**
+ * Call right after the block is in the DOM at its full height, before the next paint (a layout effect). `done` runs
+ * when the motion has ended (at once without motion). While it runs, `--motion-time` on `el` is how long it takes.
+ */
+export function expand(el: HTMLElement, done: () => void = () => {}): () => void {
   const px = reducedMotion() ? 0 : onScreen(el);
-  if (px <= 0) return () => {};
-  return run(el, 'expanding', px, '--expand-ms-per-px', () => {}, false);
+  if (px <= 0) {
+    done();
+    return () => {};
+  }
+  return run(el, 'expanding', px, '--expand-ms-per-px', done, false);
+}
+
+/**
+ * The row that opened a block («See all») goes away as the block grows (H15): the row stays in place as a lid at the
+ * block's growing edge and folds — its height, paddings, margin and opacity to 0 — over the same time the block takes
+ * (`expanding` must have been called on the block first: the time is read from it). Without it the row vanished in the
+ * first frame and everything under it jumped up by the row's height before the block had started to grow. The lid is
+ * a picture (aria-hidden); the caller unmounts it when the block has opened. No Web Animations (jsdom): hidden at once.
+ */
+export function foldLid(lid: HTMLElement, block: HTMLElement): void {
+  const time = cssTime(block.style.getPropertyValue('--motion-time'));
+  const css = getComputedStyle(lid);
+  lid.style.overflow = 'clip';
+  if (!lid.animate || !time) {
+    lid.style.display = 'none';
+    return;
+  }
+  lid.animate(
+    [
+      { height: css.height, paddingTop: css.paddingTop, paddingBottom: css.paddingBottom, marginTop: css.marginTop, opacity: 1 },
+      { height: '0px', paddingTop: '0px', paddingBottom: '0px', marginTop: '0px', opacity: 0 },
+    ],
+    { duration: time, easing: token('--ease-decelerate') || 'ease-out', fill: 'forwards' },
+  );
 }
 
 /** `done` (unmount, or hide) runs when the block is gone; at once without motion. */
@@ -75,20 +104,26 @@ export function collapse(el: HTMLElement, done: () => void): () => void {
  * Brings `el` up to just below the pinned header with the browser's own smooth scroll, then `done` — for closing a
  * block whose button sits at its end, far below where it started («Show less»): first the page goes back to the
  * start, then the block closes on screen. At once with reduced motion or when `el` is already in place.
+ *
+ * `shrink` = how much shorter the page will be once the block has closed. The scroll goes no further than the page will
+ * then allow: otherwise, as the block shrinks, the page becomes too short for the scroll position and the browser pulls
+ * the scroll back in the last frames — the whole page jumped down at the end (customer's recording, 2026-10-24). With
+ * the limit the page rests where it will end, and the block closes on screen without a jump.
  */
-export function scrollBackTo(el: HTMLElement, done: () => void): void {
-  const root = document.documentElement;
-  const inner = root.hasAttribute('data-inner-scroll') ? document.querySelector<HTMLElement>('.app') : null;
+export function scrollBackTo(el: HTMLElement, done: () => void, shrink = 0): void {
+  const inner = screenScroller(); // phones: the area under the header; card mode: the window
   const header = document.querySelector('.header')?.getBoundingClientRect().bottom ?? 0;
   const gap = parseFloat(token('--space-4')) || 0;
   const by = el.getBoundingClientRect().top - header - gap;
-  if (by >= -1) {
-    done(); // already on screen below the header
-    return;
-  }
   const scroller: Element | Window = inner ?? window;
   const from = inner ? inner.scrollTop : window.scrollY;
-  const top = Math.max(from + by, 0);
+  const extent = inner ?? document.documentElement;
+  const maxAfter = Math.max(extent.scrollHeight - shrink - extent.clientHeight, 0);
+  const top = Math.min(Math.max(from + by, 0), maxAfter);
+  if (top >= from - 1) {
+    done(); // already on screen below the header, or as far up as the closed page allows
+    return;
+  }
   if (reducedMotion()) {
     scroller.scrollTo({ top });
     done();

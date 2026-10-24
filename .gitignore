@@ -13,6 +13,7 @@ jef/quiz/sessions/
 # web
 web/node_modules/
 web/dist/
+web/dist-ssr/
 
 # research, drafts, logs, old approaches: kept locally, not in git
 local/

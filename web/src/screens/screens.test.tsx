@@ -39,9 +39,12 @@ function answer(n: number) {
   }
 }
 
+const clickLink = (name: string) => fireEvent.click(screen.getByRole('link', { name }));
 const menuTo = (item: string) => {
   click(S.menu.open);
-  fireEvent.click(within(screen.getByRole('dialog')).getByRole('button', { name: new RegExp(item) }));
+  const dialog = within(screen.getByRole('dialog'));
+  // «Methodology» is a link to its page (H10); the other items are buttons
+  fireEvent.click(dialog.queryByRole('button', { name: new RegExp(item) }) ?? dialog.getByRole('link', { name: new RegExp(item) }));
 };
 const equalCard = () => screen.queryByRole('button', { name: new RegExp(S.trade.equalTitle) });
 
@@ -90,7 +93,7 @@ describe('start', () => {
     screen.getByText(S.start.chipStatements(planned));
     screen.getByText(S.start.chipTime);
     screen.getByText(S.start.steps(planned)[0]!);
-    click(S.start.howItWorks);
+    clickLink(S.start.howItWorks);
     screen.getByRole('heading', { name: methodology.heading });
     // The title in the header, as on Results; a page of its own: the menu stays, no Back — the system Back still returns
     within(screen.getByRole('banner')).getByText(methodology.heading);
@@ -130,11 +133,11 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
   // whitespace as the queries see it (a name may have a double space)
   const has = (card: HTMLElement, text: string) =>
     within(card).queryAllByText(text.replace(/\s+/g, ' ').trim(), { exact: false }).length > 0;
-  const statementsHeading = fill(methodology.statements.heading, { statements: data.statements.length });
+  const statementsHeading = `${methodology.statements.title} ${fill(methodology.statements.text, { statements: data.statements.length })}`;
   const rowsIn = (card: HTMLElement) => card.querySelectorAll('.method-rows .accordion').length;
   const open = () => {
     render(<App loader={loaded()} />);
-    click(S.start.howItWorks);
+    clickLink(S.start.howItWorks);
   };
   // jsdom has no layout: a card's title with its text is `head` px high, every item `item` px, no gaps and no tokens
   // (no CSS) — so a card fits ⌊(CARD_MAX_HEIGHT − head) / item⌋ items with «See all», at least one
@@ -172,9 +175,10 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
       'How topics are chosen.', 'Important topics that are not in the quiz, and why']);
     // a bullet reads as one sentence: its lead, a space, its text
     expect(document.querySelector('.screen')!.textContent).toContain(`${v.evaluable} of ${v.lists} lists can be evaluated`);
-    // the statements card: its title an h2 drawn as the section titles, the same rule — the first rows and «See all»
+    // the statements card: its title an h2 drawn as a section's (bold run-in title, then the text), the same rule — the first rows and «See all»
     const heading = screen.getByRole('heading', { level: 2, name: statementsHeading });
     expect(heading.className).toBe('method-title');
+    expect(heading.querySelector('strong')!.textContent).toBe(methodology.statements.title);
     const statements = heading.closest('.panel') as HTMLElement;
     expect(fits(data.statements.length)).toBeLessThan(data.statements.length);
     expect(rowsIn(statements)).toBe(fits(data.statements.length));
@@ -258,7 +262,7 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
     const { loader, arrive } = manualLoader();
     render(<App loader={loader} />);
     arrive({ core, data });
-    click(S.start.howItWorks);
+    clickLink(S.start.howItWorks);
     screen.getByText(S.loading);
     arrive({ bills });
     screen.getByRole('heading', { name: methodology.heading });
@@ -422,10 +426,10 @@ describe('results', () => {
     expect(document.activeElement).toBe(screen.getByRole('button', { name: S.results.seeAll })); // back to the panel
   });
 
-  it('at the bottom only «Change answers»; it goes back to the statements', () => {
+  it('at the bottom «Change answers» and «Share this quiz»; the first goes back to the statements', () => {
     toResults();
     const bottom = within(document.querySelector('.sticky-actions')!).getAllByRole('button');
-    expect(bottom.map((b) => b.textContent)).toEqual([S.results.changeAnswers]);
+    expect(bottom.map((b) => b.textContent)).toEqual([S.results.changeAnswers, S.share.button]);
     fireEvent.click(bottom[0]!);
     screen.getByRole('group', { name: S.question.answersLabel });
   });
@@ -448,7 +452,7 @@ describe('results', () => {
     expect(screen.getByRole('button', { name: S.details.back }).closest('header')).not.toBeNull();
     expect(screen.queryByRole('button', { name: S.menu.open })).toBeNull();
     expect(document.querySelector('.bill')).toBeNull(); // every topic starts collapsed
-    // «Why it fits» without its count: the template's words before « — » only (DECISIONS G31)
+    // «Why it fits» without its count: the template's words before « — » only (DECISIONS G32)
     const head = document.querySelector('.screen h2')!;
     expect(head.textContent).toBe(fill(T.details.fits, { n: 0 }).split(' — ')[0]);
     // open topics until one has a bill sponsored by the list's former MKs

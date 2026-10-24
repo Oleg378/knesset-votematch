@@ -17,6 +17,21 @@
      "minLength": 1,
      "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
     },
+    "siteName": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "subtitle": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "description": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
     "name": {
      "type": "string",
      "minLength": 1,
@@ -50,6 +65,9 @@
    },
    "required": [
     "title",
+    "siteName",
+    "subtitle",
+    "description",
     "name",
     "eyebrow",
     "loading",
@@ -149,10 +167,20 @@
      "minLength": 1,
      "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
     },
-    "fewMks": {
+    "oneMk": {
      "type": "string",
      "minLength": 1,
-     "pattern": "^(?:[^{}]|\\{(?:n)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "twoMks": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "fewInTopTen": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
     },
     "lowCoverage": {
      "type": "string",
@@ -167,7 +195,9 @@
    },
    "required": [
     "noRecord",
-    "fewMks",
+    "oneMk",
+    "twoMks",
+    "fewInTopTen",
     "lowCoverage",
     "join"
    ],
@@ -601,6 +631,38 @@
    ],
    "additionalProperties": false
   },
+  "share": {
+   "type": "object",
+   "properties": {
+    "title": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "text": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "button": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "copied": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    }
+   },
+   "required": [
+    "title",
+    "text",
+    "button",
+    "copied"
+   ],
+   "additionalProperties": false
+  },
   "details": {
    "type": "object",
    "properties": {
@@ -839,7 +901,12 @@
     "statements": {
      "type": "object",
      "properties": {
-      "heading": {
+      "title": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "text": {
        "type": "string",
        "minLength": 1,
        "pattern": "^(?:[^{}]|\\{(?:statements)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
@@ -926,7 +993,8 @@
       }
      },
      "required": [
-      "heading",
+      "title",
+      "text",
       "topic",
       "up",
       "down",
@@ -945,12 +1013,56 @@
       "dataVersion"
      ],
      "additionalProperties": false
+    },
+    "credits": {
+     "type": "object",
+     "properties": {
+      "lead": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "join": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "people": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "name": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+         },
+         "url": {
+          "type": "string",
+          "format": "uri"
+         }
+        },
+        "required": [
+         "name",
+         "url"
+        ],
+        "additionalProperties": false
+       }
+      }
+     },
+     "required": [
+      "lead",
+      "join",
+      "people"
+     ],
+     "additionalProperties": false
     }
    },
    "required": [
     "heading",
     "sections",
-    "statements"
+    "statements",
+    "credits"
    ],
    "additionalProperties": false
   }
@@ -968,6 +1080,7 @@
   "question",
   "trade",
   "results",
+  "share",
   "details",
   "bills",
   "methodology"

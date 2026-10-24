@@ -1,0 +1,10 @@
+# Cloudflare Pages: read at deploy time (the project is connected to the git repository, the hosting builds `npm run build`
+# with root directory `web`). The one binding: the Workers Analytics Engine dataset the metrics function writes to
+# (functions/count/[event].js). Also set in the project: the environment variable SITE_URL (vite.config.ts siteHead).
+name = "knesset-vote-match"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-10-01"
+
+[[analytics_engine_datasets]]
+binding = "COUNTS"
+dataset = "quiz_events"

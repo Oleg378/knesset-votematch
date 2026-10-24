@@ -1,7 +1,10 @@
 {
  "updated": "2026-10-24",
  "app": {
-  "title": "Knesset 2026 quiz",
+  "title": "Knesset Vote Match: Israel election quiz 2026",
+  "siteName": "Knesset Vote Match",
+  "subtitle": "Israel election quiz 2026",
+  "description": "Rate statements and see which lists for the Knesset election of 27 October 2026 are closest to you — judged by what their former members of the Knesset did: the bills they sponsored and how they voted.",
   "name": "Vote Match",
   "eyebrow": "Knesset election 2026",
   "loading": "Loading…",
@@ -26,7 +29,9 @@
  },
  "notes": {
   "noRecord": "no record in the Knesset",
-  "fewMks": "few former MKs: {n}",
+  "oneMk": "only one Knesset member",
+  "twoMks": "only two Knesset members",
+  "fewInTopTen": "few Knesset members in the top ten",
   "lowCoverage": "position known for only {pct} of your answers",
   "join": "; "
  },
@@ -106,6 +111,12 @@
   "changeAnswers": "Change answers",
   "rank": "{n}",
   "closenessLabel": "Closeness"
+ },
+ "share": {
+  "title": "Knesset Vote Match",
+  "text": "Which lists vote the way you would? A quiz on the record of the Knesset, for the election of 27 October 2026:",
+  "button": "Share this quiz",
+  "copied": "Link copied"
  },
  "details": {
   "back": "Back to results",
@@ -229,7 +240,7 @@
      },
      {
       "lead": "Your answers are not stored.",
-      "text": "They never leave your device."
+      "text": "They never leave your device. The site counts only how many people start the quiz and how many reach the results — nothing else is sent."
      }
     ]
    },
@@ -345,7 +356,8 @@
    }
   ],
   "statements": {
-   "heading": "All {statements} statements and their bills.",
+   "title": "The record behind each statement.",
+   "text": "All {statements} statements of the quiz, with the bills that place the lists on them.",
    "topic": "Topic: {name}",
    "up": "Up: {text}",
    "down": "Down: {text}",
@@ -362,6 +374,20 @@
    "showMore": "Show more ({n} left)",
    "billLink": "Open on the Knesset website",
    "dataVersion": "Data: {fetched}"
+  },
+  "credits": {
+   "lead": "Made by",
+   "join": " and ",
+   "people": [
+    {
+     "name": "Oleg Kalman",
+     "url": "https://www.linkedin.com/in/oleg-kalman"
+    },
+    {
+     "name": "Taliya Kalman",
+     "url": "https://www.linkedin.com/in/taliya-kalman/"
+    }
+   ]
   }
  }
 }

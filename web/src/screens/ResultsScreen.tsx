@@ -2,8 +2,9 @@ import { useMemo, useRef, useState } from 'react';
 import { flushSync } from 'react-dom';
 import { Button } from '../components/Button';
 import { ListRow } from '../components/ListRow';
+import { ShareButton } from '../components/ShareButton';
 import { match } from '../engine/match';
-import { collapse, expand, scrollBackTo } from '../expandMotion';
+import { collapse, expand, foldLid, scrollBackTo } from '../expandMotion';
 import { answeredCount } from '../state/reducer';
 import { S } from '../strings';
 import { HIGHLIGHT } from '../uiConstants';
@@ -32,10 +33,20 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
   // shrinking edge as a lid (.scale-lid, a picture: not a button) and ends exactly where the closed panel has it, so
   // swapping in the closed panel moves nothing. The lists stay mounted, inert, until they are gone. expandMotion.ts.
   const [closing, setClosing] = useState(false);
+  // While the lists open, «See all» stays as a lid on their growing edge and folds away (expandMotion.ts foldLid):
+  // otherwise it vanished in the first frame and the panel's bottom jumped up by a row (customer 2026-10-24, H15).
+  const [opening, setOpening] = useState(false);
+  const lid = useRef<HTMLDivElement>(null);
   const showAll = (on: boolean) => {
     if (on) {
-      flushSync(() => setAll(true));
-      if (drop.current) expand(drop.current);
+      flushSync(() => {
+        setAll(true);
+        setOpening(true);
+      });
+      if (drop.current) {
+        expand(drop.current, () => setOpening(false));
+        if (lid.current) foldLid(lid.current, drop.current);
+      } else setOpening(false);
       drop.current?.querySelector('button')?.focus({ preventScroll: true });
       return;
     }
@@ -48,13 +59,14 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
       return;
     }
     flushSync(() => setClosing(true));
+    // The page will be shorter by the lists once they are closed: the scroll back stops where the closed page ends.
     scrollBackTo(panel, () => collapse(lists, () => {
       flushSync(() => {
         setClosing(false);
         setAll(false);
       });
       toggle.current?.focus({ preventScroll: true });
-    }));
+    }), lists.getBoundingClientRect().height);
   };
   return (
     <section className="screen results">
@@ -134,17 +146,19 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
           )}
         </div>
       )}
-      {closing && (
-        <div className="see-all scale-lid" aria-hidden="true">
+      {(closing || opening) && (
+        <div ref={lid} className="see-all scale-lid" aria-hidden="true">
           <span className="btn btn-link skip">{S.results.seeAll}</span>
         </div>
       )}
-      {/* At the bottom only «Change answers» (customer 2026-10-23), pinned to the bottom of the screen as on Home: Start
-          over is in the header and the menu, Methodology in the menu; «Answer more questions» is gone. */}
+      {/* At the bottom «Change answers» (customer 2026-10-23) and under it «Share this quiz» (customer 2026-10-24), pinned
+          to the bottom of the screen as on Home: Start over is in the header and the menu, Methodology in the menu;
+          «Answer more questions» is gone. */}
       <div className="sticky-actions push-down">
         <Button block onClick={() => dispatch({ type: 'CHANGE_ANSWERS' })}>
           {S.results.changeAnswers}
         </Button>
+        <ShareButton />
       </div>
     </section>
   );

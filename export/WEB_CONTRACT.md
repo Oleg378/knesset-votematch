@@ -159,8 +159,9 @@ Statement texts and titles (`statement_en`, `title_en`) are not in it: they are 
 
 **Who reads it.**
 - The web: `web/src/texts.ts` imports the file into the JS bundle and parses it once with its zod schema when the app loads;
-  `web/src/strings.ts` builds the UI strings from it and holds no text of its own; the page `<title>` is `app.title`
-  (a Vite plugin in `web/vite.config.ts`).
+  `web/src/strings.ts` builds the UI strings from it and holds no text of its own; the page `<title>` is `app.title`, and
+  `app.siteName`, `app.subtitle`, `app.description` go into the head tags, the manifest and the preview picture (Vite
+  plugins in `web/vite.config.ts`, `web/scripts/make-icons.mjs`).
 - The Python reference renders from the same file: `pipeline/texts.py` (`load`, `fill`); `pipeline/quiz_report.py` — the answer
   words (`answers`) and the explanation lines (`explain`, §3); `pipeline/quiz_match.py` — the notes of a list (`notes`); the
   terminal quiz uses the same words. The `answers`, `notes` and `explain` texts are therefore rendered identically by Python and
@@ -171,10 +172,10 @@ Statement texts and titles (`statement_en`, `title_en`) are not in it: they are 
 | Section | Keys | Shown |
 |---|---|---|
 | `updated` | ISO date of the last change of the texts | — |
-| `app` | `title`, `name`, `eyebrow`, `loading`, `loadError`, `reload`, `newTab` | page title, menu title, loading and load error, the screen-reader note on links that open a new tab |
+| `app` | `title`, `siteName`, `subtitle`, `description`, `name`, `eyebrow`, `loading`, `loadError`, `reload`, `newTab` | page title; the site's name, subtitle and description — link previews (Open Graph), the web app manifest, the preview picture, search engines; menu title, loading and load error, the screen-reader note on links that open a new tab |
 | `answers` | `"2"`, `"1"`, `"0"`, `"-1"`, `"-2"` | the answer inside sentences («Your answer: agree»): explanations, trade-off questions |
 | `answerButtons` | the same keys and `dk` («don't know») | the answer buttons |
-| `notes` | `noRecord`, `fewMks`, `lowCoverage`, `join` | the note of a list on Results and List details (`join` separates two notes) |
+| `notes` | `noRecord`, `oneMk`, `twoMks`, `fewInTopTen`, `lowCoverage`, `join` | the note of a list on Results and List details: a list with status `warning` (fewer than 3 former MKs in its top ten) takes `oneMk`, `twoMks` or `fewInTopTen` by its number of former MKs — 1, 2, 3 or more (`join` separates two notes) |
 | `explain` | `quote`, `sideFor`, `sideAgainst`, `sideNoClear`, `answer`, `votes`, `votesGov`, `basis`, `basisVotesOnly`, `weight`, `caveatByVotes`, `caveatPrice` | the lines of List details (§3) |
 | `start` | `title`, `tagline`, `chipStatements`, `chipTime`, `chipAnonymous`, `steps` (exactly three), `button`, `howItWorks` | Start |
 | `menu` | `open`, `close`, `startOver`, `results`, `methodology` | the menu |
@@ -182,9 +183,10 @@ Statement texts and titles (`statement_en`, `title_en`) are not in it: they are 
 | `question` | `progress`, `progressLabel`, `or`, `skip`, `noAnswers`, `answersLabel` | the question screen |
 | `trade` | `counter`, `lead`, `title`, `explain`, `yourAnswer`, `labelA`, `labelB`, `equalTitle`, `equalSub` | the trade-off question |
 | `results` | `heading`, `scaleFar`, `scaleClose`, `closestOne`, `closestMany`, `basedOn`, `basedOnTrade`, `hintBefore`, `hintAfter`, `seeAll`, `seeLess`, `notRanked`, `notComputable`, `noMore`, `changeAnswers`, `rank`, `closenessLabel` | Results |
+| `share` | `title`, `text`, `button`, `copied` | «Share this quiz» on Results: the share sheet's title, the sentence sent with the site's address, the button, the «copied» note |
 | `details` | `back`, `closeness`, `fits`, `misfits`, `showAll`, `showLess`, `none`, `openBills` | List details |
 | `bills` | `back`, `yourWay`, `otherWay`, `none`, `meta`, `roleMain`, `roleSecondary`, `raises`, `lowers`, `sponsoredBy`, `sponsor`, `link`, `yourWayMark`, `otherWayMark`, `showMore` | «Bills of one statement» |
-| `methodology` | `heading`, `sections[]`, `statements` | Methodology (below) |
+| `methodology` | `heading`, `sections[]`, `statements`, `credits` | Methodology (below); `credits` — «Made by A and B»: `lead`, `join`, `people[]` (`name`, `url`), no line while `people` is empty |
 
 **Template language.** `{name}` is replaced by the value; `{name?one|many}` by `one` when the value is 1, else by `many`
 (`{single} {single?list|lists}`). Numbers are never typed into the texts. The names each key may use are listed explicitly in
@@ -193,7 +195,7 @@ file: any other name, or a stray brace, fails the schema. A key not listed below
 
 | Section | Key → allowed names |
 |---|---|
-| `notes` | `fewMks`: `n` (former MKs) · `lowCoverage`: `pct` (with the % sign) |
+| `notes` | `lowCoverage`: `pct` (with the % sign) |
 | `explain` | `quote`: `text` (the statement) · `answer`: `answer` (an `answers` word), `side` (the filled `sideFor`, `sideAgainst` or `sideNoClear`) · `votes`: `votes` (on private bills), `other` (on the other camp's bills), `gov` (the filled `votesGov`, or empty when there are none) · `votesGov`: `gov` · `basis`: `bills`, `same`, `opp`, `votes` (the filled `votes`) · `basisVotesOnly`: `votes` (the filled `votes`) |
 | `start` | `chipStatements`: `n` · each of `steps`: `n` (the planned number of statements), `top` (the number of lists highlighted on Results) |
 | `question` | `progress`: `n`, `total` |
@@ -202,7 +204,7 @@ file: any other name, or a stray brace, fails the schema. A key not listed below
 | `details` | `closeness`: `c` · `fits`, `misfits`, `showAll`: `n` |
 | `bills` | `yourWay`, `otherWay`, `showMore`: `n` · `meta`: `knesset`, `role`, `verb`, `direction` · `sponsoredBy`: `names` · `sponsor`: `name`, `pos` |
 | `methodology.sections` | `text`, `after` and both fields of a bullet (not `title`): the numbers of `quiz_data.json` — `lists` (all lists), `evaluable` (evaluated with `ex_mks >= params.MIN_EX_MKS`), `single` (evaluated below it: shown, not ranked), `no_record`, `close` (`params.CLOSE`), `statements`, `core` and `clarify` (`flow`), `vote_ratio` (`round(1 / params.VOTE_WEIGHT)`), `min_lists`, `min_mks`, `min_spread`, `min_names` (`params.SELECT_*`, the selection thresholds of `pipeline/quiz_select.py`) |
-| `methodology.statements` | `heading`: `statements` · `topic`: `name` · `up`, `down`: `text` · `billsCount`, `showMore`: `n` · `billMeta`: `side`, `knesset`, `role` · `sponsors`: `names` · `dataVersion`: `fetched`, `generated` (dates, written «10 October 2026»), `commit` |
+| `methodology.statements` | `text`: `statements` · `topic`: `name` · `up`, `down`: `text` · `billsCount`, `showMore`: `n` · `billMeta`: `side`, `knesset`, `role` · `sponsors`: `names` · `dataVersion`: `fetched`, `generated` (dates, written «10 October 2026»), `commit` |
 
 **Methodology page.**
 - `heading`, `back`.
@@ -217,7 +219,7 @@ file: any other name, or a stray brace, fails the schema. A key not listed below
   (`web/src/uiConstants.ts`) shows its title, text and as many whole items as fit under that height together with «See all»
   (`results.seeAll`); the rest drops down inside the card, «Show less» (`results.seeLess`) at the end. Items are a section's
   bullets (+ `after`), a lists card's names, the statements card's rows; an item is never cut in the middle.
-- `statements`: the labels of the block «All N statements and their bills» — `heading`, `topic`, `up`,
+- `statements`: the labels of the block of all statements and their bills — `title` (its bold run-in title), `text`, `topic`, `up`,
   `down`, `agreeCountsUp`, `agreeCountsDown`, `billsCount`, `billMeta`, `sideUp`, `sideDown`, `roleMain`, `roleSecondary`,
   `sponsors`, `noSponsors`, `showMore`, `billLink`, `dataVersion`.
 

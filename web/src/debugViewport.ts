@@ -1,3 +1,4 @@
+import { screenScroller } from './scroller';
 import { readViewport } from './shortScroll';
 
 /** Only with ?debug (main.tsx): the numbers the browser gives for the window, in a corner of the screen. */
@@ -13,7 +14,7 @@ export function showViewportNumbers(): void {
       `inner  ${window.innerHeight}`,
       `svh ${svh}  lvh ${lvh}  dvh ${dvh}`,
       `scroll ${Math.round(window.scrollY)} / ${root.scrollHeight - window.innerHeight}  page ${root.scrollHeight}`,
-      `inner scroll ${root.hasAttribute('data-inner-scroll') ? `on, ${Math.round(document.querySelector('.app')?.scrollTop ?? 0)}` : 'off'}`,
+      `${root.hasAttribute('data-frame') ? 'frame' : 'browser'}, scrolls ${(() => { const el = screenScroller(); return el ? `${el.className} ${Math.round(el.scrollTop)} / ${el.scrollHeight - el.clientHeight}` : 'window'; })()}`,
     ].join('\n');
     requestAnimationFrame(tick);
   };
