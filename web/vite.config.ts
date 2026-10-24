@@ -1,6 +1,8 @@
 /// <reference types="vitest/config" />
-import { fileURLToPath } from 'node:url';
-import { defineConfig, type HtmlTagDescriptor, type Plugin } from 'vite';
+import { readFileSync, rmSync, writeFileSync } from 'node:fs';
+import { join } from 'node:path';
+import { fileURLToPath, pathToFileURL } from 'node:url';
+import { build, defineConfig, type HtmlTagDescriptor, type Plugin, type ResolvedConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { T } from './src/texts';
 
@@ -81,7 +83,7 @@ const SITE_URL = (process.env.SITE_URL ?? '').replace(/\/+$/, '');
 /**
  * The pages of the site: path → title. Each is its own HTML file at the root (index.html, how-it-works.html), served at the
  * path without «.html» (Cloudflare Pages does that by itself); both load the same app, which opens the page's screen
- * (src/main.tsx), and both are prerendered (src/prerender.tsx, scripts/prerender.mjs).
+ * (src/main.tsx), and both are prerendered (src/prerender.tsx, prerenderPages below).
  */
 const PAGES: Record<string, { title: string }> = {
   '/': { title: T.app.title },
@@ -165,8 +167,42 @@ function siteHead(): Plugin {
   };
 }
 
+/**
+ * The pages as ready HTML (DECISIONS.md H5): after the client build — every build, `vite build --watch` too — the pages
+ * are rendered by a build-time bundle of src/prerender.tsx (`vite build --ssr` into a temporary folder, removed after)
+ * and each page's markup goes into its HTML file in dist/ in place of the empty <div id="root"></div>.
+ * scripts/check-dist.mjs checks that every page holds its screen.
+ */
+function prerenderPages(): Plugin {
+  const ROOT = '<div id="root"></div>';
+  let config: ResolvedConfig;
+  return {
+    name: 'prerender-pages',
+    apply: (_c, env) => env.command === 'build' && !env.isSsrBuild,
+    configResolved(c) {
+      config = c;
+    },
+    async closeBundle() {
+      const ssrDir = join(config.root, 'dist-ssr');
+      await build({ root: config.root, logLevel: 'warn', build: { ssr: 'src/prerender.tsx', outDir: ssrDir, emptyOutDir: true, copyPublicDir: false } });
+      // A fresh module every time (watch mode): the file's address carries the build's time.
+      const mod = await import(`${pathToFileURL(join(ssrDir, 'prerender.js')).href}?t=${Date.now()}`) as
+        { render: (path: string) => string; PAGE_PATHS: Record<string, string> };
+      rmSync(ssrDir, { recursive: true, force: true });
+      for (const path of Object.values(mod.PAGE_PATHS)) {
+        if (!PAGES[path]) throw new Error(`prerender: ${path} is not in PAGES`);
+        const file = join(config.root, config.build.outDir, path === '/' ? 'index.html' : `${path.slice(1)}.html`);
+        const html = readFileSync(file, 'utf8');
+        if (!html.includes(ROOT)) throw new Error(`prerender: ${file} has no ${ROOT}`);
+        writeFileSync(file, html.replace(ROOT, `<div id="root">${mod.render(path)}</div>`));
+        config.logger.info(`prerendered ${path}`);
+      }
+    },
+  };
+}
+
 export default defineConfig({
-  plugins: [react(), preloadStartPage(), pageTitle(), siteHead()],
+  plugins: [react(), preloadStartPage(), pageTitle(), siteHead(), prerenderPages()],
   resolve: { alias: { '@export': exportDir } },
   server: { fs: { allow: ['.', exportDir] }, allowedHosts },
   preview: { allowedHosts },

@@ -27,7 +27,7 @@ React + Vite + TypeScript, static SPA (no server, no Next.js). Talk to the custo
   `src/data.ts`). A new font or picture on Home → add it to the preload. Measure with a production build (gzip), never
   the dev server: Slow 4G (150 ms, 1.6 Mbit/s), CPU ×4, no cache — Home complete ≈ 1.24 s on 2026-10-18.
 - **Two pages, both ready HTML** (DECISIONS.md H5–H6): `/` (`index.html`) and `/how-it-works` (`how-it-works.html`) are
-  rendered at build time from the same components (`src/prerender.tsx`, `scripts/prerender.mjs`, part of `npm run build`);
+  rendered at build time from the same components (`src/prerender.tsx`, `prerenderPages` in `vite.config.ts`, every build including `--watch`);
   React draws the same markup over it. `src/prerender.test.tsx` fails when the app's shell or the screen drifts from the
   prerendered page — keep them the same. The path opens its screen (`initialStateFor`); the address follows the
   methodology screen only.

@@ -1,11 +1,11 @@
 /**
  * The pages of the site as ready HTML (customer 2026-10-24, DECISIONS.md H): the start page and «How it works» are
  * rendered at build time from the same components the app draws, with the data of the same export (export/ is in git and
- * deployed with the site), and put into index.html / how-it-works.html in place of an empty page (scripts/prerender.mjs).
+ * deployed with the site), and put into index.html / how-it-works.html in place of an empty page (prerenderPages in vite.config.ts).
  * A search engine, a link preview or a reader without JavaScript gets the text; the app, once loaded, draws the same
  * markup in its place (src/main.tsx). The shell must be the one App renders — src/prerender.test.tsx compares them.
  *
- * Built only by `vite build --ssr` (scripts/prerender.mjs); the app never imports this module. The data files are
+ * Built only by `vite build --ssr` (prerenderPages in vite.config.ts); the app never imports this module. The data files are
  * imported here as JSON (bundled into the build-time module only), not fetched.
  */
 import type React from 'react';

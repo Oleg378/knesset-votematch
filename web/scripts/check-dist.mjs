@@ -17,7 +17,7 @@ const ROOT_FILES = ['favicon.ico', 'favicon.svg', 'apple-touch-icon.png', 'icon-
 const HEAD_TAGS = ['<meta name="description"', '<link rel="icon"', '<link rel="apple-touch-icon"', '<link rel="manifest"',
   '<meta property="og:title"', '<meta name="twitter:card"'];
 const HEAD_TAGS_DEPLOY = ['<link rel="canonical"', '<meta property="og:url"', '<meta property="og:image"'];
-// Each page holds its screen as HTML (scripts/prerender.mjs): a mark of the screen's markup.
+// Each page holds its screen as HTML (prerenderPages in vite.config.ts): a mark of the screen's markup.
 const PRERENDERED = { 'index.html': 'class="screen start"', 'how-it-works.html': 'class="method-title"' };
 
 const dist = new URL('../dist/', import.meta.url).pathname;
