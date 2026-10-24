@@ -60,8 +60,10 @@ question at once, as «Start» on Home (customer 2026-10-22).
 - If no pair at all: skip the screen silently (no message needed on the web).
 
 ### 4. Results
-- «Based on N of M answers[, including trade-offs]» (no period) M = statements shown; under it «Tap › for
-  details» with the rows' round arrow between the words; 8 between the title and the two lines (customer 2026-10-23). Under it a thin line (12 below the text, 20 above the legend; customer 2026-10-23), then the scale legend in one line:
+- The title «Your result» stands in the header, centred between the menu button and Start over, pinned with it (Fraunces
+  20/22; customer 2026-10-23); the page keeps it as a visually hidden h1. The screen starts with:
+- «Based on N of M answers[, including trade-offs]» (no period) M = statements shown; then a thin line 12 under it, and 4 under the line «Tap › for details»
+  in italic, the lighter grey, with the rows' round arrow between the words (customer 2026-10-23). Under it a thin line (12 below the text, 20 above the legend; customer 2026-10-23), then the scale legend in one line:
   «far from you» on the left, «close to you» on the right, no numbers, nothing in the middle (customer 2026-10-22, DECISIONS.md G15).
 - At the bottom only «Change answers» (light blue, as before), pinned to the bottom of the screen as on Home and the
   question screens, with the fade over the lists under it (customer 2026-10-23): «Answer more questions», «Start over» and

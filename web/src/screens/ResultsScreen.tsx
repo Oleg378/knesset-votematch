@@ -59,17 +59,21 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
   return (
     <section className="screen results">
       <div className="stack">
-        <h1 className="title-lg">{S.results.heading}</h1>
+        {/* «Your result» is shown in the header (Header title); here it stays for screen readers and the focus on a new screen */}
+        <h1 className="visually-hidden">{S.results.heading}</h1>
         <p className="lead">
           {S.results.basedOn(answeredCount(state.answers), state.shown.length, Object.keys(state.mult).length > 0)}
         </p>
+        {/* A line between the summary and the hint, nearer the hint; the hint italic and lighter (customer 2026-10-23) */}
         {top.length > 0 && (
-          <p className="lead hint">
-            {S.results.hint[0]} <span className="list-row-go" aria-hidden="true" /> {S.results.hint[1]}
-          </p>
+          <>
+            <div className="rule" role="presentation" />
+            <p className="lead hint">
+              {S.results.hint[0]} <span className="list-row-go" aria-hidden="true" /> {S.results.hint[1]}
+            </p>
+          </>
         )}
       </div>
-      <div className="rule" role="presentation" />
       <div className="scale-legend" aria-hidden="true">
         <span>{S.results.scaleFar}</span>
         <span>{S.results.scaleClose}</span>

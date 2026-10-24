@@ -74,7 +74,7 @@ Line heights are exact Figma px ÷ size (`calc(22 / 17)`), never rounded ratios.
 |---|---|---|---|---|
 | Title/Large | Fraunces 400 | 36 / 42 | `.title-xl` | Home title |
 | Title/Medium | Fraunces 400 | 28 / 34 | `.title-lg` | app name in the menu |
-| Question | Fraunces 400 | 20 / 22 | `.statement-text`, `.title-md` | statement, clarifying question, section titles in List details, Bills and Methodology |
+| Question | Fraunces 400 | 20 / 22 | `.statement-text`, `.title-md`, `.header-title` | statement, clarifying question, section titles in List details, Bills and Methodology, «Your result» in the header |
 | Action | Plus Jakarta Sans 600 | 17 / 22, −0.43 px | `.btn-primary`, `.btn-secondary` | Start the quiz, Next, Change answers |
 | Button | Plus Jakarta Sans 600 | 17 / 22 | `.answer`, `.btn` | answer options |
 | Body/Large | Plus Jakarta Sans 400 | 17 / 24 | `body`, `.tagline` | Home subtitle |
@@ -88,6 +88,7 @@ Line heights are exact Figma px ÷ size (`calc(22 / 17)`), never rounded ratios.
 | Caption, Medium (not in Figma) | Plus Jakarta Sans 500 | 13 / 18 | `.or-divider` | «or», «Not ranked: not enough data» (customer 2026-10-23) |
 | Eyebrow | Plus Jakarta Sans 600 | 12 / 16, 0.72 px (6%), upper case | `.eyebrow` | label above the title |
 | — (not in Figma) | Plus Jakarta Sans 800 | 15 / 20 | `.list-row-rank` | Results rank numbers (customer 2026-10-23) |
+| — (not in Figma) | Plus Jakarta Sans 400 italic | 15 / 21 | `.hint` | Results «Tap › for details», text/tertiary (customer 2026-10-23) |
 
 - **Every text is one of these styles** (check: all screens, computed styles vs this table — 2026-10-22 all match). The
   only exception: bold run-in titles and list labels inside Methodology text (`<strong>`, `<em>`: 600 in Body/Large).
