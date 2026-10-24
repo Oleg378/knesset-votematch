@@ -123,11 +123,42 @@ _Порядок проверки — навык `.claude/skills/label-check/` (�
 - Показывать ли состав списка в деталях («19 бывших депутатов: 17 из Yesh Atid…»).
 
 ### Что дальше
-1. **Фронт** (ветка `web/figma-layout`): слияние ветки в main; затем группа «How its former MKs voted»
+1. **Фронт**: группа «How its former MKs voted»
    под законопроектами утверждения (`export/WEB_CONTRACT.md` §3), страница позиций с правом оспорить (§6), состав списка — после решения заказчика.
 2. **Пуш** накопленных коммитов — по команде заказчика.
 3. **После выборов** — проверка на людях по `docs/VALIDATION_PROTOCOL.md`.
 4. **При любом изменении меток, тем или вопросов** — цикл по навыкам (`quiz-pipeline` → `release`), `make check` перед отчётом.
+5. **Скрипты процедуры без защиты от пустого запуска**: `tools/basket_choice_apply.py` и `tools/basket_split_plan.py` делают работу при
+   импорте и при запуске без аргументов (`basket_choice_apply.py` без `TAG` и `STAGE` переписывает `data/directions/labels/split5_choice.jsonl`;
+   обнаружено 2026-10-24 пробным импортом, файл восстановлен из git). Требовать явные аргументы.
+6. **`web/CLAUDE.md` (36 КБ) загружается в каждую сессию по фронту**: три раздела «Design spec: Figma …» (строки 51–210) — спецификации, а не правила;
+   вынести в `web/SPEC.md`, в CLAUDE оставить правила и ссылки. Делать, когда фронт не правится с другой машины.
+
+### Сделано 2026-10-24 — порядок в репозитории (аудит репозитория от того же дня; его текст — `local/docs/REPO_AUDIT_2026-10-24.md`)
+- Было 2 189 файлов в git, из них 1 914 — `local/` (опубликованы 2026-10-18 через `git add -f`). Стало около 310. Правило одно: в git
+  то, что читает сайт, `make data`, `make check` или сборка, что запускает навык, на что ссылается действующее решение, и документы
+  из таблицы CLAUDE.md; исследования и проверки гипотез — только на диске в `local/`. Производство не изменилось: после каждого
+  шага `make data` давал тот же `export/` (кроме полей `source_commit`, `generated`), `make check` OK, тесты фронта 257/257.
+- Удалено (остаётся в истории git): `docs/archive/` (12 закрытых документов), `docs/DESIGN_BRIEF.md`, `candidate_directions_74.csv`,
+  `pilot_answers.csv`, `match_calibration.txt`; `web/design-variants/` и `hero-pattern.svg` — по меткам `layout-A` и `desktop-L`
+  (коммит 201a101); второй список тем `merge3/directions_final.json` — один список `DIRECTIONS_LIST.csv`, `labels.directions()`.
+  Правило CLAUDE.md: закрытый документ удаляется, в WORKLOG — строка.
+- Вне git: `local/` целиком; пять выходов `positions.py`, которые никто не читает дальше (`mk_topic_positions.csv` — 9 МБ, 52 версии
+  в истории); на диске из `local/jef/` удалены папки, на которые не ссылается ни одно решение (`blind/`, `merge…merge3/`, `review/`,
+  `rename/`, прогоны Jev 6–7, черновики утверждений с версиями в имени); дубль `local/research/independent/`.
+- Перенесено: 16 скриптов процедуры `local/research/scripts/` → `tools/` (в git; девять из них после переименования 2026-10-23
+  читали `statements_v4.csv` и `quiz_*.v2.json` — починены); страницы ЦИК → `manual/cec_pages/` (единственная копия источника);
+  прогоны Jev → `pipeline/labeling/`, выгрузка → `pipeline/fetch/`; правила утверждений `GUIDELINES.md` → `.claude/skills/new-statements/rules.md`
+  (убраны «рабочая гипотеза», `directions_74.csv`, шесть вариантов ответа).
+- Переименовано по содержимому: `jef/` → `data/` (темы, позиции, утверждения), выгрузки `data/` → `raw/`; 548 путей в коде,
+  навыках, документах и столбцах `source` / `change` реестра и утверждений.
+- Воспроизводимость: снимок базы и трёх файлов `raw/` в приватном репозитории `Oleg378/knesset-votematch-data`
+  (`make snapshot-save` / `snapshot-restore`); проверка конвейера на GitHub `.github/workflows/pipeline.yml` (`make check`,
+  `make data`, `pipeline/export_compare.py`), ключ — deploy key только на чтение, секрет `SNAPSHOT_DEPLOY_KEY`.
+- Мелочи: `pyflakes` чист в `positions.py` и `quiz_report.py`; `.claude/worktrees/` в `.gitignore`.
+- Не сделано: удаление четырёх местных и трёх влитых веток на GitHub и рабочей копии `.claude/worktrees/site-seo` (129 МБ) — команды
+  у заказчика; `git gc` (5 700 рассыпанных объектов, 234 МБ); имена этапов разметки `planN.json` / `splitN_choice.jsonl` оставлены:
+  они единообразны («этап N») и на них больше ста ссылок в столбцах решений; сокращение `web/CLAUDE.md` — «Что дальше» п. 6.
 
 ### Сделано 2026-10-24 — заметка о малом числе бывших депутатов: три текста
 - Предупреждение остаётся по прежнему правилу (SU п. 20.2: меньше 3 бывших депутатов в первой десятке), текст вместо «few

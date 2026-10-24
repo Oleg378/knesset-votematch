@@ -16,6 +16,8 @@ _Реализация и числа. Концепция — [METHODOLOGY.md](MET
 
 Единица хранения — голос депутата (`vote_roster`); позиции фракций, лагерей и списков только вычисляются.
 
+**Воспроизводимость.** База и три файла `raw/`, которые читают `positions.py` и `export.py` (`raw/bills/bill.json`, `raw/person_to_position_24_25.json`, `raw/cec/mk_persons.json`), лежат снимком в приватном репозитории `Oleg378/knesset-votematch-data`: `make snapshot-save` после каждой новой выгрузки, `make snapshot-restore` на новой машине (`pipeline/snapshot.py`). Проверка на GitHub `.github/workflows/pipeline.yml` при каждом пуше, задевшем `pipeline/`, `data/`, `manual/` или `export/`: восстанавливает снимок (ключ в секрете `SNAPSHOT_DEPLOY_KEY`), `make check`, `make data`, `pipeline/export_compare.py` — экспорт в git должен совпадать со сборкой по содержанию (поля `source_commit` и `generated` не сравниваются).
+
 ## 2. Данные
 
 **Источники.** OData v4 Кнессета (созывы 24–25; старый `Votes.svc` закончился на 2021 годе); страницы ЦИК (списки и кандидаты 2026, читаются через браузер заказчика); `KNS_PersonToPosition` (должности министров и заместителей). Сторонние агрегаторы — только для сверки.
@@ -59,7 +61,7 @@ _Реализация и числа. Концепция — [METHODOLOGY.md](MET
 
 **Слои поверх разметки** (`pipeline/labels.py`, по порядку): стадии разделения тем 2…10 (`LATER`) → `overrides.json`: `labels` (точечные правки), `remove`, `flip`, `add` → `nested_removals.json` (вычитание общих законопроектов у вложенных пар). Правила изменения метки — SU п. 37; все проверенные пары «законопроект × тема» — `labels/label_check_coverage.csv` (инвариант I6).
 
-**Темы.** Реестр — `data/directions/registry.csv`: у каждой темы, проходящей отбор, либо вопрос, либо решение (`duplicate`, `split`, `basket`, `technical`, `no_statement`, `dropped_dup`; `pending` — в процедуре). Определения тем — `data/directions/merge3/directions_final.json` и `split/planN.json`.
+**Темы.** Реестр — `data/directions/registry.csv`: у каждой темы, проходящей отбор, либо вопрос, либо решение (`duplicate`, `split`, `basket`, `technical`, `no_statement`, `dropped_dup`; `pending` — в процедуре). Определения тем — `data/directions/DIRECTIONS_LIST.csv` (один список 255 тем; `labels.directions()`) и `split/planN.json`.
 
 **Метаданные утверждений** (`data/quiz/statement_meta.csv`): `interest` 1–5 (среднее двух слепых оценок), `area` (13 кодов), `sim_group` (группа «один вопрос для избирателя»; пары, на которых сошлись две слепые группировки). Используются только порядком вопросов.
 
