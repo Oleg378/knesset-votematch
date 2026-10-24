@@ -92,7 +92,10 @@ describe('start', () => {
     screen.getByText(S.start.steps(planned)[0]!);
     click(S.start.howItWorks);
     screen.getByRole('heading', { name: methodology.heading });
-    click(methodology.back);
+    // The title in the header, as on Results; no Back on the page — the system Back still returns
+    within(screen.getByRole('banner')).getByText(methodology.heading);
+    expect(screen.queryByRole('button', { name: /^back/i })).toBeNull();
+    act(() => void window.dispatchEvent(new PopStateEvent('popstate')));
     screen.getByRole('button', { name: S.start.button });
   });
 

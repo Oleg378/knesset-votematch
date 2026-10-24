@@ -143,4 +143,8 @@ export const S = {
     otherWayMark: T.bills.otherWayMark,
     showMore: (n: number) => fill(T.bills.showMore, { n }),
   },
+  /** The rest of the methodology page reads `T.methodology` directly (MethodologyScreen). */
+  methodology: {
+    heading: T.methodology.heading,
+  },
 };

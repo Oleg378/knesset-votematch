@@ -6,7 +6,8 @@ import { Icon } from './Icon';
  * Top bar of every screen (Figma «Frame 4»): menu button, then the screen's progress or counter; on Results, at the
  * right end instead, Start over: the icon of the menu's item, no text; it starts the quiz again at the first question,
  * as Start on Home (customer 2026-10-22). A screen's title can stand in the middle, pinned with the bar (Results,
- * customer 2026-10-23); it is a picture of the screen's own heading, which stays in the page for screen readers.
+ * customer 2026-10-23; How it works, 2026-10-24); it is a picture of the screen's own heading, which stays in the page
+ * for screen readers.
  */
 export function Header({ onMenu, onStartOver, title, children }:
   { onMenu: () => void; onStartOver?: () => void; title?: string; children?: ReactNode }) {

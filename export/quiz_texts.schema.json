@@ -763,11 +763,6 @@
      "minLength": 1,
      "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
     },
-    "back": {
-     "type": "string",
-     "minLength": 1,
-     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
-    },
     "sections": {
      "minItems": 1,
      "type": "array",
@@ -954,7 +949,6 @@
    },
    "required": [
     "heading",
-    "back",
     "sections",
     "statements"
    ],

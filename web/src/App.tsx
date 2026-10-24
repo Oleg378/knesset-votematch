@@ -149,7 +149,8 @@ export default function App({ loader }: { loader: Loader }) {
 
   return (
     <main ref={appRef} className="app">
-      <Header onMenu={() => setMenu(true)} title={sc.name === 'results' ? S.results.heading : undefined}
+      <Header onMenu={() => setMenu(true)} title={sc.name === 'results' ? S.results.heading
+        : sc.name === 'methodology' ? S.methodology.heading : undefined}
         onStartOver={sc.name === 'results' ? () => send({ type: 'RESTART' }) : undefined}>{header}</Header>
       {menu && (
         <Menu onClose={closeMenu} onStartOver={() => dispatch({ type: 'START_OVER' })}

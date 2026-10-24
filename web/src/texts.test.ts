@@ -24,7 +24,7 @@ function allTemplates(t: Texts): [string, string, readonly string[]][] {
   for (const [k, v] of Object.entries(t.answers)) out.push([`answers.${k}`, v, []]);
   for (const [k, v] of Object.entries(t.answerButtons)) out.push([`answerButtons.${k}`, v, []]);
   t.start.steps.forEach((s, i) => out.push([`start.steps.${i}`, s, STEP_PLACEHOLDERS]));
-  out.push(['methodology.heading', t.methodology.heading, []], ['methodology.back', t.methodology.back, []]);
+  out.push(['methodology.heading', t.methodology.heading, []]);
   t.methodology.sections.forEach((s, i) => {
     out.push([`methodology.sections.${i}.title`, s.title, []]);
     if (s.text !== undefined) out.push([`methodology.sections.${i}.text`, s.text, DATA_PLACEHOLDERS]);

@@ -193,7 +193,7 @@ function MethodSection({ data, s, v }: { data: QuizData; s: Section; v: ReturnTy
  * and the labels of the statements block (a card too: its title in the same style, then a row per statement). Long
  * cards collapse by one rule, by height (MethodCard). The numbers are filled from quiz_data (texts.ts).
  */
-export function MethodologyScreen({ data, bills, dispatch }: BillsScreenProps) {
+export function MethodologyScreen({ data, bills }: BillsScreenProps) {
   const methodology = T.methodology;
   const names = new Map(data.lists.map((l) => [l.id, l.name_en]));
   const v = dataValues(data);
@@ -206,10 +206,8 @@ export function MethodologyScreen({ data, bills, dispatch }: BillsScreenProps) {
   ) }));
   return (
     <section className="screen">
-      <Button variant="link" onClick={() => dispatch({ type: 'BACK' })}>
-        {methodology.back}
-      </Button>
-      <h1 className="title-lg">{methodology.heading}</h1>
+      {/* «How it works» is shown in the header (Header title), as on Results; here it stays for screen readers and the focus on a new screen */}
+      <h1 className="visually-hidden">{methodology.heading}</h1>
       <div className="stack-lg">
         {methodology.sections.map((s) => <MethodSection key={s.title} data={data} s={s} v={v} />)}
       </div>

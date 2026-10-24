@@ -26,7 +26,8 @@ interaction; the statement count comes from the data. Customer, 2026-10-18. Open
 
 Every screen: header with the menu button (Figma «Menu»: Start over · My results · Methodology); on Results, at the right end (where
 other screens have the counter), Start over: the menu item's icon, no text; it clears the answers and opens the first
-question at once, as «Start» on Home (customer 2026-10-22).
+question at once, as «Start» on Home (customer 2026-10-22). Results and Methodology show their title in the middle of the
+header, pinned with it; Methodology has no Back button — the system Back or the menu (DECISIONS.md G24).
 
 ### 1. Start (Figma «Home»)
 - Eyebrow, «Find your vote match», hero graphic, tagline, chips (N statements · 3–5 min · Anonymous), three steps.

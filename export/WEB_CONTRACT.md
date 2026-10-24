@@ -183,7 +183,7 @@ Statement texts and titles (`statement_en`, `title_en`) are not in it: they are 
 | `results` | `heading`, `scaleFar`, `scaleClose`, `closestOne`, `closestMany`, `basedOn`, `basedOnTrade`, `hintBefore`, `hintAfter`, `seeAll`, `seeLess`, `notRanked`, `notComputable`, `noMore`, `changeAnswers`, `rank`, `closenessLabel` | Results |
 | `details` | `back`, `closeness`, `fits`, `misfits`, `showAll`, `showLess`, `none`, `openBills` | List details |
 | `bills` | `back`, `yourWay`, `otherWay`, `none`, `meta`, `roleMain`, `roleSecondary`, `raises`, `lowers`, `sponsoredBy`, `sponsor`, `link`, `yourWayMark`, `otherWayMark`, `showMore` | «Bills of one statement» |
-| `methodology` | `heading`, `back`, `sections[]`, `statements` | Methodology (below) |
+| `methodology` | `heading`, `sections[]`, `statements` | Methodology (below) |
 
 **Template language.** `{name}` is replaced by the value; `{name?one|many}` by `one` when the value is 1, else by `many`
 (`{single} {single?list|lists}`). Numbers are never typed into the texts. The names each key may use are listed explicitly in

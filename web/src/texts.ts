@@ -250,7 +250,6 @@ export const TextsSchema = z.strictObject({
   bills: templates(PLACEHOLDERS.bills),
   methodology: z.strictObject({
     heading: plain,
-    back: plain,
     sections: z.array(SectionSchema).check(z.minLength(1)),
     /** Labels of the block «All N statements and their bills». */
     statements: templates(STATEMENT_PLACEHOLDERS),
