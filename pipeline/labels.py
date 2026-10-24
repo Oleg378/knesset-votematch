@@ -7,11 +7,17 @@ load() -> dict(technical, bill_lab, pk_agent, pk_whole, split_plan):
   pk_agent / pk_whole — labels of budget-package votes (by vote_id).
 signed_topics(lab) -> {direction: ±1} over main and secondary (equal weight; unsigned skipped).
 """
-import glob, json, os
+import csv, glob, json, os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LAB = os.path.join(ROOT, "data/directions/labels")
 SGN = {'+': 1, '−': -1, '-': -1}
+DIRS = os.path.join(ROOT, "data/directions/DIRECTIONS_LIST.csv")   # the 255 themes of the labeling: n, names, «+» and «−»
+
+def directions():
+    """n -> {name_ru, name_en, plus_en, minus_en} of the 255 themes (the split parts are in the split plans)."""
+    return {r["n"]: {"name_ru": r["name_ru"], "name_en": r["name_en"], "plus_en": r["plus"], "minus_en": r["minus"]}
+            for r in csv.DictReader(open(DIRS, encoding="utf-8"))}
 REL_FILE = os.path.join(ROOT, "data/directions/relevance/relevance_q2.jsonl")   # pipeline/labeling/jev_relevance.py
 REL_T = None   # threshold of «the bill is about the statement's issue»; None = filter off: not accepted by the customer
                # (SU 27.3, 2026-10-17 evening) [О]; options and tests: local/research/relevance_impact/, local/jef/directions/relevance/pilot_gold.csv

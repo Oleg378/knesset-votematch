@@ -119,9 +119,9 @@ async def ask(client, st, qs):
     return ans, tok
 
 def directions_final():
-    """The final list (merge3/directions_final.json): English names with «+» and «−»."""
-    return [{"n": d["key"], "name": d["name_en"], "plus": d["plus_en"], "minus": d["minus_en"]}
-            for d in json.load(open(os.path.join(D, "merge3/directions_final.json")))]
+    """The final list (data/directions/DIRECTIONS_LIST.csv): English names with «+» and «−»."""
+    import labels
+    return [{"n": n, "name": d["name_en"], "plus": d["plus_en"], "minus": d["minus_en"]} for n, d in labels.directions().items()]
 
 def q_outside(dirs):
     return Noul(instructions="Below is a list of quantities. Does this Israeli bill substantially change some quantity that is NOT on the list "

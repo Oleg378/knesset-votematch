@@ -76,7 +76,7 @@ def context():
     nv, no, ng = {}, {}, {}
     for r in csv.DictReader(open(os.path.join(qm.POS, "list_topic_positions.csv"))):
         nv[(r["letters"], r["d"])] = int(r["sum_nV"]); no[(r["letters"], r["d"])] = int(r.get("sum_nO") or 0); ng[(r["letters"], r["d"])] = int(r.get("sum_nG") or 0)
-    dir_en = {d["key"]: d["name_en"] for d in json.load(open(os.path.join(ROOT, "data/directions/merge3/directions_final.json")))}
+    dir_en = {n: d["name_en"] for n, d in L.directions().items()}
     for p in [json.load(open(os.path.join(ROOT, "data/directions/split/plan.json")))] + L.later_plans():   # all split stages (labels.LATER)
         dir_en.update({k: v["name_en"] for k, v in p["new"].items()})
     return dict(st=st, pos=pos, cov=cov, info=info, init=init, cand=cand, by_d=by_d, nv=nv, no=no, ng=ng, dir_en=dir_en,

@@ -52,7 +52,7 @@ def build_data(ctx):
     quiz_d = list(dict.fromkeys(r["d"] for r in st))
     plan = {**json.load(open(os.path.join(ROOT, "data/directions/split/plan.json")))["new"],
             **{k: v for p in qr.L.later_plans() for k, v in p["new"].items()}}   # all later split stages (labels.LATER)
-    final = {d["key"]: d for d in json.load(open(os.path.join(ROOT, "data/directions/merge3/directions_final.json")))}
+    final = qr.L.directions()
     def ddesc(d):
         x = plan.get(d) or final[d]
         return {"name_en": x["name_en"], "plus_en": x["plus_en"], "minus_en": x["minus_en"]}
