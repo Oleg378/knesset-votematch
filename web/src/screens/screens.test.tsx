@@ -422,10 +422,10 @@ describe('results', () => {
     expect(document.activeElement).toBe(screen.getByRole('button', { name: S.results.seeAll })); // back to the panel
   });
 
-  it('at the bottom only «Change answers»; it goes back to the statements', () => {
+  it('at the bottom «Change answers» and «Share this quiz»; the first goes back to the statements', () => {
     toResults();
     const bottom = within(document.querySelector('.sticky-actions')!).getAllByRole('button');
-    expect(bottom.map((b) => b.textContent)).toEqual([S.results.changeAnswers]);
+    expect(bottom.map((b) => b.textContent)).toEqual([S.results.changeAnswers, S.share.button]);
     fireEvent.click(bottom[0]!);
     screen.getByRole('group', { name: S.question.answersLabel });
   });

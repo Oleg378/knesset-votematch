@@ -2,6 +2,7 @@ import { useMemo, useRef, useState } from 'react';
 import { flushSync } from 'react-dom';
 import { Button } from '../components/Button';
 import { ListRow } from '../components/ListRow';
+import { ShareButton } from '../components/ShareButton';
 import { match } from '../engine/match';
 import { collapse, expand, scrollBackTo } from '../expandMotion';
 import { answeredCount } from '../state/reducer';
@@ -139,12 +140,14 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
           <span className="btn btn-link skip">{S.results.seeAll}</span>
         </div>
       )}
-      {/* At the bottom only «Change answers» (customer 2026-10-23), pinned to the bottom of the screen as on Home: Start
-          over is in the header and the menu, Methodology in the menu; «Answer more questions» is gone. */}
+      {/* At the bottom «Change answers» (customer 2026-10-23) and under it «Share this quiz» (customer 2026-10-24), pinned
+          to the bottom of the screen as on Home: Start over is in the header and the menu, Methodology in the menu;
+          «Answer more questions» is gone. */}
       <div className="sticky-actions push-down">
         <Button block onClick={() => dispatch({ type: 'CHANGE_ANSWERS' })}>
           {S.results.changeAnswers}
         </Button>
+        <ShareButton />
       </div>
     </section>
   );
