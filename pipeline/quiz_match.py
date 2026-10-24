@@ -61,6 +61,10 @@ def score(st, answers, lv, mult=None):
     cos = num / np.sqrt(uu * pp) if uu > 0 and pp > 0 else float("nan")
     return cos, (wc / wa if wa else 0.0)
 
+def few_mks_note(N, n):
+    """The note of a list with status warning (fewer than 3 former MKs in its top ten), by its number of former MKs."""
+    return N["oneMk"] if n == 1 else N["twoMks"] if n == 2 else N["fewInTopTen"]
+
 def match(answers, k=K, mult=None):
     st, pos, cov = load()
     N = T.load()["notes"]   # user-facing notes: export/quiz_texts.json (export/WEB_CONTRACT.md §7), the same templates as the web
@@ -71,7 +75,7 @@ def match(answers, k=K, mult=None):
                          "ex_mks": 0, "note": N["noRecord"]}); continue
         cos, cv = score(st, answers, list_vec(st, pos, letters, k), mult)
         rows.append({"letters": letters, "list": c["list_name"], "status": c["status"], "closeness": cos, "coverage": cv,
-                     "ex_mks": int(c["ex_mks"]), "note": T.fill(N["fewMks"], n=int(c["ex_mks"])) if c["status"] == "warning" else ""})
+                     "ex_mks": int(c["ex_mks"]), "note": few_mks_note(N, int(c["ex_mks"])) if c["status"] == "warning" else ""})
     for r in rows:   # [А] a list whose positions cover less than half of the answered weight is not ranked with the others
         if r["closeness"] is not None and r["coverage"] < MIN_COVERAGE:
             r["note"] = (r["note"] + N["join"] if r["note"] else "") + T.fill(N["lowCoverage"], pct=f"{r['coverage']:.0%}")

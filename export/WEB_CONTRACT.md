@@ -175,7 +175,7 @@ Statement texts and titles (`statement_en`, `title_en`) are not in it: they are 
 | `app` | `title`, `siteName`, `subtitle`, `description`, `name`, `eyebrow`, `loading`, `loadError`, `reload`, `newTab` | page title; the site's name, subtitle and description — link previews (Open Graph), the web app manifest, the preview picture, search engines; menu title, loading and load error, the screen-reader note on links that open a new tab |
 | `answers` | `"2"`, `"1"`, `"0"`, `"-1"`, `"-2"` | the answer inside sentences («Your answer: agree»): explanations, trade-off questions |
 | `answerButtons` | the same keys and `dk` («don't know») | the answer buttons |
-| `notes` | `noRecord`, `fewMks`, `lowCoverage`, `join` | the note of a list on Results and List details (`join` separates two notes) |
+| `notes` | `noRecord`, `oneMk`, `twoMks`, `fewInTopTen`, `lowCoverage`, `join` | the note of a list on Results and List details: a list with status `warning` (fewer than 3 former MKs in its top ten) takes `oneMk`, `twoMks` or `fewInTopTen` by its number of former MKs — 1, 2, 3 or more (`join` separates two notes) |
 | `explain` | `quote`, `sideFor`, `sideAgainst`, `sideNoClear`, `answer`, `votes`, `votesGov`, `basis`, `basisVotesOnly`, `weight`, `caveatByVotes`, `caveatPrice` | the lines of List details (§3) |
 | `start` | `title`, `tagline`, `chipStatements`, `chipTime`, `chipAnonymous`, `steps` (exactly three), `button`, `howItWorks` | Start |
 | `menu` | `open`, `close`, `startOver`, `results`, `methodology` | the menu |
@@ -195,7 +195,7 @@ file: any other name, or a stray brace, fails the schema. A key not listed below
 
 | Section | Key → allowed names |
 |---|---|
-| `notes` | `fewMks`: `n` (former MKs) · `lowCoverage`: `pct` (with the % sign) |
+| `notes` | `lowCoverage`: `pct` (with the % sign) |
 | `explain` | `quote`: `text` (the statement) · `answer`: `answer` (an `answers` word), `side` (the filled `sideFor`, `sideAgainst` or `sideNoClear`) · `votes`: `votes` (on private bills), `other` (on the other camp's bills), `gov` (the filled `votesGov`, or empty when there are none) · `votesGov`: `gov` · `basis`: `bills`, `same`, `opp`, `votes` (the filled `votes`) · `basisVotesOnly`: `votes` (the filled `votes`) |
 | `start` | `chipStatements`: `n` · each of `steps`: `n` (the planned number of statements), `top` (the number of lists highlighted on Results) |
 | `question` | `progress`: `n`, `total` |

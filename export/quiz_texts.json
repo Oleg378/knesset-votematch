@@ -29,7 +29,9 @@
  },
  "notes": {
   "noRecord": "no record in the Knesset",
-  "fewMks": "few former MKs: {n}",
+  "oneMk": "only one Knesset member",
+  "twoMks": "only two Knesset members",
+  "fewInTopTen": "few Knesset members in the top ten",
   "lowCoverage": "position known for only {pct} of your answers",
   "join": "; "
  },

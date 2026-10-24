@@ -9,6 +9,7 @@ import {
   templatePattern, TextsSchema, type Texts,
 } from './texts';
 import { jsonSchema } from './textsJsonSchema';
+import { noteFewMks } from './strings';
 
 /** Sample values for the given names: every name gets `v`. */
 const sample = (names: readonly string[], v: number | string) => Object.fromEntries(names.map((n) => [n, v]));
@@ -162,5 +163,14 @@ describe('dataValues', () => {
     expect(v.vote_ratio).toBe(Math.round(1 / data.params.VOTE_WEIGHT));
     expect(v.min_lists).toBe(data.params.SELECT_MIN_LISTS);
     expect(v.core).toBe(data.flow.core);
+  });
+});
+
+describe('noteFewMks', () => {
+  it('chooses the note of a list with status warning by its number of former MKs: 1, 2, 3 or more', () => {
+    expect(noteFewMks(1)).toBe(T.notes.oneMk);
+    expect(noteFewMks(2)).toBe(T.notes.twoMks);
+    expect(noteFewMks(3)).toBe(T.notes.fewInTopTen);
+    expect(noteFewMks(7)).toBe(T.notes.fewInTopTen);
   });
 });

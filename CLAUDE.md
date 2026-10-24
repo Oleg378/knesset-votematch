@@ -80,7 +80,7 @@ Python deps: `requirements.txt` (pinned). Node: `web/package-lock.json`.
 - Question order (`pipeline/quiz_flow.py` FLOW, [У] 2026-10-21): core = axis markers × interest, one per area; clarifying = contending pair;
   statement metadata `jef/quiz/statement_meta.csv` (interest, area, sim_group) is used only for the order of questions.
 - Selection criteria (`pipeline/quiz_select.py`), labels and overrides (`jef/directions/labels/`).
-- What results show: no coalition/opposition layer, no number of MKs; only two notes (few former MKs: N; position known for
+- What results show: no coalition/opposition layer, no number of MKs; only two notes (few former MKs — «only one / only two Knesset members», «few Knesset members in the top ten»; position known for
   only N% of your answers).
 
 ## Language

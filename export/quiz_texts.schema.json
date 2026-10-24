@@ -167,10 +167,20 @@
      "minLength": 1,
      "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
     },
-    "fewMks": {
+    "oneMk": {
      "type": "string",
      "minLength": 1,
-     "pattern": "^(?:[^{}]|\\{(?:n)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "twoMks": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "fewInTopTen": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
     },
     "lowCoverage": {
      "type": "string",
@@ -185,7 +195,9 @@
    },
    "required": [
     "noRecord",
-    "fewMks",
+    "oneMk",
+    "twoMks",
+    "fewInTopTen",
     "lowCoverage",
     "join"
    ],

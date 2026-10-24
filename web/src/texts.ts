@@ -79,7 +79,10 @@ export const PLACEHOLDERS = {
   /** The notes of a list on Results (must match pipeline/quiz_match.py, golden). */
   notes: {
     noRecord: [],
-    fewMks: ['n'],
+    /** A list with fewer than 3 former MKs in its top ten (status `warning`): one, two, or three or more former MKs. */
+    oneMk: [],
+    twoMks: [],
+    fewInTopTen: [],
     lowCoverage: ['pct'],
     join: [],
   },
