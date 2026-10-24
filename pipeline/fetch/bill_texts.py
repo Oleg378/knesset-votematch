@@ -1,6 +1,6 @@
 """Download bill texts (DOCX preferred: Hebrew RTL extracts cleanly) and keep the explanatory notes.
 
-Usage: python3 pipeline/fetch/bill_texts.py BILL_ID [BILL_ID ...]   -> data/bill_texts/<bill_id>.json
+Usage: python3 pipeline/fetch/bill_texts.py BILL_ID [BILL_ID ...]   -> raw/bill_texts/<bill_id>.json
        python3 pipeline/fetch/bill_texts.py --file ids.txt
 Needs an Israeli IP (fs.knesset.gov.il). Cached: existing files are skipped.
 
@@ -13,7 +13,7 @@ import pymupdf
 from odata4 import fetch_all
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-OUT = os.path.join(ROOT, "data/bill_texts")
+OUT = os.path.join(ROOT, "raw/bill_texts")
 # Prefer the version the plenum discussed first; later stages repeat or replace the notes.
 GROUP_ORDER = ["הצעת חוק לדיון מוקדם", "הצעת חוק לקריאה הראשונה", "הצעת חוק לקריאה השנייה והשלישית"]
 

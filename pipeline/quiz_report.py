@@ -7,7 +7,7 @@ For every 2026 list (evaluated ones, ranked as in quiz_match.py) and every answe
     votes on private bills on this direction there are (votes enter the position with weight 0.25).
 Labels are the mass labels with the split of heterogeneous directions applied (as in pipeline/positions.py).
 
-Usage: python3 pipeline/quiz_report.py local/jef/quiz/pilot_answers_filled.csv  ->  jef/quiz/report_<file name>.md
+Usage: python3 pipeline/quiz_report.py local/jef/quiz/pilot_answers_filled.csv  ->  data/quiz/report_<file name>.md
 """
 import csv, json, os, re, sys, collections
 import duckdb
@@ -16,7 +16,7 @@ import quiz_match as qm
 import labels as L
 import texts as T
 
-ROOT, LAB = qm.ROOT, os.path.join(qm.ROOT, "jef/directions/labels")
+ROOT, LAB = qm.ROOT, os.path.join(qm.ROOT, "data/directions/labels")
 SGN = {"+": 1, "−": -1, "-": -1}
 LINK = "https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/LawBill.aspx?t=lawsuggestionssearch&lawitemid={}"
 TOP, PER = 10, 5   # [У] 2026-10-17: топ-10 списков, у каждого «почему подходит» и «почему не подходит»
@@ -76,8 +76,8 @@ def context():
     nv, no, ng = {}, {}, {}
     for r in csv.DictReader(open(os.path.join(qm.POS, "list_topic_positions.csv"))):
         nv[(r["letters"], r["d"])] = int(r["sum_nV"]); no[(r["letters"], r["d"])] = int(r.get("sum_nO") or 0); ng[(r["letters"], r["d"])] = int(r.get("sum_nG") or 0)
-    dir_en = {d["key"]: d["name_en"] for d in json.load(open(os.path.join(ROOT, "jef/directions/merge3/directions_final.json")))}
-    for p in [json.load(open(os.path.join(ROOT, "jef/directions/split/plan.json")))] + L.later_plans():   # all split stages (labels.LATER)
+    dir_en = {d["key"]: d["name_en"] for d in json.load(open(os.path.join(ROOT, "data/directions/merge3/directions_final.json")))}
+    for p in [json.load(open(os.path.join(ROOT, "data/directions/split/plan.json")))] + L.later_plans():   # all split stages (labels.LATER)
         dir_en.update({k: v["name_en"] for k, v in p["new"].items()})
     return dict(st=st, pos=pos, cov=cov, info=info, init=init, cand=cand, by_d=by_d, nv=nv, no=no, ng=ng, dir_en=dir_en,
                 title={r["q"]: r for r in st})

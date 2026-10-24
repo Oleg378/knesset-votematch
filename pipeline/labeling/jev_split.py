@@ -1,5 +1,5 @@
 """Split of heterogeneous quiz directions (PROGRESS «План», approved 2026-10-16): relabel only the bills that carry one of
-the split directions, with the candidates from jef/directions/split/plan.json — the new sub-directions of that direction and
+the split directions, with the candidates from data/directions/split/plan.json — the new sub-directions of that direction and
 the existing directions its bills may be transferred to.
 
 Per bill × split direction d (same input as the mass labeling: Hebrew title + first 3,000 characters of the notes):
@@ -8,12 +8,12 @@ Per bill × split direction d (same input as the mass labeling: Hebrew title + f
   (main or secondary); its sign follows the current scheme (side < 0.7 «−», > 1.3 «+», else increase/decrease questions);
   if no candidate is assigned, the bill stays in d (leftover).
 
-Stages 2–4 (--stage2 / --stage3 / --stage4, 2026-10-18 [У]): directions split by the audits of the statements (jef/directions/split/plan2.json, plan3.json, plan4.json). The bills are taken
+Stages 2–4 (--stage2 / --stage3 / --stage4, 2026-10-18 [У]): directions split by the audits of the statements (data/directions/split/plan2.json, plan3.json, plan4.json). The bills are taken
 from the effective labels (pipeline/labels.py after stage 1 and the overrides); one choice question per bill × direction, as in
 --choice; every sub-direction keeps the parent's orientation, so the bill keeps the parent's sign (no sign questions).
--> jef/directions/labels/split2_choice.jsonl, split3_choice.jsonl.
+-> data/directions/labels/split2_choice.jsonl, split3_choice.jsonl.
 
-Usage: python3 pipeline/labeling/jev_split.py [N]            -> jef/directions/labels/split_relabel.jsonl (resumable; N = first N pairs only)
+Usage: python3 pipeline/labeling/jev_split.py [N]            -> data/directions/labels/split_relabel.jsonl (resumable; N = first N pairs only)
        python3 pipeline/labeling/jev_split.py --choice [N]   -> split_choice.jsonl: variant (a), approved 2026-10-16. The bill already
          belongs to the parent direction, so one choice question picks which candidate describes it best (plus «none of these»);
          assigned: the top choice unless it is «none», and the second if its probability >= 0.5 of the top (the main-topic rule
@@ -26,8 +26,8 @@ from jef_run import ROOT, USD_PER_INPUT_TOKEN, load_env
 import jev_directions_test as j
 import jev_label as jl
 
-SPLIT = os.path.join(ROOT, "jef/directions/split")
-OUT = os.path.join(ROOT, "jef/directions/labels/split_relabel.jsonl")
+SPLIT = os.path.join(ROOT, "data/directions/split")
+OUT = os.path.join(ROOT, "data/directions/labels/split_relabel.jsonl")
 ASSIGN, STOP_USD = 0.7, 1.6
 
 def candidates(plan, dirs):
@@ -47,7 +47,7 @@ def pairs(cands):
     con = duckdb.connect(os.path.join(ROOT, "knesset.duckdb"), read_only=True)
     info = {str(b): (n, t) for b, n, t in con.sql("select bill_id, name, bill_type from bills").fetchall()}
     res = []
-    for f in sorted(glob.glob(os.path.join(ROOT, "jef/directions/labels/batch_*.jsonl"))):
+    for f in sorted(glob.glob(os.path.join(ROOT, "data/directions/labels/batch_*.jsonl"))):
         for l in open(f):
             x = json.loads(l)
             for role, ms in (("main", x["main"]), ("secondary", x["secondary"])):

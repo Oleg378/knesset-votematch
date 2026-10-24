@@ -2,7 +2,7 @@
 
 Answer scale: 2 полностью согласен, 1 скорее согласен, 0 нейтрально, -1 скорее не согласен, -2 полностью не согласен,
 "dk" не знаю (skipped). User value on a statement u = answer/2 × key (key «+» = +1, «−» = −1).
-List value p = the list's position P on the statement's direction (jef/positions/list_topic_positions.csv), shrunk toward 0:
+List value p = the list's position P on the statement's direction (data/positions/list_topic_positions.csv), shrunk toward 0:
 p = P × e/(e + K), e = sum_nA + 0.25·(sum_nV + sum_nO + sum_nG) (the evidence behind P, same weights as the position); K = 0: p = P.
 Weight w = 1, or 1/2 for each statement of an a/b pair on the same direction.
 Closeness = cosine over statements the user answered and the list has a position on:
@@ -21,8 +21,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import texts as T
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-Q = os.path.join(ROOT, "jef/quiz")
-POS = os.path.join(ROOT, "jef/positions")
+Q = os.path.join(ROOT, "data/quiz")
+POS = os.path.join(ROOT, "data/positions")
 MIN_COVERAGE = 0.5   # [А]
 MIN_EX_MKS = 2       # [У] 2026-10-18 (Р3, external audit С3): a list resting on one former MK is shown, but not ranked
 MAX_TRADE, TRADE_TOP, TRADE_W = 5, 5, 2.0   # [У] 2026-10-16: trade-off questions (Wahl-O-Mat / StemWijzer convention: ×2)

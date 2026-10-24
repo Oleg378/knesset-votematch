@@ -9,7 +9,7 @@ React + Vite + TypeScript, static SPA (no server, no Next.js). Talk to the custo
 4. Figma: https://www.figma.com/design/TTgHWki3flpBiQ6U9XQF7I/CSS (connector available).
 
 ## Your area
-- **Edit only `web/` and `.github/`.** `pipeline/`, `export/`, `jef/`, `docs/`, `manual/`, `research/` belong to the data
+- **Edit only `web/` and `.github/`.** `pipeline/`, `export/`, `data/`, `docs/`, `manual/`, `research/` belong to the data
   session: do not edit, do not commit their changes (they are often uncommitted in the working tree — leave them).
 - Missing or wrong data → write it in `DATA_REQUESTS.md` and tell the customer. Never patch `../export/*` by hand.
 - Data: the contract in `../export/` only — `quiz_core.json`, `quiz_data.json`, `quiz_bills.json`, fetched at run time in

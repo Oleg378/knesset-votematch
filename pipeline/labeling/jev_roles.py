@@ -12,7 +12,7 @@ from typesafe_sdk import AsyncTypeSafeClient, Score, Choice, Noul
 from jef_run import ROOT, USD_PER_INPUT_TOKEN, load_env
 import jev_directions_test as j
 
-D = os.path.join(ROOT, "jef/directions")
+D = os.path.join(ROOT, "data/directions")
 OUT = os.path.join(D, "jev_roles")
 TESTS = ["jev_test3", "jev_test4"]
 FRESH = False   # test 5: fresh bills, checked once with the fixed scheme (CURRENT_SCHEME.md)

@@ -13,7 +13,7 @@ TAG = os.environ["TAG"]; OUT = f"{ROOT}/local/research/label_check_q{TAG}"; os.m
 PARTS = int(os.environ.get("PARTS", 4)); SKIP = set(filter(None, os.environ.get("SKIP", "").split(",")))
 sys.path.insert(0, f"{ROOT}/pipeline"); import labels as LB
 lab = LB.load(); bl = lab["bill_lab"]
-D = {r["n"]: (r["name_en"], r["plus"], r["minus"]) for r in csv.DictReader(open(f"{ROOT}/jef/directions/DIRECTIONS_LIST.csv"))}
+D = {r["n"]: (r["name_en"], r["plus"], r["minus"]) for r in csv.DictReader(open(f"{ROOT}/data/directions/DIRECTIONS_LIST.csv"))}
 for k, v in lab["split_plan"]["new"].items(): D[k] = (v["name_en"], v.get("plus_en", ""), v.get("minus_en", ""))
 aud = {}
 for f in filter(None, os.environ.get("AUDIT", "").split(",")):
@@ -34,7 +34,7 @@ con = duckdb.connect(f"{ROOT}/knesset.duckdb", read_only=True)
 bname = dict(con.execute("select bill_id, name from bills").fetchall())
 base = lambda n: re.sub(r",?\s*(ה?תש[\"״׳'\w\-]*\s*-?\s*\d{4})\s*$", "", str(n or "")).strip()
 def notes(b, n=260):
-    f = f"{ROOT}/data/bill_texts/{b}.json"
+    f = f"{ROOT}/raw/bill_texts/{b}.json"
     return " ".join((json.load(open(f)).get("notes") or "").replace("דברי הסבר", "", 1).split())[:n] if os.path.exists(f) else ""
 groups = []
 for d, t in texts.items():

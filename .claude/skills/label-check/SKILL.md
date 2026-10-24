@@ -23,7 +23,7 @@ a 3rd check, majority of three); a **sign flip** only if the 1st check and a che
    `python3 tools/flip_check.py <in.csv> <dir>` → `prompts/sign_full_notes.md` → `flip_result.csv`.
 5. `label_check_step.py <tag> merge2` → **3rd check** of «borderline» — `prompts/check3.md`.
 6. `SRC="<what, date>" label_check_step.py <tag> apply` → `overrides.json` remove / flip, `borderline_resolved.csv`.
-7. Append the checked (bill, theme) pairs to `jef/directions/labels/label_check_coverage.csv`; `make data`; `make check`.
+7. Append the checked (bill, theme) pairs to `data/directions/labels/label_check_coverage.csv`; `make data`; `make check`.
 
 ## Add check
 

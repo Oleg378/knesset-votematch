@@ -19,7 +19,7 @@ import json
 import numpy as np
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-POS = os.path.join(ROOT, "jef/positions")
+POS = os.path.join(ROOT, "data/positions")
 MIN_LISTS, MIN_MKS, MIN_SD, MIN_NAMES, GOV_R = 8, 3, 0.25, 5, 0.8   # [У] 2026-10-18: volume by distinct names, 5 (customer: 10 by names is too coarse)
 
 def _bills_by_list_direction():
@@ -60,9 +60,9 @@ def criteria():
 
 if __name__ == "__main__":
     C = criteria()
-    quiz = {r["d"]: r["q"] for r in csv.DictReader(open(os.path.join(ROOT, "jef/quiz/statements.csv"))) if r["status"] == "ok"}
+    quiz = {r["d"]: r["q"] for r in csv.DictReader(open(os.path.join(ROOT, "data/quiz/statements.csv"))) if r["status"] == "ok"}
     ds = sys.argv[1:] or sorted(set(quiz) | {d for d, x in C.items() if x["base"]}, key=lambda d: (d not in quiz, d))
-    plan = json.load(open(os.path.join(ROOT, "jef/directions/split/plan.json")))
+    plan = json.load(open(os.path.join(ROOT, "data/directions/split/plan.json")))
     import labels   # later split stages (2026-10-18): their parents are remainders too
     remainder = (set(plan["parents"]) - set(plan["keep"])) | {d for p in labels.later_plans() for d in p["parents"]}
     gov = sorted([x for x in C.values() if x["gov"]], key=lambda x: -x["nA"])

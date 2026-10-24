@@ -882,7 +882,7 @@
    "framing": ""
   }
  },
- "_doc_labels": "Point corrections of high-profile laws (customer decision 2026-10-17): gross errors fixed per bill after an expert check (jef/h9_check/landmark/fix/out_1.json, out_2.json); reason and framing per bill.",
+ "_doc_labels": "Point corrections of high-profile laws (customer decision 2026-10-17): gross errors fixed per bill after an expert check (data/h9_check/landmark/fix/out_1.json, out_2.json); reason and framing per bill.",
  "_doc_remove": "Label removals (customer decision 2026-10-18): a bill's label on a quiz direction is removed when two independent checks found the bill is not about the question of that direction's statement. Candidates: docs/SHARED_UNDERSTANDING.md (label removals), local/research/secondary_weight_v2/ (audit_result.md, check2_result.csv). Applied by pipeline/labels.py after all split stages.",
  "remove": {
   "decision": "2026-10-18, customer: apply all 109 removals agreed by both checks (variant A); borderline ones are kept; 2026-10-18, customer: wave 2 (candidates from the wording / votes / main-label check, same two-check rule) applied; 2026-10-18, customer: wave 3 (new and moved statements q51, q64, q69, q98, q105; same two-check rule) applied; 2026-10-18, customer: Р8 symmetric check of the core statements — 5 more; 2026-10-18, customer (audit №2 С3): disputed pairs resolved by majority of three blind checks — 20 removed, 113 kept; 2026-10-18 (audit №2 К2): every bill of the 8 core statements checked, removals where two blind checks agree; 2026-10-19: systematic label check, one statement at a time (docs/LABEL_CHECK.md), same two-check rule",

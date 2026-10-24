@@ -7,9 +7,9 @@ input as the mass labeling (Hebrew title + first 3,000 characters of the notes):
 statement(s) of this direction? The answer probability is stored; the threshold and what it filters (votes only, or also
 authorship) are decided after the pilot.
 
-Usage: python3 pipeline/labeling/jev_relevance.py --pilot     -> jef/directions/relevance/pilot_<QV>.jsonl (8 known cases, 30 random voted
+Usage: python3 pipeline/labeling/jev_relevance.py --pilot     -> data/directions/relevance/pilot_<QV>.jsonl (8 known cases, 30 random voted
                                                         pairs, 42 random pairs of any kind; gold labels: pilot_gold.csv)
-       python3 pipeline/labeling/jev_relevance.py [--votes] [N] -> jef/directions/relevance/relevance.jsonl (resumable; --votes: only pairs
+       python3 pipeline/labeling/jev_relevance.py [--votes] [N] -> data/directions/relevance/relevance.jsonl (resumable; --votes: only pairs
                                                         with private-bill votes; N = first N pairs)
 """
 import asyncio, csv, json, os, random, sys
@@ -20,7 +20,7 @@ import jev_directions_test as j
 import jev_label as jl
 import labels
 
-OUT_DIR = os.path.join(ROOT, "jef/directions/relevance")
+OUT_DIR = os.path.join(ROOT, "data/directions/relevance")
 STOP_USD = 0.8
 # pilot: pairs found in the check of 2026-10-17 (local/research/vote_sign_check/) with the agent's expected answer
 KNOWN = [("2158413", "276", "no"), ("2158413", "275", "no"), ("2158413", "277a", "yes"), ("2159538", "314", "no"),
@@ -28,7 +28,7 @@ KNOWN = [("2158413", "276", "no"), ("2158413", "275", "no"), ("2158413", "277a",
 
 def statements():
     by_d = {}
-    for r in csv.DictReader(open(os.path.join(ROOT, "jef/quiz/statements.csv"))):
+    for r in csv.DictReader(open(os.path.join(ROOT, "data/quiz/statements.csv"))):
         if r["status"] == "ok": by_d.setdefault(r["d"], []).append((r["title_en"], r["statement_en"]))
     return by_d
 

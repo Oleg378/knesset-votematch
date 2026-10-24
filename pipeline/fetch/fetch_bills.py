@@ -1,9 +1,9 @@
-"""Download bill-lifecycle tables for Knessets 24-25 into data/bills/ (sequential, keyset paging)."""
+"""Download bill-lifecycle tables for Knessets 24-25 into raw/bills/ (sequential, keyset paging)."""
 import json, os, sys
 from odata4 import fetch_keyset
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-OUT = os.path.join(ROOT, "data/bills")
+OUT = os.path.join(ROOT, "raw/bills")
 os.makedirs(OUT, exist_ok=True)
 
 def save(name, rows):

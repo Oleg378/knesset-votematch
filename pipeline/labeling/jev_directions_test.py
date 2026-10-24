@@ -19,7 +19,7 @@ import duckdb
 from typesafe_sdk import AsyncTypeSafeClient, Noul, Score
 from jef_run import ROOT, USD_PER_INPUT_TOKEN, BILL_TYPE_EN, load_env
 
-D = os.path.join(ROOT, "jef/directions")
+D = os.path.join(ROOT, "data/directions")
 OUT = os.path.join(D, "jev_test")
 NOTES_CHARS, APPLIES, CHUNK = 3000, 0.5, 50
 
@@ -38,7 +38,7 @@ def directions():
 def sample(n):
     """n bills from the discovery sample with notes, by type in sample proportions, fixed seed."""
     order = list(csv.DictReader(open(os.path.join(D, "order.csv"))))
-    with_notes = [r for r in order if json.load(open(os.path.join(ROOT, f"data/bill_texts/{r['bill_id']}.json")))["notes"]]
+    with_notes = [r for r in order if json.load(open(os.path.join(ROOT, f"raw/bill_texts/{r['bill_id']}.json")))["notes"]]
     rnd = random.Random(20261013)
     gov = [r for r in with_notes if r["bill_type"] != "פרטית"]
     pick = rnd.sample(gov, max(1, n * len(gov) // len(with_notes)))
@@ -75,7 +75,7 @@ def sample5(n):
     con = duckdb.connect(os.path.join(ROOT, "knesset.duckdb"), read_only=True)
     pick, cnt = [], {}
     for i in open(os.path.join(T3, "pool.txt")).read().split():
-        p = os.path.join(ROOT, f"data/bill_texts/{i}.json")
+        p = os.path.join(ROOT, f"raw/bill_texts/{i}.json")
         if not (os.path.exists(p) and json.load(open(p))["notes"]): continue
         bid, k, t, name = con.sql(f"select bill_id, knesset, bill_type, name from bills where bill_id={i}").fetchone()
         if cnt.get(t, 0) < n:
@@ -88,7 +88,7 @@ def sample3(n):
     ids = [int(x) for x in open(os.path.join(T3, "pool.txt")).read().split()]
     pick = []
     for i in ids:
-        p = os.path.join(ROOT, f"data/bill_texts/{i}.json")
+        p = os.path.join(ROOT, f"raw/bill_texts/{i}.json")
         if os.path.exists(p) and json.load(open(p))["notes"]:
             bid, k, t, name = con.sql(f"select bill_id, knesset, bill_type, name from bills where bill_id={i}").fetchone()
             pick.append({"bill_id": str(bid), "knesset": k, "bill_type": t, "name": name})
@@ -97,7 +97,7 @@ def sample3(n):
     print(len(pick), "bills")
 
 def state(b):
-    notes = json.load(open(os.path.join(ROOT, f"data/bill_texts/{b['bill_id']}.json")))["notes"][:NOTES_CHARS]
+    notes = json.load(open(os.path.join(ROOT, f"raw/bill_texts/{b['bill_id']}.json")))["notes"][:NOTES_CHARS]
     return {"bill_title_hebrew": b["name"], "bill_type": BILL_TYPE_EN.get(b["bill_type"], b["bill_type"]),
             "explanatory_notes_hebrew": notes}
 

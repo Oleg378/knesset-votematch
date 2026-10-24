@@ -1,5 +1,5 @@
 """Split of the basket directions that pass the selection criteria (SHARED_UNDERSTANDING «Выпавшие законопроекты и направления без вопроса»,
-[У] 2026-10-20) — the procedure of the 18 heterogeneous quiz directions (2026-10-16, jef/directions/split/SPLIT.md), same input: for each
+[У] 2026-10-20) — the procedure of the 18 heterogeneous quiz directions (2026-10-16, data/directions/split/SPLIT.md), same input: for each
 direction its names, «+»/«−» and ALL bills labeled with it (effective labels, pipeline/labels.py). Bills are grouped by name without the year
 (the volume rule counts names since 2026-10-18). A name that fell out of the quiz carries the checkers' reason (what it is about).
 -> local/research/basket_split/input_K.json (K = 1..PARTS, directions balanced by size), catalog.md (current directions, for «same_as»)
@@ -12,7 +12,7 @@ sys.path.insert(0, f"{ROOT}/pipeline"); import labels as LB
 BASKETS = (os.environ.get("BASKETS") or "133 149 15 162 211 240 248 256 260 280 285 290 32 349 354 358 366 40 50 64 8 88 96 99").split()
 PARTS = int(os.environ.get("PARTS", 6))
 lab = LB.load(); bl = lab["bill_lab"]
-D = {r["n"]: r for r in csv.DictReader(open(f"{ROOT}/jef/directions/DIRECTIONS_LIST.csv"))}
+D = {r["n"]: r for r in csv.DictReader(open(f"{ROOT}/data/directions/DIRECTIONS_LIST.csv"))}
 for k, v in lab["split_plan"]["new"].items(): D[k] = {"name_en": v["name_en"], "plus": v.get("plus_en", ""), "minus": v.get("minus_en", "")}
 con = duckdb.connect(f"{ROOT}/knesset.duckdb", read_only=True)
 bname = dict(con.execute("select bill_id, name from bills").fetchall())

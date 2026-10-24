@@ -1,6 +1,6 @@
 """Export plenum votes with per-MK results, faction on vote date and normalized direction.
 
-Usage: python3 pipeline/fetch/export_votes.py 2021-04-06 2026-11-10 ../data/export
+Usage: python3 pipeline/fetch/export_votes.py 2021-04-06 2026-11-10 ../raw/export
 Needs an Israeli IP. ~0.5 s per 100-row page; Knessets 24+25 (~780k result rows) take ~30 min with 2 threads.
 """
 import collections, json, os, sys

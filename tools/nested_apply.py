@@ -6,7 +6,7 @@ two agreeing checks decide, otherwise the majority of three; three-way split or 
 All removals are computed on the ORIGINAL bill sets (not sequentially) and are per bill id × theme.
 
 Usage: python3 nested_apply.py merge   -> nested_merged.csv, nested_items_C.md (pairs for the third check)
-       python3 nested_apply.py final   -> nested_decision.csv, nested_removals.computed.json (APPLY=1 writes jef/directions/labels/nested_removals.json,
+       python3 nested_apply.py final   -> nested_decision.csv, nested_removals.computed.json (APPLY=1 writes data/directions/labels/nested_removals.json,
                                           read by pipeline/labels.py). Do not re-apply: the removals were computed on the labels of 2026-10-20
                                           (before stages 6–8 and the new-theme label checks); the applied file is the source of truth.
 """
@@ -47,7 +47,7 @@ elif STEP == "final":
     # rule (а), [У] 2026-10-20: strategy 2 only if the broad theme passes the selection (before the removals); otherwise strategy 1
     import quiz_select as QS0, labels as LB0
     _o = LB0.load; LB0.load = lambda *a, **k: _o(*a, **{**k, "nested": False})
-    pl0 = json.load(open(f"{ROOT}/jef/directions/split/plan.json"))
+    pl0 = json.load(open(f"{ROOT}/data/directions/split/plan.json"))
     rem0 = (set(pl0["parents"]) - set(pl0["keep"])) | {d for p in LB0.later_plans() for d in p["parents"]}
     tech0 = {"107", "128", "236", "289", "339", "343", "346"}
     # «passes» = can carry a statement: remainders of split themes and technical themes get none by rule, so they count as failing
@@ -84,5 +84,5 @@ elif STEP == "final":
     json.dump({"_doc": "Nested themes, global audit (SHARED_UNDERSTANDING «Вложенные темы — глобальный аудит», [У] 2026-10-20): a bill's "
                "label on the theme that loses the double count is removed (strategy 1: the broad theme, 2: the narrow theme). Pairs: "
                "local/research/theme_overlap/nested_decision.csv. Applied by pipeline/labels.py after all other corrections.", "items": items},
-              open(f"{ROOT}/jef/directions/labels/nested_removals.json" if os.environ.get("APPLY") == "1" else f"{O}/nested_removals.computed.json", "w"), ensure_ascii=False, indent=1)
+              open(f"{ROOT}/data/directions/labels/nested_removals.json" if os.environ.get("APPLY") == "1" else f"{O}/nested_removals.computed.json", "w"), ensure_ascii=False, indent=1)
     print(len({(i['bill_id'], i['d']) for i in items}), "bill × theme labels removed;", len({i['d'] for i in items}), "themes touched")

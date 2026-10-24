@@ -10,9 +10,9 @@ signed_topics(lab) -> {direction: ±1} over main and secondary (equal weight; un
 import glob, json, os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LAB = os.path.join(ROOT, "jef/directions/labels")
+LAB = os.path.join(ROOT, "data/directions/labels")
 SGN = {'+': 1, '−': -1, '-': -1}
-REL_FILE = os.path.join(ROOT, "jef/directions/relevance/relevance_q2.jsonl")   # pipeline/labeling/jev_relevance.py
+REL_FILE = os.path.join(ROOT, "data/directions/relevance/relevance_q2.jsonl")   # pipeline/labeling/jev_relevance.py
 REL_T = None   # threshold of «the bill is about the statement's issue»; None = filter off: not accepted by the customer
                # (SU 27.3, 2026-10-17 evening) [О]; options and tests: local/research/relevance_impact/, local/jef/directions/relevance/pilot_gold.csv
 
@@ -32,7 +32,7 @@ LATER = [(2, 'plan2.json', 'split2_choice.jsonl'), (3, 'plan3.json', 'split3_cho
 def later_plans():
     """Plans of the later split stages (2: audit of the statements, 3: audit of the new statements, 4: audit after the label removals,
     5: the basket directions that pass the selection criteria), in order."""
-    return [json.load(open(f'{ROOT}/jef/directions/split/{p}')) for _, p, _ in LATER]
+    return [json.load(open(f'{ROOT}/data/directions/split/{p}')) for _, p, _ in LATER]
 
 def load(relevance=True, stages=99, nested=True):
     technical = set()
@@ -44,10 +44,10 @@ def load(relevance=True, stages=99, nested=True):
             r = json.loads(l)
             if r['bill_id'] in technical: continue
             bill_lab[int(r['bill_id'])] = (r.get('main') or [], r.get('secondary') or [])
-    # split of heterogeneous quiz directions (PROGRESS «План», 2026-10-16; jef/directions/split/plan.json, labels/split_choice.jsonl):
+    # split of heterogeneous quiz directions (PROGRESS «План», 2026-10-16; data/directions/split/plan.json, labels/split_choice.jsonl):
     # for a bill whose parent direction got sub-directions/transfers, the parent topic is replaced by the chosen candidates with the
     # parent's role; a bill with no candidate keeps the parent (leftover). A candidate already present keeps its existing entry.
-    split_plan = json.load(open(f'{ROOT}/jef/directions/split/plan.json'))
+    split_plan = json.load(open(f'{ROOT}/data/directions/split/plan.json'))
     for l in open(f'{LAB}/split_choice.jsonl'):
         r = json.loads(l)
         b = int(r['bill_id'])
@@ -63,11 +63,11 @@ def load(relevance=True, stages=99, nested=True):
     # local/jef/h9_check/landmark/fix/, applied from overrides.json «labels»)
     for b, v in json.load(open(f'{LAB}/overrides.json')).get('labels', {}).items():
         if int(b) in bill_lab: bill_lab[int(b)] = (v['main'], v['secondary'])
-    # later stages (2026-10-18 [У]): directions split by the audits of the statements (jef/directions/split/plan2.json, plan3.json;
+    # later stages (2026-10-18 [У]): directions split by the audits of the statements (data/directions/split/plan2.json, plan3.json;
     # labels/split2_choice.jsonl, split3_choice.jsonl), applied after stage 1 and the overrides, in order; parts keep the parent's
     # sign. stages=N applies stages up to N (jev_split.py takes the bills of stage N from the labels after stage N-1).
     for k, p, out in LATER:
-        plan_k = json.load(open(f'{ROOT}/jef/directions/split/{p}'))
+        plan_k = json.load(open(f'{ROOT}/data/directions/split/{p}'))
         split_plan = {**split_plan, 'new': {**split_plan['new'], **plan_k['new']}, 'parents': {**split_plan['parents'], **plan_k['parents']}}
         if k > stages or not os.path.exists(f'{LAB}/{out}'): continue
         for l in open(f'{LAB}/{out}'):

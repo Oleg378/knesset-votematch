@@ -6,7 +6,7 @@ description: Procedure for themes that pass the selection but have no quiz state
 # New statements
 
 Input: themes that pass `quiz_select.py`, are not remainders / technical, have no statement and no registry decision
-(`make check` lists them as I4). Every outcome is written to `jef/directions/registry.csv`.
+(`make check` lists them as I4). Every outcome is written to `data/directions/registry.csv`.
 
 ## Steps
 
@@ -28,7 +28,7 @@ Input: themes that pass `quiz_select.py`, are not remainders / technical, have n
 7. **Final duplicate check** — all new texts against each other and the current statements: `prompts/final_duplicates.md`, two agents,
    disagreements → a 3rd. Per pair keep one: an existing statement wins; between new ones the theme with more bills.
 8. **Customer** — show every text verbatim (English as stored), grouped, with the duplicate choices; name statements by title.
-9. **Write** into `jef/quiz/statements.csv` and add the row to `jef/quiz/statement_meta.csv` (interest 1–5, area, sim_group — the
+9. **Write** into `data/quiz/statements.csv` and add the row to `data/quiz/statement_meta.csv` (interest 1–5, area, sim_group — the
    same blind agent tasks as in `local/research/flow_models/agents/PROMPT_interest.md`, `PROMPT_areas.md`, `PROMPT_fine.md`;
    two runs, agreement or tie-break) (next free `q`, `source`, `status=ok`, dated `change`; RU text from the draft if the
    audit did not rewrite it), registry `quiz`, then `release`. A new statement can create a nested pair with an existing one

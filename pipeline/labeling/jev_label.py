@@ -8,7 +8,7 @@ Per bill (Hebrew title + first 3,000 characters of the explanatory notes):
   selection: main #1 = top choice, main #2 if >= 0.5 of #1; secondary: applies >= 0.7 and role Main/Secondary, by applies, up to 5;
   sign: side < 0.7 "−", > 1.3 "+"; in between: increase / decrease questions, the side with p >= 0.5 and higher, else unknown.
 
-Usage: python3 pipeline/labeling/jev_label.py BATCH            -> jef/directions/labels/batch_BATCH.jsonl (resumable)
+Usage: python3 pipeline/labeling/jev_label.py BATCH            -> data/directions/labels/batch_BATCH.jsonl (resumable)
        python3 pipeline/labeling/jev_label.py ids BATCH        -> bill ids of the batch (for bill_texts.py --file)
 Order: labels/full_order.csv — the 1,500 bills of the discovery sample first, then all other bills shuffled (seed 20261013).
 Batch N = positions (N-1)*1000+1 .. N*1000. Texts must be downloaded first (bill_texts.py, Israeli IP).
@@ -20,7 +20,7 @@ from jef_run import ROOT, USD_PER_INPUT_TOKEN, load_env
 import jev_directions_test as j
 import jev_roles as r
 
-D = os.path.join(ROOT, "jef/directions")
+D = os.path.join(ROOT, "data/directions")
 OUT = os.path.join(D, "labels")
 BATCH = 1000
 
@@ -50,7 +50,7 @@ def bills_of(batch):
     return [{"bill_id": x["bill_id"], "bill_type": x["bill_type"], "knesset": x["knesset"], "name": names[x["bill_id"]]} for x in part]
 
 def state(b):
-    p = os.path.join(ROOT, f"data/bill_texts/{b['bill_id']}.json")
+    p = os.path.join(ROOT, f"raw/bill_texts/{b['bill_id']}.json")
     notes = json.load(open(p))["notes"][:j.NOTES_CHARS] if os.path.exists(p) else ""
     return {"bill_title_hebrew": b["name"], "bill_type": j.BILL_TYPE_EN.get(b["bill_type"], b["bill_type"]),
             "explanatory_notes_hebrew": notes}, bool(notes)

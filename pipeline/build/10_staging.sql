@@ -6,52 +6,52 @@ CREATE MACRO d(s) AS CASE WHEN s IS NULL OR s LIKE '0001-%' THEN NULL ELSE subst
 CREATE TABLE knesset_terms AS
 SELECT KnessetNum AS knesset, min(d(PlenumStart)) AS date_from,
        coalesce(max(d(PlenumFinish)), DATE '9999-12-31') AS last_session_end
-FROM read_json_auto('data/knesset_dates.json', timestampformat = 'none', dateformat = 'none') GROUP BY 1;
+FROM read_json_auto('raw/knesset_dates.json', timestampformat = 'none', dateformat = 'none') GROUP BY 1;
 
 CREATE TABLE factions AS
 SELECT Id AS faction_id, KnessetNum AS knesset, trim(Name) AS name,
        d(StartDate) AS date_from, coalesce(d(FinishDate), DATE '9999-12-31') AS date_to
-FROM read_json_auto('data/faction_24_25.json', timestampformat = 'none', dateformat = 'none');
+FROM read_json_auto('raw/faction_24_25.json', timestampformat = 'none', dateformat = 'none');
 
 -- Faction membership intervals (PositionID 54 member, 48 chair).
 CREATE TABLE faction_membership AS
 SELECT DISTINCT PersonID AS mk_id, FactionID AS faction_id, KnessetNum AS knesset,
        d(StartDate) AS date_from, coalesce(d(FinishDate), DATE '9999-12-31') AS date_to
-FROM read_json_auto('data/person_to_position_24_25.json', timestampformat = 'none', dateformat = 'none')
+FROM read_json_auto('raw/person_to_position_24_25.json', timestampformat = 'none', dateformat = 'none')
 WHERE PositionID IN (54, 48) AND FactionID IS NOT NULL;
 
 -- Knesset membership intervals (PositionID 43 / 61: MK). Used to detect absence.
 CREATE TABLE mk_terms AS
 SELECT DISTINCT PersonID AS mk_id, KnessetNum AS knesset,
        d(StartDate) AS date_from, coalesce(d(FinishDate), DATE '9999-12-31') AS date_to
-FROM read_json_auto('data/person_to_position_24_25.json', timestampformat = 'none', dateformat = 'none')
+FROM read_json_auto('raw/person_to_position_24_25.json', timestampformat = 'none', dateformat = 'none')
 WHERE PositionID IN (43, 61);
 
 CREATE TABLE statuses AS
-SELECT Id AS status_id, "Desc" AS status, TypeDesc AS status_type FROM read_json_auto('data/status.json', timestampformat = 'none', dateformat = 'none');
+SELECT Id AS status_id, "Desc" AS status, TypeDesc AS status_type FROM read_json_auto('raw/status.json', timestampformat = 'none', dateformat = 'none');
 
 CREATE TABLE bills AS
 SELECT Id AS bill_id, KnessetNum AS knesset, trim(Name) AS name, SubTypeDesc AS bill_type,
        PrivateNumber AS private_number, CommitteeID AS committee_id, StatusID AS status_id,
        IsContinuationBill AS is_continuation, SummaryLaw AS summary,
        PostponementReasonDesc AS postponement_reason
-FROM read_json_auto('data/bills/bill.json', timestampformat = 'none', dateformat = 'none');
+FROM read_json_auto('raw/bills/bill.json', timestampformat = 'none', dateformat = 'none');
 
 CREATE TABLE bill_initiators AS
 SELECT BillID AS bill_id, PersonID AS mk_id, IsInitiator AS is_initiator, Ordinal AS ordinal
-FROM read_json_auto('data/bills/bill_initiator.json', timestampformat = 'none', dateformat = 'none')
+FROM read_json_auto('raw/bills/bill_initiator.json', timestampformat = 'none', dateformat = 'none')
 WHERE BillID IN (SELECT bill_id FROM bills);
 
 CREATE TABLE bill_initiator_history AS
 SELECT BillID AS bill_id, PersonID AS mk_id, IsInitiator AS is_initiator,
        d(EndDate) AS date_to, ReasonDesc AS reason
-FROM read_json_auto('data/bills/bill_history_initiator.json', timestampformat = 'none', dateformat = 'none')
+FROM read_json_auto('raw/bills/bill_history_initiator.json', timestampformat = 'none', dateformat = 'none')
 WHERE BillID IN (SELECT bill_id FROM bills);
 
 CREATE TABLE committee_bill_sessions AS
 SELECT i.ItemID AS bill_id, s.CommitteeID AS committee_id, s.Id AS session_id, d(s.StartDate) AS session_date
-FROM read_json_auto('data/bills/cmt_session_item.json', timestampformat = 'none', dateformat = 'none') i
-JOIN read_json_auto('data/bills/committee_session.json', timestampformat = 'none', dateformat = 'none') s ON s.Id = i.CommitteeSessionID
+FROM read_json_auto('raw/bills/cmt_session_item.json', timestampformat = 'none', dateformat = 'none') i
+JOIN read_json_auto('raw/bills/committee_session.json', timestampformat = 'none', dateformat = 'none') s ON s.Id = i.CommitteeSessionID
 WHERE i.ItemTypeID = 2;
 
 -- The server returns some votes as several identical rows (e.g. Id 44998 x4), hence DISTINCT.
@@ -65,11 +65,11 @@ SELECT DISTINCT Id AS vote_id,
        stage, ForOptionID AS for_option_id, ForOptionDesc AS for_option,
        VoteMethodDesc AS method, VoteTitle AS title, VoteSubject AS subject,
        coalesce(IsNoConfidenceInGov, false) AS is_no_confidence
-FROM read_json_auto('data/export/votes.json', timestampformat = 'none', dateformat = 'none');
+FROM read_json_auto('raw/export/votes.json', timestampformat = 'none', dateformat = 'none');
 
 -- Per-MK results. Fill the few rows without faction (Norwegian-law returns) with the nearest membership interval.
 CREATE TABLE vote_results AS
-WITH r AS (SELECT * FROM read_json_auto('data/export/vote_results.json', timestampformat = 'none', dateformat = 'none'))
+WITH r AS (SELECT * FROM read_json_auto('raw/export/vote_results.json', timestampformat = 'none', dateformat = 'none'))
 SELECT r.vote_id, r.mk_id, r.name,
        coalesce(r.faction_id, (
            SELECT m.faction_id FROM faction_membership m

@@ -20,7 +20,7 @@ what its candidates who are former MKs did in Knessets 24–25: bills they spons
 | Implementation, formulas, thresholds, current numbers | `docs/TECHNICAL.md` | history («was 0.3, now 0.25») — only the current state |
 | What happened, with numbers; **tasks**, open items, plan | `docs/WORKLOG.md` | rules (they live in SU) |
 | Data contract and what the web computes and shows | `export/WEB_CONTRACT.md` | history, reasoning, version labels |
-| Texts the user reads on the site (English): app name, answers, notes, explanation lines, screen labels, methodology page | `export/quiz_texts.json` (contract: `export/WEB_CONTRACT.md` §7) | numbers typed by hand — they are `{placeholders}` filled from the data; statement texts (they are in `jef/quiz/statements.csv`) |
+| Texts the user reads on the site (English): app name, answers, notes, explanation lines, screen labels, methodology page | `export/quiz_texts.json` (contract: `export/WEB_CONTRACT.md` §7) | numbers typed by hand — they are `{placeholders}` filled from the data; statement texts (they are in `data/quiz/statements.csv`) |
 | Agent procedures | `.claude/skills/*/SKILL.md` + `prompts/` | project state |
 Rules: a decision goes into SU as one line (rule + status + pointer), its numbers into TECHNICAL, its story into WORKLOG; a task
 or a review request goes into WORKLOG «Открыто» only, never into SU (an open question in SU is a question about the method, not a
@@ -42,11 +42,11 @@ to WORKLOG naming it and fix every reference (`grep` the old name); research not
 | `tools/` | Scripts the skills run (label-check, nested-themes, new-statements, split-themes); results go to `local/research/<tag>/` |
 | `web/` | Front end: React + Vite + TypeScript static SPA. Reads only `export/` |
 | `export/` | **The data contract** (in git): `quiz_core / quiz_data / quiz_bills.json`, one schema, `golden.json`, `stats.json` (current numbers), `WEB_CONTRACT.md`; `quiz_texts.json` (every text of the site, edited by hand; read by the web and by the Python reference) with its own schema |
-| `jef/` | Production data: directions and labels (`jef/directions/`), theme registry (`jef/directions/registry.csv`), positions (`jef/positions/`), statements (`jef/quiz/`); the labeling runs that produced it — `pipeline/labeling/` |
+| `data/` | Production data: directions and labels (`data/directions/`), theme registry (`data/directions/registry.csv`), positions (`data/positions/`), statements (`data/quiz/`); the labeling runs that produced it — `pipeline/labeling/` |
 | `manual/` | Tables kept by hand: CEC lists and candidates, candidate ↔ MK matching, English MK names; `cec_pages/` — the saved CEC pages they were parsed from |
 | `local/` | Research behind the decisions: experiments, checks, early approaches (`local/README.md`). Not in git, stays on the customer's machine; decisions point to it by path (`statements.csv` «change», `registry.csv` «source», `overrides.json`, WORKLOG). **Not production**: nothing imports from it |
 | `docs/` | Methodology, decisions, audits (Russian — the working language) |
-| `data/`, `knesset.duckdb` | Raw downloads and the database. Not in git |
+| `raw/`, `knesset.duckdb` | Raw downloads and the database. Not in git |
 
 ## Commands
 ```bash
@@ -74,12 +74,12 @@ Python deps: `requirements.txt` (pinned). Node: `web/package-lock.json`.
   the other camp's bills / the coalition's own government bills, weight 0.25, budget packages excluded; list = mean of ex-MKs).
 - Matching: cosine, K = 0 (no shrinkage), weights 1/n per shared direction, coverage threshold 0.5, trade-offs (≤5, ×2, one per list, only if
   they change the top 5) — SU п. 41, `docs/TECHNICAL.md`.
-- Statement texts and keys (`jef/quiz/statements.csv`), statement numbers (stable; gaps allowed). The other texts of the site (answers,
+- Statement texts and keys (`data/quiz/statements.csv`), statement numbers (stable; gaps allowed). The other texts of the site (answers,
   notes, explanation lines, screen labels, the methodology page) are in `export/quiz_texts.json`; their numbers are never typed by hand —
   `{placeholders}` filled from the data.
 - Question order (`pipeline/quiz_flow.py` FLOW, [У] 2026-10-21): core = axis markers × interest, one per area; clarifying = contending pair;
-  statement metadata `jef/quiz/statement_meta.csv` (interest, area, sim_group) is used only for the order of questions.
-- Selection criteria (`pipeline/quiz_select.py`), labels and overrides (`jef/directions/labels/`).
+  statement metadata `data/quiz/statement_meta.csv` (interest, area, sim_group) is used only for the order of questions.
+- Selection criteria (`pipeline/quiz_select.py`), labels and overrides (`data/directions/labels/`).
 - What results show: no coalition/opposition layer, no number of MKs; only two notes (few former MKs — «only one / only two Knesset members», «few Knesset members in the top ten»; position known for
   only N% of your answers).
 
@@ -100,8 +100,8 @@ Python deps: `requirements.txt` (pinned). Node: `web/package-lock.json`.
 
 ## Working rules
 - Small tasks with a checkable result (one screen, one component, one test against the reference).
-- Do not delete user data: `jef/quiz/sessions/` (gitignored; use `--no-save` for test runs).
+- Do not delete user data: `data/quiz/sessions/` (gitignored; use `--no-save` for test runs).
 - The sandbox is never committed: `local/` stays ignored, and people's answers (the customer's pilot runs included) are never written
-  into the repository — not even under `local/`; keep them in the session scratchpad or `jef/quiz/sessions/`.
+  into the repository — not even under `local/`; keep them in the session scratchpad or `data/quiz/sessions/`.
 - Budget: the customer is on the Max subscription (since 2026-10-20). Jev is out of credits: labeling goes to Sonnet subagents, each task type checked first on a benchmark with a known Jev score. Batch agent work (4–5 themes per agent).
 - Commit only when asked or at the end of an agreed step; one topic per commit.

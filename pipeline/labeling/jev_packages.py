@@ -1,18 +1,18 @@
 """Budget packages (SU 23a): label second-reading votes on sections of the 8 omnibus laws with the current scheme.
 
 Per vote «סעיף N» / «סעיפים N–M»:
-  - section text: the unofficial DOCX of the final law (data/package_texts/lsh_<bill>.docx); sections are the paragraphs
+  - section text: the unofficial DOCX of the final law (raw/package_texts/lsh_<bill>.docx); sections are the paragraphs
     «N.» numbered consecutively (numbers inside quoted amendments break the sequence and are skipped);
-  - notes: the 2nd/3rd-reading booklet has none, so the notes of the first reading (data/bill_texts/<bill>.json) are
+  - notes: the 2nd/3rd-reading booklet has none, so the notes of the first reading (raw/bill_texts/<bill>.json) are
     cut into windows; the window most similar to the section text (TF-IDF, cosine) with the 1,000 characters before it,
     then the next most similar windows, up to 3,000 characters;
     the similarity of the best window and its margin over the runner-up are kept for the spot check;
   - Jev input: title = package name — chapter — section headings; notes = the matched windows; section text (3,000 chars).
 Reservations (הסתייגות) and votes whose sections are not in the final text are skipped and listed.
 
-Usage: python3 pipeline/labeling/jev_packages.py build          -> jef/directions/labels/packages_input.jsonl (no Jev)
-       python3 pipeline/labeling/jev_packages.py label [N]      -> jef/directions/labels/packages.jsonl (resumable; N = first N only)
-       python3 pipeline/labeling/jev_packages.py whole          -> jef/directions/labels/packages_whole.jsonl
+Usage: python3 pipeline/labeling/jev_packages.py build          -> data/directions/labels/packages_input.jsonl (no Jev)
+       python3 pipeline/labeling/jev_packages.py label [N]      -> data/directions/labels/packages.jsonl (resumable; N = first N only)
+       python3 pipeline/labeling/jev_packages.py whole          -> data/directions/labels/packages_whole.jsonl
 Jev labels of sections were rejected after the spot check (SU 23a); sections are labeled by an Opus agent
 (local/jef/directions/pkg_agent/ -> labels/packages_agent.jsonl). «whole» (customer decision B, 2026-10-13): topics of the votes on
 a whole package (first and third reading) = the main topics of its sections; the sign is the common sign of that topic
@@ -32,8 +32,8 @@ PACKAGES = ["2161820", "2161821", "2203821", "2203827", "2224904", "1046680", "1
 # 2025: the programme (2224906) and the efficiency law (2224904) were merged into one law (2224904,
 # «חוק להשגת יעדי התקציב וליישום המדיניות הכלכלית לשנת התקציב 2025»); its notes are those of both first readings
 NOTES_FROM = {"2224904": ["2224904", "2224906"]}
-TEXTS = os.path.join(ROOT, "data/package_texts")
-OUT = os.path.join(ROOT, "jef/directions/labels")
+TEXTS = os.path.join(ROOT, "raw/package_texts")
+OUT = os.path.join(ROOT, "data/directions/labels")
 CHARS, WINDOW, STEP = 3000, 1000, 500
 CHAPTER = re.compile(r"^פרק [א-ת]{1,2}[׳'\"]?[א-ת]?\s*[:–-]")
 
@@ -67,7 +67,7 @@ def build():
     rows, skipped = [], []
     for bill in PACKAGES:
         title, sec = sections(bill)
-        notes = "\n".join(json.load(open(os.path.join(ROOT, f"data/bill_texts/{b}.json")))["notes"] for b in NOTES_FROM.get(bill, [bill]))
+        notes = "\n".join(json.load(open(os.path.join(ROOT, f"raw/bill_texts/{b}.json")))["notes"] for b in NOTES_FROM.get(bill, [bill]))
         win = windows(notes)
         votes = con.sql(f"select vote_id, subject from votes where bill_id = {bill} and stage = 'second' order by vote_ts").fetchall()
         items = []

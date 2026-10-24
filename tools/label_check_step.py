@@ -15,7 +15,7 @@ import pandas as pd
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 Q, STEP = sys.argv[1], sys.argv[2]
 D = f"{ROOT}/local/research/label_check_q{Q}"
-LAB = f"{ROOT}/jef/directions/labels"
+LAB = f"{ROOT}/data/directions/labels"
 SRC = os.environ.get("SRC", f"label check q{Q} (2026-10-19)")
 
 def rows(f, cols):

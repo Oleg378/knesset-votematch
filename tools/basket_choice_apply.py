@@ -1,4 +1,4 @@
-"""Stage 5: Sonnet choices (basket_choice_run.py -> choice_out_K.json) -> jef/directions/labels/split5_choice.jsonl, the format of
+"""Stage 5: Sonnet choices (basket_choice_run.py -> choice_out_K.json) -> data/directions/labels/split5_choice.jsonl, the format of
 split2–4_choice.jsonl read by pipeline/labels.py (LATER). One line per bill × basket: every bill of a grouped name gets the choice of its
 representative. «assigned» empty -> the bill stays in the basket (remainder). Signs are Sonnet's per part (normalized to «−»).
 """
@@ -13,7 +13,7 @@ for f in glob.glob(f"{B}/choice_out_[0-9]*.json"):
 miss = [i for i in key if i not in ch]
 if miss: raise SystemExit(f"{len(miss)} names without a choice, e.g. {miss[:3]}")
 n = collections.Counter()
-with open(f"{ROOT}/jef/directions/labels/split{os.environ.get('STAGE', 5)}_choice.jsonl", "w") as f:
+with open(f"{ROOT}/data/directions/labels/split{os.environ.get('STAGE', 5)}_choice.jsonl", "w") as f:
     for i, k in key.items():
         subs = [{"n": s["n"], "sign": s["sign"].replace("-", "−"), "role": k["role"]} for s in ch[i]["subs"] if s.get("sign") in ("+", "-", "−")]
         n["assigned" if subs else "remainder"] += 1

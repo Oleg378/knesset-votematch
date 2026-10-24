@@ -10,13 +10,13 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, f"{ROOT}/pipeline"); import labels as LB
 N = 3000   # pipeline/labeling/jev_label.py: Hebrew title + first 3,000 characters of the notes
 plan = LB.load()["split_plan"]["new"]
-D = {r["n"]: (r["name_en"], r["plus"], r["minus"]) for r in csv.DictReader(open(f"{ROOT}/jef/directions/DIRECTIONS_LIST.csv"))}
+D = {r["n"]: (r["name_en"], r["plus"], r["minus"]) for r in csv.DictReader(open(f"{ROOT}/data/directions/DIRECTIONS_LIST.csv"))}
 for k, v in plan.items(): D[k] = (v["name_en"], v.get("plus_en", ""), v.get("minus_en", ""))
-st = {r["q"]: r for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements.csv"))}
+st = {r["q"]: r for r in csv.DictReader(open(f"{ROOT}/data/quiz/statements.csv"))}
 con = duckdb.connect(f"{ROOT}/knesset.duckdb", read_only=True)
 bname = dict(con.execute("select bill_id, name from bills").fetchall())
 def notes(b):
-    f = f"{ROOT}/data/bill_texts/{b}.json"
+    f = f"{ROOT}/raw/bill_texts/{b}.json"
     return " ".join((json.load(open(f)).get("notes") or "").replace("דברי הסבר", "", 1).split())[:N] if os.path.exists(f) else ""
 k = pd.read_csv(sys.argv[1], dtype=str).sample(frac=1, random_state=19).reset_index(drop=True)
 out = sys.argv[2]; os.makedirs(out, exist_ok=True)

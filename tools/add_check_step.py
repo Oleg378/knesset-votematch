@@ -44,7 +44,7 @@ elif STEP == "apply":
     r = rows("check2_result_*.csv", ["cid", "v2", "s2", "r2"]); r["s2"] = r.s2.str.replace("-", "−")
     m = k.merge(r, on="cid"); m.to_csv(f"{D}/check2_merged.csv", index=False)
     print(m.groupby(["kind", "v2"]).size().to_dict())
-    p = f"{ROOT}/jef/directions/labels/overrides.json"; o = json.load(open(p)); o.setdefault("add", {}).setdefault("items", [])
+    p = f"{ROOT}/data/directions/labels/overrides.json"; o = json.load(open(p)); o.setdefault("add", {}).setdefault("items", [])
     have = {(str(i["bill_id"]), str(i["d"])) for i in o["add"]["items"]}; n = 0
     for _, x in m[(m.kind == "candidate") & (m.v2 == "about") & (m.s2 == m.sign1)].iterrows():
         for b in x.bills.split():

@@ -23,7 +23,7 @@ broad one. By meaning:
    `prompts/meaning_check_third.md` (forced choice). Decision: two agreeing checks, otherwise the 3rd check.
 4. `python3 tools/nested_apply.py merge` / `final` → `nested_decision.csv`, `nested_removals.computed.json`.
    Show the customer the strategy table (`nested_report.py`: both themes in every row, sections by strategy and by rule (а)).
-5. After approval: `APPLY=1 ... nested_apply.py final` writes `jef/directions/labels/nested_removals.json`. For a few new pairs,
+5. After approval: `APPLY=1 ... nested_apply.py final` writes `data/directions/labels/nested_removals.json`. For a few new pairs,
    append items to that file instead (see the «post-stage6» items) — never recompute the whole file: it was computed on the labels of
    2026-10-20.
 6. `python3 pipeline/positions.py`; statements that lost the selection → rule (б) or removal; `make check` (I5 must be clean).

@@ -37,14 +37,14 @@ def build():
                 if not x.get("no_statement"):
                     st[x["d"]].append(dict(q="n" + x["d"], d=x["d"], title_en=x["title_en"], statement_en=x["statement_en"], agree_key=x["key"].replace("-", "−")))
     else:
-        for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements.csv")):
+        for r in csv.DictReader(open(f"{ROOT}/data/quiz/statements.csv")):
             if r["status"] == "ok" and (not NEW or int(r["q"]) >= 72) and (QS is None or r["q"] in QS): st[r["d"]].append(r)
-    dirs = pd.read_csv(f"{ROOT}/jef/directions/DIRECTIONS_LIST.csv", dtype={"n": str})
+    dirs = pd.read_csv(f"{ROOT}/data/directions/DIRECTIONS_LIST.csv", dtype={"n": str})
     dname = dict(zip(dirs.n, dirs.get("name_en", dirs.name_ru)))
-    for p in [json.load(open(f"{ROOT}/jef/directions/split/plan.json"))] + labels.later_plans():   # all split stages
+    for p in [json.load(open(f"{ROOT}/data/directions/split/plan.json"))] + labels.later_plans():   # all split stages
         for k, v in p["new"].items(): dname[k] = v.get("name_en") or v["name_ru"]
     cand = pd.read_csv(f"{ROOT}/manual/candidate_mk_26.csv"); cm = cand[cand.match.isin(["exact", "manual"])]
-    cov = pd.read_csv(f"{ROOT}/jef/positions/list_coverage.csv"); shown = set(cov[cov.status != "not_evaluated"].letters)
+    cov = pd.read_csv(f"{ROOT}/data/positions/list_coverage.csv"); shown = set(cov[cov.status != "not_evaluated"].letters)
     mks = set(cm[cm.letters.isin(shown)].mk_id.astype(int))
     con = duckdb.connect(f"{ROOT}/knesset.duckdb", read_only=True)
     bills = con.sql("select bill_id, name, knesset, bill_type from bills where knesset in (24, 25)").df().set_index("bill_id")
@@ -92,7 +92,7 @@ def build():
         print(f"input_{k}.md: {len(part)} directions, {sum(len(it['sts']) for it in part)} statements")
 
 def table():
-    st = {r["q"]: r for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements.csv")) if r["status"] == "ok"}
+    st = {r["q"]: r for r in csv.DictReader(open(f"{ROOT}/data/quiz/statements.csv")) if r["status"] == "ok"}
     rows = []
     for k in range(1, PARTS + 1):
         for l in open(f"{OUT}/out_{k}.jsonl"):

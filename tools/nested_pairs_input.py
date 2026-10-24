@@ -8,7 +8,7 @@ import pandas as pd
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 O = f"{ROOT}/local/research/theme_overlap"
 sys.path.insert(0, f"{ROOT}/pipeline"); import labels as LB
-D = {r["n"]: (r["name_en"], r["plus"], r["minus"]) for r in csv.DictReader(open(f"{ROOT}/jef/directions/DIRECTIONS_LIST.csv"))}
+D = {r["n"]: (r["name_en"], r["plus"], r["minus"]) for r in csv.DictReader(open(f"{ROOT}/data/directions/DIRECTIONS_LIST.csv"))}
 for k, v in LB.load()["split_plan"]["new"].items(): D[k] = (v["name_en"], v.get("plus_en", ""), v.get("minus_en", ""))
 N = pd.read_csv(f"{O}/nested_small_in_big.csv", dtype={"small_d": str, "big_d": str})
 N = N[N.pct_small >= 0.5].sample(frac=1, random_state=20261020).reset_index(drop=True)

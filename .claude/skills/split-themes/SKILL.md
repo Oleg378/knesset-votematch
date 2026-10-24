@@ -6,7 +6,7 @@ description: Splitting a basket theme (bills about unrelated subjects) into part
 # Split themes
 
 Procedure [У] 2026-10-16, applied as split stages: each run is a new stage N appended to `pipeline/labels.py` `LATER`
-(`jef/directions/split/planN.json`, `jef/directions/labels/splitN_choice.jsonl`). A split theme becomes a **remainder**: no statement.
+(`data/directions/split/planN.json`, `data/directions/labels/splitN_choice.jsonl`). A split theme becomes a **remainder**: no statement.
 
 ## Steps
 
@@ -31,4 +31,4 @@ Procedure [У] 2026-10-16, applied as split stages: each run is a new stage N ap
 
 - Signs: parts can be oriented against the basket; Sonnet sets the sign per part by the target theme's definition — never copy the basket sign.
 - The 2026-10-20 misses: «keep» baskets not sent on; themes that started passing after transfers not sent on (`make check` I4 now catches both).
-- Re-running `basket_split_plan.py` rewrites `planN.json` in `jef/` — only for a new stage.
+- Re-running `basket_split_plan.py` rewrites `planN.json` in `data/` — only for a new stage.

@@ -10,16 +10,16 @@ QS = os.environ.get("QS", "").split(",") if os.environ.get("QS") else None   # c
 if QS: OUT = f"{ROOT}/local/research/label_check_{os.environ.get('TAG', 'qs')}"; os.makedirs(OUT, exist_ok=True)
 sys.path.insert(0, f"{ROOT}/pipeline"); import labels as LB
 lab = LB.load(); bl = lab["bill_lab"]; plan = lab["split_plan"]["new"]
-D = {r["n"]: (r["name_en"], r["plus"], r["minus"]) for r in csv.DictReader(open(f"{ROOT}/jef/directions/DIRECTIONS_LIST.csv"))}
+D = {r["n"]: (r["name_en"], r["plus"], r["minus"]) for r in csv.DictReader(open(f"{ROOT}/data/directions/DIRECTIONS_LIST.csv"))}
 for k, v in plan.items(): D[k] = (v["name_en"], v.get("plus_en", ""), v.get("minus_en", ""))
-st = {r["q"]: r for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements.csv"))}
+st = {r["q"]: r for r in csv.DictReader(open(f"{ROOT}/data/quiz/statements.csv"))}
 core = QS or json.load(open(f"{ROOT}/export/quiz_core.json"))["core"]
 bd = json.load(open(f"{ROOT}/export/quiz_bills.json"))
 con = duckdb.connect(f"{ROOT}/knesset.duckdb", read_only=True)
 bname = dict(con.execute("select bill_id, name from bills").fetchall())
 base = lambda n: re.sub(r",?\s*(ה?תש[\"״׳'\w\-]*\s*-?\s*\d{4})\s*$", "", str(n or "")).strip()
 def notes(b, n=260):
-    f = f"{ROOT}/data/bill_texts/{b}.json"
+    f = f"{ROOT}/raw/bill_texts/{b}.json"
     return " ".join((json.load(open(f)).get("notes") or "").replace("דברי הסבר", "", 1).split())[:n] if os.path.exists(f) else ""
 groups = []
 for q in core:

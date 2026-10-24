@@ -18,10 +18,10 @@ import jev_directions_test as j
 
 DUPS = {"169b": "q2", "151a": "q33", "90b": "q45"}
 C = qs.criteria()
-st = list(csv.DictReader(open(f"{ROOT}/jef/quiz/statements.csv")))
+st = list(csv.DictReader(open(f"{ROOT}/data/quiz/statements.csv")))
 okd = {r["d"] for r in st if r["status"] == "ok"}
 decided = {r["d"] for r in st if r["d"] and r["status"] != "ok"}
-plan = json.load(open(f"{ROOT}/jef/directions/split/plan.json")); plan2 = json.load(open(f"{ROOT}/jef/directions/split/plan2.json"))
+plan = json.load(open(f"{ROOT}/data/directions/split/plan.json")); plan2 = json.load(open(f"{ROOT}/data/directions/split/plan2.json"))
 rem = (set(plan["parents"]) - set(plan["keep"])) | {d for p in labels.later_plans() for d in p["parents"]}
 ds = sorted((d for d, x in C.items() if x["base"] and d not in okd | decided | rem | set(DUPS)), key=lambda d: -C[d]["sd"])
 if os.environ.get("DIRS"): ds = os.environ["DIRS"].split(",")   # only these directions (2026-10-18: threshold 30 → 25)
@@ -32,7 +32,7 @@ for p in [plan] + labels.later_plans():
     for k, v in p["new"].items(): defs[k] = (v["name_en"], v["plus_en"], v["minus_en"])
 lab = labels.load(relevance=False)["bill_lab"]
 cand = pd.read_csv(f"{ROOT}/manual/candidate_mk_26.csv"); cm = cand[cand.match.isin(["exact", "manual"])]
-cov = pd.read_csv(f"{ROOT}/jef/positions/list_coverage.csv"); okl = set(cov[cov.status == "ok"].letters)
+cov = pd.read_csv(f"{ROOT}/data/positions/list_coverage.csv"); okl = set(cov[cov.status == "ok"].letters)
 mks = set(cm[cm.letters.isin(set(cov[cov.status != "not_evaluated"].letters))].mk_id.astype(int))
 con = duckdb.connect(f"{ROOT}/knesset.duckdb", read_only=True)
 bills = con.sql("select bill_id, name from bills where knesset in (24, 25)").df().set_index("bill_id")
@@ -42,7 +42,7 @@ votes = con.sql("""select a.bill_id, r.mk_id from vote_roster r join vote_attrs 
     where a.kind='bill' and a.stage in ('preliminary','first','second','third') and b.bill_type='פרטית' and r.result in ('for','against')""").df()
 votes = votes[votes.mk_id.isin(mks)]
 na, nv = collections.Counter(ini.bill_id), collections.Counter(votes.bill_id)
-LP = pd.read_csv(f"{ROOT}/jef/positions/list_topic_positions.csv", dtype={"d": str})
+LP = pd.read_csv(f"{ROOT}/data/positions/list_topic_positions.csv", dtype={"d": str})
 LP = LP[LP.letters.isin(okl) & (LP.n_mk >= 3)]
 short = lambda s: s.split(",")[0].split("(")[0].split("–")[0].strip()[:18]
 

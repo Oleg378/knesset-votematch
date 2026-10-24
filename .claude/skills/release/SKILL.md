@@ -13,7 +13,7 @@ description: Rebuilding and publishing the quiz data after any change — make d
    I9 FAIL = a number typed in `docs/TECHNICAL.md` «Текущее состояние» or a file size in `export/WEB_CONTRACT.md` §1 differs from
    `export/stats.json` → retype it from `stats.json`. I10 FAIL = golden is stale (a changed `explain` / `notes` / `answers` template) → `make data`.
 4. `make test` (web tests incl. golden: TS port == Python reference).
-5. Commit `export/` and `jef/positions/` separately («Export rebuilt: …»).
+5. Commit `export/` and `data/positions/` separately («Export rebuilt: …»).
 6. **Docs, only what changed**:
    - `docs/SHARED_UNDERSTANDING.md` — the decision (one line, date, [У]/[А]);
    - `docs/WORKLOG.md` — the step's outcome with numbers; open items under «Открыто»;

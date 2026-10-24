@@ -5,14 +5,14 @@ CEC prints "last first [middle]". exact: the MK's last name starts the candidate
 prefix token, for double-barrelled names) and one of the MK's first-name tokens is among the rest. Ambiguous matches (>1 MK) are written with match=ambiguous
 and need a manual decision.
 Same last name and a first name with the same consonant skeleton prefix (nicknames, spelling) gives
-match=check: manual decision, never automatic. Needs an Israeli IP for the OData call (cached in data/cec/mk_persons.json).
+match=check: manual decision, never automatic. Needs an Israeli IP for the OData call (cached in raw/cec/mk_persons.json).
 """
 import csv, json, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import duckdb
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-CACHE = os.path.join(ROOT, "data/cec/mk_persons.json")
+CACHE = os.path.join(ROOT, "raw/cec/mk_persons.json")
 
 def norm_tokens(s):
     s = re.sub(r"[\"'׳״`’\.\(\)]", "", s).replace("־", " ").replace("-", " ")
