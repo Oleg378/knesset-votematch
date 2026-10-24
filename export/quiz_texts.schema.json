@@ -922,7 +922,7 @@
       "dataVersion": {
        "type": "string",
        "minLength": 1,
-       "pattern": "^(?:[^{}]|\\{(?:generated|commit)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+       "pattern": "^(?:[^{}]|\\{(?:fetched|generated|commit)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
       }
      },
      "required": [

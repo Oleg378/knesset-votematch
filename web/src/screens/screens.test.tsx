@@ -13,7 +13,7 @@ import { match } from '../engine/match';
 import type { Answers } from '../engine/types';
 import { S } from '../strings';
 import { bills, core, data, loaded } from '../testSources';
-import { dataValues, fill, listsOf, T } from '../texts';
+import { dataDate, dataValues, fill, listsOf, T } from '../texts';
 import { CARD_MAX_HEIGHT, HIGHLIGHT } from '../uiConstants';
 
 const methodology = T.methodology;
@@ -179,8 +179,9 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
     expect(rowsIn(statements)).toBe(fits(data.statements.length));
     within(statements).getByRole('button', { name: data.statements[0]!.title_en });
     within(statements).getByRole('button', { name: S.results.seeAll });
-    const dataLine = screen.getByText(fill(methodology.statements.dataVersion, { generated: data.generated, commit: data.source_commit }));
+    const dataLine = screen.getByText(fill(methodology.statements.dataVersion, { fetched: dataDate(data.fetched), generated: dataDate(data.generated), commit: data.source_commit }));
     expect(dataLine.closest('.panel')).toBeNull();
+    expect(dataDate('2026-10-23')).toBe('23 October 2026');
     expect(document.querySelectorAll('.screen .panel')).toHaveLength(methodology.sections.length + 1);
     expect(document.body.textContent).not.toMatch(/[{}]/);
   });

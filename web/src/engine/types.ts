@@ -133,6 +133,8 @@ export interface QuizCore extends Head {
 
 /** quiz_data.json: everything the ranking, trade-offs and clarifying questions need. */
 export interface QuizData extends Head {
+  /** The day the Knesset bill tables were last downloaded (YYYY-MM-DD); the methodology page shows it. */
+  fetched: string;
   params: Params;
   flow: Flow;
   core: string[];

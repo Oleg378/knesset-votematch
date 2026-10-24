@@ -47,7 +47,7 @@ export const STATEMENT_PLACEHOLDERS = {
   noSponsors: [],
   showMore: ['n'],
   billLink: [],
-  dataVersion: ['generated', 'commit'],
+  dataVersion: ['fetched', 'generated', 'commit'],
 } as const;
 
 /** Placeholders of the title of a section's list of lists (`lists.title`: n = how many lists it names). */
@@ -281,6 +281,13 @@ export function listsOf(data: QuizData, of: SectionLists['of']): QuizData['lists
   return of === 'no_record'
     ? data.lists.filter((l) => l.status === 'not_evaluated')
     : data.lists.filter((l) => l.status !== 'not_evaluated' && l.ex_mks < data.params.MIN_EX_MKS);
+}
+
+/** A date of quiz_data (YYYY-MM-DD: `fetched`, `generated`) as the methodology page writes it: «10 October 2026». */
+export function dataDate(iso: string): string {
+  const [y, m, d] = iso.split('-').map(Number);
+  return new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' })
+    .format(new Date(Date.UTC(y!, m! - 1, d!)));
 }
 
 /** The numbers of DATA_PLACEHOLDERS, from quiz_data. */

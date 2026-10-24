@@ -692,6 +692,15 @@ button.card:active {
   gap: var(--space-2);
 }
 
+/* «Data: …» closes the page: centred, the lightest grey, 24 under the last card (the screen gap 16 + 8) and 32 above the
+   page's end (over the safe area; it was 0, customer 2026-10-24: «побольше отступ после») */
+.data-version {
+  margin-top: var(--space-2);
+  margin-bottom: var(--space-6);
+  text-align: center;
+  color: var(--color-text-faint);
+}
+
 .method-title {
   font: inherit;
   font-weight: var(--font-weight-bold);

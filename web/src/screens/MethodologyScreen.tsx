@@ -7,7 +7,7 @@ import { ExternalLink } from '../components/ExternalLink';
 import { HebrewTitle } from '../components/HebrewTitle';
 import { billUrl } from '../engine/report';
 import type { BillRef, QuizBills, QuizData, Statement } from '../engine/types';
-import { dataValues, fill, listsOf, T, type Texts } from '../texts';
+import { dataDate, dataValues, fill, listsOf, T, type Texts } from '../texts';
 import { CARD_MAX_HEIGHT } from '../uiConstants';
 import type { BillsScreenProps } from './types';
 
@@ -212,7 +212,9 @@ export function MethodologyScreen({ data, bills }: BillsScreenProps) {
         {methodology.sections.map((s) => <MethodSection key={s.title} data={data} s={s} v={v} />)}
       </div>
       <MethodCard items={rows} head={(id) => <h2 id={id} className="method-title">{heading}</h2>} />
-      <p className="xsmall muted">{fill(t.dataVersion, { generated: data.generated, commit: data.source_commit })}</p>
+      <p className="xsmall data-version">
+        {fill(t.dataVersion, { fetched: dataDate(data.fetched), generated: dataDate(data.generated), commit: data.source_commit })}
+      </p>
     </section>
   );
 }

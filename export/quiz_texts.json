@@ -361,7 +361,7 @@
    "noSponsors": "No sponsors among the 2026 candidates.",
    "showMore": "Show more ({n} left)",
    "billLink": "Open on the Knesset website",
-   "dataVersion": "Data: {generated} ({commit})."
+   "dataVersion": "Data: {fetched}"
   }
  }
 }

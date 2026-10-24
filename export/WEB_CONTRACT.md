@@ -202,7 +202,7 @@ file: any other name, or a stray brace, fails the schema. A key not listed below
 | `details` | `closeness`: `c` · `fits`, `misfits`, `showAll`: `n` |
 | `bills` | `yourWay`, `otherWay`, `showMore`: `n` · `meta`: `knesset`, `role`, `verb`, `direction` · `sponsoredBy`: `names` · `sponsor`: `name`, `pos` |
 | `methodology.sections` | `text`, `after` and both fields of a bullet (not `title`): the numbers of `quiz_data.json` — `lists` (all lists), `evaluable` (evaluated with `ex_mks >= params.MIN_EX_MKS`), `single` (evaluated below it: shown, not ranked), `no_record`, `close` (`params.CLOSE`), `statements`, `core` and `clarify` (`flow`), `vote_ratio` (`round(1 / params.VOTE_WEIGHT)`), `min_lists`, `min_mks`, `min_spread`, `min_names` (`params.SELECT_*`, the selection thresholds of `pipeline/quiz_select.py`) |
-| `methodology.statements` | `heading`: `statements` · `topic`: `name` · `up`, `down`: `text` · `billsCount`, `showMore`: `n` · `billMeta`: `side`, `knesset`, `role` · `sponsors`: `names` · `dataVersion`: `generated`, `commit` |
+| `methodology.statements` | `heading`: `statements` · `topic`: `name` · `up`, `down`: `text` · `billsCount`, `showMore`: `n` · `billMeta`: `side`, `knesset`, `role` · `sponsors`: `names` · `dataVersion`: `fetched`, `generated` (dates, written «10 October 2026»), `commit` |
 
 **Methodology page.**
 - `heading`, `back`.
