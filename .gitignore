@@ -18,3 +18,13 @@ web/dist-ssr/
 # research, drafts, logs, old approaches: kept locally, not in git
 local/
 *.tsbuildinfo
+
+# outputs of pipeline/positions.py that nothing reads further (rebuilt by make data)
+jef/positions/mk_topic_positions.csv
+jef/positions/against_camp_examples.csv
+jef/positions/government_layer_mk.csv
+jef/positions/candidates_notes.csv
+jef/positions/run_log.txt
+
+# agent worktrees
+.claude/worktrees/
