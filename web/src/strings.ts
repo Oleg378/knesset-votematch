@@ -114,6 +114,12 @@ export const S = {
     rank: (n: number) => fill(T.results.rank, { n }),
     closenessLabel: T.results.closenessLabel,
   },
+  share: {
+    title: T.share.title,
+    text: T.share.text,
+    button: T.share.button,
+    copied: T.share.copied,
+  },
   details: {
     back: T.details.back,
     closeness: (c: string) => fill(T.details.closeness, { c }),

@@ -17,6 +17,21 @@
      "minLength": 1,
      "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
     },
+    "siteName": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "subtitle": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "description": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
     "name": {
      "type": "string",
      "minLength": 1,
@@ -50,6 +65,9 @@
    },
    "required": [
     "title",
+    "siteName",
+    "subtitle",
+    "description",
     "name",
     "eyebrow",
     "loading",
@@ -601,6 +619,38 @@
    ],
    "additionalProperties": false
   },
+  "share": {
+   "type": "object",
+   "properties": {
+    "title": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "text": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "button": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "copied": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    }
+   },
+   "required": [
+    "title",
+    "text",
+    "button",
+    "copied"
+   ],
+   "additionalProperties": false
+  },
   "details": {
    "type": "object",
    "properties": {
@@ -951,12 +1001,56 @@
       "dataVersion"
      ],
      "additionalProperties": false
+    },
+    "credits": {
+     "type": "object",
+     "properties": {
+      "lead": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "join": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "people": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "properties": {
+         "name": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+         },
+         "url": {
+          "type": "string",
+          "format": "uri"
+         }
+        },
+        "required": [
+         "name",
+         "url"
+        ],
+        "additionalProperties": false
+       }
+      }
+     },
+     "required": [
+      "lead",
+      "join",
+      "people"
+     ],
+     "additionalProperties": false
     }
    },
    "required": [
     "heading",
     "sections",
-    "statements"
+    "statements",
+    "credits"
    ],
    "additionalProperties": false
   }
@@ -974,6 +1068,7 @@
   "question",
   "trade",
   "results",
+  "share",
   "details",
   "bills",
   "methodology"

@@ -62,6 +62,12 @@ export const PLACEHOLDERS = {
   app: {
     /** The page title (<title>, set by vite.config.ts). */
     title: [],
+    /** The site's name (link previews, the web app manifest, the picture og-image.png). */
+    siteName: [],
+    /** The line under the name on the link-preview picture. */
+    subtitle: [],
+    /** The page description for search engines and link previews. */
+    description: [],
     /** The app name (the menu title). */
     name: [],
     eyebrow: [],
@@ -149,6 +155,13 @@ export const PLACEHOLDERS = {
     changeAnswers: [],
     rank: ['n'],
     closenessLabel: [],
+  },
+  /** «Share this quiz» on Results: the sheet's title, the sentence that goes with the site's address, the copied note. */
+  share: {
+    title: [],
+    text: [],
+    button: [],
+    copied: [],
   },
   details: {
     back: [],
@@ -247,6 +260,7 @@ export const TextsSchema = z.strictObject({
   question: templates(PLACEHOLDERS.question),
   trade: templates(PLACEHOLDERS.trade),
   results: templates(PLACEHOLDERS.results),
+  share: templates(PLACEHOLDERS.share),
   details: templates(PLACEHOLDERS.details),
   bills: templates(PLACEHOLDERS.bills),
   methodology: z.strictObject({
@@ -254,6 +268,12 @@ export const TextsSchema = z.strictObject({
     sections: z.array(SectionSchema).check(z.minLength(1)),
     /** Labels of the block «The record behind each statement.» (all statements and their bills). */
     statements: templates(STATEMENT_PLACEHOLDERS),
+    /** «Made by A and B» at the end of the page: the lead, the people (name and link), the word between the names. Nobody → no line. */
+    credits: z.strictObject({
+      lead: plain,
+      join: plain,
+      people: z.array(z.strictObject({ name: plain, url: z.string().check(z.url()) })),
+    }),
   }),
 });
 

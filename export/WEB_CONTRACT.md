@@ -159,8 +159,9 @@ Statement texts and titles (`statement_en`, `title_en`) are not in it: they are 
 
 **Who reads it.**
 - The web: `web/src/texts.ts` imports the file into the JS bundle and parses it once with its zod schema when the app loads;
-  `web/src/strings.ts` builds the UI strings from it and holds no text of its own; the page `<title>` is `app.title`
-  (a Vite plugin in `web/vite.config.ts`).
+  `web/src/strings.ts` builds the UI strings from it and holds no text of its own; the page `<title>` is `app.title`, and
+  `app.siteName`, `app.subtitle`, `app.description` go into the head tags, the manifest and the preview picture (Vite
+  plugins in `web/vite.config.ts`, `web/scripts/make-icons.mjs`).
 - The Python reference renders from the same file: `pipeline/texts.py` (`load`, `fill`); `pipeline/quiz_report.py` — the answer
   words (`answers`) and the explanation lines (`explain`, §3); `pipeline/quiz_match.py` — the notes of a list (`notes`); the
   terminal quiz uses the same words. The `answers`, `notes` and `explain` texts are therefore rendered identically by Python and
@@ -171,7 +172,7 @@ Statement texts and titles (`statement_en`, `title_en`) are not in it: they are 
 | Section | Keys | Shown |
 |---|---|---|
 | `updated` | ISO date of the last change of the texts | — |
-| `app` | `title`, `name`, `eyebrow`, `loading`, `loadError`, `reload`, `newTab` | page title, menu title, loading and load error, the screen-reader note on links that open a new tab |
+| `app` | `title`, `siteName`, `subtitle`, `description`, `name`, `eyebrow`, `loading`, `loadError`, `reload`, `newTab` | page title; the site's name, subtitle and description — link previews (Open Graph), the web app manifest, the preview picture, search engines; menu title, loading and load error, the screen-reader note on links that open a new tab |
 | `answers` | `"2"`, `"1"`, `"0"`, `"-1"`, `"-2"` | the answer inside sentences («Your answer: agree»): explanations, trade-off questions |
 | `answerButtons` | the same keys and `dk` («don't know») | the answer buttons |
 | `notes` | `noRecord`, `fewMks`, `lowCoverage`, `join` | the note of a list on Results and List details (`join` separates two notes) |
@@ -182,9 +183,10 @@ Statement texts and titles (`statement_en`, `title_en`) are not in it: they are 
 | `question` | `progress`, `progressLabel`, `or`, `skip`, `noAnswers`, `answersLabel` | the question screen |
 | `trade` | `counter`, `lead`, `title`, `explain`, `yourAnswer`, `labelA`, `labelB`, `equalTitle`, `equalSub` | the trade-off question |
 | `results` | `heading`, `scaleFar`, `scaleClose`, `closestOne`, `closestMany`, `basedOn`, `basedOnTrade`, `hintBefore`, `hintAfter`, `seeAll`, `seeLess`, `notRanked`, `notComputable`, `noMore`, `changeAnswers`, `rank`, `closenessLabel` | Results |
+| `share` | `title`, `text`, `button`, `copied` | «Share this quiz» on Results: the share sheet's title, the sentence sent with the site's address, the button, the «copied» note |
 | `details` | `back`, `closeness`, `fits`, `misfits`, `showAll`, `showLess`, `none`, `openBills` | List details |
 | `bills` | `back`, `yourWay`, `otherWay`, `none`, `meta`, `roleMain`, `roleSecondary`, `raises`, `lowers`, `sponsoredBy`, `sponsor`, `link`, `yourWayMark`, `otherWayMark`, `showMore` | «Bills of one statement» |
-| `methodology` | `heading`, `sections[]`, `statements` | Methodology (below) |
+| `methodology` | `heading`, `sections[]`, `statements`, `credits` | Methodology (below); `credits` — «Made by A and B»: `lead`, `join`, `people[]` (`name`, `url`), no line while `people` is empty |
 
 **Template language.** `{name}` is replaced by the value; `{name?one|many}` by `one` when the value is 1, else by `many`
 (`{single} {single?list|lists}`). Numbers are never typed into the texts. The names each key may use are listed explicitly in
