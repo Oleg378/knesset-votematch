@@ -874,6 +874,9 @@ button.list-row {
   /* the «See all» chevron at 18 is 6 × 10.5 in a 20 button; the same share of the button at any size */
   width: calc(var(--row-go) * 6 / 22.4);
   height: calc(var(--row-go) * 10.5 / 22.4);
+  /* half a px down, so it is in the circle's middle (the 11.25 tall box rounds up), and half a px right: the «›» has its
+     weight on the left (customer 2026-10-24: «почему ощущение, что стрелка вбок не по центру»; 1 and 1 were too much) */
+  translate: calc(var(--arrow-nudge) / 2) calc(var(--arrow-nudge) / 2);
   background: var(--color-accent);
   -webkit-mask: var(--chevron-right) center / contain no-repeat;
   mask: var(--chevron-right) center / contain no-repeat;
@@ -1012,7 +1015,7 @@ div.list-row .list-row-value {
    tried under the line, back on top «так же близко, как было снизу») */
 .details-row {
   /* the line's row as tall as the rank circle, with or without one, so the title stands at the same place over the line */
-  grid-template-rows: auto var(--rank-badge-details);
+  grid-template-rows: auto var(--rank-badge);
   row-gap: 0;
   margin-top: var(--space-4); /* 24 under the caveat: the stack's 8 + 16 */
 }
@@ -1020,8 +1023,8 @@ div.list-row .list-row-value {
 .details-row .list-row-rank {
   grid-row: 2;
   justify-self: center;
-  width: var(--rank-badge-details);
-  height: var(--rank-badge-details);
+  width: var(--rank-badge);
+  height: var(--rank-badge);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1042,8 +1045,10 @@ div.list-row .list-row-value {
 .details-row .list-row-name {
   grid-row: 1;
   /* down to the line: the row below is the rank circle's height with the line in its middle; the title's line box ends
-     4 over the line (baseline 8 over it) */
-  margin-bottom: calc((var(--bar-height-thin) - var(--rank-badge-details)) / 2 + var(--space-1));
+     6 over the line (baseline 10 over it), so the list's dot (10, 3 over the line) clears the «y» of «you» by about 4
+     wherever it stands (customer 2026-10-24: «подними, чтобы шарик не залезал на надпись в любом положении, но
+     минимально»; it was 4, the gap to the dot 1.7) */
+  margin-bottom: calc((var(--bar-height-thin) - var(--rank-badge)) / 2 + var(--space-1) * 1.5);
   grid-column: 2 / -1;
   line-height: var(--line-height-body-sm);
   font-weight: var(--font-weight-regular);
@@ -1143,7 +1148,7 @@ div.list-row .list-row-value {
 
 /* The head as a list row on Results: Label/Medium 15/20, the text 16 inside the band, at its end the round button of a
    row — the tint circle (::before, under) with the blue «See all» chevron (::after), turned up while open; the chevron
-   the share of the circle the arrow has on Results (18 of 22.4). The chevron's box is one text line tall, so a band is as
+   at 18, as long as the Results row's arrow. The chevron's box is one text line tall, so a band is as
    tall as a band of names with the same lines (44 with one, the tap size); the circle overlaps it by 2 above and below. */
 .accordion-head {
   position: relative;
@@ -1181,12 +1186,17 @@ div.list-row .list-row-value {
   width: var(--row-go);
   height: calc(var(--font-size-sm) * var(--line-height-label));
   background: var(--color-accent);
-  -webkit-mask: var(--chevron-down) center / calc(var(--row-go) * 18 / 22.4) no-repeat;
-  mask: var(--chevron-down) center / calc(var(--row-go) * 18 / 22.4) no-repeat;
+  /* 18, a whole px: the arrow is exactly in the circle's middle, open or closed, and as long as the Results row's arrow
+     (10.5); at 24 × 18 / 22.4 = 19.3 it fell half a pixel off, up and left (customer 2026-10-24: «стрелка не по центру») */
+  -webkit-mask: var(--chevron-down) center / var(--chevron) no-repeat;
+  mask: var(--chevron-down) center / var(--chevron) no-repeat;
+  /* the «⌄» 1 below the circle's middle (customer 2026-10-24: «низ вниз») */
+  transform: translateY(var(--arrow-nudge));
 }
 
 .accordion-head[aria-expanded='true']::after {
-  transform: rotate(180deg);
+  /* turned up, and 1 above the circle's middle (customer 2026-10-24: «верх вверх, а низ вниз») */
+  transform: translateY(calc(-1 * var(--arrow-nudge))) rotate(180deg);
 }
 
 .accordion-body {

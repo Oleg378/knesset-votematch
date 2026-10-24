@@ -16,6 +16,22 @@ List details and the bills page are one page now (DECISIONS.md G28), and its clo
 - `details.fits` / `details.misfits`: the web shows only the words before « — » now, no count (DECISIONS G31): keep the
   « — » in these two templates, or make them «Why it fits» / «Why it doesn't fit» without `{n}`.
 
+## To do on the machine with `knesset.duckdb` (items 13 and 14 in one step, 2026-10-24)
+1. `export/quiz_texts.json`: `notes.fewMks` → `"only one Knesset member"` (14); add `details.closenessTitle`
+   `"Closeness to you"` and `details.priceNote` `"Shows what they pushed for, not whether they accept the price in the
+   statement"` (13, with the schema in `web/src/texts.ts`); set `updated`.
+2. `make export` — `golden.json` again, with the new note.
+3. `make check` → OK; `make test` → green.
+4. Commit `export/` (and the schema). Then the web reads the two List details texts from the file and drops them from
+   `web/src/strings.ts`.
+
+## 14. The «few former MKs» note in plain words (customer, 2026-10-24) [open]
+The note `notes.fewMks` («few former MKs: {n}») is shown only when a list has fewer than `MIN_EX_MKS` = 2 former MKs, so
+{n} is always 1 and «few» reads oddly. The customer chose, short and without «MK» or «former»:
+`"only one Knesset member"` (no `{n}`; lower-case start as the other note). Please change it in `quiz_texts.json` and
+regenerate `golden.json` (the Python reference renders the notes from the same template). If `MIN_EX_MKS` ever changes,
+the wording needs a number again.
+
 **Status 2026-10-23:** everything below is answered or superseded by `export/WEB_CONTRACT.md` (the texts of the site: `export/quiz_texts.json`, §7 — done 2026-10-23, every screen reads the file); the engine, state and loader are on the three current data files (contract §1), the question order and the current explanations are ported and pass `golden.json` (items 4, 6, 9, 11 in the logic); the screens are not wired yet (customer's decision, visual work on another machine); 12 — the votes group — and the methodology texts of 10 are still to show. New requests go above this line.
 
 ## 1. Stray space in a list name (2026-10-17) [answered]

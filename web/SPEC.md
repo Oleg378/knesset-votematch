@@ -102,9 +102,9 @@ header, pinned with it; Methodology is a page of its own: the menu stays, no Bac
   caveat shortened for the page, no period (customer 2026-10-23: it fits every topic; the topics leave it out; 2026-10-24:
   option a of 4) —, italic and lighter as the Results hint (Body/Default italic, text/tertiary), justified so its right
   edge meets the percent's; 24 below it the closeness as a Results row without its band and without the legend —
-  «Closeness to you» (Body/Default, text/tertiary, right above the line — its line box 4 over it, baseline 8 —, from its
-  start), under it in one line the list's rank in a tint circle 28 (when not ranked: the circle empty, a 2 px rim of the
-  same tint inside the same 28 outline), the scale's line with the dot and the percent (blue, Plus Jakarta Sans ExtraBold
+  «Closeness to you» (Body/Default, text/tertiary, right above the line — its line box 6 over it, baseline 10, the dot clear of it by about 4 —, from its
+  start), under it in one line the list's rank in a tint circle 24, as on Results (when not ranked: the circle empty, a 2 px rim
+  of the same tint inside the same 24 outline), the scale's line with the dot and the percent (blue, Plus Jakarta Sans ExtraBold
   22/26, at the column's edge; the circle and the percent 4 above the line's centre) (light blue tint for the line, 4
   thick; customer 2026-10-23; 2026-10-24: no legend, rank and percent on the line's row); the note. 32 from the block to
   «Why it fits» (customer 2026-10-24: name, line, caveat, then the closeness).

@@ -97,9 +97,9 @@
   --title-rule: 3px; /* not in Figma: List details, the blue line left of the list name (customer 2026-10-24) */
   --bar-height-thin: 4px; /* not in Figma: List details closeness line, under the large percent (customer 2026-10-24) */
   --scale-dot: 10px; /* not in Figma: Results scale, every list — blue and grey the same size (customer 2026-10-23) */
+  --arrow-nudge: 1px; /* not in Figma: the shift in a topic row of the «⌄» (down) and the «⌃» (up); half of it, right and down, for the «›» on Results (customer 2026-10-24) */
   --chevron: 18px; /* not in Figma: Results «See all» and the arrow at the end of a list row */
   --row-go: 24px; /* not in Figma: Results, the round arrow button at the end of a list row (customer 2026-10-23, it was 20) */
-  --rank-badge-details: var(--badge-size); /* not in Figma: List details, the rank circle a little larger than on Results, 28, so the number has air (customer 2026-10-24) */
   --rank-badge: var(--row-go); /* not in Figma: Results, the rank circle of the closest lists, the arrow button's size, in the 28 px rank column (it was 28) */
   --counter-width: 41px; /* «1/10» */
   --panel-pad-x: 14px; /* «Questions» panel */
