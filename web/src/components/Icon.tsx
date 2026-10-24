@@ -1,3 +1,4 @@
+import back from '../assets/figma/icon-back.svg';
 import behance from '../assets/figma/icon-behance.svg';
 import close from '../assets/figma/close.svg';
 import equalDefault from '../assets/figma/equal-default.svg';
@@ -9,7 +10,7 @@ import restart from '../assets/figma/icon-restart.svg';
 import results from '../assets/figma/icon-results.svg';
 
 /** Figma icons (downloaded as-is into src/assets/figma). Decorative: the control around them carries the label. */
-const ICONS = { behance, close, equalDefault, equalSelected, github, info, menu, restart, results };
+const ICONS = { back, behance, close, equalDefault, equalSelected, github, info, menu, restart, results };
 
 export function Icon({ name, size = 24 }: { name: keyof typeof ICONS; size?: number }) {
   return <img src={ICONS[name]} alt="" width={size} height={name.startsWith('equal') ? (size * 8) / 12 : size} />;

@@ -115,17 +115,16 @@ export const S = {
     closenessLabel: T.results.closenessLabel,
   },
   details: {
+    /** The explanation's «price» caveat, said once for the page, without the period (customer 2026-10-23) */
+    priceNote: explainText.caveatPrice.replace(/\.$/, ''),
     back: T.details.back,
-    closeness: (c: string) => fill(T.details.closeness, { c }),
+    // Not in quiz_texts.json yet (DATA_REQUESTS.md 13): the only text written here until the file has it
+    closenessTitle: 'Closeness to you',
     fits: (n: number) => fill(T.details.fits, { n }),
     misfits: (n: number) => fill(T.details.misfits, { n }),
-    showAll: (n: number) => fill(T.details.showAll, { n }),
-    showLess: T.details.showLess,
     none: T.details.none,
-    openBills: T.details.openBills,
   },
   bills: {
-    back: T.bills.back,
     yourWay: (n: number) => fill(T.bills.yourWay, { n }),
     otherWay: (n: number) => fill(T.bills.otherWay, { n }),
     none: T.bills.none,

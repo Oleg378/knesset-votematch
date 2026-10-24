@@ -24,10 +24,12 @@ Numbers of questions come from `flow` in the export; the clarifying statement af
 **Screens with a Figma mockup follow the mockup** (Home, Questions, Clarifying question, Menu) — texts, controls and
 interaction; the statement count comes from the data. Customer, 2026-10-18. Open points: `DECISIONS.md` section D.
 
-Every screen: header with the menu button (Figma «Menu»: Start over · My results · Methodology); on Results, at the right end (where
+Every screen: header with the menu button (Figma «Menu»: Start over · My results · Methodology) — on an inner page, opened
+from another page (List details), «Back» in its place (customer 2026-10-24); on Results, at the right end (where
 other screens have the counter), Start over: the menu item's icon, no text; it clears the answers and opens the first
 question at once, as «Start» on Home (customer 2026-10-22). Results and Methodology show their title in the middle of the
-header, pinned with it; Methodology has no Back button — the system Back or the menu (DECISIONS.md G24).
+header, pinned with it; Methodology is a page of its own: the menu stays, no Back button — the system Back or the menu
+(DECISIONS.md G24, G29).
 
 ### 1. Start (Figma «Home»)
 - Eyebrow, «Find your vote match», hero graphic, tagline, chips (N statements · 3–5 min · Anonymous), three steps.
@@ -90,16 +92,28 @@ header, pinned with it; Methodology has no Back button — the system Back or th
 - Tap a row → List details. «Change answers» → back to statements. Start over (header, menu) clears everything.
 
 ### 5. List details
-- Header: list name, closeness, note.
+- «Back» in the header, in the menu's place (a nested page; no menu here): a blue chevron ‹ (24 icon, 44 tap area, its
+  tip on the burger's left edge), no text; its label «Back to results» for screen readers (customer 2026-10-24).
+  Not on Methodology: a page of its own, the menu stays (G24, G29).
+- Header: list name — the whole official `name_en`, «headed by …» included, not split (customer 2026-10-24: it is one
+  name), Fraunces 26/32, its lines balanced (`text-wrap: balance`), a blue line 3 wide on its left, the text 12 after it; 16 below it the closeness as a Results row without its band and without the legend — «Closeness to you» (Body/Default,
+  text/tertiary, right above the line — its line box 4 over it, baseline 8 —, from its start), under it in one line the list's rank in a tint circle 28 (none when not
+  ranked), the scale's line with the dot and the percent (blue, Plus Jakarta Sans ExtraBold 22/26, at the column's edge;
+  the circle and the percent 4 above the line's centre)
+  (light blue tint for the line, 4 thick; customer 2026-10-23; 2026-10-24: no legend, rank and percent on the line's row); note; a line the column's width (Brand / Line 20 %, 1), 24 under the closeness; and once for the page the
+  caveat «This shows what their bills and votes pushed for,
+  not whether they accept the price named in the statement», 4 below the line, no period (customer 2026-10-23: it fits every topic; the topics leave it out),
+  italic and lighter as the Results hint (Body/Default italic, text/tertiary), justified so its right edge meets the percent's
+  (customer 2026-10-24).
 - «Why it fits — N matches» (items with contribution > 0, largest first) and «Why it doesn't fit — N mismatches» (contribution
-  < 0, most negative first). 5 per section, «Show all».
-- Item: `title_en`, then the explanation lines exactly as `explain()` (see golden `details[].items[].lines`):
-  quoted statement · «Your answer: X. The list is for/against this statement.» · basis line · optional weight ×2 line ·
-  optional relative-position caveat.
-- Tap → Bills of this statement.
+  < 0, most negative first). Every item listed, each a collapsed line with its `title_en`, as the statements on Methodology
+  (customer 2026-10-23: List details and the bills page made one page; there is no separate Bills screen).
+- An item opened: the explanation lines exactly as `explain()` (see golden `details[].items[].lines`): quoted statement ·
+  «Your answer: X. The list is for/against this statement.» · basis line · optional weight ×2 line · optional caveat; then
+  the bills (§6).
 
-### 6. Bills of one statement
-- The explanation lines again, then two groups: «Your way (n)» and «The other way (n)», order from the golden evidence.
+### 6. Bills of one statement (inside an item of List details)
+- Two groups: «Your way (n)» and «The other way (n)», order from the golden evidence; 20 at a time, «Show more».
 - Bill row: Hebrew title (`name_he`, **dir="auto"**, never translated), under it in English: «Knesset N · main/secondary topic ·
   raises/lowers “direction name”», «Sponsored by: Name (#p on the list)» (first two by list position), link to the Knesset page.
 - No per-bill English summary [У 2026-10-17]: bill names are not translated; the direction line above is the English context. `summary_en` is always null and not rendered.

@@ -9,7 +9,6 @@ import { Menu } from './components/Menu';
 import { ProgressBar } from './components/ProgressBar';
 import type { Loader } from './data';
 import { plannedQuestions } from './engine/flow';
-import { BillsScreen } from './screens/BillsScreen';
 import { DetailsScreen } from './screens/DetailsScreen';
 import { MethodologyScreen } from './screens/MethodologyScreen';
 import { QuestionScreen } from './screens/QuestionScreen';
@@ -113,6 +112,10 @@ export default function App({ loader }: { loader: Loader }) {
     header = <Counter text={S.trade.counter(state.done.length + 1, data.flow.trade)} />;
   }
 
+  // An inner page, opened from another page (List details): «Back» in the header instead of the menu (customer
+  // 2026-10-24). How it works is a page of its own: the menu stays, and no Back (DECISIONS.md G24).
+  const back = sc.name === 'details' ? S.details.back : null;
+
   // A screen is shown only when its file has arrived; otherwise a loader for this screen only.
   const wait = src.failed ? <LoadError /> : <Loading />;
   const props = { state, dispatch: send };
@@ -139,9 +142,6 @@ export default function App({ loader }: { loader: Loader }) {
     case 'details':
       body = data && bills ? <DetailsScreen key={sc.list} data={data} bills={bills} {...props} /> : wait;
       break;
-    case 'bills':
-      body = data && bills ? <BillsScreen key={`${sc.list}/${sc.q}`} data={data} bills={bills} {...props} /> : wait;
-      break;
     case 'methodology':
       body = data && bills ? <MethodologyScreen data={data} bills={bills} {...props} /> : wait;
       break;
@@ -149,8 +149,8 @@ export default function App({ loader }: { loader: Loader }) {
 
   return (
     <main ref={appRef} className="app">
-      <Header onMenu={() => setMenu(true)} title={sc.name === 'results' ? S.results.heading
-        : sc.name === 'methodology' ? S.methodology.heading : undefined}
+      <Header onMenu={() => setMenu(true)} back={back ? { label: back, onClick: () => send({ type: 'BACK' }) } : undefined}
+        title={sc.name === 'results' ? S.results.heading : sc.name === 'methodology' ? S.methodology.heading : undefined}
         onStartOver={sc.name === 'results' ? () => send({ type: 'RESTART' }) : undefined}>{header}</Header>
       {menu && (
         <Menu onClose={closeMenu} onStartOver={() => dispatch({ type: 'START_OVER' })}

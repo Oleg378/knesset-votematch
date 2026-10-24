@@ -62,7 +62,7 @@ describe('system back', () => {
     expect(t.h.depth).toBe(1);
   });
 
-  it('bills → details → results; on results back stays (answers are not lost)', () => {
+  it('details → results; on results back stays (answers are not lost)', () => {
     const t = setup();
     t.dispatch({ type: 'START' });
     t.dispatch({ type: 'ANSWER', value: 2 });
@@ -73,8 +73,6 @@ describe('system back', () => {
     expect(t.state.screen.name).toBe('results');
     const list = data.lists[0]!.id;
     t.dispatch({ type: 'OPEN_DETAILS', list });
-    t.dispatch({ type: 'OPEN_BILLS', q: data.statements[0]!.q });
-    t.h.back();
     expect(t.state.screen).toEqual({ name: 'details', list });
     t.h.back();
     expect(t.state.screen.name).toBe('results');
