@@ -14,8 +14,8 @@ interface Props {
 }
 
 /**
- * «See all» that drops content down in place, the same motion as the Results panel (expandMotion.ts): Methodology's
- * names of lists (ListNames.tsx) and its collapsed cards (customer 2026-10-24). «See all» (aria-expanded false,
+ * «See all» that drops content down in place, the same motion as the Results panel (expandMotion.ts): the rest of a
+ * long Methodology card (MethodCard in MethodologyScreen.tsx; customer 2026-10-24). «See all» (aria-expanded false,
  * aria-controls the content) is gone once open, the focus goes to the content without scrolling; «Show less» at the
  * end of the content first scrolls back to `backTo`, then closes it; while it closes, a lid with «See all» stands under
  * it where the button will be, and the focus returns to «See all» at the end. Reduced motion or no layout: at once.

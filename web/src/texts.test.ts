@@ -29,7 +29,9 @@ function allTemplates(t: Texts): [string, string, readonly string[]][] {
     out.push([`methodology.sections.${i}.title`, s.title, []]);
     if (s.text !== undefined) out.push([`methodology.sections.${i}.text`, s.text, DATA_PLACEHOLDERS]);
     if (s.after !== undefined) out.push([`methodology.sections.${i}.after`, s.after, DATA_PLACEHOLDERS]);
-    if (s.lists) out.push([`methodology.sections.${i}.lists.title`, s.lists.title, SECTION_LISTS_PLACEHOLDERS]);
+    if (s.lists?.title !== undefined) {
+      out.push([`methodology.sections.${i}.lists.title`, s.lists.title, SECTION_LISTS_PLACEHOLDERS]);
+    }
     s.bullets?.forEach((b, j) => out.push(
       [`methodology.sections.${i}.bullets.${j}.lead`, b.lead, DATA_PLACEHOLDERS],
       [`methodology.sections.${i}.bullets.${j}.text`, b.text, DATA_PLACEHOLDERS],
@@ -95,18 +97,14 @@ describe('quiz_texts.json', () => {
     expect(ok(listsSection({ of: 'nonsense', title: 'No record ({n})' }))).toBe(false);
     expect(ok(listsSection({ of: 'no_record', title: 'No record ({x})' }))).toBe(false);
     expect(ok(listsSection({ of: 'no_record', title: 'No record ({lists})' }))).toBe(false);
-    expect(ok(listsSection({ of: 'no_record' }))).toBe(false);
+    expect(ok(listsSection({ of: 'no_record' }))).toBe(true); // no title: the names follow the text
+    expect(ok(listsSection({ title: 'No record ({n})' }))).toBe(false);
     expect(ok(listsSection({ of: 'no_record', title: 'T', extra: 1 }))).toBe(false);
-    // `collapsed` (a section, the statements block): a boolean only
-    const collapsedSection = (collapsed: unknown) => (t: Texts) =>
-      ({ ...t, methodology: { ...t.methodology, sections: [{ title: 'T', text: 'x', collapsed }] } });
-    const collapsedStatements = (collapsed: unknown) => (t: Texts) =>
-      ({ ...t, methodology: { ...t.methodology, statements: { ...t.methodology.statements, collapsed } } });
-    expect(ok(collapsedSection(true))).toBe(true);
-    expect(ok(collapsedSection(false))).toBe(true);
-    expect(ok(collapsedSection('yes'))).toBe(false);
-    expect(ok(collapsedStatements(true))).toBe(true);
-    expect(ok(collapsedStatements('yes'))).toBe(false);
+    // no `collapsed`: a card collapses by its length (MethodologyScreen.tsx), not by a flag
+    expect(ok((t) => ({ ...t, methodology: { ...t.methodology, sections: [{ title: 'T', text: 'x', collapsed: true }] } })))
+      .toBe(false);
+    expect(ok((t) => ({ ...t, methodology: { ...t.methodology, statements: { ...t.methodology.statements, collapsed: true } } })))
+      .toBe(false);
     // a stray brace
     expect(ok((t) => ({ ...t, results: { ...t.results, basedOn: 'Based on {n of {total}' } }))).toBe(false);
     expect(ok((t) => ({ ...t, nav: { ...t.nav, next: 'Next }' } }))).toBe(false);

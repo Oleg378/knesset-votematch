@@ -190,10 +190,13 @@
       "lead": "{single} {single?list|lists} with a single former member",
       "text": "{single?is|are} shown but not ranked."
      }
-    ],
+    ]
+   },
+   {
+    "title": "Lists without a record.",
+    "text": "{no_record} {no_record?list has|lists have} no record in the Knesset and {no_record?is|are} not shown in the results:",
     "lists": {
-     "of": "no_record",
-     "title": "{n} {n?list has|lists have} no record and {n?is|are} not shown in the results."
+     "of": "no_record"
     }
    },
    {
@@ -308,8 +311,7 @@
       "text": "A bill shared by a topic and a broader one counts toward only one of them."
      }
     ],
-    "after": "Topics where all lists pushed the same way, or with too few bills, are left out — even when important.",
-    "collapsed": true
+    "after": "Topics where all lists pushed the same way, or with too few bills, are left out — even when important."
    },
    {
     "title": "Important topics that are not in the quiz, and why",
@@ -340,8 +342,7 @@
       "text": "licensing procedures for businesses and professions; terms and deadlines; the size of public bodies; inheritance law; state awards."
      }
     ],
-    "after": "Not present at all, because no bill of a former member of the Knesset carries the topic in a way that separates the lists: the Gaza war and the hostages, a Palestinian state, the cost of living as such. The quiz measures legislation, not campaigns.",
-    "collapsed": true
+    "after": "Not present at all, because no bill of a former member of the Knesset carries the topic in a way that separates the lists: the Gaza war and the hostages, a Palestinian state, the cost of living as such. The quiz measures legislation, not campaigns."
    }
   ],
   "statements": {
@@ -361,8 +362,7 @@
    "noSponsors": "No sponsors among the 2026 candidates.",
    "showMore": "Show more ({n} left)",
    "billLink": "Open on the Knesset website",
-   "dataVersion": "Data: {generated} ({commit}).",
-   "collapsed": true
+   "dataVersion": "Data: {generated} ({commit})."
   }
  }
 }

@@ -660,25 +660,22 @@ button.card:active {
 }
 
 /* How it works (MethodologyScreen.tsx; customer 2026-10-24): every section is a card — the panel of the question card
-   (Brand / Tint 10%, radius 24, padding 20 / 14) — its paragraph, bullets and closing paragraph 8 apart, as the
-   section's stack was; the cards 16 apart (.stack-lg, the screen gap). */
+   (Brand / Tint 10%, radius 24, padding 20 / 14) — its title with the text, its items 8 apart; the cards 16 apart
+   (.stack-lg, the screen gap). Every card's title is the bold run-in of the sections (Body/Large, SemiBold), the
+   statements card's too (an h2 drawn as the others). */
 .method-card {
   gap: var(--space-2);
 }
 
-/* Names of lists (a section's `lists`; ListNames.tsx), inside its card under the line that names them (the last
-   bullet): the name only, Label/Medium (as .list-row), on the light band of a list in the Results panel — the same
-   tint under it, so the same band — no rank, scale line or arrow (nothing to press). The bands stand 8 from the card's
-   edge, their corners concentric with the card's (24 − 8), 8 apart; the text on the card's 14 px inset. «See all» 4
-   under the last band; the rest drops down inside the card (8 above the first of them, as between bands, in the
-   drop's own padding so that it closes to nothing), «Show less» 4 under the last; while it closes, a lid with «See
-   all» stands under it where the button will be. When the names end the card, its bottom padding is 4 under «See all»,
-   as in the Results panel. */
-.list-names {
-  display: flex;
-  flex-direction: column;
+.method-title {
+  font: inherit;
+  font-weight: var(--font-weight-bold);
 }
 
+/* Bands in a card — the names of lists (Label/Medium, as .list-row; nothing to press) and the statement rows
+   (Accordion.tsx) — white on the tint, as the answer buttons on the question card, 8 from the card's edge, corners
+   concentric with the card's (24 − 8), 8 apart; the text on the card's 14 px inset. When they end the card, the last
+   is 8 above its bottom. */
 .list-names-rows {
   list-style: none;
   margin: 0 calc(var(--space-2) - var(--panel-pad-x));
@@ -695,27 +692,9 @@ button.card:active {
 .list-names-rows > li {
   padding: var(--space-3) calc(var(--panel-pad-x) - var(--space-2));
   border-radius: calc(var(--radius-lg) - var(--space-2));
-  background: var(--color-row-band);
+  background: var(--color-surface);
 }
 
-.list-names-more .see-all {
-  margin-top: var(--space-1);
-}
-
-.list-names-drop {
-  display: flex;
-  flex-direction: column;
-  padding-top: var(--space-2);
-}
-
-.method-card .list-names:last-child {
-  margin-bottom: calc(var(--space-1) - var(--space-20));
-}
-
-/* The statements block of How it works in a card too (customer 2026-10-24): its heading, then a row per statement
-   (Accordion.tsx) — white bands on the tint, as the answer buttons on the question card — 8 from the card's edge on
-   every side but the top (the heading has the card's 20), corners concentric with the card's (24 − 8), 8 apart; the
-   text on the card's 14 px inset, as the names of lists. */
 .method-rows .accordion {
   margin-inline: calc(var(--space-2) - var(--panel-pad-x));
   border-radius: calc(var(--radius-lg) - var(--space-2));
@@ -730,14 +709,15 @@ button.card:active {
   padding-inline: calc(var(--panel-pad-x) - var(--space-2));
 }
 
-.method-card .method-rows:last-child {
+.method-card > .method-rows:last-child,
+.method-card > .list-names-rows:last-child {
   margin-bottom: calc(var(--space-2) - var(--space-20));
 }
 
-/* Reference cards (`collapsed` in the texts, customer 2026-10-24; MethodCard in MethodologyScreen.tsx): the title as on
-   every card, then «See all» — the drop-down of the names of lists (DropDown.tsx) — 4 under the title (the card's gap 8
-   − 4) and 4 above the card's bottom, as in the Results panel; the content drops down 8 under the title, its blocks 8
-   apart as in an open card, «Show less» 4 under the last of them. The lid while it closes is where «See all» will be. */
+/* A long card (more than CARD_COLLAPSE_OVER items, uiConstants.ts; MethodCard): its first items, then «See all»
+   (DropDown.tsx, as on Results) 4 under the last of them (the card's gap 8 − 4) and 4 above the card's bottom; the rest
+   drop down 8 under them, 8 apart as in an open card, «Show less» 4 under the last. The lid while it closes is where
+   «See all» will be. */
 .fold {
   display: flex;
   flex-direction: column;

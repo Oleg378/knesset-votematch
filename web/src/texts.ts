@@ -213,17 +213,15 @@ export const SectionSchema = z.strictObject({
   /** A paragraph after the bullets. */
   after: z.optional(sectionText),
   /**
-   * The names of some lists, after the bullets and before `after`: `title` ({n} = how many) is drawn as the last
-   * bullet, the names under it, inside the section's card. `no_record` — the lists with no former member of the
-   * Knesset (not evaluated); `single` — evaluated with fewer than `MIN_EX_MKS` former members (shown, not ranked). In
-   * the order of quiz_data.
+   * The names of some lists, after the bullets and before `after`, each name an item of the card: `title` ({n} = how
+   * many), if given, is drawn as the last bullet; without it the names follow the text directly. `no_record` — the
+   * lists with no former member of the Knesset (not evaluated); `single` — evaluated with fewer than `MIN_EX_MKS`
+   * former members (shown, not ranked). In the order of quiz_data.
    */
   lists: z.optional(z.strictObject({
     of: z.enum(['no_record', 'single']),
-    title: template(SECTION_LISTS_PLACEHOLDERS),
+    title: z.optional(template(SECTION_LISTS_PLACEHOLDERS)),
   })),
-  /** A reference block: the card is closed by default, its title the head that opens it. */
-  collapsed: z.optional(z.boolean()),
 });
 
 const answerKeys = { '2': plain, '1': plain, '0': plain, '-1': plain, '-2': plain };
@@ -255,11 +253,7 @@ export const TextsSchema = z.strictObject({
     back: plain,
     sections: z.array(SectionSchema).check(z.minLength(1)),
     /** Labels of the block «All N statements, their topics and the bills behind them». */
-    statements: z.strictObject({
-      ...templateShape(STATEMENT_PLACEHOLDERS),
-      /** The block is closed by default, its heading the head that opens it. */
-      collapsed: z.optional(z.boolean()),
-    }),
+    statements: templates(STATEMENT_PLACEHOLDERS),
   }),
 });
 

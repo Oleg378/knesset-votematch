@@ -207,13 +207,14 @@ file: any other name, or a stray brace, fails the schema. A key not listed below
 - `heading`, `back`.
 - `sections[]`: `title` (bold run-in start of the paragraph, with its own punctuation), optional `text`, optional `bullets[]`
   of `{lead, text}` (`lead` in italics as the run-in start of the bullet), optional `after` (a paragraph after the bullets).
-  Optional `lists: {of, title}`: after the bullets and `after`, the page shows the names of the lists selected by `of` —
-  `no_record` (status `not_evaluated`) or `single` (evaluated, `ex_mks < params.MIN_EX_MKS`) — in the order of `data.lists`. `title`
-  (`{n}` = their count) is drawn as the last bullet of the section; under it the first 5 names, «See all» (`results.seeAll`),
-  the rest drop down inside the same card, «Show less» at the end. Every section is a card (the tinted panel of the question card).
-  Optional `collapsed: true` (on a section, and on `statements` for the statements block): reference material the reader consults
-  rather than reads — the card starts closed, its title is the head of an accordion. Which blocks are collapsed is content: the data
-  side sets it in the file, by one criterion — needed to understand and trust the result (open) or a reference list (collapsed).
+  Optional `lists: {of, title?}`: after the bullets and `after`, the page shows the names of the lists selected by `of` —
+  `no_record` (status `not_evaluated`) or `single` (evaluated, `ex_mks < params.MIN_EX_MKS`) — in the order of `data.lists`, on
+  white bands; `title` (`{n}` = their count) is an optional line above them (today the names card has none: its `text` says it).
+- Every section is a card (the tinted panel of the question card); the statements block is the last card, same title style.
+- Collapsing is the web's rule, one for every card, not a field of the file: a card whose content has more than
+  `CARD_COLLAPSE_OVER` items (4; `web/src/uiConstants.ts`) shows its title, text and the first `CARD_PREVIEW` items (3), then
+  «See all» (`results.seeAll`); the rest drops down inside the card, «Show less» (`results.seeLess`) at the end. Items are a
+  section's bullets (+ `after`), a lists card's names, the statements card's rows.
 - `statements`: the labels of the block «All N statements, their topics and the bills behind them» — `heading`, `topic`, `up`,
   `down`, `agreeCountsUp`, `agreeCountsDown`, `billsCount`, `billMeta`, `sideUp`, `sideDown`, `roleMain`, `roleSecondary`,
   `sponsors`, `noSponsors`, `showMore`, `billLink`, `dataVersion`.
