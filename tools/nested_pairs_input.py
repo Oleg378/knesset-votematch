@@ -5,7 +5,7 @@ Blind: the checker sees the two themes' names and «+»/«−» definitions only
 """
 import csv, os, sys, random
 import pandas as pd
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 O = f"{ROOT}/local/research/theme_overlap"
 sys.path.insert(0, f"{ROOT}/pipeline"); import labels as LB
 D = {r["n"]: (r["name_en"], r["plus"], r["minus"]) for r in csv.DictReader(open(f"{ROOT}/jef/directions/DIRECTIONS_LIST.csv"))}

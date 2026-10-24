@@ -5,12 +5,12 @@ and audit decisions of 2026-10-17/18), and passing stage-2 parts left out as dup
 For each direction: definition (+/−), the bills with the most weight in the list positions (weight = candidates who initiated it
 + 0.25 × their votes; same bill name grouped; sign of the label), and the list positions (P, new formula).
 
-Usage: python3 local/research/scripts/new_statements.py   -> local/research/new_statements/input.md, dirs.json
+Usage: python3 tools/new_statements.py   -> local/research/new_statements/input.md, dirs.json
 """
 import collections, csv, json, os, sys
 import duckdb, pandas as pd
 
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "local/research/new_statements"); os.makedirs(OUT, exist_ok=True)
 sys.path.insert(0, os.path.join(ROOT, "pipeline"))
 import labels, quiz_select as qs
@@ -18,7 +18,7 @@ import jev_directions_test as j
 
 DUPS = {"169b": "q2", "151a": "q33", "90b": "q45"}
 C = qs.criteria()
-st = list(csv.DictReader(open(f"{ROOT}/jef/quiz/statements_v4.csv")))
+st = list(csv.DictReader(open(f"{ROOT}/jef/quiz/statements.csv")))
 okd = {r["d"] for r in st if r["status"] == "ok"}
 decided = {r["d"] for r in st if r["d"] and r["status"] != "ok"}
 plan = json.load(open(f"{ROOT}/jef/directions/split/plan.json")); plan2 = json.load(open(f"{ROOT}/jef/directions/split/plan2.json"))

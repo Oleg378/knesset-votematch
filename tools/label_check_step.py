@@ -1,18 +1,18 @@
 """Steps of the systematic label check (docs/LABEL_CHECK.md) for one statement, after core_full_input.py built items_*.md / key.csv.
 
-Usage: python3 local/research/scripts/label_check_step.py <q> merge1   -> merged1.csv; prints candidates and proposed sign changes;
+Usage: python3 tools/label_check_step.py <q> merge1   -> merged1.csv; prints candidates and proposed sign changes;
                                                                           writes check2_items.md / check2_key.csv (removal candidates
                                                                           + controls, ≥ a third of the candidates, at least 2) and
                                                                           flip_in.csv (sign changes + 2 controls) for flip_check.py
-       python3 local/research/scripts/label_check_step.py <q> merge2   -> check2_merged.csv; check3_items.md / check3_key.csv
+       python3 tools/label_check_step.py <q> merge2   -> check2_merged.csv; check3_items.md / check3_key.csv
                                                                           (candidates the second check called borderline)
-       python3 local/research/scripts/label_check_step.py <q> apply    -> overrides.json «remove» (two checks, or 2 of 3) and «flip»
+       python3 tools/label_check_step.py <q> apply    -> overrides.json «remove» (two checks, or 2 of 3) and «flip»
                                                                           (first check and the full-notes check agree);
                                                                           borderline_resolved.csv for the third-check items
 """
 import csv, glob, json, math, os, random, re, sys
 import pandas as pd
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 Q, STEP = sys.argv[1], sys.argv[2]
 D = f"{ROOT}/local/research/label_check_q{Q}"
 LAB = f"{ROOT}/jef/directions/labels"

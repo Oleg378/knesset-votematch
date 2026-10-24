@@ -2,17 +2,17 @@
 confirmed only by a blind check that sees the notes up to 3,000 characters — as much as Jev saw when it labeled the bill.
 
 Input: a CSV with columns q (empty for a direction without a statement), d, rep (representative bill_id), name, kind (flip / control) — e.g. rows of a label check's merged1.csv.
-Usage: python3 local/research/scripts/flip_check.py <in.csv> <out_dir>  -> <out_dir>/flip_items.md, flip_key.csv
+Usage: python3 tools/flip_check.py <in.csv> <out_dir>  -> <out_dir>/flip_items.md, flip_key.csv
 """
 import csv, json, os, sys, random
 import pandas as pd, duckdb
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, f"{ROOT}/pipeline"); import labels as LB
 N = 3000   # pipeline/jev_label.py: Hebrew title + first 3,000 characters of the notes
 plan = LB.load()["split_plan"]["new"]
 D = {r["n"]: (r["name_en"], r["plus"], r["minus"]) for r in csv.DictReader(open(f"{ROOT}/jef/directions/DIRECTIONS_LIST.csv"))}
 for k, v in plan.items(): D[k] = (v["name_en"], v.get("plus_en", ""), v.get("minus_en", ""))
-st = {r["q"]: r for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements_v4.csv"))}
+st = {r["q"]: r for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements.csv"))}
 con = duckdb.connect(f"{ROOT}/knesset.duckdb", read_only=True)
 bname = dict(con.execute("select bill_id, name from bills").fetchall())
 def notes(b):

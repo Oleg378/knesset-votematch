@@ -4,7 +4,7 @@ sign. -> items_{1,2,3}.md, key.csv
 """
 import csv, json, os, re, sys, collections
 import pandas as pd, duckdb
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = f"{ROOT}/local/research/core_full"
 QS = os.environ.get("QS", "").split(",") if os.environ.get("QS") else None   # check these statements instead of the core
 if QS: OUT = f"{ROOT}/local/research/label_check_{os.environ.get('TAG', 'qs')}"; os.makedirs(OUT, exist_ok=True)
@@ -12,9 +12,9 @@ sys.path.insert(0, f"{ROOT}/pipeline"); import labels as LB
 lab = LB.load(); bl = lab["bill_lab"]; plan = lab["split_plan"]["new"]
 D = {r["n"]: (r["name_en"], r["plus"], r["minus"]) for r in csv.DictReader(open(f"{ROOT}/jef/directions/DIRECTIONS_LIST.csv"))}
 for k, v in plan.items(): D[k] = (v["name_en"], v.get("plus_en", ""), v.get("minus_en", ""))
-st = {r["q"]: r for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements_v4.csv"))}
-core = QS or json.load(open(f"{ROOT}/export/quiz_core.v2.json"))["core"]
-bd = json.load(open(f"{ROOT}/export/quiz_bills.v2.json"))
+st = {r["q"]: r for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements.csv"))}
+core = QS or json.load(open(f"{ROOT}/export/quiz_core.json"))["core"]
+bd = json.load(open(f"{ROOT}/export/quiz_bills.json"))
 con = duckdb.connect(f"{ROOT}/knesset.duckdb", read_only=True)
 bname = dict(con.execute("select bill_id, name from bills").fetchall())
 base = lambda n: re.sub(r",?\s*(ה?תש[\"״׳'\w\-]*\s*-?\s*\d{4})\s*$", "", str(n or "")).strip()

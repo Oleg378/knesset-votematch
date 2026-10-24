@@ -9,11 +9,11 @@ Per pair of themes: shared bills, overlap = shared / size of the smaller theme, 
 """
 import csv, json, os, re, sys, collections, itertools
 import duckdb, pandas as pd
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = f"{ROOT}/local/research/theme_overlap"; os.makedirs(OUT, exist_ok=True)
 sys.path.insert(0, f"{ROOT}/pipeline"); import labels as LB, quiz_select as QS
 C = QS.criteria(); lab = LB.load(); bl = lab["bill_lab"]
-st = {r["d"]: r for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements_v4.csv")) if r["status"] == "ok"}
+st = {r["d"]: r for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements.csv")) if r["status"] == "ok"}
 pl = json.load(open(f"{ROOT}/jef/directions/split/plan.json"))
 rem = (set(pl["parents"]) - set(pl["keep"])) | {d for p in LB.later_plans() for d in p["parents"]}
 TECH = {"107", "128", "236", "289", "339", "343", "346"}

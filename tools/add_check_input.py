@@ -7,14 +7,14 @@ Blind material as in the label check (statement, direction, bill, notes 260 char
 """
 import csv, json, os, re, sys, collections
 import pandas as pd, duckdb
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TAG = os.environ.get("TAG"); OUT = f"{ROOT}/local/research/add_check" + (f"_{TAG}" if TAG else ""); os.makedirs(OUT, exist_ok=True)
 PARTS = int(os.environ.get("PARTS", 11))
 sys.path.insert(0, f"{ROOT}/pipeline"); import labels as LB
 lab = LB.load(); bl = lab["bill_lab"]
 D = {r["n"]: (r["name_en"], r["plus"], r["minus"]) for r in csv.DictReader(open(f"{ROOT}/jef/directions/DIRECTIONS_LIST.csv"))}
 for k, v in lab["split_plan"]["new"].items(): D[k] = (v["name_en"], v.get("plus_en", ""), v.get("minus_en", ""))
-st = {r["q"]: r for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements_v4.csv")) if r["status"] == "ok"}
+st = {r["q"]: r for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements.csv")) if r["status"] == "ok"}
 R = f"{ROOT}/local/research"
 dups = {}
 for r in ("2", "3"):

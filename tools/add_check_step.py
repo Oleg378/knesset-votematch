@@ -8,7 +8,7 @@ Env SRC: the source tag written into overrides.json.
 """
 import csv, glob, json, math, os, random, re, sys
 import pandas as pd
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D, STEP = os.path.join(ROOT, sys.argv[1]) if not sys.argv[1].startswith("/") else sys.argv[1], sys.argv[2]
 SRC = os.environ.get("SRC", "add check (2026-10-21)")
 def rows(pattern, cols):

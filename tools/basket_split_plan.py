@@ -9,7 +9,7 @@ Unlike stages 2–4 the sign is asked per candidate: parts may be oriented again
 """
 import csv, json, os, re, sys, collections, glob
 import duckdb
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 B = f"{ROOT}/local/research/{os.environ.get('TAG', 'basket_split')}"
 STAGE = int(os.environ.get("STAGE", 5))
 CHUNK = int(os.environ.get("CHUNK", 90))

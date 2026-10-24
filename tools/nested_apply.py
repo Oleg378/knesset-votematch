@@ -12,7 +12,7 @@ Usage: python3 nested_apply.py merge   -> nested_merged.csv, nested_items_C.md (
 """
 import csv, json, os, re, sys, collections
 import pandas as pd, duckdb
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 O = f"{ROOT}/local/research/theme_overlap"
 STEP = sys.argv[1]
 def res(x):

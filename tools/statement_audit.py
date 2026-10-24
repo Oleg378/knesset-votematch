@@ -8,13 +8,13 @@ Weight of a bill in a direction = number of 2026 candidates (ex-MKs of evaluated
 for/against votes on it (private bills, 4 stages) — the same weights as the position (P = A + 0.25 V). Bills are grouped by
 name (the same bill re-submitted counts once, weights summed). Labels without the relevance filter (as in production).
 
-Usage: python3 local/research/scripts/statement_audit.py build   -> local/research/statement_audit/input_{1,2,3}.md
-       python3 local/research/scripts/statement_audit.py table   -> local/research/statement_audit/audit.csv (after out_{1,2,3}.jsonl)
+Usage: python3 tools/statement_audit.py build   -> local/research/statement_audit/input_{1,2,3}.md
+       python3 tools/statement_audit.py table   -> local/research/statement_audit/audit.csv (after out_{1,2,3}.jsonl)
 """
 import collections, csv, json, os, sys
 import duckdb, pandas as pd
 
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # NEW=1: audit only the statements added on 2026-10-18 (q >= 72) into statement_audit_new/, 2 input files (customer, 2026-10-18)
 NEW = os.environ.get("NEW") == "1"
 # QS=12,16,...: audit only these statements (after the label removals, customer 2026-10-18) into statement_audit_<TAG or "qs">/
@@ -37,7 +37,7 @@ def build():
                 if not x.get("no_statement"):
                     st[x["d"]].append(dict(q="n" + x["d"], d=x["d"], title_en=x["title_en"], statement_en=x["statement_en"], agree_key=x["key"].replace("-", "−")))
     else:
-        for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements_v4.csv")):
+        for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements.csv")):
             if r["status"] == "ok" and (not NEW or int(r["q"]) >= 72) and (QS is None or r["q"] in QS): st[r["d"]].append(r)
     dirs = pd.read_csv(f"{ROOT}/jef/directions/DIRECTIONS_LIST.csv", dtype={"n": str})
     dname = dict(zip(dirs.n, dirs.get("name_en", dirs.name_ru)))
@@ -92,7 +92,7 @@ def build():
         print(f"input_{k}.md: {len(part)} directions, {sum(len(it['sts']) for it in part)} statements")
 
 def table():
-    st = {r["q"]: r for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements_v4.csv")) if r["status"] == "ok"}
+    st = {r["q"]: r for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements.csv")) if r["status"] == "ok"}
     rows = []
     for k in range(1, PARTS + 1):
         for l in open(f"{OUT}/out_{k}.jsonl"):

@@ -10,7 +10,7 @@ Input: themes that pass `quiz_select.py`, are not remainders / technical, have n
 
 ## Steps
 
-1. **Material** — `DIRS=d1,d2,... TAG=roundN python3 local/research/scripts/new_statements.py` → `local/research/new_statements_roundN/input.md`.
+1. **Material** — `DIRS=d1,d2,... TAG=roundN python3 tools/new_statements.py` → `local/research/new_statements_roundN/input.md`.
    For step 2 strip the «Lists …» lines and SD (blind to positions); copy the current statements to `statements.md`.
 2. **Step 2: screening** — `prompts/step2_check.md`, two blind agents (A, B), parts of ≤ ~35 themes. Per theme: `duplicate` (qN or
    none: most voters answer both the same way for the same reason), `technical`, `basket`. Agreement decides; both say basket → basket;
@@ -21,7 +21,7 @@ Input: themes that pass `quiz_select.py`, are not remainders / technical, have n
    - clean → step 3. A customer decision overrides the agents (e.g. conversion therapy for minors is a separate question).
 3. **Draft** — `prompts/draft.md` (rules: `jef/quiz/GUIDELINES.md`), one agent per ~20 themes. A theme that takes over a statement
    (rule (б)) is marked MOVE with the old text. `no_statement` → registry.
-4. **Standard audit** — `DRAFTS=... TAG=roundN PARTS=k python3 local/research/scripts/statement_audit.py build`, `prompts/audit.md`:
+4. **Standard audit** — `DRAFTS=... TAG=roundN PARTS=k python3 tools/statement_audit.py build`, `prompts/audit.md`:
    keep / rewrite (broader text) / split (→ `split-themes`, parts back to step 2) / unsuitable.
 5. **Label check** of every bill of the theme against the final text — `label-check` (`label_check_drafts_input.py`).
 6. **Threshold** — `python3 pipeline/positions.py`; a theme that now fails is dropped and reported.

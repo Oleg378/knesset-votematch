@@ -3,7 +3,7 @@ split2–4_choice.jsonl read by pipeline/labels.py (LATER). One line per bill ×
 representative. «assigned» empty -> the bill stays in the basket (remainder). Signs are Sonnet's per part (normalized to «−»).
 """
 import csv, glob, json, os, collections
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 B = f"{ROOT}/local/research/{os.environ.get('TAG', 'basket_split')}"
 key = {r["id"]: r for r in csv.DictReader(open(f"{B}/choice_key.csv"))}
 ch = {}

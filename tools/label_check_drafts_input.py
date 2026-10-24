@@ -8,7 +8,7 @@ Env: DRAFTS=a.json,b.json  AUDIT=out_1.jsonl,out_2.jsonl  TAG=<name>  PARTS=<n> 
 """
 import csv, json, os, re, sys, collections
 import pandas as pd, duckdb
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TAG = os.environ["TAG"]; OUT = f"{ROOT}/local/research/label_check_q{TAG}"; os.makedirs(OUT, exist_ok=True)
 PARTS = int(os.environ.get("PARTS", 4)); SKIP = set(filter(None, os.environ.get("SKIP", "").split(",")))
 sys.path.insert(0, f"{ROOT}/pipeline"); import labels as LB

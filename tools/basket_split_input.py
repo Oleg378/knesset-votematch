@@ -6,7 +6,7 @@ direction its names, «+»/«−» and ALL bills labeled with it (effective labe
 """
 import csv, json, os, re, sys, collections, shutil
 import duckdb
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = f"{ROOT}/local/research/{os.environ.get('TAG', 'basket_split')}"; os.makedirs(OUT, exist_ok=True)
 sys.path.insert(0, f"{ROOT}/pipeline"); import labels as LB
 BASKETS = (os.environ.get("BASKETS") or "133 149 15 162 211 240 248 256 260 280 285 290 32 349 354 358 366 40 50 64 8 88 96 99").split()

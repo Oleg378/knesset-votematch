@@ -17,11 +17,11 @@ broad one. By meaning:
 
 ## Steps
 
-1. Pairs — `python3 local/research/scripts/theme_overlap.py` (all themes) → `nested_small_in_big.csv`; for a single new pair compute it directly.
-2. Blind input — `python3 local/research/scripts/nested_pairs_input.py` (names and «+»/«−» only, shuffled).
+1. Pairs — `python3 tools/theme_overlap.py` (all themes) → `nested_small_in_big.csv`; for a single new pair compute it directly.
+2. Blind input — `python3 tools/nested_pairs_input.py` (names and «+»/«−» only, shuffled).
 3. Meaning check — `prompts/meaning_check.md` (the customer-approved file), two agents; disagreements and «borderline» →
    `prompts/meaning_check_third.md` (forced choice). Decision: two agreeing checks, otherwise the 3rd check.
-4. `python3 local/research/scripts/nested_apply.py merge` / `final` → `nested_decision.csv`, `nested_removals.computed.json`.
+4. `python3 tools/nested_apply.py merge` / `final` → `nested_decision.csv`, `nested_removals.computed.json`.
    Show the customer the strategy table (`nested_report.py`: both themes in every row, sections by strategy and by rule (а)).
 5. After approval: `APPLY=1 ... nested_apply.py final` writes `jef/directions/labels/nested_removals.json`. For a few new pairs,
    append items to that file instead (see the «post-stage6» items) — never recompute the whole file: it was computed on the labels of
