@@ -31,7 +31,8 @@ export const DATA_PLACEHOLDERS = [
 
 /** Placeholders of each label of the methodology statements block (filled by the screen per statement or bill). */
 export const STATEMENT_PLACEHOLDERS = {
-  heading: ['statements'],
+  title: [],
+  text: ['statements'],
   topic: ['name'],
   up: ['text'],
   down: ['text'],
@@ -251,7 +252,7 @@ export const TextsSchema = z.strictObject({
   methodology: z.strictObject({
     heading: plain,
     sections: z.array(SectionSchema).check(z.minLength(1)),
-    /** Labels of the block «All N statements and their bills». */
+    /** Labels of the block «The record behind each statement.» (all statements and their bills). */
     statements: templates(STATEMENT_PLACEHOLDERS),
   }),
 });

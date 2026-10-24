@@ -710,9 +710,9 @@ button.card:active {
   color: var(--color-text-faint);
 }
 
+/* The statements card's title is an h2 drawn as a section's: the bold run-in title (strong), then the text */
 .method-title {
   font: inherit;
-  font-weight: var(--font-weight-bold);
 }
 
 /* Bands in a card — the names of lists (Label/Medium, as .list-row; nothing to press) and the statement rows

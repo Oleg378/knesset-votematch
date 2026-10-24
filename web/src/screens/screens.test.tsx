@@ -129,7 +129,7 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
   // whitespace as the queries see it (a name may have a double space)
   const has = (card: HTMLElement, text: string) =>
     within(card).queryAllByText(text.replace(/\s+/g, ' ').trim(), { exact: false }).length > 0;
-  const statementsHeading = fill(methodology.statements.heading, { statements: data.statements.length });
+  const statementsHeading = `${methodology.statements.title} ${fill(methodology.statements.text, { statements: data.statements.length })}`;
   const rowsIn = (card: HTMLElement) => card.querySelectorAll('.method-rows .accordion').length;
   const open = () => {
     render(<App loader={loaded()} />);
@@ -171,9 +171,10 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
       'How topics are chosen.', 'Important topics that are not in the quiz, and why']);
     // a bullet reads as one sentence: its lead, a space, its text
     expect(document.querySelector('.screen')!.textContent).toContain(`${v.evaluable} of ${v.lists} lists can be evaluated`);
-    // the statements card: its title an h2 drawn as the section titles, the same rule — the first rows and «See all»
+    // the statements card: its title an h2 drawn as a section's (bold run-in title, then the text), the same rule — the first rows and «See all»
     const heading = screen.getByRole('heading', { level: 2, name: statementsHeading });
     expect(heading.className).toBe('method-title');
+    expect(heading.querySelector('strong')!.textContent).toBe(methodology.statements.title);
     const statements = heading.closest('.panel') as HTMLElement;
     expect(fits(data.statements.length)).toBeLessThan(data.statements.length);
     expect(rowsIn(statements)).toBe(fits(data.statements.length));

@@ -345,7 +345,8 @@
    }
   ],
   "statements": {
-   "heading": "All {statements} statements and their bills.",
+   "title": "The record behind each statement.",
+   "text": "All {statements} statements of the quiz, with the bills that place the lists on them.",
    "topic": "Topic: {name}",
    "up": "Up: {text}",
    "down": "Down: {text}",

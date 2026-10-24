@@ -198,7 +198,6 @@ export function MethodologyScreen({ data, bills }: BillsScreenProps) {
   const names = new Map(data.lists.map((l) => [l.id, l.name_en]));
   const v = dataValues(data);
   const t = methodology.statements;
-  const heading = fill(t.heading, { statements: data.statements.length });
   const rows = data.statements.map((st): Item => ({ key: `q${st.q}`, kind: 'row', node: (
     <Accordion key={`q${st.q}`} title={st.title_en}>
       {() => <StatementBody data={data} bills={bills} st={st} names={names} t={t} />}
@@ -211,7 +210,11 @@ export function MethodologyScreen({ data, bills }: BillsScreenProps) {
       <div className="stack-lg">
         {methodology.sections.map((s) => <MethodSection key={s.title} data={data} s={s} v={v} />)}
       </div>
-      <MethodCard items={rows} head={(id) => <h2 id={id} className="method-title">{heading}</h2>} />
+      <MethodCard items={rows} head={(id) => (
+        <h2 id={id} className="method-title">
+          <strong>{t.title}</strong> {fill(t.text, { statements: data.statements.length })}
+        </h2>
+      )} />
       <p className="xsmall data-version">
         {fill(t.dataVersion, { fetched: dataDate(data.fetched), generated: dataDate(data.generated), commit: data.source_commit })}
       </p>

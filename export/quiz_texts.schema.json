@@ -839,7 +839,12 @@
     "statements": {
      "type": "object",
      "properties": {
-      "heading": {
+      "title": {
+       "type": "string",
+       "minLength": 1,
+       "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+      },
+      "text": {
        "type": "string",
        "minLength": 1,
        "pattern": "^(?:[^{}]|\\{(?:statements)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
@@ -926,7 +931,8 @@
       }
      },
      "required": [
-      "heading",
+      "title",
+      "text",
       "topic",
       "up",
       "down",
