@@ -189,7 +189,7 @@ address, Open Graph and the sitemap; `wrangler.toml` binds the Analytics Engine 
 (`.github/workflows/web.yml`): install, test, build, dist check. Pages: `/` and `/how-it-works` (DECISIONS.md H).
 
 ## Design
-Base components are in the Figma file above. Map them to CSS variables in `src/styles/tokens.css` (colors, type scale,
+The Figma values (colors, type, spacing, browser bars) are in `DESIGN_SPEC.md`. Base components are in the Figma file above. Map them to CSS variables in `src/styles/tokens.css` (colors, type scale,
 spacing, radii) and small components in `src/components/` (Button, AnswerButton, ProgressBar, Card, ListRow, Accordion,
 Note/Badge). Until the Figma tokens are imported, use neutral placeholder tokens in that one file only.
 

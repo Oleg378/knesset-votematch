@@ -89,7 +89,7 @@ Google Fonts — никаких запросов к третьим сторон�
 ## E. Сверка с Figma, 2026-10-17 — утверждено заказчиком [У]
 
 Источники: кадры Home / Questions / Clarifying question / Menu, листы «Colors & Typography» (node 20:133) и
-«Layout & Spacing» (node 27:133). Правила целиком — в `CLAUDE.md` (разделы «Design spec» и «Approved implementation»).
+«Layout & Spacing» (node 27:133). Правила целиком — в `DESIGN_SPEC.md` (разделы «Design spec») и `CLAUDE.md` (раздел «Approved implementation»).
 Ниже — что сделано и где решение отличается от макета. Проверено замерами в эмуляции iPhone 402×874 с safe area 62/34
 и наложением рендеров 4x на экспорт из Figma.
 
