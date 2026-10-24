@@ -10,8 +10,10 @@ Unlike stages 2–4 the sign is asked per candidate: parts may be oriented again
 import csv, json, os, re, sys, collections, glob
 import duckdb
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-B = f"{ROOT}/local/research/{os.environ.get('TAG', 'basket_split')}"
-STAGE = int(os.environ.get("STAGE", 5))
+if not (os.environ.get("TAG") and os.environ.get("STAGE")):   # never run by accident: a run rewrites data/directions/split/ and labels/
+    raise SystemExit("usage: TAG=<local/research dir> STAGE=<N> python3 tools/basket_split_plan.py   (see .claude/skills/split-themes/SKILL.md)")
+B = f"{ROOT}/local/research/{os.environ['TAG']}"
+STAGE = int(os.environ["STAGE"])
 CHUNK = int(os.environ.get("CHUNK", 90))
 sys.path.insert(0, f"{ROOT}/pipeline"); import labels as LB
 lab = LB.load()
