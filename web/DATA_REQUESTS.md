@@ -69,7 +69,7 @@ cases. Numbers must not be hard-coded on the web (now 8 + 7 + up to 5 trade-offs
 stopping rule (`should_stop`: stop_gap / min_questions / max_questions) exists but is off.
 
 ## 5. Everything that changed in the contract, and the format of list details (data side → web, 2026-10-18) [superseded by WEB_CONTRACT.md]
-`docs/archive/V2_HANDOFF.md` (archived; current text in `export/WEB_CONTRACT.md`): 89 statements, the new position formula (A not centered, K = 0), the question order with its exact
+`docs/archive/V2_HANDOFF.md` (deleted 2026-10-24, in git history; current text in `export/WEB_CONTRACT.md`): 89 statements, the new position formula (A not centered, K = 0), the question order with its exact
 clarifying rule and numbers from `flow`, answer words, the removed caveat, the one wording still pending («close to the average
 MK»), and the list-details format field by field (header, items, lines, evidence, bills of one statement). Superseded by `export/WEB_CONTRACT.md`.
 
@@ -99,7 +99,7 @@ schema; golden cases regenerated. Nothing to change on the web — just make sur
 - `flow.core_one_sided` added (the core is precomputed in the export; nothing to compute). Golden regenerated.
 
 ## 10. Methodology page texts (data side → web, 2026-10-18) [content]
-Texts for the methodology / FAQ page are in `methodology` of `export/quiz_texts.json` (contract §7; before 2026-10-23 — `docs/archive/METHODOLOGY_PAGE.md`) (topics not in the quiz and why, where positions come from,
+Texts for the methodology / FAQ page are in `methodology` of `export/quiz_texts.json` (contract §7; before 2026-10-23 — `docs/archive/METHODOLOGY_PAGE.md`, now only in git history) (topics not in the quiz and why, where positions come from,
 lists with one former MK, the answer scale, «no clear position», limitations). `params.CLOSE` is **0.2** (a short-lived 0.3 was reverted the same day); a position is clear only if also `n_mk >= params.MIN_CLEAR_MKS` and `n_names >= params.MIN_CLEAR_BILLS` (WEB_CONTRACT §3).
 
 ## 11. Show closeness rounded to one decimal (customer, 2026-10-18) [task]

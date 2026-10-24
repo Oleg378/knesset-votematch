@@ -22,12 +22,11 @@ what its candidates who are former MKs did in Knessets 24–25: bills they spons
 | Data contract and what the web computes and shows | `export/WEB_CONTRACT.md` | history, reasoning, version labels |
 | Texts the user reads on the site (English): app name, answers, notes, explanation lines, screen labels, methodology page | `export/quiz_texts.json` (contract: `export/WEB_CONTRACT.md` §7) | numbers typed by hand — they are `{placeholders}` filled from the data; statement texts (they are in `jef/quiz/statements.csv`) |
 | Agent procedures | `.claude/skills/*/SKILL.md` + `prompts/` | project state |
-| Closed documents, old logs | `docs/archive/` (with a line in its README) | — |
 Rules: a decision goes into SU as one line (rule + status + pointer), its numbers into TECHNICAL, its story into WORKLOG; a task
 or a review request goes into WORKLOG «Открыто» only, never into SU (an open question in SU is a question about the method, not a
 to-do); an item marked «closed only by the customer» stays open until the customer says so, whatever an agent edits; never
-introduce version names («V1», «V4») — describe the rule itself; when a document is superseded, move it to `docs/archive/` and
-fix every reference (`grep` the old name); research notes and people's answers stay in `local/` or the session scratchpad.
+introduce version names («V1», «V4») — describe the rule itself; when a document is superseded, delete it (git history keeps it), add a line
+to WORKLOG naming it and fix every reference (`grep` the old name); research notes and people's answers stay in `local/` or the session scratchpad.
 
 ## Principles (mandatory)
 - **P0 — uniformity.** One rule for all lists, directions and statements. No exceptions for a single case.

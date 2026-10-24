@@ -10,10 +10,10 @@ Closeness = cosine over statements the user answered and the list has a position
 Output: lists sorted by closeness; evaluated lists (status ok / warning) with the number of ex-MKs behind the position;
 lists without ex-MKs are listed as «нет данных о работе в Кнессете».
 
-Usage: python3 pipeline/quiz_match.py jef/quiz/pilot_answers.csv   filled pilot sheet: № (statement q), Тема, Утверждение, Ответ
+Usage: python3 pipeline/quiz_match.py local/jef/quiz/pilot_answers_filled.csv   filled pilot sheet: № (statement q), Тема, Утверждение, Ответ
                                                                    (2 / 1 / 0 / -1 / -2 / нз; empty = не отвечено)
        python3 pipeline/quiz_match.py answers.json                  {"<№>": 2 | 1 | 0 | -1 | -2 | "dk"}
-       python3 pipeline/quiz_match.py --calibrate         choose K on synthetic users (jef/quiz/match_calibration.txt)
+       python3 pipeline/quiz_match.py --calibrate         choose K on synthetic users (writes local/research/match_calibration.txt; decided K = 0)
 """
 import csv, json, os, random, re, sys, collections
 import numpy as np
@@ -161,7 +161,8 @@ def calibrate():
         out.append((k, np.mean(rec), max(first.values()) / 500, first.most_common(3)))
     lines = ["K | персона в топ-3 | макс. доля первых мест при случайных ответах | лидеры"]
     lines += [f"{k} | {r:.3f} | {m:.3f} | {f}" for k, r, m, f in out]
-    open(os.path.join(Q, "match_calibration.txt"), "w").write("\n".join(lines) + "\n")
+    os.makedirs(os.path.join(ROOT, "local/research"), exist_ok=True)
+    open(os.path.join(ROOT, "local/research/match_calibration.txt"), "w").write("\n".join(lines) + "\n")
     print("\n".join(lines))
 
 if __name__ == "__main__":

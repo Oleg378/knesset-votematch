@@ -12,7 +12,6 @@
 | [docs/WORKLOG.md](docs/WORKLOG.md) | журнал работ, «Открыто», «Что дальше» |
 | [export/WEB_CONTRACT.md](export/WEB_CONTRACT.md), [export/quiz_texts.json](export/quiz_texts.json) | контракт данных для фронта и все тексты сайта (ответы, пометки, строки пояснений, подписи экранов, страница методологии) |
 | [CLAUDE.md](CLAUDE.md) | правила работы агентов, структура, документация |
-| [docs/archive/](docs/archive/) | закрытые документы и журнал прежних решений |
 
 ## Структура
 
