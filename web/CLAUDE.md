@@ -210,8 +210,8 @@ Manual check on real devices (from the sheet):
 
 ## Breakpoints — rules for every web screen («версия Б», customer 2026-10-17)
 Applies to **all screens** (Home, Question, Clarifying question, Menu, Results, List details, Methodology) and
-to any new one. Based on Material 3 window size classes. Previous layout = «версия А», snapshot in
-`design-variants/layout-A/` (roll back on request).
+to any new one. Based on Material 3 window size classes. Previous layout = «версия А», snapshot in git at the tag `layout-A`
+(`git show layout-A:web/design-variants/layout-A/README.md`; roll back on request).
 
 ### Principles
 1. **The layout type changes only at the points; between them everything changes smoothly** (clamped values, no jumps,
@@ -299,7 +299,7 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
   `max(gap, (100dvh − 812) / 2)` on every screen (not flex-centred: a long screen would start higher and the header jump);
   `overflow: clip` keeps the pinned header's corners inside the radius (never `hidden` — it breaks sticky). No Figma frame — customer chose this variant (C) from
   three rendered options. Never scale the card down to fit (rejected: it defeats browser zoom). Recipes and saved
-  alternatives: `design-variants/`.
+  alternatives: in git at the tag `desktop-L` (`web/design-variants/` there).
 - **Card change** (customer 2026-10-19, DECISIONS.md G11): one quiz card replacing another (question / trade-off; Next,
   Skip, Back, system Back) moves like an iOS navigation push — the new screen slides in from the right edge over the old
   one, which moves a third to the left and fades out (Back: mirrored; the screen on top stays opaque and fades only
