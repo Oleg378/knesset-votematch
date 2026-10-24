@@ -1,11 +1,11 @@
-"""Parse saved CEC list pages (data/cec/raw/<letters>.txt, saved from gov.il via Chrome) into
+"""Parse saved CEC list pages (manual/cec_pages/<letters>.txt, saved from gov.il via Chrome; the only copy of the source) into
 manual/cec_candidates_26.csv: letters, list_name, position, name_he (as published: last name first),
 party (the party within a joint list the candidate runs for), url.
 """
 import csv, os, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-RAW = os.path.join(ROOT, "data/cec/raw")
+RAW = os.path.join(ROOT, "manual/cec_pages")
 
 def parse(path, letters, list_name):
     lines = []
