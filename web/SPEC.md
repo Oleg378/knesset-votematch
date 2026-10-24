@@ -156,13 +156,16 @@ sessionStorage, localStorage or cookies; a reload starts over. Results never go 
   fallback).
 
 ## Metrics and privacy
-- Events only: `started`, `finished` (optionally `reached_q10/30/50`). Never answers, results or list ids.
-- `src/analytics.ts` with `track(event)`; no-op by default. Backend (Cloudflare Worker + KV, or Web Analytics) — later [О].
-- No third-party trackers, no cookies.
+- Events only: `started`, `finished`. Never answers, results or list ids.
+- `src/analytics.ts` `track(event)`: a beacon to the site's own `/count/<event>` (no body, no cookies, no identifiers);
+  `functions/count/[event].js` (Cloudflare Pages Function) counts it in Workers Analytics Engine [У 2026-10-24].
+- No third-party trackers, no cookies, no third-party requests (CSP in `public/_headers`).
 
 ## Hosting
-Cloudflare Pages, static build (`npm run build` → `web/dist`). CI: GitHub Actions (`.github/workflows/web.yml`): install,
-test, build; deploy only after the customer connects the repo and secrets.
+Cloudflare Pages, connected to the git repository: root directory `web`, `npm run build` (typecheck, Vite build, prerender
+of the two pages) → `web/dist`; environment variable `SITE_URL` (the site's address, no trailing slash) for the canonical
+address, Open Graph and the sitemap; `wrangler.toml` binds the Analytics Engine dataset. CI: GitHub Actions
+(`.github/workflows/web.yml`): install, test, build, dist check. Pages: `/` and `/how-it-works` (DECISIONS.md H).
 
 ## Design
 Base components are in the Figma file above. Map them to CSS variables in `src/styles/tokens.css` (colors, type scale,
