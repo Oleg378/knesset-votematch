@@ -203,17 +203,14 @@ describe('reducer: «Answer more questions»', () => {
   });
 });
 
-describe('reducer: results, details, bills, methodology', () => {
+describe('reducer: results, details, methodology', () => {
   const results: State = { ...initialState, answers: full.answers, shown: [...C], screen: { name: 'results' } };
   const L = full.tradeoffs.pairs[0]![2];
 
-  it('results → details → bills → back → back', () => {
+  it('results → details → back', () => {
     const d = run(results, { type: 'OPEN_DETAILS', list: L });
     expect(d.screen).toEqual({ name: 'details', list: L });
-    const b = run(d, { type: 'OPEN_BILLS', q: C[0]! });
-    expect(b.screen).toEqual({ name: 'bills', list: L, q: C[0] });
-    expect(run(b, { type: 'BACK' }).screen).toEqual({ name: 'details', list: L });
-    expect(run(b, { type: 'BACK' }, { type: 'BACK' }).screen).toEqual({ name: 'results' });
+    expect(run(d, { type: 'BACK' }).screen).toEqual({ name: 'results' });
   });
 
   it('Change answers keeps answers and trade-off weights and returns to the first statement', () => {

@@ -11,7 +11,7 @@ import type { Loader, Sources } from '../data';
 import { formatCloseness } from '../engine/format';
 import { match } from '../engine/match';
 import type { Answers } from '../engine/types';
-import { S } from '../strings';
+import { S, explainText } from '../strings';
 import { bills, core, data, loaded } from '../testSources';
 import { dataDate, dataValues, fill, listsOf, T } from '../texts';
 import { CARD_MAX_HEIGHT, HIGHLIGHT } from '../uiConstants';
@@ -92,8 +92,9 @@ describe('start', () => {
     screen.getByText(S.start.steps(planned)[0]!);
     click(S.start.howItWorks);
     screen.getByRole('heading', { name: methodology.heading });
-    // The title in the header, as on Results; no Back on the page — the system Back still returns
+    // The title in the header, as on Results; a page of its own: the menu stays, no Back — the system Back still returns
     within(screen.getByRole('banner')).getByText(methodology.heading);
+    screen.getByRole('button', { name: S.menu.open });
     expect(screen.queryByRole('button', { name: /^back/i })).toBeNull();
     act(() => void window.dispatchEvent(new PopStateEvent('popstate')));
     screen.getByRole('button', { name: S.start.button });
@@ -440,22 +441,30 @@ describe('results', () => {
     expect(document.querySelectorAll('.screen img')).toHaveLength(0); // no logos (only the header's menu icon)
   });
 
-  it('row → details → bills; Hebrew titles are dir=auto, lang=he; links built from BILL_URL', () => {
+  it('row → details, a topic opens its explanation and bills inside; Hebrew titles dir=auto, lang=he; links from BILL_URL', () => {
     toResults();
     const first = within(screen.getAllByRole('list')[0]!).getAllByRole('button')[0]!;
     fireEvent.click(first);
-    screen.getByRole('button', { name: S.details.back });
-    const card = [...document.querySelectorAll('button.card')].find((c) => /sponsored by/.test(c.textContent!));
-    expect(card).toBeDefined();
-    fireEvent.click(card as HTMLElement);
-    screen.getByRole('button', { name: S.bills.back });
+    // a nested page: «Back» in the header, in the menu's place
+    expect(screen.getByRole('button', { name: S.details.back }).closest('header')).not.toBeNull();
+    expect(screen.queryByRole('button', { name: S.menu.open })).toBeNull();
+    expect(document.querySelector('.bill')).toBeNull(); // every topic starts collapsed
+    // open topics until one has a bill sponsored by the list's former MKs
+    for (const head of [...document.querySelectorAll<HTMLElement>('.accordion-head')]) {
+      fireEvent.click(head);
+      if (document.querySelector('.bill')) break;
+    }
+    expect(document.querySelector('.accordion-body .lines .quote')).not.toBeNull(); // the explanation, then the bills
+    // the «price» caveat once on the page, not inside the topics
+    expect(screen.getAllByText(S.details.priceNote)).toHaveLength(1);
+    expect(document.querySelector('.accordion-body')!.textContent).not.toContain(explainText.caveatPrice);
+    expect(document.querySelector('.bill')).not.toBeNull();
     for (const t of document.querySelectorAll('.bill-title')) {
       expect(t.getAttribute('dir')).toBe('auto');
       expect(t.getAttribute('lang')).toBe('he');
     }
     const prefix = data.params.BILL_URL.split('{id}')[0]!;
     for (const a of screen.getAllByRole('link')) expect(a.getAttribute('href')!.startsWith(prefix)).toBe(true);
-    click(S.bills.back);
     click(S.details.back);
     screen.getByRole('heading', { name: S.results.heading });
   });
@@ -504,8 +513,10 @@ describe('accessibility', () => {
     const row = within(screen.getAllByRole('list')[0]!).getAllByRole('button')[0]!;
     expect(row.textContent).toContain(S.results.closenessLabel);
     fireEvent.click(row);
-    const card = [...document.querySelectorAll('button.card')].find((c) => /sponsored by/.test(c.textContent!));
-    fireEvent.click(card as HTMLElement);
+    for (const head of [...document.querySelectorAll<HTMLElement>('.accordion-head')]) {
+      fireEvent.click(head);
+      if (document.querySelector('.bill')) break;
+    }
     const links = screen.getAllByRole('link');
     expect(links.length).toBeGreaterThan(0);
     for (const a of links) {

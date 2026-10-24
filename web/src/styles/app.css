@@ -1018,6 +1018,112 @@ div.list-row .list-row-value {
   background: var(--color-accent);
 }
 
+/* List details: the list's name — the whole official name, one block — in Fraunces 26/32, its lines balanced, so a long
+   name does not end on a short last line; a blue line on its left, the text 12 after it (customer 2026-10-24: variant 15
+   of 16 at 26) */
+.details-title {
+  font-size: var(--font-size-list-name);
+  line-height: var(--line-height-list-name);
+  text-wrap: balance;
+  border-inline-start: var(--title-rule) solid var(--color-accent);
+  padding-inline-start: var(--space-3);
+}
+
+/* List details: the list's closeness as a Results row with no band — the title light (Body/Default, text/tertiary) right
+   above the line, its descenders about 5 over it; under it, in one line, the rank circle (tint, so it shows on white), the
+   scale's line (the light blue tint on the white page) and the blue percent (customer 2026-10-23: «просто полоса, причём
+   голубая»; 2026-10-24: no legend, the rank and the percent on the line's row, the title «тоньше, серым и ближе к полосе»;
+   tried under the line, back on top «так же близко, как было снизу») */
+.details-row {
+  /* the line's row as tall as the rank circle, with or without one, so the title stands at the same place over the line */
+  grid-template-rows: auto var(--rank-badge-details);
+  row-gap: 0;
+  margin-top: var(--space-2); /* 16 under the list name: the stack's 8 + 8 (customer 2026-10-24: «добавь спейса») */
+}
+
+.details-row .list-row-rank {
+  grid-row: 2;
+}
+.details-row .list-row-rank:has(> span) {
+  justify-self: center;
+  width: var(--rank-badge-details);
+  height: var(--rank-badge-details);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+}
+
+.details-row .list-row-name {
+  grid-row: 1;
+  /* down to the line: the row below is the rank circle's height with the line in its middle; the title's line box ends
+     4 over the line (baseline 8 over it) */
+  margin-bottom: calc((var(--bar-height-thin) - var(--rank-badge-details)) / 2 + var(--space-1));
+  grid-column: 2 / -1;
+  line-height: var(--line-height-body-sm);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-text-faint);
+}
+
+/* the percent large and ExtraBold, at the column's edge (no arrow button here); the line under the title thinner, 4
+   (customer 2026-10-24: variant 4 of 8, then the percent 22 instead of 24) */
+.details-row.list-row .list-row-value {
+  font-size: var(--font-size-closeness);
+  line-height: var(--line-height-closeness);
+  font-weight: var(--font-weight-extrabold);
+  color: var(--color-accent);
+  padding-inline-end: 0;
+}
+
+/* the line from the title's start to the percent, centred on the rank circle and the percent */
+.details-row .scale-line {
+  grid-row: 2;
+  grid-column: 2;
+  height: var(--bar-height-thin);
+}
+
+.details-row .list-row-value {
+  grid-row: 2;
+  grid-column: 3;
+}
+
+/* the rank circle and the percent 4 above the line's centre: with the title right above the line the two read as one
+   block, and centred on the line the numbers looked to hang below it (customer 2026-10-24: «подними», option a of 3) */
+.details-row .list-row-rank,
+.details-row .list-row-value {
+  translate: 0 calc(-1 * var(--space-1));
+}
+
+/* Under the closeness (and its note) a line, as the one over the Results hint, the column's width: it sets the closeness
+   apart from the caveat (customer 2026-10-24) */
+.details-rule {
+  height: var(--border-width);
+  margin-top: var(--space-4); /* 24 under the closeness: the stack's 8 + 16 (customer 2026-10-24: «отступ до линии больше»; it was 16) */
+  background: var(--color-border);
+}
+
+/* The «price» caveat under the closeness: italic and lighter, as the Results hint (customer 2026-10-24, variant 2 of 8);
+   justified, so its right edge ends where the percent above it does (customer 2026-10-24: «70 и текст под не выровнены») */
+.details-caveat {
+  /* 4 under the line (the stack's 8 − 4), as the Results line over the hint: the line belongs to the caveat (customer
+     2026-10-24: «линию ближе к тексту снизу»; it was 16) */
+  margin-top: calc(var(--space-1) - var(--space-2));
+  font-style: italic;
+  color: var(--color-text-faint);
+  text-align: justify;
+}
+
+.details-scale {
+  display: block;
+  background: var(--color-accent-soft);
+}
+
+.details-scale .scale-dot {
+  background: var(--color-accent);
+}
+
 /* Not ranked: a white dot with a thin grey rim (customer 2026-10-23: the 2 px rim of the open dot → 1 px; without a rim
    the dot was lost on the light line) */
 .scale-low .scale-dot {

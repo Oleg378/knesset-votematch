@@ -2,6 +2,15 @@
 
 Requests from the front end to the data side (pipeline/, export/). The web session never edits export/ itself.
 
+## 13. List details texts after the page merge (2026-10-24) [open]
+List details and the bills page are one page now (DECISIONS.md G28), and its closeness is a Results row (G28). In
+`quiz_texts.json`:
+- add `details.closenessTitle`: `"Closeness to you"` — the label above the closeness line (customer 2026-10-23/24). Until
+  it is in the file, `web/src/strings.ts` holds this one text itself, with a comment; it moves to the file then;
+- no longer read by the web: `details.closeness`, `details.showAll`, `details.showLess`, `details.openBills`, `bills.back`
+  (the topics open in place, there is no separate bills screen). They can be dropped from the file together with the
+  schema in `web/src/texts.ts` — tell us, and we remove them there.
+
 **Status 2026-10-23:** everything below is answered or superseded by `export/WEB_CONTRACT.md` (the texts of the site: `export/quiz_texts.json`, §7 — done 2026-10-23, every screen reads the file); the engine, state and loader are on the three current data files (contract §1), the question order and the current explanations are ported and pass `golden.json` (items 4, 6, 9, 11 in the logic); the screens are not wired yet (customer's decision, visual work on another machine); 12 — the votes group — and the methodology texts of 10 are still to show. New requests go above this line.
 
 ## 1. Stray space in a list name (2026-10-17) [answered]

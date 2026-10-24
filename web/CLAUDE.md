@@ -21,7 +21,7 @@ React + Vite + TypeScript, static SPA (no server, no Next.js). Talk to the custo
   fills templates from `T` — no text in code. The page `<title>`, description, Open Graph tags, manifest, robots and
   sitemap come from `app.*` through `pageTitle` / `siteHead` (vite.config.ts); absolute addresses only from `SITE_URL`.
 - A screen renders only when its file has arrived (App shows a loader for that screen only): Start — nothing; questions —
-  quiz_core, clarifying ones and everything after — quiz_data; List details, Bills, Methodology — quiz_bills.
+  quiz_core, clarifying ones and everything after — quiz_data; List details (with the bills inside), Methodology — quiz_bills.
 - **The start page loads first** (DECISIONS.md G): `index.html` preloads its fonts, quiz_core and the hero
   (`preloadStartPage` in `vite.config.ts`); quiz_data and quiz_bills start only after it is drawn (`firstScreenShown` in
   `src/data.ts`). A new font or picture on Home → add it to the preload. Measure with a production build (gzip), never
@@ -44,7 +44,7 @@ React + Vite + TypeScript, static SPA (no server, no Next.js). Talk to the custo
 - If the mockup conflicts with SPEC or the data (e.g. «60 statements» vs 65 in the data): follow the mockup where it is
   only presentation, and **ask the customer right away** about the rest. Do not silently keep the old behaviour.
 - After a screen: screenshot at 402 px wide and compare with the frame.
-- Screens without a mockup (Results, List details, Bills, Methodology): Figma tokens and components; layout is the agent's
+- Screens without a mockup (Results, List details, Methodology): Figma tokens and components; layout is the agent's
   proposal, recorded in `DECISIONS.md`.
 - `src/styles/tokens.css` is the only place for colors, type, spacing, radii. Mobile first, 360–430 px, column ≤ 480 px.
 
@@ -80,7 +80,7 @@ Line heights are exact Figma px ÷ size (`calc(22 / 17)`), never rounded ratios.
 |---|---|---|---|---|
 | Title/Large | Fraunces 400 | 36 / 42 | `.title-xl` | Home title |
 | Title/Medium | Fraunces 400 | 28 / 34 | `.title-lg` | app name in the menu |
-| Question | Fraunces 400 | 20 / 22 | `.statement-text`, `.title-md`, `.header-title` | statement, clarifying question, section titles in List details, Bills and Methodology, «Your result» in the header |
+| Question | Fraunces 400 | 20 / 22 | `.statement-text`, `.title-md`, `.header-title` | statement, clarifying question, section titles in List details and Methodology, «Your result» in the header |
 | Action | Plus Jakarta Sans 600 | 17 / 22, −0.43 px | `.btn-primary`, `.btn-secondary` | Start the quiz, Next, Change answers |
 | Button | Plus Jakarta Sans 600 | 17 / 22 | `.answer`, `.btn` | answer options |
 | Body/Large | Plus Jakarta Sans 400 | 17 / 24 | `body`, `.tagline` | Home subtitle |
@@ -88,13 +88,15 @@ Line heights are exact Figma px ÷ size (`calc(22 / 17)`), never rounded ratios.
 | Label/Strong | Plus Jakarta Sans 600 | 15 / 20 | `.btn-link`, `.choice-title`, `.step-number`, `.choice-badge`, `.title-sm`, `.list-row-value`, `.scale-top .list-row-name`, `.scale-legend` | Behind the results, Not sure — skip, card titles A/B/=, Details card titles, Results closeness / names in the panel / scale legend |
 | Counter | Plus Jakarta Sans 600 | 15 / 22 | `.counter` | progress counter |
 | Label/Medium | Plus Jakarta Sans 500 | 15 / 20 | `.step`, `.list-row-name`, `.list-names-rows`, `.accordion-head` | Home steps, Results names below the panel, names of lists and statement titles in Methodology |
-| Body/Default | Plus Jakarta Sans 400 | 15 / 21 | `.lead`, `.explain`, `.small` | card explanations, intro text, «Based on …», bill details |
+| Body/Default | Plus Jakarta Sans 400 | 15 / 21 | `.lead`, `.explain`, `.small`, `.details-row .list-row-name` | card explanations, intro text, «Based on …», bill details, List details «Closeness to you» (text/tertiary) |
 | Chip | Plus Jakarta Sans 500 | 13 / 20 | `.chip`, `.note` | chips (N statements, 3–5 min), notes |
 | Caption | Plus Jakarta Sans 400 | 13 / 18 | `.choice-sub`, `.xsmall` | «Your answer: …», data version |
 | Caption, Medium (not in Figma) | Plus Jakarta Sans 500 | 13 / 18 | `.or-divider` | «or», «Not ranked: not enough data» (customer 2026-10-23) |
 | Eyebrow | Plus Jakarta Sans 600 | 12 / 16, 0.72 px (6%), upper case | `.eyebrow` | label above the title |
 | — (not in Figma) | Plus Jakarta Sans 800 | 15 / 20 | `.list-row-rank` | Results rank numbers (customer 2026-10-23) |
-| — (not in Figma) | Plus Jakarta Sans 400 italic | 15 / 21 | `.hint` | Results «Tap › for details», text/tertiary (customer 2026-10-23) |
+| — (not in Figma) | Plus Jakarta Sans 800 | 22 / 26 | `.details-row .list-row-value` | List details closeness percent (customer 2026-10-24) |
+| — (not in Figma) | Fraunces 400 | 26 / 32, lines balanced | `.details-title` | List details list name, a 3 px blue line on its left (customer 2026-10-24) |
+| — (not in Figma) | Plus Jakarta Sans 400 italic | 15 / 21 | `.hint`, `.details-caveat` | Results «Tap › for details», List details «This shows …», text/tertiary (customer 2026-10-23, 2026-10-24) |
 
 - **Every text is one of these styles** (check: all screens, computed styles vs this table — 2026-10-22 all match). The
   only exception: bold run-in titles and list labels inside Methodology text (`<strong>`, `<em>`: 600 in Body/Large).
@@ -112,7 +114,8 @@ Home, Question, Clarifying question, Menu). All values in px.
 
 ### General rules
 - Mockup 402×874 pt (iPhone 16/17 Pro). Web: width 100 %, check 360–430 px.
-- Side margins 24 for every block. Exception: burger and close — 44×44 tap area starts at 14 so the 24×24 icon sits at 24.
+- Side margins 24 for every block. Exception: burger, close and Back in the burger's place — 44×44 tap area starts at 14
+  so the 24×24 icon sits at 24.
 - Top: 62 in the mockup = iPhone status bar. Web: `padding-top: calc(env(safe-area-inset-top) + 8px)`. Never hard-code 62.
 - Bottom: 34 in the mockup = home indicator. Web: `padding-bottom: calc(env(safe-area-inset-bottom) + 16px)`.
   Screen height `min-height: 100dvh` (not `100vh`).
@@ -205,7 +208,7 @@ Manual check on real devices (from the sheet):
 - 360 px and 430 px wide — margins stay 24, buttons stretch.
 
 ## Breakpoints — rules for every web screen («версия Б», customer 2026-10-17)
-Applies to **all screens** (Home, Question, Clarifying question, Menu, Results, List details, Bills, Methodology) and
+Applies to **all screens** (Home, Question, Clarifying question, Menu, Results, List details, Methodology) and
 to any new one. Based on Material 3 window size classes. Previous layout = «версия А», snapshot in
 `design-variants/layout-A/` (roll back on request).
 
@@ -258,7 +261,7 @@ starts below ~750 px.
 | Clarifying question | Back · Next | primary, sticky | 28 |
 | Menu | (GitHub / Behance, hidden for now) | drawer — fills its own height, no scroll of the page | — |
 | Results | Change answers · Start over · Methodology | end of a long list, not sticky (customer 2026-10-17) | screen gap 16 |
-| List details, Bills | none (Back link at the top, «Show all» inside the list) | — | — |
+| List details | none (Back in the header, in the menu's place; topics open in place) | — | — |
 | Methodology | none (no Back: the system Back or the menu; «See all» inside the cards) | — | — |
 
 ### Implementation

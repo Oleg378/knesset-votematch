@@ -40,6 +40,8 @@
   --font-size-lg: 1.25rem; /* 20 — Question (Fraunces) 20/22 */
   --font-size-xl: 1.75rem; /* 28 — Title/Medium (Fraunces) 28/34 */
   --font-size-2xl: 2.25rem; /* 36 — Title/Large (Fraunces) 36/42 */
+  --font-size-list-name: 1.625rem; /* 26 — not in Figma: List details list name, Fraunces 26/32 (customer 2026-10-24) */
+  --font-size-closeness: 1.375rem; /* 22 — not in Figma: List details closeness percent, ExtraBold 22/26 (customer 2026-10-24) */
   --font-size-eyebrow: 0.75rem; /* 12 — Eyebrow 12/16 */
   --line-height-title-lg: calc(42 / 36); /* Title/Large */
   --line-height-title-md: calc(34 / 28); /* Title/Medium */
@@ -52,6 +54,8 @@
   --line-height-chip: calc(20 / 13); /* Chip */
   --line-height-caption: calc(18 / 13); /* Caption */
   --line-height-eyebrow: calc(16 / 12); /* Eyebrow */
+  --line-height-list-name: calc(32 / 26); /* List details list name */
+  --line-height-closeness: calc(26 / 22); /* List details closeness percent */
   --letter-spacing-eyebrow: 0.06em; /* Eyebrow: 6 % · 0.72px */
   --letter-spacing-action: -0.43px; /* Action (primary button): −2.5 %; every other style: 0 */
   /* Fraunces axes WONK 1 · SOFT 0 for every Fraunces style are baked into the font file (fonts.css). */
@@ -88,9 +92,12 @@
   --button-height: 56px; /* Button, Action, Round Button */
   --badge-size: 28px;
   --bar-height: 6px; /* progress Track */
+  --title-rule: 3px; /* not in Figma: List details, the blue line left of the list name (customer 2026-10-24) */
+  --bar-height-thin: 4px; /* not in Figma: List details closeness line, under the large percent (customer 2026-10-24) */
   --scale-dot: 10px; /* not in Figma: Results scale, every list — blue and grey the same size (customer 2026-10-23) */
   --chevron: 18px; /* not in Figma: Results «See all» and the arrow at the end of a list row */
   --row-go: 24px; /* not in Figma: Results, the round arrow button at the end of a list row (customer 2026-10-23, it was 20) */
+  --rank-badge-details: var(--badge-size); /* not in Figma: List details, the rank circle a little larger than on Results, 28, so the number has air (customer 2026-10-24) */
   --rank-badge: var(--row-go); /* not in Figma: Results, the rank circle of the closest lists, the arrow button's size, in the 28 px rank column (it was 28) */
   --counter-width: 41px; /* «1/10» */
   --panel-pad-x: 14px; /* «Questions» panel */

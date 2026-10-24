@@ -1,7 +1,7 @@
 /**
  * The flow as a pure state machine (pipeline/quiz_cli.py, the order of questions of pipeline/quiz_flow.py):
  * start → core questions → clarifying questions (chosen one at a time, quiz_flow.next_clarify) → trade-offs (0–flow.trade,
- * adaptive) → results ⇄ details(list) → bills(list, q); «Answer more questions» on results continues clarifying questions
+ * adaptive) → results ⇄ details(list) (the bills open inside it); «Answer more questions» on results continues clarifying questions
  * until the pool ends; methodology from any screen (menu). When a step needs a data file that has not arrived yet, the
  * screen is «wait» and DATA_READY resumes it. State lives in memory only [У 2026-10-17]: nothing is stored.
  * Interaction as in the Figma mockups: an answer is selected, «Next» moves on; trade-offs likewise, with «Back».
@@ -27,8 +27,7 @@ export type BaseScreen =
   | { name: 'wait'; then: 'next' | 'finish' }
   | { name: 'tradeoff'; pair: TradePair }
   | { name: 'results' }
-  | { name: 'details'; list: string }
-  | { name: 'bills'; list: string; q: string };
+  | { name: 'details'; list: string };
 
 export type Screen = BaseScreen | { name: 'methodology'; back: BaseScreen };
 
@@ -56,7 +55,6 @@ export type Action =
   | { type: 'FINISH' }
   | { type: 'TRADE'; choice: TradeChoice }
   | { type: 'OPEN_DETAILS'; list: string }
-  | { type: 'OPEN_BILLS'; q: string }
   | { type: 'CHANGE_ANSWERS' }
   | { type: 'START_OVER' }
   /** Results header «Start over»: clear everything and go straight to the first question, as Start on Home. */
@@ -214,9 +212,6 @@ export function createReducer(src: FlowSources) {
       case 'OPEN_DETAILS':
         return sc.name === 'results' ? { ...s, screen: { name: 'details', list: action.list } } : state;
 
-      case 'OPEN_BILLS':
-        return sc.name === 'details' ? { ...s, screen: { name: 'bills', list: sc.list, q: action.q } } : state;
-
       case 'BACK':
         switch (sc.name) {
           case 'question':
@@ -228,8 +223,6 @@ export function createReducer(src: FlowSources) {
             return src.data ? undoTrade(s, src.data) : state;
           case 'details':
             return { ...s, screen: { name: 'results' } };
-          case 'bills':
-            return { ...s, screen: { name: 'details', list: sc.list } };
           case 'methodology':
             return { ...s, screen: sc.back };
           default:

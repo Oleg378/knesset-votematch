@@ -9,7 +9,7 @@ export interface ScreenProps {
   dispatch: Dispatch<Action>;
 }
 
-/** List details, bills, methodology: they also need quiz_bills. */
+/** List details and methodology: they also need quiz_bills. */
 export interface BillsScreenProps extends ScreenProps {
   bills: QuizBills;
 }
