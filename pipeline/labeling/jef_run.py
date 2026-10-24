@@ -1,9 +1,9 @@
 """Classify bills with TypeSafe Jev ("jef") using local/research/questions.json.
 
 Usage:
-  python3 pipeline/jef_run.py --dry-run          # print one request, no API call
-  python3 pipeline/jef_run.py --gold             # pilot: the 200 gold bills
-  python3 pipeline/jef_run.py --all              # all 11,768 bills
+  python3 pipeline/labeling/jef_run.py --dry-run          # print one request, no API call
+  python3 pipeline/labeling/jef_run.py --gold             # pilot: the 200 gold bills
+  python3 pipeline/labeling/jef_run.py --all              # all 11,768 bills
 Options: --out PATH (default local/research/output/results.jsonl), --limit N, --concurrency N.
 
 API key: TYPESAFE_API_KEY from the environment or from .env in the repo root (git-ignored).
@@ -13,7 +13,8 @@ Pricing (docs.typesafe.ai/models, jev-1.13): $0.042 per million input tokens, ou
 import argparse, asyncio, csv, json, os, sys
 from typesafe_sdk import AsyncTypeSafeClient, Choice, Noul
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path[:0] = [os.path.join(ROOT, 'pipeline'), os.path.join(ROOT, 'pipeline/fetch')]   # labels.py, bill_texts.py
 USD_PER_INPUT_TOKEN = 0.042 / 1_000_000
 BILL_TYPE_EN = {"ממשלתית": "government bill", "פרטית": "private member's bill", "ועדה": "committee bill"}
 

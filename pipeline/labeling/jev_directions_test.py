@@ -3,13 +3,13 @@
   2. side: for directions with applicability >= APPLIES, a 3-level scale (− / no change / +) with the direction's own «+» and «−».
 State: Hebrew title + explanatory notes (first NOTES_CHARS). Directions are passed as written (Russian).
 
-Usage: python3 pipeline/jev_directions_test.py sample N   -> local/jef/directions/jev_test/bills.json
-       python3 pipeline/jev_directions_test.py run        -> local/jef/directions/jev_test/out.json   (test 1: 374 directions, Russian)
-       python3 pipeline/jev_directions_test.py run2       -> local/jef/directions/jev_test2/out.json  (test 2: 255 final directions, English,
+Usage: python3 pipeline/labeling/jev_directions_test.py sample N   -> local/jef/directions/jev_test/bills.json
+       python3 pipeline/labeling/jev_directions_test.py run        -> local/jef/directions/jev_test/out.json   (test 1: 374 directions, Russian)
+       python3 pipeline/labeling/jev_directions_test.py run2       -> local/jef/directions/jev_test2/out.json  (test 2: 255 final directions, English,
                                                             plus one question whether the bill moves something outside the list)
-       python3 pipeline/jev_directions_test.py pool3 N    -> ids of N fresh candidate bills (outside the discovery sample) for test 3
-       python3 pipeline/jev_directions_test.py sample3 N  -> local/jef/directions/jev_test3/bills.json (first N candidates with notes)
-       python3 pipeline/jev_directions_test.py run3       -> local/jef/directions/jev_test3/out.json  (255 directions; side asked from 0.3)
+       python3 pipeline/labeling/jev_directions_test.py pool3 N    -> ids of N fresh candidate bills (outside the discovery sample) for test 3
+       python3 pipeline/labeling/jev_directions_test.py sample3 N  -> local/jef/directions/jev_test3/bills.json (first N candidates with notes)
+       python3 pipeline/labeling/jev_directions_test.py run3       -> local/jef/directions/jev_test3/out.json  (255 directions; side asked from 0.3)
        pool4 / sample4 / run4 — the same for test 4 (government bills only) in local/jef/directions/jev_test4/
        pool5 N / sample5 N / run5 — test 5: N government + N private fresh bills in local/jef/directions/jev_test5/
        pool6 N / sample6 N / run6 — test 6, the same, excluding the pools of tests 3-5 (and 7: pool7 / sample7 / run7)

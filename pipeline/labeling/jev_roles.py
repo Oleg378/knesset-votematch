@@ -2,8 +2,8 @@
 Gold: expert roles (primary / secondary / tertiary; not applicable; borderline) for the 40 bills of jev_test3 and jev_test4.
 Candidates: directions with applies >= 0.3 in the existing Jev runs. Dev half: 10 private + 10 government; holdout: the rest.
 
-Usage: python3 pipeline/jev_roles.py run ITER [--holdout]   -> local/jef/directions/jev_roles/iter_ITER[_holdout].json + metrics
-       python3 pipeline/jev_roles.py recompute ITER SRC [--holdout]  -> iteration ITER from the saved answers of SRC (same prompt, new rule)
+Usage: python3 pipeline/labeling/jev_roles.py run ITER [--holdout]   -> local/jef/directions/jev_roles/iter_ITER[_holdout].json + metrics
+       python3 pipeline/labeling/jev_roles.py recompute ITER SRC [--holdout]  -> iteration ITER from the saved answers of SRC (same prompt, new rule)
        --fresh: test 5 (local/jef/directions/jev_test5, results in jev_roles/fresh/): run 1, run 2, recompute current 2
 Each iteration is a function PROMPTS[ITER] -> (questions for one bill, selection rule). Documented in local/jef/directions/jev_roles/EXPERIMENT.md.
 """

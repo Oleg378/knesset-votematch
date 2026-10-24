@@ -10,9 +10,9 @@ Per vote «סעיף N» / «סעיפים N–M»:
   - Jev input: title = package name — chapter — section headings; notes = the matched windows; section text (3,000 chars).
 Reservations (הסתייגות) and votes whose sections are not in the final text are skipped and listed.
 
-Usage: python3 pipeline/jev_packages.py build          -> jef/directions/labels/packages_input.jsonl (no Jev)
-       python3 pipeline/jev_packages.py label [N]      -> jef/directions/labels/packages.jsonl (resumable; N = first N only)
-       python3 pipeline/jev_packages.py whole          -> jef/directions/labels/packages_whole.jsonl
+Usage: python3 pipeline/labeling/jev_packages.py build          -> jef/directions/labels/packages_input.jsonl (no Jev)
+       python3 pipeline/labeling/jev_packages.py label [N]      -> jef/directions/labels/packages.jsonl (resumable; N = first N only)
+       python3 pipeline/labeling/jev_packages.py whole          -> jef/directions/labels/packages_whole.jsonl
 Jev labels of sections were rejected after the spot check (SU 23a); sections are labeled by an Opus agent
 (local/jef/directions/pkg_agent/ -> labels/packages_agent.jsonl). «whole» (customer decision B, 2026-10-13): topics of the votes on
 a whole package (first and third reading) = the main topics of its sections; the sign is the common sign of that topic

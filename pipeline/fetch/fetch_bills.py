@@ -2,7 +2,8 @@
 import json, os, sys
 from odata4 import fetch_keyset
 
-OUT = "../data/bills"
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+OUT = os.path.join(ROOT, "data/bills")
 os.makedirs(OUT, exist_ok=True)
 
 def save(name, rows):

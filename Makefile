@@ -1,4 +1,4 @@
-# Data: knesset.duckdb and data/ are not in git (rebuilt by pipeline/fetch_* and pipeline/build/build.py, Israeli IP needed).
+# Data: knesset.duckdb and data/ are not in git (rebuilt by pipeline/fetch/ and pipeline/build/build.py, Israeli IP needed).
 .PHONY: data positions export test web-dev web-build
 
 check:                    ## invariants of the quiz data (run after every stage and before release)

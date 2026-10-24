@@ -8,7 +8,7 @@ import csv, json, os, sys, random
 import pandas as pd, duckdb
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, f"{ROOT}/pipeline"); import labels as LB
-N = 3000   # pipeline/jev_label.py: Hebrew title + first 3,000 characters of the notes
+N = 3000   # pipeline/labeling/jev_label.py: Hebrew title + first 3,000 characters of the notes
 plan = LB.load()["split_plan"]["new"]
 D = {r["n"]: (r["name_en"], r["plus"], r["minus"]) for r in csv.DictReader(open(f"{ROOT}/jef/directions/DIRECTIONS_LIST.csv"))}
 for k, v in plan.items(): D[k] = (v["name_en"], v.get("plus_en", ""), v.get("minus_en", ""))

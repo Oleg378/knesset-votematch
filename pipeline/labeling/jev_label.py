@@ -8,8 +8,8 @@ Per bill (Hebrew title + first 3,000 characters of the explanatory notes):
   selection: main #1 = top choice, main #2 if >= 0.5 of #1; secondary: applies >= 0.7 and role Main/Secondary, by applies, up to 5;
   sign: side < 0.7 "−", > 1.3 "+"; in between: increase / decrease questions, the side with p >= 0.5 and higher, else unknown.
 
-Usage: python3 pipeline/jev_label.py BATCH            -> jef/directions/labels/batch_BATCH.jsonl (resumable)
-       python3 pipeline/jev_label.py ids BATCH        -> bill ids of the batch (for bill_texts.py --file)
+Usage: python3 pipeline/labeling/jev_label.py BATCH            -> jef/directions/labels/batch_BATCH.jsonl (resumable)
+       python3 pipeline/labeling/jev_label.py ids BATCH        -> bill ids of the batch (for bill_texts.py --file)
 Order: labels/full_order.csv — the 1,500 bills of the discovery sample first, then all other bills shuffled (seed 20261013).
 Batch N = positions (N-1)*1000+1 .. N*1000. Texts must be downloaded first (bill_texts.py, Israeli IP).
 """

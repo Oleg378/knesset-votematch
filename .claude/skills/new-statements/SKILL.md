@@ -19,7 +19,7 @@ Input: themes that pass `quiz_select.py`, are not remainders / technical, have n
    - technical → registry `technical`;
    - basket → `split-themes`; parts that pass come back here; if no part reaches 5 names → registry `basket`;
    - clean → step 3. A customer decision overrides the agents (e.g. conversion therapy for minors is a separate question).
-3. **Draft** — `prompts/draft.md` (rules: `jef/quiz/GUIDELINES.md`), one agent per ~20 themes. A theme that takes over a statement
+3. **Draft** — `prompts/draft.md` (rules: `rules.md` of this skill), one agent per ~20 themes. A theme that takes over a statement
    (rule (б)) is marked MOVE with the old text. `no_statement` → registry.
 4. **Standard audit** — `DRAFTS=... TAG=roundN PARTS=k python3 tools/statement_audit.py build`, `prompts/audit.md`:
    keep / rewrite (broader text) / split (→ `split-themes`, parts back to step 2) / unsuitable.

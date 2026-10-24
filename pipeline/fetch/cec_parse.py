@@ -4,7 +4,7 @@ party (the party within a joint list the candidate runs for), url.
 """
 import csv, os, re
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 RAW = os.path.join(ROOT, "manual/cec_pages")
 
 def parse(path, letters, list_name):

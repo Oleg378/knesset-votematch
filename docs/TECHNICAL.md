@@ -6,9 +6,9 @@ _Реализация и числа. Концепция — [METHODOLOGY.md](MET
 
 | Шаг | Скрипты | Вход → выход |
 |---|---|---|
-| 1. Выгрузка | `pipeline/export_votes.py`, `fetch_bills.py`, `bill_texts.py` (OData Кнессета, только с израильского IP); `cec_parse.py`, `cec_match.py` (списки ЦИК) | `data/` (не в git), `manual/` (ручные таблицы, в git) |
+| 1. Выгрузка | `pipeline/fetch/`: `export_votes.py`, `fetch_bills.py`, `bill_texts.py` (OData Кнессета, только с израильского IP); `cec_parse.py` (сохранённые страницы ЦИК — `manual/cec_pages/`), `cec_match.py` | `data/` (не в git), `manual/` (ручные таблицы, в git) |
 | 2. База | `pipeline/build/build.py` (`10_staging.sql`, `30_vote_attrs.sql`) | `knesset.duckdb` — голоса, законопроекты, инициаторы, фракции, признаки голосований; пересобирается за секунды |
-| 3. Метки | `pipeline/labels.py` собирает слои: разметка Jev → стадии разделения тем (`jef/directions/split/planN.json` + `labels/splitN_choice.jsonl`, список `LATER`, только добавление) → `overrides.json` (labels, remove, flip, add) → `nested_removals.json` | метки «законопроект → тема, знак, роль» |
+| 3. Метки | разметка Jev — `pipeline/labeling/` (`jev_label.py`, `jev_packages.py`, `jev_split.py`, `jev_relevance.py`); `pipeline/labels.py` собирает слои: разметка Jev → стадии разделения тем (`jef/directions/split/planN.json` + `labels/splitN_choice.jsonl`, список `LATER`, только добавление) → `overrides.json` (labels, remove, flip, add) → `nested_removals.json` | метки «законопроект → тема, знак, роль» |
 | 4. Позиции | `pipeline/positions.py` | `jef/positions/*.csv` (депутат × тема, список × тема, голоса, покрытие, слой правительства) + `README.md` |
 | 5. Квиз | `quiz_select.py` (критерии отбора), `quiz_match.py` (близость, размены), `quiz_flow.py` (порядок вопросов), `quiz_report.py` (пояснения), `quiz_cli.py` (терминальный квиз — референс UX) | `jef/quiz/statements.csv`, `statement_meta.csv` |
 | 6. Экспорт | `pipeline/export.py` (`make data` = позиции + экспорт) | `export/` — три JSON, схема, эталонные случаи |
@@ -88,7 +88,7 @@ P = A + 0,25·V + 0,25·O + 0,25·G; отсутствующая компонен
 
 ## 8. Утверждения
 
-`jef/quiz/statements.csv`: `q` (номер, стабильный, с пропусками), `d` (тема), `title_en`, `statement_en`, `agree_key` («+»/«−»: согласие сдвигает тему в эту сторону), `status` (`ok`/`removed`), `change` (датированная история правок), русский черновик `statement`. Правила текста — `jef/quiz/GUIDELINES.md`; процедура появления и проверки — навык `new-statements`.
+`jef/quiz/statements.csv`: `q` (номер, стабильный, с пропусками), `d` (тема), `title_en`, `statement_en`, `agree_key` («+»/«−»: согласие сдвигает тему в эту сторону), `status` (`ok`/`removed`), `change` (датированная история правок), русский черновик `statement`. Правила текста — `.claude/skills/new-statements/rules.md`; процедура появления и проверки — навык `new-statements`.
 
 ## 9. Сопоставление ответов со списками (`quiz_match.py`)
 

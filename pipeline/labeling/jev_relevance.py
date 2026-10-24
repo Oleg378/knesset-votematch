@@ -7,9 +7,9 @@ input as the mass labeling (Hebrew title + first 3,000 characters of the notes):
 statement(s) of this direction? The answer probability is stored; the threshold and what it filters (votes only, or also
 authorship) are decided after the pilot.
 
-Usage: python3 pipeline/jev_relevance.py --pilot     -> jef/directions/relevance/pilot_<QV>.jsonl (8 known cases, 30 random voted
+Usage: python3 pipeline/labeling/jev_relevance.py --pilot     -> jef/directions/relevance/pilot_<QV>.jsonl (8 known cases, 30 random voted
                                                         pairs, 42 random pairs of any kind; gold labels: pilot_gold.csv)
-       python3 pipeline/jev_relevance.py [--votes] [N] -> jef/directions/relevance/relevance.jsonl (resumable; --votes: only pairs
+       python3 pipeline/labeling/jev_relevance.py [--votes] [N] -> jef/directions/relevance/relevance.jsonl (resumable; --votes: only pairs
                                                         with private-bill votes; N = first N pairs)
 """
 import asyncio, csv, json, os, random, sys

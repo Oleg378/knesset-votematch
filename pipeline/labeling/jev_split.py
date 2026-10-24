@@ -13,8 +13,8 @@ from the effective labels (pipeline/labels.py after stage 1 and the overrides); 
 --choice; every sub-direction keeps the parent's orientation, so the bill keeps the parent's sign (no sign questions).
 -> jef/directions/labels/split2_choice.jsonl, split3_choice.jsonl.
 
-Usage: python3 pipeline/jev_split.py [N]            -> jef/directions/labels/split_relabel.jsonl (resumable; N = first N pairs only)
-       python3 pipeline/jev_split.py --choice [N]   -> split_choice.jsonl: variant (a), approved 2026-10-16. The bill already
+Usage: python3 pipeline/labeling/jev_split.py [N]            -> jef/directions/labels/split_relabel.jsonl (resumable; N = first N pairs only)
+       python3 pipeline/labeling/jev_split.py --choice [N]   -> split_choice.jsonl: variant (a), approved 2026-10-16. The bill already
          belongs to the parent direction, so one choice question picks which candidate describes it best (plus «none of these»);
          assigned: the top choice unless it is «none», and the second if its probability >= 0.5 of the top (the main-topic rule
          of CURRENT_SCHEME.md); sign by the side score from split_relabel.jsonl, middle scores re-asked (increase/decrease).

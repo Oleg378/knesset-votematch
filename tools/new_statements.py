@@ -12,7 +12,7 @@ import duckdb, pandas as pd
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "local/research/new_statements"); os.makedirs(OUT, exist_ok=True)
-sys.path.insert(0, os.path.join(ROOT, "pipeline"))
+sys.path.insert(0, os.path.join(ROOT, "pipeline")); sys.path.insert(0, os.path.join(ROOT, "pipeline/labeling"))
 import labels, quiz_select as qs
 import jev_directions_test as j
 

@@ -43,7 +43,7 @@ def source_commit():
     return git("rev-parse", "--short", "HEAD").strip() + ("+dirty" if dirty else "")
 
 def fetched():
-    """The day the Knesset bill tables were last downloaded (pipeline/fetch_bills.py writes data/bills/bill.json): the date the
+    """The day the Knesset bill tables were last downloaded (pipeline/fetch/fetch_bills.py writes data/bills/bill.json): the date the
     site shows as the data's date (customer 2026-10-24), not the day of this export."""
     return datetime.date.fromtimestamp(os.path.getmtime(os.path.join(ROOT, "data/bills/bill.json"))).isoformat()
 

@@ -12,7 +12,7 @@ import glob, json, os
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LAB = os.path.join(ROOT, "jef/directions/labels")
 SGN = {'+': 1, '−': -1, '-': -1}
-REL_FILE = os.path.join(ROOT, "jef/directions/relevance/relevance_q2.jsonl")   # pipeline/jev_relevance.py
+REL_FILE = os.path.join(ROOT, "jef/directions/relevance/relevance_q2.jsonl")   # pipeline/labeling/jev_relevance.py
 REL_T = None   # threshold of «the bill is about the statement's issue»; None = filter off: not accepted by the customer
                # (SU 27.3, 2026-10-17 evening) [О]; options and tests: local/research/relevance_impact/, local/jef/directions/relevance/pilot_gold.csv
 

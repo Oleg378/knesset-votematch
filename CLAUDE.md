@@ -38,11 +38,12 @@ to WORKLOG naming it and fix every reference (`grep` the old name); research not
 ## Structure
 | Path | What |
 |---|---|
-| `pipeline/` | Python: fetch (OData, CEC), `build/` → `knesset.duckdb`, Jev labeling, positions, quiz selection/matching, **export** |
+| `pipeline/` | Python: the production chain (labels, positions, quiz selection/matching, **export**, checks); `fetch/` (OData, CEC), `build/` → `knesset.duckdb`, `labeling/` (Jev runs) |
+| `tools/` | Scripts the skills run (label-check, nested-themes, new-statements, split-themes); results go to `local/research/<tag>/` |
 | `web/` | Front end: React + Vite + TypeScript static SPA. Reads only `export/` |
 | `export/` | **The data contract** (in git): `quiz_core / quiz_data / quiz_bills.json`, one schema, `golden.json`, `stats.json` (current numbers), `WEB_CONTRACT.md`; `quiz_texts.json` (every text of the site, edited by hand; read by the web and by the Python reference) with its own schema |
-| `jef/` | Production data: directions and labels (`jef/directions/`), theme registry (`jef/directions/registry.csv`), positions (`jef/positions/`), statements (`jef/quiz/`) |
-| `manual/` | Tables kept by hand: CEC lists and candidates, candidate ↔ MK matching, English MK names |
+| `jef/` | Production data: directions and labels (`jef/directions/`), theme registry (`jef/directions/registry.csv`), positions (`jef/positions/`), statements (`jef/quiz/`); the labeling runs that produced it — `pipeline/labeling/` |
+| `manual/` | Tables kept by hand: CEC lists and candidates, candidate ↔ MK matching, English MK names; `cec_pages/` — the saved CEC pages they were parsed from |
 | `local/` | Research behind the decisions: experiments, checks, early approaches (`local/README.md`). Not in git, stays on the customer's machine; decisions point to it by path (`statements.csv` «change», `registry.csv` «source», `overrides.json`, WORKLOG). **Not production**: nothing imports from it |
 | `docs/` | Methodology, decisions, audits (Russian — the working language) |
 | `data/`, `knesset.duckdb` | Raw downloads and the database. Not in git |
