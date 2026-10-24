@@ -53,6 +53,7 @@ Source of truth for colors and text styles: https://www.figma.com/design/TTgHWki
 | Brand / Primary | `#0038B8` | `--color-accent` | Next / Start the quiz, selected answer, links, eyebrow, menu icons, counter |
 | Brand / Disabled | `#B3C3EC` | `--color-accent-disabled` | Next while no answer is selected |
 | Brand / Tint 10% | `#0038B8` @ 10% | `--color-accent-soft` | question panel, chips, steps card, letter badges, back button, progress track, line under the menu title* |
+| — (Brand / Tint 10% as one solid colour) | `#E5EBF8` | `--color-page-tint` | page around the card in card mode, also past its ends when scrolled beyond them (not in Figma, customer 2026-10-24) |
 | Brand / Line 20% | `#0038B8` @ 20% | `--color-border` | «or» dividers |
 | Surface / Default | `#FFFFFF` | `--color-bg`, `--color-surface` | screens, answer buttons, cards A/B/= |
 | Surface / Subtle | `#F5F7FC` | `--color-surface-subtle` | in Figma only the Answer card kit background |
@@ -280,7 +281,7 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
 - **`.panel` has no gap**: spacing inside the question card comes from its blocks (statement padding 8 8 24, «or»
   padding-top 8, 44 px skip link). In the clarifying card «or» gets `padding-block: 4px` inside the 8 px card stack → 12 / 12.
 - **Menu line** under «Vote Match»: Tint 10 % (`--color-accent-soft`), as in the Menu frame.
-- **Card mode (see «Breakpoints»):** page background Brand / Tint 10 %, the 480 px column is a white card (radius 32,
+- **Card mode (see «Breakpoints»):** page background Brand / Tint 10 % as a solid colour (`--color-page-tint`: past the page's ends the browser draws only the background colour), the 480 px column is a white card (radius 32,
   soft shadow, margins 16–32); the menu opens inside the card (see «04 · Menu»). The card's top is
   `max(gap, (100dvh − 812) / 2)` on every screen (not flex-centred: a long screen would start higher and the header jump);
   `overflow: clip` keeps the pinned header's corners inside the radius (never `hidden` — it breaks sticky). No Figma frame — customer chose this variant (C) from

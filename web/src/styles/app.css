@@ -95,8 +95,11 @@ button {
    is a white card on the brand tint, so the window is not empty around it (customer 2026-10-17, variant C). Below
    either point — phones, phones in landscape, strong zoom — the plain phone layout. */
 @media (min-width: 600px) and (min-height: 480px) {
+  /* Brand / Tint 10% as a solid colour, not the translucent tint over white: past the page's ends (the browser's overscroll,
+     scrolling up or down beyond the content) only the background colour is drawn, so the tint over white left white strips
+     there (customer 2026-10-24) */
   body {
-    background: linear-gradient(var(--color-accent-soft), var(--color-accent-soft)), var(--color-bg); /* Brand / Tint 10% */
+    background: var(--color-page-tint);
   }
 
   /* The card keeps the phone proportions: the Figma screen height, never stretched to a tall window (it is centred).

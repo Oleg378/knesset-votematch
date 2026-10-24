@@ -18,6 +18,7 @@
   --color-accent: #0038b8; /* brand/primary */
   --color-accent-text: #ffffff; /* text/on-primary */
   --color-accent-soft: rgba(0, 56, 184, 0.1); /* Brand / Tint 10%: panels, chips, progress track, letter badge, menu line */
+  --color-page-tint: #e5ebf8; /* Brand / Tint 10% as one solid colour (#0038B8 @ 10% over white, as browsers draw it): the page around the card, so the overscroll past the page's top and bottom keeps it */
   --color-accent-disabled: #b3c3ec; /* brand/disabled */
   --color-positive: #0038b8; /* not in Figma: closeness bar > 0 uses brand */
   --color-negative: #595e6b; /* not in Figma: closeness bar < 0 uses text/secondary (text/tertiary is under 3:1 on the track) */
