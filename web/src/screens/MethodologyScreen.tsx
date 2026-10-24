@@ -1,4 +1,5 @@
-import { useId, useState, type ReactNode } from 'react';
+import { useEffect, useId, useLayoutEffect, useRef, useState, type ReactNode } from 'react';
+import { flushSync } from 'react-dom';
 import { Accordion } from '../components/Accordion';
 import { Button } from '../components/Button';
 import { DropDown } from '../components/DropDown';
@@ -7,7 +8,7 @@ import { HebrewTitle } from '../components/HebrewTitle';
 import { billUrl } from '../engine/report';
 import type { BillRef, QuizBills, QuizData, Statement } from '../engine/types';
 import { dataValues, fill, listsOf, T, type Texts } from '../texts';
-import { CARD_COLLAPSE_OVER, CARD_PREVIEW } from '../uiConstants';
+import { CARD_MAX_HEIGHT } from '../uiConstants';
 import type { BillsScreenProps } from './types';
 
 const PAGE = 20;
@@ -94,24 +95,66 @@ function renderItems(items: Item[], namesLabel: string): ReactNode[] {
   });
 }
 
+const px = (el: Element, name: string) => parseFloat(getComputedStyle(el).getPropertyValue(name)) || 0;
+
+/**
+ * How many items of a card to show (all of them: open, no button): its content measured as drawn in full — the title
+ * with the text (the card's first child), then every item (a list's children, or a paragraph), the card's gap between
+ * them. Over CARD_MAX_HEIGHT: as many whole items as fit with «See all» under them (4 + its 44), at least one.
+ */
+function fitItems(card: HTMLElement): number {
+  const [head, ...blocks] = Array.from(card.children) as HTMLElement[];
+  const items = blocks.flatMap((b) => (b.matches('ul, .method-rows') ? Array.from(b.children) as HTMLElement[] : [b]));
+  const gap = parseFloat(getComputedStyle(card).rowGap) || 0;
+  const heights = items.map((el) => el.getBoundingClientRect().height);
+  let total = head ? head.getBoundingClientRect().height : 0;
+  for (const h of heights) total += gap + h;
+  if (total <= CARD_MAX_HEIGHT) return items.length;
+  const seeAll = px(document.documentElement, '--space-1') + px(document.documentElement, '--tap-min');
+  let used = head ? head.getBoundingClientRect().height : 0;
+  let n = 0;
+  while (n < heights.length && used + gap + heights[n]! + seeAll <= CARD_MAX_HEIGHT) used += gap + heights[n++]!;
+  return Math.max(n, 1);
+}
+
 /**
  * A card of the page (the panel of the question card; customer 2026-10-24): its title (with the text, for a section),
- * then its items. One rule for every card (uiConstants.ts): with more than CARD_COLLAPSE_OVER items only the first
- * CARD_PREVIEW are shown, the rest drop down inside the card with «See all», «Show less» at their end
- * (DropDown.tsx: it scrolls back to the title, then closes).
+ * then its items. One rule for every card, by height (uiConstants.ts, CARD_MAX_HEIGHT): the card is first drawn in full
+ * and measured before the paint (no flash), then shows all, or the items that fit and «See all» — the rest drop down
+ * inside the card, «Show less» at their end (DropDown.tsx: it scrolls back to the title, then closes). Measured again
+ * when the card's width changes while it is closed; an open card stays open.
  */
 function MethodCard({ head, items, namesLabel }: { head: (id: string) => ReactNode; items: Item[];
   namesLabel?: string }) {
   const id = useId();
-  const fold = items.length > CARD_COLLAPSE_OVER;
+  const ref = useRef<HTMLDivElement>(null);
+  const open = useRef(false);
+  const [shown, setShown] = useState<number | null>(null); // null: drawn in full, to be measured
+  useLayoutEffect(() => {
+    if (shown === null && ref.current) setShown(fitItems(ref.current));
+  }, [shown]);
+  useEffect(() => {
+    const card = ref.current;
+    if (!card || typeof ResizeObserver === 'undefined') return;
+    let width = card.clientWidth;
+    const observer = new ResizeObserver(() => {
+      if (card.clientWidth === width || open.current) return;
+      width = card.clientWidth;
+      flushSync(() => setShown(null)); // before the paint: drawn in full, measured, settled
+    });
+    observer.observe(card);
+    return () => observer.disconnect();
+  }, []);
   const label = namesLabel ?? id;
+  const fold = shown !== null && shown < items.length;
   return (
-    <div className="panel method-card">
+    <div className="panel method-card" ref={ref}>
       {head(id)}
-      {renderItems(fold ? items.slice(0, CARD_PREVIEW) : items, label)}
+      {renderItems(fold ? items.slice(0, shown) : items, label)}
       {fold && (
-        <DropDown backTo={id} className="fold" dropClassName="fold-body">
-          {() => renderItems(items.slice(CARD_PREVIEW), label)}
+        <DropDown backTo={id} className="fold" dropClassName="fold-body"
+          onOpenChange={(o) => { open.current = o; }}>
+          {() => renderItems(items.slice(shown), label)}
         </DropDown>
       )}
     </div>
@@ -148,7 +191,7 @@ function MethodSection({ data, s, v }: { data: QuizData; s: Section; v: ReturnTy
  * Every text here comes from `methodology` in quiz_texts.json (export/WEB_CONTRACT.md §7): the heading, the sections
  * (each a card: bold run-in title, text, bullets with an italic lead, the names of some lists, a closing paragraph)
  * and the labels of the statements block (a card too: its title in the same style, then a row per statement). Long
- * cards collapse by one rule (MethodCard). The numbers are filled from quiz_data (texts.ts).
+ * cards collapse by one rule, by height (MethodCard). The numbers are filled from quiz_data (texts.ts).
  */
 export function MethodologyScreen({ data, bills, dispatch }: BillsScreenProps) {
   const methodology = T.methodology;

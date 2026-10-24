@@ -211,10 +211,11 @@ file: any other name, or a stray brace, fails the schema. A key not listed below
   `no_record` (status `not_evaluated`) or `single` (evaluated, `ex_mks < params.MIN_EX_MKS`) — in the order of `data.lists`, on
   white bands; `title` (`{n}` = their count) is an optional line above them (today the names card has none: its `text` says it).
 - Every section is a card (the tinted panel of the question card); the statements block is the last card, same title style.
-- Collapsing is the web's rule, one for every card, not a field of the file: a card whose content has more than
-  `CARD_COLLAPSE_OVER` items (4; `web/src/uiConstants.ts`) shows its title, text and the first `CARD_PREVIEW` items (3), then
-  «See all» (`results.seeAll`); the rest drops down inside the card, «Show less» (`results.seeLess`) at the end. Items are a
-  section's bullets (+ `after`), a lists card's names, the statements card's rows.
+- Collapsing is the web's rule, one for every card, not a field of the file, and it goes by height so that every collapsed card
+  is about the same height: a card whose content (title, text, items) at the current width is taller than `CARD_MAX_HEIGHT`
+  (`web/src/uiConstants.ts`) shows its title, text and as many whole items as fit under that height together with «See all»
+  (`results.seeAll`); the rest drops down inside the card, «Show less» (`results.seeLess`) at the end. Items are a section's
+  bullets (+ `after`), a lists card's names, the statements card's rows; an item is never cut in the middle.
 - `statements`: the labels of the block «All N statements, their topics and the bills behind them» — `heading`, `topic`, `up`,
   `down`, `agreeCountsUp`, `agreeCountsDown`, `billsCount`, `billMeta`, `sideUp`, `sideDown`, `roleMain`, `roleSecondary`,
   `sponsors`, `noSponsors`, `showMore`, `billLink`, `dataVersion`.

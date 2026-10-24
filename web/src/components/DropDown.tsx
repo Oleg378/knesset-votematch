@@ -11,6 +11,8 @@ interface Props {
   /** Class of the block (its «See all», the content and the lid) and of the content. */
   className: string;
   dropClassName: string;
+  /** Told when the content has opened (true) and when it has closed, after the motion (false). */
+  onOpenChange?: (open: boolean) => void;
 }
 
 /**
@@ -20,7 +22,7 @@ interface Props {
  * end of the content first scrolls back to `backTo`, then closes it; while it closes, a lid with «See all» stands under
  * it where the button will be, and the focus returns to «See all» at the end. Reduced motion or no layout: at once.
  */
-export function DropDown({ backTo, children, className, dropClassName }: Props) {
+export function DropDown({ backTo, children, className, dropClassName, onOpenChange }: Props) {
   const id = useId();
   const [all, setAll] = useState(false);
   const [closing, setClosing] = useState(false);
@@ -29,6 +31,7 @@ export function DropDown({ backTo, children, className, dropClassName }: Props) 
   const showAll = (on: boolean) => {
     if (on) {
       flushSync(() => setAll(true));
+      onOpenChange?.(true);
       if (drop.current) expand(drop.current);
       drop.current?.focus({ preventScroll: true });
       return;
@@ -39,6 +42,7 @@ export function DropDown({ backTo, children, className, dropClassName }: Props) 
     if (!content || !back) {
       flushSync(() => setAll(false));
       toggle.current?.focus();
+      onOpenChange?.(false);
       return;
     }
     flushSync(() => setClosing(true));
@@ -48,6 +52,7 @@ export function DropDown({ backTo, children, className, dropClassName }: Props) 
         setAll(false);
       });
       toggle.current?.focus({ preventScroll: true });
+      onOpenChange?.(false);
     }));
   };
   return (

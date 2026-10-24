@@ -14,7 +14,7 @@ import type { Answers } from '../engine/types';
 import { S } from '../strings';
 import { bills, core, data, loaded } from '../testSources';
 import { dataValues, fill, listsOf, T } from '../texts';
-import { CARD_COLLAPSE_OVER, CARD_PREVIEW, HIGHLIGHT } from '../uiConstants';
+import { CARD_MAX_HEIGHT, HIGHLIGHT } from '../uiConstants';
 
 const methodology = T.methodology;
 
@@ -132,8 +132,25 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
     render(<App loader={loaded()} />);
     click(S.start.howItWorks);
   };
+  // jsdom has no layout: a card's title with its text is `head` px high, every item `item` px, no gaps and no tokens
+  // (no CSS) — so a card fits ⌊(CARD_MAX_HEIGHT − head) / item⌋ items with «See all», at least one
+  const size = { head: 80, item: 60 };
+  const fits = (n: number) => size.head + n * size.item <= CARD_MAX_HEIGHT
+    ? n : Math.max(1, Math.floor((CARD_MAX_HEIGHT - size.head) / size.item));
+  beforeEach(() => {
+    size.head = 80;
+    size.item = 60;
+    vi.spyOn(HTMLElement.prototype, 'getBoundingClientRect').mockImplementation(function (this: HTMLElement) {
+      const parent = this.parentElement;
+      const height = parent?.classList.contains('method-card') && this === parent.firstElementChild ? size.head
+        : this.matches('.method-bullets > li, .list-names-rows > li, .method-rows > .accordion, .method-card > p')
+          ? size.item : 0;
+      return { x: 0, y: 0, top: 0, left: 0, right: 0, bottom: height, width: 0, height, toJSON: () => ({}) } as DOMRect;
+    });
+  });
+  afterEach(() => vi.restoreAllMocks());
 
-  it('every section is a card: a long one (more than CARD_COLLAPSE_OVER items) shows its first CARD_PREVIEW and «See all», a short one all', () => {
+  it('every section is a card: a tall one shows the whole items that fit in CARD_MAX_HEIGHT and «See all», a short one all', () => {
     open();
     screen.getByRole('heading', { name: methodology.heading });
     const long: string[] = [];
@@ -142,9 +159,9 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
       expect(card).not.toBeNull();
       if (s.text !== undefined) expect(card.querySelector('p')!.textContent).toBe(`${s.title} ${fill(s.text, v)}`);
       const items = itemsOf(s);
-      const fold = items.length > CARD_COLLAPSE_OVER;
+      const fold = fits(items.length) < items.length;
       if (fold) long.push(s.title);
-      items.forEach((text, i) => expect([text, has(card, text)]).toEqual([text, !fold || i < CARD_PREVIEW]));
+      items.forEach((text, i) => expect([text, has(card, text)]).toEqual([text, i < fits(items.length)]));
       expect(within(card).queryAllByRole('button').map((b) => b.textContent)).toEqual(fold ? [S.results.seeAll] : []);
     }
     expect(long).toEqual(['Lists without a record.', 'Limitations — what this quiz can and cannot tell you.',
@@ -155,8 +172,8 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
     const heading = screen.getByRole('heading', { level: 2, name: statementsHeading });
     expect(heading.className).toBe('method-title');
     const statements = heading.closest('.panel') as HTMLElement;
-    expect(data.statements.length).toBeGreaterThan(CARD_COLLAPSE_OVER);
-    expect(rowsIn(statements)).toBe(CARD_PREVIEW);
+    expect(fits(data.statements.length)).toBeLessThan(data.statements.length);
+    expect(rowsIn(statements)).toBe(fits(data.statements.length));
     within(statements).getByRole('button', { name: data.statements[0]!.title_en });
     within(statements).getByRole('button', { name: S.results.seeAll });
     const dataLine = screen.getByText(fill(methodology.statements.dataVersion, { generated: data.generated, commit: data.source_commit }));
@@ -167,7 +184,7 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
 
   it('a long card: «See all» drops the rest down in the card, «Show less» at its end closes it again', () => {
     open();
-    for (const s of methodology.sections.filter((x) => itemsOf(x).length > CARD_COLLAPSE_OVER)) {
+    for (const s of methodology.sections.filter((x) => fits(itemsOf(x).length) < itemsOf(x).length)) {
       const card = cardOf(s.title);
       const items = itemsOf(s);
       const more = within(card).getByRole('button', { name: S.results.seeAll });
@@ -180,7 +197,7 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
       const drop = document.getElementById(less.getAttribute('aria-controls')!)!;
       expect(drop.lastElementChild!.contains(less)).toBe(true);
       fireEvent.click(less);
-      items.forEach((text, i) => expect(has(card, text)).toBe(i < CARD_PREVIEW));
+      items.forEach((text, i) => expect(has(card, text)).toBe(i < fits(items.length)));
       expect(document.activeElement).toBe(within(card).getByRole('button', { name: S.results.seeAll }));
     }
     // the statements card, by the same rule
@@ -188,7 +205,20 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
     fireEvent.click(within(card).getByRole('button', { name: S.results.seeAll }));
     expect(rowsIn(card)).toBe(data.statements.length);
     fireEvent.click(within(card).getByRole('button', { name: S.results.seeLess }));
-    expect(rowsIn(card)).toBe(CARD_PREVIEW);
+    expect(rowsIn(card)).toBe(fits(data.statements.length));
+  });
+
+  it('a card whose title and text alone are taller than CARD_MAX_HEIGHT still shows its first item', () => {
+    size.head = CARD_MAX_HEIGHT + 100;
+    open();
+    for (const s of methodology.sections) {
+      const items = itemsOf(s);
+      const card = cardOf(s.title);
+      items.forEach((text, i) => expect(has(card, text)).toBe(i < 1));
+      expect(within(card).getAllByRole('button').map((b) => b.textContent)).toEqual(items.length > 1 ? [S.results.seeAll] : []);
+    }
+    const card = screen.getByRole('heading', { level: 2, name: statementsHeading }).closest('.panel') as HTMLElement;
+    expect(rowsIn(card)).toBe(1);
   });
 
   it('«Which lists have a record» is its text and bullets; «Lists without a record» names them, the first ones and «See all»', () => {
@@ -211,11 +241,11 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
     expect(head).toContain(`${names.length} lists have no record in the Knesset and are not shown in the results`);
     const shown = () => within(card).getAllByRole('list', { name: head }).flatMap((ul) =>
       within(ul).getAllByRole('listitem').map((li) => li.textContent));
-    expect(shown()).toEqual(names.slice(0, CARD_PREVIEW));
+    expect(shown()).toEqual(names.slice(0, fits(names.length)));
     fireEvent.click(within(card).getByRole('button', { name: S.results.seeAll }));
     expect(shown()).toEqual(names);
     fireEvent.click(within(card).getByRole('button', { name: S.results.seeLess }));
-    expect(shown()).toEqual(names.slice(0, CARD_PREVIEW));
+    expect(shown()).toEqual(names.slice(0, fits(names.length)));
     expect(document.body.textContent).not.toMatch(/[{}]/);
   });
 
