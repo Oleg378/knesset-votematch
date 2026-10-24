@@ -38,7 +38,8 @@ export function watchShortScroll(app: HTMLElement): () => void {
     const content = app.getBoundingClientRect().height;
     app.style.height = '';
     app.style.minHeight = '';
-    const inner = svh !== null && lvh !== null && needsInnerScroll(content, svh, lvh);
+    // Not in the frame (an app's viewer, app.css): the page never scrolls there, the area under the header does.
+    const inner = !root.hasAttribute('data-frame') && svh !== null && lvh !== null && needsInnerScroll(content, svh, lvh);
     if (inner === root.hasAttribute('data-inner-scroll')) return;
     // The scroll position goes over to the new scroller, so nothing on screen moves (an accordion opened on a short
     // page makes it long).

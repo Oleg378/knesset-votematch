@@ -1,8 +1,9 @@
 import { useCallback, useEffect, useMemo, useReducer, useRef, useState, useSyncExternalStore } from 'react';
 import { flushSync } from 'react-dom';
 import { track } from './analytics';
-import { isCardChange, slideCard } from './cardTransition';
+import { screenScroller } from './scroller';
 import { watchShortScroll } from './shortScroll';
+import { isCardChange, slideCard } from './cardTransition';
 import { Counter, Header } from './components/Header';
 import { Loading, LoadError } from './components/Loading';
 import { Menu } from './components/Menu';
@@ -52,13 +53,11 @@ export default function App({ loader }: { loader: Loader }) {
     if (!isCardChange(stateRef.current.screen, next.screen)) dispatch(action);
     else slideCard(() => {
       flushSync(() => dispatch(action));
-      // A short page scrolls inside .app (shortScroll.ts): the new card starts at its top, set here, before the browser
-      // takes its picture — so nothing scrolls on screen; the old card leaves as it was. The page itself is never
-      // scrolled around the transition (cardTransition.ts).
-      if (document.documentElement.hasAttribute('data-inner-scroll')) {
-        const app = document.querySelector('.app');
-        if (app) app.scrollTop = 0;
-      }
+      // Where the screen scrolls inside the page (the frame in an app's viewer, a short page in a browser): the new card
+      // starts at its top, set here, before the browser takes its picture — so nothing scrolls on screen; the old card
+      // leaves as it was. The window is never scrolled around the transition (cardTransition.ts).
+      const inner = screenScroller();
+      if (inner) inner.scrollTop = 0;
     }, action.type === 'BACK');
   }, []);
 
@@ -91,11 +90,12 @@ export default function App({ loader }: { loader: Loader }) {
     // During a card change the page must not scroll: cardTransition.ts scrolls to the top when it ends.
     if (!document.documentElement.dataset.card) {
       window.scrollTo(0, 0);
-      if (appRef.current) appRef.current.scrollTop = 0; // a short page scrolls inside .app (shortScroll.ts)
+      const inner = screenScroller(); // the frame's area, or .app for a short page (shortScroll.ts)
+      if (inner) inner.scrollTop = 0;
     }
   }, [key]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // Short scrolls (shortScroll.ts): a page a little longer than the window scrolls inside .app.
+  // Short scrolls (shortScroll.ts): in a browser, a page a little longer than the window scrolls inside .app.
   const appRef = useRef<HTMLElement>(null);
   useEffect(() => (appRef.current ? watchShortScroll(appRef.current) : undefined), []);
 
@@ -158,7 +158,7 @@ export default function App({ loader }: { loader: Loader }) {
             ? () => dispatch({ type: 'SHOW_RESULTS' }) : null}
           onMethodology={() => sc.name !== 'methodology' && dispatch({ type: 'OPEN_METHODOLOGY' })} />
       )}
-      {body}
+      <div className="app-scroll">{body}</div>
     </main>
   );
 }

@@ -8,6 +8,7 @@
  * starts growing, and out before it is gone. Keyframes and tokens: app.css «Expand and collapse», tokens.css.
  * No motion with reduced motion, or where there is no layout (jsdom): the block just is open or closed.
  */
+import { screenScroller } from './scroller';
 
 const reducedMotion = () => window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? true;
 
@@ -77,8 +78,7 @@ export function collapse(el: HTMLElement, done: () => void): () => void {
  * start, then the block closes on screen. At once with reduced motion or when `el` is already in place.
  */
 export function scrollBackTo(el: HTMLElement, done: () => void): void {
-  const root = document.documentElement;
-  const inner = root.hasAttribute('data-inner-scroll') ? document.querySelector<HTMLElement>('.app') : null;
+  const inner = screenScroller(); // phones: the area under the header; card mode: the window
   const header = document.querySelector('.header')?.getBoundingClientRect().bottom ?? 0;
   const gap = parseFloat(token('--space-4')) || 0;
   const by = el.getBoundingClientRect().top - header - gap;

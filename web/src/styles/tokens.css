@@ -68,6 +68,7 @@
   --space-5: 24px;
   --space-6: 32px; /* not in Figma */
   --space-7: 48px; /* not in Figma */
+  --top-cover: 200px; /* not in Figma: the band above the window's top that hides what Telegram's in-app browser leaves visible under its bar (app.css .top-cover) */
   --space-20: 20px; /* space/20 */
 
   /* shape */

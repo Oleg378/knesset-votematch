@@ -210,8 +210,11 @@ to any new one. Based on Material 3 window size classes. Previous layout = «в�
 2. **What shrinks first:** outer margins → the free space above the bottom buttons. Text, buttons, tap targets and the
    card width never shrink. Never scale the card down to fit (defeats browser zoom).
 3. **Tall windows never stretch a screen:** extra height goes to the margins, the card stays centred.
-4. **When even the minimums do not fit, the page scrolls,** and a screen's primary bottom buttons stay visible (sticky
-   with a fade). The header (burger, progress, counter) is pinned on top on every screen (customer 2026-10-18).
+4. **When even the minimums do not fit, the screen scrolls,** and a screen's primary bottom buttons stay visible (sticky
+   with a fade). The header (burger, progress, counter) is pinned on top on every screen (customer 2026-10-18). In a
+   browser the window scrolls (its bars hide); in an app's built-in viewer (Telegram, LinkedIn, …; `src/inApp.ts`) on
+   a phone, the frame: the page never scrolls, the header stands outside the scroll and only `.app-scroll` scrolls
+   (customer 2026-10-24, DECISIONS.md G28). Card mode always scrolls the window.
 6. **The header never moves between screens:** same place on every screen of one window — on phones safe area + 8, in
    card mode the card's top is where a Figma-height card sits centred; a long screen grows downwards.
 5. **Browser zoom needs no special handling:** zooming in only makes the CSS viewport smaller, the same rules apply.
@@ -268,7 +271,8 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
 - **Safe areas.** Mockup 62 on top / 34 at the bottom = `env(safe-area-inset-*)` (`viewport-fit=cover`); never add 34 by
   hand — in a browser the toolbar already covers the home indicator. Top of every screen and of the menu:
   `calc(env(safe-area-inset-top) + 8px)` — on screens it is the pinned `.header`'s padding-top (white), so a stuck
-  header clears the status bar; `.app` has no top padding. `.app` bottom: safe area only; the bottom groups add their own 16.
+  header clears the status bar; `.app` has no top padding. Bottom: the safe area is `.screen`'s (not the scrolling area's:
+  a sticky bar stops at a scroller's padding); the bottom groups add their own 16.
 - **Bottom groups.** Both use `padding-bottom: calc(16px + env(safe-area-inset-bottom))` and
   `margin-bottom: calc(-1 * env(safe-area-inset-bottom))` (the screen's safe area moves inside the group), so they sit
   16 above the safe area (Home too — general rule, not the 0 drawn in the Home frame).

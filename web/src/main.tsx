@@ -15,10 +15,12 @@ import App from './App';
 import { watchBottomFade } from './bottomFade';
 import { createLoader } from './data';
 import { showViewportNumbers } from './debugViewport';
+import { chooseScrolling } from './inApp';
 
 // The data files are fetched from page load, in order (core, data, bills); the start page does not wait for them.
 const loader = createLoader();
 loader.start();
+chooseScrolling(); // an app's viewer: the frame; a browser: the window scrolls (app.css)
 watchBottomFade();
 if (location.search.includes('debug')) showViewportNumbers(); // the window's numbers on screen, for checks on a phone
 
