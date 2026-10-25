@@ -138,7 +138,7 @@ _Порядок проверки — навык `.claude/skills/label-check/` (�
   «(state as of 23 October 2026).» → «As of 23 October 2026.», концовка «Not present at all…» → «Missing entirely…».
   Кавычки «…» заменены на “…” во всех текстах сайта (16 мест). Оставлено как есть по решению заказчика: «Bloc discipline»,
   «Thanks! Just a few clarifying questions», «parties» на стартовом экране и в разменах; «We check their Knesset votes»
-  (шаги стартового экрана, `start.steps`) — ждёт решения. Тесты фронта 264/264, `make check` OK.
+  (шаги стартового экрана, `start.steps`) → «We check their Knesset activities» (заказчик, тот же день). Тесты фронта 264/264, `make check` OK.
 
 ### Сделано 2026-10-25 — «How it works»: разделы «Whose record a list carries» и «Which lists have a record» слиты
 - Полудубликаты (заказчик): мысль «только запись бывших депутатов» стояла в трёх разделах подряд, правило про один
