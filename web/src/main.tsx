@@ -26,9 +26,13 @@ watchBottomFade();
 if (location.search.includes('debug')) showViewportNumbers(); // the window's numbers on screen, for checks on a phone
 
 // The page's HTML already holds its screen (src/prerender.tsx); React draws the same markup in its place. The page's
-// path picks the screen: «/how-it-works» opens the methodology.
+// path picks the screen: «/how-it-works» opens the methodology. Dev server only: `?demo` opens List details (devDemo.ts).
+const demo = import.meta.env.DEV ? new URLSearchParams(location.search).get('demo') : null;
+const initial = demo !== null
+  ? await import('./devDemo').then((m) => { m.openFirstTopic(); return m.demoState(demo); })
+  : initialStateFor(location.pathname);
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App loader={loader} initial={initialStateFor(location.pathname)} />
+    <App loader={loader} initial={initial} />
   </StrictMode>,
 );

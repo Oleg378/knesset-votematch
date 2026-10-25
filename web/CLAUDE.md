@@ -219,7 +219,7 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
 - Budget: $20 subscription — almost no sub-agents.
 - Push only when the customer asks.
 
-Commands: `npm run dev`, `npm test`, `npm run build` (includes the prerender), `npm run typecheck`, `npm run check:dist`,
-`node scripts/make-icons.mjs` (icons and the link-preview picture into `public/`, needs Chrome).
+Commands: `npm run dev` (`/?demo` opens List details with a topic open, dev server only: `src/devDemo.ts`), `npm test`,
+`npm run build` (includes the prerender), `npm run typecheck`, `npm run check:dist`, `node scripts/make-icons.mjs` (icons and the link-preview picture into `public/`, needs Chrome).
 Hosting (Cloudflare Pages): root directory `web`, `npm run build`, output `dist`, environment variable `SITE_URL`;
 `wrangler.toml` binds the Analytics Engine dataset of the metrics function (`functions/count/[event].js`).
