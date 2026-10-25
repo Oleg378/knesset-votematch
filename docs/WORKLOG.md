@@ -129,6 +129,17 @@ _Порядок проверки — навык `.claude/skills/label-check/` (�
 3. **После выборов** — проверка на людях по `docs/VALIDATION_PROTOCOL.md`.
 4. **При любом изменении меток, тем или вопросов** — цикл по навыкам (`quiz-pipeline` → `release`), `make check` перед отчётом.
 
+### Сделано 2026-10-25 — «How it works»: живые формулировки, одни кавычки
+- По решению заказчика (из предложений агента): убрано «— and only they» и повтор «Only the Knesset record» (вводная
+  первого раздела без «Only», пункт «Promises, speeches and platforms are not used» с текстом «What was said is not
+  counted, only what was done», платформы ушли туда из второго раздела); «Which topics are asked» → «Which come first»;
+  в пункте о семи уточняющих — строка о пропуске («If you skip a statement, another takes its place»); переписаны пункты о
+  проверках моделями, о цене в утверждении (лид больше не обрывается), о порогах («Tested, then frozen»); вводная
+  «(state as of 23 October 2026).» → «As of 23 October 2026.», концовка «Not present at all…» → «Missing entirely…».
+  Кавычки «…» заменены на “…” во всех текстах сайта (16 мест). Оставлено как есть по решению заказчика: «Bloc discipline»,
+  «Thanks! Just a few clarifying questions», «parties» на стартовом экране и в разменах; «We check their Knesset votes»
+  (шаги стартового экрана, `start.steps`) — ждёт решения. Тесты фронта 264/264, `make check` OK.
+
 ### Сделано 2026-10-25 — «How it works»: разделы «Whose record a list carries» и «Which lists have a record» слиты
 - Полудубликаты (заказчик): мысль «только запись бывших депутатов» стояла в трёх разделах подряд, правило про один
   бывший депутат — в двух. Остался один раздел «Whose record a list carries»: вводная дополнена «New candidates and

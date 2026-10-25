@@ -150,7 +150,7 @@
   "sections": [
    {
     "title": "Where a list's position comes from.",
-    "text": "Only from what its candidates who were members of the Knesset did in the 24th–25th Knesset:",
+    "text": "From what its candidates did as members of the 24th and 25th Knesset:",
     "bullets": [
      {
       "lead": "Bills they sponsored.",
@@ -161,8 +161,8 @@
       "text": "Private and government bills, except budget laws: a vote on the whole budget says nothing about its separate articles."
      },
      {
-      "lead": "Promises and speeches are not used.",
-      "text": "Only the Knesset record."
+      "lead": "Promises, speeches and platforms are not used.",
+      "text": "What was said is not counted, only what was done."
      },
      {
       "lead": "The sources.",
@@ -172,7 +172,7 @@
    },
    {
     "title": "Whose record a list carries.",
-    "text": "Its candidates who were members of the Knesset — and only they. New candidates and platforms are not seen.",
+    "text": "Its candidates who were members of the Knesset. A candidate without a Knesset record adds nothing to it.",
     "bullets": [
      {
       "lead": "Joint lists.",
@@ -200,7 +200,7 @@
     "text": "Closeness compares directions, not intensity.",
     "bullets": [
      {
-      "lead": "«Strongly agree» to everything = «agree» to everything.",
+      "lead": "“Strongly agree” to everything = “agree” to everything.",
       "text": "Strength matters only when your answers are mixed."
      },
      {
@@ -219,10 +219,10 @@
      },
      {
       "lead": "The next {clarify}.",
-      "text": "Chosen one at a time to tell apart the lists closest to you so far."
+      "text": "Chosen one at a time to tell apart the lists closest to you so far. If you skip a statement, another takes its place."
      },
      {
-      "lead": "Which topics are asked.",
+      "lead": "Which come first.",
       "text": "Topics most voters care about come first; this changes only which questions you see, not how your answers count."
      }
     ]
@@ -245,15 +245,15 @@
      },
      {
       "lead": "Checks so far were done by models, not by people.",
-      "text": "Agreement between models is not accuracy for real voters."
+      "text": "Models agreeing with each other is not the same as being right for real voters."
      },
      {
       "lead": "Closeness is approximate.",
-      "text": "Lists with close values cannot be told apart: read them as «about as close»."
+      "text": "Lists with close values cannot be told apart: read them as “about as close”."
      },
      {
-      "lead": "The price in a statement",
-      "text": "(«even if …») is not measured."
+      "lead": "The price in a statement is not measured.",
+      "text": "The “even if …” part only sets the question; it is not weighed."
      },
      {
       "lead": "A vote against a bill can hide the opposite reason.",
@@ -279,7 +279,7 @@
      },
      {
       "lead": "Tested, then frozen.",
-      "text": "Chosen by testing which values held between the 24th and 25th Knesset, frozen on 18 October 2026, the same for every topic."
+      "text": "The thresholds were set by checking which held from the 24th to the 25th Knesset; fixed on 18 October 2026, the same for every topic."
      },
      {
       "lead": "Overlapping topics count once.",
@@ -290,7 +290,7 @@
    },
    {
     "title": "Important topics that are not in the quiz, and why",
-    "text": "(state as of 23 October 2026).",
+    "text": "As of 23 October 2026.",
     "bullets": [
      {
       "lead": "The lists' records hardly differ — nearly everyone pushed the same way:",
@@ -306,7 +306,7 @@
      },
      {
       "lead": "Asked by another statement:",
-      "text": "selecting judges (in «Politicians' influence over the courts»); the weight of the Attorney General (in «Ministers' control over senior officials»); civil marriage and divorce (in «Civil marriage» and «Divorce»); conditions on funding religious schools (in «Funding schools without the core curriculum»); alternatives to military service (in «Drafting yeshiva students»); international law and UNRWA (in «Foreign states and international organizations in Israel»); the death penalty and sanctions on terrorists' families (in «Counter-terrorism measures»); judicial review of government decisions (in «Overriding court rulings»); preferences for underrepresented groups (in «Benefits for those who served»); surveillance powers of the security services (in «Protection of personal data»); bank fees and duties (in «Protecting the weaker party to a contract»); local preference in government purchasing (the mirror of «Imports and competition»)."
+      "text": "selecting judges (in “Politicians' influence over the courts”); the weight of the Attorney General (in “Ministers' control over senior officials”); civil marriage and divorce (in “Civil marriage” and “Divorce”); conditions on funding religious schools (in “Funding schools without the core curriculum”); alternatives to military service (in “Drafting yeshiva students”); international law and UNRWA (in “Foreign states and international organizations in Israel”); the death penalty and sanctions on terrorists' families (in “Counter-terrorism measures”); judicial review of government decisions (in “Overriding court rulings”); preferences for underrepresented groups (in “Benefits for those who served”); surveillance powers of the security services (in “Protection of personal data”); bank fees and duties (in “Protecting the weaker party to a contract”); local preference in government purchasing (the mirror of “Imports and competition”)."
      },
      {
       "lead": "Bills on unrelated subjects, no single honest question:",
@@ -317,7 +317,7 @@
       "text": "licensing procedures for businesses and professions; terms and deadlines; the size of public bodies; inheritance law; state awards."
      }
     ],
-    "after": "Not present at all, because no bill of a former member of the Knesset carries the topic in a way that separates the lists: the Gaza war and the hostages, a Palestinian state, the cost of living as such. The quiz measures legislation, not campaigns."
+    "after": "Missing entirely, because no bill by a former member of the Knesset carries them in a way that separates the lists: the Gaza war and the hostages, a Palestinian state, the cost of living as such. The quiz measures legislation, not campaigns."
    }
   ],
   "statements": {
