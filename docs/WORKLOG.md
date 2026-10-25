@@ -137,7 +137,7 @@ _Порядок проверки — навык `.claude/skills/label-check/` (�
 ### Сделано 2026-10-25 — названия 13 утверждений уточнены по их тексту
 - Заказчик: названия должны точно передавать вопрос; четыре его примера, ещё шесть явных и три спорных нашёл агент
   при сверке всех 123 пар, заказчик принял все. Новые названия (`title_en`, история в `change`): «Economic ties with
-  hostile states and organizations», «Restricting foreign and international organizations in Israel», «Fewer foreign
+  hostile states and organizations», «UNRWA and other foreign organizations in Israel» (сначала «Restricting foreign and international organizations in Israel»; заказчик: тема в основном про UNRWA — 15 из 33 законопроектов), «Fewer foreign
   workers», «Divorce without the spouse's consent», «State commission of inquiry into October 7», «Old-age pensions and
   Holocaust survivors», «Requirements for staff working with children and the elderly», «Protection of domestic-violence
   victims», «Religious practice of non-Jewish communities», «Prosecutors becoming judges», «Punishing terrorists and their
