@@ -151,7 +151,7 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
       if (s.after !== undefined) expect(has(el, noPeriod(fill(s.after, v)))).toBe(true);
     }
     // a point reads as one sentence: its lead, a space, its text
-    expect(document.querySelector('.screen')!.textContent).toContain(`${v.evaluable} of ${v.lists} lists can be evaluated`);
+    expect(document.querySelector('.screen')!.textContent).toContain(`${v.evaluable} of ${v.lists} lists`);
     const dataLine = screen.getByText(fill(methodology.statements.dataVersion, { fetched: dataDate(data.fetched), generated: dataDate(data.generated), commit: data.source_commit }));
     expect(dataLine.closest('.accordion')).toBeNull();
     expect(dataDate('2026-10-23')).toBe('23 October 2026');

@@ -172,7 +172,7 @@
    },
    {
     "title": "Whose record a list carries.",
-    "text": "Its candidates who were members of the Knesset — and only they.",
+    "text": "Its candidates who were members of the Knesset — and only they. New candidates and platforms are not seen.",
     "bullets": [
      {
       "lead": "Joint lists.",
@@ -184,21 +184,7 @@
      },
      {
       "lead": "How many former members it takes.",
-      "text": "A list is ranked from {min_ex_mks} former members; with one, it is shown but not ranked."
-     }
-    ]
-   },
-   {
-    "title": "Which lists have a record.",
-    "text": "Only the Knesset record of former members (24th–25th Knesset) is used. New candidates and platforms are not seen.",
-    "bullets": [
-     {
-      "lead": "{evaluable} of {lists} lists",
-      "text": "can be evaluated."
-     },
-     {
-      "lead": "{single} {single?list|lists} with a single former member",
-      "text": "{single?is|are} shown but not ranked."
+      "text": "A list is ranked from {min_ex_mks} former members: {evaluable} of {lists} lists. With one it is shown but not ranked: {single} {single?list|lists}."
      }
     ]
    },

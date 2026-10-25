@@ -77,7 +77,7 @@ describe('quiz_texts.json', () => {
       [s.text, s.after, ...(s.bullets ?? []).map((b) => `${b.lead} ${b.text}`)].filter((x): x is string => !!x));
     const filled = texts.map((t) => fill(t, v)).join('\n');
     expect(filled).not.toMatch(/[{}]/);
-    expect(filled).toContain(`${v.evaluable} of ${v.lists} lists can be evaluated`);
+    expect(filled).toContain(`${v.evaluable} of ${v.lists} lists`);
   });
 
   it('rejects an unknown placeholder, a stray brace, an unknown key and a wrong answers key', () => {

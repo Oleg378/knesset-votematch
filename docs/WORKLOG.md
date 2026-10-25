@@ -129,6 +129,13 @@ _Порядок проверки — навык `.claude/skills/label-check/` (�
 3. **После выборов** — проверка на людях по `docs/VALIDATION_PROTOCOL.md`.
 4. **При любом изменении меток, тем или вопросов** — цикл по навыкам (`quiz-pipeline` → `release`), `make check` перед отчётом.
 
+### Сделано 2026-10-25 — «How it works»: разделы «Whose record a list carries» и «Which lists have a record» слиты
+- Полудубликаты (заказчик): мысль «только запись бывших депутатов» стояла в трёх разделах подряд, правило про один
+  бывший депутат — в двух. Остался один раздел «Whose record a list carries»: вводная дополнена «New candidates and
+  platforms are not seen», числа (сколько списков оцениваются, сколько с одним депутатом) вошли в пункт «How many former
+  members it takes»; плейсхолдеры те же. Два теста проверяли буквальную фразу «… lists can be evaluated» — теперь только
+  числа. Тесты фронта 264/264, `make check` OK.
+
 ### Сделано 2026-10-25 — «How it works»: раздел «Reading your results» убран
 - По решению заказчика (раздел потерял смысл: его пункты повторяли пометки экрана результатов и не совпадали с ними).
   Удалён из `export/quiz_texts.json` вместе с пунктом «Your answers are not stored» — фраза о том, что ответы не
