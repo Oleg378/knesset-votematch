@@ -129,6 +129,18 @@ _Порядок проверки — навык `.claude/skills/label-check/` (�
 3. **После выборов** — проверка на людях по `docs/VALIDATION_PROTOCOL.md`.
 4. **При любом изменении меток, тем или вопросов** — цикл по навыкам (`quiz-pipeline` → `release`), `make check` перед отчётом.
 
+### Сделано 2026-10-25 — названия 13 утверждений уточнены по их тексту
+- Заказчик: названия должны точно передавать вопрос; четыре его примера, ещё шесть явных и три спорных нашёл агент
+  при сверке всех 123 пар, заказчик принял все. Новые названия (`title_en`, история в `change`): «Economic ties with
+  hostile states and organizations», «Restricting foreign and international organizations in Israel», «Fewer foreign
+  workers», «Divorce without the spouse's consent», «State commission of inquiry into October 7», «Old-age pensions and
+  Holocaust survivors», «Requirements for staff working with children and the elderly», «Protection of domestic-violence
+  victims», «Religious practice of non-Jewish communities», «Prosecutors becoming judges», «Punishing terrorists and their
+  supporters», «The Supreme Court's power to cancel laws», «State support for settlements». Тексты утверждений не менялись.
+- Обновлены вместе: `data/directions/registry.csv` (`reason` строк `quiz`), четыре цитаты в пункте «Asked by another
+  statement» страницы «How it works» (`export/quiz_texts.json`), экспорт. Старых названий вне истории не осталось (grep).
+  Тесты фронта 264/264, `make check` OK.
+
 ### Сделано 2026-10-25 — аудит интереса утверждений; интерес = среднее четырёх оценок
 - Заказчик попросил независимый аудит критерия `interest` (порядок вопросов: вес (интерес/5)² и порог ядра ≥ 3). Два новых
   слепых оценщика (Opus), тот же промпт, что при исходной разметке, утверждения в перемешанном порядке
