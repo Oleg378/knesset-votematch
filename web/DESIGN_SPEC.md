@@ -45,11 +45,12 @@ Line heights are exact Figma px ÷ size (`calc(22 / 17)`), never rounded ratios.
 | Label/Strong | Plus Jakarta Sans 600 | 15 / 20 | `.btn-link`, `.choice-title`, `.step-number`, `.choice-badge`, `.title-sm`, `.list-row-value`, `.scale-top .list-row-name`, `.scale-legend`, `.details-group .accordion-head` | Behind the results, Not sure — skip, card titles A/B/=, Details card titles, Results closeness / names in the panel / scale legend |
 | Counter | Plus Jakarta Sans 600 | 15 / 22 | `.counter` | progress counter |
 | Label/Medium | Plus Jakarta Sans 500 | 15 / 20 | `.step`, `.list-row-name`, `.list-names-rows`, `.accordion-head`, `.details-head .note` | Home steps, Results names below the panel, names of lists and statement titles in Methodology; List details, a list's note — blue on the blue tint band (customer 2026-10-25) |
+| — (not in Figma) | Plus Jakarta Sans 500 | 15 / 21 | `.fact-value` | List details, the value of a fact under its label (text, customer 2026-10-25) |
 | Body/Default | Plus Jakarta Sans 400 | 15 / 21 | `.lead`, `.explain`, `.small`, `.details-row .list-row-name` | card explanations, intro text, «Based on …», bill details, List details «Closeness to you» (text/tertiary) |
 | Chip | Plus Jakarta Sans 500 | 13 / 20 | `.chip`, `.note` | chips (N statements, 3–5 min), the question screen's notice |
 | Caption | Plus Jakarta Sans 400 | 13 / 18 | `.choice-sub`, `.xsmall` | «Your answer: …», data version |
 | Caption, Medium (not in Figma) | Plus Jakarta Sans 500 | 13 / 18 | `.or-divider` | «or», «Not ranked: not enough data» (customer 2026-10-23) |
-| Eyebrow | Plus Jakarta Sans 600 | 12 / 16, 0.72 px (6%), upper case | `.eyebrow` | label above the title |
+| Eyebrow | Plus Jakarta Sans 600 | 12 / 16, 0.72 px (6%), upper case | `.eyebrow`, `.fact-label` | label above the title; List details, the label of a fact in an opened topic (text/tertiary, customer 2026-10-25) |
 | — (not in Figma) | Plus Jakarta Sans 800 | 15 / 20 | `.list-row-rank` | Results rank numbers (customer 2026-10-23) |
 | — (not in Figma) | Plus Jakarta Sans 800 | 22 / 26 | `.details-row .list-row-value` | List details closeness percent (customer 2026-10-24) |
 | — (not in Figma) | Fraunces 400 | 32 / 38 | `.details-section` | List details «Why it fits» / «Why it doesn't fit», no count, `--color-text-section` #26282E (customer 2026-10-24) |

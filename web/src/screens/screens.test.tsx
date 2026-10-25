@@ -461,6 +461,11 @@ describe('results', () => {
     // the «price» caveat once on the page, not inside the topics
     expect(screen.getAllByText(S.details.priceNote)).toHaveLength(1);
     expect(document.querySelector('.accordion-body')!.textContent).not.toContain(explainText.caveatPrice);
+    // the facts: a small label over the value; the answer without «The record … », no counts after « — », no periods
+    const facts = [...document.querySelectorAll('.accordion-body .lines .fact')];
+    expect(facts.map((f) => f.querySelector('.fact-label')?.textContent)).toContain(T.explain.answer.split(': ')[0]);
+    expect(facts.some((f) => f.textContent!.includes(' — '))).toBe(false);
+    expect(facts.some((f) => f.querySelector('.fact-value')!.textContent!.endsWith('.'))).toBe(false);
     expect(document.querySelector('.bill')).not.toBeNull();
     for (const t of document.querySelectorAll('.bill-title')) {
       expect(t.getAttribute('dir')).toBe('auto');

@@ -111,6 +111,7 @@ header, pinned with it; Methodology is a page of its own: the menu stays, no Bac
   thick; customer 2026-10-23; 2026-10-24: no legend, rank and percent on the line's row); the note — each note of the list on its own line (not joined by «; »), in a band as wide as its text, up to the column's width, corners 20, the blue tint, the text blue Label/Medium
   15/20 (customer 2026-10-25; it was a blue chip as wide as its text, Chip 13/20). 32 from the block to
   «Why it fits» (customer 2026-10-24: name, line, caveat, then the closeness).
+- The page ends 32 under its last topic (above the bottom safe area) (customer 2026-10-25).
 - «Why it fits — N matches» (items with contribution > 0, largest first) and «Why it doesn't fit — N mismatches» (shown as
   the words only, «Why it fits», no count — the template's part before « — »; Fraunces 32/38, dark grey #26282E, 12 from it to the first topic, 32 above «Why it doesn't fit»;
   customer 2026-10-24) (contribution
@@ -118,7 +119,11 @@ header, pinned with it; Methodology is a page of its own: the menu stays, no Bac
   (but the corners, 16, and the colour, #F1F4FB, of a Results band, 52 tall, the titles Label/Strong in black as the closest
   lists' names on Results)
   (customer 2026-10-23: List details and the bills page made one page; there is no separate Bills screen).
-- An item opened: the explanation lines exactly as `explain()` (see golden `details[].items[].lines`): quoted statement ·
+- An item opened: the explanation lines as `explain()` (see golden `details[].items[].lines`), two of them shorter on this
+  page (customer 2026-10-25): the answer line without «The record of the list's former MKs …» (the section says the side)
+  and the basis line as «Based on 25 bills they sponsored»; after the quote each line is a fact — a small label (Eyebrow,
+  text/tertiary) over its value (Medium, text): «YOUR ANSWER» / strongly agree, «BASED ON» / 25 bills they sponsored,
+  «WEIGHT ×2» / you chose this topic in a trade-off question, 10 apart, no periods (`renderLinesDetails`): quoted statement ·
   «Your answer: X. The list is for/against this statement.» · basis line · optional weight ×2 line · optional caveat; then
   the bills (§6).
 

@@ -13,13 +13,18 @@ List details and the bills page are one page now (DECISIONS.md G29), and its clo
 - no longer read by the web: `details.closeness`, `details.showAll`, `details.showLess`, `details.openBills`, `bills.back`
   (the topics open in place, there is no separate bills screen). They can be dropped from the file together with the
   schema in `web/src/texts.ts` — tell us, and we remove them there;
+- add `details.basisLabel` `"Based on"` and `details.basis` `"{bills} {bills?bill|bills} they sponsored"` — the basis fact
+  on List details, a label over its value (customer 2026-10-25, DECISIONS G36; `web/src/strings.ts` holds them until then);
+- `explain.answer`, `explain.weight`, `explain.basisVotesOnly` (DECISIONS G36): List details shows each as a label — the
+  text before «: » — over the rest, the answer only up to its first «. »; keep these marks, or give labels and values as
+  their own keys;
 - `details.fits` / `details.misfits`: the web shows only the words before « — » now, no count (DECISIONS G32): keep the
   « — » in these two templates, or make them «Why it fits» / «Why it doesn't fit» without `{n}`.
 
 ## To do on the machine with `knesset.duckdb` (item 13, 2026-10-24)
-1. `export/quiz_texts.json`: add `details.closenessTitle` `"Closeness to you"` and `details.priceNote` `"Shows what they
-   pushed for, not whether they accept the price in the statement"` (with the schema in `web/src/texts.ts`); set
-   `updated`.
+1. `export/quiz_texts.json`: add `details.closenessTitle` `"Closeness to you"`, `details.priceNote` `"Shows what they
+   pushed for, not whether they accept the price in the statement"` and `details.basisLabel` `"Based on"`, `details.basis` `"{bills}
+   {bills?bill|bills} they sponsored"` (with the schema in `web/src/texts.ts`); set `updated`.
 2. `make export`; `make check` → OK; `make test` → green.
 3. Commit `export/` (and the schema). Then the web reads the two List details texts from the file and drops them from
    `web/src/strings.ts`.

@@ -47,6 +47,31 @@ export const explainText = {
 
 const SIDE = { for: explainText.sideFor, against: explainText.sideAgainst, noClear: explainText.sideNoClear } as const;
 
+// Not in quiz_texts.json yet (DATA_REQUESTS.md 13): the List details basis fact, written here until the file has it.
+const DETAILS_BASIS_LABEL = 'Based on';
+const DETAILS_BASIS = '{bills} {bills?bill|bills} they sponsored';
+
+/** A line of a topic's explanation on List details: the quote, or a fact — its label and its value (no label: value only). */
+export interface DetailsLine { quote?: boolean; label?: string; text: string }
+
+/**
+ * List details shows the explanation shorter and as facts (customer 2026-10-25): the quote, then each fact as a small
+ * label over its value — «Your answer» / «strongly agree» (without «The record of the list's former MKs points toward …»:
+ * the section, «Why it fits» or «Why it doesn't fit», says it), «Based on» / «25 bills they sponsored» (no counts by
+ * side, no votes), «Weight ×2» / «you chose this topic in a trade-off question»; no period at their ends. A fact's label
+ * is its line's text before «: ».
+ */
+export function renderLinesDetails(lines: LineItem[]): DetailsLine[] {
+  return lines.map((l) => {
+    if (l.key === 'basis') return { label: DETAILS_BASIS_LABEL, text: fill(DETAILS_BASIS, { bills: l.bills }) };
+    const s = renderLines([l])[0]!;
+    if (l.key === 'quote') return { quote: true, text: s };
+    const one = (l.key === 'answer' && s.includes('. ') ? s.slice(0, s.indexOf('. ')) : s).replace(/\.$/, '');
+    const i = one.indexOf(': ');
+    return i < 0 ? { text: one } : { label: one.slice(0, i), text: one.slice(i + 2) };
+  });
+}
+
 /** quiz_report.render_lines: the explanation lines as text */
 export function renderLines(lines: LineItem[]): string[] {
   const X = explainText;

@@ -7,7 +7,7 @@ import { formatCloseness, roundCloseness } from '../engine/format';
 import { match } from '../engine/match';
 import { contributions, explain, type Contribution } from '../engine/report';
 import type { Mult, QuizBills, QuizData } from '../engine/types';
-import { renderLines, renderNotePart, S } from '../strings';
+import { renderLinesDetails, renderNotePart, S } from '../strings';
 import type { BillsScreenProps } from './types';
 
 /**
@@ -28,8 +28,8 @@ function Section(props: { data: QuizData; bills: QuizBills; list: string; mult: 
             const { lines, evidence } = explain(data, bills, list, x.statement, x.a, x.p, x.c, mult);
             return (
               <>
-                {/* the «price» caveat is said once for the page, under the closeness */}
-                <ExplanationLines lines={renderLines(lines.filter((l) => l.key !== 'caveatPrice'))} />
+                {/* the «price» caveat is said once for the page, under the closeness; the rest as short facts */}
+                <ExplanationLines lines={renderLinesDetails(lines.filter((l) => l.key !== 'caveatPrice'))} />
                 <BillLists data={data} bills={bills} q={x.statement} evidence={evidence} />
               </>
             );

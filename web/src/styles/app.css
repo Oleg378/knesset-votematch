@@ -1049,6 +1049,12 @@ div.list-row .list-row-value {
   margin-top: var(--space-4);
 }
 
+/* the page ends 32 under its last topic (above the bottom safe area), as How it works under its last line: it stopped
+   right under the last band and looked cut off (customer 2026-10-25: «книзу фрейм обрывается») */
+.details-group:last-child {
+  margin-bottom: var(--space-6);
+}
+
 /* List details: the topic rows with the corners of a Results band (16) and a little taller, 52 (customer 2026-10-24:
    «с тем же скруглением и со схожим размером блоков, что на странице с результатами», option a of 3; it was 24 and 44).
    How it works keeps its own. */
@@ -1322,7 +1328,25 @@ div.list-row .list-row-value {
 .lines {
   display: flex;
   flex-direction: column;
-  gap: var(--space-1);
+  gap: calc(var(--space-2) + var(--space-1) / 2); /* 10 (customer 2026-10-25, option 4 of 8; it was 4) */
+}
+
+/* A fact of a topic's explanation: a small label — Eyebrow, the lightest grey — over its value, Medium in the text colour
+   (customer 2026-10-25: «отдели строки друг от друга по смыслу», option 4 of 8) */
+.fact-label {
+  display: block;
+  font-size: var(--font-size-eyebrow);
+  line-height: var(--line-height-eyebrow);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-eyebrow);
+  text-transform: uppercase;
+  color: var(--color-text-faint);
+}
+
+.fact-value {
+  display: block;
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text);
 }
 
 a {
