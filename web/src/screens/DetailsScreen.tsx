@@ -7,7 +7,7 @@ import { formatCloseness, roundCloseness } from '../engine/format';
 import { match } from '../engine/match';
 import { contributions, explain, type Contribution } from '../engine/report';
 import type { Mult, QuizBills, QuizData } from '../engine/types';
-import { renderLines, renderNote, S } from '../strings';
+import { renderLines, renderNotePart, S } from '../strings';
 import type { BillsScreenProps } from './types';
 
 /**
@@ -71,7 +71,10 @@ export function DetailsScreen({ data, bills, state }: BillsScreenProps) {
             <span className="list-row-value">{formatCloseness(row.closeness)}</span>
           </div>
         )}
-        {row.notes.length > 0 && <Note>{renderNote(row.notes)}</Note>}
+        {/* each note on its own line in the one band, not joined by «; » (customer 2026-10-25) */}
+        {row.notes.length > 0 && (
+          <Note>{row.notes.map((p) => <span key={p.key} className="note-line">{renderNotePart(p)}</span>)}</Note>
+        )}
       </div>
       <Section data={data} bills={bills} list={list} mult={state.mult} head={S.details.fits(plus.length)} items={plus} />
       <Section data={data} bills={bills} list={list} mult={state.mult} head={S.details.misfits(minus.length)}

@@ -17,9 +17,12 @@ const byAnswer = (m: Record<'2' | '1' | '0' | '-1' | '-2', string>) =>
 /** quiz_report.ANS — answers inside sentences */
 export const ANS: Record<AnswerValue, string> = byAnswer(T.answers);
 
+/** One note of a list filled into its template (List details shows each on its own line). */
+export const renderNotePart = (p: NotePart): string =>
+  p.key === 'lowCoverage' ? fill(T.notes.lowCoverage, { pct: p.pct }) : T.notes[p.key];
+
 /** quiz_match.render_note: the notes of a list as one string, each part filled into its template, joined by notes.join */
-export const renderNote = (parts: NotePart[]): string =>
-  parts.map((p) => (p.key === 'lowCoverage' ? fill(T.notes.lowCoverage, { pct: p.pct }) : T.notes[p.key])).join(T.notes.join);
+export const renderNote = (parts: NotePart[]): string => parts.map(renderNotePart).join(T.notes.join);
 
 /** quiz_report.plural */
 export const plural = (n: number, word: string) => `${n} ${word}${n === 1 ? '' : 's'}`;

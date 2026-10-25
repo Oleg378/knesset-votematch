@@ -108,7 +108,7 @@ header, pinned with it; Methodology is a page of its own: the menu stays, no Bac
   start), under it in one line the list's rank in a tint circle 24, as on Results (when not ranked: the circle empty, a 2 px rim
   of the same tint inside the same 24 outline), the scale's line with the dot and the percent (blue, Plus Jakarta Sans ExtraBold
   22/26, at the column's edge; the circle and the percent 4 above the line's centre) (light blue tint for the line, 4
-  thick; customer 2026-10-23; 2026-10-24: no legend, rank and percent on the line's row); the note — a band as wide as its text, up to the column's width, corners 20, the blue tint, the text blue Label/Medium
+  thick; customer 2026-10-23; 2026-10-24: no legend, rank and percent on the line's row); the note — each note of the list on its own line (not joined by «; »), in a band as wide as its text, up to the column's width, corners 20, the blue tint, the text blue Label/Medium
   15/20 (customer 2026-10-25; it was a blue chip as wide as its text, Chip 13/20). 32 from the block to
   «Why it fits» (customer 2026-10-24: name, line, caveat, then the closeness).
 - «Why it fits — N matches» (items with contribution > 0, largest first) and «Why it doesn't fit — N mismatches» (shown as

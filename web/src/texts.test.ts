@@ -10,7 +10,7 @@ import {
 } from './texts';
 import { jsonSchema } from './textsJsonSchema';
 import { fewMksNote } from './engine';
-import { renderNote } from './strings';
+import { renderNote, renderNotePart } from './strings';
 
 /** Sample values for the given names: every name gets `v`. */
 const sample = (names: readonly string[], v: number | string) => Object.fromEntries(names.map((n) => [n, v]));
@@ -174,6 +174,11 @@ describe('notes', () => {
     expect(fewMksNote(3)).toEqual({ key: 'fewInTopTen' });
     expect(fewMksNote(7)).toEqual({ key: 'fewInTopTen' });
   });
+  it('renderNotePart fills one part from the file (List details: one line each)', () => {
+    expect(renderNotePart({ key: 'oneMk' })).toBe(T.notes.oneMk);
+    expect(renderNotePart({ key: 'lowCoverage', pct: '40%' })).toBe(fill(T.notes.lowCoverage, { pct: '40%' }));
+  });
+
   it('renderNote fills each part from the file and joins them with notes.join', () => {
     expect(renderNote([])).toBe('');
     expect(renderNote([{ key: 'noRecord' }])).toBe(T.notes.noRecord);

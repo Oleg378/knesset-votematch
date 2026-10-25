@@ -1221,6 +1221,15 @@ div.list-row .list-row-value {
   line-height: var(--line-height-label);
 }
 
+/* each note of a list on its own line, 4 between them (customer 2026-10-25: «вместо ; разные строки») */
+.details-head .note-line {
+  display: block;
+}
+
+.details-head .note-line + .note-line {
+  margin-top: var(--space-1);
+}
+
 /* Accordion */
 .accordion {
   border-radius: var(--radius-lg);
