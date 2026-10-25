@@ -807,13 +807,35 @@ button.card:active {
   text-align: center;
 }
 
-/* «Data: …» closes the page: centred, the lightest grey, 24 under the last card (the screen gap 16 + 8) and 32 above the
-   page's end (over the safe area; it was 0, customer 2026-10-24: «побольше отступ после») */
+/* the authors' links underlined thin and light, 3 under the letters (customer 2026-10-25, option 8 of 8) */
+.credits a {
+  text-decoration-color: var(--color-border);
+  text-underline-offset: 3px;
+}
+
+/* «Made by …» and «Data: …» at the bottom of the screen, as the bottom buttons of the other screens: pushed down when the
+   page is short, 16 above the safe area (the screen's own bottom padding) as the buttons' group; at least 24 under the
+   last band (customer 2026-10-25: «внизу страницы с отступом от низа, будто это кнопки»; they followed the last card, 32
+   above the page's end) */
+.method-foot {
+  margin-top: auto;
+  padding-top: var(--space-2);
+  padding-bottom: var(--space-5); /* 24 above the safe area (customer 2026-10-25: «на 8 больше»; it was 16, as the buttons) */
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+/* «Data: …» closes the page: centred, the lightest grey */
 .data-version {
-  margin-top: var(--space-2);
-  margin-bottom: var(--space-6);
   text-align: center;
   color: var(--color-text-faint);
+}
+
+/* the bands 40 under the header (the screen gap 16 + 24): at 32, as the question card, they looked closer than the text on
+   Results, whose letters start 38 under it (customer 2026-10-25: «от верха 32», then «визуально меньше») */
+.method-list {
+  margin-top: var(--space-5);
 }
 
 .scale-rows {

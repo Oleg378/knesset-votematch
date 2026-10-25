@@ -225,10 +225,14 @@ export function MethodologyScreen({ data, bills }: BillsScreenProps) {
           )}
         </Accordion>
       </div>
-      <Credits />
-      <p className="xsmall data-version">
-        {fill(t.dataVersion, { fetched: dataDate(data.fetched), generated: dataDate(data.generated), commit: data.source_commit })}
-      </p>
+      {/* at the page's bottom, where the bottom buttons of the other screens stand (customer 2026-10-25) */}
+      <footer className="method-foot">
+        {/* the data line first, then the authors (customer 2026-10-25, option 8 of 8) */}
+        <p className="xsmall data-version">
+          {fill(t.dataVersion, { fetched: dataDate(data.fetched), generated: dataDate(data.generated), commit: data.source_commit })}
+        </p>
+        <Credits />
+      </footer>
     </section>
   );
 }
