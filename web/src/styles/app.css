@@ -606,9 +606,12 @@ button.card:active {
   color: var(--color-text-faint);
 }
 
-/* The hint 20 above the legend: the screen gap 16 + 4 */
+/* The block 28 above the legend: the screen gap 16 + 12 (customer 2026-10-25: «опусти плашку со словами над ней»; it was
+   20). The text 16 lower under the header, the whole page with it, so the free space above «Change answers» is 24 less
+   (customer 2026-10-25: «чуть опусти на 8 вниз текст», then «увеличь отступ сверху у Tap»: 8 more) */
 .results > .stack {
-  margin-bottom: var(--space-1);
+  margin-top: var(--space-4);
+  margin-bottom: var(--space-3);
 }
 
 .hint .list-row-go {
@@ -621,12 +624,12 @@ button.card:active {
     linear-gradient(var(--color-accent-soft), var(--color-accent-soft)), var(--color-bg);
 }
 
-/* Between «Based on…» and the hint: 12 under «Based on…» (the stack's gap 8 + 4), 4 over the hint (8 − 4), so it
-   belongs to the hint and does not read as an underline (customer 2026-10-23: «убери расстояния максимально», «не
-   настолько», «больше спейса после based», «ещё побольше»; it was 16 / 8, then 0 / 0, 4 / 4, 8 / 4) */
+/* Between the hint and «Based on…» (the hint first, customer 2026-10-25): 8 under the hint (the stack's gap), 4 over
+   «Based on…» (8 − 4), so it belongs to «Based on…» (customer 2026-10-23: «убери расстояния максимально», «не
+   настолько», «больше спейса после based», «ещё побольше»; it was 16 / 8, then 0 / 0, 4 / 4, 8 / 4; 2026-10-25 «от Tap
+   отступ меньше»: 12 → 8) */
 .rule {
   height: var(--border-width);
-  margin-top: var(--space-1);
   margin-bottom: calc(var(--space-1) - var(--space-2));
   /* from the texts' left edge to the right edge of a list's band (customer 2026-10-23: «по длине карточки», «слева не
      доходишь») */
@@ -645,7 +648,7 @@ button.card:active {
   font-size: var(--font-size-sm);
   line-height: var(--line-height-label);
   font-weight: var(--font-weight-bold);
-  color: var(--color-text-muted);
+  color: var(--color-text-faint); /* «far from you» the lightest grey (customer 2026-10-25: «светлее, чем было»; it was text/secondary) */
   white-space: nowrap;
   margin-bottom: calc(-1 * var(--space-2));
 }

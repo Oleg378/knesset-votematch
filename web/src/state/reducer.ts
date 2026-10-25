@@ -20,7 +20,8 @@ export interface TradeDone {
 }
 
 export type BaseScreen =
-  | { name: 'start' }
+  /** `back`: the screen Home in the menu was chosen on — «My results» goes on from there */
+  | { name: 'start'; back?: BaseScreen }
   /** shown[i] */
   | { name: 'question'; i: number }
   /** Waiting for a data file: then «next» picks the next question, «finish» goes to trade-offs / results. */
@@ -57,6 +58,7 @@ export type Action =
   | { type: 'OPEN_DETAILS'; list: string }
   | { type: 'CHANGE_ANSWERS' }
   | { type: 'START_OVER' }
+  | { type: 'GO_HOME' }
   /** Results header «Start over»: clear everything and go straight to the first question, as Start on Home. */
   | { type: 'RESTART' }
   | { type: 'OPEN_METHODOLOGY' }
@@ -162,7 +164,8 @@ export function createReducer(src: FlowSources) {
     const sc = s.screen;
     switch (action.type) {
       case 'START':
-        return sc.name === 'start' ? advance(s, -1) : state;
+        // always a new quiz, also after Home with answers given (customer 2026-10-25)
+        return sc.name === 'start' ? advance(initialState, -1) : state;
 
       case 'ANSWER': {
         // Selects the answer; «Next» moves on.
@@ -186,7 +189,8 @@ export function createReducer(src: FlowSources) {
         return sc.name === 'question' ? finish(s, sc.i) : state;
 
       case 'SHOW_RESULTS': {
-        const at = sc.name === 'methodology' ? sc.back : sc;
+        let at = sc.name === 'methodology' ? sc.back : sc;
+        if (at.name === 'start' && at.back) at = at.back; // after Home: on from where it was chosen
         if (at.name === 'question') return finish(s, at.i);
         if (at.name === 'wait') return finish(s, Math.max(s.shown.length - 1, 0));
         if (!hasComputableAnswers(s.answers) || at.name === 'start') return state;
@@ -237,6 +241,12 @@ export function createReducer(src: FlowSources) {
 
       case 'START_OVER':
         return initialState;
+
+      case 'GO_HOME': {
+        // The start page with the answers kept (customer 2026-10-25); a Home from Home keeps where it was first chosen
+        const from = sc.name === 'methodology' ? sc.back : sc;
+        return { ...s, screen: from.name === 'start' ? from : { name: 'start', back: from } };
+      }
 
       case 'RESTART':
         return sc.name === 'results' ? advance(initialState, -1) : state;

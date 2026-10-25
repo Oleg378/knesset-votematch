@@ -47,7 +47,9 @@ export const explainText = {
 
 const SIDE = { for: explainText.sideFor, against: explainText.sideAgainst, noClear: explainText.sideNoClear } as const;
 
-// Not in quiz_texts.json yet (DATA_REQUESTS.md 13): the List details basis fact, written here until the file has it.
+// Not in quiz_texts.json yet (DATA_REQUESTS.md 13): the List details basis fact and the menu's Home, written here until
+// the file has them.
+const MENU_HOME = 'Home';
 const DETAILS_BASIS_LABEL = 'Based on';
 const DETAILS_BASIS = '{bills} {bills?bill|bills} they sponsored';
 
@@ -119,6 +121,7 @@ export const S = {
     close: T.menu.close,
     title: T.app.name,
     startOver: T.menu.startOver,
+    home: MENU_HOME,
     results: T.menu.results,
     methodology: T.menu.methodology,
   },

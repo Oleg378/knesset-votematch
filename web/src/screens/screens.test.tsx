@@ -425,10 +425,10 @@ describe('results', () => {
     expect(document.activeElement).toBe(screen.getByRole('button', { name: S.results.seeAll })); // back to the panel
   });
 
-  it('at the bottom «Change answers» and «Share this quiz»; the first goes back to the statements', () => {
+  it('at the bottom only «Change answers»; it goes back to the statements', () => {
     toResults();
     const bottom = within(document.querySelector('.sticky-actions')!).getAllByRole('button');
-    expect(bottom.map((b) => b.textContent)).toEqual([S.results.changeAnswers, S.share.button]);
+    expect(bottom.map((b) => b.textContent)).toEqual([S.results.changeAnswers]);
     fireEvent.click(bottom[0]!);
     screen.getByRole('group', { name: S.question.answersLabel });
   });
@@ -479,10 +479,15 @@ describe('results', () => {
     screen.getByRole('heading', { name: S.results.heading });
   });
 
-  it('Start over clears answers', () => {
+  it('Home in the menu opens the start page with the answers kept: «My results» goes back; Start begins anew', () => {
     toResults();
-    menuTo(S.menu.startOver);
+    menuTo(S.menu.home);
+    screen.getByRole('button', { name: S.start.button });
+    menuTo(S.menu.results);
+    screen.getByRole('heading', { name: S.results.heading });
+    menuTo(S.menu.home);
     click(S.start.button);
+    screen.getByRole('heading', { name: firstCore.statement_en });
     expect(pressed()).toEqual([]);
   });
 

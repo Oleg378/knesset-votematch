@@ -24,7 +24,9 @@ Numbers of questions come from `flow` in the export; the clarifying statement af
 **Screens with a Figma mockup follow the mockup** (Home, Questions, Clarifying question, Menu) — texts, controls and
 interaction; the statement count comes from the data. Customer, 2026-10-18. Open points: `DECISIONS.md` section D.
 
-Every screen: header with the menu button (Figma «Menu»: Start over · My results · Methodology) — on an inner page, opened
+Every screen: header with the menu button (Figma «Menu»: Home · My results · Methodology — Home instead of Figma's Start
+over, customer 2026-10-25: the start page with the answers kept until a reload, «My results» goes on from where Home was
+chosen; «Start the quiz» always begins a new quiz) — on an inner page, opened
 from another page (List details), «Back» in its place (customer 2026-10-24); on Results, at the right end (where
 other screens have the counter), Start over: the menu item's icon, no text; it clears the answers and opens the first
 question at once, as «Start» on Home (customer 2026-10-22). Results and Methodology show their title in the middle of the
@@ -65,12 +67,15 @@ header, pinned with it; Methodology is a page of its own: the menu stays, no Bac
 ### 4. Results
 - The title «Your result» stands in the header, centred between the menu button and Start over, pinned with it (Fraunces
   20/22; customer 2026-10-23); the page keeps it as a visually hidden h1. The screen starts with:
-- «Based on N of M answers[, including trade-offs]» (no period) M = statements shown; then a thin line 12 under it, and 4 under the line «Tap › for details»
-  in italic, the lighter grey, with the rows' round arrow between the words (customer 2026-10-23). Under it a thin line (12 below the text, 20 above the legend; customer 2026-10-23), then the scale legend in one line:
-  «far from you» on the left, «close to you» on the right, no numbers, nothing in the middle (customer 2026-10-22, DECISIONS.md G15).
+- «Tap › for details» in italic with the rows' round arrow between the words (customer 2026-10-23), then a thin line 8
+  under it, and 4 under the line «Based on N of M answers[, including trade-offs]» (no period; M = statements shown) —
+  the hint first (customer 2026-10-25); the block 32 under the header, as the question card, and 28 above the scale
+  legend in one line: «far from you» (the lightest grey) on the left, «close to you» (blue) on the right, no numbers,
+  nothing in the middle (customer 2026-10-22, DECISIONS.md G15, G39).
 - At the bottom only «Change answers» (light blue, as before), pinned to the bottom of the screen as on Home and the
   question screens, with the fade over the lists under it (customer 2026-10-23): «Answer more questions», «Start over» and
-  «How it works» are gone — Methodology is in the menu — Start over stays in the header and the menu. «Answer more» has no entry now (the
+  «How it works» are gone — Methodology is in the menu — Start over stays in the header (the menu has Home, G38); no share
+  button (customer 2026-10-25, H8). «Answer more» has no entry now (the
   reducer keeps `MORE`).
 - Rows: rank, list name (`name_en`), closeness in tens of percent with its sign — `+40%`, `−30%`; zero is `0%`, no sign (customer 2026-10-22), then a round «›» button on a row
   that opens List details, the same on every row; every row on its own band (light translucent in the panel, light grey

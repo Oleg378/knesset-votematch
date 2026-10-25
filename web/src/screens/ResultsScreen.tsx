@@ -2,7 +2,6 @@ import { useMemo, useRef, useState } from 'react';
 import { flushSync } from 'react-dom';
 import { Button } from '../components/Button';
 import { ListRow } from '../components/ListRow';
-import { ShareButton } from '../components/ShareButton';
 import { match } from '../engine/match';
 import { collapse, expand, foldLid, scrollBackTo } from '../expandMotion';
 import { answeredCount } from '../state/reducer';
@@ -73,18 +72,19 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
       <div className="stack">
         {/* «Your result» is shown in the header (Header title); here it stays for screen readers and the focus on a new screen */}
         <h1 className="visually-hidden">{S.results.heading}</h1>
-        <p className="lead">
-          {S.results.basedOn(answeredCount(state.answers), state.shown.length, Object.keys(state.mult).length > 0)}
-        </p>
-        {/* A line between the summary and the hint, nearer the hint; the hint italic and lighter (customer 2026-10-23) */}
+        {/* The hint first, then a line, nearer the summary under it (customer 2026-10-25: «поменяй местами Tap и Based»);
+            the hint italic and lighter (customer 2026-10-23) */}
         {top.length > 0 && (
           <>
-            <div className="rule" role="presentation" />
             <p className="lead hint">
               {S.results.hint[0]} <span className="list-row-go" aria-hidden="true" /> {S.results.hint[1]}
             </p>
+            <div className="rule" role="presentation" />
           </>
         )}
+        <p className="lead">
+          {S.results.basedOn(answeredCount(state.answers), state.shown.length, Object.keys(state.mult).length > 0)}
+        </p>
       </div>
       <div className="scale-legend" aria-hidden="true">
         <span>{S.results.scaleFar}</span>
@@ -151,14 +151,13 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
           <span className="btn btn-link skip">{S.results.seeAll}</span>
         </div>
       )}
-      {/* At the bottom «Change answers» (customer 2026-10-23) and under it «Share this quiz» (customer 2026-10-24), pinned
-          to the bottom of the screen as on Home: Start over is in the header and the menu, Methodology in the menu;
-          «Answer more questions» is gone. */}
+      {/* At the bottom only «Change answers» (customer 2026-10-23), pinned to the bottom of the screen as on Home: Start
+          over is in the header and the menu, Methodology in the menu; «Answer more questions» is gone; «Share this quiz»
+          removed (customer 2026-10-25). */}
       <div className="sticky-actions push-down">
         <Button block onClick={() => dispatch({ type: 'CHANGE_ANSWERS' })}>
           {S.results.changeAnswers}
         </Button>
-        <ShareButton />
       </div>
     </section>
   );

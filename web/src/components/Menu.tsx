@@ -6,7 +6,7 @@ import { Icon } from './Icon';
 
 interface Props {
   onClose: () => void;
-  onStartOver: () => void;
+  onHome: () => void;
   onResults: (() => void) | null;
   onMethodology: () => void;
 }
@@ -17,7 +17,7 @@ interface Props {
  * its dim sit in a frame over the visible part of .app, clipped by its rounded corners, so the close button is always
  * where the burger is (even on a scrolled long screen). The page does not scroll while the menu is open.
  */
-export function Menu({ onClose, onStartOver, onResults, onMethodology }: Props) {
+export function Menu({ onClose, onHome, onResults, onMethodology }: Props) {
   const layerRef = useRef<HTMLDivElement>(null);
   const dimRef = useRef<HTMLDivElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
@@ -116,7 +116,7 @@ export function Menu({ onClose, onStartOver, onResults, onMethodology }: Props) 
     };
   }, [close]);
 
-  const item = (icon: 'restart' | 'results' | 'info', label: string, run: (() => void) | null) => (
+  const item = (icon: 'home' | 'results' | 'info', label: string, run: (() => void) | null) => (
     <li>
       <button type="button" className="menu-item" disabled={!run} onClick={() => close(run ?? undefined)}>
         <Icon name={icon} />
@@ -152,7 +152,8 @@ export function Menu({ onClose, onStartOver, onResults, onMethodology }: Props) 
           </div>
           <hr className="menu-divider" />
           <ul className="plain-list menu-items">
-            {item('restart', S.menu.startOver, onStartOver)}
+            {/* Home instead of Start over: the start page, the answers kept until a reload (customer 2026-10-25) */}
+            {item('home', S.menu.home, onHome)}
             {item('results', S.menu.results, onResults)}
             {pageItem('info', S.menu.methodology, PAGE_PATHS.methodology, onMethodology)}
           </ul>

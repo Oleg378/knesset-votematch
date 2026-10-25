@@ -159,7 +159,7 @@ export default function App({ loader, initial = initialState }: { loader: Loader
         title={sc.name === 'results' ? S.results.heading : sc.name === 'methodology' ? S.methodology.heading : undefined}
         onStartOver={sc.name === 'results' ? () => send({ type: 'RESTART' }) : undefined}>{header}</Header>
       {menu && (
-        <Menu onClose={closeMenu} onStartOver={() => dispatch({ type: 'START_OVER' })}
+        <Menu onClose={closeMenu} onHome={() => dispatch({ type: 'GO_HOME' })}
           onResults={hasComputableAnswers(state.answers) || sc.name === 'question' || sc.name === 'wait'
             ? () => dispatch({ type: 'SHOW_RESULTS' }) : null}
           onMethodology={() => sc.name !== 'methodology' && dispatch({ type: 'OPEN_METHODOLOGY' })} />

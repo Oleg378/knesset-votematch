@@ -195,7 +195,7 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
   No topic selection.
 - Every UI string in `../export/quiz_texts.json`, read through `src/strings.ts` / `src/texts.ts`. Metrics: only `started` /
   `finished` via `track()` — a beacon to the site's own `/count/<event>`, nothing else (DECISIONS.md H7).
-- Share (Results) shares the site's address and one sentence, never the result (H8).
+- No share button on Results (customer 2026-10-25, H8): at the bottom only «Change answers».
 - Entries that lead to a page with an address (Methodology) are real links that act in the app (`LinkButton`, H10); never hidden text for search engines.
 
 ## Code

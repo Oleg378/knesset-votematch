@@ -10,9 +10,12 @@ List details and the bills page are one page now (DECISIONS.md G29), and its clo
   «price» caveat said once on List details, shorter than `explain.caveatPrice` (customer 2026-10-24); `explain.caveatPrice`
   and the golden lines stay as they are. Until these two are in the file, `web/src/strings.ts` holds them itself, with a
   comment; they move to the file then;
-- no longer read by the web: `details.closeness`, `details.showAll`, `details.showLess`, `details.openBills`, `bills.back`
+- no longer read by the web: `share.*` (the share button is gone from Results, DECISIONS H8), `details.closeness`,
+  `details.showAll`, `details.showLess`, `details.openBills`, `bills.back`
   (the topics open in place, there is no separate bills screen). They can be dropped from the file together with the
   schema in `web/src/texts.ts` — tell us, and we remove them there;
+- add `menu.home` `"Home"` — the menu's first item instead of Start over (customer 2026-10-25, DECISIONS G38;
+  `web/src/strings.ts` holds it until then); `menu.startOver` stays: the Results header's button reads it;
 - add `details.basisLabel` `"Based on"` and `details.basis` `"{bills} {bills?bill|bills} they sponsored"` — the basis fact
   on List details, a label over its value (customer 2026-10-25, DECISIONS G36; `web/src/strings.ts` holds them until then);
 - `explain.answer`, `explain.weight`, `explain.basisVotesOnly` (DECISIONS G36): List details shows each as a label — the
