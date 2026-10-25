@@ -30,7 +30,7 @@ Input: themes that pass `quiz_select.py`, are not remainders / technical, have n
 8. **Customer** — show every text verbatim (English as stored), grouped, with the duplicate choices; name statements by title.
 9. **Write** into `data/quiz/statements.csv` and add the row to `data/quiz/statement_meta.csv` (interest 1–5, area, sim_group — the
    same blind agent tasks as in `local/research/flow_models/agents/PROMPT_interest.md`, `PROMPT_areas.md`, `PROMPT_fine.md`;
-   two runs, agreement or tie-break) (next free `q`, `source`, `status=ok`, dated `change`; RU text from the draft if the
+   interest — four runs, the mean (as the stored values since 2026-10-25); area and sim_group — two runs, agreement or tie-break) (next free `q`, `source`, `status=ok`, dated `change`; RU text from the draft if the
    audit did not rewrite it), registry `quiz`, then `release`. A new statement can create a nested pair with an existing one
    (`make check` I5) → `nested-themes`; the final duplicate check already answers the meaning question for that pair.
 
