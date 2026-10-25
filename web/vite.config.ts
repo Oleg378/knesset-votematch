@@ -1,4 +1,5 @@
 /// <reference types="vitest/config" />
+import { createHash } from 'node:crypto';
 import { readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
@@ -8,6 +9,9 @@ import { T } from './src/texts';
 
 // The data contract lives outside web/: ../export (produced by `make data`, never copied by hand).
 const exportDir = fileURLToPath(new URL('../export', import.meta.url));
+/** The first 8 hex of a public/ file's SHA-256: the version in the address of the tab icons. */
+const fileHash = (name: string) =>
+  createHash('sha256').update(readFileSync(fileURLToPath(new URL(`public/${name}`, import.meta.url)))).digest('hex').slice(0, 8);
 
 // Dev and preview only: lets an ngrok tunnel reach the server (preview on a phone).
 const allowedHosts = ['.ngrok-free.app', '.ngrok-free.dev', '.ngrok.app'];
@@ -116,8 +120,10 @@ function siteHead(): Plugin {
         const description = T.app.description;
         const tags = [
           meta('description', description),
-          link('icon', `${base}favicon.ico`, { sizes: '32x32' }),
-          link('icon', `${base}favicon.svg`, { type: 'image/svg+xml' }),
+          // the file's hash in the address: browsers keep a tab icon long after a reload (Safari in its own cache), a new
+          // icon comes with a new address (2026-10-25: the new icon did not show)
+          link('icon', `${base}favicon.ico?v=${fileHash('favicon.ico')}`, { sizes: '32x32' }),
+          link('icon', `${base}favicon.svg?v=${fileHash('favicon.svg')}`, { type: 'image/svg+xml' }),
           link('apple-touch-icon', `${base}apple-touch-icon.png`),
           link('manifest', `${base}manifest.webmanifest`),
           prop('og:type', 'website'),

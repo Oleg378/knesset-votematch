@@ -2,7 +2,7 @@
 // `node scripts/make-icons.mjs` — needs Google Chrome (headless, for the PNGs); run again after changing the hero picture
 // (src/assets/figma/hero.svg), the site name or the subtitle (export/quiz_texts.json `app`), or the brand colours.
 //
-//   favicon.svg          the tab icon: the hero's arc of seats, simplified for 16–32 px (three rows, bigger dots, the blue seat), on a white tile
+//   favicon.svg          the tab icon: two half-rings, light outside, the brand inside, on a white tile (25 % corners)
 //   favicon.ico          the same at 32 and 16 px for browsers that take no SVG
 //   apple-touch-icon.png 180 px, the full hero arc on white, for «Add to Home Screen» on iPhone
 //   icon-192.png, icon-512.png   the same, for the web app manifest (Android home screen, install prompt)
@@ -23,24 +23,15 @@ const BRAND = '#0038B8';
 const CHROME = ['/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', 'google-chrome', 'chromium'].find((c) =>
   c.startsWith('/') ? existsSync(c) : true);
 
-// ---- favicon.svg: the arc of seats as in the hero (centre at the bottom, 180°, the blue seat at −62.6° on the middle row),
-// three rows instead of five and dots big enough to read at 16 px.
+// ---- favicon.svg: two half-rings on a white tile with the corners of the tab icons around it (25 %): the outer one light
+// (the brand at 55 %), the inner one the brand (customer 2026-10-25, picked from mockups). Their ends on a whole pixel
+// at 16 px (y 40 of 64); the light ring 1/16 px longer (y 40.25): a light shape next to a dark one looks shorter.
 function faviconSvg() {
-  const size = 64;
-  const cx = size / 2, cy = 54;
-  const rows = [[16, 9, 0.55], [25, 14, 0.4], [34, 19, 0.25]];
-  const dots = [];
-  for (const [r, n, opacity] of rows) {
-    for (let i = 0; i < n; i++) {
-      const a = Math.PI + (Math.PI * i) / (n - 1);
-      dots.push(`<circle cx="${(cx + r * Math.cos(a)).toFixed(2)}" cy="${(cy + r * Math.sin(a)).toFixed(2)}" r="3.4" fill="${BRAND}" fill-opacity="${opacity}"/>`);
-    }
-  }
-  const a = (-62.6 * Math.PI) / 180;
-  const seat = `<circle cx="${(cx + 25 * Math.cos(a)).toFixed(2)}" cy="${(cy + 25 * Math.sin(a)).toFixed(2)}" r="5" fill="${BRAND}"/>`;
-  // On a white rounded tile: the browser's tab strip can be dark, and the light rows disappeared on it (customer 2026-10-24).
-  const tile = `<rect width="${size}" height="${size}" rx="${size / 5}" fill="#fff"/>`;
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${size} ${size}">${tile}${dots.join('')}${seat}</svg>\n`;
+  const ring = (R, r, end, opacity) =>
+    `<path d="M${32 - R} ${end} L${32 - R} 40 A${R} ${R} 0 0 1 ${32 + R} 40 L${32 + R} ${end} L${32 + r} ${end} L${32 + r} 40 ` +
+    `A${r} ${r} 0 0 0 ${32 - r} 40 L${32 - r} ${end} Z" fill="${BRAND}"${opacity < 1 ? ` fill-opacity="${opacity}"` : ''}/>`;
+  const tile = '<rect width="64" height="64" rx="16" fill="#fff"/>';
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">${tile}${ring(25, 17, 40.25, 0.55)}${ring(13, 6, 40, 1)}</svg>\n`;
 }
 
 // ---- PNGs: an HTML page per picture, screenshot by headless Chrome at the picture's size.
@@ -75,11 +66,13 @@ const ogPage = () => page(1200, 630, `
   h1 { margin: 0; font: 400 88px/1.08 Fraunces; color: #000; max-width: 620px; }
   .sub { margin: 0; font: 500 36px/1.3 'Plus Jakarta Sans'; color: #595E6B; }`);
 
-function shoot(html, w, h, file) {
+function shoot(html, w, h, file, transparent = false) {
   const dir = mkdtempSync(join(tmpdir(), 'icons-'));
   const src = join(dir, 'page.html');
   writeFileSync(src, html);
-  execFileSync(CHROME, ['--headless=new', '--disable-gpu', '--hide-scrollbars', '--force-device-scale-factor=1',
+  // its own profile: with the default one it waits for the user's running Chrome and never returns
+  execFileSync(CHROME, ['--headless=new', '--disable-gpu', '--hide-scrollbars', `--user-data-dir=${join(dir, 'profile')}`,
+    '--force-device-scale-factor=1', ...(transparent ? ['--default-background-color=00000000'] : []),
     `--window-size=${w},${h}`, `--screenshot=${file}`, `file://${src}`], { stdio: 'ignore' });
   rmSync(dir, { recursive: true });
 }
@@ -106,7 +99,9 @@ for (const [name, size] of [['apple-touch-icon.png', 180], ['icon-192.png', 192]
 const dir = mkdtempSync(join(tmpdir(), 'ico-'));
 const pngs = [32, 16].map((size) => {
   const file = join(dir, `${size}.png`);
-  shoot(page(size, size, faviconSvg().replace('<svg ', `<svg width="${size}" height="${size}" `)), size, size, file);
+  // transparent around the tile's rounded corners, as favicon.svg (a white square showed on a dark tab strip)
+  shoot(page(size, size, faviconSvg().replace('<svg ', `<svg width="${size}" height="${size}" `),
+    'html, body { background: transparent; }'), size, size, file, true);
   return { size, data: readFileSync(file) };
 });
 rmSync(dir, { recursive: true });
