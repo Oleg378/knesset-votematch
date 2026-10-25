@@ -1200,6 +1200,27 @@ div.list-row .list-row-value {
   font-weight: var(--font-weight-medium);
 }
 
+/* List details: the list's note as a band in the column's width, with the corners of the topic rows below (16) — the
+   blue tint, the text blue Label/Medium 15/20 (customer 2026-10-25: «плашку с другим скруглением, чтобы она имела вид
+   примерно как у плашек снизу», option 2 of 4, corners 16 of 8 / 12 / 16 / 24; it was the blue chip, Chip 13/20, as wide
+   as its text) */
+.details-head .note {
+  /* as wide as its text, up to the column's width: a short note hugs it, a long one wraps across the column (customer
+     2026-10-25: «растягивание по ширине, чтобы стягивалось, если коротко») */
+  align-self: flex-start;
+  /* 2 more below than above: Plus Jakarta Sans sits low in its line, so with 12 / 12 the letters looked low; 10 / 14 puts
+     both the whole letters and the lower-case in the band's middle (customer 2026-10-25: «текст не по центру») */
+  padding: calc(var(--space-3) - var(--space-1) / 2) calc(var(--space-3) + var(--space-1) / 2)
+    calc(var(--space-3) + var(--space-1) / 2);
+  /* 14 at the sides (customer 2026-10-25: «может, плашку чуть уже» — 12 instead of 16, then «чуть больше отступа по
+     бокам»), 1 more on the right: the letters' own side space left the right gap under the left one («справа кажется
+     меньше»: 14 against 14.7; now 15) */
+  padding-inline-end: calc(var(--space-3) + var(--space-1) / 2 + var(--border-width));
+  border-radius: calc(var(--radius-scale) - var(--space-1)); /* 20 (customer 2026-10-25: «немного сильнее скругление»; it was 16) */
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-label);
+}
+
 /* Accordion */
 .accordion {
   border-radius: var(--radius-lg);

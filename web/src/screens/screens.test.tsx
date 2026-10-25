@@ -434,13 +434,11 @@ describe('results', () => {
     screen.getByRole('group', { name: S.question.answersLabel });
   });
 
-  it('shows only the two allowed notes and nothing about government, coalition or seats', () => {
+  it('shows no notes (a list note is on its List details page only) and nothing about government, coalition or seats', () => {
     toResults();
     const text = document.body.textContent!.toLowerCase();
     for (const w of ['coalition', 'opposition', 'government', 'seats', 'mandat']) expect(text).not.toContain(w);
-    for (const el of document.querySelectorAll('.note')) {
-      expect(el.textContent).toMatch(/^(few former MKs: \d+)?(; )?(position known for only \d+% of your answers)?$/);
-    }
+    expect(document.querySelectorAll('.note')).toHaveLength(0);
     expect(document.querySelectorAll('.screen img')).toHaveLength(0); // no logos (only the header's menu icon)
   });
 

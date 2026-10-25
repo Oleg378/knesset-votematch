@@ -95,7 +95,7 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
           <ol className="scale-rows" aria-label={S.results.closest(top.length)}>
             {top.map((r, i) => (
               <li key={r.id}>
-                <ListRow rank={i + 1} name={r.name_en} closeness={r.closeness} note={r.note} onClick={open(r.id)} />
+                <ListRow rank={i + 1} name={r.name_en} closeness={r.closeness} onClick={open(r.id)} />
               </li>
             ))}
           </ol>
@@ -115,8 +115,7 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
             <ol className="scale-rows scale-rest" start={HIGHLIGHT + 1}>
               {rest.map((r, i) => (
                 <li key={r.id}>
-                  <ListRow rank={HIGHLIGHT + i + 1} name={r.name_en} closeness={r.closeness} note={r.note}
-                    onClick={open(r.id)} />
+                  <ListRow rank={HIGHLIGHT + i + 1} name={r.name_en} closeness={r.closeness} onClick={open(r.id)} />
                 </li>
               ))}
             </ol>
@@ -126,11 +125,12 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
               <div className="or-divider" role="presentation">
                 <span>{S.results.notRanked}</span>
               </div>
-              {/* One reason for all of them in the divider, no note on each (customer 2026-10-22); List details keeps it. */}
+              {/* One reason for all of them in the divider (customer 2026-10-22). No notes anywhere on Results
+                  (customer 2026-10-25): a list's note is on its List details page only. */}
               <ul className="scale-rows scale-rest scale-low">
                 {low.map((r) => (
                   <li key={r.id}>
-                    <ListRow rank={null} name={r.name_en} closeness={r.closeness} note=""
+                    <ListRow rank={null} name={r.name_en} closeness={r.closeness}
                       onClick={r.closeness === null ? undefined : open(r.id)} />
                   </li>
                 ))}

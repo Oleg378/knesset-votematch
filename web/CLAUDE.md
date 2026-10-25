@@ -87,9 +87,9 @@ Line heights are exact Figma px ÷ size (`calc(22 / 17)`), never rounded ratios.
 | Menu item | Plus Jakarta Sans 500 | 17 / 22 | `.menu-item`, `.bill-title` | menu items, bill names |
 | Label/Strong | Plus Jakarta Sans 600 | 15 / 20 | `.btn-link`, `.choice-title`, `.step-number`, `.choice-badge`, `.title-sm`, `.list-row-value`, `.scale-top .list-row-name`, `.scale-legend`, `.details-group .accordion-head` | Behind the results, Not sure — skip, card titles A/B/=, Details card titles, Results closeness / names in the panel / scale legend |
 | Counter | Plus Jakarta Sans 600 | 15 / 22 | `.counter` | progress counter |
-| Label/Medium | Plus Jakarta Sans 500 | 15 / 20 | `.step`, `.list-row-name`, `.list-names-rows`, `.accordion-head` | Home steps, Results names below the panel, names of lists and statement titles in Methodology |
+| Label/Medium | Plus Jakarta Sans 500 | 15 / 20 | `.step`, `.list-row-name`, `.list-names-rows`, `.accordion-head`, `.details-head .note` | Home steps, Results names below the panel, names of lists and statement titles in Methodology; List details, a list's note — blue on the blue tint band (customer 2026-10-25) |
 | Body/Default | Plus Jakarta Sans 400 | 15 / 21 | `.lead`, `.explain`, `.small`, `.details-row .list-row-name` | card explanations, intro text, «Based on …», bill details, List details «Closeness to you» (text/tertiary) |
-| Chip | Plus Jakarta Sans 500 | 13 / 20 | `.chip`, `.note` | chips (N statements, 3–5 min), notes |
+| Chip | Plus Jakarta Sans 500 | 13 / 20 | `.chip`, `.note` | chips (N statements, 3–5 min), the question screen's notice |
 | Caption | Plus Jakarta Sans 400 | 13 / 18 | `.choice-sub`, `.xsmall` | «Your answer: …», data version |
 | Caption, Medium (not in Figma) | Plus Jakarta Sans 500 | 13 / 18 | `.or-divider` | «or», «Not ranked: not enough data» (customer 2026-10-23) |
 | Eyebrow | Plus Jakarta Sans 600 | 12 / 16, 0.72 px (6%), upper case | `.eyebrow` | label above the title |
@@ -343,7 +343,8 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
 - The result never goes into the URL. No third-party trackers, fonts or requests (CSP in `public/_headers`).
 - Bill titles: Hebrew only, `dir="auto" lang="he"`, plus the direction line. Never show `summary_en`.
 - Never show: coalition/opposition, attitude to the government, number of MKs, list logos.
-- Exactly two notes (few former MKs: N; position known for only N% of your answers). No votes of lists on Methodology.
+- Notes only on List details, none on Results (customer 2026-10-25): the warning note (only one / only two Knesset
+  members, few Knesset members in the top ten) and «position known for only N% of your answers». No votes of lists on Methodology.
   No topic selection.
 - Every UI string in `../export/quiz_texts.json`, read through `src/strings.ts` / `src/texts.ts`. Metrics: only `started` /
   `finished` via `track()` — a beacon to the site's own `/count/<event>`, nothing else (DECISIONS.md H7).

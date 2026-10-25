@@ -1,22 +1,21 @@
 import type { CSSProperties } from 'react';
 import { formatCloseness, roundCloseness } from '../engine/format';
 import { S } from '../strings';
-import { Note } from './Note';
 
 interface Props {
   rank: number | null;
   name: string;
   closeness: number | null;
-  note: string;
   onClick?: () => void;
 }
 
 /**
  * A list on the Results scale (customer 2026-10-22): rank, name, closeness, and a dot on the −100%…+100% line under them.
  * Every row's line is the same width, so the dots of all lists read as one scale. A row that opens List details ends with
- * a round arrow button after the closeness, the same on every such row (customer 2026-10-23).
+ * a round arrow button after the closeness, the same on every such row (customer 2026-10-23). No note on a row: a list's
+ * note is on its List details page only (customer 2026-10-25).
  */
-export function ListRow({ rank, name, closeness, note, onClick }: Props) {
+export function ListRow({ rank, name, closeness, onClick }: Props) {
   const at = closeness === null ? null : (roundCloseness(closeness) + 1) / 2; // the dot stands at the value shown
   const content = (
     <>
@@ -32,7 +31,6 @@ export function ListRow({ rank, name, closeness, note, onClick }: Props) {
           <span className="scale-dot" style={{ '--at': at } as CSSProperties} />
         </span>
       )}
-      {note && <Note>{note}</Note>}
     </>
   );
   return onClick ? (

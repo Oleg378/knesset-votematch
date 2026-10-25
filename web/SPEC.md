@@ -74,7 +74,7 @@ header, pinned with it; Methodology is a page of its own: the menu stays, no Bac
   reducer keeps `MORE`).
 - Rows: rank, list name (`name_en`), closeness in tens of percent with its sign — `+40%`, `−30%`; zero is `0%`, no sign (customer 2026-10-22), then a round «›» button on a row
   that opens List details, the same on every row; every row on its own band (light translucent in the panel, light grey
-  below), 8 apart (customer 2026-10-23), note; the order uses the exact values, not
+  below), 8 apart (customer 2026-10-23); the order uses the exact values, not
   the rounded percents shown;
   under them a line −100%…+100% with the list's dot at the value shown (10 px for every list, blue in the panel, grey below; the line runs
   from the name to the end of the percent; the legend starts over the rank circles and ends over the arrow buttons) — the same line for every list, so all lists read as one scale. The 5
@@ -85,9 +85,11 @@ header, pinned with it; Methodology is a page of its own: the menu stays, no Bac
   to the first list that dropped down). «Show less ⌃» is only at the end of the open list; it closes the list and returns to
   the panel (focus on «See all») (customer 2026-10-22).
 - Ranked lists first; then a «Not ranked: not enough data» divider with lists below the coverage threshold or with
-  too few former MKs (no rank number, no notes: the divider gives the one reason for all; List details keeps each list's note). Lists with status
+  too few former MKs (no rank number: the divider gives the one reason for all). Lists with status
   `not_evaluated` (no record in the Knesset) are not shown on Results (customer 2026-10-22); Methodology counts them.
-- Notes, only these two: `few former MKs: N` (status warning) and `position known for only N% of your answers`.
+- No notes on Results, on any row (customer 2026-10-25): a list's note — `only one / only two Knesset members`, `few Knesset
+  members in the top ten` (status warning), `position known for only N% of your answers` — is shown on its List details
+  page only.
 - **Not shown** (customer decisions): coalition/opposition, number of MKs, party logos, anything about the government.
 - Tap a row → List details. «Change answers» → back to statements. Start over (header, menu) clears everything.
 
@@ -106,7 +108,8 @@ header, pinned with it; Methodology is a page of its own: the menu stays, no Bac
   start), under it in one line the list's rank in a tint circle 24, as on Results (when not ranked: the circle empty, a 2 px rim
   of the same tint inside the same 24 outline), the scale's line with the dot and the percent (blue, Plus Jakarta Sans ExtraBold
   22/26, at the column's edge; the circle and the percent 4 above the line's centre) (light blue tint for the line, 4
-  thick; customer 2026-10-23; 2026-10-24: no legend, rank and percent on the line's row); the note. 32 from the block to
+  thick; customer 2026-10-23; 2026-10-24: no legend, rank and percent on the line's row); the note — a band as wide as its text, up to the column's width, corners 20, the blue tint, the text blue Label/Medium
+  15/20 (customer 2026-10-25; it was a blue chip as wide as its text, Chip 13/20). 32 from the block to
   «Why it fits» (customer 2026-10-24: name, line, caveat, then the closeness).
 - «Why it fits — N matches» (items with contribution > 0, largest first) and «Why it doesn't fit — N mismatches» (shown as
   the words only, «Why it fits», no count — the template's part before « — »; Fraunces 32/38, dark grey #26282E, 12 from it to the first topic, 32 above «Why it doesn't fit»;
