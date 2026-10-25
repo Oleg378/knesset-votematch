@@ -49,7 +49,7 @@ describe('prerendered pages', () => {
 
   it('holds the text a search engine needs', () => {
     expect(prerender(PAGE_PATHS.start)).toContain(T.start.title);
-    expect(prerender(PAGE_PATHS.methodology)).toContain('class="method-title"');
+    expect(prerender(PAGE_PATHS.methodology)).toContain('method-list');
   });
 
   it('an unknown path is an error', () => {

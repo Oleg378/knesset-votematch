@@ -759,12 +759,52 @@ button.card:active {
   margin-top: calc(var(--space-4) + var(--space-1));
 }
 
-/* How it works (MethodologyScreen.tsx; customer 2026-10-24): every section is a card — the panel of the question card
-   (Brand / Tint 10%, radius 24, padding 20 / 14) — its title with the text, its items 8 apart; the cards 16 apart
-   (.stack-lg, the screen gap). Every card's title is the bold run-in of the sections (Body/Large, SemiBold), the
-   statements card's too (an h2 drawn as the others). */
-.method-card {
-  gap: var(--space-2);
+/* How it works (MethodologyScreen.tsx): every section a band as a topic of List details (customer 2026-10-25: «пункт —
+   это Where a list's position comes from, он раскрывается, а пункты внутри него»; they were cards, the panel of the
+   question card); opened, as an opened topic there: the text grey and justified, the points as facts, label over text
+   (.lines, .quote, .fact). The statement rows inside the statements band are white bands on it. */
+/* A point of a section: its lead, the small label, over its text — the leads are too long for the label column of List
+   details; the names of a list one under another. A line over every point, as between the bills of List details
+   (customer 2026-10-25: «можно ещё линии добавить»): 12 from the line to the point, the points 12 apart */
+.lines .method-point {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding-top: var(--space-3);
+  border-top: var(--border-width) solid var(--color-border);
+}
+
+/* A section's text answers its title (in the file they were one sentence: «Where a list's position comes from. Only from
+   what its candidates …»): right under the title, in the text colour, not justified, and no line between it and the
+   points it leads into — the lines only between the points (customer 2026-10-25: «фраза сверху непонятно к чему
+   относится»); with no text, no line between the title and the first point either («убери линию, где нет подзаголовка») */
+.method-body > .quote:first-child,
+.method-list .accordion-body > .lines:first-child > .quote {
+  margin-top: calc(-1 * var(--space-2));
+  color: var(--color-text);
+  text-align: start;
+}
+
+.method-body > .quote + .method-point,
+.method-body > .method-point:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+/* the last block of a section's body ends the band (no 20 to bills under it, as on List details); the statements band's
+   text 12 over its rows, the body's gap */
+.lines.method-body,
+.method-list .accordion-body > .lines:first-child {
+  margin-bottom: 0;
+}
+
+.method-list .method-rows .accordion {
+  background: var(--color-bg);
+}
+
+/* «Made by …» centred as «Data: …» under it (customer 2026-10-25: «исправь расхождения»; it was at the left) */
+.credits {
+  text-align: center;
 }
 
 /* «Data: …» closes the page: centred, the lightest grey, 24 under the last card (the screen gap 16 + 8) and 32 above the
@@ -774,69 +814,6 @@ button.card:active {
   margin-bottom: var(--space-6);
   text-align: center;
   color: var(--color-text-faint);
-}
-
-/* The statements card's title is an h2 drawn as a section's: the bold run-in title (strong), then the text */
-.method-title {
-  font: inherit;
-}
-
-/* Bands in a card — the names of lists (Label/Medium, as .list-row; nothing to press) and the statement rows
-   (Accordion.tsx) — the light translucent band of a list on Results (customer 2026-10-24: «more like Results»), 8 from
-   the card's edge, corners concentric with the card's (24 − 8), 8 apart; the text 16 inside the band, the same in both
-   kinds. When they end the card, the last is 8 above its bottom. */
-.list-names-rows {
-  list-style: none;
-  margin: 0 calc(var(--space-2) - var(--panel-pad-x));
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-2);
-  font-size: var(--font-size-sm);
-  line-height: var(--line-height-label);
-  font-weight: var(--font-weight-medium);
-  color: var(--color-text);
-}
-
-.list-names-rows > li {
-  padding: var(--space-3) var(--space-4);
-  border-radius: calc(var(--radius-lg) - var(--space-2));
-  background: var(--color-row-band);
-}
-
-.method-rows .accordion {
-  margin-inline: calc(var(--space-2) - var(--panel-pad-x));
-  border-radius: calc(var(--radius-lg) - var(--space-2));
-  background: var(--color-row-band);
-}
-
-.method-card > .method-rows:last-child,
-.method-card > .list-names-rows:last-child {
-  margin-bottom: calc(var(--space-2) - var(--space-20));
-}
-
-/* A long card (more than CARD_COLLAPSE_OVER items, uiConstants.ts; MethodCard): its first items, then «See all»
-   (DropDown.tsx, as on Results) 4 under the last of them (the card's gap 8 − 4) and 4 above the card's bottom; the rest
-   drop down 8 under them, 8 apart as in an open card, «Show less» 4 under the last. The lid while it closes is where
-   «See all» will be. */
-.fold {
-  display: flex;
-  flex-direction: column;
-}
-
-.method-card > .fold:last-child {
-  margin-bottom: calc(var(--space-1) - var(--space-20));
-}
-
-.fold > .see-all,
-.fold-body > .see-all {
-  margin-top: calc(var(--space-1) - var(--space-2));
-}
-
-.fold-body {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-2);
 }
 
 .scale-rows {
@@ -1063,7 +1040,7 @@ div.list-row .list-row-value {
 
 /* List details: the topic rows with the corners of a Results band (16) and a little taller, 52 (customer 2026-10-24:
    «с тем же скруглением и со схожим размером блоков, что на странице с результатами», option a of 3; it was 24 and 44).
-   How it works keeps its own. */
+   How it works keeps its own corners and colour (its bands are in a card); its titles are as these (below). */
 .details-group .accordion {
   border-radius: calc(var(--radius-scale) - var(--space-2));
   /* the colour of a list's band on Results, #F1F4FB: the same layers — a band over the panel's tint over the page
@@ -1073,8 +1050,9 @@ div.list-row .list-row-value {
 }
 
 /* the titles as the names of the closest lists on Results: Label/Strong, SemiBold, black (customer 2026-10-24: «как на
-   результатах»; it was Label/Medium, text/primary) */
-.details-group .accordion-head {
+   результатах»; it was Label/Medium, text/primary); the statement rows of How it works the same (customer 2026-10-25) */
+.details-group .accordion-head,
+.method-rows .accordion-head {
   padding-block: var(--space-4);
   font-weight: var(--font-weight-bold);
   color: var(--color-text-strong);
@@ -1452,14 +1430,6 @@ a.menu-item {
 }
 
 .sticky-actions {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-2);
-}
-
-.method-bullets {
-  margin: 0;
-  padding-inline-start: var(--space-5);
   display: flex;
   flex-direction: column;
   gap: var(--space-2);

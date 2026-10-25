@@ -14,7 +14,7 @@ import type { Answers } from '../engine/types';
 import { S, explainText } from '../strings';
 import { bills, core, data, loaded } from '../testSources';
 import { dataDate, dataValues, fill, listsOf, T } from '../texts';
-import { CARD_MAX_HEIGHT, HIGHLIGHT } from '../uiConstants';
+import { HIGHLIGHT } from '../uiConstants';
 
 const methodology = T.methodology;
 
@@ -117,144 +117,68 @@ describe('start', () => {
 });
 
 describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () => {
-  type Sec = (typeof methodology.sections)[number];
   const v = dataValues(data);
-  /** The items of a section card, as text to find: bullet leads, the lists line, the names, the closing paragraph. */
-  const itemsOf = (s: Sec): string[] => {
-    const lists = s.lists ? listsOf(data, s.lists.of) : [];
-    return [
-      ...(s.bullets ?? []).map((b) => fill(b.lead, v)),
-      ...(s.lists?.title !== undefined && lists.length ? [fill(s.lists.title, { n: lists.length })] : []),
-      ...lists.map((l) => l.name_en),
-      ...(s.after !== undefined ? [fill(s.after, v)] : []),
-    ];
-  };
-  const cardOf = (title: string) => screen.getByText(title, { exact: false }).closest('.panel') as HTMLElement;
-  // whitespace as the queries see it (a name may have a double space)
-  const has = (card: HTMLElement, text: string) =>
-    within(card).queryAllByText(text.replace(/\s+/g, ' ').trim(), { exact: false }).length > 0;
-  const statementsHeading = `${methodology.statements.title} ${fill(methodology.statements.text, { statements: data.statements.length })}`;
-  const rowsIn = (card: HTMLElement) => card.querySelectorAll('.method-rows .accordion').length;
+  const noPeriod = (t: string) => t.replace(/\.$/, '');
   const open = () => {
     render(<App loader={loaded()} />);
     clickLink(S.start.howItWorks);
   };
-  // jsdom has no layout: a card's title with its text is `head` px high, every item `item` px, no gaps and no tokens
-  // (no CSS) — so a card fits ⌊(CARD_MAX_HEIGHT − head) / item⌋ items with «See all», at least one
-  const size = { head: 80, item: 60 };
-  const fits = (n: number) => size.head + n * size.item <= CARD_MAX_HEIGHT
-    ? n : Math.max(1, Math.floor((CARD_MAX_HEIGHT - size.head) / size.item));
-  beforeEach(() => {
-    size.head = 80;
-    size.item = 60;
-    vi.spyOn(HTMLElement.prototype, 'getBoundingClientRect').mockImplementation(function (this: HTMLElement) {
-      const parent = this.parentElement;
-      const height = parent?.classList.contains('method-card') && this === parent.firstElementChild ? size.head
-        : this.matches('.method-bullets > li, .list-names-rows > li, .method-rows > .accordion, .method-card > p')
-          ? size.item : 0;
-      return { x: 0, y: 0, top: 0, left: 0, right: 0, bottom: height, width: 0, height, toJSON: () => ({}) } as DOMRect;
-    });
-  });
-  afterEach(() => vi.restoreAllMocks());
+  const band = (title: string) => screen.getByRole('button', { name: noPeriod(title) }).closest('.accordion') as HTMLElement;
+  // whitespace as the queries see it (a name may have a double space)
+  const has = (el: HTMLElement, text: string) =>
+    within(el).queryAllByText(text.replace(/\s+/g, ' ').trim(), { exact: false }).length > 0;
 
-  it('every section is a card: a tall one shows the whole items that fit in CARD_MAX_HEIGHT and «See all», a short one all', () => {
+  it('every section is a band with its title (no period), closed; opened, its text, points, names and closing paragraph', () => {
     open();
     screen.getByRole('heading', { name: methodology.heading });
-    const long: string[] = [];
+    const heads = [...document.querySelectorAll('.method-list > .accordion > .accordion-head')].map((h) => h.textContent);
+    expect(heads).toEqual([...methodology.sections.map((s) => noPeriod(s.title)), noPeriod(methodology.statements.title)]);
     for (const s of methodology.sections) {
-      const card = cardOf(s.title);
-      expect(card).not.toBeNull();
-      if (s.text !== undefined) expect(card.querySelector('p')!.textContent).toBe(`${s.title} ${fill(s.text, v)}`);
-      const items = itemsOf(s);
-      const fold = fits(items.length) < items.length;
-      if (fold) long.push(s.title);
-      items.forEach((text, i) => expect([text, has(card, text)]).toEqual([text, i < fits(items.length)]));
-      expect(within(card).queryAllByRole('button').map((b) => b.textContent)).toEqual(fold ? [S.results.seeAll] : []);
+      const el = band(s.title);
+      expect(el.querySelector('.accordion-body')).toBeNull(); // closed at first
+      fireEvent.click(screen.getByRole('button', { name: noPeriod(s.title) }));
+      // the text leads into the points: it ends with «:»
+      if (s.text !== undefined) expect(has(el, fill(s.text, v).replace(/[.:]?$/, ':'))).toBe(true);
+      // a point: its lead without its «.» / «:», its text without its period
+      for (const b of s.bullets ?? []) {
+        expect(has(el, fill(b.lead, v).replace(/[.:]$/, ''))).toBe(true);
+        const text = noPeriod(fill(b.text, v));
+        expect(has(el, /[.:]$/.test(fill(b.lead, v)) ? text.replace(/\p{L}/u, (c) => c.toUpperCase()) : text)).toBe(true);
+      }
+      for (const l of s.lists ? listsOf(data, s.lists.of) : []) expect(has(el, l.name_en)).toBe(true);
+      if (s.after !== undefined) expect(has(el, noPeriod(fill(s.after, v)))).toBe(true);
     }
-    expect(long).toEqual(['Lists without a record.', 'Limitations — what this quiz can and cannot tell you.',
-      'How topics are chosen.', 'Important topics that are not in the quiz, and why']);
-    // a bullet reads as one sentence: its lead, a space, its text
+    // a point reads as one sentence: its lead, a space, its text
     expect(document.querySelector('.screen')!.textContent).toContain(`${v.evaluable} of ${v.lists} lists can be evaluated`);
-    // the statements card: its title an h2 drawn as a section's (bold run-in title, then the text), the same rule — the first rows and «See all»
-    const heading = screen.getByRole('heading', { level: 2, name: statementsHeading });
-    expect(heading.className).toBe('method-title');
-    expect(heading.querySelector('strong')!.textContent).toBe(methodology.statements.title);
-    const statements = heading.closest('.panel') as HTMLElement;
-    expect(fits(data.statements.length)).toBeLessThan(data.statements.length);
-    expect(rowsIn(statements)).toBe(fits(data.statements.length));
-    within(statements).getByRole('button', { name: data.statements[0]!.title_en });
-    within(statements).getByRole('button', { name: S.results.seeAll });
     const dataLine = screen.getByText(fill(methodology.statements.dataVersion, { fetched: dataDate(data.fetched), generated: dataDate(data.generated), commit: data.source_commit }));
-    expect(dataLine.closest('.panel')).toBeNull();
+    expect(dataLine.closest('.accordion')).toBeNull();
     expect(dataDate('2026-10-23')).toBe('23 October 2026');
-    expect(document.querySelectorAll('.screen .panel')).toHaveLength(methodology.sections.length + 1);
     expect(document.body.textContent).not.toMatch(/[{}]/);
   });
 
-  it('a long card: «See all» drops the rest down in the card, «Show less» at its end closes it again', () => {
+  it('«Lists without a record» names the lists with no former member of the Knesset', () => {
     open();
-    for (const s of methodology.sections.filter((x) => fits(itemsOf(x).length) < itemsOf(x).length)) {
-      const card = cardOf(s.title);
-      const items = itemsOf(s);
-      const more = within(card).getByRole('button', { name: S.results.seeAll });
-      expect(more.getAttribute('aria-expanded')).toBe('false');
-      fireEvent.click(more);
-      for (const text of items) expect(has(card, text)).toBe(true);
-      expect(within(card).queryByRole('button', { name: S.results.seeAll })).toBeNull();
-      const less = within(card).getByRole('button', { name: S.results.seeLess });
-      expect(less.getAttribute('aria-expanded')).toBe('true');
-      const drop = document.getElementById(less.getAttribute('aria-controls')!)!;
-      expect(drop.lastElementChild!.contains(less)).toBe(true);
-      fireEvent.click(less);
-      items.forEach((text, i) => expect(has(card, text)).toBe(i < fits(items.length)));
-      expect(document.activeElement).toBe(within(card).getByRole('button', { name: S.results.seeAll }));
-    }
-    // the statements card, by the same rule
-    const card = screen.getByRole('heading', { level: 2, name: statementsHeading }).closest('.panel') as HTMLElement;
-    fireEvent.click(within(card).getByRole('button', { name: S.results.seeAll }));
-    expect(rowsIn(card)).toBe(data.statements.length);
-    fireEvent.click(within(card).getByRole('button', { name: S.results.seeLess }));
-    expect(rowsIn(card)).toBe(fits(data.statements.length));
-  });
-
-  it('a card whose title and text alone are taller than CARD_MAX_HEIGHT still shows its first item', () => {
-    size.head = CARD_MAX_HEIGHT + 100;
-    open();
-    for (const s of methodology.sections) {
-      const items = itemsOf(s);
-      const card = cardOf(s.title);
-      items.forEach((text, i) => expect(has(card, text)).toBe(i < 1));
-      expect(within(card).getAllByRole('button').map((b) => b.textContent)).toEqual(items.length > 1 ? [S.results.seeAll] : []);
-    }
-    const card = screen.getByRole('heading', { level: 2, name: statementsHeading }).closest('.panel') as HTMLElement;
-    expect(rowsIn(card)).toBe(1);
-  });
-
-  it('«Which lists have a record» is its text and bullets; «Lists without a record» names them, the first ones and «See all»', () => {
-    open();
-    // the section with the lists has no title of its own on the page; the one before it is the record section
-    const record = methodology.sections[methodology.sections.findIndex((s) => s.lists) - 1]!;
-    expect(record.lists).toBeUndefined();
-    const recordCard = cardOf(record.title);
-    for (const b of record.bullets!) within(recordCard).getByText(fill(b.lead, v), { exact: false });
-    expect(within(recordCard).queryAllByRole('button')).toEqual([]);
-    // the lists card: no title of its own (the names follow the text), the lists with no former member of the Knesset
     const section = methodology.sections.find((s) => s.lists)!;
     expect(section.lists).toEqual({ of: 'no_record' });
     const names = data.lists.filter((l) => l.status === 'not_evaluated').map((l) => l.name_en);
     expect(names.length).toBe(v.no_record);
     expect(listsOf(data, 'no_record').map((l) => l.name_en)).toEqual(names);
-    const card = cardOf(section.title);
-    const head = `${section.title} ${fill(section.text!, v)}`;
-    expect(head).toContain(String(names.length));
-    const shown = () => within(card).getAllByRole('list', { name: head }).flatMap((ul) =>
-      within(ul).getAllByRole('listitem').map((li) => li.textContent));
-    expect(shown()).toEqual(names.slice(0, fits(names.length)));
-    fireEvent.click(within(card).getByRole('button', { name: S.results.seeAll }));
-    expect(shown()).toEqual(names);
-    fireEvent.click(within(card).getByRole('button', { name: S.results.seeLess }));
-    expect(shown()).toEqual(names.slice(0, fits(names.length)));
-    expect(document.body.textContent).not.toMatch(/[{}]/);
+    fireEvent.click(screen.getByRole('button', { name: noPeriod(section.title) }));
+    const el = band(section.title);
+    expect(fill(section.text!, v)).toContain(String(names.length));
+    for (const n of names) expect(has(el, n)).toBe(true);
+  });
+
+  it('the statements band: its text and a row per statement, a row opening to the statement and its bills', () => {
+    open();
+    fireEvent.click(screen.getByRole('button', { name: noPeriod(methodology.statements.title) }));
+    const el = band(methodology.statements.title);
+    expect(has(el, fill(methodology.statements.text, { statements: data.statements.length }).replace(/[.:]?$/, ':'))).toBe(true);
+    expect(el.querySelectorAll('.method-rows > .accordion')).toHaveLength(data.statements.length);
+    const st = data.statements[0]!;
+    fireEvent.click(within(el).getByRole('button', { name: st.title_en }));
+    expect(has(el, noPeriod(st.statement_en))).toBe(true);
+    expect(el.querySelector('.bill')).not.toBeNull();
   });
 
   it('waits for quiz_bills only (its texts are bundled)', () => {
