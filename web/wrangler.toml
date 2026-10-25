@@ -5,6 +5,9 @@ name = "knesset-vote-match"
 pages_build_output_dir = "dist"
 compatibility_date = "2026-10-01"
 
+[vars]
+SITE_HOST = "knessetquiz.org" # the one host whose beacons are counted (functions/count/[event].js)
+
 [[analytics_engine_datasets]]
 binding = "COUNTS"
 dataset = "quiz_events"
