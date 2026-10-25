@@ -148,6 +148,8 @@ header, pinned with it; Methodology is a page of its own: the menu stays, no Bac
 
 ### 7. Methodology and Positions of the lists
 - Methodology: every text from `methodology` in `export/quiz_texts.json` (contract §7) — heading, sections, bullets, labels of the statements block; numbers are `{placeholders}` filled from `quiz_data`. Nothing of the page is written in the code.
+  Layout (DECISIONS G40): every section a band as a List details topic, opening to its text (ends «:» before its
+  points) and points (label over text, lines between), the statements band last, its rows opening to each statement.
 - Positions of the lists: the table described in `export/WEB_CONTRACT.md` §6 — statements × evaluated lists, cell = the measured side, click → the bills, the right-to-contest text.
 
 ## Computation (TypeScript port; Python is the reference)
