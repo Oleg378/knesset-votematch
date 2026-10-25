@@ -224,27 +224,6 @@
     ]
    },
    {
-    "title": "Reading your results.",
-    "bullets": [
-     {
-      "lead": "«No clear position».",
-      "text": "The list's record on this statement is too weak to call a side, or rests on one former member or one bill."
-     },
-     {
-      "lead": "“Few former MKs: N”.",
-      "text": "The position rests on very few people."
-     },
-     {
-      "lead": "“Position known for only N% of your answers”.",
-      "text": "The list has a position on less than half of your answers: shown below the others, not ranked."
-     },
-     {
-      "lead": "Your answers are not stored.",
-      "text": "They never leave your device. The site counts only how many people start the quiz and how many reach the results — nothing else is sent."
-     }
-    ]
-   },
-   {
     "title": "The order of questions.",
     "text": "{core} statements are the same for everyone, then {clarify} are chosen for you.",
     "bullets": [
