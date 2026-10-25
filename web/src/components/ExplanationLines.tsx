@@ -1,8 +1,9 @@
 import type { DetailsLine } from '../strings';
 
 /**
- * A topic's explanation on List details: the quoted statement, then each fact as a small label over its value (customer
- * 2026-10-25, option 4 of 8: «Your answer» / «strongly agree», «Based on» / «25 bills they sponsored», «Weight ×2» / …).
+ * A topic's explanation on List details: the statement (no quotation marks), then each fact as a small label over its
+ * value (customer 2026-10-25, option 4 of 8: «Your answer» / «strongly agree», «Based on» / «25 bills they sponsored»,
+ * «Weight ×2» / …).
  */
 export function ExplanationLines({ lines }: { lines: DetailsLine[] }) {
   return (

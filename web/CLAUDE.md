@@ -187,7 +187,8 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
 ## Customer decisions (do not change)
 - Answers are stored nowhere: no localStorage/sessionStorage/cookies/IndexedDB. Reload = start over.
 - The result never goes into the URL. No third-party trackers, fonts or requests (CSP in `public/_headers`).
-- Bill titles: Hebrew only, `dir="auto" lang="he"`, plus the direction line. Never show `summary_en`.
+- Bill titles: Hebrew only, `dir="auto" lang="he"`, right-aligned; under them the Knesset and the sponsors, no direction line
+  (customer 2026-10-25). Never show `summary_en`.
 - Never show: coalition/opposition, attitude to the government, number of MKs, list logos.
 - Notes only on List details, none on Results (customer 2026-10-25): the warning note (only one / only two Knesset
   members, few Knesset members in the top ten) and «position known for only N% of your answers». No votes of lists on Methodology.

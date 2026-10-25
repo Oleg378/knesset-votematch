@@ -457,7 +457,9 @@ describe('results', () => {
       fireEvent.click(head);
       if (document.querySelector('.bill')) break;
     }
-    expect(document.querySelector('.accordion-body .lines .quote')).not.toBeNull(); // the explanation, then the bills
+    // the explanation, then the bills; the statement without quotation marks and without a period at its end
+    const quote = document.querySelector('.accordion-body .lines .quote')!.textContent!;
+    expect(quote).not.toMatch(/^“|”$|\.$/);
     // the «price» caveat once on the page, not inside the topics
     expect(screen.getAllByText(S.details.priceNote)).toHaveLength(1);
     expect(document.querySelector('.accordion-body')!.textContent).not.toContain(explainText.caveatPrice);

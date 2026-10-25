@@ -55,7 +55,7 @@ const DETAILS_BASIS = '{bills} {bills?bill|bills} they sponsored';
 export interface DetailsLine { quote?: boolean; label?: string; text: string }
 
 /**
- * List details shows the explanation shorter and as facts (customer 2026-10-25): the quote, then each fact as a small
+ * List details shows the explanation shorter and as facts (customer 2026-10-25): the statement, then each fact as a small
  * label over its value — «Your answer» / «strongly agree» (without «The record of the list's former MKs points toward …»:
  * the section, «Why it fits» or «Why it doesn't fit», says it), «Based on» / «25 bills they sponsored» (no counts by
  * side, no votes), «Weight ×2» / «you chose this topic in a trade-off question»; no period at their ends. A fact's label
@@ -64,8 +64,9 @@ export interface DetailsLine { quote?: boolean; label?: string; text: string }
 export function renderLinesDetails(lines: LineItem[]): DetailsLine[] {
   return lines.map((l) => {
     if (l.key === 'basis') return { label: DETAILS_BASIS_LABEL, text: fill(DETAILS_BASIS, { bills: l.bills }) };
+    // the statement as it is, without the quotation marks and the period at its end (customer 2026-10-25)
+    if (l.key === 'quote') return { quote: true, text: l.text.replace(/\.$/, '') };
     const s = renderLines([l])[0]!;
-    if (l.key === 'quote') return { quote: true, text: s };
     const one = (l.key === 'answer' && s.includes('. ') ? s.slice(0, s.indexOf('. ')) : s).replace(/\.$/, '');
     const i = one.indexOf(': ');
     return i < 0 ? { text: one } : { label: one.slice(0, i), text: one.slice(i + 2) };
@@ -87,6 +88,9 @@ export function renderLines(lines: LineItem[]): string[] {
 }
 
 // ---- UI ----
+
+/** A heading «words ({n})» as its words and its count, shown in a badge (List details bills); no « ({n})»: all words. */
+const countHead = (template: string, n: number) => ({ words: fill(template.split(' ({n})')[0]!, { n }), n });
 
 /** The words of a heading «words — count», before its « — » (List details sections); without one, all of it. */
 const headWords = (s: string) => s.split(' — ')[0]!;
@@ -178,25 +182,23 @@ export const S = {
     /** «Why it fits — 9 matches» without the count: «Why it fits» (customer 2026-10-24: «убери matches вообще») */
     fits: (n: number) => headWords(fill(T.details.fits, { n })),
     misfits: (n: number) => headWords(fill(T.details.misfits, { n })),
-    none: T.details.none,
+    none: T.details.none.replace(/\.$/, ''), // no period (customer 2026-10-25)
   },
   bills: {
-    yourWay: (n: number) => fill(T.bills.yourWay, { n }),
-    otherWay: (n: number) => fill(T.bills.otherWay, { n }),
-    none: T.bills.none,
-    meta: (knesset: number, role: string, raises: boolean, direction: string) =>
-      fill(T.bills.meta, {
-        knesset,
-        role: role === 'main' ? T.bills.roleMain : T.bills.roleSecondary,
-        verb: raises ? T.bills.raises : T.bills.lowers,
-        direction,
-      }),
-    sponsoredBy: (names: string) => fill(T.bills.sponsoredBy, { names }),
-    sponsor: (name: string, pos: number) => fill(T.bills.sponsor, { name, pos }),
+    yourWay: (n: number) => countHead(T.bills.yourWay, n),
+    otherWay: (n: number) => countHead(T.bills.otherWay, n),
+    none: T.bills.none.replace(/\.$/, ''), // no period (customer 2026-10-25)
+    // A bill's facts as a label over its value, as the topic's facts (customer 2026-10-25): «KNESSET» / 25 — the label is
+    // the meta template's part before its first « · », without the number; «SPONSORED BY» / each sponsor on its own line,
+    // the name, then «#2 on the list» — the sponsor template after the name, without its brackets.
+    knessetLabel: T.bills.meta.split(' · ')[0]!.replace(/\s*\{knesset\}\s*/, ''),
+    sponsoredByLabel: T.bills.sponsoredBy.split(': ')[0]!,
+    sponsorPlace: (pos: number) => fill(T.bills.sponsor.replace('{name}', '').trim().replace(/^\((.*)\)$/, '$1'), { pos }),
     link: T.bills.link,
     yourWayMark: T.bills.yourWayMark,
     otherWayMark: T.bills.otherWayMark,
-    showMore: (n: number) => fill(T.bills.showMore, { n }),
+    // the words only, without «({n} left)» (customer 2026-10-25: «без left, просто Show more»)
+    showMore: T.bills.showMore.split(' (')[0]!,
   },
   /** The rest of the methodology page reads `T.methodology` directly (MethodologyScreen). */
   methodology: {

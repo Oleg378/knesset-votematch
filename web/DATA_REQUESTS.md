@@ -20,6 +20,12 @@ List details and the bills page are one page now (DECISIONS.md G29), and its clo
   their own keys;
 - `details.fits` / `details.misfits`: the web shows only the words before « — » now, no count (DECISIONS G32): keep the
   « — » in these two templates, or make them «Why it fits» / «Why it doesn't fit» without `{n}`.
+- bills on List details (DECISIONS G37): `bills.roleMain`, `bills.roleSecondary`, `bills.raises`, `bills.lowers` are no
+  longer read, and of `bills.meta` only the part before its first « · » («Knesset {knesset}», shown as the label
+  «Knesset» and the number); `bills.sponsoredBy` gives its label before «: », `bills.sponsor` its text after `{name}`
+  without the brackets («#{pos} on the list»); `bills.yourWay` / `bills.otherWay` their words before « ({n})» (the count
+  goes in a pill); `bills.showMore` its words before « (» (no count); `bills.none` and `details.none` are shown without
+  their final period. Keep these marks, or give the parts as their own keys;
 
 ## To do on the machine with `knesset.duckdb` (item 13, 2026-10-24)
 1. `export/quiz_texts.json`: add `details.closenessTitle` `"Closeness to you"`, `details.priceNote` `"Shows what they

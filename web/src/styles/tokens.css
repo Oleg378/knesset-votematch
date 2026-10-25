@@ -102,6 +102,7 @@
   --chevron: 18px; /* not in Figma: Results «See all» and the arrow at the end of a list row */
   --row-go: 24px; /* not in Figma: Results, the round arrow button at the end of a list row (customer 2026-10-23, it was 20) */
   --rank-badge: var(--row-go); /* not in Figma: Results, the rank circle of the closest lists, the arrow button's size, in the 28 px rank column (it was 28) */
+  --fact-label-width: 104px; /* not in Figma: List details, the column of the fact labels in an opened topic, «YOUR ANSWER» on one line (customer 2026-10-25) */
   --counter-width: 41px; /* «1/10» */
   --panel-pad-x: 14px; /* «Questions» panel */
   --choice-pad-y: 14px; /* Answer card */

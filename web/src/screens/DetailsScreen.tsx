@@ -30,7 +30,7 @@ function Section(props: { data: QuizData; bills: QuizBills; list: string; mult: 
               <>
                 {/* the «price» caveat is said once for the page, under the closeness; the rest as short facts */}
                 <ExplanationLines lines={renderLinesDetails(lines.filter((l) => l.key !== 'caveatPrice'))} />
-                <BillLists data={data} bills={bills} q={x.statement} evidence={evidence} />
+                <BillLists data={data} bills={bills} evidence={evidence} />
               </>
             );
           }}

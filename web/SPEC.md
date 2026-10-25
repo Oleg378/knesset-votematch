@@ -121,17 +121,25 @@ header, pinned with it; Methodology is a page of its own: the menu stays, no Bac
   (customer 2026-10-23: List details and the bills page made one page; there is no separate Bills screen).
 - An item opened: the explanation lines as `explain()` (see golden `details[].items[].lines`), two of them shorter on this
   page (customer 2026-10-25): the answer line without «The record of the list's former MKs …» (the section says the side)
-  and the basis line as «Based on 25 bills they sponsored»; after the quote each line is a fact — a small label (Eyebrow,
-  text/tertiary) over its value (Medium, text): «YOUR ANSWER» / strongly agree, «BASED ON» / 25 bills they sponsored,
-  «WEIGHT ×2» / you chose this topic in a trade-off question, 10 apart, no periods (`renderLinesDetails`): quoted statement ·
-  «Your answer: X. The list is for/against this statement.» · basis line · optional weight ×2 line · optional caveat; then
-  the bills (§6).
+  and the basis line as «Based on 25 bills they sponsored»; first the statement itself — no quotation marks, no period at
+  its end, Body/Default in text/secondary, justified — then each line is a fact in two columns: a small label (Eyebrow, in
+  the text colour) on the left, its value (Medium, text/tertiary) on the right: «YOUR ANSWER» strongly agree, «BASED ON»
+  25 bills they sponsored, «WEIGHT ×2» you chose this topic in a trade-off question; 8 more over the statement, 24 from it
+  to the facts, 12 between facts, 32 to the bills; no periods (`renderLinesDetails`): statement · «Your answer: X. The
+  list is for/against this statement.» · basis line · optional weight ×2 line · optional caveat; then the bills (§6).
 
 ### 6. Bills of one statement (inside an item of List details)
-- Two groups: «Your way (n)» and «The other way (n)», order from the golden evidence; 20 at a time, «Show more».
-- Bill row: Hebrew title (`name_he`, **dir="auto"**, never translated), under it in English: «Knesset N · main/secondary topic ·
-  raises/lowers “direction name”», «Sponsored by: Name (#p on the list)» (first two by list position), link to the Knesset page.
-- No per-bill English summary [У 2026-10-17]: bill names are not translated; the direction line above is the English context. `summary_en` is always null and not rendered.
+- Two groups: «Your way» and «The other way», each count in a light blue pill as the rank «1» at the top of the page (15
+  ExtraBold blue, 24 high, 8 at each side), no brackets; order from the golden evidence; empty — «None» without a period.
+  20 at a time: «Show more» (the words of `bills.showMore` without «({n} left)») adds 20; once all are shown, «Show less»
+  (`results.seeLess`) scrolls back to where the hidden bills start and shows 20 again. Both as «See all» on Results:
+  centred, blue, a chevron down / up; under them a line closes the list, 8 under the text, the next heading 12 under it.
+- Bill row: Hebrew title (`name_he`, **dir="auto"**, aligned to its own start — the right edge — in every browser, never
+  translated), then two facts as in the topic: «KNESSET» 25, «SPONSORED BY» each sponsor on its own line, «Name #p on the
+  list» (first two by list position; the labels are the templates' text before the number / before «: »), then the link
+  to the Knesset page. No topic role, no direction (customer 2026-10-25). 12 over the title, 32 from it to the facts, the
+  link's text 12 over the next line.
+- No per-bill English summary [У 2026-10-17]: bill names are not translated. `summary_en` is always null and not rendered.
 
 ### 7. Methodology and Positions of the lists
 - Methodology: every text from `methodology` in `export/quiz_texts.json` (contract §7) — heading, sections, bullets, labels of the statements block; numbers are `{placeholders}` filled from `quiz_data`. Nothing of the page is written in the code.

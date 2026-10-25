@@ -357,8 +357,11 @@ em {
   color: var(--color-text-strong);
 }
 
+/* A Hebrew text starts at its own start — the right edge, as `dir="auto"` makes it right to left. Said here, not inherited:
+   Safari computes the bill row's inherited `start` as `left`, and the title took it (2026-10-25: titles at the left) */
 .he {
   unicode-bidi: isolate;
+  text-align: start;
 }
 
 /* Button */
@@ -1303,8 +1306,40 @@ div.list-row .list-row-value {
 }
 
 /* Bills */
+/* «Your way» / «The other way» and the count in a light blue pill, its digits as the rank «1» at the top of the page: 24
+   high, 15 ExtraBold blue, cut to their cap height so the pill centres them, 8 at each side, about the room the «1» has in
+   its circle (customer 2026-10-25, option 1 of 5, then «сделай 40 так же, как цифру 1 сверху», then «круг вытяни до
+   овала, как было»; it was «Your way (40)») */
+.bills-head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.count-badge {
+  min-width: var(--rank-badge);
+  height: var(--rank-badge);
+  padding-inline: var(--space-2);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: calc(var(--rank-badge) / 2);
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+  font-variant-numeric: tabular-nums;
+  font-weight: var(--font-weight-extrabold);
+}
+
+.count-badge > span {
+  text-box: trim-both cap alphabetic;
+}
+
+/* 12 over the title, nothing under the link's tap area (its text stays 12 over the next line); the title's room below
+   (.bill-title) moves the facts and the link down, the row 16 taller than it was (customer 2026-10-25, step by step:
+   «чуть больший отступ вниз от иврита», «оставь всю зону как было», «размер блока не уменьшая», «увеличь окно на 8 и
+   добавь этот спейс перед кнессет», «подними обратно на 4»; it was 12 and 12) */
 .bill {
-  padding: var(--space-3) 0;
+  padding: var(--space-3) 0 0;
   border-top: var(--border-width) solid var(--color-border);
   display: flex;
   flex-direction: column;
@@ -1319,34 +1354,80 @@ div.list-row .list-row-value {
   min-height: var(--tap-min);
 }
 
+/* «Show more» belongs to its list: right under its last bill (the list's 8), a line under it closes the list, 8 under the
+   text — the link's tap area goes on over it; the next heading 12 under the line, as a bill's title under its line
+   (customer 2026-10-25: a line over it, then «это относится к Your way? тогда полосу под Show more», «подтяни линию
+   ближе», «отступ сверху у The other way такой же, как у ивритского текста») */
+.bills-more {
+  margin-top: var(--space-2); /* 16 under the last bill with the list's 8 (customer 2026-10-25: «+8»; it was 8) */
+  border-bottom: var(--border-width) solid var(--color-border);
+}
+
+.bills-more .btn-link {
+  margin-bottom: calc(-1 * var(--space-1));
+}
+
 /* Menu item 17/22 (the Hebrew falls back to a system font; the size and spacing stay Figma's) */
 .bill-title {
   font-weight: var(--font-weight-medium);
   line-height: var(--line-height-button);
+  margin-bottom: calc(var(--space-6) - var(--space-1)); /* 32 to the facts with the row's gap; it was 4 */
 }
 
+/* Spacing by meaning (customer 2026-10-25, option 3 of 5): 8 more over the statement (24 under the topic's title), 24
+   from it to the facts, the facts 12 apart, 32 from the last one to «Your way» (the body's 12 + 20); it was 16, 10, 10, 12 */
 .lines {
   display: flex;
   flex-direction: column;
-  gap: calc(var(--space-2) + var(--space-1) / 2); /* 10 (customer 2026-10-25, option 4 of 8; it was 4) */
+  gap: var(--space-3);
+  margin-top: var(--space-2);
+  margin-bottom: var(--space-20);
 }
 
-/* A fact of a topic's explanation: a small label — Eyebrow, the lightest grey — over its value, Medium in the text colour
-   (customer 2026-10-25: «отдели строки друг от друга по смыслу», option 4 of 8) */
+/* The statement over the facts: Body/Default in text/secondary, justified; no quotation marks, no period at its end, no bar
+   at its left (customer 2026-10-25: «шрифт меньше», option 4 of 5, then «убери черту»; it was Body/Large in the text colour) */
+.lines .quote {
+  margin-bottom: var(--space-3);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-body-sm);
+  color: var(--color-text-muted);
+  text-align: justify;
+}
+
+/* A fact of a topic's explanation: a small label — Eyebrow in the text colour — in a column on the left, its value, Medium in
+   the lightest grey, on the right, on one baseline (customer 2026-10-25: «отдели строки друг от друга по смыслу», option 4
+   of 8; then two columns, option 3 of 5; then «поменяй местами чёрный и серый» — the label was grey and over the value,
+   the value black); a bill's Knesset and sponsors the same */
+.fact {
+  display: grid;
+  grid-template-columns: var(--fact-label-width) 1fr;
+  column-gap: var(--space-3);
+  align-items: baseline;
+}
+
 .fact-label {
-  display: block;
   font-size: var(--font-size-eyebrow);
   line-height: var(--line-height-eyebrow);
   font-weight: var(--font-weight-bold);
   letter-spacing: var(--letter-spacing-eyebrow);
   text-transform: uppercase;
-  color: var(--color-text-faint);
+  color: var(--color-text);
 }
 
 .fact-value {
-  display: block;
   font-weight: var(--font-weight-medium);
-  color: var(--color-text);
+  color: var(--color-text-faint);
+}
+
+/* a bill's sponsors one under another, «Yair Lapid #2 on the list» all as a value (customer 2026-10-25, option 2 of 6, then
+   «то, что серым, сделай таким же, как текст») */
+.bill-sponsor {
+  display: block;
+}
+
+/* a line with no label (no «: » in it) takes the whole width */
+.fact-value:only-child {
+  grid-column: 1 / -1;
 }
 
 a {
