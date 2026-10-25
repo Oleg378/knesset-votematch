@@ -29,7 +29,7 @@ if (location.search.includes('debug')) showViewportNumbers(); // the window's nu
 // path picks the screen: «/how-it-works» opens the methodology. Dev server only: `?demo` opens List details (devDemo.ts).
 const demo = import.meta.env.DEV ? new URLSearchParams(location.search).get('demo') : null;
 const initial = demo !== null
-  ? await import('./devDemo').then((m) => { m.openFirstTopic(); return m.demoState(demo); })
+  ? await import('./devDemo').then((m) => { if (demo !== 'results') m.openFirstTopic(); return m.demoState(demo); })
   : initialStateFor(location.pathname);
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
