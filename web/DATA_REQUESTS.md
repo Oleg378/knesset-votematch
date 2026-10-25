@@ -20,9 +20,7 @@ List details and the bills page are one page now (DECISIONS.md G29), and its clo
 - How it works (DECISIONS G40): a section's title is shown without its period; a point's lead ending in «.» or «:» is a
   label over its text (shown with a capital first letter, no final period), a lead without one runs on into its text;
   `statements.billMeta`, `roleMain`, `roleSecondary` are no longer read, `statements.topic` / `up` / `down` / `sponsors`
-  give their labels before «: », `statements.showMore` its words before « (». In «Reading your results» the point
-  «“Few former MKs: N”» no longer matches the notes («only one / only two Knesset members», «few Knesset members in the
-  top ten») and uses «MKs», which this page avoids; the quotes are mixed («…» and “…”); the page is «How it works» in
+  give their labels before «: », `statements.showMore` its words before « (». The page is «How it works» in
   the header and «Methodology» in the menu;
 - add `menu.home` `"Home"` — the menu's first item instead of Start over (customer 2026-10-25, DECISIONS G38;
   `web/src/strings.ts` holds it until then); `menu.startOver` stays: the Results header's button reads it;
