@@ -18,7 +18,7 @@ const HEAD_TAGS = ['<meta name="description"', '<link rel="icon"', '<link rel="a
   '<meta property="og:title"', '<meta name="twitter:card"'];
 const HEAD_TAGS_DEPLOY = ['<link rel="canonical"', '<meta property="og:url"', '<meta property="og:image"'];
 // Each page holds its screen as HTML (prerenderPages in vite.config.ts): a mark of the screen's markup.
-const PRERENDERED = { 'index.html': 'class="screen start"', 'how-it-works.html': 'class="method-title"' };
+const PRERENDERED = { 'index.html': 'class="screen start"', 'how-it-works.html': 'method-list' };
 
 const dist = new URL('../dist/', import.meta.url).pathname;
 const files = [];

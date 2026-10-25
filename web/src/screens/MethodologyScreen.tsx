@@ -186,7 +186,8 @@ function Credits() {
  * List details (customer 2026-10-25: «пункт — это Where a list's position comes from, он раскрывается, а пункты внутри
  * него»; they were cards with their text open): every section a band with its title (no period), opening to its text,
  * points, names and closing paragraph; the statements block the same, opening to its text and a row per statement, each
- * row opening to the statement's record. The numbers are filled from quiz_data (texts.ts).
+ * row opening to the statement's record. Closed bands keep their text in the page (Accordion `findable`): search
+ * engines read it, find in page opens it. The numbers are filled from quiz_data (texts.ts).
  */
 export function MethodologyScreen({ data, bills }: BillsScreenProps) {
   const methodology = T.methodology;
@@ -199,9 +200,11 @@ export function MethodologyScreen({ data, bills }: BillsScreenProps) {
       <h1 className="visually-hidden">{methodology.heading}</h1>
       <div className="stack details-group method-list">
         {methodology.sections.map((s) => (
-          <Accordion key={s.title} title={noPeriod(s.title)}>{() => <SectionBody data={data} s={s} v={v} />}</Accordion>
+          <Accordion key={s.title} title={noPeriod(s.title)} findable>
+            {() => <SectionBody data={data} s={s} v={v} />}
+          </Accordion>
         ))}
-        <Accordion title={noPeriod(t.title)}>
+        <Accordion title={noPeriod(t.title)} findable>
           {() => (
             <>
               <div className="lines">

@@ -1286,6 +1286,12 @@ div.list-row .list-row-value {
   gap: var(--space-3);
 }
 
+/* A closed findable band keeps its body in the page (`hidden="until-found"`: the browser hides its content, its box
+   stays): no padding, so a closed band is as tall as the others */
+.accordion-body[hidden] {
+  padding: 0;
+}
+
 /* Bills */
 /* «Your way» / «The other way» and the count in a light blue pill, its digits as the rank «1» at the top of the page: 24
    high, 15 ExtraBold blue, cut to their cap height so the pill centres them, 8 at each side, about the room the «1» has in

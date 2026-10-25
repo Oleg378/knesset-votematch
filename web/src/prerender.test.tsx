@@ -27,7 +27,9 @@ function canon(html: string): string {
     }
     if (n.nodeType !== Node.ELEMENT_NODE) return;
     const el = n as Element;
-    const attrs = [...el.attributes].map((a) => `${a.name}=${ID_ATTRS.has(a.name) ? 'ID' : a.value}`).sort();
+    // a closed findable band: React writes `hidden`, the app sets it to «until-found» before the paint (Accordion)
+    const value = (a: Attr) => (ID_ATTRS.has(a.name) ? 'ID' : a.name === 'hidden' ? '' : a.value);
+    const attrs = [...el.attributes].map((a) => `${a.name}=${value(a)}`).sort();
     out.push(`<${el.tagName} ${attrs.join(' ')}>`);
     el.childNodes.forEach(walk);
     out.push(`</${el.tagName}>`);
@@ -50,6 +52,9 @@ describe('prerendered pages', () => {
   it('holds the text a search engine needs', () => {
     expect(prerender(PAGE_PATHS.start)).toContain(T.start.title);
     expect(prerender(PAGE_PATHS.methodology)).toContain('method-list');
+    // How it works: the text of every closed section is in the page (Accordion `findable`)
+    const html = prerender(PAGE_PATHS.methodology);
+    for (const s of T.methodology.sections) for (const b of s.bullets ?? []) expect(html).toContain(b.lead.split('{')[0]!.replace(/'/g, '&#x27;').replace(/[.:]$/, '').slice(0, 12));
   });
 
   it('an unknown path is an error', () => {
