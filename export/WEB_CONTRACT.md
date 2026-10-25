@@ -221,6 +221,7 @@ file: any other name, or a stray brace, fails the schema. A key not listed below
   `no_record` (status `not_evaluated`) or `single` (evaluated, `ex_mks < params.MIN_EX_MKS`) — in the order of `data.lists`, on
   white bands; `title` (`{n}` = their count) is an optional line above them (today the names card has none: its `text` says it).
 - Every section is a card (the tinted panel of the question card); the statements block is the last card, same title style.
+  Its rows are the statements in the order of `interest` (highest first; equal interest in the order of `statements[]`).
 - Collapsing is the web's rule, one for every card, not a field of the file, and it goes by height so that every collapsed card
   is about the same height: a card whose content (title, text, items) at the current width is taller than `CARD_MAX_HEIGHT`
   (`web/src/uiConstants.ts`) shows its title, text and as many whole items as fit under that height together with «See all»

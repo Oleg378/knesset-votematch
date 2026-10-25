@@ -176,7 +176,12 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
     fireEvent.click(screen.getByRole('button', { name: noPeriod(methodology.statements.title) }));
     const el = band(methodology.statements.title);
     expect(has(el, fill(methodology.statements.text, { statements: data.statements.length }).replace(/[.:]?$/, ':'))).toBe(true);
-    expect(el.querySelectorAll('.method-rows > .accordion')).toHaveLength(data.statements.length);
+    const heads = [...el.querySelectorAll('.method-rows > .accordion .accordion-head')].map((h) => h.textContent);
+    expect(heads).toHaveLength(data.statements.length);
+    // the rows by interest, the most interesting first; equal interest in file order
+    const expected = [...data.statements].sort((a, b) => b.interest - a.interest).map((s) => s.title_en);
+    expect(heads).toEqual(expected);
+    expect(expected).not.toEqual(data.statements.map((s) => s.title_en));
     const st = data.statements[0]!;
     fireEvent.click(within(el).getByRole('button', { name: st.title_en }));
     expect(has(el, noPeriod(st.statement_en))).toBe(true);

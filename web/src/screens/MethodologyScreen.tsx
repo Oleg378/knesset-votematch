@@ -194,6 +194,9 @@ export function MethodologyScreen({ data, bills }: BillsScreenProps) {
   const names = new Map(data.lists.map((l) => [l.id, l.name_en]));
   const v = dataValues(data);
   const t = methodology.statements;
+  // The rows in the order of interest (statement_meta: how much a voter cares, 1–5), the most interesting first; equal interest
+  // keeps the file order (customer 2026-10-25).
+  const rows = [...data.statements].sort((a, b) => b.interest - a.interest);
   return (
     <section className="screen">
       {/* «How it works» is shown in the header (Header title), as on Results; here it stays for screen readers and the focus on a new screen */}
@@ -212,7 +215,7 @@ export function MethodologyScreen({ data, bills }: BillsScreenProps) {
                 <p className="quote">{fill(t.text, { statements: data.statements.length }).replace(/[.:]?$/, ':')}</p>
               </div>
               <div className="stack method-rows">
-                {data.statements.map((st) => (
+                {rows.map((st) => (
                   <Accordion key={st.q} title={st.title_en}>
                     {() => <StatementBody data={data} bills={bills} st={st} names={names} t={t} />}
                   </Accordion>
