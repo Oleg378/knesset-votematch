@@ -39,12 +39,13 @@ export function Accordion({ title, children, initiallyOpen = false, findable = f
     return open ? expand(el) : collapse(el, () => setMounted(false));
   }, [open, mounted]);
 
-  // Closed and findable: React writes `hidden` (it has no «until-found»), the attribute is set here before the paint;
-  // a match of find in page opens the band.
+  // Closed and findable: React writes `hidden` (it has no «until-found»); where the browser has «until-found» the
+  // attribute is set to it here, before the paint, and a match of find in page opens the band. Elsewhere (Safari) it
+  // stays a plain `hidden`: the text is still in the page, find in page just does not reach it.
   const shut = useRef<HTMLDivElement>(null);
   useLayoutEffect(() => {
     const el = shut.current;
-    if (!el) return;
+    if (!el || !('onbeforematch' in document.body)) return;
     el.setAttribute('hidden', 'until-found');
     const onMatch = () => setOpen(true);
     el.addEventListener('beforematch', onMatch);

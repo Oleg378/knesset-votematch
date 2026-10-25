@@ -135,8 +135,9 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
     expect(heads).toEqual([...methodology.sections.map((s) => noPeriod(s.title)), noPeriod(methodology.statements.title)]);
     for (const s of methodology.sections) {
       const el = band(s.title);
-      // closed at first, its text already in the page for search engines and find in page (hidden «until-found»)
-      expect(el.querySelector('.accordion-body')!.getAttribute('hidden')).toBe('until-found');
+      // closed at first, its text already in the page for search engines (hidden; «until-found» where the browser has it,
+      // jsdom has not)
+      expect(el.querySelector('.accordion-body')!.hasAttribute('hidden')).toBe(true);
       fireEvent.click(screen.getByRole('button', { name: noPeriod(s.title) }));
       // the text leads into the points: it ends with «:»
       if (s.text !== undefined) expect(has(el, fill(s.text, v).replace(/[.:]?$/, ':'))).toBe(true);
