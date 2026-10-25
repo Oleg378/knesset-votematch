@@ -336,10 +336,10 @@ describe('statements', () => {
     expect(pressed()).toEqual([S.answers[1]]);
   });
 
-  it('Skip moves on without an answer', () => {
+  it('Skip moves on without an answer; the counter does not move (the skipped statement is replaced)', () => {
     click(S.start.button);
     click(S.question.skip);
-    screen.getByText(S.question.progress(2, planned));
+    screen.getByText(S.question.progress(1, planned));
     click(S.nav.back);
     expect(pressed()).toEqual([]);
   });
@@ -349,7 +349,7 @@ describe('statements', () => {
     click(S.question.skip);
     menuTo(S.menu.results);
     screen.getByText(S.question.noAnswers);
-    screen.getByText(S.question.progress(2, planned));
+    screen.getByText(S.question.progress(1, planned));
   });
 
   it('after the planned number of statements the questions end by themselves', () => {

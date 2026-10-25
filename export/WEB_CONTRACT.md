@@ -70,13 +70,16 @@ All numbers come from `flow` in the export (now `core 8, clarify 7, trade 5`); *
      **before any ranking exists** (fewer than 2 evaluated ranked lists, e.g. nothing answered): score = population SD of p over
      all evaluated lists with a position (at least 2), times the same interest factor;
    - pick the highest score; ties → the lower statement number; no finite score → stop.
-3. **Stop** after `clarify` clarifying questions (`flow.stop_gap` is null). An optional stopping rule exists (`should_stop`:
-   stop when the leader is ahead of the second list by `stop_gap` after at least `min_questions`, at most `max_questions`);
-   it is off — implement it only if `stop_gap` is not null.
+3. **Stop** (`should_stop`, `flow.stop_gap` is null) when `core + clarify` **answers** have been given («don't know» is not an
+   answer; a skipped statement is not in `answers` at all), or when `max_questions` statements have been shown — whichever
+   comes first. A skipped statement is thus replaced by the next one: the rest of the core first, then clarifying ones.
+   An optional stopping rule exists (stop when the leader is ahead of the second list by `stop_gap` after at least
+   `min_questions`, at most `max_questions`); it is off — implement it only if `stop_gap` is not null.
 4. **Trade-offs** — `tradeoffs()` of `pipeline/quiz_match.py`, at most `flow.trade`.
 5. **Results.** A button «Answer more questions» continues clarifying questions (same rule) until the pool ends, then Results again.
 
-The counter on the question screen: `n / (core + clarify)` while the fixed number is used.
+The counter on the question screen: `n / (core + clarify)` while the fixed number is used, where `n` is the number of the answer
+being given (answers to the statements shown before this one, plus one): a skip does not move it.
 The 6 «flow N» golden cases give the exact sequences for six full answer sets: port `next_clarify` and check them first.
 
 ## 3. List details: what the result explains and in which format

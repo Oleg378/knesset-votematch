@@ -4,7 +4,7 @@ import { nextClarify } from '../engine/flow';
 import { tradeoffs } from '../engine/match';
 import type { Answer, Answers, Mult, TradePair } from '../engine/types';
 import { core, data } from '../testSources';
-import { createReducer, initialState, shownSoFar, type Action, type State } from './reducer';
+import { answeredCount, createReducer, initialState, questionNumber, shownSoFar, type Action, type State } from './reducer';
 
 const reducer = createReducer({ core, data });
 const run = (s: State, ...actions: Action[]) => actions.reduce(reducer, s);
@@ -43,9 +43,34 @@ describe('reducer: order of questions (core → clarifying, quiz_flow)', () => {
   it('the core in the exported order, then the clarifying statements of golden «flow 0», then trade-offs', () => {
     const s = answerAll(run(initialState, { type: 'START' }), flow0.answers);
     expect(s.shown).toEqual([...flow0.flow!.core, ...flow0.flow!.clarifying]);
-    expect(s.shown).toHaveLength(planned);
+    expect(answeredCount(s.answers)).toBe(planned); // «don't know» in flow 0 does not count: more than `planned` shown
+    expect(s.shown.length).toBeGreaterThan(planned);
     const pair = tradeoffs(data, flow0.answers, {})[0];
     expect(s.screen).toEqual(pair ? { name: 'tradeoff', pair } : { name: 'results' });
+  });
+
+  it('a skipped statement is replaced by the next one: always core + clarify answers (2026-10-25)', () => {
+    const answers: Answers = Object.fromEntries(data.statements.map((st) => [st.q, 1]));
+    delete answers[C[1]!]; // skip the second core statement …
+    let s = run(initialState, { type: 'START' });
+    s = run(s, { type: 'ANSWER', value: 1 }, { type: 'NEXT' });
+    expect(questionNumber(s, 1)).toBe(2);
+    s = run(s, { type: 'SKIP' }); // … the counter does not move, the rest of the core follows
+    expect(s.shown[2]).toBe(C[2]);
+    expect(questionNumber(s, 2)).toBe(2);
+    s = answerAll(s, answers);
+    expect(answeredCount(s.answers)).toBe(planned);
+    expect(s.shown).toHaveLength(planned + 1);
+    expect(s.answers[C[1]!]).toBeUndefined();
+  });
+
+  it('skipping everything ends at max_questions shown (no computable answers: the «no answers» notice, as on Finish)', () => {
+    let s = run(initialState, { type: 'START' });
+    let guard = 0;
+    while (s.notice === null && guard++ < 200) s = run(s, { type: 'SKIP' });
+    expect(s.shown).toHaveLength(data.flow.max_questions);
+    expect(s.notice).toBe('noAnswers');
+    expect(s.screen).toEqual({ name: 'question', i: data.flow.max_questions - 1 });
   });
 
   it('without quiz_core Start waits; without quiz_data the first clarifying question waits; DATA_READY resumes', () => {
@@ -185,8 +210,9 @@ describe('reducer: «Answer more questions»', () => {
     expect(r.screen).toEqual({ name: 'results' });
     const m = run(r, { type: 'MORE' });
     expect(m.more).toBe(true);
-    expect(m.screen).toEqual({ name: 'question', i: planned });
-    expect(m.shown[planned]).toBe(nextClarify(data, r.answers, shownSoFar(r)));
+    const n = r.shown.length; // more than `planned`: «don't know» in flow 0 was replaced
+    expect(m.screen).toEqual({ name: 'question', i: n });
+    expect(m.shown[n]).toBe(nextClarify(data, r.answers, shownSoFar(r)));
     const back = run(m, { type: 'ANSWER', value: 2 }, { type: 'FINISH' });
     expect(back.screen).toEqual({ name: 'results' });
     expect(back.more).toBe(false);

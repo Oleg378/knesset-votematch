@@ -141,7 +141,8 @@ def case(ctx, name, answers, mult=None, exclude=(), skip_lists=()):
 
 def flow_case(ctx, name, full):
     """Question order for a user whose answers to every statement would be `full`: core, then each clarifying statement chosen
-    from the answers given so far (quiz_flow.next_clarify), the trade-off pairs at the end, and the ranking."""
+    from the answers given so far (quiz_flow.next_clarify) until core + clarify answers are given («dk» = not sure, does not
+    count: that is why the clarifying list is longer than `clarify`), the trade-off pairs at the end, and the ranking."""
     fctx = qf._ctx(); asked = qf.core(ctx=fctx); ans = {q: full[q] for q in asked if q in full}; steps = []
     while not qf.should_stop(ans, len(asked)):
         q = qf.next_clarify(ans, asked, ctx=fctx)

@@ -116,18 +116,24 @@ export function rankedLists(data: QuizData, answers: Answers, mult: Mult = {}): 
   return rows.sort((x, y) => y.closeness - x.closeness);
 }
 
-/** Questions asked before the trade-offs while the fixed number is used (the counter's total). */
+/** Answers before the trade-offs while the fixed number is used (the counter's total). */
 export function plannedQuestions(flow: Flow): number {
   return flow.core + flow.clarify;
 }
 
+/** quiz_flow.n_answered: answers that count — everything except «don't know» (a skipped statement is not in answers at all). */
+export function answeredCount(answers: Answers): number {
+  return Object.values(answers).filter((v) => v !== 'dk').length;
+}
+
 /**
- * quiz_flow.should_stop: true when no more clarifying questions are needed. nAsked: core + clarifying shown so far.
- * With the fixed number (stop_gap null) the data file is not needed yet.
+ * quiz_flow.should_stop: true when no more clarifying questions are needed. nAsked: core + clarifying shown so far
+ * (answered or skipped). Fixed number (stop_gap null, [У] 2026-10-25): core + clarify answers — a skipped statement is
+ * replaced by the next one — or max_questions shown, whichever comes first; the data file is not needed for it.
  */
 export function shouldStop(flow: Flow, data: QuizData | null, answers: Answers, nAsked: number, mult: Mult = {}): boolean {
-  if (flow.stop_gap === null) return nAsked >= flow.core + flow.clarify;
   if (nAsked >= flow.max_questions) return true;
+  if (flow.stop_gap === null) return answeredCount(answers) >= flow.core + flow.clarify;
   if (nAsked < flow.min_questions || !data) return false;
   const rows = rankedLists(data, answers, mult);
   return rows.length > 1 && rows[0]!.closeness - rows[1]!.closeness >= flow.stop_gap;

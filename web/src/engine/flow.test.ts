@@ -6,7 +6,7 @@
 import { describe, expect, it } from 'vitest';
 import goldenRaw from '@export/golden.json';
 import { core, data } from '../testSources';
-import { nextClarify, rankedLists, shouldStop } from './flow';
+import { answeredCount, nextClarify, rankedLists, shouldStop } from './flow';
 import type { Answers, Mult } from './types';
 
 interface GoldenCase {
@@ -54,7 +54,10 @@ describe('golden.json: order of questions (pipeline/quiz_flow.py)', () => {
             if (gc.answers[q] !== undefined) ans[q] = gc.answers[q]!;
           }
           expect(got).toEqual(flow.clarifying);
-          expect(shown.length).toBe(data.flow.core + data.flow.clarify);
+          // core + clarify answers; «dk» (not sure) does not count, so more statements are shown
+          expect(answeredCount(ans)).toBe(data.flow.core + data.flow.clarify);
+          expect(shown.length).toBeGreaterThanOrEqual(data.flow.core + data.flow.clarify);
+          expect(shown.length).toBeLessThanOrEqual(data.flow.max_questions);
         });
       }
     });
@@ -74,5 +77,24 @@ describe('golden.json: order of questions (pipeline/quiz_flow.py)', () => {
       const g = byQ.get(s)!.sim_group;
       if (g) expect(picked.sim_group).not.toBe(g);
     }
+  });
+});
+
+describe('shouldStop: the fixed number counts answers, not statements shown (quiz_flow.should_stop, 2026-10-25)', () => {
+  const planned = data.flow.core + data.flow.clarify;
+  const qs = data.statements.map((s) => s.q);
+  const answers = (n: number): Answers => Object.fromEntries(qs.slice(0, n).map((q) => [q, 1]));
+  it('stops at core + clarify answers, whatever was skipped', () => {
+    expect(shouldStop(data.flow, data, answers(planned), planned)).toBe(true);
+    expect(shouldStop(data.flow, data, answers(planned), planned + 5)).toBe(true);
+    expect(shouldStop(data.flow, data, answers(planned - 1), planned)).toBe(false);
+    expect(shouldStop(data.flow, data, answers(planned - 1), planned + 10)).toBe(false);
+  });
+  it('«don\'t know» does not count as an answer', () => {
+    expect(shouldStop(data.flow, data, { ...answers(planned - 1), [qs[planned]!]: 'dk' }, planned)).toBe(false);
+  });
+  it('stops at max_questions shown whatever was answered', () => {
+    expect(shouldStop(data.flow, data, {}, data.flow.max_questions)).toBe(true);
+    expect(shouldStop(data.flow, data, answers(3), data.flow.max_questions - 1)).toBe(false);
   });
 });

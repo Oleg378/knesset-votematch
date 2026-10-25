@@ -481,7 +481,7 @@
     "clarify": {
      "type": "integer",
      "minimum": 0,
-     "description": "Clarifying statements after the core when stop_gap is null."
+     "description": "Clarifying answers after the core when stop_gap is null: the quiz stops at core + clarify answers (a skipped statement is replaced by the next one) or at max_questions shown."
     },
     "trade": {
      "type": "integer",
@@ -520,7 +520,7 @@
     "max_questions": {
      "type": "integer",
      "minimum": 0,
-     "description": "Stopping rule: at most this many statements."
+     "description": "At most this many statements shown before the trade-offs (also with stop_gap null: the cap when statements are skipped)."
     },
     "core_one_sided": {
      "type": "boolean",

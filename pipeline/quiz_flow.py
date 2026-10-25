@@ -10,7 +10,9 @@ The quiz does not ask every statement. It asks
 After that the user may answer more (MORE: clarifying questions continue until the pool is exhausted).
 Matching itself is unchanged (quiz_match.match): closeness is computed over whatever was answered.
 
-All parameters are in FLOW (now 8 + 7 + up to 5 trade-offs). The export carries FLOW, so the web reads the same numbers.
+All parameters are in FLOW (now 8 + 7 answers + up to 5 trade-offs). A skipped statement («not sure») is shown but not answered
+and does not count: the next statement takes its place (the rest of the core first, then clarifying ones), until core + clarify
+answers are given or max_questions statements have been shown ([У] 2026-10-25). The export carries FLOW, so the web reads the same numbers.
 Statement metadata (data/quiz/statement_meta.csv, one row per statement; new statements get theirs in the new-statements procedure):
   interest   1–5, how much an ordinary voter cares (mean of two blind agent ratings; used only for the ORDER of questions);
   area       one of 13 broad areas (two blind agent runs + tie-break);
@@ -64,7 +66,8 @@ FLOW = {
     "same_area_in_row": False,   # the previous question's area is skipped (if anything else is left)
     "sim_groups": True,       # no two statements of one sim_group among the shown ones
     # stopping rule (2026-10-18; off): with stop_gap set, clarifying questions go on until the leader's closeness exceeds the
-    # second list's by stop_gap (after at least min_questions), or max_questions are asked; with stop_gap None the fixed number is used.
+    # second list's by stop_gap (after at least min_questions), or max_questions are asked; with stop_gap None the fixed number is used:
+    # core + clarify answers, skipped statements not counted, at most max_questions shown ([У] 2026-10-25).
     "stop_gap": None,
     "min_questions": 10,
     "max_questions": 30,
@@ -152,10 +155,16 @@ def core(flow=FLOW, ctx=None):
             if taken: out.append(taken.pop(0))
     return [qs[j] for j in out[:flow["core"]]]
 
+def n_answered(answers):
+    """Answers that count: everything except «dk» (quiz_match skips it); a skipped statement is not in answers at all."""
+    return sum(1 for v in answers.values() if v != "dk")
+
 def should_stop(answers, n_asked, flow=FLOW, mult=None):
-    """True when no more clarifying questions are needed. n_asked: core + clarifying statements shown so far."""
-    if flow["stop_gap"] is None: return n_asked >= flow["core"] + flow["clarify"]
+    """True when no more clarifying questions are needed. n_asked: core + clarifying statements shown so far (answered or
+    skipped). Fixed number ([У] 2026-10-25): core + clarify answers — a skipped statement is replaced by the next one —
+    or max_questions shown, whichever comes first."""
     if n_asked >= flow["max_questions"]: return True
+    if flow["stop_gap"] is None: return n_answered(answers) >= flow["core"] + flow["clarify"]
     if n_asked < flow["min_questions"]: return False
     rows = [r for r in qm.match(answers, mult=mult) if r["closeness"] is not None and r["closeness"] == r["closeness"]
             and r["coverage"] >= qm.MIN_COVERAGE]

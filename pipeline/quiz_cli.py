@@ -75,8 +75,10 @@ def ask_one(q, n, total):
         say("Enter 2, 1, -1 or -2; Enter to skip.")
 
 def flow(ctx, ans, shown, until, fctx):
-    """Core statements, then clarifying ones: until="rule" — until quiz_flow.should_stop (fixed number or stopping rule, FLOW),
-    until=None — until the pool ends («answer more»). shown: statements already shown, in order (answered or skipped).
+    """Core statements, then clarifying ones: until="rule" — until quiz_flow.should_stop (fixed number of answers, a skipped
+    statement replaced by the next one, at most max_questions shown; or the stopping rule, FLOW), until=None — until the pool
+    ends («answer more»). shown: statements already shown, in order (answered or skipped). The counter is the number of the
+    answer being given: it does not move after a skip.
     Back («<») removes the last shown statement and its answer; the next one is then recomputed."""
     say("\nAnswer each statement: 2 — strongly agree, 1 — agree, -1 — disagree, -2 — strongly disagree.\n"
         "Enter — not sure, skip. < — back, q — finish answering.")
@@ -90,7 +92,7 @@ def flow(ctx, ans, shown, until, fctx):
         else:
             nq = qf.next_clarify(ans, list(shown) + [q for q in ans if q not in shown], ctx=fctx["ctx"])   # in order shown (area rule)
             if nq is None: say("\nNo more questions."); return
-        a = ask_one(ctx["title"][nq], len(shown) + 1, total)
+        a = ask_one(ctx["title"][nq], qf.n_answered(ans) + 1, total)
         if a == "<":
             if shown: ans.pop(shown.pop(), None)
             continue

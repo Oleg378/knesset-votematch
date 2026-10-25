@@ -10,6 +10,7 @@ import { Menu } from './components/Menu';
 import { ProgressBar } from './components/ProgressBar';
 import type { Loader } from './data';
 import { plannedQuestions } from './engine/flow';
+import { questionNumber } from './state/reducer';
 import { DetailsScreen } from './screens/DetailsScreen';
 import { MethodologyScreen } from './screens/MethodologyScreen';
 import { QuestionScreen } from './screens/QuestionScreen';
@@ -107,13 +108,15 @@ export default function App({ loader, initial = initialState }: { loader: Loader
   const [menu, setMenu] = useState(false);
   const closeMenu = useCallback(() => setMenu(false), []);
 
-  // The counter: n / (core + clarify) while the fixed number is used; with «Answer more» — out of all statements.
+  // The counter: the number of the answer being given (a skip does not move it) / (core + clarify) while the fixed number is
+  // used; with «Answer more» — out of all statements.
   let header = null;
   if (sc.name === 'question' && core) {
     const total = state.more && data ? data.statements.length
       : core.flow.stop_gap === null ? plannedQuestions(core.flow) : core.flow.max_questions;
-    header = <ProgressBar value={sc.i + 1} max={Math.max(total, sc.i + 1)} label={S.question.progressLabel}
-      text={S.question.progress(sc.i + 1, Math.max(total, sc.i + 1))} />;
+    const n = questionNumber(state, sc.i);
+    header = <ProgressBar value={n} max={Math.max(total, n)} label={S.question.progressLabel}
+      text={S.question.progress(n, Math.max(total, n))} />;
   } else if (sc.name === 'tradeoff' && data) {
     header = <Counter text={S.trade.counter(state.done.length + 1, data.flow.trade)} />;
   }

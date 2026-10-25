@@ -6,7 +6,7 @@
  * screen is «wait» and DATA_READY resumes it. State lives in memory only [У 2026-10-17]: nothing is stored.
  * Interaction as in the Figma mockups: an answer is selected, «Next» moves on; trade-offs likewise, with «Back».
  */
-import { nextClarify, shouldStop } from '../engine/flow';
+import { answeredCount, nextClarify, shouldStop } from '../engine/flow';
 import { tradeoffs } from '../engine/match';
 import type { Answer, AnswerValue, Answers, Mult, QuizCore, QuizData, TradePair } from '../engine/types';
 
@@ -85,9 +85,12 @@ export function hasComputableAnswers(answers: Answers): boolean {
   return Object.values(answers).some((v) => v !== 'dk');
 }
 
-/** Number of answers the result is based on: everything except «don't know» (as quiz_cli.py). */
-export function answeredCount(answers: Answers): number {
-  return Object.values(answers).filter((v) => v !== 'dk').length;
+export { answeredCount };
+
+/** The counter on the question at shown[i]: the number of the answer being given — answers to the statements shown before
+ * it, plus one (quiz_cli.flow). A skipped statement does not move it. */
+export function questionNumber(s: Pick<State, 'answers' | 'shown'>, i: number): number {
+  return answeredCount(Object.fromEntries(s.shown.slice(0, i).filter((q) => s.answers[q] !== undefined).map((q) => [q, s.answers[q]!]))) + 1;
 }
 
 export function isAnswerValue(v: Answer): v is AnswerValue {
@@ -105,7 +108,8 @@ export interface FlowSources {
   data: QuizData | null;
 }
 
-/** The next new question after `shown` (quiz_cli.flow): the rest of the core, then a clarifying one; null = stop. */
+/** The next new question after `shown` (quiz_cli.flow): the rest of the core, then a clarifying one; null = stop (core + clarify
+ * answers given, or max_questions shown — a skipped statement is replaced by the next one). */
 export function nextQuestion(src: FlowSources, s: Pick<State, 'answers' | 'shown' | 'more'>): string | null | 'wait' {
   if (!src.core) return 'wait';
   const { flow, core } = src.core;
