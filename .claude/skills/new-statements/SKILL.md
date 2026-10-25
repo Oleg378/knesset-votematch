@@ -6,11 +6,11 @@ description: Procedure for themes that pass the selection but have no quiz state
 # New statements
 
 Input: themes that pass `quiz_select.py`, are not remainders / technical, have no statement and no registry decision
-(`make check` lists them as I4). Every outcome is written to `jef/directions/registry.csv`.
+(`make check` lists them as I4). Every outcome is written to `data/directions/registry.csv`.
 
 ## Steps
 
-1. **Material** — `DIRS=d1,d2,... TAG=roundN python3 local/research/scripts/new_statements.py` → `local/research/new_statements_roundN/input.md`.
+1. **Material** — `DIRS=d1,d2,... TAG=roundN python3 tools/new_statements.py` → `local/research/new_statements_roundN/input.md`.
    For step 2 strip the «Lists …» lines and SD (blind to positions); copy the current statements to `statements.md`.
 2. **Step 2: screening** — `prompts/step2_check.md`, two blind agents (A, B), parts of ≤ ~35 themes. Per theme: `duplicate` (qN or
    none: most voters answer both the same way for the same reason), `technical`, `basket`. Agreement decides; both say basket → basket;
@@ -19,16 +19,16 @@ Input: themes that pass `quiz_select.py`, are not remainders / technical, have n
    - technical → registry `technical`;
    - basket → `split-themes`; parts that pass come back here; if no part reaches 5 names → registry `basket`;
    - clean → step 3. A customer decision overrides the agents (e.g. conversion therapy for minors is a separate question).
-3. **Draft** — `prompts/draft.md` (rules: `jef/quiz/GUIDELINES.md`), one agent per ~20 themes. A theme that takes over a statement
+3. **Draft** — `prompts/draft.md` (rules: `rules.md` of this skill), one agent per ~20 themes. A theme that takes over a statement
    (rule (б)) is marked MOVE with the old text. `no_statement` → registry.
-4. **Standard audit** — `DRAFTS=... TAG=roundN PARTS=k python3 local/research/scripts/statement_audit.py build`, `prompts/audit.md`:
+4. **Standard audit** — `DRAFTS=... TAG=roundN PARTS=k python3 tools/statement_audit.py build`, `prompts/audit.md`:
    keep / rewrite (broader text) / split (→ `split-themes`, parts back to step 2) / unsuitable.
 5. **Label check** of every bill of the theme against the final text — `label-check` (`label_check_drafts_input.py`).
 6. **Threshold** — `python3 pipeline/positions.py`; a theme that now fails is dropped and reported.
 7. **Final duplicate check** — all new texts against each other and the current statements: `prompts/final_duplicates.md`, two agents,
    disagreements → a 3rd. Per pair keep one: an existing statement wins; between new ones the theme with more bills.
 8. **Customer** — show every text verbatim (English as stored), grouped, with the duplicate choices; name statements by title.
-9. **Write** into `jef/quiz/statements.csv` and add the row to `jef/quiz/statement_meta.csv` (interest 1–5, area, sim_group — the
+9. **Write** into `data/quiz/statements.csv` and add the row to `data/quiz/statement_meta.csv` (interest 1–5, area, sim_group — the
    same blind agent tasks as in `local/research/flow_models/agents/PROMPT_interest.md`, `PROMPT_areas.md`, `PROMPT_fine.md`;
    two runs, agreement or tie-break) (next free `q`, `source`, `status=ok`, dated `change`; RU text from the draft if the
    audit did not rewrite it), registry `quiz`, then `release`. A new statement can create a nested pair with an existing one

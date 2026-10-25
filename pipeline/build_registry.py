@@ -12,7 +12,7 @@ and this builder is not re-run over it. Statuses:
   no_statement    — the draft step found no honest statement
   dropped_dup     — a drafted statement dropped in the final duplicate check (another statement asks the same)
   pending         — in the new-statement procedure now
--> jef/directions/registry.csv  (d, status, q, reason, source, date)
+-> data/directions/registry.csv  (d, status, q, reason, source, date)
 """
 import csv, glob, json, os, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -21,12 +21,12 @@ R = f"{ROOT}/local/research"
 rows = {}
 def put(d, status, q="", reason="", source="", date=""):
     rows.setdefault(str(d), dict(d=str(d), status=status, q=q, reason=reason, source=source, date=date))
-for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements.csv")):
-    if r["status"] == "ok": rows[r["d"]] = dict(d=r["d"], status="quiz", q=r["q"], reason=r["title_en"], source="jef/quiz/statements.csv", date="")
-pl = json.load(open(f"{ROOT}/jef/directions/split/plan.json"))
-for p in sorted(set(pl["parents"]) - set(pl["keep"])): put(p, "split", source="jef/directions/split/plan.json", date="2026-10-16")
+for r in csv.DictReader(open(f"{ROOT}/data/quiz/statements.csv")):
+    if r["status"] == "ok": rows[r["d"]] = dict(d=r["d"], status="quiz", q=r["q"], reason=r["title_en"], source="data/quiz/statements.csv", date="")
+pl = json.load(open(f"{ROOT}/data/directions/split/plan.json"))
+for p in sorted(set(pl["parents"]) - set(pl["keep"])): put(p, "split", source="data/directions/split/plan.json", date="2026-10-16")
 for k, (_, f, _) in enumerate(LB.LATER, 2):
-    for p in json.load(open(f"{ROOT}/jef/directions/split/{f}"))["parents"]: put(p, "split", source=f"jef/directions/split/{f}")
+    for p in json.load(open(f"{ROOT}/data/directions/split/{f}"))["parents"]: put(p, "split", source=f"data/directions/split/{f}")
 for d in ("107", "128", "236", "289", "339", "343", "346"): put(d, "technical", reason="statement audit 2026-10-15/17", source="TECHNICAL.md §7")
 for d, q in {"24": "42", "239": "60", "353": "52", "46": "62", "317": "9", "89": "64", "163": "33", "114a": "75", "112": "75", "196": "74",
              "344": "81", "29": "93", "103a": "64", "296a": "13", "161a": "19", "69a": "63", "80b": "47", "165b": "10", "77b": "45",
@@ -59,7 +59,7 @@ for d in ("196", "103c", "116b", "122s4", "8s4", "34s2", "88s2", "24"):
     put(d, "dropped_dup", reason="final duplicate check 2026-10-21: another statement asks the same", source="local/research/new_statements_round2/dups_*.csv", date="2026-10-21")
 put("113", "no_statement", reason="one law carries the weight; no honest statement", source="local/research/new_statements_round2/drafts_1.json", date="2026-10-20")
 for d in ("276", "292", "342", "240s3"): put(d, "pending", reason="new-statement procedure, round 5", source="local/research/new_statements_round5/", date="2026-10-21")
-with open(f"{ROOT}/jef/directions/registry.csv", "w", newline="") as fh:
+with open(f"{ROOT}/data/directions/registry.csv", "w", newline="") as fh:
     w = csv.DictWriter(fh, fieldnames=["d", "status", "q", "reason", "source", "date"]); w.writeheader()
     w.writerows(sorted(rows.values(), key=lambda r: (r["status"], r["d"])))
 print(len(rows), "themes;", {s: sum(r["status"] == s for r in rows.values()) for s in sorted({r["status"] for r in rows.values()})})

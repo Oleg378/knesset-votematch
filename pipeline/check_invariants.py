@@ -4,10 +4,10 @@ that changes labels, themes or statements, and before every release: `make check
   I1  every statement's theme passes the selection (pipeline/quiz_select.py)          — a failing statement is removed (customer rule)
   I2  one theme — one statement
   I3  no statement on a remainder of a split theme or on a technical theme
-  I4  every theme that passes the selection and has no statement has a decision in jef/directions/registry.csv
+  I4  every theme that passes the selection and has no statement has a decision in data/directions/registry.csv
       (duplicate / split / basket / technical / no_statement / dropped_dup); «pending» is a WARN
   I5  no two statement themes nested: the smaller shares < 50 % of its bills (by name, ≥ 5 shared) with the other
-  I6  every bill label on a statement theme was label-checked (jef/directions/labels/label_check_coverage.csv; a check under the theme
+  I6  every bill label on a statement theme was label-checked (data/directions/labels/label_check_coverage.csv; a check under the theme
       a part was split from counts)
   I7  the export holds exactly the current statements (ids, texts, keys)
   I8  export/quiz_texts.json (every user-facing text, edited by hand) validates against export/quiz_texts.schema.json
@@ -27,12 +27,12 @@ def fail(code, msg): fails.append(f"FAIL {code}: {msg}")
 def warn(code, msg): warns.append(f"WARN {code}: {msg}")
 
 C = QS.criteria()
-st = [r for r in csv.DictReader(open(f"{ROOT}/jef/quiz/statements.csv")) if r["status"] == "ok"]
+st = [r for r in csv.DictReader(open(f"{ROOT}/data/quiz/statements.csv")) if r["status"] == "ok"]
 by_d = collections.defaultdict(list)
 for r in st: by_d[r["d"]].append(r)
-reg = {r["d"]: r for r in csv.DictReader(open(f"{ROOT}/jef/directions/registry.csv"))}
+reg = {r["d"]: r for r in csv.DictReader(open(f"{ROOT}/data/directions/registry.csv"))}
 lab = LB.load(); bl = lab["bill_lab"]
-pl = json.load(open(f"{ROOT}/jef/directions/split/plan.json"))
+pl = json.load(open(f"{ROOT}/data/directions/split/plan.json"))
 rem = (set(pl["parents"]) - set(pl["keep"])) | {d for p in LB.later_plans() for d in p["parents"]}
 tech = {d for d, r in reg.items() if r["status"] == "technical"}
 
@@ -62,7 +62,7 @@ for a, b in itertools.combinations(by_d, 2):
     s = nm[a] & nm[b]; m = min(len(nm[a]), len(nm[b]))
     if m and len(s) >= 5 and len(s) / m >= 0.5:
         fail("I5", f"q{by_d[a][0]['q']} ({a}, {len(nm[a])}) and q{by_d[b][0]['q']} ({b}, {len(nm[b])}) share {len(s)} — {len(s)/m:.0%} of the smaller")
-cov = {(r["bill_id"], r["d"]) for r in csv.DictReader(open(f"{ROOT}/jef/directions/labels/label_check_coverage.csv"))}   # I6
+cov = {(r["bill_id"], r["d"]) for r in csv.DictReader(open(f"{ROOT}/data/directions/labels/label_check_coverage.csv"))}   # I6
 parent = {}
 for p, subs in lab["split_plan"]["parents"].items():
     for s in subs: parent.setdefault(s, p)
@@ -115,7 +115,7 @@ close = lambda x, y: x == y or (x is not None and y is not None and abs(x - y) <
 stale = sorted(set(gold) ^ set(new))
 for n in set(gold) & set(new):
     a, b = gold[n], new[n]
-    ra = [(r["id"], r["ranked"], r["note"]) for r in a["ranking"]]; rb = [(r["id"], r["ranked"], r["note"]) for r in b["ranking"]]
+    ra = [(r["id"], r["ranked"], r["notes"]) for r in a["ranking"]]; rb = [(r["id"], r["ranked"], r["notes"]) for r in b["ranking"]]
     if (ra != rb or not all(close(x["closeness"], y["closeness"]) and close(x["coverage"], y["coverage"]) for x, y in zip(a["ranking"], b["ranking"]))
             or [[(i["q"], i["lines"]) for i in d["items"]] for d in a["details"]] != [[(i["q"], i["lines"]) for i in d["items"]] for d in b["details"]]):
         stale.append(n)

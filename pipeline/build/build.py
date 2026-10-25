@@ -1,4 +1,4 @@
-"""Rebuild knesset.duckdb from data/ (raw OData dumps) and manual/ (hand-maintained CSV).
+"""Rebuild knesset.duckdb from raw/ (raw OData dumps) and manual/ (hand-maintained CSV).
 
 Usage: python3 pipeline/build/build.py   (from the repo root or anywhere)
 Runs every build/NN_*.sql in order inside one fresh database.

@@ -10,6 +10,7 @@ import { loadedSources } from './data';
 import { PAGE_PATHS, render as prerender } from './prerender';
 import { initialStateFor } from './state/reducer';
 import { bills, core, data } from './testSources';
+import { T } from './texts';
 
 /**
  * The same DOM, whatever the serializer: tags, attributes (sorted) and text, element by element. useId differs between the
@@ -47,7 +48,7 @@ describe('prerendered pages', () => {
   });
 
   it('holds the text a search engine needs', () => {
-    expect(prerender(PAGE_PATHS.start)).toContain('Find your vote match');
+    expect(prerender(PAGE_PATHS.start)).toContain(T.start.title);
     expect(prerender(PAGE_PATHS.methodology)).toContain('class="method-title"');
   });
 

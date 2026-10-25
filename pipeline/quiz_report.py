@@ -7,16 +7,16 @@ For every 2026 list (evaluated ones, ranked as in quiz_match.py) and every answe
     votes on private bills on this direction there are (votes enter the position with weight 0.25).
 Labels are the mass labels with the split of heterogeneous directions applied (as in pipeline/positions.py).
 
-Usage: python3 pipeline/quiz_report.py local/jef/quiz/pilot_answers_filled.csv  ->  jef/quiz/report_<file name>.md
+Usage: python3 pipeline/quiz_report.py local/jef/quiz/pilot_answers_filled.csv  ->  data/quiz/report_<file name>.md
 """
-import csv, glob, json, os, re, sys, collections
+import csv, json, os, re, sys, collections
 import duckdb
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import quiz_match as qm
 import labels as L
 import texts as T
 
-ROOT, LAB = qm.ROOT, os.path.join(qm.ROOT, "jef/directions/labels")
+ROOT, LAB = qm.ROOT, os.path.join(qm.ROOT, "data/directions/labels")
 SGN = {"+": 1, "−": -1, "-": -1}
 LINK = "https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/LawBill.aspx?t=lawsuggestionssearch&lawitemid={}"
 TOP, PER = 10, 5   # [У] 2026-10-17: топ-10 списков, у каждого «почему подходит» и «почему не подходит»
@@ -76,8 +76,8 @@ def context():
     nv, no, ng = {}, {}, {}
     for r in csv.DictReader(open(os.path.join(qm.POS, "list_topic_positions.csv"))):
         nv[(r["letters"], r["d"])] = int(r["sum_nV"]); no[(r["letters"], r["d"])] = int(r.get("sum_nO") or 0); ng[(r["letters"], r["d"])] = int(r.get("sum_nG") or 0)
-    dir_en = {d["key"]: d["name_en"] for d in json.load(open(os.path.join(ROOT, "jef/directions/merge3/directions_final.json")))}
-    for p in [json.load(open(os.path.join(ROOT, "jef/directions/split/plan.json")))] + L.later_plans():   # all split stages (labels.LATER)
+    dir_en = {n: d["name_en"] for n, d in L.directions().items()}
+    for p in [json.load(open(os.path.join(ROOT, "data/directions/split/plan.json")))] + L.later_plans():   # all split stages (labels.LATER)
         dir_en.update({k: v["name_en"] for k, v in p["new"].items()})
     return dict(st=st, pos=pos, cov=cov, info=info, init=init, cand=cand, by_d=by_d, nv=nv, no=no, ng=ng, dir_en=dir_en,
                 title={r["q"]: r for r in st})
@@ -123,27 +123,44 @@ def explain(ctx, L, q, a, p, contrib, mult=None):
     toward = not close and p * q["key_s"] > 0
     # [У] 2026-10-18 (Р4а, external audit К2): say what was measured — what the list's former MKs pushed for with their bills and
     # votes — not that the list accepts the statement, whose «even if» price the data does not measure.
-    E = TX["explain"]
-    side = E["sideNoClear"] if close else E["sideFor"] if toward else E["sideAgainst"]
+    # The lines are structures {key, ...params} over the templates quiz_texts.json «explain» (render_lines); the web builds the
+    # same structures (web/src/engine/report.ts) and renders them with the same templates, golden.json holds the structures.
+    side = "noClear" if close else "for" if toward else "against"
     # [У] 2026-10-22: G — votes on the coalition's own government bills (named only when the list has any)
-    votes = T.fill(E["votes"], votes=nvotes, other=nother, gov=T.fill(E["votesGov"], gov=ngov) if ngov else "")
-    lines = [T.fill(E["quote"], text=q["statement_en"]),
-             T.fill(E["answer"], answer=ANS[a], side=side),
-             (T.fill(E["basis"], bills=len(ev), same=n_same, opp=n_opp, votes=votes) if ev
-              else T.fill(E["basisVotesOnly"], votes=votes))]
-    if (mult or {}).get(q["q"], 1) != 1: lines.append(E["weight"])
+    votes = {"votes": nvotes, "other": nother, "gov": ngov}
+    lines = [{"key": "quote", "text": q["statement_en"]},
+             {"key": "answer", "answer": a, "side": side},
+             ({"key": "basis", "bills": len(ev), "same": n_same, "opp": n_opp, "votes": votes} if ev
+              else {"key": "basisVotesOnly", "votes": votes})]
+    if (mult or {}).get(q["q"], 1) != 1: lines.append({"key": "weight"})
     P, P_A = ctx["pos"][L][q["d"]][0], ctx["pos"][L][q["d"]][3]
     by_votes = bool(ev) and (abs(P_A) <= EPS or (P_A > 0) != (P > 0))   # own bills give nothing or the other side
     if close: pass
     elif by_votes:
-        lines.append(E["caveatByVotes"])
+        lines.append({"key": "caveatByVotes"})
     if toward:
-        lines.append(E["caveatPrice"])
+        lines.append({"key": "caveatPrice"})
     return lines, ev
+
+SIDE = {"for": "sideFor", "against": "sideAgainst", "noClear": "sideNoClear"}
+
+def render_lines(lines):
+    """The explanation lines as text: the structures of explain() filled into the templates quiz_texts.json «explain»."""
+    E = TX["explain"]
+    def votes(v): return T.fill(E["votes"], votes=v["votes"], other=v["other"], gov=T.fill(E["votesGov"], gov=v["gov"]) if v["gov"] else "")
+    out = []
+    for l in lines:
+        k = l["key"]
+        if k == "quote": out.append(T.fill(E["quote"], text=l["text"]))
+        elif k == "answer": out.append(T.fill(E["answer"], answer=ANS[l["answer"]], side=E[SIDE[l["side"]]]))
+        elif k == "basis": out.append(T.fill(E["basis"], bills=l["bills"], same=l["same"], opp=l["opp"], votes=votes(l["votes"])))
+        elif k == "basisVotesOnly": out.append(T.fill(E["basisVotesOnly"], votes=votes(l["votes"])))
+        else: out.append(E[k])   # weight, caveatByVotes, caveatPrice
+    return out
 
 def main(f):
     ctx = context()
-    st, title, nv = ctx["st"], ctx["title"], ctx["nv"]
+    title = ctx["title"]
     ans = read_answers(f)
     # trade-off questions [У 2026-10-16]: sheet tradeoffs_<file>.csv; if it is filled, its answers re-weight the statements
     tf = os.path.join(os.path.dirname(os.path.abspath(f)), "tradeoffs_" + os.path.basename(f))
@@ -156,7 +173,7 @@ def main(f):
                 A, B = title[qa], title[qb]
                 w.writerow([i, f"{qa}. {A['title_en']}", f"{qb}. {B['title_en']}", "", tradeoff_text(A, ans[qa], B, ans[qb])])
     ranking = qm.match(ans, mult=mult)
-    out = [f"# Quiz result with explanations", "",
+    out = ["# Quiz result with explanations", "",
            f"_Answers file: `{os.path.basename(f)}`. Answered: {sum(1 for v in ans.values() if v != 'dk')}, “don't know”: "
            f"{sum(1 for v in ans.values() if v == 'dk')}. Trade-off questions: "
            f"{'applied, ' + ', '.join(f'#{q} ×{m:g}' for q, m in mult.items()) if mult else ('not filled in — `' + os.path.basename(tf) + '`')}. "
@@ -184,7 +201,7 @@ def main(f):
                            ("Why it doesn't fit — what took points away", [x for x in rows[::-1] if x[0] < 0][:PER])):
             out += [f"### {head}", ""]
             for contrib, q, a, u, p in part:
-                lines, ev = explain(ctx, L, q, a, p, contrib, mult)
+                lines, ev = explain(ctx, L, q, a, p, contrib, mult); lines = render_lines(lines)
                 out.append(f"**{q['title_en']}**  ")
                 out += [x + "  " for x in lines]
                 line = lambda *e: bill_line(ctx, q, *e)

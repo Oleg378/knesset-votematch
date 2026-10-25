@@ -6,13 +6,14 @@ import { describe, expect, it } from 'vitest';
 import goldenRaw from '@export/golden.json';
 import { bills, data } from '../testSources';
 import { contributions, explain, match, nextClarify, shouldStop, tradeoffs } from './index';
+import type { LineItem, NotePart } from './index';
 import type { Answers, Mult, Role, Sign } from './types';
 
 interface GoldenCase {
   name: string;
   answers: Answers;
   mult: Mult;
-  ranking: { id: string; closeness: number | null; coverage: number; note: string; ranked: boolean }[];
+  ranking: { id: string; closeness: number | null; coverage: number; notes: NotePart[]; ranked: boolean }[];
   tradeoffs: { exclude: string[]; skip_lists: string[]; pairs: [string, string, string][] };
   details: {
     id: string;
@@ -20,7 +21,7 @@ interface GoldenCase {
       q: string;
       contribution: number;
       p: number;
-      lines: string[];
+      lines: LineItem[];
       evidence: { bill: string; sign: Sign; role: Role; same: boolean; authors: [number, string][] }[];
     }[];
   }[];
@@ -55,7 +56,7 @@ describe('golden.json', () => {
           const g = gc.ranking[i]!;
           close(r.closeness, g.closeness, `${r.id} closeness`);
           close(r.coverage, g.coverage, `${r.id} coverage`);
-          expect(r.note, `${r.id} note`).toBe(g.note);
+          expect(r.notes, `${r.id} notes`).toEqual(g.notes);
           expect(r.ranked, `${r.id} ranked`).toBe(g.ranked);
         });
       });

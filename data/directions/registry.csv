@@ -1,0 +1,316 @@
+d,status,q,reason,source,date
+142s2s2,basket,,"step 2 basket (round 6, both checks); no split into parts of ≥ 5 names possible",local/research/new_statements_round6/,2026-10-21
+233c,basket,,step 2 basket; split agent found no part ≥ 5 names,local/research/new_statements_round5/ (step 2),2026-10-21
+235,basket,,step 2 basket; split agent found no part ≥ 5 names,local/research/new_statements_round5/ (step 2),2026-10-21
+314,basket,,step 2 basket; split agent found no part ≥ 5 names,local/research/new_statements_round5/ (step 2),2026-10-21
+344s4,basket,,"step 2 basket (round 6, both checks); no split into parts of ≥ 5 names possible",local/research/new_statements_round6/,2026-10-21
+39,basket,,step 2 basket; split agent found no part ≥ 5 names,local/research/new_statements_round5/ (step 2),2026-10-21
+81s2,basket,,"step 2 basket (round 6, both checks); no split into parts of ≥ 5 names possible",local/research/new_statements_round6/,2026-10-21
+103c,dropped_dup,,final duplicate check 2026-10-21: another statement asks the same,local/research/new_statements_round2/dups_*.csv,2026-10-21
+116b,dropped_dup,,final duplicate check 2026-10-21: another statement asks the same,local/research/new_statements_round2/dups_*.csv,2026-10-21
+122s4,dropped_dup,,final duplicate check 2026-10-21: another statement asks the same,local/research/new_statements_round2/dups_*.csv,2026-10-21
+34s2,dropped_dup,,final duplicate check 2026-10-21: another statement asks the same,local/research/new_statements_round2/dups_*.csv,2026-10-21
+88s2,dropped_dup,,final duplicate check 2026-10-21: another statement asks the same,local/research/new_statements_round2/dups_*.csv,2026-10-21
+110s1,duplicate,64,step 2: same question for voters,local/research/new_statements_round3/ (step 2),2026-10-20/21
+112,duplicate,75,decided 2026-10-17/18/20 (earlier rounds),SHARED_UNDERSTANDING,
+114a,duplicate,75,decided 2026-10-17/18/20 (earlier rounds),SHARED_UNDERSTANDING,
+11s1,duplicate,89,step 2: same question for voters,local/research/new_statements_round3/ (step 2),2026-10-20/21
+11s4,duplicate,18,step 2: same question for voters,local/research/new_statements_round3/ (step 2),2026-10-20/21
+133s3,duplicate,52,step 2: same question for voters,local/research/new_statements_round2/ (step 2),2026-10-20/21
+137,duplicate,135,step 2: same question for voters,local/research/new_statements_round5/ (step 2),2026-10-20/21
+149s1,duplicate,45,step 2: same question for voters,local/research/new_statements_round2/ (step 2),2026-10-20/21
+149s3,duplicate,70,step 2: same question for voters,local/research/new_statements_round2/ (step 2),2026-10-20/21
+149s4,duplicate,47,step 2: same question for voters,local/research/new_statements_round2/ (step 2),2026-10-20/21
+151a,duplicate,33,decided 2026-10-17/18/20 (earlier rounds),SHARED_UNDERSTANDING,
+160s2,duplicate,10,step 2: same question for voters,local/research/new_statements_round3/ (step 2),2026-10-20/21
+161a,duplicate,19,decided 2026-10-17/18/20 (earlier rounds),SHARED_UNDERSTANDING,
+162s1,duplicate,70,step 2: same question for voters,local/research/new_statements_round2/ (step 2),2026-10-20/21
+163p1,duplicate,33,step 2 (round 4),local/research/new_statements_round4/,2026-10-21
+165b,duplicate,10,decided 2026-10-17/18/20 (earlier rounds),SHARED_UNDERSTANDING,
+167,duplicate,2,step 2: same question for voters,local/research/new_statements_round2/ (step 2),2026-10-20/21
+169b,duplicate,2,decided 2026-10-17/18/20 (earlier rounds),SHARED_UNDERSTANDING,
+183,duplicate,10,step 2: same question for voters,local/research/new_statements_round2/ (step 2),2026-10-20/21
+196,duplicate,74,decided 2026-10-17/18/20 (earlier rounds),SHARED_UNDERSTANDING,
+19s1,duplicate,52,step 2: same question for voters,local/research/new_statements_round3/ (step 2),2026-10-20/21
+211s2,duplicate,15,decided 2026-10-17/18/20 (earlier rounds),SHARED_UNDERSTANDING,
+227,duplicate,95,step 2: same question for voters,local/research/new_statements_round2/ (step 2),2026-10-20/21
+239,duplicate,60,decided 2026-10-17/18/20 (earlier rounds),SHARED_UNDERSTANDING,
+24,duplicate,42,decided 2026-10-17/18/20 (earlier rounds),SHARED_UNDERSTANDING,
+250b,duplicate,141,step 2: same question for voters,local/research/new_statements_round5/ (step 2),2026-10-20/21
+256s1,duplicate,81,step 2: same question for voters,local/research/new_statements_round2/ (step 2),2026-10-20/21
+262,duplicate,81,step 2: same question for voters,local/research/new_statements_round2/ (step 2),2026-10-20/21
+29,duplicate,93,decided 2026-10-17/18/20 (earlier rounds),SHARED_UNDERSTANDING,
+296a,duplicate,13,decided 2026-10-17/18/20 (earlier rounds),SHARED_UNDERSTANDING,
+297,duplicate,33,step 2: same question for voters,local/research/new_statements_round2/ (step 2),2026-10-20/21
+32s2,duplicate,5,step 2: same question for voters,local/research/new_statements_round2/ (step 2),2026-10-20/21
+344s3,duplicate,81,step 2: same question for voters,local/research/new_statements_round3/ (step 2),2026-10-20/21
+34s1,duplicate,95,step 2: same question for voters,local/research/new_statements_round3/ (step 2),2026-10-20/21
+40s4,duplicate,40,step 2: same question for voters,local/research/new_statements_round5/ (step 2),2026-10-20/21
+46,duplicate,62,decided 2026-10-17/18/20 (earlier rounds),SHARED_UNDERSTANDING,
+69a,duplicate,63,decided 2026-10-17/18/20 (earlier rounds),SHARED_UNDERSTANDING,
+77b,duplicate,45,decided 2026-10-17/18/20 (earlier rounds),SHARED_UNDERSTANDING,
+81s1,duplicate,45,step 2: same question for voters,local/research/new_statements_round3/ (step 2),2026-10-20/21
+88s3,duplicate,81,step 2: same question for voters,local/research/new_statements_round2/ (step 2),2026-10-20/21
+89s1,duplicate,64,step 2: same question for voters,local/research/new_statements_round3/ (step 2),2026-10-20/21
+8s3s3,duplicate,45,step 2: same question for voters,local/research/new_statements_round3/ (step 2),2026-10-20/21
+8s4,duplicate,93,decided 2026-10-17/18/20 (earlier rounds),SHARED_UNDERSTANDING,
+90b,duplicate,45,decided 2026-10-17/18/20 (earlier rounds),SHARED_UNDERSTANDING,
+92a,duplicate,45,step 2: same question for voters,local/research/new_statements_round2/ (step 2),2026-10-20/21
+96s4,duplicate,45,decided 2026-10-17/18/20 (earlier rounds),SHARED_UNDERSTANDING,
+113,no_statement,,one law carries the weight; no honest statement,local/research/new_statements_round2/drafts_1.json,2026-10-20
+147s2s1,no_statement,,round 6: failed the selection after the label check (SD 0.23),local/research/new_statements_round6/,2026-10-21
+342,no_statement,,round 5: failed the selection after the label check,local/research/new_statements_round5/,2026-10-21
+100c,quiz,112,Broadcasting public proceedings,data/quiz/statements.csv,
+101b1,quiz,59,Guardianship of violent parents,data/quiz/statements.csv,
+103a,quiz,64,Immunity of elected officials,data/quiz/statements.csv,
+106,quiz,90,Powers of municipalities,data/quiz/statements.csv,
+110s2,quiz,126,Disqualifying candidates over terror support,data/quiz/statements.csv,
+110s3,quiz,119,Cooling-off periods,data/quiz/statements.csv,
+117a,quiz,108,The right to vote,data/quiz/statements.csv,
+117b,quiz,88,Access to voting,data/quiz/statements.csv,
+11s2,quiz,131,Health care in outlying towns,data/quiz/statements.csv,
+11s3,quiz,137,Mental-health and trauma care,data/quiz/statements.csv,
+124a,quiz,103,Prime minister term limits,data/quiz/statements.csv,
+12a,quiz,117,Conversion therapy for minors,data/quiz/statements.csv,
+12b,quiz,89,Health fund services,data/quiz/statements.csv,
+130a,no_statement,,statement Wartime relief removed 2026-10-22: fails the selection (SD 0.24) after the add check of duplicate theme 4,local/research/add_check_round7_add/,2026-10-22
+134,quiz,135,Limits on free expression,data/quiz/statements.csv,
+139,quiz,144,Public broadcasting,data/quiz/statements.csv,
+143,quiz,110,Animal protection,data/quiz/statements.csv,
+144,quiz,93,Environmental regulation,data/quiz/statements.csv,
+146,quiz,55,Protection of personal data,data/quiz/statements.csv,
+151b,quiz,70,Religious rules in public institutions,data/quiz/statements.csv,
+151c,quiz,25,Separate spaces for men and women,data/quiz/statements.csv,
+154,quiz,33,Rabbinical courts in civil disputes,data/quiz/statements.csv,
+156,quiz,145,Recognized conversion to Judaism,data/quiz/statements.csv,
+158,quiz,22,Civil marriage,data/quiz/statements.csv,
+159,quiz,20,Divorce,data/quiz/statements.csv,
+160s1,quiz,124,Definition of domestic violence,data/quiz/statements.csv,
+162s2,quiz,109,Accommodating Jewish observance,data/quiz/statements.csv,
+162s3,quiz,133,Holidays of non-Jewish communities,data/quiz/statements.csv,
+163p2,quiz,130,Funding religious institutions,data/quiz/statements.csv,
+164,quiz,5,Community heritage centers,data/quiz/statements.csv,
+165a,quiz,4,Jewish character of the state,data/quiz/statements.csv,
+166,quiz,2,Sovereignty in Judea and Samaria,data/quiz/statements.csv,
+169a,quiz,36,Settlements,data/quiz/statements.csv,
+170,quiz,83,Withholding Palestinian Authority funds,data/quiz/statements.csv,
+171,quiz,3,Trade with hostile countries,data/quiz/statements.csv,
+173,quiz,13,Foreign states and international organizations in Israel,data/quiz/statements.csv,
+177,quiz,120,Cooperation with international courts,data/quiz/statements.csv,
+178,quiz,45,Counter-terrorism measures,data/quiz/statements.csv,
+179,quiz,10,Entry of foreigners,data/quiz/statements.csv,
+17s2,quiz,132,Hiring quotas in private companies,data/quiz/statements.csv,
+180,quiz,14,Foreign workers: quotas,data/quiz/statements.csv,
+181,quiz,12,Rights of foreign workers and asylum seekers,data/quiz/statements.csv,
+184,quiz,6,Revoking citizenship for terrorism,data/quiz/statements.csv,
+185a,quiz,7,Drafting yeshiva students,data/quiz/statements.csv,
+185b,quiz,8,Compulsory service for everyone,data/quiz/statements.csv,
+187,quiz,9,Benefits for those who served,data/quiz/statements.csv,
+195a,quiz,81,Dismissing employees who support terror,data/quiz/statements.csv,
+19s3,quiz,125,Discrimination by landlords and businesses,data/quiz/statements.csv,
+1s1,quiz,153,Welfare allowances,data/quiz/statements.csv,
+201,quiz,75,Women's representation,data/quiz/statements.csv,
+204,quiz,40,LGBT rights,data/quiz/statements.csv,
+218,no_statement,,statement removed 2026-10-22: fails the selection after government bills were counted (5 lists),local/research/gov_bills/REPORT.md,2026-10-22
+226,quiz,95,Protection of debtors,data/quiz/statements.csv,
+22s1,quiz,146,Rent increases,data/quiz/statements.csv,
+22s2,quiz,127,Eligibility for public housing,data/quiz/statements.csv,
+22s3,quiz,116,Clearing old neighborhoods,data/quiz/statements.csv,
+231d,quiz,72,Land purchase in Judea and Samaria,data/quiz/statements.csv,
+231e,quiz,60,Confiscation of property without conviction,data/quiz/statements.csv,
+240s1,quiz,151,Unlicensed construction,data/quiz/statements.csv,
+240s3,quiz,157,Building permit procedures,data/quiz/statements.csv,2026-10-21
+241,quiz,37,Housing construction,data/quiz/statements.csv,
+248s1,quiz,150,Tobacco restrictions,data/quiz/statements.csv,
+251s2,quiz,128,Entry into licensed professions,data/quiz/statements.csv,
+251s3,quiz,111,Barring offenders from care jobs,data/quiz/statements.csv,
+253a,quiz,101,Free public education,data/quiz/statements.csv,
+254,quiz,82,Access to higher education,data/quiz/statements.csv,
+255a,quiz,19,Funding schools without the core curriculum,data/quiz/statements.csv,
+256s4,quiz,134,Jewish heritage in schools,data/quiz/statements.csv,
+25a,quiz,42,Imports and competition,data/quiz/statements.csv,
+270,quiz,152,Use of organs and sperm after death,data/quiz/statements.csv,
+271a,quiz,113,Cannabis,data/quiz/statements.csv,
+274,quiz,147,Retirement age,data/quiz/statements.csv,
+275,quiz,38,Early withdrawal of long-term savings,data/quiz/statements.csv,
+276,quiz,155,Support for long-term savings,data/quiz/statements.csv,2026-10-21
+277a,quiz,54,Denying benefits for terrorism,data/quiz/statements.csv,
+277b,quiz,92,Disability and sickness benefits,data/quiz/statements.csv,
+277d,quiz,77,Unemployment benefits,data/quiz/statements.csv,
+277e,quiz,100,Pensions for seniors and survivors,data/quiz/statements.csv,
+277f,quiz,85,Survivors' benefits,data/quiz/statements.csv,
+277g1,quiz,78,Support for students,data/quiz/statements.csv,
+278,no_statement,,statement removed 2026-10-22: fails the selection after government bills were counted (SD 0.245),local/research/gov_bills/REPORT.md,2026-10-22
+279s1,quiz,140,Number of ministers,data/quiz/statements.csv,
+279s2,quiz,123,Dedicated social authorities,data/quiz/statements.csv,
+28,quiz,86,Support for farmers,data/quiz/statements.csv,
+283a,quiz,53,Privatization of public services,data/quiz/statements.csv,
+290s1,quiz,139,Minority representation in public bodies,data/quiz/statements.csv,
+291,quiz,74,Equality in the Basic Laws,data/quiz/statements.csv,
+292,quiz,156,Changing the Basic Laws,data/quiz/statements.csv,2026-10-21
+3,quiz,15,Payments to reservists and veterans,data/quiz/statements.csv,
+300,quiz,21,Foreign government funding of non-profits,data/quiz/statements.csv,
+309s3,quiz,154,Who may adopt,data/quiz/statements.csv,
+317s2,quiz,143,Priority in everyday services,data/quiz/statements.csv,
+31a,quiz,51,Help for new immigrants,data/quiz/statements.csv,
+322,quiz,118,Cooling-off period for judges,data/quiz/statements.csv,
+340,quiz,48,Vetting senior appointments,data/quiz/statements.csv,
+353,quiz,52,Protecting the weaker party to a contract,data/quiz/statements.csv,
+356b,quiz,35,Public transport funding,data/quiz/statements.csv,
+58b,quiz,105,Checks on the prime minister's power,data/quiz/statements.csv,
+60,quiz,62,Ministers' control over senior officials,data/quiz/statements.csv,
+66a,quiz,63,Overriding court rulings,data/quiz/statements.csv,
+66b2,quiz,69,Minimum sentences,data/quiz/statements.csv,
+69b,quiz,80,Challenging the authorities,data/quiz/statements.csv,
+71,quiz,24,Politicians' influence over the courts,data/quiz/statements.csv,
+75,quiz,148,Rights of the opposition,data/quiz/statements.csv,
+77a,quiz,47,Police powers,data/quiz/statements.csv,
+80a,quiz,96,Oversight of security forces,data/quiz/statements.csv,
+80b,quiz,114,Checks on police use of force,data/quiz/statements.csv,
+81s3,quiz,141,Penalties for violent and sexual crime,data/quiz/statements.csv,
+85,quiz,122,Criminal bans on incitement,data/quiz/statements.csv,
+89s2,quiz,138,Ministers' reporting to the Knesset,data/quiz/statements.csv,
+9,quiz,129,Fees for public services,data/quiz/statements.csv,
+90a,quiz,49,Rights of suspects,data/quiz/statements.csv,
+92b,quiz,18,Prison conditions for terrorism convicts,data/quiz/statements.csv,
+92c,quiz,68,Rights of ordinary prisoners,data/quiz/statements.csv,
+96s3,quiz,149,Sanctions for discrimination,data/quiz/statements.csv,
+98,quiz,99,Monitoring of violent partners,data/quiz/statements.csv,
+99s1,quiz,121,Crimes against children,data/quiz/statements.csv,
+99s2,quiz,115,Child safety in daycare and schools,data/quiz/statements.csv,
+99s3,quiz,136,Limits on what children can access,data/quiz/statements.csv,
+1,split,,,data/directions/split/plan6.json,
+100,split,,,data/directions/split/plan3.json,
+101,split,,,data/directions/split/plan.json,2026-10-16
+101b,split,,,data/directions/split/plan2.json,
+103,split,,,data/directions/split/plan.json,2026-10-16
+103b,split,,,data/directions/split/plan3.json,
+11,split,,,data/directions/split/plan6.json,
+110,split,,,data/directions/split/plan6.json,
+114,split,,,data/directions/split/plan.json,2026-10-16
+116,split,,,data/directions/split/plan.json,2026-10-16
+117,split,,,data/directions/split/plan4.json,
+119,split,,,data/directions/split/plan6.json,
+12,split,,,data/directions/split/plan3.json,
+122,split,,,data/directions/split/plan6.json,
+122s1,split,,,data/directions/split/plan7.json,
+124,split,,,data/directions/split/plan3.json,
+130,split,,,data/directions/split/plan2.json,
+130b,split,,,data/directions/split/plan4.json,
+130b2,split,,,data/directions/split/plan6.json,
+133,split,,,data/directions/split/plan5.json,
+142,split,,,data/directions/split/plan6.json,
+142s2,split,,"basket (round 3 step 2), split as stage 9",data/directions/split/plan9.json,2026-10-21
+147,split,,,data/directions/split/plan6.json,
+147s2,split,,"basket (round 3 step 2), split as stage 9",data/directions/split/plan9.json,2026-10-21
+149,split,,,data/directions/split/plan5.json,
+15,split,,,data/directions/split/plan5.json,
+151,split,,,data/directions/split/plan2.json,
+160,split,,,data/directions/split/plan6.json,
+161,split,,,data/directions/split/plan.json,2026-10-16
+162,split,,,data/directions/split/plan5.json,
+163,split,,,data/directions/split/plan7.json,
+165,split,,,data/directions/split/plan4.json,
+169,split,,,data/directions/split/plan2.json,
+17,split,,,data/directions/split/plan6.json,
+185,split,,,data/directions/split/plan.json,2026-10-16
+186,split,,,data/directions/split/plan3.json,
+188,split,,,data/directions/split/plan.json,2026-10-16
+19,split,,,data/directions/split/plan6.json,
+195,split,,,data/directions/split/plan4.json,
+209,split,,,data/directions/split/plan3.json,
+211,split,,,data/directions/split/plan5.json,
+22,split,,,data/directions/split/plan6.json,
+231,split,,,data/directions/split/plan.json,2026-10-16
+233,split,,,data/directions/split/plan.json,2026-10-16
+240,split,,,data/directions/split/plan5.json,
+248,split,,,data/directions/split/plan5.json,
+25,split,,,data/directions/split/plan4.json,
+250,split,,,data/directions/split/plan3.json,
+251,split,,,data/directions/split/plan6.json,
+253,split,,,data/directions/split/plan3.json,
+255,split,,,data/directions/split/plan2.json,
+256,split,,,data/directions/split/plan5.json,
+256s3,split,,,data/directions/split/plan7.json,
+256s3p2,split,,,data/directions/split/plan8.json,
+260,split,,,data/directions/split/plan5.json,
+265,split,,,data/directions/split/plan4.json,
+269,split,,,data/directions/split/plan2.json,
+271,split,,,data/directions/split/plan3.json,
+277,split,,,data/directions/split/plan.json,2026-10-16
+277g,split,,,data/directions/split/plan4.json,
+279,split,,,data/directions/split/plan6.json,
+280,split,,,data/directions/split/plan5.json,
+283,split,,,data/directions/split/plan4.json,
+285,split,,,data/directions/split/plan5.json,
+290,split,,,data/directions/split/plan5.json,
+296,split,,,data/directions/split/plan.json,2026-10-16
+298,split,,,data/directions/split/plan.json,2026-10-16
+301,split,,,data/directions/split/plan3.json,
+309,split,,,data/directions/split/plan6.json,
+31,split,,,data/directions/split/plan4.json,
+317,split,,,data/directions/split/plan6.json,
+32,split,,,data/directions/split/plan5.json,
+34,split,,,data/directions/split/plan6.json,
+344,split,,,data/directions/split/plan6.json,
+349,split,,,data/directions/split/plan5.json,
+354,split,,,data/directions/split/plan5.json,
+356,split,,,data/directions/split/plan2.json,
+358,split,,,data/directions/split/plan5.json,
+359,split,,,data/directions/split/plan.json,2026-10-16
+361,split,,,data/directions/split/plan.json,2026-10-16
+366,split,,,data/directions/split/plan5.json,
+370,split,,,data/directions/split/plan.json,2026-10-16
+40,split,,,data/directions/split/plan5.json,
+40s1,split,,,data/directions/split/plan6.json,
+40s2,split,,,data/directions/split/plan6.json,
+40s2s3,split,,"basket (round 3 step 2), split as stage 9",data/directions/split/plan9.json,2026-10-21
+50,split,,,data/directions/split/plan5.json,
+53,split,,,data/directions/split/plan.json,2026-10-16
+58,split,,,data/directions/split/plan4.json,
+64,split,,,data/directions/split/plan5.json,
+66,split,,,data/directions/split/plan2.json,
+66b,split,,,data/directions/split/plan4.json,
+69,split,,,data/directions/split/plan4.json,
+76,split,,,data/directions/split/plan.json,2026-10-16
+77,split,,,data/directions/split/plan4.json,
+8,split,,,data/directions/split/plan5.json,
+80,split,,,data/directions/split/plan4.json,
+81,split,,,data/directions/split/plan6.json,
+88,split,,,data/directions/split/plan5.json,
+89,split,,,data/directions/split/plan6.json,
+8s3,split,,,data/directions/split/plan6.json,
+90,split,,,data/directions/split/plan2.json,
+91,split,,,data/directions/split/plan.json,2026-10-16
+92,split,,,data/directions/split/plan2.json,
+95,split,,,data/directions/split/plan6.json,
+95s2,split,,,data/directions/split/plan7.json,
+96,split,,,data/directions/split/plan5.json,
+99,split,,,data/directions/split/plan5.json,
+107,technical,,statement audit 2026-10-15/17,METHOD_AUDIT §7,
+123,technical,,step 2,local/research/new_statements_round2/ (step 2),2026-10-20/21
+128,technical,,statement audit 2026-10-15/17,METHOD_AUDIT §7,
+132,technical,,step 2,local/research/new_statements_round2/ (step 2),2026-10-20/21
+15s2,technical,,step 2,local/research/new_statements_round2/ (step 2),2026-10-20/21
+16,technical,,step 2,local/research/new_statements_round2/ (step 2),2026-10-20/21
+236,technical,,statement audit 2026-10-15/17,METHOD_AUDIT §7,
+238,technical,,basket split round 2: Наследственное право — техническая гражданско-правовая область без лагерного про,local/research/basket_split2/,2026-10-20
+289,technical,,statement audit 2026-10-15/17,METHOD_AUDIT §7,
+339,technical,,statement audit 2026-10-15/17,METHOD_AUDIT §7,
+341,technical,,"basket split round 2: Всего 8 названий, ни одна тема не набирает 5. Сама величина «лицензии через тенд",local/research/basket_split2/,2026-10-20
+343,technical,,statement audit 2026-10-15/17,METHOD_AUDIT §7,
+346,technical,,statement audit 2026-10-15/17,METHOD_AUDIT §7,
+200,duplicate,,"duplicate of q9 (step 2, round 7, majority of three blind checks); bills -> add check of label-check",local/research/new_statements_round7/check_*.csv,2026-10-22
+202,quiz,158,"q158 Closing gender gaps (new-statements round 7, customer approved 2026-10-22)",data/quiz/statements.csv,2026-10-22
+209a,quiz,159,"q159 Limits on working hours (new-statements round 7, customer approved 2026-10-22)",data/quiz/statements.csv,2026-10-22
+215,quiz,160,"q160 Public sector pay (new-statements round 7, customer approved 2026-10-22)",data/quiz/statements.csv,2026-10-22
+230,split,,"basket (step 2, round 7) split as stage 10: 230s1 households credit (fails: SD 0.245), 230s2 business finance (fails: 4 names)",local/research/basket_split4/,2026-10-22
+244,quiz,161,"q161 Who approves building plans (new-statements round 7, customer approved 2026-10-22)",data/quiz/statements.csv,2026-10-22
+311,split,,"basket (step 2, round 7) split as stage 10: 311s1 legal aid (passes -> new-statements), 311s2 security detainees counsel (fails: 2 names), transfers to 69a and 90a",local/research/basket_split4/,2026-10-22
+377,quiz,162,"q162 Targeting help to the poor (new-statements round 7, customer approved 2026-10-22)",data/quiz/statements.csv,2026-10-22
+4,duplicate,,"duplicate of q71 Wartime relief (step 2, round 7, two blind checks agree); bills -> add check of label-check ; add check applied 2026-10-22 (110 labels into 130a), after which q71 fails the threshold",local/research/new_statements_round7/check_*.csv,2026-10-22
+40s2s3s4,technical,,"step 2, round 7: administrative licence validity and permit paperwork, no voter position (two blind checks agree)",local/research/new_statements_round7/check_*.csv,2026-10-22
+108,quiz,163,"q163 Municipal tax discounts (new-statements round 7, customer approved 2026-10-22)",data/quiz/statements.csv,2026-10-22
+147s1,duplicate,,"duplicate of q55 (step 2, round 7, majority of three blind checks); bills -> add check of label-check",local/research/new_statements_round7/check_*.csv,2026-10-22
+18,duplicate,,"duplicate of q52 (step 2, round 7, majority of three blind checks); bills -> add check of label-check",local/research/new_statements_round7/check_*.csv,2026-10-22
+311s1,quiz,164,"q164 State-funded legal aid (new-statements round 7, customer approved 2026-10-22)",data/quiz/statements.csv,2026-10-22

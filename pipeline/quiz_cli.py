@@ -5,7 +5,7 @@ Same computation as pipeline/quiz_match.py and pipeline/quiz_report.py (docs/TEC
   - question order [У] 2026-10-18 (pipeline/quiz_flow.py, parameters in quiz_flow.FLOW): the core statements (the same for
     everyone), then clarifying ones chosen one at a time from the answers so far, then trade-offs; «m» on the results screen
     asks more clarifying questions; --all asks every statement in file order (the old flow);
-  - regular questions: the quiz statements in English (jef/quiz/statements.csv, title_en / statement_en), the same four answers
+  - regular questions: the quiz statements in English (data/quiz/statements.csv, title_en / statement_en), the same four answers
     as on the site — 2 / 1 / -1 / -2 — and Enter = «not sure, skip» (no answer; the statement counts as shown) [У 2026-10-23: the
     site offers no «neutral» and no «don't know», and the terminal must ask the same questions]; prefilled sheets and saved sessions
     may still carry 0 and «dk» (quiz_match treats 0 as an answer, «dk» as skipped); [У] 2026-10-17: the product language is
@@ -16,7 +16,7 @@ Same computation as pipeline/quiz_match.py and pipeline/quiz_report.py (docs/TEC
     ([У] 2026-10-17: the government layer is not shown, so it does not bias the reader);
   - list details: why it fits (statements that added points) and why not (that took points); any statement opens all bills
     of the list's ex-MKs on its direction, split into «same way as your answer» and «the opposite way».
-The session (answers, trade-offs, weights) is saved to jef/quiz/sessions/<time>.json.
+The session (answers, trade-offs, weights) is saved to data/quiz/sessions/<time>.json.
 
 Usage: python3 pipeline/quiz_cli.py                                   core + clarifying + trade-offs
        python3 pipeline/quiz_cli.py --all                             every statement (old flow)
@@ -155,7 +155,7 @@ def details(ctx, r, ans, mult):
             for x in (part if full else part[:SHOW]):
                 c, q, a, u, p = x
                 items.append(x)
-                lines, _ = qr.explain(ctx, L, q, a, p, c, mult)
+                lines, _ = qr.explain(ctx, L, q, a, p, c, mult); lines = qr.render_lines(lines)
                 print(f"\n {len(items):>2}. {q['title_en']}")
                 for ln in lines: print(textwrap.fill(ln, W, initial_indent="     ", subsequent_indent="     "))
             if not full and len(part) > SHOW: print(f"\n     … {len(part) - SHOW} more (a — show all)")
@@ -164,7 +164,7 @@ def details(ctx, r, ans, mult):
         if s in ("a", "в"): full = not full; continue
         if not s.isdigit() or not 1 <= int(s) <= len(items): continue
         c, q, a, u, p = items[int(s) - 1]
-        lines, ev = qr.explain(ctx, L, q, a, p, c, mult)
+        lines, ev = qr.explain(ctx, L, q, a, p, c, mult); lines = qr.render_lines(lines)
         say("\n" + q["title_en"]); [print(textwrap.fill(ln, W)) for ln in lines]
         for head, flag in (("Your way", True), ("The other way", False)):
             part = [e for e in ev if e[6] == flag]

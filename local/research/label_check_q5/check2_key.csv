@@ -1,7 +1,0 @@
-q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason,kind,cid
-5,164,הצעת חוק-יסוד: ישראל - מדינת הלאום של העם היהודי (תיקון - חובת המדינה לעם היהודי במצבי חירום),2190897,+,main,2190897,F1-10,not_about,,Basic Law duty to Jewish people in emergencies,candidate,C1
-5,164,הצעת חוק המרכז למורשת יהדות קווקז,2218383,+,main,2218383,F1-8,about,+,Creates heritage center for Caucasus Jewry,control,C2
-5,164,הצעת חוק המועצה להשכלה גבוהה (תיקון - שכר לימוד לסטודנטים יהודים זכאי חוק השבות),2201312,+,secondary,2201312,F1-12,not_about,,"Tuition for Diaspora Jewish students, not heritage centers",candidate,C3
-5,164,הצעת חוק הרשות לשימור בתי כנסת ואתרי קדושה בקהילות יהדות התפוצות,2190369,+,main,2190369,F1-3,not_about,,"Preserves Diaspora synagogues abroad, not community heritage centers",candidate,C4
-5,164,הצעת חוק לחיזוק הקשר בין יהודי התפוצות למדינת ישראל,2169321,+,secondary,2169321,F1-11,not_about,,"Diaspora Jews entry visa, not heritage centers",candidate,C5
-5,164,"הצעת חוק להנחלת מורשתו של הרבי מלובביץ' ושל שושלת תנועת חב""ד",2228431,+,secondary,2228431,F1-2,about,+,State heritage institution for Lubavitcher Rebbe and Chabad movement,control,C6

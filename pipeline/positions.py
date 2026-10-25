@@ -1,13 +1,13 @@
 """Production computation of positions (SU 27.2–27.3). Self-contained.
-Outputs -> jef/positions/ : see README.md written by this script.
+Outputs -> data/positions/ : see README.md written by this script.
 Run: python3 pipeline/positions.py
 """
-import json, glob, os
+import json, os
 import numpy as np, pandas as pd, duckdb
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = f'{ROOT}/jef/positions'
-LAB = f'{ROOT}/jef/directions/labels'
+OUT = f'{ROOT}/data/positions'
+LAB = f'{ROOT}/data/directions/labels'
 os.makedirs(OUT, exist_ok=True)
 SGN = {'+': 1, '−': -1, '-': -1}
 W_A, W_V = 1.0, 0.25            # SU 27.3: authorship 1, private-bill votes 0.25, secondary topics = main
@@ -24,9 +24,9 @@ def P(*a):
     s = ' '.join(str(x) for x in a); print(s); log.append(s)
 
 con = duckdb.connect(f'{ROOT}/knesset.duckdb', read_only=True)
-dirs = pd.read_csv(f'{ROOT}/jef/directions/DIRECTIONS_LIST.csv', dtype={'n': str})
+dirs = pd.read_csv(f'{ROOT}/data/directions/DIRECTIONS_LIST.csv', dtype={'n': str})
 dname = dict(zip(dirs.n, dirs.name_ru))
-names = {p['Id']: f"{p['FirstName']} {p['LastName']}" for p in json.load(open(f'{ROOT}/data/cec/mk_persons.json'))}
+names = {p['Id']: f"{p['FirstName']} {p['LastName']}" for p in json.load(open(f'{ROOT}/raw/cec/mk_persons.json'))}
 
 # ======================= labels (pipeline/labels.py) =======================
 import sys; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -58,7 +58,7 @@ P(f'bill votes (4 stages, non-technical): {len(va)}; roster rows with for/agains
 kt = con.execute("select knesset, cast(date_from as varchar) df from knesset_terms where knesset in (24,25,26)").df()
 KSTART = {int(k): pd.Timestamp(d) for k, d in zip(kt.knesset, kt.df)}
 END = va.vote_date.max() + pd.Timedelta(days=1)
-pos = json.load(open(f'{ROOT}/data/person_to_position_24_25.json'))
+pos = json.load(open(f'{ROOT}/raw/person_to_position_24_25.json'))
 pp = pd.DataFrame([dict(mk_id=p['PersonID'], kind='min' if p['PositionID'] in MIN_IDS else 'dep', gov=p['GovernmentNum'],
                         s=pd.Timestamp(p['StartDate'][:10]), f=pd.Timestamp(p['FinishDate'][:10]) if p['FinishDate'] else END)
                    for p in pos if p['PositionID'] in MIN_IDS | DEP_IDS])
@@ -251,7 +251,7 @@ LC.to_csv(f'{OUT}/list_coverage.csv', index=False)
 
 # [У] 2026-10-19: the votes behind each list's position on the quiz directions, for the web («how the list's former MKs voted»):
 # exactly the votes used in V (own camp's private bills), O (the other camp's bills) and G (own camp's government bills), per list × direction × bill.
-_qd = {r['d'] for r in pd.read_csv(f'{ROOT}/jef/quiz/statements.csv', dtype=str).query("status == 'ok'").to_dict('records')}
+_qd = {r['d'] for r in pd.read_csv(f'{ROOT}/data/quiz/statements.csv', dtype=str).query("status == 'ok'").to_dict('records')}
 _vbill = dict(zip(va.vote_id, va.bill_id)); _m2l = dict(zip(cm.mk_id, cm.letters)); _agg = {}
 for _frame, _camp in ((pv, 'own'), (ov, 'other'), (gv, 'own')):   # [У] 2026-10-22: G votes (own camp's government bills) are «own» too
     for r in _frame.itertuples():
@@ -388,7 +388,7 @@ readme = f"""# Позиции депутатов и списков 2026
   - **G — голоса коалиции по собственным правительственным законопроектам [У, 2026-10-22].** Зеркало O: те же правила (четыре чтения, без переходных окон, без вычета оси, без бюджетных пакетов), вес 0,25. До этого «против» оппозиции по правительственному закону входило в O, а «за» коалиции — никуда (внешний аудит №3, п. 1.2; `local/research/gov_bills/`). nG = число голосов.
   - **Лагерь для очистки голосов и для O [У, 2026-10-18]** — правительство по министрам **или** фракция без министров, голосующая с большинством правительства в ≥ 90 % из ≥ 200 голосов в созыве (сейчас так только РААМ в K24). Слой правительства по-прежнему только по министрам.
   - **P = 1·A + 0,25·V + 0,25·O + 0,25·G; нет компоненты — 0** (A и V — как при подборе весов, SU 27.3, 2026-10-17; O — 2026-10-18). P_A и P_V — вклады авторства и голосов. Метки, снятые по двум независимым проверкам (`overrides.json` «remove», SU 27.3, 2026-10-18), не учитываются; Jev-фильтр относимости выключен (`labels.REL_T = None`). Голоса по статьям бюджетных пакетов (в O и G) и голоса против лагеря — вес 0; правительственные законопроекты вне пакетов — в O (чужой лагерь) и G (свой). Авторство: только `is_initiator`; отозванные подписи (KNS_BillHistoryInitiator «חזר בו», 4 случая) не вычитаются [А]. Сжатия нет ни здесь, ни при ранжировании (K = 0, 2026-10-18).
-- **Правительство [У, 27.3].** Фракция с ≥1 министром или замминистром на дату (`data/person_to_position_24_25.json`; должности {sorted(MIN_IDS)} и {sorted(DEP_IDS)}).
+- **Правительство [У, 27.3].** Фракция с ≥1 министром или замминистром на дату (`raw/person_to_position_24_25.json`; должности {sorted(MIN_IDS)} и {sorted(DEP_IDS)}).
   - Человек → фракция по `faction_membership` на дату. Если он не депутат (норвежский закон), берётся его ближайшее членство в том же созыве [А]. Из-за этого министры, сложившие мандат, относятся к фракции до раскола (например, Дерех Эрец).
   - Переходные окна от начала созыва до формирования правительства ({', '.join(f'{a.date()}–{b.date()}' for a, b in TRANS)}; дата — первая запись должностей правительства 36/37) исключены из доли «на стороне правительства» и из слоя правительства [А].
   - Известные расхождения с политической реальностью: РААМ в K24 без министров — «не в правительстве»; Ноам и ЯХадут Тора с 2026-01 держатся только замминистром.

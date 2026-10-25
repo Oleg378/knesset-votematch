@@ -10,12 +10,12 @@ Writes to export/ (three files loaded in order, see export/WEB_CONTRACT.md «Loa
   stats.json             the numbers the documents quote (statements, lists by status, bills, former MKs, directions, file sizes
                             in KB) — make check I9 compares the documents with it.
 Read, not written: quiz_texts.json — the user-facing texts, edited by hand (pipeline/texts.py, export/WEB_CONTRACT.md §7); the
-explanation lines and notes in golden.json are rendered from its templates.
+explanation lines and notes in golden.json are structures (template key + parameters), rendered by the web and the CLI from its templates.
 When the formula or the structure changes, the schema and the golden cases are regenerated and the contract (export/WEB_CONTRACT.md)
 and the web tests are updated in the same step — the files the live site reads never change silently.
 
 Nothing is computed here that the quiz scripts do not already compute: the positions come from pipeline/positions.py
-(jef/positions/), the statements and their English text from jef/quiz/statements.csv, the labels as in quiz_report.py.
+(data/positions/), the statements and their English text from data/quiz/statements.csv, the labels as in quiz_report.py.
 
 Usage: python3 pipeline/export.py        (or: make data)
 """
@@ -36,30 +36,30 @@ def num(x):
 
 def source_commit():
     """HEAD, with «+dirty» if the inputs differ from it (external audit 2026-10-18, minor 4): uncommitted changes in the code
-    (pipeline/), the data (jef/ except the generated jef/positions/) or manual/ mean the export does not come from that commit."""
+    (pipeline/), the data (data/ except the generated data/positions/) or manual/ mean the export does not come from that commit."""
     git = lambda *a: subprocess.run(["git", *a], cwd=ROOT, capture_output=True, text=True).stdout
-    dirty = [l[3:] for l in git("status", "--porcelain").splitlines() if l[3:].startswith(("pipeline/", "jef/", "manual/")) and not l[3:].startswith("jef/positions/")]
+    dirty = [l[3:] for l in git("status", "--porcelain").splitlines() if l[3:].startswith(("pipeline/", "data/", "manual/")) and not l[3:].startswith("data/positions/")]
     if dirty: print(f"warning: export built from a working tree with uncommitted inputs: {dirty[:5]}", file=sys.stderr)
     return git("rev-parse", "--short", "HEAD").strip() + ("+dirty" if dirty else "")
 
 def fetched():
-    """The day the Knesset bill tables were last downloaded (pipeline/fetch_bills.py writes data/bills/bill.json): the date the
+    """The day the Knesset bill tables were last downloaded (pipeline/fetch/fetch_bills.py writes raw/bills/bill.json): the date the
     site shows as the data's date (customer 2026-10-24), not the day of this export."""
-    return datetime.date.fromtimestamp(os.path.getmtime(os.path.join(ROOT, "data/bills/bill.json"))).isoformat()
+    return datetime.date.fromtimestamp(os.path.getmtime(os.path.join(ROOT, "raw/bills/bill.json"))).isoformat()
 
 def build_data(ctx):
     st, pos, cov = ctx["st"], ctx["pos"], ctx["cov"]
     quiz_d = list(dict.fromkeys(r["d"] for r in st))
-    plan = {**json.load(open(os.path.join(ROOT, "jef/directions/split/plan.json")))["new"],
+    plan = {**json.load(open(os.path.join(ROOT, "data/directions/split/plan.json")))["new"],
             **{k: v for p in qr.L.later_plans() for k, v in p["new"].items()}}   # all later split stages (labels.LATER)
-    final = {d["key"]: d for d in json.load(open(os.path.join(ROOT, "jef/directions/merge3/directions_final.json")))}
+    final = qr.L.directions()
     def ddesc(d):
         x = plan.get(d) or final[d]
         return {"name_en": x["name_en"], "plus_en": x["plus_en"], "minus_en": x["minus_en"]}
     nv = ctx["nv"]
     meta = qf.load_meta()
     lists = []
-    for L, c in cov.items():   # order of jef/positions/list_coverage.csv: the tie order of the ranking
+    for L, c in cov.items():   # order of data/positions/list_coverage.csv: the tie order of the ranking
         P = {}
         for d in quiz_d:
             x = pos.get(L, {}).get(d)
@@ -80,7 +80,7 @@ def build_data(ctx):
         c = collections.Counter(mks[m]["party_en"] or l["name_en"].split(",")[0].strip() for m, x in mks.items() if x["list"] == l["id"])
         l["composition"] = [{"party_en": k, "ex_mks": n} for k, n in c.most_common()]
     by_direction = {d: [[b, s, role] for b, s, role in ctx["by_d"].get(d, [])] for d in quiz_d}
-    # [У] 2026-10-19: how the list's former MKs voted on each bill of a quiz direction (jef/positions/list_topic_votes.csv):
+    # [У] 2026-10-19: how the list's former MKs voted on each bill of a quiz direction (data/positions/list_topic_votes.csv):
     # votes[list][direction] = [[bill, sign (+1 raises / −1 lowers the direction), camp («own» / «other»), for, against], ...];
     # «own» covers both V (private bills of the MK's camp) and, since 2026-10-22, G (the coalition's own government bills).
     votes = {}
@@ -104,7 +104,7 @@ def build_data(ctx):
                    "SELECT_MIN_LISTS": qs.MIN_LISTS, "SELECT_MIN_MKS": qs.MIN_MKS, "SELECT_MIN_SPREAD": qs.MIN_SD, "SELECT_MIN_NAMES": qs.MIN_NAMES},
         "flow": dict(qf.FLOW),
         "core": qf.core(),
-        # interest / area / sim_group [У] 2026-10-21: metadata for the ORDER of questions only (jef/quiz/statement_meta.csv)
+        # interest / area / sim_group [У] 2026-10-21: metadata for the ORDER of questions only (data/quiz/statement_meta.csv)
         "statements": [{"q": r["q"], "title_en": r["title_en"], "statement_en": r["statement_en"], "key": r["key_s"],
                         "d": r["d"], "w": r["w"], "interest": meta[r["q"]]["interest"], "area": meta[r["q"]]["area"],
                         "sim_group": meta[r["q"]]["sim_group"] or None} for r in st],
@@ -121,7 +121,7 @@ def build_data(ctx):
 def case(ctx, name, answers, mult=None, exclude=(), skip_lists=()):
     mult = mult or {}
     rows = qm.match(answers, mult=mult)
-    ranking = [{"id": r["letters"], "closeness": num(r["closeness"]), "coverage": r["coverage"], "note": r["note"],
+    ranking = [{"id": r["letters"], "closeness": num(r["closeness"]), "coverage": r["coverage"], "notes": r["notes"],
                 "ranked": r["ranked"]}
                for r in rows]
     out = {"name": name, "answers": answers, "mult": mult, "ranking": ranking,

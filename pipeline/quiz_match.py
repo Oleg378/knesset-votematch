@@ -2,7 +2,7 @@
 
 Answer scale: 2 полностью согласен, 1 скорее согласен, 0 нейтрально, -1 скорее не согласен, -2 полностью не согласен,
 "dk" не знаю (skipped). User value on a statement u = answer/2 × key (key «+» = +1, «−» = −1).
-List value p = the list's position P on the statement's direction (jef/positions/list_topic_positions.csv), shrunk toward 0:
+List value p = the list's position P on the statement's direction (data/positions/list_topic_positions.csv), shrunk toward 0:
 p = P × e/(e + K), e = sum_nA + 0.25·(sum_nV + sum_nO + sum_nG) (the evidence behind P, same weights as the position); K = 0: p = P.
 Weight w = 1, or 1/2 for each statement of an a/b pair on the same direction.
 Closeness = cosine over statements the user answered and the list has a position on:
@@ -10,10 +10,10 @@ Closeness = cosine over statements the user answered and the list has a position
 Output: lists sorted by closeness; evaluated lists (status ok / warning) with the number of ex-MKs behind the position;
 lists without ex-MKs are listed as «нет данных о работе в Кнессете».
 
-Usage: python3 pipeline/quiz_match.py jef/quiz/pilot_answers.csv   filled pilot sheet: № (statement q), Тема, Утверждение, Ответ
+Usage: python3 pipeline/quiz_match.py local/jef/quiz/pilot_answers_filled.csv   filled pilot sheet: № (statement q), Тема, Утверждение, Ответ
                                                                    (2 / 1 / 0 / -1 / -2 / нз; empty = не отвечено)
        python3 pipeline/quiz_match.py answers.json                  {"<№>": 2 | 1 | 0 | -1 | -2 | "dk"}
-       python3 pipeline/quiz_match.py --calibrate         choose K on synthetic users (jef/quiz/match_calibration.txt)
+       python3 pipeline/quiz_match.py --calibrate         choose K on synthetic users (writes local/research/match_calibration.txt; decided K = 0)
 """
 import csv, json, os, random, re, sys, collections
 import numpy as np
@@ -21,8 +21,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import texts as T
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-Q = os.path.join(ROOT, "jef/quiz")
-POS = os.path.join(ROOT, "jef/positions")
+Q = os.path.join(ROOT, "data/quiz")
+POS = os.path.join(ROOT, "data/positions")
 MIN_COVERAGE = 0.5   # [А]
 MIN_EX_MKS = 2       # [У] 2026-10-18 (Р3, external audit С3): a list resting on one former MK is shown, but not ranked
 MAX_TRADE, TRADE_TOP, TRADE_W = 5, 5, 2.0   # [У] 2026-10-16: trade-off questions (Wahl-O-Mat / StemWijzer convention: ×2)
@@ -61,25 +61,30 @@ def score(st, answers, lv, mult=None):
     cos = num / np.sqrt(uu * pp) if uu > 0 and pp > 0 else float("nan")
     return cos, (wc / wa if wa else 0.0)
 
-def few_mks_note(N, n):
-    """The note of a list with status warning (fewer than 3 former MKs in its top ten), by its number of former MKs."""
-    return N["oneMk"] if n == 1 else N["twoMks"] if n == 2 else N["fewInTopTen"]
+def few_mks_note(n):
+    """The note of a list with status warning (fewer than 3 former MKs in its top ten), by its number of former MKs: its key."""
+    return "oneMk" if n == 1 else "twoMks" if n == 2 else "fewInTopTen"
+
+def render_note(parts):
+    """The notes of a list as one string: each part is {key, ...params} over quiz_texts.json «notes», joined by notes.join.
+    The web renders the same parts with the same templates (web/src/strings.ts renderNote); golden.json holds the parts."""
+    N = T.load()["notes"]
+    return N["join"].join(T.fill(N[p["key"]], **{k: v for k, v in p.items() if k != "key"}) for p in parts)
 
 def match(answers, k=K, mult=None):
     st, pos, cov = load()
-    N = T.load()["notes"]   # user-facing notes: export/quiz_texts.json (export/WEB_CONTRACT.md §7), the same templates as the web
     rows = []
     for letters, c in cov.items():
         if c["status"] == "not_evaluated":
             rows.append({"letters": letters, "list": c["list_name"], "status": c["status"], "closeness": None, "coverage": 0,
-                         "ex_mks": 0, "note": N["noRecord"]}); continue
+                         "ex_mks": 0, "notes": [{"key": "noRecord"}]}); continue
         cos, cv = score(st, answers, list_vec(st, pos, letters, k), mult)
         rows.append({"letters": letters, "list": c["list_name"], "status": c["status"], "closeness": cos, "coverage": cv,
-                     "ex_mks": int(c["ex_mks"]), "note": few_mks_note(N, int(c["ex_mks"])) if c["status"] == "warning" else ""})
+                     "ex_mks": int(c["ex_mks"]), "notes": [{"key": few_mks_note(int(c["ex_mks"]))}] if c["status"] == "warning" else []})
     for r in rows:   # [А] a list whose positions cover less than half of the answered weight is not ranked with the others
         if r["closeness"] is not None and r["coverage"] < MIN_COVERAGE:
-            r["note"] = (r["note"] + N["join"] if r["note"] else "") + T.fill(N["lowCoverage"], pct=f"{r['coverage']:.0%}")
-    for r in rows: r["ranked"] = is_ranked(r)
+            r["notes"].append({"key": "lowCoverage", "pct": f"{r['coverage']:.0%}"})
+    for r in rows: r["ranked"] = is_ranked(r); r["note"] = render_note(r["notes"])   # «note»: the rendered text, for the terminal quiz and reports
     rows.sort(key=lambda r: (not r["ranked"], r["closeness"] is None, -(r["closeness"] if r["ranked"] else 0)))
     return rows
 
@@ -161,7 +166,8 @@ def calibrate():
         out.append((k, np.mean(rec), max(first.values()) / 500, first.most_common(3)))
     lines = ["K | персона в топ-3 | макс. доля первых мест при случайных ответах | лидеры"]
     lines += [f"{k} | {r:.3f} | {m:.3f} | {f}" for k, r, m, f in out]
-    open(os.path.join(Q, "match_calibration.txt"), "w").write("\n".join(lines) + "\n")
+    os.makedirs(os.path.join(ROOT, "local/research"), exist_ok=True)
+    open(os.path.join(ROOT, "local/research/match_calibration.txt"), "w").write("\n".join(lines) + "\n")
     print("\n".join(lines))
 
 if __name__ == "__main__":

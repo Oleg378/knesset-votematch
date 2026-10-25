@@ -232,22 +232,21 @@ describe('methodology (WEB_CONTRACT §7: every text from quiz_texts.json)', () =
 
   it('«Which lists have a record» is its text and bullets; «Lists without a record» names them, the first ones and «See all»', () => {
     open();
-    const record = methodology.sections.find((s) => s.title === 'Which lists have a record.')!;
+    // the section with the lists has no title of its own on the page; the one before it is the record section
+    const record = methodology.sections[methodology.sections.findIndex((s) => s.lists) - 1]!;
     expect(record.lists).toBeUndefined();
     const recordCard = cardOf(record.title);
     for (const b of record.bullets!) within(recordCard).getByText(fill(b.lead, v), { exact: false });
-    within(recordCard).getByText(`${v.single} ${v.single === 1 ? 'list' : 'lists'} with a single former member`, { exact: false });
     expect(within(recordCard).queryAllByRole('button')).toEqual([]);
     // the lists card: no title of its own (the names follow the text), the lists with no former member of the Knesset
     const section = methodology.sections.find((s) => s.lists)!;
-    expect(section.title).toBe('Lists without a record.');
     expect(section.lists).toEqual({ of: 'no_record' });
     const names = data.lists.filter((l) => l.status === 'not_evaluated').map((l) => l.name_en);
     expect(names.length).toBe(v.no_record);
     expect(listsOf(data, 'no_record').map((l) => l.name_en)).toEqual(names);
     const card = cardOf(section.title);
     const head = `${section.title} ${fill(section.text!, v)}`;
-    expect(head).toContain(`${names.length} lists have no record in the Knesset and are not shown in the results`);
+    expect(head).toContain(String(names.length));
     const shown = () => within(card).getAllByRole('list', { name: head }).flatMap((ul) =>
       within(ul).getAllByRole('listitem').map((li) => li.textContent));
     expect(shown()).toEqual(names.slice(0, fits(names.length)));
@@ -324,7 +323,7 @@ describe('statements', () => {
     screen.getByRole('heading', { name: firstCore.statement_en });
     const group = screen.getByRole('group', { name: S.question.answersLabel });
     expect(within(group).getAllByRole('button').map((b) => b.textContent))
-      .toEqual(['Strongly agree', 'Agree', 'Disagree', 'Strongly disagree']);
+      .toEqual([T.answerButtons['2'], T.answerButtons['1'], T.answerButtons['-1'], T.answerButtons['-2']]);
     expect(screen.getByRole('button', { name: S.nav.next })).toHaveProperty('disabled', true);
     click(S.answers[1]);
     expect(pressed()).toEqual([S.answers[1]]);

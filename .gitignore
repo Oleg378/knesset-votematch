@@ -1,5 +1,5 @@
 # downloaded and derived data: reproducible via pipeline/
-data/
+raw/
 *.duckdb
 *.duckdb.wal
 __pycache__/
@@ -8,7 +8,7 @@ __pycache__/
 
 # secrets
 .env
-jef/quiz/sessions/
+data/quiz/sessions/
 
 # web
 web/node_modules/
@@ -18,3 +18,13 @@ web/dist-ssr/
 # research, drafts, logs, old approaches: kept locally, not in git
 local/
 *.tsbuildinfo
+
+# outputs of pipeline/positions.py that nothing reads further (rebuilt by make data)
+data/positions/mk_topic_positions.csv
+data/positions/against_camp_examples.csv
+data/positions/government_layer_mk.csv
+data/positions/candidates_notes.csv
+data/positions/run_log.txt
+
+# agent worktrees
+.claude/worktrees/

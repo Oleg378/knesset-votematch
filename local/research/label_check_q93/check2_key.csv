@@ -1,9 +1,0 @@
-q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason,kind,cid
-93,144,הצעת חוק איסור לכידת בעלי חיים באמצעות מלכודות,2203526 2206768,+,secondary,2203526,F1-24,not_about,,"Trap ban is animal cruelty, not environmental regulation",candidate,C1
-93,144,הצעת חוק צער בעלי חיים (הגנה על בעלי חיים) (תיקון - איחוד סמכויות),2156941 2196013 2198262,+,secondary,2156941,F2-44,not_about,,Animal cruelty powers consolidation; not environmental regulation,candidate,C2
-93,144,הצעת חוק חיזוק הפיקוח על עבירות צער בעלי חיים (תיקוני חקיקה),2218597,+,secondary,2218597,F1-45,not_about,,"Animal cruelty enforcement, not environmental regulation",candidate,C3
-93,144,"הצעת חוק איסור לכידת בעלי חיים באמצעות מלכודות, התשפ""ב–2022",2166665,+,secondary,2166665,F1-9,not_about,,"Glue trap ban is animal cruelty, not environmental regulation",candidate,C4
-93,144,הצעת חוק קרן לאזרחי ישראל (תיקון - ועדה אתית מייעצת),2197622 2189697,+,secondary,2197622,F1-41,not_about,,Ethics committee for investment fund; not environmental,candidate,C5
-93,144,הצעת חוק הגנת הסביבה (יחידה סביבתית ברשויות ציבוריות),2157130 2161146,+,main,2157130,F1-30,about,+,Mandatory environmental units in public authorities,control,C6
-93,144,הצעת חוק להסדרת הטיפול באריזות (תיקון - החלת החוק על מכלי משקה גדולים),2156463 2196173,+,secondary,2156463,F2-11,about,+,Extends bottle deposit law to large containers,control,C7
-93,144,הצעת חוק איסור לכידת בעלי חיים באמצעות מלכודות אסורות,2197087,+,secondary,2197087,F2-46,not_about,,"Trap ban is animal cruelty, not environmental regulation",candidate,C8

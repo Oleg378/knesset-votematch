@@ -14,16 +14,16 @@ year** (a re-submission is one bill). Decisions live in `docs/SHARED_UNDERSTANDI
 | Step | Skill | Leaves behind |
 |---|---|---|
 | Labels of a theme wrong / bills newly in a quiz theme | `label-check` | `overrides.json` remove / flip / add, `label_check_coverage.csv` |
-| A theme whose bills are about unrelated things (basket) | `split-themes` | `jef/directions/split/planN.json`, `labels/splitN_choice.jsonl`, `labels.LATER` |
+| A theme whose bills are about unrelated things (basket) | `split-themes` | `data/directions/split/planN.json`, `labels/splitN_choice.jsonl`, `labels.LATER` |
 | One theme lies mostly inside another (≥ 50 % of the smaller) | `nested-themes` | `labels/nested_removals.json` |
-| A theme passes the selection and has no statement | `new-statements` | rows in `jef/quiz/statements.csv` |
+| A theme passes the selection and has no statement | `new-statements` | rows in `data/quiz/statements.csv` |
 | Agent tasks of any step | `subagents` | prompt files, blind inputs, results |
 | Rebuild, check, publish | `release` | `export/`, commits, front note |
 
 ## Routing rule — every theme ends somewhere
 
 After **any** change of labels or themes, every theme that passes the selection (`pipeline/quiz_select.py`) must either carry a
-statement or have a decision in `jef/directions/registry.csv` (duplicate / split / basket / technical / no_statement / dropped_dup;
+statement or have a decision in `data/directions/registry.csv` (duplicate / split / basket / technical / no_statement / dropped_dup;
 `pending` while in a procedure). Typical misses of the 2026-10-20 cycle — check them explicitly:
 - a split agent marks a basket «keep» → the theme goes to `new-statements`, it does not stop there;
 - transfers of a split make *other* themes pass the selection → they go to `new-statements` too;
@@ -35,9 +35,9 @@ statement or have a decision in `jef/directions/registry.csv` (duplicate / split
 
 - `pipeline/labels.py` applies, in order: Jev labels → split stages 1…N (`LATER`) → `overrides.json` labels → remove → flip → add →
   `nested_removals.json`. A new stage is appended to `LATER`; never insert in the middle.
-- Positions on disk (`jef/positions/`) change when labels change. A rule that needs the state *before* a change must read a frozen
+- Positions on disk (`data/positions/`) change when labels change. A rule that needs the state *before* a change must read a frozen
   copy (example: `local/research/theme_overlap/passing_before.json` for rule (а) of `nested-themes`).
-- Applied steps are not re-run: their files in `jef/` are the source of truth. Scripts write to `jef/` only with an explicit flag.
+- Applied steps are not re-run: their files in `data/` are the source of truth. Scripts write to `data/` only with an explicit flag.
 
 ## Exit checks of every step
 

@@ -1,4 +1,0 @@
-q,d,name,bills,sign,role,rep,id,verdict,sign_j,reason,kind,cid,v2,s2,r2,tid
-37,241,הצעת חוק מעונות לסטודנטים,2158038,+,main,2158038,F1-26,not_about,,"Student dormitory allocation, not construction volume",candidate,C3,borderline,+,"Student dormitories provision; may require building dorms, but mainly student housing welfare, not general construction",T1
-37,241,הצעת חוק התכנון והבנייה (תיקון - ניוד זכויות),2230229,+,secondary,2230229,F1-32,not_about,,"Transfer of rights for safe rooms, protection focus",candidate,C13,borderline,+,"Allows transferring building rights tied to safe rooms; adds buildable area, but aim is civil protection",T2
-37,241,הצעת חוק בעלות אחודה (תיקוני חקיקה),2232387,+,secondary,2232387,F2-6,not_about,,"Rental market ownership structure, not how much building allowed",candidate,C21,borderline,+,"Unified-ownership long-term rental buildings; enables build-to-rent tenure model, volume effect indirect",T3

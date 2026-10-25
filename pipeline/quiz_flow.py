@@ -11,7 +11,7 @@ After that the user may answer more (MORE: clarifying questions continue until t
 Matching itself is unchanged (quiz_match.match): closeness is computed over whatever was answered.
 
 All parameters are in FLOW (now 8 + 7 + up to 5 trade-offs). The export carries FLOW, so the web reads the same numbers.
-Statement metadata (jef/quiz/statement_meta.csv, one row per statement; new statements get theirs in the new-statements procedure):
+Statement metadata (data/quiz/statement_meta.csv, one row per statement; new statements get theirs in the new-statements procedure):
   interest   1–5, how much an ordinary voter cares (mean of two blind agent ratings; used only for the ORDER of questions);
   area       one of 13 broad areas (two blind agent runs + tie-break);
   sim_group  statements that feel like one question to a voter (pairs on which two blind groupings agree); empty = none.

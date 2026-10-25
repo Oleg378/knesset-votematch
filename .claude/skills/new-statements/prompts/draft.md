@@ -3,7 +3,7 @@
 A voter quiz for the 2026 Knesset election: the voter answers statements (strongly agree … strongly disagree, don't know); each statement is about one theme (a quantity a bill increases «+» or decreases «−»); agreeing means moving the theme to «+» or to «−» — that is the statement's key.
 
 Read only these files (no other files, no web, no scripts):
-- <ROOT>/jef/quiz/GUIDELINES.md — the rules for statements (follow them strictly).
+- <ROOT>/.claude/skills/new-statements/rules.md — the rules for statements (follow them strictly).
 - <ROOT>/local/research/new_statements_round2/statements.md — the current statements (style reference; do not duplicate them).
 - <ROOT>/local/research/new_statements_round2/draft_items_1.md — themes to draft: id, name, «+»/«−», list positions, the bills with the most weight (sign, weight, Hebrew title). A theme marked MOVE takes over an existing statement: rewrite that statement to cover the whole theme.
 
