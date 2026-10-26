@@ -44,8 +44,9 @@ React + Vite + TypeScript, static SPA (no server, no Next.js). Talk to the custo
 - If the mockup conflicts with SPEC or the data (e.g. «60 statements» vs 65 in the data): follow the mockup where it is
   only presentation, and **ask the customer right away** about the rest. Do not silently keep the old behaviour.
 - After a screen: screenshot at 402 px wide and compare with the frame.
-- Screens without a mockup (Results, List details, Methodology): Figma tokens and components; layout is the agent's
-  proposal, recorded in `DECISIONS.md`.
+- Results, List details and Methodology had no mockup: Figma tokens and components; layout is the agent's proposal,
+  recorded in `DECISIONS.md`. Since 2026-10-26 the Figma file also holds frames «под сайт» for them, drawn from the
+  site as it was that day (DECISIONS.md E-Figma); they record the site, they are not a new mockup.
 - `src/styles/tokens.css` is the only place for colors, type, spacing, radii. Mobile first, 360–430 px, column ≤ 480 px.
 
 ## Design spec: Figma
