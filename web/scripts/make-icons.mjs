@@ -4,8 +4,10 @@
 //
 //   favicon.svg          the tab icon: two half-rings, light outside, the brand inside, on a white tile (25 % corners)
 //   favicon.ico          the same at 32 and 16 px for browsers that take no SVG
-//   apple-touch-icon.png 180 px, the full hero arc on white, for «Add to Home Screen» on iPhone
-//   icon-192.png, icon-512.png   the same, for the web app manifest (Android home screen, install prompt)
+//   apple-touch-icon.png 180 px, the tab icon's two half-rings on a white square (iOS rounds the corners itself), for
+//                        «Add to Home Screen» on iPhone
+//   icon-192.png, icon-512.png   the same, for the web app manifest (Android home screen, install prompt). Search engines
+//                        show these too (Google took the hero arc from here while the tab had the rings — 2026-11-02)
 //   og-image.png         1200×630, the link preview in messengers and social networks: name, subtitle, the hero arc
 import { execFileSync } from 'node:child_process';
 import { existsSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
@@ -26,11 +28,11 @@ const CHROME = ['/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', 
 // ---- favicon.svg: two half-rings on a white tile with the corners of the tab icons around it (25 %): the outer one light
 // (the brand at 55 %), the inner one the brand (customer 2026-10-25, picked from mockups). Their ends on a whole pixel
 // at 16 px (y 40 of 64); the light ring 1/16 px longer (y 40.25): a light shape next to a dark one looks shorter.
-function faviconSvg() {
+function faviconSvg({ square = false } = {}) {
   const ring = (R, r, end, opacity) =>
     `<path d="M${32 - R} ${end} L${32 - R} 40 A${R} ${R} 0 0 1 ${32 + R} 40 L${32 + R} ${end} L${32 + r} ${end} L${32 + r} 40 ` +
     `A${r} ${r} 0 0 0 ${32 - r} 40 L${32 - r} ${end} Z" fill="${BRAND}"${opacity < 1 ? ` fill-opacity="${opacity}"` : ''}/>`;
-  const tile = '<rect width="64" height="64" rx="16" fill="#fff"/>';
+  const tile = `<rect width="64" height="64"${square ? '' : ' rx="16"'} fill="#fff"/>`;
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">${tile}${ring(25, 17, 40.25, 0.55)}${ring(13, 6, 40, 1)}</svg>\n`;
 }
 
@@ -47,9 +49,9 @@ body { display: flex; align-items: center; justify-content: center; -webkit-font
 svg { display: block; }
 ${css}</style></head><body>${body}</body></html>`;
 
-// The hero picture at the icon's size, moved up so the arc (rows at y 72…125 of 150) sits in the middle of the icon.
-const iconPage = (size) => page(size, size,
-  `<div style="transform:translateY(${-size * 0.12}px)">${hero.replace(/width="150" height="150"/, `width="${size}" height="${size}"`)}</div>`);
+// The tab icon at the icon's size on a plain white square: the platforms round the corners themselves, and a transparent
+// corner would come out black on an iPhone home screen.
+const iconPage = (size) => page(size, size, faviconSvg({ square: true }).replace('<svg ', `<svg width="${size}" height="${size}" `));
 
 const ogPage = () => page(1200, 630, `
   <div class="card">
