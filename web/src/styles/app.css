@@ -893,6 +893,12 @@ button.card:active {
   background: var(--color-accent-soft);
 }
 
+/* On a white card the white line is invisible: the closeness line of the closest lists takes the tint too (customer
+   2026-11-02: «полоса осталась белой — сделать голубой»); the dot stays brand blue. */
+.scale-top .scale-line {
+  background: var(--color-accent-soft);
+}
+
 /* «See all» (44 high, the tap size) 4 under the last band and 4 above the panel's bottom: its text 16 from each
    (customer 2026-10-23: «чуть меньше отступ в see all»; it was 8 and 8) */
 .scale-top {

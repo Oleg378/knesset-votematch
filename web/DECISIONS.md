@@ -278,7 +278,7 @@ Figma: «Results — под сайт» (145:1367) заменён на утвер
 | # | Решение | Как в коде | Было |
 |---|---|---|---|
 | I1 | Пять ближайших списков — белые карточки с линией Brand / Line 20 %, без тени; внутри 10 по бокам; колонка ранга 24 (как кружок) и 6 до названия, чтобы названия остались в две строки | `.scale-top .list-row`: `background: var(--color-surface)`, `border: 1px var(--color-border)`, `padding-inline: var(--row-pad-x)` (10), `grid-template-columns: var(--rank-badge) 1fr auto`, `column-gap: var(--space-1-5)` (6) | полупрозрачная белая полоса 45 %, 6 по бокам, колонка 28 и 8 |
-| I2 | Кружок ранга — Brand / Tint 10 % (на белой карточке белый кружок терялся) | `.scale-top .list-row-rank { background: var(--color-accent-soft) }` | белый |
+| I2 | Кружок ранга и полоса близости — Brand / Tint 10 % (на белой карточке белые терялись); точка остаётся синей | `.scale-top .list-row-rank`, `.scale-top .scale-line { background: var(--color-accent-soft) }` | белые |
 | I3 | Кнопка-стрелка в строке — сплошная синяя с белой стрелкой, одна на всех строках, включая «See all» | `.list-row-go { background: var(--color-accent) }`, `::after` — `var(--color-accent-text)` | голубой кружок, синяя стрелка |
 | I4 | Подсказка над «Based on…» — текст «Tap a list for details» без кнопки-стрелки внутри (карточки сами читаются как кнопки); в текстах один ключ `results.hint` вместо `hintBefore` / `hintAfter` (схема и WEB_CONTRACT §7 обновлены) | `ResultsScreen.tsx`, `strings.ts`, `texts.ts`, `export/quiz_texts.json` | «Tap › for details» с кружком между словами |
 | I5 | «Change answers» внизу результатов — основная синяя кнопка, как «Next» и «Start the quiz» | `<Button variant="primary">` | вторичная, голубая |
