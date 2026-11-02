@@ -73,12 +73,11 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
         {/* «Your result» is shown in the header (Header title); here it stays for screen readers and the focus on a new screen */}
         <h1 className="visually-hidden">{S.results.heading}</h1>
         {/* The hint first, then a line, nearer the summary under it (customer 2026-10-25: «поменяй местами Tap и Based»);
-            the hint italic and lighter (customer 2026-10-23) */}
+            the hint italic and lighter (customer 2026-10-23); plain text without the arrow button since the rows are
+            white cards that read as tappable (customer 2026-11-02, DECISIONS.md I1) */}
         {top.length > 0 && (
           <>
-            <p className="lead hint">
-              {S.results.hint[0]} <span className="list-row-go" aria-hidden="true" /> {S.results.hint[1]}
-            </p>
+            <p className="lead hint">{S.results.hint}</p>
             <div className="rule" role="presentation" />
           </>
         )}
@@ -155,7 +154,7 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
           over is in the header and the menu, Methodology in the menu; «Answer more questions» is gone; «Share this quiz»
           removed (customer 2026-10-25). */}
       <div className="sticky-actions push-down">
-        <Button block onClick={() => dispatch({ type: 'CHANGE_ANSWERS' })}>
+        <Button variant="primary" block onClick={() => dispatch({ type: 'CHANGE_ANSWERS' })}>
           {S.results.changeAnswers}
         </Button>
       </div>

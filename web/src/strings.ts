@@ -158,8 +158,8 @@ export const S = {
     closest: (n: number) => (n === 1 ? T.results.closestOne : fill(T.results.closestMany, { n })),
     basedOn: (n: number, total: number, withTrade: boolean) =>
       fill(T.results.basedOn, { n, total, trade: withTrade ? T.results.basedOnTrade : '' }),
-    /** Under «Based on…», the row's arrow button between the words: «Tap › for details». */
-    hint: [T.results.hintBefore, T.results.hintAfter],
+    /** Above «Based on…»: «Tap a list for details» — plain text, the rows themselves look tappable (customer 2026-11-02). */
+    hint: T.results.hint,
     seeAll: T.results.seeAll,
     seeLess: T.results.seeLess,
     notRanked: T.results.notRanked,

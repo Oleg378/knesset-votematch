@@ -559,12 +559,7 @@
      "minLength": 1,
      "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
     },
-    "hintBefore": {
-     "type": "string",
-     "minLength": 1,
-     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
-    },
-    "hintAfter": {
+    "hint": {
      "type": "string",
      "minLength": 1,
      "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
@@ -618,8 +613,7 @@
     "closestMany",
     "basedOn",
     "basedOnTrade",
-    "hintBefore",
-    "hintAfter",
+    "hint",
     "seeAll",
     "seeLess",
     "notRanked",

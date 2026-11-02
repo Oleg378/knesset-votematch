@@ -189,7 +189,7 @@ Statement texts and titles (`statement_en`, `title_en`) are not in it: they are 
 | `nav` | `back`, `next` | the bottom buttons of the question screens |
 | `question` | `progress`, `progressLabel`, `or`, `skip`, `noAnswers`, `answersLabel` | the question screen |
 | `trade` | `counter`, `lead`, `title`, `explain`, `yourAnswer`, `labelA`, `labelB`, `equalTitle`, `equalSub` | the trade-off question |
-| `results` | `heading`, `scaleFar`, `scaleClose`, `closestOne`, `closestMany`, `basedOn`, `basedOnTrade`, `hintBefore`, `hintAfter`, `seeAll`, `seeLess`, `notRanked`, `notComputable`, `noMore`, `changeAnswers`, `rank`, `closenessLabel` | Results |
+| `results` | `heading`, `scaleFar`, `scaleClose`, `closestOne`, `closestMany`, `basedOn`, `basedOnTrade`, `hint`, `seeAll`, `seeLess`, `notRanked`, `notComputable`, `noMore`, `changeAnswers`, `rank`, `closenessLabel` | Results |
 | `share` | `title`, `text`, `button`, `copied` | «Share this quiz» on Results: the share sheet's title, the sentence sent with the site's address, the button, the «copied» note |
 | `details` | `back`, `closeness`, `fits`, `misfits`, `showAll`, `showLess`, `none`, `openBills` | List details |
 | `bills` | `back`, `yourWay`, `otherWay`, `none`, `meta`, `roleMain`, `roleSecondary`, `raises`, `lowers`, `sponsoredBy`, `sponsor`, `link`, `yourWayMark`, `otherWayMark`, `showMore` | «Bills of one statement» |

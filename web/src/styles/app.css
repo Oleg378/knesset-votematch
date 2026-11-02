@@ -878,8 +878,19 @@ button.card:active {
   margin-inline-end: calc(var(--row-go) + var(--space-1));
 }
 
+/* The closest lists as white cards with a thin line (customer 2026-11-02, Figma «Results — под сайт», DECISIONS.md I1): the
+   band no longer translucent, 10 inside instead of 6, the rank circle tinted so it stands on white, the column of ranks
+   as wide as the circle (24) with 6 to the name — so the names still take two lines. */
 .scale-top .list-row {
-  background: var(--color-row-band);
+  grid-template-columns: var(--rank-badge) 1fr auto;
+  column-gap: var(--space-1-5);
+  padding-inline: var(--row-pad-x);
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+}
+
+.scale-top .list-row-rank {
+  background: var(--color-accent-soft);
 }
 
 /* «See all» (44 high, the tap size) 4 under the last band and 4 above the panel's bottom: its text 16 from each
@@ -930,7 +941,7 @@ button.list-row {
   height: var(--row-go);
   margin-inline-start: var(--space-1);
   border-radius: 50%;
-  background: var(--color-accent-soft);
+  background: var(--color-accent); /* solid since 2026-11-02 (was the 10 % tint): the one blue mark on a white card */
 }
 
 .list-row-go::after {
@@ -942,7 +953,7 @@ button.list-row {
   /* half a px down, so it is in the circle's middle (the 11.25 tall box rounds up), and half a px right: the «›» has its
      weight on the left (customer 2026-10-24: «почему ощущение, что стрелка вбок не по центру»; 1 and 1 were too much) */
   translate: calc(var(--arrow-nudge) / 2) calc(var(--arrow-nudge) / 2);
-  background: var(--color-accent);
+  background: var(--color-accent-text);
   -webkit-mask: var(--chevron-right) center / contain no-repeat;
   mask: var(--chevron-right) center / contain no-repeat;
 }
@@ -983,7 +994,6 @@ div.list-row .list-row-value {
   align-items: center;
   justify-content: center;
   border-radius: var(--radius-sm);
-  background: var(--color-surface);
   color: var(--color-accent);
 }
 
