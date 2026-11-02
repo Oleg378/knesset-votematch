@@ -6,7 +6,9 @@ React + Vite + TypeScript, static SPA (no server, no Next.js). Talk to the custo
 1. `../CLAUDE.md` — project, principles P0/P1, data contract.
 2. `SPEC.md` — screens and behaviour; `DESIGN_SPEC.md` — the Figma values (colors, type, spacing, browser bars).
 3. `DECISIONS.md` — what is approved [У], proposed [А], open [О]. Do not redo an [О] item on your own.
-4. Figma: https://www.figma.com/design/TTgHWki3flpBiQ6U9XQF7I/CSS (connector available).
+4. Figma: https://www.figma.com/design/TTgHWki3flpBiQ6U9XQF7I/CSS (connector available). Since 2026-11-02 this is the
+   only design file: the original «QUIZZ» (LtWW9dYY0cbtwQlhT6RCnL) was a stale copy and is deleted; this file is renamed to QUIZZ,
+   the key and the links stay (DECISIONS.md E-Figma).
 
 ## Your area
 - **Edit only `web/` and `.github/`.** `pipeline/`, `export/`, `data/`, `docs/`, `manual/`, `research/` belong to the data
