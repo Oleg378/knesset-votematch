@@ -762,7 +762,8 @@ button.card:active {
 /* How it works (MethodologyScreen.tsx): every section a band as a topic of List details (customer 2026-10-25: «пункт —
    это Where a list's position comes from, он раскрывается, а пункты внутри него»; they were cards, the panel of the
    question card); opened, as an opened topic there: the text grey and justified, the points as facts, label over text
-   (.lines, .quote, .fact). The statement rows inside the statements band are white bands on it. */
+   (.lines, .quote, .fact). Since 2026-11-02 the bands are white cards with the border, as the closest lists on Results
+   (see .method-list .accordion, with the List details bands); the statement rows inside the statements band the same. */
 /* A point of a section: its lead, the small label, over its text — the leads are too long for the label column of List
    details; the names of a list one under another. A line over every point, as between the bills of List details
    (customer 2026-10-25: «можно ещё линии добавить»): 12 from the line to the point, the points 12 apart */
@@ -796,10 +797,6 @@ button.card:active {
 .lines.method-body,
 .method-list .accordion-body > .lines:first-child {
   margin-bottom: 0;
-}
-
-.method-list .method-rows .accordion {
-  background: var(--color-bg);
 }
 
 /* «Made by …» centred as «Data: …» under it (customer 2026-10-25: «исправь расхождения»; it was at the left) */
@@ -1078,13 +1075,38 @@ div.list-row .list-row-value {
 
 /* List details: the topic rows with the corners of a Results band (16) and a little taller, 52 (customer 2026-10-24:
    «с тем же скруглением и со схожим размером блоков, что на странице с результатами», option a of 3; it was 24 and 44).
-   How it works keeps its own corners and colour (its bands are in a card); its titles are as these (below). */
+   How it works takes the corners and, since 2026-11-02, the white card with the border (below). */
 .details-group .accordion {
   border-radius: calc(var(--radius-scale) - var(--space-2));
   /* the colour of a list's band on Results, #F1F4FB: the same layers — a band over the panel's tint over the page
      (customer 2026-10-24: «внутренние плашки на результатах и плашки партий одинаковые по цвету»; it was surface/subtle) */
   background: linear-gradient(var(--color-row-band), var(--color-row-band)),
     linear-gradient(var(--color-accent-soft), var(--color-accent-soft)), var(--color-bg);
+}
+
+/* How it works: the bands as the cards of the closest lists on Results (customer 2026-11-02, option v3 of 4): white with
+   the Brand/Line border, the chevron button solid blue with a white chevron, as the arrow button of a card. The statement
+   rows inside the statements band are the same cards, but their button keeps the tint circle with the blue chevron — a
+   lighter level inside (they were white bands on the tinted band). List details keeps the tinted bands (above). */
+.method-list .accordion {
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+}
+
+.method-list .accordion-head::before {
+  background: var(--color-accent);
+}
+
+.method-list .accordion-head::after {
+  background: var(--color-accent-text);
+}
+
+.method-list .method-rows .accordion-head::before {
+  background: var(--color-accent-soft);
+}
+
+.method-list .method-rows .accordion-head::after {
+  background: var(--color-accent);
 }
 
 /* the titles as the names of the closest lists on Results: Label/Strong, SemiBold, black (customer 2026-10-24: «как на

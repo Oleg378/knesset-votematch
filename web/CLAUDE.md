@@ -48,7 +48,8 @@ React + Vite + TypeScript, static SPA (no server, no Next.js). Talk to the custo
 - After a screen: screenshot at 402 px wide and compare with the frame.
 - Results, List details and Methodology had no mockup: Figma tokens and components; layout is the agent's proposal,
   recorded in `DECISIONS.md`. Since 2026-10-26 the Figma file also holds frames «под сайт» for them, drawn from the
-  site as it was that day (DECISIONS.md E-Figma); they record the site, they are not a new mockup.
+  site as it was that day (DECISIONS.md E-Figma); they record the site, they are not a new mockup. How it works with the
+  tinted bands (before the white cards of 2026-11-02, DECISIONS.md I6): in git at the tag `how-it-works-bands`; roll back on request.
 - `src/styles/tokens.css` is the only place for colors, type, spacing, radii. Mobile first, 360–430 px, column ≤ 480 px.
 
 ## Design spec: Figma
