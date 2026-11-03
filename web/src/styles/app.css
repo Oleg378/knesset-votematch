@@ -1075,24 +1075,25 @@ div.list-row .list-row-value {
 
 /* List details: the topic rows with the corners of a Results band (16) and a little taller, 52 (customer 2026-10-24:
    «с тем же скруглением и со схожим размером блоков, что на странице с результатами», option a of 3; it was 24 and 44).
-   How it works takes the corners and, since 2026-11-02, the white card with the border (below). */
+   How it works takes the corners too (its own rule). */
 .details-group .accordion {
   border-radius: calc(var(--radius-scale) - var(--space-2));
-  /* the colour of a list's band on Results, #F1F4FB: the same layers — a band over the panel's tint over the page
-     (customer 2026-10-24: «внутренние плашки на результатах и плашки партий одинаковые по цвету»; it was surface/subtle) */
-  background: linear-gradient(var(--color-row-band), var(--color-row-band)),
-    linear-gradient(var(--color-accent-soft), var(--color-accent-soft)), var(--color-bg);
 }
 
-/* How it works: the bands as the cards of the closest lists on Results (customer 2026-11-02, option v3 of 4): white with
-   the Brand/Line border, the chevron button solid blue with a white chevron, as the arrow button of a card. The statement
-   rows inside the statements band are the same cards, but their button keeps the tint circle with the blue chevron — a
-   lighter level inside (they were white bands on the tinted band). List details keeps the tinted bands (above). */
+/* List details and How it works: the bands as the cards of the closest lists on Results — white with the Brand/Line
+   border (How it works: customer 2026-11-02, option v3 of 4; List details: customer 2026-11-03, option c of 3). They were
+   the tinted bands of a list on Results, #F1F4FB — a band over the panel's tint over the page (customer 2026-10-24:
+   «внутренние плашки на результатах и плашки партий одинаковые по цвету»). */
+.details-group .accordion,
 .method-list .accordion {
   background: var(--color-surface);
   border: var(--border-width) solid var(--color-border);
 }
 
+/* How it works: the chevron button of a section solid blue with a white chevron, as the arrow button of a card. The
+   statement rows inside the statements band keep the tint circle with the blue chevron — a lighter level inside (they
+   were white bands on the tinted band). The topics of List details keep the tint button too (customer 2026-11-03: option
+   c — the card with the tint button, not b with the blue one). */
 .method-list .accordion-head::before {
   background: var(--color-accent);
 }
