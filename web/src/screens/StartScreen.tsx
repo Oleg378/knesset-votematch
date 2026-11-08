@@ -29,10 +29,10 @@ export function StartScreen({ core, dispatch }: { core: QuizCore | null; dispatc
         <li className="chip">{S.start.chipBills(stats.bills)}</li>
         <li className="chip">{S.start.chipMembers(stats.mks)}</li>
         <li className="chip">{S.start.chipRealVotes}</li>
-        <li className="chip">{S.start.chipOfficial}</li>
+        <li className="chip">{S.start.chipEveryBill}</li>
         <li className="chip">{S.start.chipNonPartisan}</li>
         <li className="chip">{S.start.chipOpenMethod}</li>
-        <li className="chip">{S.start.chipEveryBill}</li>
+        <li className="chip">{S.start.chipOfficial}</li>
       </ul>
       {steps && (
         <ol className="steps panel">
