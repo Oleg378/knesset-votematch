@@ -1645,8 +1645,10 @@ a.menu-item {
   cursor: pointer;
 }
 
+/* The «equal» card's badge sits on the first line like the letters A and B (customer 2026-11-08; it was centred against
+   the two lines, so beside a one-line A or B title the two badges did not line up). */
 .choice-equal {
-  align-items: center;
+  align-items: flex-start;
 }
 
 .choice[aria-pressed='true'] {
