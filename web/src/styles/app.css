@@ -1772,6 +1772,9 @@ a.menu-item {
 
 .tagline {
   margin-top: var(--space-3);
+  /* Starts at the inner edge of the title bar (customer 2026-11-08: «выровняй по внутренней стороне линии»): the italic
+     looked off the bar's outer edge, which the chips share. */
+  padding-inline-start: var(--title-rule);
   /* As the captions on Results («Tap a list for details») and List details (the price note): 15, italic, text/tertiary
      (customer 2026-11-08: «посмотри, как тут») */
   font-size: var(--font-size-sm);
