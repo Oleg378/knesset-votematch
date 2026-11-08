@@ -1743,6 +1743,10 @@ a.menu-item {
 
 .start .step-number {
   background: var(--color-accent-soft);
+  /* 28 instead of 32: the 32 circle read bigger than the chips beside it (customer 2026-11-08, variant р2 of five) */
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
 }
 
 .hero {
