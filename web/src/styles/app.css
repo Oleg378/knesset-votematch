@@ -1776,6 +1776,11 @@ a.menu-item {
   padding-inline-start: var(--space-3);
 }
 
+/* The eyebrow starts over «Find», not over the bar (customer 2026-11-08) */
+.start .eyebrow {
+  padding-inline-start: calc(var(--title-rule) + var(--space-3));
+}
+
 .start .hero-graphic {
   width: min(var(--hero-size), calc(100% - var(--hero-title-min) - var(--space-1) - var(--title-rule) - var(--space-3)));
 }
