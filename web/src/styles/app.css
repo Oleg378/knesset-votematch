@@ -1824,12 +1824,9 @@ a.menu-item {
   color: var(--color-text-faint);
 }
 
-/* The home title carries the blue bar of the list name on List details (.details-title; customer 2026-11-08, after a rule
-   over the tagline was tried and dropped the same day). The arc gives up the bar's width so «vote match» keeps its line. */
 .start .hero > .stack {
-  /* the bar runs from the eyebrow to the bottom of the title (customer 2026-11-08: «черту длиннее») */
-  border-inline-start: var(--title-rule) solid var(--color-accent);
-  padding-inline-start: var(--space-3);
+  /* No bar (customer 2026-11-09: «оставь без полосы»); the eyebrow and the title step in 4 px from the edge («сдвинь на 4»). */
+  padding-inline-start: 4px;
 }
 
 /* One weight thinner than elsewhere (Medium 500 instead of SemiBold 600) so the eyebrow steps back from the title
@@ -1839,7 +1836,7 @@ a.menu-item {
 }
 
 .start .hero-art {
-  width: min(var(--hero-size), calc(100% - var(--hero-title-min) - var(--space-1) - var(--title-rule) - var(--space-3)));
+  width: min(var(--hero-size), calc(100% - var(--hero-title-min) - var(--space-1) - 4px));
 }
 
 .chips {
