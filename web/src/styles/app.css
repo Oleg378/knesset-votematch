@@ -1766,11 +1766,18 @@ a.menu-item {
 
 .tagline {
   margin-top: var(--space-3);
-  /* A thin Brand/Line rule above it, as the line over «Based on…» on Results (customer 2026-11-08: «черта над надписью»);
-     the text itself unchanged. */
-  padding-top: var(--space-2);
-  border-top: var(--border-width) solid var(--color-border);
   color: var(--color-text-muted);
+}
+
+/* The home title carries the blue bar of the list name on List details (.details-title; customer 2026-11-08, after a rule
+   over the tagline was tried and dropped the same day). The arc gives up the bar's width so «vote match» keeps its line. */
+.start .title-xl {
+  border-inline-start: var(--title-rule) solid var(--color-accent);
+  padding-inline-start: var(--space-3);
+}
+
+.start .hero-graphic {
+  width: min(var(--hero-size), calc(100% - var(--hero-title-min) - var(--space-1) - var(--title-rule) - var(--space-3)));
 }
 
 .chips {
