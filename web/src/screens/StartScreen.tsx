@@ -25,10 +25,11 @@ export function StartScreen({ core, dispatch }: { core: QuizCore | null; dispatc
       </div>
       <p className="tagline">{S.start.tagline}</p>
       <ul className="chips">
-        {/* the number of bills behind the quiz comes with the build (export/stats.json), so the chip needs no data (customer 2026-11-08) */}
+        {/* the numbers of bills and former members come with the build (export/stats.json), so the chips need no data (customer 2026-11-08) */}
         <li className="chip">{S.start.chipBills(stats.bills)}</li>
+        <li className="chip">{S.start.chipMembers(stats.mks)}</li>
         <li className="chip">{S.start.chipRealVotes}</li>
-        <li className="chip">{S.start.chipTime}</li>
+        <li className="chip">{S.start.chipOfficial}</li>
       </ul>
       {steps && (
         <ol className="steps panel">

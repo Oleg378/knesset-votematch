@@ -115,7 +115,7 @@ describe('quiz_texts.json', () => {
     expect(ok((t) => ({ ...t, extra: {} }))).toBe(false);
     expect(ok((t) => ({ ...t, methodology: { ...t.methodology, sections: [{ title: 'T', text: 'x', extra: 1 }] } }))).toBe(false);
     expect(ok((t) => {
-      const { chipTime: _, ...start } = t.start;
+      const { chipRealVotes: _, ...start } = t.start;
       return { ...t, start };
     })).toBe(false);
     // answers: exactly the five values; the buttons also «dk»

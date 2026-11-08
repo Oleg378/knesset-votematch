@@ -16,7 +16,7 @@ current contract only; what changed and why is in `docs/WORKLOG.md`._
 | `quiz_texts.schema.json` | JSON Schema of `quiz_texts.json`, generated from `web/src/texts.ts` | `make check` (I8), tests |
 | `quiz_data.schema.json` | JSON Schema of the three data files merged | tests |
 | `golden.json` | answer sets → ranking, notes, trade-off pairs, explanation lines, evidence order, question order («flow N» cases) | tests |
-| `stats.json` | the current numbers of the export (statements, lists by status, bills, MKs, directions, file sizes in KB), written by `export.py` | yes, bundled into the JS: `bills` fills the Start chip `chipBills`; `make check` (I9) compares the numbers typed in the documents with it |
+| `stats.json` | the current numbers of the export (statements, lists by status, bills, MKs, directions, file sizes in KB), written by `export.py` | yes, bundled into the JS: `bills` and `mks` fill the Start chips `chipBills` and `chipMembers`; `make check` (I9) compares the numbers typed in the documents with it |
 
 Goal: the start page never waits for data, and a loader almost never appears.
 
@@ -184,7 +184,7 @@ Statement texts and titles (`statement_en`, `title_en`) are not in it: they are 
 | `answerButtons` | the same keys and `dk` («don't know») | the answer buttons |
 | `notes` | `noRecord`, `oneMk`, `twoMks`, `fewInTopTen`, `lowCoverage`, `join` | the note of a list on Results and List details: a list with status `warning` (fewer than 3 former MKs in its top ten) takes `oneMk`, `twoMks` or `fewInTopTen` by its number of former MKs — 1, 2, 3 or more (`join` separates two notes) |
 | `explain` | `quote`, `sideFor`, `sideAgainst`, `sideNoClear`, `answer`, `votes`, `votesGov`, `basis`, `basisVotesOnly`, `weight`, `caveatByVotes`, `caveatPrice` | the lines of List details (§3) |
-| `start` | `title`, `tagline`, `chipBills`, `chipRealVotes`, `chipTime`, `steps` (exactly three), `button`, `howItWorks` | Start |
+| `start` | `title`, `tagline`, `chipBills`, `chipMembers`, `chipRealVotes`, `chipOfficial`, `steps` (exactly three), `button`, `howItWorks` | Start |
 | `menu` | `open`, `close`, `startOver`, `results`, `methodology` | the menu |
 | `nav` | `back`, `next` | the bottom buttons of the question screens |
 | `question` | `progress`, `progressLabel`, `or`, `skip`, `noAnswers`, `answersLabel` | the question screen |
@@ -204,7 +204,7 @@ file: any other name, or a stray brace, fails the schema. A key not listed below
 |---|---|
 | `notes` | `lowCoverage`: `pct` (with the % sign) |
 | `explain` | `quote`: `text` (the statement) · `answer`: `answer` (an `answers` word), `side` (the filled `sideFor`, `sideAgainst` or `sideNoClear`) · `votes`: `votes` (on private bills), `other` (on the other camp's bills), `gov` (the filled `votesGov`, or empty when there are none) · `votesGov`: `gov` · `basis`: `bills`, `same`, `opp`, `votes` (the filled `votes`) · `basisVotesOnly`: `votes` (the filled `votes`) |
-| `start` | `chipBills`: `bills` (the number of bills behind the quiz, `stats.json`, with the thousands separator) · each of `steps`: `n` (the planned number of statements), `top` (the number of lists highlighted on Results) |
+| `start` | `chipBills`: `bills` (the number of bills behind the quiz, `stats.json`, with the thousands separator) · `chipMembers`: `members` (the former members of the Knesset whose record is counted, `stats.json` `mks`) · each of `steps`: `n` (the planned number of statements), `top` (the number of lists highlighted on Results) |
 | `question` | `progress`: `n`, `total` |
 | `trade` | `counter`: `n`, `max` · `yourAnswer`: `answer` |
 | `results` | `closestMany`: `n` · `basedOn`: `n`, `total`, `trade` · `rank`: `n` |

@@ -53,8 +53,9 @@
   "title": "Find your vote match",
   "tagline": "Parties judged by votes, not promises",
   "chipBills": "{bills} Knesset bills",
-  "chipTime": "3–5 min",
+  "chipMembers": "{members} members",
   "chipRealVotes": "Real votes",
+  "chipOfficial": "Official data",
   "steps": [
    "Rate {n} statements",
    "We check their Knesset activities",
