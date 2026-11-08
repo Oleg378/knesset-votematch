@@ -301,12 +301,12 @@
      "minLength": 1,
      "pattern": "^(?:[^{}]|\\{(?:bills)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
     },
-    "chipTime": {
+    "chipRealVotes": {
      "type": "string",
      "minLength": 1,
      "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
     },
-    "chipNoSignup": {
+    "chipTime": {
      "type": "string",
      "minLength": 1,
      "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
@@ -349,8 +349,8 @@
     "title",
     "tagline",
     "chipBills",
+    "chipRealVotes",
     "chipTime",
-    "chipNoSignup",
     "button",
     "howItWorks",
     "steps"

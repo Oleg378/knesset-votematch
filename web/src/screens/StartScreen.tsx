@@ -27,8 +27,8 @@ export function StartScreen({ core, dispatch }: { core: QuizCore | null; dispatc
       <ul className="chips">
         {/* the number of bills behind the quiz comes with the build (export/stats.json), so the chip needs no data (customer 2026-11-08) */}
         <li className="chip">{S.start.chipBills(stats.bills)}</li>
+        <li className="chip">{S.start.chipRealVotes}</li>
         <li className="chip">{S.start.chipTime}</li>
-        <li className="chip">{S.start.chipNoSignup}</li>
       </ul>
       {steps && (
         <ol className="steps panel">

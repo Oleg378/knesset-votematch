@@ -54,7 +54,7 @@
   "tagline": "Parties judged by votes, not promises",
   "chipBills": "{bills} Knesset bills",
   "chipTime": "3–5 min",
-  "chipNoSignup": "No sign-up",
+  "chipRealVotes": "Real votes",
   "steps": [
    "Rate {n} statements",
    "We check their Knesset activities",
