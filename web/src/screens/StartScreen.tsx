@@ -1,5 +1,8 @@
 import type { Dispatch } from 'react';
 import hero from '../assets/figma/hero.svg';
+
+/** hero.svg geometry: the arc's centre, the middle ring the dot runs on, the dot's radius (Figma «Your seat», 9.6 px). */
+const HERO = { cx: 75, cy: 122, ring: 50, r: 4.8 };
 import stats from '../../../export/stats.json' with { type: 'json' };
 import { Button, LinkButton } from '../components/Button';
 import { plannedQuestions } from '../engine/flow';
@@ -21,7 +24,14 @@ export function StartScreen({ core, dispatch }: { core: QuizCore | null; dispatc
           <p className="eyebrow">{S.eyebrow}</p>
           <h1 className="title-xl">{S.start.title}</h1>
         </div>
-        <img className="hero-graphic" src={hero} alt="" width={150} height={150} />
+        {/* The arc (hero.svg) and, on top of it, the blue dot swinging along the middle ring (customer 2026-11-08); the SVG
+            itself carries no dot. The dot's resting place, where reduced motion leaves it, is the seat of the Figma graphic. */}
+        <span className="hero-art" aria-hidden="true">
+          <img className="hero-graphic" src={hero} alt="" width={150} height={150} />
+          <svg className="hero-dot" viewBox="0 0 150 150" fill="currentColor">
+            <circle cx={HERO.cx + HERO.ring} cy={HERO.cy} r={HERO.r} />
+          </svg>
+        </span>
       </div>
       <p className="tagline">{S.start.tagline}</p>
       <ul className="chips">

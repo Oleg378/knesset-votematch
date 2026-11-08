@@ -28,8 +28,8 @@
 <circle id="Seat_26" cx="71.5317" cy="80.1434" r="3" fill="#0038B8" fill-opacity="0.28"/>
 <circle id="Seat_27" cx="78.4683" cy="80.1434" r="3" fill="#0038B8" fill-opacity="0.28"/>
 <circle id="Seat_28" cx="85.3104" cy="81.2852" r="3" fill="#0038B8" fill-opacity="0.28"/>
-<circle id="Seat_29" cx="91.8712" cy="83.5375" r="3" fill="#0038B8" fill-opacity="0.14"/>
-<circle id="Seat_30" cx="97.9718" cy="86.839" r="3" fill="#0038B8" fill-opacity="0.14"/>
+<circle id="Seat_29" cx="91.8712" cy="83.5375" r="3" fill="#0038B8" fill-opacity="0.28"/>
+<circle id="Seat_30" cx="97.9718" cy="86.839" r="3" fill="#0038B8" fill-opacity="0.28"/>
 <circle id="Seat_31" cx="103.446" cy="91.0996" r="3" fill="#0038B8" fill-opacity="0.28"/>
 <circle id="Seat_32" cx="108.144" cy="96.2031" r="3" fill="#0038B8" fill-opacity="0.28"/>
 <circle id="Seat_33" cx="111.938" cy="102.01" r="3" fill="#0038B8" fill-opacity="0.28"/>
@@ -50,8 +50,8 @@
 <circle id="Seat_48" cx="71.5879" cy="72.1166" r="3" fill="#0038B8" fill-opacity="0.18"/>
 <circle id="Seat_49" cx="78.4121" cy="72.1166" r="3" fill="#0038B8" fill-opacity="0.18"/>
 <circle id="Seat_50" cx="85.1728" cy="73.0458" r="3" fill="#0038B8" fill-opacity="0.18"/>
-<circle id="Seat_51" cx="91.744" cy="74.887" r="3" fill="#0038B8" fill-opacity="0.09"/>
-<circle id="Seat_52" cx="103.834" cy="81.1515" r="3" fill="#0038B8" fill-opacity="0.09"/>
+<circle id="Seat_51" cx="91.744" cy="74.887" r="3" fill="#0038B8" fill-opacity="0.18"/>
+<circle id="Seat_52" cx="103.834" cy="81.1515" r="3" fill="#0038B8" fill-opacity="0.18"/>
 <circle id="Seat_53" cx="109.128" cy="85.4582" r="3" fill="#0038B8" fill-opacity="0.18"/>
 <circle id="Seat_54" cx="113.786" cy="90.4456" r="3" fill="#0038B8" fill-opacity="0.18"/>
 <circle id="Seat_55" cx="117.721" cy="96.0208" r="3" fill="#0038B8" fill-opacity="0.18"/>
@@ -76,8 +76,8 @@
 <circle id="Seat_74" cx="78.3724" cy="64.0981" r="3" fill="#0038B8" fill-opacity="0.1"/>
 <circle id="Seat_75" cx="85.0716" cy="64.8811" r="3" fill="#0038B8" fill-opacity="0.1"/>
 <circle id="Seat_76" cx="91.6346" cy="66.4366" r="3" fill="#0038B8" fill-opacity="0.1"/>
-<circle id="Seat_77" cx="97.9726" cy="68.7435" r="3" fill="#0038B8" fill-opacity="0.05"/>
-<circle id="Seat_78" cx="104" cy="71.7705" r="3" fill="#0038B8" fill-opacity="0.05"/>
+<circle id="Seat_77" cx="97.9726" cy="68.7435" r="3" fill="#0038B8" fill-opacity="0.1"/>
+<circle id="Seat_78" cx="104" cy="71.7705" r="3" fill="#0038B8" fill-opacity="0.1"/>
 <circle id="Seat_79" cx="109.635" cy="75.4769" r="3" fill="#0038B8" fill-opacity="0.1"/>
 <circle id="Seat_80" cx="114.802" cy="79.8123" r="3" fill="#0038B8" fill-opacity="0.1"/>
 <circle id="Seat_81" cx="119.431" cy="84.7183" r="3" fill="#0038B8" fill-opacity="0.1"/>
@@ -119,6 +119,5 @@
 <circle id="Seat_117" cx="139.649" cy="108.714" r="3" fill="#0038B8" fill-opacity="0.048"/>
 <circle id="Seat_118" cx="140.661" cy="115.323" r="3" fill="#0038B8" fill-opacity="0.048"/>
 <circle id="Seat_119" cx="141" cy="122" r="3" fill="#0038B8" fill-opacity="0.048"/>
-<circle id="Your seat" cx="98.0033" cy="77.6057" r="4.8" fill="#0038B8"/>
 </g>
 </svg>
