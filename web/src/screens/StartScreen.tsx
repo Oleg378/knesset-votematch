@@ -28,8 +28,8 @@ export function StartScreen({ core, dispatch }: { core: QuizCore | null; dispatc
         {/* the numbers of bills and former members come with the build (export/stats.json), so the chips need no data (customer 2026-11-08) */}
         <li className="chip">{S.start.chipBills(stats.bills)}</li>
         <li className="chip">{S.start.chipEveryBill}</li>
-        <li className="chip">{S.start.chipRealVotes}</li>
         <li className="chip">{S.start.chipMembers(stats.mks)}</li>
+        <li className="chip">{S.start.chipRealVotes}</li>
         <li className="chip">{S.start.chipNonPartisan}</li>
         <li className="chip">{S.start.chipOpenMethod}</li>
         <li className="chip">{S.start.chipOfficial}</li>
