@@ -1728,6 +1728,17 @@ a.menu-item {
      panel; the number circles take the tint (customer 2026-11-08, variant к1 of seven). */
   background: var(--color-surface);
   border: var(--border-width) solid var(--color-border);
+  /* Tighter (customer 2026-11-08, «меньше воздуха»): 16 inside instead of 20, 12 between the steps instead of 16. */
+  padding: var(--space-4);
+  gap: var(--space-3);
+}
+
+/* 14 Medium instead of 15 (variant ш1 of five), so every step stays on one line down to 360 px; the number sits 10 from the
+   text instead of 12. */
+.start .step {
+  gap: 10px;
+  font-size: 0.875rem; /* 14 */
+  line-height: calc(20 / 14);
 }
 
 .start .step-number {
