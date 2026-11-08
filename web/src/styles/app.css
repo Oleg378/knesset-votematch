@@ -1742,7 +1742,7 @@ a.menu-item {
 }
 
 .start .step-number {
-  background: var(--color-accent-soft);
+  background: var(--color-accent-softer);
   /* 28 instead of 32: the 32 circle read bigger than the chips beside it (customer 2026-11-08, variant р2 of five) */
   width: 28px;
   height: 28px;
@@ -1809,7 +1809,7 @@ a.menu-item {
 .chip {
   padding: var(--chip-pad-y) var(--space-3);
   border-radius: var(--radius-md);
-  background: var(--color-accent-soft);
+  background: var(--color-accent-softer); /* 6 % instead of the 10 % tint: lighter beside the white steps card (customer 2026-11-08) */
   color: var(--color-accent);
   font-size: var(--font-size-xs);
   line-height: var(--line-height-chip);
