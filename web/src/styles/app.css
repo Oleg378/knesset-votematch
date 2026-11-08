@@ -1777,10 +1777,10 @@ a.menu-item {
   padding-inline-start: var(--space-3);
 }
 
-/* Two weights thinner than elsewhere (Regular 400 instead of SemiBold 600) so the eyebrow steps back from the title
-   (customer 2026-11-08: «сделай 12, но оставь более тонкий», then «сделай Regular») */
+/* One weight thinner than elsewhere (Medium 500 instead of SemiBold 600) so the eyebrow steps back from the title
+   (customer 2026-11-08: «сделай 12, но оставь более тонкий»; Regular was tried and taken back the same day) */
 .start .eyebrow {
-  font-weight: var(--font-weight-regular);
+  font-weight: var(--font-weight-medium);
 }
 
 .start .hero-graphic {
