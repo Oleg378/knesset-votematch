@@ -1724,6 +1724,14 @@ a.menu-item {
 /* At least --cta-min-gap between the steps and the buttons: screen gap 16 + this margin + the group's padding 12 */
 .start .steps {
   margin-bottom: calc(var(--cta-min-gap) - var(--space-4) - var(--space-3));
+  /* In the language of the site's cards (Results I1, How it works I6): white with the Brand/Line border instead of the tint
+     panel; the number circles take the tint (customer 2026-11-08, variant к1 of seven). */
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+}
+
+.start .step-number {
+  background: var(--color-accent-soft);
 }
 
 .hero {
