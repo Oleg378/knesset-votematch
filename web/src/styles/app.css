@@ -1766,7 +1766,12 @@ a.menu-item {
 
 .tagline {
   margin-top: var(--space-3);
-  color: var(--color-text-muted);
+  /* As the captions on Results («Tap a list for details») and List details (the price note): 15, italic, text/tertiary
+     (customer 2026-11-08: «посмотри, как тут») */
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-body-sm);
+  font-style: italic;
+  color: var(--color-text-faint);
 }
 
 /* The home title carries the blue bar of the list name on List details (.details-title; customer 2026-11-08, after a rule
