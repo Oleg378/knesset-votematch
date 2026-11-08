@@ -89,12 +89,15 @@ afterEach(cleanup);
 describe('start', () => {
   beforeEach(() => render(<App loader={loaded()} />));
 
-  it('shows the Figma home: title, the four chips, Start and Behind the results', () => {
+  it('shows the Figma home: title, the seven chips, Start and Behind the results', () => {
     screen.getByRole('heading', { name: S.start.title });
     screen.getByText(S.start.chipBills(stats.bills));
     screen.getByText(S.start.chipMembers(stats.mks));
     screen.getByText(S.start.chipRealVotes);
     screen.getByText(S.start.chipOfficial);
+    screen.getByText(S.start.chipNonPartisan);
+    screen.getByText(S.start.chipOpenMethod);
+    screen.getByText(S.start.chipEveryBill);
     screen.getByText(S.start.steps(planned)[0]!);
     clickLink(S.start.howItWorks);
     screen.getByRole('heading', { name: methodology.heading });

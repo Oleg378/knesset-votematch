@@ -316,6 +316,21 @@
      "minLength": 1,
      "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
     },
+    "chipNonPartisan": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "chipOpenMethod": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
+    "chipEveryBill": {
+     "type": "string",
+     "minLength": 1,
+     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
+    },
     "button": {
      "type": "string",
      "minLength": 1,
@@ -357,6 +372,9 @@
     "chipMembers",
     "chipRealVotes",
     "chipOfficial",
+    "chipNonPartisan",
+    "chipOpenMethod",
+    "chipEveryBill",
     "button",
     "howItWorks",
     "steps"

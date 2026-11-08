@@ -184,7 +184,7 @@ Statement texts and titles (`statement_en`, `title_en`) are not in it: they are 
 | `answerButtons` | the same keys and `dk` («don't know») | the answer buttons |
 | `notes` | `noRecord`, `oneMk`, `twoMks`, `fewInTopTen`, `lowCoverage`, `join` | the note of a list on Results and List details: a list with status `warning` (fewer than 3 former MKs in its top ten) takes `oneMk`, `twoMks` or `fewInTopTen` by its number of former MKs — 1, 2, 3 or more (`join` separates two notes) |
 | `explain` | `quote`, `sideFor`, `sideAgainst`, `sideNoClear`, `answer`, `votes`, `votesGov`, `basis`, `basisVotesOnly`, `weight`, `caveatByVotes`, `caveatPrice` | the lines of List details (§3) |
-| `start` | `title`, `tagline`, `chipBills`, `chipMembers`, `chipRealVotes`, `chipOfficial`, `steps` (exactly three), `button`, `howItWorks` | Start |
+| `start` | `title`, `tagline`, `chipBills`, `chipMembers`, `chipRealVotes`, `chipOfficial`, `chipNonPartisan`, `chipOpenMethod`, `chipEveryBill`, `steps` (exactly three), `button`, `howItWorks` | Start |
 | `menu` | `open`, `close`, `startOver`, `results`, `methodology` | the menu |
 | `nav` | `back`, `next` | the bottom buttons of the question screens |
 | `question` | `progress`, `progressLabel`, `or`, `skip`, `noAnswers`, `answersLabel` | the question screen |

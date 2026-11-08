@@ -56,6 +56,9 @@
   "chipMembers": "{members} members",
   "chipRealVotes": "Real votes",
   "chipOfficial": "Official data",
+  "chipNonPartisan": "Non-partisan",
+  "chipOpenMethod": "Open method",
+  "chipEveryBill": "Every bill linked",
   "steps": [
    "Rate {n} statements",
    "We check their Knesset activities",

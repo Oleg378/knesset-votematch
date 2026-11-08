@@ -114,6 +114,9 @@ export const S = {
     chipMembers: (members: number) => fill(T.start.chipMembers, { members: new Intl.NumberFormat('en-US').format(members) }),
     chipRealVotes: T.start.chipRealVotes,
     chipOfficial: T.start.chipOfficial,
+    chipNonPartisan: T.start.chipNonPartisan,
+    chipOpenMethod: T.start.chipOpenMethod,
+    chipEveryBill: T.start.chipEveryBill,
     /** n = planned statements; the last step names the lists highlighted on Results. */
     steps: (n: number) => T.start.steps.map((s) => fill(s, { n, top: HIGHLIGHT })),
     button: T.start.button,
