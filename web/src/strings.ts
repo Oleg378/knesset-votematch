@@ -108,9 +108,10 @@ export const S = {
   start: {
     title: T.start.title,
     tagline: T.start.tagline,
-    chipStatements: (n: number) => fill(T.start.chipStatements, { n }),
+    /** The bills behind the quiz (export/stats.json), with the thousands separator: «6,666 Knesset bills» */
+    chipBills: (bills: number) => fill(T.start.chipBills, { bills: new Intl.NumberFormat('en-US').format(bills) }),
     chipTime: T.start.chipTime,
-    chipAnonymous: T.start.chipAnonymous,
+    chipNoSignup: T.start.chipNoSignup,
     /** n = planned statements; the last step names the lists highlighted on Results. */
     steps: (n: number) => T.start.steps.map((s) => fill(s, { n, top: HIGHLIGHT })),
     button: T.start.button,

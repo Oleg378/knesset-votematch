@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24",
+ "updated": "2026-11-08",
  "app": {
   "title": "Knesset Vote Match: Israel election quiz 2026",
   "siteName": "Knesset Vote Match",
@@ -52,9 +52,9 @@
  "start": {
   "title": "Find your vote match",
   "tagline": "Parties judged by votes, not promises",
-  "chipStatements": "{n} statements",
+  "chipBills": "{bills} Knesset bills",
   "chipTime": "3–5 min",
-  "chipAnonymous": "Anonymous",
+  "chipNoSignup": "No sign-up",
   "steps": [
    "Rate {n} statements",
    "We check their Knesset activities",

@@ -1,5 +1,6 @@
 import type { Dispatch } from 'react';
 import hero from '../assets/figma/hero.svg';
+import stats from '../../../export/stats.json' with { type: 'json' };
 import { Button, LinkButton } from '../components/Button';
 import { plannedQuestions } from '../engine/flow';
 import type { QuizCore } from '../engine/types';
@@ -7,8 +8,8 @@ import { PAGE_PATHS, type Action } from '../state/reducer';
 import { S } from '../strings';
 
 /**
- * Figma «Home». Renders at once, before any data: the number of statements (core + clarifying, customer 2026-10-18:
- * «15 statements») appears as soon as quiz_core (~1 KB) has arrived.
+ * Figma «Home». Renders at once, before any data: the steps (with the number of statements — core + clarifying) appear as
+ * soon as quiz_core (~1 KB) has arrived; the chips need no data.
  */
 export function StartScreen({ core, dispatch }: { core: QuizCore | null; dispatch: Dispatch<Action> }) {
   const n = core ? plannedQuestions(core.flow) : null;
@@ -24,9 +25,10 @@ export function StartScreen({ core, dispatch }: { core: QuizCore | null; dispatc
       </div>
       <p className="tagline">{S.start.tagline}</p>
       <ul className="chips">
-        {n !== null && <li className="chip">{S.start.chipStatements(n)}</li>}
+        {/* the number of bills behind the quiz comes with the build (export/stats.json), so the chip needs no data (customer 2026-11-08) */}
+        <li className="chip">{S.start.chipBills(stats.bills)}</li>
         <li className="chip">{S.start.chipTime}</li>
-        <li className="chip">{S.start.chipAnonymous}</li>
+        <li className="chip">{S.start.chipNoSignup}</li>
       </ul>
       {steps && (
         <ol className="steps panel">

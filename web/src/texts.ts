@@ -104,9 +104,9 @@ export const PLACEHOLDERS = {
   start: {
     title: [],
     tagline: [],
-    chipStatements: ['n'],
+    chipBills: ['bills'],
     chipTime: [],
-    chipAnonymous: [],
+    chipNoSignup: [],
     button: [],
     howItWorks: [],
   },

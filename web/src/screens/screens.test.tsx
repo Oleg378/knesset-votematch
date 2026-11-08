@@ -15,6 +15,7 @@ import { S, explainText } from '../strings';
 import { bills, core, data, loaded } from '../testSources';
 import { dataDate, dataValues, fill, listsOf, T } from '../texts';
 import { HIGHLIGHT } from '../uiConstants';
+import stats from '../../../export/stats.json' with { type: 'json' };
 
 const methodology = T.methodology;
 
@@ -88,10 +89,11 @@ afterEach(cleanup);
 describe('start', () => {
   beforeEach(() => render(<App loader={loaded()} />));
 
-  it('shows the Figma home: title, chips with the planned number of statements, Start and Behind the results', () => {
+  it('shows the Figma home: title, the three chips, Start and Behind the results', () => {
     screen.getByRole('heading', { name: S.start.title });
-    screen.getByText(S.start.chipStatements(planned));
+    screen.getByText(S.start.chipBills(stats.bills));
     screen.getByText(S.start.chipTime);
+    screen.getByText(S.start.chipNoSignup);
     screen.getByText(S.start.steps(planned)[0]!);
     clickLink(S.start.howItWorks);
     screen.getByRole('heading', { name: methodology.heading });
@@ -111,7 +113,7 @@ describe('start', () => {
     expect(steps.join(' ')).not.toMatch(/[{}]/);
     expect(screen.getAllByRole('listitem').map((li) => li.textContent)).toEqual(
       expect.arrayContaining(steps.map((s, i) => `${i + 1}${s}`)));
-    screen.getByText(fill(T.start.chipStatements, { n: planned }));
+    screen.getByText(fill(T.start.chipBills, { bills: new Intl.NumberFormat('en-US').format(stats.bills) }));
     expect(document.body.textContent).not.toMatch(/[{}]/);
   });
 });
@@ -205,7 +207,8 @@ describe('loading (WEB_CONTRACT «Loading»)', () => {
     render(<App loader={loader} />);
     screen.getByRole('heading', { name: S.start.title });
     screen.getByRole('button', { name: S.start.button });
-    expect(screen.queryByText(S.start.chipStatements(planned))).toBeNull();
+    screen.getByText(S.start.chipBills(stats.bills)); // the chips need no data
+    expect(screen.queryByText(S.start.steps(planned)[0]!)).toBeNull();
     click(S.start.button);
     // The dot ring (customer 2026-10-18): 5 uniform rings, 230 dots, and the running blue dot.
     expect(screen.getByRole('status').querySelectorAll('svg circle')).toHaveLength(231);
