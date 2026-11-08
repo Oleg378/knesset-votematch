@@ -1701,9 +1701,10 @@ a.menu-item {
 }
 
 /* Start (Figma «Home») */
-/* Figma gaps: header → hero 28, hero → tagline 28, tagline → chips 20, chips → steps 28 (screen gap 16 + margins). */
+/* Figma gaps: header → hero 28, hero → tagline 28, tagline → chips 20, chips → steps 28 (screen gap 16 + margins).
+   Header → hero is now 16 (the scroll area's padding alone): the title sat too low (customer 2026-11-08). */
 .start {
-  padding-top: var(--space-3);
+  padding-top: 0;
 }
 
 /* Home actions: on a tall screen the spacer pins them to the bottom (16 above the safe area, general Figma rule); when the
