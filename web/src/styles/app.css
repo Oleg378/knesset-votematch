@@ -1825,8 +1825,9 @@ a.menu-item {
 }
 
 .start .hero > .stack {
-  /* No bar (customer 2026-11-09: «оставь без полосы»); the eyebrow and the title step in 4 px from the edge («сдвинь на 4»). */
-  padding-inline-start: 4px;
+  /* No bar (customer 2026-11-09: «оставь без полосы»); the eyebrow and the title start where the chip text does — the chips'
+     3 px indent plus their 12 px padding («выровняй Find по 6,666»). */
+  padding-inline-start: calc(var(--title-rule) + var(--space-3));
 }
 
 /* One weight thinner than elsewhere (Medium 500 instead of SemiBold 600) so the eyebrow steps back from the title
@@ -1836,7 +1837,7 @@ a.menu-item {
 }
 
 .start .hero-art {
-  width: min(var(--hero-size), calc(100% - var(--hero-title-min) - var(--space-1) - 4px));
+  width: min(var(--hero-size), calc(100% - var(--hero-title-min) - var(--space-1) - var(--title-rule) - var(--space-3)));
 }
 
 .chips {
