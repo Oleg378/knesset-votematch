@@ -1707,6 +1707,9 @@ a.menu-item {
    Header → hero is now 16 (the scroll area's padding alone): the title sat too low (customer 2026-11-08). */
 .start {
   padding-top: 0;
+  /* The block sits 8 higher than the other screens' content (gap under the header 8 instead of 16), so the home screen fits a
+     phone browser better (customer 2026-11-09: «чуть сдвинем кверху весь блок»). */
+  margin-top: calc(-1 * var(--space-2));
   /* The home column's inner edge: the burger's strokes start 2 inside the icon's 24 px box, and the title, the chips and the
      steps card line up with them (customer 2026-11-09: «до красной линии»). History in .start .hero below. */
   --hero-indent: 2px;
@@ -1776,7 +1779,7 @@ a.menu-item {
 }
 
 .tagline {
-  margin-top: var(--space-3);
+  margin-top: 0; /* 16 under the hero (the screen gap alone) instead of 28 (customer 2026-11-09: «чуть меньше отступ между Parties и заголовком») */
   /* 4.33 from the column's edge, so the stem of the italic P stands at 29, 1 right of the chips and the steps card (the letter has
      0.67 of side bearing): the italic sat at the inner edge of the former title bar (3 + 4; customer 2026-11-08: «выровняй по
      внутренней стороне линии», «промисес подвинь на 4 вправо»), then 2 left, 2 right, 1 left, 1 right, «сделай Parties на 32»,
