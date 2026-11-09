@@ -1793,10 +1793,17 @@ a.menu-item {
   pointer-events: none;
 }
 
-.hero-dot circle {
+.hero-dot g {
   transform-box: view-box;
   transform-origin: 75px 122px;
   animation: hero-dot-swing var(--hero-swing) ease-in-out calc(-0.348 * var(--hero-swing)) infinite alternate;
+}
+
+/* Half-transparent disc of the page colour under the dot: the seats it passes over go half as pale, as the six seats
+   around the Figma dot were (customer 2026-11-09: «ты немного высветлял вокруг, чтобы круг был лучше виден») */
+.hero-halo {
+  fill: var(--color-bg);
+  opacity: 0.5;
 }
 
 @keyframes hero-dot-swing {
@@ -1809,7 +1816,7 @@ a.menu-item {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero-dot circle {
+  .hero-dot g {
     animation: none;
     transform: rotate(-62.6deg);
   }

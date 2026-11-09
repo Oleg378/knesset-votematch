@@ -2,7 +2,7 @@ import type { Dispatch } from 'react';
 import hero from '../assets/figma/hero.svg';
 
 /** hero.svg geometry: the arc's centre, the middle ring the dot runs on, the dot's radius (Figma «Your seat», 9.6 px). */
-const HERO = { cx: 75, cy: 122, ring: 50, r: 4.8 };
+const HERO = { cx: 75, cy: 122, ring: 50, r: 4.8, halo: 9.5 };
 import stats from '../../../export/stats.json' with { type: 'json' };
 import { Button, LinkButton } from '../components/Button';
 import { plannedQuestions } from '../engine/flow';
@@ -28,8 +28,13 @@ export function StartScreen({ core, dispatch }: { core: QuizCore | null; dispatc
             itself carries no dot. The dot's resting place, where reduced motion leaves it, is the seat of the Figma graphic. */}
         <span className="hero-art" aria-hidden="true">
           <img className="hero-graphic" src={hero} alt="" width={150} height={150} />
-          <svg className="hero-dot" viewBox="0 0 150 150" fill="currentColor">
-            <circle cx={HERO.cx + HERO.ring} cy={HERO.cy} r={HERO.r} />
+          <svg className="hero-dot" viewBox="0 0 150 150">
+            <g>
+              {/* The halo: in the Figma graphic the six seats around the dot were half as pale, so the dot stood out; it moves
+                  with the dot as a half-transparent disc of the page colour (customer 2026-11-09). */}
+              <circle className="hero-halo" cx={HERO.cx + HERO.ring} cy={HERO.cy} r={HERO.halo} />
+              <circle cx={HERO.cx + HERO.ring} cy={HERO.cy} r={HERO.r} fill="currentColor" />
+            </g>
           </svg>
         </span>
       </div>
