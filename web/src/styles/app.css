@@ -1800,8 +1800,8 @@ a.menu-item {
    (customer 2026-11-08: «сделай 12, но оставь более тонкий»; Regular was tried and taken back the same day) */
 .start .eyebrow {
   font-weight: var(--font-weight-medium);
-  margin-inline-start: 1px; /* the K's stem 2 right of the column's inner edge, 28 (customer 2026-11-09: «Кнессет и Parties на 2 вправо»,
-                               after it had stood on the edge, 2 left and 2 right the same day; the letter has 1 px of side bearing) */
+  margin-inline-start: 0; /* the K's stem 1 right of the column's inner edge, 27 — the letter's own 1 px of side bearing (customer
+                             2026-11-09, after 2 left, 2 right, to the edge, 2 right and «Кнессет на 1 влево» the same day) */
 }
 
 /* The two lines of the title sit differently (customer 2026-11-09): «vote match» 1 px right of the column's inner edge (26 → 27),
