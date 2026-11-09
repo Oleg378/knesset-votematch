@@ -777,20 +777,16 @@ button.card:active {
 }
 
 /* «Made by …» and «Data: …» at the bottom of the screen, as the bottom buttons of the other screens: pushed down when the
-   page is short, 8 above the buttons' gap over the safe area; at least 24 under the last band (customer 2026-10-25:
-   «внизу страницы с отступом от низа, будто это кнопки»). Since 2026-11-09 they stick to the bottom like the buttons, with
-   the same fade, and the list scrolls under them (customer: «верх был виден, а низ уходил под надпись Data, как под
-   кнопку»); the screen's bottom safe area moves inside, as in .sticky-actions. */
+   page is short, 8 above the buttons' gap over the safe area (the screen's own bottom padding); at least 24 under the
+   last band (customer 2026-10-25: «внизу страницы с отступом от низа, будто это кнопки»; they followed the last card, 32
+   above the page's end). Not sticky: a long list ends and the lines follow it (a sticky footer with the fade was tried
+   and taken back the same day, customer 2026-11-09: «плохо выглядит»). */
 .method-foot {
-  position: sticky;
-  bottom: 0;
-  background: var(--color-bg);
   margin-top: auto;
   padding-top: var(--space-2);
   /* the buttons' gap + 8 (customer 2026-10-25: «на 8 больше» than the buttons' 16 → 24); the buttons went to 8 on 2026-11-09, so
      16 (customer: «нижний блок … тоже не выровнен») */
-  padding-bottom: calc(var(--bottom-gap) + var(--space-2) + env(safe-area-inset-bottom));
-  margin-bottom: calc(-1 * env(safe-area-inset-bottom));
+  padding-bottom: calc(var(--bottom-gap) + var(--space-2));
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
@@ -1539,8 +1535,7 @@ a.menu-item {
    its end, a card ending just above the buttons stays crisp (customer 2026-10-19, 2026-10-22). */
 .bottom-bar::before,
 .start .sticky-actions::before,
-.results .sticky-actions::before,
-.method-foot::before {
+.results .sticky-actions::before {
   content: '';
   position: absolute;
   inset-inline: 0;
@@ -1554,8 +1549,7 @@ a.menu-item {
 
 :root[data-below] .bottom-bar::before,
 :root[data-below] .start .sticky-actions::before,
-:root[data-below] .results .sticky-actions::before,
-:root[data-below] .method-foot::before {
+:root[data-below] .results .sticky-actions::before {
   opacity: 1;
 }
 
