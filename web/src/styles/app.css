@@ -1557,7 +1557,7 @@ a.menu-item {
   display: flex;
   gap: var(--space-3);
   align-items: flex-end;
-  padding: var(--space-3) 0 calc(var(--space-4) + env(safe-area-inset-bottom));
+  padding: var(--space-3) 0 calc(var(--bottom-gap) + env(safe-area-inset-bottom));
   background: var(--color-bg);
 }
 
@@ -1726,7 +1726,7 @@ a.menu-item {
   bottom: 0;
   background: var(--color-bg);
   padding-top: var(--space-3);
-  padding-bottom: calc(var(--space-4) + env(safe-area-inset-bottom));
+  padding-bottom: calc(var(--bottom-gap) + env(safe-area-inset-bottom));
   margin-bottom: calc(-1 * env(safe-area-inset-bottom));
 }
 

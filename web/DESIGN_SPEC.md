@@ -94,8 +94,8 @@ Home, Question, Clarifying question, Menu). All values in px.
 - Chips: 20 after. Row, gap 8. Chip: padding 6 12, height 32, radius 16, width hugs text.
 - Steps card: 28 after. Padding 20, gap 16, radius 24, width fill. Step: circle 32 + gap 12 + text, vertically centered.
 - Spacer `flex: 1` — everything below is pinned to the bottom.
-- Start the quiz: height 56, width fill. 8 below — Behind the results, height 44. Under it **16 + safe area** (general
-  rule; original Home frame: 0).
+- Start the quiz: height 56, width fill. 8 below — Behind the results, height 44. Under it **8 + safe area** (general
+  rule, `--bottom-gap`; 16 until 2026-11-09; original Home frame: 0).
 
 ### 02 · Question
 - Top row: top 61, height 44. Row flex, gap 12, centered: burger 44×44, progress track (`flex: 1`, height 6, radius 3),

@@ -97,7 +97,7 @@ starts below ~750 px.
 
 ### Bottom buttons — two kinds
 - **Primary bottom group** (the screen's main action, the screen is built around it): `position: sticky; bottom: 0`,
-  white background, 32 px white fade above (`::before`, `--cta-fade`), padding `12` on top and `16 + safe area` below,
+  white background, 32 px white fade above (`::before`, `--cta-fade`), padding `12` on top and `8 + safe area` below (`--bottom-gap`; 16 until 2026-11-09),
   negative bottom margin of the safe area. It only visibly sticks when the content does not fit. The fade shows only
   while some of the page is under the buttons — it does not fit and is not scrolled to its end (`data-below` on
   `<html>`, set by `src/bottomFade.ts` in every browser; customer 2026-10-19, 2026-10-22: a card that fits stays crisp
@@ -133,9 +133,9 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
   `calc(env(safe-area-inset-top) + 8px)` — on screens it is the pinned `.header`'s padding-top (white), so a stuck
   header clears the status bar; `.app` has no top padding. Bottom: the safe area is `.screen`'s (not the scrolling area's:
   a sticky bar stops at a scroller's padding); the bottom groups add their own 16.
-- **Bottom groups.** Both use `padding-bottom: calc(16px + env(safe-area-inset-bottom))` and
+- **Bottom groups.** Both use `padding-bottom: calc(var(--bottom-gap) + env(safe-area-inset-bottom))` (8; 16 until 2026-11-09) and
   `margin-bottom: calc(-1 * env(safe-area-inset-bottom))` (the screen's safe area moves inside the group), so they sit
-  16 above the safe area (Home too — general rule, not the 0 drawn in the Home frame).
+  8 above the safe area (16 until 2026-11-09; Home too — general rule, not the 0 drawn in the Home frame).
   - Both are **sticky with a fade** («версия Б», see «Breakpoints»): on a short screen the content scrolls under them.
     (In «версия А» Home was not sticky — the customer had disliked the hard cut without a fade.)
 - **Burger and close:** `margin-inline-start: calc((24px - var(--tap-min)) / 2)` — icon on the 24 px text column, tap area
