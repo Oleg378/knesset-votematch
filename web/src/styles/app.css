@@ -1800,6 +1800,14 @@ a.menu-item {
    (customer 2026-11-08: «сделай 12, но оставь более тонкий»; Regular was tried and taken back the same day) */
 .start .eyebrow {
   font-weight: var(--font-weight-medium);
+  margin-inline-start: -2px; /* 2 left of the title's box (customer 2026-11-09: «синюю надпись Кнессет на 2 пикселя влево») */
+}
+
+/* Only the second line, «vote match», 1 px to the left of «Find your» (customer 2026-11-09): the whole block moves 1 left and
+   the first line is indented back by 1. */
+.start .title-xl {
+  margin-inline-start: -1px;
+  text-indent: 1px;
 }
 
 .start .hero-graphic {
