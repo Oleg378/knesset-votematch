@@ -777,13 +777,15 @@ button.card:active {
 }
 
 /* «Made by …» and «Data: …» at the bottom of the screen, as the bottom buttons of the other screens: pushed down when the
-   page is short, 16 above the safe area (the screen's own bottom padding) as the buttons' group; at least 24 under the
+   page is short, 8 above the buttons' gap over the safe area (the screen's own bottom padding); at least 24 under the
    last band (customer 2026-10-25: «внизу страницы с отступом от низа, будто это кнопки»; they followed the last card, 32
    above the page's end) */
 .method-foot {
   margin-top: auto;
   padding-top: var(--space-2);
-  padding-bottom: var(--space-5); /* 24 above the safe area (customer 2026-10-25: «на 8 больше»; it was 16, as the buttons) */
+  /* the buttons' gap + 8 (customer 2026-10-25: «на 8 больше» than the buttons' 16 → 24); the buttons went to 8 on 2026-11-09, so
+     16 (customer: «нижний блок … тоже не выровнен») */
+  padding-bottom: calc(var(--bottom-gap) + var(--space-2));
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
