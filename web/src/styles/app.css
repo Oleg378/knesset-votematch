@@ -1736,7 +1736,8 @@ a.menu-item {
   /* Tighter (customer 2026-11-08, «меньше воздуха»): 16 inside instead of 20, 12 between the steps instead of 16. */
   padding: var(--space-4);
   gap: var(--space-3);
-  margin-inline-start: var(--hero-indent); /* the chips above start at the burger's strokes; the card keeps their edge (customer 2026-11-09) */
+  margin-inline-start: calc(var(--hero-indent) + 2px); /* the card keeps the chips' edge, now 28 (customer 2026-11-09: «большую плашку тоже на столько же,
+                                                          что и маленькие») */
 }
 
 /* 14 Medium instead of 15 (variant ш1 of five), so every step stays on one line down to 360 px; the number sits 10 from the
