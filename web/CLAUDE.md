@@ -92,7 +92,7 @@ to any new one. Based on Material 3 window size classes. Previous layout = «в�
 | below 844 | 16 | shrinks to the screen's minimum | no, until the minimum is reached |
 | content + minimum + 2 × 16 does not fit | 16 | minimum | yes; primary bottom buttons stick |
 
-Phone layout follows the same order without the card margins. For Home: maximum 158 (Figma), minimum 64, scrolling
+Phone layout follows the same order without the card margins. For Home: maximum 158 (Figma), minimum 60, scrolling
 starts below ~750 px.
 
 ### Bottom buttons — two kinds
@@ -108,7 +108,7 @@ starts below ~750 px.
 ### Every screen
 | Screen | Bottom buttons | Kind | Minimum space above them |
 |---|---|---|---|
-| Home | Start the quiz · Behind the results | primary, sticky | 64 (`--cta-min-gap`, margin under `.steps`) |
+| Home | Start the quiz · Behind the results | primary, sticky | 60 (`--cta-min-gap`, margin under `.steps`; 64 until 2026-11-09) |
 | Question | Back · Next | primary, sticky | 28 (screen gap 16 + bar padding 12) |
 | Clarifying question | Back · Next | primary, sticky | 28 |
 | Menu | (GitHub / Behance, hidden for now) | drawer — fills its own height, no scroll of the page | — |

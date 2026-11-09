@@ -1732,7 +1732,6 @@ a.menu-item {
 
 /* At least --cta-min-gap between the steps and the buttons: screen gap 16 + this margin + the group's padding 12 */
 .start .steps {
-  margin-top: -2px; /* 26 under the chips instead of 28 (customer 2026-11-09: «на 2 большую плашку с цифрами») */
   margin-bottom: calc(var(--cta-min-gap) - var(--space-4) - var(--space-3));
   /* In the language of the site's cards (Results I1, How it works I6): white with the Brand/Line border instead of the tint
      panel; the number circles take the tint (customer 2026-11-08, variant к1 of seven). */
@@ -1781,7 +1780,7 @@ a.menu-item {
 }
 
 .tagline {
-  margin-top: -2px; /* 14 under the hero instead of 28 (customer 2026-11-09: «чуть меньше отступ между Parties и заголовком», then «на 2 Parties») */
+  margin-top: 0; /* 16 under the hero (the screen gap alone) instead of 28 (customer 2026-11-09: «чуть меньше отступ между Parties и заголовком»; a further 2 was tried and taken back) */
   /* 4.33 from the column's edge, so the stem of the italic P stands at 29, 1 right of the chips and the steps card (the letter has
      0.67 of side bearing): the italic sat at the inner edge of the former title bar (3 + 4; customer 2026-11-08: «выровняй по
      внутренней стороне линии», «промисес подвинь на 4 вправо»), then 2 left, 2 right, 1 left, 1 right, «сделай Parties на 32»,

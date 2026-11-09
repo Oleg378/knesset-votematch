@@ -124,7 +124,7 @@
   --radius-scale: var(--radius-lg); /* Results panel of the closest lists: as the question card's panel (customer 2026-10-23; it was 32) */
   --shadow-desktop: 0 12px 48px rgba(0, 56, 184, 0.12);
   --desktop-card-height: 812px; /* Figma screen without the status bar (874 − 62): the card keeps the phone proportions */
-  --cta-min-gap: 64px; /* Home: at least this much between the steps and the buttons (max 158 = Figma) */
+  --cta-min-gap: 60px; /* Home: at least this much between the steps and the buttons (max 158 = Figma); 64 until 2026-11-09, 4 less so the screen fits Safari on iPhone 17 Pro */
   --cta-fade: 32px; /* soft white fade above bottom buttons that stick because the content does not fit */
   /* Motion (react-ui-mobile skill): every duration and easing lives here, none in app.css or components. Proposed
      values, DECISIONS.md G20 [А], except the menu and the card change (approved). */
