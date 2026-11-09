@@ -1776,10 +1776,10 @@ a.menu-item {
 
 .tagline {
   margin-top: var(--space-3);
-  /* 7 from the chips' edge: the italic sat at the inner edge of the former title bar (3 + 4; customer 2026-11-08:
-     «выровняй по внутренней стороне линии», «промисес подвинь на 4 вправо»), then 2 to the left and 2 back to the right
-     (customer 2026-11-09: «Parties сдвинь на 2 влево», «Кнессет и Parties на 2 вправо»). */
-  padding-inline-start: 7px;
+  /* 6 from the chips' edge: the italic sat at the inner edge of the former title bar (3 + 4; customer 2026-11-08:
+     «выровняй по внутренней стороне линии», «промисес подвинь на 4 вправо»), then 2 left, 2 right and 1 left
+     (customer 2026-11-09: «Parties сдвинь на 2 влево», «Кнессет и Parties на 2 вправо», «Parties на 1 влево»). */
+  padding-inline-start: 6px;
   /* As the captions on Results («Tap a list for details») and List details (the price note): 15, italic, text/tertiary
      (customer 2026-11-08: «посмотри, как тут») */
   font-size: var(--font-size-sm);
