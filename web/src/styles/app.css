@@ -777,16 +777,16 @@ button.card:active {
 }
 
 /* «Made by …» and «Data: …» at the bottom of the screen, as the bottom buttons of the other screens: pushed down when the
-   page is short, 8 above the buttons' gap over the safe area (the screen's own bottom padding); at least 24 under the
+   page is short, level with the buttons' gap over the safe area (the screen's own bottom padding); at least 24 under the
    last band (customer 2026-10-25: «внизу страницы с отступом от низа, будто это кнопки»; they followed the last card, 32
    above the page's end). Not sticky: a long list ends and the lines follow it (a sticky footer with the fade was tried
    and taken back the same day, customer 2026-11-09: «плохо выглядит»). */
 .method-foot {
   margin-top: auto;
   padding-top: var(--space-2);
-  /* the buttons' gap + 8 (customer 2026-10-25: «на 8 больше» than the buttons' 16 → 24); the buttons went to 8 on 2026-11-09, so
-     16 (customer: «нижний блок … тоже не выровнен») */
-  padding-bottom: calc(var(--bottom-gap) + var(--space-2));
+  /* level with the buttons of the other screens, 8 above the safe area (customer 2026-11-10: «вровень с кнопками»; before that
+     «на 8 больше» than the buttons: 24 from 2026-10-25, 16 on 2026-11-09) */
+  padding-bottom: var(--bottom-gap);
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
