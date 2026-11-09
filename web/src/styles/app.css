@@ -1780,7 +1780,8 @@ a.menu-item {
 }
 
 .tagline {
-  margin-top: 0; /* 16 under the hero (the screen gap alone) instead of 28 (customer 2026-11-09: «чуть меньше отступ между Parties и заголовком»; a further 2 was tried and taken back) */
+  margin-top: -2px; /* 14 under the hero instead of 28: 48 from the bottom of «vote match» to the top of the italic letters (customer
+                       2026-11-09: «чуть меньше отступ между Parties и заголовком», then «vote match → Parties 48») */
   /* 4.33 from the column's edge, so the stem of the italic P stands at 29, 1 right of the chips and the steps card (the letter has
      0.67 of side bearing): the italic sat at the inner edge of the former title bar (3 + 4; customer 2026-11-08: «выровняй по
      внутренней стороне линии», «промисес подвинь на 4 вправо»), then 2 left, 2 right, 1 left, 1 right, «сделай Parties на 32»,
@@ -1833,7 +1834,8 @@ a.menu-item {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2);
-  margin-top: var(--space-1);
+  margin-top: var(--space-1); /* 20 from the tagline's line box to the chips (the screen gap 16 + 4); measured from the italic letters it reads
+                                 20.5 because of the descenders — 3 px gives 19.5, so 4 stays (customer 2026-11-09: «Parties → плашки 20») */
 }
 
 .chip {
