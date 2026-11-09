@@ -1803,11 +1803,12 @@ a.menu-item {
   margin-inline-start: 2px; /* 2 right of the title's box (customer 2026-11-09: asked 2 left, then «надо было не влево, а вправо») */
 }
 
-/* Only the second line, «vote match», 1 px to the right (customer 2026-11-09; first asked left, then «надо было вправо»): the
-   whole block moves 1 right and the first line is pulled back by 1. */
+/* The two lines of the title sit differently (customer 2026-11-09): «vote match» 1 px right of the column's inner edge (26 → 27),
+   «Find your» 2 px left of it, so the stem of the F — which has 2 px of side bearing in Fraunces — stands on that edge
+   («Find сдвинь влево к красной полосе»). The block moves 1 right, the first line is pulled back by 3. */
 .start .title-xl {
   margin-inline-start: 1px;
-  text-indent: -1px;
+  text-indent: -3px;
 }
 
 .start .hero-graphic {
