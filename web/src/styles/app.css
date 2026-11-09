@@ -1767,59 +1767,11 @@ a.menu-item {
 }
 
 /* 150 px as in Figma; on phones narrower than ~390 px it shrinks so the title keeps two lines (customer 2026-10-17) */
-.hero-art {
-  position: relative;
+.hero-graphic {
   flex: none;
   width: min(var(--hero-size), calc(100% - var(--hero-title-min) - var(--space-1)));
-  aspect-ratio: 1;
-}
-
-.hero-graphic {
-  display: block;
-  width: 100%;
   height: auto;
   aspect-ratio: 1;
-}
-
-/* The blue dot swings along the middle ring of the arc, end to end and back (customer 2026-11-08: «чтобы шарик по полукругу
-   туда-сюда ходил»): drawn at the ring's right end and rotated about the arc's centre, 0 → −180° over the top. The negative
-   delay starts it at the Figma seat (−62.6°), heading left; reduced motion leaves it there. */
-.hero-dot {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  color: var(--color-accent);
-  pointer-events: none;
-}
-
-.hero-dot g {
-  transform-box: view-box;
-  transform-origin: 75px 122px;
-  animation: hero-dot-swing var(--hero-swing) ease-in-out calc(-0.348 * var(--hero-swing)) infinite alternate;
-}
-
-/* Half-transparent disc of the page colour under the dot: the seats it passes over go half as pale, as the six seats
-   around the Figma dot were (customer 2026-11-09: «ты немного высветлял вокруг, чтобы круг был лучше виден») */
-.hero-halo {
-  fill: var(--color-bg);
-  opacity: 0.5;
-}
-
-@keyframes hero-dot-swing {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(-180deg);
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .hero-dot g {
-    animation: none;
-    transform: rotate(-62.6deg);
-  }
 }
 
 .tagline {
@@ -1850,7 +1802,7 @@ a.menu-item {
   font-weight: var(--font-weight-medium);
 }
 
-.start .hero-art {
+.start .hero-graphic {
   /* The arc keeps the size it had with the 15 px indent (139 at 390 px): the 8 px the title gave up widen the gap to the arc,
      not the arc. */
   width: min(var(--hero-size), calc(100% - var(--hero-title-min) - var(--space-1) - 15px));

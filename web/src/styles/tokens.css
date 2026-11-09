@@ -112,7 +112,6 @@
   --chip-pad-y: 6px;
   --step-size: 32px; /* «How it works» number */
   --hero-size: 150px;
-  --hero-swing: 6s; /* the hero dot: one sweep of the half circle (customer 2026-11-08) */
   --hero-title-min: 184px; /* «vote match» in Title/Large is 182.3 px: the hero title always fits in two lines */
   --menu-width: 320px;
   --menu-item-height: 52px;
