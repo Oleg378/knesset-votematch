@@ -1707,6 +1707,9 @@ a.menu-item {
    Header → hero is now 16 (the scroll area's padding alone): the title sat too low (customer 2026-11-08). */
 .start {
   padding-top: 0;
+  /* The home column's inner edge: the burger's strokes start 2 inside the icon's 24 px box, and the title, the chips and the
+     steps card line up with them (customer 2026-11-09: «до красной линии»). History in .start .hero below. */
+  --hero-indent: 2px;
 }
 
 /* Home actions: on a tall screen the spacer pins them to the bottom (16 above the safe area, general Figma rule); when the
@@ -1733,6 +1736,7 @@ a.menu-item {
   /* Tighter (customer 2026-11-08, «меньше воздуха»): 16 inside instead of 20, 12 between the steps instead of 16. */
   padding: var(--space-4);
   gap: var(--space-3);
+  margin-inline-start: var(--hero-indent); /* the chips above start at the burger's strokes; the card keeps their edge (customer 2026-11-09) */
 }
 
 /* 14 Medium instead of 15 (variant ш1 of five), so every step stays on one line down to 360 px; the number sits 10 from the
@@ -1827,11 +1831,8 @@ a.menu-item {
 
 /* No bar (customer 2026-11-09: «оставь без полосы»). The eyebrow and the title stood where the chip text does (15: the
    chips' former 3 px indent plus their 12 px padding, «выровняй Find по 6,666»), then 8 to the left (customer 2026-11-09:
-   «заголовок и Кнессет сдвинь на 8 влево»): 7 from the chips' edge, 2 right of the tagline. */
-.start .hero {
-  --hero-indent: 7px;
-}
-
+   «заголовок и Кнессет сдвинь на 8 влево»), then to the burger's strokes (customer 2026-11-09: «заголовок сдвинь до красной
+   линии»): 2 from the column's edge — the menu icon's lines start 2 inside its 24 px box (--hero-indent on .start). */
 .start .hero > .stack {
   padding-inline-start: var(--hero-indent);
 }
@@ -1851,7 +1852,7 @@ a.menu-item {
 .chips {
   list-style: none;
   margin: 0;
-  padding: 0; /* flush with the steps card below (customer 2026-11-09: «плашки выровнены по краю с большой») */
+  padding: 0 0 0 var(--hero-indent); /* at the burger's strokes, flush with the steps card (customer 2026-11-09: «плашки все должны начинаться от красной линии») */
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2);
