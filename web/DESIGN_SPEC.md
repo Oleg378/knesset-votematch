@@ -46,7 +46,7 @@ Line heights are exact Figma px ÷ size (`calc(22 / 17)`), never rounded ratios.
 | Counter | Plus Jakarta Sans 600 | 15 / 22 | `.counter` | progress counter |
 | Label/Medium | Plus Jakarta Sans 500 | 15 / 20 | `.step`, `.list-row-name`, `.list-names-rows`, `.accordion-head`, `.details-head .note` | Home steps, Results names below the panel, names of lists and statement titles in Methodology; List details, a list's note — blue on the blue tint band (customer 2026-10-25) |
 | — (not in Figma) | Plus Jakarta Sans 500 | 15 / 21 | `.fact-value` | List details, the value of a fact right of its label, in a topic and in a bill row (text/tertiary, customer 2026-10-25) |
-| Body/Default | Plus Jakarta Sans 400 | 15 / 21 | `.lead`, `.explain`, `.small`, `.details-row .list-row-name` | card explanations, intro text, «Based on …», bill details, List details «Closeness to you» (text/tertiary) |
+| Body/Default | Plus Jakarta Sans 400 | 15 / 21 | `.lead`, `.explain`, `.small`, `.details-row .list-row-name` | card explanations, intro text, bill details, List details «Closeness to you» (text/tertiary) |
 | Chip | Plus Jakarta Sans 500 | 13 / 20 | `.chip`, `.note` | chips (N statements, 3–5 min), the question screen's notice |
 | Caption | Plus Jakarta Sans 400 | 13 / 18 | `.choice-sub`, `.xsmall` | «Your answer: …», data version |
 | Caption, Medium (not in Figma) | Plus Jakarta Sans 500 | 13 / 18 | `.or-divider` | «or», «Not ranked: not enough data» (customer 2026-10-23) |

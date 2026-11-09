@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "app": {
   "title": "Knesset Vote Match: Israel election quiz 2026",
   "siteName": "Knesset Vote Match",
@@ -103,8 +103,6 @@
   "scaleClose": "close to you",
   "closestOne": "Your closest list",
   "closestMany": "Your {n} closest lists",
-  "basedOn": "Based on {n} of {total} answers{trade}",
-  "basedOnTrade": ", including trade-offs",
   "hint": "Tap a list for details",
   "seeAll": "See all",
   "seeLess": "Show less",

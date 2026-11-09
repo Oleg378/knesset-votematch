@@ -4,7 +4,6 @@ import { Button } from '../components/Button';
 import { ListRow } from '../components/ListRow';
 import { match } from '../engine/match';
 import { collapse, expand, foldLid, scrollBackTo } from '../expandMotion';
-import { answeredCount } from '../state/reducer';
 import { S } from '../strings';
 import { HIGHLIGHT } from '../uiConstants';
 import type { ScreenProps } from './types';
@@ -72,18 +71,15 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
       <div className="stack">
         {/* «Your result» is shown in the header (Header title); here it stays for screen readers and the focus on a new screen */}
         <h1 className="visually-hidden">{S.results.heading}</h1>
-        {/* The hint first, then a line, nearer the summary under it (customer 2026-10-25: «поменяй местами Tap и Based»);
-            the hint italic and lighter (customer 2026-10-23); plain text without the arrow button since the rows are
-            white cards that read as tappable (customer 2026-11-02, DECISIONS.md I1) */}
+        {/* The hint, italic and lighter (customer 2026-10-23), then a thin line; plain text without the arrow button since the
+            rows are white cards that read as tappable (customer 2026-11-02, DECISIONS.md I1). The line «Based on N of M
+            answers» that stood under the rule was removed (customer 2026-11-09: «убери эту строку вообще»). */}
         {top.length > 0 && (
           <>
             <p className="lead hint">{S.results.hint}</p>
             <div className="rule" role="presentation" />
           </>
         )}
-        <p className="lead">
-          {S.results.basedOn(answeredCount(state.answers), state.shown.length, Object.keys(state.mult).length > 0)}
-        </p>
       </div>
       <div className="scale-legend" aria-hidden="true">
         <span>{S.results.scaleFar}</span>

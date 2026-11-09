@@ -573,16 +573,6 @@
      "minLength": 1,
      "pattern": "^(?:[^{}]|\\{(?:n)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
     },
-    "basedOn": {
-     "type": "string",
-     "minLength": 1,
-     "pattern": "^(?:[^{}]|\\{(?:n|total|trade)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
-    },
-    "basedOnTrade": {
-     "type": "string",
-     "minLength": 1,
-     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
-    },
     "hint": {
      "type": "string",
      "minLength": 1,
@@ -635,8 +625,6 @@
     "scaleClose",
     "closestOne",
     "closestMany",
-    "basedOn",
-    "basedOnTrade",
     "hint",
     "seeAll",
     "seeLess",

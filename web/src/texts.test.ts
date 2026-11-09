@@ -108,7 +108,7 @@ describe('quiz_texts.json', () => {
     expect(ok((t) => ({ ...t, methodology: { ...t.methodology, statements: { ...t.methodology.statements, collapsed: true } } })))
       .toBe(false);
     // a stray brace
-    expect(ok((t) => ({ ...t, results: { ...t.results, basedOn: 'Based on {n of {total}' } }))).toBe(false);
+    expect(ok((t) => ({ ...t, results: { ...t.results, closestMany: 'Your {n closest lists' } }))).toBe(false);
     expect(ok((t) => ({ ...t, nav: { ...t.nav, next: 'Next }' } }))).toBe(false);
     // an unknown key, a missing key
     expect(ok((t) => ({ ...t, menu: { ...t.menu, extra: 'x' } }))).toBe(false);

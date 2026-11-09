@@ -189,7 +189,7 @@ Statement texts and titles (`statement_en`, `title_en`) are not in it: they are 
 | `nav` | `back`, `next` | the bottom buttons of the question screens |
 | `question` | `progress`, `progressLabel`, `or`, `skip`, `noAnswers`, `answersLabel` | the question screen |
 | `trade` | `counter`, `lead`, `title`, `explain`, `yourAnswer`, `labelA`, `labelB`, `equalTitle`, `equalSub` | the trade-off question |
-| `results` | `heading`, `scaleFar`, `scaleClose`, `closestOne`, `closestMany`, `basedOn`, `basedOnTrade`, `hint`, `seeAll`, `seeLess`, `notRanked`, `notComputable`, `noMore`, `changeAnswers`, `rank`, `closenessLabel` | Results |
+| `results` | `heading`, `scaleFar`, `scaleClose`, `closestOne`, `closestMany`, `hint`, `seeAll`, `seeLess`, `notRanked`, `notComputable`, `noMore`, `changeAnswers`, `rank`, `closenessLabel` | Results |
 | `share` | `title`, `text`, `button`, `copied` | «Share this quiz» on Results: the share sheet's title, the sentence sent with the site's address, the button, the «copied» note |
 | `details` | `back`, `closeness`, `fits`, `misfits`, `showAll`, `showLess`, `none`, `openBills` | List details |
 | `bills` | `back`, `yourWay`, `otherWay`, `none`, `meta`, `roleMain`, `roleSecondary`, `raises`, `lowers`, `sponsoredBy`, `sponsor`, `link`, `yourWayMark`, `otherWayMark`, `showMore` | «Bills of one statement» |
@@ -207,7 +207,7 @@ file: any other name, or a stray brace, fails the schema. A key not listed below
 | `start` | `chipBills`: `bills` (the number of bills behind the quiz, `stats.json`, with the thousands separator) · `chipMembers`: `members` (the former members of the Knesset whose record is counted, `stats.json` `mks`) · each of `steps`: `n` (the planned number of statements), `top` (the number of lists highlighted on Results) |
 | `question` | `progress`: `n`, `total` |
 | `trade` | `counter`: `n`, `max` · `yourAnswer`: `answer` |
-| `results` | `closestMany`: `n` · `basedOn`: `n`, `total`, `trade` · `rank`: `n` |
+| `results` | `closestMany`: `n` · `rank`: `n` |
 | `details` | `closeness`: `c` · `fits`, `misfits`, `showAll`: `n` |
 | `bills` | `yourWay`, `otherWay`, `showMore`: `n` · `meta`: `knesset`, `role`, `verb`, `direction` · `sponsoredBy`: `names` · `sponsor`: `name`, `pos` |
 | `methodology.sections` | `text`, `after` and both fields of a bullet (not `title`): the numbers of `quiz_data.json` — `lists` (all lists), `evaluable` (evaluated with `ex_mks >= params.MIN_EX_MKS`), `single` (evaluated below it: shown, not ranked), `no_record`, `close` (`params.CLOSE`), `statements`, `core` and `clarify` (`flow`), `vote_ratio` (`round(1 / params.VOTE_WEIGHT)`), `min_lists`, `min_mks`, `min_spread`, `min_names` (`params.SELECT_*`, the selection thresholds of `pipeline/quiz_select.py`) |

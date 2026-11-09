@@ -150,8 +150,6 @@ export const PLACEHOLDERS = {
     scaleClose: [],
     closestOne: [],
     closestMany: ['n'],
-    basedOn: ['n', 'total', 'trade'],
-    basedOnTrade: [],
     hint: [],
     seeAll: [],
     seeLess: [],
