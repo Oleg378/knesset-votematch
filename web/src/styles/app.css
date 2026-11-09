@@ -1821,7 +1821,8 @@ a.menu-item {
 .chips {
   list-style: none;
   margin: 0;
-  padding: 0 0 0 var(--hero-indent); /* at the burger's strokes, flush with the steps card (customer 2026-11-09: «плашки все должны начинаться от красной линии») */
+  padding: 0 0 0 calc(var(--hero-indent) - 1px); /* 1 left of the burger's strokes and the steps card, 25 (customer 2026-11-09: «плашки все должны
+                                                   начинаться от красной линии», then «сдвинь плашки на 1 влево») */
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2);
