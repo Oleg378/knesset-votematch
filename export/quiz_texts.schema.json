@@ -573,11 +573,6 @@
      "minLength": 1,
      "pattern": "^(?:[^{}]|\\{(?:n)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
     },
-    "hint": {
-     "type": "string",
-     "minLength": 1,
-     "pattern": "^(?:[^{}]|\\{(?!)(?:\\?[^{}|]*\\|[^{}|]*)?\\})*$"
-    },
     "seeAll": {
      "type": "string",
      "minLength": 1,
@@ -625,7 +620,6 @@
     "scaleClose",
     "closestOne",
     "closestMany",
-    "hint",
     "seeAll",
     "seeLess",
     "notRanked",

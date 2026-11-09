@@ -55,7 +55,7 @@ Line heights are exact Figma px ÷ size (`calc(22 / 17)`), never rounded ratios.
 | — (not in Figma) | Plus Jakarta Sans 800 | 22 / 26 | `.details-row .list-row-value` | List details closeness percent (customer 2026-10-24) |
 | — (not in Figma) | Fraunces 400 | 32 / 38 | `.details-section` | List details «Why it fits» / «Why it doesn't fit», no count, `--color-text-section` #26282E (customer 2026-10-24) |
 | — (not in Figma) | Fraunces 400 | 26 / 32, lines balanced | `.details-title` | List details list name, a 3 px blue line on its left (customer 2026-10-24) |
-| — (not in Figma) | Plus Jakarta Sans 400 italic | 15 / 21 | `.hint`, `.details-caveat` | Results «Tap › for details», List details «This shows …», text/tertiary (customer 2026-10-23, 2026-10-24) |
+| — (not in Figma) | Plus Jakarta Sans 400 italic | 15 / 21 | `.tagline`, `.details-caveat` | Home «Parties judged by votes, not promises», List details «This shows …», text/tertiary (customer 2026-10-23, 2026-10-24) |
 
 - **Every text is one of these styles** (check: all screens, computed styles vs this table — 2026-10-22 all match). The
   only exception: bold run-in titles and list labels inside Methodology text (`<strong>`, `<em>`: 600 in Body/Large).

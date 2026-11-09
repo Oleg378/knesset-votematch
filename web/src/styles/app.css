@@ -593,48 +593,14 @@ button.card:active {
    panel like the question card (padding 20/14, radius 24; no title), rows like cards A/B of the clarifying question
    (circle 28 + gap 12 + text; the circle white on the tint, as the Home step numbers), each on its own band, 8 apart.
    The rows outside the panel keep its 14 px inset, so every line has the same width and the dots of all lists read as one
-   scale. Above it: «Based on…», a line right between it and the hint «Tap › for details» (italic, lighter), the hint
-   20 above the legend (customer 2026-10-23), then the legend 8 above the panel (it belongs to the scale). Text styles: names Label/Strong (panel) and Label/Medium, closeness Label/Strong, legend Label/Strong. */
-/* «Tap › for details» under «Based on…»: the same round arrow as on the rows, between the words (customer 2026-10-23,
-   the usual microcopy: verb first, what you get, one line, no period); italic and the lighter grey, so it reads apart
-   from «Based on…» (not in Figma) */
-.hint {
-  display: flex;
-  align-items: center;
-  gap: var(--space-1);
-  font-style: italic;
-  color: var(--color-text-faint);
-}
+   scale. The legend 8 above the panel (it belongs to the scale). Text styles: names Label/Strong (panel) and Label/Medium,
+   closeness Label/Strong, legend Label/Strong. The screen opens with the legend, 32 under the header like the question
+   card: the hint «Tap a list for details», its rule and «Based on N of M answers» were removed (customer 2026-11-09). */
 
-/* The block 28 above the legend: the screen gap 16 + 12 (customer 2026-10-25: «опусти плашку со словами над ней»; it was
-   20). The text 16 lower under the header, the whole page with it, so the free space above «Change answers» is 24 less
-   (customer 2026-10-25: «чуть опусти на 8 вниз текст», then «увеличь отступ сверху у Tap»: 8 more) */
+/* The stack holds only the visually hidden heading now; no margins, so the legend sits 32 under the header
+   (the scroll area's 16 + the screen gap 16) */
 .results > .stack {
-  margin-top: var(--space-4);
-  margin-bottom: var(--space-3);
-}
-
-.hint .list-row-go {
-  --row-go: calc(var(--font-size-sm) * var(--line-height-label)); /* as tall as the text line, 20 */
   margin: 0;
-  /* On white the translucent tint came out lighter than the rows' buttons: the same layers as under them — the button's
-     tint over a band over the panel (customer 2026-10-23: «цвет совпадает?») */
-  background: linear-gradient(var(--color-accent-soft), var(--color-accent-soft)),
-    linear-gradient(var(--color-row-band), var(--color-row-band)),
-    linear-gradient(var(--color-accent-soft), var(--color-accent-soft)), var(--color-bg);
-}
-
-/* Between the hint and «Based on…» (the hint first, customer 2026-10-25): 8 under the hint (the stack's gap), 4 over
-   «Based on…» (8 − 4), so it belongs to «Based on…» (customer 2026-10-23: «убери расстояния максимально», «не
-   настолько», «больше спейса после based», «ещё побольше»; it was 16 / 8, then 0 / 0, 4 / 4, 8 / 4; 2026-10-25 «от Tap
-   отступ меньше»: 12 → 8) */
-.rule {
-  height: var(--border-width);
-  margin-bottom: calc(var(--space-1) - var(--space-2));
-  /* from the texts' left edge to the right edge of a list's band (customer 2026-10-23: «по длине карточки», «слева не
-     доходишь») */
-  margin-inline-end: var(--space-2);
-  background: var(--color-border);
 }
 
 

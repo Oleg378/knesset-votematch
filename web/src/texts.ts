@@ -150,7 +150,6 @@ export const PLACEHOLDERS = {
     scaleClose: [],
     closestOne: [],
     closestMany: ['n'],
-    hint: [],
     seeAll: [],
     seeLess: [],
     notRanked: [],

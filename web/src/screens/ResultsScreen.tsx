@@ -71,15 +71,8 @@ export function ResultsScreen({ data, state, dispatch }: ScreenProps) {
       <div className="stack">
         {/* «Your result» is shown in the header (Header title); here it stays for screen readers and the focus on a new screen */}
         <h1 className="visually-hidden">{S.results.heading}</h1>
-        {/* The hint, italic and lighter (customer 2026-10-23), then a thin line; plain text without the arrow button since the
-            rows are white cards that read as tappable (customer 2026-11-02, DECISIONS.md I1). The line «Based on N of M
-            answers» that stood under the rule was removed (customer 2026-11-09: «убери эту строку вообще»). */}
-        {top.length > 0 && (
-          <>
-            <p className="lead hint">{S.results.hint}</p>
-            <div className="rule" role="presentation" />
-          </>
-        )}
+        {/* The hint «Tap a list for details», its rule and the line «Based on N of M answers» that opened the screen were
+            removed (customer 2026-11-09: «убери эту строку вообще», «убери Tap list»); the screen starts with the scale. */}
       </div>
       <div className="scale-legend" aria-hidden="true">
         <span>{S.results.scaleFar}</span>

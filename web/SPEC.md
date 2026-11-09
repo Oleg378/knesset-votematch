@@ -67,9 +67,8 @@ header, pinned with it; Methodology is a page of its own: the menu stays, no Bac
 ### 4. Results
 - The title «Your result» stands in the header, centred between the menu button and Start over, pinned with it (Fraunces
   20/22; customer 2026-10-23); the page keeps it as a visually hidden h1. The screen starts with:
-- «Tap a list for details» in italic (customer 2026-10-23), then a thin line 8 under it (the line «Based on N of M
-  answers[, including trade-offs]» that stood under the rule was removed, customer 2026-11-09); the block 32 under the header, as the question card, and 28 above the scale
-  legend in one line: «far from you» (the lightest grey) on the left, «close to you» (blue) on the right, no numbers,
+- The scale legend 32 under the header, as the question card (the hint «Tap a list for details», the thin line and «Based on N of M
+  answers» that opened the screen were removed, customer 2026-11-09), in one line: «far from you» (the lightest grey) on the left, «close to you» (blue) on the right, no numbers,
   nothing in the middle (customer 2026-10-22, DECISIONS.md G15, G39).
 - At the bottom only «Change answers» (light blue, as before), pinned to the bottom of the screen as on Home and the
   question screens, with the fade over the lists under it (customer 2026-10-23): «Answer more questions», «Start over» and
