@@ -1813,9 +1813,10 @@ a.menu-item {
 
 .tagline {
   margin-top: var(--space-3);
-  /* Starts at the inner edge of the title bar (customer 2026-11-08: «выровняй по внутренней стороне линии»): the italic
-     looked off the bar's outer edge, which the chips share. */
-  padding-inline-start: calc(var(--title-rule) + 4px); /* then «промисес подвинь на 4 вправо» */
+  /* 5 from the chips' edge: the italic sat at the inner edge of the former title bar (3 + 4; customer 2026-11-08:
+     «выровняй по внутренней стороне линии», «промисес подвинь на 4 вправо»), then 2 to the left (customer 2026-11-09:
+     «Parties сдвинь на 2 влево»). */
+  padding-inline-start: 5px;
   /* As the captions on Results («Tap a list for details») and List details (the price note): 15, italic, text/tertiary
      (customer 2026-11-08: «посмотри, как тут») */
   font-size: var(--font-size-sm);
@@ -1824,10 +1825,15 @@ a.menu-item {
   color: var(--color-text-faint);
 }
 
+/* No bar (customer 2026-11-09: «оставь без полосы»). The eyebrow and the title stood where the chip text does (15: the
+   chips' former 3 px indent plus their 12 px padding, «выровняй Find по 6,666»), then 8 to the left (customer 2026-11-09:
+   «заголовок и Кнессет сдвинь на 8 влево»): 7 from the chips' edge, 2 right of the tagline. */
+.start .hero {
+  --hero-indent: 7px;
+}
+
 .start .hero > .stack {
-  /* No bar (customer 2026-11-09: «оставь без полосы»); the eyebrow and the title start where the chip text does — the chips'
-     3 px indent plus their 12 px padding («выровняй Find по 6,666»). */
-  padding-inline-start: calc(var(--title-rule) + var(--space-3));
+  padding-inline-start: var(--hero-indent);
 }
 
 /* One weight thinner than elsewhere (Medium 500 instead of SemiBold 600) so the eyebrow steps back from the title
@@ -1837,7 +1843,9 @@ a.menu-item {
 }
 
 .start .hero-art {
-  width: min(var(--hero-size), calc(100% - var(--hero-title-min) - var(--space-1) - var(--title-rule) - var(--space-3)));
+  /* The arc keeps the size it had with the 15 px indent (139 at 390 px): the 8 px the title gave up widen the gap to the arc,
+     not the arc. */
+  width: min(var(--hero-size), calc(100% - var(--hero-title-min) - var(--space-1) - 15px));
 }
 
 .chips {
