@@ -86,14 +86,21 @@ Home, Question, Clarifying question, Menu). All values in px.
 - Known mockup inaccuracies, fix in code: the bottom group on question screens starts at 31 from the left → use 24;
   the top row with progress ends 29 from the right → use 24.
 
-### 01 · Home
-- Header (burger): top 62, height 44; 44×44 area at left 14, icon 24.
-- Hero row: 28 after the header. Row flex: title block (`flex: 1`) + graphic 150×150, gap 4, vertically centered.
-- Title block: eyebrow (12/16) → 8 → title (36/42).
-- Subtitle: 28 after the hero row, line height 24.
-- Chips: 20 after. Row, gap 8. Chip: padding 6 12, height 32, radius 16, width hugs text.
-- Steps card: 28 after. Padding 20, gap 16, radius 24, width fill. Step: circle 32 + gap 12 + text, vertically centered.
-- Spacer `flex: 1` — everything below is pinned to the bottom.
+### 01 · Home (as built; the Figma frame «Home — под сайт» records it, DECISIONS.md E21–E37)
+- Header (burger): top 62, height 44; 44×44 area at left 14, icon 24 — the icon's strokes start at 26.
+- Hero row: **4** after the header (28 in the 2026-10 mockup, 16 until 2026-11-09). Row flex: title block (`flex: 1`) +
+  graphic 150×150 (139 at 390 px wide), gap 4, vertically centered. The dot of the graphic stands on a middle-ring seat at
+  109.1/85.5 of the 150 viewBox; the four seats within 9.6 are at half opacity (E34).
+- Title block: eyebrow (12/16, Medium) → 8 → title (36/42). Left edges by the letters (E36): the F of «Find» at 26 (the
+  stem on the burger's strokes), «vote match» at 27.3, the K of the eyebrow at 27.
+- Subtitle «Parties judged by votes, not promises»: 15/21 italic, text/tertiary; **14** after the hero row (48 from the
+  bottom of the letters of «vote match» to the top of the italic); the P at 29.
+- Chips (7, numbers from `export/stats.json`): 20 after. Row, gap 8. Chip: padding 6 12, height 32, radius 16, 6 % tint,
+  width hugs text; the chips start at 28.
+- Steps card: 28 after. White, Brand/Line border, padding 16, gap 12, radius 24; starts at 28, right edge at the column's.
+  Step: circle 28 (10 % tint) + gap 10 + text 14 Medium, vertically centered.
+- Spacer `flex: 1` — everything below is pinned to the bottom; at least 60 between the card and the buttons
+  (`--cta-min-gap`; 64 until 2026-11-09). Fits Safari on iPhone 17 Pro (402 × 791) without scrolling.
 - Start the quiz: height 56, width fill. 8 below — Behind the results, height 44. Under it **8 + safe area** (general
   rule, `--bottom-gap`; 16 until 2026-11-09; original Home frame: 0).
 

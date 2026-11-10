@@ -183,7 +183,8 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
 - **Fonts:** Fraunces only from `src/assets/fonts/fraunces-opsz.woff2` (regenerate with `node scripts/subset-fraunces.mjs`);
   Plus Jakarta Sans from `@fontsource` 400/500/600 Latin. `body` has `-webkit-font-smoothing: antialiased`.
   `.btn-primary` letter-spacing −0.43 px; all other text 0 except the eyebrow.
-- **How to verify a layout change:** puppeteer-core with the local Chrome, viewport 402×874, `isMobile`, and
+- **How to verify a layout change:** `scripts/webshot/` (README there): puppeteer-core with the local Chrome, the customer's
+  «web version» 402×791 + status-bar inset 62 in a drawn Safari frame, the quiz flow, pixel measuring. Classic check: viewport 402×874, `isMobile`, and
   `Emulation.setSafeAreaInsetsOverride({ insets: { top: 62, bottom: 34, left: 0, right: 0 } })` — then element
   coordinates are directly comparable with the Figma frame. Reference (measured 2026-10-17): burger 70–114; Home
   Start the quiz 716–772, Behind the results 780–824; Question card top 146, Next 768–824. Compare distances, not just
