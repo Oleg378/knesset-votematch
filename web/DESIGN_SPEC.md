@@ -91,7 +91,7 @@ Home, Question, Clarifying question, Menu). All values in px.
 - Hero row: **4** after the header (28 in the 2026-10 mockup, 16 until 2026-11-09). Row flex: title block (`flex: 1`) +
   graphic 150×150 (139 at 390 px wide), gap 4, vertically centered. The dot of the graphic stands on a middle-ring seat at
   109.1/85.5 of the 150 viewBox; the four seats within 9.6 are at half opacity (E34).
-- Title block: eyebrow (12/16, Medium) → 8 → title (36/42). Left edges by the letters (E36): the F of «Find» at 26 (the
+- Title block: eyebrow (12/16, Medium) → 8 → title (36/42), balanced lines — «Find your / vote match» at every width (E40). Left edges by the letters (E36): the F of «Find» at 26 (the
   stem on the burger's strokes), «vote match» at 27.3, the K of the eyebrow at 27.
 - Subtitle «Parties judged by votes, not promises»: 15/21 italic, text/tertiary; **14** after the hero row (48 from the
   bottom of the letters of «vote match» to the top of the italic); the P at 29.

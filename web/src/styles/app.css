@@ -1786,6 +1786,12 @@ a.menu-item {
 .start .title-xl {
   margin-inline-start: 1px;
   text-indent: -3px;
+  /* «Find your / vote match» at every width and in every browser (customer 2026-11-11: «надо, чтобы везде»): where the block
+     was wider (iPhone Pro Max, card mode on iPad and foldables) the greedy break gave «Find your vote / match». 5.6em (202 px)
+     holds «vote match» (182) but not «Find your vote» (237, 234 with the indent); at 402 the block is 197 anyway. A new title
+     text needs this width checked again. text-wrap: balance splits lines in the middle where it is supported. */
+  max-width: 5.6em;
+  text-wrap: balance;
 }
 
 .start .hero-graphic {
