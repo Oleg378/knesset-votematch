@@ -180,6 +180,10 @@ Full list with reasons: `DECISIONS.md` section E. Where the code differs from a 
   the answers jumped). The statement itself is always shown whole (no inner scroll: its end, «even if …», must be read).
 - **Home on narrow phones:** the hero picture is 150 px (Figma) from ~390 px wide; narrower, it shrinks
   (`width: min(150px, 100% − 184px − 4px)`) so «Find your / vote match» always stays on two lines. Never three lines.
+- **Home title break — always «Find your / vote match»** (customer 2026-11-11, DECISIONS.md E40): at every width (phones,
+  Pro Max, card mode on iPad, foldables and desktop) and in every browser. `.start .title-xl { max-width: 5.6em; text-wrap:
+  balance }` — 202 px holds «vote match» (182) but not «Find your vote» (237). Never «Find your vote / match». A new title
+  text → measure its lines again and check the break at 320–1920 px.
 - **Fonts:** Fraunces only from `src/assets/fonts/fraunces-opsz.woff2` (regenerate with `node scripts/subset-fraunces.mjs`);
   Plus Jakarta Sans from `@fontsource` 400/500/600 Latin. `body` has `-webkit-font-smoothing: antialiased`.
   `.btn-primary` letter-spacing −0.43 px; all other text 0 except the eyebrow.
