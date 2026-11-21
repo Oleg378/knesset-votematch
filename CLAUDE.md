@@ -46,6 +46,7 @@ to WORKLOG naming it and fix every reference (`grep` the old name); research not
 | `manual/` | Tables kept by hand: CEC lists and candidates, candidate ↔ MK matching, English MK names; `cec_pages/` — the saved CEC pages they were parsed from |
 | `local/` | Research behind the decisions: experiments, checks, early approaches (`local/README.md`). Not in git, stays on the customer's machine; decisions point to it by path (`statements.csv` «change», `registry.csv` «source», `overrides.json`, WORKLOG). **Not production**: nothing imports from it |
 | `docs/` | Methodology, decisions, audits (Russian — the working language) |
+| `promo/` | The project's presentation (social post): the publication cover (`promo/README.md`). Not part of the site — nothing reads it |
 | `raw/`, `knesset.duckdb` | Raw downloads and the database. Not in git |
 
 ## Commands
